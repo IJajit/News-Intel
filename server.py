@@ -31,6 +31,22 @@ def load_dotenv():
 # Load local environment variables from .env if present
 load_dotenv()
 
+def is_valid_api_key(key):
+    if not key:
+        return False
+    key = key.strip()
+    if not key:
+        return False
+    if ' ' in key or '\n' in key or '\r' in key:
+        return False
+    if 'Live Briefing' in key:
+        return False
+    if all(c == '•' or c == '*' for c in key):
+        return False
+    if len(key) < 10:
+        return False
+    return True
+
 # Create an unverified SSL context to bypass SSL certification errors on RSS feeds
 try:
     ssl_context = ssl._create_unverified_context()
@@ -712,12 +728,16 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
         path = parsed_url.path
         query = urllib.parse.parse_qs(parsed_url.query)
 
+        # Handle Vercel URL rewrites passing the path via query parameter
+        if '__path__' in query:
+            path = '/api/' + query['__path__'][0]
+
         if path == '/api/sources':
             self.send_json(SOURCES)
         elif path == '/api/categories':
             self.send_json(CATEGORIES)
         elif path == '/api/config':
-            has_key = bool(os.environ.get('GEMINI_API_KEY'))
+            has_key = is_valid_api_key(os.environ.get('GEMINI_API_KEY'))
             self.send_json({"apiKeyConfigured": has_key})
         elif path == '/api/latest-brief':
             category = query.get('category', ['global'])[0]
@@ -739,6 +759,11 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
     def do_POST(self):
         parsed_url = urllib.parse.urlparse(self.path)
         path = parsed_url.path
+        query = urllib.parse.parse_qs(parsed_url.query)
+
+        # Handle Vercel URL rewrites passing the path via query parameter
+        if '__path__' in query:
+            path = '/api/' + query['__path__'][0]
 
         if path == '/api/generate-brief':
             content_length = int(self.headers.get('Content-Length', 0))
@@ -750,7 +775,9 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
 
             grounded_time = body.get('groundedTime', datetime.now(timezone.utc).isoformat())
             category = body.get('category', 'global')
-            api_key = self.headers.get('x-api-key') or os.environ.get('GEMINI_API_KEY')
+            client_key = self.headers.get('x-api-key')
+            server_key = os.environ.get('GEMINI_API_KEY')
+            api_key = client_key if is_valid_api_key(client_key) else server_key
 
             try:
                 articles = get_filtered_articles(grounded_time)

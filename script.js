@@ -36,8 +36,13 @@ document.addEventListener('DOMContentLoaded', () => {
   // Load saved API key from localStorage
   const savedKey = localStorage.getItem('GEMINI_API_KEY');
   if (savedKey) {
-    apiKey = savedKey;
-    apiKeyInput.value = savedKey;
+    const isInvalid = savedKey.includes(' ') || savedKey.includes('•') || savedKey.startsWith('Live Briefing');
+    if (isInvalid) {
+      localStorage.removeItem('GEMINI_API_KEY');
+    } else {
+      apiKey = savedKey;
+      apiKeyInput.value = savedKey;
+    }
   }
 
   // Check if API key is already configured on the server-side
@@ -55,7 +60,12 @@ document.addEventListener('DOMContentLoaded', () => {
   // ─── EVENT LISTENERS ──────────────────────────────────────
   apiKeyInput.addEventListener('input', (e) => {
     apiKey = e.target.value.trim();
-    localStorage.setItem('GEMINI_API_KEY', apiKey);
+    const isInvalid = apiKey.includes(' ') || apiKey.includes('•') || apiKey.startsWith('Live Briefing');
+    if (apiKey && !isInvalid) {
+      localStorage.setItem('GEMINI_API_KEY', apiKey);
+    } else {
+      localStorage.removeItem('GEMINI_API_KEY');
+    }
   });
 
   toggleKeyVisibility.addEventListener('click', () => {
@@ -188,7 +198,8 @@ async function triggerBriefingGeneration() {
     const sanitizedKey = apiKey.replace(/[^\x00-\xff]/g, '').trim();
 
     const fetchHeaders = { 'Content-Type': 'application/json' };
-    if (sanitizedKey) {
+    const isValidKey = sanitizedKey && !sanitizedKey.includes(' ') && !sanitizedKey.includes('•') && !sanitizedKey.startsWith('Live Briefing');
+    if (isValidKey) {
       fetchHeaders['x-api-key'] = sanitizedKey;
     }
 

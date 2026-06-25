@@ -5,4 +5,6 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from server import NewsBriefingHandler
-handler = NewsBriefingHandler
+
+class handler(NewsBriefingHandler):
+    pass
