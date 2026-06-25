@@ -81,9 +81,15 @@ def decode_google_news_url(url):
     return url
 
 
-DATA_DIR = os.path.join(os.getcwd(), 'data')
+# Use /tmp for writing data on Vercel as the deployment root is read-only
+if os.environ.get('VERCEL') or not os.access(os.getcwd(), os.W_OK):
+    DATA_DIR = '/tmp'
+else:
+    DATA_DIR = os.path.join(os.getcwd(), 'data')
+
 BRIEFINGS_DIR = os.path.join(DATA_DIR, 'briefings')
 os.makedirs(BRIEFINGS_DIR, exist_ok=True)
+
 
 def parse_iso(iso_str):
     if not iso_str:
