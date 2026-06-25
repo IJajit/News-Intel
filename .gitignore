@@ -1,0 +1,12 @@
+# Ignore generated data
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local environments
+.venv/
+.env
+.env.*
+.uv/

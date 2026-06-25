@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Executive Daily News Briefing — Real-time AI-powered intelligence from 9 verified global sources. Zero fluff, maximum signal.">
+  <title>Executive Briefing Summarizer // Industrial Edition</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📰</text></svg>">
+
+  <!-- Premium Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Local Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="app-layout">
+
+    <!-- Far Left Orange vertical brand band -->
+    <div class="orange-band" id="orangeBand">
+      <div class="vertical-text" id="orangeBandText">DAILY INTEL REPORT // REGION: GLOBAL</div>
+      <div class="orange-band-footer">
+        <div class="industrial-logo">&#8599;</div>
+      </div>
+    </div>
+
+    <!-- Simplified Sources Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <span class="sidebar-title">VERIFIED FEEDS</span>
+      </div>
+      <div class="sidebar-section" style="flex:1; overflow-y:auto;">
+        <div id="sourcesList" class="sources-sidebar-list">
+          <!-- Loaded dynamically -->
+        </div>
+      </div>
+    </aside>
+
+    <main class="main-content" id="mainContent">
+
+      <!-- Top Control Header Bar -->
+      <header class="top-metadata-bar">
+        <div class="metadata-col time-col">
+          <span class="meta-label">GROUNDED SYSTEM TIME</span>
+          <span id="groundedTimeVal" class="meta-val font-mono">—</span>
+        </div>
+
+        <div class="metadata-col settings-col">
+          <span class="meta-label">API KEY ACCESS</span>
+          <div class="input-key-wrapper">
+            <input
+              type="password"
+              id="apiKeyInput"
+              class="input-key"
+              placeholder="GOOGLE_GEMINI_KEY"
+              autocomplete="off"
+            >
+            <button
+              type="button"
+              id="toggleKeyVisibility"
+              class="input-icon-btn"
+              title="Show/Hide Key"
+              aria-label="Toggle API key visibility"
+            >
+              👁️
+            </button>
+          </div>
+        </div>
+        <div class="metadata-col action-col">
+          <button id="generateBtn" class="btn btn-primary" aria-label="Generate live news briefing">
+            GENERATE BRIEF
+          </button>
+        </div>
+      </header>
+
+      <!-- Content Workspace -->
+      <div class="workspace-area">
+
+        <!-- Tab Navigation -->
+        <div class="tabs-container" role="tablist" aria-label="Briefing views">
+          <button id="tabReaderBtn" class="tab-btn active" data-tab="reader" role="tab" aria-selected="true" aria-controls="viewReader">INTEL READER</button>
+          <button id="tabMarkdownBtn" class="tab-btn" data-tab="markdown" role="tab" aria-selected="false" aria-controls="viewMarkdown">RAW MARKDOWN</button>
+          <button id="tabArticlesBtn" class="tab-btn" data-tab="articles" role="tab" aria-selected="false" aria-controls="viewArticles">FILTERED FEED (<span id="articlesCountVal">0</span>)</button>
+        </div>
+
+        <!-- Main Content Frame -->
+        <div class="content-frame" id="contentFrame" role="main">
+
+          <!-- Empty / Initial State -->
+          <div id="stateEmpty" class="empty-state" role="status">
+            <div class="empty-state-icon">↴</div>
+            <div class="empty-state-text">Ready for Intelligence Gathering</div>
+            <p class="empty-state-sub">
+              Enter your Gemini API key in the header and click <strong>GENERATE BRIEF</strong> to fetch live breaking news from 9 verified feeds and generate your AI-powered briefing.
+            </p>
+            <div class="empty-state-hint">
+              <span class="hint-badge">TIP</span>
+              Without an API key, the app compiles a raw feed summary using rule-based parsing.
+            </div>
+          </div>
+
+          <!-- Loading State -->
+          <div id="stateLoading" class="loading-container" style="display: none;" role="status" aria-live="polite">
+            <div class="loading-grid">
+              <div class="loading-cell"></div>
+              <div class="loading-cell"></div>
+              <div class="loading-cell"></div>
+              <div class="loading-cell"></div>
+            </div>
+            <div id="loadingStatusText" class="loading-text">Fetching news feeds...</div>
+            <div class="loading-sub">Applying 12-hour recency filter</div>
+          </div>
+
+          <!-- Intel Reader Tab -->
+          <div id="viewReader" class="briefing-reader" role="tabpanel" aria-labelledby="tabReaderBtn" style="display: none;">
+            <!-- Loaded dynamically -->
+          </div>
+
+          <!-- Raw Markdown Tab -->
+          <div id="viewMarkdown" role="tabpanel" aria-labelledby="tabMarkdownBtn" style="display: none; height: 100%; flex-direction: column; gap: 1rem;">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <span class="meta-label">RAW MARKDOWN OUTPUT</span>
+              <button id="copyMarkdownBtn" class="btn btn-secondary">COPY TO CLIPBOARD</button>
+            </div>
+            <textarea id="markdownTextarea" class="markdown-editor" readonly aria-label="Raw markdown output"></textarea>
+          </div>
+
+          <!-- Filtered Articles Feed Tab -->
+          <div id="viewArticles" class="feed-articles" role="tabpanel" aria-labelledby="tabArticlesBtn" style="display: none;">
+            <div class="feed-articles-header">
+              <h2 class="section-title">Filtered Breaking Articles</h2>
+              <span class="feed-window-badge">LAST 12 HOURS</span>
+            </div>
+            <div id="articlesList" class="articles-cards-container">
+              <!-- Loaded dynamically -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Client JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
