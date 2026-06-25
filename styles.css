@@ -1015,11 +1015,19 @@ body {
   }
 
   .top-metadata-bar {
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     height: auto;
   }
 
-  .stats-col, .action-col { display: none; }
+  .metadata-col {
+    border-right: none;
+    border-bottom: 1px solid var(--color-light-gray);
+  }
+
+  .metadata-col:last-child {
+    border-bottom: none;
+  }
 
   .workspace-area { padding: 0.85rem; }
   .content-frame { padding: 1.25rem; }
