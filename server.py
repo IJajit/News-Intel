@@ -16,11 +16,27 @@ import concurrent.futures
 # Set working directory to this file's folder to ensure static files and data are found
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
+def load_dotenv():
+    if os.path.exists('.env'):
+        with open('.env', 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith('#'):
+                    key_val = line.split('=', 1)
+                    if len(key_val) == 2:
+                        k, v = key_val
+                        v = v.strip().strip("'\"")
+                        os.environ[k.strip()] = v
+
+# Load local environment variables from .env if present
+load_dotenv()
+
 # Create an unverified SSL context to bypass SSL certification errors on RSS feeds
 try:
     ssl_context = ssl._create_unverified_context()
 except AttributeError:
     ssl_context = None
+
 
 
 
@@ -694,6 +710,9 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
             self.send_json(SOURCES)
         elif path == '/api/categories':
             self.send_json(CATEGORIES)
+        elif path == '/api/config':
+            has_key = bool(os.environ.get('GEMINI_API_KEY'))
+            self.send_json({"apiKeyConfigured": has_key})
         elif path == '/api/latest-brief':
             category = query.get('category', ['global'])[0]
             filepath = os.path.join(BRIEFINGS_DIR, f"latest_{category}.json")

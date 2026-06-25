@@ -40,6 +40,9 @@ document.addEventListener('DOMContentLoaded', () => {
     apiKeyInput.value = savedKey;
   }
 
+  // Check if API key is already configured on the server-side
+  checkServerConfig();
+
   // Start real-time clock
   startGroundedClock();
 
@@ -71,6 +74,26 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+// Check if server already has the Gemini API Key in its environment
+async function checkServerConfig() {
+  try {
+    const res = await fetch('/api/config');
+    if (res.ok) {
+      const data = await res.json();
+      if (data.apiKeyConfigured) {
+        apiKeyInput.disabled = true;
+        apiKeyInput.placeholder = "Configured on Server";
+        apiKeyInput.value = "••••••••••••••••";
+        apiKeyInput.style.opacity = "0.7";
+        toggleKeyVisibility.style.display = "none";
+      }
+    }
+  } catch (err) {
+    console.error('Failed to check server config:', err);
+  }
+}
+
 
 // ─── GROUNDED CLOCK ───────────────────────────────────────────
 function startGroundedClock() {
