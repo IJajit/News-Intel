@@ -113,12 +113,13 @@ body {
 }
 
 .sidebar-logo-header {
-  padding: 1.5rem 1.25rem 1rem;
+  height: var(--header-height);
   border-bottom: 2px solid var(--color-black);
   background-color: var(--color-orange);
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .sidebar-brand-title {
@@ -148,9 +149,9 @@ body {
 
 .toggle-btn {
   background: none;
-  border: 1.5px solid var(--color-dark-gray);
+  border: none;
   border-radius: 3px;
-  color: var(--color-dark-gray);
+  color: var(--color-orange);
   font-family: var(--font-mono);
   font-weight: 700;
   font-size: 0.65rem;
@@ -161,7 +162,7 @@ body {
 }
 
 .toggle-btn.icon-btn {
-  padding: 0.15rem 0.25rem;
+  padding: 0.25rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -171,13 +172,16 @@ body {
   transition: transform 0.25s ease;
 }
 
+.toggle-btn.collapsed {
+  color: var(--color-dark-gray);
+}
+
 .toggle-btn.collapsed .chevron-icon {
   transform: rotate(-90deg);
 }
 
 .toggle-btn:hover {
-  color: var(--color-black);
-  border-color: var(--color-black);
+  color: var(--color-orange);
   background-color: var(--color-off-white);
 }
 
