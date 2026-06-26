@@ -24,7 +24,6 @@
   --transition-medium: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 
   /* Layout */
-  --orange-band-width: 80px;
   --sidebar-width:     268px;
   --header-height:     80px;
 }
@@ -1153,7 +1152,6 @@ body {
     border-right: none;
     border-bottom: 2px solid var(--color-black);
     overflow: hidden;
-    max-height: 260px;
   }
 
   .top-metadata-bar {
