@@ -712,8 +712,8 @@ function renderArgentinaTimeline(data) {
   filtered.sort((a, b) => a.date.localeCompare(b.date));
 
   worldCupSchedule.innerHTML = `
-    <div class="wc-arg-header" aria-hidden="true"></div>
     <div class="wc-argentina-list">
+      <div class="wc-arg-header" aria-hidden="true"></div>
       ${filtered.map(m => {
         const d = new Date(m.date);
         const dayLabel = d.toLocaleDateString('en-IN', { weekday: 'short', day: 'numeric', month: 'short' });
