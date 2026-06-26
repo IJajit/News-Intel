@@ -617,13 +617,13 @@ function renderAllMatches(data) {
             const isFinished = m.status === 'Full Time' || m.status === 'Finished';
             const isLive = !isFinished && m.status !== 'Scheduled' && m.score1 !== '' && m.score2 !== '';
             const score = (isLive || isFinished) ? `${m.score1}-${m.score2}` : '–';
-            const statusLabel = isLive && m.displayClock ? m.displayClock : m.status;
+            const statusLabel = isLive && m.displayClock ? m.displayClock : (isFinished ? 'Full Time' : '');
             return `
               <div class="wc-prev-row">
                 <span class="wc-prev-date">${dayLabel}</span>
                 <span class="wc-prev-teams">${escapeHtml(m.team1)} vs ${escapeHtml(m.team2)}</span>
                 <span class="wc-prev-score">${score}</span>
-                <span class="wc-prev-status ${isLive ? 'live' : ''}">${escapeHtml(statusLabel)}</span>
+                <span class="wc-prev-status ${isLive ? 'live' : ''}">${statusLabel ? escapeHtml(statusLabel) : ''}</span>
               </div>
             `;
           }).join('');
@@ -671,16 +671,17 @@ function renderAllMatches(data) {
           }
 
           const clockDisplay = isLive && m.displayClock ? escapeHtml(m.displayClock) : '';
+          const statusDisplay = clockDisplay ? clockDisplay : (isFinished ? 'Full Time' : '');
 
           return `
             <div class="wc-match-card">
               <div class="wc-team home">${escapeHtml(m.team1)}</div>
-              <div class="${scoreClass}">${scoreDisplay}${clockDisplay ? `<span class="wc-clock">${clockDisplay}</span>` : ''}</div>
+              <div class="${scoreClass}">${scoreDisplay}</div>
               <div class="wc-team away">${escapeHtml(m.team2)}</div>
               <div class="wc-match-meta">
                 ${m.group ? `<span>${escapeHtml(m.group)}</span>` : ''}
                 ${m.venue ? `<span>${escapeHtml(m.venue)}</span>` : ''}
-                ${clockDisplay ? `<span class="wc-live-label">${clockDisplay}</span>` : `<span>${escapeHtml(m.status)}</span>`}
+                ${statusDisplay ? `<span>${statusDisplay}</span>` : ''}
               </div>
             </div>
           `;
@@ -729,7 +730,8 @@ function renderArgentinaTimeline(data) {
         }
 
         const clockDisplay = isLive && m.displayClock ? escapeHtml(m.displayClock) : '';
-        const metaDisplay = clockDisplay ? `${clockDisplay}${m.venue ? ` &middot; ${escapeHtml(m.venue)}` : ''}` : `${escapeHtml(m.status)}${m.venue ? ` &middot; ${escapeHtml(m.venue)}` : ''}`;
+        const statusDisplay = clockDisplay ? clockDisplay : (isFinished ? 'Full Time' : '');
+        const metaDisplay = statusDisplay ? `${statusDisplay}${m.venue ? ` &middot; ${escapeHtml(m.venue)}` : ''}` : (m.venue ? escapeHtml(m.venue) : '');
 
         const isArgTeam1 = m.team1.toLowerCase().includes('argentina');
         const teamsDisplay = isArgTeam1
@@ -740,7 +742,7 @@ function renderArgentinaTimeline(data) {
           <div class="wc-arg-row">
             <div class="wc-arg-date">${dayLabel}</div>
             <div class="wc-arg-teams">${teamsDisplay}</div>
-            <div class="${scoreClass}">${scoreDisplay}${clockDisplay ? `<span class="wc-clock">${clockDisplay}</span>` : ''}</div>
+            <div class="${scoreClass}">${scoreDisplay}</div>
             <div class="wc-arg-meta">${metaDisplay}</div>
           </div>
         `;

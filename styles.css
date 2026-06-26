@@ -1222,25 +1222,13 @@ body {
   color: var(--color-dark-gray);
 }
 
-.wc-clock {
-  display: block;
-  font-size: 0.55rem;
-  font-weight: 400;
-  opacity: 0.85;
-  margin-top: 0.1rem;
-}
-
-.wc-live-label {
-  color: var(--color-orange);
-  font-weight: 700;
-}
-
 .wc-match-meta {
   grid-column: 1 / -1;
   font-family: var(--font-mono);
   font-size: 0.58rem;
   color: var(--color-dark-gray);
   display: flex;
+  justify-content: flex-end;
   gap: 0.6rem;
   white-space: nowrap;
   overflow: hidden;
@@ -1412,6 +1400,7 @@ body {
   font-size: 0.6rem;
   color: var(--color-dark-gray);
   white-space: nowrap;
+  text-align: right;
 }
 
 /* ─── FILTERED ARTICLES FEED ─────────────────────────────── */
