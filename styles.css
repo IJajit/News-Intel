@@ -340,7 +340,7 @@ body {
 /* ─── TOP METADATA/CONTROL BAR ───────────────────────────── */
 .top-metadata-bar {
   display: grid;
-  grid-template-columns: 1fr 340px 180px;
+  grid-template-columns: 1fr 200px;
   background-color: var(--color-white);
   border-bottom: 2px solid var(--color-black);
   height: var(--header-height);
@@ -977,7 +977,7 @@ body {
     grid-template-columns: var(--orange-band-width) 220px 1fr;
   }
   .top-metadata-bar {
-    grid-template-columns: 1fr 300px 160px;
+    grid-template-columns: 1fr 180px;
   }
   .stats-col { display: none; }
 }
