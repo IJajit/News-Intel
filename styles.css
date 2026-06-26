@@ -1340,12 +1340,20 @@ body {
 
 .wc-arg-row {
   display: grid;
-  grid-template-columns: 80px 1fr auto auto;
+  grid-template-columns: 80px 1fr auto;
   gap: 0.75rem;
   align-items: center;
   padding: 0.75rem 0.5rem;
   border-bottom: 1px solid var(--color-light-gray);
   transition: background 0.15s ease;
+}
+
+.wc-arg-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  min-width: 0;
 }
 
 .wc-arg-row:hover {
@@ -1380,7 +1388,7 @@ body {
   font-weight: 700;
   font-size: 0.82rem;
   color: var(--color-black);
-  text-align: right;
+  text-align: center;
   padding: 0.15rem 0.4rem;
   background: var(--color-off-white);
   border: 1px solid var(--color-light-gray);
@@ -1390,7 +1398,7 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  justify-self: end;
+  flex-shrink: 0;
 }
 
 .wc-arg-score.live {

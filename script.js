@@ -743,8 +743,10 @@ function renderArgentinaTimeline(data) {
         return `
           <div class="wc-arg-row">
             <div class="wc-arg-date">${dayLabel}</div>
-            <div class="wc-arg-teams">${teamsDisplay}</div>
-            <div class="${scoreClass}">${scoreDisplay}</div>
+            <div class="wc-arg-body">
+              <div class="wc-arg-teams">${teamsDisplay}</div>
+              <div class="${scoreClass}">${scoreDisplay}</div>
+            </div>
             <div class="wc-arg-meta">${metaDisplay}</div>
           </div>
         `;
