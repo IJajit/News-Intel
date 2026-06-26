@@ -605,25 +605,21 @@ function renderWorldCupSchedule(filter) {
 
   worldCupLoader.style.display = 'none';
 
-  let filtered = data.matches;
   if (filter === 'argentina') {
-    filtered = data.matches.filter(m =>
-      m.team1.toLowerCase().includes('argentina') ||
-      m.team2.toLowerCase().includes('argentina')
-    );
-  }
-
-  if (filtered.length === 0) {
-    worldCupSchedule.innerHTML = '<div class="world-cup-loader" style="display:block">No Argentina matches found in the schedule.</div>';
+    renderArgentinaTimeline(data);
     return;
   }
 
-  // Group matches by date
-  const groups = {};
+  renderAllMatches(data);
+}
+
+function renderAllMatches(data) {
   const now = new Date();
   const todayStr = now.toISOString().slice(0, 10);
 
-  for (const m of filtered) {
+  // Group matches by date
+  const groups = {};
+  for (const m of data.matches) {
     const d = new Date(m.date);
     const dateStr = d.toISOString().slice(0, 10);
     if (!groups[dateStr]) groups[dateStr] = { date: d, matches: [] };
@@ -631,8 +627,42 @@ function renderWorldCupSchedule(filter) {
   }
 
   const sortedDates = Object.keys(groups).sort();
+  const pastDates = sortedDates.filter(d => d < todayStr);
+  const futureDates = sortedDates.filter(d => d >= todayStr);
 
-  worldCupSchedule.innerHTML = sortedDates.map(dateStr => {
+  let html = '';
+
+  // Previous matches toggle
+  if (pastDates.length > 0) {
+    const pastCount = pastDates.reduce((sum, d) => sum + groups[d].matches.length, 0);
+    html += `
+      <button class="wc-prev-toggle" onclick="togglePrevMatches(this)">
+        <span class="arrow">&#9654;</span> PREVIOUS MATCHES (${pastCount})
+      </button>
+      <div class="wc-prev-list">
+        ${pastDates.map(dateStr => {
+          const g = groups[dateStr];
+          const d = g.date;
+          const dayLabel = d.toLocaleDateString('en-IN', { weekday: 'short', day: 'numeric', month: 'short' });
+          return g.matches.map(m => {
+            const score = (m.status === 'Full Time' || m.status === 'Finished') ? `${m.score1}-${m.score2}` : '–';
+            return `
+              <div class="wc-prev-row">
+                <span class="wc-prev-date">${dayLabel}</span>
+                <span class="wc-prev-teams">${escapeHtml(m.team1)} vs ${escapeHtml(m.team2)}</span>
+                <span class="wc-prev-score">${score}</span>
+                <span class="wc-prev-status">${escapeHtml(m.status)}</span>
+              </div>
+            `;
+          }).join('');
+        }).join('')}
+      </div>
+    `;
+  }
+
+  // Future dates horizontal scroll
+  html += `<div class="world-cup-schedule-inner">`;
+  html += futureDates.map(dateStr => {
     const g = groups[dateStr];
     const d = g.date;
     const dayName = d.toLocaleDateString('en-IN', { weekday: 'short' });
@@ -683,6 +713,68 @@ function renderWorldCupSchedule(filter) {
       </div>
     `;
   }).join('');
+  html += `</div>`;
+
+  worldCupSchedule.innerHTML = html;
+}
+
+function renderArgentinaTimeline(data) {
+  const now = new Date();
+  const todayStr = now.toISOString().slice(0, 10);
+
+  const filtered = data.matches.filter(m =>
+    m.team1.toLowerCase().includes('argentina') ||
+    m.team2.toLowerCase().includes('argentina')
+  );
+
+  if (filtered.length === 0) {
+    worldCupSchedule.innerHTML = '<div class="world-cup-loader" style="display:block">No Argentina matches found in the schedule.</div>';
+    return;
+  }
+
+  filtered.sort((a, b) => a.date.localeCompare(b.date));
+
+  worldCupSchedule.innerHTML = `
+    <div class="wc-argentina-list">
+      ${filtered.map(m => {
+        const d = new Date(m.date);
+        const dayLabel = d.toLocaleDateString('en-IN', { weekday: 'short', day: 'numeric', month: 'short' });
+        const matchTime = d.toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit', hour12: true });
+
+        let scoreClass = 'wc-arg-score scheduled';
+        let scoreDisplay = matchTime;
+        if (m.status === 'In Progress') {
+          scoreClass = 'wc-arg-score live';
+          scoreDisplay = `${m.score1} - ${m.score2}`;
+        } else if (m.status === 'Full Time' || m.status === 'Finished') {
+          scoreClass = 'wc-arg-score';
+          scoreDisplay = `${m.score1} - ${m.score2}`;
+        } else if (m.score1 !== '' && m.score1 !== '0') {
+          scoreDisplay = `${m.score1} - ${m.score2}`;
+        }
+
+        const isArgTeam1 = m.team1.toLowerCase().includes('argentina');
+        const teamsDisplay = isArgTeam1
+          ? `<span class="highlight">${escapeHtml(m.team1)}</span> vs ${escapeHtml(m.team2)}`
+          : `${escapeHtml(m.team1)} vs <span class="highlight">${escapeHtml(m.team2)}</span>`;
+
+        return `
+          <div class="wc-arg-row">
+            <div class="wc-arg-date">${dayLabel}</div>
+            <div class="wc-arg-teams">${teamsDisplay}</div>
+            <div class="${scoreClass}">${scoreDisplay}</div>
+            <div class="wc-arg-meta">${escapeHtml(m.status)}${m.venue ? ` &middot; ${escapeHtml(m.venue)}` : ''}</div>
+          </div>
+        `;
+      }).join('')}
+    </div>
+  `;
+}
+
+function togglePrevMatches(btn) {
+  btn.classList.toggle('open');
+  const list = btn.nextElementSibling;
+  if (list) list.classList.toggle('open');
 }
 
 // ─── IMAGE MODAL ──────────────────────────────────────────────

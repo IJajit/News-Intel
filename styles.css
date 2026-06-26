@@ -1105,6 +1105,14 @@ body {
 
 .world-cup-schedule {
   display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.world-cup-schedule-inner {
+  display: flex;
   flex-direction: row;
   gap: 1rem;
   overflow-x: auto;
@@ -1115,20 +1123,20 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
-.world-cup-schedule::-webkit-scrollbar {
+.world-cup-schedule-inner::-webkit-scrollbar {
   height: 5px;
 }
 
-.world-cup-schedule::-webkit-scrollbar-track {
+.world-cup-schedule-inner::-webkit-scrollbar-track {
   background: var(--color-light-gray);
 }
 
-.world-cup-schedule::-webkit-scrollbar-thumb {
+.world-cup-schedule-inner::-webkit-scrollbar-thumb {
   background: var(--color-dark-gray);
   border-radius: 0;
 }
 
-.world-cup-schedule::-webkit-scrollbar-thumb:hover {
+.world-cup-schedule-inner::-webkit-scrollbar-thumb:hover {
   background: var(--color-orange);
 }
 
@@ -1144,6 +1152,21 @@ body {
   border-radius: 4px;
   padding: 0.85rem 0.85rem 0.5rem;
   scroll-snap-align: start;
+  overflow-y: auto;
+  max-height: 70vh;
+}
+
+.wc-date-group::-webkit-scrollbar {
+  width: 4px;
+}
+
+.wc-date-group::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.wc-date-group::-webkit-scrollbar-thumb {
+  background: var(--color-light-gray);
+  border-radius: 0;
 }
 
 .wc-date-group:first-child {
@@ -1253,6 +1276,166 @@ body {
   gap: 0.6rem;
   white-space: nowrap;
   overflow: hidden;
+}
+
+/* ─── WORLD CUP - PREVIOUS MATCHES ──────────────────────── */
+.wc-prev-toggle {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--color-dark-gray);
+  cursor: pointer;
+  padding: 0.35rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--color-light-gray);
+  transition: var(--transition-fast);
+}
+
+.wc-prev-toggle:hover {
+  color: var(--color-orange);
+}
+
+.wc-prev-toggle .arrow {
+  transition: transform 0.2s ease;
+  display: inline-block;
+}
+
+.wc-prev-toggle.open .arrow {
+  transform: rotate(90deg);
+}
+
+.wc-prev-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  max-height: 0;
+  opacity: 0;
+}
+
+.wc-prev-list.open {
+  max-height: 2000px;
+  opacity: 1;
+}
+
+.wc-prev-row {
+  display: grid;
+  grid-template-columns: 80px 1fr auto 60px;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0.3rem 0.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  border-bottom: 1px solid var(--color-light-gray);
+}
+
+.wc-prev-date {
+  color: var(--color-dark-gray);
+  font-weight: 600;
+}
+
+.wc-prev-teams {
+  color: var(--color-black);
+  font-weight: 700;
+}
+
+.wc-prev-score {
+  text-align: center;
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+.wc-prev-status {
+  text-align: right;
+  font-size: 0.58rem;
+  color: var(--color-dark-gray);
+}
+
+/* ─── WORLD CUP - ARGENTINA TIMELINE ────────────────────── */
+.wc-argentina-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.wc-arg-row {
+  display: grid;
+  grid-template-columns: 90px 1fr auto 70px;
+  gap: 0.75rem;
+  align-items: center;
+  padding: 0.75rem 0.65rem;
+  border-bottom: 1px solid var(--color-light-gray);
+  transition: background 0.15s ease;
+}
+
+.wc-arg-row:hover {
+  background: var(--color-off-white);
+}
+
+.wc-arg-row:first-child {
+  border-top: 1px solid var(--color-light-gray);
+}
+
+.wc-arg-date {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 700;
+  color: var(--color-orange);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.wc-arg-teams {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.82rem;
+  color: var(--color-black);
+}
+
+.wc-arg-teams .highlight {
+  color: var(--color-orange);
+}
+
+.wc-arg-score {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 0.82rem;
+  color: var(--color-black);
+  text-align: center;
+  padding: 0.15rem 0.5rem;
+  background: var(--color-off-white);
+  border: 1px solid var(--color-light-gray);
+  border-radius: 2px;
+  min-width: 3rem;
+}
+
+.wc-arg-score.live {
+  background: var(--color-orange);
+  color: var(--color-white);
+  border-color: var(--color-orange);
+  animation: wc-pulse 2s ease-in-out infinite;
+}
+
+.wc-arg-score.scheduled {
+  font-size: 0.65rem;
+  color: var(--color-dark-gray);
+}
+
+.wc-arg-meta {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--color-dark-gray);
+  white-space: nowrap;
 }
 
 /* ─── FILTERED ARTICLES FEED ─────────────────────────────── */
