@@ -19,23 +19,27 @@
 
   <div class="app-layout">
 
-    <!-- Far Left Orange vertical brand band -->
-    <div class="orange-band" id="orangeBand">
-      <div class="vertical-text" id="orangeBandText">NEWS INTEL</div>
-      <div class="orange-band-footer">
-        <div class="industrial-logo">&#8599;</div>
-      </div>
-    </div>
-
-    <!-- Simplified Sources Sidebar -->
+    <!-- Sidebar -->
     <aside class="sidebar">
-      <div class="sidebar-header">
-        <span class="sidebar-title">VERIFIED FEEDS</span>
+      <div class="sidebar-logo-header">
+        <h1 class="sidebar-brand-title">NEWS INTEL</h1>
       </div>
-      <div class="sidebar-section" style="flex:1; overflow-y:auto;">
+
+      <!-- Toggleable Sources List -->
+      <div class="sidebar-section-header">
+        <span class="sidebar-title">VERIFIED FEEDS</span>
+        <button id="toggleFeedsBtn" class="toggle-btn" aria-label="Toggle verified feeds list">HIDE</button>
+      </div>
+
+      <div id="feedsWrapper" class="sidebar-section">
         <div id="sourcesList" class="sources-sidebar-list">
           <!-- Loaded dynamically -->
         </div>
+      </div>
+
+      <!-- Additional Sidebar Elements Area -->
+      <div class="sidebar-additional-elements" style="flex: 1; overflow-y: auto;">
+        <!-- More elements will be added here -->
       </div>
     </aside>
 

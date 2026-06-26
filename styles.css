@@ -57,7 +57,7 @@ body {
 /* ─── MASTER LAYOUT ──────────────────────────────────────── */
 .app-layout {
   display: grid;
-  grid-template-columns: var(--orange-band-width) 220px 1fr;
+  grid-template-columns: var(--sidebar-width) 1fr;
   height: 100vh;
   width: 100vw;
   overflow: hidden;
@@ -110,6 +110,60 @@ body {
   flex-direction: column;
   padding: 0;
   overflow: hidden;
+}
+
+.sidebar-logo-header {
+  padding: 1.5rem 1.25rem 1rem;
+  border-bottom: 2px solid var(--color-black);
+  background-color: var(--color-orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-brand-title {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  color: var(--color-black);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.sidebar-additional-elements {
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sidebar-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.25rem 0.5rem;
+  flex-shrink: 0;
+}
+
+.toggle-btn {
+  background: none;
+  border: 1.5px solid var(--color-dark-gray);
+  border-radius: 3px;
+  color: var(--color-dark-gray);
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 0.65rem;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+  transition: var(--transition-fast);
+  min-height: 24px;
+}
+
+.toggle-btn:hover {
+  color: var(--color-black);
+  border-color: var(--color-black);
+  background-color: var(--color-off-white);
 }
 
 .sidebar-header {
@@ -976,7 +1030,7 @@ body {
 /* ─── RESPONSIVE ─────────────────────────────────────────── */
 @media (max-width: 1100px) {
   .app-layout {
-    grid-template-columns: var(--orange-band-width) 220px 1fr;
+    grid-template-columns: var(--sidebar-width) 1fr;
   }
   .top-metadata-bar {
     grid-template-columns: 1fr 180px;
@@ -984,7 +1038,7 @@ body {
   .stats-col { display: none; }
 }
 
-@media (max-width: 768px) {
+  @media (max-width: 768px) {
   body { overflow: auto; }
   .app-layout {
     display: flex;
@@ -992,22 +1046,6 @@ body {
     height: auto;
     min-height: 100vh;
   }
-
-  .orange-band {
-    flex-direction: row;
-    height: 54px;
-    padding: 0 1.25rem;
-    border-right: none;
-    border-bottom: 2px solid var(--color-black);
-  }
-
-  .orange-band .vertical-text {
-    writing-mode: horizontal-tb;
-    transform: none;
-    font-size: 0.8rem;
-  }
-
-  .orange-band-footer { display: none; }
 
   .sidebar {
     border-right: none;
