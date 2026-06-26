@@ -455,10 +455,6 @@ body {
   font-weight: 700;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: var(--color-dark-gray);
-}
-
-.wiki-card-badge.otd-badge {
   color: var(--color-orange);
 }
 

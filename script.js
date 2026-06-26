@@ -672,9 +672,10 @@ function renderAllMatches(data) {
     if (dateStr === todayStr) {
       badge = '<span class="wc-date-badge today">TODAY</span>';
     } else {
-      const msDiff = d - now;
-      const dayDiff = Math.round(msDiff / 86400000);
-      if (dayDiff === 1) badge = '<span class="wc-date-badge">TOMORROW</span>';
+      const tomorrowUTC = new Date(now);
+      tomorrowUTC.setUTCDate(tomorrowUTC.getUTCDate() + 1);
+      const tomorrowStr = tomorrowUTC.toISOString().slice(0, 10);
+      if (dateStr === tomorrowStr) badge = '<span class="wc-date-badge">TOMORROW</span>';
     }
 
     return `
