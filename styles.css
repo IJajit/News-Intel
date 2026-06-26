@@ -110,6 +110,7 @@ body {
   flex-direction: column;
   padding: 0;
   overflow: hidden;
+  position: relative;
 }
 
 .sidebar-logo-header {
@@ -133,24 +134,14 @@ body {
 }
 
 .sidebar-additional-elements {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   padding: 1rem 1.25rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  flex: 1;
-  overflow-y: auto;
-  transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
-  max-height: 1000px;
-  opacity: 1;
-}
-
-.sidebar-additional-elements.collapsed {
-  max-height: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  opacity: 0;
-  overflow: hidden;
-  flex: none;
 }
 
 .sidebar-section-header {
@@ -231,6 +222,9 @@ body {
   max-height: 1000px;
   opacity: 1;
   overflow-y: auto;
+  background: var(--color-white);
+  position: relative;
+  z-index: 1;
 }
 
 .sidebar-section.collapsed {

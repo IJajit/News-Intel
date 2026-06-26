@@ -95,7 +95,6 @@ document.addEventListener('DOMContentLoaded', () => {
     toggleFeedsBtn.setAttribute('aria-expanded', !isExpanded);
     toggleFeedsBtn.classList.toggle('collapsed', isExpanded);
     feedsWrapper.classList.toggle('collapsed', isExpanded);
-    sidebarAdditional.classList.toggle('collapsed', isExpanded);
   });
 
   // Tab switching
