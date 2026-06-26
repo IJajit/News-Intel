@@ -815,77 +815,50 @@ def seed_briefs():
             with open(filepath, 'w', encoding='utf-8') as f:
                 json.dump(brief_data, f, indent=2, ensure_ascii=False)
 
-def fetch_world_cup_news():
-    goal_feeds = [
-        {
-            "id": "goal-world-cup",
-            "name": "Goal.com",
-            "url": "https://news.google.com/rss/search?q=site:goal.com+world+cup+2026&hl=en-IN&gl=IN&ceid=IN:en",
-            "siteUrl": "https://www.goal.com/en-in"
-        },
-        {
-            "id": "google-world-cup",
-            "name": "Google News - World Cup",
-            "url": "https://news.google.com/rss/search?q=world+cup+2026+football&hl=en-IN&gl=IN&ceid=IN:en",
-            "siteUrl": "https://news.google.com/"
-        }
-    ]
+def fetch_world_cup_schedule():
+    espn_url = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260611-20260719&limit=100"
+    try:
+        req = urllib.request.Request(espn_url, headers={'User-Agent': 'Mozilla/5.0'})
+        kwargs = {'timeout': 15}
+        if ssl_context:
+            kwargs['context'] = ssl_context
+        with urllib.request.urlopen(req, **kwargs) as resp:
+            data = json.loads(resp.read().decode('utf-8'))
+    except Exception as e:
+        print(f"Error fetching World Cup schedule: {e}")
+        return {"matches": [], "count": 0}
 
-    all_articles = []
-    seen_links = set()
+    matches = []
+    for event in data.get('events', []):
+        comps = event.get('competitions', [{}])
+        if not comps:
+            continue
+        c = comps[0]
+        competitors = c.get('competitors', [])
+        if len(competitors) < 2:
+            continue
+        team1 = competitors[0]['team']['shortDisplayName']
+        team2 = competitors[1]['team']['shortDisplayName']
+        score1 = competitors[0].get('score', '')
+        score2 = competitors[1].get('score', '')
+        status = c.get('status', {}).get('type', {}).get('description', 'Scheduled')
+        date_iso = event.get('date', '')
+        venue = c.get('venue', {}).get('fullName', '') if c.get('venue') else ''
+        group = c.get('group', {}).get('shortName', '') if c.get('group') else ''
 
-    for feed in goal_feeds:
-        try:
-            req = urllib.request.Request(
-                feed['url'],
-                headers={
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0',
-                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-                    'Accept-Language': 'en-US,en;q=0.5'
-                }
-            )
-            kwargs = {'timeout': 12}
-            if ssl_context:
-                kwargs['context'] = ssl_context
+        matches.append({
+            "team1": team1,
+            "team2": team2,
+            "score1": score1,
+            "score2": score2,
+            "status": status,
+            "date": date_iso,
+            "venue": venue,
+            "group": group
+        })
 
-            with urllib.request.urlopen(req, **kwargs) as response:
-                xml_data = response.read()
-
-            xml_str = xml_data.decode('utf-8', errors='ignore')
-            xml_str = re.sub(r'&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#[xX][0-9a-fA-F]+;)', '&amp;', xml_str)
-            root = ET.fromstring(xml_str)
-
-            for item in root.findall('.//item'):
-                title = item.find('title')
-                link = item.find('link')
-                pub_date = item.find('pubDate')
-                desc = item.find('description')
-
-                title_text = (title.text if (title is not None and title.text is not None) else "").strip()
-                link_text = (link.text if (link is not None and link.text is not None) else "").strip()
-                pub_date_text = (pub_date.text if (pub_date is not None and pub_date.text is not None) else "").strip()
-                desc_text = (desc.text if (desc is not None and desc.text is not None) else "").strip()
-                desc_clean = re.sub('<[^<]+?>', '', desc_text)
-
-                if "news.google.com/rss/articles/" in link_text:
-                    link_text = decode_google_news_url(link_text)
-
-                if not link_text or link_text in seen_links:
-                    continue
-                seen_links.add(link_text)
-
-                all_articles.append({
-                    'title': title_text,
-                    'link': link_text,
-                    'pubDate': pub_date_text,
-                    'content': desc_clean,
-                    'sourceName': feed['name']
-                })
-        except Exception as e:
-            print(f"Error fetching World Cup feed {feed['name']}: {e}")
-
-    all_articles.sort(key=get_pub_time, reverse=True)
-    return {'articles': all_articles[:30], 'count': len(all_articles[:30])}
+    matches.sort(key=lambda m: m.get('date', ''))
+    return {"matches": matches, "count": len(matches)}
 
 
 class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
@@ -928,7 +901,7 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
             has_key = is_valid_api_key(os.environ.get('GEMINI_API_KEY'))
             self.send_json({"apiKeyConfigured": has_key})
         elif path == '/api/world-cup':
-            self.send_json(fetch_world_cup_news())
+            self.send_json(fetch_world_cup_schedule())
         elif path == '/api/latest-brief':
             category = query.get('category', ['global'])[0]
             filepath = os.path.join(BRIEFINGS_DIR, f"latest_{category}.json")

@@ -21,7 +21,7 @@ const viewWorldCup        = document.getElementById('viewWorldCup');
 const markdownTextarea    = document.getElementById('markdownTextarea');
 const articlesCountVal    = document.getElementById('articlesCountVal');
 const articlesList        = document.getElementById('articlesList');
-const worldCupArticles    = document.getElementById('worldCupArticles');
+const worldCupSchedule    = document.getElementById('worldCupSchedule');
 const worldCupLoader      = document.getElementById('worldCupLoader');
 const copyMarkdownBtn     = document.getElementById('copyMarkdownBtn');
 const groundedTimeVal     = document.getElementById('groundedTimeVal');
@@ -350,7 +350,7 @@ function switchTab(tabName) {
   viewArticles.style.display = (tabName === 'articles' && currentBriefing) ? 'block' : 'none';
   viewWorldCup.style.display = (tabName === 'worldcup') ? 'flex' : 'none';
 
-  if (tabName === 'worldcup') fetchWorldCupNews();
+  if (tabName === 'worldcup') fetchWorldCupSchedule();
 }
 
 // ─── LOADING STATE CONTROLLER ─────────────────────────────────
@@ -558,41 +558,94 @@ function sleep(ms) {
 }
 
 // ─── WORLD CUP TAB ──────────────────────────────────────────────
-async function fetchWorldCupNews() {
+async function fetchWorldCupSchedule() {
   worldCupLoader.style.display = 'block';
-  worldCupLoader.textContent = 'Loading World Cup news...';
-  worldCupArticles.innerHTML = '';
+  worldCupLoader.textContent = 'Loading match schedule...';
+  worldCupSchedule.innerHTML = '';
 
   try {
     const res = await fetch('/api/world-cup');
     if (!res.ok) throw new Error('Failed to fetch');
     const data = await res.json();
 
-    if (!data.articles || data.articles.length === 0) {
+    if (!data.matches || data.matches.length === 0) {
       worldCupLoader.style.display = 'block';
-      worldCupLoader.textContent = 'No World Cup articles available at this time.';
+      worldCupLoader.textContent = 'No match data available at this time.';
       return;
     }
 
     worldCupLoader.style.display = 'none';
-    worldCupArticles.innerHTML = data.articles.map(art => {
-      const pubDate = art.pubDate ? new Date(art.pubDate).toLocaleString('en-IN', {
-        hour: '2-digit', minute: '2-digit', day: 'numeric', month: 'short'
-      }) : '';
+
+    // Group matches by date
+    const groups = {};
+    const now = new Date();
+    const todayStr = now.toISOString().slice(0, 10);
+
+    for (const m of data.matches) {
+      const d = new Date(m.date);
+      const dateStr = d.toISOString().slice(0, 10);
+      if (!groups[dateStr]) groups[dateStr] = { date: d, matches: [] };
+      groups[dateStr].matches.push(m);
+    }
+
+    // Sort dates
+    const sortedDates = Object.keys(groups).sort();
+
+    worldCupSchedule.innerHTML = sortedDates.map(dateStr => {
+      const g = groups[dateStr];
+      const d = g.date;
+      const dayName = d.toLocaleDateString('en-IN', { weekday: 'short' });
+      const monthDay = d.toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
+
+      let badge = '';
+      if (dateStr === todayStr) {
+        badge = '<span class="wc-date-badge today">TODAY</span>';
+      } else {
+        const msDiff = d - now;
+        const dayDiff = Math.round(msDiff / 86400000);
+        if (dayDiff === 1) badge = '<span class="wc-date-badge">TOMORROW</span>';
+      }
+
       return `
-        <div class="world-cup-article-card">
-          <a href="${escapeHtml(art.link)}" target="_blank" rel="noopener noreferrer" class="world-cup-article-title">${escapeHtml(art.title)}</a>
-          <div class="world-cup-article-meta">
-            <span class="world-cup-article-source">${escapeHtml(art.sourceName)}</span>
-            ${pubDate ? `<span>${pubDate}</span>` : ''}
-          </div>
+        <div class="wc-date-group">
+          <div class="wc-date-header">${dayName}, ${monthDay} ${badge}</div>
+          ${g.matches.map(m => {
+            const matchTime = new Date(m.date).toLocaleTimeString('en-IN', {
+              hour: '2-digit', minute: '2-digit', hour12: true
+            });
+
+            let scoreClass = 'wc-score scheduled';
+            let scoreDisplay = matchTime;
+            if (m.status === 'In Progress') {
+              scoreClass = 'wc-score live';
+              scoreDisplay = `${m.score1} - ${m.score2}`;
+            } else if (m.status === 'Full Time' || m.status === 'Finished') {
+              scoreClass = 'wc-score';
+              scoreDisplay = `${m.score1} - ${m.score2}`;
+            } else if (m.score1 !== '' && m.score1 !== '0') {
+              scoreDisplay = `${m.score1} - ${m.score2}`;
+            }
+
+            return `
+              <div class="wc-match-card">
+                <div class="wc-team home">${escapeHtml(m.team1)}</div>
+                <div class="${scoreClass}">${scoreDisplay}</div>
+                <div class="wc-team away">${escapeHtml(m.team2)}</div>
+                <div class="wc-match-meta">
+                  ${m.group ? `<span>${escapeHtml(m.group)}</span>` : ''}
+                  ${m.venue ? `<span>${escapeHtml(m.venue)}</span>` : ''}
+                  <span>${escapeHtml(m.status)}</span>
+                </div>
+              </div>
+            `;
+          }).join('')}
         </div>
       `;
     }).join('');
   } catch (err) {
-    console.error('World Cup fetch failed:', err);
+    console.error('World Cup schedule fetch failed:', err);
     worldCupLoader.style.display = 'block';
-    worldCupLoader.textContent = 'Failed to load World Cup news. Please try again.';
+    worldCupLoader.textContent = 'Failed to load match schedule. Please try again.';
   }
 }
 
