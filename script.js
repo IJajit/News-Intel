@@ -354,7 +354,10 @@ function switchTab(tabName) {
   viewArticles.style.display = (tabName === 'articles' && currentBriefing) ? 'block' : 'none';
   viewWorldCup.style.display = (tabName === 'worldcup') ? 'flex' : 'none';
 
-  if (tabName === 'worldcup') fetchWorldCupSchedule();
+  if (tabName === 'worldcup') {
+    stateEmpty.style.display = 'none';
+    fetchWorldCupSchedule();
+  }
 }
 
 // ─── LOADING STATE CONTROLLER ─────────────────────────────────
