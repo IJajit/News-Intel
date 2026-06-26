@@ -19,6 +19,7 @@
   --font-display: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-body:    'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-mono:    'JetBrains Mono', 'Courier New', monospace;
+  --font-serif:   'Merriweather', Georgia, Cambria, serif;
 
   --transition-fast:   all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-medium: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
@@ -381,6 +382,7 @@ body {
   font-family: var(--font-mono) !important;
   font-weight: 600 !important;
   font-size: 0.8rem !important;
+  font-variant-numeric: tabular-nums;
 }
 
 /* Status badges */
@@ -455,6 +457,7 @@ body {
   gap: 0.5rem;
   user-select: none;
   white-space: nowrap;
+  min-height: 44px;
 }
 
 .btn-icon {
@@ -534,6 +537,7 @@ body {
   cursor: pointer;
   transition: var(--transition-fast);
   user-select: none;
+  min-height: 44px;
 }
 
 .tab-btn:hover {
@@ -729,10 +733,12 @@ body {
 }
 
 .briefing-reader p {
-  font-size: 0.88rem;
-  margin-bottom: 0.85rem;
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  margin-bottom: 1.2rem;
   color: var(--color-black);
-  line-height: 1.7;
+  line-height: 1.65;
+  max-width: 75ch;
 }
 
 .briefing-reader strong {
@@ -766,10 +772,11 @@ body {
 
 /* Every list item is an independent spec-table style box */
 .briefing-reader ul > li {
-  padding: 1.1rem 1.25rem 1.1rem 2.65rem;
+  padding: 1.25rem 1.5rem 1.25rem 2.85rem;
   position: relative;
   margin-bottom: 0;
-  font-size: 0.88rem;
+  font-family: var(--font-serif);
+  font-size: 0.92rem;
   line-height: 1.65;
   color: var(--color-black);
   background-color: var(--color-white);
@@ -778,6 +785,7 @@ body {
   box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.04);
   transition: background 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
   overflow: hidden;
+  max-width: 80ch;
 }
 
 /* Orange left-bar accent (animated on hover, same as filtered feed cards) */
@@ -1031,4 +1039,42 @@ body {
 
   .workspace-area { padding: 0.85rem; }
   .content-frame { padding: 1.25rem; }
+}
+
+/* Keyboard Focus Rings */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+[role="tab"]:focus-visible {
+  outline: 2px solid var(--color-orange);
+  outline-offset: 2px;
+}
+
+/* Skip to main content link */
+.skip-link {
+  position: absolute;
+  top: -60px;
+  left: 10px;
+  background: var(--color-orange);
+  color: var(--color-white);
+  padding: 0.5rem 1rem;
+  z-index: 9999;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-decoration: none;
+  border: 2px solid var(--color-black);
+  box-shadow: 3px 3px 0px 0px var(--color-black);
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 10px;
+}
+
+/* Performance optimization for feed list rendering */
+.feed-article-card {
+  content-visibility: auto;
+  contain-intrinsic-size: 80px;
 }
