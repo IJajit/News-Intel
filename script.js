@@ -24,7 +24,6 @@ const articlesList        = document.getElementById('articlesList');
 const worldCupSchedule    = document.getElementById('worldCupSchedule');
 const worldCupLoader      = document.getElementById('worldCupLoader');
 const copyMarkdownBtn     = document.getElementById('copyMarkdownBtn');
-const groundedTimeVal     = document.getElementById('groundedTimeVal');
 const sourcesList         = document.getElementById('sourcesList');
 const toggleFeedsBtn      = document.getElementById('toggleFeedsBtn');
 const feedsWrapper        = document.getElementById('feedsWrapper');
@@ -45,7 +44,6 @@ let showApiKey      = false;
 let activeTab       = 'reader';
 let currentBriefing = null;
 let activeCategory  = 'global';
-let localClockTimer = null;
 
 // ─── INITIALIZATION ───────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
@@ -57,15 +55,12 @@ document.addEventListener('DOMContentLoaded', () => {
       localStorage.removeItem('GEMINI_API_KEY');
     } else {
       apiKey = savedKey;
-      apiKeyInput.value = savedKey;
+      if (apiKeyInput) apiKeyInput.value = savedKey;
     }
   }
 
   // Check if API key is already configured on the server-side
   checkServerConfig();
-
-  // Start real-time clock
-  startGroundedClock();
 
   // Load sources into sidebar
   fetchSources();
@@ -79,21 +74,25 @@ document.addEventListener('DOMContentLoaded', () => {
   fetchWikiIntel();
 
   // ─── EVENT LISTENERS ──────────────────────────────────────
-  apiKeyInput.addEventListener('input', (e) => {
-    apiKey = e.target.value.trim();
-    const isInvalid = apiKey.includes(' ') || apiKey.includes('•') || apiKey.startsWith('Live Briefing');
-    if (apiKey && !isInvalid) {
-      localStorage.setItem('GEMINI_API_KEY', apiKey);
-    } else {
-      localStorage.removeItem('GEMINI_API_KEY');
-    }
-  });
+  if (apiKeyInput) {
+    apiKeyInput.addEventListener('input', (e) => {
+      apiKey = e.target.value.trim();
+      const isInvalid = apiKey.includes(' ') || apiKey.includes('•') || apiKey.startsWith('Live Briefing');
+      if (apiKey && !isInvalid) {
+        localStorage.setItem('GEMINI_API_KEY', apiKey);
+      } else {
+        localStorage.removeItem('GEMINI_API_KEY');
+      }
+    });
+  }
 
-  toggleKeyVisibility.addEventListener('click', () => {
-    showApiKey = !showApiKey;
-    apiKeyInput.type = showApiKey ? 'text' : 'password';
-    toggleKeyVisibility.textContent = showApiKey ? 'Hide' : 'Show';
-  });
+  if (toggleKeyVisibility) {
+    toggleKeyVisibility.addEventListener('click', () => {
+      showApiKey = !showApiKey;
+      apiKeyInput.type = showApiKey ? 'text' : 'password';
+      toggleKeyVisibility.textContent = showApiKey ? 'Hide' : 'Show';
+    });
+  }
 
   generateBtn.addEventListener('click', triggerBriefingGeneration);
   copyMarkdownBtn.addEventListener('click', copyMarkdownToClipboard);
@@ -135,6 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Check if server already has the Gemini API Key in its environment
 async function checkServerConfig() {
+  if (!apiKeyInput) return;
   try {
     const res = await fetch('/api/config');
     if (res.ok) {
@@ -154,33 +154,6 @@ async function checkServerConfig() {
 
 
 // ─── GROUNDED CLOCK ───────────────────────────────────────────
-function startGroundedClock() {
-  const updateClock = () => {
-    const now = new Date();
-    groundedTimeVal.textContent = now.toLocaleTimeString('en-IN', {
-      hour: '2-digit',
-      minute: '2-digit',
-      second: '2-digit',
-      hour12: false
-    });
-  };
-  updateClock();
-  localClockTimer = setInterval(updateClock, 1000);
-}
-
-function stopGroundedClock(frozenTime) {
-  if (localClockTimer) clearInterval(localClockTimer);
-  localClockTimer = null;
-  if (frozenTime) {
-    groundedTimeVal.textContent = new Date(frozenTime).toLocaleTimeString('en-IN', {
-      hour: '2-digit',
-      minute: '2-digit',
-      second: '2-digit',
-      hour12: false
-    });
-  }
-}
-
 // ─── FETCH SOURCES ───────────────────────────────────────────
 async function fetchSources() {
   if (!sourcesList) return;
@@ -267,7 +240,6 @@ async function loadLatestBrief(category) {
     const brief = await res.json();
     currentBriefing = brief;
 
-    stopGroundedClock(brief.timestamp);
     renderBriefing(brief);
     switchTab('reader');
   } catch (err) {
@@ -283,7 +255,6 @@ async function loadLatestBrief(category) {
 async function triggerBriefingGeneration() {
   const generationTime = new Date().toISOString();
 
-  stopGroundedClock(generationTime);
   setLoadingState(true, 'Establishing ground-truth timestamp...');
 
   // Fetch fresh Wikipedia sidebar facts
@@ -327,7 +298,6 @@ async function triggerBriefingGeneration() {
   } catch (err) {
     console.error('Generation failed:', err);
     showToast('Failed to generate briefing: ' + err.message, 'error');
-    startGroundedClock();
   } finally {
     setLoadingState(false);
   }

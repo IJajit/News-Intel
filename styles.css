@@ -487,73 +487,6 @@ body {
   background-color: var(--color-light-gray);
 }
 
-/* ─── TOP METADATA/CONTROL BAR ───────────────────────────── */
-.top-metadata-bar {
-  display: grid;
-  grid-template-columns: 1fr 200px;
-  background-color: var(--color-white);
-  border-bottom: 2px solid var(--color-black);
-  height: var(--header-height);
-  flex-shrink: 0;
-}
-
-.metadata-col {
-  padding: 0.85rem 1.4rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-right: 1px solid var(--color-light-gray);
-}
-
-.metadata-col:last-child {
-  border-right: none;
-}
-
-.metadata-col.time-col {
-  align-items: center;
-}
-
-.metadata-col.time-col .meta-val {
-  font-size: 1rem;
-  letter-spacing: 2px;
-}
-
-.meta-label {
-  font-family: var(--font-mono);
-  font-size: 0.6rem;
-  font-weight: 700;
-  color: var(--color-dark-gray);
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  margin-bottom: 0.3rem;
-}
-
-.meta-val {
-  font-family: var(--font-display);
-  font-weight: 800;
-  font-size: 0.9rem;
-  color: var(--color-black);
-  letter-spacing: 0.3px;
-}
-
-.font-mono {
-  font-family: var(--font-mono) !important;
-  font-weight: 600 !important;
-  font-size: 0.8rem !important;
-}
-
-/* Status badges */
-.status-idle    { color: var(--color-dark-gray); }
-.status-active  { color: var(--color-orange); }
-.status-success { color: #22c55e; }
-.status-error   { color: #ef4444; }
-
-.metadata-col.action-col {
-  padding: 0.65rem 1rem;
-  align-items: center;
-  justify-content: center;
-}
-
 /* ─── API KEY INPUT ──────────────────────────────────────── */
 .input-key-wrapper {
   position: relative;
@@ -1578,9 +1511,6 @@ body {
   .app-layout {
     grid-template-columns: var(--sidebar-width) 1fr;
   }
-  .top-metadata-bar {
-    grid-template-columns: 1fr 180px;
-  }
   .stats-col { display: none; }
 }
 
@@ -1597,21 +1527,6 @@ body {
     border-right: none;
     border-bottom: 2px solid var(--color-black);
     overflow-y: auto;
-  }
-
-  .top-metadata-bar {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-  }
-
-  .metadata-col {
-    border-right: none;
-    border-bottom: 1px solid var(--color-light-gray);
-  }
-
-  .metadata-col:last-child {
-    border-bottom: none;
   }
 
   .workspace-area { padding: 0.85rem; }
