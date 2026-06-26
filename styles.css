@@ -1019,41 +1019,80 @@ body {
 .world-cup-panel {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 0.75rem;
   height: 100%;
 }
 
 .world-cup-header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 0.75rem;
   flex-shrink: 0;
 }
 
 .world-cup-title {
   font-family: var(--font-display);
   font-weight: 900;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
   color: var(--color-black);
   letter-spacing: 1px;
-  margin-bottom: 0.15rem;
-}
-
-.world-cup-subtitle {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  color: var(--color-dark-gray);
   margin: 0;
 }
 
 .world-cup-visit-btn {
-  flex-shrink: 0;
-  min-height: 40px;
-  padding: 0.5rem 1rem;
-  font-size: 0.7rem;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: var(--color-orange);
+  background: none;
+  border: 1.5px solid var(--color-orange);
+  border-radius: 3px;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
   text-decoration: none;
+  transition: var(--transition-fast);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.world-cup-visit-btn:hover {
+  background: var(--color-orange);
+  color: var(--color-white);
+}
+
+.world-cup-filter-bar {
+  display: flex;
+  gap: 0.35rem;
+  flex-shrink: 0;
+}
+
+.wc-filter-btn {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--color-dark-gray);
+  background: none;
+  border: 1.5px solid var(--color-light-gray);
+  border-radius: 3px;
+  padding: 0.35rem 0.7rem;
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.wc-filter-btn:hover {
+  border-color: var(--color-orange);
+  color: var(--color-orange);
+}
+
+.wc-filter-btn.active {
+  background: var(--color-black);
+  border-color: var(--color-black);
+  color: var(--color-white);
 }
 
 .world-cup-loader {
