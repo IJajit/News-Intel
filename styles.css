@@ -1228,7 +1228,7 @@ body {
   font-size: 0.58rem;
   color: var(--color-dark-gray);
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 0.6rem;
   white-space: nowrap;
   overflow: hidden;
@@ -1313,7 +1313,7 @@ body {
 }
 
 .wc-prev-status {
-  text-align: right;
+  text-align: center;
   font-size: 0.58rem;
   color: var(--color-dark-gray);
 }
@@ -1400,7 +1400,7 @@ body {
   font-size: 0.6rem;
   color: var(--color-dark-gray);
   white-space: nowrap;
-  text-align: right;
+  text-align: center;
 }
 
 /* ─── FILTERED ARTICLES FEED ─────────────────────────────── */
