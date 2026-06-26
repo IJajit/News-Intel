@@ -1330,6 +1330,7 @@ body {
   gap: 0;
   overflow-y: auto;
   flex: 1;
+  padding-top: 0.6rem;
 }
 
 .wc-arg-row {
