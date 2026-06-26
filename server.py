@@ -60,7 +60,7 @@ PORT = 5001
 
 SOURCES = [
   { "id": "bbc", "name": "BBC News", "url": "https://feeds.bbci.co.uk/news/rss.xml", "siteUrl": "https://www.bbc.com/" },
-  { "id": "google-news", "name": "Google News", "url": "https://news.google.com/rss?hl=en-IN&gl=IN&ceid=IN:en", "siteUrl": "https://news.google.com/home?hl=en-IN&gl=IN&ceid=IN:en" },
+
   { "id": "indian-express", "name": "The Indian Express", "url": "https://indianexpress.com/feed/", "siteUrl": "https://indianexpress.com/" },
   { "id": "the-print", "name": "The Print", "url": "https://news.google.com/rss/search?q=site:theprint.in", "siteUrl": "https://theprint.in/" },
   { "id": "the-guardian", "name": "The Guardian", "url": "https://www.theguardian.com/international/rss", "siteUrl": "https://www.theguardian.com/international" },
