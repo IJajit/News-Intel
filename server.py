@@ -93,11 +93,11 @@ SOURCES = [
 ]
 
 CATEGORIES = [
-  { "id": "global",     "name": "Global",     "label": "ALL REGIONS",        "icon": "🌐" },
-  { "id": "indian",     "name": "India",       "label": "DOMESTIC",           "icon": "🇮🇳" },
-  { "id": "technology", "name": "Technology",  "label": "TECH & INNOVATION",  "icon": "⚡" },
-  { "id": "sports",     "name": "Sports",      "label": "LIVE SCORES",        "icon": "🏆" },
-  { "id": "finance",    "name": "Finance",     "label": "MARKETS & ECONOMY",  "icon": "📈" },
+  { "id": "global",     "name": "Global",     "label": "ALL REGIONS",        "icon": "" },
+  { "id": "indian",     "name": "India",       "label": "DOMESTIC",           "icon": "" },
+  { "id": "technology", "name": "Technology",  "label": "TECH & INNOVATION",  "icon": "" },
+  { "id": "sports",     "name": "Sports",      "label": "LIVE SCORES",        "icon": "" },
+  { "id": "finance",    "name": "Finance",     "label": "MARKETS & ECONOMY",  "icon": "" },
 ]
 
 def decode_google_news_url(url):
