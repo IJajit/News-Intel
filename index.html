@@ -115,11 +115,11 @@
           <!-- World Cup Tab -->
           <div id="viewWorldCup" class="world-cup-panel" role="tabpanel" aria-labelledby="tabWorldCupBtn" style="display: none;">
             <div class="world-cup-header">
+              <div class="world-cup-filter-bar">
+                <button id="wcFilterAll" class="wc-filter-btn active" data-filter="all">ALL MATCHES</button>
+                <button id="wcFilterArgentina" class="wc-filter-btn" data-filter="argentina">ARGENTINA</button>
+              </div>
               <a href="https://www.goal.com/en-in" target="_blank" rel="noopener noreferrer" class="world-cup-visit-btn" aria-label="Visit Goal.com">GOAL.COM &nearr;</a>
-            </div>
-            <div class="world-cup-filter-bar">
-              <button id="wcFilterAll" class="wc-filter-btn active" data-filter="all">ALL MATCHES</button>
-              <button id="wcFilterArgentina" class="wc-filter-btn" data-filter="argentina">ARGENTINA</button>
             </div>
             <div id="worldCupLoader" class="world-cup-loader">Loading match schedule...</div>
             <div id="worldCupSchedule" class="world-cup-schedule"></div>
