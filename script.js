@@ -10,15 +10,19 @@ const generateBtn         = document.getElementById('generateBtn');
 const tabReaderBtn        = document.getElementById('tabReaderBtn');
 const tabMarkdownBtn      = document.getElementById('tabMarkdownBtn');
 const tabArticlesBtn      = document.getElementById('tabArticlesBtn');
+const tabWorldCupBtn      = document.getElementById('tabWorldCupBtn');
 const stateEmpty          = document.getElementById('stateEmpty');
 const stateLoading        = document.getElementById('stateLoading');
 const loadingStatusText   = document.getElementById('loadingStatusText');
 const viewReader          = document.getElementById('viewReader');
 const viewMarkdown        = document.getElementById('viewMarkdown');
 const viewArticles        = document.getElementById('viewArticles');
+const viewWorldCup        = document.getElementById('viewWorldCup');
 const markdownTextarea    = document.getElementById('markdownTextarea');
 const articlesCountVal    = document.getElementById('articlesCountVal');
 const articlesList        = document.getElementById('articlesList');
+const worldCupArticles    = document.getElementById('worldCupArticles');
+const worldCupLoader      = document.getElementById('worldCupLoader');
 const copyMarkdownBtn     = document.getElementById('copyMarkdownBtn');
 const groundedTimeVal     = document.getElementById('groundedTimeVal');
 const sourcesList         = document.getElementById('sourcesList');
@@ -101,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Tab switching
-  [tabReaderBtn, tabMarkdownBtn, tabArticlesBtn].forEach(btn => {
+  [tabReaderBtn, tabMarkdownBtn, tabArticlesBtn, tabWorldCupBtn].forEach(btn => {
     btn.addEventListener('click', (e) => {
       switchTab(e.currentTarget.getAttribute('data-tab'));
     });
@@ -335,7 +339,7 @@ async function triggerBriefingGeneration() {
 function switchTab(tabName) {
   activeTab = tabName;
 
-  [tabReaderBtn, tabMarkdownBtn, tabArticlesBtn].forEach(btn => {
+  [tabReaderBtn, tabMarkdownBtn, tabArticlesBtn, tabWorldCupBtn].forEach(btn => {
     const isActive = btn.getAttribute('data-tab') === tabName;
     btn.classList.toggle('active', isActive);
     btn.setAttribute('aria-selected', isActive);
@@ -344,6 +348,9 @@ function switchTab(tabName) {
   viewReader.style.display   = (tabName === 'reader'   && currentBriefing) ? 'block' : 'none';
   viewMarkdown.style.display = (tabName === 'markdown' && currentBriefing) ? 'flex'  : 'none';
   viewArticles.style.display = (tabName === 'articles' && currentBriefing) ? 'block' : 'none';
+  viewWorldCup.style.display = (tabName === 'worldcup') ? 'flex' : 'none';
+
+  if (tabName === 'worldcup') fetchWorldCupNews();
 }
 
 // ─── LOADING STATE CONTROLLER ─────────────────────────────────
@@ -353,6 +360,7 @@ function setLoadingState(isLoading, statusText = '') {
     viewReader.style.display   = 'none';
     viewMarkdown.style.display = 'none';
     viewArticles.style.display = 'none';
+    viewWorldCup.style.display = 'none';
     stateLoading.style.display = 'flex';
     if (statusText) loadingStatusText.textContent = statusText;
     generateBtn.disabled = true;
@@ -547,6 +555,45 @@ function parseDate(str) {
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+// ─── WORLD CUP TAB ──────────────────────────────────────────────
+async function fetchWorldCupNews() {
+  worldCupLoader.style.display = 'block';
+  worldCupLoader.textContent = 'Loading World Cup news...';
+  worldCupArticles.innerHTML = '';
+
+  try {
+    const res = await fetch('/api/world-cup');
+    if (!res.ok) throw new Error('Failed to fetch');
+    const data = await res.json();
+
+    if (!data.articles || data.articles.length === 0) {
+      worldCupLoader.style.display = 'block';
+      worldCupLoader.textContent = 'No World Cup articles available at this time.';
+      return;
+    }
+
+    worldCupLoader.style.display = 'none';
+    worldCupArticles.innerHTML = data.articles.map(art => {
+      const pubDate = art.pubDate ? new Date(art.pubDate).toLocaleString('en-IN', {
+        hour: '2-digit', minute: '2-digit', day: 'numeric', month: 'short'
+      }) : '';
+      return `
+        <div class="world-cup-article-card">
+          <a href="${escapeHtml(art.link)}" target="_blank" rel="noopener noreferrer" class="world-cup-article-title">${escapeHtml(art.title)}</a>
+          <div class="world-cup-article-meta">
+            <span class="world-cup-article-source">${escapeHtml(art.sourceName)}</span>
+            ${pubDate ? `<span>${pubDate}</span>` : ''}
+          </div>
+        </div>
+      `;
+    }).join('');
+  } catch (err) {
+    console.error('World Cup fetch failed:', err);
+    worldCupLoader.style.display = 'block';
+    worldCupLoader.textContent = 'Failed to load World Cup news. Please try again.';
+  }
 }
 
 // ─── IMAGE MODAL ──────────────────────────────────────────────

@@ -1015,6 +1015,131 @@ body {
   border-color: var(--color-black);
 }
 
+/* ─── WORLD CUP TAB ──────────────────────────────────────────── */
+.world-cup-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  height: 100%;
+}
+
+.world-cup-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-shrink: 0;
+}
+
+.world-cup-title {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  color: var(--color-black);
+  letter-spacing: 1px;
+  margin-bottom: 0.15rem;
+}
+
+.world-cup-subtitle {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--color-dark-gray);
+  margin: 0;
+}
+
+.world-cup-visit-btn {
+  flex-shrink: 0;
+  min-height: 40px;
+  padding: 0.5rem 1rem;
+  font-size: 0.7rem;
+  text-decoration: none;
+}
+
+.world-cup-loader {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-dark-gray);
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+.world-cup-articles {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.world-cup-article-card {
+  background: var(--color-white);
+  border: 1.5px solid var(--color-light-gray);
+  border-radius: 3px;
+  padding: 0.9rem 1.1rem;
+  transition: var(--transition-fast);
+  position: relative;
+  overflow: hidden;
+}
+
+.world-cup-article-card::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background-color: var(--color-orange);
+  transition: width 0.15s ease;
+}
+
+.world-cup-article-card:hover {
+  border-color: var(--color-black);
+  box-shadow: 3px 3px 0px 0px var(--color-black);
+}
+
+.world-cup-article-card:hover::before {
+  width: 3px;
+}
+
+.world-cup-article-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.9rem;
+  color: var(--color-black);
+  text-decoration: none;
+  line-height: 1.4;
+  transition: var(--transition-fast);
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.world-cup-article-title:hover {
+  color: var(--color-orange);
+}
+
+.world-cup-article-meta {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--color-dark-gray);
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.world-cup-article-source {
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+.world-cup-empty {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-dark-gray);
+  padding: 2rem 0;
+  text-align: center;
+}
+
 /* ─── FILTERED ARTICLES FEED ─────────────────────────────── */
 .feed-articles-header {
   display: flex;
