@@ -13,6 +13,23 @@ import html
 import ssl
 import concurrent.futures
 
+from news_clustering import cluster_articles, rank_clusters, jaccard_similarity, normalize_title
+from news_summarizer import summarize_content, extract_why_it_matters
+
+# Manually load environment variables from .env file
+# This is done to avoid external dependencies like python-dotenv
+DOTENV_PATH = os.path.join(os.path.dirname(__file__), '.env')
+if os.path.exists(DOTENV_PATH):
+    with open(DOTENV_PATH, 'r') as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith('#'):
+                key, value = line.split('=', 1)
+                os.environ[key] = value.strip('"\'')
+# Global SSL context to handle potential SSL certification issues, especially on Windows.
+# Disables SSL certificate verification, which is not recommended for production in sensitive applications.
+ssl_context = ssl._create_unverified_context()
+
 # Set working directory to this file's folder to ensure static files and data are found
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
@@ -30,6 +47,8 @@ def load_dotenv():
 
 # Load local environment variables from .env if present
 load_dotenv()
+
+HF_API_TOKEN = os.environ.get('HF_API_TOKEN', '')
 
 def is_valid_api_key(key):
     if not key:
@@ -67,7 +86,10 @@ SOURCES = [
   { "id": "techcrunch", "name": "TechCrunch", "url": "https://techcrunch.com/feed/", "siteUrl": "https://techcrunch.com/" },
   { "id": "scroll", "name": "Scroll.in", "url": "https://feeds.feedburner.com/Scrollin", "siteUrl": "https://scroll.in/latest/" },
   { "id": "times-of-india", "name": "Times of India", "url": "https://timesofindia.indiatimes.com/rssfeedstopstories.cms", "siteUrl": "https://timesofindia.indiatimes.com/" },
-  { "id": "vox", "name": "Vox", "url": "https://www.vox.com/rss/index.xml", "siteUrl": "https://www.vox.com/" }
+  { "id": "vox", "name": "Vox", "url": "https://www.vox.com/rss/index.xml", "siteUrl": "https://www.vox.com/" },
+  { "id": "cnn", "name": "CNN", "url": "https://rss.cnn.com/rss/cnn_topstories.rss", "siteUrl": "https://edition.cnn.com/" },
+  { "id": "reuters", "name": "Reuters", "url": "https://news.google.com/rss/search?q=when:24h+allinurl:reuters.com&ceid=US:en&hl=en-US&gl=US", "siteUrl": "https://www.reuters.com/" },
+  { "id": "bloomberg", "name": "Bloomberg", "url": "https://feeds.bloomberg.com/markets/news.rss", "siteUrl": "https://www.bloomberg.com/asia" }
 ]
 
 CATEGORIES = [
@@ -84,6 +106,8 @@ def decode_google_news_url(url):
         if not match:
             return url
         encoded_str = match.group(1)
+        # Replace URL-safe base64 characters and ensure correct padding
+        encoded_str = encoded_str.replace('-', '+').replace('_', '/')
         padding = len(encoded_str) % 4
         if padding:
             encoded_str += '=' * (4 - padding)
@@ -383,7 +407,30 @@ def filter_by_category(articles, category):
     return filtered
 
 
-def compile_mock_briefing(category, articles, grounded_time_str):
+def get_pub_time(art):
+    dt = parse_date(art.get('pubDate', ''))
+    return dt.timestamp() if dt else 0
+
+
+def _dedup_articles_by_similarity(articles, threshold=0.4):
+    if not articles:
+        return []
+    deduped = []
+    seen_tokens = []
+    for art in articles:
+        tokens, _ = normalize_title(art.get('title', ''))
+        is_dup = False
+        for existing in seen_tokens:
+            if jaccard_similarity(tokens, existing) >= threshold:
+                is_dup = True
+                break
+        if not is_dup:
+            seen_tokens.append(tokens)
+            deduped.append(art)
+    return deduped
+
+
+def generate_briefing_text(category, articles, grounded_time_str):
     parsed_gdt = parse_iso(grounded_time_str)
     if parsed_gdt:
         ist_tz = timezone(timedelta(hours=5, minutes=30))
@@ -402,7 +449,7 @@ def compile_mock_briefing(category, articles, grounded_time_str):
 # Today's Top Stories
 
 - **Summarizer Standby**
-  The summarizer is scanning all 9 verified feeds.
+  The summarizer is scanning all {len(SOURCES)} verified feeds.
   *Why it matters:* Feed updates are continuously monitored.
 
 # Category Breakdown
@@ -413,36 +460,71 @@ def compile_mock_briefing(category, articles, grounded_time_str):
 # Quick Hits
 - Scan completed. Feeds active."""
 
-    # Headline (top 8 — full content, no truncation)
+    clusters = cluster_articles(articles)
+    ranked = rank_clusters(clusters)
+
+    all_ranked_articles = []
+    for cluster in ranked:
+        for art in cluster["articles"]:
+            all_ranked_articles.append(art)
+
+    already_seen_urls = set()
+    ranked_deduped = []
+    for art in all_ranked_articles:
+        key = art.get('link') or art.get('title', '')
+        if key not in already_seen_urls:
+            already_seen_urls.add(key)
+            ranked_deduped.append(art)
+
+    ranked_deduped.sort(key=get_pub_time, reverse=True)
+
+    headline_articles = ranked_deduped[:3]
+    headline_ids = set(id(a) for a in headline_articles)
+
+    top_candidates = []
+    if ranked:
+        for cluster in ranked:
+            for art in cluster["articles"]:
+                if id(art) not in headline_ids:
+                    top_candidates.append(art)
+                    if len(top_candidates) >= 3:
+                        break
+            if len(top_candidates) >= 3:
+                break
+
+    if not top_candidates:
+        top_candidates = [a for a in ranked_deduped if id(a) not in headline_ids][:3]
+
+    top_story_articles = top_candidates[:3]
+    top_ids = set(id(a) for a in top_story_articles)
+
+    remaining = [a for a in ranked_deduped if id(a) not in headline_ids and id(a) not in top_ids]
+
+    def make_article_bullet(art, detail_level="brief"):
+        raw_content = art.get('content', '') or ''
+        cleaned = clean_content(raw_content)
+        brief = summarize_content(cleaned, art.get('title', ''), ssl_context, HF_API_TOKEN)
+        link = art.get('link', '')
+        source = art.get('sourceName', '')
+        if detail_level == "brief":
+            return f"- **{art.get('title', '')}** ([{source}]({link}))\n  {brief}"
+        else:
+            why = extract_why_it_matters(raw_content, art.get('title', ''))
+            if why:
+                return f"- **{art.get('title', '')}** ([{source}]({link}))\n  {brief}\n  *Why it matters:* {why}"
+            else:
+                return f"- **{art.get('title', '')}** ([{source}]({link}))\n  {brief}"
+
     headline_bullets = []
-    for a in articles[:8]:
-        content = clean_content(a['content'])
-        link    = a['link']
-        source  = a['sourceName']
-        if not content:
-            content = f"This breaking report from {source} covers a significant development. Read the full article for complete details and context."
-        headline_bullets.append(
-            f"- **{a['title']}** ([{source}]({link}))\n"
-            f"  {content}"
-        )
-    headline_text = "\n\n".join(headline_bullets)
+    for a in headline_articles[:3]:
+        headline_bullets.append(make_article_bullet(a, "brief"))
+    headline_text = "\n\n".join(headline_bullets) if headline_bullets else "- No critical headlines at this moment."
 
-    # Top Stories (top 3 — full content, no truncation)
-    top_stories_bullets = []
-    for a in articles[:3]:
-        content = clean_content(a['content'])
-        link    = a['link']
-        source  = a['sourceName']
-        if not content:
-            content = f"This developing story from {source} represents a key update that has emerged in the current news cycle. Full details are available in the linked report."
-        top_stories_bullets.append(
-            f"- **{a['title']}** ([{source}]({link}))\n"
-            f"  {content}\n"
-            f"  *Why it matters:* This story from {source} is significant because it reflects a major development in its domain that warrants close attention from decision-makers and informed observers."
-        )
-    top_stories_text = "\n\n".join(top_stories_bullets)
+    top_bullets = []
+    for a in top_story_articles[:3]:
+        top_bullets.append(make_article_bullet(a, "detailed"))
+    top_stories_text = "\n\n".join(top_bullets) if top_bullets else "- No top stories identified for this session."
 
-    # Category Breakdown
     cat_names = [
         "Business, Markets & Economy",
         "Technology & Innovation",
@@ -455,22 +537,19 @@ def compile_mock_briefing(category, articles, grounded_time_str):
     ]
 
     cat_keywords = {
-        "Business, Markets & Economy": ['stock', 'stocks', 'market', 'markets', 'economy', 'economic', 'rate', 'rates', 'inflation', 'gdp', 'm&a', 'merger', 'mergers', 'earnings', 'fed', 'layoff', 'layoffs', 'funding', 'ipo', 'crypto', 'shares', 'gold', 'oil', 'price', 'prices', 'billion', 'million', 'deal', 'finance', 'fiscal', 'revenue', 'profit', 'losses', 'securities', 'dividend'],
-        "Technology & Innovation": ['tech', 'technology', 'ai', 'artificial intelligence', 'openai', 'microsoft', 'google', 'quantum', 'chip', 'chips', 'semiconductor', 'broadcom', 'nvidia', 'robot', 'robotics', 'robotaxi', 'zoox', 'cybersecurity', 'software', 'hardware', 'launch', 'phone', 'specs', 'developer', 'gadget', 'gadgets', 'app', 'apps', 'startup', 'startups', 'apple', 'meta', 'amazon'],
-        "Geopolitics & World News": ['treaty', 'treaties', 'summit', 'diplomacy', 'diplomatic', 'military', 'defense', 'election', 'elections', 'border', 'alliance', 'nato', 'un', 'foreign', 'conflict', 'war', 'naval', 'army', 'airspace', 'pakistan', 'pakistani', 'border breach', 'biden', 'putin', 'sanctions', 'foreign policy'],
-        "Domestic Politics & Governance": ['law', 'laws', 'tax', 'taxes', 'policy', 'polling', 'debate', 'debates', 'vote', 'votes', 'voting', 'court', 'courts', 'ruling', 'rulings', 'trial', 'trials', 'senate', 'parliament', 'government', 'bill', 'supreme court', 'judge', 'judges', 'inspection', 'inspections', 'audit', 'audits', 'safety inspector', 'fire safety', 'authorities', 'police', 'arrest', 'arrests', 'arrested', 'compliance', 'compliant', 'non-compliant', 'sealing', 'sealed'],
-        "Science, Health & Environment": ['weather', 'rain', 'monsoon', 'flood', 'flooding', 'storm', 'cyclone', 'climate', 'green energy', 'treatments', 'fda', 'healthcare', 'space', 'nasa', 'science', 'scientific', 'discovery', 'planet', 'mars', 'earth', 'warming', 'earthquake', 'earthquakes', 'tsunami', 'seismic', 'temblor', 'magnitude', 'disaster', 'outbreak', 'virus', 'medical', 'doctor'],
-        "Sports": ['match', 'world cup', 'score', 'game', 'games', 'stokes', 'root', 'england', 'cricket', 'football', 'soccer', 'player', 'players', 'transfer', 'injury', 'league', 'tennis', 'olympics', 'olympic', 'athlete', 'athletes', 'championship', 'tournament', 'wimbledon', 'final', 'semi-final', 'win', 'won', 'defeat', 'lost', 'cup'],
-        "Culture, Entertainment & Arts": ['film', 'movie', 'box office', 'award', 'show', 'shows', 'album', 'song', 'songs', 'music', 'tour', 'tours', 'gaming', 'studio', 'esports', 'actor', 'actress', 'artist'],
-        "Lifestyle & Society": ['city', 'transit', 'bus', 'train', 'subway', 'metro', 'real estate', 'remote work', 'labor', 'union', 'unions', 'travel', 'disruption', 'hospitality', 'hotel', 'strike', 'strikes', 'housing', 'crash', 'derailment', 'derailed', 'accident', 'accidents', 'collision', 'collapsing', 'collapsed', 'aviation', 'airport', 'taxiway', 'runway', 'passenger jet']
+        "Business, Markets & Economy": ['stock', 'stocks', 'market', 'markets', 'economy', 'economic', 'rate', 'rates', 'inflation', 'gdp', 'm&a', 'merger', 'earnings', 'fed', 'layoff', 'crypto', 'shares', 'gold', 'oil', 'billion', 'deal', 'finance'],
+        "Technology & Innovation": ['tech', 'technology', 'ai', 'artificial intelligence', 'openai', 'microsoft', 'google', 'quantum', 'chip', 'nvidia', 'robot', 'cybersecurity', 'software', 'apple', 'meta', 'amazon'],
+        "Geopolitics & World News": ['treaty', 'summit', 'diplomacy', 'military', 'defense', 'election', 'border', 'nato', 'conflict', 'war', 'putin', 'biden', 'sanctions'],
+        "Domestic Politics & Governance": ['law', 'tax', 'policy', 'vote', 'court', 'parliament', 'government', 'bill', 'supreme court', 'police', 'arrest'],
+        "Science, Health & Environment": ['weather', 'rain', 'flood', 'storm', 'cyclone', 'climate', 'fda', 'healthcare', 'nasa', 'science', 'earthquake', 'tsunami', 'virus'],
+        "Sports": ['match', 'world cup', 'score', 'cricket', 'football', 'player', 'tennis', 'olympics', 'championship', 'tournament'],
+        "Culture, Entertainment & Arts": ['film', 'movie', 'box office', 'award', 'album', 'music', 'gaming'],
+        "Lifestyle & Society": ['travel', 'real estate', 'labor', 'union', 'housing', 'crash', 'accident', 'aviation', 'airport']
     }
 
     cat_grouped = {name: [] for name in cat_names}
-
-    # Use all remaining articles (not capped at 15) so categories can have 5-10 items
-    remaining = articles[3:]
     for a in remaining:
-        text = (a['title'] + " " + a['content']).lower()
+        text = (a.get('title', '') + " " + (a.get('content', '') or '')).lower()
         matched = False
         for cat_name in cat_names:
             kws = cat_keywords.get(cat_name, [])
@@ -481,35 +560,30 @@ def compile_mock_briefing(category, articles, grounded_time_str):
         if not matched:
             cat_grouped["Lifestyle & Society"].append(a)
 
+    for cat_name in cat_names:
+        cat_grouped[cat_name] = _dedup_articles_by_similarity(cat_grouped[cat_name])
+
     breakdown_bullets = []
     for cat_name in cat_names:
         arts = cat_grouped[cat_name]
         if arts:
             breakdown_bullets.append(f"### {cat_name}")
             list_items = []
-            for a in arts[:10]:
-                content = clean_content(a['content'])
-                link    = a['link']
-                source  = a['sourceName']
-                if not content:
-                    content = f"A developing report from {source} on this topic. See the full article for complete coverage."
-                list_items.append(
-                    f"- **{a['title']}** ([{source}]({link}))\n"
-                    f"  {content}"
-                )
+            for a in arts[:8]:
+                list_items.append(make_article_bullet(a, "brief"))
             breakdown_bullets.append("\n\n".join(list_items))
 
     breakdown_text = "\n\n".join(breakdown_bullets) if breakdown_bullets else "### SYSTEM STATUS\n- All sectors active and scanned."
 
-    # Quick Hits (last 6 articles, full titles + links)
     quick_hits = []
-    for a in articles[-6:]:
-        link    = a['link']
-        source  = a['sourceName']
-        quick_hits.append(f"- **{a['title']}** ([{source}]({link}))")
-    quick_hits_text = "\n".join(quick_hits)
+    quick_source = remaining[-6:] if len(remaining) > 6 else remaining
+    for a in quick_source:
+        link = a.get('link', '')
+        source = a.get('sourceName', '')
+        quick_hits.append(f"- **{a.get('title', '')}** ([{source}]({link}))")
+    quick_hits_text = "\n".join(quick_hits) if quick_hits else "- No additional stories in this cycle."
 
-    brief_text = f"""Live Briefing for: {formatted_date}
+    return f"""Live Briefing for: {formatted_date}
 
 # The Headline
 
@@ -526,8 +600,6 @@ def compile_mock_briefing(category, articles, grounded_time_str):
 # Quick Hits
 
 {quick_hits_text}"""
-
-    return brief_text
 
 def call_gemini(api_key, system_prompt, articles_text):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
@@ -676,14 +748,14 @@ def seed_briefs():
 # Today's Top Stories
 
 - **Daily Summarizer Active**
-  The summarizer is operational and tracking 9 verified news feeds.
+  The summarizer is operational and tracking 11 verified news feeds.
   *Why it matters:* Provides highly scannable, zero-fluff news briefs on demand.
 
 # Category Breakdown
 
 ### SYSTEM STATUS
 - Sector {cat.upper()} is active.
-- Tracking feeds: BBC, Google News, Indian Express, The Print, The Guardian, TechCrunch, Scroll.in, Times of India, Vox.
+- Tracking feeds: BBC, CNN, Reuters, Bloomberg, Google News, Indian Express, The Print, The Guardian, TechCrunch, Scroll.in, Times of India, Vox.
 
 # Quick Hits
 - System version 2.0 active.
@@ -791,8 +863,8 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                 else:
                     formatted_date = grounded_time
 
-                if not api_key or len(filtered_articles) == 0:
-                    brief_text = compile_mock_briefing(category, filtered_articles, grounded_time)
+                if not api_key:
+                    brief_text = generate_briefing_text(category, filtered_articles, grounded_time)
                 else:
                     try:
                         articles_text_list = []
@@ -813,8 +885,8 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
 
                         brief_text = call_gemini(api_key, system_prompt, prompt)
                     except Exception as gemini_err:
-                        print(f"Gemini API failed: {gemini_err}. Falling back to mock compiler.")
-                        brief_text = compile_mock_briefing(category, filtered_articles, grounded_time)
+                        print(f"Gemini API failed: {gemini_err}. Falling back to clustering + HF pipeline.")
+                        brief_text = generate_briefing_text(category, filtered_articles, grounded_time)
 
                 live_briefing_header = f"Live Briefing for: {formatted_date}"
                 if re.search(r'^Live Briefing for:.*$', brief_text, re.MULTILINE):
