@@ -214,9 +214,9 @@ body {
 .sidebar-section {
   padding: 1rem 1.25rem 1rem;
   transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
-  max-height: 1000px; /* Arbitrary large number for transition */
+  max-height: 1000px;
   opacity: 1;
-  overflow: hidden;
+  overflow-y: auto;
 }
 
 .sidebar-section.collapsed {
@@ -224,6 +224,7 @@ body {
   padding-top: 0;
   padding-bottom: 0;
   opacity: 0;
+  overflow: hidden;
 }
 
 .sidebar-section-title {
