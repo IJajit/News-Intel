@@ -108,7 +108,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0;
-  overflow: hidden;
+  overflow-y: auto;
   position: relative;
 }
 
@@ -133,10 +133,11 @@ body {
 }
 
 .sidebar-additional-elements {
-  padding: 1rem 1.25rem;
+  padding: 1rem 1.25rem 1.25rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  flex-shrink: 0;
 }
 
 .sidebar-section-header {
@@ -218,8 +219,6 @@ body {
   opacity: 1;
   overflow-y: auto;
   background: var(--color-white);
-  position: relative;
-  z-index: 1;
 }
 
 .sidebar-section.collapsed {
@@ -1151,7 +1150,7 @@ body {
   .sidebar {
     border-right: none;
     border-bottom: 2px solid var(--color-black);
-    overflow: hidden;
+    overflow-y: auto;
   }
 
   .top-metadata-bar {
@@ -1171,6 +1170,65 @@ body {
 
   .workspace-area { padding: 0.85rem; }
   .content-frame { padding: 1.25rem; }
+}
+
+/* ─── IMAGE LIGHTBOX MODAL ────────────────────────────────── */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+}
+
+.modal-overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1.25rem;
+  background: none;
+  border: none;
+  color: var(--color-white);
+  cursor: pointer;
+  padding: 0.35rem;
+  line-height: 1;
+  z-index: 10001;
+  transition: color 0.15s ease;
+}
+
+.modal-close-btn svg {
+  display: block;
+}
+
+.modal-close-btn:hover {
+  color: var(--color-orange);
+}
+
+.modal-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+.modal-image-container img {
+  max-width: 100%;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 3px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
 /* Keyboard Focus Rings */

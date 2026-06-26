@@ -25,6 +25,9 @@ const sourcesList         = document.getElementById('sourcesList');
 const toggleFeedsBtn      = document.getElementById('toggleFeedsBtn');
 const feedsWrapper        = document.getElementById('feedsWrapper');
 const sidebarAdditional   = document.getElementById('sidebarAdditional');
+const imageModal          = document.getElementById('imageModal');
+const modalCloseBtn       = document.getElementById('modalCloseBtn');
+const modalImage          = document.getElementById('modalImage');
 const wikiDykCard         = document.getElementById('wikiDykCard');
 const wikiDykText         = document.getElementById('wikiDykText');
 const wikiDykLink         = document.getElementById('wikiDykLink');
@@ -102,6 +105,21 @@ document.addEventListener('DOMContentLoaded', () => {
     btn.addEventListener('click', (e) => {
       switchTab(e.currentTarget.getAttribute('data-tab'));
     });
+  });
+
+  // Image modal - close on X or backdrop click
+  modalCloseBtn.addEventListener('click', closeImageModal);
+  imageModal.addEventListener('click', (e) => {
+    if (e.target === imageModal) closeImageModal();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && imageModal.classList.contains('open')) closeImageModal();
+  });
+
+  // Click delegation for briefing images
+  viewReader.addEventListener('click', (e) => {
+    const img = e.target.closest('.briefing-image');
+    if (img) openImageModal(img.src, img.alt);
   });
 });
 
@@ -181,39 +199,60 @@ async function fetchSources() {
 
 // ─── FETCH WIKIPEDIA FACTS ──────────────────────────────────
 async function fetchWikiIntel() {
-  try {
-    const res = await fetch(
-      'https://en.wikipedia.org/w/api.php?action=parse&page=Main_Page&prop=text&format=json&origin=*'
-    );
-    if (!res.ok) throw new Error('Wiki fetch failed');
-    const data = await res.json();
-    const html = data.parse.text['*'];
+  const fallbackDyk = 'Wikipedia is a free, collaborative encyclopedia written by volunteers worldwide.';
+  const fallbackOtd = 'On this day in history — explore Wikipedia to discover what happened today.';
+  const wikiUrl = 'https://en.wikipedia.org/wiki/Main_Page';
 
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(html, 'text/html');
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try {
+      const res = await fetch(
+        'https://en.wikipedia.org/w/api.php?action=parse&page=Main_Page&prop=text&format=json&origin=*'
+      );
+      if (!res.ok) throw new Error('Wiki fetch failed');
+      const data = await res.json();
+      const html = data.parse.text['*'];
 
-    const dykList = doc.querySelector('#mp-dyk ul');
-    const dykItems = dykList ? [...dykList.querySelectorAll('li')].filter(li => li.querySelector('a')) : [];
-    if (dykItems.length > 0) {
-      const pick = dykItems[Math.floor(Math.random() * dykItems.length)];
-      wikiDykText.textContent = pick.textContent.trim();
-      const link = pick.querySelector('a');
-      wikiDykLink.href = 'https://en.wikipedia.org' + link.getAttribute('href');
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(html, 'text/html');
+
+      const dykList = doc.querySelector('#mp-dyk ul');
+      const dykItems = dykList ? [...dykList.querySelectorAll('li')].filter(li => li.querySelector('a')) : [];
+      if (dykItems.length > 0) {
+        const pick = dykItems[Math.floor(Math.random() * dykItems.length)];
+        wikiDykText.textContent = pick.textContent.trim();
+        const link = pick.querySelector('a');
+        wikiDykLink.href = 'https://en.wikipedia.org' + link.getAttribute('href');
+      } else {
+        wikiDykText.textContent = fallbackDyk;
+        wikiDykLink.href = wikiUrl;
+      }
       wikiDykCard.style.display = 'flex';
-    }
 
-    const otdList = doc.querySelector('#mp-otd ul');
-    const otdItems = otdList ? [...otdList.querySelectorAll('li')].filter(li => li.querySelector('a')) : [];
-    if (otdItems.length > 0) {
-      const pick = otdItems[Math.floor(Math.random() * otdItems.length)];
-      wikiOtdText.textContent = pick.textContent.trim();
-      const link = pick.querySelector('a');
-      wikiOtdLink.href = 'https://en.wikipedia.org' + link.getAttribute('href');
+      const otdList = doc.querySelector('#mp-otd ul');
+      const otdItems = otdList ? [...otdList.querySelectorAll('li')].filter(li => li.querySelector('a')) : [];
+      if (otdItems.length > 0) {
+        const pick = otdItems[Math.floor(Math.random() * otdItems.length)];
+        wikiOtdText.textContent = pick.textContent.trim();
+        const link = pick.querySelector('a');
+        wikiOtdLink.href = 'https://en.wikipedia.org' + link.getAttribute('href');
+      } else {
+        wikiOtdText.textContent = fallbackOtd;
+        wikiOtdLink.href = wikiUrl;
+      }
       wikiOtdCard.style.display = 'flex';
+      return;
+    } catch (err) {
+      console.error('Wiki sidebar facts attempt ' + (attempt + 1) + ' failed:', err);
     }
-  } catch (err) {
-    console.error('Wiki sidebar facts failed:', err);
   }
+
+  // Fallback: show cards with generic content
+  wikiDykText.textContent = fallbackDyk;
+  wikiDykLink.href = wikiUrl;
+  wikiDykCard.style.display = 'flex';
+  wikiOtdText.textContent = fallbackOtd;
+  wikiOtdLink.href = wikiUrl;
+  wikiOtdCard.style.display = 'flex';
 }
 
 // ─── LOAD LATEST BRIEF ────────────────────────────────────────
@@ -432,6 +471,11 @@ function parseMarkdownToHtml(markdown) {
       /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g,
       '<a href="$2" target="_blank" rel="noopener noreferrer" class="briefing-link">$1</a>'
     );
+    // Markdown images: ![alt](url)
+    out = out.replace(
+      /!\[([^\]]*)\]\((https?:\/\/[^)\s]+)\)/g,
+      '<img src="$2" alt="$1" class="briefing-image" loading="lazy">'
+    );
     return out;
   }
 
@@ -503,6 +547,20 @@ function parseDate(str) {
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+// ─── IMAGE MODAL ──────────────────────────────────────────────
+function openImageModal(src, alt) {
+  modalImage.src = src;
+  modalImage.alt = alt || '';
+  imageModal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeImageModal() {
+  imageModal.classList.remove('open');
+  document.body.style.overflow = '';
+  modalImage.src = '';
 }
 
 // ─── TOAST NOTIFICATIONS ──────────────────────────────────────
