@@ -357,6 +357,8 @@ function switchTab(tabName) {
   if (tabName === 'worldcup') {
     stateEmpty.style.display = 'none';
     fetchWorldCupSchedule();
+  } else if (!currentBriefing) {
+    stateEmpty.style.display = 'flex';
   }
 }
 
