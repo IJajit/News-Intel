@@ -241,11 +241,10 @@ async function loadLatestBrief(category) {
     currentBriefing = brief;
 
     renderBriefing(brief);
-    switchTab('reader');
+    switchTab(activeTab);
   } catch (err) {
     console.error('Error loading latest brief:', err);
     currentBriefing = null;
-    setLoadingState(false);
   } finally {
     setLoadingState(false);
   }

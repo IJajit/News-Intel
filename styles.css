@@ -1351,10 +1351,6 @@ body {
   background: var(--color-off-white);
 }
 
-.wc-arg-row:first-child {
-  border-top: 1px solid var(--color-light-gray);
-}
-
 .wc-arg-date {
   font-family: var(--font-mono);
   font-size: 0.62rem;
