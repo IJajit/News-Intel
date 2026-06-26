@@ -160,6 +160,21 @@ body {
   min-height: 24px;
 }
 
+.toggle-btn.icon-btn {
+  padding: 0.15rem 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chevron-icon {
+  transition: transform 0.25s ease;
+}
+
+.toggle-btn.collapsed .chevron-icon {
+  transform: rotate(-90deg);
+}
+
 .toggle-btn:hover {
   color: var(--color-black);
   border-color: var(--color-black);
@@ -194,6 +209,17 @@ body {
 
 .sidebar-section {
   padding: 1rem 1.25rem 1rem;
+  transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
+  max-height: 1000px; /* Arbitrary large number for transition */
+  opacity: 1;
+  overflow: hidden;
+}
+
+.sidebar-section.collapsed {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  opacity: 0;
 }
 
 .sidebar-section-title {

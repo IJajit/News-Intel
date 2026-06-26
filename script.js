@@ -22,6 +22,8 @@ const articlesList        = document.getElementById('articlesList');
 const copyMarkdownBtn     = document.getElementById('copyMarkdownBtn');
 const groundedTimeVal     = document.getElementById('groundedTimeVal');
 const sourcesList         = document.getElementById('sourcesList');
+const toggleFeedsBtn      = document.getElementById('toggleFeedsBtn');
+const feedsWrapper        = document.getElementById('feedsWrapper');
 
 // ─── APP STATE ────────────────────────────────────────────────
 let apiKey          = '';
@@ -76,6 +78,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   generateBtn.addEventListener('click', triggerBriefingGeneration);
   copyMarkdownBtn.addEventListener('click', copyMarkdownToClipboard);
+
+  // Sidebar toggle
+  toggleFeedsBtn.addEventListener('click', () => {
+    const isExpanded = toggleFeedsBtn.getAttribute('aria-expanded') === 'true';
+    toggleFeedsBtn.setAttribute('aria-expanded', !isExpanded);
+    toggleFeedsBtn.classList.toggle('collapsed', isExpanded);
+    feedsWrapper.classList.toggle('collapsed', isExpanded);
+  });
 
   // Tab switching
   [tabReaderBtn, tabMarkdownBtn, tabArticlesBtn].forEach(btn => {
