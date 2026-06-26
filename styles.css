@@ -1294,6 +1294,7 @@ body {
 .wc-prev-list.open {
   max-height: 2000px;
   opacity: 1;
+  overflow-y: auto;
 }
 
 .wc-prev-row {
