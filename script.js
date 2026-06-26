@@ -24,6 +24,7 @@ const groundedTimeVal     = document.getElementById('groundedTimeVal');
 const sourcesList         = document.getElementById('sourcesList');
 const toggleFeedsBtn      = document.getElementById('toggleFeedsBtn');
 const feedsWrapper        = document.getElementById('feedsWrapper');
+const sidebarAdditional   = document.getElementById('sidebarAdditional');
 const wikiDykCard         = document.getElementById('wikiDykCard');
 const wikiDykText         = document.getElementById('wikiDykText');
 const wikiDykLink         = document.getElementById('wikiDykLink');
@@ -94,6 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
     toggleFeedsBtn.setAttribute('aria-expanded', !isExpanded);
     toggleFeedsBtn.classList.toggle('collapsed', isExpanded);
     feedsWrapper.classList.toggle('collapsed', isExpanded);
+    sidebarAdditional.classList.toggle('collapsed', isExpanded);
   });
 
   // Tab switching
