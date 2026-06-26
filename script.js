@@ -70,8 +70,10 @@ document.addEventListener('DOMContentLoaded', () => {
   // Load sources into sidebar
   fetchSources();
 
-  // Load default briefing
-  loadLatestBrief(activeCategory);
+  // Load default briefing then auto-generate fresh one
+  loadLatestBrief(activeCategory).then(() => {
+    setTimeout(() => triggerBriefingGeneration(), 800);
+  });
 
   // Load Wikipedia sidebar facts
   fetchWikiIntel();
@@ -650,7 +652,8 @@ function renderAllMatches(data) {
           const d = g.date;
           const dayLabel = d.toLocaleDateString('en-IN', { weekday: 'short', day: 'numeric', month: 'short' });
           return g.matches.map(m => {
-            const score = (m.status === 'Full Time' || m.status === 'Finished') ? `${m.score1}-${m.score2}` : '–';
+            const isFinished = m.status === 'Full Time' || m.status === 'Finished';
+            const score = isFinished ? `${m.score1}-${m.score2}` : '–';
             return `
               <div class="wc-prev-row">
                 <span class="wc-prev-date">${dayLabel}</span>
@@ -693,13 +696,13 @@ function renderAllMatches(data) {
 
           let scoreClass = 'wc-score scheduled';
           let scoreDisplay = matchTime;
-          if (m.status === 'In Progress') {
+          const isFinished = m.status === 'Full Time' || m.status === 'Finished';
+          const isLive = !isFinished && m.status !== 'Scheduled' && m.score1 !== '' && m.score2 !== '';
+          if (isLive) {
             scoreClass = 'wc-score live';
             scoreDisplay = `${m.score1} - ${m.score2}`;
-          } else if (m.status === 'Full Time' || m.status === 'Finished') {
+          } else if (isFinished) {
             scoreClass = 'wc-score';
-            scoreDisplay = `${m.score1} - ${m.score2}`;
-          } else if (m.score1 !== '' && m.score1 !== '0') {
             scoreDisplay = `${m.score1} - ${m.score2}`;
           }
 
@@ -749,13 +752,13 @@ function renderArgentinaTimeline(data) {
 
         let scoreClass = 'wc-arg-score scheduled';
         let scoreDisplay = matchTime;
-        if (m.status === 'In Progress') {
+        const isFinished = m.status === 'Full Time' || m.status === 'Finished';
+        const isLive = !isFinished && m.status !== 'Scheduled' && m.score1 !== '' && m.score2 !== '';
+        if (isLive) {
           scoreClass = 'wc-arg-score live';
           scoreDisplay = `${m.score1} - ${m.score2}`;
-        } else if (m.status === 'Full Time' || m.status === 'Finished') {
+        } else if (isFinished) {
           scoreClass = 'wc-arg-score';
-          scoreDisplay = `${m.score1} - ${m.score2}`;
-        } else if (m.score1 !== '' && m.score1 !== '0') {
           scoreDisplay = `${m.score1} - ${m.score2}`;
         }
 
