@@ -157,15 +157,11 @@ async function checkServerConfig() {
 function startGroundedClock() {
   const updateClock = () => {
     const now = new Date();
-    groundedTimeVal.textContent = now.toLocaleString('en-IN', {
-      day:          '2-digit',
-      month:        'short',
-      year:         'numeric',
-      hour:         '2-digit',
-      minute:       '2-digit',
-      second:       '2-digit',
-      hour12:       true,
-      timeZoneName: 'short'
+    groundedTimeVal.textContent = now.toLocaleTimeString('en-IN', {
+      hour: '2-digit',
+      minute: '2-digit',
+      second: '2-digit',
+      hour12: false
     });
   };
   updateClock();
@@ -176,15 +172,11 @@ function stopGroundedClock(frozenTime) {
   if (localClockTimer) clearInterval(localClockTimer);
   localClockTimer = null;
   if (frozenTime) {
-    groundedTimeVal.textContent = new Date(frozenTime).toLocaleString('en-IN', {
-      day:          '2-digit',
-      month:        'short',
-      year:         'numeric',
-      hour:         '2-digit',
-      minute:       '2-digit',
-      second:       '2-digit',
-      hour12:       true,
-      timeZoneName: 'short'
+    groundedTimeVal.textContent = new Date(frozenTime).toLocaleTimeString('en-IN', {
+      hour: '2-digit',
+      minute: '2-digit',
+      second: '2-digit',
+      hour12: false
     });
   }
 }

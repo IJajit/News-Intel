@@ -509,6 +509,15 @@ body {
   border-right: none;
 }
 
+.metadata-col.time-col {
+  align-items: center;
+}
+
+.metadata-col.time-col .meta-val {
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
 .meta-label {
   font-family: var(--font-mono);
   font-size: 0.6rem;
@@ -1022,7 +1031,7 @@ body {
 .world-cup-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 0.75rem;
   flex-shrink: 0;
 }
@@ -1456,7 +1465,7 @@ body {
 .feed-articles-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin-bottom: 1.25rem;
   gap: 1rem;
 }
