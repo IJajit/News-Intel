@@ -24,6 +24,7 @@ const groundedTimeVal     = document.getElementById('groundedTimeVal');
 const sourcesList         = document.getElementById('sourcesList');
 const toggleFeedsBtn      = document.getElementById('toggleFeedsBtn');
 const feedsWrapper        = document.getElementById('feedsWrapper');
+const viewRm              = document.getElementById('viewRm');
 const wikiDykCard         = document.getElementById('wikiDykCard');
 const wikiDykText         = document.getElementById('wikiDykText');
 const wikiDykLink         = document.getElementById('wikiDykLink');
@@ -67,6 +68,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Load Wikipedia sidebar facts
   fetchWikiIntel();
+
+  // Add RM button event listener
+  document.getElementById('tabRmBtn').addEventListener('click', () => {
+    switchTab('rm');
+  });
 
   // ─── EVENT LISTENERS ──────────────────────────────────────
   apiKeyInput.addEventListener('input', (e) => {
@@ -306,6 +312,7 @@ function switchTab(tabName) {
   viewReader.style.display   = (tabName === 'reader'   && currentBriefing) ? 'block' : 'none';
   viewMarkdown.style.display = (tabName === 'markdown' && currentBriefing) ? 'flex'  : 'none';
   viewArticles.style.display = (tabName === 'articles' && currentBriefing) ? 'block' : 'none';
+  viewRm.style.display       = (tabName === 'rm'       && currentBriefing) ? 'flex'  : 'none';
 }
 
 // ─── LOADING STATE CONTROLLER ─────────────────────────────────
