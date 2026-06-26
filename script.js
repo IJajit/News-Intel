@@ -24,6 +24,12 @@ const groundedTimeVal     = document.getElementById('groundedTimeVal');
 const sourcesList         = document.getElementById('sourcesList');
 const toggleFeedsBtn      = document.getElementById('toggleFeedsBtn');
 const feedsWrapper        = document.getElementById('feedsWrapper');
+const wikiDykCard         = document.getElementById('wikiDykCard');
+const wikiDykText         = document.getElementById('wikiDykText');
+const wikiDykLink         = document.getElementById('wikiDykLink');
+const wikiOtdCard         = document.getElementById('wikiOtdCard');
+const wikiOtdText         = document.getElementById('wikiOtdText');
+const wikiOtdLink         = document.getElementById('wikiOtdLink');
 
 // ─── APP STATE ────────────────────────────────────────────────
 let apiKey          = '';
@@ -58,6 +64,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Load default briefing
   loadLatestBrief(activeCategory);
+
+  // Load Wikipedia sidebar facts
+  fetchWikiIntel();
 
   // ─── EVENT LISTENERS ──────────────────────────────────────
   apiKeyInput.addEventListener('input', (e) => {
@@ -169,6 +178,43 @@ async function fetchSources() {
   }
 }
 
+// ─── FETCH WIKIPEDIA FACTS ──────────────────────────────────
+async function fetchWikiIntel() {
+  try {
+    const res = await fetch(
+      'https://en.wikipedia.org/w/api.php?action=parse&page=Main_Page&prop=text&format=json&origin=*'
+    );
+    if (!res.ok) throw new Error('Wiki fetch failed');
+    const data = await res.json();
+    const html = data.parse.text['*'];
+
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(html, 'text/html');
+
+    const dykList = doc.querySelector('#mp-dyk ul');
+    const dykItems = dykList ? [...dykList.querySelectorAll('li')].filter(li => li.querySelector('a')) : [];
+    if (dykItems.length > 0) {
+      const pick = dykItems[Math.floor(Math.random() * dykItems.length)];
+      wikiDykText.textContent = pick.textContent.trim();
+      const link = pick.querySelector('a');
+      wikiDykLink.href = 'https://en.wikipedia.org' + link.getAttribute('href');
+      wikiDykCard.style.display = 'flex';
+    }
+
+    const otdList = doc.querySelector('#mp-otd ul');
+    const otdItems = otdList ? [...otdList.querySelectorAll('li')].filter(li => li.querySelector('a')) : [];
+    if (otdItems.length > 0) {
+      const pick = otdItems[Math.floor(Math.random() * otdItems.length)];
+      wikiOtdText.textContent = pick.textContent.trim();
+      const link = pick.querySelector('a');
+      wikiOtdLink.href = 'https://en.wikipedia.org' + link.getAttribute('href');
+      wikiOtdCard.style.display = 'flex';
+    }
+  } catch (err) {
+    console.error('Wiki sidebar facts failed:', err);
+  }
+}
+
 // ─── LOAD LATEST BRIEF ────────────────────────────────────────
 async function loadLatestBrief(category) {
   setLoadingState(true, 'Loading latest briefing...');
@@ -197,6 +243,9 @@ async function triggerBriefingGeneration() {
 
   stopGroundedClock(generationTime);
   setLoadingState(true, 'Establishing ground-truth timestamp...');
+
+  // Fetch fresh Wikipedia sidebar facts
+  fetchWikiIntel();
 
   await sleep(400);
   updateLoadingStatus('Fetching 9 live RSS feeds...');
@@ -267,6 +316,8 @@ function setLoadingState(isLoading, statusText = '') {
     stateLoading.style.display = 'flex';
     if (statusText) loadingStatusText.textContent = statusText;
     generateBtn.disabled = true;
+    wikiDykCard.style.display = 'none';
+    wikiOtdCard.style.display = 'none';
   } else {
     stateLoading.style.display = 'none';
     generateBtn.disabled = false;
