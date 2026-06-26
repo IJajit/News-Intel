@@ -42,17 +42,8 @@
       </div>
 
       <!-- Additional Sidebar Elements Area -->
-      <div class="sidebar-additional-elements">
-        <div id="wikiDykCard" class="wiki-card" style="display: none;">
-          <span class="wiki-card-badge">DID YOU KNOW</span>
-          <p id="wikiDykText" class="wiki-card-content"></p>
-          <a id="wikiDykLink" href="#" target="_blank" rel="noopener noreferrer" class="wiki-card-link">Read more &nearr;</a>
-        </div>
-        <div id="wikiOtdCard" class="wiki-card" style="display: none;">
-          <span class="wiki-card-badge otd-badge">ON THIS DAY</span>
-          <p id="wikiOtdText" class="wiki-card-content"></p>
-          <a id="wikiOtdLink" href="#" target="_blank" rel="noopener noreferrer" class="wiki-card-link">Read more &nearr;</a>
-        </div>
+      <div class="sidebar-additional-elements" style="flex: 1; overflow-y: auto;">
+        <!-- More elements will be added here -->
       </div>
     </aside>
 
@@ -91,16 +82,17 @@
             GENERATE BRIEF
           </button>
         </div>
-        <div class="metadata-col rm-col">
-          <button id="tabRmBtn" class="rm-btn" aria-label="Raw Markdown view">
-            RM
-          </button>
-        </div>
-      </div>
-    </header>
+      </header>
 
       <!-- Content Workspace -->
       <div class="workspace-area">
+
+        <!-- Tab Navigation -->
+        <div class="tabs-container" role="tablist" aria-label="Briefing views">
+          <button id="tabReaderBtn" class="tab-btn active" data-tab="reader" role="tab" aria-selected="true" aria-controls="viewReader">INTEL READER</button>
+          <button id="tabMarkdownBtn" class="tab-btn" data-tab="markdown" role="tab" aria-selected="false" aria-controls="viewMarkdown">RAW MARKDOWN</button>
+          <button id="tabArticlesBtn" class="tab-btn" data-tab="articles" role="tab" aria-selected="false" aria-controls="viewArticles">FILTERED FEED (<span id="articlesCountVal">0</span>)</button>
+        </div>
 
         <!-- Main Content Frame -->
         <div class="content-frame" id="contentFrame" role="main">
@@ -139,15 +131,6 @@
           <div id="viewMarkdown" role="tabpanel" aria-labelledby="tabMarkdownBtn" style="display: none; height: 100%; flex-direction: column; gap: 1rem;">
             <div style="display: flex; justify-content: space-between; align-items: center;">
               <span class="meta-label">RAW MARKDOWN OUTPUT</span>
-              <button id="copyMarkdownBtn" class="btn btn-secondary">COPY TO CLIPBOARD</button>
-            </div>
-            <textarea id="markdownTextarea" class="markdown-editor" readonly aria-label="Raw markdown output"></textarea>
-          </div>
-
-          <!-- RM Tab (Raw Markdown) -->
-          <div id="viewRm" role="tabpanel" aria-labelledby="tabRmBtn" style="display: none; height: 100%; flex-direction: column; gap: 1rem;">
-            <div style="display: flex; justify-content: space-between; align-items: center;">
-              <span class="meta-label">RAW MARKDOWN (RM)</span>
               <button id="copyMarkdownBtn" class="btn btn-secondary">COPY TO CLIPBOARD</button>
             </div>
             <textarea id="markdownTextarea" class="markdown-editor" readonly aria-label="Raw markdown output"></textarea>
