@@ -647,20 +647,21 @@ body {
 }
 
 .tab-btn.gen-btn {
-  background-color: var(--color-orange);
-  color: var(--color-white);
-  border-color: var(--color-black);
-  box-shadow: 2px 2px 0px 0px var(--color-black);
+  background-color: var(--color-white);
+  color: var(--color-black);
+  border-color: var(--color-dark-gray);
 }
 
 .tab-btn.gen-btn:hover {
-  transform: translate(-1px, -1px);
-  box-shadow: 3px 3px 0px 0px var(--color-black);
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  border-color: var(--color-black);
 }
 
 .tab-btn.gen-btn:active {
-  transform: translate(1px, 1px);
-  box-shadow: 1px 1px 0px 0px var(--color-black);
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  border-color: var(--color-black);
 }
 
 /* ─── CONTENT FRAME ──────────────────────────────────────── */
