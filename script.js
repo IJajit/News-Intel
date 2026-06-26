@@ -41,7 +41,7 @@ const wikiOtdLink         = document.getElementById('wikiOtdLink');
 // ─── APP STATE ────────────────────────────────────────────────
 let apiKey          = '';
 let showApiKey      = false;
-let activeTab       = 'reader';
+let activeTab       = localStorage.getItem('wcActiveTab') || 'reader';
 let currentBriefing = null;
 let activeCategory  = 'global';
 
@@ -293,7 +293,7 @@ async function triggerBriefingGeneration() {
     currentBriefing = brief;
 
     renderBriefing(brief);
-    switchTab('reader');
+    switchTab(activeTab);
     showToast('Briefing generated successfully.', 'success');
   } catch (err) {
     console.error('Generation failed:', err);
@@ -306,6 +306,7 @@ async function triggerBriefingGeneration() {
 // ─── TAB SWITCHING ────────────────────────────────────────────
 function switchTab(tabName) {
   activeTab = tabName;
+  localStorage.setItem('wcActiveTab', tabName);
 
   [tabReaderBtn, tabMarkdownBtn, tabArticlesBtn, tabWorldCupBtn].forEach(btn => {
     const isActive = btn.getAttribute('data-tab') === tabName;
@@ -532,10 +533,11 @@ function sleep(ms) {
 
 // ─── WORLD CUP TAB ──────────────────────────────────────────────
 let cachedWorldCupData = null;
-let worldCupActiveFilter = 'all';
+let worldCupActiveFilter = localStorage.getItem('wcFilter') || 'all';
 
 function setWorldCupFilter(filter) {
   worldCupActiveFilter = filter;
+  localStorage.setItem('wcFilter', filter);
   document.querySelectorAll('.wc-filter-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.filter === filter);
   });
@@ -556,7 +558,7 @@ async function fetchWorldCupSchedule() {
     if (!res.ok) throw new Error('Failed to fetch');
     const data = await res.json();
     cachedWorldCupData = data;
-    renderWorldCupSchedule(worldCupActiveFilter);
+    setWorldCupFilter(worldCupActiveFilter);
   } catch (err) {
     console.error('World Cup schedule fetch failed:', err);
     worldCupLoader.style.display = 'block';
@@ -711,7 +713,7 @@ function renderArgentinaTimeline(data) {
   filtered.sort((a, b) => a.date.localeCompare(b.date));
 
   worldCupSchedule.innerHTML = `
-    <div class="wc-arg-header">ARGENTINA</div>
+    <div class="wc-arg-header" aria-hidden="true"></div>
     <div class="wc-argentina-list">
       ${filtered.map(m => {
         const d = new Date(m.date);

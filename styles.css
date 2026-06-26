@@ -1333,19 +1333,7 @@ body {
 }
 
 .wc-arg-header {
-  font-family: var(--font-mono);
-  font-size: 0.65rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: var(--color-dark-gray);
-  padding: 0.35rem 0;
   margin-top: 0.75rem;
-  margin-bottom: 0.5rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  flex-shrink: 0;
   border-bottom: 1px solid var(--color-light-gray);
 }
 
