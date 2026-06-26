@@ -841,7 +841,12 @@ def fetch_world_cup_schedule():
         team2 = competitors[1]['team']['shortDisplayName']
         score1 = competitors[0].get('score', '')
         score2 = competitors[1].get('score', '')
-        status = c.get('status', {}).get('type', {}).get('description', 'Scheduled')
+        status_obj = c.get('status', {})
+        status_type = status_obj.get('type', {})
+        status = status_type.get('description', 'Scheduled')
+        display_clock = status_obj.get('displayClock', '')
+        status_detail = status_type.get('detail', '')
+        period = status_obj.get('period', 0)
         date_iso = event.get('date', '')
         venue = c.get('venue', {}).get('fullName', '') if c.get('venue') else ''
         group = c.get('group', {}).get('shortName', '') if c.get('group') else ''
@@ -852,6 +857,9 @@ def fetch_world_cup_schedule():
             "score1": score1,
             "score2": score2,
             "status": status,
+            "displayClock": display_clock,
+            "statusDetail": status_detail,
+            "period": period,
             "date": date_iso,
             "venue": venue,
             "group": group

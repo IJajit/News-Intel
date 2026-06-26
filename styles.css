@@ -1263,6 +1263,19 @@ body {
   color: var(--color-dark-gray);
 }
 
+.wc-clock {
+  display: block;
+  font-size: 0.55rem;
+  font-weight: 400;
+  opacity: 0.85;
+  margin-top: 0.1rem;
+}
+
+.wc-live-label {
+  color: var(--color-orange);
+  font-weight: 700;
+}
+
 .wc-match-meta {
   grid-column: 1 / -1;
   font-family: var(--font-mono);
@@ -1353,6 +1366,11 @@ body {
   text-align: right;
   font-size: 0.58rem;
   color: var(--color-dark-gray);
+}
+
+.wc-prev-status.live {
+  color: var(--color-orange);
+  font-weight: 700;
 }
 
 /* ─── WORLD CUP - ARGENTINA TIMELINE ────────────────────── */
