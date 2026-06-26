@@ -219,6 +219,43 @@ def fetch_feed(source):
         print(f"Error fetching feed {source['name']} ({source['url']}): {e}")
         return []
 
+def scrape_article_description(art):
+    if art.get('content'):
+        return art
+    url = art.get('link')
+    if not url:
+        return art
+    try:
+        req = urllib.request.Request(
+            url,
+            headers={
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0',
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+                'Accept-Language': 'en-US,en;q=0.5',
+                'Connection': 'keep-alive'
+            }
+        )
+        kwargs = {'timeout': 5}
+        if ssl_context:
+            kwargs['context'] = ssl_context
+        with urllib.request.urlopen(req, **kwargs) as response:
+            html_bytes = response.read(100000)
+            html_str = html_bytes.decode('utf-8', errors='ignore')
+            match = re.search(r'<meta\s+[^>]*name=["\']description["\']\s+content=["\']([^"\']+)["\']', html_str, re.IGNORECASE)
+            if not match:
+                match = re.search(r'<meta\s+[^>]*content=["\']([^"\']+)["\']\s+name=["\']description["\']', html_str, re.IGNORECASE)
+            if not match:
+                match = re.search(r'<meta\s+[^>]*property=["\']og:description["\']\s+content=["\']([^"\']+)["\']', html_str, re.IGNORECASE)
+            if not match:
+                match = re.search(r'<meta\s+[^>]*content=["\']([^"\']+)["\']\s+property=["\']og:description["\']', html_str, re.IGNORECASE)
+            if match:
+                desc = html.unescape(match.group(1).strip())
+                if desc:
+                    art['content'] = desc
+    except Exception as e:
+        print(f"Error scraping content for {url}: {e}")
+    return art
+
 def get_filtered_articles(grounded_time_str):
     grounded_dt = parse_iso(grounded_time_str)
     if not grounded_dt:
@@ -258,6 +295,12 @@ def get_filtered_articles(grounded_time_str):
         if -1.0 <= diff_hours <= 12.0:
             seen_keys.add(key)
             filtered.append(art)
+
+    # Scrape description for articles with empty content in parallel
+    empty_content_articles = [art for art in filtered if not art.get('content')]
+    if empty_content_articles:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=min(len(empty_content_articles), 10)) as executor:
+            list(executor.map(scrape_article_description, empty_content_articles))
 
     def get_pub_time(a):
         dt = parse_date(a['pubDate'])
