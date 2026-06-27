@@ -523,11 +523,12 @@ body {
 }
 
 .story-card-image {
-  width: 100%;
+  width: calc(100% - 1.6rem);
   height: 120px;
   object-fit: cover;
   object-position: center;
   display: block;
+  margin: 0.5rem auto 0;
 }
 
 .story-card-body {
