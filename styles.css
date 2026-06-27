@@ -486,10 +486,26 @@ body {
   border-radius: 3px;
   overflow: hidden;
   transition: var(--transition-fast);
+  position: relative;
 }
 
 .story-card:hover {
   border-color: var(--color-black);
+}
+
+.story-card::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background-color: var(--color-orange);
+  transition: width 0.15s ease;
+}
+
+.story-card:hover::before {
+  width: 3px;
 }
 
 .story-card-link {
@@ -1099,8 +1115,9 @@ body {
 }
 
 .wc-filter-btn:hover {
-  border-color: var(--color-orange);
-  color: var(--color-orange);
+  background: var(--color-orange);
+  border-color: var(--color-black);
+  color: var(--color-white);
 }
 
 .wc-filter-btn.active {
