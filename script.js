@@ -363,9 +363,6 @@ function setLoadingState(isLoading, statusText = '') {
     stateLoading.style.display = 'flex';
     if (statusText) loadingStatusText.textContent = statusText;
     generateBtn.disabled = true;
-    wikiDykCard.style.display = 'none';
-    wikiOtdCard.style.display = 'none';
-    storyCard.style.display = 'none';
   } else {
     stateLoading.style.display = 'none';
     generateBtn.disabled = false;
