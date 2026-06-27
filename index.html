@@ -25,22 +25,6 @@
         <h1 class="sidebar-brand-title">NEWS INTEL</h1>
       </div>
 
-      <!-- Toggleable Sources List -->
-      <div class="sidebar-section-header">
-        <span class="sidebar-title">VERIFIED FEEDS</span>
-        <button id="toggleFeedsBtn" class="toggle-btn icon-btn collapsed" aria-label="Toggle verified feeds list" aria-expanded="false">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="chevron-icon">
-            <polyline points="6 9 12 15 18 9"></polyline>
-          </svg>
-        </button>
-      </div>
-
-      <div id="feedsWrapper" class="sidebar-section collapsed">
-        <div id="sourcesList" class="sources-sidebar-list">
-          <!-- Loaded dynamically -->
-        </div>
-      </div>
-
       <!-- Additional Sidebar Elements Area -->
       <div id="sidebarAdditional" class="sidebar-additional-elements">
         <div id="storyCard" class="story-card" style="display: none;">
@@ -138,6 +122,7 @@
           <!-- Filtered Articles Feed Tab -->
           <div id="viewArticles" class="feed-articles" role="tabpanel" aria-labelledby="tabArticlesBtn" style="display: none;">
             <div class="feed-articles-header">
+              <div id="feedSourcesList" class="feed-sources-list"></div>
               <span class="feed-window-badge">LAST 12 HOURS</span>
             </div>
             <div id="articlesList" class="articles-cards-container">

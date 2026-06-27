@@ -24,9 +24,7 @@ const articlesList        = document.getElementById('articlesList');
 const worldCupSchedule    = document.getElementById('worldCupSchedule');
 const worldCupLoader      = document.getElementById('worldCupLoader');
 const copyMarkdownBtn     = document.getElementById('copyMarkdownBtn');
-const sourcesList         = document.getElementById('sourcesList');
-const toggleFeedsBtn      = document.getElementById('toggleFeedsBtn');
-const feedsWrapper        = document.getElementById('feedsWrapper');
+const feedSourcesList     = document.getElementById('feedSourcesList');
 const sidebarAdditional   = document.getElementById('sidebarAdditional');
 const imageModal          = document.getElementById('imageModal');
 const modalCloseBtn       = document.getElementById('modalCloseBtn');
@@ -105,14 +103,6 @@ document.addEventListener('DOMContentLoaded', () => {
   generateBtn.addEventListener('click', triggerBriefingGeneration);
   copyMarkdownBtn.addEventListener('click', copyMarkdownToClipboard);
 
-  // Sidebar toggle
-  toggleFeedsBtn.addEventListener('click', () => {
-    const isExpanded = toggleFeedsBtn.getAttribute('aria-expanded') === 'true';
-    toggleFeedsBtn.setAttribute('aria-expanded', !isExpanded);
-    toggleFeedsBtn.classList.toggle('collapsed', isExpanded);
-    feedsWrapper.classList.toggle('collapsed', isExpanded);
-  });
-
   // Tab switching
   [tabReaderBtn, tabMarkdownBtn, tabArticlesBtn, tabWorldCupBtn].forEach(btn => {
     btn.addEventListener('click', (e) => {
@@ -164,12 +154,12 @@ async function checkServerConfig() {
 // ─── GROUNDED CLOCK ───────────────────────────────────────────
 // ─── FETCH SOURCES ───────────────────────────────────────────
 async function fetchSources() {
-  if (!sourcesList) return;
+  if (!feedSourcesList) return;
   try {
     const res = await fetch('/api/sources');
     if (!res.ok) return;
     const sources = await res.json();
-    sourcesList.innerHTML = sources.map(src => `
+    feedSourcesList.innerHTML = sources.map(src => `
       <div class="sources-sidebar-item">
         <span class="sources-sidebar-dot">●</span>
         <a href="${src.siteUrl}" target="_blank" rel="noopener noreferrer">${src.name}</a>

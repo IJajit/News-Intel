@@ -1495,9 +1495,44 @@ body {
 .feed-articles-header {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   margin-bottom: 1.25rem;
   gap: 1rem;
+}
+
+.feed-sources-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 0.75rem;
+  align-items: center;
+}
+
+.feed-sources-list .sources-sidebar-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: var(--color-dark-gray);
+}
+
+.feed-sources-list .sources-sidebar-item a {
+  color: inherit;
+  text-decoration: none;
+  transition: var(--transition-fast);
+}
+
+.feed-sources-list .sources-sidebar-item a:hover {
+  color: var(--color-orange);
+}
+
+.feed-sources-list .sources-sidebar-dot {
+  color: var(--color-orange);
+  font-weight: 900;
+  font-size: 0.5rem;
 }
 
 .section-title {
