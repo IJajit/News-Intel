@@ -1,1 +1,0 @@
-Serving news app at http://localhost:5001

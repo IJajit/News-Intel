@@ -37,6 +37,11 @@ const wikiDykLink         = document.getElementById('wikiDykLink');
 const wikiOtdCard         = document.getElementById('wikiOtdCard');
 const wikiOtdText         = document.getElementById('wikiOtdText');
 const wikiOtdLink         = document.getElementById('wikiOtdLink');
+const storyCard           = document.getElementById('storyCard');
+const storyLink           = document.getElementById('storyLink');
+const storyImage          = document.getElementById('storyImage');
+const storyTitle          = document.getElementById('storyTitle');
+const storySubtitle       = document.getElementById('storySubtitle');
 
 // ─── APP STATE ────────────────────────────────────────────────
 let apiKey          = '';
@@ -72,6 +77,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Load Wikipedia sidebar facts
   fetchWikiIntel();
+
+  // Load Story of the Day
+  fetchStoryOfTheDay();
 
   // ─── EVENT LISTENERS ──────────────────────────────────────
   if (apiKeyInput) {
@@ -169,6 +177,24 @@ async function fetchSources() {
     `).join('');
   } catch (err) {
     console.error('Failed to load sources:', err);
+  }
+}
+
+// ─── FETCH STORY OF THE DAY ─────────────────────────────────
+async function fetchStoryOfTheDay() {
+  try {
+    const res = await fetch('/api/story-of-the-day');
+    if (!res.ok) return;
+    const data = await res.json();
+    if (data.title && data.link) {
+      storyLink.href = data.link;
+      if (data.image) storyImage.src = data.image;
+      storyTitle.textContent = data.title;
+      if (data.subtitle) storySubtitle.textContent = data.subtitle;
+      storyCard.style.display = 'flex';
+    }
+  } catch (err) {
+    console.error('Failed to load story of the day:', err);
   }
 }
 
@@ -339,6 +365,7 @@ function setLoadingState(isLoading, statusText = '') {
     generateBtn.disabled = true;
     wikiDykCard.style.display = 'none';
     wikiOtdCard.style.display = 'none';
+    storyCard.style.display = 'none';
   } else {
     stateLoading.style.display = 'none';
     generateBtn.disabled = false;

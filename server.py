@@ -869,6 +869,62 @@ def fetch_world_cup_schedule():
     return {"matches": matches, "count": len(matches)}
 
 
+def fetch_story_of_the_day():
+    fallback = {
+        "title": "Story of the Day",
+        "subtitle": "Discover arts and culture",
+        "image": "",
+        "link": "https://artsandculture.google.com/"
+    }
+    try:
+        req = urllib.request.Request(
+            "https://artsandculture.google.com/",
+            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+        )
+        kwargs = {"timeout": 15}
+        if ssl_context:
+            kwargs["context"] = ssl_context
+        with urllib.request.urlopen(req, **kwargs) as resp:
+            html = resp.read().decode("utf-8", errors="replace")
+
+        # Find the EditorialSection for "Story of the day"
+        section_match = re.search(
+            r'EditorialSection:([a-f0-9-]+).*?Story of the day',
+            html
+        )
+        if not section_match:
+            print("Story of the day section not found")
+            return fallback
+
+        section_id = "EditorialSection:" + section_match.group(1)
+        idx = html.find(section_id)
+        if idx < 0:
+            return fallback
+
+        chunk = html[idx:idx+6000]
+
+        # Extract story link from the section data: [null,null,null,"/story/XXXX","Discover",0]
+        link_match = re.search(r'/story/[a-zA-Z0-9_-]+', chunk)
+        story_path = link_match.group(0) if link_match else ""
+
+        # Extract title, subtitle, image from the first cobject inside
+        obj_match = re.search(
+            r'\["stella\.common\.cobject","([^"]+?)","([^"]*?)","(https://[^"]+?)"',
+            chunk
+        )
+        if obj_match:
+            return {
+                "title": obj_match.group(1),
+                "subtitle": obj_match.group(2),
+                "image": obj_match.group(3),
+                "link": "https://artsandculture.google.com" + story_path if story_path else "https://artsandculture.google.com/"
+            }
+        return fallback
+    except Exception as e:
+        print(f"Error fetching story of the day: {e}")
+        return fallback
+
+
 class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
     def end_headers(self):
         self.send_header('Access-Control-Allow-Origin', '*')
@@ -922,6 +978,8 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                     self.send_json({"error": "Failed to read briefing"}, 500)
             else:
                 self.send_json({"error": f"Latest briefing for category {category} not found"}, 404)
+        elif path == '/api/story-of-the-day':
+            self.send_json(fetch_story_of_the_day())
         else:
             if path == '/':
                 self.path = '/index.html'
