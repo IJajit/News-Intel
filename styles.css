@@ -1340,7 +1340,7 @@ body {
 
 .wc-arg-row {
   display: grid;
-  grid-template-columns: 80px max-content auto 1fr;
+  grid-template-columns: 80px minmax(11rem, 1fr) minmax(4rem, auto) auto;
   gap: 0.5rem;
   align-items: center;
   padding: 0.75rem 0.5rem;
@@ -1382,11 +1382,11 @@ body {
   color: var(--color-black);
   text-align: center;
   padding: 0.15rem 0.4rem;
-  margin-left: 0.5rem;
+  margin-left: 2rem;
   background: var(--color-off-white);
   border: 1px solid var(--color-light-gray);
   border-radius: 2px;
-  min-width: 2.8rem;
+  min-width: 3rem;
   max-width: 5rem;
   overflow: hidden;
   text-overflow: ellipsis;
