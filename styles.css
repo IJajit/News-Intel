@@ -432,6 +432,7 @@ body {
 
 .wiki-card:hover {
   border-color: var(--color-black);
+  box-shadow: 2px 2px 0px 0px var(--color-black);
 }
 
 .wiki-card::before {
@@ -491,6 +492,7 @@ body {
 
 .story-card:hover {
   border-color: var(--color-black);
+  box-shadow: 2px 2px 0px 0px var(--color-black);
 }
 
 .story-card::before {
