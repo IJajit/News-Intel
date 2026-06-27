@@ -887,38 +887,72 @@ def fetch_story_of_the_day():
         with urllib.request.urlopen(req, **kwargs) as resp:
             html = resp.read().decode("utf-8", errors="replace")
 
-        # Find the EditorialSection for "Story of the day"
-        section_match = re.search(
-            r'EditorialSection:([a-f0-9-]+).*?Story of the day',
-            html
-        )
-        if not section_match:
+        # Locate "Story of the day" heading, then find the next section
+        # whose meta contains a /story/ link AND a cobject with image
+        # Find the section whose meta contains /story/ with "Discover" label
+        # Pattern: ,[null,null,null,"/story/XXXX","Discover",
+        story_pattern = r',\[null,null,null,"/story/([^"]+?)","Discover",'
+        story_m = re.search(story_pattern, html)
+        if not story_m:
             print("Story of the day section not found")
             return fallback
 
-        section_id = "EditorialSection:" + section_match.group(1)
-        idx = html.find(section_id)
-        if idx < 0:
+        story_path = "/story/" + story_m.group(1)
+
+        # Go backwards to find the section's INIT_data assignment
+        before = html[:story_m.start()]
+        init_matches = list(re.finditer(
+            r"window\.INIT_data\['EditorialSection:([a-f0-9-]+)'\]\s*=\s*",
+            before
+        ))
+        if not init_matches:
             return fallback
 
-        chunk = html[idx:idx+6000]
+        last_init = init_matches[-1]
+        # Find the outer array's opening bracket (the value after =)
+        val_start = html.find("[", last_init.end())
+        if val_start < 0:
+            return fallback
 
-        # Extract story link from the section data: [null,null,null,"/story/XXXX","Discover",0]
-        link_match = re.search(r'/story/[a-zA-Z0-9_-]+', chunk)
-        story_path = link_match.group(0) if link_match else ""
+        # Find the matching close bracket for the entire section array
+        depth = 1
+        val_end = val_start + 1
+        in_str = False
+        esc = False
+        while val_end < len(html):
+            c = html[val_end]
+            if esc:
+                esc = False
+            elif c == "\\" and in_str:
+                esc = True
+            elif c == '"':
+                in_str = not in_str
+            elif not in_str:
+                if c == "[":
+                    depth += 1
+                elif c == "]":
+                    depth -= 1
+                    if depth == 0:
+                        val_end += 1
+                        break
+            val_end += 1
 
-        # Extract title, subtitle, image from the first cobject inside
-        obj_match = re.search(
+        data_str = html[val_start:val_end]
+
+        cobj_m = re.search(
             r'\["stella\.common\.cobject","([^"]+?)","([^"]*?)","(https://[^"]+?)"',
-            chunk
+            data_str
         )
-        if obj_match:
+        if cobj_m:
             return {
-                "title": obj_match.group(1),
-                "subtitle": obj_match.group(2),
-                "image": obj_match.group(3),
-                "link": "https://artsandculture.google.com" + story_path if story_path else "https://artsandculture.google.com/"
+                "title": cobj_m.group(1),
+                "subtitle": cobj_m.group(2),
+                "image": cobj_m.group(3),
+                "link": "https://artsandculture.google.com" + story_path
             }
+
+        return fallback
+
         return fallback
     except Exception as e:
         print(f"Error fetching story of the day: {e}")
