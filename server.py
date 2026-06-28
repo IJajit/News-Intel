@@ -85,7 +85,7 @@ SOURCES = [
   { "id": "the-guardian", "name": "The Guardian", "url": "https://www.theguardian.com/international/rss", "siteUrl": "https://www.theguardian.com/international" },
   { "id": "techcrunch", "name": "TechCrunch", "url": "https://techcrunch.com/feed/", "siteUrl": "https://techcrunch.com/" },
   { "id": "scroll", "name": "Scroll.in", "url": "https://feeds.feedburner.com/Scrollin", "siteUrl": "https://scroll.in/latest/" },
-  { "id": "times-of-india", "name": "Times of India", "url": "https://timesofindia.indiatimes.com/rssfeedstopstories.cms", "siteUrl": "https://timesofindia.indiatimes.com/" },
+  { "id": "deccan-herald", "name": "Deccan Herald", "url": "https://www.deccanherald.com/feed/", "siteUrl": "https://www.deccanherald.com/" },
   { "id": "vox", "name": "Vox", "url": "https://www.vox.com/rss/index.xml", "siteUrl": "https://www.vox.com/" },
   { "id": "cnn", "name": "CNN", "url": "https://rss.cnn.com/rss/cnn_topstories.rss", "siteUrl": "https://edition.cnn.com/" },
   { "id": "reuters", "name": "Reuters", "url": "https://news.google.com/rss/search?q=when:24h+allinurl:reuters.com&ceid=US:en&hl=en-US&gl=US", "siteUrl": "https://www.reuters.com/" },
@@ -393,7 +393,7 @@ def filter_by_category(articles, category):
 
     filtered = []
 
-    indian_sources = {'the indian express', 'the print', 'scroll.in', 'times of india'}
+    indian_sources = {'the indian express', 'the print', 'scroll.in', 'deccan herald'}
     tech_sources = {'techcrunch'}
 
     indian_kws = [
@@ -798,7 +798,7 @@ def seed_briefs():
 
 ### SYSTEM STATUS
 - Sector {cat.upper()} is active.
-- Tracking feeds: BBC, CNN, Reuters, Bloomberg, Google News, Indian Express, The Print, The Guardian, TechCrunch, Scroll.in, Times of India, Vox.
+- Tracking feeds: BBC, CNN, Reuters, Bloomberg, Google News, Indian Express, The Print, The Guardian, TechCrunch, Scroll.in, Deccan Herald, Vox.
 
 # Quick Hits
 - System version 2.0 active.
