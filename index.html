@@ -27,16 +27,6 @@
 
       <!-- Additional Sidebar Elements Area -->
       <div id="sidebarAdditional" class="sidebar-additional-elements">
-        <div id="storyCard" class="story-card" style="display: none;">
-          <a id="storyLink" href="#" target="_blank" rel="noopener noreferrer" class="story-card-link">
-            <span class="story-card-badge">STORY OF THE DAY</span>
-            <img id="storyImage" class="story-card-image" src="" alt="">
-            <div class="story-card-body">
-              <h3 id="storyTitle" class="story-card-title"></h3>
-              <p id="storySubtitle" class="story-card-subtitle"></p>
-            </div>
-          </a>
-        </div>
         <div id="wikiDykCard" class="wiki-card" style="display: none;">
           <span class="wiki-card-badge">DID YOU KNOW</span>
           <p id="wikiDykText" class="wiki-card-content"></p>
@@ -89,7 +79,7 @@
               <div class="loading-cell"></div>
             </div>
             <div id="loadingStatusText" class="loading-text">Fetching news feeds...</div>
-            <div class="loading-sub">Applying 12-hour recency filter</div>
+            <div class="loading-sub">Applying 24-hour recency filter</div>
           </div>
 
           <!-- Intel Reader Tab -->
@@ -123,7 +113,7 @@
           <div id="viewArticles" class="feed-articles" role="tabpanel" aria-labelledby="tabArticlesBtn" style="display: none;">
             <div class="feed-articles-header">
               <div id="feedSourcesList" class="feed-sources-list"></div>
-              <span class="feed-window-badge">LAST 12 HOURS</span>
+              <span class="feed-window-badge">LAST 24 HOURS</span>
             </div>
             <div id="articlesList" class="articles-cards-container">
               <!-- Loaded dynamically -->

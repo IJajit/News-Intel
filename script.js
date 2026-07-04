@@ -35,12 +35,8 @@ const wikiDykLink         = document.getElementById('wikiDykLink');
 const wikiOtdCard         = document.getElementById('wikiOtdCard');
 const wikiOtdText         = document.getElementById('wikiOtdText');
 const wikiOtdLink         = document.getElementById('wikiOtdLink');
-const storyCard           = document.getElementById('storyCard');
-const storyLink           = document.getElementById('storyLink');
-const storyImage          = document.getElementById('storyImage');
-const storyTitle          = document.getElementById('storyTitle');
-const storySubtitle       = document.getElementById('storySubtitle');
-
+// (Story of the day elements removed)
++
 // ─── APP STATE ────────────────────────────────────────────────
 let apiKey          = '';
 let showApiKey      = false;
@@ -75,9 +71,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Load Wikipedia sidebar facts
   fetchWikiIntel();
-
-  // Load Story of the Day
-  fetchStoryOfTheDay();
 
   // ─── EVENT LISTENERS ──────────────────────────────────────
   if (apiKeyInput) {
@@ -167,24 +160,6 @@ async function fetchSources() {
     `).join('');
   } catch (err) {
     console.error('Failed to load sources:', err);
-  }
-}
-
-// ─── FETCH STORY OF THE DAY ─────────────────────────────────
-async function fetchStoryOfTheDay() {
-  try {
-    const res = await fetch('/api/story-of-the-day');
-    if (!res.ok) return;
-    const data = await res.json();
-    if (data.title && data.link) {
-      storyLink.href = data.link;
-      if (data.image) storyImage.src = data.image;
-      storyTitle.textContent = data.title;
-      if (data.subtitle) storySubtitle.textContent = data.subtitle;
-      storyCard.style.display = 'flex';
-    }
-  } catch (err) {
-    console.error('Failed to load story of the day:', err);
   }
 }
 
@@ -384,7 +359,7 @@ function renderBriefing(brief) {
   if (!brief.articles || brief.articles.length === 0) {
     articlesList.innerHTML = `
       <div class="empty-state" style="min-height: 180px;">
-        <div class="empty-state-icon">No articles passed the 12-hour recency filter for this category.</div>
+        <div class="empty-state-icon">No articles passed the 24-hour recency filter for this category.</div>
       </div>
     `;
     return;

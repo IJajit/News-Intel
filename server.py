@@ -292,7 +292,7 @@ def get_filtered_articles(grounded_time_str):
         diff = grounded_dt - pub_dt
         diff_hours = diff.total_seconds() / 3600.0
 
-        if -1.0 <= diff_hours <= 12.0:
+        if -1.0 <= diff_hours <= 24.0:
             seen_keys.add(key)
             filtered.append(art)
 
@@ -487,7 +487,7 @@ def generate_briefing_text(category, articles, grounded_time_str):
 
 # The Headline
 
-- **No Breaking News:** No stories met the strict 12-hour recency filter for sector: {category.upper()} at this time.
+- **No Breaking News:** No stories met the strict 24-hour recency filter for sector: {category.upper()} at this time.
 
 # Today's Top Stories
 
@@ -498,7 +498,7 @@ def generate_briefing_text(category, articles, grounded_time_str):
 # Category Breakdown
 
 ### SYSTEM STATUS
-- Sector {category.upper()} is active but no stories passed the 12-hour filter.
+- Sector {category.upper()} is active but no stories passed the 24-hour filter.
 
 # Quick Hits
 - Scan completed. Feeds active."""
@@ -680,10 +680,10 @@ Category Focus: {category.upper()}
 
 === STEP 1 — RECENCY FILTER (mechanical, not interpretive) ===
 For every candidate story, identify its explicit published timestamp from the source. Compare it against the grounded time above.
-- Discard any story whose timestamp is more than 12 hours before the grounded time.
+- Discard any story whose timestamp is more than 24 hours before the grounded time.
 - If a source does not show a clear timestamp, do not include it.
 - Do not include recap articles, "week in review" pieces, analysis of older events, or evergreen content.
-- This 12-hour rule applies uniformly — there is no 24-hour fallback anywhere in this brief.
+- This 24-hour rule applies uniformly.
 
 === STEP 2 — CATEGORY CLASSIFICATION SCOPES (follow strictly) ===
 When categorizing stories, organize them according to these exact scopes to ensure accuracy:
@@ -704,7 +704,7 @@ Live Briefing for: {formatted_date}
 
 # The Headline
 
-For each of the 5 to 8 biggest breaking stories from the last 12 hours, write a bullet with:
+For each of the 5 to 8 biggest breaking stories from the last 24 hours, write a bullet with:
 - The headline in bold, followed by a markdown hyperlink to the source in parentheses.
 - A detailed 2-to-3 sentence summary providing context, key figures, and immediate consequences.
 - No emojis anywhere in the output.
@@ -716,7 +716,7 @@ Format (use exactly double newlines around header, and start list items with "- 
 
 # Today's Top Stories
 
-Identify the 3 single most important stories from the last 12 hours. For each:
+Identify the 3 single most important stories from the last 24 hours. For each:
 - Lead with the headline in bold, followed by a hyperlink to the source.
 - Write 3-4 sentences of analysis covering the core facts, context, and stakes.
 - Explicitly state "Why it matters:" with a substantive analytical paragraph (2-3 sentences).
@@ -729,7 +729,7 @@ Format (all items must start flush with "- " at the same indent level):
 
 # Category Breakdown
 
-For each relevant category below, list 5 to 10 articles from the last 12 hours. If a category has no qualifying articles, omit its H3 header entirely. Each item must:
+For each relevant category below, list 5 to 10 articles from the last 24 hours. If a category has no qualifying articles, omit its H3 header entirely. Each item must:
 - Start with the headline in bold followed by a hyperlink to the article source.
 - Include 2-3 sentences of elaboration below the headline providing context and key facts.
 - No single-sentence bullets — every item requires substantive detail.
@@ -754,7 +754,7 @@ Available categories to use as H3 headers:
 
 # Quick Hits
 
-A short bulleted list of immediate facts from the last 12 hours (scores, specific numbers, product release dates, market moves). Each bullet is one concise factual sentence with a markdown hyperlink to its source.
+A short bulleted list of immediate facts from the last 24 hours (scores, specific numbers, product release dates, market moves). Each bullet is one concise factual sentence with a markdown hyperlink to its source.
 
 Format:
 - **[Headline/Fact]** ([Source Name](article URL))
@@ -869,96 +869,6 @@ def fetch_world_cup_schedule():
     return {"matches": matches, "count": len(matches)}
 
 
-def fetch_story_of_the_day():
-    fallback = {
-        "title": "Story of the Day",
-        "subtitle": "Discover arts and culture",
-        "image": "",
-        "link": "https://artsandculture.google.com/"
-    }
-    try:
-        req = urllib.request.Request(
-            "https://artsandculture.google.com/",
-            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
-        )
-        kwargs = {"timeout": 15}
-        if ssl_context:
-            kwargs["context"] = ssl_context
-        with urllib.request.urlopen(req, **kwargs) as resp:
-            html = resp.read().decode("utf-8", errors="replace")
-
-        # Locate "Story of the day" heading, then find the next section
-        # whose meta contains a /story/ link AND a cobject with image
-        # Find the section whose meta contains /story/ with "Discover" label
-        # Pattern: ,[null,null,null,"/story/XXXX","Discover",
-        story_pattern = r',\[null,null,null,"/story/([^"]+?)","Discover",'
-        story_m = re.search(story_pattern, html)
-        if not story_m:
-            print("Story of the day section not found")
-            return fallback
-
-        story_path = "/story/" + story_m.group(1)
-
-        # Go backwards to find the section's INIT_data assignment
-        before = html[:story_m.start()]
-        init_matches = list(re.finditer(
-            r"window\.INIT_data\['EditorialSection:([a-f0-9-]+)'\]\s*=\s*",
-            before
-        ))
-        if not init_matches:
-            return fallback
-
-        last_init = init_matches[-1]
-        # Find the outer array's opening bracket (the value after =)
-        val_start = html.find("[", last_init.end())
-        if val_start < 0:
-            return fallback
-
-        # Find the matching close bracket for the entire section array
-        depth = 1
-        val_end = val_start + 1
-        in_str = False
-        esc = False
-        while val_end < len(html):
-            c = html[val_end]
-            if esc:
-                esc = False
-            elif c == "\\" and in_str:
-                esc = True
-            elif c == '"':
-                in_str = not in_str
-            elif not in_str:
-                if c == "[":
-                    depth += 1
-                elif c == "]":
-                    depth -= 1
-                    if depth == 0:
-                        val_end += 1
-                        break
-            val_end += 1
-
-        data_str = html[val_start:val_end]
-
-        cobj_m = re.search(
-            r'\["stella\.common\.cobject","([^"]+?)","([^"]*?)","(https://[^"]+?)"',
-            data_str
-        )
-        if cobj_m:
-            return {
-                "title": cobj_m.group(1),
-                "subtitle": cobj_m.group(2),
-                "image": cobj_m.group(3),
-                "link": "https://artsandculture.google.com" + story_path
-            }
-
-        return fallback
-
-        return fallback
-    except Exception as e:
-        print(f"Error fetching story of the day: {e}")
-        return fallback
-
-
 class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
     def end_headers(self):
         self.send_header('Access-Control-Allow-Origin', '*')
@@ -1012,8 +922,7 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                     self.send_json({"error": "Failed to read briefing"}, 500)
             else:
                 self.send_json({"error": f"Latest briefing for category {category} not found"}, 404)
-        elif path == '/api/story-of-the-day':
-            self.send_json(fetch_story_of_the_day())
+        # Deleted: /api/story-of-the-day endpoint
         else:
             if path == '/':
                 self.path = '/index.html'
