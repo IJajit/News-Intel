@@ -35,11 +35,7 @@ const wikiDykLink         = document.getElementById('wikiDykLink');
 const wikiOtdCard         = document.getElementById('wikiOtdCard');
 const wikiOtdText         = document.getElementById('wikiOtdText');
 const wikiOtdLink         = document.getElementById('wikiOtdLink');
-const storyCard           = document.getElementById('storyCard');
-const storyLink           = document.getElementById('storyLink');
-const storyImage          = document.getElementById('storyImage');
-const storyTitle          = document.getElementById('storyTitle');
-const storySubtitle       = document.getElementById('storySubtitle');
+
 
 // ─── APP STATE ────────────────────────────────────────────────
 let apiKey          = '';
@@ -68,16 +64,11 @@ document.addEventListener('DOMContentLoaded', () => {
   // Load sources into sidebar
   fetchSources();
 
-  // Load default briefing then auto-generate fresh one
-  loadLatestBrief(activeCategory).then(() => {
-    setTimeout(() => triggerBriefingGeneration(), 800);
-  });
+  // Generate fresh briefing on page load
+  setTimeout(() => triggerBriefingGeneration(), 200);
 
   // Load Wikipedia sidebar facts
   fetchWikiIntel();
-
-  // Load Story of the Day
-  fetchStoryOfTheDay();
 
   // ─── EVENT LISTENERS ──────────────────────────────────────
   if (apiKeyInput) {
@@ -170,24 +161,6 @@ async function fetchSources() {
   }
 }
 
-// ─── FETCH STORY OF THE DAY ─────────────────────────────────
-async function fetchStoryOfTheDay() {
-  try {
-    const res = await fetch('/api/story-of-the-day');
-    if (!res.ok) return;
-    const data = await res.json();
-    if (data.title && data.link) {
-      storyLink.href = data.link;
-      if (data.image) storyImage.src = data.image;
-      storyTitle.textContent = data.title;
-      if (data.subtitle) storySubtitle.textContent = data.subtitle;
-      storyCard.style.display = 'flex';
-    }
-  } catch (err) {
-    console.error('Failed to load story of the day:', err);
-  }
-}
-
 // ─── FETCH WIKIPEDIA FACTS ──────────────────────────────────
 async function fetchWikiIntel() {
   const fallbackDyk = 'Wikipedia is a free, collaborative encyclopedia written by volunteers worldwide.';
@@ -276,7 +249,14 @@ async function triggerBriefingGeneration() {
   fetchWikiIntel();
 
   await sleep(400);
-  updateLoadingStatus('Fetching 9 live RSS feeds...');
+  try {
+    const srcRes = await fetch('/api/sources');
+    const srcData = await srcRes.json();
+    const feedCount = Array.isArray(srcData) ? srcData.length : 10;
+    updateLoadingStatus(`Fetching ${feedCount} live RSS feeds...`);
+  } catch {
+    updateLoadingStatus('Fetching live RSS feeds...');
+  }
 
   try {
     updateLoadingStatus('Compiling briefing with Gemini AI...');
@@ -384,7 +364,7 @@ function renderBriefing(brief) {
   if (!brief.articles || brief.articles.length === 0) {
     articlesList.innerHTML = `
       <div class="empty-state" style="min-height: 180px;">
-        <div class="empty-state-icon">No articles passed the 12-hour recency filter for this category.</div>
+        <div class="empty-state-icon">No articles passed the 24-hour recency filter for this category.</div>
       </div>
     `;
     return;
@@ -537,7 +517,7 @@ function escapeHtml(text) {
 
 function parseDate(str) {
   if (!str) return null;
-  try { return new Date(str); } catch { return null; }
+  try { return new Date(str); } catch (e) { console.warn('parseDate failed:', str, e); return null; }
 }
 
 function sleep(ms) {
