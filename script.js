@@ -35,8 +35,7 @@ const wikiDykLink         = document.getElementById('wikiDykLink');
 const wikiOtdCard         = document.getElementById('wikiOtdCard');
 const wikiOtdText         = document.getElementById('wikiOtdText');
 const wikiOtdLink         = document.getElementById('wikiOtdLink');
-// (Story of the day elements removed)
-+
+
 // ─── APP STATE ────────────────────────────────────────────────
 let apiKey          = '';
 let showApiKey      = false;
