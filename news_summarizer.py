@@ -16,13 +16,7 @@ ANALYTICAL_KEYWORDS = [
     'could', 'will', 'means', 'marks', 'signals', 'underscores',
     'highlights', 'raises', 'sparks', 'triggers', 'prompts',
     'impact', 'implication', 'consequence', 'concern', 'warning',
-    'deadly', 'devastating', 'unprecedented', 'historic', 'major',
-    'may', 'might', 'would', 'should', 'likely', 'potentially',
-    'important', 'crucial', 'essential', 'vital', 'key',
-    'however', 'although', 'despite', 'while', 'whereas',
-    'therefore', 'thus', 'consequently', 'as a result',
-    'raises questions', 'sparked', 'fuelled', 'amid',
-    'analysis', 'analyst', 'expert', 'according to'
+    'deadly', 'devastating', 'unprecedented', 'historic', 'major'
 ]
 
 
@@ -52,19 +46,23 @@ def _extractive_fallback(text):
     if not sentences:
         return text[:200] if len(text) > 200 else text
 
-    if len(sentences) <= 3:
+    if len(sentences) <= 2:
         return " ".join(sentences)
 
-    result = " ".join(sentences[:4])
+    first = sentences[0]
+    mid = sentences[len(sentences) // 2] if len(sentences) > 2 else ""
+    last = sentences[-1]
+    parts = [p for p in [first, mid, last] if p]
+    result = " ".join(parts)
 
-    final = _split_sentences(result)
-    if len(final) < 3 and len(sentences) > 4:
-        result = " ".join(sentences[:5])
+    final_sentences = _split_sentences(result)
+    if len(final_sentences) < 2:
+        result = " ".join(sentences[:3])
 
     return result
 
 
-def extract_why_it_matters(content, title, brief=None):
+def extract_why_it_matters(content, title):
     if not content:
         return None
 
@@ -73,36 +71,15 @@ def extract_why_it_matters(content, title, brief=None):
     if not sentences:
         return None
 
-    brief_lower = None
-    if brief:
-        brief_lower = re.sub(r'\s+', ' ', brief.lower()).strip().rstrip('.')
-
     lower_sentences = [s.lower() for s in sentences]
     scored = []
     for i, (orig, low) in enumerate(zip(sentences, lower_sentences)):
-        if i < 2:
-            continue
-
-        low_stripped = low.strip().rstrip('.')
-        if brief_lower and (low_stripped in brief_lower or brief_lower in low_stripped):
-            continue
-
         score = 0
         for kw in ANALYTICAL_KEYWORDS:
-            if ' ' in kw:
-                if kw in low:
-                    score += 2
-            elif re.search(r'\b' + re.escape(kw) + r'\b', low):
+            if re.search(r'\b' + re.escape(kw) + r'\b', low):
                 score += 1
-
-        words = len(orig.split())
-        if words < 8:
-            continue
-        if words > 15:
-            score += 1
-
-        score += (i / len(sentences)) * 2.0
-        scored.append((score, i, orig))
+        if len(orig.split()) > 8:
+            scored.append((score, i, orig))
 
     if scored:
         scored.sort(key=lambda x: (-x[0], -x[1]))
@@ -110,22 +87,9 @@ def extract_why_it_matters(content, title, brief=None):
         if len(best.split()) > 6:
             return best
 
-    start = max(0, len(sentences) - 5)
-    for i in range(len(sentences) - 1, start - 1, -1):
-        s = sentences[i]
-        low_stripped = s.lower().strip().rstrip('.')
-        if brief_lower and (low_stripped in brief_lower or brief_lower in low_stripped):
-            continue
-        if len(s.split()) > 10:
-            return s
-
-    for i in range(len(sentences) - 1, -1, -1):
-        s = sentences[i]
-        low_stripped = s.lower().strip().rstrip('.')
-        if brief_lower and (low_stripped in brief_lower or brief_lower in low_stripped):
-            continue
-        if len(s.split()) > 6:
-            return s
+    last = sentences[-1]
+    if len(last.split()) > 6:
+        return last
 
     return None
 
@@ -187,10 +151,6 @@ def summarize_content(content, title, ssl_ctx, hf_token=""):
     word_count = len(clean.split())
 
     if word_count < 30:
-        clean_lower = clean.lower().strip().rstrip('.')
-        title_lower = title.lower().strip().rstrip('.')
-        if title_lower in clean_lower or clean_lower in title_lower:
-            return "No additional details available."
         return clean
 
     hf_result = _call_hf_inference(clean, ssl_ctx, hf_token)

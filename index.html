@@ -27,7 +27,16 @@
 
       <!-- Additional Sidebar Elements Area -->
       <div id="sidebarAdditional" class="sidebar-additional-elements">
-
+        <div id="storyCard" class="story-card" style="display: none;">
+          <a id="storyLink" href="#" target="_blank" rel="noopener noreferrer" class="story-card-link">
+            <span class="story-card-badge">STORY OF THE DAY</span>
+            <img id="storyImage" class="story-card-image" src="" alt="">
+            <div class="story-card-body">
+              <h3 id="storyTitle" class="story-card-title"></h3>
+              <p id="storySubtitle" class="story-card-subtitle"></p>
+            </div>
+          </a>
+        </div>
         <div id="wikiDykCard" class="wiki-card" style="display: none;">
           <span class="wiki-card-badge">DID YOU KNOW</span>
           <p id="wikiDykText" class="wiki-card-content"></p>
@@ -63,17 +72,16 @@
             <div class="empty-state-icon">↴</div>
             <div class="empty-state-text">Ready for Intelligence Gathering</div>
             <p class="empty-state-sub">
-              Click <strong>GENERATE LATEST UPDATE</strong> to fetch live breaking news from <span id="feedCountDisplay">10</span> verified feeds and build your briefing.
+              Enter your Gemini API key in the header and click <strong>GENERATE BRIEF</strong> to fetch live breaking news from 9 verified feeds and generate your AI-powered briefing.
             </p>
             <div class="empty-state-hint">
               <span class="hint-badge">TIP</span>
-              The app compiles a clustered feed summary using rule-based parsing. Optionally add a Gemini API key in the sidebar for AI-powered briefings.
+              Without an API key, the app compiles a raw feed summary using rule-based parsing.
             </div>
           </div>
 
           <!-- Loading State -->
           <div id="stateLoading" class="loading-container" style="display: none;" role="status" aria-live="polite">
-            <h1 class="loading-brand">NEWS INTEL</h1>
             <div class="loading-grid">
               <div class="loading-cell"></div>
               <div class="loading-cell"></div>
@@ -81,7 +89,7 @@
               <div class="loading-cell"></div>
             </div>
             <div id="loadingStatusText" class="loading-text">Fetching news feeds...</div>
-            <div class="loading-sub">Applying 24-hour recency filter</div>
+            <div class="loading-sub">Applying 12-hour recency filter</div>
           </div>
 
           <!-- Intel Reader Tab -->
@@ -115,7 +123,7 @@
           <div id="viewArticles" class="feed-articles" role="tabpanel" aria-labelledby="tabArticlesBtn" style="display: none;">
             <div class="feed-articles-header">
               <div id="feedSourcesList" class="feed-sources-list"></div>
-              <span class="feed-window-badge">LAST 24 HOURS</span>
+              <span class="feed-window-badge">LAST 12 HOURS</span>
             </div>
             <div id="articlesList" class="articles-cards-container">
               <!-- Loaded dynamically -->

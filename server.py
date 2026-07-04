@@ -81,14 +81,15 @@ SOURCES = [
   { "id": "bbc", "name": "BBC News", "url": "https://feeds.bbci.co.uk/news/rss.xml", "siteUrl": "https://www.bbc.com/" },
 
   { "id": "indian-express", "name": "The Indian Express", "url": "https://indianexpress.com/feed/", "siteUrl": "https://indianexpress.com/" },
+  { "id": "the-print", "name": "The Print", "url": "https://news.google.com/rss/search?q=site:theprint.in", "siteUrl": "https://theprint.in/" },
   { "id": "the-guardian", "name": "The Guardian", "url": "https://www.theguardian.com/international/rss", "siteUrl": "https://www.theguardian.com/international" },
   { "id": "techcrunch", "name": "TechCrunch", "url": "https://techcrunch.com/feed/", "siteUrl": "https://techcrunch.com/" },
+  { "id": "scroll", "name": "Scroll.in", "url": "https://feeds.feedburner.com/Scrollin", "siteUrl": "https://scroll.in/latest/" },
   { "id": "deccan-herald", "name": "Deccan Herald", "url": "https://www.deccanherald.com/feed/", "siteUrl": "https://www.deccanherald.com/" },
-  { "id": "bloomberg", "name": "Bloomberg", "url": "https://feeds.bloomberg.com/markets/news.rss", "siteUrl": "https://www.bloomberg.com/asia" },
-  { "id": "ft", "name": "Financial Times", "url": "https://www.ft.com/rss/home", "siteUrl": "https://www.ft.com/" },
-  { "id": "the-verge", "name": "The Verge", "url": "https://www.theverge.com/rss/index.xml", "siteUrl": "https://www.theverge.com/" },
-  { "id": "pti", "name": "Press Trust of India", "url": "https://news.google.com/rss/search?q=site:ptinews.com", "siteUrl": "https://www.ptinews.com/" },
-  { "id": "ap-news", "name": "AP News", "url": "https://news.google.com/rss/search?q=site:apnews.com", "siteUrl": "https://apnews.com/" }
+  { "id": "vox", "name": "Vox", "url": "https://www.vox.com/rss/index.xml", "siteUrl": "https://www.vox.com/" },
+  { "id": "cnn", "name": "CNN", "url": "https://rss.cnn.com/rss/cnn_topstories.rss", "siteUrl": "https://edition.cnn.com/" },
+  { "id": "reuters", "name": "Reuters", "url": "https://news.google.com/rss/search?q=when:24h+allinurl:reuters.com&ceid=US:en&hl=en-US&gl=US", "siteUrl": "https://www.reuters.com/" },
+  { "id": "bloomberg", "name": "Bloomberg", "url": "https://feeds.bloomberg.com/markets/news.rss", "siteUrl": "https://www.bloomberg.com/asia" }
 ]
 
 CATEGORIES = [
@@ -178,35 +179,16 @@ def fetch_feed(source):
 
         root = ET.fromstring(xml_str)
         items = []
+        for item in root.findall('.//item'):
+            title = item.find('title')
+            link = item.find('link')
+            pub_date = item.find('pubDate')
+            desc = item.find('description')
 
-        # Detect Atom vs RSS
-        is_atom = root.tag.endswith('feed')
-        ns = {'atom': 'http://www.w3.org/2005/Atom'} if is_atom else {}
-
-        if is_atom:
-            entries = root.findall('.//atom:entry', ns)
-        else:
-            entries = root.findall('.//item')
-
-        for entry in entries:
-            if is_atom:
-                title_el = entry.find('atom:title', ns)
-                link_el = entry.find('atom:link', ns)
-                pub_date_el = entry.find('atom:published', ns)
-                desc_el = entry.find('atom:summary', ns)
-                if desc_el is None:
-                    desc_el = entry.find('atom:content', ns)
-                link_text = link_el.get('href', '').strip() if link_el is not None else ''
-            else:
-                title_el = entry.find('title')
-                link_el = entry.find('link')
-                pub_date_el = entry.find('pubDate')
-                desc_el = entry.find('description')
-                link_text = (link_el.text if (link_el is not None and link_el.text is not None) else "").strip()
-
-            title_text = (title_el.text if (title_el is not None and title_el.text is not None) else "").strip()
-            pub_date_text = (pub_date_el.text if (pub_date_el is not None and pub_date_el.text is not None) else "").strip()
-            desc_text = (desc_el.text if (desc_el is not None and desc_el.text is not None) else "").strip()
+            title_text = (title.text if (title is not None and title.text is not None) else "").strip()
+            link_text = (link.text if (link is not None and link.text is not None) else "").strip()
+            pub_date_text = (pub_date.text if (pub_date is not None and pub_date.text is not None) else "").strip()
+            desc_text = (desc.text if (desc is not None and desc.text is not None) else "").strip()
 
             desc_clean = re.sub('<[^<]+?>', '', desc_text)
 
@@ -238,6 +220,8 @@ def fetch_feed(source):
         return []
 
 def scrape_article_description(art):
+    if art.get('content'):
+        return art
     url = art.get('link')
     if not url:
         return art
@@ -251,14 +235,12 @@ def scrape_article_description(art):
                 'Connection': 'keep-alive'
             }
         )
-        kwargs = {'timeout': 6}
+        kwargs = {'timeout': 5}
         if ssl_context:
             kwargs['context'] = ssl_context
         with urllib.request.urlopen(req, **kwargs) as response:
             html_bytes = response.read(100000)
             html_str = html_bytes.decode('utf-8', errors='ignore')
-
-            desc = None
             match = re.search(r'<meta\s+[^>]*name=["\']description["\']\s+content=["\']([^"\']+)["\']', html_str, re.IGNORECASE)
             if not match:
                 match = re.search(r'<meta\s+[^>]*content=["\']([^"\']+)["\']\s+name=["\']description["\']', html_str, re.IGNORECASE)
@@ -268,25 +250,8 @@ def scrape_article_description(art):
                 match = re.search(r'<meta\s+[^>]*content=["\']([^"\']+)["\']\s+property=["\']og:description["\']', html_str, re.IGNORECASE)
             if match:
                 desc = html.unescape(match.group(1).strip())
-
-            if desc and len(desc.split()) >= 8:
-                art['content'] = desc
-                return art
-
-            paragraphs = []
-            p_matches = re.findall(r'<p[^>]*>(.*?)</p>', html_str, re.IGNORECASE | re.DOTALL)
-            for p in p_matches[:6]:
-                p_text = re.sub(r'<[^>]+>', ' ', p)
-                p_text = html.unescape(p_text).strip()
-                p_text = re.sub(r'\s+', ' ', p_text)
-                p_text = re.sub(r'\bContinue\s+reading\b.*$', '', p_text, flags=re.IGNORECASE).strip()
-                if len(p_text.split()) > 8:
-                    paragraphs.append(p_text)
-
-            if paragraphs:
-                art['content'] = ' '.join(paragraphs)
-            elif desc:
-                art['content'] = desc
+                if desc:
+                    art['content'] = desc
     except Exception as e:
         print(f"Error scraping content for {url}: {e}")
     return art
@@ -327,22 +292,15 @@ def get_filtered_articles(grounded_time_str):
         diff = grounded_dt - pub_dt
         diff_hours = diff.total_seconds() / 3600.0
 
-        if -1.0 <= diff_hours <= 24.0:
+        if -1.0 <= diff_hours <= 12.0:
             seen_keys.add(key)
             filtered.append(art)
 
-    def _has_title_only_content(content, title):
-        if not content:
-            return True
-        clean = re.sub(r'\s+', ' ', content.lower()).strip().rstrip('.')
-        title_clean = re.sub(r'\s+', ' ', title.lower()).strip().rstrip('.')
-        return title_clean in clean or clean in title_clean
-
-    articles_to_scrape = [art for art in filtered
-                          if not art.get('content') or _has_title_only_content(art.get('content'), art.get('title', ''))]
-    if articles_to_scrape:
-        with concurrent.futures.ThreadPoolExecutor(max_workers=min(len(articles_to_scrape), 10)) as executor:
-            list(executor.map(scrape_article_description, articles_to_scrape))
+    # Scrape description for articles with empty content in parallel
+    empty_content_articles = [art for art in filtered if not art.get('content')]
+    if empty_content_articles:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=min(len(empty_content_articles), 10)) as executor:
+            list(executor.map(scrape_article_description, empty_content_articles))
 
     def get_pub_time(a):
         dt = parse_date(a['pubDate'])
@@ -435,7 +393,7 @@ def filter_by_category(articles, category):
 
     filtered = []
 
-    indian_sources = {'the indian express', 'deccan herald'}
+    indian_sources = {'the indian express', 'the print', 'scroll.in', 'deccan herald'}
     tech_sources = {'techcrunch'}
 
     indian_kws = [
@@ -529,7 +487,7 @@ def generate_briefing_text(category, articles, grounded_time_str):
 
 # The Headline
 
-- **No Breaking News:** No stories met the strict 24-hour recency filter for sector: {category.upper()} at this time.
+- **No Breaking News:** No stories met the strict 12-hour recency filter for sector: {category.upper()} at this time.
 
 # Today's Top Stories
 
@@ -540,7 +498,7 @@ def generate_briefing_text(category, articles, grounded_time_str):
 # Category Breakdown
 
 ### SYSTEM STATUS
-- Sector {category.upper()} is active but no stories passed the 24-hour filter.
+- Sector {category.upper()} is active but no stories passed the 12-hour filter.
 
 # Quick Hits
 - Scan completed. Feeds active."""
@@ -548,41 +506,42 @@ def generate_briefing_text(category, articles, grounded_time_str):
     clusters = cluster_articles(articles)
     ranked = rank_clusters(clusters)
 
-    def _pick_latest(cluster):
-        best = None
-        best_time = None
-        for art in cluster["articles"]:
-            pub = parse_date(art.get('pubDate', ''))
-            if pub and (best_time is None or pub > best_time):
-                best_time = pub
-                best = art
-        return best
-
-    unique_articles = []
+    all_ranked_articles = []
     for cluster in ranked:
-        rep = _pick_latest(cluster)
-        if rep:
-            unique_articles.append(rep)
+        for art in cluster["articles"]:
+            all_ranked_articles.append(art)
 
-    unique_articles.sort(key=get_pub_time, reverse=True)
+    already_seen_urls = set()
+    ranked_deduped = []
+    for art in all_ranked_articles:
+        key = art.get('link') or art.get('title', '')
+        if key not in already_seen_urls:
+            already_seen_urls.add(key)
+            ranked_deduped.append(art)
 
-    # Headlines: latest 3 distinct stories (one per cluster)
-    headline_articles = unique_articles[:3]
+    ranked_deduped.sort(key=get_pub_time, reverse=True)
+
+    headline_articles = ranked_deduped[:3]
     headline_ids = set(id(a) for a in headline_articles)
 
-    # Top Stories: highest-ranked clusters, no overlap with headlines
     top_candidates = []
-    for cluster in ranked:
-        rep = _pick_latest(cluster)
-        if rep and id(rep) not in headline_ids:
-            top_candidates.append(rep)
+    if ranked:
+        for cluster in ranked:
+            for art in cluster["articles"]:
+                if id(art) not in headline_ids:
+                    top_candidates.append(art)
+                    if len(top_candidates) >= 3:
+                        break
             if len(top_candidates) >= 3:
                 break
+
+    if not top_candidates:
+        top_candidates = [a for a in ranked_deduped if id(a) not in headline_ids][:3]
 
     top_story_articles = top_candidates[:3]
     top_ids = set(id(a) for a in top_story_articles)
 
-    remaining = [a for a in unique_articles if id(a) not in headline_ids and id(a) not in top_ids]
+    remaining = [a for a in ranked_deduped if id(a) not in headline_ids and id(a) not in top_ids]
 
     def make_article_bullet(art, detail_level="brief"):
         raw_content = art.get('content', '') or ''
@@ -593,7 +552,7 @@ def generate_briefing_text(category, articles, grounded_time_str):
         if detail_level == "brief":
             return f"- **{art.get('title', '')}** ([{source}]({link}))\n  {brief}"
         else:
-            why = extract_why_it_matters(raw_content, art.get('title', ''), brief)
+            why = extract_why_it_matters(raw_content, art.get('title', ''))
             if why:
                 return f"- **{art.get('title', '')}** ([{source}]({link}))\n  {brief}\n  *Why it matters:* {why}"
             else:
@@ -721,9 +680,10 @@ Category Focus: {category.upper()}
 
 === STEP 1 — RECENCY FILTER (mechanical, not interpretive) ===
 For every candidate story, identify its explicit published timestamp from the source. Compare it against the grounded time above.
-- Discard any story whose timestamp is more than 24 hours before the grounded time.
+- Discard any story whose timestamp is more than 12 hours before the grounded time.
 - If a source does not show a clear timestamp, do not include it.
-- This 24-hour rule applies uniformly.
+- Do not include recap articles, "week in review" pieces, analysis of older events, or evergreen content.
+- This 12-hour rule applies uniformly — there is no 24-hour fallback anywhere in this brief.
 
 === STEP 2 — CATEGORY CLASSIFICATION SCOPES (follow strictly) ===
 When categorizing stories, organize them according to these exact scopes to ensure accuracy:
@@ -744,7 +704,7 @@ Live Briefing for: {formatted_date}
 
 # The Headline
 
-For each of the 5 to 8 biggest breaking stories from the last 24 hours, write a bullet with:
+For each of the 5 to 8 biggest breaking stories from the last 12 hours, write a bullet with:
 - The headline in bold, followed by a markdown hyperlink to the source in parentheses.
 - A detailed 2-to-3 sentence summary providing context, key figures, and immediate consequences.
 - No emojis anywhere in the output.
@@ -756,7 +716,7 @@ Format (use exactly double newlines around header, and start list items with "- 
 
 # Today's Top Stories
 
-Identify the 3 single most important stories from the last 24 hours. For each:
+Identify the 3 single most important stories from the last 12 hours. For each:
 - Lead with the headline in bold, followed by a hyperlink to the source.
 - Write 3-4 sentences of analysis covering the core facts, context, and stakes.
 - Explicitly state "Why it matters:" with a substantive analytical paragraph (2-3 sentences).
@@ -769,7 +729,7 @@ Format (all items must start flush with "- " at the same indent level):
 
 # Category Breakdown
 
-For each relevant category below, list 5 to 10 articles from the last 24 hours. If a category has no qualifying articles, omit its H3 header entirely. Each item must:
+For each relevant category below, list 5 to 10 articles from the last 12 hours. If a category has no qualifying articles, omit its H3 header entirely. Each item must:
 - Start with the headline in bold followed by a hyperlink to the article source.
 - Include 2-3 sentences of elaboration below the headline providing context and key facts.
 - No single-sentence bullets — every item requires substantive detail.
@@ -794,7 +754,7 @@ Available categories to use as H3 headers:
 
 # Quick Hits
 
-A short bulleted list of immediate facts from the last 24 hours (scores, specific numbers, product release dates, market moves). Each bullet is one concise factual sentence with a markdown hyperlink to its source.
+A short bulleted list of immediate facts from the last 12 hours (scores, specific numbers, product release dates, market moves). Each bullet is one concise factual sentence with a markdown hyperlink to its source.
 
 Format:
 - **[Headline/Fact]** ([Source Name](article URL))
@@ -838,7 +798,7 @@ def seed_briefs():
 
 ### SYSTEM STATUS
 - Sector {cat.upper()} is active.
-- Tracking feeds: BBC, The Indian Express, The Guardian, TechCrunch, Deccan Herald, Bloomberg, Financial Times, The Verge, Press Trust of India, AP News.
+- Tracking feeds: BBC, CNN, Reuters, Bloomberg, Google News, Indian Express, The Print, The Guardian, TechCrunch, Scroll.in, Deccan Herald, Vox.
 
 # Quick Hits
 - System version 2.0 active.
@@ -909,7 +869,94 @@ def fetch_world_cup_schedule():
     return {"matches": matches, "count": len(matches)}
 
 
+def fetch_story_of_the_day():
+    fallback = {
+        "title": "Story of the Day",
+        "subtitle": "Discover arts and culture",
+        "image": "",
+        "link": "https://artsandculture.google.com/"
+    }
+    try:
+        req = urllib.request.Request(
+            "https://artsandculture.google.com/",
+            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+        )
+        kwargs = {"timeout": 15}
+        if ssl_context:
+            kwargs["context"] = ssl_context
+        with urllib.request.urlopen(req, **kwargs) as resp:
+            html = resp.read().decode("utf-8", errors="replace")
 
+        # Locate "Story of the day" heading, then find the next section
+        # whose meta contains a /story/ link AND a cobject with image
+        # Find the section whose meta contains /story/ with "Discover" label
+        # Pattern: ,[null,null,null,"/story/XXXX","Discover",
+        story_pattern = r',\[null,null,null,"/story/([^"]+?)","Discover",'
+        story_m = re.search(story_pattern, html)
+        if not story_m:
+            print("Story of the day section not found")
+            return fallback
+
+        story_path = "/story/" + story_m.group(1)
+
+        # Go backwards to find the section's INIT_data assignment
+        before = html[:story_m.start()]
+        init_matches = list(re.finditer(
+            r"window\.INIT_data\['EditorialSection:([a-f0-9-]+)'\]\s*=\s*",
+            before
+        ))
+        if not init_matches:
+            return fallback
+
+        last_init = init_matches[-1]
+        # Find the outer array's opening bracket (the value after =)
+        val_start = html.find("[", last_init.end())
+        if val_start < 0:
+            return fallback
+
+        # Find the matching close bracket for the entire section array
+        depth = 1
+        val_end = val_start + 1
+        in_str = False
+        esc = False
+        while val_end < len(html):
+            c = html[val_end]
+            if esc:
+                esc = False
+            elif c == "\\" and in_str:
+                esc = True
+            elif c == '"':
+                in_str = not in_str
+            elif not in_str:
+                if c == "[":
+                    depth += 1
+                elif c == "]":
+                    depth -= 1
+                    if depth == 0:
+                        val_end += 1
+                        break
+            val_end += 1
+
+        data_str = html[val_start:val_end]
+
+        cobj_m = re.search(
+            r'\["stella\.common\.cobject","([^"]+?)","([^"]*?)","(https://[^"]+?)"',
+            data_str
+        )
+        if cobj_m:
+            return {
+                "title": cobj_m.group(1),
+                "subtitle": cobj_m.group(2),
+                "image": cobj_m.group(3),
+                "link": "https://artsandculture.google.com" + story_path
+            }
+
+        return fallback
+
+        return fallback
+    except Exception as e:
+        print(f"Error fetching story of the day: {e}")
+        return fallback
 
 
 class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
@@ -965,7 +1012,8 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                     self.send_json({"error": "Failed to read briefing"}, 500)
             else:
                 self.send_json({"error": f"Latest briefing for category {category} not found"}, 404)
-        # Deleted: /api/story-of-the-day endpoint
+        elif path == '/api/story-of-the-day':
+            self.send_json(fetch_story_of_the_day())
         else:
             if path == '/':
                 self.path = '/index.html'
