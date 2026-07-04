@@ -44,20 +44,12 @@ def _extractive_fallback(text):
     text = _clean_rss_artifacts(text)
     sentences = _split_sentences(text)
     if not sentences:
-        return text[:200] if len(text) > 200 else text
+        return text[:300] if len(text) > 300 else text
 
-    if len(sentences) <= 2:
-        return " ".join(sentences)
-
-    first = sentences[0]
-    mid = sentences[len(sentences) // 2] if len(sentences) > 2 else ""
-    last = sentences[-1]
-    parts = [p for p in [first, mid, last] if p]
-    result = " ".join(parts)
-
-    final_sentences = _split_sentences(result)
-    if len(final_sentences) < 2:
-        result = " ".join(sentences[:3])
+    # Join the first 3 sentences to form a detailed 2-3 sentence summary (approx 300 chars)
+    result = " ".join(sentences[:3])
+    if len(result) < 250 and len(sentences) > 3:
+        result = " ".join(sentences[:4])
 
     return result
 
@@ -154,7 +146,7 @@ def summarize_content(content, title, ssl_ctx, hf_token=""):
         return clean
 
     hf_result = _call_hf_inference(clean, ssl_ctx, hf_token)
-    if hf_result:
+    if hf_result and len(hf_result) >= 200:
         hf_result = WHITESPACE_RE.sub(' ', hf_result).strip()
         sentence_count = len(re.findall(r'[.!?]+', hf_result))
         if 1 <= sentence_count <= 5:

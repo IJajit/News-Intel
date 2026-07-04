@@ -87,8 +87,8 @@ SOURCES = [
   { "id": "scroll", "name": "Scroll.in", "url": "https://feeds.feedburner.com/Scrollin", "siteUrl": "https://scroll.in/latest/" },
   { "id": "deccan-herald", "name": "Deccan Herald", "url": "https://www.deccanherald.com/feed/", "siteUrl": "https://www.deccanherald.com/" },
   { "id": "vox", "name": "Vox", "url": "https://www.vox.com/rss/index.xml", "siteUrl": "https://www.vox.com/" },
-  { "id": "cnn", "name": "CNN", "url": "https://rss.cnn.com/rss/cnn_topstories.rss", "siteUrl": "https://edition.cnn.com/" },
-  { "id": "reuters", "name": "Reuters", "url": "https://news.google.com/rss/search?q=when:24h+allinurl:reuters.com&ceid=US:en&hl=en-US&gl=US", "siteUrl": "https://www.reuters.com/" },
+  { "id": "cnn", "name": "CNN", "url": "https://news.google.com/rss/search?q=site:cnn.com&hl=en-US&gl=US&ceid=US:en", "siteUrl": "https://edition.cnn.com/" },
+  { "id": "reuters", "name": "Reuters", "url": "https://news.google.com/rss/search?q=site:reuters.com&hl=en-US&gl=US&ceid=US:en", "siteUrl": "https://www.reuters.com/" },
   { "id": "bloomberg", "name": "Bloomberg", "url": "https://feeds.bloomberg.com/markets/news.rss", "siteUrl": "https://www.bloomberg.com/asia" }
 ]
 
@@ -179,41 +179,86 @@ def fetch_feed(source):
 
         root = ET.fromstring(xml_str)
         items = []
-        for item in root.findall('.//item'):
-            title = item.find('title')
-            link = item.find('link')
-            pub_date = item.find('pubDate')
-            desc = item.find('description')
 
-            title_text = (title.text if (title is not None and title.text is not None) else "").strip()
-            link_text = (link.text if (link is not None and link.text is not None) else "").strip()
-            pub_date_text = (pub_date.text if (pub_date is not None and pub_date.text is not None) else "").strip()
-            desc_text = (desc.text if (desc is not None and desc.text is not None) else "").strip()
+        # Try standard RSS <item> tags first
+        rss_items = root.findall('.//item')
+        if rss_items:
+            for item in rss_items:
+                title = item.find('title')
+                link = item.find('link')
+                pub_date = item.find('pubDate')
+                desc = item.find('description')
 
-            desc_clean = re.sub('<[^<]+?>', '', desc_text)
+                title_text = (title.text if (title is not None and title.text is not None) else "").strip()
+                link_text = (link.text if (link is not None and link.text is not None) else "").strip()
+                pub_date_text = (pub_date.text if (pub_date is not None and pub_date.text is not None) else "").strip()
+                desc_text = (desc.text if (desc is not None and desc.text is not None) else "").strip()
 
-            if "news.google.com/rss/articles/" in link_text or "news.google.com/articles/" in link_text:
-                link_text = decode_google_news_url(link_text)
+                desc_clean = re.sub('<[^<]+?>', '', desc_text)
 
-            is_feed_url = False
-            if not link_text:
-                is_feed_url = True
-            elif link_text == source['url']:
-                is_feed_url = True
-            elif link_text.endswith('/feed') or link_text.endswith('/feed/') or link_text.endswith('/rss.xml') or link_text.endswith('/rss'):
-                is_feed_url = True
+                if "news.google.com/rss/articles/" in link_text or "news.google.com/articles/" in link_text:
+                    link_text = decode_google_news_url(link_text)
 
-            if is_feed_url:
-                link_text = source['siteUrl']
+                is_feed_url = False
+                if not link_text:
+                    is_feed_url = True
+                elif link_text == source['url']:
+                    is_feed_url = True
+                elif link_text.endswith('/feed') or link_text.endswith('/feed/') or link_text.endswith('/rss.xml') or link_text.endswith('/rss'):
+                    is_feed_url = True
 
-            items.append({
-                'sourceId': source['id'],
-                'sourceName': source['name'],
-                'title': title_text,
-                'link': link_text,
-                'pubDate': pub_date_text,
-                'content': desc_clean
-            })
+                if is_feed_url:
+                    link_text = source['siteUrl']
+
+                items.append({
+                    'sourceId': source['id'],
+                    'sourceName': source['name'],
+                    'title': title_text,
+                    'link': link_text,
+                    'pubDate': pub_date_text,
+                    'content': desc_clean
+                })
+        else:
+            ns = {'atom': 'http://www.w3.org/2005/Atom'}
+            atom_entries = root.findall('.//atom:entry', ns)
+            for entry in atom_entries:
+                title = entry.find('atom:title', ns)
+                link = entry.find('atom:link', ns)
+                pub_date_elem = entry.find('atom:published', ns)
+                pub_date = pub_date_elem if pub_date_elem is not None else entry.find('atom:updated', ns)
+                desc_elem = entry.find('atom:summary', ns)
+                desc = desc_elem if desc_elem is not None else entry.find('atom:content', ns)
+
+                title_text = (title.text if (title is not None and title.text is not None) else "").strip()
+                link_text = (link.attrib.get('href') if (link is not None) else "").strip()
+                pub_date_text = (pub_date.text if (pub_date is not None and pub_date.text is not None) else "").strip()
+                desc_text = (desc.text if (desc is not None and desc.text is not None) else "").strip()
+
+                desc_clean = re.sub('<[^<]+?>', '', desc_text)
+
+                if "news.google.com/rss/articles/" in link_text or "news.google.com/articles/" in link_text:
+                    link_text = decode_google_news_url(link_text)
+
+                is_feed_url = False
+                if not link_text:
+                    is_feed_url = True
+                elif link_text == source['url']:
+                    is_feed_url = True
+                elif link_text.endswith('/feed') or link_text.endswith('/feed/') or link_text.endswith('/rss.xml') or link_text.endswith('/rss'):
+                    is_feed_url = True
+
+                if is_feed_url:
+                    link_text = source['siteUrl']
+
+                items.append({
+                    'sourceId': source['id'],
+                    'sourceName': source['name'],
+                    'title': title_text,
+                    'link': link_text,
+                    'pubDate': pub_date_text,
+                    'content': desc_clean
+                })
+
         return items
     except Exception as e:
         print(f"Error fetching feed {source['name']} ({source['url']}): {e}")
@@ -706,32 +751,32 @@ Live Briefing for: {formatted_date}
 
 For each of the 5 to 8 biggest breaking stories from the last 24 hours, write a bullet with:
 - The headline in bold, followed by a markdown hyperlink to the source in parentheses.
-- A detailed 2-to-3 sentence summary providing context, key figures, and immediate consequences.
+- A detailed and elaborate editor's brief of approximately 300 characters, consisting of exactly 2 to 3 substantive sentences summarizing the core facts of the source article.
 - No emojis anywhere in the output.
 
 Format (use exactly double newlines around header, and start list items with "- "):
 - **[Story Headline]** ([Source Name](article URL))
-  [2-3 sentence elaboration: what happened, who is involved, what it means, key numbers or quotes if available]
+  [Elaborate editor's brief: 2-3 sentences, approx 300 characters. Detail what happened, who is involved, key figures, and immediate consequences.]
 
 
 # Today's Top Stories
 
 Identify the 3 single most important stories from the last 24 hours. For each:
 - Lead with the headline in bold, followed by a hyperlink to the source.
-- Write 3-4 sentences of analysis covering the core facts, context, and stakes.
-- Explicitly state "Why it matters:" with a substantive analytical paragraph (2-3 sentences).
+- Write a detailed and elaborate editor's brief of approximately 300 characters, consisting of 2-3 substantive sentences covering the core facts, context, and key details.
+- Explicitly state "Why it matters:" followed by a substantive explanation of why the story is important, its significance, and the underlying stakes (2-3 sentences, approx 200-300 characters). Do NOT just repeat facts; explain the impact and why this news is critical.
 
 Format (all items must start flush with "- " at the same indent level):
 - **[Story Headline]** ([Source Name](article URL))
-  [3-4 sentence summary with full context, key details, numbers, and named actors]
-  *Why it matters:* [2-3 sentence analytical reasoning on why this is significant]
+  [Elaborate editor's brief: 2-3 sentences, approx 300 characters. Full context, key details, numbers, and named actors.]
+  *Why it matters:* [Substantive explanation of why this story matters, its importance, stakes, and broader implications. 2-3 sentences.]
 
 
 # Category Breakdown
 
 For each relevant category below, list 5 to 10 articles from the last 24 hours. If a category has no qualifying articles, omit its H3 header entirely. Each item must:
 - Start with the headline in bold followed by a hyperlink to the article source.
-- Include 2-3 sentences of elaboration below the headline providing context and key facts.
+- Include a detailed and elaborate editor's brief of approximately 300 characters (2-3 sentences) below the headline providing context, key facts, and figures.
 - No single-sentence bullets — every item requires substantive detail.
 - No emojis.
 
@@ -739,7 +784,7 @@ Format (H3 headers must be capitalized exactly as written, e.g. "### Sports"):
 ### [Category Name]
 
 - **[Headline]** ([Source Name](article URL))
-  [2-3 sentence elaboration]
+  [Elaborate editor's brief: 2-3 sentences, approx 300 characters.]
 
 Available categories to use as H3 headers:
 ### Business, Markets & Economy
@@ -792,7 +837,7 @@ def seed_briefs():
 
 - **Daily Summarizer Active**
   The summarizer is operational and tracking 11 verified news feeds.
-  *Why it matters:* Provides highly scannable, zero-fluff news briefs on demand.
+  *Why it matters:* Provides highly scannable, zero-fluff news briefs on demand, explaining the stakes and importance of key developments.
 
 # Category Breakdown
 
