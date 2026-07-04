@@ -6,7 +6,6 @@
   <meta name="description" content="Executive Daily News Briefing — Real-time AI-powered intelligence from 9 verified global sources. Zero fluff, maximum signal.">
   <title>News Intel</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%23F25623%22/><text x=%2250%%22 y=%2270%%22 font-size=%2260%22 font-family=%22sans-serif%22 font-weight=%22bold%22 text-anchor=%22middle%22 fill=%22%23171717%22>N</text></svg>">
-  <link rel="manifest" href="manifest.json">
 
   <!-- Premium Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -73,47 +72,16 @@
           </div>
 
           <!-- Loading State -->
-          <div id="stateLoading" class="loading-container w-full h-full relative" style="display: none;" role="status" aria-live="polite">
-            <!-- Background Layer -->
-            <div class="absolute inset-0 z-0">
-              <div class="absolute inset-0 bg-black/80"></div>
-              <div class="scanline"></div>
+          <div id="stateLoading" class="loading-container" style="display: none;" role="status" aria-live="polite">
+            <h1 class="loading-brand">NEWS INTEL</h1>
+            <div class="loading-grid">
+              <div class="loading-cell"></div>
+              <div class="loading-cell"></div>
+              <div class="loading-cell"></div>
+              <div class="loading-cell"></div>
             </div>
-            
-            <!-- Center Branding Content -->
-            <div class="relative z-30 flex flex-col items-center justify-center text-center">
-              <div class="flicker">
-                <h1 class="font-display-lg text-[40px] text-orange-600 uppercase tracking-tighter leading-none font-extrabold select-none">
-                    NEWS INTEL
-                </h1>
-              </div>
-              <!-- Tagline -->
-              <div class="mt-4 flex items-center space-x-2">
-                <span class="w-2 h-2 bg-orange-600 rounded-full animate-pulse"></span>
-                <p class="text-white tracking-widest uppercase opacity-80" id="typewriter">ESTABLISHING FEED...</p>
-              </div>
-            </div>
-
-            <script>
-              const textElement = document.getElementById('typewriter');
-              const phrases = ['ESTABLISHING SECURE FEED...', 'DECRYPTING GLOBAL STREAMS...', 'INTELLIGENCE SYSTEM ACTIVE'];
-              let currentPhrase = 0, charIndex = 0, isDeleting = false;
-              function type() {
-                  const fullText = phrases[currentPhrase];
-                  textElement.innerText = isDeleting ? fullText.substring(0, charIndex - 1) : fullText.substring(0, charIndex + 1);
-                  charIndex = isDeleting ? charIndex - 1 : charIndex + 1;
-                  if (!isDeleting && charIndex === fullText.length) { isDeleting = true; setTimeout(type, 2000); }
-                  else if (isDeleting && charIndex === 0) { isDeleting = false; currentPhrase = (currentPhrase + 1) % phrases.length; setTimeout(type, 500); }
-                  else { setTimeout(type, isDeleting ? 50 : 100); }
-              }
-              setTimeout(type, 1000);
-            </script>
-            <style>
-              .scanline { position: absolute; width: 100%; height: 2px; background: rgba(242, 86, 35, 0.2); animation: scan-line 4s linear infinite; }
-              @keyframes scan-line { 0% { transform: translateY(-100%); } 100% { transform: translateY(1000%); } }
-              .flicker { animation: pulse-flicker 4s infinite; }
-              @keyframes pulse-flicker { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
-            </style>
+            <div id="loadingStatusText" class="loading-text">Fetching news feeds...</div>
+            <div class="loading-sub">Applying 24-hour recency filter</div>
           </div>
 
           <!-- Intel Reader Tab -->
