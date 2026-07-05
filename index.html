@@ -25,6 +25,13 @@
         <h1 class="sidebar-brand-title">NEWS INTEL</h1>
       </div>
 
+      <!-- Category Channels -->
+      <div class="sidebar-section-header">
+        <span class="sidebar-title">CHANNELS</span>
+        <span id="totalArticleCount" class="sidebar-version">0 ARTICLES</span>
+      </div>
+      <div id="categoryList" class="category-list"></div>
+
       <!-- Additional Sidebar Elements Area -->
       <div id="sidebarAdditional" class="sidebar-additional-elements">
         <div id="wikiDykCard" class="wiki-card" style="display: none;">
@@ -84,7 +91,16 @@
 
           <!-- Intel Reader Tab -->
           <div id="viewReader" class="briefing-reader" role="tabpanel" aria-labelledby="tabReaderBtn" style="display: none;">
-            <!-- Loaded dynamically -->
+            <div class="reader-subtabs" id="readerSubtabs">
+              <button class="reader-subtab active" data-category="global">GLOBAL</button>
+              <button class="reader-subtab" data-category="indian">INDIA</button>
+              <button class="reader-subtab" data-category="technology">TECHNOLOGY</button>
+              <button class="reader-subtab" data-category="sports">SPORTS</button>
+              <button class="reader-subtab" data-category="finance">FINANCE</button>
+            </div>
+            <div id="readerContent" class="reader-content">
+              <!-- Loaded dynamically -->
+            </div>
           </div>
 
           <!-- Raw Markdown Tab -->
@@ -114,6 +130,10 @@
             <div class="feed-articles-header">
               <div id="feedSourcesList" class="feed-sources-list"></div>
               <span class="feed-window-badge">LAST 24 HOURS</span>
+            </div>
+            <div class="feed-search-bar">
+              <input type="text" id="feedSearchInput" class="feed-search-input" placeholder="Search articles by title..." aria-label="Search articles">
+              <span id="feedSearchCount" class="feed-search-count"></span>
             </div>
             <div id="articlesList" class="articles-cards-container">
               <!-- Loaded dynamically -->

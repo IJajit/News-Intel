@@ -89,7 +89,18 @@ SOURCES = [
   { "id": "vox", "name": "Vox", "url": "https://www.vox.com/rss/index.xml", "siteUrl": "https://www.vox.com/" },
   { "id": "cnn", "name": "CNN", "url": "https://news.google.com/rss/search?q=site:cnn.com&hl=en-US&gl=US&ceid=US:en", "siteUrl": "https://edition.cnn.com/" },
   { "id": "reuters", "name": "Reuters", "url": "https://news.google.com/rss/search?q=site:reuters.com&hl=en-US&gl=US&ceid=US:en", "siteUrl": "https://www.reuters.com/" },
-  { "id": "bloomberg", "name": "Bloomberg", "url": "https://feeds.bloomberg.com/markets/news.rss", "siteUrl": "https://www.bloomberg.com/asia" }
+  { "id": "bloomberg", "name": "Bloomberg", "url": "https://feeds.bloomberg.com/markets/news.rss", "siteUrl": "https://www.bloomberg.com/asia" },
+  { "id": "ap-news", "name": "AP News", "url": "https://rsshub.app/apnews/rss", "siteUrl": "https://apnews.com/" },
+  { "id": "al-jazeera", "name": "Al Jazeera", "url": "https://www.aljazeera.com/xml/rss/all.xml", "siteUrl": "https://www.aljazeera.com/" },
+  { "id": "npr", "name": "NPR", "url": "https://feeds.npr.org/1001/rss.xml", "siteUrl": "https://www.npr.org/" },
+  { "id": "ndtv", "name": "NDTV", "url": "https://feeds.feedburner.com/ndtvnews-latest", "siteUrl": "https://www.ndtv.com/" },
+  { "id": "the-hindu", "name": "The Hindu", "url": "https://www.thehindu.com/news/feeds/default.rss", "siteUrl": "https://www.thehindu.com/" },
+  { "id": "nytimes", "name": "NYT", "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml", "siteUrl": "https://www.nytimes.com/" },
+  { "id": "washington-post", "name": "Washington Post", "url": "http://feeds.washingtonpost.com/rss/world", "siteUrl": "https://www.washingtonpost.com/" },
+  { "id": "wired", "name": "Wired", "url": "https://www.wired.com/feed/rss", "siteUrl": "https://www.wired.com/" },
+  { "id": "ars-technica", "name": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/index", "siteUrl": "https://arstechnica.com/" },
+  { "id": "hacker-news", "name": "Hacker News", "url": "https://hnrss.org/frontpage", "siteUrl": "https://news.ycombinator.com/" },
+  { "id": "sky-sports", "name": "Sky Sports", "url": "https://www.skysports.com/rss/12040", "siteUrl": "https://www.skysports.com/" }
 ]
 
 CATEGORIES = [
@@ -438,7 +449,7 @@ def filter_by_category(articles, category):
 
     filtered = []
 
-    indian_sources = {'the indian express', 'the print', 'scroll.in', 'deccan herald'}
+    indian_sources = {'the indian express', 'the print', 'scroll.in', 'deccan herald', 'ndtv', 'the hindu'}
     tech_sources = {'techcrunch'}
 
     indian_kws = [
@@ -498,6 +509,94 @@ def filter_by_category(articles, category):
 def get_pub_time(art):
     dt = parse_date(art.get('pubDate', ''))
     return dt.timestamp() if dt else 0
+
+
+SOURCE_AUTHORITY = {
+    'bbc': 3, 'reuters': 3, 'ap-news': 3, 'nytimes': 3, 'washington-post': 3,
+    'bloomberg': 3, 'the-guardian': 3, 'cnn': 2, 'npr': 2, 'al-jazeera': 2,
+    'wired': 2, 'ars-technica': 2, 'techcrunch': 2, 'vox': 2,
+    'indian-express': 2, 'the-hindu': 2, 'ndtv': 2, 'deccan-herald': 2,
+    'the-print': 2, 'scroll': 1, 'sky-sports': 1, 'hacker-news': 1
+}
+
+URGENCY_KW_SCORE = [
+    ('breaking', 2.0), ('crisis', 1.8), ('emergency', 1.8), ('confirmed', 1.5),
+    ('developing', 1.5), ('death', 1.5), ('deaths', 1.5), ('attack', 1.5),
+    ('war', 1.8), ('crash', 1.5), ('disaster', 1.8), ('killed', 1.8),
+    ('injured', 1.5), ('collapse', 1.5), ('warning', 1.2), ('urgent', 2.0),
+    ('explosion', 1.8), ('strike', 1.3), ('military', 1.0), ('nuclear', 1.5),
+    ('evacuate', 1.5), ('evacuation', 1.5), ('catastrophe', 2.0), ('fatal', 1.8),
+    ('deadly', 1.8), ('critical', 1.3), ('halt', 1.0), ('suspend', 1.0),
+    ('recall', 1.0), ('warning', 1.2), ('sanction', 1.2), ('verdict', 1.0),
+    ('indict', 1.5), ('arrest', 1.0), ('ban', 1.0), ('approves', 0.8),
+    ('launch', 0.6), ('unveils', 0.6), ('releases', 0.5), ('surge', 0.8),
+    ('plunge', 0.8), ('record', 0.7), ('breakthrough', 1.2), ('discover', 0.8)
+]
+
+
+def compute_significance(article, grounded_dt):
+    score = 0.0
+
+    source_id = article.get('sourceId', '')
+    authority = SOURCE_AUTHORITY.get(source_id, 1)
+    score += authority * 0.8
+
+    pub_dt = parse_date(article.get('pubDate', ''))
+    if pub_dt and grounded_dt:
+        if pub_dt.tzinfo is None:
+            pub_dt = pub_dt.replace(tzinfo=timezone.utc)
+        diff_hours = (grounded_dt - pub_dt).total_seconds() / 3600.0
+        if diff_hours <= 1:
+            score += 2.5
+        elif diff_hours <= 3:
+            score += 2.0
+        elif diff_hours <= 6:
+            score += 1.5
+        elif diff_hours <= 12:
+            score += 1.0
+        elif diff_hours <= 18:
+            score += 0.5
+        else:
+            score += 0.2
+
+    title_lower = (article.get('title', '') or '').lower()
+    content_lower = (article.get('content', '') or '').lower()
+    text = title_lower + ' ' + content_lower
+    kw_score = 0.0
+    for kw, val in URGENCY_KW_SCORE:
+        if kw in text:
+            kw_score += val
+    score += min(kw_score, 2.5)
+
+    score = max(0.0, min(score, 10.0))
+    return round(score, 1)
+
+
+def compute_article_significance(articles, grounded_dt):
+    if not articles:
+        return articles
+
+    clusters = cluster_articles(articles)
+    cluster_coverage = {}
+    for cluster in clusters:
+        rep_title = cluster.get('representative_title', '')
+        source_count = cluster.get('source_count', 1)
+        for art in cluster.get('articles', []):
+            key = art.get('link') or art.get('title', '')
+            cluster_coverage[key] = source_count
+
+    for art in articles:
+        base_score = compute_significance(art, grounded_dt)
+        key = art.get('link') or art.get('title', '')
+        coverage_bonus = cluster_coverage.get(key, 1)
+        if coverage_bonus >= 3:
+            base_score += 1.5
+        elif coverage_bonus >= 2:
+            base_score += 0.8
+        base_score = max(0.0, min(base_score, 10.0))
+        art['significance'] = round(base_score, 1)
+
+    return articles
 
 
 def _dedup_articles_by_similarity(articles, threshold=0.4):
@@ -843,7 +942,7 @@ def seed_briefs():
 
 ### SYSTEM STATUS
 - Sector {cat.upper()} is active.
-- Tracking feeds: BBC, CNN, Reuters, Bloomberg, Google News, Indian Express, The Print, The Guardian, TechCrunch, Scroll.in, Deccan Herald, Vox.
+- Tracking feeds across 22 verified sources worldwide.
 
 # Quick Hits
 - System version 2.0 active.
@@ -1001,6 +1100,10 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                 filtered_articles = filter_by_category(articles, category)
 
                 parsed_gdt = parse_iso(grounded_time)
+                grounded_dt = parsed_gdt if parsed_gdt and parsed_gdt.tzinfo else (parsed_gdt.replace(tzinfo=timezone.utc) if parsed_gdt else datetime.now(timezone.utc))
+                filtered_articles = compute_article_significance(filtered_articles, grounded_dt)
+
+                parsed_gdt = parse_iso(grounded_time)
                 if parsed_gdt:
                     ist_tz = timezone(timedelta(hours=5, minutes=30))
                     parsed_gdt_ist = parsed_gdt.astimezone(ist_tz)
@@ -1048,7 +1151,9 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                         "title": a['title'],
                         "sourceName": a['sourceName'],
                         "link": a['link'],
-                        "pubDate": a['pubDate']
+                        "pubDate": a['pubDate'],
+                        "significance": a.get('significance', 0.0),
+                        "excerpt": clean_content(a.get('content', ''))[:200]
                     } for a in filtered_articles]
                 }
 

@@ -25,7 +25,13 @@ const worldCupSchedule    = document.getElementById('worldCupSchedule');
 const worldCupLoader      = document.getElementById('worldCupLoader');
 const copyMarkdownBtn     = document.getElementById('copyMarkdownBtn');
 const feedSourcesList     = document.getElementById('feedSourcesList');
+const feedSearchInput     = document.getElementById('feedSearchInput');
+const feedSearchCount     = document.getElementById('feedSearchCount');
 const sidebarAdditional   = document.getElementById('sidebarAdditional');
+const categoryList        = document.getElementById('categoryList');
+const totalArticleCount   = document.getElementById('totalArticleCount');
+const readerContent       = document.getElementById('readerContent');
+const readerSubtabs       = document.getElementById('readerSubtabs');
 const imageModal          = document.getElementById('imageModal');
 const modalCloseBtn       = document.getElementById('modalCloseBtn');
 const modalImage          = document.getElementById('modalImage');
@@ -41,7 +47,9 @@ let apiKey          = '';
 let showApiKey      = false;
 let activeTab       = localStorage.getItem('wcActiveTab') || 'reader';
 let currentBriefing = null;
-let activeCategory  = 'global';
+let activeCategory  = localStorage.getItem('readerCategory') || 'global';
+let categories     = [];
+let searchQuery    = '';
 
 // ─── INITIALIZATION ───────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
@@ -62,6 +70,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Load sources into sidebar
   fetchSources();
+
+  // Fetch categories and render sidebar + sub-tabs
+  fetchCategories();
 
   // Load default briefing then auto-generate fresh one
   loadLatestBrief(activeCategory).then(() => {
@@ -120,6 +131,28 @@ document.addEventListener('DOMContentLoaded', () => {
   // World Cup filter tabs
   document.getElementById('wcFilterAll').addEventListener('click', () => setWorldCupFilter('all'));
   document.getElementById('wcFilterArgentina').addEventListener('click', () => setWorldCupFilter('argentina'));
+
+  // Intel Reader sub-tabs
+  if (readerSubtabs) {
+    readerSubtabs.addEventListener('click', (e) => {
+      const btn = e.target.closest('.reader-subtab');
+      if (!btn) return;
+      const cat = btn.dataset.category;
+      readerSubtabs.querySelectorAll('.reader-subtab').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeCategory = cat;
+      localStorage.setItem('readerCategory', cat);
+      triggerBriefingGeneration();
+    });
+  }
+
+  // Search input
+  if (feedSearchInput) {
+    feedSearchInput.addEventListener('input', (e) => {
+      searchQuery = e.target.value.trim().toLowerCase();
+      renderArticlesList();
+    });
+  }
 });
 
 // Check if server already has the Gemini API Key in its environment
@@ -160,6 +193,58 @@ async function fetchSources() {
   } catch (err) {
     console.error('Failed to load sources:', err);
   }
+}
+
+// ─── FETCH CATEGORIES & RENDER SIDEBAR ──────────────────────
+async function fetchCategories() {
+  try {
+    const res = await fetch('/api/categories');
+    if (!res.ok) return;
+    categories = await res.json();
+    renderSidebarCategories();
+  } catch (err) {
+    console.error('Failed to load categories:', err);
+  }
+}
+
+function renderSidebarCategories(counts) {
+  if (!categoryList) return;
+  const countsMap = counts || {};
+  let total = 0;
+  categoryList.innerHTML = categories.map(cat => {
+    const count = countsMap[cat.id] || 0;
+    total += count;
+    const isActive = cat.id === activeCategory;
+    return `
+      <div class="category-item ${isActive ? 'active' : ''}" data-category="${cat.id}">
+        <span class="category-icon">${cat.icon}</span>
+        <div class="category-text">
+          <span class="category-name">${cat.name}</span>
+          <span class="category-meta">${cat.label} &middot; ${count} ARTICLES</span>
+        </div>
+      </div>
+    `;
+  }).join('');
+  if (totalArticleCount) {
+    totalArticleCount.textContent = `${total} ARTICLES`;
+  }
+
+  categoryList.querySelectorAll('.category-item').forEach(item => {
+    item.addEventListener('click', () => {
+      const cat = item.dataset.category;
+      categoryList.querySelectorAll('.category-item').forEach(c => c.classList.remove('active'));
+      item.classList.add('active');
+      activeCategory = cat;
+      // Update sub-tab active state
+      if (readerSubtabs) {
+        readerSubtabs.querySelectorAll('.reader-subtab').forEach(b => {
+          b.classList.toggle('active', b.dataset.category === cat);
+        });
+      }
+      localStorage.setItem('readerCategory', cat);
+      triggerBriefingGeneration();
+    });
+  });
 }
 
 // ─── FETCH WIKIPEDIA FACTS ──────────────────────────────────
@@ -345,8 +430,10 @@ function updateLoadingStatus(text) {
 
 // ─── RENDER BRIEFING ──────────────────────────────────────────
 function renderBriefing(brief) {
-  // Intel Reader
-  viewReader.innerHTML = parseMarkdownToHtml(brief.briefing);
+  // Intel Reader — render into content sub-area
+  if (readerContent) {
+    readerContent.innerHTML = parseMarkdownToHtml(brief.briefing);
+  }
 
   // Raw Markdown
   markdownTextarea.value = brief.briefing;
@@ -354,17 +441,43 @@ function renderBriefing(brief) {
   // Articles Count
   articlesCountVal.textContent = brief.articlesCount || 0;
 
-  // Articles list
-  if (!brief.articles || brief.articles.length === 0) {
+  // Update sidebar category counts
+  updateSidebarCounts(brief);
+
+  // Store articles for search filtering, then render
+  window._allArticles = brief.articles || [];
+  renderArticlesList();
+}
+
+function getSigClass(score) {
+  if (score >= 6) return 'high';
+  if (score >= 3) return 'med';
+  return 'low';
+}
+
+function renderArticlesList() {
+  let articles = window._allArticles || [];
+
+  if (searchQuery) {
+    articles = articles.filter(a =>
+      (a.title || '').toLowerCase().includes(searchQuery)
+    );
+  }
+
+  if (feedSearchCount) {
+    feedSearchCount.textContent = `${articles.length} of ${(window._allArticles || []).length}`;
+  }
+
+  if (articles.length === 0) {
     articlesList.innerHTML = `
-      <div class="empty-state" style="min-height: 180px;">
-        <div class="empty-state-icon">No articles passed the 24-hour recency filter for this category.</div>
+      <div class="empty-state" style="min-height: 120px; padding: 2rem 0;">
+        <div class="empty-state-icon" style="font-size: 1.5rem;">No articles match your filter.</div>
       </div>
     `;
     return;
   }
 
-  articlesList.innerHTML = brief.articles.map(art => {
+  articlesList.innerHTML = articles.map(art => {
     const pubDate = parseDate(art.pubDate);
     const timeStr = pubDate ? pubDate.toLocaleString('en-IN', {
       hour:   '2-digit',
@@ -372,6 +485,10 @@ function renderBriefing(brief) {
       day:    'numeric',
       month:  'short'
     }) : art.pubDate;
+
+    const sig = art.significance || 0;
+    const sigClass = getSigClass(sig);
+    const excerpt = art.excerpt || '';
 
     return `
       <article class="feed-article-card">
@@ -384,10 +501,45 @@ function renderBriefing(brief) {
           >${escapeHtml(art.title)}</a>
           <span class="badge badge-source">${escapeHtml(art.sourceName)}</span>
         </div>
-        <div class="feed-article-meta">Published: ${timeStr}</div>
+        ${excerpt ? `<div class="feed-article-excerpt">${escapeHtml(excerpt)}</div>` : ''}
+        <div class="feed-article-meta">
+          <span>Published: ${timeStr}</span>
+          <span class="sig-badge ${sigClass}">${sig.toFixed(1)}</span>
+        </div>
       </article>
     `;
   }).join('');
+}
+
+function updateSidebarCounts(brief) {
+  if (!categories.length) return;
+  const articles = brief.articles || [];
+  const countsMap = {};
+  for (const cat of categories) {
+    countsMap[cat.id] = 0;
+  }
+  for (const art of articles) {
+    const cat = assignArticleCategory(art);
+    if (countsMap[cat] !== undefined) countsMap[cat]++;
+  }
+  renderSidebarCategories(countsMap);
+}
+
+function assignArticleCategory(art) {
+  const text = ((art.title || '') + ' ' + (art.excerpt || '')).toLowerCase();
+  const src = (art.sourceName || '').toLowerCase();
+
+  const indianSources = ['the indian express', 'the print', 'scroll.in', 'deccan herald', 'ndtv', 'the hindu'];
+  const indianKws = ['india', 'indian', 'delhi', 'mumbai', 'modi', 'bjp', 'congress', 'isro', 'rupee', 'lok sabha'];
+  const techKws = ['tech', 'technology', 'ai', 'artificial intelligence', 'openai', 'microsoft', 'google', 'nvidia', 'chip', 'cyber', 'software', 'apple'];
+  const sportsKws = ['match', 'world cup', 'score', 'cricket', 'football', 'soccer', 'player', 'tennis', 'goal', 'fifa'];
+  const financeKws = ['stock', 'market', 'economy', 'inflation', 'gdp', 'crypto', 'shares', 'gold', 'oil', 'billion', 'deal'];
+
+  if (indianSources.includes(src) || indianKws.some(k => text.includes(k))) return 'indian';
+  if (techKws.some(k => text.includes(k))) return 'technology';
+  if (sportsKws.some(k => text.includes(k))) return 'sports';
+  if (financeKws.some(k => text.includes(k))) return 'finance';
+  return 'global';
 }
 
 // ─── COPY MARKDOWN ────────────────────────────────────────────
