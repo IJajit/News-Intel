@@ -1080,7 +1080,10 @@ def generate_story_brief(story, api_key, ssl_ctx, hf_token=""):
             if valid:
                 print(f"[BRIEF] {story_label}: === GEMINI ATTEMPT 2 SUCCESS ({wc} words) ===")
                 return brief_text.strip(), wc
-            print(f"[BRIEF] {story_label}: === GEMINI ATTEMPT 2 VALIDATION FAILED ({msg}) ===")
+            # Per spec Step 4: accept 2nd attempt even if invalid (don't block the update)
+            print(f"[BRIEF] {story_label}: === GEMINI ATTEMPT 2 VALIDATION FAILED ({msg}) — ACCEPTING OUTPUT PER SPEC ===")
+            print(f"[BRIEF] {story_label}: === GEMINI ATTEMPT 2 ACCEPTED ({wc} words, below 130 minimum) ===")
+            return brief_text.strip(), wc
         except urllib.error.HTTPError as e:
             body = e.read().decode('utf-8', errors='replace')
             print(f"[BRIEF] {story_label}: === GEMINI HTTP ERROR {e.code} ===")
