@@ -1481,12 +1481,35 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                 # Step 2: Cluster into story objects (single pass, all categories)
                 stories = cluster_into_stories(articles)
 
-                # Step 3: Generate brief for each story in parallel
+                # Step 3: Generate brief for each story
+                # Gemini rate-limited to ~2 req/min on free tier. Process top stories with Gemini
+                # (serialized, one at a time). Remaining stories skip directly to BART/extractive.
+                import time as _time
                 brief_cache = {}
-                with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
+                stories_sorted = sorted(stories, key=lambda s: s.get('combined_score', 0), reverse=True)
+                gemini_budget = min(20, len(stories_sorted))
+                stories_with_gemini = stories_sorted[:gemini_budget]
+                stories_bart_only = stories_sorted[gemini_budget:]
+                print(f"[PIPELINE] Gemini for top {gemini_budget}/{len(stories)} stories; BART-only for remaining {len(stories_bart_only)}")
+
+                # Process Gemini stories serially (1 worker) with delay to avoid 429
+                for story in stories_with_gemini:
+                    try:
+                        brief_text, wc = generate_story_brief(story, api_key, ssl_context, HF_API_TOKEN)
+                        brief_cache[story["story_id"]] = {
+                            "brief": truncate_to_words(clean_content(brief_text), 200),
+                            "brief_word_count": wc
+                        }
+                    except Exception as e:
+                        print(f"Brief generation failed for story {story['story_id']}: {e}")
+                        brief_cache[story["story_id"]] = {"brief": "Brief could not be generated for this story.", "brief_word_count": 0}
+                    _time.sleep(5)  # 5s gap between Gemini calls to stay within free-tier rate limit
+
+                # Process remaining stories with BART-only (parallel, skip Gemini entirely)
+                with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
                     fut_map = {}
-                    for story in stories:
-                        fut = pool.submit(generate_story_brief, story, api_key, ssl_context, HF_API_TOKEN)
+                    for story in stories_bart_only:
+                        fut = pool.submit(generate_story_brief, story, None, ssl_context, HF_API_TOKEN)
                         fut_map[fut] = story
                     for future in concurrent.futures.as_completed(fut_map):
                         story = fut_map[future]
