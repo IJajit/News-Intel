@@ -639,7 +639,7 @@ def _dedup_articles_by_similarity(articles, threshold=0.4):
     deduped = []
     seen_tokens = []
     for art in articles:
-        tokens, _ = normalize_title(art.get('title', ''))
+        tokens, _, _ = normalize_title(art.get('title', ''))
         is_dup = False
         for existing in seen_tokens:
             if jaccard_similarity(tokens, existing) >= threshold:
@@ -936,7 +936,7 @@ Output only the brief text. No headers, no preamble, no source list."""
     return prompt
 
 
-def call_gemini_structured(api_key, prompt):
+def call_gemini_structured(api_key, prompt, attempt_label="attempt"):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
 
     payload = {
@@ -965,11 +965,38 @@ def call_gemini_structured(api_key, prompt):
         method='POST'
     )
 
-    with urllib.request.urlopen(req, timeout=60) as response:
-        res_data = json.loads(response.read().decode('utf-8'))
+    try:
+        with urllib.request.urlopen(req, timeout=60) as response:
+            res_data = json.loads(response.read().decode('utf-8'))
+    except urllib.error.HTTPError as e:
+        body = e.read().decode('utf-8', errors='replace')
+        print(f"[Gemini {attempt_label}] HTTP {e.code}: {body[:500]}")
+        raise
+    except Exception as e:
+        print(f"[Gemini {attempt_label}] Network/HTTP error: {e}")
+        raise
+
+    if 'candidates' not in res_data or not res_data['candidates']:
+        reason = res_data.get('promptFeedback', {}).get('blockReason', 'unknown')
+        print(f"[Gemini {attempt_label}] No candidates returned. blockReason={reason}, full={json.dumps(res_data)[:500]}")
+        raise ValueError(f"Gemini returned no candidates (blockReason={reason})")
+
+    try:
         raw_text = res_data['candidates'][0]['content']['parts'][0]['text']
+    except (KeyError, IndexError) as e:
+        print(f"[Gemini {attempt_label}] Unexpected response structure: {json.dumps(res_data)[:500]}")
+        raise
+
+    try:
         parsed = json.loads(raw_text)
-        return parsed.get('brief', ''), parsed.get('word_count', 0)
+    except json.JSONDecodeError as e:
+        print(f"[Gemini {attempt_label}] JSON parse failed: {e}. Raw text: {raw_text[:500]}")
+        raise
+
+    brief = parsed.get('brief', '')
+    wc = parsed.get('word_count', 0)
+    print(f"[Gemini {attempt_label}] Success — brief={len(brief)} chars, reported_word_count={wc}")
+    return brief, wc
 
 
 def validate_brief(brief_text):
@@ -981,47 +1008,75 @@ def validate_brief(brief_text):
     return True, wc
 
 
+def _fallback_extractive(text, max_sentences=2):
+    """Short extractive fallback: clean text, take first max_sentences complete sentences."""
+    if not text:
+        return "No details available for this story."
+    text = clean_content(text)
+    sentences = re.split(r'(?<=[.!?])\s+', text)
+    sentences = [s.strip() for s in sentences if len(s.strip()) > 10]
+    if not sentences:
+        return text[:500] if len(text) > 500 else text
+    taken = []
+    for s in sentences[:max_sentences]:
+        taken.append(s)
+    result = " ".join(taken)
+    return result
+
+
+def _validate_or_trim(brief_text, max_words=220):
+    """Validate word count. If over max, trim to max_words. Returns (text, word_count)."""
+    if not brief_text or not brief_text.strip():
+        return "Brief unavailable for this story.", 5
+    wc = len(brief_text.strip().split())
+    if wc <= max_words:
+        return brief_text.strip(), wc
+    trimmed = " ".join(brief_text.strip().split()[:max_words])
+    return trimmed, max_words
+
+
 def generate_story_brief(story, api_key, ssl_ctx, hf_token=""):
     prompt = build_story_prompt(story)
+    story_label = story.get('story_id', 'unknown')
 
     if api_key:
         # Attempt 1: Gemini with structured output
         try:
-            brief_text, wc = call_gemini_structured(api_key, prompt)
+            brief_text, wc = call_gemini_structured(api_key, prompt, attempt_label=f"story={story_label} attempt=1")
             valid, msg = validate_brief(brief_text)
             if valid:
+                print(f"[Brief] {story_label}: Gemini attempt 1 OK ({wc} words)")
                 return brief_text.strip(), wc
+            print(f"[Brief] {story_label}: Gemini attempt 1 validation failed ({msg}). Retrying...")
             # Retry with appended note
             retry_prompt = prompt + f"\n\nYour previous attempt was {wc} words. Strictly target 150-200 words this time."
-            brief_text, wc = call_gemini_structured(api_key, retry_prompt)
+            brief_text, wc = call_gemini_structured(api_key, retry_prompt, attempt_label=f"story={story_label} attempt=2")
             valid, msg = validate_brief(brief_text)
             if valid:
+                print(f"[Brief] {story_label}: Gemini attempt 2 OK ({wc} words)")
                 return brief_text.strip(), wc
-            print(f"Story brief validation failed after retry: {msg}")
+            print(f"[Brief] {story_label}: Gemini attempt 2 validation failed ({msg})")
         except Exception as e:
-            print(f"Gemini story brief failed: {e}")
+            print(f"[Brief] {story_label}: Gemini failed with exception: {e}")
 
-    # Fallback: BART summarizer
-    combined_text = ""
-    for src in story.get('sources', []):
-        content = src.get('content', '') or ''
-        if content:
-            combined_text += content + " "
-    combined_text = combined_text.strip()
-
-    if combined_text:
-        try:
-            brief = summarize_content(combined_text, story.get('primary_headline', ''), ssl_ctx, hf_token)
-            if brief and len(brief.strip()) > 50:
-                wc = len(brief.strip().split())
-                return brief.strip(), wc
-        except Exception as e:
-            print(f"BART fallback failed: {e}")
-
-    # Last resort: use primary source content
-    primary_content = story.get('primary_source', {}).get('content', '')
+    # Fallback: BART summarizer on primary source content only (not multi-article dump)
+    primary_content = story.get('primary_source', {}).get('content', '') or ''
     if primary_content:
-        return primary_content[:800], len(primary_content[:800].split())
+        try:
+            brief = summarize_content(primary_content, story.get('primary_headline', ''), ssl_ctx, hf_token)
+            if brief and len(brief.strip()) > 50:
+                brief, wc = _validate_or_trim(brief)
+                print(f"[Brief] {story_label}: BART fallback OK ({wc} words)")
+                return brief, wc
+        except Exception as e:
+            print(f"[Brief] {story_label}: BART fallback failed: {e}")
+
+    # Last resort: short extractive from primary source only
+    if primary_content:
+        brief = _fallback_extractive(primary_content, max_sentences=2)
+        brief, wc = _validate_or_trim(brief)
+        print(f"[Brief] {story_label}: extractive fallback ({wc} words)")
+        return brief, wc
 
     return "Brief unavailable for this story.", 5
 

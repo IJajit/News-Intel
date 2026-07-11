@@ -7,11 +7,25 @@ STOPWORDS = {'the', 'a', 'an', 'and', 'or', 'in', 'on', 'at', 'to', 'for',
              'are', 'was', 'were', 'been', 'its', 'their', 'that', 'this',
              'not', 'no', 'but', 'if', 'so', 'up', 'do', 'just', 'out'}
 
+# Generic tokens too vague to count as a story-linking match (countries, common news terms)
+GENERIC_TOKENS = {
+    'south', 'north', 'east', 'west', 'world', 'cup', 'match', 'game', 'team', 'league',
+    'news', 'report', 'update', 'latest', 'breaking', 'new', 'first', 'last',
+    'year', 'month', 'week', 'day', 'time', 'set', 'make', 'say', 'says', 'said',
+    'get', 'got', 'take', 'look', 'come', 'go', 'back', 'high', 'low', 'big', 'small',
+    'taiwan', 'china', 'india', 'us', 'uk', 'united', 'states', 'russia', 'japan',
+    'korea', 'africa', 'europe', 'asia', 'america', 'france', 'germany', 'italy',
+    'spain', 'australia', 'canada', 'brazil', 'mexico', 'argentina', 'middle', 'east'
+}
+
 URGENCY_KEYWORDS = ['breaking', 'crisis', 'emergency', 'confirmed', 'developing',
                     'death', 'deaths', 'attack', 'war', 'crash', 'disaster',
                     'killed', 'injured', 'collapse', 'warning', 'urgent',
                     'explosion', 'strike', 'military', 'nuclear', 'evacuate',
                     'evacuation', 'catastrophe', 'fatal', 'deadly', 'critical']
+
+CLUSTER_JACCARD_THRESHOLD = 0.45
+CLUSTER_MIN_INTERSECTION = 3
 
 # Source authority rankings for primary headline selection (lower = more authoritative)
 STORY_SOURCE_AUTHORITY = {
@@ -49,14 +63,21 @@ SUBCATEGORY_TO_CATEGORY = {
 
 def normalize_title(title):
     if not title:
-        return (set(), "")
-    title = title.lower()
-    title = re.sub(r'^(breaking|exclusive|urgent|update|developing)\s*[:\-–—]\s*', '', title, flags=re.IGNORECASE)
-    title = re.sub(r'[^a-z0-9\s]', '', title)
-    tokens = title.split()
+        return (set(), "", set())
+    # Track proper nouns: words that start with uppercase in original (excluding first word)
+    words = title.split()
+    proper_nouns = set()
+    for i, w in enumerate(words):
+        if i > 0 and w[0].isupper() and len(w) > 1 and w.lower() not in GENERIC_TOKENS:
+            proper_nouns.add(w.lower())
+
+    title_lower = title.lower()
+    title_lower = re.sub(r'^(breaking|exclusive|urgent|update|developing)\s*[:\-–—]\s*', '', title_lower, flags=re.IGNORECASE)
+    title_lower = re.sub(r'[^a-z0-9\s]', '', title_lower)
+    tokens = title_lower.split()
     tokens = [t for t in tokens if t not in STOPWORDS]
     tokens = [t for t in tokens if len(t) > 1]
-    return (set(tokens), title.strip())
+    return (set(tokens), title.strip(), proper_nouns)
 
 
 def jaccard_similarity(a, b):
@@ -84,8 +105,8 @@ def cluster_articles(articles):
 
     normalized = []
     for art in articles:
-        tokens, cleaned = normalize_title(art.get('title', ''))
-        normalized.append((art, tokens, cleaned))
+        tokens, cleaned, proper_nouns = normalize_title(art.get('title', ''))
+        normalized.append((art, tokens, cleaned, proper_nouns))
 
     clusters = []
     assigned = [False] * len(normalized)
@@ -99,8 +120,20 @@ def cluster_articles(articles):
         for j in range(i + 1, len(normalized)):
             if assigned[j]:
                 continue
-            similarity = jaccard_similarity(normalized[i][1], normalized[j][1])
-            if similarity >= 0.35:
+            tokens_i = normalized[i][1]
+            tokens_j = normalized[j][1]
+            similarity = jaccard_similarity(tokens_i, tokens_j)
+            if similarity >= CLUSTER_JACCARD_THRESHOLD:
+                intersection_size = len(tokens_i & tokens_j)
+                if intersection_size < CLUSTER_MIN_INTERSECTION:
+                    continue
+                # Sanity check: require at least one shared proper noun or non-generic token
+                proper_i = normalized[i][3]
+                proper_j = normalized[j][3]
+                shared_proper = proper_i & proper_j
+                non_generic_intersection = {t for t in (tokens_i & tokens_j) if t not in GENERIC_TOKENS}
+                if not shared_proper and not non_generic_intersection:
+                    continue
                 cluster_articles.append(normalized[j][0])
                 assigned[j] = True
 
