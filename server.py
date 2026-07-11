@@ -12,6 +12,7 @@ from email.utils import parsedate_to_datetime
 import html
 import ssl
 import concurrent.futures
+import traceback
 
 from news_clustering import cluster_articles, rank_clusters, jaccard_similarity, normalize_title, cluster_into_stories
 from news_summarizer import summarize_content, extract_why_it_matters
@@ -53,12 +54,10 @@ HF_API_TOKEN = os.environ.get('HF_API_TOKEN', '')
 def is_valid_api_key(key):
     if not key:
         return False
-    key = key.strip()
+    key = key.strip().strip('"').strip("'")
     if not key:
         return False
-    if not key.startswith('AIzaSy'):
-        return False
-    # Only allow valid URL-safe characters for API keys (alphanumeric, dashes, underscores, dots)
+    # Allow AIzaSy (Gemini API keys), AQ. (Google Cloud OAuth), and similar formats
     if not re.match(r'^[A-Za-z0-9_.-]+$', key):
         return False
     if len(key) < 10:
@@ -971,6 +970,8 @@ def call_gemini_structured(api_key, prompt, attempt_label="attempt"):
     except urllib.error.HTTPError as e:
         body = e.read().decode('utf-8', errors='replace')
         print(f"[Gemini {attempt_label}] HTTP {e.code}: {body[:500]}")
+        if e.code in (401, 403):
+            print(f"[Gemini {attempt_label}] *** API KEY REJECTED ({e.code}) — check GEMINI_API_KEY env var is a valid Gemini API key ***")
         raise
     except Exception as e:
         print(f"[Gemini {attempt_label}] Network/HTTP error: {e}")
@@ -1035,49 +1036,99 @@ def _validate_or_trim(brief_text, max_words=220):
     return trimmed, max_words
 
 
+def _validate_brief_minmax(brief_text, min_words=130, max_words=220):
+    """Validate brief is within min_words..max_words. If over max, trim.
+    Returns (text, word_count, is_valid) where is_valid=False means below minimum."""
+    if not brief_text or not brief_text.strip():
+        return "Brief unavailable for this story.", 5, False
+    wc = len(brief_text.strip().split())
+    if wc < min_words:
+        return brief_text.strip(), wc, False
+    if wc <= max_words:
+        return brief_text.strip(), wc, True
+    trimmed = " ".join(brief_text.strip().split()[:max_words])
+    return trimmed, max_words, True
+
+
 def generate_story_brief(story, api_key, ssl_ctx, hf_token=""):
     prompt = build_story_prompt(story)
     story_label = story.get('story_id', 'unknown')
+    headline = story.get('primary_headline', '?')[:80]
+
+    print(f"[BRIEF] === Story {story_label}: \"{headline}\" ===")
+    print(f"[BRIEF] {story_label}: api_key={'SET (' + api_key[:8] + '...)' if api_key else 'NOT SET'}")
 
     if api_key:
         # Attempt 1: Gemini with structured output
+        print(f"[BRIEF] {story_label}: === GEMINI ATTEMPT 1 START ===")
         try:
             brief_text, wc = call_gemini_structured(api_key, prompt, attempt_label=f"story={story_label} attempt=1")
+            print(f"[BRIEF] {story_label}: Gemini attempt 1 returned raw brief={repr(brief_text[:120])}, wc={wc}")
             valid, msg = validate_brief(brief_text)
+            print(f"[BRIEF] {story_label}: Gemini attempt 1 validation: valid={valid}, msg={msg}")
             if valid:
-                print(f"[Brief] {story_label}: Gemini attempt 1 OK ({wc} words)")
+                print(f"[BRIEF] {story_label}: === GEMINI ATTEMPT 1 SUCCESS ({wc} words) ===")
                 return brief_text.strip(), wc
-            print(f"[Brief] {story_label}: Gemini attempt 1 validation failed ({msg}). Retrying...")
+            print(f"[BRIEF] {story_label}: === GEMINI ATTEMPT 1 VALIDATION FAILED ({msg}). RETRYING... ===")
             # Retry with appended note
             retry_prompt = prompt + f"\n\nYour previous attempt was {wc} words. Strictly target 150-200 words this time."
+            print(f"[BRIEF] {story_label}: === GEMINI ATTEMPT 2 START ===")
             brief_text, wc = call_gemini_structured(api_key, retry_prompt, attempt_label=f"story={story_label} attempt=2")
+            print(f"[BRIEF] {story_label}: Gemini attempt 2 returned raw brief={repr(brief_text[:120])}, wc={wc}")
             valid, msg = validate_brief(brief_text)
+            print(f"[BRIEF] {story_label}: Gemini attempt 2 validation: valid={valid}, msg={msg}")
             if valid:
-                print(f"[Brief] {story_label}: Gemini attempt 2 OK ({wc} words)")
+                print(f"[BRIEF] {story_label}: === GEMINI ATTEMPT 2 SUCCESS ({wc} words) ===")
                 return brief_text.strip(), wc
-            print(f"[Brief] {story_label}: Gemini attempt 2 validation failed ({msg})")
+            print(f"[BRIEF] {story_label}: === GEMINI ATTEMPT 2 VALIDATION FAILED ({msg}) ===")
+        except urllib.error.HTTPError as e:
+            body = e.read().decode('utf-8', errors='replace')
+            print(f"[BRIEF] {story_label}: === GEMINI HTTP ERROR {e.code} ===")
+            print(f"[BRIEF] {story_label}: HTTPError body: {body[:500]}")
         except Exception as e:
-            print(f"[Brief] {story_label}: Gemini failed with exception: {e}")
+            print(f"[BRIEF] {story_label}: === GEMINI EXCEPTION: {type(e).__name__}: {e} ===")
+            import traceback
+            traceback.print_exc()
+    else:
+        print(f"[BRIEF] {story_label}: === NO API KEY — SKIPPING GEMINI entirely ===")
 
     # Fallback: BART summarizer on primary source content only (not multi-article dump)
     primary_content = story.get('primary_source', {}).get('content', '') or ''
-    if primary_content:
+    primary_content_len = len(primary_content)
+    print(f"[BRIEF] {story_label}: === FALLBACK PATH: primary_content_len={primary_content_len} chars ===")
+    if primary_content and len(primary_content.strip()) > 30:
         try:
+            print(f"[BRIEF] {story_label}: === BART FALLBACK START ===")
             brief = summarize_content(primary_content, story.get('primary_headline', ''), ssl_ctx, hf_token)
+            print(f"[BRIEF] {story_label}: BART returned raw brief len={len(brief)} chars, preview={repr(brief[:120])}")
             if brief and len(brief.strip()) > 50:
-                brief, wc = _validate_or_trim(brief)
-                print(f"[Brief] {story_label}: BART fallback OK ({wc} words)")
+                brief, wc = _validate_or_trim(brief, max_words=220)
+                print(f"[BRIEF] {story_label}: === BART FALLBACK ACCEPTED ({wc} words) ===")
                 return brief, wc
+            else:
+                print(f"[BRIEF] {story_label}: BART returned too-short text ({len(brief.strip())} chars) — falling through to extractive")
         except Exception as e:
-            print(f"[Brief] {story_label}: BART fallback failed: {e}")
+            print(f"[BRIEF] {story_label}: === BART FALLBACK EXCEPTION: {type(e).__name__}: {e} ===")
+            import traceback
+            traceback.print_exc()
+    else:
+        print(f"[BRIEF] {story_label}: primary_content too short ({primary_content_len} chars) — skipping BART")
 
     # Last resort: short extractive from primary source only
-    if primary_content:
-        brief = _fallback_extractive(primary_content, max_sentences=2)
-        brief, wc = _validate_or_trim(brief)
-        print(f"[Brief] {story_label}: extractive fallback ({wc} words)")
+    if primary_content and len(primary_content.strip()) > 30:
+        print(f"[BRIEF] {story_label}: === EXTRACTIVE FALLBACK START ===")
+        # Try progressively more sentences to get as much content as possible
+        for max_sent in [2, 5, 10]:
+            brief = _fallback_extractive(primary_content, max_sentences=max_sent)
+            wc = len(brief.split())
+            print(f"[BRIEF] {story_label}: extractive ({max_sent} sentences): {wc} words")
+            if wc >= 30:
+                break
+        brief, wc = _validate_or_trim(brief, max_words=220)
+        print(f"[BRIEF] {story_label}: === EXTRACTIVE FALLBACK RESULT ({wc} words): {repr(brief[:120])} ===")
         return brief, wc
 
+    print(f"[BRIEF] {story_label}: === ALL PATHS EXHAUSTED — returning unavailable ===")
     return "Brief unavailable for this story.", 5
 
 
@@ -1428,6 +1479,16 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                                 "brief_word_count": 0
                             }
 
+                # Step 3b: Final validation — log every brief's word count
+                for sid, cached in brief_cache.items():
+                    bw = cached.get("brief_word_count", 0)
+                    btxt = cached.get("brief", "")
+                    btxt_wc = len(btxt.split()) if btxt else 0
+                    if bw < 130:
+                        print(f"[FINAL] story={sid}: brief_word_count={bw}, actual_wc={btxt_wc} — BELOW 130-WORD MINIMUM, preview={repr(btxt[:80])}")
+                    elif bw > 220:
+                        print(f"[FINAL] story={sid}: brief_word_count={bw} — OVER 220-WORD MAXIMUM")
+
                 # Step 4: Assemble story objects with briefs attached
                 story_objects = []
                 for story in stories:
@@ -1475,6 +1536,16 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
 
 if __name__ == "__main__":
     seed_briefs()
+    # Diagnose API key at startup
+    server_key = os.environ.get('GEMINI_API_KEY')
+    if server_key and is_valid_api_key(server_key):
+        print(f"[STARTUP] GEMINI_API_KEY found and passes format check ({server_key[:8]}...{server_key[-4:]})")
+        print(f"[STARTUP] WARNING: Key will be tested on first API call — if it fails with 401/403, replace it with a valid Gemini API key (starts with AIzaSy)")
+    elif server_key:
+        print(f"[STARTUP] GEMINI_API_KEY present but FAILS format check (key={server_key[:16]}...)")
+        print(f"[STARTUP] Valid Gemini API keys start with AIzaSy or are URL-safe tokens >= 10 chars")
+    else:
+        print(f"[STARTUP] GEMINI_API_KEY not set — all briefs will use BART/extractive fallback")
     socketserver.TCPServer.allow_reuse_address = True
     with socketserver.TCPServer(("", PORT), NewsBriefingHandler) as httpd:
         print(f"Serving news app at http://localhost:{PORT}")
