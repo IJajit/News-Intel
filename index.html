@@ -7,154 +7,277 @@
   <title>News Intel</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%23F25623%22/><text x=%2250%%22 y=%2270%%22 font-size=%2260%22 font-family=%22sans-serif%22 font-weight=%22bold%22 text-anchor=%22middle%22 fill=%22%23171717%22>N</text></svg>">
 
-  <!-- Premium Google Fonts -->
+  <!-- Premium Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=block" rel="stylesheet"/>
 
-  <!-- Local Styles -->
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config">
+    try {
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary": "#ffb59f",
+                        "primary-container": "#e85d04",
+                        "on-primary-container": "#ffffff",
+                        "background": "#141414",
+                        "surface": "#1a1a1a",
+                        "surface-container-lowest": "#141414",
+                        "surface-container-low": "#1a1a1a",
+                        "surface-container": "#1e1e1e",
+                        "surface-container-high": "#2a2a2a",
+                        "surface-container-highest": "#3a3a3a",
+                        "on-surface": "#f4f4f5",
+                        "on-surface-variant": "#a1a1aa",
+                        "border-subtle": "#2a2a2a",
+                        "data-green": "#10B981"
+                    },
+                    "fontFamily": {
+                        "label-data": ["Inter"],
+                        "body-md": ["Inter"],
+                        "headline-md": ["Inter"],
+                        "label-caps": ["Inter"],
+                        "body-lg": ["Inter"],
+                        "headline-lg": ["Inter"],
+                        "headline-xl": ["Inter"]
+                    }
+                },
+            },
+        }
+    } catch (_e) {}
+  </script>
+
+  <!-- Local Custom Styles -->
   <link rel="stylesheet" href="styles.css">
+
+  <script>
+    // Immediate theme initialization to avoid flash - default to dark
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    if (savedTheme === 'dark') {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+    document.body && (document.body.style.backgroundColor = savedTheme === 'dark' ? '#1e1e1e' : '#f7f3ee');
+    document.body && (document.body.style.color = savedTheme === 'dark' ? '#f4f4f5' : '#2d2a26');
+  </script>
 </head>
-<body>
+<body class="font-body-md antialiased transition-colors duration-300 min-h-screen flex flex-col" style="background-color: var(--color-bg); color: var(--color-black);">
 
-  <div class="app-layout">
+  <!-- ═══════════════════════════════════════════════════════════
+       TOP HEADER — logo + actions only
+  ══════════════════════════════════════════════════════════════ -->
+  <header class="w-full h-14 md:h-16 sticky top-0 z-50 flex items-center justify-between px-4 md:px-6 transition-colors" style="background-color: var(--color-bg); border-bottom: 1px solid var(--color-border-heavy);">
 
-    <!-- Sidebar -->
-    <aside class="sidebar">
-      <div class="sidebar-logo-header">
-        <h1 class="sidebar-brand-title">NEWS INTEL</h1>
-      </div>
+    <!-- Left: mobile sidebar toggle + logo -->
+    <div class="flex items-center gap-3">
+      <!-- Mobile sidebar open button -->
+      <button id="mobileSidebarToggle" class="md:hidden flex items-center p-1.5 rounded transition-colors" style="color: var(--color-dark-gray);" title="Open navigation">
+        <span class="material-symbols-outlined" style="font-size:22px;">menu</span>
+      </button>
+      <a class="font-headline-lg text-lg font-bold tracking-tighter flex items-center" href="#">
+        <span class="news-text">NEWS</span><span class="text-primary-container ml-1">INTEL</span>
+      </a>
+    </div>
 
-      <!-- Category Channels -->
-      <div class="sidebar-section-header">
-        <span class="sidebar-title">CHANNELS</span>
-        <span id="totalArticleCount" class="sidebar-version">0 ARTICLES</span>
-      </div>
-      <div id="categoryList" class="category-list"></div>
+    <!-- Right: generate update + theme toggle aligned with right sidebar border -->
+    <div class="flex items-center gap-3">
+      <!-- Theme toggle aligned precisely on the right border line (approx 260px from edge) -->
+      <button class="flex items-center p-1.5 rounded transition-colors mr-3" id="themeToggleBtn" title="Toggle Theme" style="color: var(--color-dark-gray);">
+        <span class="material-symbols-outlined" id="themeIcon" style="font-size:20px;">light_mode</span>
+      </button>
 
-      <!-- Additional Sidebar Elements Area -->
-      <div id="sidebarAdditional" class="sidebar-additional-elements">
-        <div id="wikiDykCard" class="wiki-card" style="display: none;">
-          <span class="wiki-card-badge">DID YOU KNOW</span>
-          <p id="wikiDykText" class="wiki-card-content"></p>
-          <a id="wikiDykLink" href="#" target="_blank" rel="noopener noreferrer" class="wiki-card-link">Read more &nearr;</a>
-        </div>
-        <div id="wikiOtdCard" class="wiki-card" style="display: none;">
-          <span class="wiki-card-badge otd-badge">ON THIS DAY</span>
-          <p id="wikiOtdText" class="wiki-card-content"></p>
-          <a id="wikiOtdLink" href="#" target="_blank" rel="noopener noreferrer" class="wiki-card-link">Read more &nearr;</a>
-        </div>
-      </div>
+      <button id="generateBtn" class="bg-primary-container text-white px-3 md:px-5 py-1.5 md:py-2 font-label-caps text-[10px] md:text-[11px] uppercase tracking-widest font-bold hover:opacity-90 transition-all whitespace-nowrap">
+        <span class="hidden md:inline">Update Feed</span>
+        <span class="md:hidden">Update</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       BODY: LEFT SIDEBAR + MAIN + RIGHT SIDEBAR
+  ══════════════════════════════════════════════════════════════ -->
+  <div class="app-body flex flex-1 overflow-hidden" style="height: calc(100vh - 56px); position: sticky; top: 56px;">
+
+    <!-- ── MOBILE SIDEBAR OVERLAY ──────────────────────────── -->
+    <div id="mobileSidebarOverlay" class="fixed inset-0 z-40 bg-black/50 hidden md:hidden" onclick="closeMobileSidebar()"></div>
+
+    <!-- ── LEFT SIDEBAR ────────────────────────────────────── -->
+    <aside id="leftSidebar" class="left-sidebar hidden md:flex flex-col flex-shrink-0 overflow-y-auto" style="width: 220px; border-right: 1px solid var(--color-border-heavy); background-color: var(--color-bg);">
+
+      <!-- Main nav: Home + Categories directly (vertical stack) -->
+      <nav class="p-2 flex flex-col gap-0.5" id="readerSubtabs">
+        <!-- Home tab button -->
+        <button id="tabHomepageBtn" class="sidebar-nav-btn text-left active" data-tab="homepage">
+          <span class="font-label-caps text-[11px] uppercase tracking-wider font-semibold">Home</span>
+        </button>
+
+        <!-- Category list directly stacked vertically -->
+        <button class="sidebar-cat-btn text-left" data-category="global">
+          <span class="font-label-caps text-[11px] uppercase tracking-wider font-semibold">All</span>
+        </button>
+        <button class="sidebar-cat-btn text-left" data-category="technology">
+          <span class="font-label-caps text-[11px] uppercase tracking-wider font-semibold">Technology</span>
+        </button>
+        <button class="sidebar-cat-btn text-left" data-category="geopolitics">
+          <span class="font-label-caps text-[11px] uppercase tracking-wider font-semibold">Geopolitics</span>
+        </button>
+        <button class="sidebar-cat-btn text-left" data-category="science">
+          <span class="font-label-caps text-[11px] uppercase tracking-wider font-semibold">Science</span>
+        </button>
+        <button class="sidebar-cat-btn text-left" data-category="culture">
+          <span class="font-label-caps text-[11px] uppercase tracking-wider font-semibold">Culture</span>
+        </button>
+        <button class="sidebar-cat-btn text-left" data-category="society">
+          <span class="font-label-caps text-[11px] uppercase tracking-wider font-semibold">Society</span>
+        </button>
+        <button class="sidebar-cat-btn text-left" data-category="sports">
+          <span class="font-label-caps text-[11px] uppercase tracking-wider font-semibold">Sports</span>
+        </button>
+        <button class="sidebar-cat-btn text-left" data-category="finance">
+          <span class="font-label-caps text-[11px] uppercase tracking-wider font-semibold">Finance</span>
+        </button>
+
+      </nav>
+
+      <!-- Dynamic category trigger -->
+      <button id="tabReaderBtn" class="hidden" data-tab="reader"></button>
+
     </aside>
 
-    <main class="main-content" id="mainContent">
+    <!-- ── MAIN CONTENT AREA ───────────────────────────────── -->
+    <main id="mainContent" class="flex-1 overflow-y-auto px-4 md:px-8 pt-0 pb-16">
 
-      <!-- Content Workspace -->
-      <div class="workspace-area">
+      <!-- Empty / Initial State -->
+      <div id="stateEmpty" class="empty-state p-12 bg-transparent text-center space-y-6" role="status">
+        <div class="empty-state-icon text-4xl text-primary-container">↴</div>
+        <div class="empty-state-text text-xl font-headline-md font-bold text-on-surface">Ready for Intelligence Gathering</div>
+        <p class="empty-state-sub text-on-surface-variant max-w-md mx-auto">
+          Click <strong>UPDATE FEED</strong> to fetch live breaking news from 9 verified feeds and compile your AI-powered executive briefing.
+        </p>
+      </div>
 
-        <!-- Tab Navigation -->
-        <div class="tabs-container" role="tablist" aria-label="Briefing views">
-          <button id="tabReaderBtn" class="tab-btn active" data-tab="reader" role="tab" aria-selected="true" aria-controls="viewReader">INTEL<br>READER</button>
-          <button id="tabMarkdownBtn" class="tab-btn" data-tab="markdown" role="tab" aria-selected="false" aria-controls="viewMarkdown" style="display: none;">RAW<br>MARKDOWN</button>
-          <button id="tabArticlesBtn" class="tab-btn" data-tab="articles" role="tab" aria-selected="false" aria-controls="viewArticles">FILTERED<br>FEED <span id="articlesCountVal">(0)</span></button>
-          <button id="tabWorldCupBtn" class="tab-btn" data-tab="worldcup" role="tab" aria-selected="false" aria-controls="viewWorldCup">WORLD<br>CUP</button>
-          <button id="generateBtn" class="tab-btn gen-btn" aria-label="Generate live news briefing">GENERATE LATEST<br>UPDATE</button>
+      <!-- Loading State -->
+      <div id="stateLoading" class="loading-container p-16 bg-transparent flex flex-col items-center justify-center space-y-8" style="display: none;" role="status" aria-live="polite">
+        <div class="loading-grid grid grid-cols-2 gap-2 w-10 h-10 animate-pulse">
+          <div class="loading-cell bg-primary-container w-4 h-4"></div>
+          <div class="loading-cell bg-primary-container opacity-65 w-4 h-4"></div>
+          <div class="loading-cell bg-primary-container opacity-65 w-4 h-4"></div>
+          <div class="loading-cell bg-primary-container w-4 h-4"></div>
         </div>
-
-        <!-- Main Content Frame -->
-        <div class="content-frame" id="contentFrame" role="main">
-
-          <!-- Empty / Initial State -->
-          <div id="stateEmpty" class="empty-state" role="status">
-            <div class="empty-state-icon">↴</div>
-            <div class="empty-state-text">Ready for Intelligence Gathering</div>
-            <p class="empty-state-sub">
-              Enter your Gemini API key in the header and click <strong>GENERATE BRIEF</strong> to fetch live breaking news from 9 verified feeds and generate your AI-powered briefing.
-            </p>
-            <div class="empty-state-hint">
-              <span class="hint-badge">TIP</span>
-              Without an API key, the app compiles a raw feed summary using rule-based parsing.
-            </div>
-          </div>
-
-          <!-- Loading State -->
-          <div id="stateLoading" class="loading-container" style="display: none;" role="status" aria-live="polite">
-            <div class="loading-grid">
-              <div class="loading-cell"></div>
-              <div class="loading-cell"></div>
-              <div class="loading-cell"></div>
-              <div class="loading-cell"></div>
-            </div>
-            <div id="loadingStatusText" class="loading-text">Fetching news feeds...</div>
-            <div class="loading-sub">Applying 24-hour recency filter</div>
-          </div>
-
-          <!-- Intel Reader Tab -->
-          <div id="viewReader" class="briefing-reader" role="tabpanel" aria-labelledby="tabReaderBtn" style="display: none;">
-            <div class="reader-subtabs" id="readerSubtabs">
-              <button class="reader-subtab active" data-category="global">GLOBAL</button>
-              <button class="reader-subtab" data-category="indian">INDIA</button>
-              <button class="reader-subtab" data-category="technology">TECHNOLOGY</button>
-              <button class="reader-subtab" data-category="sports">SPORTS</button>
-              <button class="reader-subtab" data-category="finance">FINANCE</button>
-            </div>
-            <div id="readerContent" class="reader-content">
-              <!-- Loaded dynamically -->
-            </div>
-          </div>
-
-          <!-- Raw Markdown Tab -->
-          <div id="viewMarkdown" role="tabpanel" aria-labelledby="tabMarkdownBtn" style="display: none; height: 100%; flex-direction: column; gap: 1rem;" hidden>
-            <div style="display: flex; justify-content: space-between; align-items: center;">
-              <span class="meta-label">RAW MARKDOWN OUTPUT</span>
-              <button id="copyMarkdownBtn" class="btn btn-secondary">COPY TO CLIPBOARD</button>
-            </div>
-            <textarea id="markdownTextarea" class="markdown-editor" readonly aria-label="Raw markdown output"></textarea>
-          </div>
-
-          <!-- World Cup Tab -->
-          <div id="viewWorldCup" class="world-cup-panel" role="tabpanel" aria-labelledby="tabWorldCupBtn" style="display: none;">
-            <div class="world-cup-header">
-              <div class="world-cup-filter-bar">
-                <button id="wcFilterAll" class="wc-filter-btn active" data-filter="all">ALL MATCHES</button>
-                <button id="wcFilterArgentina" class="wc-filter-btn" data-filter="argentina">ARGENTINA</button>
-              </div>
-              <a href="https://www.goal.com/en-in" target="_blank" rel="noopener noreferrer" class="world-cup-visit-btn" aria-label="Visit Goal.com">GOAL.COM &nearr;</a>
-            </div>
-            <div id="worldCupLoader" class="world-cup-loader">Loading match schedule...</div>
-            <div id="worldCupSchedule" class="world-cup-schedule"></div>
-          </div>
-
-          <!-- Filtered Articles Feed Tab -->
-          <div id="viewArticles" class="feed-articles" role="tabpanel" aria-labelledby="tabArticlesBtn" style="display: none;">
-            <div class="feed-articles-header">
-              <div id="feedSourcesList" class="feed-sources-list"></div>
-              <span class="feed-window-badge">LAST 24 HOURS</span>
-            </div>
-            <div class="feed-search-bar">
-              <input type="text" id="feedSearchInput" class="feed-search-input" placeholder="Search articles by title..." aria-label="Search articles">
-              <span id="feedSearchCount" class="feed-search-count"></span>
-            </div>
-            <div id="articlesList" class="articles-cards-container">
-              <!-- Loaded dynamically -->
-            </div>
-          </div>
-
+        <div class="flex flex-col items-center justify-center space-y-1">
+          <div id="loadingStatusText" class="loading-text font-label-caps text-xs uppercase tracking-widest text-primary-container font-bold text-center">Fetching news feeds...</div>
+          <div class="loading-sub text-xs text-on-surface-variant text-center">Applying 24-hour agency filter</div>
         </div>
       </div>
+
+      <!-- Homepage Tab -->
+      <div id="viewHomepage" class="briefing-reader space-y-12" role="tabpanel" aria-labelledby="tabHomepageBtn" style="display: none;">
+        <div id="homepageContent" class="reader-content space-y-12">
+          <!-- Loaded dynamically -->
+        </div>
+      </div>
+
+      <!-- Intel Reader Tab -->
+      <div id="viewReader" class="briefing-reader space-y-12" role="tabpanel" aria-labelledby="tabReaderBtn" style="display: none;">
+        <div id="readerContent" class="reader-content space-y-12">
+          <!-- Loaded dynamically -->
+        </div>
+      </div>
+
+      <!-- Raw Markdown Tab -->
+      <div id="viewMarkdown" role="tabpanel" aria-labelledby="tabMarkdownBtn" style="display: none; height: 500px; flex-direction: column; gap: 1rem;">
+        <div class="flex justify-between items-center">
+          <span class="font-label-caps text-xs tracking-widest text-on-surface-variant dark:text-[#a1a1aa] uppercase">RAW MARKDOWN OUTPUT</span>
+          <button id="copyMarkdownBtn" class="border px-4 py-2 font-label-caps text-[10px] uppercase tracking-wider hover:bg-surface-container-high transition-all" style="border-color: var(--color-border-heavy); background: var(--color-white); color: var(--color-black);">COPY TO CLIPBOARD</button>
+        </div>
+        <textarea id="markdownTextarea" class="w-full flex-grow p-6 border font-mono text-sm leading-relaxed outline-none" style="border-color: var(--color-border-heavy); background: var(--color-white); color: var(--color-black);" readonly aria-label="Raw markdown output"></textarea>
+      </div>
+
+      <!-- World Cup Tab (also accessible from right sidebar) -->
+      <div id="viewWorldCup" class="world-cup-panel flex-col gap-8" role="tabpanel" aria-labelledby="tabWorldCupBtn" style="display: none;">
+        <div class="world-cup-header flex justify-between items-center pb-4">
+          <div class="world-cup-filter-bar flex gap-3">
+            <button id="wcFilterAll" class="wc-filter-btn px-4 py-2 font-label-caps text-[10px] uppercase tracking-wider active" data-filter="all">ALL MATCHES</button>
+            <button id="wcFilterArgentina" class="wc-filter-btn px-4 py-2 font-label-caps text-[10px] uppercase tracking-wider" data-filter="argentina">ARGENTINA</button>
+          </div>
+          <a href="https://www.goal.com/en-in" target="_blank" rel="noopener noreferrer" class="font-label-caps text-[10px] uppercase tracking-widest text-primary-container hover:underline" aria-label="Visit Goal.com">GOAL.COM &nearr;</a>
+        </div>
+        <div id="worldCupLoader" class="world-cup-loader text-sm font-mono" style="color: var(--color-dark-gray);">Loading match schedule...</div>
+        <div id="worldCupSchedule" class="world-cup-schedule space-y-6"></div>
+      </div>
+
+      <!-- Filtered Articles Feed Tab -->
+      <div id="viewArticles" class="feed-articles space-y-6" role="tabpanel" aria-labelledby="tabArticlesBtn" style="display: none;">
+        <!-- Category Filter Sub-nav on top of View All page -->
+        <div id="articlesFilterNav" class="flex flex-wrap gap-2 pb-4 border-b border-[var(--color-border-heavy)]" style="border-color: var(--color-border-heavy);">
+          <button class="art-filter-tab-btn px-3 py-1.5 font-label-caps text-[10px] uppercase tracking-wider border border-transparent rounded hover:text-[var(--color-orange)] transition-colors active font-semibold" data-category="global">All</button>
+          <button class="art-filter-tab-btn px-3 py-1.5 font-label-caps text-[10px] uppercase tracking-wider border border-transparent rounded hover:text-[var(--color-orange)] transition-colors" data-category="technology">Technology</button>
+          <button class="art-filter-tab-btn px-3 py-1.5 font-label-caps text-[10px] uppercase tracking-wider border border-transparent rounded hover:text-[var(--color-orange)] transition-colors" data-category="geopolitics">Geopolitics</button>
+          <button class="art-filter-tab-btn px-3 py-1.5 font-label-caps text-[10px] uppercase tracking-wider border border-transparent rounded hover:text-[var(--color-orange)] transition-colors" data-category="science">Science</button>
+          <button class="art-filter-tab-btn px-3 py-1.5 font-label-caps text-[10px] uppercase tracking-wider border border-transparent rounded hover:text-[var(--color-orange)] transition-colors" data-category="culture">Culture</button>
+          <button class="art-filter-tab-btn px-3 py-1.5 font-label-caps text-[10px] uppercase tracking-wider border border-transparent rounded hover:text-[var(--color-orange)] transition-colors" data-category="society">Society</button>
+          <button class="art-filter-tab-btn px-3 py-1.5 font-label-caps text-[10px] uppercase tracking-wider border border-transparent rounded hover:text-[var(--color-orange)] transition-colors" data-category="sports">Sports</button>
+          <button class="art-filter-tab-btn px-3 py-1.5 font-label-caps text-[10px] uppercase tracking-wider border border-transparent rounded hover:text-[var(--color-orange)] transition-colors" data-category="finance">Finance</button>
+        </div>
+        <div id="articlesList" class="articles-cards-container space-y-8">
+          <!-- Loaded dynamically -->
+        </div>
+      </div>
+
     </main>
-  </div>
+
+    <!-- ── RIGHT SIDEBAR ───────────────────────────────────── -->
+    <aside id="rightSidebar" class="right-sidebar hidden lg:flex flex-col flex-shrink-0 p-4 gap-6" style="width: 260px; border-left: 1px solid var(--color-border-heavy); background-color: var(--color-bg); height: calc(100vh - 56px);">
+
+      <!-- World Cup quick widget (now on top) -->
+      <section class="flex-shrink-0">
+        <div class="flex items-center justify-between mb-3">
+          <span class="sidebar-section-label">World Cup 2026</span>
+          <button class="font-label-caps text-[9px] uppercase tracking-wider transition-colors sidebar-wc-expand-btn hover:text-orange-500" style="color: var(--color-orange);" data-tab="worldcup">
+            Full View
+          </button>
+        </div>
+        <div id="rightSidebarWC" class="space-y-2">
+          <div class="text-xs font-mono" style="color: var(--color-dark-gray);">Loading matches...</div>
+        </div>
+      </section>
+
+      <div style="border-top: 1px solid var(--color-border-heavy);" class="flex-shrink-0"></div>
+
+      <!-- Filtered Feed section (occupies remainder of height) -->
+      <section class="flex flex-col flex-grow overflow-hidden">
+        <div class="flex items-center justify-between mb-3 flex-shrink-0">
+          <span class="sidebar-section-label">Filtered Feed</span>
+          <button id="tabArticlesBtn" class="font-label-caps text-[9px] uppercase tracking-wider transition-colors hover:text-orange-500" style="color: var(--color-orange);" data-tab="articles">
+            View All <span id="articlesCountVal">(0)</span>
+          </button>
+        </div>
+        <!-- Scrollable mini articles list that fills out fully to bottom -->
+        <div id="rightSidebarArticles" class="space-y-3 overflow-y-auto pr-1 flex-1 max-h-[calc(100vh-320px)]">
+          <div class="text-xs font-mono" style="color: var(--color-dark-gray);">Generate a brief to see articles.</div>
+        </div>
+      </section>
+
+    </aside>
+
+  </div><!-- end .app-body -->
 
   <!-- Image Lightbox Modal -->
-  <div id="imageModal" class="modal-overlay" role="dialog" aria-modal="true" aria-label="Image preview">
-    <button id="modalCloseBtn" class="modal-close-btn" aria-label="Close image preview">
+  <div id="imageModal" class="modal-overlay fixed inset-0 z-50 bg-black/80 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300" role="dialog" aria-modal="true" aria-label="Image preview">
+    <button id="modalCloseBtn" class="absolute top-6 right-6 text-white hover:text-primary-container transition-colors" aria-label="Close image preview">
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
         <line x1="18" y1="6" x2="6" y2="18"></line>
         <line x1="6" y1="6" x2="18" y2="18"></line>
       </svg>
     </button>
-    <div class="modal-image-container">
-      <img id="modalImage" src="" alt="Preview">
+    <div class="modal-image-container max-w-[90%] max-h-[90%]">
+      <img id="modalImage" class="max-w-full max-h-full object-contain" src="" alt="Preview">
     </div>
   </div>
 

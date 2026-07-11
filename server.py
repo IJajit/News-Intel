@@ -56,11 +56,10 @@ def is_valid_api_key(key):
     key = key.strip()
     if not key:
         return False
-    if ' ' in key or '\n' in key or '\r' in key:
+    if not key.startswith('AIzaSy'):
         return False
-    if 'Live Briefing' in key:
-        return False
-    if all(c == '•' or c == '*' for c in key):
+    # Only allow valid URL-safe characters for API keys (alphanumeric, dashes, underscores, dots)
+    if not re.match(r'^[A-Za-z0-9_.-]+$', key):
         return False
     if len(key) < 10:
         return False
@@ -104,12 +103,46 @@ SOURCES = [
 ]
 
 CATEGORIES = [
-  { "id": "global",     "name": "Global",     "label": "ALL REGIONS",        "icon": "" },
-  { "id": "indian",     "name": "India",       "label": "DOMESTIC",           "icon": "" },
+  { "id": "global",     "name": "Global",     "label": "ALL NEWS",           "icon": "" },
   { "id": "technology", "name": "Technology",  "label": "TECH & INNOVATION",  "icon": "" },
-  { "id": "sports",     "name": "Sports",      "label": "LIVE SCORES",        "icon": "" },
+  { "id": "geopolitics", "name": "Geopolitics", "label": "WORLD & POLITICS",  "icon": "" },
+  { "id": "science",    "name": "Science",     "label": "SCIENCE & HEALTH",   "icon": "" },
+  { "id": "culture",    "name": "Culture",     "label": "CULTURE & ARTS",     "icon": "" },
+  { "id": "society",    "name": "Society",     "label": "SOCIETY & LIFESTYLE", "icon": "" },
+  { "id": "sports",     "name": "Sports",      "label": "SPORTS",             "icon": "" },
   { "id": "finance",    "name": "Finance",     "label": "MARKETS & ECONOMY",  "icon": "" },
 ]
+
+SUBCATEGORY_NAMES = [
+    "Business, Markets & Economy",
+    "Technology & Innovation",
+    "Geopolitics & World News",
+    "Domestic Politics & Governance",
+    "Science, Health & Environment",
+    "Sports",
+    "Culture, Entertainment & Arts",
+    "Lifestyle & Society"
+]
+
+SUBCATEGORY_KEYWORDS = {
+    "Business, Markets & Economy": ['stock', 'stocks', 'market', 'markets', 'economy', 'economic', 'rate', 'rates', 'inflation', 'gdp', 'm&a', 'merger', 'earnings', 'fed', 'layoff', 'crypto', 'shares', 'gold', 'oil', 'billion', 'deal', 'finance'],
+    "Technology & Innovation": ['tech', 'technology', 'ai', 'artificial intelligence', 'openai', 'microsoft', 'google', 'quantum', 'chip', 'nvidia', 'robot', 'cybersecurity', 'software', 'apple', 'meta', 'amazon'],
+    "Geopolitics & World News": ['treaty', 'summit', 'diplomacy', 'military', 'defense', 'election', 'border', 'nato', 'conflict', 'war', 'putin', 'biden', 'sanctions'],
+    "Domestic Politics & Governance": ['law', 'tax', 'policy', 'vote', 'court', 'parliament', 'government', 'bill', 'supreme court', 'police', 'arrest'],
+    "Science, Health & Environment": ['climate', 'fda', 'healthcare', 'nasa', 'science', 'earthquake', 'tsunami', 'virus', 'biology', 'medicine', 'vaccine', 'research', 'scientific'],
+    "Sports": ['match', 'world cup', 'score', 'cricket', 'football', 'player', 'tennis', 'olympics', 'championship', 'tournament'],
+    "Culture, Entertainment & Arts": ['film', 'movie', 'box office', 'award', 'album', 'music', 'gaming'],
+    "Lifestyle & Society": ['travel', 'real estate', 'labor', 'union', 'housing', 'crash', 'accident', 'aviation', 'airport', 'weather', 'rain', 'flood', 'storm', 'cyclone', 'monsoon']
+}
+
+
+def assign_subcategory(article):
+    text = ((article.get('title', '') or '') + ' ' + (article.get('content', '') or '')).lower()
+    for name in SUBCATEGORY_NAMES:
+        kws = SUBCATEGORY_KEYWORDS.get(name, [])
+        if contains_word_boundary(text, kws):
+            return name
+    return "Lifestyle & Society"
 
 def decode_google_news_url(url):
     try:
@@ -199,13 +232,25 @@ def fetch_feed(source):
                 link = item.find('link')
                 pub_date = item.find('pubDate')
                 desc = item.find('description')
+                content_enc = item.find('{http://purl.org/rss/1.0/modules/content/}encoded')
 
                 title_text = (title.text if (title is not None and title.text is not None) else "").strip()
                 link_text = (link.text if (link is not None and link.text is not None) else "").strip()
                 pub_date_text = (pub_date.text if (pub_date is not None and pub_date.text is not None) else "").strip()
-                desc_text = (desc.text if (desc is not None and desc.text is not None) else "").strip()
 
-                desc_clean = re.sub('<[^<]+?>', '', desc_text)
+                # Prefer content:encoded (full body) over <description> (summary)
+                if content_enc is not None and content_enc.text is not None:
+                    raw_content = content_enc.text
+                elif desc is not None and desc.text is not None:
+                    raw_content = desc.text
+                else:
+                    raw_content = ""
+                
+                # Strip style and script tag contents first
+                raw_content = re.sub(r'<style\b[^>]*>([\s\S]*?)<\/style>', ' ', raw_content, flags=re.IGNORECASE)
+                raw_content = re.sub(r'<script\b[^>]*>([\s\S]*?)<\/script>', ' ', raw_content, flags=re.IGNORECASE)
+                
+                desc_clean = re.sub('<[^<]+?>', '', raw_content)
 
                 if "news.google.com/rss/articles/" in link_text or "news.google.com/articles/" in link_text:
                     link_text = decode_google_news_url(link_text)
@@ -285,9 +330,10 @@ def scrape_article_description(art):
         req = urllib.request.Request(
             url,
             headers={
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0',
-                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-                'Accept-Language': 'en-US,en;q=0.5',
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+                'Accept-Language': 'en-US,en;q=0.9',
+                'Referer': 'https://www.google.com/',
                 'Connection': 'keep-alive'
             }
         )
@@ -310,9 +356,11 @@ def scrape_article_description(art):
                     art['content'] = desc
     except Exception as e:
         print(f"Error scraping content for {url}: {e}")
+    if not art.get('content'):
+        art['content'] = art.get('title', '')
     return art
 
-def get_filtered_articles(grounded_time_str):
+def get_filtered_articles(grounded_time_str, max_hours=24.0):
     grounded_dt = parse_iso(grounded_time_str)
     if not grounded_dt:
         grounded_dt = datetime.now(timezone.utc)
@@ -348,7 +396,7 @@ def get_filtered_articles(grounded_time_str):
         diff = grounded_dt - pub_dt
         diff_hours = diff.total_seconds() / 3600.0
 
-        if -1.0 <= diff_hours <= 24.0:
+        if -1.0 <= diff_hours <= max_hours:
             seen_keys.add(key)
             filtered.append(art)
 
@@ -411,6 +459,10 @@ def clean_content(text):
     # Unescape HTML entities (like &nbsp;, &amp;, etc.)
     text = html.unescape(text)
     
+    # Strip style and script tags along with their inner content
+    text = re.sub(r'<style\b[^>]*>([\s\S]*?)<\/style>', ' ', text, flags=re.IGNORECASE)
+    text = re.sub(r'<script\b[^>]*>([\s\S]*?)<\/script>', ' ', text, flags=re.IGNORECASE)
+    
     # Strip any HTML tags
     text = re.sub(r'<[^>]+>', ' ', text)
     
@@ -443,65 +495,47 @@ def clean_content(text):
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 
+
+def truncate_to_words(text, max_words=250):
+    """Truncate text to at most max_words words, cutting at the last complete sentence."""
+    if not text:
+        return text
+    words = text.split()
+    if len(words) <= max_words:
+        return text
+    # Truncate to max_words then find last sentence boundary
+    truncated = ' '.join(words[:max_words])
+    # Find last sentence-ending punctuation
+    last_end = -1
+    for m in re.finditer(r'[.!?]["\u201d\u2019\']?(\s|$)', truncated):
+        last_end = m.end()
+    if last_end > 0:
+        return truncated[:last_end].strip()
+    return truncated.strip()
+
+
+CATEGORY_FILTER_KEYWORDS = {
+    "technology": ['tech', 'technology', 'ai', 'artificial intelligence', 'openai', 'microsoft', 'google', 'quantum', 'chip', 'chips', 'semiconductor', 'nvidia', 'robot', 'robotics', 'cyber', 'cybersecurity', 'software', 'hardware', 'app', 'apps', 'startup', 'startups', 'apple', 'meta', 'amazon'],
+    "geopolitics": ['treaty', 'summit', 'diplomacy', 'military', 'defense', 'defence', 'election', 'border', 'nato', 'conflict', 'war', 'sanctions', 'foreign', 'president', 'prime minister', 'minister', 'parliament', 'government', 'vote', 'policy', 'law', 'legislation', 'diplomatic', 'ambassador', 'putin', 'biden', 'trump', 'zelensky', 'ukraine', 'russia', 'china', 'iran', 'israel', 'nuclear', 'missile', 'troop', 'army', 'navy'],
+    "science": ['climate', 'fda', 'healthcare', 'nasa', 'science', 'scientists', 'research', 'study', 'earthquake', 'tsunami', 'virus', 'vaccine', 'drug', 'treatment', 'patient', 'disease', 'discover', 'planet', 'space', 'climate change', 'global warming', 'emission', 'renewable', 'solar', 'wind'],
+    "culture": ['film', 'movie', 'box office', 'award', 'album', 'music', 'gaming', 'game', 'artist', 'art', 'exhibition', 'museum', 'book', 'author', 'celebrity', 'hollywood', 'bollywood', 'entertainment', 'tv', 'television', 'streaming', 'netflix', 'actor', 'actress', 'director'],
+    "society": ['travel', 'real estate', 'housing', 'labor', 'union', 'crash', 'accident', 'aviation', 'airport', 'education', 'school', 'university', 'protest', 'strike', 'immigration', 'refugee', 'migrant', 'crime', 'police', 'court', 'rights', 'equality', 'welfare', 'poverty', 'homeless', 'suicide', 'mental health', 'weather', 'rain', 'flood', 'storm', 'cyclone', 'monsoon'],
+    "sports": ['match', 'world cup', 'score', 'game', 'games', 'cricket', 'football', 'soccer', 'player', 'players', 'transfer', 'injury', 'league', 'tennis', 'olympics', 'olympic', 'athlete', 'athletes', 'championship', 'tournament', 'final', 'semi-final', 'win', 'won', 'defeat', 'lost', 'cup', 'goal', 'fifa', 'nba', 'nfl'],
+    "finance": ['stock', 'stocks', 'market', 'markets', 'economy', 'economic', 'rate', 'rates', 'inflation', 'gdp', 'merger', 'mergers', 'earnings', 'fed', 'layoff', 'layoffs', 'funding', 'ipo', 'crypto', 'shares', 'gold', 'oil', 'price', 'prices', 'billion', 'million', 'deal', 'finance', 'fiscal', 'revenue', 'profit', 'losses', 'securities', 'dividend', 'bank', 'banking', 'loan', 'debt', 'budget']
+}
+
+
 def filter_by_category(articles, category):
     if category == 'global':
         return articles
 
     filtered = []
-
-    indian_sources = {'the indian express', 'the print', 'scroll.in', 'deccan herald', 'ndtv', 'the hindu'}
-    tech_sources = {'techcrunch'}
-
-    indian_kws = [
-        'india', 'indian', 'indians', 'delhi', 'mumbai', 'bengaluru', 'bangalore',
-        'kolkata', 'chennai', 'hyderabad', 'pune', 'kerala', 'karnataka', 'maharashtra',
-        'haryana', 'punjab', 'up', 'himachal', 'lucknow', 'modi', 'gandhi', 'bjp', 'congress',
-        'aap', 'rss', 'sena', 'tmc', 'birla', 'tata', 'ambani', 'reliance', 'isro',
-        'sebi', 'rbi', 'rupee', 'rupees', 'lok sabha', 'rajya sabha'
-    ]
-
-    tech_kws = [
-        'tech', 'technology', 'ai', 'artificial intelligence', 'openai', 'microsoft', 'google',
-        'quantum', 'chip', 'chips', 'semiconductor', 'broadcom', 'nvidia', 'robot', 'robotics',
-        'robotaxi', 'zoox', 'security', 'breach', 'cyber', 'cybersecurity', 'software', 'hardware',
-        'launch', 'phone', 'specs', 'developer', 'gadget', 'gadgets', 'app', 'apps', 'startup',
-        'startups', 'apple', 'meta', 'amazon'
-    ]
-
-    sports_kws = [
-        'match', 'world cup', 'score', 'game', 'games', 'stokes', 'root', 'england', 'cricket',
-        'football', 'soccer', 'player', 'players', 'transfer', 'injury', 'havertz', 'brazil',
-        'panama', 'wicket', 'wickets', 'league', 'tennis', 'olympics', 'olympic', 'athlete',
-        'athletes', 'championship', 'tournament', 'wimbledon', 'euro 2026', 'final', 'semi-final',
-        'win', 'won', 'defeat', 'lost', 'cup'
-    ]
-
-    finance_kws = [
-        'stock', 'stocks', 'market', 'markets', 'economy', 'economic', 'rate', 'rates',
-        'inflation', 'gdp', 'm&a', 'merger', 'mergers', 'earnings', 'fed', 'layoff', 'layoffs',
-        'funding', 'ipo', 'crypto', 'shares', 'gold', 'oil', 'price', 'prices', 'billion',
-        'million', 'deal', 'finance', 'fiscal', 'revenue', 'profit', 'losses', 'securities',
-        'dividend'
-    ]
+    kws = CATEGORY_FILTER_KEYWORDS.get(category, [])
 
     for art in articles:
-        source_lower = art['sourceName'].lower()
-        title_lower = art['title'].lower()
-        content_lower = art['content'].lower()
-        text = title_lower + " " + content_lower
-
-        if category == 'indian':
-            if source_lower in indian_sources or contains_word_boundary(text, indian_kws):
-                filtered.append(art)
-        elif category == 'technology':
-            if source_lower in tech_sources or contains_word_boundary(text, tech_kws):
-                filtered.append(art)
-        elif category == 'sports':
-            if contains_word_boundary(text, sports_kws):
-                filtered.append(art)
-        elif category == 'finance':
-            if contains_word_boundary(text, finance_kws):
-                filtered.append(art)
+        text = ((art.get('title', '') or '') + ' ' + (art.get('content', '') or '')).lower()
+        if contains_word_boundary(text, kws):
+            filtered.append(art)
 
     return filtered
 
@@ -687,6 +721,78 @@ def generate_briefing_text(category, articles, grounded_time_str):
 
     remaining = [a for a in ranked_deduped if id(a) not in headline_ids and id(a) not in top_ids]
 
+    if category == 'homepage':
+        def make_homepage_headline_bullet(art):
+            raw_content = art.get('content', '') or ''
+            cleaned = clean_content(raw_content)
+            brief = summarize_content(cleaned, art.get('title', ''), ssl_context, HF_API_TOKEN)
+            return f"- {brief}"
+
+        headline_bullets = []
+        for a in headline_articles[:5]:
+            headline_bullets.append(make_homepage_headline_bullet(a))
+        headline_text = "\n".join(headline_bullets) if headline_bullets else "- No critical headlines at this moment."
+
+        top_stories_list = []
+        for a in top_story_articles[:3]:
+            raw_content = a.get('content', '') or ''
+            cleaned = clean_content(raw_content)
+            brief = summarize_content(cleaned, a.get('title', ''), ssl_context, HF_API_TOKEN)
+            why = extract_why_it_matters(raw_content, a.get('title', '')) or "Critical security and operational updates are ongoing."
+            top_stories_list.append(f"{a.get('title', '')}\n{brief} Why it matters: {why}")
+        top_stories_text = "\n\n".join(top_stories_list) if top_stories_list else "No top stories identified for this session."
+
+        cat_grouped = {name: [] for name in SUBCATEGORY_NAMES}
+        for a in remaining:
+            text = (a.get('title', '') + " " + (a.get('content', '') or '')).lower()
+            matched = False
+            for cat_name in SUBCATEGORY_NAMES:
+                kws = SUBCATEGORY_KEYWORDS.get(cat_name, [])
+                if contains_word_boundary(text, kws):
+                    cat_grouped[cat_name].append(a)
+                    matched = True
+                    break
+            if not matched:
+                cat_grouped["Lifestyle & Society"].append(a)
+
+        for cat_name in SUBCATEGORY_NAMES:
+            cat_grouped[cat_name] = _dedup_articles_by_similarity(cat_grouped[cat_name])
+
+        breakdown_list = []
+        for cat_name in SUBCATEGORY_NAMES:
+            arts = cat_grouped[cat_name]
+            if arts:
+                breakdown_list.append(cat_name)
+                for a in arts[:4]:
+                    raw_content = a.get('content', '') or ''
+                    cleaned = clean_content(raw_content)
+                    brief = summarize_content(cleaned, a.get('title', ''), ssl_context, HF_API_TOKEN)
+                    breakdown_list.append(brief)
+                breakdown_list.append("")
+        breakdown_text = "\n".join(breakdown_list).strip()
+
+        quick_hits_list = []
+        quick_source = remaining[-4:] if len(remaining) > 4 else remaining
+        for a in quick_source:
+            raw_content = a.get('content', '') or ''
+            cleaned = clean_content(raw_content)
+            brief = summarize_content(cleaned, a.get('title', ''), ssl_context, HF_API_TOKEN)
+            quick_hits_list.append(f"Fact update: {brief}")
+        quick_hits_text = "\n".join(quick_hits_list) if quick_hits_list else "No additional stories in this cycle."
+
+        return f"""Live Briefing for: {formatted_date}
+
+The Headline
+{headline_text}
+
+Today's Top Stories
+{top_stories_text}
+
+{breakdown_text}
+
+Quick Hits
+{quick_hits_text}"""
+
     def make_article_bullet(art, detail_level="brief"):
         raw_content = art.get('content', '') or ''
         cleaned = clean_content(raw_content)
@@ -712,34 +818,12 @@ def generate_briefing_text(category, articles, grounded_time_str):
         top_bullets.append(make_article_bullet(a, "detailed"))
     top_stories_text = "\n\n".join(top_bullets) if top_bullets else "- No top stories identified for this session."
 
-    cat_names = [
-        "Business, Markets & Economy",
-        "Technology & Innovation",
-        "Geopolitics & World News",
-        "Domestic Politics & Governance",
-        "Science, Health & Environment",
-        "Sports",
-        "Culture, Entertainment & Arts",
-        "Lifestyle & Society"
-    ]
-
-    cat_keywords = {
-        "Business, Markets & Economy": ['stock', 'stocks', 'market', 'markets', 'economy', 'economic', 'rate', 'rates', 'inflation', 'gdp', 'm&a', 'merger', 'earnings', 'fed', 'layoff', 'crypto', 'shares', 'gold', 'oil', 'billion', 'deal', 'finance'],
-        "Technology & Innovation": ['tech', 'technology', 'ai', 'artificial intelligence', 'openai', 'microsoft', 'google', 'quantum', 'chip', 'nvidia', 'robot', 'cybersecurity', 'software', 'apple', 'meta', 'amazon'],
-        "Geopolitics & World News": ['treaty', 'summit', 'diplomacy', 'military', 'defense', 'election', 'border', 'nato', 'conflict', 'war', 'putin', 'biden', 'sanctions'],
-        "Domestic Politics & Governance": ['law', 'tax', 'policy', 'vote', 'court', 'parliament', 'government', 'bill', 'supreme court', 'police', 'arrest'],
-        "Science, Health & Environment": ['weather', 'rain', 'flood', 'storm', 'cyclone', 'climate', 'fda', 'healthcare', 'nasa', 'science', 'earthquake', 'tsunami', 'virus'],
-        "Sports": ['match', 'world cup', 'score', 'cricket', 'football', 'player', 'tennis', 'olympics', 'championship', 'tournament'],
-        "Culture, Entertainment & Arts": ['film', 'movie', 'box office', 'award', 'album', 'music', 'gaming'],
-        "Lifestyle & Society": ['travel', 'real estate', 'labor', 'union', 'housing', 'crash', 'accident', 'aviation', 'airport']
-    }
-
-    cat_grouped = {name: [] for name in cat_names}
+    cat_grouped = {name: [] for name in SUBCATEGORY_NAMES}
     for a in remaining:
         text = (a.get('title', '') + " " + (a.get('content', '') or '')).lower()
         matched = False
-        for cat_name in cat_names:
-            kws = cat_keywords.get(cat_name, [])
+        for cat_name in SUBCATEGORY_NAMES:
+            kws = SUBCATEGORY_KEYWORDS.get(cat_name, [])
             if contains_word_boundary(text, kws):
                 cat_grouped[cat_name].append(a)
                 matched = True
@@ -747,11 +831,11 @@ def generate_briefing_text(category, articles, grounded_time_str):
         if not matched:
             cat_grouped["Lifestyle & Society"].append(a)
 
-    for cat_name in cat_names:
+    for cat_name in SUBCATEGORY_NAMES:
         cat_grouped[cat_name] = _dedup_articles_by_similarity(cat_grouped[cat_name])
 
     breakdown_bullets = []
-    for cat_name in cat_names:
+    for cat_name in SUBCATEGORY_NAMES:
         arts = cat_grouped[cat_name]
         if arts:
             breakdown_bullets.append(f"### {cat_name}")
@@ -850,20 +934,20 @@ Live Briefing for: {formatted_date}
 
 For each of the 5 to 8 biggest breaking stories from the last 24 hours, write a bullet with:
 - The headline in bold, followed by a markdown hyperlink to the source in parentheses.
-- A detailed and elaborate editor's brief of approximately 300 characters, consisting of exactly 2 to 3 substantive sentences summarizing the core facts of the source article.
+- A detailed and elaborate editor's brief of approximately 150-200 words (750-1000 characters), consisting of 4-6 substantive sentences summarizing the core facts of the source article.
 - No emojis anywhere in the output.
 
 Format (use exactly double newlines around header, and start list items with "- "):
 - **[Story Headline]** ([Source Name](article URL))
-  [Elaborate editor's brief: 2-3 sentences, approx 300 characters. Detail what happened, who is involved, key figures, and immediate consequences.]
+  [Elaborate editor's brief: 4-6 sentences, approx 150-200 words. Detail what happened, who is involved, key figures, and immediate consequences.]
 
 
 # Today's Top Stories
 
 Identify the 3 single most important stories from the last 24 hours. For each:
 - Lead with the headline in bold, followed by a hyperlink to the source.
-- Write a detailed and elaborate editor's brief of approximately 300 characters, consisting of 2-3 substantive sentences covering the core facts, context, and key details.
-- Explicitly state "Why it matters:" followed by a substantive explanation of why the story is important, its significance, and the underlying stakes (2-3 sentences, approx 200-300 characters). Do NOT just repeat facts; explain the impact and why this news is critical.
+- Write a detailed and elaborate editor's brief of approximately 150-200 words (750-1000 characters), consisting of 4-6 substantive sentences covering the core facts, context, and key details.
+- Explicitly state "Why it matters:" followed by a substantive explanation of why the story is important, its significance, and the underlying stakes (3-4 sentences, approx 200-300 words). Do NOT just repeat facts; explain the impact and why this news is critical.
 
 Format (all items must start flush with "- " at the same indent level):
 - **[Story Headline]** ([Source Name](article URL))
@@ -875,7 +959,7 @@ Format (all items must start flush with "- " at the same indent level):
 
 For each relevant category below, list 5 to 10 articles from the last 24 hours. If a category has no qualifying articles, omit its H3 header entirely. Each item must:
 - Start with the headline in bold followed by a hyperlink to the article source.
-- Include a detailed and elaborate editor's brief of approximately 300 characters (2-3 sentences) below the headline providing context, key facts, and figures.
+- Include a detailed and elaborate editor's brief of approximately 150-200 words (750-1000 characters, 4-6 sentences) below the headline providing context, key facts, and figures.
 - No single-sentence bullets — every item requires substantive detail.
 - No emojis.
 
@@ -883,7 +967,7 @@ Format (H3 headers must be capitalized exactly as written, e.g. "### Sports"):
 ### [Category Name]
 
 - **[Headline]** ([Source Name](article URL))
-  [Elaborate editor's brief: 2-3 sentences, approx 300 characters.]
+  [Elaborate editor's brief: 4-6 sentences, approx 150-200 words.]
 
 Available categories to use as H3 headers:
 ### Business, Markets & Economy
@@ -916,8 +1000,63 @@ Format:
 - Every Quick Hits bullet must include a markdown hyperlink to its source article.
 """
 
+def get_homepage_system_prompt(formatted_date):
+    return f"""You are my executive daily news summarizer. Your job is to extract the absolute latest, breaking updates from today from the provided source websites and present them in a highly scannable, zero-fluff briefing.
+
+STEP 1 — ESTABLISH GROUND TRUTH TIME (mandatory, do this first):
+State this grounded timestamp explicitly at the very top of your output as "Live Briefing for: {formatted_date}" — this is your source of truth for all filtering below.
+
+STEP 2 — RECENCY FILTER (mechanical, not interpretive):
+For every candidate story, identify its explicit published timestamp from the source. Compare it against the grounded time.
+- Discard any story whose timestamp is more than 12 hours before the grounded time.
+- If a source doesn't show a clear timestamp, do not include it — don't assume recency.
+- Do not include recap articles, "week in review" pieces, analysis of older events, or evergreen content, even if republished or resurfaced today.
+- This 12-hour rule applies uniformly across every section below — there is no separate 24-hour allowance anywhere in this brief.
+
+CATEGORIES TO TRACK:
+Scan the sources specifically for live news related to these core areas:
+- Business, Markets & Economy (stock indices, commodities, crypto, forex, yields, M&A, earnings, leadership, layoffs, inflation, central bank rates, employment, GDP, funding, IPOs)
+- Technology & Innovation (product launches, hardware specs, software updates, AI, robotics, quantum computing, cloud, data breaches, antitrust, privacy regulation)
+- Geopolitics & World News (treaties, summits, diplomacy, military updates, defense spending, global elections)
+- Domestic Politics & Governance (new laws, tax changes, public policy, polling, debates, voting results, major court rulings, high-profile trials)
+- Science, Health & Environment (weather events, green energy, climate policy, treatments, FDA approvals, healthcare policy, space exploration)
+- Sports (scores, league rankings, transfers, player movements, injuries)
+- Culture, Entertainment & Arts (film releases, box office, award shows, album drops, tours, gaming studio releases, esports)
+- Lifestyle & Society (city planning, transit, real estate, remote work trends, labor, unions, travel disruptions, hospitality trends)
+
+FORMATTING RULES:
+Structure the daily briefing exactly like this:
+
+Live Briefing for: {formatted_date}
+
+The Headline
+
+For each of the 5 to 8 biggest breaking stories from the last 12 hours, write a detailed bullet with a 150-200 word (4-6 sentence) editor's brief explaining what happened, who is involved, key figures, and immediate consequences. Use concise bullet points. Each bullet starts with "- ".
+
+Today's Top Stories
+
+Identify the 3 most important stories from the last 12 hours overall. For each, give a 150-200 word (4-6 sentence) detailed brief and explicitly state "Why it matters:" with a 2-3 sentence explanation.
+
+Category Breakdown
+
+Group remaining breaking news under the categories above. Concise bullet points per update. Each bullet should implicitly reflect a story within the 12-hour window — if you're unsure of timing, leave it out.
+
+Quick Hits
+
+A short bulleted list of immediate facts from the last 12 hours: overnight match scores, specific product release dates, major daily market movements.
+
+TONE & CONSTRAINTS:
+- Apply the 12-hour rule from Step 2 with no exceptions — there is no 24-hour fallback anywhere in this brief.
+- Be objective, concise, and analytical.
+- No filler introductions ("Here is your daily news") or conclusions.
+- Never hallucinate; stick strictly to facts found in live sources with verifiable timestamps.
+- If a category has no breaking news within the window, omit it entirely — don't write "No updates."
+- Every article must cite its source name.
+- Do NOT output markdown hyperlinks. Use plain text only with source names in parentheses, e.g. "Story headline (BBC News)".
+"""
+
 def seed_briefs():
-    for cat in ['global', 'indian', 'technology', 'sports', 'finance']:
+    for cat in ['homepage', 'global', 'technology', 'geopolitics', 'science', 'culture', 'society', 'sports', 'finance']:
         filepath = os.path.join(BRIEFINGS_DIR, f"latest_{cat}.json")
         if not os.path.exists(filepath):
             now_str = datetime.now(timezone.utc).isoformat()
@@ -1093,11 +1232,11 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
             category = body.get('category', 'global')
             client_key = self.headers.get('x-api-key')
             server_key = os.environ.get('GEMINI_API_KEY')
-            api_key = client_key if is_valid_api_key(client_key) else server_key
+            api_key = client_key if is_valid_api_key(client_key) else (server_key if is_valid_api_key(server_key) else None)
 
             try:
-                articles = get_filtered_articles(grounded_time)
-                filtered_articles = filter_by_category(articles, category)
+                articles = get_filtered_articles(grounded_time, max_hours=(12.0 if category == 'homepage' else 24.0))
+                filtered_articles = filter_by_category(articles, 'global' if category == 'homepage' else category)
 
                 parsed_gdt = parse_iso(grounded_time)
                 grounded_dt = parsed_gdt if parsed_gdt and parsed_gdt.tzinfo else (parsed_gdt.replace(tzinfo=timezone.utc) if parsed_gdt else datetime.now(timezone.utc))
@@ -1128,7 +1267,10 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                             )
                         articles_text = "\n\n".join(articles_text_list)
 
-                        system_prompt = get_system_prompt(formatted_date, category)
+                        if category == 'homepage':
+                            system_prompt = get_homepage_system_prompt(formatted_date)
+                        else:
+                            system_prompt = get_system_prompt(formatted_date, category)
                         prompt = f"Here are the articles fetched from the news sources. Summarize them strictly according to the formatting rules:\n\n{articles_text}"
 
                         brief_text = call_gemini(api_key, system_prompt, prompt)
@@ -1142,6 +1284,67 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                 else:
                     brief_text = f"{live_briefing_header}\n\n{brief_text}"
 
+                clusters = cluster_articles(filtered_articles)
+                ranked_clusters = rank_clusters(clusters)
+
+                # Generate AI summaries for all articles in parallel
+                excerpt_cache = {}
+                with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
+                    fut_map = {}
+                    for art in filtered_articles:
+                        content = art.get('content', '') or ''
+                        if api_key:
+                            system_prompt = (
+                                "You are an expert news editor and summarizer. "
+                                "Analyze the news article and return a JSON object with exactly two keys:\n"
+                                "1. \"subcategory\": Choose exactly one from: "
+                                "\"Business, Markets & Economy\", \"Technology & Innovation\", \"Geopolitics & World News\", "
+                                "\"Domestic Politics & Governance\", \"Science, Health & Environment\", \"Sports\", "
+                                "\"Culture, Entertainment & Arts\", \"Lifestyle & Society\". Note: Weather, rain, and floods belong in \"Lifestyle & Society\".\n"
+                                "2. \"summary\": A detailed editorial brief written in two paragraphs. "
+                                "STRICT LENGTH: minimum 150 words, maximum 200 words. Count carefully. "
+                                "Paragraph 1 (2-3 sentences): What happened — cover core facts, key people or organizations, specific numbers, timeline, and immediate developments. "
+                                "Paragraph 2 (2 sentences): Why it matters — explain broader context, consequences, and significance for readers. "
+                                "If article content is thin (under 100 words), use the title and any available context to write a full 150-word brief. "
+                                "Separate paragraphs with a blank line (\\n\\n). "
+                                "Write in clear, objective journalistic prose. No bullet points, no headers, no markdown. "
+                                "Every sentence must be grammatically complete.\n"
+                                "Output only raw JSON, no markdown formatting, no code blocks."
+                            )
+                            def process_article(art_item, k):
+                                t = art_item.get('title', '')
+                                c = art_item.get('content', '') or ''
+                                try:
+                                    resp = call_gemini(k, system_prompt, f"Title: {t}\nContent: {c}").strip()
+                                    if resp.startswith("```"):
+                                        resp = re.sub(r'^```(?:json)?\n|```$', '', resp, flags=re.MULTILINE).strip()
+                                    data = json.loads(resp)
+                                    subcat = data.get("subcategory", "")
+                                    if subcat in SUBCATEGORY_NAMES:
+                                        art_item["subcategory"] = subcat
+                                    else:
+                                        art_item["subcategory"] = assign_subcategory(art_item)
+                                    return data.get("summary", "")
+                                except Exception as e:
+                                    safe_title = t.encode('ascii', 'replace').decode('ascii')
+                                    print(f"Gemini processing failed for '{safe_title}': {e}")
+                                    art_item["subcategory"] = assign_subcategory(art_item)
+                                    from news_summarizer import summarize_content
+                                    return summarize_content(c, t, ssl_context, HF_API_TOKEN)
+
+                            fut = pool.submit(process_article, art, api_key)
+                        else:
+                            fut = pool.submit(summarize_content, content, art.get('title', ''), ssl_context, HF_API_TOKEN)
+                        fut_map[fut] = art
+                    for future in concurrent.futures.as_completed(fut_map):
+                        art = fut_map[future]
+                        try:
+                            excerpt_cache[id(art)] = truncate_to_words(clean_content(future.result()), 200)
+                        except Exception as e:
+                            safe_title = art.get('title', '').encode('ascii', 'replace').decode('ascii')
+                            print(f"Summarization failed for '{safe_title}': {e}")
+                            excerpt_cache[id(art)] = truncate_to_words(clean_content(art.get('content', '')), 200)
+
                 brief_data = {
                     "id": "latest",
                     "timestamp": grounded_time,
@@ -1153,8 +1356,24 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                         "link": a['link'],
                         "pubDate": a['pubDate'],
                         "significance": a.get('significance', 0.0),
-                        "excerpt": clean_content(a.get('content', ''))[:200]
-                    } for a in filtered_articles]
+                        "subcategory": a.get('subcategory') or assign_subcategory(a),
+                        "excerpt": truncate_to_words(excerpt_cache.get(id(a), clean_content(a.get('content', ''))), 150)
+                    } for a in filtered_articles],
+                    "clusters": [{
+                        "representative_title": c["representative_title"],
+                        "source_count": c["source_count"],
+                        "total_count": c["total_count"],
+                        "combined_score": c["combined_score"],
+                        "articles": [{
+                            "title": a["title"],
+                            "sourceName": a["sourceName"],
+                            "link": a["link"],
+                            "pubDate": a["pubDate"],
+                            "significance": a.get("significance", 0.0),
+                            "subcategory": a.get('subcategory') or assign_subcategory(a),
+                            "excerpt": truncate_to_words(excerpt_cache.get(id(a), clean_content(a.get("content", ""))), 150)
+                        } for a in c["articles"]]
+                    } for c in ranked_clusters]
                 }
 
                 filepath = os.path.join(BRIEFINGS_DIR, f"latest_{category}.json")

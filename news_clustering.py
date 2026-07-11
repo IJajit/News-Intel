@@ -66,7 +66,7 @@ def cluster_articles(articles):
             if assigned[j]:
                 continue
             similarity = jaccard_similarity(normalized[i][1], normalized[j][1])
-            if similarity >= 0.3:
+            if similarity >= 0.35:
                 cluster_articles.append(normalized[j][0])
                 assigned[j] = True
 

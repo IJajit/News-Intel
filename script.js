@@ -7,6 +7,7 @@
 const apiKeyInput         = document.getElementById('apiKeyInput');
 const toggleKeyVisibility = document.getElementById('toggleKeyVisibility');
 const generateBtn         = document.getElementById('generateBtn');
+const tabHomepageBtn      = document.getElementById('tabHomepageBtn');
 const tabReaderBtn        = document.getElementById('tabReaderBtn');
 const tabMarkdownBtn      = document.getElementById('tabMarkdownBtn');
 const tabArticlesBtn      = document.getElementById('tabArticlesBtn');
@@ -14,6 +15,8 @@ const tabWorldCupBtn      = document.getElementById('tabWorldCupBtn');
 const stateEmpty          = document.getElementById('stateEmpty');
 const stateLoading        = document.getElementById('stateLoading');
 const loadingStatusText   = document.getElementById('loadingStatusText');
+const viewHomepage        = document.getElementById('viewHomepage');
+const homepageContent     = document.getElementById('homepageContent');
 const viewReader          = document.getElementById('viewReader');
 const viewMarkdown        = document.getElementById('viewMarkdown');
 const viewArticles        = document.getElementById('viewArticles');
@@ -25,11 +28,7 @@ const worldCupSchedule    = document.getElementById('worldCupSchedule');
 const worldCupLoader      = document.getElementById('worldCupLoader');
 const copyMarkdownBtn     = document.getElementById('copyMarkdownBtn');
 const feedSourcesList     = document.getElementById('feedSourcesList');
-const feedSearchInput     = document.getElementById('feedSearchInput');
-const feedSearchCount     = document.getElementById('feedSearchCount');
 const sidebarAdditional   = document.getElementById('sidebarAdditional');
-const categoryList        = document.getElementById('categoryList');
-const totalArticleCount   = document.getElementById('totalArticleCount');
 const readerContent       = document.getElementById('readerContent');
 const readerSubtabs       = document.getElementById('readerSubtabs');
 const imageModal          = document.getElementById('imageModal');
@@ -45,18 +44,17 @@ const wikiOtdLink         = document.getElementById('wikiOtdLink');
 // ─── APP STATE ────────────────────────────────────────────────
 let apiKey          = '';
 let showApiKey      = false;
-let activeTab       = localStorage.getItem('wcActiveTab') || 'reader';
+let activeTab       = localStorage.getItem('wcActiveTab') || 'homepage';
 let currentBriefing = null;
 let activeCategory  = localStorage.getItem('readerCategory') || 'global';
-let categories     = [];
-let searchQuery    = '';
+
 
 // ─── INITIALIZATION ───────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
   // Load saved API key from localStorage
   const savedKey = localStorage.getItem('GEMINI_API_KEY');
   if (savedKey) {
-    const isInvalid = savedKey.includes(' ') || savedKey.includes('•') || savedKey.startsWith('Live Briefing');
+    const isInvalid = savedKey.includes(' ') || savedKey.includes('\u2022') || savedKey.startsWith('Live Briefing');
     if (isInvalid) {
       localStorage.removeItem('GEMINI_API_KEY');
     } else {
@@ -65,95 +63,171 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Check if API key is already configured on the server-side
   checkServerConfig();
-
-  // Load sources into sidebar
   fetchSources();
 
-  // Fetch categories and render sidebar + sub-tabs
-  fetchCategories();
-
-  // Load default briefing then auto-generate fresh one
-  loadLatestBrief(activeCategory).then(() => {
+  loadLatestBrief(activeTab === 'homepage' ? 'homepage' : 'global').then(() => {
     setTimeout(() => triggerBriefingGeneration(), 800);
   });
 
-  // Load Wikipedia sidebar facts
   fetchWikiIntel();
+  initWorldCupRightSidebar();
 
-  // ─── EVENT LISTENERS ──────────────────────────────────────
-  if (apiKeyInput) {
-    apiKeyInput.addEventListener('input', (e) => {
-      apiKey = e.target.value.trim();
-      const isInvalid = apiKey.includes(' ') || apiKey.includes('•') || apiKey.startsWith('Live Briefing');
-      if (apiKey && !isInvalid) {
-        localStorage.setItem('GEMINI_API_KEY', apiKey);
+  // ─── GENERATE BUTTON ────────────────────────────────────────
+  generateBtn.addEventListener('click', triggerBriefingGeneration);
+  if (copyMarkdownBtn) copyMarkdownBtn.addEventListener('click', copyMarkdownToClipboard);
+
+  // ─── THEME TOGGLE ───────────────────────────────────────────
+  const themeToggleBtn = document.getElementById('themeToggleBtn');
+  const themeIcon = document.getElementById('themeIcon');
+  if (themeToggleBtn) {
+    themeToggleBtn.addEventListener('click', () => {
+      const isDark = document.documentElement.classList.contains('dark');
+      if (isDark) {
+        document.documentElement.classList.remove('dark');
+        localStorage.setItem('theme', 'light');
+        if (themeIcon) themeIcon.textContent = 'dark_mode';
+        document.body.style.backgroundColor = '#f7f3ee';
+        document.body.style.color = '#2d2a26';
       } else {
-        localStorage.removeItem('GEMINI_API_KEY');
+        document.documentElement.classList.add('dark');
+        localStorage.setItem('theme', 'dark');
+        if (themeIcon) themeIcon.textContent = 'light_mode';
+        document.body.style.backgroundColor = '#1e1e1e';
+        document.body.style.color = '#f4f4f5';
+      }
+    });
+  }
+  const currentTheme = localStorage.getItem('theme') || 'dark';
+  if (themeIcon) themeIcon.textContent = currentTheme === 'dark' ? 'light_mode' : 'dark_mode';
+
+  // ─── MOBILE SIDEBAR TOGGLE ──────────────────────────────────
+  const mobileSidebarToggle = document.getElementById('mobileSidebarToggle');
+  if (mobileSidebarToggle) {
+    mobileSidebarToggle.addEventListener('click', () => {
+      const sidebar = document.getElementById('leftSidebar');
+      const overlay = document.getElementById('mobileSidebarOverlay');
+      if (sidebar) sidebar.classList.toggle('mobile-open');
+      if (overlay) overlay.classList.toggle('hidden');
+    });
+  }
+
+  // ─── LEFT SIDEBAR MAIN NAV BUTTONS ──────────────────────────
+  document.querySelectorAll('.sidebar-nav-btn').forEach(btn => {
+    const tab = btn.getAttribute('data-tab');
+    if (tab) {
+      btn.classList.toggle('active', tab === activeTab);
+      btn.addEventListener('click', () => {
+        // If clicking Home, clear category active highlights
+        if (tab === 'homepage') {
+          const readerSubtabs = document.getElementById('readerSubtabs');
+          if (readerSubtabs) {
+            readerSubtabs.querySelectorAll('.sidebar-cat-btn').forEach(b => b.classList.remove('active'));
+          }
+        }
+        switchTab(tab);
+        closeMobileSidebar();
+      });
+    }
+  });
+
+  // ─── LEFT SIDEBAR CATEGORY SUB-BUTTONS ──────────────────────
+  const readerSubtabs = document.getElementById('readerSubtabs');
+  if (readerSubtabs) {
+    readerSubtabs.querySelectorAll('.sidebar-cat-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.category === activeCategory && activeTab === 'reader');
+    });
+
+    readerSubtabs.addEventListener('click', (e) => {
+      const btn = e.target.closest('.sidebar-cat-btn');
+      if (!btn) return;
+      const cat = btn.dataset.category;
+      
+      // Highlight category, un-highlight Home
+      readerSubtabs.querySelectorAll('.sidebar-cat-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      document.querySelectorAll('.sidebar-nav-btn').forEach(b => b.classList.remove('active'));
+
+      activeCategory = cat;
+      localStorage.setItem('readerCategory', cat);
+      
+      // Force panel to show Reader View
+      switchTab('reader');
+      switchReaderCategory(cat);
+      closeMobileSidebar();
+    });
+  }
+
+  // Right sidebar: "View All" filtered feed button
+  const tabArticlesBtn2 = document.getElementById('tabArticlesBtn');
+  if (tabArticlesBtn2) {
+    tabArticlesBtn2.addEventListener('click', () => switchTab('articles'));
+  }
+
+  // Articles View category filter sub-nav click handler
+  const articlesFilterNav = document.getElementById('articlesFilterNav');
+  if (articlesFilterNav) {
+    articlesFilterNav.addEventListener('click', (e) => {
+      const btn = e.target.closest('.art-filter-tab-btn');
+      if (!btn) return;
+      const cat = btn.dataset.category;
+      
+      // Update local storage and global state
+      activeCategory = cat;
+      localStorage.setItem('readerCategory', cat);
+      
+      // Highlight correct sub-nav button
+      articlesFilterNav.querySelectorAll('.art-filter-tab-btn').forEach(b => {
+        b.classList.toggle('active', b.dataset.category === cat);
+        b.classList.toggle('font-semibold', b.dataset.category === cat);
+      });
+      
+      // Sync left sidebar highlights
+      const readerSubtabs = document.getElementById('readerSubtabs');
+      if (readerSubtabs) {
+        readerSubtabs.querySelectorAll('.sidebar-cat-btn').forEach(b => {
+          b.classList.toggle('active', b.dataset.category === cat);
+        });
+        document.querySelectorAll('.sidebar-nav-btn').forEach(b => b.classList.remove('active'));
+      }
+      
+      // Re-render views
+      if (currentBriefing) {
+        if (readerContent) {
+          readerContent.innerHTML = renderReaderView(currentBriefing);
+        }
+        renderArticlesList();
       }
     });
   }
 
-  if (toggleKeyVisibility) {
-    toggleKeyVisibility.addEventListener('click', () => {
-      showApiKey = !showApiKey;
-      apiKeyInput.type = showApiKey ? 'text' : 'password';
-      toggleKeyVisibility.textContent = showApiKey ? 'Hide' : 'Show';
-    });
-  }
+  // Right sidebar: "Full View" world cup button
+  document.querySelectorAll('.sidebar-wc-expand-btn').forEach(btn => {
+    btn.addEventListener('click', () => switchTab('worldcup'));
+  });
 
-  generateBtn.addEventListener('click', triggerBriefingGeneration);
-  copyMarkdownBtn.addEventListener('click', copyMarkdownToClipboard);
-
-  // Tab switching
-  [tabReaderBtn, tabMarkdownBtn, tabArticlesBtn, tabWorldCupBtn].forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      switchTab(e.currentTarget.getAttribute('data-tab'));
+  // World Cup tab filter buttons
+  document.querySelectorAll('.wc-filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      setWorldCupFilter(btn.dataset.filter);
     });
   });
 
-  // Image modal - close on X or backdrop click
-  modalCloseBtn.addEventListener('click', closeImageModal);
-  imageModal.addEventListener('click', (e) => {
+  // ─── IMAGE MODAL ────────────────────────────────────────────
+  if (modalCloseBtn) modalCloseBtn.addEventListener('click', closeImageModal);
+  if (imageModal) imageModal.addEventListener('click', (e) => {
     if (e.target === imageModal) closeImageModal();
   });
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && imageModal.classList.contains('open')) closeImageModal();
+    if (e.key === 'Escape' && imageModal && imageModal.classList.contains('open')) closeImageModal();
   });
-
-  // Click delegation for briefing images
-  viewReader.addEventListener('click', (e) => {
+  if (viewReader) viewReader.addEventListener('click', (e) => {
     const img = e.target.closest('.briefing-image');
     if (img) openImageModal(img.src, img.alt);
   });
 
-  // World Cup filter tabs
-  document.getElementById('wcFilterAll').addEventListener('click', () => setWorldCupFilter('all'));
-  document.getElementById('wcFilterArgentina').addEventListener('click', () => setWorldCupFilter('argentina'));
-
-  // Intel Reader sub-tabs
-  if (readerSubtabs) {
-    readerSubtabs.addEventListener('click', (e) => {
-      const btn = e.target.closest('.reader-subtab');
-      if (!btn) return;
-      const cat = btn.dataset.category;
-      readerSubtabs.querySelectorAll('.reader-subtab').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      activeCategory = cat;
-      localStorage.setItem('readerCategory', cat);
-      triggerBriefingGeneration();
-    });
-  }
-
-  // Search input
-  if (feedSearchInput) {
-    feedSearchInput.addEventListener('input', (e) => {
-      searchQuery = e.target.value.trim().toLowerCase();
-      renderArticlesList();
-    });
-  }
 });
+
 
 // Check if server already has the Gemini API Key in its environment
 async function checkServerConfig() {
@@ -195,60 +269,11 @@ async function fetchSources() {
   }
 }
 
-// ─── FETCH CATEGORIES & RENDER SIDEBAR ──────────────────────
-async function fetchCategories() {
-  try {
-    const res = await fetch('/api/categories');
-    if (!res.ok) return;
-    categories = await res.json();
-    renderSidebarCategories();
-  } catch (err) {
-    console.error('Failed to load categories:', err);
-  }
-}
 
-function renderSidebarCategories(counts) {
-  if (!categoryList) return;
-  const countsMap = counts || {};
-  let total = 0;
-  categoryList.innerHTML = categories.map(cat => {
-    const count = countsMap[cat.id] || 0;
-    total += count;
-    const isActive = cat.id === activeCategory;
-    return `
-      <div class="category-item ${isActive ? 'active' : ''}" data-category="${cat.id}">
-        <span class="category-icon">${cat.icon}</span>
-        <div class="category-text">
-          <span class="category-name">${cat.name}</span>
-          <span class="category-meta">${cat.label} &middot; ${count} ARTICLES</span>
-        </div>
-      </div>
-    `;
-  }).join('');
-  if (totalArticleCount) {
-    totalArticleCount.textContent = `${total} ARTICLES`;
-  }
-
-  categoryList.querySelectorAll('.category-item').forEach(item => {
-    item.addEventListener('click', () => {
-      const cat = item.dataset.category;
-      categoryList.querySelectorAll('.category-item').forEach(c => c.classList.remove('active'));
-      item.classList.add('active');
-      activeCategory = cat;
-      // Update sub-tab active state
-      if (readerSubtabs) {
-        readerSubtabs.querySelectorAll('.reader-subtab').forEach(b => {
-          b.classList.toggle('active', b.dataset.category === cat);
-        });
-      }
-      localStorage.setItem('readerCategory', cat);
-      triggerBriefingGeneration();
-    });
-  });
-}
 
 // ─── FETCH WIKIPEDIA FACTS ──────────────────────────────────
 async function fetchWikiIntel() {
+  if (!wikiDykText || !wikiOtdText) return;
   const fallbackDyk = 'Wikipedia is a free, collaborative encyclopedia written by volunteers worldwide.';
   const fallbackOtd = 'On this day in history — explore Wikipedia to discover what happened today.';
   const wikiUrl = 'https://en.wikipedia.org/wiki/Main_Page';
@@ -338,13 +363,13 @@ async function triggerBriefingGeneration() {
   updateLoadingStatus('Fetching 9 live RSS feeds...');
 
   try {
-    updateLoadingStatus('Compiling briefing with Gemini AI...');
+    updateLoadingStatus('Compiling brief...');
 
-    // Sanitize API key: strip any non-ASCII characters that would break fetch headers
+    // Sanitize API key
     const sanitizedKey = apiKey.replace(/[^\x00-\xff]/g, '').trim();
 
     const fetchHeaders = { 'Content-Type': 'application/json' };
-    const isValidKey = sanitizedKey && !sanitizedKey.includes(' ') && !sanitizedKey.includes('•') && !sanitizedKey.startsWith('Live Briefing');
+    const isValidKey = sanitizedKey && !sanitizedKey.includes(' ') && !sanitizedKey.includes('\u2022') && !sanitizedKey.startsWith('Live Briefing');
     if (isValidKey) {
       fetchHeaders['x-api-key'] = sanitizedKey;
     }
@@ -354,11 +379,11 @@ async function triggerBriefingGeneration() {
       headers: fetchHeaders,
       body: JSON.stringify({
         groundedTime: generationTime,
-        category:     activeCategory
+        category: activeTab === 'homepage' ? 'homepage' : 'global'
       })
     });
 
-    if (!res.ok) {
+      if (!res.ok) {
       const errData = await res.json();
       throw new Error(errData.error || 'Briefing compilation failed');
     }
@@ -377,27 +402,84 @@ async function triggerBriefingGeneration() {
   }
 }
 
-// ─── TAB SWITCHING ────────────────────────────────────────────
-function switchTab(tabName) {
-  activeTab = tabName;
-  localStorage.setItem('wcActiveTab', tabName);
+// ─── RENDER BRIEFING ─────────────────────────────────────────────
+function renderBriefing(brief) {
+  if (homepageContent) {
+    homepageContent.innerHTML = renderHomepageView(brief);
+  }
+  if (readerContent) {
+    readerContent.innerHTML = renderReaderView(brief);
+  }
+  if (markdownTextarea) markdownTextarea.value = brief.briefing;
+  if (articlesCountVal) articlesCountVal.textContent = brief.articlesCount || 0;
 
-  [tabReaderBtn, tabMarkdownBtn, tabArticlesBtn, tabWorldCupBtn].forEach(btn => {
-    const isActive = btn.getAttribute('data-tab') === tabName;
-    btn.classList.toggle('active', isActive);
-    btn.setAttribute('aria-selected', isActive);
-  });
+  window._allClusters = brief.clusters || [];
+  window._allArticles = brief.articles || [];
+  renderArticlesList();
 
-  viewReader.style.display   = (tabName === 'reader'   && currentBriefing) ? 'block' : 'none';
-  viewMarkdown.style.display = (tabName === 'markdown' && currentBriefing) ? 'flex'  : 'none';
-  viewArticles.style.display = (tabName === 'articles' && currentBriefing) ? 'block' : 'none';
-  viewWorldCup.style.display = (tabName === 'worldcup') ? 'flex' : 'none';
+  // Populate right sidebar
+  renderRightSidebarArticles(brief.articles || []);
+}
 
-  if (tabName === 'worldcup') {
-    stateEmpty.style.display = 'none';
-    fetchWorldCupSchedule();
-  } else if (!currentBriefing) {
-    stateEmpty.style.display = 'flex';
+// ─── RIGHT SIDEBAR HELPERS ────────────────────────────────────────
+function renderRightSidebarArticles(articles) {
+  const container = document.getElementById('rightSidebarArticles');
+  if (!container) return;
+  if (articles.length === 0) {
+    container.innerHTML = '<div class="text-xs font-mono" style="color: var(--color-dark-gray);">No articles yet.</div>';
+    return;
+  }
+  container.innerHTML = articles.map(art => `
+    <a href="${escapeHtml(art.link)}" target="_blank" rel="noopener noreferrer" class="right-sidebar-article block">
+      <div class="right-sidebar-article-title">${escapeHtml(art.title)}</div>
+      <div class="right-sidebar-article-meta">${escapeHtml(art.sourceName)}</div>
+    </a>
+  `).join('');
+}
+
+async function initWorldCupRightSidebar() {
+  const container = document.getElementById('rightSidebarWC');
+  if (!container) return;
+  try {
+    const res = await fetch('/api/world-cup');
+    if (!res.ok) throw new Error('WC fetch failed');
+    const data = await res.json();
+    const matches = data.matches || [];
+    
+    if (matches.length === 0) {
+      container.innerHTML = '<div class="text-xs font-mono" style="color: var(--color-dark-gray);">No matches scheduled.</div>';
+      return;
+    }
+    
+    // Find the next upcoming/scheduled match
+    const now = new Date();
+    let nextMatch = matches.find(m => {
+      const matchDate = new Date(m.date);
+      return matchDate >= now && (m.status === 'Scheduled' || m.status === 'Future');
+    });
+    
+    // Fallback if all matches are past/finished
+    if (!nextMatch) {
+      nextMatch = matches[matches.length - 1];
+    }
+    
+    const home = escapeHtml(nextMatch.team1);
+    const away = escapeHtml(nextMatch.team2);
+    
+    const matchDateObj = new Date(nextMatch.date);
+    const dateLabel = matchDateObj.toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
+    const timeLabel = matchDateObj.toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' });
+    
+    container.innerHTML = `
+      <div class="wc-mini-match">
+        <div class="wc-mini-teams" style="text-align:left;">${home}</div>
+        <div class="wc-mini-score">vs</div>
+        <div class="wc-mini-teams" style="text-align:right;">${away}</div>
+        <div class="wc-mini-status" style="grid-column: 1 / -1;">${dateLabel} \u00b7 ${timeLabel} \u00b7 ${escapeHtml(nextMatch.venue || 'FIFA WC 2026')}</div>
+      </div>
+    `;
+  } catch (e) {
+    container.innerHTML = '<div class="text-xs font-mono" style="color: var(--color-dark-gray);">Match data unavailable.</div>';
   }
 }
 
@@ -405,6 +487,7 @@ function switchTab(tabName) {
 function setLoadingState(isLoading, statusText = '') {
   if (isLoading) {
     stateEmpty.style.display   = 'none';
+    viewHomepage.style.display = 'none';
     viewReader.style.display   = 'none';
     viewMarkdown.style.display = 'none';
     viewArticles.style.display = 'none';
@@ -424,122 +507,440 @@ function setLoadingState(isLoading, statusText = '') {
   }
 }
 
+// ─── TAB SWITCHING ─────────────────────────────────────────────
+function switchTab(tabName) {
+  activeTab = tabName;
+  localStorage.setItem('wcActiveTab', tabName);
+
+  // Update sidebar-nav-btn active states
+  document.querySelectorAll('.sidebar-nav-btn').forEach(btn => {
+    const isActive = btn.getAttribute('data-tab') === tabName;
+    btn.classList.toggle('active', isActive);
+  });
+
+  // Show/hide content panes
+  if (viewHomepage) viewHomepage.style.display = (tabName === 'homepage' && currentBriefing) ? 'block' : 'none';
+  if (viewReader)   viewReader.style.display   = (tabName === 'reader'   && currentBriefing) ? 'block' : 'none';
+  if (viewMarkdown) viewMarkdown.style.display = (tabName === 'markdown' && currentBriefing) ? 'flex'  : 'none';
+  if (viewArticles) viewArticles.style.display = (tabName === 'articles' && currentBriefing) ? 'block' : 'none';
+  if (viewWorldCup) viewWorldCup.style.display = (tabName === 'worldcup') ? 'flex' : 'none';
+
+
+
+  if (tabName === 'worldcup') {
+    if (stateEmpty) stateEmpty.style.display = 'none';
+    fetchWorldCupSchedule();
+  } else if (!currentBriefing) {
+    if (stateEmpty) stateEmpty.style.display = 'flex';
+  }
+}
+
+
 function updateLoadingStatus(text) {
   loadingStatusText.textContent = text;
 }
 
-// ─── RENDER BRIEFING ──────────────────────────────────────────
-function renderBriefing(brief) {
-  // Intel Reader — render into content sub-area
-  if (readerContent) {
-    readerContent.innerHTML = parseMarkdownToHtml(brief.briefing);
+
+// ─── HOMEPAGE VIEW ────────────────────────────────────────────
+// Structured into: Live Briefing → The Headline → Today's Top Stories → Category Breakdown → Quick Hits
+function renderHomepageView(brief) {
+  let html = '';
+
+  const clusters = brief.clusters || [];
+  const articles = brief.articles || [];
+
+  if (clusters.length === 0 && articles.length === 0) {
+    return '<div class="empty-state" style="min-height: 120px; padding: 2rem 0;"><div class="empty-state-text">No articles available. Click Generate Latest Update.</div></div>';
   }
 
-  // Raw Markdown
-  markdownTextarea.value = brief.briefing;
+  // ── Collect all unique articles from clusters + standalone ──
+  const allArticles = [];
+  const seenTitles = new Set();
+  for (const cluster of clusters) {
+    if (cluster.articles && cluster.articles.length > 0) {
+      const rep = cluster.articles[0];
+      if (!seenTitles.has(rep.title)) {
+        seenTitles.add(rep.title);
+        allArticles.push({ ...rep, _cluster: cluster, _sourceCount: cluster.source_count || 1, _combinedScore: cluster.combined_score || 0 });
+      }
+    }
+  }
+  for (const art of articles) {
+    if (!seenTitles.has(art.title)) {
+      seenTitles.add(art.title);
+      allArticles.push({ ...art, _sourceCount: 1, _combinedScore: art.significance || 0 });
+    }
+  }
 
-  // Articles Count
-  articlesCountVal.textContent = brief.articlesCount || 0;
+  // Sort all articles by importance: source count desc, then combined score desc
+  const sortedAll = [...allArticles].sort((a, b) => b._sourceCount - a._sourceCount || b._combinedScore - a._combinedScore);
 
-  // Update sidebar category counts
-  updateSidebarCounts(brief);
+  // ── THE HEADLINE — bold summary with bullet points ────────
+  const headlineArticles = sortedAll.slice(0, 5);
+  const headlineIds = new Set(headlineArticles.map(a => a.title));
 
-  // Store articles for search filtering, then render
-  window._allArticles = brief.articles || [];
-  renderArticlesList();
+  if (headlineArticles.length > 0) {
+    html += `<h2 class="font-label-caps text-sm uppercase tracking-widest font-bold pb-2 mt-6 border-b border-[var(--color-border-heavy)] text-[var(--color-black)] dark:text-white" style="border-color: var(--color-border-heavy);">The Headline</h2>`;
+
+    html += '<div class="space-y-10 mt-4">';
+    for (const art of headlineArticles) {
+      html += renderHeadlineBullet(art);
+    }
+    html += '</div>';
+  }
+
+  // ── TODAY'S TOP STORIES — 3 most important (numbered list) ──
+  const topStoryCandidates = sortedAll.filter(a => !headlineIds.has(a.title));
+  const topStories = topStoryCandidates.slice(0, 3);
+  const topStoryIds = new Set(topStories.map(a => a.title));
+
+  if (topStories.length > 0) {
+    html += `<h2 class="font-label-caps text-sm uppercase tracking-widest font-bold pb-2 mt-6 border-b border-[var(--color-border-heavy)] text-[var(--color-black)] dark:text-white" style="border-color: var(--color-border-heavy);">Today's Top Stories</h2>`;
+
+    html += '<div class="space-y-10 mt-4">';
+    topStories.forEach((art, idx) => {
+      html += renderTopStoryNumbered(art, idx + 1);
+    });
+    html += '</div>';
+  }
+
+  // ── CATEGORY BREAKDOWN — remaining grouped by category ──
+  const usedIds = new Set([...headlineIds, ...topStoryIds]);
+  const remaining = allArticles.filter(a => !usedIds.has(a.title));
+
+  const categoryOrder = ['finance', 'technology', 'geopolitics', 'science', 'sports', 'culture', 'society'];
+  const categoryLabels = {
+    'technology': 'Technology & Innovation',
+    'geopolitics': 'Geopolitics & World News',
+    'science': 'Science, Health & Environment',
+    'finance': 'Business, Markets & Economy',
+    'culture': 'Culture, Entertainment & Arts',
+    'society': 'Lifestyle & Society',
+    'sports': 'Sports'
+  };
+
+  const grouped = {};
+  for (const art of remaining) {
+    const cat = SUBCATEGORY_TO_CATEGORY[art.subcategory] || 'other';
+    if (!grouped[cat]) grouped[cat] = [];
+    grouped[cat].push(art);
+  }
+
+  for (const cat of categoryOrder) {
+    if (!grouped[cat] || grouped[cat].length === 0) continue;
+
+    html += `<h2 class="font-label-caps text-sm uppercase tracking-widest font-bold pb-2 mt-6 border-b border-[var(--color-border-heavy)] text-[var(--color-black)] dark:text-white" style="border-color: var(--color-border-heavy);">${categoryLabels[cat]}</h2>`;
+
+    html += '<div class="space-y-10 mt-4">';
+    for (const art of grouped[cat].slice(0, 5)) {
+      html += renderHomepageCategoryRow(art);
+    }
+    html += '</div>';
+  }
+
+  // Handle uncategorized
+  if (grouped['other'] && grouped['other'].length > 0) {
+    html += `<h2 class="font-label-caps text-sm uppercase tracking-widest font-bold pb-2 mt-6 border-b border-[var(--color-border-heavy)] text-[var(--color-black)] dark:text-white" style="border-color: var(--color-border-heavy);">Other</h2>`;
+    html += '<div class="space-y-10 mt-4">';
+    for (const art of grouped['other'].slice(0, 5)) {
+      html += renderHomepageCategoryRow(art);
+    }
+    html += '</div>';
+  }
+
+  return html;
 }
 
-function getSigClass(score) {
-  if (score >= 6) return 'high';
-  if (score >= 3) return 'med';
-  return 'low';
+// Renders a headline bullet point (for The Headline section)
+function renderHeadlineBullet(art) {
+  const excerpt = art.excerpt || '';
+
+  return `
+    <div>
+      <p class="font-body-md leading-relaxed text-sm font-bold" style="color: var(--color-black);">
+        <a href="${escapeHtml(art.link)}" target="_blank" rel="noopener noreferrer" class="headline-link hover:text-[var(--color-orange)] transition-colors">${escapeHtml(art.title)}</a>
+        <span class="source-badge">${escapeHtml(art.sourceName)}</span>
+      </p>
+      ${excerpt ? renderExcerpt(excerpt, 'font-body-md leading-relaxed text-sm mt-1', 'color: var(--color-dark-gray);') : ''}
+    </div>
+  `;
+}
+
+// Renders a numbered top story (for Today's Top Stories section)
+function renderTopStoryNumbered(art, number) {
+  const excerpt = art.excerpt || '';
+
+  return `
+    <div class="flex items-start gap-3">
+      <span class="font-headline-md font-bold text-lg flex-shrink-0" style="color: var(--color-orange);">${number}.</span>
+      <div>
+        <p class="font-body-md leading-relaxed text-sm font-bold" style="color: var(--color-black);">
+          <a href="${escapeHtml(art.link)}" target="_blank" rel="noopener noreferrer" class="headline-link hover:text-[var(--color-orange)] transition-colors">${escapeHtml(art.title)}</a>
+          <span class="source-badge">${escapeHtml(art.sourceName)}</span>
+        </p>
+        ${excerpt ? renderExcerpt(excerpt, 'font-body-md leading-relaxed text-sm mt-1', 'color: var(--color-dark-gray);') : ''}
+      </div>
+    </div>
+  `;
+}
+
+// Renders a category bullet point (for Category Breakdown sections)
+function renderHomepageCategoryRow(art) {
+  const excerpt = art.excerpt || '';
+
+  return `
+    <div>
+      <p class="font-body-md leading-relaxed text-sm" style="color: var(--color-black);">
+        <strong><a href="${escapeHtml(art.link)}" target="_blank" rel="noopener noreferrer" class="headline-link hover:text-[var(--color-orange)] transition-colors">${escapeHtml(art.title)}</a></strong>
+        <span class="source-badge">${escapeHtml(art.sourceName)}</span>
+      </p>
+      ${excerpt ? renderExcerpt(excerpt, 'font-body-md leading-relaxed text-sm mt-1', 'color: var(--color-dark-gray);') : ''}
+    </div>
+  `;
+}
+
+// ─── RENDER EXCERPT (multi-paragraph) ────────────────────────
+// Splits on blank lines and wraps each paragraph in its own <p> tag
+function renderExcerpt(text, cssClass, cssStyle) {
+  if (!text) return '';
+  const paras = text.split(/\n\n+/).map(p => p.trim()).filter(Boolean);
+  if (paras.length === 0) return '';
+  return paras.map(p =>
+    `<p class="${cssClass}" style="${cssStyle}">${escapeHtml(p)}</p>`
+  ).join('\n');
+}
+
+const SUBCATEGORY_TO_CATEGORY = {
+  'Technology & Innovation': 'technology',
+  'Geopolitics & World News': 'geopolitics',
+  'Domestic Politics & Governance': 'geopolitics',
+  'Science, Health & Environment': 'science',
+  'Culture, Entertainment & Arts': 'culture',
+  'Lifestyle & Society': 'society',
+  'Sports': 'sports',
+  'Business, Markets & Economy': 'finance'
+};
+
+function articleMatchesCategory(art, category) {
+  if (category === 'global') return true;
+  const mapped = SUBCATEGORY_TO_CATEGORY[art.subcategory] || 'global';
+  return mapped === category;
+}
+
+function clusterMatchesCategory(cluster, category) {
+  if (category === 'global') return true;
+  const rep = cluster.articles ? cluster.articles[0] : null;
+  if (!rep) return true;
+  return articleMatchesCategory(rep, category);
+}
+
+function getLongestExcerpt(cluster) {
+  let longest = '';
+  if (!cluster.articles) return longest;
+  for (const art of cluster.articles) {
+    if (art.excerpt && art.excerpt.length > longest.length) {
+      longest = art.excerpt;
+    }
+  }
+  return longest;
+}
+
+function renderReaderView(brief) {
+  const clusters = brief.clusters || [];
+  if (clusters.length === 0) {
+    const articles = brief.articles || [];
+    if (articles.length === 0) {
+      return '<div class="empty-state" style="min-height: 120px; padding: 2rem 0;"><div class="empty-state-text">No articles available for this category.</div></div>';
+    }
+    return renderReaderFlat(articles);
+  }
+
+  // Filter clusters by active category
+  const filtered = clusters.filter(c => clusterMatchesCategory(c, activeCategory));
+
+  if (filtered.length === 0) {
+    return '<div class="empty-state" style="min-height: 120px; padding: 2rem 0;"><div class="empty-state-text">No articles available for this category.</div></div>';
+  }
+
+  let html = '';
+  for (const cluster of filtered) {
+    const extraCount = cluster.total_count - 1;
+    const extraText = extraCount > 0 ? ` +${extraCount} other source${extraCount > 1 ? 's' : ''}` : '';
+
+    let subHtml = '';
+    if (cluster.articles && cluster.articles.length > 1) {
+      subHtml = `<button class="reader-cluster-toggle" onclick="toggleSublist(this)">Other sources \u25B6</button>
+      <div class="reader-cluster-sublist">` + cluster.articles.map((art, idx) => {
+        if (idx === 0) return '';
+        const pubDate = parseDate(art.pubDate);
+        const timeStr = pubDate ? pubDate.toLocaleString('en-IN', {
+          hour: '2-digit', minute: '2-digit', day: 'numeric', month: 'short'
+        }) : art.pubDate;
+        return `
+          <div class="reader-cluster-subitem">
+            <a href="${escapeHtml(art.link)}" target="_blank" rel="noopener noreferrer" class="reader-cluster-sublink">${escapeHtml(art.title)}</a>
+            <span class="badge badge-source">${escapeHtml(art.sourceName)}</span>
+            <span class="reader-cluster-subtime">${timeStr}</span>
+          </div>
+        `;
+      }).join('') + '</div>';
+    }
+
+    const rep = cluster.articles ? cluster.articles[0] : null;
+    const repExcerpt = rep ? rep.excerpt : '';
+    const repSource = rep ? rep.sourceName : '';
+    const repLink = rep ? rep.link : '';
+    const repTitle = rep ? rep.title : cluster.representative_title;
+    const pubDate = rep ? parseDate(rep.pubDate) : null;
+    const timeStr = pubDate ? pubDate.toLocaleString('en-IN', {
+      hour: '2-digit', minute: '2-digit', day: 'numeric', month: 'short'
+    }) : '';
+
+    // Use the longest excerpt across all articles in the cluster for more context
+    const bestExcerpt = getLongestExcerpt(cluster) || repExcerpt;
+
+    html += `
+      <article class="group cursor-pointer space-y-3 py-4 border-b border-[var(--color-border-heavy)]" style="border-color: var(--color-border-heavy);">
+        <h2 class="font-headline-md text-xl font-bold leading-snug text-primary-container transition-colors">
+          <a href="${escapeHtml(repLink)}" target="_blank" rel="noopener noreferrer" class="headline-link">${escapeHtml(repTitle)}</a>
+        </h2>
+        <div class="flex items-center gap-2">
+          <span class="source-badge">${escapeHtml(repSource)}</span>
+          ${extraCount > 0 ? `<span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono">${escapeHtml(extraText)}</span>` : ''}
+          <span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono">${timeStr}</span>
+        </div>
+        ${bestExcerpt ? renderExcerpt(bestExcerpt, 'font-body-md leading-relaxed text-sm', 'color: var(--color-black);') : ''}
+        ${subHtml}
+      </article>
+    `;
+  }
+
+  return html;
+}
+
+function renderReaderFlat(articles) {
+  const filtered = articles.filter(art => articleMatchesCategory(art, activeCategory));
+  if (filtered.length === 0) {
+    return '<div class="empty-state" style="min-height: 120px; padding: 2rem 0;"><div class="empty-state-text">No articles available for this category.</div></div>';
+  }
+
+  let html = '';
+  for (const art of filtered) {
+    const pubDate = parseDate(art.pubDate);
+    const timeStr = pubDate ? pubDate.toLocaleString('en-IN', {
+      hour: '2-digit', minute: '2-digit', day: 'numeric', month: 'short'
+    }) : art.pubDate;
+    const excerpt = art.excerpt || '';
+
+    html += `
+      <article class="group cursor-pointer space-y-3 py-4 border-b border-[var(--color-border-heavy)]" style="border-color: var(--color-border-heavy);">
+        <h2 class="font-headline-md text-xl font-bold leading-snug text-primary-container transition-colors">
+          <a href="${escapeHtml(art.link)}" target="_blank" rel="noopener noreferrer" class="headline-link">${escapeHtml(art.title)}</a>
+        </h2>
+        <div class="flex items-center gap-2">
+          <span class="source-badge">${escapeHtml(art.sourceName)}</span>
+          <span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono">${timeStr}</span>
+        </div>
+        ${excerpt ? renderExcerpt(excerpt, 'font-body-md leading-relaxed text-sm', 'color: var(--color-black);') : ''}
+      </article>
+    `;
+  }
+
+  return html;
+}
+
+function switchReaderCategory(category) {
+  activeCategory = category;
+  localStorage.setItem('readerCategory', category);
+  // Sync mobile subtab if it exists
+  const syncMobileSubtab = (cat) => {
+    const subNav = document.getElementById('articlesFilterNav');
+    if (subNav) {
+      subNav.querySelectorAll('.art-filter-tab-btn').forEach(b => {
+        b.classList.toggle('active', b.dataset.category === cat);
+        b.classList.toggle('font-semibold', b.dataset.category === cat);
+      });
+    }
+  };
+  syncMobileSubtab(category);
+  if (currentBriefing) {
+    if (readerContent) {
+      readerContent.innerHTML = renderReaderView(currentBriefing);
+    }
+    renderArticlesList();
+  }
 }
 
 function renderArticlesList() {
-  let articles = window._allArticles || [];
-
-  if (searchQuery) {
-    articles = articles.filter(a =>
-      (a.title || '').toLowerCase().includes(searchQuery)
-    );
-  }
-
-  if (feedSearchCount) {
-    feedSearchCount.textContent = `${articles.length} of ${(window._allArticles || []).length}`;
-  }
-
+  const articles = window._allArticles || [];
   if (articles.length === 0) {
     articlesList.innerHTML = `
       <div class="empty-state" style="min-height: 120px; padding: 2rem 0;">
-        <div class="empty-state-icon" style="font-size: 1.5rem;">No articles match your filter.</div>
+        <div class="empty-state-icon" style="font-size: 1.5rem;">No articles available.</div>
       </div>
     `;
     return;
   }
 
-  articlesList.innerHTML = articles.map(art => {
-    const pubDate = parseDate(art.pubDate);
-    const timeStr = pubDate ? pubDate.toLocaleString('en-IN', {
-      hour:   '2-digit',
-      minute: '2-digit',
-      day:    'numeric',
-      month:  'short'
-    }) : art.pubDate;
-
-    const sig = art.significance || 0;
-    const sigClass = getSigClass(sig);
-    const excerpt = art.excerpt || '';
-
-    return `
-      <article class="feed-article-card">
-        <div class="feed-article-header">
-          <a
-            href="${escapeHtml(art.link)}"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="feed-article-title"
-          >${escapeHtml(art.title)}</a>
-          <span class="badge badge-source">${escapeHtml(art.sourceName)}</span>
-        </div>
-        ${excerpt ? `<div class="feed-article-excerpt">${escapeHtml(excerpt)}</div>` : ''}
-        <div class="feed-article-meta">
-          <span>Published: ${timeStr}</span>
-          <span class="sig-badge ${sigClass}">${sig.toFixed(1)}</span>
-        </div>
-      </article>
+  // Filter articles by activeCategory
+  const filteredArticles = articles.filter(art => articleMatchesCategory(art, activeCategory));
+  if (filteredArticles.length === 0) {
+    articlesList.innerHTML = `
+      <div class="empty-state" style="min-height: 120px; padding: 2rem 0;">
+        <div class="empty-state-text">No articles available for this category.</div>
+      </div>
     `;
-  }).join('');
-}
-
-function updateSidebarCounts(brief) {
-  if (!categories.length) return;
-  const articles = brief.articles || [];
-  const countsMap = {};
-  for (const cat of categories) {
-    countsMap[cat.id] = 0;
+    return;
   }
-  for (const art of articles) {
-    const cat = assignArticleCategory(art);
-    if (countsMap[cat] !== undefined) countsMap[cat]++;
+
+  // Group by category
+  const categoriesList = ['technology', 'geopolitics', 'science', 'culture', 'society', 'sports', 'finance'];
+  const categoryLabels = {
+    'technology': 'Technology & Innovation',
+    'geopolitics': 'Geopolitics & Governance',
+    'science': 'Science, Health & Environment',
+    'culture': 'Culture & Entertainment',
+    'society': 'Lifestyle & Society',
+    'sports': 'Sports',
+    'finance': 'Business & Finance'
+  };
+
+  const grouped = {};
+  for (const art of filteredArticles) {
+    const cat = SUBCATEGORY_TO_CATEGORY[art.subcategory] || 'other';
+    if (!grouped[cat]) grouped[cat] = [];
+    grouped[cat].push(art);
   }
-  renderSidebarCategories(countsMap);
-}
 
-function assignArticleCategory(art) {
-  const text = ((art.title || '') + ' ' + (art.excerpt || '')).toLowerCase();
-  const src = (art.sourceName || '').toLowerCase();
+  let html = '';
+  for (const cat of categoriesList) {
+    if (grouped[cat] && grouped[cat].length > 0) {
+      html += `
+        <div class="category-group space-y-4 my-6">
+          <h3 class="font-label-caps text-sm uppercase tracking-widest font-bold pb-2 border-b border-[var(--color-border-heavy)]" style="color: var(--color-orange); border-color: var(--color-border-heavy);">${categoryLabels[cat]}</h3>
+          <div class="space-y-3">
+            ${grouped[cat].map(art => {
+              const pubDate = parseDate(art.pubDate);
+              const timeStr = pubDate ? pubDate.toLocaleString('en-IN', {
+                hour: '2-digit', minute: '2-digit', day: 'numeric', month: 'short'
+              }) : art.pubDate;
+              return `
+                <div class="group flex items-center justify-between py-2.5 border-b border-[var(--color-border-heavy)] last:border-0 gap-4" style="border-color: var(--color-border-heavy);">
+                  <a href="${escapeHtml(art.link)}" target="_blank" rel="noopener noreferrer" class="headline-link text-sm font-normal text-[var(--color-black)] group-hover:text-[var(--color-orange)] transition-colors flex-grow">${escapeHtml(art.title)}</a>
+                  <div class="flex items-center gap-3 flex-shrink-0">
+                    <span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono">${timeStr}</span>
+                    <span class="source-badge">${escapeHtml(art.sourceName)}</span>
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </div>
+      `;
+    }
+  }
 
-  const indianSources = ['the indian express', 'the print', 'scroll.in', 'deccan herald', 'ndtv', 'the hindu'];
-  const indianKws = ['india', 'indian', 'delhi', 'mumbai', 'modi', 'bjp', 'congress', 'isro', 'rupee', 'lok sabha'];
-  const techKws = ['tech', 'technology', 'ai', 'artificial intelligence', 'openai', 'microsoft', 'google', 'nvidia', 'chip', 'cyber', 'software', 'apple'];
-  const sportsKws = ['match', 'world cup', 'score', 'cricket', 'football', 'soccer', 'player', 'tennis', 'goal', 'fifa'];
-  const financeKws = ['stock', 'market', 'economy', 'inflation', 'gdp', 'crypto', 'shares', 'gold', 'oil', 'billion', 'deal'];
-
-  if (indianSources.includes(src) || indianKws.some(k => text.includes(k))) return 'indian';
-  if (techKws.some(k => text.includes(k))) return 'technology';
-  if (sportsKws.some(k => text.includes(k))) return 'sports';
-  if (financeKws.some(k => text.includes(k))) return 'finance';
-  return 'global';
+  articlesList.innerHTML = html;
 }
 
 // ─── COPY MARKDOWN ────────────────────────────────────────────
@@ -600,14 +1001,36 @@ function parseMarkdownToHtml(markdown) {
     return out;
   }
 
+  const plainHeaders = ["The Headline", "Today's Top Stories", "Category Breakdown", "Quick Hits"];
+  const subcategoriesList = [
+    "Business, Markets & Economy",
+    "Technology & Innovation",
+    "Geopolitics & World News",
+    "Domestic Politics & Governance",
+    "Science, Health & Environment",
+    "Sports",
+    "Culture, Entertainment & Arts",
+    "Lifestyle & Society"
+  ];
+
   for (let i = 0; i < lines.length; i++) {
     const raw     = lines[i];
     const trimmed = raw.trim();
 
     // ── Timestamp line ────────────────────────────────────────
-    if (trimmed.startsWith('Live Briefing for:')) {
+    if (trimmed.startsWith('Live Briefing for:') || trimmed.startsWith('Briefing generated:')) {
       flushList();
       html += `<div class="briefing-timestamp">${escapeHtml(trimmed)}</div>`;
+
+    // ── Plain Headers ─────────────────────────────────────────
+    } else if (plainHeaders.includes(trimmed)) {
+      flushList();
+      html += `<h2>${escapeHtml(trimmed)}</h2>`;
+
+    // ── Subcategories ─────────────────────────────────────────
+    } else if (subcategoriesList.includes(trimmed)) {
+      flushList();
+      html += `<h3>${escapeHtml(trimmed)}</h3>`;
 
     // ── H1 ────────────────────────────────────────────────────
     } else if (trimmed.startsWith('# ')) {
@@ -624,8 +1047,8 @@ function parseMarkdownToHtml(markdown) {
       flushList();
       html += `<h3>${parseInline(escapeHtml(trimmed.substring(4)))}</h3>`;
 
-    // ── List item start: "- " ─────────────────────────────────
-    } else if (trimmed.startsWith('- ')) {
+    // ── List item start: "- " or "* " ─────────────────────────
+    } else if (trimmed.startsWith('- ') || trimmed.startsWith('* ')) {
       if (!inList) { html += '<ul>'; inList = true; }
       flushLi();
       pendingLi = parseInline(escapeHtml(trimmed.substring(2)));
@@ -641,8 +1064,23 @@ function parseMarkdownToHtml(markdown) {
 
     // ── Plain paragraph ───────────────────────────────────────
     } else {
+      // Check if it's a Top Story Title (the next non-empty line has "Why it matters:")
+      let isTopStoryTitle = false;
+      for (let j = i + 1; j < lines.length; j++) {
+        const nextTrimmed = lines[j].trim();
+        if (nextTrimmed === '') continue;
+        if (nextTrimmed.includes('Why it matters:')) {
+          isTopStoryTitle = true;
+        }
+        break;
+      }
+
       flushList();
-      html += `<p>${parseInline(escapeHtml(trimmed))}</p>`;
+      if (isTopStoryTitle) {
+        html += `<h4 class="font-bold text-lg mt-6" style="color: var(--color-orange);">${parseInline(escapeHtml(trimmed))}</h4>`;
+      } else {
+        html += `<p>${parseInline(escapeHtml(trimmed))}</p>`;
+      }
     }
   }
 
@@ -651,6 +1089,15 @@ function parseMarkdownToHtml(markdown) {
 }
 
 // ─── UTILITIES ────────────────────────────────────────────────
+function toggleSublist(btn) {
+  const list = btn.nextElementSibling;
+  if (list) {
+    list.classList.toggle('open');
+    btn.classList.toggle('open');
+    btn.textContent = btn.classList.contains('open') ? 'Other sources \u25BC' : 'Other sources \u25B6';
+  }
+}
+
 function escapeHtml(text) {
   if (!text) return '';
   return text
@@ -932,14 +1379,13 @@ function showToast(message, type = 'info') {
     bottom: 1.5rem;
     right: 1.5rem;
     background: #171717;
-    border: 1.5px solid ${c.border};
+    border: 3px solid ${c.border};
     color: #FFFFFF;
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 0.75rem;
     font-weight: 600;
     padding: 0.75rem 1.25rem;
     border-radius: 3px;
-    box-shadow: 4px 4px 0px 0px ${c.border};
     z-index: 9999;
     max-width: 380px;
     animation: toast-in 0.2s ease;

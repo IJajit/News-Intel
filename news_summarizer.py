@@ -24,6 +24,11 @@ def _clean_rss_artifacts(text):
     if not text:
         return ''
     text = html.unescape(text)
+    
+    # Strip style and script tags along with their inner content
+    text = re.sub(r'<style\b[^>]*>([\s\S]*?)<\/style>', ' ', text, flags=re.IGNORECASE)
+    text = re.sub(r'<script\b[^>]*>([\s\S]*?)<\/script>', ' ', text, flags=re.IGNORECASE)
+    
     text = HTML_TAGS_RE.sub(' ', text)
     text = WHITESPACE_RE.sub(' ', text).strip()
     text = CONTINUE_READING_RE.sub('', text).strip()
@@ -44,12 +49,15 @@ def _extractive_fallback(text):
     text = _clean_rss_artifacts(text)
     sentences = _split_sentences(text)
     if not sentences:
-        return text[:300] if len(text) > 300 else text
+        return text[:800] if len(text) > 800 else text
 
-    # Join the first 3 sentences to form a detailed 2-3 sentence summary (approx 300 chars)
-    result = " ".join(sentences[:3])
-    if len(result) < 250 and len(sentences) > 3:
-        result = " ".join(sentences[:4])
+    # Build a detailed multi-sentence brief — keep adding sentences until we have
+    # at least 1200 characters or we've used up to 14 sentences.
+    result = sentences[0]
+    for s in sentences[1:14]:
+        result = result + " " + s
+        if len(result) >= 1200:
+            break
 
     return result
 
@@ -87,14 +95,16 @@ def extract_why_it_matters(content, title):
 
 
 def _call_hf_inference(text, ssl_ctx, hf_token=""):
+    if not hf_token:
+        return None
     if not text or len(text.strip()) < 30:
         return None
 
     payload = {
         "inputs": text,
         "parameters": {
-            "max_length": 150,
-            "min_length": 40,
+            "max_length": 800,
+            "min_length": 300,
             "do_sample": False
         }
     }
@@ -146,10 +156,10 @@ def summarize_content(content, title, ssl_ctx, hf_token=""):
         return clean
 
     hf_result = _call_hf_inference(clean, ssl_ctx, hf_token)
-    if hf_result and len(hf_result) >= 200:
+    if hf_result and len(hf_result) >= 100:
         hf_result = WHITESPACE_RE.sub(' ', hf_result).strip()
         sentence_count = len(re.findall(r'[.!?]+', hf_result))
-        if 1 <= sentence_count <= 5:
+        if 1 <= sentence_count <= 10:
             return hf_result
 
     fallback = _extractive_fallback(clean)
