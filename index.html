@@ -74,7 +74,7 @@
   ══════════════════════════════════════════════════════════════ -->
   <header class="w-full h-14 md:h-16 sticky top-0 z-50 flex items-center justify-between px-4 md:px-6 transition-colors" style="background-color: var(--color-bg); border-bottom: 1px solid var(--color-border-heavy);">
 
-    <!-- Left: mobile sidebar toggle + logo -->
+    <!-- Left: mobile sidebar toggle + logo + mobile update -->
     <div class="flex items-center gap-3">
       <!-- Mobile sidebar open button -->
       <button id="mobileSidebarToggle" class="md:hidden flex items-center p-1.5 rounded transition-colors" style="color: var(--color-dark-gray);" title="Open navigation">
@@ -83,26 +83,25 @@
       <a class="font-headline-lg text-lg font-bold tracking-tighter flex items-center" href="#">
         <span class="news-text">NEWS</span><span class="text-primary-container ml-1">INTEL</span>
       </a>
-    </div>
-
-    <!-- Right: generate update + theme toggle aligned with right sidebar border -->
-    <div class="flex items-center gap-3">
-      <!-- Theme toggle aligned precisely on the right border line (approx 260px from edge) -->
-      <button class="flex items-center p-1.5 rounded transition-colors mr-3" id="themeToggleBtn" title="Toggle Theme" style="color: var(--color-dark-gray);">
-        <span class="material-symbols-outlined" id="themeIcon" style="font-size:20px;">light_mode</span>
-      </button>
-
+      <!-- Update button moved to left on mobile to avoid overlap -->
       <button id="generateBtn" class="bg-primary-container text-white px-3 md:px-5 py-1.5 md:py-2 font-label-caps text-[10px] md:text-[11px] uppercase tracking-widest font-bold hover:opacity-90 transition-all whitespace-nowrap">
         <span class="hidden md:inline">Update Feed</span>
         <span class="md:hidden">Update</span>
       </button>
     </div>
-  </header>
 
-  <!-- Mobile right sidebar toggle (fixed top-right corner) -->
-  <button id="mobileRightSidebarToggle" class="md:hidden fixed flex items-center justify-center p-1.5 rounded transition-colors" style="color: var(--color-dark-gray); top: 10px; right: 10px; z-index: 60; background: var(--color-bg); border: 1px solid var(--color-border-heavy); width: 32px; height: 32px;" title="Open sidebar">
-    <span class="material-symbols-outlined" style="font-size:18px;">side_navigation</span>
-  </button>
+    <!-- Right: right sidebar toggle + theme toggle -->
+    <div class="flex items-center gap-3">
+      <!-- Mobile right sidebar toggle -->
+      <button id="mobileRightSidebarToggle" class="md:hidden flex items-center p-1.5 rounded transition-colors" style="color: var(--color-dark-gray);" title="Open sidebar">
+        <span class="material-symbols-outlined" style="font-size:22px;">side_navigation</span>
+      </button>
+      <!-- Theme toggle aligned precisely on the right border line (approx 260px from edge) -->
+      <button class="flex items-center p-1.5 rounded transition-colors mr-3" id="themeToggleBtn" title="Toggle Theme" style="color: var(--color-dark-gray);">
+        <span class="material-symbols-outlined" id="themeIcon" style="font-size:20px;">light_mode</span>
+      </button>
+    </div>
+  </header>
 
   <!-- ═══════════════════════════════════════════════════════════
        BODY: LEFT SIDEBAR + MAIN + RIGHT SIDEBAR
