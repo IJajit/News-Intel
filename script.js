@@ -709,7 +709,7 @@ function renderExcerpt(text, cssClass, cssStyle) {
 
 function storyMatchesCategory(story, category) {
   if (category === 'global') return true;
-  return story.category === category;
+  return story.category.toLowerCase() === category.toLowerCase();
 }
 
 // ─── READER VIEW ─────────────────────────────────────────────
