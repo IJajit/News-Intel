@@ -74,31 +74,29 @@
   ══════════════════════════════════════════════════════════════ -->
   <header class="w-full h-14 md:h-16 sticky top-0 z-50 flex items-center justify-between px-4 md:px-6 transition-colors" style="background-color: var(--color-bg); border-bottom: 1px solid var(--color-border-heavy);">
 
-    <!-- Left: mobile sidebar toggle + logo + mobile update -->
+    <!-- Left: mobile sidebar toggle + logo -->
     <div class="flex items-center gap-3">
-      <!-- Mobile sidebar open button -->
       <button id="mobileSidebarToggle" class="md:hidden flex items-center p-1.5 rounded transition-colors" style="color: var(--color-dark-gray);" title="Open navigation">
         <span class="material-symbols-outlined" style="font-size:22px;">menu</span>
       </button>
       <a class="font-headline-lg text-lg font-bold tracking-tighter flex items-center" href="#">
         <span class="news-text">NEWS</span><span class="text-primary-container ml-1">INTEL</span>
       </a>
-      <!-- Update button moved to left on mobile to avoid overlap -->
+    </div>
+
+    <!-- Right: theme toggle + update + sidebar toggle -->
+    <div class="flex items-center gap-3">
+      <button class="flex items-center p-1.5 rounded transition-colors" id="themeToggleBtn" title="Toggle Theme" style="color: var(--color-dark-gray);">
+        <span class="material-symbols-outlined" id="themeIcon" style="font-size:20px;">light_mode</span>
+      </button>
+
       <button id="generateBtn" class="bg-primary-container text-white px-3 md:px-5 py-1.5 md:py-2 font-label-caps text-[10px] md:text-[11px] uppercase tracking-widest font-bold hover:opacity-90 transition-all whitespace-nowrap">
         <span class="hidden md:inline">Update Feed</span>
         <span class="md:hidden">Update</span>
       </button>
-    </div>
 
-    <!-- Right: right sidebar toggle + theme toggle -->
-    <div class="flex items-center gap-3">
-      <!-- Mobile right sidebar toggle -->
       <button id="mobileRightSidebarToggle" class="md:hidden flex items-center p-1.5 rounded transition-colors" style="color: var(--color-dark-gray);" title="Open sidebar">
-        <span class="material-symbols-outlined" style="font-size:22px;">side_navigation</span>
-      </button>
-      <!-- Theme toggle aligned precisely on the right border line (approx 260px from edge) -->
-      <button class="flex items-center p-1.5 rounded transition-colors mr-3" id="themeToggleBtn" title="Toggle Theme" style="color: var(--color-dark-gray);">
-        <span class="material-symbols-outlined" id="themeIcon" style="font-size:20px;">light_mode</span>
+        <span class="material-symbols-outlined" style="font-size:18px;">side_navigation</span>
       </button>
     </div>
   </header>
