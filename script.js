@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ─── GENERATE BUTTON ────────────────────────────────────────
   generateBtn.addEventListener('click', triggerBriefingGeneration);
-  if (copyMarkdownBtn) copyMarkdownBtn.addEventListener('click', copyMarkdownToClipboard);
+
 
   // ─── THEME TOGGLE ───────────────────────────────────────────
   const themeToggleBtn = document.getElementById('themeToggleBtn');
@@ -437,31 +437,31 @@ function renderBriefing(brief) {
   if (readerContent) {
     readerContent.innerHTML = renderReaderView(brief);
   }
-  if (markdownTextarea) markdownTextarea.value = brief.briefing;
   if (articlesCountVal) articlesCountVal.textContent = brief.articlesCount || 0;
 
-  window._allClusters = brief.clusters || [];
-  window._allArticles = brief.articles || [];
+  window._allStories = (brief.stories || []);
   renderArticlesList();
-
-  // Populate right sidebar
-  renderRightSidebarArticles(brief.articles || []);
+  renderRightSidebarArticles(brief.stories || []);
 }
 
 // ─── RIGHT SIDEBAR HELPERS ────────────────────────────────────────
-function renderRightSidebarArticles(articles) {
+function renderRightSidebarArticles(stories) {
   const container = document.getElementById('rightSidebarArticles');
   if (!container) return;
-  if (articles.length === 0) {
+  if (stories.length === 0) {
     container.innerHTML = '<div class="text-xs font-mono" style="color: var(--color-dark-gray);">No articles yet.</div>';
     return;
   }
-  container.innerHTML = articles.map(art => `
-    <a href="${escapeHtml(art.link)}" target="_blank" rel="noopener noreferrer" class="right-sidebar-article block">
-      <div class="right-sidebar-article-title">${escapeHtml(art.title)}</div>
-      <div class="right-sidebar-article-meta">${escapeHtml(art.sourceName)}</div>
-    </a>
-  `).join('');
+  // Show primary source for each story
+  container.innerHTML = stories.map(story => {
+    const primary = story.primary_source || {};
+    return `
+      <a href="${escapeHtml(primary.url)}" target="_blank" rel="noopener noreferrer" class="right-sidebar-article block">
+        <div class="right-sidebar-article-title">${escapeHtml(story.primary_headline)}</div>
+        <div class="right-sidebar-article-meta">${escapeHtml(primary.source_name)} ${story.source_count > 1 ? `+${story.source_count - 1} more` : ''}</div>
+      </a>
+    `;
+  }).join('');
 }
 
 async function initWorldCupRightSidebar() {
@@ -516,7 +516,7 @@ function setLoadingState(isLoading, statusText = '') {
     stateEmpty.style.display   = 'none';
     viewHomepage.style.display = 'none';
     viewReader.style.display   = 'none';
-    viewMarkdown.style.display = 'none';
+
     viewArticles.style.display = 'none';
     viewWorldCup.style.display = 'none';
     stateLoading.style.display = 'flex';
@@ -548,7 +548,7 @@ function switchTab(tabName) {
   // Show/hide content panes
   if (viewHomepage) viewHomepage.style.display = (tabName === 'homepage' && currentBriefing) ? 'block' : 'none';
   if (viewReader)   viewReader.style.display   = (tabName === 'reader'   && currentBriefing) ? 'block' : 'none';
-  if (viewMarkdown) viewMarkdown.style.display = (tabName === 'markdown' && currentBriefing) ? 'flex'  : 'none';
+
   if (viewArticles) viewArticles.style.display = (tabName === 'articles' && currentBriefing) ? 'block' : 'none';
   if (viewWorldCup) viewWorldCup.style.display = (tabName === 'worldcup') ? 'flex' : 'none';
 
@@ -568,109 +568,77 @@ function updateLoadingStatus(text) {
 }
 
 
+const CATEGORY_LABELS = {
+  'Finance': 'Business, Markets & Economy',
+  'Technology': 'Technology & Innovation',
+  'Geopolitics': 'Geopolitics & World News',
+  'Science': 'Science, Health & Environment',
+  'Sports': 'Sports',
+  'Culture': 'Culture, Entertainment & Arts',
+  'Society': 'Lifestyle & Society'
+};
+
+const CATEGORY_ORDER = ['Finance', 'Technology', 'Geopolitics', 'Science', 'Sports', 'Culture', 'Society'];
+
 // ─── HOMEPAGE VIEW ────────────────────────────────────────────
-// Structured into: Live Briefing → The Headline → Today's Top Stories → Category Breakdown → Quick Hits
 function renderHomepageView(brief) {
-  let html = '';
+  const stories = brief.stories || [];
 
-  const clusters = brief.clusters || [];
-  const articles = brief.articles || [];
-
-  if (clusters.length === 0 && articles.length === 0) {
+  if (!stories || stories.length === 0) {
     return '<div class="empty-state" style="min-height: 120px; padding: 2rem 0;"><div class="empty-state-text">No articles available. Click Generate Latest Update.</div></div>';
   }
 
-  // ── Collect all unique articles from clusters + standalone ──
-  const allArticles = [];
-  const seenTitles = new Set();
-  for (const cluster of clusters) {
-    if (cluster.articles && cluster.articles.length > 0) {
-      const rep = cluster.articles[0];
-      if (!seenTitles.has(rep.title)) {
-        seenTitles.add(rep.title);
-        allArticles.push({ ...rep, _cluster: cluster, _sourceCount: cluster.source_count || 1, _combinedScore: cluster.combined_score || 0 });
-      }
-    }
-  }
-  for (const art of articles) {
-    if (!seenTitles.has(art.title)) {
-      seenTitles.add(art.title);
-      allArticles.push({ ...art, _sourceCount: 1, _combinedScore: art.significance || 0 });
-    }
-  }
+  const ranked = [...stories].sort((a, b) => b.source_count - a.source_count || b.combined_score - a.combined_score);
 
-  // Sort all articles by importance: source count desc, then combined score desc
-  const sortedAll = [...allArticles].sort((a, b) => b._sourceCount - a._sourceCount || b._combinedScore - a._combinedScore);
+  let html = '';
 
-  // ── THE HEADLINE — bold summary with bullet points ────────
-  const headlineArticles = sortedAll.slice(0, 5);
-  const headlineIds = new Set(headlineArticles.map(a => a.title));
+  // ── THE HEADLINE — top 5 stories ──────────────────────────
+  const headline = ranked.slice(0, 5);
+  const headlineIds = new Set(headline.map(s => s.story_id));
 
-  if (headlineArticles.length > 0) {
+  if (headline.length > 0) {
     html += `<h2 class="font-label-caps text-sm uppercase tracking-widest font-bold pb-2 mt-6 border-b border-[var(--color-border-heavy)] text-[var(--color-black)] dark:text-white" style="border-color: var(--color-border-heavy);">The Headline</h2>`;
-
     html += '<div class="space-y-10 mt-4">';
-    for (const art of headlineArticles) {
-      html += renderHeadlineBullet(art);
+    for (const story of headline) {
+      html += renderHomepageStory(story, false);
     }
     html += '</div>';
   }
 
-  // ── TODAY'S TOP STORIES — 3 most important (numbered list) ──
-  const topStoryCandidates = sortedAll.filter(a => !headlineIds.has(a.title));
-  const topStories = topStoryCandidates.slice(0, 3);
-  const topStoryIds = new Set(topStories.map(a => a.title));
+  // ── TODAY'S TOP STORIES — next 3 ──────────────────────────
+  const topCandidates = ranked.filter(s => !headlineIds.has(s.story_id));
+  const topStories = topCandidates.slice(0, 3);
+  const topStoryIds = new Set(topStories.map(s => s.story_id));
 
   if (topStories.length > 0) {
     html += `<h2 class="font-label-caps text-sm uppercase tracking-widest font-bold pb-2 mt-6 border-b border-[var(--color-border-heavy)] text-[var(--color-black)] dark:text-white" style="border-color: var(--color-border-heavy);">Today's Top Stories</h2>`;
-
     html += '<div class="space-y-10 mt-4">';
-    topStories.forEach((art, idx) => {
-      html += renderTopStoryNumbered(art, idx + 1);
+    topStories.forEach((story, idx) => {
+      html += renderHomepageStory(story, true, idx + 1);
     });
     html += '</div>';
   }
 
-  // ── CATEGORY BREAKDOWN — remaining grouped by category ──
+  // ── CATEGORY BREAKDOWN — remaining grouped ────────────────
   const usedIds = new Set([...headlineIds, ...topStoryIds]);
-  const remaining = allArticles.filter(a => !usedIds.has(a.title));
-
-  const categoryOrder = ['finance', 'technology', 'geopolitics', 'science', 'sports', 'culture', 'society'];
-  const categoryLabels = {
-    'technology': 'Technology & Innovation',
-    'geopolitics': 'Geopolitics & World News',
-    'science': 'Science, Health & Environment',
-    'finance': 'Business, Markets & Economy',
-    'culture': 'Culture, Entertainment & Arts',
-    'society': 'Lifestyle & Society',
-    'sports': 'Sports'
-  };
+  const remaining = ranked.filter(s => !usedIds.has(s.story_id));
 
   const grouped = {};
-  for (const art of remaining) {
-    const cat = SUBCATEGORY_TO_CATEGORY[art.subcategory] || 'other';
+  for (const story of remaining) {
+    const cat = story.category;
     if (!grouped[cat]) grouped[cat] = [];
-    grouped[cat].push(art);
+    grouped[cat].push(story);
   }
 
-  for (const cat of categoryOrder) {
-    if (!grouped[cat] || grouped[cat].length === 0) continue;
+  for (const cat of CATEGORY_ORDER) {
+    const storiesInCat = grouped[cat];
+    if (!storiesInCat || storiesInCat.length === 0) continue;
 
-    html += `<h2 class="font-label-caps text-sm uppercase tracking-widest font-bold pb-2 mt-6 border-b border-[var(--color-border-heavy)] text-[var(--color-black)] dark:text-white" style="border-color: var(--color-border-heavy);">${categoryLabels[cat]}</h2>`;
-
+    const label = CATEGORY_LABELS[cat] || cat;
+    html += `<h2 class="font-label-caps text-sm uppercase tracking-widest font-bold pb-2 mt-6 border-b border-[var(--color-border-heavy)] text-[var(--color-black)] dark:text-white" style="border-color: var(--color-border-heavy);">${label}</h2>`;
     html += '<div class="space-y-10 mt-4">';
-    for (const art of grouped[cat].slice(0, 5)) {
-      html += renderHomepageCategoryRow(art);
-    }
-    html += '</div>';
-  }
-
-  // Handle uncategorized
-  if (grouped['other'] && grouped['other'].length > 0) {
-    html += `<h2 class="font-label-caps text-sm uppercase tracking-widest font-bold pb-2 mt-6 border-b border-[var(--color-border-heavy)] text-[var(--color-black)] dark:text-white" style="border-color: var(--color-border-heavy);">Other</h2>`;
-    html += '<div class="space-y-10 mt-4">';
-    for (const art of grouped['other'].slice(0, 5)) {
-      html += renderHomepageCategoryRow(art);
+    for (const story of storiesInCat.slice(0, 5)) {
+      html += renderHomepageStory(story, false);
     }
     html += '</div>';
   }
@@ -678,56 +646,58 @@ function renderHomepageView(brief) {
   return html;
 }
 
-// Renders a headline bullet point (for The Headline section)
-function renderHeadlineBullet(art) {
-  const excerpt = art.excerpt || '';
+function renderHomepageStory(story, numbered, num) {
+  const primary = story.primary_source || {};
+  const primaryUrl = primary.url || '';
+  const primaryName = primary.source_name || '';
+  const brief = story.brief || '';
+  const extraCount = story.total_count - 1;
+
+  const sourcesHtml = extraCount > 0 ? renderSourcesList(story.sources, primaryUrl) : '';
+
+  const numberHtml = numbered
+    ? `<span class="font-headline-md font-bold text-lg flex-shrink-0" style="color: var(--color-orange);">${num}.</span>`
+    : '';
+
+  const containerClass = numbered ? 'flex items-start gap-3' : '';
 
   return `
-    <div>
-      <p class="font-body-md leading-relaxed text-sm font-bold" style="color: var(--color-black);">
-        <a href="${escapeHtml(art.link)}" target="_blank" rel="noopener noreferrer" class="headline-link hover:text-[var(--color-orange)] transition-colors">${escapeHtml(art.title)}</a>
-        <span class="source-badge">${escapeHtml(art.sourceName)}</span>
-      </p>
-      ${excerpt ? renderExcerpt(excerpt, 'font-body-md leading-relaxed text-sm mt-1', 'color: var(--color-dark-gray);') : ''}
-    </div>
-  `;
-}
-
-// Renders a numbered top story (for Today's Top Stories section)
-function renderTopStoryNumbered(art, number) {
-  const excerpt = art.excerpt || '';
-
-  return `
-    <div class="flex items-start gap-3">
-      <span class="font-headline-md font-bold text-lg flex-shrink-0" style="color: var(--color-orange);">${number}.</span>
+    <div class="${containerClass}">
+      ${numberHtml}
       <div>
         <p class="font-body-md leading-relaxed text-sm font-bold" style="color: var(--color-black);">
-          <a href="${escapeHtml(art.link)}" target="_blank" rel="noopener noreferrer" class="headline-link hover:text-[var(--color-orange)] transition-colors">${escapeHtml(art.title)}</a>
-          <span class="source-badge">${escapeHtml(art.sourceName)}</span>
+          <a href="${escapeHtml(primaryUrl)}" target="_blank" rel="noopener noreferrer" class="headline-link hover:text-[var(--color-orange)] transition-colors">${escapeHtml(story.primary_headline)}</a>
+          <span class="source-badge">${escapeHtml(primaryName)}</span>
+          ${extraCount > 0 ? `<span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono ml-2">+${extraCount} other source${extraCount > 1 ? 's' : ''}</span>` : ''}
         </p>
-        ${excerpt ? renderExcerpt(excerpt, 'font-body-md leading-relaxed text-sm mt-1', 'color: var(--color-dark-gray);') : ''}
+        ${brief ? renderExcerpt(brief, 'font-body-md leading-relaxed text-sm mt-1', 'color: var(--color-dark-gray);') : ''}
+        ${sourcesHtml}
       </div>
     </div>
   `;
 }
 
-// Renders a category bullet point (for Category Breakdown sections)
-function renderHomepageCategoryRow(art) {
-  const excerpt = art.excerpt || '';
+function renderSourcesList(sources, excludeUrl) {
+  const others = sources.filter(s => s.url !== excludeUrl);
+  if (others.length === 0) return '';
 
   return `
-    <div>
-      <p class="font-body-md leading-relaxed text-sm" style="color: var(--color-black);">
-        <strong><a href="${escapeHtml(art.link)}" target="_blank" rel="noopener noreferrer" class="headline-link hover:text-[var(--color-orange)] transition-colors">${escapeHtml(art.title)}</a></strong>
-        <span class="source-badge">${escapeHtml(art.sourceName)}</span>
-      </p>
-      ${excerpt ? renderExcerpt(excerpt, 'font-body-md leading-relaxed text-sm mt-1', 'color: var(--color-dark-gray);') : ''}
-    </div>
-  `;
+    <button class="reader-cluster-toggle mt-2" onclick="toggleSublist(this)">Also reported by \u25B6</button>
+    <div class="reader-cluster-sublist">` +
+    others.map(s => {
+      const pubDate = parseDate(s.published_at);
+      const timeStr = pubDate ? pubDate.toLocaleString('en-IN', { hour: '2-digit', minute: '2-digit', day: 'numeric', month: 'short' }) : '';
+      return `
+        <div class="reader-cluster-subitem">
+          <a href="${escapeHtml(s.url)}" target="_blank" rel="noopener noreferrer" class="reader-cluster-sublink">${escapeHtml(s.headline)}</a>
+          <span class="badge badge-source">${escapeHtml(s.source_name)}</span>
+          <span class="reader-cluster-subtime">${timeStr}</span>
+        </div>
+      `;
+    }).join('') + `</div>`;
 }
 
 // ─── RENDER EXCERPT (multi-paragraph) ────────────────────────
-// Splits on blank lines and wraps each paragraph in its own <p> tag
 function renderExcerpt(text, cssClass, cssStyle) {
   if (!text) return '';
   const paras = text.split(/\n\n+/).map(p => p.trim()).filter(Boolean);
@@ -737,138 +707,51 @@ function renderExcerpt(text, cssClass, cssStyle) {
   ).join('\n');
 }
 
-const SUBCATEGORY_TO_CATEGORY = {
-  'Technology & Innovation': 'technology',
-  'Geopolitics & World News': 'geopolitics',
-  'Domestic Politics & Governance': 'geopolitics',
-  'Science, Health & Environment': 'science',
-  'Culture, Entertainment & Arts': 'culture',
-  'Lifestyle & Society': 'society',
-  'Sports': 'sports',
-  'Business, Markets & Economy': 'finance'
-};
-
-function articleMatchesCategory(art, category) {
+function storyMatchesCategory(story, category) {
   if (category === 'global') return true;
-  const mapped = SUBCATEGORY_TO_CATEGORY[art.subcategory] || 'global';
-  return mapped === category;
+  return story.category === category;
 }
 
-function clusterMatchesCategory(cluster, category) {
-  if (category === 'global') return true;
-  const rep = cluster.articles ? cluster.articles[0] : null;
-  if (!rep) return true;
-  return articleMatchesCategory(rep, category);
-}
-
-function getLongestExcerpt(cluster) {
-  let longest = '';
-  if (!cluster.articles) return longest;
-  for (const art of cluster.articles) {
-    if (art.excerpt && art.excerpt.length > longest.length) {
-      longest = art.excerpt;
-    }
-  }
-  return longest;
-}
-
+// ─── READER VIEW ─────────────────────────────────────────────
 function renderReaderView(brief) {
-  const clusters = brief.clusters || [];
-  if (clusters.length === 0) {
-    const articles = brief.articles || [];
-    if (articles.length === 0) {
-      return '<div class="empty-state" style="min-height: 120px; padding: 2rem 0;"><div class="empty-state-text">No articles available for this category.</div></div>';
-    }
-    return renderReaderFlat(articles);
+  const stories = brief.stories || [];
+
+  if (!stories || stories.length === 0) {
+    return '<div class="empty-state" style="min-height: 120px; padding: 2rem 0;"><div class="empty-state-text">No articles available for this category.</div></div>';
   }
 
-  // Filter clusters by active category
-  const filtered = clusters.filter(c => clusterMatchesCategory(c, activeCategory));
+  const filtered = stories.filter(s => storyMatchesCategory(s, activeCategory));
 
   if (filtered.length === 0) {
     return '<div class="empty-state" style="min-height: 120px; padding: 2rem 0;"><div class="empty-state-text">No articles available for this category.</div></div>';
   }
 
   let html = '';
-  for (const cluster of filtered) {
-    const extraCount = cluster.total_count - 1;
-    const extraText = extraCount > 0 ? ` +${extraCount} other source${extraCount > 1 ? 's' : ''}` : '';
-
-    let subHtml = '';
-    if (cluster.articles && cluster.articles.length > 1) {
-      subHtml = `<button class="reader-cluster-toggle" onclick="toggleSublist(this)">Other sources \u25B6</button>
-      <div class="reader-cluster-sublist">` + cluster.articles.map((art, idx) => {
-        if (idx === 0) return '';
-        const pubDate = parseDate(art.pubDate);
-        const timeStr = pubDate ? pubDate.toLocaleString('en-IN', {
-          hour: '2-digit', minute: '2-digit', day: 'numeric', month: 'short'
-        }) : art.pubDate;
-        return `
-          <div class="reader-cluster-subitem">
-            <a href="${escapeHtml(art.link)}" target="_blank" rel="noopener noreferrer" class="reader-cluster-sublink">${escapeHtml(art.title)}</a>
-            <span class="badge badge-source">${escapeHtml(art.sourceName)}</span>
-            <span class="reader-cluster-subtime">${timeStr}</span>
-          </div>
-        `;
-      }).join('') + '</div>';
-    }
-
-    const rep = cluster.articles ? cluster.articles[0] : null;
-    const repExcerpt = rep ? rep.excerpt : '';
-    const repSource = rep ? rep.sourceName : '';
-    const repLink = rep ? rep.link : '';
-    const repTitle = rep ? rep.title : cluster.representative_title;
-    const pubDate = rep ? parseDate(rep.pubDate) : null;
+  for (const story of filtered) {
+    const primary = story.primary_source || {};
+    const primaryUrl = primary.url || '';
+    const primaryName = primary.source_name || '';
+    const pubDate = parseDate(primary.published_at);
     const timeStr = pubDate ? pubDate.toLocaleString('en-IN', {
       hour: '2-digit', minute: '2-digit', day: 'numeric', month: 'short'
     }) : '';
+    const extraCount = story.total_count - 1;
+    const brief = story.brief || '';
 
-    // Use the longest excerpt across all articles in the cluster for more context
-    const bestExcerpt = getLongestExcerpt(cluster) || repExcerpt;
-
-    html += `
-      <article class="group cursor-pointer space-y-3 py-4 border-b border-[var(--color-border-heavy)]" style="border-color: var(--color-border-heavy);">
-        <h2 class="font-headline-md text-xl font-bold leading-snug text-primary-container transition-colors">
-          <a href="${escapeHtml(repLink)}" target="_blank" rel="noopener noreferrer" class="headline-link">${escapeHtml(repTitle)}</a>
-        </h2>
-        <div class="flex items-center gap-2">
-          <span class="source-badge">${escapeHtml(repSource)}</span>
-          ${extraCount > 0 ? `<span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono">${escapeHtml(extraText)}</span>` : ''}
-          <span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono">${timeStr}</span>
-        </div>
-        ${bestExcerpt ? renderExcerpt(bestExcerpt, 'font-body-md leading-relaxed text-sm', 'color: var(--color-black);') : ''}
-        ${subHtml}
-      </article>
-    `;
-  }
-
-  return html;
-}
-
-function renderReaderFlat(articles) {
-  const filtered = articles.filter(art => articleMatchesCategory(art, activeCategory));
-  if (filtered.length === 0) {
-    return '<div class="empty-state" style="min-height: 120px; padding: 2rem 0;"><div class="empty-state-text">No articles available for this category.</div></div>';
-  }
-
-  let html = '';
-  for (const art of filtered) {
-    const pubDate = parseDate(art.pubDate);
-    const timeStr = pubDate ? pubDate.toLocaleString('en-IN', {
-      hour: '2-digit', minute: '2-digit', day: 'numeric', month: 'short'
-    }) : art.pubDate;
-    const excerpt = art.excerpt || '';
+    const sourcesHtml = extraCount > 0 ? renderSourcesList(story.sources, primaryUrl) : '';
 
     html += `
       <article class="group cursor-pointer space-y-3 py-4 border-b border-[var(--color-border-heavy)]" style="border-color: var(--color-border-heavy);">
         <h2 class="font-headline-md text-xl font-bold leading-snug text-primary-container transition-colors">
-          <a href="${escapeHtml(art.link)}" target="_blank" rel="noopener noreferrer" class="headline-link">${escapeHtml(art.title)}</a>
+          <a href="${escapeHtml(primaryUrl)}" target="_blank" rel="noopener noreferrer" class="headline-link">${escapeHtml(story.primary_headline)}</a>
         </h2>
         <div class="flex items-center gap-2">
-          <span class="source-badge">${escapeHtml(art.sourceName)}</span>
+          <span class="source-badge">${escapeHtml(primaryName)}</span>
+          ${extraCount > 0 ? `<span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono">+${extraCount} other source${extraCount > 1 ? 's' : ''}</span>` : ''}
           <span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono">${timeStr}</span>
         </div>
-        ${excerpt ? renderExcerpt(excerpt, 'font-body-md leading-relaxed text-sm', 'color: var(--color-black);') : ''}
+        ${brief ? renderExcerpt(brief, 'font-body-md leading-relaxed text-sm', 'color: var(--color-black);') : ''}
+        ${sourcesHtml}
       </article>
     `;
   }
@@ -899,19 +782,18 @@ function switchReaderCategory(category) {
 }
 
 function renderArticlesList() {
-  const articles = window._allArticles || [];
-  if (articles.length === 0) {
+  const stories = window._allStories || [];
+  if (stories.length === 0) {
     articlesList.innerHTML = `
       <div class="empty-state" style="min-height: 120px; padding: 2rem 0;">
-        <div class="empty-state-icon" style="font-size: 1.5rem;">No articles available.</div>
+        <div class="empty-state-text">No articles available.</div>
       </div>
     `;
     return;
   }
 
-  // Filter articles by activeCategory
-  const filteredArticles = articles.filter(art => articleMatchesCategory(art, activeCategory));
-  if (filteredArticles.length === 0) {
+  const filtered = stories.filter(s => storyMatchesCategory(s, activeCategory));
+  if (filtered.length === 0) {
     articlesList.innerHTML = `
       <div class="empty-state" style="min-height: 120px; padding: 2rem 0;">
         <div class="empty-state-text">No articles available for this category.</div>
@@ -920,62 +802,56 @@ function renderArticlesList() {
     return;
   }
 
-  // Group by category
-  const categoriesList = ['technology', 'geopolitics', 'science', 'culture', 'society', 'sports', 'finance'];
-  const categoryLabels = {
-    'technology': 'Technology & Innovation',
-    'geopolitics': 'Geopolitics & Governance',
-    'science': 'Science, Health & Environment',
-    'culture': 'Culture & Entertainment',
-    'society': 'Lifestyle & Society',
-    'sports': 'Sports',
-    'finance': 'Business & Finance'
-  };
-
   const grouped = {};
-  for (const art of filteredArticles) {
-    const cat = SUBCATEGORY_TO_CATEGORY[art.subcategory] || 'other';
+  for (const story of filtered) {
+    const cat = story.category;
     if (!grouped[cat]) grouped[cat] = [];
-    grouped[cat].push(art);
+    grouped[cat].push(story);
   }
+
+  const categoryLabels = {
+    'Finance': 'Business, Markets & Economy',
+    'Technology': 'Technology & Innovation',
+    'Geopolitics': 'Geopolitics & World News',
+    'Science': 'Science, Health & Environment',
+    'Sports': 'Sports',
+    'Culture': 'Culture, Entertainment & Arts',
+    'Society': 'Lifestyle & Society'
+  };
+  const categoriesList = ['Finance', 'Technology', 'Geopolitics', 'Science', 'Sports', 'Culture', 'Society'];
 
   let html = '';
   for (const cat of categoriesList) {
-    if (grouped[cat] && grouped[cat].length > 0) {
-      html += `
-        <div class="category-group space-y-4 my-6">
-          <h3 class="font-label-caps text-sm uppercase tracking-widest font-bold pb-2 border-b border-[var(--color-border-heavy)]" style="color: var(--color-orange); border-color: var(--color-border-heavy);">${categoryLabels[cat]}</h3>
-          <div class="space-y-3">
-            ${grouped[cat].map(art => {
-              const pubDate = parseDate(art.pubDate);
-              const timeStr = pubDate ? pubDate.toLocaleString('en-IN', {
-                hour: '2-digit', minute: '2-digit', day: 'numeric', month: 'short'
-              }) : art.pubDate;
-              return `
-                <div class="group flex items-center justify-between py-2.5 border-b border-[var(--color-border-heavy)] last:border-0 gap-4" style="border-color: var(--color-border-heavy);">
-                  <a href="${escapeHtml(art.link)}" target="_blank" rel="noopener noreferrer" class="headline-link text-sm font-normal text-[var(--color-black)] group-hover:text-[var(--color-orange)] transition-colors flex-grow">${escapeHtml(art.title)}</a>
-                  <div class="flex items-center gap-3 flex-shrink-0">
-                    <span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono">${timeStr}</span>
-                    <span class="source-badge">${escapeHtml(art.sourceName)}</span>
-                  </div>
+    const storiesInCat = grouped[cat];
+    if (!storiesInCat || storiesInCat.length === 0) continue;
+
+    const primary = storiesInCat[0].primary_source || {};
+    html += `
+      <div class="category-group space-y-4 my-6">
+        <h3 class="font-label-caps text-sm uppercase tracking-widest font-bold pb-2 border-b border-[var(--color-border-heavy)]" style="color: var(--color-orange); border-color: var(--color-border-heavy);">${categoryLabels[cat]}</h3>
+        <div class="space-y-3">
+          ${storiesInCat.map(story => {
+            const p = story.primary_source || {};
+            const pubDate = parseDate(p.published_at);
+            const timeStr = pubDate ? pubDate.toLocaleString('en-IN', {
+              hour: '2-digit', minute: '2-digit', day: 'numeric', month: 'short'
+            }) : '';
+            return `
+              <div class="group flex items-center justify-between py-2.5 border-b border-[var(--color-border-heavy)] last:border-0 gap-4" style="border-color: var(--color-border-heavy);">
+                <a href="${escapeHtml(p.url)}" target="_blank" rel="noopener noreferrer" class="headline-link text-sm font-normal text-[var(--color-black)] group-hover:text-[var(--color-orange)] transition-colors flex-grow">${escapeHtml(story.primary_headline)}</a>
+                <div class="flex items-center gap-3 flex-shrink-0">
+                  <span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono">${timeStr}</span>
+                  <span class="source-badge">${escapeHtml(p.source_name)}</span>
                 </div>
-              `;
-            }).join('')}
-          </div>
+              </div>
+            `;
+          }).join('')}
         </div>
-      `;
-    }
+      </div>
+    `;
   }
 
   articlesList.innerHTML = html;
-}
-
-// ─── COPY MARKDOWN ────────────────────────────────────────────
-function copyMarkdownToClipboard() {
-  if (!currentBriefing?.briefing) return;
-  navigator.clipboard.writeText(currentBriefing.briefing)
-    .then(() => showToast('Markdown briefing copied to clipboard.', 'success'))
-    .catch(err => showToast('Failed to copy: ' + err.message, 'error'));
 }
 
 // ─── MARKDOWN PARSER ──────────────────────────────────────────

@@ -13,7 +13,7 @@ import html
 import ssl
 import concurrent.futures
 
-from news_clustering import cluster_articles, rank_clusters, jaccard_similarity, normalize_title
+from news_clustering import cluster_articles, rank_clusters, jaccard_similarity, normalize_title, cluster_into_stories
 from news_summarizer import summarize_content, extract_why_it_matters
 
 # Manually load environment variables from .env file
@@ -900,6 +900,132 @@ def call_gemini(api_key, system_prompt, articles_text):
         brief_text = res_data['candidates'][0]['content']['parts'][0]['text']
         return brief_text
 
+def build_story_prompt(story):
+    category = story.get('category', 'General')
+    primary_headline = story.get('primary_headline', '')
+    sources = story.get('sources', [])
+
+    sources_text = ""
+    for src in sources:
+        ts = src.get('published_at', '')
+        content = src.get('content', '') or ''
+        sources_text += f"Source: {src['source_name']} | Published: {ts}\n{content}\n---\n"
+
+    prompt = f"""You are a news editor writing a single synthesized brief for a story, based on multiple source articles covering the same event.
+
+TASK:
+Write one cohesive brief of 150-200 words that synthesizes the information across ALL provided sources below. Do not summarize each source separately — merge the facts into one unified narrative, as if you are the most well-informed reporter on this story.
+
+RULES:
+- If sources agree on a fact, state it plainly once.
+- If sources add different details (numbers, quotes, context, reactions), weave them in — don't repeat the same fact from each source.
+- If sources conflict on a fact (e.g. different casualty counts, different figures), note the discrepancy briefly rather than picking one arbitrarily.
+- Do not attribute every sentence to a specific outlet (no "According to Reuters..."). Write it as a clean editorial brief, not a source-by-source roundup.
+- Lead with the most important, most recent development. Background/context comes after, only if space allows.
+- No filler openers ("In a significant development..."). Start directly with the news.
+- Target length: 150-200 words. Do not pad to hit the minimum — if the sources genuinely don't support 150 words of substance, write less rather than fabricate detail.
+- Do not editorialize or add opinion not supported by the sources.
+
+STORY CATEGORY: {category}
+PRIMARY HEADLINE: {primary_headline}
+
+SOURCES:
+{sources_text}
+
+Output only the brief text. No headers, no preamble, no source list."""
+    return prompt
+
+
+def call_gemini_structured(api_key, prompt):
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
+
+    payload = {
+        "contents": [{
+            "parts": [{"text": prompt}]
+        }],
+        "generationConfig": {
+            "temperature": 0.3,
+            "responseMimeType": "application/json",
+            "responseSchema": {
+                "type": "object",
+                "properties": {
+                    "brief": {"type": "string"},
+                    "word_count": {"type": "integer"}
+                },
+                "required": ["brief", "word_count"]
+            }
+        }
+    }
+
+    data = json.dumps(payload).encode('utf-8')
+    req = urllib.request.Request(
+        url,
+        data=data,
+        headers={'Content-Type': 'application/json'},
+        method='POST'
+    )
+
+    with urllib.request.urlopen(req, timeout=60) as response:
+        res_data = json.loads(response.read().decode('utf-8'))
+        raw_text = res_data['candidates'][0]['content']['parts'][0]['text']
+        parsed = json.loads(raw_text)
+        return parsed.get('brief', ''), parsed.get('word_count', 0)
+
+
+def validate_brief(brief_text):
+    if not brief_text or not brief_text.strip():
+        return False, "empty brief"
+    wc = len(brief_text.strip().split())
+    if wc < 130 or wc > 220:
+        return False, f"word count {wc} out of range (130-220)"
+    return True, wc
+
+
+def generate_story_brief(story, api_key, ssl_ctx, hf_token=""):
+    prompt = build_story_prompt(story)
+
+    if api_key:
+        # Attempt 1: Gemini with structured output
+        try:
+            brief_text, wc = call_gemini_structured(api_key, prompt)
+            valid, msg = validate_brief(brief_text)
+            if valid:
+                return brief_text.strip(), wc
+            # Retry with appended note
+            retry_prompt = prompt + f"\n\nYour previous attempt was {wc} words. Strictly target 150-200 words this time."
+            brief_text, wc = call_gemini_structured(api_key, retry_prompt)
+            valid, msg = validate_brief(brief_text)
+            if valid:
+                return brief_text.strip(), wc
+            print(f"Story brief validation failed after retry: {msg}")
+        except Exception as e:
+            print(f"Gemini story brief failed: {e}")
+
+    # Fallback: BART summarizer
+    combined_text = ""
+    for src in story.get('sources', []):
+        content = src.get('content', '') or ''
+        if content:
+            combined_text += content + " "
+    combined_text = combined_text.strip()
+
+    if combined_text:
+        try:
+            brief = summarize_content(combined_text, story.get('primary_headline', ''), ssl_ctx, hf_token)
+            if brief and len(brief.strip()) > 50:
+                wc = len(brief.strip().split())
+                return brief.strip(), wc
+        except Exception as e:
+            print(f"BART fallback failed: {e}")
+
+    # Last resort: use primary source content
+    primary_content = story.get('primary_source', {}).get('content', '')
+    if primary_content:
+        return primary_content[:800], len(primary_content[:800].split())
+
+    return "Brief unavailable for this story.", 5
+
+
 def get_system_prompt(formatted_date, category):
     return f"""You are my executive daily news summarizer. Your job is to extract the absolute latest, breaking updates from today from the provided source articles and present them in a highly scannable, zero-fluff briefing.
 
@@ -1064,36 +1190,11 @@ def seed_briefs():
             now_ist = datetime.now(timezone.utc).astimezone(ist_tz)
             formatted_date = now_ist.strftime('%A, %B %d, %Y, %I:%M:%S %p IST')
 
-            init_text = f"""Live Briefing for: {formatted_date}
-
-# The Headline
-
-- **System Initialized:** The Daily Intelligence Summarizer has successfully booted.
-- **Category Channels:** Selected category: {cat.upper()}. Click 'GENERATE BRIEF' to parse live feeds.
-
-# Today's Top Stories
-
-- **Daily Summarizer Active**
-  The summarizer is operational and tracking 11 verified news feeds.
-  *Why it matters:* Provides highly scannable, zero-fluff news briefs on demand, explaining the stakes and importance of key developments.
-
-# Category Breakdown
-
-### SYSTEM STATUS
-- Sector {cat.upper()} is active.
-- Tracking feeds across 22 verified sources worldwide.
-
-# Quick Hits
-- System version 2.0 active.
-- Grounded time synchronizer enabled.
-- Gemini AI summarization ready."""
-
             brief_data = {
                 "id": "initial",
                 "timestamp": now_str,
-                "briefing": init_text,
                 "articlesCount": 0,
-                "articles": []
+                "stories": []
             }
             with open(filepath, 'w', encoding='utf-8') as f:
                 json.dump(brief_data, f, indent=2, ensure_ascii=False)
@@ -1235,145 +1336,74 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
             api_key = client_key if is_valid_api_key(client_key) else (server_key if is_valid_api_key(server_key) else None)
 
             try:
+                # Step 1: Fetch + recency filter (12h for homepage, 24h for category feeds)
                 articles = get_filtered_articles(grounded_time, max_hours=(12.0 if category == 'homepage' else 24.0))
-                filtered_articles = filter_by_category(articles, 'global' if category == 'homepage' else category)
 
-                parsed_gdt = parse_iso(grounded_time)
-                grounded_dt = parsed_gdt if parsed_gdt and parsed_gdt.tzinfo else (parsed_gdt.replace(tzinfo=timezone.utc) if parsed_gdt else datetime.now(timezone.utc))
-                filtered_articles = compute_article_significance(filtered_articles, grounded_dt)
+                if not articles:
+                    self.send_json({
+                        "id": "latest",
+                        "timestamp": grounded_time,
+                        "articlesCount": 0,
+                        "stories": []
+                    })
+                    return
 
-                parsed_gdt = parse_iso(grounded_time)
-                if parsed_gdt:
-                    ist_tz = timezone(timedelta(hours=5, minutes=30))
-                    parsed_gdt_ist = parsed_gdt.astimezone(ist_tz)
-                    formatted_date = parsed_gdt_ist.strftime('%A, %B %d, %Y, %I:%M:%S %p IST')
-                else:
-                    formatted_date = grounded_time
+                # Step 2: Cluster into story objects (single pass, all categories)
+                stories = cluster_into_stories(articles)
 
-                if not api_key:
-                    brief_text = generate_briefing_text(category, filtered_articles, grounded_time)
-                else:
-                    try:
-                        articles_text_list = []
-                        for idx, art in enumerate(filtered_articles):
-                            articles_text_list.append(
-                                f"[Article #{idx+1}]\n"
-                                f"Source: {art['sourceName']}\n"
-                                f"Title: {art['title']}\n"
-                                f"Published: {art['pubDate']}\n"
-                                f"Link: {art['link']}\n"
-                                f"Summary: {art['content']}\n"
-                                f"------------------"
-                            )
-                        articles_text = "\n\n".join(articles_text_list)
-
-                        if category == 'homepage':
-                            system_prompt = get_homepage_system_prompt(formatted_date)
-                        else:
-                            system_prompt = get_system_prompt(formatted_date, category)
-                        prompt = f"Here are the articles fetched from the news sources. Summarize them strictly according to the formatting rules:\n\n{articles_text}"
-
-                        brief_text = call_gemini(api_key, system_prompt, prompt)
-                    except Exception as gemini_err:
-                        print(f"Gemini API failed: {gemini_err}. Falling back to clustering + HF pipeline.")
-                        brief_text = generate_briefing_text(category, filtered_articles, grounded_time)
-
-                live_briefing_header = f"Live Briefing for: {formatted_date}"
-                if re.search(r'^Live Briefing for:.*$', brief_text, re.MULTILINE):
-                    brief_text = re.sub(r'^Live Briefing for:.*$', live_briefing_header, brief_text, flags=re.MULTILINE)
-                else:
-                    brief_text = f"{live_briefing_header}\n\n{brief_text}"
-
-                clusters = cluster_articles(filtered_articles)
-                ranked_clusters = rank_clusters(clusters)
-
-                # Generate AI summaries for all articles in parallel
-                excerpt_cache = {}
+                # Step 3: Generate brief for each story in parallel
+                brief_cache = {}
                 with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
                     fut_map = {}
-                    for art in filtered_articles:
-                        content = art.get('content', '') or ''
-                        if api_key:
-                            system_prompt = (
-                                "You are an expert news editor and summarizer. "
-                                "Analyze the news article and return a JSON object with exactly two keys:\n"
-                                "1. \"subcategory\": Choose exactly one from: "
-                                "\"Business, Markets & Economy\", \"Technology & Innovation\", \"Geopolitics & World News\", "
-                                "\"Domestic Politics & Governance\", \"Science, Health & Environment\", \"Sports\", "
-                                "\"Culture, Entertainment & Arts\", \"Lifestyle & Society\". Note: Weather, rain, and floods belong in \"Lifestyle & Society\".\n"
-                                "2. \"summary\": A detailed editorial brief written in two paragraphs. "
-                                "STRICT LENGTH: minimum 150 words, maximum 200 words. Count carefully. "
-                                "Paragraph 1 (2-3 sentences): What happened — cover core facts, key people or organizations, specific numbers, timeline, and immediate developments. "
-                                "Paragraph 2 (2 sentences): Why it matters — explain broader context, consequences, and significance for readers. "
-                                "If article content is thin (under 100 words), use the title and any available context to write a full 150-word brief. "
-                                "Separate paragraphs with a blank line (\\n\\n). "
-                                "Write in clear, objective journalistic prose. No bullet points, no headers, no markdown. "
-                                "Every sentence must be grammatically complete.\n"
-                                "Output only raw JSON, no markdown formatting, no code blocks."
-                            )
-                            def process_article(art_item, k):
-                                t = art_item.get('title', '')
-                                c = art_item.get('content', '') or ''
-                                try:
-                                    resp = call_gemini(k, system_prompt, f"Title: {t}\nContent: {c}").strip()
-                                    if resp.startswith("```"):
-                                        resp = re.sub(r'^```(?:json)?\n|```$', '', resp, flags=re.MULTILINE).strip()
-                                    data = json.loads(resp)
-                                    subcat = data.get("subcategory", "")
-                                    if subcat in SUBCATEGORY_NAMES:
-                                        art_item["subcategory"] = subcat
-                                    else:
-                                        art_item["subcategory"] = assign_subcategory(art_item)
-                                    return data.get("summary", "")
-                                except Exception as e:
-                                    safe_title = t.encode('ascii', 'replace').decode('ascii')
-                                    print(f"Gemini processing failed for '{safe_title}': {e}")
-                                    art_item["subcategory"] = assign_subcategory(art_item)
-                                    from news_summarizer import summarize_content
-                                    return summarize_content(c, t, ssl_context, HF_API_TOKEN)
-
-                            fut = pool.submit(process_article, art, api_key)
-                        else:
-                            fut = pool.submit(summarize_content, content, art.get('title', ''), ssl_context, HF_API_TOKEN)
-                        fut_map[fut] = art
+                    for story in stories:
+                        fut = pool.submit(generate_story_brief, story, api_key, ssl_context, HF_API_TOKEN)
+                        fut_map[fut] = story
                     for future in concurrent.futures.as_completed(fut_map):
-                        art = fut_map[future]
+                        story = fut_map[future]
                         try:
-                            excerpt_cache[id(art)] = truncate_to_words(clean_content(future.result()), 200)
+                            brief_text, word_count = future.result()
+                            brief_cache[story["story_id"]] = {
+                                "brief": truncate_to_words(clean_content(brief_text), 200),
+                                "brief_word_count": word_count
+                            }
                         except Exception as e:
-                            safe_title = art.get('title', '').encode('ascii', 'replace').decode('ascii')
-                            print(f"Summarization failed for '{safe_title}': {e}")
-                            excerpt_cache[id(art)] = truncate_to_words(clean_content(art.get('content', '')), 200)
+                            print(f"Brief generation failed for story {story['story_id']}: {e}")
+                            brief_cache[story["story_id"]] = {
+                                "brief": "Brief could not be generated for this story.",
+                                "brief_word_count": 0
+                            }
+
+                # Step 4: Assemble story objects with briefs attached
+                story_objects = []
+                for story in stories:
+                    cached = brief_cache.get(story["story_id"], {})
+                    story_obj = {
+                        "story_id": story["story_id"],
+                        "category": story["category"],
+                        "primary_headline": story["primary_headline"],
+                        "primary_source": story["primary_source"],
+                        "sources": [
+                            {
+                                "source_name": s["source_name"],
+                                "headline": s["headline"],
+                                "published_at": s["published_at"],
+                                "url": s["url"]
+                            }
+                            for s in story["sources"]
+                        ],
+                        "source_count": story["source_count"],
+                        "total_count": story["total_count"],
+                        "combined_score": story["combined_score"],
+                        "brief": cached.get("brief", ""),
+                        "brief_word_count": cached.get("brief_word_count", 0)
+                    }
+                    story_objects.append(story_obj)
 
                 brief_data = {
                     "id": "latest",
                     "timestamp": grounded_time,
-                    "briefing": brief_text,
-                    "articlesCount": len(filtered_articles),
-                    "articles": [{
-                        "title": a['title'],
-                        "sourceName": a['sourceName'],
-                        "link": a['link'],
-                        "pubDate": a['pubDate'],
-                        "significance": a.get('significance', 0.0),
-                        "subcategory": a.get('subcategory') or assign_subcategory(a),
-                        "excerpt": truncate_to_words(excerpt_cache.get(id(a), clean_content(a.get('content', ''))), 150)
-                    } for a in filtered_articles],
-                    "clusters": [{
-                        "representative_title": c["representative_title"],
-                        "source_count": c["source_count"],
-                        "total_count": c["total_count"],
-                        "combined_score": c["combined_score"],
-                        "articles": [{
-                            "title": a["title"],
-                            "sourceName": a["sourceName"],
-                            "link": a["link"],
-                            "pubDate": a["pubDate"],
-                            "significance": a.get("significance", 0.0),
-                            "subcategory": a.get('subcategory') or assign_subcategory(a),
-                            "excerpt": truncate_to_words(excerpt_cache.get(id(a), clean_content(a.get("content", ""))), 150)
-                        } for a in c["articles"]]
-                    } for c in ranked_clusters]
+                    "articlesCount": len(articles),
+                    "stories": story_objects
                 }
 
                 filepath = os.path.join(BRIEFINGS_DIR, f"latest_{category}.json")
