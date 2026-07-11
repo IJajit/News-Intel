@@ -109,6 +109,27 @@ document.addEventListener('DOMContentLoaded', () => {
       const overlay = document.getElementById('mobileSidebarOverlay');
       if (sidebar) sidebar.classList.toggle('mobile-open');
       if (overlay) overlay.classList.toggle('hidden');
+      // Close right sidebar if open
+      const rightSidebar = document.getElementById('rightSidebar');
+      const rightOverlay = document.getElementById('mobileRightSidebarOverlay');
+      if (rightSidebar) rightSidebar.classList.remove('mobile-open');
+      if (rightOverlay) rightOverlay.classList.add('hidden');
+    });
+  }
+
+  // ─── MOBILE RIGHT SIDEBAR TOGGLE ────────────────────────────
+  const mobileRightSidebarToggle = document.getElementById('mobileRightSidebarToggle');
+  if (mobileRightSidebarToggle) {
+    mobileRightSidebarToggle.addEventListener('click', () => {
+      const sidebar = document.getElementById('rightSidebar');
+      const overlay = document.getElementById('mobileRightSidebarOverlay');
+      if (sidebar) sidebar.classList.toggle('mobile-open');
+      if (overlay) overlay.classList.toggle('hidden');
+      // Close left sidebar if open
+      const leftSidebar = document.getElementById('leftSidebar');
+      const leftOverlay = document.getElementById('mobileSidebarOverlay');
+      if (leftSidebar) leftSidebar.classList.remove('mobile-open');
+      if (leftOverlay) leftOverlay.classList.add('hidden');
     });
   }
 
@@ -161,7 +182,10 @@ document.addEventListener('DOMContentLoaded', () => {
   // Right sidebar: "View All" filtered feed button
   const tabArticlesBtn2 = document.getElementById('tabArticlesBtn');
   if (tabArticlesBtn2) {
-    tabArticlesBtn2.addEventListener('click', () => switchTab('articles'));
+    tabArticlesBtn2.addEventListener('click', () => {
+      switchTab('articles');
+      closeMobileRightSidebar();
+    });
   }
 
   // Articles View category filter sub-nav click handler
@@ -203,7 +227,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Right sidebar: "Full View" world cup button
   document.querySelectorAll('.sidebar-wc-expand-btn').forEach(btn => {
-    btn.addEventListener('click', () => switchTab('worldcup'));
+    btn.addEventListener('click', () => {
+      switchTab('worldcup');
+      closeMobileRightSidebar();
+    });
   });
 
   // World Cup tab filter buttons
@@ -1096,6 +1123,20 @@ function toggleSublist(btn) {
     btn.classList.toggle('open');
     btn.textContent = btn.classList.contains('open') ? 'Other sources \u25BC' : 'Other sources \u25B6';
   }
+}
+
+function closeMobileSidebar() {
+  const sidebar = document.getElementById('leftSidebar');
+  const overlay = document.getElementById('mobileSidebarOverlay');
+  if (sidebar) sidebar.classList.remove('mobile-open');
+  if (overlay) overlay.classList.add('hidden');
+}
+
+function closeMobileRightSidebar() {
+  const sidebar = document.getElementById('rightSidebar');
+  const overlay = document.getElementById('mobileRightSidebarOverlay');
+  if (sidebar) sidebar.classList.remove('mobile-open');
+  if (overlay) overlay.classList.add('hidden');
 }
 
 function escapeHtml(text) {

@@ -87,6 +87,10 @@
 
     <!-- Right: generate update + theme toggle aligned with right sidebar border -->
     <div class="flex items-center gap-3">
+      <!-- Mobile right sidebar toggle -->
+      <button id="mobileRightSidebarToggle" class="md:hidden flex items-center p-1.5 rounded transition-colors" style="color: var(--color-dark-gray);" title="Open sidebar">
+        <span class="material-symbols-outlined" style="font-size:22px;">side_navigation</span>
+      </button>
       <!-- Theme toggle aligned precisely on the right border line (approx 260px from edge) -->
       <button class="flex items-center p-1.5 rounded transition-colors mr-3" id="themeToggleBtn" title="Toggle Theme" style="color: var(--color-dark-gray);">
         <span class="material-symbols-outlined" id="themeIcon" style="font-size:20px;">light_mode</span>
@@ -232,8 +236,11 @@
 
     </main>
 
+    <!-- ── MOBILE RIGHT SIDEBAR OVERLAY ──────────────────── -->
+    <div id="mobileRightSidebarOverlay" class="fixed inset-0 z-40 bg-black/50 hidden md:hidden" onclick="closeMobileRightSidebar()"></div>
+
     <!-- ── RIGHT SIDEBAR ───────────────────────────────────── -->
-    <aside id="rightSidebar" class="right-sidebar hidden lg:flex flex-col flex-shrink-0 px-4 pt-8 pb-4 gap-5" style="width: 260px; border-left: 1px solid var(--color-border-heavy); background-color: var(--color-bg); height: calc(100vh - 56px);">
+    <aside id="rightSidebar" class="right-sidebar hidden lg:flex flex-col flex-shrink-0 px-4 pt-8 pb-4 gap-5" style="width: 260px; border-left: 1px solid var(--color-border-heavy); background-color: var(--color-bg);">
 
       <!-- World Cup quick widget (now on top) -->
       <section class="flex-shrink-0">
