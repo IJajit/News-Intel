@@ -969,9 +969,12 @@ def call_gemini_structured(api_key, prompt, attempt_label="attempt"):
             res_data = json.loads(response.read().decode('utf-8'))
     except urllib.error.HTTPError as e:
         body = e.read().decode('utf-8', errors='replace')
-        print(f"[Gemini {attempt_label}] HTTP {e.code}: {body[:500]}")
+        print(f"[Gemini {attempt_label}] HTTP {e.code}: {body[:200]}")
         if e.code in (401, 403):
             print(f"[Gemini {attempt_label}] *** API KEY REJECTED ({e.code}) — check GEMINI_API_KEY env var is a valid Gemini API key ***")
+        elif e.code == 429:
+            retry_after = 2 ** (attempt_label.count('retry'))
+            print(f"[Gemini {attempt_label}] *** RATE LIMITED (429) — will retry in ~{retry_after}s ***")
         raise
     except Exception as e:
         print(f"[Gemini {attempt_label}] Network/HTTP error: {e}")
@@ -1058,11 +1061,28 @@ def generate_story_brief(story, api_key, ssl_ctx, hf_token=""):
     print(f"[BRIEF] === Story {story_label}: \"{headline}\" ===")
     print(f"[BRIEF] {story_label}: api_key={'SET (' + api_key[:8] + '...)' if api_key else 'NOT SET'}")
 
+    def _call_with_retry(api_key, prompt, label):
+        """Call Gemini with one 429 retry after 1s backoff."""
+        import time
+        last_exc = None
+        for retry in range(2):
+            try:
+                return call_gemini_structured(api_key, prompt, attempt_label=f"{label} retry={retry}")
+            except urllib.error.HTTPError as e:
+                if e.code == 429 and retry == 0:
+                    print(f"[BRIEF] {story_label}: 429 on {label}, one retry in 1s...")
+                    time.sleep(1)
+                    last_exc = e
+                    continue
+                raise
+        if last_exc:
+            raise last_exc
+
     if api_key:
         # Attempt 1: Gemini with structured output
         print(f"[BRIEF] {story_label}: === GEMINI ATTEMPT 1 START ===")
         try:
-            brief_text, wc = call_gemini_structured(api_key, prompt, attempt_label=f"story={story_label} attempt=1")
+            brief_text, wc = _call_with_retry(api_key, prompt, f"story={story_label} attempt=1")
             print(f"[BRIEF] {story_label}: Gemini attempt 1 returned raw brief={repr(brief_text[:120])}, wc={wc}")
             valid, msg = validate_brief(brief_text)
             print(f"[BRIEF] {story_label}: Gemini attempt 1 validation: valid={valid}, msg={msg}")
@@ -1073,7 +1093,7 @@ def generate_story_brief(story, api_key, ssl_ctx, hf_token=""):
             # Retry with appended note
             retry_prompt = prompt + f"\n\nYour previous attempt was {wc} words. Strictly target 150-200 words this time."
             print(f"[BRIEF] {story_label}: === GEMINI ATTEMPT 2 START ===")
-            brief_text, wc = call_gemini_structured(api_key, retry_prompt, attempt_label=f"story={story_label} attempt=2")
+            brief_text, wc = _call_with_retry(api_key, retry_prompt, f"story={story_label} attempt=2")
             print(f"[BRIEF] {story_label}: Gemini attempt 2 returned raw brief={repr(brief_text[:120])}, wc={wc}")
             valid, msg = validate_brief(brief_text)
             print(f"[BRIEF] {story_label}: Gemini attempt 2 validation: valid={valid}, msg={msg}")
@@ -1085,9 +1105,10 @@ def generate_story_brief(story, api_key, ssl_ctx, hf_token=""):
             print(f"[BRIEF] {story_label}: === GEMINI ATTEMPT 2 ACCEPTED ({wc} words, below 130 minimum) ===")
             return brief_text.strip(), wc
         except urllib.error.HTTPError as e:
-            body = e.read().decode('utf-8', errors='replace')
+            body = e.read().decode('utf-8', errors='replace') if hasattr(e, 'read') else ''
             print(f"[BRIEF] {story_label}: === GEMINI HTTP ERROR {e.code} ===")
-            print(f"[BRIEF] {story_label}: HTTPError body: {body[:500]}")
+            if body:
+                print(f"[BRIEF] {story_label}: HTTPError body: {body[:500]}")
         except Exception as e:
             print(f"[BRIEF] {story_label}: === GEMINI EXCEPTION: {type(e).__name__}: {e} ===")
             import traceback
@@ -1462,7 +1483,7 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
 
                 # Step 3: Generate brief for each story in parallel
                 brief_cache = {}
-                with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
+                with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
                     fut_map = {}
                     for story in stories:
                         fut = pool.submit(generate_story_brief, story, api_key, ssl_context, HF_API_TOKEN)
