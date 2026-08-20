@@ -693,24 +693,14 @@ function renderSourcesList(sources, excludeUrl) {
     }).join('') + `</div>`;
 }
 
-// ─── RENDER EXCERPT (multi-paragraph & structured bullets) ─────
+// ─── RENDER EXCERPT (bullet list in sentence case) ────────────
 function renderExcerpt(text, cssClass, cssStyle) {
   if (!text) return '';
-  const paras = text.split(/\n\n+/).map(p => p.trim()).filter(Boolean);
-  if (paras.length === 0) return '';
-  return paras.map(p => {
-    if (p.startsWith('Context & Background:') || p.startsWith('Key Developments:') || p.startsWith('Impact & Outlook:')) {
-      const lines = p.split('\n');
-      const title = lines[0];
-      const items = lines.slice(1).map(l => l.replace(/^•\s*/, '').trim()).filter(Boolean);
-      let contentHtml = '';
-      if (items.length > 0) {
-        contentHtml = `<ul class="list-disc list-inside space-y-1.5 my-1 text-xs opacity-90">${items.map(it => `<li>${escapeHtml(it)}</li>`).join('')}</ul>`;
-      }
-      return `<div class="mt-2.5"><strong class="font-semibold text-[11px] tracking-wider uppercase opacity-85" style="color: var(--color-orange);">${escapeHtml(title)}</strong>${contentHtml}</div>`;
-    }
-    return `<p class="${cssClass}" style="${cssStyle}">${escapeHtml(p)}</p>`;
-  }).join('\n');
+  const lines = text.split('\n').map(l => l.trim()).filter(Boolean);
+  if (lines.length === 0) return '';
+  
+  const bullets = lines.map(l => l.replace(/^•\s*/, '').trim()).filter(Boolean);
+  return `<ul class="list-disc list-inside space-y-1.5 my-1.5 text-xs text-[var(--color-dark-gray)] dark:text-[#a1a1aa] leading-relaxed">${bullets.map(b => `<li>${escapeHtml(b)}</li>`).join('')}</ul>`;
 }
 
 function storyMatchesCategory(story, category) {

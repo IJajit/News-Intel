@@ -1047,18 +1047,17 @@ def generate_story_brief(story, ssl_ctx, hf_token="", groq_api_key=""):
         from news_summarizer import generate_deep_dive_brief
         deep_dive = generate_deep_dive_brief(primary_content, title=primary_headline)
         if isinstance(deep_dive, dict):
-            bg_list = deep_dive.get("context_background", [])
-            if isinstance(bg_list, str): bg_list = [bg_list]
-            kd_list = deep_dive.get("key_developments", [])
-            if isinstance(kd_list, str): kd_list = [kd_list]
-            io_list = deep_dive.get("impact_outlook", [])
-            if isinstance(io_list, str): io_list = [io_list]
-
-            bg_str = "\n".join([f"• {item}" for item in bg_list])
-            kd_str = "\n".join([f"• {item}" for item in kd_list])
-            io_str = "\n".join([f"• {item}" for item in io_list])
-
-            combined_brief = f"Context & Background:\n{bg_str}\n\nKey Developments:\n{kd_str}\n\nImpact & Outlook:\n{io_str}".strip()
+            bullets = deep_dive.get("bullets", [])
+            if not bullets:
+                # Fallback to flattening any list values if present
+                bullets = []
+                for v in deep_dive.values():
+                    if isinstance(v, list): bullets.extend(v)
+                    elif isinstance(v, str): bullets.append(v)
+            if isinstance(bullets, str):
+                bullets = [bullets]
+            
+            combined_brief = "\n".join([f"• {item}" for item in bullets if item]).strip()
             wc = len(combined_brief.split())
             return combined_brief, wc
     except Exception as e:

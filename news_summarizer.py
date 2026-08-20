@@ -77,25 +77,18 @@ def _call_gemini_api(text, title="", gemini_key=""):
     if not clean:
         return None
 
-    # Construct Gemini prompt requesting explicit structured JSON with bullets for all 3 sections
-    prompt = f"""Synthesize the news story into an executive brief.
+    # Construct Gemini prompt requesting a single array of bullet points in normal sentence case
+    prompt = f"""Synthesize the news story below into a clean executive summary.
+
 Title: {title}
 Article: {clean}
 
-JSON format:
+Respond ONLY with valid JSON (no markdown fences) in this exact format:
 {{
-  "context_background": [
-    "Bullet point 1 introducing context & origin",
-    "Bullet point 2 explaining background details"
-  ],
-  "key_developments": [
-    "Bullet point 1 detailing core recent fact/action",
-    "Bullet point 2 detailing additional key progress",
-    "Bullet point 3 detailing statements or metrics"
-  ],
-  "impact_outlook": [
-    "Bullet point 1 explaining strategic significance",
-    "Bullet point 2 detailing next steps or future outlook"
+  "bullets": [
+    "First bullet point summarizing core event in standard sentence case.",
+    "Second bullet point detailing key background context or facts.",
+    "Third bullet point detailing impact or next steps."
   ]
 }}"""
 
