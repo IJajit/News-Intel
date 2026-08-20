@@ -413,7 +413,7 @@ def get_filtered_articles(grounded_time_str, max_hours=24.0):
         diff = grounded_dt - pub_dt
         diff_hours = diff.total_seconds() / 3600.0
 
-        if -1.0 <= diff_hours <= max_hours:
+        if -24.0 <= diff_hours <= (max_hours + 48.0):
             seen_keys.add(key)
             filtered.append(art)
 
