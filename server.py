@@ -1037,16 +1037,16 @@ def _validate_brief_minmax(brief_text, min_words=130, max_words=220):
     trimmed = " ".join(brief_text.strip().split()[:max_words])
     return trimmed, max_words, True
 
-
+def generate_story_brief(story, ssl_ctx, hf_token="", groq_api_key=""):
     # Primary AI Provider: Google Gemini Deep-Dive Analytical Brief Engine
     primary_content = story.get('primary_source', {}).get('content', '') or ''
     primary_headline = story.get('primary_headline', '')
+    story_label = story.get('story_id', 'unknown')
     
     try:
         from news_summarizer import generate_deep_dive_brief
         deep_dive = generate_deep_dive_brief(primary_content, title=primary_headline)
         if isinstance(deep_dive, dict):
-            # Form standard structured brief text
             bg = deep_dive.get("context_background", "")
             kd = "\n".join([f"• {item}" for item in deep_dive.get("key_developments", [])])
             io = deep_dive.get("impact_outlook", "")
@@ -1055,8 +1055,8 @@ def _validate_brief_minmax(brief_text, min_words=130, max_words=220):
             return combined_brief, wc
     except Exception as e:
         print(f"[BRIEF] {story_label}: Gemini Deep-Dive Brief error: {e}")
-    else:
-        print(f"[BRIEF] {story_label}: primary_content too short ({primary_content_len} chars) — skipping BART")
+
+    return "Brief unavailable for this story.", 5
 
     # Last resort: short extractive from primary source only
     if primary_content and len(primary_content.strip()) > 30:
