@@ -77,16 +77,26 @@ def _call_gemini_api(text, title="", gemini_key=""):
     if not clean:
         return None
 
-    # Construct Gemini prompt requesting explicit structured JSON
-    prompt = f"""Synthesize the news story into a brief.
+    # Construct Gemini prompt requesting explicit structured JSON with bullets for all 3 sections
+    prompt = f"""Synthesize the news story into an executive brief.
 Title: {title}
 Article: {clean}
 
 JSON format:
 {{
-  "context_background": "2-3 sentences explaining background context.",
-  "key_developments": ["Fact 1", "Fact 2", "Fact 3"],
-  "impact_outlook": "2-3 sentences explaining impact and future outlook."
+  "context_background": [
+    "Bullet point 1 introducing context & origin",
+    "Bullet point 2 explaining background details"
+  ],
+  "key_developments": [
+    "Bullet point 1 detailing core recent fact/action",
+    "Bullet point 2 detailing additional key progress",
+    "Bullet point 3 detailing statements or metrics"
+  ],
+  "impact_outlook": [
+    "Bullet point 1 explaining strategic significance",
+    "Bullet point 2 detailing next steps or future outlook"
+  ]
 }}"""
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"

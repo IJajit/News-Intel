@@ -34,8 +34,8 @@
 }
 
 .dark {
-  /* Dark Mode - Lighter Gray */
-  --color-black:      #f4f4f5;
+  /* Dark Mode - Softer Gray Contrast */
+  --color-black:      #d4d4d8;
   --color-orange:     #e85d04;
   --color-dark-gray:  #a1a1aa;
   --color-light-gray: #3a3a3a;

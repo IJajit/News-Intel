@@ -380,16 +380,12 @@ async function loadLatestBrief(category) {
 async function triggerBriefingGeneration() {
   const generationTime = new Date().toISOString();
 
-  setLoadingState(true, 'Establishing ground-truth timestamp...');
+  setLoadingState(true);
 
   // Fetch fresh Wikipedia sidebar facts
   fetchWikiIntel();
 
-  await sleep(400);
-  updateLoadingStatus('Fetching 9 live RSS feeds...');
-
   try {
-    updateLoadingStatus('Compiling brief...');
 
     // Sanitize API key
     const sanitizedKey = apiKey.replace(/[^\x00-\xff]/g, '').trim();
@@ -611,8 +607,8 @@ function renderHomepageView(brief) {
   if (topStories.length > 0) {
     html += `<h2 class="font-label-caps text-sm uppercase tracking-widest font-bold pb-2 mt-6 border-b border-[var(--color-border-heavy)] text-[var(--color-black)] dark:text-white" style="border-color: var(--color-border-heavy);">Today's Top Stories</h2>`;
     html += '<div class="space-y-10 mt-4">';
-    topStories.forEach((story, idx) => {
-      html += renderHomepageStory(story, true, idx + 1);
+    topStories.forEach((story) => {
+      html += renderHomepageStory(story, false);
     });
     html += '</div>';
   }
@@ -660,17 +656,17 @@ function renderHomepageStory(story, numbered, num) {
   const containerClass = numbered ? 'flex items-start gap-3' : '';
 
   return `
-    <article class="group space-y-3 py-4 border-b border-[var(--color-border-heavy)] ${containerClass}" style="border-color: var(--color-border-heavy);">
+    <article class="group space-y-2 py-3 border-b border-[var(--color-border-heavy)] ${containerClass}" style="border-color: var(--color-border-heavy);">
       ${numberHtml}
-      <div class="space-y-2 flex-1">
-        <h2 class="font-headline-md text-xl font-bold leading-snug text-primary-container transition-colors">
+      <div class="space-y-1.5 flex-1">
+        <h2 class="font-headline-md text-base font-semibold leading-snug text-primary-container transition-colors">
           <a href="${escapeHtml(primaryUrl)}" target="_blank" rel="noopener noreferrer" class="headline-link hover:text-[var(--color-orange)] transition-colors">${escapeHtml(story.primary_headline)}</a>
         </h2>
         <div class="flex items-center gap-2">
           <span class="source-badge">${escapeHtml(primaryName)}</span>
           ${extraCount > 0 ? `<span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono">+${extraCount} other source${extraCount > 1 ? 's' : ''}</span>` : ''}
         </div>
-        ${brief ? renderExcerpt(brief, 'font-body-md leading-relaxed text-sm mt-2', 'color: var(--color-black);') : ''}
+        ${brief ? renderExcerpt(brief, 'font-body-md leading-relaxed text-xs mt-1.5 opacity-90', 'color: var(--color-black);') : ''}
         ${sourcesHtml}
       </div>
     </article>
@@ -703,15 +699,15 @@ function renderExcerpt(text, cssClass, cssStyle) {
   const paras = text.split(/\n\n+/).map(p => p.trim()).filter(Boolean);
   if (paras.length === 0) return '';
   return paras.map(p => {
-    if (p.startsWith('Key Developments:') || p.startsWith('Impact & Outlook:')) {
+    if (p.startsWith('Context & Background:') || p.startsWith('Key Developments:') || p.startsWith('Impact & Outlook:')) {
       const lines = p.split('\n');
       const title = lines[0];
       const items = lines.slice(1).map(l => l.replace(/^•\s*/, '').trim()).filter(Boolean);
       let contentHtml = '';
       if (items.length > 0) {
-        contentHtml = `<ul class="list-disc list-inside space-y-1 my-1">${items.map(it => `<li>${escapeHtml(it)}</li>`).join('')}</ul>`;
+        contentHtml = `<ul class="list-disc list-inside space-y-1.5 my-1 text-xs opacity-90">${items.map(it => `<li>${escapeHtml(it)}</li>`).join('')}</ul>`;
       }
-      return `<div class="mt-2"><strong class="font-semibold text-xs tracking-wider uppercase opacity-80" style="color: var(--color-orange);">${escapeHtml(title)}</strong>${contentHtml}</div>`;
+      return `<div class="mt-2.5"><strong class="font-semibold text-[11px] tracking-wider uppercase opacity-85" style="color: var(--color-orange);">${escapeHtml(title)}</strong>${contentHtml}</div>`;
     }
     return `<p class="${cssClass}" style="${cssStyle}">${escapeHtml(p)}</p>`;
   }).join('\n');
@@ -751,16 +747,16 @@ function renderReaderView(brief) {
     const sourcesHtml = extraCount > 0 ? renderSourcesList(story.sources, primaryUrl) : '';
 
     html += `
-      <article class="group cursor-pointer space-y-3 py-4 border-b border-[var(--color-border-heavy)]" style="border-color: var(--color-border-heavy);">
-        <h2 class="font-headline-md text-xl font-bold leading-snug text-primary-container transition-colors">
-          <a href="${escapeHtml(primaryUrl)}" target="_blank" rel="noopener noreferrer" class="headline-link">${escapeHtml(story.primary_headline)}</a>
+      <article class="group cursor-pointer space-y-2 py-3 border-b border-[var(--color-border-heavy)]" style="border-color: var(--color-border-heavy);">
+        <h2 class="font-headline-md text-base font-semibold leading-snug text-primary-container transition-colors">
+          <a href="${escapeHtml(primaryUrl)}" target="_blank" rel="noopener noreferrer" class="headline-link hover:text-[var(--color-orange)] transition-colors">${escapeHtml(story.primary_headline)}</a>
         </h2>
         <div class="flex items-center gap-2">
           <span class="source-badge">${escapeHtml(primaryName)}</span>
           ${extraCount > 0 ? `<span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono">+${extraCount} other source${extraCount > 1 ? 's' : ''}</span>` : ''}
           <span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono">${timeStr}</span>
         </div>
-        ${brief ? renderExcerpt(brief, 'font-body-md leading-relaxed text-sm', 'color: var(--color-black);') : ''}
+        ${brief ? renderExcerpt(brief, 'font-body-md leading-relaxed text-xs opacity-90', 'color: var(--color-black);') : ''}
         ${sourcesHtml}
       </article>
     `;
