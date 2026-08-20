@@ -62,27 +62,31 @@ def _structured_fallback(text, title=""):
 def _call_gemini_api(text, title="", gemini_key=""):
     api_key = gemini_key or os.environ.get("GEMINI_API_KEY", "")
     if not api_key:
+        dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
+        if os.path.exists(dotenv_path):
+            with open(dotenv_path, 'r', encoding='utf-8') as f:
+                for line in f:
+                    line = line.strip()
+                    if line.startswith('GEMINI_API_KEY='):
+                        api_key = line.split('=', 1)[1].strip('\'"')
+                        break
+    if not api_key:
         return None
 
-    clean = _clean_rss_artifacts(text)
-    if len(clean.split()) < 15:
+    clean = _clean_rss_artifacts(text) or title
+    if not clean:
         return None
 
     # Construct Gemini prompt requesting explicit structured JSON
-    prompt = f"""You are an executive intelligence analyst. Synthesize the news story below into a Deep-Dive Analytical Brief.
-
+    prompt = f"""Synthesize the news story into a brief.
 Title: {title}
-Article Text: {clean}
+Article: {clean}
 
-Respond ONLY with valid JSON (no markdown wrapping, no text outside JSON) matching this exact format:
+JSON format:
 {{
-  "context_background": "2-3 sentences explaining the historical context, origin, or events leading up to this news.",
-  "key_developments": [
-    "Bullet point 1 detailing core recent facts/actions",
-    "Bullet point 2 detailing additional key factual progress",
-    "Bullet point 3 detailing critical statements or metrics"
-  ],
-  "impact_outlook": "2-3 sentences covering strategic global/industry impact and what to watch next ('Why It Matters')."
+  "context_background": "2-3 sentences explaining background context.",
+  "key_developments": ["Fact 1", "Fact 2", "Fact 3"],
+  "impact_outlook": "2-3 sentences explaining impact and future outlook."
 }}"""
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
@@ -91,8 +95,7 @@ Respond ONLY with valid JSON (no markdown wrapping, no text outside JSON) matchi
             "parts": [{"text": prompt}]
         }],
         "generationConfig": {
-            "temperature": 0.2,
-            "responseMimeType": "application/json"
+            "temperature": 0.2
         }
     }
 
@@ -106,12 +109,11 @@ Respond ONLY with valid JSON (no markdown wrapping, no text outside JSON) matchi
             candidates = resp_data.get('candidates', [])
             if candidates:
                 part_text = candidates[0].get('content', {}).get('parts', [{}])[0].get('text', '')
-                # Clean up any potential markdown code fence wrapping
                 part_text = re.sub(r'^```json\s*', '', part_text.strip(), flags=re.IGNORECASE)
+                part_text = re.sub(r'^```\s*', '', part_text.strip(), flags=re.IGNORECASE)
                 part_text = re.sub(r'```$', '', part_text.strip())
                 parsed = json.loads(part_text)
-                if "context_background" in parsed and "key_developments" in parsed and "impact_outlook" in parsed:
-                    return parsed
+                return parsed
     except Exception as e:
         print(f"[Gemini API Error]: {e}")
 
