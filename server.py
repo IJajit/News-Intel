@@ -1334,6 +1334,8 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
         # Handle Vercel URL rewrites passing the path via query parameter
         if '__path__' in query:
             path = '/api/' + query['__path__'][0]
+        elif path.startswith('/api/'):
+            pass
 
         if path == '/api/sources':
             self.send_json(SOURCES)
