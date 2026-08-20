@@ -23,21 +23,29 @@ def _clean_rss_artifacts(text):
     text = re.sub(r'<script\b[^>]*>([\s\S]*?)<\/script>', ' ', text, flags=re.IGNORECASE)
     
     text = HTML_TAGS_RE.sub(' ', text)
+    
+    # Replace inline bullet characters (•, \u2022, ·, \u00b7) with spaces
+    text = re.sub(r'[\u2022\u00b7\u25aa\u25ab\u2023\u2043\u2219•]', ' ', text)
+    
     text = WHITESPACE_RE.sub(' ', text).strip()
     text = CONTINUE_READING_RE.sub('', text).strip()
     text = TRAILING_ELLIPSIS_RE.sub('', text).strip()
     
     # Remove concatenated agency brand names like "Reuters", "Al Jazeera" stuck in text
     text = re.sub(r'\b(Reuters|Al\s+Jazeera|NDTV|The\s+Indian\s+Express|BBC\s+News)\b', '', text, flags=re.IGNORECASE)
+    
     # Fix missing spaces after full stops (e.g. "Wednesday.The" -> "Wednesday. The")
-    text = re.sub(r'(?<=[a-z0-9\.])(?=[A-Z])', ' ', text)
+    text = re.sub(r'(?<=[a-zA-Z0-9])\.\s*(?=[A-Z])', '. ', text)
+    text = re.sub(r'(?<=[a-z0-9])(?=[A-Z])', '. ', text)
+    
     text = WHITESPACE_RE.sub(' ', text).strip()
     return text
 
 
 def _split_sentences(text):
-    raw = re.split(r'(?<=[.!?])\s+', text)
-    return [s.strip() for s in raw if len(s.strip()) > 10]
+    # Split sentences cleanly on period, exclamation, or question mark followed by uppercase letter or end of string
+    raw = re.split(r'(?<=[.!?])\s+(?=[A-Z0-9])', text)
+    return [s.strip() for s in raw if len(s.strip()) > 15]
 
 
 def _structured_fallback(text, title=""):
