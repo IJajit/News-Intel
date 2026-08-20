@@ -1038,14 +1038,23 @@ def _validate_brief_minmax(brief_text, min_words=130, max_words=220):
     return trimmed, max_words, True
 
 def generate_story_brief(story, ssl_ctx, hf_token="", groq_api_key=""):
-    # Primary AI Provider: Google Gemini Deep-Dive Analytical Brief Engine
-    primary_content = story.get('primary_source', {}).get('content', '') or ''
+    # Combine content from all clustered sources so Gemini has full context
+    all_contents = []
+    for s in story.get('sources', []):
+        c = (s.get('content') or s.get('headline') or '').strip()
+        if c:
+            all_contents.append(c)
+    
+    combined_content = "\n\n".join(all_contents)
+    if not combined_content:
+        combined_content = story.get('primary_source', {}).get('content', '') or story.get('primary_headline', '')
+
     primary_headline = story.get('primary_headline', '')
     story_label = story.get('story_id', 'unknown')
     
     try:
         from news_summarizer import generate_deep_dive_brief
-        deep_dive = generate_deep_dive_brief(primary_content, title=primary_headline)
+        deep_dive = generate_deep_dive_brief(combined_content, title=primary_headline)
         if isinstance(deep_dive, dict):
             summary = deep_dive.get("summary", "")
             if not summary:

@@ -71,17 +71,19 @@ def _call_gemini_api(text, title="", gemini_key=""):
     if not clean:
         return None
 
-    # Construct Gemini prompt requesting a comprehensive paragraph summary covering context, developments, and impact
-    prompt = f"""Synthesize the news story below into a clear, cohesive executive paragraph summary.
-Ensure the paragraph seamlessly covers the origin/context, key factual developments, and future outlook/impact.
-Use standard sentence case, active voice, and professional journalism style. No bullet points or markdown headings.
+    # Construct Gemini prompt requesting a multi-sentence executive paragraph summary (minimum 3 sentences)
+    prompt = f"""Synthesize the news story below into a detailed executive summary paragraph.
+CRITICAL REQUIREMENT: The summary MUST be at least 3 to 4 sentences long (minimum 80 words).
+Sentence 1: Explain the origin and background context of the event.
+Sentence 2 & 3: Detail the core new factual developments, statements, and actions.
+Sentence 4: Explain the future impact and strategic outlook ("Why It Matters").
 
 Title: {title}
 Article: {clean}
 
 Respond ONLY with valid JSON in this format:
 {{
-  "summary": "Full cohesive executive summary paragraph covering context, developments, and impact."
+  "summary": "Detailed 3-4 sentence executive paragraph summary covering context, developments, and impact."
 }}"""
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
