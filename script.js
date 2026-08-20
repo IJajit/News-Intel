@@ -660,18 +660,20 @@ function renderHomepageStory(story, numbered, num) {
   const containerClass = numbered ? 'flex items-start gap-3' : '';
 
   return `
-    <div class="${containerClass}">
+    <article class="group space-y-3 py-4 border-b border-[var(--color-border-heavy)] ${containerClass}" style="border-color: var(--color-border-heavy);">
       ${numberHtml}
-      <div>
-        <p class="font-body-md leading-relaxed text-sm font-bold" style="color: var(--color-black);">
+      <div class="space-y-2 flex-1">
+        <h2 class="font-headline-md text-xl font-bold leading-snug text-primary-container transition-colors">
           <a href="${escapeHtml(primaryUrl)}" target="_blank" rel="noopener noreferrer" class="headline-link hover:text-[var(--color-orange)] transition-colors">${escapeHtml(story.primary_headline)}</a>
+        </h2>
+        <div class="flex items-center gap-2">
           <span class="source-badge">${escapeHtml(primaryName)}</span>
-          ${extraCount > 0 ? `<span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono ml-2">+${extraCount} other source${extraCount > 1 ? 's' : ''}</span>` : ''}
-        </p>
-        ${brief ? renderExcerpt(brief, 'font-body-md leading-relaxed text-sm mt-1', 'color: var(--color-dark-gray);') : ''}
+          ${extraCount > 0 ? `<span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono">+${extraCount} other source${extraCount > 1 ? 's' : ''}</span>` : ''}
+        </div>
+        ${brief ? renderExcerpt(brief, 'font-body-md leading-relaxed text-sm mt-2', 'color: var(--color-black);') : ''}
         ${sourcesHtml}
       </div>
-    </div>
+    </article>
   `;
 }
 

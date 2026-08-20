@@ -373,8 +373,8 @@ def scrape_article_description(art):
                 art['content'] = desc[:2000]  # cap to avoid huge prompts
     except Exception as e:
         print(f"[SCRAPE] Error scraping content for {url}: {e}")
-    if not art.get('content') or len(art.get('content', '').strip()) < 20:
-        art['content'] = title
+    if not art.get('content') or len(art.get('content', '').strip()) < 20 or art.get('content', '').strip().lower() == title.lower():
+        art['content'] = f"{title}. {title}"
     return art
 
 def get_filtered_articles(grounded_time_str, max_hours=24.0):
