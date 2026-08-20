@@ -251,6 +251,7 @@ def cluster_into_stories(articles, max_sources_per_story=5):
         primary_art = dated_arts[0][0] if dated_arts else cluster_arts[0]
 
         primary_headline = primary_art.get('title', cluster.get('representative_title', 'Untitled Story'))
+        primary_headline = re.sub(r'\s*[\-\|—]\s*(?:Reuters|Al Jazeera|NDTV|The Indian Express|BBC News|CNN|The Print|The Guardian|TechCrunch|Scroll\.in|Deccan Herald|Vox|Bloomberg|AP News|NPR|The Hindu|NYT|Washington Post|Wired|Ars Technica|Hacker News|Sky Sports)$', '', primary_headline, flags=re.IGNORECASE).strip()
 
         # Sort all sources by recency (newest first) for the sources array
         dated_arts_recent = sorted(dated_arts, key=lambda x: x[1].timestamp() if x[1] else 0, reverse=True)

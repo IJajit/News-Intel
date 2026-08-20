@@ -26,6 +26,11 @@ def _clean_rss_artifacts(text):
     text = WHITESPACE_RE.sub(' ', text).strip()
     text = CONTINUE_READING_RE.sub('', text).strip()
     text = TRAILING_ELLIPSIS_RE.sub('', text).strip()
+    
+    # Remove concatenated agency brand names like "Reuters", "Al Jazeera" stuck in text
+    text = re.sub(r'\b(Reuters|Al\s+Jazeera|NDTV|The\s+Indian\s+Express|BBC\s+News)\b', '', text, flags=re.IGNORECASE)
+    # Fix missing spaces after full stops (e.g. "Wednesday.The" -> "Wednesday. The")
+    text = re.sub(r'(?<=[a-z0-9\.])(?=[A-Z])', ' ', text)
     text = WHITESPACE_RE.sub(' ', text).strip()
     return text
 
@@ -43,13 +48,28 @@ def _structured_fallback(text, title=""):
     clean = _clean_rss_artifacts(text)
     if not clean or len(clean.strip()) < 15:
         clean = title
+    
+    # Strip title if it was prepended to text
+    clean = re.sub(re.escape(title), '', clean, flags=re.IGNORECASE).strip()
     sentences = _split_sentences(clean)
     
-    if not sentences:
-        return {"summary": clean}
+    # Filter out duplicate or near-duplicate sentences
+    unique_sentences = []
+    seen_lower = set()
+    for s in sentences:
+        s_norm = s.lower().strip()
+        if s_norm not in seen_lower and len(s_norm) > 15:
+            seen_lower.add(s_norm)
+            # Ensure proper punctuation at end of sentence
+            if not s.endswith(('.', '!', '?')):
+                s += '.'
+            unique_sentences.append(s)
+            
+    if not unique_sentences:
+        clean_title = title if title.endswith(('.', '!', '?')) else title + '.'
+        return {"summary": clean_title}
     
-    # Combine up to 4 key sentences into a informative paragraph
-    summary_text = " ".join(sentences[:4])
+    summary_text = " ".join(unique_sentences[:4])
     return {"summary": summary_text}
 
 
