@@ -315,12 +315,13 @@ def fetch_feed(source):
 
 def scrape_article_description(art):
     """Scrape article content from its URL if not already present or too thin.
-    Tries meta description first, then og:description, then body <p> tags."""
+    Tries meta description, og:description, twitter:description, then body <p> tags."""
     existing = (art.get('content') or '').strip()
     title = (art.get('title') or '').strip()
     url = art.get('link')
-    # Skip scraping only if we already have substantial content (>120 chars and more than just the title)
-    if existing and len(existing) > 120 and existing.lower() != title.lower():
+    
+    # Skip scraping only if we already have substantial content (>200 chars and not equal to title)
+    if existing and len(existing) > 200 and existing.lower() != title.lower():
         return art
     if not url:
         art.setdefault('content', title)
@@ -330,51 +331,50 @@ def scrape_article_description(art):
             url,
             headers={
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
-                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
                 'Accept-Language': 'en-US,en;q=0.9',
-                'Referer': 'https://www.google.com/',
-                'Connection': 'keep-alive'
+                'Referer': 'https://www.google.com/'
             }
         )
         kwargs = {'timeout': 8}
         if ssl_context:
             kwargs['context'] = ssl_context
         with urllib.request.urlopen(req, **kwargs) as response:
-            html_bytes = response.read(200000)
+            html_bytes = response.read(250000)
             html_str = html_bytes.decode('utf-8', errors='ignore')
 
-            # 1. Try meta description
             desc = ''
-            match = re.search(r'<meta\s+[^>]*name=["\']description["\']\s+content=["\']([^"\']{30,})["\']', html_str, re.IGNORECASE)
-            if not match:
-                match = re.search(r'<meta\s+[^>]*content=["\']([^"\']{30,})["\']\s+name=["\']description["\']', html_str, re.IGNORECASE)
-            if not match:
-                match = re.search(r'<meta\s+[^>]*property=["\']og:description["\']\s+content=["\']([^"\']{30,})["\']', html_str, re.IGNORECASE)
-            if not match:
-                match = re.search(r'<meta\s+[^>]*content=["\']([^"\']{30,})["\']\s+property=["\']og:description["\']', html_str, re.IGNORECASE)
-            if match:
-                desc = html.unescape(match.group(1).strip())
+            # Try multiple meta tags
+            meta_patterns = [
+                r'<meta\s+[^>]*name=["\'](?:description|twitter:description)["\']\s+content=["\']([^"\']{30,})["\']',
+                r'<meta\s+[^>]*content=["\']([^"\']{30,})["\']\s+name=["\'](?:description|twitter:description)["\']',
+                r'<meta\s+[^>]*property=["\'](?:og:description|twitter:description)["\']\s+content=["\']([^"\']{30,})["\']',
+                r'<meta\s+[^>]*content=["\']([^"\']{30,})["\']\s+property=["\'](?:og:description|twitter:description)["\']'
+            ]
+            for pat in meta_patterns:
+                match = re.search(pat, html_str, re.IGNORECASE)
+                if match:
+                    desc = html.unescape(match.group(1).strip())
+                    break
 
-            # 2. Fallback: extract body <p> text (good for paywalled/minimal RSS articles)
-            if not desc or len(desc) < 80 or desc.lower().strip() == title.lower().strip():
-                # Strip style/script blocks first
-                stripped = re.sub(r'<(style|script)[^>]*>[\s\S]*?</\1>', ' ', html_str, flags=re.IGNORECASE)
-                # Find all <p> tags content
-                paragraphs = re.findall(r'<p[^>]*>([^<]{40,})</p>', stripped, re.IGNORECASE)
-                paragraphs = [html.unescape(re.sub(r'<[^>]+>', '', p)).strip() for p in paragraphs]
-                paragraphs = [p for p in paragraphs if len(p) > 40 and p.lower() != title.lower()]
-                if paragraphs:
-                    # Take up to 5 paragraphs
-                    body_text = ' '.join(paragraphs[:5])
-                    if len(body_text) > len(desc):
-                        desc = body_text
+            # Fallback: extract body <p> text (for Indian Express, Al Jazeera, Reuters, BBC, CNN, etc.)
+            stripped = re.sub(r'<(style|script|header|footer|nav)[^>]*>[\s\S]*?</\1>', ' ', html_str, flags=re.IGNORECASE)
+            paragraphs = re.findall(r'<p[^>]*>([^<]{30,})</p>', stripped, re.IGNORECASE)
+            paragraphs = [html.unescape(re.sub(r'<[^>]+>', '', p)).strip() for p in paragraphs]
+            paragraphs = [p for p in paragraphs if len(p) > 30 and p.lower() != title.lower()]
+            
+            if paragraphs:
+                body_text = ' '.join(paragraphs[:6])
+                if len(body_text) > len(desc):
+                    desc = body_text
 
             if desc and len(desc) > len(existing):
-                art['content'] = desc[:2000]  # cap to avoid huge prompts
+                art['content'] = desc[:2500]
     except Exception as e:
         print(f"[SCRAPE] Error scraping content for {url}: {e}")
-    if not art.get('content') or len(art.get('content', '').strip()) < 20 or art.get('content', '').strip().lower() == title.lower():
-        art['content'] = f"{title}. {title}"
+    
+    if not art.get('content') or len(art.get('content', '').strip()) < 20:
+        art['content'] = title
     return art
 
 def get_filtered_articles(grounded_time_str, max_hours=24.0):
