@@ -3,22 +3,15 @@ import json
 import urllib.request
 import urllib.error
 import html
-
-HF_API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
+import os
 
 CONTINUE_READING_RE = re.compile(r'\bContinue\s+reading\b.*$', re.IGNORECASE)
 TRAILING_ELLIPSIS_RE = re.compile(r'(\.{2,}|\u2026)\s*$')
 HTML_TAGS_RE = re.compile(r'<[^>]+>')
 WHITESPACE_RE = re.compile(r'\s+')
 
-ANALYTICAL_KEYWORDS = [
-    'because', 'significant', 'critical', 'threatens', 'threatened',
-    'could', 'will', 'means', 'marks', 'signals', 'underscores',
-    'highlights', 'raises', 'sparks', 'triggers', 'prompts',
-    'impact', 'implication', 'consequence', 'concern', 'warning',
-    'deadly', 'devastating', 'unprecedented', 'historic', 'major'
-]
-
+# Simple in-memory cache to prevent duplicate Gemini calls
+SUMMARY_CACHE = {}
 
 def _clean_rss_artifacts(text):
     if not text:
@@ -42,125 +35,119 @@ def _split_sentences(text):
     return [s.strip() for s in raw if len(s.strip()) > 10]
 
 
-def _extractive_fallback(text):
-    if not text:
-        return "No details available for this story."
-
-    text = _clean_rss_artifacts(text)
-    sentences = _split_sentences(text)
+def _structured_fallback(text, title=""):
+    """
+    Structured fallback when Gemini API key is missing or encounters issues.
+    Constructs a clean 3-part brief from RSS content.
+    """
+    clean = _clean_rss_artifacts(text)
+    sentences = _split_sentences(clean)
+    
     if not sentences:
-        return text[:800] if len(text) > 800 else text
+        bg = clean[:300] if clean else "No prior context available."
+        kd = [title] if title else ["No detailed key developments recorded."]
+        io = "Story details will update as live agency feeds update."
+    else:
+        bg = sentences[0]
+        kd = sentences[1:4] if len(sentences) > 1 else [sentences[0]]
+        io = sentences[-1] if len(sentences) > 4 else "This development remains under active coverage."
 
-    # Build a detailed multi-sentence brief — keep adding sentences until we have
-    # at least 1200 characters or we've used up to 14 sentences.
-    result = sentences[0]
-    for s in sentences[1:14]:
-        result = result + " " + s
-        if len(result) >= 1200:
-            break
-
-    return result
+    return {
+        "context_background": bg,
+        "key_developments": kd,
+        "impact_outlook": io
+    }
 
 
-def extract_why_it_matters(content, title):
-    if not content:
+def _call_gemini_api(text, title="", gemini_key=""):
+    api_key = gemini_key or os.environ.get("GEMINI_API_KEY", "")
+    if not api_key:
         return None
 
-    text = _clean_rss_artifacts(content)
-    sentences = _split_sentences(text)
-    if not sentences:
+    clean = _clean_rss_artifacts(text)
+    if len(clean.split()) < 15:
         return None
 
-    lower_sentences = [s.lower() for s in sentences]
-    scored = []
-    for i, (orig, low) in enumerate(zip(sentences, lower_sentences)):
-        score = 0
-        for kw in ANALYTICAL_KEYWORDS:
-            if re.search(r'\b' + re.escape(kw) + r'\b', low):
-                score += 1
-        if len(orig.split()) > 8:
-            scored.append((score, i, orig))
+    # Construct Gemini prompt requesting explicit structured JSON
+    prompt = f"""You are an executive intelligence analyst. Synthesize the news story below into a Deep-Dive Analytical Brief.
 
-    if scored:
-        scored.sort(key=lambda x: (-x[0], -x[1]))
-        best = scored[0][2]
-        if len(best.split()) > 6:
-            return best
+Title: {title}
+Article Text: {clean}
 
-    last = sentences[-1]
-    if len(last.split()) > 6:
-        return last
+Respond ONLY with valid JSON (no markdown wrapping, no text outside JSON) matching this exact format:
+{{
+  "context_background": "2-3 sentences explaining the historical context, origin, or events leading up to this news.",
+  "key_developments": [
+    "Bullet point 1 detailing core recent facts/actions",
+    "Bullet point 2 detailing additional key factual progress",
+    "Bullet point 3 detailing critical statements or metrics"
+  ],
+  "impact_outlook": "2-3 sentences covering strategic global/industry impact and what to watch next ('Why It Matters')."
+}}"""
 
-    return None
-
-
-def _call_hf_inference(text, ssl_ctx, hf_token=""):
-    if not hf_token:
-        return None
-    if not text or len(text.strip()) < 30:
-        return None
-
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
     payload = {
-        "inputs": text,
-        "parameters": {
-            "max_length": 800,
-            "min_length": 300,
-            "do_sample": False
+        "contents": [{
+            "parts": [{"text": prompt}]
+        }],
+        "generationConfig": {
+            "temperature": 0.2,
+            "responseMimeType": "application/json"
         }
     }
-    data = json.dumps(payload).encode('utf-8')
 
     headers = {'Content-Type': 'application/json'}
-    if hf_token:
-        headers['Authorization'] = f'Bearer {hf_token}'
-
-    req = urllib.request.Request(
-        HF_API_URL,
-        data=data,
-        headers=headers,
-        method='POST'
-    )
-
-    kwargs = {'timeout': 15}
-    if ssl_ctx:
-        kwargs['context'] = ssl_ctx
+    data = json.dumps(payload).encode('utf-8')
+    req = urllib.request.Request(url, data=data, headers=headers, method='POST')
 
     try:
-        with urllib.request.urlopen(req, **kwargs) as response:
-            result = json.loads(response.read().decode('utf-8'))
-            if isinstance(result, list) and len(result) > 0:
-                return result[0].get('summary_text', '')
-            elif isinstance(result, dict) and result.get('summary_text'):
-                return result['summary_text']
-    except urllib.error.HTTPError as e:
-        if e.code == 503:
-            print(f"HF model loading (503), falling back")
-        elif e.code == 429:
-            print(f"HF rate limited (429), falling back")
-        else:
-            print(f"HF HTTP {e.code}, falling back")
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            resp_data = json.loads(resp.read().decode('utf-8'))
+            candidates = resp_data.get('candidates', [])
+            if candidates:
+                part_text = candidates[0].get('content', {}).get('parts', [{}])[0].get('text', '')
+                # Clean up any potential markdown code fence wrapping
+                part_text = re.sub(r'^```json\s*', '', part_text.strip(), flags=re.IGNORECASE)
+                part_text = re.sub(r'```$', '', part_text.strip())
+                parsed = json.loads(part_text)
+                if "context_background" in parsed and "key_developments" in parsed and "impact_outlook" in parsed:
+                    return parsed
     except Exception as e:
-        print(f"HF inference error: {e}")
+        print(f"[Gemini API Error]: {e}")
 
     return None
 
 
-def summarize_content(content, title, ssl_ctx, hf_token=""):
-    if not content:
-        return "No details available for this story."
+def generate_deep_dive_brief(content, title="", gemini_key=""):
+    """
+    Main entry point for generating Deep-Dive Analytical Briefs.
+    Returns a dictionary with context_background, key_developments, and impact_outlook.
+    """
+    cache_key = f"{title}_{hash(content[:200])}"
+    if cache_key in SUMMARY_CACHE:
+        return SUMMARY_CACHE[cache_key]
 
-    clean = _clean_rss_artifacts(content)
-    word_count = len(clean.split())
+    gemini_result = _call_gemini_api(content, title=title, gemini_key=gemini_key)
+    if gemini_result:
+        SUMMARY_CACHE[cache_key] = gemini_result
+        return gemini_result
 
-    if word_count < 30:
-        return clean
-
-    hf_result = _call_hf_inference(clean, ssl_ctx, hf_token)
-    if hf_result and len(hf_result) >= 100:
-        hf_result = WHITESPACE_RE.sub(' ', hf_result).strip()
-        sentence_count = len(re.findall(r'[.!?]+', hf_result))
-        if 1 <= sentence_count <= 10:
-            return hf_result
-
-    fallback = _extractive_fallback(clean)
+    fallback = _structured_fallback(content, title=title)
+    SUMMARY_CACHE[cache_key] = fallback
     return fallback
+
+
+def summarize_content(content, title="", ssl_ctx=None, hf_token=""):
+    """
+    Legacy wrapper retained for backward compatibility.
+    """
+    brief = generate_deep_dive_brief(content, title=title, gemini_key=hf_token)
+    return brief.get("context_background", "") + " " + " ".join(brief.get("key_developments", []))
+
+
+def extract_why_it_matters(content, title=""):
+    """
+    Legacy wrapper retained for backward compatibility.
+    """
+    brief = generate_deep_dive_brief(content, title=title)
+    return brief.get("impact_outlook", None)

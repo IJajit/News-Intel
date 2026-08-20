@@ -90,9 +90,8 @@
         <span class="material-symbols-outlined" id="themeIcon" style="font-size:20px;">light_mode</span>
       </button>
 
-      <button id="generateBtn" class="bg-primary-container text-white px-3 md:px-5 py-1.5 md:py-2 font-label-caps text-[10px] md:text-[11px] uppercase tracking-widest font-bold hover:opacity-90 transition-all whitespace-nowrap">
-        <span class="hidden md:inline">Update Feed</span>
-        <span class="md:hidden">Update</span>
+      <button class="flex items-center p-1.5 rounded transition-colors" id="generateBtn" title="Refresh Feed" style="color: var(--color-dark-gray);">
+        <span class="material-symbols-outlined" id="refreshIcon" style="font-size:20px;">refresh</span>
       </button>
 
       <button id="mobileRightSidebarToggle" class="md:hidden flex items-center p-1.5 rounded transition-colors" style="color: var(--color-dark-gray);" title="Open sidebar">
@@ -192,19 +191,6 @@
         </div>
       </div>
 
-      <!-- World Cup Tab (also accessible from right sidebar) -->
-      <div id="viewWorldCup" class="world-cup-panel flex-col gap-8" role="tabpanel" aria-labelledby="tabWorldCupBtn" style="display: none;">
-        <div class="world-cup-header flex justify-between items-center pb-4">
-          <div class="world-cup-filter-bar flex gap-3">
-            <button id="wcFilterAll" class="wc-filter-btn px-4 py-2 font-label-caps text-[10px] uppercase tracking-wider active" data-filter="all">ALL MATCHES</button>
-            <button id="wcFilterArgentina" class="wc-filter-btn px-4 py-2 font-label-caps text-[10px] uppercase tracking-wider" data-filter="argentina">ARGENTINA</button>
-          </div>
-          <a href="https://www.goal.com/en-in" target="_blank" rel="noopener noreferrer" class="font-label-caps text-[10px] uppercase tracking-widest text-primary-container hover:underline" aria-label="Visit Goal.com">GOAL.COM &nearr;</a>
-        </div>
-        <div id="worldCupLoader" class="world-cup-loader text-sm font-mono" style="color: var(--color-dark-gray);">Loading match schedule...</div>
-        <div id="worldCupSchedule" class="world-cup-schedule space-y-6"></div>
-      </div>
-
       <!-- Filtered Articles Feed Tab -->
       <div id="viewArticles" class="feed-articles space-y-6" role="tabpanel" aria-labelledby="tabArticlesBtn" style="display: none;">
         <!-- Category Filter Sub-nav on top of View All page -->
@@ -230,21 +216,6 @@
 
     <!-- ── RIGHT SIDEBAR ───────────────────────────────────── -->
     <aside id="rightSidebar" class="right-sidebar hidden lg:flex flex-col flex-shrink-0 px-4 pt-6 pb-4 gap-5" style="width: 260px; border-left: 1px solid var(--color-border-heavy); background-color: var(--color-bg);">
-
-      <!-- World Cup quick widget (now on top) -->
-      <section class="flex-shrink-0">
-        <div class="flex items-center justify-between mb-3">
-          <span class="sidebar-section-label">World Cup 2026</span>
-          <button class="font-label-caps text-[9px] uppercase tracking-wider transition-colors sidebar-wc-expand-btn hover:text-orange-500" style="color: var(--color-orange);" data-tab="worldcup">
-            Full View
-          </button>
-        </div>
-        <div id="rightSidebarWC" class="space-y-2">
-          <div class="text-xs font-mono" style="color: var(--color-dark-gray);">Loading matches...</div>
-        </div>
-      </section>
-
-      <div style="border-top: 1px solid var(--color-border-heavy);" class="flex-shrink-0"></div>
 
       <!-- Filtered Feed section (occupies remainder of height) -->
       <section class="flex flex-col flex-grow overflow-hidden">

@@ -51,19 +51,6 @@ load_dotenv()
 
 HF_API_TOKEN = os.environ.get('HF_API_TOKEN', '')
 
-def is_valid_api_key(key):
-    if not key:
-        return False
-    key = key.strip().strip('"').strip("'")
-    if not key:
-        return False
-    # Allow AIzaSy (Gemini API keys), AQ. (Google Cloud OAuth), and similar formats
-    if not re.match(r'^[A-Za-z0-9_.-]+$', key):
-        return False
-    if len(key) < 10:
-        return False
-    return True
-
 # Create an unverified SSL context to bypass SSL certification errors on RSS feeds
 try:
     ssl_context = ssl._create_unverified_context()
@@ -89,7 +76,7 @@ SOURCES = [
   { "id": "reuters", "name": "Reuters", "url": "https://news.google.com/rss/search?q=site:reuters.com&hl=en-US&gl=US&ceid=US:en", "siteUrl": "https://www.reuters.com/" },
   { "id": "bloomberg", "name": "Bloomberg", "url": "https://feeds.bloomberg.com/markets/news.rss", "siteUrl": "https://www.bloomberg.com/asia" },
   { "id": "ap-news", "name": "AP News", "url": "https://rsshub.app/apnews/rss", "siteUrl": "https://apnews.com/" },
-  { "id": "al-jazeera", "name": "Al Jazeera", "url": "https://www.aljazeera.com/xml/rss/all.xml", "siteUrl": "https://www.aljazeera.com/" },
+  { "id": "al-jazeera", "name": "Al Jazeera", "url": "https://news.google.com/rss/search?q=site:aljazeera.com&hl=en-US&gl=US&ceid=US:en", "siteUrl": "https://www.aljazeera.com/" },
   { "id": "npr", "name": "NPR", "url": "https://feeds.npr.org/1001/rss.xml", "siteUrl": "https://www.npr.org/" },
   { "id": "ndtv", "name": "NDTV", "url": "https://feeds.feedburner.com/ndtvnews-latest", "siteUrl": "https://www.ndtv.com/" },
   { "id": "the-hindu", "name": "The Hindu", "url": "https://www.thehindu.com/news/feeds/default.rss", "siteUrl": "https://www.thehindu.com/" },
@@ -144,6 +131,13 @@ def assign_subcategory(article):
     return "Lifestyle & Society"
 
 def decode_google_news_url(url):
+    try:
+        from googlenewsdecoder import gnewsdecoder
+        res = gnewsdecoder(url)
+        if res.get('status') and res.get('decoded_url'):
+            return res['decoded_url']
+    except Exception as e:
+        print(f"Error decoding link using googlenewsdecoder {url}: {e}")
     try:
         match = re.search(r'news\.google\.com/(?:rss/)?articles/([^?#/]+)', url)
         if not match:
@@ -320,10 +314,16 @@ def fetch_feed(source):
         return []
 
 def scrape_article_description(art):
-    if art.get('content'):
-        return art
+    """Scrape article content from its URL if not already present or too thin.
+    Tries meta description first, then og:description, then body <p> tags."""
+    existing = (art.get('content') or '').strip()
+    title = (art.get('title') or '').strip()
     url = art.get('link')
+    # Skip scraping only if we already have substantial content (>120 chars and more than just the title)
+    if existing and len(existing) > 120 and existing.lower() != title.lower():
+        return art
     if not url:
+        art.setdefault('content', title)
         return art
     try:
         req = urllib.request.Request(
@@ -336,27 +336,45 @@ def scrape_article_description(art):
                 'Connection': 'keep-alive'
             }
         )
-        kwargs = {'timeout': 5}
+        kwargs = {'timeout': 8}
         if ssl_context:
             kwargs['context'] = ssl_context
         with urllib.request.urlopen(req, **kwargs) as response:
-            html_bytes = response.read(100000)
+            html_bytes = response.read(200000)
             html_str = html_bytes.decode('utf-8', errors='ignore')
-            match = re.search(r'<meta\s+[^>]*name=["\']description["\']\s+content=["\']([^"\']+)["\']', html_str, re.IGNORECASE)
+
+            # 1. Try meta description
+            desc = ''
+            match = re.search(r'<meta\s+[^>]*name=["\']description["\']\s+content=["\']([^"\']{30,})["\']', html_str, re.IGNORECASE)
             if not match:
-                match = re.search(r'<meta\s+[^>]*content=["\']([^"\']+)["\']\s+name=["\']description["\']', html_str, re.IGNORECASE)
+                match = re.search(r'<meta\s+[^>]*content=["\']([^"\']{30,})["\']\s+name=["\']description["\']', html_str, re.IGNORECASE)
             if not match:
-                match = re.search(r'<meta\s+[^>]*property=["\']og:description["\']\s+content=["\']([^"\']+)["\']', html_str, re.IGNORECASE)
+                match = re.search(r'<meta\s+[^>]*property=["\']og:description["\']\s+content=["\']([^"\']{30,})["\']', html_str, re.IGNORECASE)
             if not match:
-                match = re.search(r'<meta\s+[^>]*content=["\']([^"\']+)["\']\s+property=["\']og:description["\']', html_str, re.IGNORECASE)
+                match = re.search(r'<meta\s+[^>]*content=["\']([^"\']{30,})["\']\s+property=["\']og:description["\']', html_str, re.IGNORECASE)
             if match:
                 desc = html.unescape(match.group(1).strip())
-                if desc:
-                    art['content'] = desc
+
+            # 2. Fallback: extract body <p> text (good for paywalled/minimal RSS articles)
+            if not desc or len(desc) < 80 or desc.lower().strip() == title.lower().strip():
+                # Strip style/script blocks first
+                stripped = re.sub(r'<(style|script)[^>]*>[\s\S]*?</\1>', ' ', html_str, flags=re.IGNORECASE)
+                # Find all <p> tags content
+                paragraphs = re.findall(r'<p[^>]*>([^<]{40,})</p>', stripped, re.IGNORECASE)
+                paragraphs = [html.unescape(re.sub(r'<[^>]+>', '', p)).strip() for p in paragraphs]
+                paragraphs = [p for p in paragraphs if len(p) > 40 and p.lower() != title.lower()]
+                if paragraphs:
+                    # Take up to 5 paragraphs
+                    body_text = ' '.join(paragraphs[:5])
+                    if len(body_text) > len(desc):
+                        desc = body_text
+
+            if desc and len(desc) > len(existing):
+                art['content'] = desc[:2000]  # cap to avoid huge prompts
     except Exception as e:
-        print(f"Error scraping content for {url}: {e}")
-    if not art.get('content'):
-        art['content'] = art.get('title', '')
+        print(f"[SCRAPE] Error scraping content for {url}: {e}")
+    if not art.get('content') or len(art.get('content', '').strip()) < 20:
+        art['content'] = title
     return art
 
 def get_filtered_articles(grounded_time_str, max_hours=24.0):
@@ -399,11 +417,16 @@ def get_filtered_articles(grounded_time_str, max_hours=24.0):
             seen_keys.add(key)
             filtered.append(art)
 
-    # Scrape description for articles with empty content in parallel
-    empty_content_articles = [art for art in filtered if not art.get('content')]
-    if empty_content_articles:
-        with concurrent.futures.ThreadPoolExecutor(max_workers=min(len(empty_content_articles), 10)) as executor:
-            list(executor.map(scrape_article_description, empty_content_articles))
+    # Scrape description for articles with no or thin content in parallel
+    # Also re-scrape articles whose content is just the title (< 120 chars) — common with Reuters/paywalled sources
+    thin_content_articles = [
+        art for art in filtered
+        if not art.get('content') or len((art.get('content') or '').strip()) < 120
+    ]
+    if thin_content_articles:
+        print(f"[SCRAPE] Scraping/enriching content for {len(thin_content_articles)} thin-content articles...")
+        with concurrent.futures.ThreadPoolExecutor(max_workers=min(len(thin_content_articles), 10)) as executor:
+            list(executor.map(scrape_article_description, thin_content_articles))
 
     def get_pub_time(a):
         dt = parse_date(a['pubDate'])
@@ -871,34 +894,6 @@ Quick Hits
 
 {quick_hits_text}"""
 
-def call_gemini(api_key, system_prompt, articles_text):
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
-
-    payload = {
-        "contents": [{
-            "parts": [{
-                "text": f"{system_prompt}\n\n{articles_text}"
-            }]
-        }],
-        "generationConfig": {
-            "temperature": 0.2,
-            "maxOutputTokens": 8192
-        }
-    }
-
-    data = json.dumps(payload).encode('utf-8')
-    req = urllib.request.Request(
-        url,
-        data=data,
-        headers={'Content-Type': 'application/json'},
-        method='POST'
-    )
-
-    with urllib.request.urlopen(req, timeout=60) as response:
-        res_data = json.loads(response.read().decode('utf-8'))
-        brief_text = res_data['candidates'][0]['content']['parts'][0]['text']
-        return brief_text
-
 def build_story_prompt(story):
     category = story.get('category', 'General')
     primary_headline = story.get('primary_headline', '')
@@ -935,32 +930,28 @@ Output only the brief text. No headers, no preamble, no source list."""
     return prompt
 
 
-def call_gemini_structured(api_key, prompt, attempt_label="attempt"):
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
+def call_groq_structured(api_key, prompt, model="llama-3.3-70b-versatile", attempt_label="attempt"):
+    """Call Groq API (free, open-source models) with structured JSON output."""
+    url = "https://api.groq.com/openai/v1/chat/completions"
 
     payload = {
-        "contents": [{
-            "parts": [{"text": prompt}]
-        }],
-        "generationConfig": {
-            "temperature": 0.3,
-            "responseMimeType": "application/json",
-            "responseSchema": {
-                "type": "object",
-                "properties": {
-                    "brief": {"type": "string"},
-                    "word_count": {"type": "integer"}
-                },
-                "required": ["brief", "word_count"]
-            }
-        }
+        "model": model,
+        "messages": [
+            {"role": "system", "content": "You are a news editor. Always respond in valid JSON only, with no markdown formatting or extra text. The JSON must have exactly two fields: 'brief' (string containing the news brief) and 'word_count' (integer)."},
+            {"role": "user", "content": prompt}
+        ],
+        "temperature": 0.3,
+        "response_format": {"type": "json_object"}
     }
 
     data = json.dumps(payload).encode('utf-8')
     req = urllib.request.Request(
         url,
         data=data,
-        headers={'Content-Type': 'application/json'},
+        headers={
+            'Content-Type': 'application/json',
+            'Authorization': f'Bearer {api_key}'
+        },
         method='POST'
     )
 
@@ -969,37 +960,31 @@ def call_gemini_structured(api_key, prompt, attempt_label="attempt"):
             res_data = json.loads(response.read().decode('utf-8'))
     except urllib.error.HTTPError as e:
         body = e.read().decode('utf-8', errors='replace')
-        print(f"[Gemini {attempt_label}] HTTP {e.code}: {body[:200]}")
+        print(f"[Groq {attempt_label}] HTTP {e.code}: {body[:300]}")
         if e.code in (401, 403):
-            print(f"[Gemini {attempt_label}] *** API KEY REJECTED ({e.code}) — check GEMINI_API_KEY env var is a valid Gemini API key ***")
+            print(f"[Groq {attempt_label}] *** API KEY REJECTED — check GROQ_API_KEY env var ***")
         elif e.code == 429:
-            retry_after = 2 ** (attempt_label.count('retry'))
-            print(f"[Gemini {attempt_label}] *** RATE LIMITED (429) — will retry in ~{retry_after}s ***")
+            print(f"[Groq {attempt_label}] *** RATE LIMITED ***")
         raise
     except Exception as e:
-        print(f"[Gemini {attempt_label}] Network/HTTP error: {e}")
+        print(f"[Groq {attempt_label}] Network/HTTP error: {e}")
         raise
 
-    if 'candidates' not in res_data or not res_data['candidates']:
-        reason = res_data.get('promptFeedback', {}).get('blockReason', 'unknown')
-        print(f"[Gemini {attempt_label}] No candidates returned. blockReason={reason}, full={json.dumps(res_data)[:500]}")
-        raise ValueError(f"Gemini returned no candidates (blockReason={reason})")
-
     try:
-        raw_text = res_data['candidates'][0]['content']['parts'][0]['text']
-    except (KeyError, IndexError) as e:
-        print(f"[Gemini {attempt_label}] Unexpected response structure: {json.dumps(res_data)[:500]}")
+        raw_text = res_data['choices'][0]['message']['content']
+    except (KeyError, IndexError):
+        print(f"[Groq {attempt_label}] Unexpected response structure: {json.dumps(res_data)[:500]}")
         raise
 
     try:
         parsed = json.loads(raw_text)
     except json.JSONDecodeError as e:
-        print(f"[Gemini {attempt_label}] JSON parse failed: {e}. Raw text: {raw_text[:500]}")
+        print(f"[Groq {attempt_label}] JSON parse failed: {e}. Raw text: {raw_text[:500]}")
         raise
 
     brief = parsed.get('brief', '')
     wc = parsed.get('word_count', 0)
-    print(f"[Gemini {attempt_label}] Success — brief={len(brief)} chars, reported_word_count={wc}")
+    print(f"[Groq {attempt_label}] Success — brief={len(brief)} chars, reported_word_count={wc}")
     return brief, wc
 
 
@@ -1053,88 +1038,23 @@ def _validate_brief_minmax(brief_text, min_words=130, max_words=220):
     return trimmed, max_words, True
 
 
-def generate_story_brief(story, api_key, ssl_ctx, hf_token=""):
-    prompt = build_story_prompt(story)
-    story_label = story.get('story_id', 'unknown')
-    headline = story.get('primary_headline', '?')[:80]
-
-    print(f"[BRIEF] === Story {story_label}: \"{headline}\" ===")
-    print(f"[BRIEF] {story_label}: api_key={'SET (' + api_key[:8] + '...)' if api_key else 'NOT SET'}")
-
-    def _call_with_retry(api_key, prompt, label):
-        """Call Gemini with one 429 retry after 1s backoff."""
-        import time
-        last_exc = None
-        for retry in range(2):
-            try:
-                return call_gemini_structured(api_key, prompt, attempt_label=f"{label} retry={retry}")
-            except urllib.error.HTTPError as e:
-                if e.code == 429 and retry == 0:
-                    print(f"[BRIEF] {story_label}: 429 on {label}, one retry in 1s...")
-                    time.sleep(1)
-                    last_exc = e
-                    continue
-                raise
-        if last_exc:
-            raise last_exc
-
-    if api_key:
-        # Attempt 1: Gemini with structured output
-        print(f"[BRIEF] {story_label}: === GEMINI ATTEMPT 1 START ===")
-        try:
-            brief_text, wc = _call_with_retry(api_key, prompt, f"story={story_label} attempt=1")
-            print(f"[BRIEF] {story_label}: Gemini attempt 1 returned raw brief={repr(brief_text[:120])}, wc={wc}")
-            valid, msg = validate_brief(brief_text)
-            print(f"[BRIEF] {story_label}: Gemini attempt 1 validation: valid={valid}, msg={msg}")
-            if valid:
-                print(f"[BRIEF] {story_label}: === GEMINI ATTEMPT 1 SUCCESS ({wc} words) ===")
-                return brief_text.strip(), wc
-            print(f"[BRIEF] {story_label}: === GEMINI ATTEMPT 1 VALIDATION FAILED ({msg}). RETRYING... ===")
-            # Retry with appended note
-            retry_prompt = prompt + f"\n\nYour previous attempt was {wc} words. Strictly target 150-200 words this time."
-            print(f"[BRIEF] {story_label}: === GEMINI ATTEMPT 2 START ===")
-            brief_text, wc = _call_with_retry(api_key, retry_prompt, f"story={story_label} attempt=2")
-            print(f"[BRIEF] {story_label}: Gemini attempt 2 returned raw brief={repr(brief_text[:120])}, wc={wc}")
-            valid, msg = validate_brief(brief_text)
-            print(f"[BRIEF] {story_label}: Gemini attempt 2 validation: valid={valid}, msg={msg}")
-            if valid:
-                print(f"[BRIEF] {story_label}: === GEMINI ATTEMPT 2 SUCCESS ({wc} words) ===")
-                return brief_text.strip(), wc
-            # Per spec Step 4: accept 2nd attempt even if invalid (don't block the update)
-            print(f"[BRIEF] {story_label}: === GEMINI ATTEMPT 2 VALIDATION FAILED ({msg}) — ACCEPTING OUTPUT PER SPEC ===")
-            print(f"[BRIEF] {story_label}: === GEMINI ATTEMPT 2 ACCEPTED ({wc} words, below 130 minimum) ===")
-            return brief_text.strip(), wc
-        except urllib.error.HTTPError as e:
-            body = e.read().decode('utf-8', errors='replace') if hasattr(e, 'read') else ''
-            print(f"[BRIEF] {story_label}: === GEMINI HTTP ERROR {e.code} ===")
-            if body:
-                print(f"[BRIEF] {story_label}: HTTPError body: {body[:500]}")
-        except Exception as e:
-            print(f"[BRIEF] {story_label}: === GEMINI EXCEPTION: {type(e).__name__}: {e} ===")
-            import traceback
-            traceback.print_exc()
-    else:
-        print(f"[BRIEF] {story_label}: === NO API KEY — SKIPPING GEMINI entirely ===")
-
-    # Fallback: BART summarizer on primary source content only (not multi-article dump)
+    # Primary AI Provider: Google Gemini Deep-Dive Analytical Brief Engine
     primary_content = story.get('primary_source', {}).get('content', '') or ''
-    primary_content_len = len(primary_content)
-    print(f"[BRIEF] {story_label}: === FALLBACK PATH: primary_content_len={primary_content_len} chars ===")
-    if primary_content and len(primary_content.strip()) > 30:
-        try:
-            print(f"[BRIEF] {story_label}: === BART FALLBACK START ===")
-            brief = summarize_content(primary_content, story.get('primary_headline', ''), ssl_ctx, hf_token)
-            print(f"[BRIEF] {story_label}: BART returned raw brief len={len(brief)} chars, preview={repr(brief[:120])}")
-            if brief and len(brief.strip()) > 50:
-                brief, wc = _validate_or_trim(brief, max_words=220)
-                print(f"[BRIEF] {story_label}: === BART FALLBACK ACCEPTED ({wc} words) ===")
-                return brief, wc
-            else:
-                print(f"[BRIEF] {story_label}: BART returned too-short text ({len(brief.strip())} chars) — falling through to extractive")
-        except Exception as e:
-            print(f"[BRIEF] {story_label}: === BART FALLBACK EXCEPTION: {type(e).__name__}: {e} ===")
-            import traceback
-            traceback.print_exc()
+    primary_headline = story.get('primary_headline', '')
+    
+    try:
+        from news_summarizer import generate_deep_dive_brief
+        deep_dive = generate_deep_dive_brief(primary_content, title=primary_headline)
+        if isinstance(deep_dive, dict):
+            # Form standard structured brief text
+            bg = deep_dive.get("context_background", "")
+            kd = "\n".join([f"• {item}" for item in deep_dive.get("key_developments", [])])
+            io = deep_dive.get("impact_outlook", "")
+            combined_brief = f"{bg}\n\nKey Developments:\n{kd}\n\nImpact & Outlook:\n{io}".strip()
+            wc = len(combined_brief.split())
+            return combined_brief, wc
+    except Exception as e:
+        print(f"[BRIEF] {story_label}: Gemini Deep-Dive Brief error: {e}")
     else:
         print(f"[BRIEF] {story_label}: primary_content too short ({primary_content_len} chars) — skipping BART")
 
@@ -1420,8 +1340,8 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
         elif path == '/api/categories':
             self.send_json(CATEGORIES)
         elif path == '/api/config':
-            has_key = is_valid_api_key(os.environ.get('GEMINI_API_KEY'))
-            self.send_json({"apiKeyConfigured": has_key})
+            groq_key = os.environ.get('GROQ_API_KEY', '')
+            self.send_json({"apiKeyConfigured": bool(groq_key)})
         elif path == '/api/world-cup':
             self.send_json(fetch_world_cup_schedule())
         elif path == '/api/latest-brief':
@@ -1461,9 +1381,7 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
 
             grounded_time = body.get('groundedTime', datetime.now(timezone.utc).isoformat())
             category = body.get('category', 'global')
-            client_key = self.headers.get('x-api-key')
-            server_key = os.environ.get('GEMINI_API_KEY')
-            api_key = client_key if is_valid_api_key(client_key) else (server_key if is_valid_api_key(server_key) else None)
+            groq_api_key = os.environ.get('GROQ_API_KEY', '')
 
             try:
                 # Step 1: Fetch + recency filter (12h for homepage, 24h for category feeds)
@@ -1482,34 +1400,15 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                 stories = cluster_into_stories(articles)
 
                 # Step 3: Generate brief for each story
-                # Gemini rate-limited to ~2 req/min on free tier. Process top stories with Gemini
-                # (serialized, one at a time). Remaining stories skip directly to BART/extractive.
-                import time as _time
+                # All stories processed in parallel: Groq (if key available) + BART/extractive fallback
                 brief_cache = {}
                 stories_sorted = sorted(stories, key=lambda s: s.get('combined_score', 0), reverse=True)
-                gemini_budget = min(20, len(stories_sorted))
-                stories_with_gemini = stories_sorted[:gemini_budget]
-                stories_bart_only = stories_sorted[gemini_budget:]
-                print(f"[PIPELINE] Gemini for top {gemini_budget}/{len(stories)} stories; BART-only for remaining {len(stories_bart_only)}")
+                print(f"[PIPELINE] Generating briefs for {len(stories_sorted)} stories (Groq + BART fallback)")
 
-                # Process Gemini stories serially (1 worker) with delay to avoid 429
-                for story in stories_with_gemini:
-                    try:
-                        brief_text, wc = generate_story_brief(story, api_key, ssl_context, HF_API_TOKEN)
-                        brief_cache[story["story_id"]] = {
-                            "brief": truncate_to_words(clean_content(brief_text), 200),
-                            "brief_word_count": wc
-                        }
-                    except Exception as e:
-                        print(f"Brief generation failed for story {story['story_id']}: {e}")
-                        brief_cache[story["story_id"]] = {"brief": "Brief could not be generated for this story.", "brief_word_count": 0}
-                    _time.sleep(5)  # 5s gap between Gemini calls to stay within free-tier rate limit
-
-                # Process remaining stories with BART-only (parallel, skip Gemini entirely)
                 with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
                     fut_map = {}
-                    for story in stories_bart_only:
-                        fut = pool.submit(generate_story_brief, story, None, ssl_context, HF_API_TOKEN)
+                    for story in stories_sorted:
+                        fut = pool.submit(generate_story_brief, story, ssl_context, HF_API_TOKEN, groq_api_key)
                         fut_map[fut] = story
                     for future in concurrent.futures.as_completed(fut_map):
                         story = fut_map[future]
@@ -1584,15 +1483,11 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
 if __name__ == "__main__":
     seed_briefs()
     # Diagnose API key at startup
-    server_key = os.environ.get('GEMINI_API_KEY')
-    if server_key and is_valid_api_key(server_key):
-        print(f"[STARTUP] GEMINI_API_KEY found and passes format check ({server_key[:8]}...{server_key[-4:]})")
-        print(f"[STARTUP] WARNING: Key will be tested on first API call — if it fails with 401/403, replace it with a valid Gemini API key (starts with AIzaSy)")
-    elif server_key:
-        print(f"[STARTUP] GEMINI_API_KEY present but FAILS format check (key={server_key[:16]}...)")
-        print(f"[STARTUP] Valid Gemini API keys start with AIzaSy or are URL-safe tokens >= 10 chars")
+    groq_key = os.environ.get('GROQ_API_KEY', '')
+    if groq_key:
+        print(f"[STARTUP] GROQ_API_KEY found ({groq_key[:8]}...{groq_key[-4:]}) — Groq will be used as primary LLM provider")
     else:
-        print(f"[STARTUP] GEMINI_API_KEY not set — all briefs will use BART/extractive fallback")
+        print(f"[STARTUP] GROQ_API_KEY not set — all briefs will use BART/extractive fallback")
     socketserver.TCPServer.allow_reuse_address = True
     with socketserver.TCPServer(("", PORT), NewsBriefingHandler) as httpd:
         print(f"Serving news app at http://localhost:{PORT}")

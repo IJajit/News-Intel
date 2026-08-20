@@ -71,7 +71,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   fetchWikiIntel();
-  initWorldCupRightSidebar();
 
   // ─── GENERATE BUTTON ────────────────────────────────────────
   generateBtn.addEventListener('click', triggerBriefingGeneration);
@@ -522,9 +521,13 @@ function setLoadingState(isLoading, statusText = '') {
     stateLoading.style.display = 'flex';
     if (statusText) loadingStatusText.textContent = statusText;
     generateBtn.disabled = true;
+    const refreshIcon = document.getElementById('refreshIcon');
+    if (refreshIcon) refreshIcon.style.animation = 'spin 1s linear infinite';
   } else {
     stateLoading.style.display = 'none';
     generateBtn.disabled = false;
+    const refreshIcon = document.getElementById('refreshIcon');
+    if (refreshIcon) refreshIcon.style.animation = '';
 
     if (currentBriefing) {
       switchTab(activeTab);
@@ -697,14 +700,24 @@ function renderSourcesList(sources, excludeUrl) {
     }).join('') + `</div>`;
 }
 
-// ─── RENDER EXCERPT (multi-paragraph) ────────────────────────
+// ─── RENDER EXCERPT (multi-paragraph & structured bullets) ─────
 function renderExcerpt(text, cssClass, cssStyle) {
   if (!text) return '';
   const paras = text.split(/\n\n+/).map(p => p.trim()).filter(Boolean);
   if (paras.length === 0) return '';
-  return paras.map(p =>
-    `<p class="${cssClass}" style="${cssStyle}">${escapeHtml(p)}</p>`
-  ).join('\n');
+  return paras.map(p => {
+    if (p.startsWith('Key Developments:') || p.startsWith('Impact & Outlook:')) {
+      const lines = p.split('\n');
+      const title = lines[0];
+      const items = lines.slice(1).map(l => l.replace(/^•\s*/, '').trim()).filter(Boolean);
+      let contentHtml = '';
+      if (items.length > 0) {
+        contentHtml = `<ul class="list-disc list-inside space-y-1 my-1">${items.map(it => `<li>${escapeHtml(it)}</li>`).join('')}</ul>`;
+      }
+      return `<div class="mt-2"><strong class="font-semibold text-xs tracking-wider uppercase opacity-80" style="color: var(--color-orange);">${escapeHtml(title)}</strong>${contentHtml}</div>`;
+    }
+    return `<p class="${cssClass}" style="${cssStyle}">${escapeHtml(p)}</p>`;
+  }).join('\n');
 }
 
 function storyMatchesCategory(story, category) {

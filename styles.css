@@ -2359,3 +2359,13 @@ article.group:hover h2 a {
   #mainContent { height: calc(100vh - 64px); }
 }
 
+/* ─── REFRESH ICON ANIMATION ────────────────────────────────── */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+#generateBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
