@@ -678,7 +678,7 @@ function renderSourcesList(sources, excludeUrl) {
   if (others.length === 0) return '';
 
   return `
-    <button class="reader-cluster-toggle mt-2 border-none pt-0" style="border:none !important; padding-top:0 !important;" onclick="toggleSublist(this)">Also reported by \u25B6</button>
+    <button class="reader-cluster-toggle mt-2 border-none pt-0" style="border:none !important; padding-top:0 !important;" onclick="toggleSublist(this)">Also reported by ▶</button>
     <div class="reader-cluster-sublist">` +
     others.map(s => {
       const pubDate = parseDate(s.published_at);

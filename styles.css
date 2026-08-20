@@ -2378,11 +2378,13 @@ article.group:hover h2 a {
   outline: none !important;
   padding-top: 4px !important;
   box-shadow: none !important;
-  font-family: var(--font-mono);
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--color-orange);
+  font-family: var(--font-body);
+  font-size: 11px;
+  text-transform: none;
+  color: var(--color-dark-gray);
   cursor: pointer;
+}
+.dark .reader-cluster-toggle {
+  color: #a1a1aa;
 }
 

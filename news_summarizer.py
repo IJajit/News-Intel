@@ -37,26 +37,20 @@ def _split_sentences(text):
 
 def _structured_fallback(text, title=""):
     """
-    Structured fallback when Gemini API key is missing or encounters issues.
-    Constructs a clean 3-part brief from RSS content.
+    Informative fallback when Gemini API encounters rate limit/delay.
+    Synthesizes full article sentences into a clean paragraph summary.
     """
     clean = _clean_rss_artifacts(text)
+    if not clean or len(clean.strip()) < 15:
+        clean = title
     sentences = _split_sentences(clean)
     
     if not sentences:
-        bg = clean[:300] if clean else "No prior context available."
-        kd = [title] if title else ["No detailed key developments recorded."]
-        io = "Story details will update as live agency feeds update."
-    else:
-        bg = sentences[0]
-        kd = sentences[1:4] if len(sentences) > 1 else [sentences[0]]
-        io = sentences[-1] if len(sentences) > 4 else "This development remains under active coverage."
-
-    return {
-        "context_background": bg,
-        "key_developments": kd,
-        "impact_outlook": io
-    }
+        return {"summary": clean}
+    
+    # Combine up to 4 key sentences into a informative paragraph
+    summary_text = " ".join(sentences[:4])
+    return {"summary": summary_text}
 
 
 def _call_gemini_api(text, title="", gemini_key=""):
