@@ -1047,19 +1047,17 @@ def generate_story_brief(story, ssl_ctx, hf_token="", groq_api_key=""):
         from news_summarizer import generate_deep_dive_brief
         deep_dive = generate_deep_dive_brief(primary_content, title=primary_headline)
         if isinstance(deep_dive, dict):
-            bullets = deep_dive.get("bullets", [])
-            if not bullets:
-                # Fallback to flattening any list values if present
-                bullets = []
-                for v in deep_dive.values():
-                    if isinstance(v, list): bullets.extend(v)
-                    elif isinstance(v, str): bullets.append(v)
-            if isinstance(bullets, str):
-                bullets = [bullets]
-            
-            combined_brief = "\n".join([f"• {item}" for item in bullets if item]).strip()
-            wc = len(combined_brief.split())
-            return combined_brief, wc
+            summary = deep_dive.get("summary", "")
+            if not summary:
+                # Fallback to combining bullets or values if summary key not directly returned
+                vals = []
+                for k, v in deep_dive.items():
+                    if isinstance(v, list): vals.extend(v)
+                    elif isinstance(v, str): vals.append(v)
+                summary = " ".join(vals)
+            summary = summary.strip()
+            wc = len(summary.split())
+            return summary, wc
     except Exception as e:
         print(f"[BRIEF] {story_label}: Gemini Deep-Dive Brief error: {e}")
 

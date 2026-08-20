@@ -2369,3 +2369,20 @@ article.group:hover h2 a {
   opacity: 0.5;
   cursor: not-allowed;
 }
+
+/* ─── CLUSTER TOGGLE BUTTON (NO HORIZONTAL LINE) ─────────────── */
+.reader-cluster-toggle {
+  background: transparent !important;
+  border: none !important;
+  border-top: none !important;
+  outline: none !important;
+  padding-top: 4px !important;
+  box-shadow: none !important;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-orange);
+  cursor: pointer;
+}
+

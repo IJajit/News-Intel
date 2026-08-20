@@ -77,19 +77,17 @@ def _call_gemini_api(text, title="", gemini_key=""):
     if not clean:
         return None
 
-    # Construct Gemini prompt requesting a single array of bullet points in normal sentence case
-    prompt = f"""Synthesize the news story below into a clean executive summary.
+    # Construct Gemini prompt requesting a comprehensive paragraph summary covering context, developments, and impact
+    prompt = f"""Synthesize the news story below into a clear, cohesive executive paragraph summary.
+Ensure the paragraph seamlessly covers the origin/context, key factual developments, and future outlook/impact.
+Use standard sentence case, active voice, and professional journalism style. No bullet points or markdown headings.
 
 Title: {title}
 Article: {clean}
 
-Respond ONLY with valid JSON (no markdown fences) in this exact format:
+Respond ONLY with valid JSON in this format:
 {{
-  "bullets": [
-    "First bullet point summarizing core event in standard sentence case.",
-    "Second bullet point detailing key background context or facts.",
-    "Third bullet point detailing impact or next steps."
-  ]
+  "summary": "Full cohesive executive summary paragraph covering context, developments, and impact."
 }}"""
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"

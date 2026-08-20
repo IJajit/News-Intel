@@ -678,7 +678,7 @@ function renderSourcesList(sources, excludeUrl) {
   if (others.length === 0) return '';
 
   return `
-    <button class="reader-cluster-toggle mt-2" onclick="toggleSublist(this)">Also reported by \u25B6</button>
+    <button class="reader-cluster-toggle mt-2 border-none pt-0" style="border:none !important; padding-top:0 !important;" onclick="toggleSublist(this)">Also reported by \u25B6</button>
     <div class="reader-cluster-sublist">` +
     others.map(s => {
       const pubDate = parseDate(s.published_at);
@@ -693,14 +693,15 @@ function renderSourcesList(sources, excludeUrl) {
     }).join('') + `</div>`;
 }
 
-// ─── RENDER EXCERPT (bullet list in sentence case) ────────────
+// ─── RENDER EXCERPT (executive paragraph summary) ────────────
 function renderExcerpt(text, cssClass, cssStyle) {
   if (!text) return '';
-  const lines = text.split('\n').map(l => l.trim()).filter(Boolean);
-  if (lines.length === 0) return '';
-  
-  const bullets = lines.map(l => l.replace(/^•\s*/, '').trim()).filter(Boolean);
-  return `<ul class="list-disc list-inside space-y-1.5 my-1.5 text-xs text-[var(--color-dark-gray)] dark:text-[#a1a1aa] leading-relaxed">${bullets.map(b => `<li>${escapeHtml(b)}</li>`).join('')}</ul>`;
+  const cleanText = text.replace(/^•\s*/gm, '').trim();
+  const paras = cleanText.split(/\n\n+/).map(p => p.trim()).filter(Boolean);
+  if (paras.length === 0) return '';
+  return paras.map(p =>
+    `<p class="${cssClass}" style="${cssStyle}">${escapeHtml(p)}</p>`
+  ).join('\n');
 }
 
 function storyMatchesCategory(story, category) {
