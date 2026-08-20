@@ -512,27 +512,27 @@ async function initWorldCupRightSidebar() {
 // ─── LOADING STATE CONTROLLER ─────────────────────────────────
 function setLoadingState(isLoading, statusText = '') {
   if (isLoading) {
-    stateEmpty.style.display   = 'none';
-    viewHomepage.style.display = 'none';
-    viewReader.style.display   = 'none';
+    if (stateEmpty) stateEmpty.style.display   = 'none';
+    if (viewHomepage) viewHomepage.style.display = 'none';
+    if (viewReader) viewReader.style.display   = 'none';
 
-    viewArticles.style.display = 'none';
-    viewWorldCup.style.display = 'none';
-    stateLoading.style.display = 'flex';
-    if (statusText) loadingStatusText.textContent = statusText;
-    generateBtn.disabled = true;
+    if (viewArticles) viewArticles.style.display = 'none';
+    if (viewWorldCup) viewWorldCup.style.display = 'none';
+    if (stateLoading) stateLoading.style.display = 'flex';
+    if (statusText && loadingStatusText) loadingStatusText.textContent = statusText;
+    if (generateBtn) generateBtn.disabled = true;
     const refreshIcon = document.getElementById('refreshIcon');
     if (refreshIcon) refreshIcon.style.animation = 'spin 1s linear infinite';
   } else {
-    stateLoading.style.display = 'none';
-    generateBtn.disabled = false;
+    if (stateLoading) stateLoading.style.display = 'none';
+    if (generateBtn) generateBtn.disabled = false;
     const refreshIcon = document.getElementById('refreshIcon');
     if (refreshIcon) refreshIcon.style.animation = '';
 
     if (currentBriefing) {
       switchTab(activeTab);
     } else {
-      stateEmpty.style.display = 'flex';
+      if (stateEmpty) stateEmpty.style.display = 'flex';
     }
   }
 }
@@ -555,12 +555,7 @@ function switchTab(tabName) {
   if (viewArticles) viewArticles.style.display = (tabName === 'articles' && currentBriefing) ? 'block' : 'none';
   if (viewWorldCup) viewWorldCup.style.display = (tabName === 'worldcup') ? 'flex' : 'none';
 
-
-
-  if (tabName === 'worldcup') {
-    if (stateEmpty) stateEmpty.style.display = 'none';
-    fetchWorldCupSchedule();
-  } else if (!currentBriefing) {
+  if (!currentBriefing) {
     if (stateEmpty) stateEmpty.style.display = 'flex';
   }
 }
