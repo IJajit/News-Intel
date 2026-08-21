@@ -74,9 +74,9 @@
   ══════════════════════════════════════════════════════════════ -->
   <header class="w-full h-14 md:h-16 sticky top-0 z-50 flex items-center justify-between px-4 md:px-6 transition-colors" style="background-color: var(--color-bg); border-bottom: 1px solid var(--color-border-heavy);">
 
-    <!-- Left: mobile sidebar toggle + logo -->
+    <!-- Left: mobile/tablet sidebar toggle + logo -->
     <div class="flex items-center gap-3">
-      <button id="mobileSidebarToggle" class="md:hidden flex items-center p-1.5 rounded transition-colors" style="color: var(--color-dark-gray);" title="Open navigation">
+      <button id="mobileSidebarToggle" class="lg:hidden flex items-center p-1.5 rounded transition-colors" style="color: var(--color-dark-gray);" title="Open navigation">
         <span class="material-symbols-outlined" style="font-size:22px;">menu</span>
       </button>
       <a class="font-headline-lg text-lg font-bold tracking-tighter flex items-center" href="#">
@@ -94,7 +94,7 @@
         <span class="material-symbols-outlined" id="refreshIcon" style="font-size:20px;">refresh</span>
       </button>
 
-      <button id="mobileRightSidebarToggle" class="md:hidden flex items-center p-1.5 rounded transition-colors" style="color: var(--color-dark-gray);" title="Open sidebar">
+      <button id="mobileRightSidebarToggle" class="lg:hidden flex items-center p-1.5 rounded transition-colors" style="color: var(--color-dark-gray);" title="Open sidebar">
         <span class="material-symbols-outlined" style="font-size:18px;">side_navigation</span>
       </button>
     </div>
@@ -106,10 +106,10 @@
   <div class="app-body flex flex-1 overflow-hidden" style="height: calc(100vh - 56px); position: sticky; top: 56px;">
 
     <!-- ── MOBILE SIDEBAR OVERLAY ──────────────────────────── -->
-    <div id="mobileSidebarOverlay" class="fixed inset-0 z-40 bg-black/50 hidden md:hidden" onclick="closeMobileSidebar()"></div>
+    <div id="mobileSidebarOverlay" class="fixed inset-0 z-40 bg-black/50 hidden lg:hidden" onclick="closeMobileSidebar()"></div>
 
     <!-- ── LEFT SIDEBAR ────────────────────────────────────── -->
-    <aside id="leftSidebar" class="left-sidebar hidden md:flex flex-col flex-shrink-0 overflow-y-auto" style="width: 220px; border-right: 1px solid var(--color-border-heavy); background-color: var(--color-bg);">
+    <aside id="leftSidebar" class="left-sidebar hidden lg:flex flex-col flex-shrink-0 overflow-y-auto" style="width: 220px; border-right: 1px solid var(--color-border-heavy); background-color: var(--color-bg);">
 
       <!-- Main nav: Home + Categories directly (vertical stack) -->
       <nav class="p-2 flex flex-col gap-0.5" id="readerSubtabs">
@@ -207,8 +207,8 @@
 
     </main>
 
-    <!-- ── MOBILE RIGHT SIDEBAR OVERLAY ──────────────────── -->
-    <div id="mobileRightSidebarOverlay" class="fixed inset-0 z-40 bg-black/50 hidden md:hidden" onclick="closeMobileRightSidebar()"></div>
+    <!-- ── MOBILE/TABLET RIGHT SIDEBAR OVERLAY ──────────────────── -->
+    <div id="mobileRightSidebarOverlay" class="fixed inset-0 z-40 bg-black/50 hidden lg:hidden" onclick="closeMobileRightSidebar()"></div>
 
     <!-- ── RIGHT SIDEBAR ───────────────────────────────────── -->
     <aside id="rightSidebar" class="right-sidebar hidden lg:flex flex-col flex-shrink-0 px-4 pt-6 pb-4 gap-5" style="width: 260px; border-left: 1px solid var(--color-border-heavy); background-color: var(--color-bg);">

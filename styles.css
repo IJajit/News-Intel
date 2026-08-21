@@ -2301,8 +2301,8 @@ article.group:hover h2 a {
   background-color: rgba(255,255,255,0.05);
 }
 
-/* ─── MOBILE LEFT SIDEBAR SLIDE-IN ─────────────────────────── */
-@media (max-width: 767px) {
+/* ─── MOBILE & TABLET SIDEBAR SLIDE-IN ─────────────────────────── */
+@media (max-width: 1023px) {
   .left-sidebar {
     display: flex !important;
     position: fixed;
