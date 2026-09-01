@@ -204,7 +204,7 @@ def fetch_feed(source):
         )
         
         # Use unverified SSL context to bypass SSL certification errors on Windows
-        kwargs = {'timeout': 12}
+        kwargs = {'timeout': 6}
         if ssl_context:
             kwargs['context'] = ssl_context
             
@@ -336,7 +336,7 @@ def scrape_article_description(art):
                 'Referer': 'https://www.google.com/'
             }
         )
-        kwargs = {'timeout': 8}
+        kwargs = {'timeout': 4}
         if ssl_context:
             kwargs['context'] = ssl_context
         with urllib.request.urlopen(req, **kwargs) as response:
@@ -1421,7 +1421,7 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                 stories_sorted = sorted(stories, key=lambda s: s.get('combined_score', 0), reverse=True)
                 print(f"[PIPELINE] Generating briefs for {len(stories_sorted)} stories (Groq + BART fallback)")
 
-                with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
+                with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
                     fut_map = {}
                     for story in stories_sorted:
                         fut = pool.submit(generate_story_brief, story, ssl_context, HF_API_TOKEN, groq_api_key)

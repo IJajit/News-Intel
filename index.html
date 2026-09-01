@@ -154,23 +154,23 @@
     <!-- ── MAIN CONTENT AREA ───────────────────────────────── -->
     <main id="mainContent" class="flex-1 overflow-y-auto px-4 md:px-8 pt-0 pb-16">
 
-      <!-- Empty / Initial State -->
-      <div id="stateEmpty" class="empty-state p-12 bg-transparent text-center space-y-6" role="status">
-        <div class="empty-state-icon text-4xl text-primary-container">↴</div>
-        <div class="empty-state-text text-xl font-headline-md font-bold text-on-surface">Ready for Intelligence Gathering</div>
-        <p class="empty-state-sub text-on-surface-variant max-w-md mx-auto">
-          Click <strong>UPDATE FEED</strong> to fetch live breaking news from 9 verified feeds and compile your AI-powered executive briefing.
+      <!-- Empty State (Hidden by default) -->
+      <div id="stateEmpty" class="empty-state p-12 bg-transparent text-center space-y-6" style="display: none;" role="status">
+        <div class="empty-state-icon text-3xl text-primary-container">↴</div>
+        <p class="empty-state-sub text-on-surface-variant max-w-md mx-auto text-sm">
+          No briefings found. Click <strong>UPDATE FEED</strong> to generate the latest intelligence brief.
         </p>
       </div>
 
-      <!-- Loading State (Centered spinner icon only) -->
-      <div id="stateLoading" class="loading-container p-16 bg-transparent flex flex-col items-center justify-center space-y-8" style="display: none;" role="status" aria-live="polite">
+      <!-- Loading State (Active on launch with sleek modern skeleton/indicator) -->
+      <div id="stateLoading" class="loading-container p-12 bg-transparent flex flex-col items-center justify-center space-y-6" role="status" aria-live="polite">
         <div class="loading-grid grid grid-cols-2 gap-2 w-10 h-10 animate-pulse">
           <div class="loading-cell bg-primary-container w-4 h-4"></div>
           <div class="loading-cell bg-primary-container opacity-65 w-4 h-4"></div>
           <div class="loading-cell bg-primary-container opacity-65 w-4 h-4"></div>
           <div class="loading-cell bg-primary-container w-4 h-4"></div>
         </div>
+        <div id="loadingStatusText" class="font-mono text-xs uppercase tracking-widest text-on-surface-variant animate-pulse">Retrieving Latest Intelligence...</div>
       </div>
 
       <!-- Homepage Tab -->

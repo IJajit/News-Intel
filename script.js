@@ -66,8 +66,10 @@ document.addEventListener('DOMContentLoaded', () => {
   checkServerConfig();
   fetchSources();
 
-  loadLatestBrief(activeTab === 'homepage' ? 'homepage' : 'global').then(() => {
-    setTimeout(() => triggerBriefingGeneration(), 800);
+  loadLatestBrief(activeTab === 'homepage' ? 'homepage' : 'global').then((hasData) => {
+    if (!hasData) {
+      triggerBriefingGeneration();
+    }
   });
 
   fetchWikiIntel();
@@ -364,13 +366,19 @@ async function loadLatestBrief(category) {
     if (!res.ok) throw new Error('Briefing not found');
 
     const brief = await res.json();
-    currentBriefing = brief;
+    if (!brief || !brief.stories || brief.stories.length === 0) {
+      currentBriefing = null;
+      return false;
+    }
 
+    currentBriefing = brief;
     renderBriefing(brief);
     switchTab(activeTab);
+    return true;
   } catch (err) {
     console.error('Error loading latest brief:', err);
     currentBriefing = null;
+    return false;
   } finally {
     setLoadingState(false);
   }
