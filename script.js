@@ -226,13 +226,8 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('.sidebar-nav-btn').forEach(b => b.classList.remove('active'));
       }
       
-      // Re-render views
-      if (currentBriefing) {
-        if (readerContent) {
-          readerContent.innerHTML = renderReaderView(currentBriefing);
-        }
-        renderArticlesList();
-      }
+      // Switch and fetch full category stories
+      switchReaderCategory(cat);
     });
   }
 
@@ -633,14 +628,17 @@ function renderStoryCard(story, numbered, num) {
 
 // ─── HOMEPAGE VIEW ────────────────────────────────────────────
 function renderHomepageView(brief) {
-  const stories = brief.stories || [];
+  const allStories = brief.stories || [];
 
-  if (!stories || stories.length === 0) {
+  if (!allStories || allStories.length === 0) {
     return '<div class="empty-state" style="min-height: 120px; padding: 2rem 0;"><div class="empty-state-text">No articles available. Click Refresh Feed.</div></div>';
   }
 
+  // Ensure homepage only showcases the top 20 most popular stories
+  const top20Stories = allStories.slice(0, 20);
+
   let html = '<div class="space-y-0">';
-  for (const story of stories) {
+  for (const story of top20Stories) {
     html += renderStoryCard(story, false);
   }
   html += '</div>';

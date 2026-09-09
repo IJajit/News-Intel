@@ -1565,7 +1565,11 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
 
                 # Send appropriate response for the requested category
                 if category == 'homepage':
-                    self.send_json(homepage_data)
+                    hp_resp = dict(homepage_data)
+                    if len(hp_resp.get('stories', [])) > 20:
+                        hp_resp['stories'] = hp_resp['stories'][:20]
+                        hp_resp['articlesCount'] = len(hp_resp['stories'])
+                    self.send_json(hp_resp)
                 elif category == 'global':
                     self.send_json(global_data)
                 else:
