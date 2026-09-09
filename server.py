@@ -1037,7 +1037,7 @@ def _validate_brief_minmax(brief_text, min_words=130, max_words=220):
     trimmed = " ".join(brief_text.strip().split()[:max_words])
     return trimmed, max_words, True
 
-def generate_story_brief(story, ssl_ctx, hf_token="", groq_api_key=""):
+def generate_story_brief(story, ssl_ctx, hf_token="", groq_api_key="", gemini_api_key=""):
     # Combine content from all clustered sources so Gemini has full context
     all_contents = []
     for s in story.get('sources', []):
@@ -1054,7 +1054,7 @@ def generate_story_brief(story, ssl_ctx, hf_token="", groq_api_key=""):
     
     try:
         from news_summarizer import generate_deep_dive_brief
-        deep_dive = generate_deep_dive_brief(combined_content, title=primary_headline)
+        deep_dive = generate_deep_dive_brief(combined_content, title=primary_headline, gemini_key=gemini_api_key)
         if isinstance(deep_dive, dict):
             brief_bullets = deep_dive.get("brief", [])
             wim_bullets = deep_dive.get("why_it_matters", [])
@@ -1431,6 +1431,7 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
             grounded_time = body.get('groundedTime', datetime.now(timezone.utc).isoformat())
             category = body.get('category', 'global').lower()
             groq_api_key = os.environ.get('GROQ_API_KEY', '')
+            gemini_api_key = self.headers.get('x-api-key', '') or body.get('apiKey', '') or os.environ.get('GEMINI_API_KEY', '')
 
             try:
                 # Step 1: Always fetch all articles from the past 24 hours
@@ -1451,12 +1452,12 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                 # Step 3: Generate brief for each story in parallel
                 brief_cache = {}
                 stories_sorted = sorted(stories, key=lambda s: s.get('combined_score', 0), reverse=True)
-                print(f"[PIPELINE] Generating briefs for {len(stories_sorted)} stories (Groq + BART fallback)")
+                print(f"[PIPELINE] Generating briefs for {len(stories_sorted)} stories (Gemini API)")
 
                 with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
                     fut_map = {}
                     for story in stories_sorted:
-                        fut = pool.submit(generate_story_brief, story, ssl_context, HF_API_TOKEN, groq_api_key)
+                        fut = pool.submit(generate_story_brief, story, ssl_context, HF_API_TOKEN, groq_api_key, gemini_api_key)
                         fut_map[fut] = story
                     for future in concurrent.futures.as_completed(fut_map):
                         story = fut_map[future]

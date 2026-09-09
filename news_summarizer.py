@@ -136,73 +136,6 @@ def _structured_fallback(text, title=""):
     }
 
 
-def _call_omniroute_api(text, title=""):
-    """Call OmniRoute local AI router (using gemini-3.1-flash-lite)."""
-    clean = _clean_rss_artifacts(text) or title
-    if not clean:
-        return None
-
-    prompt = f"""You are an executive news intelligence editor. Write a thorough, comprehensive, and elaborate analytical news brief for the following story.
-
-EDITORIAL REQUIREMENTS:
-- Provide an elaborate narrative brief of 120-180 words (4 to 6 substantive sentences) that thoroughly explains what happened, key individuals, organizations, decisions, verified facts, and broader implications.
-- Do NOT overly compress or truncate into a single short sentence. Explain the entire story properly.
-- Write in clean, publication-ready prose. No bullet points, no headers, no emojis.
-- Also provide a concise why_it_matters statement (1-2 sentences) detailing strategic impact and consequences.
-
-Title: {title}
-Article content: {clean[:3000]}
-
-Respond ONLY with valid JSON in this format:
-{{
-  "brief": "Comprehensive, elaborate multi-sentence narrative explanation of the story...",
-  "why_it_matters": "Strategic downstream consequences..."
-}}"""
-
-    url = "http://localhost:20128/v1/chat/completions"
-    payload = {
-        "model": "antigravity/gemini-3.1-flash-lite",
-        "messages": [
-            {"role": "system", "content": "You are an executive news editor. Output only valid JSON."},
-            {"role": "user", "content": prompt}
-        ],
-        "temperature": 0.25,
-        "response_format": {"type": "json_object"}
-    }
-    headers = {
-        'Content-Type': 'application/json',
-        'Authorization': 'Bearer sk-antigravity-bridge'
-    }
-    data = json.dumps(payload).encode('utf-8')
-    req = urllib.request.Request(url, data=data, headers=headers, method='POST')
-
-    try:
-        with urllib.request.urlopen(req, timeout=20) as resp:
-            resp_data = json.loads(resp.read().decode('utf-8'))
-            choices = resp_data.get('choices', [])
-            if choices:
-                raw_content = choices[0].get('message', {}).get('content', '')
-                raw_content = re.sub(r'^```json\s*', '', raw_content.strip(), flags=re.IGNORECASE)
-                raw_content = re.sub(r'^```\s*', '', raw_content.strip(), flags=re.IGNORECASE)
-                raw_content = re.sub(r'```$', '', raw_content.strip())
-                parsed = json.loads(raw_content)
-
-                brief_text = parsed.get("brief", "").strip()
-                wim_text = parsed.get("why_it_matters", "").strip()
-                if brief_text:
-                    full_brief = f"{brief_text} {wim_text}".strip() if wim_text else brief_text
-                    return {
-                        "brief": [brief_text],
-                        "why_it_matters": [wim_text] if wim_text else [],
-                        "summary": full_brief
-                    }
-    except Exception as e:
-        # Silently proceed to next provider
-        pass
-
-    return None
-
-
 def _call_gemini_api(text, title="", gemini_key=""):
     api_key = gemini_key or os.environ.get("GEMINI_API_KEY", "")
     if not api_key:
@@ -230,83 +163,82 @@ EDITORIAL REQUIREMENTS:
 - Also provide a concise why_it_matters statement (1-2 sentences) detailing strategic impact and consequences.
 
 Title: {title}
-Article: {clean[:3000]}
+Article content: {clean[:3000]}
 
-Respond ONLY with valid JSON in this format:
+Respond ONLY with valid JSON in this exact structure:
 {{
   "brief": "Comprehensive, elaborate multi-sentence narrative explanation of the story...",
   "why_it_matters": "Strategic downstream consequences..."
 }}"""
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
     payload = {
         "contents": [{
             "parts": [{"text": prompt}]
         }],
         "generationConfig": {
-            "temperature": 0.2
+            "temperature": 0.2,
+            "responseMimeType": "application/json"
         }
     }
 
     headers = {'Content-Type': 'application/json'}
     data = json.dumps(payload).encode('utf-8')
-    req = urllib.request.Request(url, data=data, headers=headers, method='POST')
 
-    try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            resp_data = json.loads(resp.read().decode('utf-8'))
-            candidates = resp_data.get('candidates', [])
-            if candidates:
-                part_text = candidates[0].get('content', {}).get('parts', [{}])[0].get('text', '')
-                part_text = re.sub(r'^```json\s*', '', part_text.strip(), flags=re.IGNORECASE)
-                part_text = re.sub(r'^```\s*', '', part_text.strip(), flags=re.IGNORECASE)
-                part_text = re.sub(r'```$', '', part_text.strip())
-                parsed = json.loads(part_text)
+    # Try supported models in priority order
+    candidate_models = ["gemini-3.5-flash", "gemini-2.5-flash", "gemini-3.5-flash-lite"]
 
-                brief_text = parsed.get("brief", "")
-                if isinstance(brief_text, list):
-                    brief_text = " ".join(brief_text)
-                wim_text = parsed.get("why_it_matters", "")
-                if isinstance(wim_text, list):
-                    wim_text = " ".join(wim_text)
+    for model_name in candidate_models:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={api_key}"
+        req = urllib.request.Request(url, data=data, headers=headers, method='POST')
+        try:
+            with urllib.request.urlopen(req, timeout=18) as resp:
+                resp_data = json.loads(resp.read().decode('utf-8'))
+                candidates = resp_data.get('candidates', [])
+                if candidates:
+                    part_text = candidates[0].get('content', {}).get('parts', [{}])[0].get('text', '')
+                    part_text = re.sub(r'^```json\s*', '', part_text.strip(), flags=re.IGNORECASE)
+                    part_text = re.sub(r'^```\s*', '', part_text.strip(), flags=re.IGNORECASE)
+                    part_text = re.sub(r'```$', '', part_text.strip())
+                    parsed = json.loads(part_text)
 
-                brief_text = brief_text.strip()
-                wim_text = wim_text.strip()
-                if brief_text:
-                    full_brief = f"{brief_text} {wim_text}".strip() if wim_text else brief_text
-                    return {
-                        "brief": [brief_text],
-                        "why_it_matters": [wim_text] if wim_text else [],
-                        "summary": full_brief
-                    }
-    except Exception as e:
-        pass
+                    brief_text = parsed.get("brief", "")
+                    if isinstance(brief_text, list):
+                        brief_text = " ".join(brief_text)
+                    wim_text = parsed.get("why_it_matters", "")
+                    if isinstance(wim_text, list):
+                        wim_text = " ".join(wim_text)
+
+                    brief_text = (brief_text or "").strip()
+                    wim_text = (wim_text or "").strip()
+                    if brief_text:
+                        full_brief = f"{brief_text} {wim_text}".strip() if wim_text else brief_text
+                        return {
+                            "brief": [brief_text],
+                            "why_it_matters": [wim_text] if wim_text else [],
+                            "summary": full_brief
+                        }
+        except Exception:
+            continue
 
     return None
 
 
 def generate_deep_dive_brief(content, title="", gemini_key=""):
     """
-    Main entry point for generating Deep-Dive Analytical Briefs.
-    Tries OmniRoute local inference first, then Gemini cloud API, then high-depth structured fallback.
+    Main entry point for generating Deep-Dive Analytical Briefs using Gemini API.
+    Irrespective of the device, calls Google Gemini API directly, with high-depth structured fallback.
     """
     cache_key = f"{title}_{hash(content[:200])}"
     if cache_key in SUMMARY_CACHE:
         return SUMMARY_CACHE[cache_key]
 
-    # 1. OmniRoute AI router (free, unlimited local bridge)
-    omni_result = _call_omniroute_api(content, title=title)
-    if omni_result:
-        SUMMARY_CACHE[cache_key] = omni_result
-        return omni_result
-
-    # 2. Gemini Cloud API
+    # 1. Direct Gemini API call
     gemini_result = _call_gemini_api(content, title=title, gemini_key=gemini_key)
     if gemini_result:
         SUMMARY_CACHE[cache_key] = gemini_result
         return gemini_result
 
-    # 3. High-depth multi-sentence structured analytical fallback
+    # 2. High-depth multi-sentence structured analytical fallback
     fallback = _structured_fallback(content, title=title)
     SUMMARY_CACHE[cache_key] = fallback
     return fallback
