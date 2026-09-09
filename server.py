@@ -1056,38 +1056,28 @@ def generate_story_brief(story, ssl_ctx, hf_token="", groq_api_key=""):
         from news_summarizer import generate_deep_dive_brief
         deep_dive = generate_deep_dive_brief(combined_content, title=primary_headline)
         if isinstance(deep_dive, dict):
+            brief_bullets = deep_dive.get("brief", [])
+            wim_bullets = deep_dive.get("why_it_matters", [])
             summary = deep_dive.get("summary", "")
-            if not summary:
-                # Fallback to combining bullets or values if summary key not directly returned
-                vals = []
-                for k, v in deep_dive.items():
-                    if isinstance(v, list): vals.extend(v)
-                    elif isinstance(v, str): vals.append(v)
-                summary = " ".join(vals)
+            if not summary and brief_bullets:
+                summary = " ".join(brief_bullets)
             summary = summary.strip()
             wc = len(summary.split())
-            return summary, wc
+            return {
+                "brief": brief_bullets if isinstance(brief_bullets, list) else [str(brief_bullets)],
+                "why_it_matters": wim_bullets if isinstance(wim_bullets, list) else [str(wim_bullets)],
+                "summary": summary,
+                "word_count": wc
+            }
     except Exception as e:
         print(f"[BRIEF] {story_label}: Gemini Deep-Dive Brief error: {e}")
 
-    return "Brief unavailable for this story.", 5
-
-    # Last resort: short extractive from primary source only
-    if primary_content and len(primary_content.strip()) > 30:
-        print(f"[BRIEF] {story_label}: === EXTRACTIVE FALLBACK START ===")
-        # Try progressively more sentences to get as much content as possible
-        for max_sent in [2, 5, 10]:
-            brief = _fallback_extractive(primary_content, max_sentences=max_sent)
-            wc = len(brief.split())
-            print(f"[BRIEF] {story_label}: extractive ({max_sent} sentences): {wc} words")
-            if wc >= 30:
-                break
-        brief, wc = _validate_or_trim(brief, max_words=220)
-        print(f"[BRIEF] {story_label}: === EXTRACTIVE FALLBACK RESULT ({wc} words): {repr(brief[:120])} ===")
-        return brief, wc
-
-    print(f"[BRIEF] {story_label}: === ALL PATHS EXHAUSTED — returning unavailable ===")
-    return "Brief unavailable for this story.", 5
+    return {
+        "brief": ["Brief unavailable for this story."],
+        "why_it_matters": ["Monitoring ongoing developments."],
+        "summary": "Brief unavailable for this story.",
+        "word_count": 5
+    }
 
 
 def get_system_prompt(formatted_date, category):
@@ -1367,6 +1357,10 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                 try:
                     with open(filepath, 'r', encoding='utf-8') as file:
                         data = json.load(file)
+                        # Cap homepage feed to top 20 stories to guarantee lightweight payload
+                        if category == 'homepage' and isinstance(data.get('stories'), list):
+                            if len(data['stories']) > 20:
+                                data['stories'] = data['stories'][:20]
                         self.send_json(data)
                 except Exception as err:
                     self.send_json({"error": "Failed to read briefing"}, 500)
@@ -1429,27 +1423,34 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                     for future in concurrent.futures.as_completed(fut_map):
                         story = fut_map[future]
                         try:
-                            brief_text, word_count = future.result()
+                            res = future.result()
+                            if isinstance(res, dict):
+                                brief_bullets = res.get("brief", [])
+                                wim_bullets = res.get("why_it_matters", [])
+                                summary = res.get("summary", "")
+                                if not summary and brief_bullets:
+                                    summary = " ".join(brief_bullets)
+                                word_count = res.get("word_count", len(summary.split()))
+                            else:
+                                summary = str(res)
+                                brief_bullets = [summary]
+                                wim_bullets = []
+                                word_count = len(summary.split())
+
                             brief_cache[story["story_id"]] = {
-                                "brief": truncate_to_words(clean_content(brief_text), 200),
+                                "brief_bullets": brief_bullets,
+                                "why_it_matters_bullets": wim_bullets,
+                                "brief": summary,
                                 "brief_word_count": word_count
                             }
                         except Exception as e:
                             print(f"Brief generation failed for story {story['story_id']}: {e}")
                             brief_cache[story["story_id"]] = {
+                                "brief_bullets": ["Brief could not be generated for this story."],
+                                "why_it_matters_bullets": ["Please check source links directly."],
                                 "brief": "Brief could not be generated for this story.",
                                 "brief_word_count": 0
                             }
-
-                # Step 3b: Final validation — log every brief's word count
-                for sid, cached in brief_cache.items():
-                    bw = cached.get("brief_word_count", 0)
-                    btxt = cached.get("brief", "")
-                    btxt_wc = len(btxt.split()) if btxt else 0
-                    if bw < 130:
-                        print(f"[FINAL] story={sid}: brief_word_count={bw}, actual_wc={btxt_wc} — BELOW 130-WORD MINIMUM, preview={repr(btxt[:80])}")
-                    elif bw > 220:
-                        print(f"[FINAL] story={sid}: brief_word_count={bw} — OVER 220-WORD MAXIMUM")
 
                 # Step 4: Assemble story objects with briefs attached
                 story_objects = []
@@ -1472,10 +1473,19 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                         "source_count": story["source_count"],
                         "total_count": story["total_count"],
                         "combined_score": story["combined_score"],
+                        "brief_bullets": cached.get("brief_bullets", []),
+                        "why_it_matters_bullets": cached.get("why_it_matters_bullets", []),
                         "brief": cached.get("brief", ""),
                         "brief_word_count": cached.get("brief_word_count", 0)
                     }
                     story_objects.append(story_obj)
+
+                # Sort by multi-source cross-verification and score
+                story_objects.sort(key=lambda s: (s.get("source_count", 1), s.get("combined_score", 0)), reverse=True)
+
+                # If category is homepage, strictly cap to top 20 stories!
+                if category == 'homepage':
+                    story_objects = story_objects[:20]
 
                 brief_data = {
                     "id": "latest",
