@@ -648,19 +648,16 @@ function renderStoryCard(story, numbered, num) {
         </div>
 
         ${briefHtml ? `
-          <div class="story-section-title">BRIEF</div>
           <ul class="story-bullet-list">
             ${briefHtml}
           </ul>
         ` : ''}
 
         ${wimHtml ? `
-          <div class="story-wim-container">
-            <div class="story-wim-title">WHY IT MATTERS</div>
-            <ul class="story-bullet-list">
-              ${wimHtml}
-            </ul>
-          </div>
+          <div class="story-section-title" style="margin-top:1rem;">WHY IT MATTERS</div>
+          <ul class="story-bullet-list">
+            ${wimHtml}
+          </ul>
         ` : ''}
 
         ${sourcesHtml}

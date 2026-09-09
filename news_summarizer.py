@@ -83,7 +83,7 @@ def _structured_fallback(text, title=""):
     
     if len(unique_sentences) == 1:
         brief_bullets = [unique_sentences[0]]
-        wim_bullets = ["Key developments are continuing to unfold."]
+        wim_bullets = []
     elif len(unique_sentences) == 2:
         brief_bullets = [unique_sentences[0]]
         wim_bullets = [unique_sentences[1]]
