@@ -2460,33 +2460,25 @@ article.group:hover h2 a {
   color: #a1a1aa !important;
 }
 
-/* Why It Matters Title: clear orange header with modest top spacing */
-.story-wim-title {
-  font-family: var(--font-label-caps, 'Inter', sans-serif) !important;
-  font-size: 10px !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.12em !important;
-  font-weight: 700 !important;
-  color: var(--color-orange, #e85d04) !important;
-  margin-top: 0.65rem !important;
-  margin-bottom: 0.15rem !important;
+/* Why It Matters bullet list:
+   - Text stays white/neutral matching the brief text
+   - ONLY the bullet point (::marker) is orange
+   - Subtle margin-top separates it from the brief bullets
+*/
+.briefing-reader ul.story-wim-list {
+  margin-top: 0.35rem !important;
 }
-.dark .story-wim-title {
-  color: #ff7849 !important;
-}
-
-/* Why It Matters bullet list: distinct warm color for bullets and marker */
 .briefing-reader ul.story-wim-list > li {
-  color: #c25400 !important;
+  color: var(--color-black) !important;
 }
 .briefing-reader ul.story-wim-list > li::marker {
   color: var(--color-orange, #e85d04) !important;
 }
 .dark .briefing-reader ul.story-wim-list > li {
-  color: #ff9e66 !important;
+  color: #ffffff !important;
 }
 .dark .briefing-reader ul.story-wim-list > li::marker {
-  color: #ff7849 !important;
+  color: var(--color-orange, #e85d04) !important;
 }
 
 .reading-estimate-header {

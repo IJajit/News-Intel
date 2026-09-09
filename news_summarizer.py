@@ -48,55 +48,82 @@ def _split_sentences(text):
     return [s.strip() for s in raw if len(s.strip()) > 15]
 
 
+def _derive_specific_wim(title, text):
+    combined = (title + " " + text).lower()
+    if any(k in combined for k in ['iran', 'hormuz', 'oil', 'strait', 'gulf', 'tanker', 'crude', 'petrol', 'diesel', 'opec']):
+        return "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+    if any(k in combined for k in ['ukraine', 'russia', 'putin', 'zelensky', 'drone', 'leipzig', 'nato', 'missile', 'kyiv', 'moscow', 'consulate', 'hybrid']):
+        return "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
+    if any(k in combined for k in ['israel', 'gaza', 'hamas', 'hezbollah', 'lebanon', 'beirut', 'ceasefire', 'netanyahu', 'hostage']):
+        return "Directly impacts regional security balances and humanitarian conditions, testing international ceasefire mediation."
+    if any(k in combined for k in ['china', 'taiwan', 'beijing', 'south china sea', 'xi jinping', 'philippines']):
+        return "Carries profound strategic implications for Indo-Pacific maritime navigation, technology supply chains, and regional alliances."
+    if any(k in combined for k in ['trump', 'biden', 'white house', 'congress', 'senate', 'election', 'voting', 'ballot', 'usps', 'democrat', 'republican']):
+        return "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
+    if any(k in combined for k in ['stab', 'police', 'shooting', 'nypd', 'killed', 'times square', 'arrest', 'suspect', 'investigation']):
+        return "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+    if any(k in combined for k in ['heat', 'temperature', 'hottest', 'climate', 'met office', 'weather', 'flood', 'wildfire', 'storm', 'hurricane', 'monsoon']):
+        return "Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
+    if any(k in combined for k in ['cancer', 'vaccine', 'drug', 'fda', 'trial', 'health', 'disease', 'hospital', 'medical', 'patient']):
+        return "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
+    if any(k in combined for k in ['ai', 'artificial intelligence', 'apple', 'google', 'microsoft', 'nvidia', 'meta', 'openai', 'chip', 'semiconductor', 'software']):
+        return "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+    if any(k in combined for k in ['cyber', 'hack', 'breach', 'security', 'ransomware', 'malware']):
+        return "Highlights persistent enterprise infrastructure vulnerabilities, prompting defensive upgrades and compliance scrutiny."
+    if any(k in combined for k in ['fed', 'interest rate', 'inflation', 'treasury', 'central bank', 'yield', 'rate cut', 'rate hike']):
+        return "Directly influences borrowing costs, consumer spending appetite, and capital deployment across global financial markets."
+    if any(k in combined for k in ['tariff', 'trade', 'export', 'import', 'wto', 'customs', 'duty']):
+        return "Pressures corporate margins and forces cross-border supply chain realignments for international manufacturers."
+    if any(k in combined for k in ['earnings', 'revenue', 'profit', 'shares', 'stock', 'nasdaq', 's&p', 'dow', 'market cap']):
+        return "Influences institutional investor sentiment and valuation benchmarks across key equity and corporate market segments."
+    if any(k in combined for k in ['layoff', 'job', 'unemployment', 'workforce', 'hiring', 'strike', 'union']):
+        return "Reflects broader macroeconomic labor market adjustments as employers rebalance operating costs."
+    if any(k in combined for k in ['fifa', 'world cup', 'match', 'goal', 'score', 'tournament', 'championship', 'league', 'ipl', 'cricket', 'bcci', 'icc']):
+        return "Shapes tournament standings and competitive momentum ahead of upcoming qualifying fixtures."
+    core_title = re.sub(r'(\s*[-|–—]\s*[^-|–—]+)$', '', title).strip()
+    return f"Carries notable operational, policy, and market consequences surrounding '{core_title}'."
+
 def _structured_fallback(text, title=""):
     """
-    Informative fallback when Gemini API encounters rate limit/delay.
     Extracts core article sentences into clean, thorough bulleted brief and why_it_matters lists.
     """
     clean = _clean_rss_artifacts(text)
     if not clean or len(clean.strip()) < 15:
         clean = title
     
-    # Strip title if it was prepended to text
     clean = re.sub(re.escape(title), '', clean, flags=re.IGNORECASE).strip()
     sentences = _split_sentences(clean)
     
-    # Filter out duplicate or near-duplicate sentences
+    core_title = re.sub(r'(\s*[-|–—]\s*[^-|–—]+)$', '', title).strip()
+    
+    # Filter duplicate sentences
     unique_sentences = []
     seen_lower = set()
     for s in sentences:
         s_norm = s.lower().strip()
         if s_norm not in seen_lower and len(s_norm) > 15:
             seen_lower.add(s_norm)
-            # Ensure proper punctuation at end of sentence
             if not s.endswith(('.', '!', '?')):
                 s += '.'
             unique_sentences.append(s)
             
     if not unique_sentences:
-        clean_title = title if title.endswith(('.', '!', '?')) else title + '.'
+        clean_title = core_title if core_title.endswith(('.', '!', '?')) else core_title + '.'
         return {
             "brief": [clean_title],
-            "why_it_matters": [f"Follow developments on this breaking event."],
+            "why_it_matters": [_derive_specific_wim(core_title, clean_title)],
             "summary": clean_title
         }
     
-    if len(unique_sentences) == 1:
-        brief_bullets = [unique_sentences[0]]
-        clean_title = re.sub(r'(\s*-\s*[^-]+)$', '', title).strip() if title else ""
-        if clean_title and clean_title.lower() not in unique_sentences[0].lower():
-            wim_bullets = [f"Carries significant policy, operational, and market consequences surrounding {clean_title}."]
-        else:
-            wim_bullets = ["Carries strategic, policy, and market implications for affected stakeholders as details emerge."]
+    if len(unique_sentences) >= 3:
+        brief_bullets = unique_sentences[:2]
+        wim_bullets = [unique_sentences[2]]
     elif len(unique_sentences) == 2:
         brief_bullets = [unique_sentences[0]]
         wim_bullets = [unique_sentences[1]]
-    elif len(unique_sentences) == 3:
-        brief_bullets = unique_sentences[:2]
-        wim_bullets = [unique_sentences[2]]
     else:
-        brief_bullets = unique_sentences[:3]
-        wim_bullets = unique_sentences[3:5]
+        brief_bullets = [unique_sentences[0]]
+        wim_bullets = [_derive_specific_wim(core_title, unique_sentences[0])]
 
     return {
         "brief": brief_bullets,

@@ -674,7 +674,6 @@ function renderStoryCard(story, numbered, num) {
         ` : ''}
 
         ${wimHtml ? `
-          <div class="story-section-title story-wim-title">WHY IT MATTERS</div>
           <ul class="story-bullet-list story-wim-list">
             ${wimHtml}
           </ul>
