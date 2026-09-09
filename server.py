@@ -1363,13 +1363,14 @@ def seed_briefs():
     for cat in all_cats:
         filepath = os.path.join(BRIEFINGS_DIR, f"latest_{cat}.json")
         seed_path = os.path.join(SEED_DIR, f"latest_{cat}.json")
-        if not os.path.exists(filepath):
-            if os.path.exists(seed_path):
+        if os.path.exists(seed_path):
+            if not os.path.exists(filepath) or os.path.getmtime(seed_path) > os.path.getmtime(filepath):
                 try:
                     shutil.copyfile(seed_path, filepath)
                     continue
                 except Exception as e:
                     print(f"Error copying seed for {cat}: {e}")
+        elif not os.path.exists(filepath):
             now_str = datetime.now(timezone.utc).isoformat()
             brief_data = {
                 "id": "initial",
