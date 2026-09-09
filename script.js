@@ -592,27 +592,6 @@ const CATEGORY_LABELS = {
 
 const CATEGORY_ORDER = ['Finance', 'Technology', 'Geopolitics', 'Science', 'Sports', 'Culture', 'Society'];
 
-// ─── RENDER BULLET LISTS (EXECUTIVE FORMAT) ───────────────────
-function formatStoryBullets(bullets, fallbackText) {
-  if (Array.isArray(bullets) && bullets.length > 0) {
-    return bullets
-      .map(b => String(b).replace(/^[\u2022\u00b7\u25aa\u25ab\u2023\u2043\u2219•\-\*\s]+/, '').trim())
-      .filter(b => b.length > 0)
-      .map(b => `<li>${escapeHtml(b)}</li>`)
-      .join('');
-  }
-  if (fallbackText) {
-    const cleanText = String(fallbackText).replace(/^[\u2022\u00b7\u25aa\u25ab\u2023\u2043\u2219•\-\*]\s*/gm, '').trim();
-    const sentences = cleanText.split(/(?<=[.!?])\s+/).map(s => s.trim()).filter(s => s.length > 12);
-    if (sentences.length > 0) {
-      return sentences.map(s => `<li>${escapeHtml(s)}</li>`).join('');
-    }
-    if (cleanText.length > 0) {
-      return `<li>${escapeHtml(cleanText)}</li>`;
-    }
-  }
-  return '';
-}
 
 function renderStoryCard(story, numbered, num) {
   const primary = story.primary_source || {};
@@ -623,28 +602,7 @@ function renderStoryCard(story, numbered, num) {
     hour: '2-digit', minute: '2-digit', day: 'numeric', month: 'short'
   }) : '';
   const extraCount = story.total_count - 1;
-
-  // Bullets for Brief
-  const briefBullets = (story.brief_bullets && story.brief_bullets.length > 0)
-    ? story.brief_bullets
-    : null;
-  const briefHtml = formatStoryBullets(briefBullets, story.brief || '');
-
-  // Bullets for Why It Matters - ensure always populated
-  let wimBullets = (story.why_it_matters_bullets && story.why_it_matters_bullets.length > 0)
-    ? story.why_it_matters_bullets
-    : (story.why_it_matters ? [story.why_it_matters] : null);
-
-  if (!wimBullets || wimBullets.length === 0) {
-    const headline = (story.primary_headline || '').replace(/(\s*-\s*[^-]+)$/, '').trim();
-    const cat = story.category || 'this sector';
-    wimBullets = [
-      headline
-        ? `Carries notable policy, regulatory, and market implications surrounding ${headline}.`
-        : `Carries strategic, policy, and market implications for ${cat} stakeholders as developments unfold.`
-    ];
-  }
-  const wimHtml = formatStoryBullets(wimBullets, '');
+  const brief = story.brief || story.summary || '';
 
   const sourcesHtml = extraCount > 0 ? renderSourcesList(story.sources, primaryUrl) : '';
 
@@ -655,30 +613,18 @@ function renderStoryCard(story, numbered, num) {
   const containerClass = numbered ? 'flex items-start gap-3' : '';
 
   return `
-    <article class="group space-y-2 py-4 border-b border-[var(--color-border-heavy)] ${containerClass}" style="border-color: var(--color-border-heavy);">
+    <article class="group space-y-2 py-3.5 border-b border-[var(--color-border-heavy)] ${containerClass}" style="border-color: var(--color-border-heavy);">
       ${numberHtml}
-      <div class="space-y-2 flex-1">
+      <div class="space-y-1.5 flex-1">
         <h2 class="font-headline-md text-base font-semibold leading-snug text-primary-container transition-colors">
           <a href="${escapeHtml(primaryUrl)}" target="_blank" rel="noopener noreferrer" class="headline-link hover:text-[var(--color-orange)] transition-colors">${escapeHtml(story.primary_headline)}</a>
         </h2>
-        <div class="story-meta-row">
+        <div class="flex items-center gap-2">
           <span class="source-badge">${escapeHtml(primaryName)}</span>
           ${extraCount > 0 ? `<span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono">+${extraCount} other source${extraCount > 1 ? 's' : ''}</span>` : ''}
           ${timeStr ? `<span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono">${timeStr}</span>` : ''}
         </div>
-
-        ${briefHtml ? `
-          <ul class="story-bullet-list story-brief-list">
-            ${briefHtml}
-          </ul>
-        ` : ''}
-
-        ${wimHtml ? `
-          <ul class="story-bullet-list story-wim-list">
-            ${wimHtml}
-          </ul>
-        ` : ''}
-
+        ${brief ? renderExcerpt(brief, 'font-body-md leading-relaxed text-xs mt-1.5 opacity-90 text-[var(--color-black)] dark:text-[#e4e4e7]') : ''}
         ${sourcesHtml}
       </div>
     </article>
@@ -693,10 +639,8 @@ function renderHomepageView(brief) {
     return '<div class="empty-state" style="min-height: 120px; padding: 2rem 0;"><div class="empty-state-text">No articles available. Click Refresh Feed.</div></div>';
   }
 
-  // Top 20 stories strictly
-  const top20 = stories.slice(0, 20);
   let html = '<div class="space-y-0">';
-  for (const story of top20) {
+  for (const story of stories) {
     html += renderStoryCard(story, false);
   }
   html += '</div>';

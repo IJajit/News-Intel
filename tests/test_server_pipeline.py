@@ -5,13 +5,11 @@ import unittest
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 class TestServerPipeline(unittest.TestCase):
-    def test_homepage_capped_to_20_stories(self):
+    def test_homepage_delivers_all_stories(self):
         sample_stories = [{"story_id": f"s_{i}", "combined_score": i} for i in range(50)]
         sorted_stories = sorted(sample_stories, key=lambda s: s["combined_score"], reverse=True)
-        homepage_stories = sorted_stories[:20]
-        self.assertEqual(len(homepage_stories), 20)
-        self.assertEqual(homepage_stories[0]["story_id"], "s_49")
-        self.assertEqual(homepage_stories[-1]["story_id"], "s_30")
+        self.assertEqual(len(sorted_stories), 50)
+        self.assertEqual(sorted_stories[0]["story_id"], "s_49")
 
     def test_story_brief_structure(self):
         from news_summarizer import _structured_fallback

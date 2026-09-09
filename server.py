@@ -1381,9 +1381,7 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                         with open(global_path, 'r', encoding='utf-8') as gf:
                             global_data = json.load(gf)
                         all_st = global_data.get('stories', [])
-                        if category == 'homepage':
-                            filtered = all_st[:20]
-                        elif category == 'global':
+                        if category == 'homepage' or category == 'global':
                             filtered = all_st
                         else:
                             filtered = [s for s in all_st if (s.get('category') or '').lower() == category]
@@ -1397,9 +1395,6 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                         print(f"Error reading global fallback: {e}")
 
             if data and isinstance(data, dict):
-                # Ensure homepage is capped strictly to top 20
-                if category == 'homepage' and isinstance(data.get('stories'), list):
-                    data['stories'] = data['stories'][:20]
                 self.send_json(data)
             else:
                 self.send_json({"error": f"Latest briefing for category {category} not found"}, 404)
@@ -1537,12 +1532,12 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                 with open(os.path.join(BRIEFINGS_DIR, "latest_global.json"), "w", encoding="utf-8") as f:
                     json.dump(global_data, f, ensure_ascii=False)
 
-                # Save homepage briefing (top 20 stories)
+                # Save homepage briefing (all stories for past 24h)
                 homepage_data = {
                     "id": "latest",
                     "timestamp": grounded_time,
-                    "articlesCount": 20,
-                    "stories": story_objects[:20]
+                    "articlesCount": len(story_objects),
+                    "stories": story_objects
                 }
                 with open(os.path.join(BRIEFINGS_DIR, "latest_homepage.json"), "w", encoding="utf-8") as f:
                     json.dump(homepage_data, f, ensure_ascii=False)
