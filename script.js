@@ -80,6 +80,9 @@ document.addEventListener('DOMContentLoaded', () => {
             if (articlesCountVal) articlesCountVal.textContent = gBrief.articlesCount || gBrief.stories.length;
             renderArticlesList();
             renderRightSidebarArticles(gBrief.stories);
+            if (activeTab === 'reader' && readerContent) {
+              switchReaderCategory(activeCategory);
+            }
           }
         })
         .catch(() => {});
@@ -451,7 +454,7 @@ function renderBriefing(brief) {
     readerContent.innerHTML = renderReaderView(brief);
   }
   if (!window._globalStories || window._globalStories.length === 0) {
-    if (brief.category === 'global' || !brief.category) {
+    if (brief.category === 'global') {
       window._globalStories = brief.stories || [];
     }
   }
@@ -752,16 +755,16 @@ async function switchReaderCategory(category) {
 
   const catKey = category.toLowerCase();
 
-  // 1. If already cached in categoryBriefCache, display immediately
-  if (categoryBriefCache[catKey]) {
+  // 1. If already cached in categoryBriefCache with sufficient stories, display immediately
+  if (categoryBriefCache[catKey] && categoryBriefCache[catKey].stories && (categoryBriefCache[catKey].stories.length >= 15 || catKey === 'culture')) {
     const cached = categoryBriefCache[catKey];
     if (readerContent) readerContent.innerHTML = renderReaderView(cached);
     renderArticlesList();
     return;
   }
 
-  // 2. If 24h global stories exist in memory, filter and display immediately
-  if (window._globalStories && window._globalStories.length > 0) {
+  // 2. If 24h global stories exist in memory and is full dataset (> 50 stories), filter and display immediately
+  if (window._globalStories && window._globalStories.length > 50) {
     const isGlobal = (catKey === 'global');
     let catStories = isGlobal ? [...window._globalStories] : window._globalStories.filter(s => storyMatchesCategory(s, category));
     
@@ -784,6 +787,15 @@ async function switchReaderCategory(category) {
     if (readerContent) readerContent.innerHTML = renderReaderView(catBrief);
     renderArticlesList();
     return;
+  }
+
+  // Show clean loading state while fetching full category feed from server
+  if (readerContent) {
+    readerContent.innerHTML = `
+      <div class="p-8 text-center space-y-3">
+        <div class="font-mono text-xs uppercase tracking-widest text-[var(--color-orange)] animate-pulse">Loading ${escapeHtml(category)} Intelligence...</div>
+      </div>
+    `;
   }
 
   // 3. Asynchronously fetch category feed from server
@@ -812,11 +824,6 @@ async function switchReaderCategory(category) {
     }
   } catch (e) {
     console.error('Error fetching category brief:', e);
-  }
-
-  // Fallback to filtering current briefing if fetch is delayed
-  if (currentBriefing && readerContent) {
-    readerContent.innerHTML = renderReaderView(currentBriefing);
   }
 }
 

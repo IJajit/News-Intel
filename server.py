@@ -1536,6 +1536,7 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                 # Save global briefing (contains all 24h stories across all categories)
                 global_data = {
                     "id": "latest",
+                    "category": "global",
                     "timestamp": grounded_time,
                     "articlesCount": len(articles),
                     "stories": story_objects
@@ -1543,9 +1544,10 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                 with open(os.path.join(BRIEFINGS_DIR, "latest_global.json"), "w", encoding="utf-8") as f:
                     json.dump(global_data, f, ensure_ascii=False)
 
-                # Save homepage briefing (all stories for past 24h)
+                # Save homepage briefing (top 20 stories for past 24h)
                 homepage_data = {
                     "id": "latest",
+                    "category": "homepage",
                     "timestamp": grounded_time,
                     "articlesCount": len(story_objects),
                     "stories": story_objects
@@ -1561,6 +1563,7 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                     cat_top20 = cat_filtered[:20]
                     cat_data = {
                         "id": "latest",
+                        "category": cat_name,
                         "timestamp": grounded_time,
                         "articlesCount": len(cat_top20),
                         "stories": cat_top20

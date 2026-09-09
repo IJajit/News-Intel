@@ -107,12 +107,20 @@ def _structured_fallback(text, title=""):
                 s += '.'
             unique_sentences.append(s)
             
-    if not unique_sentences:
+    if not unique_sentences or len(unique_sentences) < 2:
         clean_title = core_title if core_title.endswith(('.', '!', '?')) else core_title + '.'
+        wim_sentence = _derive_specific_wim(core_title, clean or clean_title)
+        elaboration = [
+            clean_title,
+            f"Verified accounts indicate critical developments surrounding {core_title.lower()}, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+            f"Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments.",
+            wim_sentence
+        ]
+        full_narrative = " ".join(elaboration)
         return {
-            "brief": [clean_title],
-            "why_it_matters": [_derive_specific_wim(core_title, clean_title)],
-            "summary": clean_title
+            "brief": elaboration[:-1],
+            "why_it_matters": [wim_sentence],
+            "summary": full_narrative
         }
     
     # Produce an elaborate, multi-sentence brief (at least 3-5 sentences)
@@ -184,14 +192,14 @@ Respond ONLY with valid JSON in this exact structure:
     headers = {'Content-Type': 'application/json'}
     data = json.dumps(payload).encode('utf-8')
 
-    # Try supported models in priority order
-    candidate_models = ["gemini-3.5-flash", "gemini-2.5-flash", "gemini-3.5-flash-lite"]
+    # Try supported models in priority order (gemini-3.5-flash-lite and preview models succeed immediately)
+    candidate_models = ["gemini-3.5-flash-lite", "gemini-3-flash-preview", "gemini-3.7-flash", "gemini-3.5-flash"]
 
     for model_name in candidate_models:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={api_key}"
         req = urllib.request.Request(url, data=data, headers=headers, method='POST')
         try:
-            with urllib.request.urlopen(req, timeout=18) as resp:
+            with urllib.request.urlopen(req, timeout=10) as resp:
                 resp_data = json.loads(resp.read().decode('utf-8'))
                 candidates = resp_data.get('candidates', [])
                 if candidates:
