@@ -185,6 +185,20 @@ def parse_date(date_str):
         pass
     return None
 
+def filter_articles_by_hours(articles, max_hours=1.0, current_time=None):
+    if not current_time:
+        current_time = datetime.now(timezone.utc)
+    filtered = []
+    cutoff = current_time - timedelta(hours=max_hours)
+    for art in articles:
+        dt = parse_iso(art.get('published_at')) or parse_date(art.get('published_at'))
+        if dt:
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            if dt >= cutoff:
+                filtered.append(art)
+    return filtered
+
 def fetch_feed(source):
     try:
         req = urllib.request.Request(
@@ -1239,7 +1253,7 @@ SEED_DIR = os.path.join(os.path.dirname(__file__), 'briefings_seed')
 
 def seed_briefs():
     os.makedirs(BRIEFINGS_DIR, exist_ok=True)
-    all_cats = ['homepage', 'global', 'technology', 'geopolitics', 'science', 'culture', 'society', 'sports', 'finance']
+    all_cats = ['homepage', 'global', '1hour', 'technology', 'geopolitics', 'science', 'culture', 'society', 'sports', 'finance']
     for cat in all_cats:
         filepath = os.path.join(BRIEFINGS_DIR, f"latest_{cat}.json")
         seed_path = os.path.join(SEED_DIR, f"latest_{cat}.json")
@@ -1398,8 +1412,8 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
 
             if data and isinstance(data, dict):
                 # Ensure homepage and individual categories are capped to top 20 most important stories,
-                # while 'global' retains all news articles across all categories
-                if category != 'global' and isinstance(data.get('stories'), list) and len(data['stories']) > 20:
+                # while 'global' and '1hour' retain all news articles across all categories
+                if category not in ('global', '1hour') and isinstance(data.get('stories'), list) and len(data['stories']) > 20:
                     data = dict(data)
                     st = list(data['stories'])
                     st.sort(key=lambda s: (s.get("source_count", 1), s.get("combined_score", 0)), reverse=True)
@@ -1571,6 +1585,31 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                     with open(os.path.join(BRIEFINGS_DIR, f"latest_{cat_name}.json"), "w", encoding="utf-8") as f:
                         json.dump(cat_data, f, ensure_ascii=False)
 
+                # Save latest 1-hour briefing (stories published within the last 1.0 hour)
+                now_ref = parse_iso(grounded_time) or datetime.now(timezone.utc)
+                if now_ref.tzinfo is None:
+                    now_ref = now_ref.replace(tzinfo=timezone.utc)
+                cutoff_1h = now_ref - timedelta(hours=1.0)
+                one_hour_stories = []
+                for s in story_objects:
+                    p_str = s.get('primary_source', {}).get('published_at')
+                    p_dt = parse_iso(p_str) or parse_date(p_str)
+                    if p_dt:
+                        if p_dt.tzinfo is None:
+                            p_dt = p_dt.replace(tzinfo=timezone.utc)
+                        if p_dt >= cutoff_1h:
+                            one_hour_stories.append(s)
+
+                one_hour_data = {
+                    "id": "latest",
+                    "category": "1hour",
+                    "timestamp": grounded_time,
+                    "articlesCount": len(one_hour_stories),
+                    "stories": one_hour_stories
+                }
+                with open(os.path.join(BRIEFINGS_DIR, "latest_1hour.json"), "w", encoding="utf-8") as f:
+                    json.dump(one_hour_data, f, ensure_ascii=False)
+
                 # Send appropriate response for the requested category
                 if category == 'homepage':
                     hp_resp = dict(homepage_data)
@@ -1578,6 +1617,8 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                         hp_resp['stories'] = hp_resp['stories'][:20]
                         hp_resp['articlesCount'] = len(hp_resp['stories'])
                     self.send_json(hp_resp)
+                elif category == '1hour':
+                    self.send_json(one_hour_data)
                 elif category == 'global':
                     self.send_json(global_data)
                 else:
