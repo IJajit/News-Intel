@@ -70,12 +70,16 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!hasData) {
       triggerBriefingGeneration();
     } else {
-      // Pre-warm full 24h global stories in background for instant category browsing
+      // Pre-warm full 24h global stories in background for instant category browsing and complete feed
       fetch(`/api/latest-brief?category=global&t=${Date.now()}`)
         .then(r => r.ok ? r.json() : null)
         .then(gBrief => {
           if (gBrief && Array.isArray(gBrief.stories) && gBrief.stories.length > 0) {
             window._globalStories = gBrief.stories;
+            window._allStories = gBrief.stories;
+            if (articlesCountVal) articlesCountVal.textContent = gBrief.articlesCount || gBrief.stories.length;
+            renderArticlesList();
+            renderRightSidebarArticles(gBrief.stories);
           }
         })
         .catch(() => {});
@@ -195,6 +199,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (tabArticlesBtn2) {
     tabArticlesBtn2.addEventListener('click', () => {
       switchTab('articles');
+      renderArticlesList();
       closeMobileRightSidebar();
     });
   }
@@ -445,11 +450,21 @@ function renderBriefing(brief) {
   if (readerContent) {
     readerContent.innerHTML = renderReaderView(brief);
   }
-  if (articlesCountVal) articlesCountVal.textContent = brief.articlesCount || 0;
+  if (!window._globalStories || window._globalStories.length === 0) {
+    if (brief.category === 'global' || !brief.category) {
+      window._globalStories = brief.stories || [];
+    }
+  }
+  const totalCount = (window._globalStories && window._globalStories.length > 0)
+    ? window._globalStories.length
+    : (brief.articlesCount || (brief.stories ? brief.stories.length : 0));
+  if (articlesCountVal) articlesCountVal.textContent = totalCount;
 
-  window._allStories = (brief.stories || []);
+  window._allStories = (window._globalStories && window._globalStories.length > 0)
+    ? window._globalStories
+    : (brief.stories || []);
   renderArticlesList();
-  renderRightSidebarArticles(brief.stories || []);
+  renderRightSidebarArticles(window._allStories);
 }
 
 // ─── RIGHT SIDEBAR HELPERS ────────────────────────────────────────
@@ -699,8 +714,19 @@ function renderReaderView(brief) {
     return '<div class="empty-state" style="min-height: 120px; padding: 2rem 0;"><div class="empty-state-text">No articles available for this category.</div></div>';
   }
 
+  // Sort by importance
+  filtered.sort((a, b) => {
+    const scA = a.source_count || (a.sources ? a.sources.length : 1);
+    const scB = b.source_count || (b.sources ? b.sources.length : 1);
+    if (scB !== scA) return scB - scA;
+    return (b.combined_score || 0) - (a.combined_score || 0);
+  });
+
+  // Top 20 for category views; all for global/all section
+  const displayStories = (activeCategory === 'global') ? filtered : filtered.slice(0, 20);
+
   let html = '<div class="space-y-0">';
-  for (const story of filtered) {
+  for (const story of displayStories) {
     html += renderStoryCard(story, false);
   }
   html += '</div>';
@@ -730,42 +756,56 @@ async function switchReaderCategory(category) {
   if (categoryBriefCache[catKey]) {
     const cached = categoryBriefCache[catKey];
     if (readerContent) readerContent.innerHTML = renderReaderView(cached);
-    window._allStories = cached.stories || [];
     renderArticlesList();
-    renderRightSidebarArticles(cached.stories || []);
     return;
   }
 
   // 2. If 24h global stories exist in memory, filter and display immediately
   if (window._globalStories && window._globalStories.length > 0) {
-    const catStories = window._globalStories.filter(s => storyMatchesCategory(s, category));
-    if (catStories.length > 0) {
-      const catBrief = {
-        id: 'latest',
-        articlesCount: catStories.length,
-        stories: catStories
-      };
-      categoryBriefCache[catKey] = catBrief;
-      if (readerContent) readerContent.innerHTML = renderReaderView(catBrief);
-      window._allStories = catStories;
-      renderArticlesList();
-      renderRightSidebarArticles(catStories);
-      return;
-    }
+    const isGlobal = (catKey === 'global');
+    let catStories = isGlobal ? [...window._globalStories] : window._globalStories.filter(s => storyMatchesCategory(s, category));
+    
+    // Sort by importance
+    catStories.sort((a, b) => {
+      const scA = a.source_count || (a.sources ? a.sources.length : 1);
+      const scB = b.source_count || (b.sources ? b.sources.length : 1);
+      if (scB !== scA) return scB - scA;
+      return (b.combined_score || 0) - (a.combined_score || 0);
+    });
+
+    const displayStories = isGlobal ? catStories : catStories.slice(0, 20);
+
+    const catBrief = {
+      id: 'latest',
+      articlesCount: displayStories.length,
+      stories: displayStories
+    };
+    categoryBriefCache[catKey] = catBrief;
+    if (readerContent) readerContent.innerHTML = renderReaderView(catBrief);
+    renderArticlesList();
+    return;
   }
 
-  // 3. Asynchronously fetch full category feed from server
+  // 3. Asynchronously fetch category feed from server
   try {
     const res = await fetch(`/api/latest-brief?category=${catKey}&t=${Date.now()}`);
     if (res.ok) {
       const catBrief = await res.json();
       if (catBrief && Array.isArray(catBrief.stories) && catBrief.stories.length > 0) {
+        if (catKey !== 'global' && catBrief.stories.length > 20) {
+          catBrief.stories.sort((a, b) => {
+            const scA = a.source_count || (a.sources ? a.sources.length : 1);
+            const scB = b.source_count || (b.sources ? b.sources.length : 1);
+            if (scB !== scA) return scB - scA;
+            return (b.combined_score || 0) - (a.combined_score || 0);
+          });
+          catBrief.stories = catBrief.stories.slice(0, 20);
+          catBrief.articlesCount = catBrief.stories.length;
+        }
         categoryBriefCache[catKey] = catBrief;
         if (activeCategory === category) {
           if (readerContent) readerContent.innerHTML = renderReaderView(catBrief);
-          window._allStories = catBrief.stories || [];
           renderArticlesList();
-          renderRightSidebarArticles(catBrief.stories || []);
         }
         return;
       }
@@ -781,7 +821,9 @@ async function switchReaderCategory(category) {
 }
 
 function renderArticlesList() {
-  const stories = window._allStories || [];
+  const stories = (window._globalStories && window._globalStories.length > 0)
+    ? window._globalStories
+    : (window._allStories || []);
   if (stories.length === 0) {
     articlesList.innerHTML = `
       <div class="empty-state" style="min-height: 120px; padding: 2rem 0;">

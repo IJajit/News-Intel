@@ -1397,10 +1397,13 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                         print(f"Error reading global fallback: {e}")
 
             if data and isinstance(data, dict):
-                # Ensure homepage is capped to top 20 most important stories
-                if category == 'homepage' and isinstance(data.get('stories'), list) and len(data['stories']) > 20:
+                # Ensure homepage and individual categories are capped to top 20 most important stories,
+                # while 'global' retains all news articles across all categories
+                if category != 'global' and isinstance(data.get('stories'), list) and len(data['stories']) > 20:
                     data = dict(data)
-                    data['stories'] = data['stories'][:20]
+                    st = list(data['stories'])
+                    st.sort(key=lambda s: (s.get("source_count", 1), s.get("combined_score", 0)), reverse=True)
+                    data['stories'] = st[:20]
                     data['articlesCount'] = len(data['stories'])
                 self.send_json(data)
             else:
@@ -1550,15 +1553,17 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                 with open(os.path.join(BRIEFINGS_DIR, "latest_homepage.json"), "w", encoding="utf-8") as f:
                     json.dump(homepage_data, f, ensure_ascii=False)
 
-                # Save each category's full feed for the last 24h
+                # Save each category's top 20 stories for the last 24h
                 all_cats = ['technology', 'geopolitics', 'science', 'culture', 'society', 'sports', 'finance']
                 for cat_name in all_cats:
                     cat_filtered = [s for s in story_objects if (s.get('category') or '').lower() == cat_name]
+                    cat_filtered.sort(key=lambda s: (s.get("source_count", 1), s.get("combined_score", 0)), reverse=True)
+                    cat_top20 = cat_filtered[:20]
                     cat_data = {
                         "id": "latest",
                         "timestamp": grounded_time,
-                        "articlesCount": len(cat_filtered),
-                        "stories": cat_filtered
+                        "articlesCount": len(cat_top20),
+                        "stories": cat_top20
                     }
                     with open(os.path.join(BRIEFINGS_DIR, f"latest_{cat_name}.json"), "w", encoding="utf-8") as f:
                         json.dump(cat_data, f, ensure_ascii=False)
@@ -1574,11 +1579,13 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                     self.send_json(global_data)
                 else:
                     cat_filtered = [s for s in story_objects if (s.get('category') or '').lower() == category]
+                    cat_filtered.sort(key=lambda s: (s.get("source_count", 1), s.get("combined_score", 0)), reverse=True)
+                    cat_top20 = cat_filtered[:20]
                     self.send_json({
                         "id": "latest",
                         "timestamp": grounded_time,
-                        "articlesCount": len(cat_filtered),
-                        "stories": cat_filtered
+                        "articlesCount": len(cat_top20),
+                        "stories": cat_top20
                     })
 
             except Exception as e:
