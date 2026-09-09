@@ -69,6 +69,16 @@ document.addEventListener('DOMContentLoaded', () => {
   loadLatestBrief(activeTab === 'homepage' ? 'homepage' : 'global').then((hasData) => {
     if (!hasData) {
       triggerBriefingGeneration();
+    } else {
+      // Pre-warm full 24h global stories in background for instant category browsing
+      fetch(`/api/latest-brief?category=global&t=${Date.now()}`)
+        .then(r => r.ok ? r.json() : null)
+        .then(gBrief => {
+          if (gBrief && Array.isArray(gBrief.stories) && gBrief.stories.length > 0) {
+            window._globalStories = gBrief.stories;
+          }
+        })
+        .catch(() => {});
     }
   });
 
@@ -620,11 +630,21 @@ function renderStoryCard(story, numbered, num) {
     : null;
   const briefHtml = formatStoryBullets(briefBullets, story.brief || '');
 
-  // Bullets for Why It Matters
-  const wimBullets = (story.why_it_matters_bullets && story.why_it_matters_bullets.length > 0)
+  // Bullets for Why It Matters - ensure always populated
+  let wimBullets = (story.why_it_matters_bullets && story.why_it_matters_bullets.length > 0)
     ? story.why_it_matters_bullets
-    : null;
-  const wimHtml = wimBullets ? formatStoryBullets(wimBullets, '') : '';
+    : (story.why_it_matters ? [story.why_it_matters] : null);
+
+  if (!wimBullets || wimBullets.length === 0) {
+    const headline = (story.primary_headline || '').replace(/(\s*-\s*[^-]+)$/, '').trim();
+    const cat = story.category || 'this sector';
+    wimBullets = [
+      headline
+        ? `Carries notable policy, regulatory, and market implications surrounding ${headline}.`
+        : `Carries strategic, policy, and market implications for ${cat} stakeholders as developments unfold.`
+    ];
+  }
+  const wimHtml = formatStoryBullets(wimBullets, '');
 
   const sourcesHtml = extraCount > 0 ? renderSourcesList(story.sources, primaryUrl) : '';
 
@@ -648,14 +668,14 @@ function renderStoryCard(story, numbered, num) {
         </div>
 
         ${briefHtml ? `
-          <ul class="story-bullet-list">
+          <ul class="story-bullet-list story-brief-list">
             ${briefHtml}
           </ul>
         ` : ''}
 
         ${wimHtml ? `
-          <div class="story-section-title" style="margin-top:1rem;">WHY IT MATTERS</div>
-          <ul class="story-bullet-list">
+          <div class="story-section-title story-wim-title">WHY IT MATTERS</div>
+          <ul class="story-bullet-list story-wim-list">
             ${wimHtml}
           </ul>
         ` : ''}
@@ -763,38 +783,59 @@ async function switchReaderCategory(category) {
   };
   syncMobileSubtab(category);
 
-  if (categoryBriefCache[category]) {
-    currentBriefing = categoryBriefCache[category];
-    if (readerContent) readerContent.innerHTML = renderReaderView(currentBriefing);
+  const catKey = category.toLowerCase();
+
+  // 1. If already cached in categoryBriefCache, display immediately
+  if (categoryBriefCache[catKey]) {
+    const cached = categoryBriefCache[catKey];
+    if (readerContent) readerContent.innerHTML = renderReaderView(cached);
+    window._allStories = cached.stories || [];
     renderArticlesList();
+    renderRightSidebarArticles(cached.stories || []);
     return;
   }
 
-  if (currentBriefing) {
-    if (readerContent) {
-      readerContent.innerHTML = renderReaderView(currentBriefing);
+  // 2. If 24h global stories exist in memory, filter and display immediately
+  if (window._globalStories && window._globalStories.length > 0) {
+    const catStories = window._globalStories.filter(s => storyMatchesCategory(s, category));
+    if (catStories.length > 0) {
+      const catBrief = {
+        id: 'latest',
+        articlesCount: catStories.length,
+        stories: catStories
+      };
+      categoryBriefCache[catKey] = catBrief;
+      if (readerContent) readerContent.innerHTML = renderReaderView(catBrief);
+      window._allStories = catStories;
+      renderArticlesList();
+      renderRightSidebarArticles(catStories);
+      return;
     }
-    renderArticlesList();
   }
 
-  // Asynchronously fetch full category feed if available
-  if (category !== 'homepage' && category !== 'global') {
-    try {
-      const res = await fetch(`/api/latest-brief?category=${category}&t=${Date.now()}`);
-      if (res.ok) {
-        const catBrief = await res.json();
-        if (catBrief && catBrief.stories && catBrief.stories.length > 0) {
-          categoryBriefCache[category] = catBrief;
-          if (activeCategory === category) {
-            currentBriefing = catBrief;
-            if (readerContent) readerContent.innerHTML = renderReaderView(catBrief);
-            renderArticlesList();
-          }
+  // 3. Asynchronously fetch full category feed from server
+  try {
+    const res = await fetch(`/api/latest-brief?category=${catKey}&t=${Date.now()}`);
+    if (res.ok) {
+      const catBrief = await res.json();
+      if (catBrief && Array.isArray(catBrief.stories) && catBrief.stories.length > 0) {
+        categoryBriefCache[catKey] = catBrief;
+        if (activeCategory === category) {
+          if (readerContent) readerContent.innerHTML = renderReaderView(catBrief);
+          window._allStories = catBrief.stories || [];
+          renderArticlesList();
+          renderRightSidebarArticles(catBrief.stories || []);
         }
+        return;
       }
-    } catch (e) {
-      // Keep existing render
     }
+  } catch (e) {
+    console.error('Error fetching category brief:', e);
+  }
+
+  // Fallback to filtering current briefing if fetch is delayed
+  if (currentBriefing && readerContent) {
+    readerContent.innerHTML = renderReaderView(currentBriefing);
   }
 }
 

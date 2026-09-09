@@ -13,6 +13,7 @@ import html
 import ssl
 import concurrent.futures
 import traceback
+import shutil
 
 from news_clustering import cluster_articles, rank_clusters, jaccard_similarity, normalize_title, cluster_into_stories
 from news_summarizer import summarize_content, extract_why_it_matters
@@ -1235,15 +1236,22 @@ TONE & CONSTRAINTS:
 - Do NOT output markdown hyperlinks. Use plain text only with source names in parentheses, e.g. "Story headline (BBC News)".
 """
 
-def seed_briefs():
-    for cat in ['homepage', 'global', 'technology', 'geopolitics', 'science', 'culture', 'society', 'sports', 'finance']:
-        filepath = os.path.join(BRIEFINGS_DIR, f"latest_{cat}.json")
-        if not os.path.exists(filepath):
-            now_str = datetime.now(timezone.utc).isoformat()
-            ist_tz = timezone(timedelta(hours=5, minutes=30))
-            now_ist = datetime.now(timezone.utc).astimezone(ist_tz)
-            formatted_date = now_ist.strftime('%A, %B %d, %Y, %I:%M:%S %p IST')
+SEED_DIR = os.path.join(os.path.dirname(__file__), 'briefings_seed')
 
+def seed_briefs():
+    os.makedirs(BRIEFINGS_DIR, exist_ok=True)
+    all_cats = ['homepage', 'global', 'technology', 'geopolitics', 'science', 'culture', 'society', 'sports', 'finance']
+    for cat in all_cats:
+        filepath = os.path.join(BRIEFINGS_DIR, f"latest_{cat}.json")
+        seed_path = os.path.join(SEED_DIR, f"latest_{cat}.json")
+        if not os.path.exists(filepath):
+            if os.path.exists(seed_path):
+                try:
+                    shutil.copyfile(seed_path, filepath)
+                    continue
+                except Exception as e:
+                    print(f"Error copying seed for {cat}: {e}")
+            now_str = datetime.now(timezone.utc).isoformat()
             brief_data = {
                 "id": "initial",
                 "timestamp": now_str,
@@ -1351,33 +1359,48 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
         elif path == '/api/world-cup':
             self.send_json(fetch_world_cup_schedule())
         elif path == '/api/latest-brief':
-            category = query.get('category', ['global'])[0]
+            category = query.get('category', ['global'])[0].lower()
             filepath = os.path.join(BRIEFINGS_DIR, f"latest_{category}.json")
+            data = None
             if os.path.exists(filepath):
                 try:
                     with open(filepath, 'r', encoding='utf-8') as file:
                         data = json.load(file)
-                        # Cap homepage feed to top 20 stories to guarantee lightweight payload
-                        if category == 'homepage' and isinstance(data.get('stories'), list):
-                            if len(data['stories']) > 20:
-                                data['stories'] = data['stories'][:20]
-                        # If category file is an empty stub, fall back to filtering global
-                        if category not in ('homepage', 'global') and not data.get('stories'):
-                            global_path = os.path.join(BRIEFINGS_DIR, 'latest_global.json')
-                            if os.path.exists(global_path):
-                                with open(global_path, 'r', encoding='utf-8') as gf:
-                                    global_data = json.load(gf)
-                                filtered = [s for s in global_data.get('stories', [])
-                                            if (s.get('category') or '').lower() == category.lower()]
-                                data = {
-                                    "id": global_data.get("id", "latest"),
-                                    "timestamp": global_data.get("timestamp", ""),
-                                    "articlesCount": len(filtered),
-                                    "stories": filtered
-                                }
-                        self.send_json(data)
                 except Exception as err:
-                    self.send_json({"error": "Failed to read briefing"}, 500)
+                    print(f"Error reading {filepath}: {err}")
+
+            stories = data.get('stories', []) if isinstance(data, dict) else []
+
+            # If category feed is missing or empty, fall back to global feed
+            if not stories:
+                global_path = os.path.join(BRIEFINGS_DIR, 'latest_global.json')
+                if not os.path.exists(global_path):
+                    global_path = os.path.join(SEED_DIR, 'latest_global.json')
+                if os.path.exists(global_path):
+                    try:
+                        with open(global_path, 'r', encoding='utf-8') as gf:
+                            global_data = json.load(gf)
+                        all_st = global_data.get('stories', [])
+                        if category == 'homepage':
+                            filtered = all_st[:20]
+                        elif category == 'global':
+                            filtered = all_st
+                        else:
+                            filtered = [s for s in all_st if (s.get('category') or '').lower() == category]
+                        data = {
+                            "id": global_data.get("id", "latest"),
+                            "timestamp": global_data.get("timestamp", ""),
+                            "articlesCount": len(filtered),
+                            "stories": filtered
+                        }
+                    except Exception as e:
+                        print(f"Error reading global fallback: {e}")
+
+            if data and isinstance(data, dict):
+                # Ensure homepage is capped strictly to top 20
+                if category == 'homepage' and isinstance(data.get('stories'), list):
+                    data['stories'] = data['stories'][:20]
+                self.send_json(data)
             else:
                 self.send_json({"error": f"Latest briefing for category {category} not found"}, 404)
         # Deleted: /api/story-of-the-day endpoint
@@ -1404,12 +1427,12 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                 body = {}
 
             grounded_time = body.get('groundedTime', datetime.now(timezone.utc).isoformat())
-            category = body.get('category', 'global')
+            category = body.get('category', 'global').lower()
             groq_api_key = os.environ.get('GROQ_API_KEY', '')
 
             try:
-                # Step 1: Fetch + recency filter (12h for homepage, 24h for category feeds)
-                articles = get_filtered_articles(grounded_time, max_hours=(12.0 if category == 'homepage' else 24.0))
+                # Step 1: Always fetch all articles from the past 24 hours
+                articles = get_filtered_articles(grounded_time, max_hours=24.0)
 
                 if not articles:
                     self.send_json({
@@ -1423,8 +1446,7 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                 # Step 2: Cluster into story objects (single pass, all categories)
                 stories = cluster_into_stories(articles)
 
-                # Step 3: Generate brief for each story
-                # All stories processed in parallel: Groq (if key available) + BART/extractive fallback
+                # Step 3: Generate brief for each story in parallel
                 brief_cache = {}
                 stories_sorted = sorted(stories, key=lambda s: s.get('combined_score', 0), reverse=True)
                 print(f"[PIPELINE] Generating briefs for {len(stories_sorted)} stories (Groq + BART fallback)")
@@ -1470,6 +1492,14 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                 story_objects = []
                 for story in stories:
                     cached = brief_cache.get(story["story_id"], {})
+                    b_bullets = cached.get("brief_bullets", [])
+                    if not b_bullets:
+                        b_bullets = [cached.get("brief") or story.get("primary_headline")]
+                    w_bullets = cached.get("why_it_matters_bullets", [])
+                    if not w_bullets:
+                        cat_name = story.get("category", "this sector")
+                        w_bullets = [f"Carries notable strategic, policy, and market implications for {cat_name} stakeholders as developments unfold."]
+
                     story_obj = {
                         "story_id": story["story_id"],
                         "category": story["category"],
@@ -1487,8 +1517,8 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                         "source_count": story["source_count"],
                         "total_count": story["total_count"],
                         "combined_score": story["combined_score"],
-                        "brief_bullets": cached.get("brief_bullets", []),
-                        "why_it_matters_bullets": cached.get("why_it_matters_bullets", []),
+                        "brief_bullets": b_bullets,
+                        "why_it_matters_bullets": w_bullets,
                         "brief": cached.get("brief", ""),
                         "brief_word_count": cached.get("brief_word_count", 0)
                     }
@@ -1497,25 +1527,56 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                 # Sort by multi-source cross-verification and score
                 story_objects.sort(key=lambda s: (s.get("source_count", 1), s.get("combined_score", 0)), reverse=True)
 
-                # If category is homepage, strictly cap to top 20 stories!
-                if category == 'homepage':
-                    story_objects = story_objects[:20]
-
-                brief_data = {
+                # Save global briefing (contains all 24h stories across all categories)
+                global_data = {
                     "id": "latest",
                     "timestamp": grounded_time,
                     "articlesCount": len(articles),
                     "stories": story_objects
                 }
+                with open(os.path.join(BRIEFINGS_DIR, "latest_global.json"), "w", encoding="utf-8") as f:
+                    json.dump(global_data, f, ensure_ascii=False)
 
-                filepath = os.path.join(BRIEFINGS_DIR, f"latest_{category}.json")
-                with open(filepath, "w", encoding="utf-8") as f:
-                    json.dump(brief_data, f, indent=2, ensure_ascii=False)
+                # Save homepage briefing (top 20 stories)
+                homepage_data = {
+                    "id": "latest",
+                    "timestamp": grounded_time,
+                    "articlesCount": 20,
+                    "stories": story_objects[:20]
+                }
+                with open(os.path.join(BRIEFINGS_DIR, "latest_homepage.json"), "w", encoding="utf-8") as f:
+                    json.dump(homepage_data, f, ensure_ascii=False)
 
-                self.send_json(brief_data)
+                # Save each category's full feed for the last 24h
+                all_cats = ['technology', 'geopolitics', 'science', 'culture', 'society', 'sports', 'finance']
+                for cat_name in all_cats:
+                    cat_filtered = [s for s in story_objects if (s.get('category') or '').lower() == cat_name]
+                    cat_data = {
+                        "id": "latest",
+                        "timestamp": grounded_time,
+                        "articlesCount": len(cat_filtered),
+                        "stories": cat_filtered
+                    }
+                    with open(os.path.join(BRIEFINGS_DIR, f"latest_{cat_name}.json"), "w", encoding="utf-8") as f:
+                        json.dump(cat_data, f, ensure_ascii=False)
+
+                # Send appropriate response for the requested category
+                if category == 'homepage':
+                    self.send_json(homepage_data)
+                elif category == 'global':
+                    self.send_json(global_data)
+                else:
+                    cat_filtered = [s for s in story_objects if (s.get('category') or '').lower() == category]
+                    self.send_json({
+                        "id": "latest",
+                        "timestamp": grounded_time,
+                        "articlesCount": len(cat_filtered),
+                        "stories": cat_filtered
+                    })
 
             except Exception as e:
                 print(f"Error in generate-brief: {e}")
+                traceback.print_exc()
                 self.send_json({"error": str(e)}, 500)
         else:
             self.send_json({"error": "Endpoint not found"}, 404)

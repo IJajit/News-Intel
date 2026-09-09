@@ -83,7 +83,11 @@ def _structured_fallback(text, title=""):
     
     if len(unique_sentences) == 1:
         brief_bullets = [unique_sentences[0]]
-        wim_bullets = []
+        clean_title = re.sub(r'(\s*-\s*[^-]+)$', '', title).strip() if title else ""
+        if clean_title and clean_title.lower() not in unique_sentences[0].lower():
+            wim_bullets = [f"Carries significant policy, operational, and market consequences surrounding {clean_title}."]
+        else:
+            wim_bullets = ["Carries strategic, policy, and market implications for affected stakeholders as details emerge."]
     elif len(unique_sentences) == 2:
         brief_bullets = [unique_sentences[0]]
         wim_bullets = [unique_sentences[1]]
