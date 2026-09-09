@@ -455,8 +455,8 @@ function renderRightSidebarArticles(stories) {
     container.innerHTML = '<div class="text-xs font-mono" style="color: var(--color-dark-gray);">No articles yet.</div>';
     return;
   }
-  // Show primary source for each story
-  container.innerHTML = stories.map(story => {
+  // Show primary source for top 15 stories to prevent DOM lag
+  container.innerHTML = stories.slice(0, 15).map(story => {
     const primary = story.primary_source || {};
     return `
       <a href="${escapeHtml(primary.url)}" target="_blank" rel="noopener noreferrer" class="right-sidebar-article block">
@@ -582,66 +582,130 @@ const CATEGORY_LABELS = {
 
 const CATEGORY_ORDER = ['Finance', 'Technology', 'Geopolitics', 'Science', 'Sports', 'Culture', 'Society'];
 
+// ─── RENDER BULLET LISTS (EXECUTIVE FORMAT) ───────────────────
+function formatStoryBullets(bullets, fallbackText) {
+  if (Array.isArray(bullets) && bullets.length > 0) {
+    return bullets
+      .map(b => String(b).replace(/^[\u2022\u00b7\u25aa\u25ab\u2023\u2043\u2219•\-\*\s]+/, '').trim())
+      .filter(b => b.length > 0)
+      .map(b => `<li>${escapeHtml(b)}</li>`)
+      .join('');
+  }
+  if (fallbackText) {
+    const cleanText = String(fallbackText).replace(/^[\u2022\u00b7\u25aa\u25ab\u2023\u2043\u2219•\-\*]\s*/gm, '').trim();
+    const sentences = cleanText.split(/(?<=[.!?])\s+/).map(s => s.trim()).filter(s => s.length > 12);
+    if (sentences.length > 0) {
+      return sentences.map(s => `<li>${escapeHtml(s)}</li>`).join('');
+    }
+    if (cleanText.length > 0) {
+      return `<li>${escapeHtml(cleanText)}</li>`;
+    }
+  }
+  return '';
+}
+
+function renderStoryCard(story, numbered, num) {
+  const primary = story.primary_source || {};
+  const primaryUrl = primary.url || '';
+  const primaryName = primary.source_name || '';
+  const pubDate = parseDate(primary.published_at);
+  const timeStr = pubDate ? pubDate.toLocaleString('en-IN', {
+    hour: '2-digit', minute: '2-digit', day: 'numeric', month: 'short'
+  }) : '';
+  const extraCount = story.total_count - 1;
+
+  // Bullets for Brief
+  const briefBullets = (story.brief_bullets && story.brief_bullets.length > 0)
+    ? story.brief_bullets
+    : null;
+  const briefHtml = formatStoryBullets(briefBullets, story.brief || '');
+
+  // Bullets for Why It Matters
+  const wimBullets = (story.why_it_matters_bullets && story.why_it_matters_bullets.length > 0)
+    ? story.why_it_matters_bullets
+    : null;
+  const wimHtml = wimBullets ? formatStoryBullets(wimBullets, '') : '';
+
+  const sourcesHtml = extraCount > 0 ? renderSourcesList(story.sources, primaryUrl) : '';
+
+  const numberHtml = numbered
+    ? `<span class="font-headline-md font-bold text-base flex-shrink-0" style="color: var(--color-orange);">${num}.</span>`
+    : '';
+
+  const containerClass = numbered ? 'flex items-start gap-3' : '';
+
+  return `
+    <article class="group space-y-2 py-4 border-b border-[var(--color-border-heavy)] ${containerClass}" style="border-color: var(--color-border-heavy);">
+      ${numberHtml}
+      <div class="space-y-2 flex-1">
+        <h2 class="font-headline-md text-base font-semibold leading-snug text-primary-container transition-colors">
+          <a href="${escapeHtml(primaryUrl)}" target="_blank" rel="noopener noreferrer" class="headline-link hover:text-[var(--color-orange)] transition-colors">${escapeHtml(story.primary_headline)}</a>
+        </h2>
+        <div class="story-meta-row">
+          <span class="source-badge">${escapeHtml(primaryName)}</span>
+          ${extraCount > 0 ? `<span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono">+${extraCount} other source${extraCount > 1 ? 's' : ''}</span>` : ''}
+          ${timeStr ? `<span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono">${timeStr}</span>` : ''}
+        </div>
+
+        ${briefHtml ? `
+          <div class="story-section-title">BRIEF</div>
+          <ul class="story-bullet-list">
+            ${briefHtml}
+          </ul>
+        ` : ''}
+
+        ${wimHtml ? `
+          <div class="story-wim-container">
+            <div class="story-wim-title">WHY IT MATTERS</div>
+            <ul class="story-bullet-list">
+              ${wimHtml}
+            </ul>
+          </div>
+        ` : ''}
+
+        ${sourcesHtml}
+      </div>
+    </article>
+  `;
+}
+
 // ─── HOMEPAGE VIEW ────────────────────────────────────────────
 function renderHomepageView(brief) {
   const stories = brief.stories || [];
 
   if (!stories || stories.length === 0) {
-    return '<div class="empty-state" style="min-height: 120px; padding: 2rem 0;"><div class="empty-state-text">No articles available. Click Generate Latest Update.</div></div>';
+    return '<div class="empty-state" style="min-height: 120px; padding: 2rem 0;"><div class="empty-state-text">No articles available. Click Refresh Feed.</div></div>';
   }
 
-  const ranked = [...stories].sort((a, b) => b.source_count - a.source_count || b.combined_score - a.combined_score);
+  // Top 20 stories strictly
+  const top20 = stories.slice(0, 20);
 
-  let html = '';
+  let html = `
+    <div class="reading-estimate-header">
+      <div class="font-label-caps text-xs uppercase tracking-widest font-bold" style="color: var(--color-orange);">Executive Daily Briefing · Top 20 Stories</div>
+      <div class="font-mono text-[11px] text-[var(--color-dark-gray)]">~5 Min Read</div>
+    </div>
+  `;
 
-  // ── THE HEADLINE — top 5 stories ──────────────────────────
-  const headline = ranked.slice(0, 5);
-  const headlineIds = new Set(headline.map(s => s.story_id));
+  // Top 5 "The Headline"
+  const headline = top20.slice(0, 5);
+  const remaining = top20.slice(5);
 
   if (headline.length > 0) {
-    html += `<h2 class="font-label-caps text-sm uppercase tracking-widest font-bold pb-2 mt-6 border-b border-[var(--color-border-heavy)] text-[var(--color-black)] dark:text-white" style="border-color: var(--color-border-heavy);">The Headline</h2>`;
-    html += '<div class="space-y-10 mt-4">';
+    html += `<h2 class="font-label-caps text-sm uppercase tracking-widest font-bold pb-2 mt-4 border-b border-[var(--color-border-heavy)] text-[var(--color-black)] dark:text-white" style="border-color: var(--color-border-heavy);">The Headline</h2>`;
+    html += '<div class="space-y-4 mt-2">';
     for (const story of headline) {
-      html += renderHomepageStory(story, false);
+      html += renderStoryCard(story, false);
     }
     html += '</div>';
   }
 
-  // ── TODAY'S TOP STORIES — next 3 ──────────────────────────
-  const topCandidates = ranked.filter(s => !headlineIds.has(s.story_id));
-  const topStories = topCandidates.slice(0, 3);
-  const topStoryIds = new Set(topStories.map(s => s.story_id));
-
-  if (topStories.length > 0) {
-    html += `<h2 class="font-label-caps text-sm uppercase tracking-widest font-bold pb-2 mt-6 border-b border-[var(--color-border-heavy)] text-[var(--color-black)] dark:text-white" style="border-color: var(--color-border-heavy);">Today's Top Stories</h2>`;
-    html += '<div class="space-y-10 mt-4">';
-    topStories.forEach((story) => {
-      html += renderHomepageStory(story, false);
+  if (remaining.length > 0) {
+    html += `<h2 class="font-label-caps text-sm uppercase tracking-widest font-bold pb-2 mt-8 border-b border-[var(--color-border-heavy)] text-[var(--color-black)] dark:text-white" style="border-color: var(--color-border-heavy);">Key Executive Stories</h2>`;
+    html += '<div class="space-y-4 mt-2">';
+    remaining.forEach((story) => {
+      html += renderStoryCard(story, false);
     });
-    html += '</div>';
-  }
-
-  // ── CATEGORY BREAKDOWN — remaining grouped ────────────────
-  const usedIds = new Set([...headlineIds, ...topStoryIds]);
-  const remaining = ranked.filter(s => !usedIds.has(s.story_id));
-
-  const grouped = {};
-  for (const story of remaining) {
-    const cat = story.category;
-    if (!grouped[cat]) grouped[cat] = [];
-    grouped[cat].push(story);
-  }
-
-  for (const cat of CATEGORY_ORDER) {
-    const storiesInCat = grouped[cat];
-    if (!storiesInCat || storiesInCat.length === 0) continue;
-
-    const label = CATEGORY_LABELS[cat] || cat;
-    html += `<h2 class="font-label-caps text-sm uppercase tracking-widest font-bold pb-2 mt-6 border-b border-[var(--color-border-heavy)] text-[var(--color-black)] dark:text-white" style="border-color: var(--color-border-heavy);">${label}</h2>`;
-    html += '<div class="space-y-10 mt-4">';
-    for (const story of storiesInCat.slice(0, 5)) {
-      html += renderHomepageStory(story, false);
-    }
     html += '</div>';
   }
 
@@ -649,36 +713,7 @@ function renderHomepageView(brief) {
 }
 
 function renderHomepageStory(story, numbered, num) {
-  const primary = story.primary_source || {};
-  const primaryUrl = primary.url || '';
-  const primaryName = primary.source_name || '';
-  const brief = story.brief || '';
-  const extraCount = story.total_count - 1;
-
-  const sourcesHtml = extraCount > 0 ? renderSourcesList(story.sources, primaryUrl) : '';
-
-  const numberHtml = numbered
-    ? `<span class="font-headline-md font-bold text-lg flex-shrink-0" style="color: var(--color-orange);">${num}.</span>`
-    : '';
-
-  const containerClass = numbered ? 'flex items-start gap-3' : '';
-
-  return `
-    <article class="group space-y-2 py-3 border-b border-[var(--color-border-heavy)] ${containerClass}" style="border-color: var(--color-border-heavy);">
-      ${numberHtml}
-      <div class="space-y-1.5 flex-1">
-        <h2 class="font-headline-md text-base font-semibold leading-snug text-primary-container transition-colors">
-          <a href="${escapeHtml(primaryUrl)}" target="_blank" rel="noopener noreferrer" class="headline-link hover:text-[var(--color-orange)] transition-colors">${escapeHtml(story.primary_headline)}</a>
-        </h2>
-        <div class="flex items-center gap-2">
-          <span class="source-badge">${escapeHtml(primaryName)}</span>
-          ${extraCount > 0 ? `<span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono">+${extraCount} other source${extraCount > 1 ? 's' : ''}</span>` : ''}
-        </div>
-        ${brief ? renderExcerpt(brief, 'font-body-md leading-relaxed text-xs mt-1.5 opacity-90', 'color: var(--color-black);') : ''}
-        ${sourcesHtml}
-      </div>
-    </article>
-  `;
+  return renderStoryCard(story, numbered, num);
 }
 
 function renderSourcesList(sources, excludeUrl) {
@@ -714,7 +749,7 @@ function renderExcerpt(text, cssClass, cssStyle) {
 
 function storyMatchesCategory(story, category) {
   if (category === 'global') return true;
-  return story.category.toLowerCase() === category.toLowerCase();
+  return (story.category || '').toLowerCase() === category.toLowerCase();
 }
 
 // ─── READER VIEW ─────────────────────────────────────────────
@@ -731,40 +766,26 @@ function renderReaderView(brief) {
     return '<div class="empty-state" style="min-height: 120px; padding: 2rem 0;"><div class="empty-state-text">No articles available for this category.</div></div>';
   }
 
-  let html = '';
+  const label = CATEGORY_LABELS[activeCategory] || activeCategory.toUpperCase();
+  let html = `
+    <div class="reading-estimate-header">
+      <div class="font-label-caps text-xs uppercase tracking-widest font-bold" style="color: var(--color-orange);">${escapeHtml(label)}</div>
+      <div class="font-mono text-[11px] text-[var(--color-dark-gray)]">${filtered.length} Stories</div>
+    </div>
+    <div class="space-y-4 mt-2">
+  `;
+
   for (const story of filtered) {
-    const primary = story.primary_source || {};
-    const primaryUrl = primary.url || '';
-    const primaryName = primary.source_name || '';
-    const pubDate = parseDate(primary.published_at);
-    const timeStr = pubDate ? pubDate.toLocaleString('en-IN', {
-      hour: '2-digit', minute: '2-digit', day: 'numeric', month: 'short'
-    }) : '';
-    const extraCount = story.total_count - 1;
-    const brief = story.brief || '';
-
-    const sourcesHtml = extraCount > 0 ? renderSourcesList(story.sources, primaryUrl) : '';
-
-    html += `
-      <article class="group cursor-pointer space-y-2 py-3 border-b border-[var(--color-border-heavy)]" style="border-color: var(--color-border-heavy);">
-        <h2 class="font-headline-md text-base font-semibold leading-snug text-primary-container transition-colors">
-          <a href="${escapeHtml(primaryUrl)}" target="_blank" rel="noopener noreferrer" class="headline-link hover:text-[var(--color-orange)] transition-colors">${escapeHtml(story.primary_headline)}</a>
-        </h2>
-        <div class="flex items-center gap-2">
-          <span class="source-badge">${escapeHtml(primaryName)}</span>
-          ${extraCount > 0 ? `<span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono">+${extraCount} other source${extraCount > 1 ? 's' : ''}</span>` : ''}
-          <span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono">${timeStr}</span>
-        </div>
-        ${brief ? renderExcerpt(brief, 'font-body-md leading-relaxed text-xs opacity-90', 'color: var(--color-black);') : ''}
-        ${sourcesHtml}
-      </article>
-    `;
+    html += renderStoryCard(story, false);
   }
+  html += '</div>';
 
   return html;
 }
 
-function switchReaderCategory(category) {
+const categoryBriefCache = {};
+
+async function switchReaderCategory(category) {
   activeCategory = category;
   localStorage.setItem('readerCategory', category);
   // Sync mobile subtab if it exists
@@ -778,11 +799,39 @@ function switchReaderCategory(category) {
     }
   };
   syncMobileSubtab(category);
+
+  if (categoryBriefCache[category]) {
+    currentBriefing = categoryBriefCache[category];
+    if (readerContent) readerContent.innerHTML = renderReaderView(currentBriefing);
+    renderArticlesList();
+    return;
+  }
+
   if (currentBriefing) {
     if (readerContent) {
       readerContent.innerHTML = renderReaderView(currentBriefing);
     }
     renderArticlesList();
+  }
+
+  // Asynchronously fetch full category feed if available
+  if (category !== 'homepage' && category !== 'global') {
+    try {
+      const res = await fetch(`/api/latest-brief?category=${category}&t=${Date.now()}`);
+      if (res.ok) {
+        const catBrief = await res.json();
+        if (catBrief && catBrief.stories && catBrief.stories.length > 0) {
+          categoryBriefCache[category] = catBrief;
+          if (activeCategory === category) {
+            currentBriefing = catBrief;
+            if (readerContent) readerContent.innerHTML = renderReaderView(catBrief);
+            renderArticlesList();
+          }
+        }
+      }
+    } catch (e) {
+      // Keep existing render
+    }
   }
 }
 
