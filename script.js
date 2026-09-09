@@ -7,6 +7,7 @@
 const apiKeyInput         = document.getElementById('apiKeyInput');
 const toggleKeyVisibility = document.getElementById('toggleKeyVisibility');
 const generateBtn         = document.getElementById('generateBtn');
+const tabLatestBtn        = document.getElementById('tabLatestBtn');
 const tabHomepageBtn      = document.getElementById('tabHomepageBtn');
 const tabReaderBtn        = document.getElementById('tabReaderBtn');
 const tabMarkdownBtn      = document.getElementById('tabMarkdownBtn');
@@ -15,6 +16,8 @@ const tabWorldCupBtn      = document.getElementById('tabWorldCupBtn');
 const stateEmpty          = document.getElementById('stateEmpty');
 const stateLoading        = document.getElementById('stateLoading');
 const loadingStatusText   = document.getElementById('loadingStatusText');
+const viewLatest          = document.getElementById('viewLatest');
+const latestContent       = document.getElementById('latestContent');
 const viewHomepage        = document.getElementById('viewHomepage');
 const homepageContent     = document.getElementById('homepageContent');
 const viewReader          = document.getElementById('viewReader');
@@ -66,7 +69,28 @@ document.addEventListener('DOMContentLoaded', () => {
   checkServerConfig();
   fetchSources();
 
-  loadLatestBrief(activeTab === 'homepage' ? 'homepage' : 'global').then((hasData) => {
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.get('tab') === 'latest') {
+    activeTab = 'latest';
+  }
+
+  if (activeTab === 'latest') {
+    switchTab('latest');
+    loadLatest1Hour();
+    // Also warm global in background
+    fetch(`/api/latest-brief?category=global&t=${Date.now()}`)
+      .then(r => r.ok ? r.json() : null)
+      .then(gBrief => {
+        if (gBrief && Array.isArray(gBrief.stories) && gBrief.stories.length > 0) {
+          window._globalStories = gBrief.stories;
+          window._allStories = gBrief.stories;
+          if (articlesCountVal) articlesCountVal.textContent = gBrief.articlesCount || gBrief.stories.length;
+          renderArticlesList();
+          renderRightSidebarArticles(gBrief.stories);
+        }
+      }).catch(() => {});
+  } else {
+    loadLatestBrief(activeTab === 'homepage' ? 'homepage' : 'global').then((hasData) => {
     if (!hasData) {
       triggerBriefingGeneration();
     } else {
@@ -157,12 +181,15 @@ document.addEventListener('DOMContentLoaded', () => {
     if (tab) {
       btn.classList.toggle('active', tab === activeTab);
       btn.addEventListener('click', () => {
-        // If clicking Home, clear category active highlights
-        if (tab === 'homepage') {
+        // If clicking Home or Latest, clear category active highlights
+        if (tab === 'homepage' || tab === 'latest') {
           const readerSubtabs = document.getElementById('readerSubtabs');
           if (readerSubtabs) {
             readerSubtabs.querySelectorAll('.sidebar-cat-btn').forEach(b => b.classList.remove('active'));
           }
+        }
+        if (tab === 'latest') {
+          loadLatest1Hour();
         }
         switchTab(tab);
         closeMobileSidebar();
@@ -564,6 +591,43 @@ function setLoadingState(isLoading, statusText = '') {
   }
 }
 
+// ─── LATEST 1-HOUR FEED ───────────────────────────────────────
+async function loadLatest1Hour() {
+  setLoadingState(true, 'Loading last hour breaking news...');
+  try {
+    const res = await fetch(`/api/latest-brief?category=1hour&t=${Date.now()}`);
+    if (!res.ok) throw new Error('Could not fetch 1-hour feed');
+    const data = await res.json();
+    window._latest1HourData = data;
+    renderLatestView(data);
+  } catch (e) {
+    console.error('Error fetching 1-hour feed:', e);
+    if (latestContent) {
+      latestContent.innerHTML = `
+        <div class="empty-state p-12 text-center space-y-3">
+          <p class="font-headline-sm text-sm font-semibold">Could not load 1-hour feed.</p>
+          <p class="text-xs text-[var(--color-dark-gray)]">Please try refreshing or check back in a few minutes.</p>
+        </div>`;
+    }
+  } finally {
+    setLoadingState(false);
+  }
+}
+
+function renderLatestView(brief) {
+  if (!latestContent) return;
+  const stories = (brief && Array.isArray(brief.stories)) ? brief.stories : [];
+  if (stories.length === 0) {
+    latestContent.innerHTML = `
+      <div class="empty-state p-12 text-center space-y-3">
+        <p class="font-headline-sm text-sm font-semibold">No breaking stories in the past 60 minutes.</p>
+        <p class="text-xs text-[var(--color-dark-gray)]">Feeds are scanned continuously across all categories. Check back shortly or view the Home tab.</p>
+      </div>`;
+    return;
+  }
+  latestContent.innerHTML = stories.map((s, idx) => renderStoryCard(s, true, idx + 1)).join('');
+}
+
 // ─── TAB SWITCHING ─────────────────────────────────────────────
 function switchTab(tabName) {
   activeTab = tabName;
@@ -576,14 +640,17 @@ function switchTab(tabName) {
   });
 
   // Show/hide content panes
+  if (viewLatest)   viewLatest.style.display   = (tabName === 'latest')   ? 'block' : 'none';
   if (viewHomepage) viewHomepage.style.display = (tabName === 'homepage' && currentBriefing) ? 'block' : 'none';
   if (viewReader)   viewReader.style.display   = (tabName === 'reader'   && currentBriefing) ? 'block' : 'none';
 
   if (viewArticles) viewArticles.style.display = (tabName === 'articles' && currentBriefing) ? 'block' : 'none';
   if (viewWorldCup) viewWorldCup.style.display = (tabName === 'worldcup') ? 'flex' : 'none';
 
-  if (!currentBriefing) {
+  if (!currentBriefing && tabName !== 'latest') {
     if (stateEmpty) stateEmpty.style.display = 'flex';
+  } else if (stateEmpty) {
+    stateEmpty.style.display = 'none';
   }
 }
 

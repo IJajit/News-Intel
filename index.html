@@ -113,6 +113,11 @@
 
       <!-- Main nav: Home + Categories directly (vertical stack) -->
       <nav class="p-2 flex flex-col gap-0.5" id="readerSubtabs">
+        <!-- Latest (Past 1 Hour) tab button placed directly above Home -->
+        <button id="tabLatestBtn" class="sidebar-nav-btn text-left" data-tab="latest">
+          <span class="font-label-caps text-[11px] uppercase tracking-wider font-semibold">Latest</span>
+        </button>
+
         <!-- Home tab button -->
         <button id="tabHomepageBtn" class="sidebar-nav-btn text-left active" data-tab="homepage">
           <span class="font-label-caps text-[11px] uppercase tracking-wider font-semibold">Home</span>
@@ -171,6 +176,13 @@
           <div class="loading-cell bg-primary-container w-4 h-4"></div>
         </div>
         <div id="loadingStatusText" class="font-mono text-xs uppercase tracking-widest text-on-surface-variant animate-pulse">Retrieving Latest Intelligence...</div>
+      </div>
+
+      <!-- Latest (Past 1 Hour) Tab -->
+      <div id="viewLatest" class="briefing-reader space-y-12" role="tabpanel" aria-labelledby="tabLatestBtn" style="display: none;">
+        <div id="latestContent" class="reader-content space-y-12">
+          <!-- Loaded dynamically -->
+        </div>
       </div>
 
       <!-- Homepage Tab -->
