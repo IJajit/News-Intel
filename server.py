@@ -1434,6 +1434,162 @@ def fetch_world_cup_schedule():
     return {"matches": matches, "count": len(matches)}
 
 
+def format_hourly_push_payload(stories):
+    if not stories:
+        return {
+            "title": "News Intel · Hourly Update",
+            "body": "No major breaking stories published in the past hour. Feeds monitored continuously.",
+            "url": "/?tab=latest"
+        }
+    top_story = stories[0]
+    top_headline = top_story.get("primary_headline", "Breaking News")
+    more_count = len(stories) - 1
+    if more_count > 0:
+        categories = list(dict.fromkeys([s.get("category", "").title() for s in stories[1:4] if s.get("category")]))
+        cat_str = f" in {', '.join(categories)}" if categories else ""
+        body = f"{top_headline} (+ {more_count} more{cat_str})"
+    else:
+        body = top_headline
+
+    return {
+        "title": "News Intel · Past Hour Update",
+        "body": body,
+        "url": "/?tab=latest"
+    }
+
+def send_web_push_notification(subscription, payload_data):
+    if not WEBPUSH_AVAILABLE:
+        print("[WEBPUSH] pywebpush not available, skipping dispatch")
+        return False
+
+    _, priv_pem = get_or_create_vapid_keys()
+    if not priv_pem:
+        print("[WEBPUSH] No VAPID private key available")
+        return False
+
+    endpoint = subscription.get("endpoint")
+    if not endpoint:
+        return False
+
+    try:
+        pywebpush.webpush(
+            subscription_info=subscription,
+            data=json.dumps(payload_data),
+            vapid_private_key=priv_pem,
+            vapid_claims={"sub": "mailto:intel@newsintel.app"},
+            ttl=3600
+        )
+        return True
+    except pywebpush.WebPushException as ex:
+        print(f"[WEBPUSH] Failed to send push to {endpoint[:30]}...: {ex}")
+        if hasattr(ex, 'response') and ex.response is not None and ex.response.status_code in (404, 410):
+            print(f"[WEBPUSH] Subscription gone ({ex.response.status_code}). Removing.")
+            remove_subscription(endpoint)
+        return False
+    except Exception as e:
+        print(f"[WEBPUSH] Unexpected error sending push: {e}")
+        return False
+
+def run_hourly_pipeline(grounded_time=None):
+    if not grounded_time:
+        grounded_time = datetime.now(timezone.utc).isoformat()
+
+    print(f"[HOURLY CRON] Starting hourly news intelligence pipeline at {grounded_time}...")
+    
+    # 1. Fetch articles from past 1.0 hour across all sources
+    raw_articles = get_filtered_articles(grounded_time, max_hours=1.0)
+    
+    # If fewer than 3 stories in the last hour, expand window up to 2.0 hours to keep user updated with latest context
+    if len(raw_articles) < 3:
+        raw_articles = get_filtered_articles(grounded_time, max_hours=2.0)
+
+    story_objects = []
+    if raw_articles:
+        clusters = cluster_into_stories(raw_articles)
+        clusters = rank_clusters(clusters)
+
+        brief_cache = {}
+        for story in clusters:
+            cached = brief_cache.get(story["story_id"], {})
+            b_bullets = cached.get("brief_bullets", [])
+            if not b_bullets:
+                b_bullets = [cached.get("brief") or story.get("primary_headline")]
+            w_bullets = cached.get("why_it_matters_bullets", [])
+            if not w_bullets:
+                cat_name = story.get("category", "this sector")
+                w_bullets = [f"Carries notable strategic, policy, and market implications for {cat_name} stakeholders as developments unfold."]
+
+            story_obj = {
+                "story_id": story["story_id"],
+                "category": story["category"],
+                "primary_headline": story["primary_headline"],
+                "primary_source": story["primary_source"],
+                "sources": [
+                    {
+                        "source_name": s["source_name"],
+                        "headline": s["headline"],
+                        "published_at": s["published_at"],
+                        "url": s["url"]
+                    }
+                    for s in story["sources"]
+                ],
+                "source_count": story["source_count"],
+                "total_count": story["total_count"],
+                "combined_score": story["combined_score"],
+                "brief_bullets": b_bullets,
+                "why_it_matters_bullets": w_bullets,
+                "brief": cached.get("brief", ""),
+                "brief_word_count": cached.get("brief_word_count", 0)
+            }
+            story_objects.append(story_obj)
+
+        story_objects.sort(key=lambda s: (s.get("source_count", 1), s.get("combined_score", 0)), reverse=True)
+
+    one_hour_data = {
+        "id": "latest",
+        "category": "1hour",
+        "timestamp": grounded_time,
+        "articlesCount": len(story_objects),
+        "stories": story_objects
+    }
+
+    # Save to briefings directory
+    one_hour_path = os.path.join(BRIEFINGS_DIR, "latest_1hour.json")
+    try:
+        with open(one_hour_path, "w", encoding="utf-8") as f:
+            json.dump(one_hour_data, f, ensure_ascii=False)
+    except Exception as e:
+        print(f"[HOURLY CRON] Error saving to {one_hour_path}: {e}")
+
+    # Also update seed file if writable
+    seed_path = os.path.join(SEED_DIR, "latest_1hour.json")
+    if os.access(os.path.dirname(seed_path), os.W_OK):
+        try:
+            with open(seed_path, "w", encoding="utf-8") as f:
+                json.dump(one_hour_data, f, ensure_ascii=False)
+        except Exception:
+            pass
+
+    # Format push notification payload
+    payload = format_hourly_push_payload(story_objects)
+
+    # Dispatch to subscribers
+    subs = load_subscriptions()
+    dispatched = 0
+    for sub in subs:
+        if send_web_push_notification(sub, payload):
+            dispatched += 1
+
+    print(f"[HOURLY CRON] Finished pipeline: {len(story_objects)} stories, {dispatched}/{len(subs)} notifications sent.")
+    return {
+        "success": True,
+        "articlesCount": len(story_objects),
+        "subscriptionsCount": len(subs),
+        "dispatchedCount": dispatched,
+        "payload": payload
+    }
+
+
 class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
     def end_headers(self):
         self.send_header('Access-Control-Allow-Origin', '*')
@@ -1573,6 +1729,15 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                 self.send_json({"success": True})
             else:
                 self.send_json({"error": "Endpoint required"}, 400)
+
+        elif path == '/api/cron-hourly':
+            auth_header = self.headers.get('Authorization', '')
+            cron_secret = os.environ.get('CRON_SECRET', '').strip()
+            if cron_secret and auth_header != f"Bearer {cron_secret}":
+                self.send_json({"error": "Unauthorized"}, 401)
+                return
+            result = run_hourly_pipeline()
+            self.send_json(result)
 
         elif path == '/api/generate-brief':
             content_length = int(self.headers.get('Content-Length', 0))
