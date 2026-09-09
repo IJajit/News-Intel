@@ -1508,7 +1508,40 @@ def run_hourly_pipeline(grounded_time=None):
         clusters = cluster_into_stories(raw_articles)
         clusters = rank_clusters(clusters)
 
+        groq_api_key = os.environ.get('GROQ_API_KEY', '')
+        gemini_api_key = os.environ.get('GEMINI_API_KEY', '')
+
         brief_cache = {}
+        with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+            fut_map = {
+                pool.submit(generate_story_brief, story, ssl_context, HF_API_TOKEN, groq_api_key, gemini_api_key): story
+                for story in clusters
+            }
+            for future in concurrent.futures.as_completed(fut_map):
+                story = fut_map[future]
+                try:
+                    res = future.result()
+                    if isinstance(res, dict):
+                        b_bullets = res.get("brief", [])
+                        w_bullets = res.get("why_it_matters", [])
+                        summary = res.get("summary", "")
+                        if not summary and b_bullets:
+                            summary = " ".join(b_bullets)
+                        wc = res.get("word_count", len(summary.split()))
+                    else:
+                        summary = str(res)
+                        b_bullets = [summary]
+                        w_bullets = []
+                        wc = len(summary.split())
+                    brief_cache[story["story_id"]] = {
+                        "brief_bullets": b_bullets,
+                        "why_it_matters_bullets": w_bullets,
+                        "brief": summary,
+                        "brief_word_count": wc
+                    }
+                except Exception as e:
+                    print(f"Hourly brief generation failed for story {story.get('story_id')}: {e}")
+
         for story in clusters:
             cached = brief_cache.get(story["story_id"], {})
             b_bullets = cached.get("brief_bullets", [])
