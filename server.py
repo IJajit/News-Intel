@@ -15,6 +15,14 @@ import concurrent.futures
 import traceback
 import shutil
 
+try:
+    from py_vapid import Vapid, utils as vapid_utils
+    from cryptography.hazmat.primitives import serialization
+    import pywebpush
+    WEBPUSH_AVAILABLE = True
+except ImportError:
+    WEBPUSH_AVAILABLE = False
+
 from news_clustering import cluster_articles, rank_clusters, jaccard_similarity, normalize_title, cluster_into_stories
 from news_summarizer import summarize_content, extract_why_it_matters
 
@@ -160,6 +168,104 @@ else:
 
 BRIEFINGS_DIR = os.path.join(DATA_DIR, 'briefings')
 os.makedirs(BRIEFINGS_DIR, exist_ok=True)
+
+SUBSCRIPTIONS_FILE = os.path.join(DATA_DIR, 'subscriptions.json')
+VAPID_KEYS_FILE = os.path.join(DATA_DIR, 'vapid_keys.json')
+
+def get_or_create_vapid_keys(filepath=None):
+    if not filepath:
+        filepath = VAPID_KEYS_FILE
+    
+    # 1. Check environment variables first
+    env_pub = os.environ.get('VAPID_PUBLIC_KEY', '').strip()
+    env_priv = os.environ.get('VAPID_PRIVATE_KEY', '').strip()
+    if env_pub and env_priv:
+        return env_pub, env_priv
+
+    # 2. Check local/specified file
+    if os.path.exists(filepath):
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                if data.get('public_key') and data.get('private_key'):
+                    return data['public_key'], data['private_key']
+        except Exception as e:
+            print(f"Error reading VAPID keys from {filepath}: {e}")
+
+    # Check data/ fallback if filepath is /tmp
+    seed_keys_file = os.path.join(os.path.dirname(__file__), 'data', 'vapid_keys.json')
+    if os.path.exists(seed_keys_file) and seed_keys_file != filepath:
+        try:
+            with open(seed_keys_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                if data.get('public_key') and data.get('private_key'):
+                    return data['public_key'], data['private_key']
+        except Exception:
+            pass
+
+    # 3. Generate new VAPID keys
+    if not WEBPUSH_AVAILABLE:
+        return "", ""
+
+    v = Vapid()
+    v.generate_keys()
+    raw = v.public_key.public_bytes(serialization.Encoding.X962, serialization.PublicFormat.UncompressedPoint)
+    pub_b64 = vapid_utils.b64urlencode(raw)
+    priv_pem = v.private_pem().decode('utf-8')
+
+    try:
+        os.makedirs(os.path.dirname(filepath), exist_ok=True)
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump({'public_key': pub_b64, 'private_key': priv_pem}, f, indent=2)
+    except Exception as e:
+        print(f"Error saving VAPID keys to {filepath}: {e}")
+
+    return pub_b64, priv_pem
+
+def load_subscriptions(filepath=None):
+    if not filepath:
+        filepath = SUBSCRIPTIONS_FILE
+    if not os.path.exists(filepath):
+        fallback = os.path.join(os.path.dirname(__file__), 'data', 'subscriptions.json')
+        if os.path.exists(fallback):
+            filepath = fallback
+        else:
+            return []
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            return data if isinstance(data, list) else []
+    except Exception as e:
+        print(f"Error loading subscriptions from {filepath}: {e}")
+        return []
+
+def save_subscription(sub_data, filepath=None):
+    if not filepath:
+        filepath = SUBSCRIPTIONS_FILE
+    subs = load_subscriptions(filepath)
+    endpoint = sub_data.get('endpoint')
+    if not endpoint:
+        return
+    subs = [s for s in subs if s.get('endpoint') != endpoint]
+    subs.append(sub_data)
+    try:
+        os.makedirs(os.path.dirname(filepath), exist_ok=True)
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(subs, f, indent=2, ensure_ascii=False)
+    except Exception as e:
+        print(f"Error saving subscriptions to {filepath}: {e}")
+
+def remove_subscription(endpoint, filepath=None):
+    if not filepath:
+        filepath = SUBSCRIPTIONS_FILE
+    subs = load_subscriptions(filepath)
+    new_subs = [s for s in subs if s.get('endpoint') != endpoint]
+    try:
+        os.makedirs(os.path.dirname(filepath), exist_ok=True)
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(new_subs, f, indent=2, ensure_ascii=False)
+    except Exception as e:
+        print(f"Error updating subscriptions in {filepath}: {e}")
 
 
 def parse_iso(iso_str):
@@ -1369,6 +1475,9 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
         elif path == '/api/config':
             groq_key = os.environ.get('GROQ_API_KEY', '')
             self.send_json({"apiKeyConfigured": bool(groq_key)})
+        elif path == '/api/vapid-public-key':
+            pub_key, _ = get_or_create_vapid_keys()
+            self.send_json({"publicKey": pub_key})
         elif path == '/api/world-cup':
             self.send_json(fetch_world_cup_schedule())
         elif path == '/api/latest-brief':
@@ -1437,7 +1546,35 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
         if '__path__' in query:
             path = '/api/' + query['__path__'][0]
 
-        if path == '/api/generate-brief':
+        if path == '/api/subscribe':
+            content_length = int(self.headers.get('Content-Length', 0))
+            post_data = self.rfile.read(content_length).decode('utf-8')
+            try:
+                sub_data = json.loads(post_data) if post_data else {}
+            except Exception:
+                sub_data = {}
+            sub = sub_data.get('subscription', sub_data)
+            if sub and isinstance(sub, dict) and 'endpoint' in sub:
+                save_subscription(sub)
+                self.send_json({"success": True})
+            else:
+                self.send_json({"error": "Invalid subscription object"}, 400)
+
+        elif path == '/api/unsubscribe':
+            content_length = int(self.headers.get('Content-Length', 0))
+            post_data = self.rfile.read(content_length).decode('utf-8')
+            try:
+                unsub_data = json.loads(post_data) if post_data else {}
+            except Exception:
+                unsub_data = {}
+            endpoint = unsub_data.get('endpoint')
+            if endpoint:
+                remove_subscription(endpoint)
+                self.send_json({"success": True})
+            else:
+                self.send_json({"error": "Endpoint required"}, 400)
+
+        elif path == '/api/generate-brief':
             content_length = int(self.headers.get('Content-Length', 0))
             post_data = self.rfile.read(content_length).decode('utf-8')
             try:
