@@ -114,6 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   fetchWikiIntel();
+  initPushNotifications();
 
   // ─── GENERATE BUTTON ────────────────────────────────────────
   generateBtn.addEventListener('click', triggerBriefingGeneration);
@@ -1447,3 +1448,102 @@ toastStyle.textContent = `
   .briefing-link:hover { color: #c43e14; }
 `;
 document.head.appendChild(toastStyle);
+
+// ─── PUSH NOTIFICATIONS ───────────────────────────────────────
+function urlB64ToUint8Array(base64String) {
+  const padding = '='.repeat((4 - (base64String.length % 4)) % 4);
+  const base64 = (base64String + padding).replace(/-/g, '+').replace(/_/g, '/');
+  const rawData = window.atob(base64);
+  const outputArray = new Uint8Array(rawData.length);
+  for (let i = 0; i < rawData.length; ++i) {
+    outputArray[i] = rawData.charCodeAt(i);
+  }
+  return outputArray;
+}
+
+async function initPushNotifications() {
+  const notifBtn = document.getElementById('notifToggleBtn');
+  const notifIcon = document.getElementById('notifIcon');
+  if (!notifBtn || !('serviceWorker' in navigator) || !('PushManager' in window)) {
+    if (notifBtn) notifBtn.style.display = 'none';
+    return;
+  }
+
+  let swReg = null;
+  try {
+    swReg = await navigator.serviceWorker.register('/sw.js');
+  } catch (err) {
+    console.error('Service Worker registration failed:', err);
+    return;
+  }
+
+  async function updateNotifState() {
+    try {
+      const sub = await swReg.pushManager.getSubscription();
+      if (sub) {
+        if (notifIcon) {
+          notifIcon.textContent = 'notifications_active';
+          notifIcon.style.color = 'var(--color-orange)';
+        }
+        notifBtn.title = 'Hourly Alerts: Enabled (click to turn off)';
+      } else {
+        if (notifIcon) {
+          notifIcon.textContent = 'notifications';
+          notifIcon.style.color = 'var(--color-dark-gray)';
+        }
+        notifBtn.title = 'Toggle Hourly News Alerts';
+      }
+    } catch (e) {
+      console.error('Error checking push subscription:', e);
+    }
+  }
+
+  await updateNotifState();
+
+  notifBtn.addEventListener('click', async () => {
+    if (Notification.permission === 'denied') {
+      showToast('Notifications are blocked in your browser settings. Please allow notifications for this site.', 'error');
+      return;
+    }
+
+    try {
+      const existingSub = await swReg.pushManager.getSubscription();
+      if (existingSub) {
+        await existingSub.unsubscribe();
+        await fetch('/api/unsubscribe', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ endpoint: existingSub.endpoint })
+        });
+        showToast('Hourly news alerts disabled.', 'info');
+      } else {
+        const perm = await Notification.requestPermission();
+        if (perm !== 'granted') {
+          showToast('Notification permission was not granted.', 'error');
+          return;
+        }
+        const keyRes = await fetch('/api/vapid-public-key');
+        if (!keyRes.ok) throw new Error('Could not retrieve push keys');
+        const { publicKey } = await keyRes.json();
+        if (!publicKey) throw new Error('VAPID public key empty');
+
+        const newSub = await swReg.pushManager.subscribe({
+          userVisibleOnly: true,
+          applicationServerKey: urlB64ToUint8Array(publicKey)
+        });
+
+        await fetch('/api/subscribe', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ subscription: newSub.toJSON() })
+        });
+
+        showToast('Hourly alerts enabled. You will receive updates every hour.', 'success');
+      }
+      await updateNotifState();
+    } catch (err) {
+      console.error('Error toggling push notifications:', err);
+      showToast('Push alert setup failed: ' + err.message, 'error');
+    }
+  });
+}

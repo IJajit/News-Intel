@@ -52,6 +52,7 @@
     } catch (_e) {}
   </script>
 
+  <link rel="manifest" href="/manifest.json">
   <!-- Local Custom Styles -->
   <link rel="stylesheet" href="styles.css">
 
@@ -84,8 +85,12 @@
       </a>
     </div>
 
-    <!-- Right: theme toggle + update + sidebar toggle -->
+    <!-- Right: notification toggle + theme toggle + update + sidebar toggle -->
     <div class="flex items-center gap-3">
+      <button class="flex items-center p-1.5 rounded transition-colors" id="notifToggleBtn" title="Toggle Hourly Alerts" style="color: var(--color-dark-gray);">
+        <span class="material-symbols-outlined" id="notifIcon" style="font-size:20px;">notifications</span>
+      </button>
+
       <button class="flex items-center p-1.5 rounded transition-colors" id="themeToggleBtn" title="Toggle Theme" style="color: var(--color-dark-gray);">
         <span class="material-symbols-outlined" id="themeIcon" style="font-size:20px;">light_mode</span>
       </button>
