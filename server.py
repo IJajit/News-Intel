@@ -1514,7 +1514,7 @@ if __name__ == "__main__":
         print(f"[STARTUP] GROQ_API_KEY found ({groq_key[:8]}...{groq_key[-4:]}) — Groq will be used as primary LLM provider")
     else:
         print(f"[STARTUP] GROQ_API_KEY not set — all briefs will use BART/extractive fallback")
-    socketserver.TCPServer.allow_reuse_address = True
-    with socketserver.TCPServer(("", PORT), NewsBriefingHandler) as httpd:
+    socketserver.ThreadingTCPServer.allow_reuse_address = True
+    with socketserver.ThreadingTCPServer(("", PORT), NewsBriefingHandler) as httpd:
         print(f"Serving news app at http://localhost:{PORT}")
         httpd.serve_forever()
