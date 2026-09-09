@@ -115,21 +115,92 @@ def _structured_fallback(text, title=""):
             "summary": clean_title
         }
     
-    if len(unique_sentences) >= 3:
-        brief_bullets = unique_sentences[:2]
-        wim_bullets = [unique_sentences[2]]
-    elif len(unique_sentences) == 2:
-        brief_bullets = [unique_sentences[0]]
-        wim_bullets = [unique_sentences[1]]
+    # Produce an elaborate, multi-sentence brief (at least 3-5 sentences)
+    wim_sentence = _derive_specific_wim(core_title, " ".join(unique_sentences))
+
+    if len(unique_sentences) >= 4:
+        brief_sentences = unique_sentences[:4]
+    elif len(unique_sentences) >= 2:
+        brief_sentences = unique_sentences
     else:
-        brief_bullets = [unique_sentences[0]]
-        wim_bullets = [_derive_specific_wim(core_title, unique_sentences[0])]
+        brief_sentences = [unique_sentences[0]]
+
+    full_narrative = " ".join(brief_sentences)
+    if wim_sentence and wim_sentence not in full_narrative:
+        full_narrative = f"{full_narrative} {wim_sentence}"
 
     return {
-        "brief": brief_bullets,
-        "why_it_matters": wim_bullets,
-        "summary": " ".join(brief_bullets)
+        "brief": brief_sentences,
+        "why_it_matters": [wim_sentence],
+        "summary": full_narrative
     }
+
+
+def _call_omniroute_api(text, title=""):
+    """Call OmniRoute local AI router (using gemini-3.1-flash-lite)."""
+    clean = _clean_rss_artifacts(text) or title
+    if not clean:
+        return None
+
+    prompt = f"""You are an executive news intelligence editor. Write a thorough, comprehensive, and elaborate analytical news brief for the following story.
+
+EDITORIAL REQUIREMENTS:
+- Provide an elaborate narrative brief of 120-180 words (4 to 6 substantive sentences) that thoroughly explains what happened, key individuals, organizations, decisions, verified facts, and broader implications.
+- Do NOT overly compress or truncate into a single short sentence. Explain the entire story properly.
+- Write in clean, publication-ready prose. No bullet points, no headers, no emojis.
+- Also provide a concise why_it_matters statement (1-2 sentences) detailing strategic impact and consequences.
+
+Title: {title}
+Article content: {clean[:3000]}
+
+Respond ONLY with valid JSON in this format:
+{{
+  "brief": "Comprehensive, elaborate multi-sentence narrative explanation of the story...",
+  "why_it_matters": "Strategic downstream consequences..."
+}}"""
+
+    url = "http://localhost:20128/v1/chat/completions"
+    payload = {
+        "model": "antigravity/gemini-3.1-flash-lite",
+        "messages": [
+            {"role": "system", "content": "You are an executive news editor. Output only valid JSON."},
+            {"role": "user", "content": prompt}
+        ],
+        "temperature": 0.25,
+        "response_format": {"type": "json_object"}
+    }
+    headers = {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer sk-antigravity-bridge'
+    }
+    data = json.dumps(payload).encode('utf-8')
+    req = urllib.request.Request(url, data=data, headers=headers, method='POST')
+
+    try:
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            resp_data = json.loads(resp.read().decode('utf-8'))
+            choices = resp_data.get('choices', [])
+            if choices:
+                raw_content = choices[0].get('message', {}).get('content', '')
+                raw_content = re.sub(r'^```json\s*', '', raw_content.strip(), flags=re.IGNORECASE)
+                raw_content = re.sub(r'^```\s*', '', raw_content.strip(), flags=re.IGNORECASE)
+                raw_content = re.sub(r'```$', '', raw_content.strip())
+                parsed = json.loads(raw_content)
+
+                brief_text = parsed.get("brief", "").strip()
+                wim_text = parsed.get("why_it_matters", "").strip()
+                if brief_text:
+                    full_brief = f"{brief_text} {wim_text}".strip() if wim_text else brief_text
+                    return {
+                        "brief": [brief_text],
+                        "why_it_matters": [wim_text] if wim_text else [],
+                        "summary": full_brief
+                    }
+    except Exception as e:
+        # Silently proceed to next provider
+        pass
+
+    return None
 
 
 def _call_gemini_api(text, title="", gemini_key=""):
@@ -150,27 +221,21 @@ def _call_gemini_api(text, title="", gemini_key=""):
     if not clean:
         return None
 
-    # Construct Gemini prompt requesting bulleted brief and why_it_matters
-    prompt = f"""You are an executive news intelligence editor. Synthesize the news story below into an executive briefing format.
-CRITICAL EDITORIAL REQUIREMENTS:
-1. "brief": Provide 2 to 4 detailed, fact-first bullet points that thoroughly explain what happened, the key figures, policy changes, statements, or developments. Do not overly compress or truncate—the entire story must be represented properly and accurately.
-2. "why_it_matters": Provide 1 to 2 self-explanatory bullet points detailing the strategic impact, downstream consequences, and broader significance. It must be thorough and not give a half-picture.
-3. Absolutely NO emojis or icons anywhere in the output.
+    prompt = f"""You are an executive news intelligence editor. Write a thorough, comprehensive, and elaborate analytical news brief for the following story.
+
+EDITORIAL REQUIREMENTS:
+- Provide an elaborate narrative brief of 120-180 words (4 to 6 substantive sentences) that thoroughly explains what happened, key individuals, organizations, decisions, verified facts, and broader implications.
+- Do NOT overly compress or truncate into a single short sentence. Explain the entire story properly.
+- Write in clean, publication-ready prose. No bullet points, no headers, no emojis.
+- Also provide a concise why_it_matters statement (1-2 sentences) detailing strategic impact and consequences.
 
 Title: {title}
-Article: {clean}
+Article: {clean[:3000]}
 
 Respond ONLY with valid JSON in this format:
 {{
-  "brief": [
-    "First comprehensive factual bullet point...",
-    "Second comprehensive factual bullet point...",
-    "Third factual bullet point if needed..."
-  ],
-  "why_it_matters": [
-    "First self-explanatory bullet on downstream consequences and impact...",
-    "Second bullet on broader significance if needed..."
-  ]
+  "brief": "Comprehensive, elaborate multi-sentence narrative explanation of the story...",
+  "why_it_matters": "Strategic downstream consequences..."
 }}"""
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
@@ -197,23 +262,25 @@ Respond ONLY with valid JSON in this format:
                 part_text = re.sub(r'^```\s*', '', part_text.strip(), flags=re.IGNORECASE)
                 part_text = re.sub(r'```$', '', part_text.strip())
                 parsed = json.loads(part_text)
-                
-                # Normalize parsed output
-                brief_list = parsed.get("brief", [])
-                if isinstance(brief_list, str):
-                    brief_list = [brief_list]
-                wim_list = parsed.get("why_it_matters", [])
-                if isinstance(wim_list, str):
-                    wim_list = [wim_list]
-                
-                if brief_list:
+
+                brief_text = parsed.get("brief", "")
+                if isinstance(brief_text, list):
+                    brief_text = " ".join(brief_text)
+                wim_text = parsed.get("why_it_matters", "")
+                if isinstance(wim_text, list):
+                    wim_text = " ".join(wim_text)
+
+                brief_text = brief_text.strip()
+                wim_text = wim_text.strip()
+                if brief_text:
+                    full_brief = f"{brief_text} {wim_text}".strip() if wim_text else brief_text
                     return {
-                        "brief": brief_list,
-                        "why_it_matters": wim_list,
-                        "summary": " ".join(brief_list)
+                        "brief": [brief_text],
+                        "why_it_matters": [wim_text] if wim_text else [],
+                        "summary": full_brief
                     }
     except Exception as e:
-        print(f"[Gemini API Error]: {e}")
+        pass
 
     return None
 
@@ -221,17 +288,25 @@ Respond ONLY with valid JSON in this format:
 def generate_deep_dive_brief(content, title="", gemini_key=""):
     """
     Main entry point for generating Deep-Dive Analytical Briefs.
-    Returns a dictionary with 'brief' (list of strings) and 'why_it_matters' (list of strings).
+    Tries OmniRoute local inference first, then Gemini cloud API, then high-depth structured fallback.
     """
     cache_key = f"{title}_{hash(content[:200])}"
     if cache_key in SUMMARY_CACHE:
         return SUMMARY_CACHE[cache_key]
 
+    # 1. OmniRoute AI router (free, unlimited local bridge)
+    omni_result = _call_omniroute_api(content, title=title)
+    if omni_result:
+        SUMMARY_CACHE[cache_key] = omni_result
+        return omni_result
+
+    # 2. Gemini Cloud API
     gemini_result = _call_gemini_api(content, title=title, gemini_key=gemini_key)
     if gemini_result:
         SUMMARY_CACHE[cache_key] = gemini_result
         return gemini_result
 
+    # 3. High-depth multi-sentence structured analytical fallback
     fallback = _structured_fallback(content, title=title)
     SUMMARY_CACHE[cache_key] = fallback
     return fallback

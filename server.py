@@ -74,13 +74,13 @@ SOURCES = [
   { "id": "deccan-herald", "name": "Deccan Herald", "url": "https://www.deccanherald.com/feed/", "siteUrl": "https://www.deccanherald.com/" },
   { "id": "vox", "name": "Vox", "url": "https://www.vox.com/rss/index.xml", "siteUrl": "https://www.vox.com/" },
   { "id": "cnn", "name": "CNN", "url": "https://news.google.com/rss/search?q=site:cnn.com&hl=en-US&gl=US&ceid=US:en", "siteUrl": "https://edition.cnn.com/" },
-  { "id": "reuters", "name": "Reuters", "url": "https://news.google.com/rss/search?q=site:reuters.com&hl=en-US&gl=US&ceid=US:en", "siteUrl": "https://www.reuters.com/" },
+  { "id": "reuters", "name": "Reuters", "url": "https://news.google.com/rss/search?q=site:reuters.com+when:1d&hl=en-US&gl=US&ceid=US:en", "siteUrl": "https://www.reuters.com/" },
   { "id": "bloomberg", "name": "Bloomberg", "url": "https://feeds.bloomberg.com/markets/news.rss", "siteUrl": "https://www.bloomberg.com/asia" },
-  { "id": "ap-news", "name": "AP News", "url": "https://rsshub.app/apnews/rss", "siteUrl": "https://apnews.com/" },
+  { "id": "ap-news", "name": "AP News", "url": "https://news.google.com/rss/search?q=site:apnews.com+when:1d&hl=en-US&gl=US&ceid=US:en", "siteUrl": "https://apnews.com/" },
   { "id": "al-jazeera", "name": "Al Jazeera", "url": "https://news.google.com/rss/search?q=site:aljazeera.com&hl=en-US&gl=US&ceid=US:en", "siteUrl": "https://www.aljazeera.com/" },
   { "id": "npr", "name": "NPR", "url": "https://feeds.npr.org/1001/rss.xml", "siteUrl": "https://www.npr.org/" },
   { "id": "ndtv", "name": "NDTV", "url": "https://feeds.feedburner.com/ndtvnews-latest", "siteUrl": "https://www.ndtv.com/" },
-  { "id": "the-hindu", "name": "The Hindu", "url": "https://www.thehindu.com/news/feeds/default.rss", "siteUrl": "https://www.thehindu.com/" },
+  { "id": "the-hindu", "name": "The Hindu", "url": "https://www.thehindu.com/news/feeder/default.rss", "siteUrl": "https://www.thehindu.com/" },
   { "id": "nytimes", "name": "NYT", "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml", "siteUrl": "https://www.nytimes.com/" },
   { "id": "washington-post", "name": "Washington Post", "url": "http://feeds.washingtonpost.com/rss/world", "siteUrl": "https://www.washingtonpost.com/" },
   { "id": "wired", "name": "Wired", "url": "https://www.wired.com/feed/rss", "siteUrl": "https://www.wired.com/" },
@@ -133,13 +133,6 @@ def assign_subcategory(article):
 
 def decode_google_news_url(url):
     try:
-        from googlenewsdecoder import gnewsdecoder
-        res = gnewsdecoder(url)
-        if res.get('status') and res.get('decoded_url'):
-            return res['decoded_url']
-    except Exception as e:
-        print(f"Error decoding link using googlenewsdecoder {url}: {e}")
-    try:
         match = re.search(r'news\.google\.com/(?:rss/)?articles/([^?#/]+)', url)
         if not match:
             return url
@@ -155,7 +148,7 @@ def decode_google_news_url(url):
         if http_match:
             return http_match.group(1)
     except Exception as e:
-        print(f"Error decoding base64 link {url}: {e}")
+        pass
     return url
 
 
@@ -327,6 +320,11 @@ def scrape_article_description(art):
     if not url:
         art.setdefault('content', title)
         return art
+    # Skip known 403-blocking domains to avoid scraping latency and errors
+    if any(domain in url for domain in ['nytimes.com', 'ndtv.com', 'wsj.com', 'bloomberg.com']):
+        if not existing:
+            art['content'] = title
+        return art
     try:
         req = urllib.request.Request(
             url,
@@ -414,7 +412,8 @@ def get_filtered_articles(grounded_time_str, max_hours=24.0):
         diff = grounded_dt - pub_dt
         diff_hours = diff.total_seconds() / 3600.0
 
-        if -24.0 <= diff_hours <= (max_hours + 48.0):
+        # Strictly enforce last 24 hours (-0.5h buffer for minor server clock skew)
+        if -0.5 <= diff_hours <= max_hours:
             seen_keys.add(key)
             filtered.append(art)
 
@@ -1361,6 +1360,9 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
         elif path == '/api/latest-brief':
             category = query.get('category', ['global'])[0].lower()
             filepath = os.path.join(BRIEFINGS_DIR, f"latest_{category}.json")
+            if not os.path.exists(filepath):
+                filepath = os.path.join(SEED_DIR, f"latest_{category}.json")
+
             data = None
             if os.path.exists(filepath):
                 try:
@@ -1395,6 +1397,11 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                         print(f"Error reading global fallback: {e}")
 
             if data and isinstance(data, dict):
+                # Ensure homepage is capped to top 20 most important stories
+                if category == 'homepage' and isinstance(data.get('stories'), list) and len(data['stories']) > 20:
+                    data = dict(data)
+                    data['stories'] = data['stories'][:20]
+                    data['articlesCount'] = len(data['stories'])
                 self.send_json(data)
             else:
                 self.send_json({"error": f"Latest briefing for category {category} not found"}, 404)

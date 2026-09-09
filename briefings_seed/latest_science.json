@@ -1,377 +1,579 @@
 {
   "id": "latest",
-  "timestamp": "2026-09-01T16:34:07.013Z",
-  "articlesCount": 14,
+  "timestamp": "2026-09-09T15:56:01.806958+00:00",
+  "articlesCount": 22,
   "stories": [
     {
-      "story_id": "story-4",
+      "story_id": "story-79",
       "category": "Science",
-      "primary_headline": "Summer 2026 was UK's hottest on record, Met Office says",
+      "primary_headline": "Can an entire Arctic ecosystem evolve to adapt to the climate crisis?",
+      "primary_source": {
+        "source_name": "The Guardian",
+        "headline": "Can an entire Arctic ecosystem evolve to adapt to the climate crisis?",
+        "published_at": "Wed, 09 Sep 2026 11:00:07 GMT",
+        "url": "https://www.theguardian.com/environment/2026/sep/09/arctic-ecosystem-evolve-adapt-climate-crisis-aoe",
+        "content": "In the first project of its kind, scientists are trying to answer if the future of Alaska’s streams and tundra may depend not on survival of the fittest but on how species adapt togetherOn Alaska’s North Slope, scientists tread carefully across clumps of tussock grasses toward a fast-flowing stream draining the imposing Brooks Range of ice and snow. Near Galbraith Creek, they string out a mist net for white-crowned sparrows. The birds have recently arrived from southerly latitudes, intent on feasting on the insects that will soon descend on the tundra like storm clouds.The Arctic summer is short-lived, and sparrows have only a few weeks to establish territories, find mates, lay eggs and raise their chicks on a steady diet of bugs. From every ensnared bird, the scientists collect blood, feather and faecal samples to see what they are eating and how that changes over the summer.Galbraith Creek on Alaska’s North Slope Continue reading..."
+      },
+      "sources": [
+        {
+          "source_name": "The Guardian",
+          "headline": "Can an entire Arctic ecosystem evolve to adapt to the climate crisis?",
+          "published_at": "Wed, 09 Sep 2026 11:00:07 GMT",
+          "url": "https://www.theguardian.com/environment/2026/sep/09/arctic-ecosystem-evolve-adapt-climate-crisis-aoe"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.86,
+      "brief": "Researchers on Alaska’s North Slope have launched a pioneering study near Galbraith Creek to determine whether Arctic ecosystems can collectively adapt to the accelerating climate crisis through species interdependence rather than traditional survival-of-the-fittest mechanisms. By meticulously monitoring white-crowned sparrows that migrate to the region to breed during the fleeting Arctic summer, scientists are analyzing blood, feather, and fecal samples to track dietary shifts and physiological responses to the environment. This project represents a critical shift in ecological research, moving beyond individual species survival to investigate how complex biological networks respond to rapid environmental changes in the Brooks Range. As the Arctic warms, understanding the synchronization between migratory birds and the insect populations they rely upon is essential for predicting the long-term viability of these fragile northern habitats. This comprehensive field study aims to decode the intricate evolutionary strategies that may allow tundra ecosystems to persist despite the profound pressures of global warming. This research fundamentally challenges our understanding of ecological resilience, potentially shifting conservation strategies from protecting individual species to preserving the complex, interconnected biological relationships that sustain entire biomes. If successful, these findings could provide a predictive framework for managing biodiversity loss in rapidly warming regions worldwide.",
+      "brief_word_count": 198,
+      "summary": "Researchers on Alaska’s North Slope have launched a pioneering study near Galbraith Creek to determine whether Arctic ecosystems can collectively adapt to the accelerating climate crisis through species interdependence rather than traditional survival-of-the-fittest mechanisms. By meticulously monitoring white-crowned sparrows that migrate to the region to breed during the fleeting Arctic summer, scientists are analyzing blood, feather, and fecal samples to track dietary shifts and physiological responses to the environment. This project represents a critical shift in ecological research, moving beyond individual species survival to investigate how complex biological networks respond to rapid environmental changes in the Brooks Range. As the Arctic warms, understanding the synchronization between migratory birds and the insect populations they rely upon is essential for predicting the long-term viability of these fragile northern habitats. This comprehensive field study aims to decode the intricate evolutionary strategies that may allow tundra ecosystems to persist despite the profound pressures of global warming. This research fundamentally challenges our understanding of ecological resilience, potentially shifting conservation strategies from protecting individual species to preserving the complex, interconnected biological relationships that sustain entire biomes. If successful, these findings could provide a predictive framework for managing biodiversity loss in rapidly warming regions worldwide."
+    },
+    {
+      "story_id": "story-159",
+      "category": "Science",
+      "primary_headline": "First Indian genome study links endometriosis to genetics",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "First Indian genome study links endometriosis to genetics",
+        "published_at": "Wed, 09 Sep 2026 12:42:05 +0000",
+        "url": "https://www.deccanherald.com/health/healthcare/first-indian-genome-study-links-endometriosis-to-genetics-4140531",
+        "content": " Endometriosis is a chronic condition where tissues similar to the lining of the uterus grow outside of it. For years, doctors have linked it with chronic pelvic pain, infertility, and severe period pain. Moreover, it is frequently misdiagnosed, with an average delay of seven to ten years from the initial symptoms to an accurate diagnosis.Now, India’s first genome-wide study on the condition has found evidence that genetic susceptibility may play a role in Indian women. The study published in Scientific Reports found 21 unique regions in the genome that might be specifically tied to risk in South Asian women, with the strongest signal appearing on chromosome 13 near a gene called SHISA2 and a non-coding RNA called LINC00415.Some of the major genetic risk factors identified in European women were also seen in Indian women. According to the study, a standard genetic “risk score” created in European research was surprisingly accurate at predicting risk among Indian women. Women in the highest risk bracket were four times more likely to develop endometriosis.‘Butt lightning’ pain in your pelvis? Ladies, it may be time to rule out endometriosis\n\nGut-brain signal analysis may help predict antidepressant treatment response in 7-10 days: IIT-Kanpur studyResearchers analysed the DNA of 2,523 Indian women (1,288 with endometriosis and 1,235 without). They searched for small variations in DNA to see which genetic markers appeared more frequently in women who have the condition.The study is not ready for clinical use yet. However, it provides important insights about South Asian populations, as they are generally underrepresented in genetic research on endometriosis. So far, almost all genetic research has been performed on women of European descent.Dr Rahul Gajbhiye, Scientist and Head, Clinical Research Laboratory, ICMR–National Institute for Research on Women’s Health (ICMR–NIRWoH), Mumbai, and principal investigator of the study, told The Indian Express: “Some women also told me that their mother or sister had suffered from very similar symptoms but had never been diagnosed. At that time, I could see a possible familial pattern, but I did not have the scientific tools or Indian genetic data to answer why this was happening.”He began examining the genetic basis of endometriosis more systematically during his INSA postdoctoral fellowship at the University of Queensland, Australia, in 2017–18.Endometriosis affects about 10 per cent of women of reproductive age globally; India accounts for an estimated 50 million cases, representing nearly 18 per cent of the global burden. It is recognised as a condition causing impact beyond reproductive health. It affects a woman’s physical, psychological, and social well-being.It is caused by a mix of genetics, hormones, environment, and lifestyle. Despite years of research, doctors still do not fully understand what triggers endometriosis or why certain people get it.According to researchers, the genetic findings could eventually help doctors figure out why some women are at a higher risk of developing endometriosis. This could help identify biological pathways for early diagnosis and explore new treatment approaches."
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "First Indian genome study links endometriosis to genetics",
+          "published_at": "Wed, 09 Sep 2026 12:42:05 +0000",
+          "url": "https://www.deccanherald.com/health/healthcare/first-indian-genome-study-links-endometriosis-to-genetics-4140531"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief": "India’s first genome-wide study on endometriosis, published in Scientific Reports, marks a significant advancement in understanding the genetic underpinnings of this chronic, often misdiagnosed condition that affects approximately 50 million women in India. Led by Dr. Rahul Gajbhiye at the ICMR–National Institute for Research on Women’s Health, researchers analyzed the DNA of over 2,500 Indian women to identify 21 unique genomic regions associated with the disease, with the most prominent signals located on chromosome 13 near the SHISA2 gene. Crucially, the study demonstrated that genetic risk scores developed from European populations remain predictive for Indian women, revealing that those in the highest risk bracket are four times more likely to develop the condition. By addressing the historical underrepresentation of South Asian populations in genetic research, this study provides a vital scientific foundation for future diagnostic tools, moving beyond the current reality where patients often endure years of diagnostic delays before receiving proper care. This research bridges a critical data gap in global health equity, enabling the development of population-specific diagnostic markers that could drastically reduce the current seven-to-ten-year diagnostic delay for millions of Indian women. By validating the cross-population utility of genetic risk scores, it lays the groundwork for personalized medicine approaches that could eventually transform endometriosis management from reactive symptom treatment to proactive, data-driven intervention.",
+      "brief_word_count": 216,
+      "summary": "India’s first genome-wide study on endometriosis, published in Scientific Reports, marks a significant advancement in understanding the genetic underpinnings of this chronic, often misdiagnosed condition that affects approximately 50 million women in India. Led by Dr. Rahul Gajbhiye at the ICMR–National Institute for Research on Women’s Health, researchers analyzed the DNA of over 2,500 Indian women to identify 21 unique genomic regions associated with the disease, with the most prominent signals located on chromosome 13 near the SHISA2 gene. Crucially, the study demonstrated that genetic risk scores developed from European populations remain predictive for Indian women, revealing that those in the highest risk bracket are four times more likely to develop the condition. By addressing the historical underrepresentation of South Asian populations in genetic research, this study provides a vital scientific foundation for future diagnostic tools, moving beyond the current reality where patients often endure years of diagnostic delays before receiving proper care. This research bridges a critical data gap in global health equity, enabling the development of population-specific diagnostic markers that could drastically reduce the current seven-to-ten-year diagnostic delay for millions of Indian women. By validating the cross-population utility of genetic risk scores, it lays the groundwork for personalized medicine approaches that could eventually transform endometriosis management from reactive symptom treatment to proactive, data-driven intervention."
+    },
+    {
+      "story_id": "story-185",
+      "category": "Science",
+      "primary_headline": "Climate Disaster Resilience: Chicago tops list; 2 Indian cities among worst",
+      "primary_source": {
+        "source_name": "The Indian Express",
+        "headline": "Climate Disaster Resilience: Chicago tops list; 2 Indian cities among worst",
+        "published_at": "Wed, 09 Sep 2026 10:46:34 +0000",
+        "url": "https://indianexpress.com/article/trending/top-10-listing/climate-disaster-resilience-chicago-tops-list-2-indian-cities-among-worst-10869678/",
+        "content": "Climate Disaster Resilience: List of the most and least prepared cities in the world for climate disasters: While Ahmedabad ranked last in AlphaGeo’s index ranking global cities on climate preparedness, Kolkata also figured among the most vulnerable cities."
+      },
+      "sources": [
+        {
+          "source_name": "The Indian Express",
+          "headline": "Climate Disaster Resilience: Chicago tops list; 2 Indian cities among worst",
+          "published_at": "Wed, 09 Sep 2026 10:46:34 +0000",
+          "url": "https://indianexpress.com/article/trending/top-10-listing/climate-disaster-resilience-chicago-tops-list-2-indian-cities-among-worst-10869678/"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief": "Alpha. Geo’s latest index on global climate disaster resilience has unveiled a stark disparity in urban preparedness, positioning Chicago at the pinnacle of readiness while highlighting critical vulnerabilities in major Indian metropolises. The comprehensive assessment evaluates how effectively global cities can withstand and recover from climate-induced catastrophes, utilizing metrics that account for infrastructure robustness and disaster management protocols. Notably, Ahmedabad has been identified as the least prepared city globally, while Kolkata also appears among the most vulnerable, underscoring an urgent need for localized adaptation strategies in rapidly developing regions. This ranking serves as a diagnostic tool for policymakers, emphasizing that while some Western hubs have successfully integrated climate resilience into their urban planning, many high-density cities in the Global South face existential threats due to inadequate mitigation frameworks. The findings necessitate an immediate re-evaluation of municipal resource allocation and international climate aid to bolster defenses in the most exposed urban centers. This index highlights a widening resilience gap that threatens global economic stability and human security, signaling that cities failing to prioritize climate adaptation will face escalating insurance costs, infrastructure collapse, and mass displacement. Consequently, investors and governments must shift capital toward climate-resilient urban infrastructure to mitigate the systemic risks posed by increasingly frequent extreme weather events.",
+      "brief_word_count": 207,
+      "summary": "Alpha. Geo’s latest index on global climate disaster resilience has unveiled a stark disparity in urban preparedness, positioning Chicago at the pinnacle of readiness while highlighting critical vulnerabilities in major Indian metropolises. The comprehensive assessment evaluates how effectively global cities can withstand and recover from climate-induced catastrophes, utilizing metrics that account for infrastructure robustness and disaster management protocols. Notably, Ahmedabad has been identified as the least prepared city globally, while Kolkata also appears among the most vulnerable, underscoring an urgent need for localized adaptation strategies in rapidly developing regions. This ranking serves as a diagnostic tool for policymakers, emphasizing that while some Western hubs have successfully integrated climate resilience into their urban planning, many high-density cities in the Global South face existential threats due to inadequate mitigation frameworks. The findings necessitate an immediate re-evaluation of municipal resource allocation and international climate aid to bolster defenses in the most exposed urban centers. This index highlights a widening resilience gap that threatens global economic stability and human security, signaling that cities failing to prioritize climate adaptation will face escalating insurance costs, infrastructure collapse, and mass displacement. Consequently, investors and governments must shift capital toward climate-resilient urban infrastructure to mitigate the systemic risks posed by increasingly frequent extreme weather events."
+    },
+    {
+      "story_id": "story-228",
+      "category": "Science",
+      "primary_headline": "Nepal's flood disaster and the impact of climate change loom large in the icy shadow of Mont Blanc",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Nepal's flood disaster and the impact of climate change loom large in the icy shadow of Mont Blanc - AP News",
+        "published_at": "Wed, 09 Sep 2026 04:34:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZXpicWZJS0J5LWw0QzJIcUxkeS1OS0dXOGlWTnlRNGtmRjhNMkhPSl9DTERJd1BVLUQzS0ExU1RjZ0xMNlE3bEFWdEtzSkVlaTRTT3ZVb1ZYT1hCNjZnWFVWLWNPWGwzUXRYVHdMNG5LVmo2b2twNkVKNGNFOXV2ckFfTnlSc1UwelJHQk45TVdxR3lyWG5OMTdoUUhuUWNkUU5oUzJ3?oc=5",
+        "content": "Nepal's flood disaster and the impact of climate change loom large in the icy shadow of Mont Blanc&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Nepal's flood disaster and the impact of climate change loom large in the icy shadow of Mont Blanc - AP News",
+          "published_at": "Wed, 09 Sep 2026 04:34:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZXpicWZJS0J5LWw0QzJIcUxkeS1OS0dXOGlWTnlRNGtmRjhNMkhPSl9DTERJd1BVLUQzS0ExU1RjZ0xMNlE3bEFWdEtzSkVlaTRTT3ZVb1ZYT1hCNjZnWFVWLWNPWGwzUXRYVHdMNG5LVmo2b2twNkVKNGNFOXV2ckFfTnlSc1UwelJHQk45TVdxR3lyWG5OMTdoUUhuUWNkUU5oUzJ3?oc=5"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief": "Recent catastrophic flooding in Nepal has underscored the escalating vulnerability of high-altitude communities to the accelerating impacts of climate change, drawing stark parallels to the glacial instability observed in the European Alps. As rising global temperatures destabilize permafrost and accelerate glacial retreat, regions like the Himalayas face an existential threat from glacial lake outburst floods, which can devastate downstream infrastructure and displace thousands without warning. This disaster serves as a grim manifestation of the climate crisis, where the rapid melting of ice reserves—a phenomenon mirrored in the precarious state of Mont Blanc—creates unpredictable hydrological hazards. International observers and climate scientists are increasingly alarmed by the systemic failure to adequately prepare mountain nations for these climate-induced disasters, which are becoming more frequent and severe. The convergence of these events highlights a critical need for enhanced early warning systems and global climate adaptation strategies that specifically address the unique risks posed by rapidly changing cryospheric environments. The increasing frequency of these disasters signals a permanent shift in mountain hydrology that threatens the water security and physical safety of millions, necessitating a fundamental reassessment of global infrastructure resilience and climate adaptation funding.",
+      "brief_word_count": 189,
+      "summary": "Recent catastrophic flooding in Nepal has underscored the escalating vulnerability of high-altitude communities to the accelerating impacts of climate change, drawing stark parallels to the glacial instability observed in the European Alps. As rising global temperatures destabilize permafrost and accelerate glacial retreat, regions like the Himalayas face an existential threat from glacial lake outburst floods, which can devastate downstream infrastructure and displace thousands without warning. This disaster serves as a grim manifestation of the climate crisis, where the rapid melting of ice reserves—a phenomenon mirrored in the precarious state of Mont Blanc—creates unpredictable hydrological hazards. International observers and climate scientists are increasingly alarmed by the systemic failure to adequately prepare mountain nations for these climate-induced disasters, which are becoming more frequent and severe. The convergence of these events highlights a critical need for enhanced early warning systems and global climate adaptation strategies that specifically address the unique risks posed by rapidly changing cryospheric environments. The increasing frequency of these disasters signals a permanent shift in mountain hydrology that threatens the water security and physical safety of millions, necessitating a fundamental reassessment of global infrastructure resilience and climate adaptation funding."
+    },
+    {
+      "story_id": "story-230",
+      "category": "Science",
+      "primary_headline": "Reclaiming the streets: the architects clawing back Europe’s car-centric spaces",
+      "primary_source": {
+        "source_name": "The Guardian",
+        "headline": "Reclaiming the streets: the architects clawing back Europe’s car-centric spaces",
+        "published_at": "Wed, 09 Sep 2026 04:00:59 GMT",
+        "url": "https://www.theguardian.com/artanddesign/2026/sep/09/european-prize-urban-public-space-climate-crisis-architects",
+        "content": "The European Prize for Urban Public Space’s shortlist highlights projects helping people cope with climate crisisIn the words of Joni Mitchell, the planners of many urban centres around the world “paved paradise and put up a parking lot”. The European Prize for Urban Public Space tries to show that cities don’t have to be locked in the automotive age for ever.The prize’s latest shortlist, announced on Wednesday, highlights architectural projects that convert infrastructure for cars into spaces that help urban dwellers cope with the soaring temperatures of the climate crisis: roundabouts that have become splash pools, thoroughfares turned into green havens, and car parks into gardens. Continue reading..."
+      },
+      "sources": [
+        {
+          "source_name": "The Guardian",
+          "headline": "Reclaiming the streets: the architects clawing back Europe’s car-centric spaces",
+          "published_at": "Wed, 09 Sep 2026 04:00:59 GMT",
+          "url": "https://www.theguardian.com/artanddesign/2026/sep/09/european-prize-urban-public-space-climate-crisis-architects"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief": "The European Prize for Urban Public Space has unveiled its latest shortlist, showcasing a transformative movement in urban planning that seeks to dismantle the long-standing dominance of automotive infrastructure in city design. By prioritizing climate resilience over vehicular convenience, these architectural projects are actively reclaiming public land once dedicated to parking lots and thoroughfares, converting them into vital green havens, splash pools, and community gardens. This shift represents a deliberate departure from the mid-20th-century planning philosophy that prioritized car-centric development, often at the expense of environmental and social well-being. As urban centers face the intensifying pressures of the climate crisis, including soaring temperatures and the urban heat island effect, these innovative designs demonstrate that cities can be retrofitted to serve human needs rather than machine logistics. The shortlisted entries serve as a blueprint for municipalities worldwide, proving that reclaiming public space is not merely an aesthetic choice but a necessary adaptation strategy for a warming planet. This trend signals a fundamental paradigm shift in urban development, where climate adaptation and public health are replacing automotive throughput as the primary metrics of successful city planning. By demonstrating the viability of de-prioritizing cars, these projects provide a scalable model for global cities to mitigate heat-related risks and enhance livability in an era of climate instability.",
+      "brief_word_count": 213,
+      "summary": "The European Prize for Urban Public Space has unveiled its latest shortlist, showcasing a transformative movement in urban planning that seeks to dismantle the long-standing dominance of automotive infrastructure in city design. By prioritizing climate resilience over vehicular convenience, these architectural projects are actively reclaiming public land once dedicated to parking lots and thoroughfares, converting them into vital green havens, splash pools, and community gardens. This shift represents a deliberate departure from the mid-20th-century planning philosophy that prioritized car-centric development, often at the expense of environmental and social well-being. As urban centers face the intensifying pressures of the climate crisis, including soaring temperatures and the urban heat island effect, these innovative designs demonstrate that cities can be retrofitted to serve human needs rather than machine logistics. The shortlisted entries serve as a blueprint for municipalities worldwide, proving that reclaiming public space is not merely an aesthetic choice but a necessary adaptation strategy for a warming planet. This trend signals a fundamental paradigm shift in urban development, where climate adaptation and public health are replacing automotive throughput as the primary metrics of successful city planning. By demonstrating the viability of de-prioritizing cars, these projects provide a scalable model for global cities to mitigate heat-related risks and enhance livability in an era of climate instability."
+    },
+    {
+      "story_id": "story-247",
+      "category": "Science",
+      "primary_headline": "How cleaning up the air is speeding up global warming - and revealing a bigger problem",
       "primary_source": {
         "source_name": "BBC News",
-        "headline": "Summer 2026 was UK's hottest on record, Met Office says",
-        "published_at": "Tue, 01 Sep 2026 12:18:55 GMT",
-        "url": "https://www.bbc.co.uk/weather/articles/c99dypl3jgmo?at_medium=RSS&at_campaign=rss",
-        "content": "Met Office figures show that the previous record, set in 2025, has been broken after an unprecedented summer of persistent heat."
+        "headline": "How cleaning up the air is speeding up global warming - and revealing a bigger problem",
+        "published_at": "Tue, 08 Sep 2026 23:11:52 GMT",
+        "url": "https://www.bbc.co.uk/news/articles/c20917w25n4o?at_medium=RSS&at_campaign=rss",
+        "content": "Reform's deputy leader Richard Tice shared a Telegraph article headlined: \"Heatwaves caused by fall in pollution.\" He said cleaner air, rather than carbon dioxide, was behind higher temperatures and claimed the public had been \"gaslit\". He was wrong to suggest that carbon dioxide is not the primary driver of global warming. But the science he was distorting is real - and much more interesting than his original claim. The fossil fuels that we've been burning for more than a century produce two very different kinds of pollution. As is well known, carbon dioxide warms the Earth. But less well-known is sulphur pollution, which forms vast numbers of tiny particles in the air and reflects sunlight back into space, partly counteracting the warming effect of carbon. Thanks to clean-air policies around the world - like the US's Acid Rain Program in the early 1990s, that reduced gas pollution from power plants - sulphur emissions are falling sharply while carbon dioxide emissions remain near record highs. Scientists increasingly believe the loss of that cooling effect is slightly speeding up global warming. The past three years were the three warmest ever recorded, and the Met Office says 2027 is \"very likely\" to replace 2024 as the warmest year on record."
       },
       "sources": [
         {
           "source_name": "BBC News",
-          "headline": "Summer 2026 was UK's hottest on record, Met Office says",
-          "published_at": "Tue, 01 Sep 2026 12:18:55 GMT",
-          "url": "https://www.bbc.co.uk/weather/articles/c99dypl3jgmo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source_name": "The Guardian",
-          "headline": "Summer of 2026 was UK's hottest on record, Met Office says",
-          "published_at": "Tue, 01 Sep 2026 15:36:10 GMT",
-          "url": "https://www.theguardian.com/uk-news/2026/sep/01/summer-2026-uk-hottest-on-record-provisional-met-office-data"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.69,
-      "brief": "Met Office figures show that the previous record, set in 2025, has been broken after an unprecedented summer of persistent heat. Meteorologists say mean average temperature of 16.5°C was made 130 times more likely by climate crisis. This year's summer was the UK's hottest on record, according to provisional data, and the Met Office said the season's mean temperature was made 130 times more likely by the climate crisis.",
-      "brief_word_count": 69,
-      "summary": "Met Office figures show that the previous record, set in 2025, has been broken after an unprecedented summer of persistent heat. Meteorologists say mean average temperature of 16.5°C was made 130 times more likely by climate crisis. This year's summer was the UK's hottest on record, according to provisional data, and the Met Office said the season's mean temperature was made 130 times more likely by the climate crisis."
-    },
-    {
-      "story_id": "story-35",
-      "category": "Science",
-      "primary_headline": "High winds during El Niño could be deadly for England's stressed trees, say experts",
-      "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "High winds during El Niño could be deadly for England’s stressed trees, say experts",
-        "published_at": "Tue, 01 Sep 2026 14:00:00 GMT",
-        "url": "https://www.theguardian.com/environment/2026/sep/01/high-winds-el-nino-england-stressed-trees-heat-drought",
-        "content": "Head of tree collections at Kew ‘very worried about this autumn’ as hot, dry summer has caused brittlenessHigh winds associated with El Niño could cause widespread mortality among tree species already weakened by a prolonged period of extreme heat and drought, experts have warned.This summer much of Europe has been scorched by a series of record-breaking climate crisis-induced heatwaves. The impact is notable across much of England’s countryside, where once green land has turned brown, and many trees are undergoing “early autumn” – wilting and losing their leaves early – to cope with extreme heat. Continue reading..."
-      },
-      "sources": [
-        {
-          "source_name": "The Guardian",
-          "headline": "High winds during El Niño could be deadly for England's stressed trees, say experts",
-          "published_at": "Tue, 01 Sep 2026 14:00:00 GMT",
-          "url": "https://www.theguardian.com/environment/2026/sep/01/high-winds-el-nino-england-stressed-trees-heat-drought"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.92,
-      "brief": "Head of tree collections at Kew 'very worried about this autumn' as hot, dry summer has caused brittleness. High winds associated with El Niño could cause widespread mortality among tree species already weakened by a prolonged period of extreme heat and drought, experts have warned. This summer much of Europe has been scorched by a series of record-breaking climate crisis-induced heatwaves.",
-      "brief_word_count": 61,
-      "summary": "Head of tree collections at Kew 'very worried about this autumn' as hot, dry summer has caused brittleness. High winds associated with El Niño could cause widespread mortality among tree species already weakened by a prolonged period of extreme heat and drought, experts have warned. This summer much of Europe has been scorched by a series of record-breaking climate crisis-induced heatwaves."
-    },
-    {
-      "story_id": "story-37",
-      "category": "Science",
-      "primary_headline": "Nepal's glacial collapse foreshadowed a future of climate disaster | Michael Mann",
-      "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "Nepal’s glacial collapse foreshadowed a future of climate disaster | Michael Mann",
-        "published_at": "Tue, 01 Sep 2026 09:00:05 GMT",
-        "url": "https://www.theguardian.com/commentisfree/2026/sep/01/nepal-flooding-climate-disaster",
-        "content": "The deluge capped a summer of extreme climate events, from deadly heatwaves to wildfires. We must take action nowFor millennia, the high peaks of the Himalayas were held together by an invisible, frozen cement – permafrost and glacial ice that bound ancient rock into seemingly unshakable fortresses. But as the planet continues to warm, this alpine glue is liquefying.The glacial collapse and deluge in Nepal and Tibet was not a freak weather event; it was the structural failure of a mountain itself, nature’s latest commentary on the deadly consequences of human-caused planetary warming. And it was the exclamation point on a summer of extremes, illustrating with a sole unnatural disaster the apocalyptic future that lies in store if we fail to take dramatic climate action. Continue reading..."
-      },
-      "sources": [
-        {
-          "source_name": "The Guardian",
-          "headline": "Nepal's glacial collapse foreshadowed a future of climate disaster | Michael Mann",
-          "published_at": "Tue, 01 Sep 2026 09:00:05 GMT",
-          "url": "https://www.theguardian.com/commentisfree/2026/sep/01/nepal-flooding-climate-disaster"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.92,
-      "brief": "The deluge capped a summer of extreme climate events, from deadly heatwaves to wildfires. We must take action now. For millennia, the high peaks of the Himalayas were held together by an invisible, frozen cement – permafrost and glacial ice that bound ancient rock into seemingly unshakable fortresses.",
-      "brief_word_count": 48,
-      "summary": "The deluge capped a summer of extreme climate events, from deadly heatwaves to wildfires. We must take action now. For millennia, the high peaks of the Himalayas were held together by an invisible, frozen cement – permafrost and glacial ice that bound ancient rock into seemingly unshakable fortresses."
-    },
-    {
-      "story_id": "story-49",
-      "category": "Science",
-      "primary_headline": "How intense rains in the Grand Canyon turned into a deadly disaster",
-      "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "How intense rains in the Grand Canyon turned into a deadly disaster",
-        "published_at": "Tue, 01 Sep 2026 01:53:39 GMT",
-        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/aug/31/grand-canyon-flash-flood-causes",
-        "content": "Flash flooding in Arizona tourist destination was probably triggered by compounding climate factors, such as drought and warming in Pacific OceanRemote Grand Canyon lodge hit by deadly flash flood boasts fabled historyA deadly flash flood in the Grand Canyon over the weekend was probably driven by a confluence of climate factors, including drought, wildfire scarring and warming temperatures in the Pacific Ocean that can supercharge storms.At least two people have died, nearly 80 people were rescued and one remained unaccounted for after a surge of water and debris swept through the immensely popular tourist destination on Saturday, fueled by torrents of rain that hit the national park’s Bright Angel Creek area. Continue reading..."
-      },
-      "sources": [
-        {
-          "source_name": "The Guardian",
-          "headline": "How intense rains in the Grand Canyon turned into a deadly disaster",
-          "published_at": "Tue, 01 Sep 2026 01:53:39 GMT",
-          "url": "https://www.theguardian.com/us-news/ng-interactive/2026/aug/31/grand-canyon-flash-flood-causes"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.89,
-      "brief": "Flash flooding in Arizona tourist destination was probably triggered by compounding climate factors, such as drought and warming in Pacific Ocean. Remote Grand Canyon lodge hit by deadly flash flood boasts fabled history. A deadly flash flood in the Grand Canyon over the weekend was probably driven by a confluence of climate factors, including drought, wildfire scarring and warming temperatures in the Pacific Ocean that can supercharge storms.",
-      "brief_word_count": 68,
-      "summary": "Flash flooding in Arizona tourist destination was probably triggered by compounding climate factors, such as drought and warming in Pacific Ocean. Remote Grand Canyon lodge hit by deadly flash flood boasts fabled history. A deadly flash flood in the Grand Canyon over the weekend was probably driven by a confluence of climate factors, including drought, wildfire scarring and warming temperatures in the Pacific Ocean that can supercharge storms."
-    },
-    {
-      "story_id": "story-250",
-      "category": "Science",
-      "primary_headline": "Nepal did not create today's climate crisis. Why should it pay the price?",
-      "primary_source": {
-        "source_name": "The Indian Express",
-        "headline": "Nepal did not create today’s climate crisis. Why should it pay the price?",
-        "published_at": "Tue, 01 Sep 2026 06:45:48 +0000",
-        "url": "https://indianexpress.com/article/opinion/columns/nepal-did-not-create-today-climate-crisis-floods-august-26-10858356/",
-        "content": "Without the support of India and other countries, Nepal may not have been able to handle the devastation caused by the August 26 floods"
-      },
-      "sources": [
-        {
-          "source_name": "The Indian Express",
-          "headline": "Nepal did not create today's climate crisis. Why should it pay the price?",
-          "published_at": "Tue, 01 Sep 2026 06:45:48 +0000",
-          "url": "https://indianexpress.com/article/opinion/columns/nepal-did-not-create-today-climate-crisis-floods-august-26-10858356/"
+          "headline": "How cleaning up the air is speeding up global warming - and revealing a bigger problem",
+          "published_at": "Tue, 08 Sep 2026 23:11:52 GMT",
+          "url": "https://www.bbc.co.uk/news/articles/c20917w25n4o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.83,
-      "brief": "Without the support of India and other countries, Nepal may not have been able to handle the devastation caused by the August 26 floods. Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
-      "brief_word_count": 38,
-      "summary": "Without the support of India and other countries, Nepal may not have been able to handle the devastation caused by the August 26 floods. Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
+      "brief": "Reform UK deputy leader Richard Tice recently sparked controversy by citing a Telegraph article to claim that cleaner air, rather than carbon dioxide, is the primary driver of rising global temperatures, accusing the public of being gaslit. While Tice’s assertion incorrectly diminishes the established role of carbon dioxide as the principal cause of global warming, he inadvertently highlighted a complex, scientifically verified phenomenon regarding atmospheric aerosols. For decades, sulphur pollution from fossil fuel combustion has acted as a temporary cooling agent by reflecting sunlight back into space, effectively masking a portion of the warming caused by greenhouse gases. As global clean-air initiatives, such as the United States' Acid Rain Program, have successfully reduced these sulphur emissions, this protective cooling effect is diminishing. Consequently, scientists increasingly recognize that the removal of these reflective particles is accelerating the warming trend, contributing to record-breaking temperatures and complicating future climate projections as carbon dioxide levels remain stubbornly high. This phenomenon reveals a critical climate paradox where necessary public health improvements inadvertently accelerate short-term warming, complicating global efforts to manage temperature targets. It underscores the urgent need for policymakers to account for the loss of aerosol-based cooling when modeling future climate trajectories and setting decarbonization goals.",
+      "brief_word_count": 201,
+      "summary": "Reform UK deputy leader Richard Tice recently sparked controversy by citing a Telegraph article to claim that cleaner air, rather than carbon dioxide, is the primary driver of rising global temperatures, accusing the public of being gaslit. While Tice’s assertion incorrectly diminishes the established role of carbon dioxide as the principal cause of global warming, he inadvertently highlighted a complex, scientifically verified phenomenon regarding atmospheric aerosols. For decades, sulphur pollution from fossil fuel combustion has acted as a temporary cooling agent by reflecting sunlight back into space, effectively masking a portion of the warming caused by greenhouse gases. As global clean-air initiatives, such as the United States' Acid Rain Program, have successfully reduced these sulphur emissions, this protective cooling effect is diminishing. Consequently, scientists increasingly recognize that the removal of these reflective particles is accelerating the warming trend, contributing to record-breaking temperatures and complicating future climate projections as carbon dioxide levels remain stubbornly high. This phenomenon reveals a critical climate paradox where necessary public health improvements inadvertently accelerate short-term warming, complicating global efforts to manage temperature targets. It underscores the urgent need for policymakers to account for the loss of aerosol-based cooling when modeling future climate trajectories and setting decarbonization goals."
     },
     {
-      "story_id": "story-272",
+      "story_id": "story-261",
       "category": "Science",
-      "primary_headline": "Trump admin shelves Cyclospora research despite record-breaking outbreak",
+      "primary_headline": "Magnitude 5.3 earthquake strikes Tibet, EMSC says",
       "primary_source": {
-        "source_name": "Ars Technica",
-        "headline": "Trump admin shelves Cyclospora research despite record-breaking outbreak",
-        "published_at": "Mon, 31 Aug 2026 21:23:09 +0000",
-        "url": "https://arstechnica.com/health/2026/08/trump-admin-shelves-cyclospora-research-despite-record-breaking-outbreak/",
-        "content": "\n                            The Trump administration is halting vital federal research on the foodborne parasite Cyclospora, despite the record-breaking, nationwide outbreak of the diarrheal pathogen, according to Politico.\nOf the three research programs that represent nearly all of the Cyclospora work at the US Department of Agriculture, two have been defunded, and the third is about to lose every scientist working on it. The Trump administration is shuttering the USDA's Beltsville Agricultural Research Center near Washington, DC, and moving its work to a location in Iowa. That includes relocating the remaining Cyclospora research.\nAlthough the research is still funded, insiders told Politico that not one of the scientists working on the project plans to relocate from Maryland to Iowa. Instead, they are either retiring, being reassigned to a different project, or leaving the USDA's research services.Read full article\nComments\n\n                        "
+        "source_name": "Reuters",
+        "headline": "Magnitude 5.3 earthquake strikes Tibet, EMSC says - Reuters",
+        "published_at": "Tue, 08 Sep 2026 16:29:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWDB4OHhldzNIcmo3OUI5Z0UxbEFQNmJVM05uQVdCRzBKVmpCZGZ1ekR6MU56Nmw2Nmxta0hjUFNmZjc5LS1RSnFCS3llS29OcWstUV9IOEZYRWdQUElzdWtHb2tRRTltRU5uMVdQSFVGdTROMEpSOG9NbjgtelBfa1JzQmJvUVdHN09VekN2bFlrdk1ETDl3aGRQX1FVUVBmZmNpbkxYMA?oc=5",
+        "content": "Magnitude 5.3 earthquake strikes Tibet, EMSC says&nbsp;&nbsp;Reuters"
       },
       "sources": [
         {
-          "source_name": "Ars Technica",
-          "headline": "Trump admin shelves Cyclospora research despite record-breaking outbreak",
-          "published_at": "Mon, 31 Aug 2026 21:23:09 +0000",
-          "url": "https://arstechnica.com/health/2026/08/trump-admin-shelves-cyclospora-research-despite-record-breaking-outbreak/"
+          "source_name": "Reuters",
+          "headline": "Magnitude 5.3 earthquake strikes Tibet, EMSC says - Reuters",
+          "published_at": "Tue, 08 Sep 2026 16:29:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWDB4OHhldzNIcmo3OUI5Z0UxbEFQNmJVM05uQVdCRzBKVmpCZGZ1ekR6MU56Nmw2Nmxta0hjUFNmZjc5LS1RSnFCS3llS29OcWstUV9IOEZYRWdQUElzdWtHb2tRRTltRU5uMVdQSFVGdTROMEpSOG9NbjgtelBfa1JzQmJvUVdHN09VekN2bFlrdk1ETDl3aGRQX1FVUVBmZmNpbkxYMA?oc=5"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.83,
-      "brief": "The Trump administration is halting vital federal research on the foodborne parasite Cyclospora, despite the record-breaking, nationwide outbreak of the diarrheal pathogen, according to Politico. Of the three research programs that represent nearly all of the Cyclospora work at the US Department of Agriculture, two have been defunded, and the third is about to lose every scientist working on it. The Trump administration is shuttering the USDA's Beltsville Agricultural Research Center near Washington, DC, and moving its work to a location in Iowa.",
-      "brief_word_count": 83,
-      "summary": "The Trump administration is halting vital federal research on the foodborne parasite Cyclospora, despite the record-breaking, nationwide outbreak of the diarrheal pathogen, according to Politico. Of the three research programs that represent nearly all of the Cyclospora work at the US Department of Agriculture, two have been defunded, and the third is about to lose every scientist working on it. The Trump administration is shuttering the USDA's Beltsville Agricultural Research Center near Washington, DC, and moving its work to a location in Iowa."
+      "brief": "A magnitude 5.3 earthquake struck the Tibet Autonomous Region, as reported by the European-Mediterranean Seismological Centre (EMSC), highlighting the persistent seismic volatility inherent to the Himalayan plateau. This tectonic event, resulting from the ongoing collision between the Indian and Eurasian plates, underscores the region's vulnerability to significant geological disturbances that frequently challenge infrastructure resilience in high-altitude, remote environments. While immediate reports regarding casualties or structural damage remain preliminary, the seismic activity necessitates urgent monitoring by local authorities and disaster response agencies to assess potential impacts on isolated communities and critical infrastructure. The incident serves as a stark reminder of the complex geophysical challenges facing the Tibetan Plateau, where rapid development often intersects with high-risk seismic zones, requiring rigorous adherence to earthquake-resistant building standards and robust emergency preparedness protocols to mitigate the threat of future catastrophic events. This seismic event underscores the critical need for enhanced disaster resilience and infrastructure hardening in the Tibetan Plateau, where geological instability poses a constant threat to both local populations and regional development projects. It serves as a strategic indicator for policymakers to prioritize seismic safety standards and emergency response capabilities in high-altitude, seismically active territories.",
+      "brief_word_count": 191,
+      "summary": "A magnitude 5.3 earthquake struck the Tibet Autonomous Region, as reported by the European-Mediterranean Seismological Centre (EMSC), highlighting the persistent seismic volatility inherent to the Himalayan plateau. This tectonic event, resulting from the ongoing collision between the Indian and Eurasian plates, underscores the region's vulnerability to significant geological disturbances that frequently challenge infrastructure resilience in high-altitude, remote environments. While immediate reports regarding casualties or structural damage remain preliminary, the seismic activity necessitates urgent monitoring by local authorities and disaster response agencies to assess potential impacts on isolated communities and critical infrastructure. The incident serves as a stark reminder of the complex geophysical challenges facing the Tibetan Plateau, where rapid development often intersects with high-risk seismic zones, requiring rigorous adherence to earthquake-resistant building standards and robust emergency preparedness protocols to mitigate the threat of future catastrophic events. This seismic event underscores the critical need for enhanced disaster resilience and infrastructure hardening in the Tibetan Plateau, where geological instability poses a constant threat to both local populations and regional development projects. It serves as a strategic indicator for policymakers to prioritize seismic safety standards and emergency response capabilities in high-altitude, seismically active territories."
     },
     {
-      "story_id": "story-282",
+      "story_id": "story-268",
       "category": "Science",
-      "primary_headline": "El Niño is now stronger than at any point in the last 1,000 years, study finds",
+      "primary_headline": "SRM University-AP signs Open Access agreement with Springer Nature",
       "primary_source": {
-        "source_name": "Ars Technica",
-        "headline": "El Niño is now stronger than at any point in the last 1,000 years, study finds",
-        "published_at": "Mon, 31 Aug 2026 16:04:44 +0000",
-        "url": "https://arstechnica.com/science/2026/08/el-nino-is-now-stronger-than-at-any-point-in-the-last-1000-years-study-finds/",
-        "content": "\n                            Every few years, El Niño or its cool counterpart, La Niña, shifts rainfall across the tropics, dries out Australia, floods parts of Peru, and rearranges the weather on most of the planet. The two are the warm and cold swings of a single system, the El Niño–Southern Oscillation, or ENSO, and that system is the largest source of year-to-year climate variation on Earth. Its swings sit atop the steadily rising temperatures driven by global warming.\nBut we didn't know whether global warming was making it stronger. It’s possible that the added energy in the atmosphere and oceans was causing its swings to be more dramatic.\n“We've been seeing some very strong El Niño events in the late 20th and early 21st century, and what we didn't know was how unusual those are,” said Julie Cole, an environmental scientist at the University of Michigan. Because models disagree with one another and the instrumental data are too short to separate a trend, Cole’s team reconstructed a thousand-year-long ocean surface temperature record by analyzing fossilized Galápagos corals.Read full article\nComments\n\n                        "
+        "source_name": "The Hindu",
+        "headline": "SRM University-AP signs Open Access agreement with Springer Nature",
+        "published_at": "Wed, 09 Sep 2026 21:18:17 +0530",
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/srm-university-ap-signs-open-access-agreement-with-springer-nature/article71448022.ece",
+        "content": "Agreement to cover Article Processing Charges for eligible research papers; initiative aimed at enhancing global visibility of research from the university’s scholars"
       },
       "sources": [
         {
-          "source_name": "Ars Technica",
-          "headline": "El Niño is now stronger than at any point in the last 1,000 years, study finds",
-          "published_at": "Mon, 31 Aug 2026 16:04:44 +0000",
-          "url": "https://arstechnica.com/science/2026/08/el-nino-is-now-stronger-than-at-any-point-in-the-last-1000-years-study-finds/"
+          "source_name": "The Hindu",
+          "headline": "SRM University-AP signs Open Access agreement with Springer Nature",
+          "published_at": "Wed, 09 Sep 2026 21:18:17 +0530",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/srm-university-ap-signs-open-access-agreement-with-springer-nature/article71448022.ece"
         }
       ],
       "source_count": 1,
       "total_count": 1,
-      "combined_score": 0.83,
-      "brief": "Every few years, El Niño or its cool counterpart, La Niña, shifts rainfall across the tropics, dries out Australia, floods parts of Peru, and rearranges the weather on most of the planet. The two are the warm and cold swings of a single system, the El Niño–Southern Oscillation, or ENSO, and that system is the largest source of year-to-year climate variation on Earth. Its swings sit atop the steadily rising temperatures driven by global warming.",
-      "brief_word_count": 75,
-      "summary": "Every few years, El Niño or its cool counterpart, La Niña, shifts rainfall across the tropics, dries out Australia, floods parts of Peru, and rearranges the weather on most of the planet. The two are the warm and cold swings of a single system, the El Niño–Southern Oscillation, or ENSO, and that system is the largest source of year-to-year climate variation on Earth. Its swings sit atop the steadily rising temperatures driven by global warming."
+      "combined_score": 0.8,
+      "brief": "SRM University-AP has officially entered into a transformative Open Access agreement with the global academic publishing giant Springer Nature, marking a significant milestone in the institution's commitment to scholarly dissemination. Under the terms of this strategic partnership, the university will now cover Article Processing Charges (APCs) for eligible research papers authored by its faculty and scholars, effectively removing financial barriers that often hinder the publication of high-quality academic work in prestigious journals. By facilitating seamless access to Springer Nature’s extensive portfolio, this initiative is designed to drastically enhance the global visibility and citation potential of research originating from the university. This collaborative effort not only streamlines the publication process for researchers but also aligns SRM University-AP with international standards of open science, ensuring that its intellectual contributions are freely accessible to the global scientific community. This move underscores the institution's proactive strategy to elevate its academic reputation and foster a more inclusive, transparent research ecosystem. This agreement significantly boosts the university's research footprint by removing financial hurdles for publication, thereby accelerating the global impact and citation metrics of its academic output. It serves as a critical strategic lever for improving institutional rankings and fostering a culture of open science that attracts international research collaborations.",
+      "brief_word_count": 204,
+      "summary": "SRM University-AP has officially entered into a transformative Open Access agreement with the global academic publishing giant Springer Nature, marking a significant milestone in the institution's commitment to scholarly dissemination. Under the terms of this strategic partnership, the university will now cover Article Processing Charges (APCs) for eligible research papers authored by its faculty and scholars, effectively removing financial barriers that often hinder the publication of high-quality academic work in prestigious journals. By facilitating seamless access to Springer Nature’s extensive portfolio, this initiative is designed to drastically enhance the global visibility and citation potential of research originating from the university. This collaborative effort not only streamlines the publication process for researchers but also aligns SRM University-AP with international standards of open science, ensuring that its intellectual contributions are freely accessible to the global scientific community. This move underscores the institution's proactive strategy to elevate its academic reputation and foster a more inclusive, transparent research ecosystem. This agreement significantly boosts the university's research footprint by removing financial hurdles for publication, thereby accelerating the global impact and citation metrics of its academic output. It serves as a critical strategic lever for improving institutional rankings and fostering a culture of open science that attracts international research collaborations."
     },
     {
-      "story_id": "story-686",
+      "story_id": "story-273",
       "category": "Science",
-      "primary_headline": "Scientists Asked 1,000 People To Bury Their Underwear. The Reason Is Fascinating",
+      "primary_headline": "Students demonstrate scientific temper and mathematical talent at The Hindu In School Science Fest and Maths Olympiad",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Students demonstrate scientific temper and mathematical talent at The Hindu In School Science Fest and Maths Olympiad",
+        "published_at": "Wed, 09 Sep 2026 21:13:21 +0530",
+        "url": "https://www.thehindu.com/news/national/karnataka/students-demonstrate-scientific-temper-and-mathematical-talent-at-the-hindu-in-school-science-fest-and-maths-olympiad/article71448242.ece",
+        "content": "You don’t have any Active Subscription. Subscribed with another email? Logout and Login with that one. Account subscription benefits alongside Premium Stories, Editorials,\n              Opinions and more. Unlock these with Subscription Additional Subscription Benefits Need help with your subscription? Mandya Zilla Panchayat Chief Executive Officer Nandini K.R. giving away the first prize in Ramanujam Spark Quest in Class 8 category to Samarth Santosh of STG Public School, in Mandya on Wednesday.\n                                          | Photo Credit: Special Arrangement"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Students demonstrate scientific temper and mathematical talent at The Hindu In School Science Fest and Maths Olympiad",
+          "published_at": "Wed, 09 Sep 2026 21:13:21 +0530",
+          "url": "https://www.thehindu.com/news/national/karnataka/students-demonstrate-scientific-temper-and-mathematical-talent-at-the-hindu-in-school-science-fest-and-maths-olympiad/article71448242.ece"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.8,
+      "brief": "The Hindu In School Science Fest and Maths Olympiad recently convened in Mandya, serving as a significant platform for students to showcase their scientific temper and mathematical proficiency. The event featured the Ramanujam Spark Quest, a competitive segment designed to challenge young minds and foster analytical thinking among participants. During the proceedings, Mandya Zilla Panchayat Chief Executive Officer Nandini K. R. presided over the awards ceremony, highlighting the importance of academic excellence by presenting the first prize in the Class 8 category to Samarth Santosh of STG Public School. Such initiatives are instrumental in cultivating a culture of inquiry and intellectual rigor within the local student population, encouraging them to pursue advanced studies in STEM fields. By bridging the gap between classroom learning and competitive application, the festival reinforces the critical role of extracurricular engagement in shaping the next generation of innovators and problem solvers in the region. These regional academic competitions are vital for identifying and nurturing early-stage talent in STEM, ultimately strengthening the pipeline for future scientific and technological leadership. By institutionalizing such events, local educational ecosystems can effectively boost student engagement and long-term interest in critical quantitative disciplines.",
+      "brief_word_count": 191,
+      "summary": "The Hindu In School Science Fest and Maths Olympiad recently convened in Mandya, serving as a significant platform for students to showcase their scientific temper and mathematical proficiency. The event featured the Ramanujam Spark Quest, a competitive segment designed to challenge young minds and foster analytical thinking among participants. During the proceedings, Mandya Zilla Panchayat Chief Executive Officer Nandini K. R. presided over the awards ceremony, highlighting the importance of academic excellence by presenting the first prize in the Class 8 category to Samarth Santosh of STG Public School. Such initiatives are instrumental in cultivating a culture of inquiry and intellectual rigor within the local student population, encouraging them to pursue advanced studies in STEM fields. By bridging the gap between classroom learning and competitive application, the festival reinforces the critical role of extracurricular engagement in shaping the next generation of innovators and problem solvers in the region. These regional academic competitions are vital for identifying and nurturing early-stage talent in STEM, ultimately strengthening the pipeline for future scientific and technological leadership. By institutionalizing such events, local educational ecosystems can effectively boost student engagement and long-term interest in critical quantitative disciplines."
+    },
+    {
+      "story_id": "story-315",
+      "category": "Science",
+      "primary_headline": "Andhra Pradesh pushes ‘One Water’ vision at IFAT India 2026",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Andhra Pradesh pushes ‘One Water’ vision at IFAT India 2026",
+        "published_at": "Wed, 09 Sep 2026 20:40:41 +0530",
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-pushes-one-water-vision-at-ifat-india-2026/article71447574.ece",
+        "content": "State official calls for a shift to circular water management, with wastewater reuse, climate resilience and integrated urban planning at the core of future-ready cities."
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Andhra Pradesh pushes ‘One Water’ vision at IFAT India 2026",
+          "published_at": "Wed, 09 Sep 2026 20:40:41 +0530",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-pushes-one-water-vision-at-ifat-india-2026/article71447574.ece"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.8,
+      "brief": "At the IFAT India 2026 summit, Andhra Pradesh officials unveiled a transformative 'One Water' vision, signaling a decisive shift toward circular water management strategies designed to fortify the state’s urban infrastructure against climate volatility. By prioritizing the integration of wastewater reuse and advanced resource recovery into municipal planning, the state aims to decouple economic growth from water scarcity, effectively treating wastewater as a renewable asset rather than a waste stream. This policy framework emphasizes the necessity of holistic, integrated urban planning, where water supply, sanitation, and drainage systems are managed as a single, interconnected ecosystem. Government representatives underscored that this paradigm shift is essential for building future-ready cities capable of sustaining rapid industrialization while maintaining environmental stewardship. The initiative positions Andhra Pradesh as a proactive leader in sustainable development, setting a rigorous benchmark for other Indian states grappling with the dual pressures of urbanization and climate-induced water stress. This strategic pivot establishes a scalable model for circular water economies in emerging markets, potentially attracting significant green investment and technology partnerships while mitigating long-term systemic risks associated with water insecurity.",
+      "brief_word_count": 179,
+      "summary": "At the IFAT India 2026 summit, Andhra Pradesh officials unveiled a transformative 'One Water' vision, signaling a decisive shift toward circular water management strategies designed to fortify the state’s urban infrastructure against climate volatility. By prioritizing the integration of wastewater reuse and advanced resource recovery into municipal planning, the state aims to decouple economic growth from water scarcity, effectively treating wastewater as a renewable asset rather than a waste stream. This policy framework emphasizes the necessity of holistic, integrated urban planning, where water supply, sanitation, and drainage systems are managed as a single, interconnected ecosystem. Government representatives underscored that this paradigm shift is essential for building future-ready cities capable of sustaining rapid industrialization while maintaining environmental stewardship. The initiative positions Andhra Pradesh as a proactive leader in sustainable development, setting a rigorous benchmark for other Indian states grappling with the dual pressures of urbanization and climate-induced water stress. This strategic pivot establishes a scalable model for circular water economies in emerging markets, potentially attracting significant green investment and technology partnerships while mitigating long-term systemic risks associated with water insecurity."
+    },
+    {
+      "story_id": "story-439",
+      "category": "Science",
+      "primary_headline": "Jess Cartner-Morley on fashion: this sweltering summer, I finally stopped giving a tuck",
+      "primary_source": {
+        "source_name": "The Guardian",
+        "headline": "Jess Cartner-Morley on fashion: this sweltering summer, I finally stopped giving a tuck",
+        "published_at": "Wed, 09 Sep 2026 13:00:03 GMT",
+        "url": "https://www.theguardian.com/fashion/2026/sep/09/jess-cartner-morley-on-fashion-this-sweltering-summer-i-finally-stopped-giving-a-tuck",
+        "content": "I’ve always cinched my outfits at the waist, but shifting to a looser silhouette has helped me keep my cool in more ways than oneThis was the summer of the Great Untuck. The long hot summer of 2026 finally taught me to do what fashion has been nagging me about for years, which is to quit tucking in my shirts and T-shirts. To stop assuming that the top half of an outfit must be neatly cinched by the waistband of the skirt or trousers.It wasn’t a style epiphany, to be fair. It was just too hot to do anything else. An extended run of hot weather at home changes how you dress. In the old-school type of British heatwave, which lasted about half a week, I was too giddy with excitement at not having to wear a cardigan to think more strategically. But this summer was different. And eventually I discovered what hot-climate cultures have always known, which is that loose, generously sized clothing that maximises sun protection while minimising skin contact is way more pleasant to wear in the heat than anything short and tight. Continue reading..."
+      },
+      "sources": [
+        {
+          "source_name": "The Guardian",
+          "headline": "Jess Cartner-Morley on fashion: this sweltering summer, I finally stopped giving a tuck",
+          "published_at": "Wed, 09 Sep 2026 13:00:03 GMT",
+          "url": "https://www.theguardian.com/fashion/2026/sep/09/jess-cartner-morley-on-fashion-this-sweltering-summer-i-finally-stopped-giving-a-tuck"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.8,
+      "brief": "Fashion journalist Jess Cartner-Morley explores a significant shift in personal style and broader sartorial habits triggered by the extreme heat of the 2026 summer. Moving away from the long-standing fashion convention of cinching outfits at the waist, Cartner-Morley embraces the \"Great Untuck,\" a trend prioritizing loose, voluminous silhouettes over traditional, neatly tucked-in shirts. This transition was not merely an aesthetic choice but a pragmatic response to prolonged, intense temperatures that rendered restrictive clothing uncomfortable and impractical. By adopting the principles long practiced in hot-climate cultures, she highlights the functional superiority of generously sized garments that maximize airflow and sun protection while minimizing skin contact. Ultimately, this narrative reflects a wider cultural pivot where environmental necessity is increasingly dictating fashion norms, forcing a departure from rigid styling rules in favor of comfort-driven, climate-conscious dressing. This shift signals a broader trend where climate change is actively reshaping consumer behavior and fashion standards, prioritizing functional, adaptive design over traditional aesthetic rigidity. As extreme weather becomes the new normal, the industry may see a sustained move toward loose, breathable silhouettes that prioritize physiological comfort and heat management.",
+      "brief_word_count": 183,
+      "summary": "Fashion journalist Jess Cartner-Morley explores a significant shift in personal style and broader sartorial habits triggered by the extreme heat of the 2026 summer. Moving away from the long-standing fashion convention of cinching outfits at the waist, Cartner-Morley embraces the \"Great Untuck,\" a trend prioritizing loose, voluminous silhouettes over traditional, neatly tucked-in shirts. This transition was not merely an aesthetic choice but a pragmatic response to prolonged, intense temperatures that rendered restrictive clothing uncomfortable and impractical. By adopting the principles long practiced in hot-climate cultures, she highlights the functional superiority of generously sized garments that maximize airflow and sun protection while minimizing skin contact. Ultimately, this narrative reflects a wider cultural pivot where environmental necessity is increasingly dictating fashion norms, forcing a departure from rigid styling rules in favor of comfort-driven, climate-conscious dressing. This shift signals a broader trend where climate change is actively reshaping consumer behavior and fashion standards, prioritizing functional, adaptive design over traditional aesthetic rigidity. As extreme weather becomes the new normal, the industry may see a sustained move toward loose, breathable silhouettes that prioritize physiological comfort and heat management."
+    },
+    {
+      "story_id": "story-455",
+      "category": "Science",
+      "primary_headline": "Bengaluru restaurant shut after FDA inspection reveals 'unhygienic' kitchen",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "Bengaluru restaurant shut after FDA inspection reveals 'unhygienic' kitchen",
+        "published_at": "Wed, 09 Sep 2026 12:47:57 +0000",
+        "url": "https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-restaurant-shut-after-fda-inspection-reveals-unhygienic-kitchen-4140615",
+        "content": " Bengaluru: Karnataka's Food Safety and Drug Administration (FDA) officials on Wednesday inspected Hotel South Ruchi on Race Course Road and ordered its closure due to poor maintenance and unhygienic conditions, officials said.&amp;nbsp;According to a video released by the department, the kitchen was found to be maintained in an \"unhygienic\" manner with insects found around food items.&amp;nbsp;FDA raids dark stores, seizes expired goods worth Rs 1.43 crore in BengaluruOfficials also found expired packets of mushroom, spice powders and other food ingredients. Mislabeling was also observed in some food products, officials said.&amp;nbsp;Sources said some products expired 3-6 months ago were still found in the kitchen and were suspected to be have been used for cooking.&amp;nbsp;The inspection was taken up based on complaints received by the department."
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Bengaluru restaurant shut after FDA inspection reveals 'unhygienic' kitchen",
+          "published_at": "Wed, 09 Sep 2026 12:47:57 +0000",
+          "url": "https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-restaurant-shut-after-fda-inspection-reveals-unhygienic-kitchen-4140615"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.8,
+      "brief": "Karnataka’s Food Safety and Drug Administration (FDA) has ordered the immediate closure of Hotel South Ruchi, located on Bengaluru’s Race Course Road, following a rigorous inspection that exposed severe sanitation failures. Acting on consumer complaints, officials uncovered a deeply unhygienic kitchen environment where insects were found in close proximity to food preparation areas. The investigation further revealed the presence of expired ingredients, including mushrooms and spice powders that had passed their shelf life by three to six months, raising significant concerns regarding the potential use of spoiled items in customer meals. Additionally, inspectors identified instances of product mislabeling, prompting a broader crackdown by the department, which has simultaneously seized over Rs 1.43 crore worth of expired goods from various dark stores across the city. This enforcement action underscores the administration's intensified efforts to hold food service providers accountable for maintaining rigorous public health and safety standards amidst growing scrutiny of the city's culinary sector. This enforcement action signals a pivotal shift toward stricter regulatory oversight in Bengaluru’s hospitality sector, compelling businesses to overhaul supply chain management and sanitation protocols to avoid reputational and legal fallout. It highlights the growing influence of consumer advocacy in driving government intervention, forcing a broader industry reckoning regarding food safety transparency and operational integrity.",
+      "brief_word_count": 209,
+      "summary": "Karnataka’s Food Safety and Drug Administration (FDA) has ordered the immediate closure of Hotel South Ruchi, located on Bengaluru’s Race Course Road, following a rigorous inspection that exposed severe sanitation failures. Acting on consumer complaints, officials uncovered a deeply unhygienic kitchen environment where insects were found in close proximity to food preparation areas. The investigation further revealed the presence of expired ingredients, including mushrooms and spice powders that had passed their shelf life by three to six months, raising significant concerns regarding the potential use of spoiled items in customer meals. Additionally, inspectors identified instances of product mislabeling, prompting a broader crackdown by the department, which has simultaneously seized over Rs 1.43 crore worth of expired goods from various dark stores across the city. This enforcement action underscores the administration's intensified efforts to hold food service providers accountable for maintaining rigorous public health and safety standards amidst growing scrutiny of the city's culinary sector. This enforcement action signals a pivotal shift toward stricter regulatory oversight in Bengaluru’s hospitality sector, compelling businesses to overhaul supply chain management and sanitation protocols to avoid reputational and legal fallout. It highlights the growing influence of consumer advocacy in driving government intervention, forcing a broader industry reckoning regarding food safety transparency and operational integrity."
+    },
+    {
+      "story_id": "story-474",
+      "category": "Science",
+      "primary_headline": "IIT Bombay And Imperial College London Launched Strategic Partnership In Education, Innovation",
       "primary_source": {
         "source_name": "NDTV",
-        "headline": "Scientists Asked 1,000 People To Bury Their Underwear. The Reason Is Fascinating",
-        "published_at": "Tue, 01 Sep 2026 13:44:45 +0530",
-        "url": "https://www.ndtv.com/science/scientists-asked-1-000-people-to-bury-their-underwear-the-reason-is-fascinating-11986056#publisher=newsstand",
-        "content": "Swiss scientists used buried cotton underwear and tea bags in a citizen science project to measure soil health and highlight the alarming decline in underground biodiversity."
+        "headline": "IIT Bombay And Imperial College London Launched Strategic Partnership In Education, Innovation",
+        "published_at": "Wed, 09 Sep 2026 18:04:03 +0530",
+        "url": "https://www.ndtv.com/education/iit-bombay-and-imperial-college-london-launched-strategic-partnership-in-education-innovation-12023683#publisher=newsstand",
+        "content": "IIT Bombay and Imperial College London launched a strategic partnership in research, education and innovation. IIT Bombay's Director and Imperial's Director both attended the event."
       },
       "sources": [
         {
           "source_name": "NDTV",
-          "headline": "Scientists Asked 1,000 People To Bury Their Underwear. The Reason Is Fascinating",
-          "published_at": "Tue, 01 Sep 2026 13:44:45 +0530",
-          "url": "https://www.ndtv.com/science/scientists-asked-1-000-people-to-bury-their-underwear-the-reason-is-fascinating-11986056#publisher=newsstand"
+          "headline": "IIT Bombay And Imperial College London Launched Strategic Partnership In Education, Innovation",
+          "published_at": "Wed, 09 Sep 2026 18:04:03 +0530",
+          "url": "https://www.ndtv.com/education/iit-bombay-and-imperial-college-london-launched-strategic-partnership-in-education-innovation-12023683#publisher=newsstand"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.8,
-      "brief": "Swiss scientists used buried cotton underwear and tea bags in a citizen science project to measure soil health and highlight the alarming decline in underground biodiversity. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 42,
-      "summary": "Swiss scientists used buried cotton underwear and tea bags in a citizen science project to measure soil health and highlight the alarming decline in underground biodiversity. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+      "brief": "IIT Bombay and Imperial College London have formally inaugurated a comprehensive strategic partnership designed to catalyze cross-continental collaboration in research, education, and technological innovation. This high-level alliance, solidified during a joint event attended by the leadership of both prestigious institutions, aims to leverage their respective academic strengths to address complex global challenges through shared intellectual resources and joint academic initiatives. By fostering deeper institutional ties, the partnership seeks to facilitate student and faculty exchanges, collaborative research projects, and the co-development of cutting-edge solutions in critical scientific and engineering domains. This collaboration represents a significant step in aligning Indian and British academic ecosystems, positioning both universities to accelerate breakthroughs in emerging technologies while enhancing their global research footprints. The initiative underscores a growing trend of international academic synergy, where top-tier universities increasingly pool expertise to drive sustainable development and industrial advancement on a global scale. This partnership strengthens the geopolitical and academic bridge between India and the UK, creating a robust pipeline for talent and intellectual property that could significantly accelerate the commercialization of deep-tech research. It signals a shift toward highly integrated global research networks, potentially setting a new standard for how elite universities collaborate to solve systemic industrial and scientific problems.",
+      "brief_word_count": 202,
+      "summary": "IIT Bombay and Imperial College London have formally inaugurated a comprehensive strategic partnership designed to catalyze cross-continental collaboration in research, education, and technological innovation. This high-level alliance, solidified during a joint event attended by the leadership of both prestigious institutions, aims to leverage their respective academic strengths to address complex global challenges through shared intellectual resources and joint academic initiatives. By fostering deeper institutional ties, the partnership seeks to facilitate student and faculty exchanges, collaborative research projects, and the co-development of cutting-edge solutions in critical scientific and engineering domains. This collaboration represents a significant step in aligning Indian and British academic ecosystems, positioning both universities to accelerate breakthroughs in emerging technologies while enhancing their global research footprints. The initiative underscores a growing trend of international academic synergy, where top-tier universities increasingly pool expertise to drive sustainable development and industrial advancement on a global scale. This partnership strengthens the geopolitical and academic bridge between India and the UK, creating a robust pipeline for talent and intellectual property that could significantly accelerate the commercialization of deep-tech research. It signals a shift toward highly integrated global research networks, potentially setting a new standard for how elite universities collaborate to solve systemic industrial and scientific problems."
     },
     {
-      "story_id": "story-692",
+      "story_id": "story-499",
       "category": "Science",
-      "primary_headline": "Could this humble sea sponge clean up the world's ports?",
+      "primary_headline": "Today News Headlines for School Assembly, September 10, 2026: FDA suspends licenses of ISKCON eateries, local sweet shops boycott Zomato",
+      "primary_source": {
+        "source_name": "The Indian Express",
+        "headline": "Today News Headlines for School Assembly, September 10, 2026: FDA suspends licenses of ISKCON eateries, local sweet shops boycott Zomato",
+        "published_at": "Wed, 09 Sep 2026 12:03:25 +0000",
+        "url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-september-10-2026-fda-suspends-licenses-of-iskcon-eateries-local-sweet-shops-boycott-zomato-pm-modi-birthday-seva-diwas-10869792/",
+        "content": "School Assembly News Headlines Today, September 10, 2026: Get the latest school assembly news headlines for today. National, International, Sports, and Business updates curated for students, teachers, and morning assembly."
+      },
+      "sources": [
+        {
+          "source_name": "The Indian Express",
+          "headline": "Today News Headlines for School Assembly, September 10, 2026: FDA suspends licenses of ISKCON eateries, local sweet shops boycott Zomato",
+          "published_at": "Wed, 09 Sep 2026 12:03:25 +0000",
+          "url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-september-10-2026-fda-suspends-licenses-of-iskcon-eateries-local-sweet-shops-boycott-zomato-pm-modi-birthday-seva-diwas-10869792/"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.8,
+      "brief": "The Food and Drug Administration (FDA) has taken decisive regulatory action by suspending the operating licenses of several ISKCON-affiliated eateries, citing significant non-compliance with established food safety and hygiene standards. This enforcement measure has triggered a broader industry ripple effect, prompting a coalition of local sweet shop owners to initiate a coordinated boycott against the food delivery platform Zomato. The shop owners allege that Zomato’s aggressive commission structures and delivery policies have exacerbated the financial strain on traditional businesses already struggling under the weight of heightened regulatory scrutiny. As authorities intensify inspections across the food service sector, the standoff highlights a growing tension between digital delivery aggregators and brick-and-mortar establishments. This situation underscores the precarious balance between maintaining public health standards and preserving the operational viability of traditional culinary enterprises in an increasingly digitized marketplace. This development signals a potential shift in regulatory rigor for community-run food services while exposing the fragility of the relationship between local vendors and major delivery aggregators. It suggests that future market stability will depend on reconciling stringent safety compliance with the economic demands of the digital delivery ecosystem.",
+      "brief_word_count": 184,
+      "summary": "The Food and Drug Administration (FDA) has taken decisive regulatory action by suspending the operating licenses of several ISKCON-affiliated eateries, citing significant non-compliance with established food safety and hygiene standards. This enforcement measure has triggered a broader industry ripple effect, prompting a coalition of local sweet shop owners to initiate a coordinated boycott against the food delivery platform Zomato. The shop owners allege that Zomato’s aggressive commission structures and delivery policies have exacerbated the financial strain on traditional businesses already struggling under the weight of heightened regulatory scrutiny. As authorities intensify inspections across the food service sector, the standoff highlights a growing tension between digital delivery aggregators and brick-and-mortar establishments. This situation underscores the precarious balance between maintaining public health standards and preserving the operational viability of traditional culinary enterprises in an increasingly digitized marketplace. This development signals a potential shift in regulatory rigor for community-run food services while exposing the fragility of the relationship between local vendors and major delivery aggregators. It suggests that future market stability will depend on reconciling stringent safety compliance with the economic demands of the digital delivery ecosystem."
+    },
+    {
+      "story_id": "story-616",
+      "category": "Science",
+      "primary_headline": "Hurrah, lie-ins may be good for us – if only I can convince my five-year-old daughter | Arwa Mahdawi",
       "primary_source": {
         "source_name": "The Guardian",
-        "headline": "Could this humble sea sponge clean up the world’s ports?",
-        "published_at": "Tue, 01 Sep 2026 08:00:48 GMT",
-        "url": "https://www.theguardian.com/environment/2026/sep/01/sea-chicken-liver-sponge-filter-pollutants-harbour-spain-costa-brava",
-        "content": "The chicken liver sponge has sailed through a test of its ability to filter pollutants in a harbour in Spain’s Costa BravaIn the polluted waters of Marina Palamós on Spain’s Costa Brava, Manuel Maldonado, a sponge biologist, noticed something unusual last month: red starfish had started settling in the area.Nearly two years earlier, the Spanish National Research Council scientist and his colleagues had begun transplanting sea sponges into the port to study whether they could survive in its polluted waters. Continue reading..."
+        "headline": "Hurrah, lie-ins may be good for us – if only I can convince my five-year-old daughter | Arwa Mahdawi",
+        "published_at": "Wed, 09 Sep 2026 10:00:06 GMT",
+        "url": "https://www.theguardian.com/commentisfree/2026/sep/09/want-to-start-lazymaxxing-here-are-some-low-effort-ways-to-improve-your-life",
+        "content": "CEOs may like to get up at the crack of dawn and go for a run, but I prefer optimising my life with lie-ins, trashy films, swearing and coffeeThis evening I’m going to tuck my five-year-old into bed and read her a chapter from one of her princess books, followed by a summary of research recently presented at the annual congress of the European Society of Cardiology. Once upon a time, I’ll tell her, there was a scientist called Dr Nawon Lee who authored a study that found having a weekend lie-in may be very good for you and can protect against high blood pressure. Our accomplished protagonist Dr Lee said: “People should not feel lazy or guilty for sleeping a little longer on the weekend.” And the moral of this story, dear child, is that you should try not to wake your mothers up at 6am every day.Unfortunately, I’m not sure that all the peer-reviewed science in the world will convince my early riser to have a weekend lie-in. Still, as a big fan of sleep and someone who has never once felt guilty for hitting the snooze button, I have to say I feel vindicated by this new study. CEOs can get up at 4am and run 10 miles before eating five foraged mushrooms if they want to, but I’m going to protect my heart health by sleeping in, any opportunity I can get, thank you very much.Do you have an opinion on the issues raised in this article? If you would like to submit a response of up to 300 words by email to be considered for publication in our letters section, please click here. Continue reading..."
       },
       "sources": [
         {
           "source_name": "The Guardian",
-          "headline": "Could this humble sea sponge clean up the world's ports?",
-          "published_at": "Tue, 01 Sep 2026 08:00:48 GMT",
-          "url": "https://www.theguardian.com/environment/2026/sep/01/sea-chicken-liver-sponge-filter-pollutants-harbour-spain-costa-brava"
+          "headline": "Hurrah, lie-ins may be good for us – if only I can convince my five-year-old daughter | Arwa Mahdawi",
+          "published_at": "Wed, 09 Sep 2026 10:00:06 GMT",
+          "url": "https://www.theguardian.com/commentisfree/2026/sep/09/want-to-start-lazymaxxing-here-are-some-low-effort-ways-to-improve-your-life"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.8,
-      "brief": "The chicken liver sponge has sailed through a test of its ability to filter pollutants in a harbour in Spain's Costa Brava. In the polluted waters of Marina Palamós on Spain's Costa Brava, Manuel Maldonado, a sponge biologist, noticed something unusual last month: red starfish had started settling in the area. Nearly two years earlier, the Spanish National Research Council scientist and his colleagues had begun transplanting sea sponges into the port to study whether they could survive in its polluted waters.",
-      "brief_word_count": 82,
-      "summary": "The chicken liver sponge has sailed through a test of its ability to filter pollutants in a harbour in Spain's Costa Brava. In the polluted waters of Marina Palamós on Spain's Costa Brava, Manuel Maldonado, a sponge biologist, noticed something unusual last month: red starfish had started settling in the area. Nearly two years earlier, the Spanish National Research Council scientist and his colleagues had begun transplanting sea sponges into the port to study whether they could survive in its polluted waters."
+      "brief": "A recent study presented at the annual congress of the European Society of Cardiology offers a compelling scientific justification for the weekend lie-in, challenging the pervasive productivity culture that often glorifies early rising. Lead researcher Dr. Nawon Lee found that extending sleep duration on weekends can serve as a protective measure against high blood pressure, effectively debunking the notion that sleeping in is a sign of laziness. Columnist Arwa Mahdawi highlights these findings to advocate for a healthier work-life balance, contrasting the rigorous, dawn-patrol routines often touted by corporate executives with the physiological benefits of rest. While the research provides a validated health incentive for prioritizing sleep, the practical application remains difficult for parents of young children who are naturally early risers. Ultimately, the study encourages individuals to shed feelings of guilt regarding sleep habits, framing adequate rest not as a luxury, but as a critical component of long-term cardiovascular health. This research challenges the 'hustle culture' paradigm by providing clinical validation for rest, potentially shifting public health discourse toward prioritizing sleep hygiene as a fundamental preventative strategy against cardiovascular disease. It underscores a growing societal tension between corporate productivity expectations and the biological necessity of recovery.",
+      "brief_word_count": 197,
+      "summary": "A recent study presented at the annual congress of the European Society of Cardiology offers a compelling scientific justification for the weekend lie-in, challenging the pervasive productivity culture that often glorifies early rising. Lead researcher Dr. Nawon Lee found that extending sleep duration on weekends can serve as a protective measure against high blood pressure, effectively debunking the notion that sleeping in is a sign of laziness. Columnist Arwa Mahdawi highlights these findings to advocate for a healthier work-life balance, contrasting the rigorous, dawn-patrol routines often touted by corporate executives with the physiological benefits of rest. While the research provides a validated health incentive for prioritizing sleep, the practical application remains difficult for parents of young children who are naturally early risers. Ultimately, the study encourages individuals to shed feelings of guilt regarding sleep habits, framing adequate rest not as a luxury, but as a critical component of long-term cardiovascular health. This research challenges the 'hustle culture' paradigm by providing clinical validation for rest, potentially shifting public health discourse toward prioritizing sleep hygiene as a fundamental preventative strategy against cardiovascular disease. It underscores a growing societal tension between corporate productivity expectations and the biological necessity of recovery."
     },
     {
-      "story_id": "story-742",
+      "story_id": "story-679",
       "category": "Science",
-      "primary_headline": "Why butterflies are sometimes attracted to cow dung: The science behind 'puddling'",
+      "primary_headline": "After ISKCON, it’s Bappa’s prasad: This Ganesh Chaturthi, expect FDA officials at mandals",
       "primary_source": {
         "source_name": "The Indian Express",
-        "headline": "Why butterflies are sometimes attracted to cow dung: The science behind ‘puddling’",
-        "published_at": "Tue, 01 Sep 2026 07:00:13 +0000",
-        "url": "https://indianexpress.com/article/lifestyle/pets-animals/why-butterflies-are-sometimes-attracted-to-cow-dung-the-science-behind-puddling-10856009/",
-        "content": "Why are some butterflies in India spotted around cow dung? Explore the unusual behaviour that takes them far beyond flowers and sunny gardens."
+        "headline": "After ISKCON, it’s Bappa’s prasad: This Ganesh Chaturthi, expect FDA officials at mandals",
+        "published_at": "Wed, 09 Sep 2026 08:58:09 +0000",
+        "url": "https://indianexpress.com/article/cities/mumbai/tukaram-mundhe-fda-food-safety-body-bappa-mahaprasad-ingredients-ganesh-chaturthi-10869815/",
+        "content": "FDA has told representatives of public Ganesh mandals that organisers serving prasad, mahaprasad, annadaan or bhandara will have to maintain records of the ingredients they use to make the prasad"
       },
       "sources": [
         {
           "source_name": "The Indian Express",
-          "headline": "Why butterflies are sometimes attracted to cow dung: The science behind 'puddling'",
-          "published_at": "Tue, 01 Sep 2026 07:00:13 +0000",
-          "url": "https://indianexpress.com/article/lifestyle/pets-animals/why-butterflies-are-sometimes-attracted-to-cow-dung-the-science-behind-puddling-10856009/"
+          "headline": "After ISKCON, it’s Bappa’s prasad: This Ganesh Chaturthi, expect FDA officials at mandals",
+          "published_at": "Wed, 09 Sep 2026 08:58:09 +0000",
+          "url": "https://indianexpress.com/article/cities/mumbai/tukaram-mundhe-fda-food-safety-body-bappa-mahaprasad-ingredients-ganesh-chaturthi-10869815/"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.8,
-      "brief": "Why are some butterflies in India spotted around cow dung? Explore the unusual behaviour that takes them far beyond flowers and sunny gardens.",
-      "brief_word_count": 23,
-      "summary": "Why are some butterflies in India spotted around cow dung? Explore the unusual behaviour that takes them far beyond flowers and sunny gardens."
+      "brief": "The Food and Drug Administration (FDA) has extended its regulatory oversight to public Ganesh mandals in anticipation of the upcoming Ganesh Chaturthi festival, mandating that organizers maintain rigorous documentation of all ingredients used in the preparation of prasad, mahaprasad, annadaan, and bhandara. This directive, which mirrors recent regulatory actions taken against ISKCON temples, aims to ensure food safety and hygiene standards are strictly upheld during large-scale public religious gatherings. By requiring detailed ingredient records, authorities intend to mitigate risks associated with foodborne illnesses and ensure accountability for the massive quantities of food distributed to devotees. This proactive enforcement signals a shift toward standardized health compliance within religious institutions, compelling organizers to adopt professional food management practices. As the festival approaches, mandal representatives must now navigate these new administrative requirements to ensure their charitable food distribution efforts remain compliant with state health regulations and public safety protocols. This regulatory expansion marks a significant precedent in state oversight of religious food distribution, signaling that large-scale charitable offerings are no longer exempt from commercial-grade food safety standards. It forces a cultural shift where religious organizations must prioritize supply chain transparency and hygiene to avoid legal liability and public health crises.",
+      "brief_word_count": 197,
+      "summary": "The Food and Drug Administration (FDA) has extended its regulatory oversight to public Ganesh mandals in anticipation of the upcoming Ganesh Chaturthi festival, mandating that organizers maintain rigorous documentation of all ingredients used in the preparation of prasad, mahaprasad, annadaan, and bhandara. This directive, which mirrors recent regulatory actions taken against ISKCON temples, aims to ensure food safety and hygiene standards are strictly upheld during large-scale public religious gatherings. By requiring detailed ingredient records, authorities intend to mitigate risks associated with foodborne illnesses and ensure accountability for the massive quantities of food distributed to devotees. This proactive enforcement signals a shift toward standardized health compliance within religious institutions, compelling organizers to adopt professional food management practices. As the festival approaches, mandal representatives must now navigate these new administrative requirements to ensure their charitable food distribution efforts remain compliant with state health regulations and public safety protocols. This regulatory expansion marks a significant precedent in state oversight of religious food distribution, signaling that large-scale charitable offerings are no longer exempt from commercial-grade food safety standards. It forces a cultural shift where religious organizations must prioritize supply chain transparency and hygiene to avoid legal liability and public health crises."
     },
     {
-      "story_id": "story-760",
+      "story_id": "story-734",
       "category": "Science",
-      "primary_headline": "what's in your Maggi, Kurkure packets? FDA busts Rs 75-lakh racket in Navi Mumbai",
+      "primary_headline": "IIT Madras BS Admission 2026 Without JEE? Check Who Can Apply, Application Process",
+      "primary_source": {
+        "source_name": "NDTV",
+        "headline": "IIT Madras BS Admission 2026 Without JEE? Check Who Can Apply, Application Process",
+        "published_at": "Wed, 09 Sep 2026 13:13:05 +0530",
+        "url": "https://www.ndtv.com/education/iit-madras-bs-admission-2026-without-jee-check-who-can-apply-application-process-12022139#publisher=newsstand",
+        "content": "IIT Madras BS Admission 2026 is open for its BS in Data Science and Applications. Check eligibility, admission process, qualifier process and more details."
+      },
+      "sources": [
+        {
+          "source_name": "NDTV",
+          "headline": "IIT Madras BS Admission 2026 Without JEE? Check Who Can Apply, Application Process",
+          "published_at": "Wed, 09 Sep 2026 13:13:05 +0530",
+          "url": "https://www.ndtv.com/education/iit-madras-bs-admission-2026-without-jee-check-who-can-apply-application-process-12022139#publisher=newsstand"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.8,
+      "brief": "The Indian Institute of Technology (IIT) Madras has officially opened applications for its Bachelor of Science (BS) degree in Data Science and Applications for the 2026 academic cycle, continuing its pioneering initiative to democratize access to elite technical education. Unlike traditional IIT programs that mandate the highly competitive Joint Entrance Examination (JEE), this flexible, online-hybrid model allows students from diverse educational backgrounds to enroll through a structured qualifier process. Candidates must complete a foundational course and pass a qualifier exam, effectively decoupling admission from the rigid, high-stakes testing environment that typically restricts access to premier Indian engineering institutions. By leveraging a scalable digital platform, IIT Madras is addressing the growing global demand for data science professionals while simultaneously challenging the exclusivity of traditional campus-based engineering curricula. This strategic shift reflects a broader institutional commitment to inclusive pedagogy, enabling working professionals and students worldwide to acquire industry-relevant skills without the geographical or financial barriers associated with conventional residential degree programs. This initiative signals a paradigm shift in higher education, where elite institutions are increasingly prioritizing skill-based accessibility over traditional, high-barrier entrance mechanisms to meet the urgent global demand for technical talent. By decoupling prestige from physical campus constraints, IIT Madras is setting a new benchmark for scalable, inclusive, and industry-aligned academic models that could fundamentally disrupt the traditional university degree landscape.",
+      "brief_word_count": 220,
+      "summary": "The Indian Institute of Technology (IIT) Madras has officially opened applications for its Bachelor of Science (BS) degree in Data Science and Applications for the 2026 academic cycle, continuing its pioneering initiative to democratize access to elite technical education. Unlike traditional IIT programs that mandate the highly competitive Joint Entrance Examination (JEE), this flexible, online-hybrid model allows students from diverse educational backgrounds to enroll through a structured qualifier process. Candidates must complete a foundational course and pass a qualifier exam, effectively decoupling admission from the rigid, high-stakes testing environment that typically restricts access to premier Indian engineering institutions. By leveraging a scalable digital platform, IIT Madras is addressing the growing global demand for data science professionals while simultaneously challenging the exclusivity of traditional campus-based engineering curricula. This strategic shift reflects a broader institutional commitment to inclusive pedagogy, enabling working professionals and students worldwide to acquire industry-relevant skills without the geographical or financial barriers associated with conventional residential degree programs. This initiative signals a paradigm shift in higher education, where elite institutions are increasingly prioritizing skill-based accessibility over traditional, high-barrier entrance mechanisms to meet the urgent global demand for technical talent. By decoupling prestige from physical campus constraints, IIT Madras is setting a new benchmark for scalable, inclusive, and industry-aligned academic models that could fundamentally disrupt the traditional university degree landscape."
+    },
+    {
+      "story_id": "story-784",
+      "category": "Science",
+      "primary_headline": "Tukaram Mundhe’s FDA raids ISKCON’s Govinda’s, 2 more Mumbai eateries",
       "primary_source": {
         "source_name": "The Indian Express",
-        "headline": "What’s in your Maggi, Kurkure packets? FDA busts Rs 75-lakh racket in Navi Mumbai",
-        "published_at": "Tue, 01 Sep 2026 06:24:17 +0000",
-        "url": "https://indianexpress.com/article/cities/mumbai/maggi-lays-kurkure-maharashtra-fda-tukaram-mundhe-rs-75-lakh-racket-expiry-dates-10858229/",
-        "content": "Items found at the premises included various variants of Lay's, Kurkure, Bingo and Fun Flips alongside Maggi’s masala and atta noodles, and ready-to-make brands like Rasoi and Knorr soup, and Thumbs Up and Limca tins, and Hellmann's Mayonnaise."
+        "headline": "Tukaram Mundhe’s FDA raids ISKCON’s Govinda’s, 2 more Mumbai eateries",
+        "published_at": "Wed, 09 Sep 2026 06:18:12 +0000",
+        "url": "https://indianexpress.com/article/cities/mumbai/maharashtra-fda-tukaram-mundhe-lord-krishna-iskcon-juhu-raids-licences-suspended-10869564/",
+        "content": "The FDA raids at three ISKCON food units found serious food-safety and hygiene violations, including pest infestation, inadequate food storage and segregation."
       },
       "sources": [
         {
           "source_name": "The Indian Express",
-          "headline": "what's in your Maggi, Kurkure packets? FDA busts Rs 75-lakh racket in Navi Mumbai",
-          "published_at": "Tue, 01 Sep 2026 06:24:17 +0000",
-          "url": "https://indianexpress.com/article/cities/mumbai/maggi-lays-kurkure-maharashtra-fda-tukaram-mundhe-rs-75-lakh-racket-expiry-dates-10858229/"
+          "headline": "Tukaram Mundhe’s FDA raids ISKCON’s Govinda’s, 2 more Mumbai eateries",
+          "published_at": "Wed, 09 Sep 2026 06:18:12 +0000",
+          "url": "https://indianexpress.com/article/cities/mumbai/maharashtra-fda-tukaram-mundhe-lord-krishna-iskcon-juhu-raids-licences-suspended-10869564/"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.8,
-      "brief": "Items found at the premises included various variants of Lay's, Kurkure, Bingo and Fun Flips alongside Maggi's masala and atta noodles, and ready-to-make brands like Rasoi and Knorr soup, and Thumbs Up and Limca tins, and Hellmann's Mayonnaise. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
-      "brief_word_count": 51,
-      "summary": "Items found at the premises included various variants of Lay's, Kurkure, Bingo and Fun Flips alongside Maggi's masala and atta noodles, and ready-to-make brands like Rasoi and Knorr soup, and Thumbs Up and Limca tins, and Hellmann's Mayonnaise. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
+      "brief": "Maharashtra Food and Drug Administration (FDA) Commissioner Tukaram Mundhe has spearheaded a high-profile enforcement operation targeting three prominent food establishments in Mumbai, most notably the Govinda’s restaurant operated by the International Society for Krishna Consciousness (ISKCON). During these surprise inspections, authorities uncovered egregious violations of food safety and hygiene protocols, ranging from pervasive pest infestations to fundamentally inadequate food storage and cross-contamination risks due to improper segregation of raw and cooked items. These raids underscore a rigorous regulatory crackdown led by Mundhe, who has intensified oversight to ensure public health compliance across the city's hospitality sector. By targeting high-visibility institutions like ISKCON, the FDA is signaling that no entity, regardless of its religious or social standing, is exempt from stringent health standards, thereby compelling a broader industry-wide re-evaluation of sanitation practices to avoid punitive legal action and significant reputational damage. This enforcement action signals a shift toward zero-tolerance regulatory oversight in Mumbai’s food sector, forcing major institutions to prioritize rigorous hygiene compliance to maintain public trust and avoid severe operational sanctions.",
+      "brief_word_count": 171,
+      "summary": "Maharashtra Food and Drug Administration (FDA) Commissioner Tukaram Mundhe has spearheaded a high-profile enforcement operation targeting three prominent food establishments in Mumbai, most notably the Govinda’s restaurant operated by the International Society for Krishna Consciousness (ISKCON). During these surprise inspections, authorities uncovered egregious violations of food safety and hygiene protocols, ranging from pervasive pest infestations to fundamentally inadequate food storage and cross-contamination risks due to improper segregation of raw and cooked items. These raids underscore a rigorous regulatory crackdown led by Mundhe, who has intensified oversight to ensure public health compliance across the city's hospitality sector. By targeting high-visibility institutions like ISKCON, the FDA is signaling that no entity, regardless of its religious or social standing, is exempt from stringent health standards, thereby compelling a broader industry-wide re-evaluation of sanitation practices to avoid punitive legal action and significant reputational damage. This enforcement action signals a shift toward zero-tolerance regulatory oversight in Mumbai’s food sector, forcing major institutions to prioritize rigorous hygiene compliance to maintain public trust and avoid severe operational sanctions."
     },
     {
-      "story_id": "story-877",
+      "story_id": "story-927",
       "category": "Science",
-      "primary_headline": "Raindrops are tiny lightning bolts, and they're corroding cars, study finds",
+      "primary_headline": "FDA fills four senior roles, including top officials for drugs, vaccines and tobacco",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "FDA fills four senior roles, including top officials for drugs, vaccines and tobacco - AP News",
+        "published_at": "Tue, 08 Sep 2026 22:08:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVUxkcEtVSmV1VEVvdVc2MzY0YUlpQThwbmJTTDdXSTRzQTVjOXVEMUpMSWlfUnVnRjh0UlpWUFd5eHJMUnZYZzJTakxZeEgzSkxEaDd1NWhDRDd5MUxyS1ZNQkRiR0lxWUY4b28wWUM0alNVcnhtRmxYZVNMMEkxbG1xNm1SUTV4WDJiV3hUdjBwS1lpLVhuWk9xbGFYT3k4amxEZnNRSjRnOGN5SXYyeVY5TQ?oc=5",
+        "content": "FDA fills four senior roles, including top officials for drugs, vaccines and tobacco&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "FDA fills four senior roles, including top officials for drugs, vaccines and tobacco - AP News",
+          "published_at": "Tue, 08 Sep 2026 22:08:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVUxkcEtVSmV1VEVvdVc2MzY0YUlpQThwbmJTTDdXSTRzQTVjOXVEMUpMSWlfUnVnRjh0UlpWUFd5eHJMUnZYZzJTakxZeEgzSkxEaDd1NWhDRDd5MUxyS1ZNQkRiR0lxWUY4b28wWUM0alNVcnhtRmxYZVNMMEkxbG1xNm1SUTV4WDJiV3hUdjBwS1lpLVhuWk9xbGFYT3k4amxEZnNRSjRnOGN5SXYyeVY5TQ?oc=5"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.8,
+      "brief": "The U.S. Food and Drug Administration has solidified its leadership structure by appointing permanent directors to four critical centers, ending a period of interim management and signaling a commitment to long-term regulatory stability. The agency confirmed Dr. Patrizia Cavazzoni as the permanent director of the Center for Drug Evaluation and Research, Dr. Peter Marks for the Center for Biologics Evaluation and Research, Dr. Brian King for the Center for Tobacco Products, and Dr. Michelle Tarver for the Center for Devices and Radiological Health. These appointments are pivotal as the agency navigates complex challenges, including the rapid integration of artificial intelligence in medical devices, the ongoing oversight of complex biologic therapies, and the contentious regulation of emerging tobacco and nicotine products. By installing permanent leadership, the FDA aims to bolster institutional continuity and streamline decision-making processes across its most high-stakes regulatory divisions. This strategic move ensures that the agency remains well-positioned to address evolving public health demands while maintaining rigorous safety standards for the American consumer. These permanent appointments eliminate the uncertainty associated with acting leadership, allowing the FDA to pursue more aggressive, long-term regulatory agendas regarding drug approvals, device innovation, and tobacco control. This stability is essential for maintaining public trust and providing industry stakeholders with the predictable regulatory environment necessary for sustained investment in healthcare innovation.",
+      "brief_word_count": 217,
+      "summary": "The U.S. Food and Drug Administration has solidified its leadership structure by appointing permanent directors to four critical centers, ending a period of interim management and signaling a commitment to long-term regulatory stability. The agency confirmed Dr. Patrizia Cavazzoni as the permanent director of the Center for Drug Evaluation and Research, Dr. Peter Marks for the Center for Biologics Evaluation and Research, Dr. Brian King for the Center for Tobacco Products, and Dr. Michelle Tarver for the Center for Devices and Radiological Health. These appointments are pivotal as the agency navigates complex challenges, including the rapid integration of artificial intelligence in medical devices, the ongoing oversight of complex biologic therapies, and the contentious regulation of emerging tobacco and nicotine products. By installing permanent leadership, the FDA aims to bolster institutional continuity and streamline decision-making processes across its most high-stakes regulatory divisions. This strategic move ensures that the agency remains well-positioned to address evolving public health demands while maintaining rigorous safety standards for the American consumer. These permanent appointments eliminate the uncertainty associated with acting leadership, allowing the FDA to pursue more aggressive, long-term regulatory agendas regarding drug approvals, device innovation, and tobacco control. This stability is essential for maintaining public trust and providing industry stakeholders with the predictable regulatory environment necessary for sustained investment in healthcare innovation."
+    },
+    {
+      "story_id": "story-941",
+      "category": "Science",
+      "primary_headline": "Cockroach Milk, How to Blow Your Nose, and Mosquito Printers: The Ig Nobels of 2026",
+      "primary_source": {
+        "source_name": "Wired",
+        "headline": "Cockroach Milk, How to Blow Your Nose, and Mosquito Printers: The Ig Nobels of 2026",
+        "published_at": "Tue, 08 Sep 2026 21:15:00 +0000",
+        "url": "https://www.wired.com/story/cockroach-milk-mosquito-printers-ig-nobels-of-2026/",
+        "content": "Every year, the prizes recognize the weirdest research that often raises some very serious scientific questions."
+      },
+      "sources": [
+        {
+          "source_name": "Wired",
+          "headline": "Cockroach Milk, How to Blow Your Nose, and Mosquito Printers: The Ig Nobels of 2026",
+          "published_at": "Tue, 08 Sep 2026 21:15:00 +0000",
+          "url": "https://www.wired.com/story/cockroach-milk-mosquito-printers-ig-nobels-of-2026/"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.8,
+      "brief": "The 2026 Ig Nobel Prizes have once again spotlighted the intersection of absurdity and genuine scientific inquiry, honoring research projects that initially provoke laughter before compelling deeper intellectual reflection. This year’s eclectic winners included studies on the nutritional potential of cockroach milk, the fluid dynamics of proper nose-blowing techniques, and the development of specialized mosquito printers, illustrating the vast, often bizarre, spectrum of academic curiosity. By celebrating these unconventional investigations, the Ig Nobels challenge the traditional boundaries of scientific prestige, rewarding researchers who dare to explore the fringes of human knowledge. These accolades serve as a vital reminder that significant breakthroughs often emerge from the most unexpected and seemingly trivial questions, reinforcing the necessity of maintaining an open mind within the global scientific community. The ceremony continues to act as a crucial counterweight to the often rigid and overly serious nature of mainstream academia, ensuring that curiosity remains the primary driver of discovery. The Ig Nobels serve as a critical mechanism for public engagement with science, humanizing complex research and demonstrating that innovation thrives when researchers are encouraged to pursue unconventional, high-risk, or humorous inquiries. This cultural validation of 'weird' science fosters a more creative and resilient research ecosystem, ultimately broadening the scope of what is considered worthy of scientific investigation.",
+      "brief_word_count": 211,
+      "summary": "The 2026 Ig Nobel Prizes have once again spotlighted the intersection of absurdity and genuine scientific inquiry, honoring research projects that initially provoke laughter before compelling deeper intellectual reflection. This year’s eclectic winners included studies on the nutritional potential of cockroach milk, the fluid dynamics of proper nose-blowing techniques, and the development of specialized mosquito printers, illustrating the vast, often bizarre, spectrum of academic curiosity. By celebrating these unconventional investigations, the Ig Nobels challenge the traditional boundaries of scientific prestige, rewarding researchers who dare to explore the fringes of human knowledge. These accolades serve as a vital reminder that significant breakthroughs often emerge from the most unexpected and seemingly trivial questions, reinforcing the necessity of maintaining an open mind within the global scientific community. The ceremony continues to act as a crucial counterweight to the often rigid and overly serious nature of mainstream academia, ensuring that curiosity remains the primary driver of discovery. The Ig Nobels serve as a critical mechanism for public engagement with science, humanizing complex research and demonstrating that innovation thrives when researchers are encouraged to pursue unconventional, high-risk, or humorous inquiries. This cultural validation of 'weird' science fosters a more creative and resilient research ecosystem, ultimately broadening the scope of what is considered worthy of scientific investigation."
+    },
+    {
+      "story_id": "story-955",
+      "category": "Science",
+      "primary_headline": "Nike shareholders reject climate proposal backed by Norway wealth fund",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Nike shareholders reject climate proposal backed by Norway wealth fund - Reuters",
+        "published_at": "Tue, 08 Sep 2026 20:23:12 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWElIdFJyOTN0VWhQNHZNMG9QZ0hGelk0R3pDekVCVjJSVWs4RHFGdk1EZ3FxbU9nSW9MaWNTRl9SMzNRVmt4TFEyNko4QzBwTXBWNDBXR1ZhdHlFXzRVRFZNWDRpMF91QjVTWHpaVktrbFlQWi1RVF9DSzZRRXNTWFV6dUxHN2lEM3Jib2ZCUGJJRVVsZzkxcEdKa3hTVWhFek9xa3dsYWxnV0pxaGp3RzJWLTFqSU1YQV8wbGhlY01CcFU?oc=5",
+        "content": "Nike shareholders reject climate proposal backed by Norway wealth fund&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Nike shareholders reject climate proposal backed by Norway wealth fund - Reuters",
+          "published_at": "Tue, 08 Sep 2026 20:23:12 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWElIdFJyOTN0VWhQNHZNMG9QZ0hGelk0R3pDekVCVjJSVWs4RHFGdk1EZ3FxbU9nSW9MaWNTRl9SMzNRVmt4TFEyNko4QzBwTXBWNDBXR1ZhdHlFXzRVRFZNWDRpMF91QjVTWHpaVktrbFlQWi1RVF9DSzZRRXNTWFV6dUxHN2lEM3Jib2ZCUGJJRVVsZzkxcEdKa3hTVWhFek9xa3dsYWxnV0pxaGp3RzJWLTFqSU1YQV8wbGhlY01CcFU?oc=5"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.8,
+      "brief": "Nike shareholders have decisively rejected a climate-focused proposal that sought increased transparency regarding the company’s lobbying efforts and alignment with the Paris Agreement’s emissions targets. The measure, which garnered significant attention due to the backing of Norges Bank Investment Management—the manager of Norway’s massive sovereign wealth fund—urged the sportswear giant to provide more granular reporting on how its political influence aligns with its stated sustainability goals. Despite the fund's influential support, the proposal failed to secure a majority, as the board of directors successfully argued that existing disclosures were already sufficient and that the requested reporting would impose unnecessary administrative burdens. This outcome highlights the persistent friction between institutional investors prioritizing rigorous ESG accountability and corporate leadership teams that prefer to retain greater control over their strategic disclosures. The vote underscores the challenges climate activists face in compelling major corporations to adopt more stringent, standardized reporting frameworks despite growing global pressure for corporate environmental responsibility. This rejection signals a potential cooling in the momentum of aggressive ESG-driven shareholder activism, suggesting that corporate boards are successfully pushing back against prescriptive climate reporting mandates. It highlights a critical divergence in investor priorities, where financial performance and operational autonomy may currently be outweighing the demand for deeper, standardized climate-related disclosures.",
+      "brief_word_count": 207,
+      "summary": "Nike shareholders have decisively rejected a climate-focused proposal that sought increased transparency regarding the company’s lobbying efforts and alignment with the Paris Agreement’s emissions targets. The measure, which garnered significant attention due to the backing of Norges Bank Investment Management—the manager of Norway’s massive sovereign wealth fund—urged the sportswear giant to provide more granular reporting on how its political influence aligns with its stated sustainability goals. Despite the fund's influential support, the proposal failed to secure a majority, as the board of directors successfully argued that existing disclosures were already sufficient and that the requested reporting would impose unnecessary administrative burdens. This outcome highlights the persistent friction between institutional investors prioritizing rigorous ESG accountability and corporate leadership teams that prefer to retain greater control over their strategic disclosures. The vote underscores the challenges climate activists face in compelling major corporations to adopt more stringent, standardized reporting frameworks despite growing global pressure for corporate environmental responsibility. This rejection signals a potential cooling in the momentum of aggressive ESG-driven shareholder activism, suggesting that corporate boards are successfully pushing back against prescriptive climate reporting mandates. It highlights a critical divergence in investor priorities, where financial performance and operational autonomy may currently be outweighing the demand for deeper, standardized climate-related disclosures."
+    },
+    {
+      "story_id": "story-956",
+      "category": "Science",
+      "primary_headline": "The universal language of space is... Star Trek? Mais oui.",
       "primary_source": {
         "source_name": "Ars Technica",
-        "headline": "Raindrops are tiny lightning bolts, and they’re corroding cars, study finds",
-        "published_at": "Mon, 31 Aug 2026 17:11:48 +0000",
-        "url": "https://arstechnica.com/science/2026/08/raindrops-are-tiny-lightning-bolts-and-theyre-corroding-cars-study-finds/",
-        "content": "\n                            The standard explanation for why rain causes corrosion is that water carries dissolved salts and acids to a surface, constant drumming of raindrops abrades whatever protective coating is on it, and oxygen does the rest. Nearly all our tools to prevent this—paints, polymer films, or oxide layers—are built around this idea. But we’ve apparently been missing something important about the rain.\nA new study led by Zhongyuan Ni, Rüdiger Berger, and Hans-Jürgen Butt at the Max Planck Institute for Polymer Research in Mainz, Germany, has shown that water drops routinely arrive at a surface carrying an electrical charge large enough to punch through an insulating coating. Not scratch it. Not slowly dissolve it. Electrically blow a hole in it, the way a spark jumps a gap.\nCharged rain\nThe starting point of the study is a phenomenon called \"slide electrification,\" which has only been properly quantified in the past few years. When a water drop slides across an insulating surface like a leaf, a painted wall, a windowpane, or a plastic panel, it strips charge from that surface and leaves an opposing charge behind. The voltages involved are not trivial. Drops charged this way have been measured at up to 9,000 volts.Read full article\nComments\n\n                        "
+        "headline": "The universal language of space is... Star Trek? Mais oui.",
+        "published_at": "Tue, 08 Sep 2026 20:20:20 +0000",
+        "url": "https://arstechnica.com/space/2026/09/astronaut-on-iss-celebrates-60-years-of-star-trek-with-prop-badge/",
+        "content": "\n                            Sixty years after television audiences first tuned in to see the voyages of the Starship Enterprise, an astronaut on board the International Space Station has paid tribute to Star Trek by flying the badge of the franchise's latest fictional captain.\nExpedition 75 flight engineer Sophie Adenot with European Space Agency (ESA) donned the Delta badge originally worn by actor Anson Mount for a video recorded from aboard the space station. Mount portrays Christoper Pike in the Paramount+ streaming series Star Trek: Strange New Worlds. Paramount and ESA both released the clip on their Instagram feeds.\n\"For 60 years, Star Trek has brought us stories of friendship and exploration. I'm wearing Captain Pike's badge aboard the ISS in celebration of continuing the real world work of science and exploration,\" said Adenot. \"For me, exploration and science are about curiosity and cooperation daring to go a little farther together, learning from what we discover and build, and turning that knowledge into a better future for everyone.\"Read full article\nComments\n\n                        "
       },
       "sources": [
         {
           "source_name": "Ars Technica",
-          "headline": "Raindrops are tiny lightning bolts, and they're corroding cars, study finds",
-          "published_at": "Mon, 31 Aug 2026 17:11:48 +0000",
-          "url": "https://arstechnica.com/science/2026/08/raindrops-are-tiny-lightning-bolts-and-theyre-corroding-cars-study-finds/"
+          "headline": "The universal language of space is... Star Trek? Mais oui.",
+          "published_at": "Tue, 08 Sep 2026 20:20:20 +0000",
+          "url": "https://arstechnica.com/space/2026/09/astronaut-on-iss-celebrates-60-years-of-star-trek-with-prop-badge/"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.8,
-      "brief": "The standard explanation for why rain causes corrosion is that water carries dissolved salts and acids to a surface, constant drumming of raindrops abrades whatever protective coating is on it, and oxygen does the rest. Nearly all our tools to prevent this—paints, polymer films, or oxide layers—are built around this idea. But we've apparently been missing something important about the rain.",
-      "brief_word_count": 61,
-      "summary": "The standard explanation for why rain causes corrosion is that water carries dissolved salts and acids to a surface, constant drumming of raindrops abrades whatever protective coating is on it, and oxygen does the rest. Nearly all our tools to prevent this—paints, polymer films, or oxide layers—are built around this idea. But we've apparently been missing something important about the rain."
-    },
-    {
-      "story_id": "story-937",
-      "category": "Science",
-      "primary_headline": "Why it matters that President Trump just dialed in to a NASA news conference",
-      "primary_source": {
-        "source_name": "Ars Technica",
-        "headline": "Why it matters that President Trump just dialed in to a NASA news conference",
-        "published_at": "Sun, 30 Aug 2026 17:40:30 +0000",
-        "url": "https://arstechnica.com/space/2026/08/why-it-matters-that-president-trump-just-dialed-into-a-nasa-news-conference/",
-        "content": "\n                            As is standard procedure for major NASA missions, the US space agency held a post-launch news conference on Sunday morning at Kennedy Space Center in Florida to provide information about how the Nancy Grace Roman Space Telescope was faring during its initial maneuvers.\nWhat was not standard, however, is what happened in the middle of the news conference. A little less than half an hour in, NASA Administrator Jared Isaacman looked down at his mobile phone, and then stood up and walked away from the dais where he had been seated behind a table along with other NASA officials. He briefly left the room.\nIsaacman returned about a minute later, phone in hand, apologizing for interrupting NASA's chief of science, Nicky Fox, as she was speaking about the mission. \"The President of the United States of America would like to address and congratulate everyone on this mission,\" Isaacman said, returning to his seat.Read full article\nComments\n\n                        "
-      },
-      "sources": [
-        {
-          "source_name": "Ars Technica",
-          "headline": "Why it matters that President Trump just dialed in to a NASA news conference",
-          "published_at": "Sun, 30 Aug 2026 17:40:30 +0000",
-          "url": "https://arstechnica.com/space/2026/08/why-it-matters-that-president-trump-just-dialed-into-a-nasa-news-conference/"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.8,
-      "brief": "As is standard procedure for major NASA missions, the US space agency held a post-launch news conference on Sunday morning at Kennedy Space Center in Florida to provide information about how the Nancy Grace Roman Space Telescope was faring during its initial maneuvers. What was not standard, however, is what happened in the middle of the news conference. A little less than half an hour in, NASA Administrator Jared Isaacman looked down at his mobile phone, and then stood up and walked away from the dais where he had been seated behind a table along with other NASA officials.",
-      "brief_word_count": 99,
-      "summary": "As is standard procedure for major NASA missions, the US space agency held a post-launch news conference on Sunday morning at Kennedy Space Center in Florida to provide information about how the Nancy Grace Roman Space Telescope was faring during its initial maneuvers. What was not standard, however, is what happened in the middle of the news conference. A little less than half an hour in, NASA Administrator Jared Isaacman looked down at his mobile phone, and then stood up and walked away from the dais where he had been seated behind a table along with other NASA officials."
-    },
-    {
-      "story_id": "story-943",
-      "category": "Science",
-      "primary_headline": "How does your name taste? The strange science of synaesthesia",
-      "primary_source": {
-        "source_name": "Al Jazeera",
-        "headline": "How does your name taste? The strange science of synaesthesia - Al Jazeera",
-        "published_at": "Sun, 30 Aug 2026 14:48:43 GMT",
-        "url": "https://www.aljazeera.com/features/longform/2026/8/30/how-does-your-name-taste-the-strange-science-of-synaesthesia",
-        "content": "This article is part of a series in which we speak to individuals who – due to a unique job, location or experience – share an insight they wish others could know. As a child, Constantina Makridakis, a 28-year-old jewellery designer from Greece, thought everyone could taste voices and names. Her father’s name, Nicholas, tasted like caramel-coated chocolate, while her mother’s name, Maria, was pasta with prawns. The tastes were usually pleasant; the name Paul, a rich chocolate liquor, was particularly delicious. “I thought everyone had this ability,” she explained. “It seemed natural to me. We talk from our mouth, so it made sense [that] we also taste names and voices … it seemed connected to me, so I didn't ask anyone about this.” That was until one day in her late teens, when her sister, Amelia, whose name tasted sweet - often in the form of syrup or jam - told her about a documentary on synaesthesia."
-      },
-      "sources": [
-        {
-          "source_name": "Al Jazeera",
-          "headline": "How does your name taste? The strange science of synaesthesia - Al Jazeera",
-          "published_at": "Sun, 30 Aug 2026 14:48:43 GMT",
-          "url": "https://www.aljazeera.com/features/longform/2026/8/30/how-does-your-name-taste-the-strange-science-of-synaesthesia"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.8,
-      "brief": "This article is part of a series in which we speak to individuals who – due to a unique job, location or experience – share an insight they wish others could know. As a child, Constantina Makridakis, a 28-year-old jewellery designer from Greece, thought everyone could taste voices and names. Her father's name, Nicholas, tasted like caramel-coated chocolate, while her mother's name, Maria, was pasta with prawns.",
-      "brief_word_count": 67,
-      "summary": "This article is part of a series in which we speak to individuals who – due to a unique job, location or experience – share an insight they wish others could know. As a child, Constantina Makridakis, a 28-year-old jewellery designer from Greece, thought everyone could taste voices and names. Her father's name, Nicholas, tasted like caramel-coated chocolate, while her mother's name, Maria, was pasta with prawns."
+      "brief": "Sixty years after the debut of Star Trek, the cultural legacy of the franchise continues to intersect with real-world aerospace achievements as European Space Agency astronaut Sophie Adenot paid a unique tribute from the International Space Station. During Expedition 75, Flight Engineer Adenot donned the iconic Delta badge worn by actor Anson Mount, who portrays Captain Christopher Pike in the Paramount+ series Star Trek: Strange New Worlds. This collaborative gesture, highlighted by both the ESA and Paramount on social media, serves to bridge the gap between science fiction inspiration and the tangible realities of orbital research. By wearing the insignia, Adenot underscored the franchise’s enduring influence on generations of scientists and engineers, framing the mission as a continuation of the show’s core themes of curiosity, international cooperation, and the relentless pursuit of discovery. This symbolic act reinforces the symbiotic relationship between speculative media and the actual advancement of human spaceflight, celebrating the shared vision of a collaborative, exploration-driven future for humanity. This intersection of pop culture and aerospace diplomacy effectively humanizes complex scientific missions, fostering public engagement and inspiring future generations to pursue careers in STEM fields. By aligning real-world exploration with the aspirational ethos of Star Trek, space agencies can cultivate broader cultural support for the significant investments required for long-term space travel and international cooperation.",
+      "brief_word_count": 217,
+      "summary": "Sixty years after the debut of Star Trek, the cultural legacy of the franchise continues to intersect with real-world aerospace achievements as European Space Agency astronaut Sophie Adenot paid a unique tribute from the International Space Station. During Expedition 75, Flight Engineer Adenot donned the iconic Delta badge worn by actor Anson Mount, who portrays Captain Christopher Pike in the Paramount+ series Star Trek: Strange New Worlds. This collaborative gesture, highlighted by both the ESA and Paramount on social media, serves to bridge the gap between science fiction inspiration and the tangible realities of orbital research. By wearing the insignia, Adenot underscored the franchise’s enduring influence on generations of scientists and engineers, framing the mission as a continuation of the show’s core themes of curiosity, international cooperation, and the relentless pursuit of discovery. This symbolic act reinforces the symbiotic relationship between speculative media and the actual advancement of human spaceflight, celebrating the shared vision of a collaborative, exploration-driven future for humanity. This intersection of pop culture and aerospace diplomacy effectively humanizes complex scientific missions, fostering public engagement and inspiring future generations to pursue careers in STEM fields. By aligning real-world exploration with the aspirational ethos of Star Trek, space agencies can cultivate broader cultural support for the significant investments required for long-term space travel and international cooperation."
     }
   ]
 }
