@@ -1361,6 +1361,20 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                         if category == 'homepage' and isinstance(data.get('stories'), list):
                             if len(data['stories']) > 20:
                                 data['stories'] = data['stories'][:20]
+                        # If category file is an empty stub, fall back to filtering global
+                        if category not in ('homepage', 'global') and not data.get('stories'):
+                            global_path = os.path.join(BRIEFINGS_DIR, 'latest_global.json')
+                            if os.path.exists(global_path):
+                                with open(global_path, 'r', encoding='utf-8') as gf:
+                                    global_data = json.load(gf)
+                                filtered = [s for s in global_data.get('stories', [])
+                                            if (s.get('category') or '').lower() == category.lower()]
+                                data = {
+                                    "id": global_data.get("id", "latest"),
+                                    "timestamp": global_data.get("timestamp", ""),
+                                    "articlesCount": len(filtered),
+                                    "stories": filtered
+                                }
                         self.send_json(data)
                 except Exception as err:
                     self.send_json({"error": "Failed to read briefing"}, 500)

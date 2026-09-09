@@ -676,36 +676,11 @@ function renderHomepageView(brief) {
 
   // Top 20 stories strictly
   const top20 = stories.slice(0, 20);
-
-  let html = `
-    <div class="reading-estimate-header">
-      <div class="font-label-caps text-xs uppercase tracking-widest font-bold" style="color: var(--color-orange);">Executive Daily Briefing · Top 20 Stories</div>
-      <div class="font-mono text-[11px] text-[var(--color-dark-gray)]">~5 Min Read</div>
-    </div>
-  `;
-
-  // Top 5 "The Headline"
-  const headline = top20.slice(0, 5);
-  const remaining = top20.slice(5);
-
-  if (headline.length > 0) {
-    html += `<h2 class="font-label-caps text-sm uppercase tracking-widest font-bold pb-2 mt-4 border-b border-[var(--color-border-heavy)] text-[var(--color-black)] dark:text-white" style="border-color: var(--color-border-heavy);">The Headline</h2>`;
-    html += '<div class="space-y-4 mt-2">';
-    for (const story of headline) {
-      html += renderStoryCard(story, false);
-    }
-    html += '</div>';
+  let html = '<div class="space-y-0">';
+  for (const story of top20) {
+    html += renderStoryCard(story, false);
   }
-
-  if (remaining.length > 0) {
-    html += `<h2 class="font-label-caps text-sm uppercase tracking-widest font-bold pb-2 mt-8 border-b border-[var(--color-border-heavy)] text-[var(--color-black)] dark:text-white" style="border-color: var(--color-border-heavy);">Key Executive Stories</h2>`;
-    html += '<div class="space-y-4 mt-2">';
-    remaining.forEach((story) => {
-      html += renderStoryCard(story, false);
-    });
-    html += '</div>';
-  }
-
+  html += '</div>';
   return html;
 }
 
@@ -763,20 +738,11 @@ function renderReaderView(brief) {
     return '<div class="empty-state" style="min-height: 120px; padding: 2rem 0;"><div class="empty-state-text">No articles available for this category.</div></div>';
   }
 
-  const label = CATEGORY_LABELS[activeCategory] || activeCategory.toUpperCase();
-  let html = `
-    <div class="reading-estimate-header">
-      <div class="font-label-caps text-xs uppercase tracking-widest font-bold" style="color: var(--color-orange);">${escapeHtml(label)}</div>
-      <div class="font-mono text-[11px] text-[var(--color-dark-gray)]">${filtered.length} Stories</div>
-    </div>
-    <div class="space-y-4 mt-2">
-  `;
-
+  let html = '<div class="space-y-0">';
   for (const story of filtered) {
     html += renderStoryCard(story, false);
   }
   html += '</div>';
-
   return html;
 }
 
