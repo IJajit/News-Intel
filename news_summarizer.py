@@ -51,7 +51,7 @@ def _split_sentences(text):
 def _structured_fallback(text, title=""):
     """
     Informative fallback when Gemini API encounters rate limit/delay.
-    Synthesizes full article sentences into a clean paragraph summary.
+    Extracts core article sentences into clean, thorough bulleted brief and why_it_matters lists.
     """
     clean = _clean_rss_artifacts(text)
     if not clean or len(clean.strip()) < 15:
@@ -75,10 +75,30 @@ def _structured_fallback(text, title=""):
             
     if not unique_sentences:
         clean_title = title if title.endswith(('.', '!', '?')) else title + '.'
-        return {"summary": clean_title}
+        return {
+            "brief": [clean_title],
+            "why_it_matters": [f"Follow developments on this breaking event."],
+            "summary": clean_title
+        }
     
-    summary_text = " ".join(unique_sentences[:4])
-    return {"summary": summary_text}
+    if len(unique_sentences) == 1:
+        brief_bullets = [unique_sentences[0]]
+        wim_bullets = ["Key developments are continuing to unfold."]
+    elif len(unique_sentences) == 2:
+        brief_bullets = [unique_sentences[0]]
+        wim_bullets = [unique_sentences[1]]
+    elif len(unique_sentences) == 3:
+        brief_bullets = unique_sentences[:2]
+        wim_bullets = [unique_sentences[2]]
+    else:
+        brief_bullets = unique_sentences[:3]
+        wim_bullets = unique_sentences[3:5]
+
+    return {
+        "brief": brief_bullets,
+        "why_it_matters": wim_bullets,
+        "summary": " ".join(brief_bullets)
+    }
 
 
 def _call_gemini_api(text, title="", gemini_key=""):
@@ -99,19 +119,27 @@ def _call_gemini_api(text, title="", gemini_key=""):
     if not clean:
         return None
 
-    # Construct Gemini prompt requesting a multi-sentence executive paragraph summary (minimum 3 sentences)
-    prompt = f"""Synthesize the news story below into a detailed executive summary paragraph.
-CRITICAL REQUIREMENT: The summary MUST be at least 3 to 4 sentences long (minimum 80 words).
-Sentence 1: Explain the origin and background context of the event.
-Sentence 2 & 3: Detail the core new factual developments, statements, and actions.
-Sentence 4: Explain the future impact and strategic outlook ("Why It Matters").
+    # Construct Gemini prompt requesting bulleted brief and why_it_matters
+    prompt = f"""You are an executive news intelligence editor. Synthesize the news story below into an executive briefing format.
+CRITICAL EDITORIAL REQUIREMENTS:
+1. "brief": Provide 2 to 4 detailed, fact-first bullet points that thoroughly explain what happened, the key figures, policy changes, statements, or developments. Do not overly compress or truncate—the entire story must be represented properly and accurately.
+2. "why_it_matters": Provide 1 to 2 self-explanatory bullet points detailing the strategic impact, downstream consequences, and broader significance. It must be thorough and not give a half-picture.
+3. Absolutely NO emojis or icons anywhere in the output.
 
 Title: {title}
 Article: {clean}
 
 Respond ONLY with valid JSON in this format:
 {{
-  "summary": "Detailed 3-4 sentence executive paragraph summary covering context, developments, and impact."
+  "brief": [
+    "First comprehensive factual bullet point...",
+    "Second comprehensive factual bullet point...",
+    "Third factual bullet point if needed..."
+  ],
+  "why_it_matters": [
+    "First self-explanatory bullet on downstream consequences and impact...",
+    "Second bullet on broader significance if needed..."
+  ]
 }}"""
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
@@ -138,7 +166,21 @@ Respond ONLY with valid JSON in this format:
                 part_text = re.sub(r'^```\s*', '', part_text.strip(), flags=re.IGNORECASE)
                 part_text = re.sub(r'```$', '', part_text.strip())
                 parsed = json.loads(part_text)
-                return parsed
+                
+                # Normalize parsed output
+                brief_list = parsed.get("brief", [])
+                if isinstance(brief_list, str):
+                    brief_list = [brief_list]
+                wim_list = parsed.get("why_it_matters", [])
+                if isinstance(wim_list, str):
+                    wim_list = [wim_list]
+                
+                if brief_list:
+                    return {
+                        "brief": brief_list,
+                        "why_it_matters": wim_list,
+                        "summary": " ".join(brief_list)
+                    }
     except Exception as e:
         print(f"[Gemini API Error]: {e}")
 
@@ -148,7 +190,7 @@ Respond ONLY with valid JSON in this format:
 def generate_deep_dive_brief(content, title="", gemini_key=""):
     """
     Main entry point for generating Deep-Dive Analytical Briefs.
-    Returns a dictionary with context_background, key_developments, and impact_outlook.
+    Returns a dictionary with 'brief' (list of strings) and 'why_it_matters' (list of strings).
     """
     cache_key = f"{title}_{hash(content[:200])}"
     if cache_key in SUMMARY_CACHE:
@@ -169,7 +211,7 @@ def summarize_content(content, title="", ssl_ctx=None, hf_token=""):
     Legacy wrapper retained for backward compatibility.
     """
     brief = generate_deep_dive_brief(content, title=title, gemini_key=hf_token)
-    return brief.get("context_background", "") + " " + " ".join(brief.get("key_developments", []))
+    return brief.get("summary", "")
 
 
 def extract_why_it_matters(content, title=""):
@@ -177,4 +219,5 @@ def extract_why_it_matters(content, title=""):
     Legacy wrapper retained for backward compatibility.
     """
     brief = generate_deep_dive_brief(content, title=title)
-    return brief.get("impact_outlook", None)
+    wim = brief.get("why_it_matters", [])
+    return " ".join(wim) if isinstance(wim, list) else str(wim)
