@@ -91,27 +91,28 @@ document.addEventListener('DOMContentLoaded', () => {
       }).catch(() => {});
   } else {
     loadLatestBrief(activeTab === 'homepage' ? 'homepage' : 'global').then((hasData) => {
-    if (!hasData) {
-      triggerBriefingGeneration();
-    } else {
-      // Pre-warm full 24h global stories in background for instant category browsing and complete feed
-      fetch(`/api/latest-brief?category=global&t=${Date.now()}`)
-        .then(r => r.ok ? r.json() : null)
-        .then(gBrief => {
-          if (gBrief && Array.isArray(gBrief.stories) && gBrief.stories.length > 0) {
-            window._globalStories = gBrief.stories;
-            window._allStories = gBrief.stories;
-            if (articlesCountVal) articlesCountVal.textContent = gBrief.articlesCount || gBrief.stories.length;
-            renderArticlesList();
-            renderRightSidebarArticles(gBrief.stories);
-            if (activeTab === 'reader' && readerContent) {
-              switchReaderCategory(activeCategory);
+      if (!hasData) {
+        triggerBriefingGeneration();
+      } else {
+        // Pre-warm full 24h global stories in background for instant category browsing and complete feed
+        fetch(`/api/latest-brief?category=global&t=${Date.now()}`)
+          .then(r => r.ok ? r.json() : null)
+          .then(gBrief => {
+            if (gBrief && Array.isArray(gBrief.stories) && gBrief.stories.length > 0) {
+              window._globalStories = gBrief.stories;
+              window._allStories = gBrief.stories;
+              if (articlesCountVal) articlesCountVal.textContent = gBrief.articlesCount || gBrief.stories.length;
+              renderArticlesList();
+              renderRightSidebarArticles(gBrief.stories);
+              if (activeTab === 'reader' && readerContent) {
+                switchReaderCategory(activeCategory);
+              }
             }
-          }
-        })
-        .catch(() => {});
-    }
-  });
+          })
+          .catch(() => {});
+      }
+    });
+  }
 
   fetchWikiIntel();
   initPushNotifications();
@@ -568,6 +569,7 @@ async function initWorldCupRightSidebar() {
 function setLoadingState(isLoading, statusText = '') {
   if (isLoading) {
     if (stateEmpty) stateEmpty.style.display   = 'none';
+    if (viewLatest) viewLatest.style.display   = 'none';
     if (viewHomepage) viewHomepage.style.display = 'none';
     if (viewReader) viewReader.style.display   = 'none';
 
@@ -584,7 +586,7 @@ function setLoadingState(isLoading, statusText = '') {
     const refreshIcon = document.getElementById('refreshIcon');
     if (refreshIcon) refreshIcon.style.animation = '';
 
-    if (currentBriefing) {
+    if (currentBriefing || activeTab === 'latest') {
       switchTab(activeTab);
     } else {
       if (stateEmpty) stateEmpty.style.display = 'flex';
@@ -600,6 +602,7 @@ async function loadLatest1Hour() {
     if (!res.ok) throw new Error('Could not fetch 1-hour feed');
     const data = await res.json();
     window._latest1HourData = data;
+    currentBriefing = data;
     renderLatestView(data);
   } catch (e) {
     console.error('Error fetching 1-hour feed:', e);
