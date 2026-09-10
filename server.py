@@ -1554,10 +1554,11 @@ def send_web_push_notification(subscription, payload_data):
         return False, "missing_endpoint"
 
     try:
+        vapid_obj = Vapid.from_pem(priv_pem.encode('utf-8'))
         pywebpush.webpush(
             subscription_info=subscription,
             data=json.dumps(payload_data),
-            vapid_private_key=priv_pem,
+            vapid_private_key=vapid_obj,
             vapid_claims={"sub": "mailto:intel@newsintel.app"},
             ttl=3600
         )
