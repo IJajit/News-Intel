@@ -20,7 +20,7 @@ self.addEventListener('push', (event) => {
   const title = data.title || 'News Intel · Hourly Breaking News';
   const options = {
     body: data.body || 'New breaking stories published in the past hour.',
-    icon: '/transparent.png',
+    icon: '/intel-badge.png',
     badge: 'https://img.icons8.com/material-outlined/72/ff5500/news.png',
     tag: 'hourly-news-intel',
     renotify: true,
