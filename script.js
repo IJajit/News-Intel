@@ -133,12 +133,16 @@ document.addEventListener('DOMContentLoaded', () => {
         if (themeIcon) themeIcon.textContent = 'dark_mode';
         document.body.style.backgroundColor = '#f7f3ee';
         document.body.style.color = '#2d2a26';
+        const metaTheme = document.getElementById('themeColorMeta');
+        if (metaTheme) metaTheme.setAttribute('content', '#f7f3ee');
       } else {
         document.documentElement.classList.add('dark');
         localStorage.setItem('theme', 'dark');
         if (themeIcon) themeIcon.textContent = 'light_mode';
         document.body.style.backgroundColor = '#1e1e1e';
         document.body.style.color = '#f4f4f5';
+        const metaTheme = document.getElementById('themeColorMeta');
+        if (metaTheme) metaTheme.setAttribute('content', '#1e1e1e');
       }
     });
   }

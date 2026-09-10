@@ -10,6 +10,7 @@ class TestPwaAssets(unittest.TestCase):
             data = json.load(f)
         self.assertEqual(data.get("name"), "News Intel")
         self.assertEqual(data.get("display"), "standalone")
+        self.assertEqual(data.get("theme_color"), "#1e1e1e")
 
     def test_service_worker_has_push_and_click_listeners(self):
         path = os.path.join(os.path.dirname(__file__), '..', 'sw.js')
