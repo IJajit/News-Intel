@@ -629,7 +629,12 @@ function renderLatestView(brief) {
       </div>`;
     return;
   }
-  latestContent.innerHTML = stories.map((s, idx) => renderStoryCard(s, true, idx + 1)).join('');
+  let html = '<div class="space-y-0">';
+  for (const story of stories) {
+    html += renderStoryCard(story, false);
+  }
+  html += '</div>';
+  latestContent.innerHTML = html;
 }
 
 // ─── TAB SWITCHING ─────────────────────────────────────────────
