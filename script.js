@@ -1554,6 +1554,7 @@ async function initPushNotifications() {
         try {
           await swReg.showNotification('News Intel · Alerts Activated', {
             body: 'Hourly breaking news updates are now active! You will receive updates every hour.',
+            icon: '/transparent.png',
             badge: 'https://img.icons8.com/material-outlined/72/ff5500/news.png',
             tag: 'welcome-notification',
             data: { url: '/?tab=latest' }

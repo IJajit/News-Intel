@@ -29,5 +29,13 @@ class TestPwaAssets(unittest.TestCase):
         self.assertIn('id="notifIcon"', content)
         self.assertIn('notifications', content)
 
+    def test_transparent_icon_exists_and_sw_config(self):
+        icon_path = os.path.join(os.path.dirname(__file__), '..', 'transparent.png')
+        self.assertTrue(os.path.exists(icon_path), "transparent.png does not exist")
+        sw_path = os.path.join(os.path.dirname(__file__), '..', 'sw.js')
+        with open(sw_path, 'r', encoding='utf-8') as f:
+            sw_content = f.read()
+        self.assertIn("icon: '/transparent.png'", sw_content)
+
 if __name__ == '__main__':
     unittest.main()

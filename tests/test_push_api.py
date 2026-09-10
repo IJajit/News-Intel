@@ -46,5 +46,10 @@ class TestPushAPI(unittest.TestCase):
         subs = load_subscriptions(filepath=self.subs_file)
         self.assertEqual(len(subs), 0)
 
+    def test_vapid_keys_from_root_file(self):
+        pub_key, priv_pem = get_or_create_vapid_keys()
+        self.assertEqual(pub_key, "BLFNMmvUZn_pHYtqPDWirwKYTkbgoJOdH5JsCbWKOthZvtNth617DFzZ3WG1yYJyz4IgzVOPvcyZeKEYlmezI0I")
+        self.assertIn("BEGIN PRIVATE KEY", priv_pem)
+
 if __name__ == '__main__':
     unittest.main()

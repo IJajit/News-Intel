@@ -192,7 +192,18 @@ def get_or_create_vapid_keys(filepath=None):
         except Exception as e:
             print(f"Error reading VAPID keys from {filepath}: {e}")
 
-    # Check data/ fallback if filepath is /tmp
+    # 3. Check committed vapid_keys.json in project root (critical for stateless Vercel containers)
+    root_keys_file = os.path.join(os.path.dirname(__file__), 'vapid_keys.json')
+    if os.path.exists(root_keys_file) and root_keys_file != filepath:
+        try:
+            with open(root_keys_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                if data.get('public_key') and data.get('private_key'):
+                    return data['public_key'], data['private_key']
+        except Exception as e:
+            print(f"Error reading VAPID keys from {root_keys_file}: {e}")
+
+    # 4. Check data/ fallback
     seed_keys_file = os.path.join(os.path.dirname(__file__), 'data', 'vapid_keys.json')
     if os.path.exists(seed_keys_file) and seed_keys_file != filepath:
         try:
@@ -203,7 +214,7 @@ def get_or_create_vapid_keys(filepath=None):
         except Exception:
             pass
 
-    # 3. Generate new VAPID keys
+    # 5. Generate new VAPID keys if pywebpush is available
     if not WEBPUSH_AVAILABLE:
         return "", ""
 
@@ -222,9 +233,70 @@ def get_or_create_vapid_keys(filepath=None):
 
     return pub_b64, priv_pem
 
+def get_kv_credentials():
+    url = os.environ.get('KV_REST_API_URL') or os.environ.get('UPSTASH_REDIS_REST_URL') or ''
+    token = os.environ.get('KV_REST_API_TOKEN') or os.environ.get('UPSTASH_REDIS_REST_TOKEN') or ''
+    return url.rstrip('/'), token
+
+def kv_get(key):
+    url, token = get_kv_credentials()
+    if not url or not token:
+        return None
+    try:
+        req = urllib.request.Request(f"{url}/get/{key}", headers={'Authorization': f'Bearer {token}'})
+        kwargs = {'timeout': 5}
+        if ssl_context:
+            kwargs['context'] = ssl_context
+        with urllib.request.urlopen(req, **kwargs) as resp:
+            data = json.loads(resp.read().decode('utf-8'))
+            res = data.get('result')
+            if isinstance(res, str):
+                try:
+                    return json.loads(res)
+                except Exception:
+                    return res
+            return res
+    except Exception as e:
+        print(f"[KV] Error getting key {key}: {e}")
+        return None
+
+def kv_set(key, value):
+    url, token = get_kv_credentials()
+    if not url or not token:
+        return False
+    try:
+        val_str = json.dumps(value) if not isinstance(value, str) else value
+        body = json.dumps(["SET", key, val_str]).encode('utf-8')
+        req = urllib.request.Request(url, data=body, headers={
+            'Authorization': f'Bearer {token}',
+            'Content-Type': 'application/json'
+        }, method='POST')
+        kwargs = {'timeout': 5}
+        if ssl_context:
+            kwargs['context'] = ssl_context
+        with urllib.request.urlopen(req, **kwargs) as resp:
+            data = json.loads(resp.read().decode('utf-8'))
+            return bool(data.get('result'))
+    except Exception as e:
+        print(f"[KV] Error setting key {key}: {e}")
+        return False
+
 def load_subscriptions(filepath=None):
     if not filepath:
         filepath = SUBSCRIPTIONS_FILE
+
+    # 1. Try Vercel KV / Upstash Redis if configured
+    kv_subs = kv_get("push_subscriptions")
+    if isinstance(kv_subs, list):
+        try:
+            os.makedirs(os.path.dirname(filepath), exist_ok=True)
+            with open(filepath, 'w', encoding='utf-8') as f:
+                json.dump(kv_subs, f, indent=2, ensure_ascii=False)
+        except Exception:
+            pass
+        return kv_subs
+
+    # 2. Fall back to local file
     if not os.path.exists(filepath):
         fallback = os.path.join(os.path.dirname(__file__), 'data', 'subscriptions.json')
         if os.path.exists(fallback):
@@ -248,6 +320,11 @@ def save_subscription(sub_data, filepath=None):
         return
     subs = [s for s in subs if s.get('endpoint') != endpoint]
     subs.append(sub_data)
+
+    # Persist to Vercel KV if available
+    kv_set("push_subscriptions", subs)
+
+    # Always persist locally
     try:
         os.makedirs(os.path.dirname(filepath), exist_ok=True)
         with open(filepath, 'w', encoding='utf-8') as f:
@@ -260,6 +337,10 @@ def remove_subscription(endpoint, filepath=None):
         filepath = SUBSCRIPTIONS_FILE
     subs = load_subscriptions(filepath)
     new_subs = [s for s in subs if s.get('endpoint') != endpoint]
+
+    # Persist to Vercel KV if available
+    kv_set("push_subscriptions", new_subs)
+
     try:
         os.makedirs(os.path.dirname(filepath), exist_ok=True)
         with open(filepath, 'w', encoding='utf-8') as f:
@@ -1461,16 +1542,16 @@ def format_hourly_push_payload(stories):
 def send_web_push_notification(subscription, payload_data):
     if not WEBPUSH_AVAILABLE:
         print("[WEBPUSH] pywebpush not available, skipping dispatch")
-        return False
+        return False, "pywebpush_not_installed"
 
-    _, priv_pem = get_or_create_vapid_keys()
+    pub, priv_pem = get_or_create_vapid_keys()
     if not priv_pem:
         print("[WEBPUSH] No VAPID private key available")
-        return False
+        return False, "no_vapid_private_key"
 
     endpoint = subscription.get("endpoint")
     if not endpoint:
-        return False
+        return False, "missing_endpoint"
 
     try:
         pywebpush.webpush(
@@ -1480,16 +1561,19 @@ def send_web_push_notification(subscription, payload_data):
             vapid_claims={"sub": "mailto:intel@newsintel.app"},
             ttl=3600
         )
-        return True
+        return True, "ok"
     except pywebpush.WebPushException as ex:
-        print(f"[WEBPUSH] Failed to send push to {endpoint[:30]}...: {ex}")
-        if hasattr(ex, 'response') and ex.response is not None and ex.response.status_code in (404, 410):
-            print(f"[WEBPUSH] Subscription gone ({ex.response.status_code}). Removing.")
-            remove_subscription(endpoint)
-        return False
+        err_msg = f"{ex}"
+        if hasattr(ex, 'response') and ex.response is not None:
+            err_msg += f" (status: {ex.response.status_code})"
+            if ex.response.status_code in (404, 410):
+                print(f"[WEBPUSH] Subscription gone ({ex.response.status_code}). Removing.")
+                remove_subscription(endpoint)
+        print(f"[WEBPUSH] Failed to send push to {endpoint[:30]}...: {err_msg}")
+        return False, err_msg
     except Exception as e:
         print(f"[WEBPUSH] Unexpected error sending push: {e}")
-        return False
+        return False, str(e)
 
 def run_hourly_pipeline(grounded_time=None):
     if not grounded_time:
@@ -1610,9 +1694,13 @@ def run_hourly_pipeline(grounded_time=None):
     # Dispatch to subscribers
     subs = load_subscriptions()
     dispatched = 0
+    dispatch_errors = []
     for sub in subs:
-        if send_web_push_notification(sub, payload):
+        ok, reason = send_web_push_notification(sub, payload)
+        if ok:
             dispatched += 1
+        else:
+            dispatch_errors.append({"endpoint": sub.get("endpoint", "")[:35] + "...", "error": reason})
 
     print(f"[HOURLY CRON] Finished pipeline: {len(story_objects)} stories, {dispatched}/{len(subs)} notifications sent.")
     return {
@@ -1620,6 +1708,7 @@ def run_hourly_pipeline(grounded_time=None):
         "articlesCount": len(story_objects),
         "subscriptionsCount": len(subs),
         "dispatchedCount": dispatched,
+        "dispatchErrors": dispatch_errors,
         "payload": payload
     }
 
@@ -1664,7 +1753,12 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
             self.send_json(CATEGORIES)
         elif path == '/api/config':
             groq_key = os.environ.get('GROQ_API_KEY', '')
-            self.send_json({"apiKeyConfigured": bool(groq_key)})
+            kv_configured = bool(get_kv_credentials()[0])
+            self.send_json({
+                "apiKeyConfigured": bool(groq_key),
+                "webpushAvailable": WEBPUSH_AVAILABLE,
+                "kvConfigured": kv_configured
+            })
         elif path == '/api/vapid-public-key':
             pub_key, _ = get_or_create_vapid_keys()
             self.send_json({"publicKey": pub_key})
