@@ -47,9 +47,19 @@ const wikiOtdLink         = document.getElementById('wikiOtdLink');
 // ─── APP STATE ────────────────────────────────────────────────
 let apiKey          = '';
 let showApiKey      = false;
-let activeTab       = localStorage.getItem('wcActiveTab') || 'homepage';
+let activeTab       = 'latest';
 let currentBriefing = null;
 let activeCategory  = localStorage.getItem('readerCategory') || 'global';
+
+function scrollToTop() {
+  const main = document.getElementById('mainContent');
+  if (main) {
+    main.scrollTop = 0;
+  }
+  window.scrollTo(0, 0);
+  document.documentElement.scrollTop = 0;
+  document.body.scrollTop = 0;
+}
 
 
 // ─── INITIALIZATION ───────────────────────────────────────────
@@ -70,12 +80,17 @@ document.addEventListener('DOMContentLoaded', () => {
   fetchSources();
 
   const urlParams = new URLSearchParams(window.location.search);
-  if (urlParams.get('tab') === 'latest') {
+  const paramTab = urlParams.get('tab');
+  if (paramTab) {
+    activeTab = paramTab;
+  } else {
     activeTab = 'latest';
   }
 
+  switchTab(activeTab);
+  scrollToTop();
+
   if (activeTab === 'latest') {
-    switchTab('latest');
     loadLatest1Hour();
     // Also warm global in background
     fetch(`/api/latest-brief?category=global&t=${Date.now()}`)
@@ -92,7 +107,8 @@ document.addEventListener('DOMContentLoaded', () => {
   } else {
     loadLatestBrief(activeTab === 'homepage' ? 'homepage' : 'global').then((hasData) => {
       if (!hasData) {
-        triggerBriefingGeneration();
+        switchTab('latest');
+        loadLatest1Hour();
       } else {
         // Pre-warm full 24h global stories in background for instant category browsing and complete feed
         fetch(`/api/latest-brief?category=global&t=${Date.now()}`)
@@ -117,8 +133,18 @@ document.addEventListener('DOMContentLoaded', () => {
   fetchWikiIntel();
   initPushNotifications();
 
-  // ─── GENERATE BUTTON ────────────────────────────────────────
-  generateBtn.addEventListener('click', triggerBriefingGeneration);
+  // ─── GENERATE / REFRESH BUTTON ──────────────────────────────
+  generateBtn.addEventListener('click', async () => {
+    switchTab('latest');
+    const readerSubtabs = document.getElementById('readerSubtabs');
+    if (readerSubtabs) {
+      readerSubtabs.querySelectorAll('.sidebar-cat-btn').forEach(b => b.classList.remove('active'));
+    }
+    scrollToTop();
+    await loadLatest1Hour();
+    scrollToTop();
+    showToast('Latest feed refreshed.', 'success');
+  });
 
 
   // ─── THEME TOGGLE ───────────────────────────────────────────
@@ -624,8 +650,8 @@ async function loadLatest1Hour() {
 
 function renderLatestView(brief) {
   if (!latestContent) return;
-  const stories = (brief && Array.isArray(brief.stories)) ? brief.stories : [];
-  if (stories.length === 0) {
+  const allStories = (brief && Array.isArray(brief.stories)) ? [...brief.stories] : [];
+  if (allStories.length === 0) {
     latestContent.innerHTML = `
       <div class="empty-state p-12 text-center space-y-3">
         <p class="font-headline-sm text-sm font-semibold">No breaking stories in the past 60 minutes.</p>
@@ -633,8 +659,20 @@ function renderLatestView(brief) {
       </div>`;
     return;
   }
+
+  // Filter and rank based on importance, popularity (source count), and relevancy
+  allStories.sort((a, b) => {
+    const scA = a.source_count || (a.sources ? a.sources.length : 1);
+    const scB = b.source_count || (b.sources ? b.sources.length : 1);
+    if (scB !== scA) return scB - scA;
+    return (b.combined_score || 0) - (a.combined_score || 0);
+  });
+
+  // Strictly display the most important 20 articles
+  const top20Stories = allStories.slice(0, 20);
+
   let html = '<div class="space-y-0">';
-  for (const story of stories) {
+  for (const story of top20Stories) {
     html += renderStoryCard(story, false);
   }
   html += '</div>';
@@ -665,6 +703,8 @@ function switchTab(tabName) {
   } else if (stateEmpty) {
     stateEmpty.style.display = 'none';
   }
+
+  scrollToTop();
 }
 
 
@@ -819,6 +859,7 @@ function renderReaderView(brief) {
 const categoryBriefCache = {};
 
 async function switchReaderCategory(category) {
+  scrollToTop();
   activeCategory = category;
   localStorage.setItem('readerCategory', category);
   // Sync mobile subtab if it exists
@@ -840,6 +881,7 @@ async function switchReaderCategory(category) {
     const cached = categoryBriefCache[catKey];
     if (readerContent) readerContent.innerHTML = renderReaderView(cached);
     renderArticlesList();
+    scrollToTop();
     return;
   }
 
@@ -866,6 +908,7 @@ async function switchReaderCategory(category) {
     categoryBriefCache[catKey] = catBrief;
     if (readerContent) readerContent.innerHTML = renderReaderView(catBrief);
     renderArticlesList();
+    scrollToTop();
     return;
   }
 
@@ -876,6 +919,7 @@ async function switchReaderCategory(category) {
         <div class="font-mono text-xs uppercase tracking-widest text-[var(--color-orange)] animate-pulse">Loading ${escapeHtml(category)} Intelligence...</div>
       </div>
     `;
+    scrollToTop();
   }
 
   // 3. Asynchronously fetch category feed from server
@@ -898,6 +942,7 @@ async function switchReaderCategory(category) {
         if (activeCategory === category) {
           if (readerContent) readerContent.innerHTML = renderReaderView(catBrief);
           renderArticlesList();
+          scrollToTop();
         }
         return;
       }

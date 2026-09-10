@@ -23,5 +23,14 @@ class TestLatestUI(unittest.TestCase):
         self.assertIn('id="viewLatest"', content)
         self.assertIn('id="latestContent"', content)
 
+    def test_latest_button_is_default_active(self):
+        html_path = os.path.join(os.path.dirname(__file__), '..', 'index.html')
+        with open(html_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+
+        match = re.search(r'id=["\']tabLatestBtn["\'][^>]*class=["\']([^"\']+)["\']', content)
+        self.assertIsNotNone(match)
+        self.assertIn('active', match.group(1), "tabLatestBtn must have 'active' class by default")
+
 if __name__ == '__main__':
     unittest.main()

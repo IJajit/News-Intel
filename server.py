@@ -1805,9 +1805,9 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                         print(f"Error reading global fallback: {e}")
 
             if data and isinstance(data, dict):
-                # Ensure homepage and individual categories are capped to top 20 most important stories,
-                # while 'global' and '1hour' retain all news articles across all categories
-                if category not in ('global', '1hour') and isinstance(data.get('stories'), list) and len(data['stories']) > 20:
+                # Ensure homepage, 1hour (latest), and individual categories are capped to top 20 most important stories,
+                # while 'global' ("All") retains all news articles across all categories
+                if category != 'global' and isinstance(data.get('stories'), list) and len(data['stories']) > 20:
                     data = dict(data)
                     st = list(data['stories'])
                     st.sort(key=lambda s: (s.get("source_count", 1), s.get("combined_score", 0)), reverse=True)
