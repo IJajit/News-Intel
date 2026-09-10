@@ -1550,6 +1550,17 @@ async function initPushNotifications() {
           body: JSON.stringify({ subscription: newSub.toJSON() })
         });
 
+        // Show immediate test notification to confirm it works on user's device
+        try {
+          await swReg.showNotification('News Intel · Alerts Activated', {
+            body: 'Hourly breaking news updates are now active! You will receive updates every hour.',
+            icon: 'https://img.icons8.com/material-outlined/192/ff5500/news.png',
+            badge: 'https://img.icons8.com/material-outlined/72/ff5500/news.png',
+            tag: 'welcome-notification',
+            data: { url: '/?tab=latest' }
+          });
+        } catch (_nErr) {}
+
         showToast('Hourly alerts enabled. You will receive updates every hour.', 'success');
       }
       await updateNotifState();
