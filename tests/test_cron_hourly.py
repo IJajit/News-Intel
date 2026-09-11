@@ -24,5 +24,18 @@ class TestCronHourly(unittest.TestCase):
         self.assertIn("No major breaking stories", payload["body"])
         self.assertEqual(payload["url"], "/?tab=latest")
 
+    def test_run_hourly_pipeline_send_push_false(self):
+        from unittest.mock import patch
+        from server import run_hourly_pipeline
+
+        with patch('server.get_filtered_articles', return_value=[]), \
+             patch('server.send_web_push_notification') as mock_send, \
+             patch('server.kv_set') as mock_kv_set:
+            res = run_hourly_pipeline(send_push=False)
+            self.assertTrue(res["success"])
+            self.assertEqual(res["dispatchedCount"], 0)
+            mock_send.assert_not_called()
+            mock_kv_set.assert_called_once()
+
 if __name__ == '__main__':
     unittest.main()

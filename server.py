@@ -1576,11 +1576,11 @@ def send_web_push_notification(subscription, payload_data):
         print(f"[WEBPUSH] Unexpected error sending push: {e}")
         return False, str(e)
 
-def run_hourly_pipeline(grounded_time=None):
+def run_hourly_pipeline(grounded_time=None, send_push=True):
     if not grounded_time:
         grounded_time = datetime.now(timezone.utc).isoformat()
 
-    print(f"[HOURLY CRON] Starting hourly news intelligence pipeline at {grounded_time}...")
+    print(f"[HOURLY CRON] Starting hourly news intelligence pipeline at {grounded_time} (send_push={send_push})...")
     
     # 1. Fetch articles from past 1.0 hour across all sources
     raw_articles = get_filtered_articles(grounded_time, max_hours=1.0)
@@ -1680,6 +1680,9 @@ def run_hourly_pipeline(grounded_time=None):
     except Exception as e:
         print(f"[HOURLY CRON] Error saving to {one_hour_path}: {e}")
 
+    # Persist to Upstash KV so all serverless instances share this globally
+    kv_set("briefing_1hour", one_hour_data)
+
     # Also update seed file if writable
     seed_path = os.path.join(SEED_DIR, "latest_1hour.json")
     if os.access(os.path.dirname(seed_path), os.W_OK):
@@ -1692,25 +1695,31 @@ def run_hourly_pipeline(grounded_time=None):
     # Format push notification payload
     payload = format_hourly_push_payload(story_objects)
 
-    # Dispatch to subscribers
-    subs = load_subscriptions()
+    # Dispatch to subscribers only if send_push is enabled
     dispatched = 0
     dispatch_errors = []
-    for sub in subs:
-        ok, reason = send_web_push_notification(sub, payload)
-        if ok:
-            dispatched += 1
-        else:
-            dispatch_errors.append({"endpoint": sub.get("endpoint", "")[:35] + "...", "error": reason})
+    subs = []
+    if send_push:
+        subs = load_subscriptions()
+        for sub in subs:
+            ok, reason = send_web_push_notification(sub, payload)
+            if ok:
+                dispatched += 1
+            else:
+                dispatch_errors.append({"endpoint": sub.get("endpoint", "")[:35] + "...", "error": reason})
+        print(f"[HOURLY CRON] Finished pipeline: {len(story_objects)} stories, {dispatched}/{len(subs)} notifications sent.")
+    else:
+        print(f"[HOURLY CRON] Finished pipeline: {len(story_objects)} stories (push notification skipped).")
 
-    print(f"[HOURLY CRON] Finished pipeline: {len(story_objects)} stories, {dispatched}/{len(subs)} notifications sent.")
     return {
         "success": True,
         "articlesCount": len(story_objects),
         "subscriptionsCount": len(subs),
         "dispatchedCount": dispatched,
         "dispatchErrors": dispatch_errors,
-        "payload": payload
+        "payload": payload,
+        "stories": story_objects,
+        "timestamp": grounded_time
     }
 
 
@@ -1767,17 +1776,26 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
             self.send_json(fetch_world_cup_schedule())
         elif path == '/api/latest-brief':
             category = query.get('category', ['global'])[0].lower()
-            filepath = os.path.join(BRIEFINGS_DIR, f"latest_{category}.json")
-            if not os.path.exists(filepath):
-                filepath = os.path.join(SEED_DIR, f"latest_{category}.json")
-
             data = None
-            if os.path.exists(filepath):
-                try:
-                    with open(filepath, 'r', encoding='utf-8') as file:
-                        data = json.load(file)
-                except Exception as err:
-                    print(f"Error reading {filepath}: {err}")
+
+            # 1. Try Upstash KV first (persisted across all serverless containers)
+            kv_key = f"briefing_{category}"
+            kv_data = kv_get(kv_key)
+            if isinstance(kv_data, dict) and kv_data.get('stories'):
+                data = kv_data
+
+            # 2. Fall back to local file / seed file if not found in KV
+            if not data:
+                filepath = os.path.join(BRIEFINGS_DIR, f"latest_{category}.json")
+                if not os.path.exists(filepath):
+                    filepath = os.path.join(SEED_DIR, f"latest_{category}.json")
+
+                if os.path.exists(filepath):
+                    try:
+                        with open(filepath, 'r', encoding='utf-8') as file:
+                            data = json.load(file)
+                    except Exception as err:
+                        print(f"Error reading {filepath}: {err}")
 
             stories = data.get('stories', []) if isinstance(data, dict) else []
 
@@ -1865,7 +1883,11 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
             if cron_secret and auth_header != f"Bearer {cron_secret}":
                 self.send_json({"error": "Unauthorized"}, 401)
                 return
-            result = run_hourly_pipeline()
+            result = run_hourly_pipeline(send_push=True)
+            self.send_json(result)
+
+        elif path == '/api/refresh-latest':
+            result = run_hourly_pipeline(send_push=False)
             self.send_json(result)
 
         elif path == '/api/generate-brief':
@@ -1988,6 +2010,7 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                 }
                 with open(os.path.join(BRIEFINGS_DIR, "latest_global.json"), "w", encoding="utf-8") as f:
                     json.dump(global_data, f, ensure_ascii=False)
+                kv_set("briefing_global", global_data)
 
                 # Save homepage briefing (top 20 stories for past 24h)
                 homepage_data = {
@@ -1999,6 +2022,7 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                 }
                 with open(os.path.join(BRIEFINGS_DIR, "latest_homepage.json"), "w", encoding="utf-8") as f:
                     json.dump(homepage_data, f, ensure_ascii=False)
+                kv_set("briefing_homepage", homepage_data)
 
                 # Save each category's top 20 stories for the last 24h
                 all_cats = ['technology', 'geopolitics', 'science', 'culture', 'society', 'sports', 'finance']
@@ -2015,6 +2039,7 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                     }
                     with open(os.path.join(BRIEFINGS_DIR, f"latest_{cat_name}.json"), "w", encoding="utf-8") as f:
                         json.dump(cat_data, f, ensure_ascii=False)
+                    kv_set(f"briefing_{cat_name}", cat_data)
 
                 # Save latest 1-hour briefing (stories published within the last 1.0 hour)
                 now_ref = parse_iso(grounded_time) or datetime.now(timezone.utc)
@@ -2040,6 +2065,7 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                 }
                 with open(os.path.join(BRIEFINGS_DIR, "latest_1hour.json"), "w", encoding="utf-8") as f:
                     json.dump(one_hour_data, f, ensure_ascii=False)
+                kv_set("briefing_1hour", one_hour_data)
 
                 # Send appropriate response for the requested category
                 if category == 'homepage':

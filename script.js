@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
       readerSubtabs.querySelectorAll('.sidebar-cat-btn').forEach(b => b.classList.remove('active'));
     }
     scrollToTop();
-    await loadLatest1Hour();
+    await loadLatest1Hour(true);
     scrollToTop();
     showToast('Latest feed refreshed.', 'success');
   });
@@ -625,12 +625,30 @@ function setLoadingState(isLoading, statusText = '') {
 }
 
 // ─── LATEST 1-HOUR FEED ───────────────────────────────────────
-async function loadLatest1Hour() {
-  setLoadingState(true, 'Loading last hour breaking news...');
+async function loadLatest1Hour(refreshLive = false) {
+  setLoadingState(true, refreshLive ? 'Fetching live breaking news...' : 'Loading last hour breaking news...');
   try {
-    const res = await fetch(`/api/latest-brief?category=1hour&t=${Date.now()}`);
-    if (!res.ok) throw new Error('Could not fetch 1-hour feed');
-    const data = await res.json();
+    let data = null;
+    if (refreshLive) {
+      try {
+        const refreshRes = await fetch('/api/refresh-latest', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' }
+        });
+        if (refreshRes.ok) {
+          data = await refreshRes.json();
+        }
+      } catch (err) {
+        console.warn('Live refresh endpoint failed, falling back to cached brief:', err);
+      }
+    }
+
+    if (!data || !data.stories) {
+      const res = await fetch(`/api/latest-brief?category=1hour&t=${Date.now()}`);
+      if (!res.ok) throw new Error('Could not fetch 1-hour feed');
+      data = await res.json();
+    }
+
     window._latest1HourData = data;
     currentBriefing = data;
     renderLatestView(data);
