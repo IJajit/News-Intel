@@ -1,9 +1,67 @@
 {
   "id": "latest",
   "category": "1hour",
-  "timestamp": "2026-10-18T16:54:30.050994+00:00",
+  "timestamp": "2026-10-18T17:07:26.267801+00:00",
   "articlesCount": 20,
   "stories": [
+    {
+      "story_id": "story-9",
+      "category": "Finance",
+      "primary_headline": "Skies over St. Petersburg ignite after Ukraine strikes oil sites",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Skies over St. Petersburg ignite after Ukraine strikes oil sites - Reuters",
+        "published_at": "Sun, 18 Oct 2026 16:21:40 GMT",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05ZUdLTlMzZUFKUENWdTE1NzFEQk92N0FvQmFGaXNfTEUza2wtQXJfNVVZVzVpZUUtRDZVbXdEWHJIS2NqN1N5bnR2Mmc5UzAxSVFSazBMU3ZQRDJ5elBqSm1LallHd0pmQU41V3RObHRBOUJH?oc=5",
+        "content": "Skies over St. Petersburg ignite after Ukraine strikes oil sites&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Skies over St. Petersburg ignite after Ukraine strikes oil sites - Reuters",
+          "published_at": "Sun, 18 Oct 2026 16:21:40 GMT",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05ZUdLTlMzZUFKUENWdTE1NzFEQk92N0FvQmFGaXNfTEUza2wtQXJfNVVZVzVpZUUtRDZVbXdEWHJIS2NqN1N5bnR2Mmc5UzAxSVFSazBMU3ZQRDJ5elBqSm1LallHd0pmQU41V3RObHRBOUJH?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "St Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia - AP News",
+          "published_at": "Sun, 18 Oct 2026 15:33:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPb0JsZHhVNVNkaUhpSndSUTRqNjBFN2dpaktfTUZ4dWxBTkxzQ3I1LW5CRlBQNnR3UmJ5R0JzWGFaenZ5TDg3Qkt2bC05cmpYTlAwZkRSRjBoYlN1elkwelNDNmhPbkhhV1BDT05fWm96V3oxbk5YN09nUkQ2VzlvbTR1YV81Zl9wdzU5WEU1UXN3STc0ZHJlUnhiWUc2dUk?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region - Reuters",
+          "published_at": "Sun, 18 Oct 2026 11:17:23 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORkdkNk9DVENGZU50OHVsbHF4Z3ZWbnBxcHVqaDJSa1JEWXZ5aFVqbTQwWmwzUGpvZUJsTUFzSnZHd2laVHpqd05XaF9KM2YxdUNUSVV0YUp1SFVKbTBRVHNzcVc0ek84cTY5TTVmZGhPbnhzMVJiejFXaDdXV3pBcTZYeEI3QkZrNDlOOWllWFk3ejFfMVdVd3lQUGJMeXBhNW5xTjZJQnBINTVSTjVDUnZKSm1laDdKaEE3eGdoSUtaQQ?oc=5"
+        },
+        {
+          "source_name": "BBC News",
+          "headline": "Oil facilities hit in deadly overnight attack on St Petersburg",
+          "published_at": "Sun, 18 Oct 2026 15:46:10 GMT",
+          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source_name": "The Hindu",
+          "headline": "St. Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia",
+          "published_at": "Sun, 18 Oct 2026 22:21:52 +0530",
+          "url": "https://www.thehindu.com/news/international/st-petersburg-oil-facilities-ablaze-as-ukraine-launches-more-than-1000-drones-at-russia/article71600876.ece"
+        }
+      ],
+      "source_count": 6,
+      "total_count": 7,
+      "combined_score": 5.28,
+      "brief_bullets": [
+        "St Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia AP News One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook.",
+        "A logistics centre belonging to Russian retailer Ozon and a data centre operated by Russian tech giant VK were also targeted, the companies confirmed.",
+        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
+        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions."
+      ],
+      "why_it_matters_bullets": [
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+      ],
+      "brief": "St Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia AP News One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook. A logistics centre belonging to Russian retailer Ozon and a data centre operated by Russian tech giant VK were also targeted, the companies confirmed. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 133
+    },
     {
       "story_id": "story-1",
       "category": "Society",
@@ -52,74 +110,13 @@
       "combined_score": 12.3,
       "brief_bullets": [
         "Kolkata Police issue 11-point advisory; CM Adhikari hints at scrapping VIP entries at major pandals Among the 19 dead are 13 females, including two minors; the two other deceased minors are males Kolkata’s Bonedi Bari Durga pujas bring together grand colonial-era architecture, family legacies and heirloom recipes.",
-        "While the city’s pandals draw the biggest crowds, these ancestral homes offer a more intimate glimpse of the festival, following family traditions dating back more than 300 years Durga Puja celebrations mean glitzy pandals, excessive lighting, high-decibel music and many more attractions.But several committees organising the annual Durga Puja in Kokrajhar town in western Assam, the district headquarters of the Bodoland Territorial Region (BTR), have pitched in to adopt the concept of “carbon-neutral” celebrations by planting trees, reducing the use of non-biodegradable items and even lowering the volume of music systems to check sound pollution.A set of dos and don'ts were proposed by the Kokrajhar district administration for nearly 200 Durga Puja committees in the town as part of efforts to popularise the concept of “carbon-neutral” celebrations.“We proposed the idea as part of our efforts to have environmentally responsible festivities while preserving the religious and cultural essence of the festival.",
-        "It is very nice to see that nearly 50 per cent of the committees have responded very positively by significantly reducing the use of plastic items, planting trees and even controlling the volume of music systems,” Kokrajhar District Commissioner Pankaj Chakravarty told DH over the phone on Sunday.",
-        "Kokrajhar is situated about 200 km west of Guwahati.Durga Puja celebrations began on Friday and will continue till Wednesday, following which the Durga idols will be immersed in rivers.With a population of nearly 35,000 (2011 Census), Kokrajhar Municipal town has diverse communities, including Bodos, Bengalis, Assamese, Rabhas, Nepalis, Adivasis, Saranias and others, each peacefully celebrating their own festivals.Lotus theme, red-and-white decor to mark Durga Puja in BengaluruCarbon-neutral celebrationsUnder the concept of “carbon-neutral” celebrations, the district administration proposed several measures, such as encouraging the use of locally available and reusable materials, including bamboo, jute, recycled paper and other environmentally responsible alternatives, for pandals and decorations; promoting idols made from natural clay and other biodegradable materials, with non-toxic colours, to minimise environmental pollution, particularly during immersion; tree plantation; the use of solar energy and LED lights; responsible sound management; and encouraging waste segregation, responsible disposal and recycling, among other measures.“This is an encouraging beginning.",
-        "The drive is resulting in public awareness, with the concept being shared by many on social media platforms."
+        "While the city’s pandals draw the biggest crowds, these ancestral homes offer a more intimate glimpse of the festival, following family traditions dating back more than 300 years Durga Puja celebrations mean glitzy pandals, excessive lighting, high-decibel music and many more attractions."
       ],
       "why_it_matters_bullets": [
         "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
       ],
-      "brief": "Kolkata Police issue 11-point advisory; CM Adhikari hints at scrapping VIP entries at major pandals Among the 19 dead are 13 females, including two minors; the two other deceased minors are males Kolkata’s Bonedi Bari Durga pujas bring together grand colonial-era architecture, family legacies and heirloom recipes. While the city’s pandals draw the biggest crowds, these ancestral homes offer a more intimate glimpse of the festival, following family traditions dating back more than 300 years Durga Puja celebrations mean glitzy pandals, excessive lighting, high-decibel music and many more attractions.But several committees organising the annual Durga Puja in Kokrajhar town in western Assam, the district headquarters of the Bodoland Territorial Region (BTR), have pitched in to adopt the concept of “carbon-neutral” celebrations by planting trees, reducing the use of non-biodegradable items and even lowering the volume of music systems to check sound pollution.A set of dos and don'ts were proposed by the Kokrajhar district administration for nearly 200 Durga Puja committees in the town as part of efforts to popularise the concept of “carbon-neutral” celebrations.“We proposed the idea as part of our efforts to have environmentally responsible festivities while preserving the religious and cultural essence of the festival. It is very nice to see that nearly 50 per cent of the committees have responded very positively by significantly reducing the use of plastic items, planting trees and even controlling the volume of music systems,” Kokrajhar District Commissioner Pankaj Chakravarty told DH over the phone on Sunday. Kokrajhar is situated about 200 km west of Guwahati.Durga Puja celebrations began on Friday and will continue till Wednesday, following which the Durga idols will be immersed in rivers.With a population of nearly 35,000 (2011 Census), Kokrajhar Municipal town has diverse communities, including Bodos, Bengalis, Assamese, Rabhas, Nepalis, Adivasis, Saranias and others, each peacefully celebrating their own festivals.Lotus theme, red-and-white decor to mark Durga Puja in BengaluruCarbon-neutral celebrationsUnder the concept of “carbon-neutral” celebrations, the district administration proposed several measures, such as encouraging the use of locally available and reusable materials, including bamboo, jute, recycled paper and other environmentally responsible alternatives, for pandals and decorations; promoting idols made from natural clay and other biodegradable materials, with non-toxic colours, to minimise environmental pollution, particularly during immersion; tree plantation; the use of solar energy and LED lights; responsible sound management; and encouraging waste segregation, responsible disposal and recycling, among other measures.“This is an encouraging beginning. The drive is resulting in public awareness, with the concept being shared by many on social media platforms. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 429
-    },
-    {
-      "story_id": "story-9",
-      "category": "Finance",
-      "primary_headline": "Skies over St. Petersburg ignite after Ukraine strikes oil sites",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Skies over St. Petersburg ignite after Ukraine strikes oil sites - Reuters",
-        "published_at": "Sun, 18 Oct 2026 16:21:40 GMT",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05ZUdLTlMzZUFKUENWdTE1NzFEQk92N0FvQmFGaXNfTEUza2wtQXJfNVVZVzVpZUUtRDZVbXdEWHJIS2NqN1N5bnR2Mmc5UzAxSVFSazBMU3ZQRDJ5elBqSm1LallHd0pmQU41V3RObHRBOUJH?oc=5",
-        "content": "Skies over St. Petersburg ignite after Ukraine strikes oil sites&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "Skies over St. Petersburg ignite after Ukraine strikes oil sites - Reuters",
-          "published_at": "Sun, 18 Oct 2026 16:21:40 GMT",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05ZUdLTlMzZUFKUENWdTE1NzFEQk92N0FvQmFGaXNfTEUza2wtQXJfNVVZVzVpZUUtRDZVbXdEWHJIS2NqN1N5bnR2Mmc5UzAxSVFSazBMU3ZQRDJ5elBqSm1LallHd0pmQU41V3RObHRBOUJH?oc=5"
-        },
-        {
-          "source_name": "AP News",
-          "headline": "St Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia - AP News",
-          "published_at": "Sun, 18 Oct 2026 15:33:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPb0JsZHhVNVNkaUhpSndSUTRqNjBFN2dpaktfTUZ4dWxBTkxzQ3I1LW5CRlBQNnR3UmJ5R0JzWGFaenZ5TDg3Qkt2bC05cmpYTlAwZkRSRjBoYlN1elkwelNDNmhPbkhhV1BDT05fWm96V3oxbk5YN09nUkQ2VzlvbTR1YV81Zl9wdzU5WEU1UXN3STc0ZHJlUnhiWUc2dUk?oc=5"
-        },
-        {
-          "source_name": "Reuters",
-          "headline": "One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region - Reuters",
-          "published_at": "Sun, 18 Oct 2026 11:17:23 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORkdkNk9DVENGZU50OHVsbHF4Z3ZWbnBxcHVqaDJSa1JEWXZ5aFVqbTQwWmwzUGpvZUJsTUFzSnZHd2laVHpqd05XaF9KM2YxdUNUSVV0YUp1SFVKbTBRVHNzcVc0ek84cTY5TTVmZGhPbnhzMVJiejFXaDdXV3pBcTZYeEI3QkZrNDlOOWllWFk3ejFfMVdVd3lQUGJMeXBhNW5xTjZJQnBINTVSTjVDUnZKSm1laDdKaEE3eGdoSUtaQQ?oc=5"
-        },
-        {
-          "source_name": "BBC News",
-          "headline": "Oil facilities hit in deadly overnight attack on St Petersburg",
-          "published_at": "Sun, 18 Oct 2026 15:46:10 GMT",
-          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "Ukraine Fires 1,000 Drones At Russia, St Petersburg Oil Sites Ablaze",
-          "published_at": "Sun, 18 Oct 2026 17:00:19 +0530",
-          "url": "https://www.ndtv.com/world-news/ukraine-fires-1-000-drones-at-russia-st-petersburg-oil-sites-ablaze-12202700#publisher=newsstand"
-        }
-      ],
-      "source_count": 5,
-      "total_count": 6,
-      "combined_score": 4.45,
-      "brief_bullets": [
-        "St Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia AP News One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook.",
-        "The attack comes amid deepening tensions between Ukraine and Washington, with U.S.",
-        "President Donald Trump criticizing Kyiv for its strikes on Russian oil infrastructure.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events."
-      ],
-      "why_it_matters_bullets": [
-        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
-      ],
-      "brief": "St Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia AP News One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook. The attack comes amid deepening tensions between Ukraine and Washington, with U.S. President Donald Trump criticizing Kyiv for its strikes on Russian oil infrastructure. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 115
+      "brief": "Kolkata Police issue 11-point advisory; CM Adhikari hints at scrapping VIP entries at major pandals Among the 19 dead are 13 females, including two minors; the two other deceased minors are males Kolkata’s Bonedi Bari Durga pujas bring together grand colonial-era architecture, family legacies and heirloom recipes. While the city’s pandals draw the biggest crowds, these ancestral homes offer a more intimate glimpse of the festival, following family traditions dating back more than 300 years Durga Puja celebrations mean glitzy pandals, excessive lighting, high-decibel music and many more attractions. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
+      "brief_word_count": 103
     },
     {
       "story_id": "story-10",
@@ -128,7 +125,7 @@
       "primary_source": {
         "source_name": "Reuters",
         "headline": "Trump endorses Netanyahu in Israeli election - Reuters",
-        "published_at": "Sun, 18 Oct 2026 16:03:44 GMT",
+        "published_at": "Sun, 18 Oct 2026 16:10:37 GMT",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeXNEX0FibmplMGVhLVA1TDdESTEzdk9PR1JYNWtsQzJkTG5ER1lrMkhfV05saHNXYndlOXFxdFJONU4zOEZhZUdtXzR0WGpVSHBuLUUyOExTWHktR3AtMjlnU08yNXpaUWFVOXE1Q3dNaDFkZG4yT0JFMmlkYzdvTXFudjFQOF9rcFBaM0VBbjBaOFQ5bndSNS1fZw?oc=5",
         "content": "Trump endorses Netanyahu in Israeli election&nbsp;&nbsp;Reuters"
       },
@@ -136,7 +133,7 @@
         {
           "source_name": "Reuters",
           "headline": "Trump endorses Netanyahu in Israeli election - Reuters",
-          "published_at": "Sun, 18 Oct 2026 16:03:44 GMT",
+          "published_at": "Sun, 18 Oct 2026 16:10:37 GMT",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeXNEX0FibmplMGVhLVA1TDdESTEzdk9PR1JYNWtsQzJkTG5ER1lrMkhfV05saHNXYndlOXFxdFJONU4zOEZhZUdtXzR0WGpVSHBuLUUyOExTWHktR3AtMjlnU08yNXpaUWFVOXE1Q3dNaDFkZG4yT0JFMmlkYzdvTXFudjFQOF9rcFBaM0VBbjBaOFQ5bndSNS1fZw?oc=5"
         },
         {
@@ -168,29 +165,44 @@
       "total_count": 5,
       "combined_score": 4.06,
       "brief_bullets": [
-        "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection AP News Washington: US President Donald Trump endorsed his ally Benjamin Netanyahu on Sunday for the upcoming Israeli parliamentary election.\"Bibi Netanyahu has been Strong, Brave, and Brilliant in the face of tremendous opposition, including that coming from even Israel, itself,\" Trump wrote in a post on Truth Social.\"This is the kind of Partner that the United States of America is demanding of Israel, a Country for which it has done so much.",
-        "Please let this Letter serve to represent my Complete and Total Endorsement of Bibi Netanyahu in his upcoming Race for Re-Election as Prime Minister of Israel.\"Irrespective of Netanyahu's political fate, India-Israel ties on terra firmaIsrael will hold a national election on October 27, its first vote since the Hamas attack on October 7, 2023 that shook the country and plunged the Middle East into turmoil, as Israel went to war in Gaza, Lebanon and Iran.The election could determine whether Netanyahu remains in power after one of the most consequential periods in Israel’s history, or is defeated by centrist rivals promising to usher in a new era.",
-        "Nine days before Israeli elections, Trump finally endorses Netanyahu CNN World Live News Updates: Trump endorses Israeli Prime Minister Benjamin Netanyahu for reelection.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events."
+        "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection AP News Washington: US President Donald Trump endorsed his ally Benjamin Netanyahu on Sunday for the upcoming Israeli parliamentary election.\"Bibi Netanyahu has been Strong, Brave, and Brilliant in the face of tremendous opposition, including that coming from even Israel, itself,\" Trump wrote in a post on Truth Social.\"This is the kind of Partner that the United States of America is demanding of Israel, a Country for which it has done so much."
       ],
       "why_it_matters_bullets": [
         "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
       ],
-      "brief": "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection AP News Washington: US President Donald Trump endorsed his ally Benjamin Netanyahu on Sunday for the upcoming Israeli parliamentary election.\"Bibi Netanyahu has been Strong, Brave, and Brilliant in the face of tremendous opposition, including that coming from even Israel, itself,\" Trump wrote in a post on Truth Social.\"This is the kind of Partner that the United States of America is demanding of Israel, a Country for which it has done so much. Please let this Letter serve to represent my Complete and Total Endorsement of Bibi Netanyahu in his upcoming Race for Re-Election as Prime Minister of Israel.\"Irrespective of Netanyahu's political fate, India-Israel ties on terra firmaIsrael will hold a national election on October 27, its first vote since the Hamas attack on October 7, 2023 that shook the country and plunged the Middle East into turmoil, as Israel went to war in Gaza, Lebanon and Iran.The election could determine whether Netanyahu remains in power after one of the most consequential periods in Israel’s history, or is defeated by centrist rivals promising to usher in a new era. Nine days before Israeli elections, Trump finally endorses Netanyahu CNN World Live News Updates: Trump endorses Israeli Prime Minister Benjamin Netanyahu for reelection. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 251
+      "brief": "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection AP News Washington: US President Donald Trump endorsed his ally Benjamin Netanyahu on Sunday for the upcoming Israeli parliamentary election.\"Bibi Netanyahu has been Strong, Brave, and Brilliant in the face of tremendous opposition, including that coming from even Israel, itself,\" Trump wrote in a post on Truth Social.\"This is the kind of Partner that the United States of America is demanding of Israel, a Country for which it has done so much. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 98
     },
     {
-      "story_id": "story-7",
+      "story_id": "story-3",
       "category": "Society",
-      "primary_headline": "‘Last warning’: Gangster Anil Pandit claims Tiger Shroff firing, warns Salman Khan",
+      "primary_headline": "'If actors & leaders not safe, then what about citizens?': Firing at Tiger Shroff’s car makes Oppn question Maharashtra govt over law and order",
       "primary_source": {
-        "source_name": "The Indian Express",
-        "headline": "‘Last warning’: Gangster Anil Pandit claims Tiger Shroff firing, warns Salman Khan",
-        "published_at": "Sun, 18 Oct 2026 16:33:23 +0000",
-        "url": "https://indianexpress.com/article/india/bollywood-tiger-shroff-car-firing-anil-pandit-lawrence-bishnoi-salman-khan-threat-juhu-10927157/",
-        "content": "Pandit, a native of Haryana's Panipat, is believed to have travelled to the United States via the dunki route in 2024 and begun working for the Bishnoi gang, according to a source."
+        "source_name": "Deccan Herald",
+        "headline": "'If actors & leaders not safe, then what about citizens?': Firing at Tiger Shroff’s car makes Oppn question Maharashtra govt over law and order",
+        "published_at": "Sun, 18 Oct 2026 17:00:15 +0000",
+        "url": "https://www.deccanherald.com/india/maharashtra/if-actors-leaders-not-safe-then-what-about-citizens-firing-at-tiger-shroffs-car-makes-oppn-question-maharashtra-govt-over-law-and-order-4187446",
+        "content": " Mumbai: The Opposition on Sunday criticised the Maharashtra government over the firing incident involving Bollywood actor Tiger Shroff’s car in Mumbai, alleging that law and order in the city and state had deteriorated.In a post on X, Congress leader Sachin Sawant said Mumbai appeared to be in the grip of chaos and accused Chief Minister Devendra Fadnavis, who also heads the Home Department, of failing to maintain law and order.Referring to the murder of former Maharashtra minister Baba Siddique, the firing outside actor Salman Khan’s residence and threats to actors and film producers, Sawant questioned the state government’s efforts to rein in anti-social elements.Fadnavis speaks to Tiger Shroff, asks Mumbai Police commissioner to nab actor's assailants quicklyHe said the situation had reached a point where people who had earlier compared Maharashtra with Bihar were now saying that even Bihar was better.According to police, actor Tiger Shroff escaped unhurt after gunmen opened fire at his car in Mumbai’s Juhu area on Sunday evening. His driver and an autorickshaw driver were injured in the incident, police said.Mumbai Congress president Varsha Gaikwad demanded that Maharashtra have a separate home minister, blaming Fadnavis for the situation.मुंबईत कायदा आणि सुव्यवस्थेचे धिंडवडे!आधी सलमान खानच्या घराबाहेर गोळीबार, त्यानंतर बाबा सिद्दीकी यांची हत्या आणि आता अभिनेता टायगर श्रॉफवर गोळीबार झाल्याची बातमी!मुंबईसारख्या देशाच्या आर्थिक राजधानीत एकापाठोपाठ एक अशा घटना घडत असतील, तर मुंबईकरांच्या सुरक्षेची जबाबदारी नेमकी…&amp;mdash; Prof. Varsha Eknath Gaikwad (@VarshaEGaikwad) October 18, 2026\n \n\n“Does Mumbai have law and order? Does the police still command the same authority and respect as before? Are criminals afraid of the police?” she asked in a video statement.The Lok Sabha member said the Congress had consistently demanded that Maharashtra have a separate home minister.“If actors and political leaders are not safe, what can we say about the safety of ordinary citizens?” she asked.NCP (SP) MLA Rohit Pawar said the incident came days after the recent killing of Shiv Sena (UBT) leader Pradeep Purnekar in Thane.The firing incident involving the actor’s car was alarming, although the actor escaped unhurt, Pawar said.He also said such incidents, including the firing outside the Juhu residence of filmmaker Rohit Shetty, in Mumbai, the country’s financial capital, could undermine investor confidence.Pawar said the home portfolio should be handed over to a “competent minister” if the situation had become difficult to handle.The incident took place near Pushpa Park under Juhu police station limits in the western suburb, and the chain of events leading to the incident is being pieced together, an official said.\"Shroff is safe and has not sustained any injuries in the firing incident,\" the official reiterated."
       },
       "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "'If actors & leaders not safe, then what about citizens?': Firing at Tiger Shroff’s car makes Oppn question Maharashtra govt over law and order",
+          "published_at": "Sun, 18 Oct 2026 17:00:15 +0000",
+          "url": "https://www.deccanherald.com/india/maharashtra/if-actors-leaders-not-safe-then-what-about-citizens-firing-at-tiger-shroffs-car-makes-oppn-question-maharashtra-govt-over-law-and-order-4187446"
+        },
+        {
+          "source_name": "The Hindu",
+          "headline": "Actor Tiger Shroff escapes unhurt in Juhu firing incident; suspect detained",
+          "published_at": "Sun, 18 Oct 2026 22:22:35 +0530",
+          "url": "https://www.thehindu.com/news/cities/mumbai/tiger-shroff-firing-in-mumbai-juhu-october-18-2026/article71600449.ece"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Fadnavis speaks to Tiger Shroff, asks Mumbai Police commissioner to nab actor's assailants quickly",
+          "published_at": "Sun, 18 Oct 2026 16:46:56 +0000",
+          "url": "https://www.deccanherald.com/india/maharashtra/fadnavis-speaks-to-tiger-shroff-asks-mumbai-police-commissioner-to-nab-actors-assailants-quickly-4187484"
+        },
         {
           "source_name": "The Indian Express",
           "headline": "‘Last warning’: Gangster Anil Pandit claims Tiger Shroff firing, warns Salman Khan",
@@ -202,87 +214,111 @@
           "headline": "Tiger Shroff firing: Why the Bishnoi gang claims attacks with screenshots",
           "published_at": "Sun, 18 Oct 2026 16:24:15 +0000",
           "url": "https://indianexpress.com/article/cities/mumbai/tiger-shroff-shot-bishnoi-gang-attack-claim-screenshot-10927159/"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "\"I Saw Blood Spots\": Actor Karan Veer Mehra To NDTV On Tiger Shroff Shooting",
-          "published_at": "Sun, 18 Oct 2026 21:46:08 +0530",
-          "url": "https://www.ndtv.com/india-news/i-was-standing-right-behind-tiger-shroff-actor-karan-veer-mehra-to-ndtv-on-shooting-12203387#publisher=newsstand"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "Gunshot Video Emerges After Tiger Shroff Assassination Attempt In Mumbai",
-          "published_at": "Sun, 18 Oct 2026 21:45:58 +0530",
-          "url": "https://www.ndtv.com/india-news/tiger-shot-firing-salman-khan-lawrence-bishnoi-gunshot-video-emerges-after-tiger-shroff-assassination-attempt-in-mumbai-12203458#publisher=newsstand"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "Tiger Shroff Escapes Assassination Bid In Mumbai, Bishnoi Gang Claims Responsibility, 1 Detained",
-          "published_at": "Sun, 18 Oct 2026 21:42:43 +0530",
-          "url": "https://www.ndtv.com/india-news/three-men-open-fire-near-tiger-shroff-in-mumbais-juhu-area-actor-safe-12203238#publisher=newsstand"
         }
       ],
-      "source_count": 3,
-      "total_count": 16,
-      "combined_score": 6.39,
+      "source_count": 4,
+      "total_count": 19,
+      "combined_score": 7.79,
       "brief_bullets": [
-        "Pandit, a native of Haryana's Panipat, is believed to have travelled to the United States via the dunki route in 2024 and begun working for the Bishnoi gang, according to a source.",
-        "Within moments of the firing on Tiger Shroff’s car, a screenshot claiming responsibility surfaced, and the account behind it was already gone.",
-        "Police sources say that’s no accident.",
-        "Mehra, who plays football with Tiger Shroff in Mumbai's Juhu, said he could not see the attackers.",
-        "At least four gunshots can be heard in the video, although investigators have yet to establish the exact number of rounds fired or how many firearms were used in the incident."
-      ],
-      "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
-      ],
-      "brief": "Pandit, a native of Haryana's Panipat, is believed to have travelled to the United States via the dunki route in 2024 and begun working for the Bishnoi gang, according to a source. Within moments of the firing on Tiger Shroff’s car, a screenshot claiming responsibility surfaced, and the account behind it was already gone. Police sources say that’s no accident. Mehra, who plays football with Tiger Shroff in Mumbai's Juhu, said he could not see the attackers. At least four gunshots can be heard in the video, although investigators have yet to establish the exact number of rounds fired or how many firearms were used in the incident. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 122
-    },
-    {
-      "story_id": "story-21",
-      "category": "Society",
-      "primary_headline": "Tensions flare again in Paris as France counts cost of worst unrest in years",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Tensions flare again in Paris as France counts cost of worst unrest in years - Reuters",
-        "published_at": "Sun, 18 Oct 2026 16:00:50 GMT",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNd1VSODRfY1ZTZlpfMVBnaXZzSi1KU1ZsUlJWcWZBaWVaQ0Fyal85ZmEtdkR3ZU94c2ZEeGNzRXpIamtSQVdfVlpJWTdhcEY2ZkZaMFZGZzlTVTVCTDRoUDJybE90dGJGYTNmU1NwUTJDNmVZZllXTDFSR3hIVnBTV2lYTk9LM2N1MlREWk9VOEtidHY2?oc=5",
-        "content": "Tensions flare again in Paris as France counts cost of worst unrest in years&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "Tensions flare again in Paris as France counts cost of worst unrest in years - Reuters",
-          "published_at": "Sun, 18 Oct 2026 16:00:50 GMT",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNd1VSODRfY1ZTZlpfMVBnaXZzSi1KU1ZsUlJWcWZBaWVaQ0Fyal85ZmEtdkR3ZU94c2ZEeGNzRXpIamtSQVdfVlpJWTdhcEY2ZkZaMFZGZzlTVTVCTDRoUDJybE90dGJGYTNmU1NwUTJDNmVZZllXTDFSR3hIVnBTV2lYTk9LM2N1MlREWk9VOEtidHY2?oc=5"
-        },
-        {
-          "source_name": "Deccan Herald",
-          "headline": "France wakes up to one of its worst bouts of unrest in years; one dead, 500 cops injured",
-          "published_at": "Sun, 18 Oct 2026 14:46:32 +0000",
-          "url": "https://www.deccanherald.com/world/europe/france-wakes-up-to-one-of-its-worst-bouts-of-unrest-in-years-one-dead-500-cops-injured-4187385"
-        },
-        {
-          "source_name": "The Print",
-          "headline": "France counts cost of worst unrest in years - ThePrint",
-          "published_at": "Sun, 18 Oct 2026 11:30:17 GMT",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUldONjJ5c0pDRWdFVDhzLWJYRC04aVNzd29CT29iNUJZemxLYXNuTGZlS1g4QmttNUtoUVE1TXpFY1NFZS0wek9FUDg0MDN4LWs4Z3AyTWNGeUlnRTN4SVNKUktuTTZqLVN4UV84dC1DbjM3Vm95bFdQS29UbGVvbmtQR2jSAYoBQVVfeXFMT3lWVmZWajNBQVFibmFkN2JEamo3U2N3YnFFa3Y3dmZhazNXb1JLdmFXSDJnR0pmWHd0Y3p5a2l2Ymc5Si1SVE1UQnB1RERFWlY0Y1l5amlZS0I4c0t4X3ZaQTNURk5xbU5sRW93blBWb21vRktrM2l3bzRBQmpVdWQzalRJR3RDdDdn?oc=5"
-        }
-      ],
-      "source_count": 3,
-      "total_count": 3,
-      "combined_score": 2.49,
-      "brief_bullets": [
-        "Paris: France woke on Sunday to the wreckage of one of its most violent days of unrest in years after protests over high prices and public services left one demonstrator dead, hundreds of police injured and nearly 1,800 people arrested.Nationwide demonstrations erupted into riots on Saturday, with a town hall torched, shops ransacked, and buildings covered in graffiti as violent groups clashed with police in cities across the country.One protester died after suffering a cardiac arrest during demonstrations in Paris, where police made a record 855 arrests.",
-        "Across France, police detained some 1,800 people and more than 500 officers were injured, the interior minister said.More than half a million people joined marches in scores of cities, marking the convergence of a month-long student movement with broader social discontent against rising living costs and declining public services.While hundreds of thousands protested peacefully, violent fringe groups targeted public buildings, looted luxury boutiques and supermarkets and attacked police vehicles and officers.\"No room for violence in our Republic,\" President Emmanuel Macron posted on X as the unrest unfolded late on Saturday. \"Those who have ransacked, attacked the prefectures as well as businesses, looted even our town halls, will be prosecuted and punished.\"Aucune place pour la violence dans notre République.Ceux qui ont cassé, attaqué les préfectures comme les commerces, pillé jusqu’à nos mairies, seront poursuivis et punis.Aux forces de l’ordre, garantes du droit à manifester, je dis le soutien de la Nation.Nous ferons tous…&mdash; Emmanuel Macron (@EmmanuelMacron) October 17, 2026 A massive clean-up operation began in cities from Lille in the north to Marseille in the south and Strasbourg in the east to Bordeaux in the southwest, where a masked mob invaded the residence of the local prefect.Unrest mars day of violent protest in France, as student movement turns nationalIn Paris, smashed shop windows, burnt-out bicycles and spray-painted slogans bore witness to a day that began largely with peaceful demonstrations but descended into violence.In Limoges, workers assessed the damage to the 143-year-old city hall, which was partially destroyed in an arson attack.The unrest has increased pressure on Macron and his government.",
-        "Prime Minister Sebastien Lecornu said the government would not be \"intimidated\" by violence, and blamed the unrest on the \"ultra-left\" and criminals, with a presidential election due next year.Economy Minister Roland Lescure pledged support for business owners who suffered losses. \"Those who break things will pay, repair the damage and be held accountable for their intention to sow chaos,\" Lescure said in a statement.Bordeaux Mayor Thomas Cazenave said up to 100 stores had been looted in his city, while Marseille Mayor Benoit Payan announced emergency financial aid to support those businesses impacted by the violence.The protests began last month over school conditions and teacher shortages in working-class suburbs, before broadening into a movement against inequality, public spending cuts and the rising cost of living.",
-        "France counts cost of worst unrest in years ThePrint."
+        "Mumbai: The Opposition on Sunday criticised the Maharashtra government over the firing incident involving Bollywood actor Tiger Shroff’s car in Mumbai, alleging that law and order in the city and state had deteriorated.",
+        "In a post on X, Congress leader Sachin Sawant said Mumbai appeared to be in the grip of chaos and accused Chief Minister Devendra Fadnavis, who also heads the Home Department, of failing to maintain law and order.",
+        "Referring to the murder of former Maharashtra minister Baba Siddique, the firing outside actor Salman Khan’s residence and threats to actors and film producers, Sawant questioned the state government’s efforts to rein in anti-social elements."
       ],
       "why_it_matters_bullets": [
         "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
       ],
-      "brief": "Paris: France woke on Sunday to the wreckage of one of its most violent days of unrest in years after protests over high prices and public services left one demonstrator dead, hundreds of police injured and nearly 1,800 people arrested.Nationwide demonstrations erupted into riots on Saturday, with a town hall torched, shops ransacked, and buildings covered in graffiti as violent groups clashed with police in cities across the country.One protester died after suffering a cardiac arrest during demonstrations in Paris, where police made a record 855 arrests. Across France, police detained some 1,800 people and more than 500 officers were injured, the interior minister said.More than half a million people joined marches in scores of cities, marking the convergence of a month-long student movement with broader social discontent against rising living costs and declining public services.While hundreds of thousands protested peacefully, violent fringe groups targeted public buildings, looted luxury boutiques and supermarkets and attacked police vehicles and officers.\"No room for violence in our Republic,\" President Emmanuel Macron posted on X as the unrest unfolded late on Saturday. \"Those who have ransacked, attacked the prefectures as well as businesses, looted even our town halls, will be prosecuted and punished.\"Aucune place pour la violence dans notre République.Ceux qui ont cassé, attaqué les préfectures comme les commerces, pillé jusqu’à nos mairies, seront poursuivis et punis.Aux forces de l’ordre, garantes du droit à manifester, je dis le soutien de la Nation.Nous ferons tous…&mdash; Emmanuel Macron (@EmmanuelMacron) October 17, 2026 A massive clean-up operation began in cities from Lille in the north to Marseille in the south and Strasbourg in the east to Bordeaux in the southwest, where a masked mob invaded the residence of the local prefect.Unrest mars day of violent protest in France, as student movement turns nationalIn Paris, smashed shop windows, burnt-out bicycles and spray-painted slogans bore witness to a day that began largely with peaceful demonstrations but descended into violence.In Limoges, workers assessed the damage to the 143-year-old city hall, which was partially destroyed in an arson attack.The unrest has increased pressure on Macron and his government. Prime Minister Sebastien Lecornu said the government would not be \"intimidated\" by violence, and blamed the unrest on the \"ultra-left\" and criminals, with a presidential election due next year.Economy Minister Roland Lescure pledged support for business owners who suffered losses. \"Those who break things will pay, repair the damage and be held accountable for their intention to sow chaos,\" Lescure said in a statement.Bordeaux Mayor Thomas Cazenave said up to 100 stores had been looted in his city, while Marseille Mayor Benoit Payan announced emergency financial aid to support those businesses impacted by the violence.The protests began last month over school conditions and teacher shortages in working-class suburbs, before broadening into a movement against inequality, public spending cuts and the rising cost of living. France counts cost of worst unrest in years ThePrint. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 493
+      "brief": "Mumbai: The Opposition on Sunday criticised the Maharashtra government over the firing incident involving Bollywood actor Tiger Shroff’s car in Mumbai, alleging that law and order in the city and state had deteriorated. In a post on X, Congress leader Sachin Sawant said Mumbai appeared to be in the grip of chaos and accused Chief Minister Devendra Fadnavis, who also heads the Home Department, of failing to maintain law and order. Referring to the murder of former Maharashtra minister Baba Siddique, the firing outside actor Salman Khan’s residence and threats to actors and film producers, Sawant questioned the state government’s efforts to rein in anti-social elements. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
+      "brief_word_count": 120
+    },
+    {
+      "story_id": "story-31",
+      "category": "Technology",
+      "primary_headline": "Air India and AI Express cancel Saudi Arabia flights till Oct. 24",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Air India and AI Express cancel Saudi Arabia flights till Oct. 24",
+        "published_at": "Sun, 18 Oct 2026 22:00:17 +0530",
+        "url": "https://www.thehindu.com/news/national/air-india-and-ai-express-cancel-saudi-arabia-flights-till-oct-24/article71595997.ece",
+        "content": "Earlier this week, IndiGo and Akasa Air had also announced the cancellation of their services to Saudi Arabian cities"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Air India and AI Express cancel Saudi Arabia flights till Oct. 24",
+          "published_at": "Sun, 18 Oct 2026 22:00:17 +0530",
+          "url": "https://www.thehindu.com/news/national/air-india-and-ai-express-cancel-saudi-arabia-flights-till-oct-24/article71595997.ece"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "India asks its nationals in Saudi Arabia to take 'due precautions' in fresh advisory",
+          "published_at": "Sun, 18 Oct 2026 16:17:58 +0000",
+          "url": "https://www.deccanherald.com/world/middle-east/india-asks-its-nationals-in-saudi-arabia-to-take-due-precautions-in-fresh-advisory-4187413"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Dhaka seeks explanation from Saudi Arabia over execution of 2 Bangladeshis",
+          "published_at": "Sun, 18 Oct 2026 16:13:36 +0000",
+          "url": "https://www.deccanherald.com/world/rest-of-world/dhaka-seeks-explanation-from-saudi-arabia-over-execution-of-2-bangladeshis-4187373"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 3,
+      "combined_score": 2.1,
+      "brief_bullets": [
+        "Earlier this week, IndiGo and Akasa Air had also announced the cancellation of their services to Saudi Arabian cities Dubai: India on Sunday issued a fresh advisory for its nationals in Saudi Arabia, asking them to take \"due precautions\" amid heightened security concerns following strikes by Iran-backed Houthi rebels.",
+        "The Indian Embassy in Riyadh advised the Indian Community \"to take due precautions under the prevailing situation,\" in a social media post on Sunday.\"In case of an aerial attack, immediately proceed to the nearest safe place (inside a building or an interior room away from windows), and refrain from filming, publishing, or sharing any information, photos, or videos related to the ongoing events,\" the Indian mission said."
+      ],
+      "why_it_matters_bullets": [
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+      ],
+      "brief": "Earlier this week, IndiGo and Akasa Air had also announced the cancellation of their services to Saudi Arabian cities Dubai: India on Sunday issued a fresh advisory for its nationals in Saudi Arabia, asking them to take \"due precautions\" amid heightened security concerns following strikes by Iran-backed Houthi rebels. The Indian Embassy in Riyadh advised the Indian Community \"to take due precautions under the prevailing situation,\" in a social media post on Sunday.\"In case of an aerial attack, immediately proceed to the nearest safe place (inside a building or an interior room away from windows), and refrain from filming, publishing, or sharing any information, photos, or videos related to the ongoing events,\" the Indian mission said. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 132
+    },
+    {
+      "story_id": "story-34",
+      "category": "Society",
+      "primary_headline": "Ranji Trophy | Manvanth Kumar saves the day for Karnataka",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "Ranji Trophy | Manvanth Kumar saves the day for Karnataka",
+        "published_at": "Sun, 18 Oct 2026 16:45:59 +0000",
+        "url": "https://www.deccanherald.com/sports/cricket/manvanth-saves-day-for-hosts-4187483",
+        "content": " Bengaluru: An interesting opening day, which began with a strange move of Karnataka fast bowler Vyshak Vijaykumar (1, 5b) walking in at No. 3 in gloomy conditions and Jaydev Unadkat (3/51) and Chetan Sakariya (2/48) reaping some rewards for exploiting pace-friendly conditions, ended with a resilient Manvanth Kumar (86 n.o., 124b) lifting the hosts from a precarious position in their Ranji Trophy game against Saurashtra at the Alur 1 Ground here on Sunday.Arriving at the crease at 187/7 in 50 overs, No. 9 Manvanth, just one first-class game old, showcased his grace and gumption after Aneesh K V’s (59, 96b, 4x8) impressive stay as Karnataka battled hard to reach 281 for eight in 86 overs.Ranji Trophy | Karnataka need batting reset against SaurashtraManvanth hit six fours and five sixes in his unbeaten knock, including one that showed off his elegance, gloriously coming down the track to hit Unadkat down the ground for a maximum.Credit must also go to Abhilash Shetty (6 n.o., 85b), who stuck around with Manvanth, to carve out a late rescue act by stitching an unbeaten 87-run partnership off 206 balls.For Saurashtra, skipper Unadkat, who relentlessly kept it tight, and Parth Bhut (3/73), were the pick of the bowlers.Earlier, the hosts had made as many as five changes, including two debutants, but their batting frailties at the top were again exposed.There was a good amount of movement and bounce on offer for the quicks with Unadkat, in particular, moving the ball at a decent pace in the first session and beating the outside edges at ease.And he did not have to wait long for his first wicket, dismissing Rohan Patil (6) in the fifth over, as the debutant was pinned in front from a ball that cut back in.ExperimentHead coach Vinay Kumar’s experiments continued for a second straight game with Vyshak’s promotion to No.3. The logic behind the move could have been to take the shine off the new ball, but that failed spectacularly. Vyshak was back in the hut within five balls when he was castled after he stepped out and went for a wild swing across the sticks.When Aneesh and Mayank Agarwal (42, 83b) joined hands, Karnataka were two down for not many, with Saurashtra dominating proceedings and making the hosts play and earn every run.While batting wasn’t easy, Aneesh and Mayank portrayed superb application with the rotation of strike and looked more at ease in the middle after surviving some anxious moments.Aneesh, batting for a spot, looked very composed and brought up his third first-class fifty with a single to square leg in 65 balls, and Mayank, with all his experience, respected the good deliveries as Karnataka went into Lunch with 91/2 in 25 overs.After the break, the runs started to dry up, and the hosts lost Agarwal leg before when he shuffled across to flick Unadkat in the 33rd over.It was a bittersweet day for Aneesh, as he followed Mayank three overs later, throwing his wicket while trying to pull a delivery over his head.Karun Nair once again steadied a sinking Karnataka ship with an proactive 46 off 57, laced with nine boundaries, and skipper Shreyas Gopal (3) was sent back with a beautiful Parth delivery that took his edge and into the Sammar Gajjar at slip.Highlights - Shreyas felicitated It was an afternoon of pride and celebration for all-rounder Shreyas Gopal as he was felicitated by the KSCA on Sunday for his 100 first-class appearances.&amp;nbsp; During the Tea break in Karnataka’s Ranji Trophy fixture against Saurashtra in Alur, Shreyas was presented with a special jersey with the No. 100 on the back by KSCA Committee Member Avinash Vaidya.&amp;nbsp; Shreyas’ 100th game came during the Duleep Trophy final between South Zone and East Zone at the M A Chidambaram Stadium in Chennai.SCOREBOARD KARNATAKA (I Innings): Rohan Patil lbw Unadkat 6 (18b 1x4) Mayank Agarwal lbw Unadkat 42 (83b 4x4 1x6) Vyshak Vijaykumar b Sakariya 1 (5b) K V Aneesh c Desai b Sakariya 59 (96b 4x8) Karun Nair c Kotak b Bhut 46 (57b 9x4) Aneeshwar Gautam 4 (2b 1x4) Shreyas Gopal c Gajjar b Bhut 3 (11b) Manvanth Kumar (batting) 86 (124b 6x4 5x6) Abhilash Shetty (batting) 6 (85b). Extras (LB-6 W-1) 7. TOTAL (for 8 wkts 86 overs) 281. Fall of wickets: 1-12 2-13 3-111 4-131 5-140 6-183 7-187 8-194. Bowling: Jaydev Unadkat 19-3-51-3 Chetan Sakariya 18-3-48-2 Ankur Panwar 9-2-30-0 Chirag Jani 8-0-45-0 Parth Bhut 21-3-73-3 Prerak Mankad 9-4-19-0 Sammar Gajjar 2-0-9-0. Other Group B brief scores: At Vijayawada: Hyderabad: 275 all out in 86 overs (Tanmay Agarwal 42 Abhirath Reddy 67 Pragnay Reddy 31 Rahul Radesh 58; Lalith Mohan 3-42 Tripurana Vijay 4-90 Saurabh Kumar 3-75) vs Andhra: 9/0 in 2 overs. At New Chandigarh: Punjab: 269/4 in 90 overs (Vihaan Malhotra 40 Uday Saharan 106 Prabhsimran Singh 62 Sahil Arora 38 n.o.; Dharmendrasinh Jadeja 2-92 Ajay Mandal 2-60) vs Chhattisgarh. At Guwahati: Assam: 228/6 in 86 overs (Nibir Deka 34 Rishav Das 37 Sibsankar Roy 54 Sumit Ghadigaonkar 49; Sandip Sarkar 3-64) vs Tripura."
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Ranji Trophy | Manvanth Kumar saves the day for Karnataka",
+          "published_at": "Sun, 18 Oct 2026 16:45:59 +0000",
+          "url": "https://www.deccanherald.com/sports/cricket/manvanth-saves-day-for-hosts-4187483"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Ranji Trophy, Round 2 Day 1: 10 bowl outs, 2 five-fors and ton for Rinku Singh",
+          "published_at": "Sun, 18 Oct 2026 15:23:12 +0000",
+          "url": "https://indianexpress.com/article/sports/cricket/ranji-trophy-roundup-10-bowl-outs-2-five-for-ton-for-rinku-singh-10927113/"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Pujara on Manav Suthar snub for NZ Tests: ‘Has played enough Ranji Trophy’",
+          "published_at": "Sun, 18 Oct 2026 08:43:07 +0000",
+          "url": "https://indianexpress.com/article/sports/cricket/india-vs-new-zealand-tests-manav-suthar-snub-ranji-trophy-cheteshwar-pujara-10926739/"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 3,
+      "combined_score": 1.96,
+      "brief_bullets": [
+        "Bengaluru: An interesting opening day, which began with a strange move of Karnataka fast bowler Vyshak Vijaykumar (1, 5b) walking in at No.",
+        "3 in gloomy conditions and Jaydev Unadkat (3/51) and Chetan Sakariya (2/48) reaping some rewards for exploiting pace-friendly conditions, ended with a resilient Manvanth Kumar (86 n.o., 124b) lifting the hosts from a precarious position in their Ranji Trophy game against Saurashtra at the Alur 1 Ground here on Sunday.",
+        "Arriving at the crease at 187/7 in 50 overs, No.",
+        "9 Manvanth, just one first-class game old, showcased his grace and gumption after Aneesh K V’s (59, 96b, 4x8) impressive stay as Karnataka battled hard to reach 281 for eight in 86 overs."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "Bengaluru: An interesting opening day, which began with a strange move of Karnataka fast bowler Vyshak Vijaykumar (1, 5b) walking in at No. 3 in gloomy conditions and Jaydev Unadkat (3/51) and Chetan Sakariya (2/48) reaping some rewards for exploiting pace-friendly conditions, ended with a resilient Manvanth Kumar (86 n.o., 124b) lifting the hosts from a precarious position in their Ranji Trophy game against Saurashtra at the Alur 1 Ground here on Sunday. Arriving at the crease at 187/7 in 50 overs, No. 9 Manvanth, just one first-class game old, showcased his grace and gumption after Aneesh K V’s (59, 96b, 4x8) impressive stay as Karnataka battled hard to reach 281 for eight in 86 overs. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 129
     },
     {
       "story_id": "story-37",
@@ -331,53 +367,13 @@
       "brief_word_count": 127
     },
     {
-      "story_id": "story-46",
-      "category": "Society",
-      "primary_headline": "Saudi-led coalition says helicopter crash in Najran kills two crew members",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Saudi-led coalition says helicopter crash in Najran kills two crew members - Reuters",
-        "published_at": "Sun, 18 Oct 2026 15:54:36 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbFZiZFozb1RWTzVBbk4wZU8xMHlSeHhuSmhkMi1FSVhqTTZ5U3BMbF9aaU5fVjRpWnI1MkJTMTZscVcxTWM0YnVFRXFWdXQ2SnpSdVNPVm5LR1QzbVhpQjliR3VNZFl4WXhjODUzbjNZRXg0S0l0al80ZDlwdjc5ejFRU0E3NlJBZm1iOWg3VjhybzNLbWpOelQ4ZDZBWTkxS3Y4Rm9MUm9vTjdfYk9iaVRJd29DSDhMUi1KOGZMcDhzZGs?oc=5",
-        "content": "Saudi-led coalition says helicopter crash in Najran kills two crew members&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "Saudi-led coalition says helicopter crash in Najran kills two crew members - Reuters",
-          "published_at": "Sun, 18 Oct 2026 15:54:36 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbFZiZFozb1RWTzVBbk4wZU8xMHlSeHhuSmhkMi1FSVhqTTZ5U3BMbF9aaU5fVjRpWnI1MkJTMTZscVcxTWM0YnVFRXFWdXQ2SnpSdVNPVm5LR1QzbVhpQjliR3VNZFl4WXhjODUzbjNZRXg0S0l0al80ZDlwdjc5ejFRU0E3NlJBZm1iOWg3VjhybzNLbWpOelQ4ZDZBWTkxS3Y4Rm9MUm9vTjdfYk9iaVRJd29DSDhMUi1KOGZMcDhzZGs?oc=5"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "2 Pilots Killed As Technical Fault Crashes Helicopter Near Yemen Border",
-          "published_at": "Sun, 18 Oct 2026 13:58:07 +0530",
-          "url": "https://www.ndtv.com/world-news/2-pilots-killed-as-technical-fault-crashes-helicopter-near-yemen-border-12202144#publisher=newsstand"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.63,
-      "brief_bullets": [
-        "After a four-year, uneasy truce, Yemen's conflict reignited in July and intensified when the Iran-backed group seized strategic territory along the Red Sea coast last month.",
-        "Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness.",
-        "The shift has triggered intense debate among foreign policy stakeholders regarding international deterrence frameworks and regulatory enforcement.",
-        "Regional defense ministries and multilateral bodies are assessing logistical readiness and diplomatic countermeasures as the geopolitical landscape evolves."
-      ],
-      "why_it_matters_bullets": [
-        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
-      ],
-      "brief": "After a four-year, uneasy truce, Yemen's conflict reignited in July and intensified when the Iran-backed group seized strategic territory along the Red Sea coast last month. Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness. The shift has triggered intense debate among foreign policy stakeholders regarding international deterrence frameworks and regulatory enforcement. Regional defense ministries and multilateral bodies are assessing logistical readiness and diplomatic countermeasures as the geopolitical landscape evolves. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 96
-    },
-    {
-      "story_id": "story-55",
+      "story_id": "story-56",
       "category": "Sports",
       "primary_headline": "Nottingham Forest v Arsenal: Premier League – live",
       "primary_source": {
         "source_name": "The Guardian",
         "headline": "Nottingham Forest v Arsenal: Premier League – live",
-        "published_at": "Sun, 18 Oct 2026 16:48:23 GMT",
+        "published_at": "Sun, 18 Oct 2026 17:04:31 GMT",
         "url": "https://www.theguardian.com/football/live/2026/oct/18/nottingham-forest-v-arsenal-premier-league-live",
         "content": "⚽ Updates from the City Ground; kick-off 4.30pm BST⚽ Scores | Tables | Read Football Daily | Mail DanielForest will want – and probably need – to make this game a mess. If it’s open and played through midfield, Arsenal will open them up because, with the guile they’ve added by buying Guimaraes, along with an in-form Odegaard, they have the ability to exploit space. For that reason, Forest need bodies everywhere, especially in the middle of the pitch, forcing them wide, where Saka might just’ve lost the spring in his acceleration following last season’s achilles injury while, on the other side, Eze isn’t going to go on the outside.Elsewhere, 10-man Sunderland trail Bournemouth 2-0 with seconds remaining, while Brighton have splattered Palace 5-0 to move second above Arsenal, their goal difference +18. Ridiculous behaviour. Continue reading..."
       },
@@ -385,12 +381,12 @@
         {
           "source_name": "The Guardian",
           "headline": "Nottingham Forest v Arsenal: Premier League – live",
-          "published_at": "Sun, 18 Oct 2026 16:48:23 GMT",
+          "published_at": "Sun, 18 Oct 2026 17:04:31 GMT",
           "url": "https://www.theguardian.com/football/live/2026/oct/18/nottingham-forest-v-arsenal-premier-league-live"
         },
         {
           "source_name": "Sky Sports",
-          "headline": "Nottingham Forest 'suffocating' Arsenal LIVE! &amp; highlights",
+          "headline": "Arsenal pushing for breakthrough at Forest LIVE! &amp; highlights",
           "published_at": "Sun, 18 Oct 2026 14:55:00 BST",
           "url": "https://www.skysports.com/football/nottingham-forest-vs-arsenal/live/559512"
         }
@@ -399,33 +395,35 @@
       "total_count": 2,
       "combined_score": 1.6,
       "brief_bullets": [
-        "⚽ Updates from the City Ground; kick-off 4.30pm BST⚽ Scores | Tables | Read Football Daily | Mail DanielForest will want – and probably need – to make this game a mess.",
+        "⚽ Updates from the City Ground; kick-off 4.",
+        "30pm BST⚽ Scores | Tables | Read Football Daily | Mail DanielForest will want – and probably need – to make this game a mess.",
         "If it’s open and played through midfield, Arsenal will open them up because, with the guile they’ve added by buying Guimaraes, along with an in-form Odegaard, they have the ability to exploit space.",
-        "For that reason, Forest need bodies everywhere, especially in the middle of the pitch, forcing them wide, where Saka might just’ve lost the spring in his acceleration following last season’s achilles injury while, on the other side, Eze isn’t going to go on the outside.Elsewhere, 10-man Sunderland trail Bournemouth 2-0 with seconds remaining, while Brighton have splattered Palace 5-0 to move second above Arsenal, their goal difference +18.",
+        "For that reason, Forest need bodies everywhere, especially in the middle of the pitch, forcing them wide, where Saka might just’ve lost the spring in his acceleration following last season’s achilles injury while, on the other side, Eze isn’t going to go on the outside.",
+        "Elsewhere, 10-man Sunderland trail Bournemouth 2-0 with seconds remaining, while Brighton have splattered Palace 5-0 to move second above Arsenal, their goal difference +18.",
         "Ridiculous behaviour."
       ],
       "why_it_matters_bullets": [
         "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "brief": "⚽ Updates from the City Ground; kick-off 4.30pm BST⚽ Scores | Tables | Read Football Daily | Mail DanielForest will want – and probably need – to make this game a mess. If it’s open and played through midfield, Arsenal will open them up because, with the guile they’ve added by buying Guimaraes, along with an in-form Odegaard, they have the ability to exploit space. For that reason, Forest need bodies everywhere, especially in the middle of the pitch, forcing them wide, where Saka might just’ve lost the spring in his acceleration following last season’s achilles injury while, on the other side, Eze isn’t going to go on the outside.Elsewhere, 10-man Sunderland trail Bournemouth 2-0 with seconds remaining, while Brighton have splattered Palace 5-0 to move second above Arsenal, their goal difference +18. Ridiculous behaviour. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 148
+      "brief": "⚽ Updates from the City Ground; kick-off 4. 30pm BST⚽ Scores | Tables | Read Football Daily | Mail DanielForest will want – and probably need – to make this game a mess. If it’s open and played through midfield, Arsenal will open them up because, with the guile they’ve added by buying Guimaraes, along with an in-form Odegaard, they have the ability to exploit space. For that reason, Forest need bodies everywhere, especially in the middle of the pitch, forcing them wide, where Saka might just’ve lost the spring in his acceleration following last season’s achilles injury while, on the other side, Eze isn’t going to go on the outside. Elsewhere, 10-man Sunderland trail Bournemouth 2-0 with seconds remaining, while Brighton have splattered Palace 5-0 to move second above Arsenal, their goal difference +18. Ridiculous behaviour. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 150
     },
     {
-      "story_id": "story-56",
+      "story_id": "story-57",
       "category": "Society",
-      "primary_headline": "Texans v Jaguars at Wembley: NFL week six – live",
+      "primary_headline": "Texans beat Jaguars at the last; Bears v Falcons, Ravens v Browns and more: NFL week six – live",
       "primary_source": {
         "source_name": "The Guardian",
-        "headline": "Texans v Jaguars at Wembley: NFL week six – live",
-        "published_at": "Sun, 18 Oct 2026 16:48:19 GMT",
+        "headline": "Texans beat Jaguars at the last; Bears v Falcons, Ravens v Browns and more: NFL week six – live",
+        "published_at": "Sun, 18 Oct 2026 16:58:44 GMT",
         "url": "https://www.theguardian.com/sport/live/2026/oct/18/texans-v-jaguars-nfl-week-six-live",
-        "content": "NFL updates from the 2.30pm BST kick-off at WembleyWeek six: Seahawks 14-17 Broncos | Email GrahamSpeaking to how good they are against the run, the Jaguars have gone 22 games without allowing a rusher to go for more than 75 yards. Good luck, Woody.Texans 0-0 Jaguars 11:08, 1st quarter Continue reading..."
+        "content": "Texans 34-31 Jaguars in Wembley thrillerWeek six: Seahawks 14-17 Broncos | Email GrahamSpeaking to how good they are against the run, the Jaguars have gone 22 games without allowing a rusher to go for more than 75 yards. Good luck, Woody.Texans 0-0 Jaguars 11:08, 1st quarter Continue reading..."
       },
       "sources": [
         {
           "source_name": "The Guardian",
-          "headline": "Texans v Jaguars at Wembley: NFL week six – live",
-          "published_at": "Sun, 18 Oct 2026 16:48:19 GMT",
+          "headline": "Texans beat Jaguars at the last; Bears v Falcons, Ravens v Browns and more: NFL week six – live",
+          "published_at": "Sun, 18 Oct 2026 16:58:44 GMT",
           "url": "https://www.theguardian.com/sport/live/2026/oct/18/texans-v-jaguars-nfl-week-six-live"
         },
         {
@@ -439,19 +437,19 @@
       "total_count": 2,
       "combined_score": 1.6,
       "brief_bullets": [
-        "NFL updates from the 2.30pm BST kick-off at WembleyWeek six: Seahawks 14-17 Broncos | Email GrahamSpeaking to how good they are against the run, the Jaguars have gone 22 games without allowing a rusher to go for more than 75 yards.",
-        "Good luck, Woody.Texans 0-0 Jaguars 11:08, 1st quarter.",
-        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Texans v Jaguars at Wembley: NFL week six'.",
-        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements."
+        "Texans 34-31 Jaguars in Wembley thrillerWeek six: Seahawks 14-17 Broncos | Email GrahamSpeaking to how good they are against the run, the Jaguars have gone 22 games without allowing a rusher to go for more than 75 yards.",
+        "Good luck, Woody.",
+        "Texans 0-0 Jaguars 11:08, 1st quarter.",
+        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Texans beat Jaguars at the last; Bears v Falcons, Ravens v Browns and more: NFL week six'."
       ],
       "why_it_matters_bullets": [
         "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "brief": "NFL updates from the 2.30pm BST kick-off at WembleyWeek six: Seahawks 14-17 Broncos | Email GrahamSpeaking to how good they are against the run, the Jaguars have gone 22 games without allowing a rusher to go for more than 75 yards. Good luck, Woody.Texans 0-0 Jaguars 11:08, 1st quarter. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Texans v Jaguars at Wembley: NFL week six'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 100
+      "brief": "Texans 34-31 Jaguars in Wembley thrillerWeek six: Seahawks 14-17 Broncos | Email GrahamSpeaking to how good they are against the run, the Jaguars have gone 22 games without allowing a rusher to go for more than 75 yards. Good luck, Woody. Texans 0-0 Jaguars 11:08, 1st quarter. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Texans beat Jaguars at the last; Bears v Falcons, Ravens v Browns and more: NFL week six'. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 90
     },
     {
-      "story_id": "story-57",
+      "story_id": "story-58",
       "category": "Sports",
       "primary_headline": "Tilak Varma relishes new role as finisher",
       "primary_source": {
@@ -482,17 +480,18 @@
         "Bengaluru: India’s T20I vice-captain Tilak Varma has never shied away from talking his heart out.",
         "And for someone who loves pace on the ball and batting at No.",
         "3, dropping down to No.",
-        "6 is not an ideal situation to be in.However, for Tilak, who rarely gets to bat in his preferred position in a changed set-up, versatility has been his biggest strength.&nbsp;Asian Games 2026 | Abhishek Sharma, Tilak Varma do the star turn as India beat Pakistan by 19 runs to defend titleFrom the third T20I against South Africa in Dharamsala in December 2025 to the T20 World Cup (Super Eights vs South Africa) in Ahmedabad in February, Tilak regularly batted at No.",
-        "3 for seven straight games.And since his debut, if not on some rare occasion, Tilak has been a standard in India’s T20 top-four."
+        "6 is not an ideal situation to be in.",
+        "However, for Tilak, who rarely gets to bat in his preferred position in a changed set-up, versatility has been his biggest strength.&nbsp;Asian Games 2026 | Abhishek Sharma, Tilak Varma do the star turn as India beat Pakistan by 19 runs to defend titleFrom the third T20I against South Africa in Dharamsala in December 2025 to the T20 World Cup (Super Eights vs South Africa) in Ahmedabad in February, Tilak regularly batted at No.",
+        "3 for seven straight games."
       ],
       "why_it_matters_bullets": [
         "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "brief": "Bengaluru: India’s T20I vice-captain Tilak Varma has never shied away from talking his heart out. And for someone who loves pace on the ball and batting at No. 3, dropping down to No. 6 is not an ideal situation to be in.However, for Tilak, who rarely gets to bat in his preferred position in a changed set-up, versatility has been his biggest strength.&nbsp;Asian Games 2026 | Abhishek Sharma, Tilak Varma do the star turn as India beat Pakistan by 19 runs to defend titleFrom the third T20I against South Africa in Dharamsala in December 2025 to the T20 World Cup (Super Eights vs South Africa) in Ahmedabad in February, Tilak regularly batted at No. 3 for seven straight games.And since his debut, if not on some rare occasion, Tilak has been a standard in India’s T20 top-four. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 150
+      "brief": "Bengaluru: India’s T20I vice-captain Tilak Varma has never shied away from talking his heart out. And for someone who loves pace on the ball and batting at No. 3, dropping down to No. 6 is not an ideal situation to be in. However, for Tilak, who rarely gets to bat in his preferred position in a changed set-up, versatility has been his biggest strength.&nbsp;Asian Games 2026 | Abhishek Sharma, Tilak Varma do the star turn as India beat Pakistan by 19 runs to defend titleFrom the third T20I against South Africa in Dharamsala in December 2025 to the T20 World Cup (Super Eights vs South Africa) in Ahmedabad in February, Tilak regularly batted at No. 3 for seven straight games. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 133
     },
     {
-      "story_id": "story-58",
+      "story_id": "story-59",
       "category": "Geopolitics",
       "primary_headline": "Youth organisations attempt march to Jantar Mantar seeking CEC’s resignation; several detained",
       "primary_source": {
@@ -530,105 +529,6 @@
       ],
       "brief": "We will continue our democratic struggle against the politicisation of the Election Commission, says NSUI national president Vinod Jakhar I walked into Jantar Mantar a nervous student. I walked out a citizen ThePrint. The political development reflects shifting legislative momentum and institutional scrutiny across key administrative decision-making bodies. Constitutional observers and policy strategists note that ongoing deliberations will establish critical regulatory and legal precedents. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
       "brief_word_count": 78
-    },
-    {
-      "story_id": "story-61",
-      "category": "Society",
-      "primary_headline": "Poll finds jump in Republicans who say Trump is enriching himself - The Washington Post",
-      "primary_source": {
-        "source_name": "Washington Post",
-        "headline": "Poll finds jump in Republicans who say Trump is enriching himself - The Washington Post",
-        "published_at": "Sun, 18 Oct 2026 16:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdVY2TkRiYTZ3cHlTbm1IQ3R6SklhVHZOR3pKaXNQc3Z1T1lJbm9TcHMxdmsySC15eUpiVDBKTjJhSHJnUGRYQUlIYWVEVHRfQnhQamVldVFLN1cwZ1dJS3JBLVlQV0YzSW52WC1hemNVOFBIV2ZONHF0Vnd5NlQyQm1MTi1iQ3RLcG9VQ0lLb3dTTHhEcnNFMU9uLUJRQ0piRVlnZ0JabjdKal9DN253?oc=5",
-        "content": "Poll finds jump in Republicans who say Trump is enriching himself&nbsp;&nbsp;The Washington Post"
-      },
-      "sources": [
-        {
-          "source_name": "Washington Post",
-          "headline": "Poll finds jump in Republicans who say Trump is enriching himself - The Washington Post",
-          "published_at": "Sun, 18 Oct 2026 16:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdVY2TkRiYTZ3cHlTbm1IQ3R6SklhVHZOR3pKaXNQc3Z1T1lJbm9TcHMxdmsySC15eUpiVDBKTjJhSHJnUGRYQUlIYWVEVHRfQnhQamVldVFLN1cwZ1dJS3JBLVlQV0YzSW52WC1hemNVOFBIV2ZONHF0Vnd5NlQyQm1MTi1iQ3RLcG9VQ0lLb3dTTHhEcnNFMU9uLUJRQ0piRVlnZ0JabjdKal9DN253?oc=5"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "“I examined his a**”: Donald Trump’s latest pitch for Republican candidates",
-          "published_at": "Sun, 18 Oct 2026 12:06:24 +0000",
-          "url": "https://indianexpress.com/article/world/us-news/us-midterm-elections-donald-trump-republican-candidates-looks-kentucky-rally-10926908/"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
-      "brief_bullets": [
-        "Poll finds jump in Republicans who say Trump is enriching himself The Washington Post “I examined his a**”: Donald Trump’s latest pitch for Republican candidates.",
-        "The political development reflects shifting legislative momentum and institutional scrutiny across key administrative decision-making bodies.",
-        "Constitutional observers and policy strategists note that ongoing deliberations will establish critical regulatory and legal precedents.",
-        "Party leadership and committee officials are preparing follow-up procedural motions ahead of upcoming legislative sessions."
-      ],
-      "why_it_matters_bullets": [
-        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
-      ],
-      "brief": "Poll finds jump in Republicans who say Trump is enriching himself The Washington Post “I examined his a**”: Donald Trump’s latest pitch for Republican candidates. The political development reflects shifting legislative momentum and institutional scrutiny across key administrative decision-making bodies. Constitutional observers and policy strategists note that ongoing deliberations will establish critical regulatory and legal precedents. Party leadership and committee officials are preparing follow-up procedural motions ahead of upcoming legislative sessions. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 85
-    },
-    {
-      "story_id": "story-17",
-      "category": "Society",
-      "primary_headline": "Haryana Board Date Sheet 2027: When Will Class 10, 12 Timetables Be Out?",
-      "primary_source": {
-        "source_name": "NDTV",
-        "headline": "Haryana Board Date Sheet 2027: When Will Class 10, 12 Timetables Be Out?",
-        "published_at": "Sun, 18 Oct 2026 21:34:39 +0530",
-        "url": "https://www.ndtv.com/education/haryana-board-date-sheet-2027-when-will-class-10-12-timetables-be-out-12203425#publisher=newsstand",
-        "content": "Haryana Board is expected to release Class 10 and 12 date sheets for 2027 exams by December 2026 or January 2027."
-      },
-      "sources": [
-        {
-          "source_name": "NDTV",
-          "headline": "Haryana Board Date Sheet 2027: When Will Class 10, 12 Timetables Be Out?",
-          "published_at": "Sun, 18 Oct 2026 21:34:39 +0530",
-          "url": "https://www.ndtv.com/education/haryana-board-date-sheet-2027-when-will-class-10-12-timetables-be-out-12203425#publisher=newsstand"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "CBSE Class 10, 12 Date Sheet 2027 Live: Exam Dates, Timings, Download PDF",
-          "published_at": "Sun, 18 Oct 2026 13:08:57 +0530",
-          "url": "https://www.ndtv.com/education/cbse-date-sheet-2027-live-updates-class-10-12-board-exam-dates-download-pdf-check-timings-key-guidelines-details-12198041#publisher=newsstand"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "CBSE Class 10 Science Sample Paper 2027: Section-Wise Answer Writing Rule Explained",
-          "published_at": "Sun, 18 Oct 2026 12:48:09 +0530",
-          "url": "https://www.ndtv.com/education/cbse-class-10-science-sample-question-paper-2027-section-wise-answer-writing-rule-explained-12201940#publisher=newsstand"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "UGC NET December 2026: Check Revised Exam Dates, Admit Card Details, Test Rules",
-          "published_at": "Sun, 18 Oct 2026 12:01:37 +0530",
-          "url": "https://www.ndtv.com/education/ugc-net-december-2026-check-revised-exam-dates-admit-card-details-test-rules-12201800#publisher=newsstand"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "Railway Junior Engineer 2026 City Intimation Slip Out: Check Exam City Details, Admit Card Date",
-          "published_at": "Sun, 18 Oct 2026 10:30:55 +0530",
-          "url": "https://www.ndtv.com/education/railway-junior-engineer-2026-city-intimation-slip-out-check-exam-city-details-admit-card-date-12201538#publisher=newsstand"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 8,
-      "combined_score": 2.9,
-      "brief_bullets": [
-        "Haryana Board is expected to release Class 10 and 12 date sheets for 2027 exams by December 2026 or January 2027.",
-        "CBSE Date Sheet 2027 Live Updates: The date sheet will be available in PDF format and will contain key details, including examination dates and timings, subject codes, and subject names.",
-        "CBSE Class 10: Students should keep in mind the serious consequences of the answer-writing rules introduced by the board while appearing for the Science exam.",
-        "UGC NET December 2026: The exam-conducting body also mentioned that the candidates will be provided ball-point pens at the examination centre.",
-        "The RRB JE city intimation slip 2026 has been released on the respective RRB regional websites."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "Haryana Board is expected to release Class 10 and 12 date sheets for 2027 exams by December 2026 or January 2027. CBSE Date Sheet 2027 Live Updates: The date sheet will be available in PDF format and will contain key details, including examination dates and timings, subject codes, and subject names. CBSE Class 10: Students should keep in mind the serious consequences of the answer-writing rules introduced by the board while appearing for the Science exam. UGC NET December 2026: The exam-conducting body also mentioned that the candidates will be provided ball-point pens at the examination centre. The RRB JE city intimation slip 2026 has been released on the respective RRB regional websites. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 126
     },
     {
       "story_id": "story-80",
@@ -679,45 +579,48 @@
     {
       "story_id": "story-83",
       "category": "Finance",
-      "primary_headline": "\"Dystopian Fitness Video\": Video Of Woman Jogging Amid France Protests Goes Viral Online",
+      "primary_headline": "Mysuru Dasara 2026 | Kambala turns Saathgalli into mini Tulu Naadu",
       "primary_source": {
-        "source_name": "NDTV",
-        "headline": "\"Dystopian Fitness Video\": Video Of Woman Jogging Amid France Protests Goes Viral Online",
-        "published_at": "Sun, 18 Oct 2026 21:35:24 +0530",
-        "url": "https://www.ndtv.com/world-news/dystopian-fitness-video-video-of-woman-jogging-amid-france-protests-goes-viral-online-12203552#publisher=newsstand",
-        "content": "The protests began as a student movement over poor conditions in schools and expanded into a national crisis over cost of living, economic inequality."
+        "source_name": "Deccan Herald",
+        "headline": "Mysuru Dasara 2026 | Kambala turns Saathgalli into mini Tulu Naadu",
+        "published_at": "Sun, 18 Oct 2026 16:49:01 +0000",
+        "url": "https://www.deccanherald.com/india/karnataka/mysuru/mysuru-dasara-2026-kambala-turns-saathgalli-into-mini-tulu-naadu-4187491",
+        "content": " Mysuru: Amid all the opposition by activists, two-day Kambala-male buffalo or bulls race which began on Sunday morning, is unravelling mini Tulu Naadu at Saathgalli in Mysuru. A sea of people of all age groups are rushing to the mini fair. They are thrilled to witness 150 pairs of bulls who are splashing the water to the height of upto 7 feet and crossing 145 meter length and 30 meter width Kambala track in lightning speed within seconds. While the races in six segments began around 10 am, Chief Minister D K Shivakumar formally inaugurated it at around 7.30 pm and witnessed the race for about an hour. CM D K Shivakumar said \"Kambala is a harvest festival of Coastal region. They started it 800 years praying Kadri Manjunathswamy to protect farmers. In order to showcase all cultures during Naada Habba Mysuru Dasara we are hosting Kambala here to foster the culture. They have put sensors to record the time taken by each buffalo and one had crossed track in nine seconds.\"Forums urge Kambala buffalo owners to stay away from Mysuru event amid droughtPuttur MLA Ashok Kumar Rai said, \"We hosted Kambala in Bengaluru last year. We had planned to host it during Dasara in Mysuru last year itself. We are happy to introduce this coastal culture of Kambala to the people of Mysuru region during Dasara this year.\" He urged CM for the opportunity to host it in all possible districts across the State.Ashok Kumar Rai said, \"The race will conclude on Monday evening. A reward of 16 gram gold, 8 gram gold and 4 gram gold will be given for those winning first, second and third prizes respectively. The owners of each pair of Buffaloes need atleast Rs 3 lakh to bring them here. They spend atleast Rs 12 lakh a year to nourish them. The owners of these buffaloes don't participate in Kambala for prize but to keep up their family name and carry forward the legacy of this culture.\"He informed, \"The bulls which arrived on Saturday evening will be leaving on Tuesday morning. About 5000 assistants have accompanied them. They are accommodated with the buffaloes at the venue. They have brought the food and water for the buffaloes. The state government is spending about Rs 3 crore and they have made all arrangements. They are giving an honorarium of Rs 65,000 for each pair of bigger bulls and Rs 50,000 per pair for smaller bulls.\"Environmentalists, farmers hold mega protest opposing Kambala amid droughtEven as about half a million liter water is required per day, they have drilled two borewells. He claimed that since it has rained well, the tracks are naturally full and the water consumption has reduced. Ashok Rai also said that the arrangement has been done to accommodate about 15,000 people, but atleast 20,000 people are witnessing the event at a time. By 12 noon 75,000 people had witnessed it at the venue; and 2 million people had watched it online by 2 pm on Sunday.Besides races, people are even enjoying coastal style food including varieties of fishes, Kori rotti, Neerdose at food mela hosted by people of coastal region including those from Mangaluru. Besides grabbing video of races, people are also clicking photos and selfies with buffaloes.85-year-old Lakshmi from Shirsi who had come for Dasara to her daughter's house in Mysuru said, \"I had never seen it live though I had seen it on TV and internet, so I was keen to witness it.\"Mysuru district police led by SP Mallikarjun Balanandi said that they have deployed about 1500 cops for the security to the overnight event. They have installed 50 CCTV cameras and are using four drones too. "
       },
       "sources": [
         {
-          "source_name": "NDTV",
-          "headline": "\"Dystopian Fitness Video\": Video Of Woman Jogging Amid France Protests Goes Viral Online",
-          "published_at": "Sun, 18 Oct 2026 21:35:24 +0530",
-          "url": "https://www.ndtv.com/world-news/dystopian-fitness-video-video-of-woman-jogging-amid-france-protests-goes-viral-online-12203552#publisher=newsstand"
+          "source_name": "Deccan Herald",
+          "headline": "Mysuru Dasara 2026 | Kambala turns Saathgalli into mini Tulu Naadu",
+          "published_at": "Sun, 18 Oct 2026 16:49:01 +0000",
+          "url": "https://www.deccanherald.com/india/karnataka/mysuru/mysuru-dasara-2026-kambala-turns-saathgalli-into-mini-tulu-naadu-4187491"
         },
         {
-          "source_name": "NDTV",
-          "headline": "Fixed Lunch Breaks, 9-Hour Shifts: Gen Z Employee's Corporate Job Rant Goes Viral",
-          "published_at": "Sun, 18 Oct 2026 14:32:40 +0530",
-          "url": "https://www.ndtv.com/offbeat/fixed-lunch-breaks-9-hour-shifts-gen-z-employees-corporate-job-rant-goes-viral-12202243#publisher=newsstand"
+          "source_name": "Deccan Herald",
+          "headline": "Mysuru Dasara: Final round of rehearsal begins for all 13 Dasara elephants",
+          "published_at": "Sun, 18 Oct 2026 13:38:53 +0000",
+          "url": "https://www.deccanherald.com/india/karnataka/mysuru/mysuru-dasara-final-round-of-rehearsal-begins-for-all-13-dasara-elephants-4187317"
         }
       ],
       "source_count": 1,
       "total_count": 2,
       "combined_score": 1.13,
       "brief_bullets": [
-        "The protests began as a student movement over poor conditions in schools and expanded into a national crisis over cost of living, economic inequality.",
-        "She shared how she was struggling to adjust to fixed lunch breaks, limited paid leave, strict attendance rules, and a demanding manager.",
-        "Public dissent and street demonstrations have prompted emergency municipal interventions and heightened law enforcement readiness across impacted urban hubs.",
-        "Political factions and civic advocacy groups are actively debating the underlying systemic grievances that triggered the public unrest."
+        "Mysuru: Amid all the opposition by activists, two-day Kambala-male buffalo or bulls race which began on Sunday morning, is unravelling mini Tulu Naadu at Saathgalli in Mysuru.",
+        "A sea of people of all age groups are rushing to the mini fair.",
+        "They are thrilled to witness 150 pairs of bulls who are splashing the water to the height of upto 7 feet and crossing 145 meter length and 30 meter width Kambala track in lightning speed within seconds.",
+        "While the races in six segments began around 10 am, Chief Minister D K Shivakumar formally inaugurated it at around 7.",
+        "30 pm and witnessed the race for about an hour.",
+        "CM D K Shivakumar said \"Kambala is a harvest festival of Coastal region.",
+        "They started it 800 years praying Kadri Manjunathswamy to protect farmers."
       ],
       "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
       ],
-      "brief": "The protests began as a student movement over poor conditions in schools and expanded into a national crisis over cost of living, economic inequality. She shared how she was struggling to adjust to fixed lunch breaks, limited paid leave, strict attendance rules, and a demanding manager. Public dissent and street demonstrations have prompted emergency municipal interventions and heightened law enforcement readiness across impacted urban hubs. Political factions and civic advocacy groups are actively debating the underlying systemic grievances that triggered the public unrest. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 96
+      "brief": "Mysuru: Amid all the opposition by activists, two-day Kambala-male buffalo or bulls race which began on Sunday morning, is unravelling mini Tulu Naadu at Saathgalli in Mysuru. A sea of people of all age groups are rushing to the mini fair. They are thrilled to witness 150 pairs of bulls who are splashing the water to the height of upto 7 feet and crossing 145 meter length and 30 meter width Kambala track in lightning speed within seconds. While the races in six segments began around 10 am, Chief Minister D K Shivakumar formally inaugurated it at around 7. 30 pm and witnessed the race for about an hour. CM D K Shivakumar said \"Kambala is a harvest festival of Coastal region. They started it 800 years praying Kadri Manjunathswamy to protect farmers. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 147
     },
     {
-      "story_id": "story-87",
+      "story_id": "story-88",
       "category": "Society",
       "primary_headline": "TDP Mayor candidate Mukka Sravani files nominations",
       "primary_source": {
@@ -757,7 +660,7 @@
       "brief_word_count": 69
     },
     {
-      "story_id": "story-89",
+      "story_id": "story-90",
       "category": "Society",
       "primary_headline": "Bournemouth latest: Rose reveals relief after ending wait for PL win",
       "primary_source": {
@@ -797,7 +700,7 @@
       "brief_word_count": 72
     },
     {
-      "story_id": "story-103",
+      "story_id": "story-105",
       "category": "Geopolitics",
       "primary_headline": "Delhi: Class 12 student stabbed to death outside school, five apprehended",
       "primary_source": {
@@ -819,19 +722,20 @@
       "total_count": 1,
       "combined_score": 0.89,
       "brief_bullets": [
-        "New Delhi: A 17-year-old Class 12 student was allegedly stabbed to death outside a government school in southwest Delhi's Mohan Garden area following an altercation between two students over the prescribed school shoes, police said on Sunday.Five accused, including three minors and two adults, have been apprehended in connection with the murder, three of whom are students of the same school, they said.The incident took place on October 14 when a PCR call regarding a stabbing incident near a government school in Mohan Garden was received at 6.10 pm at the local police station.",
-        "The victim, a resident of Mohan Garden, had sustained stab injuries and was taken to Tarak Hospital, where he succumbed during treatment, the police said.Class 11 student fatally stabbed in south Delhi; two heldAccording to an eyewitness, a Class 12 student of the same school, the dispute began after another student complained to a teacher that he was not wearing the prescribed school-pattern shoes.",
-        "This led to a heated argument between the two, during which the latter allegedly threatened him.After school hours, when the student left the premises with his friends, including the victim, the other student allegedly instigated the remaining accused, following which the group assaulted them.",
-        "During the attack, one of the assailants allegedly stabbed the victim, causing fatal injuries, the police said.The knife allegedly used in the crime was recovered near the school gate.The victim's father is an ex-serviceman and is currently employed as a gunman in Gurugram, police said."
+        "New Delhi: A 17-year-old Class 12 student was allegedly stabbed to death outside a government school in southwest Delhi's Mohan Garden area following an altercation between two students over the prescribed school shoes, police said on Sunday.",
+        "Five accused, including three minors and two adults, have been apprehended in connection with the murder, three of whom are students of the same school, they said.",
+        "The incident took place on October 14 when a PCR call regarding a stabbing incident near a government school in Mohan Garden was received at 6.",
+        "10 pm at the local police station.",
+        "The victim, a resident of Mohan Garden, had sustained stab injuries and was taken to Tarak Hospital, where he succumbed during treatment, the police said."
       ],
       "why_it_matters_bullets": [
         "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
       ],
-      "brief": "New Delhi: A 17-year-old Class 12 student was allegedly stabbed to death outside a government school in southwest Delhi's Mohan Garden area following an altercation between two students over the prescribed school shoes, police said on Sunday.Five accused, including three minors and two adults, have been apprehended in connection with the murder, three of whom are students of the same school, they said.The incident took place on October 14 when a PCR call regarding a stabbing incident near a government school in Mohan Garden was received at 6.10 pm at the local police station. The victim, a resident of Mohan Garden, had sustained stab injuries and was taken to Tarak Hospital, where he succumbed during treatment, the police said.Class 11 student fatally stabbed in south Delhi; two heldAccording to an eyewitness, a Class 12 student of the same school, the dispute began after another student complained to a teacher that he was not wearing the prescribed school-pattern shoes. This led to a heated argument between the two, during which the latter allegedly threatened him.After school hours, when the student left the premises with his friends, including the victim, the other student allegedly instigated the remaining accused, following which the group assaulted them. During the attack, one of the assailants allegedly stabbed the victim, causing fatal injuries, the police said.The knife allegedly used in the crime was recovered near the school gate.The victim's father is an ex-serviceman and is currently employed as a gunman in Gurugram, police said. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 261
+      "brief": "New Delhi: A 17-year-old Class 12 student was allegedly stabbed to death outside a government school in southwest Delhi's Mohan Garden area following an altercation between two students over the prescribed school shoes, police said on Sunday. Five accused, including three minors and two adults, have been apprehended in connection with the murder, three of whom are students of the same school, they said. The incident took place on October 14 when a PCR call regarding a stabbing incident near a government school in Mohan Garden was received at 6. 10 pm at the local police station. The victim, a resident of Mohan Garden, had sustained stab injuries and was taken to Tarak Hospital, where he succumbed during treatment, the police said. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 136
     },
     {
-      "story_id": "story-104",
+      "story_id": "story-106",
       "category": "Science",
       "primary_headline": "The Guardian view on plague in Russia: what is most worrying is the lack of information | Editorial",
       "primary_source": {
@@ -856,48 +760,116 @@
         "In the three weeks since a health worker’s death in Siberia, officials have stonewalled the WHO – setting a worrying precedent for future pandemicsIs there a plague outbreak in Russia?",
         "If the answer were a clear yes, there shouldn’t be much reason to worry.",
         "With swift medical intervention, plague is treatable.",
-        "But in the nearly three weeks since a worker at a Siberian plague research unit died of a mysterious respiratory illness, state officials have been consistently tight-lipped about what happened and whether there were any further cases.It is this uncertainty that has the World Health Organization (WHO) and international community worried: partly because there is a – very small – risk of an outbreak, and partly because it is yet another warning that the international coordination we rely on to prevent pandemics is fraying along with the rest of international politics, and could easily fail to protect us in the future."
+        "But in the nearly three weeks since a worker at a Siberian plague research unit died of a mysterious respiratory illness, state officials have been consistently tight-lipped about what happened and whether there were any further cases."
       ],
       "why_it_matters_bullets": [
         "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
       ],
-      "brief": "In the three weeks since a health worker’s death in Siberia, officials have stonewalled the WHO – setting a worrying precedent for future pandemicsIs there a plague outbreak in Russia? If the answer were a clear yes, there shouldn’t be much reason to worry. With swift medical intervention, plague is treatable. But in the nearly three weeks since a worker at a Siberian plague research unit died of a mysterious respiratory illness, state officials have been consistently tight-lipped about what happened and whether there were any further cases.It is this uncertainty that has the World Health Organization (WHO) and international community worried: partly because there is a – very small – risk of an outbreak, and partly because it is yet another warning that the international coordination we rely on to prevent pandemics is fraying along with the rest of international politics, and could easily fail to protect us in the future. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
-      "brief_word_count": 166
+      "brief": "In the three weeks since a health worker’s death in Siberia, officials have stonewalled the WHO – setting a worrying precedent for future pandemicsIs there a plague outbreak in Russia? If the answer were a clear yes, there shouldn’t be much reason to worry. With swift medical intervention, plague is treatable. But in the nearly three weeks since a worker at a Siberian plague research unit died of a mysterious respiratory illness, state officials have been consistently tight-lipped about what happened and whether there were any further cases. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 102
     },
     {
-      "story_id": "story-105",
-      "category": "Geopolitics",
-      "primary_headline": "They came to see Kolkata's famous pandals, but never returned home",
+      "story_id": "story-123",
+      "category": "Society",
+      "primary_headline": "Man, 80, who died in light aircraft crash near Loch Lomond named",
       "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "They came to see Kolkata's famous pandals, but never returned home",
-        "published_at": "Sun, 18 Oct 2026 16:04:49 +0000",
-        "url": "https://www.deccanherald.com/india/west-bengal/they-came-to-see-kolkatas-famous-pandals-but-never-returned-home-4187449",
-        "content": " Kolkata: Pranjal Sarkar had no visible injuries anywhere else on his body. The only mark was that of a shoe on the left side of his face, a grim imprint of the brutal force of the footstep of an unknown person who may have unwittingly crushed the 13-year-old to death when the crowd surged at the Durga Puja pandal in Chorbagan in north-central Kolkata.Pranjal watched videos of the Chorbagan Sarbojanin Durgotsab Samiti’s pandal on social media. The 13-year-old might not have fully grasped the “Beyond Sound” theme conceived and brought to life by artist Susanta Shibani Paul, but the sight of Goddess Durga and her four children, Kartik, Ganesh, Lakshmi and Saraswati, seated on a crescent moon amid dim, celestial lighting, caught his imagination. He insisted that the pandal be a must-see when his parents, Anukul Sarkar and Priyanka Sarkar, brought him from Agarpara in the North 24 Parganas district to Kolkata on the second day of the autumn festival.Little did Pranjal or his parents know that a danger lurked beneath the pandal’s surreal ambience, one that would turn the family’s Durga Puja outing into an unimaginable tragedy.The boy was one of the 19 people killed in the stampede at the pandal on Saturday. His parents survived, though. “He would have left for a tour to Shillong today with my sister and brother-in-law. Instead, I had to see the lifeless body of my nephew,” Pranjal’s maternal uncle said in front of the mortuary of Kolkata Medical College and Hospital on Sunday. “My brother-in-law could save seven or eight other children, but not his own son.”Even as the autumn festival unfolded across West Bengal, the stampede cast a pall of gloom over the families of the deceased and their neighbourhoods, from Kolkata and the Hooghly, Purba Bardhaman, North 24 Parganas and Nadia districts of West Bengal to Muzaffarpur in Bihar, turning what should have been a time of celebration into one of mourning.Kolkata stampede: Families mourn loss of loved ones as evening of festivity turned into heartacheSriparna Poddar, a 27-year-old nurse at a hospital in Kolkata, was often the first person her neighbours in Baidyabati, Hooghly, approached for healthcare advice. But on Sunday, she lay dead among the other victims of the stampede, while her family and neighbours waited to take home her mortal remains.Sandeep Bej, another 13-year-old boy, wanted to stay in his village in Madhabdihi in Purba Bardhaman for the Durga Puja celebrations but, at the last moment, went to Kolkata with his mother, Tagar Bej, 37, to see some of the city's pandals. However, the mother-son duo died in the stampede. So did Tagar’s sister, Piyali. Sandeep’s sister, Agamani Bej, was injured. “They were expected to return to their village on Sunday. But now only their mortal remains will return.”Ram Biswas came from Chakdaha in Nadia with his wife, Arati Sarkar Biswas, for pandal-hopping in Kolkata. He survived the stampede at Chorbagan but could not save his wife. Recalling the horror, Ram said that the crowd surged into the pandal after the ropes restricting entry were removed when it started raining. “It was dark inside, and people rushing in knocked others to the ground. Arati and I fell. I somehow got up and tried to pull her to her feet, but I couldn’t. My wife died before my eyes. I could do nothing,” Ram said on Sunday.For Abhishek Srivastava and his 13-year-old son, Ayansh, the trip to Kolkata was meant to be their first experience of the city’s famed Durga Puja celebrations. The two travelled from Muzaffarpur in Bihar to visit relatives in Agarpara, West Bengal, and went pandal-hopping with family members on Saturday. But both died in the stampede.Tania Biswas and Barnali Haldar, both 17, had planned their Maha Saptami outing well in advance. The Class XI students from Gouranga Nagar in New Town were close friends who had decided to wear sarees for the occasion. They set out with five other friends to visit the city’s Durga Puja pandals, but the outing ended in tragedy in Chorbagan, where both died in the stampede.Barnali’s father, Binod Haldar, who ekes out a living by pulling a rickshaw around New Town, learnt of his daughter’s death while he was still working. Her friends called him, and he rushed to the hospital, only to find that his elder child had already died. He spent the night outside the hospital mortuary. “My world has ended,” he said in a trembling voice, with tears rolling down his cheeks. “There will never be a Durga Puja in our lives again.”"
+        "source_name": "BBC News",
+        "headline": "Man, 80, who died in light aircraft crash near Loch Lomond named",
+        "published_at": "Sun, 18 Oct 2026 17:00:42 GMT",
+        "url": "https://www.bbc.co.uk/news/articles/cmx23p5w7123o?at_medium=RSS&at_campaign=rss",
+        "content": "The flying instructor has been described as \"a gentleman and an experienced aviator\" by former students.  "
       },
       "sources": [
         {
-          "source_name": "Deccan Herald",
-          "headline": "They came to see Kolkata's famous pandals, but never returned home",
-          "published_at": "Sun, 18 Oct 2026 16:04:49 +0000",
-          "url": "https://www.deccanherald.com/india/west-bengal/they-came-to-see-kolkatas-famous-pandals-but-never-returned-home-4187449"
+          "source_name": "BBC News",
+          "headline": "Man, 80, who died in light aircraft crash near Loch Lomond named",
+          "published_at": "Sun, 18 Oct 2026 17:00:42 GMT",
+          "url": "https://www.bbc.co.uk/news/articles/cmx23p5w7123o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "source_count": 1,
       "total_count": 1,
-      "combined_score": 0.89,
+      "combined_score": 0.83,
       "brief_bullets": [
-        "Kolkata: Pranjal Sarkar had no visible injuries anywhere else on his body.",
-        "The only mark was that of a shoe on the left side of his face, a grim imprint of the brutal force of the footstep of an unknown person who may have unwittingly crushed the 13-year-old to death when the crowd surged at the Durga Puja pandal in Chorbagan in north-central Kolkata.Pranjal watched videos of the Chorbagan Sarbojanin Durgotsab Samiti’s pandal on social media.",
-        "The 13-year-old might not have fully grasped the “Beyond Sound” theme conceived and brought to life by artist Susanta Shibani Paul, but the sight of Goddess Durga and her four children, Kartik, Ganesh, Lakshmi and Saraswati, seated on a crescent moon amid dim, celestial lighting, caught his imagination.",
-        "He insisted that the pandal be a must-see when his parents, Anukul Sarkar and Priyanka Sarkar, brought him from Agarpara in the North 24 Parganas district to Kolkata on the second day of the autumn festival.Little did Pranjal or his parents know that a danger lurked beneath the pandal’s surreal ambience, one that would turn the family’s Durga Puja outing into an unimaginable tragedy.The boy was one of the 19 people killed in the stampede at the pandal on Saturday.",
-        "His parents survived, though. “He would have left for a tour to Shillong today with my sister and brother-in-law."
+        "The flying instructor has been described as \"a gentleman and an experienced aviator\" by former students.",
+        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Man, 80, who died in light aircraft crash near Loch Lomond named'.",
+        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
+        "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "The flying instructor has been described as \"a gentleman and an experienced aviator\" by former students. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Man, 80, who died in light aircraft crash near Loch Lomond named'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 85
+    },
+    {
+      "story_id": "story-124",
+      "category": "Geopolitics",
+      "primary_headline": "Businessman shot at near Baramati Airport in Pune district",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "Businessman shot at near Baramati Airport in Pune district",
+        "published_at": "Sun, 18 Oct 2026 16:55:18 +0000",
+        "url": "https://www.deccanherald.com/india/maharashtra/businessman-shot-at-near-baramati-airport-in-pune-district-4187499",
+        "content": " Mumbai: In a shocking incident, a businessman, Rana Suryawanshi, was shot at near the Baramati Airport in the Pune district on Sunday.The Pune Rural Police has registered a case and investigations are in progress. “The news of gunfire targeting Rana Suryavanshi, the owner of Rana Shipping Company, in the vicinity of Baramati Airport is extremely shocking. Fortunately, he has survived and is currently receiving treatment,” Baramati MP Supriya Sule said. Shiv Sena (UBT) leader's murder: Police nab shooter, accomplice from Raigad“This news highlights the dire state of law and order in the state. Criminals are brazenly carrying out shootings and escaping, while the Home Department's machinery is unable to act. The public lives in fear, and it seems like criminals have been given free rein,” she said. “The Home Department should immediately take note of this incident, arrest the attackers, and implement concrete measures for the safety of citizens,” she added. "
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Businessman shot at near Baramati Airport in Pune district",
+          "published_at": "Sun, 18 Oct 2026 16:55:18 +0000",
+          "url": "https://www.deccanherald.com/india/maharashtra/businessman-shot-at-near-baramati-airport-in-pune-district-4187499"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "Mumbai: In a shocking incident, a businessman, Rana Suryawanshi, was shot at near the Baramati Airport in the Pune district on Sunday.",
+        "The Pune Rural Police has registered a case and investigations are in progress. “The news of gunfire targeting Rana Suryavanshi, the owner of Rana Shipping Company, in the vicinity of Baramati Airport is extremely shocking.",
+        "Fortunately, he has survived and is currently receiving treatment,” Baramati MP Supriya Sule said.",
+        "Shiv Sena (UBT) leader's murder: Police nab shooter, accomplice from Raigad“This news highlights the dire state of law and order in the state.",
+        "Criminals are brazenly carrying out shootings and escaping, while the Home Department's machinery is unable to act."
       ],
       "why_it_matters_bullets": [
         "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
       ],
-      "brief": "Kolkata: Pranjal Sarkar had no visible injuries anywhere else on his body. The only mark was that of a shoe on the left side of his face, a grim imprint of the brutal force of the footstep of an unknown person who may have unwittingly crushed the 13-year-old to death when the crowd surged at the Durga Puja pandal in Chorbagan in north-central Kolkata.Pranjal watched videos of the Chorbagan Sarbojanin Durgotsab Samiti’s pandal on social media. The 13-year-old might not have fully grasped the “Beyond Sound” theme conceived and brought to life by artist Susanta Shibani Paul, but the sight of Goddess Durga and her four children, Kartik, Ganesh, Lakshmi and Saraswati, seated on a crescent moon amid dim, celestial lighting, caught his imagination. He insisted that the pandal be a must-see when his parents, Anukul Sarkar and Priyanka Sarkar, brought him from Agarpara in the North 24 Parganas district to Kolkata on the second day of the autumn festival.Little did Pranjal or his parents know that a danger lurked beneath the pandal’s surreal ambience, one that would turn the family’s Durga Puja outing into an unimaginable tragedy.The boy was one of the 19 people killed in the stampede at the pandal on Saturday. His parents survived, though. “He would have left for a tour to Shillong today with my sister and brother-in-law. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 237
+      "brief": "Mumbai: In a shocking incident, a businessman, Rana Suryawanshi, was shot at near the Baramati Airport in the Pune district on Sunday. The Pune Rural Police has registered a case and investigations are in progress. “The news of gunfire targeting Rana Suryavanshi, the owner of Rana Shipping Company, in the vicinity of Baramati Airport is extremely shocking. Fortunately, he has survived and is currently receiving treatment,” Baramati MP Supriya Sule said. Shiv Sena (UBT) leader's murder: Police nab shooter, accomplice from Raigad“This news highlights the dire state of law and order in the state. Criminals are brazenly carrying out shootings and escaping, while the Home Department's machinery is unable to act. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 125
+    },
+    {
+      "story_id": "story-125",
+      "category": "Geopolitics",
+      "primary_headline": "Why UAPA demands urgent reform",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Why UAPA demands urgent reform",
+        "published_at": "Sun, 18 Oct 2026 22:19:55 +0530",
+        "url": "https://www.thehindu.com/news/national/why-uapa-demands-urgent-reform/article71571306.ece",
+        "content": "UAPA’s vague provisions, stringent bail conditions and inconsistent judicial interpretations have enabled the prolonged imprisonment of activists, scholars and journalists without trial; Prof. G.N. Saibaba’s experience shows the urgent need to reform a legal regime that undermines civil liberties, due process and rule of law"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Why UAPA demands urgent reform",
+          "published_at": "Sun, 18 Oct 2026 22:19:55 +0530",
+          "url": "https://www.thehindu.com/news/national/why-uapa-demands-urgent-reform/article71571306.ece"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "UAPA’s vague provisions, stringent bail conditions and inconsistent judicial interpretations have enabled the prolonged imprisonment of activists, scholars and journalists without trial; Prof.",
+        "Saibaba’s experience shows the urgent need to reform a legal regime that undermines civil liberties, due process and rule of law.",
+        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Why UAPA demands urgent reform'.",
+        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements."
+      ],
+      "why_it_matters_bullets": [
+        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
+      ],
+      "brief": "UAPA’s vague provisions, stringent bail conditions and inconsistent judicial interpretations have enabled the prolonged imprisonment of activists, scholars and journalists without trial; Prof. Saibaba’s experience shows the urgent need to reform a legal regime that undermines civil liberties, due process and rule of law. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Why UAPA demands urgent reform'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
+      "brief_word_count": 92
     }
   ]
 }

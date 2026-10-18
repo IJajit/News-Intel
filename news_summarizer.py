@@ -47,13 +47,19 @@ def _clean_rss_artifacts(text):
     for bp in boilerplate_patterns:
         text = re.sub(bp, ' ', text, flags=re.IGNORECASE)
 
+    # Ensure fused sentences like "Sunday.The" or "arrested.Nationwide" have proper spacing
+    text = re.sub(r'([a-z0-9][.!?])([A-Z0-9])', r'\1 \2', text)
     text = WHITESPACE_RE.sub(' ', text).strip()
     return text
 
 
 def _split_sentences(text):
+    if not text:
+        return []
+    # Ensure missing space after period before uppercase is separated
+    spaced = re.sub(r'([a-z0-9][.!?])([A-Z0-9])', r'\1 \2', text)
     # Split sentences cleanly on period, exclamation, or question mark followed by uppercase letter or end of string
-    raw = re.split(r'(?<=[.!?])\s+(?=[A-Z0-9])', text)
+    raw = re.split(r'(?<=[.!?])\s+(?=[A-Z0-9])', spaced)
     return [s.strip() for s in raw if len(s.strip()) > 15]
 
 
@@ -195,15 +201,42 @@ def _structured_fallback(text, title=""):
         elif len(brief_sentences) == 3:
             brief_sentences.append(context_sentences[0])
 
-    # Keep up to 5 substantive sentences
-    brief_sentences = brief_sentences[:5]
+    # Ensure brief narrative stays tightly around 100-150 words (never exceeding 150 words)
+    selected_sentences = []
+    current_word_count = 0
+    wim_words = len(wim_sentence.split()) if wim_sentence else 0
+    target_body_limit = max(80, 150 - wim_words)
 
-    full_narrative = " ".join(brief_sentences)
+    for sen in brief_sentences:
+        s_words = len(sen.split())
+        if current_word_count + s_words <= target_body_limit:
+            selected_sentences.append(sen)
+            current_word_count += s_words
+        elif not selected_sentences:
+            # If the very first sentence exceeds limit, include up to 130 words of it
+            words = sen.split()[:target_body_limit]
+            s_trunc = " ".join(words).rstrip(",;:-")
+            if not s_trunc.endswith((".", "!", "?")):
+                s_trunc += "."
+            selected_sentences.append(s_trunc)
+            current_word_count += len(words)
+            break
+        else:
+            break
+
+    full_narrative = " ".join(selected_sentences)
     if wim_sentence and wim_sentence not in full_narrative:
         full_narrative = f"{full_narrative} {wim_sentence}"
 
+    # Hard ceiling check: never exceed 155 words total
+    narrative_words = full_narrative.split()
+    if len(narrative_words) > 150:
+        full_narrative = " ".join(narrative_words[:148]).rstrip(",;:-")
+        if not full_narrative.endswith((".", "!", "?")):
+            full_narrative += "."
+
     return {
-        "brief": brief_sentences,
+        "brief": selected_sentences,
         "why_it_matters": [wim_sentence],
         "summary": full_narrative
     }
@@ -230,17 +263,17 @@ def _call_gemini_api(text, title="", gemini_key=""):
     prompt = f"""You are an executive news intelligence editor. Write a thorough, comprehensive, and elaborate analytical news brief for the following story.
 
 EDITORIAL REQUIREMENTS:
-- Provide an elaborate narrative brief of 120-180 words (4 to 6 substantive sentences) that thoroughly explains what happened, key individuals, organizations, decisions, verified facts, and broader implications.
-- Do NOT overly compress or truncate into a single short sentence. Explain the entire story properly.
+- Provide a concise yet thorough narrative brief of 100-130 words (3 to 4 substantive sentences) that explains what happened, key individuals, organizations, decisions, verified facts, and broader implications.
+- Keep the narrative concise: Do NOT exceed 140 words under any circumstances.
 - Write in clean, publication-ready prose. No bullet points, no headers, no emojis.
-- Also provide a concise why_it_matters statement (1-2 sentences) detailing strategic impact and consequences.
+- Also provide a concise why_it_matters statement (1 sentence, max 20 words) detailing strategic impact and consequences.
 
 Title: {title}
 Article content: {clean[:3000]}
 
 Respond ONLY with valid JSON in this exact structure:
 {{
-  "brief": "Comprehensive, elaborate multi-sentence narrative explanation of the story...",
+  "brief": "Concise, thorough multi-sentence narrative explanation of the story...",
   "why_it_matters": "Strategic downstream consequences..."
 }}"""
 
@@ -293,6 +326,12 @@ Respond ONLY with valid JSON in this exact structure:
                         wim_text = (wim_text or "").strip()
                         if brief_text:
                             full_brief = f"{brief_text} {wim_text}".strip() if wim_text else brief_text
+                            # Cap Gemini output at 150 words max
+                            words = full_brief.split()
+                            if len(words) > 150:
+                                full_brief = " ".join(words[:148]).rstrip(",;:-")
+                                if not full_brief.endswith((".", "!", "?")):
+                                    full_brief += "."
                             return {
                                 "brief": [brief_text],
                                 "why_it_matters": [wim_text] if wim_text else [],

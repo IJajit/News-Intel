@@ -1,8 +1,8 @@
 {
   "id": "latest",
   "category": "sports",
-  "timestamp": "2026-10-18T16:54:30.050994+00:00",
-  "articlesCount": 15,
+  "timestamp": "2026-10-18T17:07:26.267801+00:00",
+  "articlesCount": 13,
   "stories": [
     {
       "story_id": "story-35",
@@ -40,15 +40,15 @@
       "combined_score": 1.93,
       "brief_bullets": [
         "At last, Fabian Hürzeler has the scalp that matters most to all Brighton fans and in humiliating fashion.",
-        "Diego Gómez’s breathtaking goal-of-the-season contender from the halfway line, à la David Beckham, was the highlight of another hugely impressive performance from the Premier League’s top scorers as they continued their flying start to the season.Not since a 4-1 thrashing here in February 2024 under Roberto De Zerbi had Brighton tasted victory against their arch rivals from up the A23 – a run of four matches.",
-        "But having been handed the initiative by Jaydee Canvot’s own goal, a stunned Palace found themselves 3-0 down after 10 minutes.",
-        "It got even worse for Pierre Sage after Brighton extended their lead through Gómez’s wonderstrike and Yasin Ayari, with Charalampos Kostoulas adding a fourth after half-time and the substitute Jack Hinshelwood’s late header matching their record 5-0 win over Palace from 1956 in Division Three South."
+        "Diego Gómez’s breathtaking goal-of-the-season contender from the halfway line, à la David Beckham, was the highlight of another hugely impressive performance from the Premier League’s top scorers as they continued their flying start to the season.",
+        "Not since a 4-1 thrashing here in February 2024 under Roberto De Zerbi had Brighton tasted victory against their arch rivals from up the A23 – a run of four matches.",
+        "But having been handed the initiative by Jaydee Canvot’s own goal, a stunned Palace found themselves 3-0 down after 10 minutes."
       ],
       "why_it_matters_bullets": [
         "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "brief": "At last, Fabian Hürzeler has the scalp that matters most to all Brighton fans and in humiliating fashion. Diego Gómez’s breathtaking goal-of-the-season contender from the halfway line, à la David Beckham, was the highlight of another hugely impressive performance from the Premier League’s top scorers as they continued their flying start to the season.Not since a 4-1 thrashing here in February 2024 under Roberto De Zerbi had Brighton tasted victory against their arch rivals from up the A23 – a run of four matches. But having been handed the initiative by Jaydee Canvot’s own goal, a stunned Palace found themselves 3-0 down after 10 minutes. It got even worse for Pierre Sage after Brighton extended their lead through Gómez’s wonderstrike and Yasin Ayari, with Charalampos Kostoulas adding a fourth after half-time and the substitute Jack Hinshelwood’s late header matching their record 5-0 win over Palace from 1956 in Division Three South. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 164
+      "brief": "At last, Fabian Hürzeler has the scalp that matters most to all Brighton fans and in humiliating fashion. Diego Gómez’s breathtaking goal-of-the-season contender from the halfway line, à la David Beckham, was the highlight of another hugely impressive performance from the Premier League’s top scorers as they continued their flying start to the season. Not since a 4-1 thrashing here in February 2024 under Roberto De Zerbi had Brighton tasted victory against their arch rivals from up the A23 – a run of four matches. But having been handed the initiative by Jaydee Canvot’s own goal, a stunned Palace found themselves 3-0 down after 10 minutes. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 119
     },
     {
       "story_id": "story-38",
@@ -97,13 +97,13 @@
       "brief_word_count": 108
     },
     {
-      "story_id": "story-55",
+      "story_id": "story-56",
       "category": "Sports",
       "primary_headline": "Nottingham Forest v Arsenal: Premier League – live",
       "primary_source": {
         "source_name": "The Guardian",
         "headline": "Nottingham Forest v Arsenal: Premier League – live",
-        "published_at": "Sun, 18 Oct 2026 16:48:23 GMT",
+        "published_at": "Sun, 18 Oct 2026 17:04:31 GMT",
         "url": "https://www.theguardian.com/football/live/2026/oct/18/nottingham-forest-v-arsenal-premier-league-live",
         "content": "⚽ Updates from the City Ground; kick-off 4.30pm BST⚽ Scores | Tables | Read Football Daily | Mail DanielForest will want – and probably need – to make this game a mess. If it’s open and played through midfield, Arsenal will open them up because, with the guile they’ve added by buying Guimaraes, along with an in-form Odegaard, they have the ability to exploit space. For that reason, Forest need bodies everywhere, especially in the middle of the pitch, forcing them wide, where Saka might just’ve lost the spring in his acceleration following last season’s achilles injury while, on the other side, Eze isn’t going to go on the outside.Elsewhere, 10-man Sunderland trail Bournemouth 2-0 with seconds remaining, while Brighton have splattered Palace 5-0 to move second above Arsenal, their goal difference +18. Ridiculous behaviour. Continue reading..."
       },
@@ -111,12 +111,12 @@
         {
           "source_name": "The Guardian",
           "headline": "Nottingham Forest v Arsenal: Premier League – live",
-          "published_at": "Sun, 18 Oct 2026 16:48:23 GMT",
+          "published_at": "Sun, 18 Oct 2026 17:04:31 GMT",
           "url": "https://www.theguardian.com/football/live/2026/oct/18/nottingham-forest-v-arsenal-premier-league-live"
         },
         {
           "source_name": "Sky Sports",
-          "headline": "Nottingham Forest 'suffocating' Arsenal LIVE! &amp; highlights",
+          "headline": "Arsenal pushing for breakthrough at Forest LIVE! &amp; highlights",
           "published_at": "Sun, 18 Oct 2026 14:55:00 BST",
           "url": "https://www.skysports.com/football/nottingham-forest-vs-arsenal/live/559512"
         }
@@ -125,19 +125,21 @@
       "total_count": 2,
       "combined_score": 1.6,
       "brief_bullets": [
-        "⚽ Updates from the City Ground; kick-off 4.30pm BST⚽ Scores | Tables | Read Football Daily | Mail DanielForest will want – and probably need – to make this game a mess.",
+        "⚽ Updates from the City Ground; kick-off 4.",
+        "30pm BST⚽ Scores | Tables | Read Football Daily | Mail DanielForest will want – and probably need – to make this game a mess.",
         "If it’s open and played through midfield, Arsenal will open them up because, with the guile they’ve added by buying Guimaraes, along with an in-form Odegaard, they have the ability to exploit space.",
-        "For that reason, Forest need bodies everywhere, especially in the middle of the pitch, forcing them wide, where Saka might just’ve lost the spring in his acceleration following last season’s achilles injury while, on the other side, Eze isn’t going to go on the outside.Elsewhere, 10-man Sunderland trail Bournemouth 2-0 with seconds remaining, while Brighton have splattered Palace 5-0 to move second above Arsenal, their goal difference +18.",
+        "For that reason, Forest need bodies everywhere, especially in the middle of the pitch, forcing them wide, where Saka might just’ve lost the spring in his acceleration following last season’s achilles injury while, on the other side, Eze isn’t going to go on the outside.",
+        "Elsewhere, 10-man Sunderland trail Bournemouth 2-0 with seconds remaining, while Brighton have splattered Palace 5-0 to move second above Arsenal, their goal difference +18.",
         "Ridiculous behaviour."
       ],
       "why_it_matters_bullets": [
         "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "brief": "⚽ Updates from the City Ground; kick-off 4.30pm BST⚽ Scores | Tables | Read Football Daily | Mail DanielForest will want – and probably need – to make this game a mess. If it’s open and played through midfield, Arsenal will open them up because, with the guile they’ve added by buying Guimaraes, along with an in-form Odegaard, they have the ability to exploit space. For that reason, Forest need bodies everywhere, especially in the middle of the pitch, forcing them wide, where Saka might just’ve lost the spring in his acceleration following last season’s achilles injury while, on the other side, Eze isn’t going to go on the outside.Elsewhere, 10-man Sunderland trail Bournemouth 2-0 with seconds remaining, while Brighton have splattered Palace 5-0 to move second above Arsenal, their goal difference +18. Ridiculous behaviour. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 148
+      "brief": "⚽ Updates from the City Ground; kick-off 4. 30pm BST⚽ Scores | Tables | Read Football Daily | Mail DanielForest will want – and probably need – to make this game a mess. If it’s open and played through midfield, Arsenal will open them up because, with the guile they’ve added by buying Guimaraes, along with an in-form Odegaard, they have the ability to exploit space. For that reason, Forest need bodies everywhere, especially in the middle of the pitch, forcing them wide, where Saka might just’ve lost the spring in his acceleration following last season’s achilles injury while, on the other side, Eze isn’t going to go on the outside. Elsewhere, 10-man Sunderland trail Bournemouth 2-0 with seconds remaining, while Brighton have splattered Palace 5-0 to move second above Arsenal, their goal difference +18. Ridiculous behaviour. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 150
     },
     {
-      "story_id": "story-57",
+      "story_id": "story-58",
       "category": "Sports",
       "primary_headline": "Tilak Varma relishes new role as finisher",
       "primary_source": {
@@ -168,14 +170,15 @@
         "Bengaluru: India’s T20I vice-captain Tilak Varma has never shied away from talking his heart out.",
         "And for someone who loves pace on the ball and batting at No.",
         "3, dropping down to No.",
-        "6 is not an ideal situation to be in.However, for Tilak, who rarely gets to bat in his preferred position in a changed set-up, versatility has been his biggest strength.&nbsp;Asian Games 2026 | Abhishek Sharma, Tilak Varma do the star turn as India beat Pakistan by 19 runs to defend titleFrom the third T20I against South Africa in Dharamsala in December 2025 to the T20 World Cup (Super Eights vs South Africa) in Ahmedabad in February, Tilak regularly batted at No.",
-        "3 for seven straight games.And since his debut, if not on some rare occasion, Tilak has been a standard in India’s T20 top-four."
+        "6 is not an ideal situation to be in.",
+        "However, for Tilak, who rarely gets to bat in his preferred position in a changed set-up, versatility has been his biggest strength.&nbsp;Asian Games 2026 | Abhishek Sharma, Tilak Varma do the star turn as India beat Pakistan by 19 runs to defend titleFrom the third T20I against South Africa in Dharamsala in December 2025 to the T20 World Cup (Super Eights vs South Africa) in Ahmedabad in February, Tilak regularly batted at No.",
+        "3 for seven straight games."
       ],
       "why_it_matters_bullets": [
         "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "brief": "Bengaluru: India’s T20I vice-captain Tilak Varma has never shied away from talking his heart out. And for someone who loves pace on the ball and batting at No. 3, dropping down to No. 6 is not an ideal situation to be in.However, for Tilak, who rarely gets to bat in his preferred position in a changed set-up, versatility has been his biggest strength.&nbsp;Asian Games 2026 | Abhishek Sharma, Tilak Varma do the star turn as India beat Pakistan by 19 runs to defend titleFrom the third T20I against South Africa in Dharamsala in December 2025 to the T20 World Cup (Super Eights vs South Africa) in Ahmedabad in February, Tilak regularly batted at No. 3 for seven straight games.And since his debut, if not on some rare occasion, Tilak has been a standard in India’s T20 top-four. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 150
+      "brief": "Bengaluru: India’s T20I vice-captain Tilak Varma has never shied away from talking his heart out. And for someone who loves pace on the ball and batting at No. 3, dropping down to No. 6 is not an ideal situation to be in. However, for Tilak, who rarely gets to bat in his preferred position in a changed set-up, versatility has been his biggest strength.&nbsp;Asian Games 2026 | Abhishek Sharma, Tilak Varma do the star turn as India beat Pakistan by 19 runs to defend titleFrom the third T20I against South Africa in Dharamsala in December 2025 to the T20 World Cup (Super Eights vs South Africa) in Ahmedabad in February, Tilak regularly batted at No. 3 for seven straight games. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 133
     },
     {
       "story_id": "story-78",
@@ -218,7 +221,42 @@
       "brief_word_count": 71
     },
     {
-      "story_id": "story-161",
+      "story_id": "story-127",
+      "category": "Sports",
+      "primary_headline": "Australia’s Boland damages South Africa in brief respite from rain",
+      "primary_source": {
+        "source_name": "The Guardian",
+        "headline": "Australia’s Boland damages South Africa in brief respite from rain",
+        "published_at": "Sun, 18 Oct 2026 16:45:55 GMT",
+        "url": "https://www.theguardian.com/sport/2026/oct/18/australias-boland-damages-south-africa-in-brief-respite-from-rain",
+        "content": "Just 12.2 overs possible on first day of second TestBowler seizes his opportunity with two wicketsIf there is a theme to Scott Boland’s Test career, it’s making the most of limited opportunity. Finding a way into the team in 2021 when it seemed that chance had passed him by, remaining fourth in line for three spots, playing at the whim of absence, yet in those moments becoming a wrecking force, causing rashes of wickets, taking first-over strikes, threatening hat-tricks and once making good.So began the second Test in Gqeberha, another match he wasn’t supposed to play, on a day that didn’t get 13 overs bowled, yet there he was. Making the score 20 for two. Squeezing into the game through the tiniest gap, like Eugene Tooms escaping from a cell. Continue reading..."
+      },
+      "sources": [
+        {
+          "source_name": "The Guardian",
+          "headline": "Australia’s Boland damages South Africa in brief respite from rain",
+          "published_at": "Sun, 18 Oct 2026 16:45:55 GMT",
+          "url": "https://www.theguardian.com/sport/2026/oct/18/australias-boland-damages-south-africa-in-brief-respite-from-rain"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "2 overs possible on first day of second TestBowler seizes his opportunity with two wicketsIf there is a theme to Scott Boland’s Test career, it’s making the most of limited opportunity.",
+        "Finding a way into the team in 2021 when it seemed that chance had passed him by, remaining fourth in line for three spots, playing at the whim of absence, yet in those moments becoming a wrecking force, causing rashes of wickets, taking first-over strikes, threatening hat-tricks and once making good.",
+        "So began the second Test in Gqeberha, another match he wasn’t supposed to play, on a day that didn’t get 13 overs bowled, yet there he was.",
+        "Making the score 20 for two.",
+        "Squeezing into the game through the tiniest gap, like Eugene Tooms escaping from a cell."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "2 overs possible on first day of second TestBowler seizes his opportunity with two wicketsIf there is a theme to Scott Boland’s Test career, it’s making the most of limited opportunity. Finding a way into the team in 2021 when it seemed that chance had passed him by, remaining fourth in line for three spots, playing at the whim of absence, yet in those moments becoming a wrecking force, causing rashes of wickets, taking first-over strikes, threatening hat-tricks and once making good. So began the second Test in Gqeberha, another match he wasn’t supposed to play, on a day that didn’t get 13 overs bowled, yet there he was. Making the score 20 for two. Squeezing into the game through the tiniest gap, like Eugene Tooms escaping from a cell. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 143
+    },
+    {
+      "story_id": "story-162",
       "category": "Sports",
       "primary_headline": "Opinion: Blog: Kolkata Didn't Learn From 2015. Eleven Years Later, It Proved To Be Fatal",
       "primary_source": {
@@ -252,7 +290,7 @@
       "brief_word_count": 67
     },
     {
-      "story_id": "story-165",
+      "story_id": "story-166",
       "category": "Sports",
       "primary_headline": "If Trump fells 430 trees in the middle of a golf course, do they make a sound?",
       "primary_source": {
@@ -277,51 +315,18 @@
         "In attempting to turn a public space in DC into an enclave for elites, Trump is moving the US capital closer to GracelandWhen is a tree not a tree?",
         "When it’s an obstacle to a par-3.",
         "If a tree falls in the middle of a golf course, does it make a sound?",
-        "I wasn’t there, but I have to assume, based on my limited knowledge of the laws of physics.What I do know is that Donald Trump’s crusade to clear more than 400 trees for the purposes of redeveloping East Potomac Golf Links into a championship-level course isn’t happening.",
-        "For now.Dave Schilling is a Los Angeles-based writer and humorist."
+        "I wasn’t there, but I have to assume, based on my limited knowledge of the laws of physics.",
+        "What I do know is that Donald Trump’s crusade to clear more than 400 trees for the purposes of redeveloping East Potomac Golf Links into a championship-level course isn’t happening.",
+        "Dave Schilling is a Los Angeles-based writer and humorist."
       ],
       "why_it_matters_bullets": [
         "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
       ],
-      "brief": "In attempting to turn a public space in DC into an enclave for elites, Trump is moving the US capital closer to GracelandWhen is a tree not a tree? When it’s an obstacle to a par-3. If a tree falls in the middle of a golf course, does it make a sound? I wasn’t there, but I have to assume, based on my limited knowledge of the laws of physics.What I do know is that Donald Trump’s crusade to clear more than 400 trees for the purposes of redeveloping East Potomac Golf Links into a championship-level course isn’t happening. For now.Dave Schilling is a Los Angeles-based writer and humorist. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
+      "brief": "In attempting to turn a public space in DC into an enclave for elites, Trump is moving the US capital closer to GracelandWhen is a tree not a tree? When it’s an obstacle to a par-3. If a tree falls in the middle of a golf course, does it make a sound? I wasn’t there, but I have to assume, based on my limited knowledge of the laws of physics. What I do know is that Donald Trump’s crusade to clear more than 400 trees for the purposes of redeveloping East Potomac Golf Links into a championship-level course isn’t happening. Dave Schilling is a Los Angeles-based writer and humorist. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
       "brief_word_count": 123
     },
     {
-      "story_id": "story-285",
-      "category": "Sports",
-      "primary_headline": "South Africa v Australia: second men’s cricket Test, day one abandoned – as it happened",
-      "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "South Africa v Australia: second men’s cricket Test, day one abandoned – as it happened",
-        "published_at": "Sun, 18 Oct 2026 14:35:09 GMT",
-        "url": "https://www.theguardian.com/sport/live/2026/oct/18/south-africa-v-australia-second-test-day-one-cricket-st-georges-park-gqeberha-live-updates",
-        "content": "Rain led to the abandonment of the first day with South Africa losing two wickets in 12 oversStill waiting for our start. There’s very light rain at the ground, not enough to bother many of the spectators, but you can’t start a game until it’s perfectly dry, so say the playing conditions.I like all the changes for South Africa. It’s great that Tristan Stubbs wants to be a Test player, given all his attention from the franchise circuit, but he didn’t look up to speed in Durban, where Breetzke really did take it up to the Aussies in the one-day series, and looked to have a lot to offer technically as well as in attitude. Continue reading..."
-      },
-      "sources": [
-        {
-          "source_name": "The Guardian",
-          "headline": "South Africa v Australia: second men’s cricket Test, day one abandoned – as it happened",
-          "published_at": "Sun, 18 Oct 2026 14:35:09 GMT",
-          "url": "https://www.theguardian.com/sport/live/2026/oct/18/south-africa-v-australia-second-test-day-one-cricket-st-georges-park-gqeberha-live-updates"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.8,
-      "brief_bullets": [
-        "Rain led to the abandonment of the first day with South Africa losing two wickets in 12 oversStill waiting for our start.",
-        "There’s very light rain at the ground, not enough to bother many of the spectators, but you can’t start a game until it’s perfectly dry, so say the playing conditions.I like all the changes for South Africa.",
-        "It’s great that Tristan Stubbs wants to be a Test player, given all his attention from the franchise circuit, but he didn’t look up to speed in Durban, where Breetzke really did take it up to the Aussies in the one-day series, and looked to have a lot to offer technically as well as in attitude.",
-        "Meteorological authorities and disaster response teams have deployed emergency rescue pumps and localized assistance squads across vulnerable sectors."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "Rain led to the abandonment of the first day with South Africa losing two wickets in 12 oversStill waiting for our start. There’s very light rain at the ground, not enough to bother many of the spectators, but you can’t start a game until it’s perfectly dry, so say the playing conditions.I like all the changes for South Africa. It’s great that Tristan Stubbs wants to be a Test player, given all his attention from the franchise circuit, but he didn’t look up to speed in Durban, where Breetzke really did take it up to the Aussies in the one-day series, and looked to have a lot to offer technically as well as in attitude. Meteorological authorities and disaster response teams have deployed emergency rescue pumps and localized assistance squads across vulnerable sectors. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 146
-    },
-    {
-      "story_id": "story-387",
+      "story_id": "story-396",
       "category": "Sports",
       "primary_headline": "Chacarra earns third win of year to move top of Race to Dubai standings",
       "primary_source": {
@@ -355,13 +360,13 @@
       "brief_word_count": 97
     },
     {
-      "story_id": "story-392",
+      "story_id": "story-401",
       "category": "Sports",
       "primary_headline": "Cricket",
       "primary_source": {
         "source_name": "AP News",
         "headline": "Cricket - AP News",
-        "published_at": "Sun, 18 Oct 2026 09:52:07 GMT",
+        "published_at": "Sun, 18 Oct 2026 09:52:18 GMT",
         "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBfY1ozNUxwdEpqZFVSUXZlNG5IM3FGMzFJVUg2ZjIwVXpxWmMxNmppaUJDbTNWQS0zR1NPbW5pZTJzTGY3?oc=5",
         "content": "Cricket&nbsp;&nbsp;AP News"
       },
@@ -369,7 +374,7 @@
         {
           "source_name": "AP News",
           "headline": "Cricket - AP News",
-          "published_at": "Sun, 18 Oct 2026 09:52:07 GMT",
+          "published_at": "Sun, 18 Oct 2026 09:52:18 GMT",
           "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBfY1ozNUxwdEpqZFVSUXZlNG5IM3FGMzFJVUg2ZjIwVXpxWmMxNmppaUJDbTNWQS0zR1NPbW5pZTJzTGY3?oc=5"
         }
       ],
@@ -389,7 +394,7 @@
       "brief_word_count": 70
     },
     {
-      "story_id": "story-464",
+      "story_id": "story-471",
       "category": "Sports",
       "primary_headline": "‘Be back in few weeks’: Emi Martinez in first words after horrific head clash in Premier League match",
       "primary_source": {
@@ -423,42 +428,7 @@
       "brief_word_count": 92
     },
     {
-      "story_id": "story-544",
-      "category": "Sports",
-      "primary_headline": "Oregon governor Tina Kotek reacts to Silver Rail Elementary school shooting",
-      "primary_source": {
-        "source_name": "NPR",
-        "headline": "Oregon governor Tina Kotek reacts to Silver Rail Elementary school shooting",
-        "published_at": "Sat, 17 Oct 2026 18:45:25 -0400",
-        "url": "https://www.npr.org/2026/10/17/nx-s1-6005814/oregon-governor-tina-kotek-reacts-to-silver-rail-elementary-school-shooting",
-        "content": "NPR's Joel Rose talks with Oregon Governor Tina Kotek about the shooting at Silver Rail Elementary in Bend, Oregon. Accuracy and availability of NPR transcripts may vary. Transcript text may be revised to correct errors or match updates to audio. Audio on npr.org may be edited after its original broadcast or publication. The authoritative record of NPR’s programming is the audio record."
-      },
-      "sources": [
-        {
-          "source_name": "NPR",
-          "headline": "Oregon governor Tina Kotek reacts to Silver Rail Elementary school shooting",
-          "published_at": "Sat, 17 Oct 2026 18:45:25 -0400",
-          "url": "https://www.npr.org/2026/10/17/nx-s1-6005814/oregon-governor-tina-kotek-reacts-to-silver-rail-elementary-school-shooting"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.8,
-      "brief_bullets": [
-        "NPR's Joel Rose talks with Oregon Governor Tina Kotek about the shooting at Silver Rail Elementary in Bend, Oregon.",
-        "Accuracy and availability of NPR transcripts may vary.",
-        "Transcript text may be revised to correct errors or match updates to audio.",
-        "Audio on npr.org may be edited after its original broadcast or publication.",
-        "The authoritative record of NPR’s programming is the audio record."
-      ],
-      "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
-      ],
-      "brief": "NPR's Joel Rose talks with Oregon Governor Tina Kotek about the shooting at Silver Rail Elementary in Bend, Oregon. Accuracy and availability of NPR transcripts may vary. Transcript text may be revised to correct errors or match updates to audio. Audio on npr.org may be edited after its original broadcast or publication. The authoritative record of NPR’s programming is the audio record. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 76
-    },
-    {
-      "story_id": "story-556",
+      "story_id": "story-563",
       "category": "Sports",
       "primary_headline": "Van Gerwen suffers another early exit as Van Veen makes history",
       "primary_source": {
@@ -492,7 +462,7 @@
       "brief_word_count": 80
     },
     {
-      "story_id": "story-577",
+      "story_id": "story-582",
       "category": "Sports",
       "primary_headline": "Delhi’s playing XI is like musical chairs and the match results reflect the chaos",
       "primary_source": {
@@ -524,40 +494,6 @@
       ],
       "brief": "Developments regarding delhi’s playing xi is like musical chairs and the match results reflect the chaos have prompted active evaluations across administrative, regulatory, and public sectors. Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures. Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum. Team representatives have confirmed comprehensive preparation plans to maintain strategic advantages in subsequent championship phases. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
       "brief_word_count": 85
-    },
-    {
-      "story_id": "story-585",
-      "category": "Sports",
-      "primary_headline": "DP World India Championship: Chacarra moves into two-shot lead; lengthy Sunday awaits",
-      "primary_source": {
-        "source_name": "The Indian Express",
-        "headline": "DP World India Championship: Chacarra moves into two-shot lead; lengthy Sunday awaits",
-        "published_at": "Sat, 17 Oct 2026 16:56:23 +0000",
-        "url": "https://indianexpress.com/article/sports/golf/dp-world-india-championship-chacarra-2-shot-lead-10926188/",
-        "content": ""
-      },
-      "sources": [
-        {
-          "source_name": "The Indian Express",
-          "headline": "DP World India Championship: Chacarra moves into two-shot lead; lengthy Sunday awaits",
-          "published_at": "Sat, 17 Oct 2026 16:56:23 +0000",
-          "url": "https://indianexpress.com/article/sports/golf/dp-world-india-championship-chacarra-2-shot-lead-10926188/"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.8,
-      "brief_bullets": [
-        "Developments regarding dp world india championship: chacarra moves into two have prompted active evaluations across administrative, regulatory, and public sectors.",
-        "Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures.",
-        "Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum.",
-        "Team representatives have confirmed comprehensive preparation plans to maintain strategic advantages in subsequent championship phases."
-      ],
-      "why_it_matters_bullets": [
-        "Shapes tournament standings and competitive momentum ahead of upcoming qualifying fixtures."
-      ],
-      "brief": "Developments regarding dp world india championship: chacarra moves into two have prompted active evaluations across administrative, regulatory, and public sectors. Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures. Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum. Team representatives have confirmed comprehensive preparation plans to maintain strategic advantages in subsequent championship phases. Shapes tournament standings and competitive momentum ahead of upcoming qualifying fixtures.",
-      "brief_word_count": 77
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "latest",
   "category": "geopolitics",
-  "timestamp": "2026-10-18T16:54:30.050994+00:00",
+  "timestamp": "2026-10-18T17:07:26.267801+00:00",
   "articlesCount": 20,
   "stories": [
     {
@@ -53,14 +53,13 @@
       "brief_bullets": [
         "AP News Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta Hospitals receive injured patients as doctor describes scale of emergency in Wainwright as a ‘disaster’Multiple people have been killed and others injured after a deadly blaze tore through one of Canada’s busiest military training bases in Alberta, Canada’s defence minister said on Saturday.“I’m saddened to share that there have been both fatalities and injuries as a result of an incident on the base,” said David McGuinty.",
         "The defence minister described the situation at CFB Wainwright as “active and delicate” with the fire being monitored very closely, telling reporters that high winds had worsened the fire.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
-        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions."
+        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events."
       ],
       "why_it_matters_bullets": [
         "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
       ],
-      "brief": "AP News Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta Hospitals receive injured patients as doctor describes scale of emergency in Wainwright as a ‘disaster’Multiple people have been killed and others injured after a deadly blaze tore through one of Canada’s busiest military training bases in Alberta, Canada’s defence minister said on Saturday.“I’m saddened to share that there have been both fatalities and injuries as a result of an incident on the base,” said David McGuinty. The defence minister described the situation at CFB Wainwright as “active and delicate” with the fire being monitored very closely, telling reporters that high winds had worsened the fire. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 165
+      "brief": "AP News Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta Hospitals receive injured patients as doctor describes scale of emergency in Wainwright as a ‘disaster’Multiple people have been killed and others injured after a deadly blaze tore through one of Canada’s busiest military training bases in Alberta, Canada’s defence minister said on Saturday.“I’m saddened to share that there have been both fatalities and injuries as a result of an incident on the base,” said David McGuinty. The defence minister described the situation at CFB Wainwright as “active and delicate” with the fire being monitored very closely, telling reporters that high winds had worsened the fire. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 147
     },
     {
       "story_id": "story-8",
@@ -109,16 +108,66 @@
       "total_count": 8,
       "combined_score": 5.96,
       "brief_bullets": [
-        "AP News Two killed, including 6-year-old, when truck drives through Kansas youth soccer game, police say Two killed, three-year-old girl injured as Thar rams into scooter in Hayathnagar Wichita police say 34-year-old truck driver from Garden City was taken into custody amid case at youth soccer gameThe two people killed on Saturday when a truck drove through a youth soccer game in north-east Wichita, Kansas, were a six-year-old boy and a 35-year-old man, according to authorities.Eleven other people between the ages of five and 68 were injured in a case whose possible motivations remained unclear early on Sunday, when it was still capturing widespread attention across the US.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
-        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions.",
-        "Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments."
+        "AP News Two killed, including 6-year-old, when truck drives through Kansas youth soccer game, police say Two killed, three-year-old girl injured as Thar rams into scooter in Hayathnagar Wichita police say 34-year-old truck driver from Garden City was taken into custody amid case at youth soccer gameThe two people killed on Saturday when a truck drove through a youth soccer game in north-east Wichita, Kansas, were a six-year-old boy and a 35-year-old man, according to authorities.",
+        "Eleven other people between the ages of five and 68 were injured in a case whose possible motivations remained unclear early on Sunday, when it was still capturing widespread attention across the US.",
+        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events."
       ],
       "why_it_matters_bullets": [
         "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
       ],
-      "brief": "AP News Two killed, including 6-year-old, when truck drives through Kansas youth soccer game, police say Two killed, three-year-old girl injured as Thar rams into scooter in Hayathnagar Wichita police say 34-year-old truck driver from Garden City was taken into custody amid case at youth soccer gameThe two people killed on Saturday when a truck drove through a youth soccer game in north-east Wichita, Kansas, were a six-year-old boy and a 35-year-old man, according to authorities.Eleven other people between the ages of five and 68 were injured in a case whose possible motivations remained unclear early on Sunday, when it was still capturing widespread attention across the US. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 182
+      "brief": "AP News Two killed, including 6-year-old, when truck drives through Kansas youth soccer game, police say Two killed, three-year-old girl injured as Thar rams into scooter in Hayathnagar Wichita police say 34-year-old truck driver from Garden City was taken into custody amid case at youth soccer gameThe two people killed on Saturday when a truck drove through a youth soccer game in north-east Wichita, Kansas, were a six-year-old boy and a 35-year-old man, according to authorities. Eleven other people between the ages of five and 68 were injured in a case whose possible motivations remained unclear early on Sunday, when it was still capturing widespread attention across the US. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 147
+    },
+    {
+      "story_id": "story-19",
+      "category": "Geopolitics",
+      "primary_headline": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict - Reuters",
+        "published_at": "Sun, 18 Oct 2026 14:31:31 GMT",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUsxbVVqQ0FFUl81U25IbG1NaXhrNzFqZzIzaFpRUVhKbF9rYlZoMXg1Z3NzYjR1TEtkeHNCU1BrOWs4ZXR5VHFqMTBoX3VjSV9FRV9neGVDSkdUNWIxMlNhZWRJbldocDM5Q2hiMXYxUXpHVUJqWkkyOEF5OGNBNWduQXFPMXp6VXhYRjUyNmsxaV9pbXJhS29uVGh6Tm51emp4S3YtdmI5c21HZE9HeFkycENlNGxHRUlJd29YWkxwRF85eXc?oc=5",
+        "content": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict - Reuters",
+          "published_at": "Sun, 18 Oct 2026 14:31:31 GMT",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUsxbVVqQ0FFUl81U25IbG1NaXhrNzFqZzIzaFpRUVhKbF9rYlZoMXg1Z3NzYjR1TEtkeHNCU1BrOWs4ZXR5VHFqMTBoX3VjSV9FRV9neGVDSkdUNWIxMlNhZWRJbldocDM5Q2hiMXYxUXpHVUJqWkkyOEF5OGNBNWduQXFPMXp6VXhYRjUyNmsxaV9pbXJhS29uVGh6Tm51emp4S3YtdmI5c21HZE9HeFkycENlNGxHRUlJd29YWkxwRF85eXc?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Oil lifts Saudi bourse; Egypt tumbles on regional tensions - Reuters",
+          "published_at": "Sun, 18 Oct 2026 13:51:43 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdkJ2LXpMXzV0dEQ2b1NYcm9XT1FZMTUyZUlVQlZaZ2RYNFhvVFlnVFRJM1RJTU5CNzlDNVdKTmtzX2E0S0xvV2h6UEpOWFJtUlNGczZxeGR4a2NYQlU5NktIN0JQbE54SlRaS3QzRVVvWUdSRGpqWmNYWXlQSWtMbkM2R3lnRWtERTVLcTNadXMwbGxVQm9GXzVLRmVpZDY1OFFDVmI1ZlM3cGVZ?oc=5"
+        },
+        {
+          "source_name": "Washington Post",
+          "headline": "As Iran war spills over, Saudis and Houthis see fighting as only path ahead - The Washington Post",
+          "published_at": "Sun, 18 Oct 2026 15:35:24 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcEJaeEpsVGVjMFo4YlNuNXhoMXBpLVF3OXNWNDFRSnphZzJ2dGRlMnJKRFl0WlR6SDJoODFSZ1cta2tHTmJQQUtYX1NzVlVRVTNLUGVCYVNadVh4NVV3b0JJOWg4eUtUb2dKbmV6cVo4ZTJrN0k1UUZvM1BERFotSFVQVnNndHJOVjFfTWFMSDBzQkM0bFlKbWVaNFE2Vld1cnlzN3FOeWwwLXhEaXVxcUxkbw?oc=5"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "UAE president, Saudi defence minister discuss regional security as Houthi attacks intensify",
+          "published_at": "Sun, 18 Oct 2026 16:59:53 +0000",
+          "url": "https://www.deccanherald.com/world/middle-east/uae-president-saudi-defence-minister-discuss-regional-security-as-houthi-attacks-intensify-4187501"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 4,
+      "combined_score": 2.76,
+      "brief_bullets": [
+        "Oil lifts Saudi bourse; Egypt tumbles on regional tensions As Iran war spills over, Saudis and Houthis see fighting as only path ahead The Washington Post Cairo: UAE President Mohammed bin​Zayed Al Nahyan received Saudi Arabia's defence minister in Abu Dhabi on Sunday, with the two discussing regional developments and ways to bolster security, the Emirati state news agency WAM reported.",
+        "All 22 Indian crew rescued after incident off UAE coast; MEA condemns attack on Saudi airportThe talks follow a visit to Riyadh last month by UAE Vice President Sheikh Mansour bin Zayed Al Nahyan, the first trip by ‌a senior UAE official to the kingdom since a deep rift emerged between the two Gulf powers last year.",
+        "The visits come as Yemen's Iran-aligned Houthis intensify attacks on the kingdom."
+      ],
+      "why_it_matters_bullets": [
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+      ],
+      "brief": "Oil lifts Saudi bourse; Egypt tumbles on regional tensions As Iran war spills over, Saudis and Houthis see fighting as only path ahead The Washington Post Cairo: UAE President Mohammed bin​Zayed Al Nahyan received Saudi Arabia's defence minister in Abu Dhabi on Sunday, with the two discussing regional developments and ways to bolster security, the Emirati state news agency WAM reported. All 22 Indian crew rescued after incident off UAE coast; MEA condemns attack on Saudi airportThe talks follow a visit to Riyadh last month by UAE Vice President Sheikh Mansour bin Zayed Al Nahyan, the first trip by ‌a senior UAE official to the kingdom since a deep rift emerged between the two Gulf powers last year. The visits come as Yemen's Iran-aligned Houthis intensify attacks on the kingdom. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 146
     },
     {
       "story_id": "story-28",
@@ -167,7 +216,7 @@
       "brief_word_count": 99
     },
     {
-      "story_id": "story-32",
+      "story_id": "story-41",
       "category": "Geopolitics",
       "primary_headline": "Italian police clash with protesters in Milan and Bologna",
       "primary_source": {
@@ -191,12 +240,6 @@
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUVNiamhOTjFnamxaQ3IzNzBsNWNmR2JtVW5xMmlmdERwZWpCVVM5bTJGZFFybnNfT2NxTmptdVNqY04wckhsMG1lTnV1YWgtTC1NaUJBZV9FTHNLRWY4QXJvN0FUcUIzYkd6aFNadkhRTUhqYVczTmNuTjd6cXJxbUh1cmpwOWpnbFlHT04yUm1EbnhTNzhUbFpiUXplbzBjWmhGOGM5QQ?oc=5"
         },
         {
-          "source_name": "Reuters",
-          "headline": "Tear gas and Molotov cocktail as Albanian protesters clash with police - Reuters",
-          "published_at": "Sat, 17 Oct 2026 16:57:28 GMT",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBzekJObEx0V3o4dmZpdmRlMTAwZFlfY0lQTExwN1lYZkVweWxQdFBsT2hpSE9RZmJEVlo0MGRhZzRuVHl4RXVKbjR5UEdFOTY0UXJ4eDc3VDZfbVZ6dkVGcEd1ajdLSVRoU0szV1NZMkpxclJ2WlhZY08wQWo?oc=5"
-        },
-        {
           "source_name": "The Print",
           "headline": "Italian police clash with protesters in Milan and Bologna - ThePrint",
           "published_at": "Sat, 17 Oct 2026 18:00:04 GMT",
@@ -204,10 +247,10 @@
         }
       ],
       "source_count": 2,
-      "total_count": 4,
-      "combined_score": 2.2,
+      "total_count": 3,
+      "combined_score": 1.9,
       "brief_bullets": [
-        "Italian police clash with protesters in the centre of Milan Tear gas and Molotov cocktail as Albanian protesters clash with police  ThePrint.",
+        "Italian police clash with protesters in the centre of Milan  ThePrint.",
         "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
         "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions.",
         "Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments."
@@ -215,11 +258,11 @@
       "why_it_matters_bullets": [
         "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
       ],
-      "brief": "Italian police clash with protesters in the centre of Milan Tear gas and Molotov cocktail as Albanian protesters clash with police  ThePrint. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 96
+      "brief": "Italian police clash with protesters in the centre of Milan  ThePrint. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 85
     },
     {
-      "story_id": "story-50",
+      "story_id": "story-49",
       "category": "Geopolitics",
       "primary_headline": "India Cockroach Leaders Remain in Custody as Release Delayed",
       "primary_source": {
@@ -248,19 +291,18 @@
       "combined_score": 1.63,
       "brief_bullets": [
         "India’s Cockroach Janta Party raised concerns over what it described as “systematic delays and procedural obstruction” by Delhi Police and other authorities in securing the release of two of its leaders who have now spent five days in custody.",
-        "New Delhi: The bail hearing of Cockroach Janta Party (CJP) leaders Saurav Das and Ashutosh Ranka was \"delayed\" on Sunday as the Special Executive Magistrate (SEM) did not arrive at the scheduled time, activist Ratna Singh said and alleged that four sureties had been rejected on \"vague\" grounds.Das and Ranka were sent to five days of judicial custody on October 14 after they entered Jantar Mantar, which had been denotified as a designated protest site, by scaling its locked gates.",
-        "The CJP leaders maintained that they had unfurled the national flag and raised slogans.In a post on X, Singh said she had been at the police station since 11 am, while the hearing was scheduled for noon.",
-        "She said the Assistant Commissioner of Police (ACP/SEM) had not arrived at the Mandir Marg police station by 4.42 pm.CJP leaders Saurav Das, Ashutosh Ranka, Ajinkya Shinde under preventive arrest; likely to be produced before magistrate\"This is really concerning.",
-        "They have rejected 4 sureties till now on vague reasons."
+        "New Delhi: The bail hearing of Cockroach Janta Party (CJP) leaders Saurav Das and Ashutosh Ranka was \"delayed\" on Sunday as the Special Executive Magistrate (SEM) did not arrive at the scheduled time, activist Ratna Singh said and alleged that four sureties had been rejected on \"vague\" grounds.",
+        "Das and Ranka were sent to five days of judicial custody on October 14 after they entered Jantar Mantar, which had been denotified as a designated protest site, by scaling its locked gates.",
+        "The CJP leaders maintained that they had unfurled the national flag and raised slogans."
       ],
       "why_it_matters_bullets": [
         "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
       ],
-      "brief": "India’s Cockroach Janta Party raised concerns over what it described as “systematic delays and procedural obstruction” by Delhi Police and other authorities in securing the release of two of its leaders who have now spent five days in custody. New Delhi: The bail hearing of Cockroach Janta Party (CJP) leaders Saurav Das and Ashutosh Ranka was \"delayed\" on Sunday as the Special Executive Magistrate (SEM) did not arrive at the scheduled time, activist Ratna Singh said and alleged that four sureties had been rejected on \"vague\" grounds.Das and Ranka were sent to five days of judicial custody on October 14 after they entered Jantar Mantar, which had been denotified as a designated protest site, by scaling its locked gates. The CJP leaders maintained that they had unfurled the national flag and raised slogans.In a post on X, Singh said she had been at the police station since 11 am, while the hearing was scheduled for noon. She said the Assistant Commissioner of Police (ACP/SEM) had not arrived at the Mandir Marg police station by 4.42 pm.CJP leaders Saurav Das, Ashutosh Ranka, Ajinkya Shinde under preventive arrest; likely to be produced before magistrate\"This is really concerning. They have rejected 4 sureties till now on vague reasons. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 219
+      "brief": "India’s Cockroach Janta Party raised concerns over what it described as “systematic delays and procedural obstruction” by Delhi Police and other authorities in securing the release of two of its leaders who have now spent five days in custody. New Delhi: The bail hearing of Cockroach Janta Party (CJP) leaders Saurav Das and Ashutosh Ranka was \"delayed\" on Sunday as the Special Executive Magistrate (SEM) did not arrive at the scheduled time, activist Ratna Singh said and alleged that four sureties had been rejected on \"vague\" grounds. Das and Ranka were sent to five days of judicial custody on October 14 after they entered Jantar Mantar, which had been denotified as a designated protest site, by scaling its locked gates. The CJP leaders maintained that they had unfurled the national flag and raised slogans. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
+      "brief_word_count": 148
     },
     {
-      "story_id": "story-58",
+      "story_id": "story-59",
       "category": "Geopolitics",
       "primary_headline": "Youth organisations attempt march to Jantar Mantar seeking CEC’s resignation; several detained",
       "primary_source": {
@@ -300,7 +342,7 @@
       "brief_word_count": 78
     },
     {
-      "story_id": "story-60",
+      "story_id": "story-61",
       "category": "Geopolitics",
       "primary_headline": "Zelenskiy says he spoke to US envoys Witkoff, Kushner",
       "primary_source": {
@@ -341,7 +383,7 @@
       "brief_word_count": 145
     },
     {
-      "story_id": "story-66",
+      "story_id": "story-67",
       "category": "Geopolitics",
       "primary_headline": "Albanian PM says protests pose threat to EU membership, not government",
       "primary_source": {
@@ -421,7 +463,7 @@
       "brief_word_count": 100
     },
     {
-      "story_id": "story-95",
+      "story_id": "story-96",
       "category": "Geopolitics",
       "primary_headline": "CJP’s Goa protest: Police file FIR for ‘promoting enmity’, say communal slogans were raised",
       "primary_source": {
@@ -461,7 +503,7 @@
       "brief_word_count": 86
     },
     {
-      "story_id": "story-101",
+      "story_id": "story-103",
       "category": "Geopolitics",
       "primary_headline": "Riots in Tirana enter a fifth day as Albania’s anti-government protests escalate",
       "primary_source": {
@@ -501,7 +543,7 @@
       "brief_word_count": 71
     },
     {
-      "story_id": "story-103",
+      "story_id": "story-105",
       "category": "Geopolitics",
       "primary_headline": "Delhi: Class 12 student stabbed to death outside school, five apprehended",
       "primary_source": {
@@ -523,19 +565,20 @@
       "total_count": 1,
       "combined_score": 0.89,
       "brief_bullets": [
-        "New Delhi: A 17-year-old Class 12 student was allegedly stabbed to death outside a government school in southwest Delhi's Mohan Garden area following an altercation between two students over the prescribed school shoes, police said on Sunday.Five accused, including three minors and two adults, have been apprehended in connection with the murder, three of whom are students of the same school, they said.The incident took place on October 14 when a PCR call regarding a stabbing incident near a government school in Mohan Garden was received at 6.10 pm at the local police station.",
-        "The victim, a resident of Mohan Garden, had sustained stab injuries and was taken to Tarak Hospital, where he succumbed during treatment, the police said.Class 11 student fatally stabbed in south Delhi; two heldAccording to an eyewitness, a Class 12 student of the same school, the dispute began after another student complained to a teacher that he was not wearing the prescribed school-pattern shoes.",
-        "This led to a heated argument between the two, during which the latter allegedly threatened him.After school hours, when the student left the premises with his friends, including the victim, the other student allegedly instigated the remaining accused, following which the group assaulted them.",
-        "During the attack, one of the assailants allegedly stabbed the victim, causing fatal injuries, the police said.The knife allegedly used in the crime was recovered near the school gate.The victim's father is an ex-serviceman and is currently employed as a gunman in Gurugram, police said."
+        "New Delhi: A 17-year-old Class 12 student was allegedly stabbed to death outside a government school in southwest Delhi's Mohan Garden area following an altercation between two students over the prescribed school shoes, police said on Sunday.",
+        "Five accused, including three minors and two adults, have been apprehended in connection with the murder, three of whom are students of the same school, they said.",
+        "The incident took place on October 14 when a PCR call regarding a stabbing incident near a government school in Mohan Garden was received at 6.",
+        "10 pm at the local police station.",
+        "The victim, a resident of Mohan Garden, had sustained stab injuries and was taken to Tarak Hospital, where he succumbed during treatment, the police said."
       ],
       "why_it_matters_bullets": [
         "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
       ],
-      "brief": "New Delhi: A 17-year-old Class 12 student was allegedly stabbed to death outside a government school in southwest Delhi's Mohan Garden area following an altercation between two students over the prescribed school shoes, police said on Sunday.Five accused, including three minors and two adults, have been apprehended in connection with the murder, three of whom are students of the same school, they said.The incident took place on October 14 when a PCR call regarding a stabbing incident near a government school in Mohan Garden was received at 6.10 pm at the local police station. The victim, a resident of Mohan Garden, had sustained stab injuries and was taken to Tarak Hospital, where he succumbed during treatment, the police said.Class 11 student fatally stabbed in south Delhi; two heldAccording to an eyewitness, a Class 12 student of the same school, the dispute began after another student complained to a teacher that he was not wearing the prescribed school-pattern shoes. This led to a heated argument between the two, during which the latter allegedly threatened him.After school hours, when the student left the premises with his friends, including the victim, the other student allegedly instigated the remaining accused, following which the group assaulted them. During the attack, one of the assailants allegedly stabbed the victim, causing fatal injuries, the police said.The knife allegedly used in the crime was recovered near the school gate.The victim's father is an ex-serviceman and is currently employed as a gunman in Gurugram, police said. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 261
+      "brief": "New Delhi: A 17-year-old Class 12 student was allegedly stabbed to death outside a government school in southwest Delhi's Mohan Garden area following an altercation between two students over the prescribed school shoes, police said on Sunday. Five accused, including three minors and two adults, have been apprehended in connection with the murder, three of whom are students of the same school, they said. The incident took place on October 14 when a PCR call regarding a stabbing incident near a government school in Mohan Garden was received at 6. 10 pm at the local police station. The victim, a resident of Mohan Garden, had sustained stab injuries and was taken to Tarak Hospital, where he succumbed during treatment, the police said. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 136
     },
     {
-      "story_id": "story-105",
+      "story_id": "story-107",
       "category": "Geopolitics",
       "primary_headline": "They came to see Kolkata's famous pandals, but never returned home",
       "primary_source": {
@@ -558,19 +601,18 @@
       "combined_score": 0.89,
       "brief_bullets": [
         "Kolkata: Pranjal Sarkar had no visible injuries anywhere else on his body.",
-        "The only mark was that of a shoe on the left side of his face, a grim imprint of the brutal force of the footstep of an unknown person who may have unwittingly crushed the 13-year-old to death when the crowd surged at the Durga Puja pandal in Chorbagan in north-central Kolkata.Pranjal watched videos of the Chorbagan Sarbojanin Durgotsab Samiti’s pandal on social media.",
-        "The 13-year-old might not have fully grasped the “Beyond Sound” theme conceived and brought to life by artist Susanta Shibani Paul, but the sight of Goddess Durga and her four children, Kartik, Ganesh, Lakshmi and Saraswati, seated on a crescent moon amid dim, celestial lighting, caught his imagination.",
-        "He insisted that the pandal be a must-see when his parents, Anukul Sarkar and Priyanka Sarkar, brought him from Agarpara in the North 24 Parganas district to Kolkata on the second day of the autumn festival.Little did Pranjal or his parents know that a danger lurked beneath the pandal’s surreal ambience, one that would turn the family’s Durga Puja outing into an unimaginable tragedy.The boy was one of the 19 people killed in the stampede at the pandal on Saturday.",
-        "His parents survived, though. “He would have left for a tour to Shillong today with my sister and brother-in-law."
+        "The only mark was that of a shoe on the left side of his face, a grim imprint of the brutal force of the footstep of an unknown person who may have unwittingly crushed the 13-year-old to death when the crowd surged at the Durga Puja pandal in Chorbagan in north-central Kolkata.",
+        "Pranjal watched videos of the Chorbagan Sarbojanin Durgotsab Samiti’s pandal on social media.",
+        "The 13-year-old might not have fully grasped the “Beyond Sound” theme conceived and brought to life by artist Susanta Shibani Paul, but the sight of Goddess Durga and her four children, Kartik, Ganesh, Lakshmi and Saraswati, seated on a crescent moon amid dim, celestial lighting, caught his imagination."
       ],
       "why_it_matters_bullets": [
         "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
       ],
-      "brief": "Kolkata: Pranjal Sarkar had no visible injuries anywhere else on his body. The only mark was that of a shoe on the left side of his face, a grim imprint of the brutal force of the footstep of an unknown person who may have unwittingly crushed the 13-year-old to death when the crowd surged at the Durga Puja pandal in Chorbagan in north-central Kolkata.Pranjal watched videos of the Chorbagan Sarbojanin Durgotsab Samiti’s pandal on social media. The 13-year-old might not have fully grasped the “Beyond Sound” theme conceived and brought to life by artist Susanta Shibani Paul, but the sight of Goddess Durga and her four children, Kartik, Ganesh, Lakshmi and Saraswati, seated on a crescent moon amid dim, celestial lighting, caught his imagination. He insisted that the pandal be a must-see when his parents, Anukul Sarkar and Priyanka Sarkar, brought him from Agarpara in the North 24 Parganas district to Kolkata on the second day of the autumn festival.Little did Pranjal or his parents know that a danger lurked beneath the pandal’s surreal ambience, one that would turn the family’s Durga Puja outing into an unimaginable tragedy.The boy was one of the 19 people killed in the stampede at the pandal on Saturday. His parents survived, though. “He would have left for a tour to Shillong today with my sister and brother-in-law. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 237
+      "brief": "Kolkata: Pranjal Sarkar had no visible injuries anywhere else on his body. The only mark was that of a shoe on the left side of his face, a grim imprint of the brutal force of the footstep of an unknown person who may have unwittingly crushed the 13-year-old to death when the crowd surged at the Durga Puja pandal in Chorbagan in north-central Kolkata. Pranjal watched videos of the Chorbagan Sarbojanin Durgotsab Samiti’s pandal on social media. The 13-year-old might not have fully grasped the “Beyond Sound” theme conceived and brought to life by artist Susanta Shibani Paul, but the sight of Goddess Durga and her four children, Kartik, Ganesh, Lakshmi and Saraswati, seated on a crescent moon amid dim, celestial lighting, caught his imagination. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 139
     },
     {
-      "story_id": "story-109",
+      "story_id": "story-111",
       "category": "Geopolitics",
       "primary_headline": "‘Thenisai Thendral’ Deva laid to rest amid tears, tributes",
       "primary_source": {
@@ -592,19 +634,20 @@
       "total_count": 1,
       "combined_score": 0.86,
       "brief_bullets": [
-        "Ranipet (Tamil Nadu): Veteran Tamil music composer and singer Deva, popularly known as 'Thenisai Thendral', was laid to rest with full state honours at his family farmland in Sakkaramallur near Arcot, Ranipet district, on Sunday.He was 75.Deva died of a heart attack in Chennai on the morning of October 17.His mortal remains were taken from his Chennai residence to the farmland, where the final rites were performed.Thousands of people gathered at the site to pay their last respects to the celebrated music director.Tamil Nadu Chief Minister C Joseph Vijay had visited Deva's residence in Chennai to pay his respects and announced that the funeral would be held with state honours in recognition of the composer's contribution to the music industry.Revenue and police officials oversaw arrangements for the ceremony at Sakkaramallur.‘Thenisai Thendral’ Deva (1950-2026): The maestro who took gaana to the masses Relatives and villagers recalled Deva's enduring connection to his roots, saying he regularly visited his native village during festivals such as Pongal and contributed to local initiatives, including funding the construction of a Sri Ranganathar temple.Born Devanesan Chokkalingam, Deva had a career spanning nearly four decades and composed music for more than 400 films in Tamil, Telugu, Kannada and Malayalam.Before turning to films, Deva was an employee of the Tamil Nadu government’s Public Works Department (PWD).He made his entry as a composer in 1986 with 'Mattukkara Mannaru', which did not fare well in theatres, though its songs found a loyal audience over time.'Manasukketha Maharasa' (1989), starring Ramarajan and Seetha, was the film that first drew attention to his work.",
-        "His real breakthrough, however, came in 1990 with the Prashanth-starrer 'Vaigasi Poranthachu', which won him widespread acclaim.Deva rose to prominence in the late 1980s and 1990s with his high-energy, folk-rooted tunes, and is widely credited with bringing the ‘gaana’ genre into mainstream Tamil cinema.Few composers in Tamil cinema are as closely identified with one genre as Deva is with 'gaana', the urban folk music born in the working-class neighbourhoods of North Chennai.He worked with nearly every leading star of his time, among them Vijayakanth, Sarathkumar, Vijay and Ajith, and delivered some of the biggest hits of their careers.Among his chartbusters were the Rajinikanth films ‘Annamalai’, ‘Baashha’ and ‘Arunachalam’, and the Kamal Haasan outings ‘Avvai Shanmugi’, ‘Pammal K Sambandam’ and ‘Panchathanthiram’.His death drew tributes from political leaders, members of the film fraternity and fans across Tamil Nadu.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
-        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions."
+        "Ranipet (Tamil Nadu): Veteran Tamil music composer and singer Deva, popularly known as 'Thenisai Thendral', was laid to rest with full state honours at his family farmland in Sakkaramallur near Arcot, Ranipet district, on Sunday.",
+        "Deva died of a heart attack in Chennai on the morning of October 17.",
+        "His mortal remains were taken from his Chennai residence to the farmland, where the final rites were performed.",
+        "Thousands of people gathered at the site to pay their last respects to the celebrated music director.",
+        "Tamil Nadu Chief Minister C Joseph Vijay had visited Deva's residence in Chennai to pay his respects and announced that the funeral would be held with state honours in recognition of the composer's contribution to the music industry."
       ],
       "why_it_matters_bullets": [
         "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
       ],
-      "brief": "Ranipet (Tamil Nadu): Veteran Tamil music composer and singer Deva, popularly known as 'Thenisai Thendral', was laid to rest with full state honours at his family farmland in Sakkaramallur near Arcot, Ranipet district, on Sunday.He was 75.Deva died of a heart attack in Chennai on the morning of October 17.His mortal remains were taken from his Chennai residence to the farmland, where the final rites were performed.Thousands of people gathered at the site to pay their last respects to the celebrated music director.Tamil Nadu Chief Minister C Joseph Vijay had visited Deva's residence in Chennai to pay his respects and announced that the funeral would be held with state honours in recognition of the composer's contribution to the music industry.Revenue and police officials oversaw arrangements for the ceremony at Sakkaramallur.‘Thenisai Thendral’ Deva (1950-2026): The maestro who took gaana to the masses Relatives and villagers recalled Deva's enduring connection to his roots, saying he regularly visited his native village during festivals such as Pongal and contributed to local initiatives, including funding the construction of a Sri Ranganathar temple.Born Devanesan Chokkalingam, Deva had a career spanning nearly four decades and composed music for more than 400 films in Tamil, Telugu, Kannada and Malayalam.Before turning to films, Deva was an employee of the Tamil Nadu government’s Public Works Department (PWD).He made his entry as a composer in 1986 with 'Mattukkara Mannaru', which did not fare well in theatres, though its songs found a loyal audience over time.'Manasukketha Maharasa' (1989), starring Ramarajan and Seetha, was the film that first drew attention to his work. His real breakthrough, however, came in 1990 with the Prashanth-starrer 'Vaigasi Poranthachu', which won him widespread acclaim.Deva rose to prominence in the late 1980s and 1990s with his high-energy, folk-rooted tunes, and is widely credited with bringing the ‘gaana’ genre into mainstream Tamil cinema.Few composers in Tamil cinema are as closely identified with one genre as Deva is with 'gaana', the urban folk music born in the working-class neighbourhoods of North Chennai.He worked with nearly every leading star of his time, among them Vijayakanth, Sarathkumar, Vijay and Ajith, and delivered some of the biggest hits of their careers.Among his chartbusters were the Rajinikanth films ‘Annamalai’, ‘Baashha’ and ‘Arunachalam’, and the Kamal Haasan outings ‘Avvai Shanmugi’, ‘Pammal K Sambandam’ and ‘Panchathanthiram’.His death drew tributes from political leaders, members of the film fraternity and fans across Tamil Nadu. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 452
+      "brief": "Ranipet (Tamil Nadu): Veteran Tamil music composer and singer Deva, popularly known as 'Thenisai Thendral', was laid to rest with full state honours at his family farmland in Sakkaramallur near Arcot, Ranipet district, on Sunday. Deva died of a heart attack in Chennai on the morning of October 17. His mortal remains were taken from his Chennai residence to the farmland, where the final rites were performed. Thousands of people gathered at the site to pay their last respects to the celebrated music director. Tamil Nadu Chief Minister C Joseph Vijay had visited Deva's residence in Chennai to pay his respects and announced that the funeral would be held with state honours in recognition of the composer's contribution to the music industry. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 136
     },
     {
-      "story_id": "story-117",
+      "story_id": "story-119",
       "category": "Geopolitics",
       "primary_headline": "Blunder in, abandon allies and court a dictator: it’s the Trump doctrine, now playing out in Myanmar | Steve Bloomfield",
       "primary_source": {
@@ -629,17 +672,53 @@
         "The US condemned the genocide and military rule there, but now that Trump craves its rare earths, that’s all changed.",
         "For democracy activists, that’s a disasterMarco Rubio was once adamant that the US had to do everything in its power to end what he described as the “ethnic cleansing” of the Rohingya in Myanmar.",
         "In a 2017 letter he signed along with 20 other US senators, Rubio called for “strong multilateral sanctions against specific senior Burmese military officials associated with the gross human rights abuses”.",
-        "Those responsible for the atrocities should be prosecuted, he argued.In the years since, the Myanmar military’s crimes have only increased.",
+        "Those responsible for the atrocities should be prosecuted, he argued.",
+        "In the years since, the Myanmar military’s crimes have only increased.",
         "What was then deemed ethnic cleansing of the Rohingya is now widely viewed, including by the US, as genocide."
       ],
       "why_it_matters_bullets": [
         "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
       ],
-      "brief": "The US condemned the genocide and military rule there, but now that Trump craves its rare earths, that’s all changed. For democracy activists, that’s a disasterMarco Rubio was once adamant that the US had to do everything in its power to end what he described as the “ethnic cleansing” of the Rohingya in Myanmar. In a 2017 letter he signed along with 20 other US senators, Rubio called for “strong multilateral sanctions against specific senior Burmese military officials associated with the gross human rights abuses”. Those responsible for the atrocities should be prosecuted, he argued.In the years since, the Myanmar military’s crimes have only increased. What was then deemed ethnic cleansing of the Rohingya is now widely viewed, including by the US, as genocide. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
-      "brief_word_count": 138
+      "brief": "The US condemned the genocide and military rule there, but now that Trump craves its rare earths, that’s all changed. For democracy activists, that’s a disasterMarco Rubio was once adamant that the US had to do everything in its power to end what he described as the “ethnic cleansing” of the Rohingya in Myanmar. In a 2017 letter he signed along with 20 other US senators, Rubio called for “strong multilateral sanctions against specific senior Burmese military officials associated with the gross human rights abuses”. Those responsible for the atrocities should be prosecuted, he argued. In the years since, the Myanmar military’s crimes have only increased. What was then deemed ethnic cleansing of the Rohingya is now widely viewed, including by the US, as genocide. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 139
     },
     {
-      "story_id": "story-121",
+      "story_id": "story-124",
+      "category": "Geopolitics",
+      "primary_headline": "Businessman shot at near Baramati Airport in Pune district",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "Businessman shot at near Baramati Airport in Pune district",
+        "published_at": "Sun, 18 Oct 2026 16:55:18 +0000",
+        "url": "https://www.deccanherald.com/india/maharashtra/businessman-shot-at-near-baramati-airport-in-pune-district-4187499",
+        "content": " Mumbai: In a shocking incident, a businessman, Rana Suryawanshi, was shot at near the Baramati Airport in the Pune district on Sunday.The Pune Rural Police has registered a case and investigations are in progress. “The news of gunfire targeting Rana Suryavanshi, the owner of Rana Shipping Company, in the vicinity of Baramati Airport is extremely shocking. Fortunately, he has survived and is currently receiving treatment,” Baramati MP Supriya Sule said. Shiv Sena (UBT) leader's murder: Police nab shooter, accomplice from Raigad“This news highlights the dire state of law and order in the state. Criminals are brazenly carrying out shootings and escaping, while the Home Department's machinery is unable to act. The public lives in fear, and it seems like criminals have been given free rein,” she said. “The Home Department should immediately take note of this incident, arrest the attackers, and implement concrete measures for the safety of citizens,” she added. "
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Businessman shot at near Baramati Airport in Pune district",
+          "published_at": "Sun, 18 Oct 2026 16:55:18 +0000",
+          "url": "https://www.deccanherald.com/india/maharashtra/businessman-shot-at-near-baramati-airport-in-pune-district-4187499"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "Mumbai: In a shocking incident, a businessman, Rana Suryawanshi, was shot at near the Baramati Airport in the Pune district on Sunday.",
+        "The Pune Rural Police has registered a case and investigations are in progress. “The news of gunfire targeting Rana Suryavanshi, the owner of Rana Shipping Company, in the vicinity of Baramati Airport is extremely shocking.",
+        "Fortunately, he has survived and is currently receiving treatment,” Baramati MP Supriya Sule said.",
+        "Shiv Sena (UBT) leader's murder: Police nab shooter, accomplice from Raigad“This news highlights the dire state of law and order in the state.",
+        "Criminals are brazenly carrying out shootings and escaping, while the Home Department's machinery is unable to act."
+      ],
+      "why_it_matters_bullets": [
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+      ],
+      "brief": "Mumbai: In a shocking incident, a businessman, Rana Suryawanshi, was shot at near the Baramati Airport in the Pune district on Sunday. The Pune Rural Police has registered a case and investigations are in progress. “The news of gunfire targeting Rana Suryavanshi, the owner of Rana Shipping Company, in the vicinity of Baramati Airport is extremely shocking. Fortunately, he has survived and is currently receiving treatment,” Baramati MP Supriya Sule said. Shiv Sena (UBT) leader's murder: Police nab shooter, accomplice from Raigad“This news highlights the dire state of law and order in the state. Criminals are brazenly carrying out shootings and escaping, while the Home Department's machinery is unable to act. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 125
+    },
+    {
+      "story_id": "story-125",
       "category": "Geopolitics",
       "primary_headline": "Why UAPA demands urgent reform",
       "primary_source": {
@@ -673,7 +752,43 @@
       "brief_word_count": 92
     },
     {
-      "story_id": "story-122",
+      "story_id": "story-126",
+      "category": "Geopolitics",
+      "primary_headline": "No lift, no ramp: Kolar taluk office leaves elderly struggling",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "No lift, no ramp: Kolar taluk office leaves elderly struggling",
+        "published_at": "Sun, 18 Oct 2026 16:47:00 +0000",
+        "url": "https://www.deccanherald.com/india/karnataka/no-lift-no-ramp-kolar-taluk-office-leaves-elderly-struggling-4187492",
+        "content": " Kolar: The common man often has to struggle to get work done at government offices, with delays, demands for money, interference by middlemen and official apathy making the process difficult. Many people are even apprehensive about visiting these offices, as getting routine public services done without hassle remains a challenge.Adding to their woes, a long-pending problem at the Taluk Office building in Kolar continues to inconvenience the elderly and persons with disabilities. With no lift or ramp to access the first floor, they are forced to climb the stairs to get their work done.Distressing gaps in senior healthcareThe office of the sub-registrar, located on the first floor, is among the key offices in the building. Hundreds of people visit it every day for property, site and marriage registrations. A significant number of them are elderly or persons with disabilities, for whom climbing the stairs is a daunting task.In some cases, people who cannot walk have to be carried up the stairs, turning what should be a routine visit into an ordeal. Some struggle up the steps with the help of walking sticks, while others depend on family members or companions to climb up and down.Although a wheelchair is available at the entrance to the office, there is no ramp to take users to the first floor. A ramp has been provided only at the building's entrance.Four in 10 Bengalureans dread stepping into a lift: Survey     A branch of the sub-registrar's office has been opened on the ground floor to assist those unable to climb the stairs. However, visitors complain that staff are sometimes unavailable there. Several organisations have, therefore, urged the authorities to shift the entire sub-registrar's office to the ground floor. The office was earlier located near Prabhat Theatre in the City.The problem is not new. For several years, representatives of various organisations and senior citizens have been demanding the installation of a lift. Several tahsildars, deputy commissioners and MLAs have come but the lift remains a promise.Buildings housing major government offices are expected to be accessible to senior citizens and persons with disabilities. However, the lack of basic facilities at taluk office building has left many struggling to access public services.A lift should have been installed when the building was constructed, but the requirement appears to have been overlooked.Karnataka: Citizens suffer as new taluks lack admin buildingsLakshminarayanaswamy, a resident of Urigili in Kolar, said several government offices at taluk office building are located on the first floor. How are senior citizens and persons with disabilities expected to reach them? People are being carried up the stairs even for something as simple as obtaining a signature or completing other formalities. The taluk and district administrations should address the issue immediately, he urged.Prem Sagar Gowda, a resident of Markandapura in Kolar said the sub-registrar's office at the taluk office building is on the first floor. We can manage the stairs but shouldn't the authorities consider the difficulties faced by the elderly and persons with disabilities? A lift should be installed immediately. Alternatively, the entire sub-registrar's office should be shifted to the ground floor.Srinivas, Kolar TahsildarMLA Kottur Manjunath has taken the initiative to install a lift with the help of corporate social responsibility (CSR) funds. He is aware of the problem and the lift is expected to be ready within a few months easing the difficulties faced by visitors."
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "No lift, no ramp: Kolar taluk office leaves elderly struggling",
+          "published_at": "Sun, 18 Oct 2026 16:47:00 +0000",
+          "url": "https://www.deccanherald.com/india/karnataka/no-lift-no-ramp-kolar-taluk-office-leaves-elderly-struggling-4187492"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "Kolar: The common man often has to struggle to get work done at government offices, with delays, demands for money, interference by middlemen and official apathy making the process difficult.",
+        "Many people are even apprehensive about visiting these offices, as getting routine public services done without hassle remains a challenge.",
+        "Adding to their woes, a long-pending problem at the Taluk Office building in Kolar continues to inconvenience the elderly and persons with disabilities.",
+        "With no lift or ramp to access the first floor, they are forced to climb the stairs to get their work done.",
+        "Distressing gaps in senior healthcareThe office of the sub-registrar, located on the first floor, is among the key offices in the building.",
+        "Hundreds of people visit it every day for property, site and marriage registrations."
+      ],
+      "why_it_matters_bullets": [
+        "Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
+      ],
+      "brief": "Kolar: The common man often has to struggle to get work done at government offices, with delays, demands for money, interference by middlemen and official apathy making the process difficult. Many people are even apprehensive about visiting these offices, as getting routine public services done without hassle remains a challenge. Adding to their woes, a long-pending problem at the Taluk Office building in Kolar continues to inconvenience the elderly and persons with disabilities. With no lift or ramp to access the first floor, they are forced to climb the stairs to get their work done. Distressing gaps in senior healthcareThe office of the sub-registrar, located on the first floor, is among the key offices in the building. Hundreds of people visit it every day for property, site and marriage registrations. Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
+      "brief_word_count": 144
+    },
+    {
+      "story_id": "story-129",
       "category": "Geopolitics",
       "primary_headline": "Kuki group announces shutdown of key Manipur highway after attacks on villages",
       "primary_source": {
@@ -705,109 +820,6 @@
       ],
       "brief": "State government transfers Superintendent of Police in charge of Kamjong district. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
       "brief_word_count": 85
-    },
-    {
-      "story_id": "story-132",
-      "category": "Geopolitics",
-      "primary_headline": "Beware of online tricksters, say police; 13 cases booked against fake websites selling crackers",
-      "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Beware of online tricksters, say police; 13 cases booked against fake websites selling crackers",
-        "published_at": "Sun, 18 Oct 2026 21:12:33 +0530",
-        "url": "https://www.thehindu.com/news/cities/Madurai/beware-of-online-tricksters-say-police-13-cases-booked-against-fake-websites-selling-crackers/article71600613.ece",
-        "content": ""
-      },
-      "sources": [
-        {
-          "source_name": "The Hindu",
-          "headline": "Beware of online tricksters, say police; 13 cases booked against fake websites selling crackers",
-          "published_at": "Sun, 18 Oct 2026 21:12:33 +0530",
-          "url": "https://www.thehindu.com/news/cities/Madurai/beware-of-online-tricksters-say-police-13-cases-booked-against-fake-websites-selling-crackers/article71600613.ece"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "Developments regarding beware of online tricksters, say police; 13 cases booked against fake websites selling crackers have prompted active evaluations across administrative, regulatory, and public sectors.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
-        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions.",
-        "Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments."
-      ],
-      "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
-      ],
-      "brief": "Developments regarding beware of online tricksters, say police; 13 cases booked against fake websites selling crackers have prompted active evaluations across administrative, regulatory, and public sectors. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 100
-    },
-    {
-      "story_id": "story-134",
-      "category": "Geopolitics",
-      "primary_headline": "As Iran war spills over, Saudis and Houthis see fighting as only path ahead - The Washington Post",
-      "primary_source": {
-        "source_name": "Washington Post",
-        "headline": "As Iran war spills over, Saudis and Houthis see fighting as only path ahead - The Washington Post",
-        "published_at": "Sun, 18 Oct 2026 15:35:24 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcEJaeEpsVGVjMFo4YlNuNXhoMXBpLVF3OXNWNDFRSnphZzJ2dGRlMnJKRFl0WlR6SDJoODFSZ1cta2tHTmJQQUtYX1NzVlVRVTNLUGVCYVNadVh4NVV3b0JJOWg4eUtUb2dKbmV6cVo4ZTJrN0k1UUZvM1BERFotSFVQVnNndHJOVjFfTWFMSDBzQkM0bFlKbWVaNFE2Vld1cnlzN3FOeWwwLXhEaXVxcUxkbw?oc=5",
-        "content": "As Iran war spills over, Saudis and Houthis see fighting as only path ahead&nbsp;&nbsp;The Washington Post"
-      },
-      "sources": [
-        {
-          "source_name": "Washington Post",
-          "headline": "As Iran war spills over, Saudis and Houthis see fighting as only path ahead - The Washington Post",
-          "published_at": "Sun, 18 Oct 2026 15:35:24 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcEJaeEpsVGVjMFo4YlNuNXhoMXBpLVF3OXNWNDFRSnphZzJ2dGRlMnJKRFl0WlR6SDJoODFSZ1cta2tHTmJQQUtYX1NzVlVRVTNLUGVCYVNadVh4NVV3b0JJOWg4eUtUb2dKbmV6cVo4ZTJrN0k1UUZvM1BERFotSFVQVnNndHJOVjFfTWFMSDBzQkM0bFlKbWVaNFE2Vld1cnlzN3FOeWwwLXhEaXVxcUxkbw?oc=5"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "As Iran war spills over, Saudis and Houthis see fighting as only path ahead The Washington Post.",
-        "Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness.",
-        "The shift has triggered intense debate among foreign policy stakeholders regarding international deterrence frameworks and regulatory enforcement.",
-        "Regional defense ministries and multilateral bodies are assessing logistical readiness and diplomatic countermeasures as the geopolitical landscape evolves."
-      ],
-      "why_it_matters_bullets": [
-        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
-      ],
-      "brief": "As Iran war spills over, Saudis and Houthis see fighting as only path ahead The Washington Post. Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness. The shift has triggered intense debate among foreign policy stakeholders regarding international deterrence frameworks and regulatory enforcement. Regional defense ministries and multilateral bodies are assessing logistical readiness and diplomatic countermeasures as the geopolitical landscape evolves. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 87
-    },
-    {
-      "story_id": "story-135",
-      "category": "Geopolitics",
-      "primary_headline": "Reports of sale false and misleading, says Bhilai Steel Plant amid Congress alleging Adani visit",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Reports of sale false and misleading, says Bhilai Steel Plant amid Congress alleging Adani visit",
-        "published_at": "Sun, 18 Oct 2026 15:27:30 +0000",
-        "url": "https://www.deccanherald.com/business/companies/reports-of-sale-false-and-misleading-says-bhilai-steel-plant-amid-congress-alleging-adani-visit-4187390",
-        "content": " Durg: Bhilai Steel Plant (BSP), a Chhattisgarh-based unit of state-run Steel Authority of India Limited (SAIL), on Sunday dismissed reports about its proposed sale as \"false and misleading\", the assertion coming amid allegations from the Congress that the Adani Group was planning to visit the facility.The BSP is located in Bhilai city in Durg district.In a statement, the BSP said the Ministry of Steel has refuted the claims through its official social media handle, while the Press Information Bureau (PIB) Fact Check had also confirmed that the reports are false.The plant appealed to its employees, stakeholders and the people of Chhattisgarh not to believe or circulate unverified information and urged them to rely on official and authenticated sources.\"BSP is not merely an industrial establishment; it is an integral part of Chhattisgarh's identity, pride and industrial legacy. Since its inception, the plant has played a pivotal role in the state's industrial development by generating employment, supporting ancillary industries and contributing to the livelihoods of thousands of families,\" it said.Its legacy and contribution have made it a source of pride for the people of Chhattisgarh, the statement asserted.Karnataka government to negotiate with Adani over tunnel road costAs a major unit of SAIL, the Bhilai Steel Plant continues to contribute to the growth of the country's steel sector and strengthen India's industrial capabilities, the statement said.The BSP urged the people to refrain from spreading misinformation that could create unnecessary confusion among employees, their families and the people of Chhattisgarh.The clarification came after former Chhattisgarh chief minister and senior Congress leader Bhupesh Baghel alleged that Adani was likely to visit the plant.In a post on X on October 14, Baghel said, \"It has come to light that Adani is set to visit the Bhilai Steel Plant - our BSP. Do you understand the implications of Adani's visit to the BSP? It means that Narendra Modi who is spearheading a campaign to sell off the nation, has now set his sights on our BSP. And his favored buyer is coming to conduct an inspection\".\"Modi ji should realize that the BSP is the soul of Chhattisgarh. And we, the people of Chhattisgarh, will not allow it to be sold under any circumstances. Not under any circumstances,\" Baghel added.Chhattisgarh BJP leaders should also understand that BSP is not for sale, Baghel had said.Meanwhile, Congress's Bhilai unit president Mukesh Chandrakar, in a statement on Sunday, said reports about the plant's possible privatisation and the Adani Group's alleged visit had triggered anger in the industrial town.The reports had created apprehensions among employees, local shopkeepers and residents over job security, minimum wages for workers and the future of the plant's township, he claimed. "
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Reports of sale false and misleading, says Bhilai Steel Plant amid Congress alleging Adani visit",
-          "published_at": "Sun, 18 Oct 2026 15:27:30 +0000",
-          "url": "https://www.deccanherald.com/business/companies/reports-of-sale-false-and-misleading-says-bhilai-steel-plant-amid-congress-alleging-adani-visit-4187390"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "Durg: Bhilai Steel Plant (BSP), a Chhattisgarh-based unit of state-run Steel Authority of India Limited (SAIL), on Sunday dismissed reports about its proposed sale as \"false and misleading\", the assertion coming amid allegations from the Congress that the Adani Group was planning to visit the facility.The BSP is located in Bhilai city in Durg district.In a statement, the BSP said the Ministry of Steel has refuted the claims through its official social media handle, while the Press Information Bureau (PIB) Fact Check had also confirmed that the reports are false.The plant appealed to its employees, stakeholders and the people of Chhattisgarh not to believe or circulate unverified information and urged them to rely on official and authenticated sources.\"BSP is not merely an industrial establishment; it is an integral part of Chhattisgarh's identity, pride and industrial legacy.",
-        "Since its inception, the plant has played a pivotal role in the state's industrial development by generating employment, supporting ancillary industries and contributing to the livelihoods of thousands of families,\" it said.Its legacy and contribution have made it a source of pride for the people of Chhattisgarh, the statement asserted.Karnataka government to negotiate with Adani over tunnel road costAs a major unit of SAIL, the Bhilai Steel Plant continues to contribute to the growth of the country's steel sector and strengthen India's industrial capabilities, the statement said.The BSP urged the people to refrain from spreading misinformation that could create unnecessary confusion among employees, their families and the people of Chhattisgarh.The clarification came after former Chhattisgarh chief minister and senior Congress leader Bhupesh Baghel alleged that Adani was likely to visit the plant.In a post on X on October 14, Baghel said, \"It has come to light that Adani is set to visit the Bhilai Steel Plant - our BSP.",
-        "Do you understand the implications of Adani's visit to the BSP?",
-        "It means that Narendra Modi who is spearheading a campaign to sell off the nation, has now set his sights on our BSP.",
-        "And his favored buyer is coming to conduct an inspection\".\"Modi ji should realize that the BSP is the soul of Chhattisgarh."
-      ],
-      "why_it_matters_bullets": [
-        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
-      ],
-      "brief": "Durg: Bhilai Steel Plant (BSP), a Chhattisgarh-based unit of state-run Steel Authority of India Limited (SAIL), on Sunday dismissed reports about its proposed sale as \"false and misleading\", the assertion coming amid allegations from the Congress that the Adani Group was planning to visit the facility.The BSP is located in Bhilai city in Durg district.In a statement, the BSP said the Ministry of Steel has refuted the claims through its official social media handle, while the Press Information Bureau (PIB) Fact Check had also confirmed that the reports are false.The plant appealed to its employees, stakeholders and the people of Chhattisgarh not to believe or circulate unverified information and urged them to rely on official and authenticated sources.\"BSP is not merely an industrial establishment; it is an integral part of Chhattisgarh's identity, pride and industrial legacy. Since its inception, the plant has played a pivotal role in the state's industrial development by generating employment, supporting ancillary industries and contributing to the livelihoods of thousands of families,\" it said.Its legacy and contribution have made it a source of pride for the people of Chhattisgarh, the statement asserted.Karnataka government to negotiate with Adani over tunnel road costAs a major unit of SAIL, the Bhilai Steel Plant continues to contribute to the growth of the country's steel sector and strengthen India's industrial capabilities, the statement said.The BSP urged the people to refrain from spreading misinformation that could create unnecessary confusion among employees, their families and the people of Chhattisgarh.The clarification came after former Chhattisgarh chief minister and senior Congress leader Bhupesh Baghel alleged that Adani was likely to visit the plant.In a post on X on October 14, Baghel said, \"It has come to light that Adani is set to visit the Bhilai Steel Plant - our BSP. Do you understand the implications of Adani's visit to the BSP? It means that Narendra Modi who is spearheading a campaign to sell off the nation, has now set his sights on our BSP. And his favored buyer is coming to conduct an inspection\".\"Modi ji should realize that the BSP is the soul of Chhattisgarh. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 364
     }
   ]
 }

@@ -1,32 +1,32 @@
 {
   "id": "latest",
   "category": "homepage",
-  "timestamp": "2026-10-18T16:54:30.050994+00:00",
+  "timestamp": "2026-10-18T17:07:26.267801+00:00",
   "articlesCount": 20,
   "stories": [
     {
-      "story_id": "story-3",
+      "story_id": "story-4",
       "category": "Society",
-      "primary_headline": "Pope Leo XIV",
+      "primary_headline": "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery",
       "primary_source": {
         "source_name": "AP News",
-        "headline": "Pope Leo XIV - AP News",
-        "published_at": "Sun, 18 Oct 2026 15:33:55 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1BXzFaTC1GN3pKdEVBTmZXQkZPamZ2Uk1icE4wVkVUdEFqY1J1SV9FRTZfal95NlB5OHQ5ZnNVSVozNlFsRU5HM0NmUQ?oc=5",
-        "content": "Pope Leo XIV&nbsp;&nbsp;AP News"
+        "headline": "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery - AP News",
+        "published_at": "Sun, 18 Oct 2026 14:36:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUGxoemZ1SU5mT0NtVU56WWxPclZWWXZ3Vlc2TkpJOVlIaUw5T3luaDlkVVE0YlJqOXRTUmJ5anI3eHdqTEdJemtKRGtxUmNaN2U3Z21CWUQ0UEVLSUdZX3UtZVlFRzBQSHZmTWRQTFJtWmNrcHg2NDkxX1RBRy1BVkRMZEtnU3BfR0dYSWk3M01RZlowenZCT0QwZw?oc=5",
+        "content": "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery&nbsp;&nbsp;AP News"
       },
       "sources": [
-        {
-          "source_name": "AP News",
-          "headline": "Pope Leo XIV - AP News",
-          "published_at": "Sun, 18 Oct 2026 15:33:55 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1BXzFaTC1GN3pKdEVBTmZXQkZPamZ2Uk1icE4wVkVUdEFqY1J1SV9FRTZfal95NlB5OHQ5ZnNVSVozNlFsRU5HM0NmUQ?oc=5"
-        },
         {
           "source_name": "AP News",
           "headline": "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery - AP News",
           "published_at": "Sun, 18 Oct 2026 14:36:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUGxoemZ1SU5mT0NtVU56WWxPclZWWXZ3Vlc2TkpJOVlIaUw5T3luaDlkVVE0YlJqOXRTUmJ5anI3eHdqTEdJemtKRGtxUmNaN2U3Z21CWUQ0UEVLSUdZX3UtZVlFRzBQSHZmTWRQTFJtWmNrcHg2NDkxX1RBRy1BVkRMZEtnU3BfR0dYSWk3M01RZlowenZCT0QwZw?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "Pope Leo XIV - AP News",
+          "published_at": "Sun, 18 Oct 2026 14:33:55 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1BXzFaTC1GN3pKdEVBTmZXQkZPamZ2Uk1icE4wVkVUdEFqY1J1SV9FRTZfal95NlB5OHQ5ZnNVSVozNlFsRU5HM0NmUQ?oc=5"
         },
         {
           "source_name": "Reuters",
@@ -48,77 +48,19 @@
         }
       ],
       "source_count": 8,
-      "total_count": 13,
-      "combined_score": 7.9,
+      "total_count": 12,
+      "combined_score": 7.6,
       "brief_bullets": [
-        "AP News Pope Leo tells faithful in St.",
-        "Peter's Square he will gradually resume duties after cancer surgery AP News Pope Leo pledges gradual return to duties in first event since cancer surgery Pope returns to Vatican days after surgery; surgeon says he should be fit for Latin America tour AP News Pope Leo returns to Vatican four days after cancer surgery.",
-        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Pope Leo XIV'.",
-        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements."
+        "AP News Pope Leo XIV AP News Pope Leo pledges gradual return to duties in first event since cancer surgery Pope returns to Vatican days after surgery; surgeon says he should be fit for Latin America tour AP News Pope Leo returns to Vatican four days after cancer surgery.",
+        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery'.",
+        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
+        "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
       ],
       "why_it_matters_bullets": [
         "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
       ],
-      "brief": "AP News Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery AP News Pope Leo pledges gradual return to duties in first event since cancer surgery Pope returns to Vatican days after surgery; surgeon says he should be fit for Latin America tour AP News Pope Leo returns to Vatican four days after cancer surgery. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Pope Leo XIV'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
-      "brief_word_count": 108
-    },
-    {
-      "story_id": "story-4",
-      "category": "Society",
-      "primary_headline": "Clashes, fires and looting break out as protesters rally across France, joining students",
-      "primary_source": {
-        "source_name": "AP News",
-        "headline": "Clashes, fires and looting break out as protesters rally across France, joining students - AP News",
-        "published_at": "Sat, 17 Oct 2026 19:59:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWmRHbHlmZUhGb2xmVFZXeFBmNTFodEJ3U2xmUkZmZDhzdGR2aTEzTHRXOVRIWmx1REtWbHpGY2NQQUFVSk9PaHY3dFRjSUVqZUM3LURoSWlQQ3dDNlEtMnpmQmY3bVJtZEJWNV9vd0hDczg4OGV3UGJ0QmFWX0xLTHpzQ2c3ME5XcE9PN3Zidl9tV0xESXY5aW9R?oc=5",
-        "content": "Clashes, fires and looting break out as protesters rally across France, joining students&nbsp;&nbsp;AP News"
-      },
-      "sources": [
-        {
-          "source_name": "AP News",
-          "headline": "Clashes, fires and looting break out as protesters rally across France, joining students - AP News",
-          "published_at": "Sat, 17 Oct 2026 19:59:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWmRHbHlmZUhGb2xmVFZXeFBmNTFodEJ3U2xmUkZmZDhzdGR2aTEzTHRXOVRIWmx1REtWbHpGY2NQQUFVSk9PaHY3dFRjSUVqZUM3LURoSWlQQ3dDNlEtMnpmQmY3bVJtZEJWNV9vd0hDczg4OGV3UGJ0QmFWX0xLTHpzQ2c3ME5XcE9PN3Zidl9tV0xESXY5aW9R?oc=5"
-        },
-        {
-          "source_name": "AP News",
-          "headline": "Violent protests in France as police battle demonstrators, in photos - AP News",
-          "published_at": "Sat, 17 Oct 2026 18:29:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMlplc0tOejE1Q0dfRVlSRG9HWmg5TVdmVGp2cThMeXBfNE5JdU5Oc29KOEtlVk82Z21qRS1maUZaQTI1bmR0TS1kMzBMMUpia1NwUEJXenU3MmY0SlUzS3M4ZUcyQU9UV1VTM2xDOWNCakhqamlnaUxMMl84UlMtTjBadjhWTDdIdjRkVUVrUk5KWFJXcTAxcmhycUhTS3BtUlo4MGNfWVpKRktQOHctWGhvYldZZGtjbmVuQWk1UVYxZw?oc=5"
-        },
-        {
-          "source_name": "NYT",
-          "headline": "France in Shock After Protests Turn Into Riots, Damaging Buildings and Shops",
-          "published_at": "Sun, 18 Oct 2026 15:48:40 +0000",
-          "url": "https://www.nytimes.com/2026/10/18/world/europe/france-protests-shock-arson.html"
-        },
-        {
-          "source_name": "NYT",
-          "headline": "Why Are There Protests in France?",
-          "published_at": "Sun, 18 Oct 2026 15:15:49 +0000",
-          "url": "https://www.nytimes.com/article/france-student-protests-why.html"
-        },
-        {
-          "source_name": "BBC News",
-          "headline": "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting",
-          "published_at": "Sun, 18 Oct 2026 12:07:31 GMT",
-          "url": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "source_count": 8,
-      "total_count": 12,
-      "combined_score": 7.63,
-      "brief_bullets": [
-        "AP News Violent protests in France as police battle demonstrators, in photos AP News After anti-government protests devolved into chaos, leaders from across the political spectrum blamed one another for the unrest, even as it largely subsided on Sunday.",
-        "Rioters attacked city halls and shops over the weekend amid protests over living costs and poor school conditions.",
-        "About 1,800 people were arrested after nationwide protests saw outbreaks of violence and vandalism.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events."
-      ],
-      "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
-      ],
-      "brief": "AP News Violent protests in France as police battle demonstrators, in photos AP News After anti-government protests devolved into chaos, leaders from across the political spectrum blamed one another for the unrest, even as it largely subsided on Sunday. Rioters attacked city halls and shops over the weekend amid protests over living costs and poor school conditions. About 1,800 people were arrested after nationwide protests saw outbreaks of violence and vandalism. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 109
+      "brief": "AP News Pope Leo XIV AP News Pope Leo pledges gradual return to duties in first event since cancer surgery Pope returns to Vatican days after surgery; surgeon says he should be fit for Latin America tour AP News Pope Leo returns to Vatican four days after cancer surgery. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
+      "brief_word_count": 122
     },
     {
       "story_id": "story-5",
@@ -227,38 +169,37 @@
       "brief_bullets": [
         "AP News Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta Hospitals receive injured patients as doctor describes scale of emergency in Wainwright as a ‘disaster’Multiple people have been killed and others injured after a deadly blaze tore through one of Canada’s busiest military training bases in Alberta, Canada’s defence minister said on Saturday.“I’m saddened to share that there have been both fatalities and injuries as a result of an incident on the base,” said David McGuinty.",
         "The defence minister described the situation at CFB Wainwright as “active and delicate” with the fire being monitored very closely, telling reporters that high winds had worsened the fire.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
-        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions."
+        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events."
       ],
       "why_it_matters_bullets": [
         "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
       ],
-      "brief": "AP News Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta Hospitals receive injured patients as doctor describes scale of emergency in Wainwright as a ‘disaster’Multiple people have been killed and others injured after a deadly blaze tore through one of Canada’s busiest military training bases in Alberta, Canada’s defence minister said on Saturday.“I’m saddened to share that there have been both fatalities and injuries as a result of an incident on the base,” said David McGuinty. The defence minister described the situation at CFB Wainwright as “active and delicate” with the fire being monitored very closely, telling reporters that high winds had worsened the fire. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 165
+      "brief": "AP News Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta Hospitals receive injured patients as doctor describes scale of emergency in Wainwright as a ‘disaster’Multiple people have been killed and others injured after a deadly blaze tore through one of Canada’s busiest military training bases in Alberta, Canada’s defence minister said on Saturday.“I’m saddened to share that there have been both fatalities and injuries as a result of an incident on the base,” said David McGuinty. The defence minister described the situation at CFB Wainwright as “active and delicate” with the fire being monitored very closely, telling reporters that high winds had worsened the fire. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 147
     },
     {
       "story_id": "story-2",
       "category": "Society",
-      "primary_headline": "West Bank",
+      "primary_headline": "EU condemns attacks by violent settlers, including on diplomats, spokesperson says",
       "primary_source": {
-        "source_name": "AP News",
-        "headline": "West Bank - AP News",
-        "published_at": "Sun, 18 Oct 2026 11:14:32 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBCLUpaZFBGTl81RWtTcFVsUnJGZ19DU1dpd1FKSFpndTlxZGduSmtIWllLcnphNG9LSURuazF2dXkyZGdDR3hB?oc=5",
-        "content": "West Bank&nbsp;&nbsp;AP News"
+        "source_name": "Reuters",
+        "headline": "EU condemns attacks by violent settlers, including on diplomats, spokesperson says - Reuters",
+        "published_at": "Sun, 18 Oct 2026 10:52:10 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcG5pYTJCRkVpNVoxOTVPTVRoNUtwcTBYX2lhZ3ZmMVYxQjRjeG5kMHBHRnlpS1otNzZjWVNyaGJCNjhnU0ROclhuOWYwVGltT19POUY1Z0lOT2pJNDNCSUN0LTFHSkFxUW5iWW91T0ZiOVVTTm42TUpINVc2c1JVbEszT0hBQmhEUU5kemNPbFdqZndpTl9wTG1XeFRxd0JfTXhyam1zSDEzV2hXdWZ3X25xOXY4TkZwWThkLWVXTTBXREpWVFp0eC1XRQ?oc=5",
+        "content": "EU condemns attacks by violent settlers, including on diplomats, spokesperson says&nbsp;&nbsp;Reuters"
       },
       "sources": [
-        {
-          "source_name": "AP News",
-          "headline": "West Bank - AP News",
-          "published_at": "Sun, 18 Oct 2026 11:14:32 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBCLUpaZFBGTl81RWtTcFVsUnJGZ19DU1dpd1FKSFpndTlxZGduSmtIWllLcnphNG9LSURuazF2dXkyZGdDR3hB?oc=5"
-        },
         {
           "source_name": "Reuters",
           "headline": "EU condemns attacks by violent settlers, including on diplomats, spokesperson says - Reuters",
           "published_at": "Sun, 18 Oct 2026 10:52:10 GMT",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcG5pYTJCRkVpNVoxOTVPTVRoNUtwcTBYX2lhZ3ZmMVYxQjRjeG5kMHBHRnlpS1otNzZjWVNyaGJCNjhnU0ROclhuOWYwVGltT19POUY1Z0lOT2pJNDNCSUN0LTFHSkFxUW5iWW91T0ZiOVVTTm42TUpINVc2c1JVbEszT0hBQmhEUU5kemNPbFdqZndpTl9wTG1XeFRxd0JfTXhyam1zSDEzV2hXdWZ3X25xOXY4TkZwWThkLWVXTTBXREpWVFp0eC1XRQ?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "EU condemns attacks by violent settlers, including on diplomats, spokesperson says - Reuters",
+          "published_at": "Sun, 18 Oct 2026 10:52:10 GMT",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQSTl4T2JQWHBSUFBidmNBdHVINjRhMEVUX19yUFpEVkhkWEh0OXZkeThXT3MtOU94c1VLOVJTODlSMDNIdkZBQjRxeXBNSUlSMUpkMXdGdEVGZkIwcnUyc0lHbWpfanZSUUlvYndXZFdBQ2ZqQU53eEU5RW1KSnBwem1ReXBaQl9HRGJxQ2w4UC1reW9jaW1SdnJYbC1vUW03ZzVSUkRPb1dwdWtxM2RJMXRXTXhTbWRCajM5ZGhaU2N6ckFHXzRpQkdpM25yWTBFVHk5UVVCcWxZU3RU?oc=5"
         },
         {
           "source_name": "AP News",
@@ -280,10 +221,10 @@
         }
       ],
       "source_count": 7,
-      "total_count": 16,
-      "combined_score": 8.39,
+      "total_count": 15,
+      "combined_score": 8.09,
       "brief_bullets": [
-        "AP News EU condemns attacks by violent settlers, including on diplomats, spokesperson says Diplomats attacked in the occupied , and other Middle East developments AP News US wants Israel to 'crack down' on settler violence in , Rubio says Lebanon says military delegation will press for halt to Israeli attacks at US talks.",
+        "Diplomats attacked in the occupied West Bank, and other Middle East developments AP News US wants Israel to 'crack down' on settler violence in West Bank, Rubio says Lebanon says military delegation will press for halt to Israeli attacks at US talks.",
         "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
         "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions.",
         "Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments."
@@ -291,8 +232,66 @@
       "why_it_matters_bullets": [
         "Directly impacts regional security balances and humanitarian conditions, testing international ceasefire mediation."
       ],
-      "brief": "AP News EU condemns attacks by violent settlers, including on diplomats, spokesperson says Diplomats attacked in the occupied , and other Middle East developments AP News US wants Israel to 'crack down' on settler violence in , Rubio says Lebanon says military delegation will press for halt to Israeli attacks at US talks. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments. Directly impacts regional security balances and humanitarian conditions, testing international ceasefire mediation.",
-      "brief_word_count": 125
+      "brief": "Diplomats attacked in the occupied West Bank, and other Middle East developments AP News US wants Israel to 'crack down' on settler violence in West Bank, Rubio says Lebanon says military delegation will press for halt to Israeli attacks at US talks. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments. Directly impacts regional security balances and humanitarian conditions, testing international ceasefire mediation.",
+      "brief_word_count": 114
+    },
+    {
+      "story_id": "story-7",
+      "category": "Society",
+      "primary_headline": "Clashes, fires and looting break out as protesters rally across France, joining students",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Clashes, fires and looting break out as protesters rally across France, joining students - AP News",
+        "published_at": "Sat, 17 Oct 2026 19:59:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWmRHbHlmZUhGb2xmVFZXeFBmNTFodEJ3U2xmUkZmZDhzdGR2aTEzTHRXOVRIWmx1REtWbHpGY2NQQUFVSk9PaHY3dFRjSUVqZUM3LURoSWlQQ3dDNlEtMnpmQmY3bVJtZEJWNV9vd0hDczg4OGV3UGJ0QmFWX0xLTHpzQ2c3ME5XcE9PN3Zidl9tV0xESXY5aW9R?oc=5",
+        "content": "Clashes, fires and looting break out as protesters rally across France, joining students&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Clashes, fires and looting break out as protesters rally across France, joining students - AP News",
+          "published_at": "Sat, 17 Oct 2026 19:59:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWmRHbHlmZUhGb2xmVFZXeFBmNTFodEJ3U2xmUkZmZDhzdGR2aTEzTHRXOVRIWmx1REtWbHpGY2NQQUFVSk9PaHY3dFRjSUVqZUM3LURoSWlQQ3dDNlEtMnpmQmY3bVJtZEJWNV9vd0hDczg4OGV3UGJ0QmFWX0xLTHpzQ2c3ME5XcE9PN3Zidl9tV0xESXY5aW9R?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "Violent protests in France as police battle demonstrators, in photos - AP News",
+          "published_at": "Sat, 17 Oct 2026 18:29:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMlplc0tOejE1Q0dfRVlSRG9HWmg5TVdmVGp2cThMeXBfNE5JdU5Oc29KOEtlVk82Z21qRS1maUZaQTI1bmR0TS1kMzBMMUpia1NwUEJXenU3MmY0SlUzS3M4ZUcyQU9UV1VTM2xDOWNCakhqamlnaUxMMl84UlMtTjBadjhWTDdIdjRkVUVrUk5KWFJXcTAxcmhycUhTS3BtUlo4MGNfWVpKRktQOHctWGhvYldZZGtjbmVuQWk1UVYxZw?oc=5"
+        },
+        {
+          "source_name": "NYT",
+          "headline": "France in Shock After Protests Turn Into Riots, Damaging Buildings and Shops",
+          "published_at": "Sun, 18 Oct 2026 15:48:40 +0000",
+          "url": "https://www.nytimes.com/2026/10/18/world/europe/france-protests-shock-arson.html"
+        },
+        {
+          "source_name": "NYT",
+          "headline": "Why Are There Protests in France?",
+          "published_at": "Sun, 18 Oct 2026 15:15:49 +0000",
+          "url": "https://www.nytimes.com/article/france-student-protests-why.html"
+        },
+        {
+          "source_name": "BBC News",
+          "headline": "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting",
+          "published_at": "Sun, 18 Oct 2026 12:07:31 GMT",
+          "url": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "source_count": 7,
+      "total_count": 11,
+      "combined_score": 6.83,
+      "brief_bullets": [
+        "AP News Violent protests in France as police battle demonstrators, in photos AP News After anti-government protests devolved into chaos, leaders from across the political spectrum blamed one another for the unrest, even as it largely subsided on Sunday.",
+        "Rioters attacked city halls and shops over the weekend amid protests over living costs and poor school conditions.",
+        "About 1,800 people were arrested after nationwide protests saw outbreaks of violence and vandalism.",
+        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events."
+      ],
+      "why_it_matters_bullets": [
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+      ],
+      "brief": "AP News Violent protests in France as police battle demonstrators, in photos AP News After anti-government protests devolved into chaos, leaders from across the political spectrum blamed one another for the unrest, even as it largely subsided on Sunday. Rioters attacked city halls and shops over the weekend amid protests over living costs and poor school conditions. About 1,800 people were arrested after nationwide protests saw outbreaks of violence and vandalism. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 109
     },
     {
       "story_id": "story-8",
@@ -341,16 +340,73 @@
       "total_count": 8,
       "combined_score": 5.96,
       "brief_bullets": [
-        "AP News Two killed, including 6-year-old, when truck drives through Kansas youth soccer game, police say Two killed, three-year-old girl injured as Thar rams into scooter in Hayathnagar Wichita police say 34-year-old truck driver from Garden City was taken into custody amid case at youth soccer gameThe two people killed on Saturday when a truck drove through a youth soccer game in north-east Wichita, Kansas, were a six-year-old boy and a 35-year-old man, according to authorities.Eleven other people between the ages of five and 68 were injured in a case whose possible motivations remained unclear early on Sunday, when it was still capturing widespread attention across the US.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
-        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions.",
-        "Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments."
+        "AP News Two killed, including 6-year-old, when truck drives through Kansas youth soccer game, police say Two killed, three-year-old girl injured as Thar rams into scooter in Hayathnagar Wichita police say 34-year-old truck driver from Garden City was taken into custody amid case at youth soccer gameThe two people killed on Saturday when a truck drove through a youth soccer game in north-east Wichita, Kansas, were a six-year-old boy and a 35-year-old man, according to authorities.",
+        "Eleven other people between the ages of five and 68 were injured in a case whose possible motivations remained unclear early on Sunday, when it was still capturing widespread attention across the US.",
+        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events."
       ],
       "why_it_matters_bullets": [
         "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
       ],
-      "brief": "AP News Two killed, including 6-year-old, when truck drives through Kansas youth soccer game, police say Two killed, three-year-old girl injured as Thar rams into scooter in Hayathnagar Wichita police say 34-year-old truck driver from Garden City was taken into custody amid case at youth soccer gameThe two people killed on Saturday when a truck drove through a youth soccer game in north-east Wichita, Kansas, were a six-year-old boy and a 35-year-old man, according to authorities.Eleven other people between the ages of five and 68 were injured in a case whose possible motivations remained unclear early on Sunday, when it was still capturing widespread attention across the US. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 182
+      "brief": "AP News Two killed, including 6-year-old, when truck drives through Kansas youth soccer game, police say Two killed, three-year-old girl injured as Thar rams into scooter in Hayathnagar Wichita police say 34-year-old truck driver from Garden City was taken into custody amid case at youth soccer gameThe two people killed on Saturday when a truck drove through a youth soccer game in north-east Wichita, Kansas, were a six-year-old boy and a 35-year-old man, according to authorities. Eleven other people between the ages of five and 68 were injured in a case whose possible motivations remained unclear early on Sunday, when it was still capturing widespread attention across the US. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 147
+    },
+    {
+      "story_id": "story-9",
+      "category": "Finance",
+      "primary_headline": "Skies over St. Petersburg ignite after Ukraine strikes oil sites",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Skies over St. Petersburg ignite after Ukraine strikes oil sites - Reuters",
+        "published_at": "Sun, 18 Oct 2026 16:21:40 GMT",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05ZUdLTlMzZUFKUENWdTE1NzFEQk92N0FvQmFGaXNfTEUza2wtQXJfNVVZVzVpZUUtRDZVbXdEWHJIS2NqN1N5bnR2Mmc5UzAxSVFSazBMU3ZQRDJ5elBqSm1LallHd0pmQU41V3RObHRBOUJH?oc=5",
+        "content": "Skies over St. Petersburg ignite after Ukraine strikes oil sites&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Skies over St. Petersburg ignite after Ukraine strikes oil sites - Reuters",
+          "published_at": "Sun, 18 Oct 2026 16:21:40 GMT",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05ZUdLTlMzZUFKUENWdTE1NzFEQk92N0FvQmFGaXNfTEUza2wtQXJfNVVZVzVpZUUtRDZVbXdEWHJIS2NqN1N5bnR2Mmc5UzAxSVFSazBMU3ZQRDJ5elBqSm1LallHd0pmQU41V3RObHRBOUJH?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "St Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia - AP News",
+          "published_at": "Sun, 18 Oct 2026 15:33:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPb0JsZHhVNVNkaUhpSndSUTRqNjBFN2dpaktfTUZ4dWxBTkxzQ3I1LW5CRlBQNnR3UmJ5R0JzWGFaenZ5TDg3Qkt2bC05cmpYTlAwZkRSRjBoYlN1elkwelNDNmhPbkhhV1BDT05fWm96V3oxbk5YN09nUkQ2VzlvbTR1YV81Zl9wdzU5WEU1UXN3STc0ZHJlUnhiWUc2dUk?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region - Reuters",
+          "published_at": "Sun, 18 Oct 2026 11:17:23 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORkdkNk9DVENGZU50OHVsbHF4Z3ZWbnBxcHVqaDJSa1JEWXZ5aFVqbTQwWmwzUGpvZUJsTUFzSnZHd2laVHpqd05XaF9KM2YxdUNUSVV0YUp1SFVKbTBRVHNzcVc0ek84cTY5TTVmZGhPbnhzMVJiejFXaDdXV3pBcTZYeEI3QkZrNDlOOWllWFk3ejFfMVdVd3lQUGJMeXBhNW5xTjZJQnBINTVSTjVDUnZKSm1laDdKaEE3eGdoSUtaQQ?oc=5"
+        },
+        {
+          "source_name": "BBC News",
+          "headline": "Oil facilities hit in deadly overnight attack on St Petersburg",
+          "published_at": "Sun, 18 Oct 2026 15:46:10 GMT",
+          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source_name": "The Hindu",
+          "headline": "St. Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia",
+          "published_at": "Sun, 18 Oct 2026 22:21:52 +0530",
+          "url": "https://www.thehindu.com/news/international/st-petersburg-oil-facilities-ablaze-as-ukraine-launches-more-than-1000-drones-at-russia/article71600876.ece"
+        }
+      ],
+      "source_count": 6,
+      "total_count": 7,
+      "combined_score": 5.28,
+      "brief_bullets": [
+        "St Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia AP News One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook.",
+        "A logistics centre belonging to Russian retailer Ozon and a data centre operated by Russian tech giant VK were also targeted, the companies confirmed.",
+        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
+        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions."
+      ],
+      "why_it_matters_bullets": [
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+      ],
+      "brief": "St Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia AP News One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook. A logistics centre belonging to Russian retailer Ozon and a data centre operated by Russian tech giant VK were also targeted, the companies confirmed. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 133
     },
     {
       "story_id": "story-1",
@@ -400,74 +456,13 @@
       "combined_score": 12.3,
       "brief_bullets": [
         "Kolkata Police issue 11-point advisory; CM Adhikari hints at scrapping VIP entries at major pandals Among the 19 dead are 13 females, including two minors; the two other deceased minors are males Kolkata’s Bonedi Bari Durga pujas bring together grand colonial-era architecture, family legacies and heirloom recipes.",
-        "While the city’s pandals draw the biggest crowds, these ancestral homes offer a more intimate glimpse of the festival, following family traditions dating back more than 300 years Durga Puja celebrations mean glitzy pandals, excessive lighting, high-decibel music and many more attractions.But several committees organising the annual Durga Puja in Kokrajhar town in western Assam, the district headquarters of the Bodoland Territorial Region (BTR), have pitched in to adopt the concept of “carbon-neutral” celebrations by planting trees, reducing the use of non-biodegradable items and even lowering the volume of music systems to check sound pollution.A set of dos and don'ts were proposed by the Kokrajhar district administration for nearly 200 Durga Puja committees in the town as part of efforts to popularise the concept of “carbon-neutral” celebrations.“We proposed the idea as part of our efforts to have environmentally responsible festivities while preserving the religious and cultural essence of the festival.",
-        "It is very nice to see that nearly 50 per cent of the committees have responded very positively by significantly reducing the use of plastic items, planting trees and even controlling the volume of music systems,” Kokrajhar District Commissioner Pankaj Chakravarty told DH over the phone on Sunday.",
-        "Kokrajhar is situated about 200 km west of Guwahati.Durga Puja celebrations began on Friday and will continue till Wednesday, following which the Durga idols will be immersed in rivers.With a population of nearly 35,000 (2011 Census), Kokrajhar Municipal town has diverse communities, including Bodos, Bengalis, Assamese, Rabhas, Nepalis, Adivasis, Saranias and others, each peacefully celebrating their own festivals.Lotus theme, red-and-white decor to mark Durga Puja in BengaluruCarbon-neutral celebrationsUnder the concept of “carbon-neutral” celebrations, the district administration proposed several measures, such as encouraging the use of locally available and reusable materials, including bamboo, jute, recycled paper and other environmentally responsible alternatives, for pandals and decorations; promoting idols made from natural clay and other biodegradable materials, with non-toxic colours, to minimise environmental pollution, particularly during immersion; tree plantation; the use of solar energy and LED lights; responsible sound management; and encouraging waste segregation, responsible disposal and recycling, among other measures.“This is an encouraging beginning.",
-        "The drive is resulting in public awareness, with the concept being shared by many on social media platforms."
+        "While the city’s pandals draw the biggest crowds, these ancestral homes offer a more intimate glimpse of the festival, following family traditions dating back more than 300 years Durga Puja celebrations mean glitzy pandals, excessive lighting, high-decibel music and many more attractions."
       ],
       "why_it_matters_bullets": [
         "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
       ],
-      "brief": "Kolkata Police issue 11-point advisory; CM Adhikari hints at scrapping VIP entries at major pandals Among the 19 dead are 13 females, including two minors; the two other deceased minors are males Kolkata’s Bonedi Bari Durga pujas bring together grand colonial-era architecture, family legacies and heirloom recipes. While the city’s pandals draw the biggest crowds, these ancestral homes offer a more intimate glimpse of the festival, following family traditions dating back more than 300 years Durga Puja celebrations mean glitzy pandals, excessive lighting, high-decibel music and many more attractions.But several committees organising the annual Durga Puja in Kokrajhar town in western Assam, the district headquarters of the Bodoland Territorial Region (BTR), have pitched in to adopt the concept of “carbon-neutral” celebrations by planting trees, reducing the use of non-biodegradable items and even lowering the volume of music systems to check sound pollution.A set of dos and don'ts were proposed by the Kokrajhar district administration for nearly 200 Durga Puja committees in the town as part of efforts to popularise the concept of “carbon-neutral” celebrations.“We proposed the idea as part of our efforts to have environmentally responsible festivities while preserving the religious and cultural essence of the festival. It is very nice to see that nearly 50 per cent of the committees have responded very positively by significantly reducing the use of plastic items, planting trees and even controlling the volume of music systems,” Kokrajhar District Commissioner Pankaj Chakravarty told DH over the phone on Sunday. Kokrajhar is situated about 200 km west of Guwahati.Durga Puja celebrations began on Friday and will continue till Wednesday, following which the Durga idols will be immersed in rivers.With a population of nearly 35,000 (2011 Census), Kokrajhar Municipal town has diverse communities, including Bodos, Bengalis, Assamese, Rabhas, Nepalis, Adivasis, Saranias and others, each peacefully celebrating their own festivals.Lotus theme, red-and-white decor to mark Durga Puja in BengaluruCarbon-neutral celebrationsUnder the concept of “carbon-neutral” celebrations, the district administration proposed several measures, such as encouraging the use of locally available and reusable materials, including bamboo, jute, recycled paper and other environmentally responsible alternatives, for pandals and decorations; promoting idols made from natural clay and other biodegradable materials, with non-toxic colours, to minimise environmental pollution, particularly during immersion; tree plantation; the use of solar energy and LED lights; responsible sound management; and encouraging waste segregation, responsible disposal and recycling, among other measures.“This is an encouraging beginning. The drive is resulting in public awareness, with the concept being shared by many on social media platforms. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 429
-    },
-    {
-      "story_id": "story-9",
-      "category": "Finance",
-      "primary_headline": "Skies over St. Petersburg ignite after Ukraine strikes oil sites",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Skies over St. Petersburg ignite after Ukraine strikes oil sites - Reuters",
-        "published_at": "Sun, 18 Oct 2026 16:21:40 GMT",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05ZUdLTlMzZUFKUENWdTE1NzFEQk92N0FvQmFGaXNfTEUza2wtQXJfNVVZVzVpZUUtRDZVbXdEWHJIS2NqN1N5bnR2Mmc5UzAxSVFSazBMU3ZQRDJ5elBqSm1LallHd0pmQU41V3RObHRBOUJH?oc=5",
-        "content": "Skies over St. Petersburg ignite after Ukraine strikes oil sites&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "Skies over St. Petersburg ignite after Ukraine strikes oil sites - Reuters",
-          "published_at": "Sun, 18 Oct 2026 16:21:40 GMT",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05ZUdLTlMzZUFKUENWdTE1NzFEQk92N0FvQmFGaXNfTEUza2wtQXJfNVVZVzVpZUUtRDZVbXdEWHJIS2NqN1N5bnR2Mmc5UzAxSVFSazBMU3ZQRDJ5elBqSm1LallHd0pmQU41V3RObHRBOUJH?oc=5"
-        },
-        {
-          "source_name": "AP News",
-          "headline": "St Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia - AP News",
-          "published_at": "Sun, 18 Oct 2026 15:33:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPb0JsZHhVNVNkaUhpSndSUTRqNjBFN2dpaktfTUZ4dWxBTkxzQ3I1LW5CRlBQNnR3UmJ5R0JzWGFaenZ5TDg3Qkt2bC05cmpYTlAwZkRSRjBoYlN1elkwelNDNmhPbkhhV1BDT05fWm96V3oxbk5YN09nUkQ2VzlvbTR1YV81Zl9wdzU5WEU1UXN3STc0ZHJlUnhiWUc2dUk?oc=5"
-        },
-        {
-          "source_name": "Reuters",
-          "headline": "One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region - Reuters",
-          "published_at": "Sun, 18 Oct 2026 11:17:23 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORkdkNk9DVENGZU50OHVsbHF4Z3ZWbnBxcHVqaDJSa1JEWXZ5aFVqbTQwWmwzUGpvZUJsTUFzSnZHd2laVHpqd05XaF9KM2YxdUNUSVV0YUp1SFVKbTBRVHNzcVc0ek84cTY5TTVmZGhPbnhzMVJiejFXaDdXV3pBcTZYeEI3QkZrNDlOOWllWFk3ejFfMVdVd3lQUGJMeXBhNW5xTjZJQnBINTVSTjVDUnZKSm1laDdKaEE3eGdoSUtaQQ?oc=5"
-        },
-        {
-          "source_name": "BBC News",
-          "headline": "Oil facilities hit in deadly overnight attack on St Petersburg",
-          "published_at": "Sun, 18 Oct 2026 15:46:10 GMT",
-          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "Ukraine Fires 1,000 Drones At Russia, St Petersburg Oil Sites Ablaze",
-          "published_at": "Sun, 18 Oct 2026 17:00:19 +0530",
-          "url": "https://www.ndtv.com/world-news/ukraine-fires-1-000-drones-at-russia-st-petersburg-oil-sites-ablaze-12202700#publisher=newsstand"
-        }
-      ],
-      "source_count": 5,
-      "total_count": 6,
-      "combined_score": 4.45,
-      "brief_bullets": [
-        "St Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia AP News One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook.",
-        "The attack comes amid deepening tensions between Ukraine and Washington, with U.S.",
-        "President Donald Trump criticizing Kyiv for its strikes on Russian oil infrastructure.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events."
-      ],
-      "why_it_matters_bullets": [
-        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
-      ],
-      "brief": "St Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia AP News One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook. The attack comes amid deepening tensions between Ukraine and Washington, with U.S. President Donald Trump criticizing Kyiv for its strikes on Russian oil infrastructure. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 115
+      "brief": "Kolkata Police issue 11-point advisory; CM Adhikari hints at scrapping VIP entries at major pandals Among the 19 dead are 13 females, including two minors; the two other deceased minors are males Kolkata’s Bonedi Bari Durga pujas bring together grand colonial-era architecture, family legacies and heirloom recipes. While the city’s pandals draw the biggest crowds, these ancestral homes offer a more intimate glimpse of the festival, following family traditions dating back more than 300 years Durga Puja celebrations mean glitzy pandals, excessive lighting, high-decibel music and many more attractions. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
+      "brief_word_count": 103
     },
     {
       "story_id": "story-10",
@@ -476,7 +471,7 @@
       "primary_source": {
         "source_name": "Reuters",
         "headline": "Trump endorses Netanyahu in Israeli election - Reuters",
-        "published_at": "Sun, 18 Oct 2026 16:03:44 GMT",
+        "published_at": "Sun, 18 Oct 2026 16:10:37 GMT",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeXNEX0FibmplMGVhLVA1TDdESTEzdk9PR1JYNWtsQzJkTG5ER1lrMkhfV05saHNXYndlOXFxdFJONU4zOEZhZUdtXzR0WGpVSHBuLUUyOExTWHktR3AtMjlnU08yNXpaUWFVOXE1Q3dNaDFkZG4yT0JFMmlkYzdvTXFudjFQOF9rcFBaM0VBbjBaOFQ5bndSNS1fZw?oc=5",
         "content": "Trump endorses Netanyahu in Israeli election&nbsp;&nbsp;Reuters"
       },
@@ -484,7 +479,7 @@
         {
           "source_name": "Reuters",
           "headline": "Trump endorses Netanyahu in Israeli election - Reuters",
-          "published_at": "Sun, 18 Oct 2026 16:03:44 GMT",
+          "published_at": "Sun, 18 Oct 2026 16:10:37 GMT",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeXNEX0FibmplMGVhLVA1TDdESTEzdk9PR1JYNWtsQzJkTG5ER1lrMkhfV05saHNXYndlOXFxdFJONU4zOEZhZUdtXzR0WGpVSHBuLUUyOExTWHktR3AtMjlnU08yNXpaUWFVOXE1Q3dNaDFkZG4yT0JFMmlkYzdvTXFudjFQOF9rcFBaM0VBbjBaOFQ5bndSNS1fZw?oc=5"
         },
         {
@@ -516,16 +511,13 @@
       "total_count": 5,
       "combined_score": 4.06,
       "brief_bullets": [
-        "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection AP News Washington: US President Donald Trump endorsed his ally Benjamin Netanyahu on Sunday for the upcoming Israeli parliamentary election.\"Bibi Netanyahu has been Strong, Brave, and Brilliant in the face of tremendous opposition, including that coming from even Israel, itself,\" Trump wrote in a post on Truth Social.\"This is the kind of Partner that the United States of America is demanding of Israel, a Country for which it has done so much.",
-        "Please let this Letter serve to represent my Complete and Total Endorsement of Bibi Netanyahu in his upcoming Race for Re-Election as Prime Minister of Israel.\"Irrespective of Netanyahu's political fate, India-Israel ties on terra firmaIsrael will hold a national election on October 27, its first vote since the Hamas attack on October 7, 2023 that shook the country and plunged the Middle East into turmoil, as Israel went to war in Gaza, Lebanon and Iran.The election could determine whether Netanyahu remains in power after one of the most consequential periods in Israel’s history, or is defeated by centrist rivals promising to usher in a new era.",
-        "Nine days before Israeli elections, Trump finally endorses Netanyahu CNN World Live News Updates: Trump endorses Israeli Prime Minister Benjamin Netanyahu for reelection.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events."
+        "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection AP News Washington: US President Donald Trump endorsed his ally Benjamin Netanyahu on Sunday for the upcoming Israeli parliamentary election.\"Bibi Netanyahu has been Strong, Brave, and Brilliant in the face of tremendous opposition, including that coming from even Israel, itself,\" Trump wrote in a post on Truth Social.\"This is the kind of Partner that the United States of America is demanding of Israel, a Country for which it has done so much."
       ],
       "why_it_matters_bullets": [
         "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
       ],
-      "brief": "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection AP News Washington: US President Donald Trump endorsed his ally Benjamin Netanyahu on Sunday for the upcoming Israeli parliamentary election.\"Bibi Netanyahu has been Strong, Brave, and Brilliant in the face of tremendous opposition, including that coming from even Israel, itself,\" Trump wrote in a post on Truth Social.\"This is the kind of Partner that the United States of America is demanding of Israel, a Country for which it has done so much. Please let this Letter serve to represent my Complete and Total Endorsement of Bibi Netanyahu in his upcoming Race for Re-Election as Prime Minister of Israel.\"Irrespective of Netanyahu's political fate, India-Israel ties on terra firmaIsrael will hold a national election on October 27, its first vote since the Hamas attack on October 7, 2023 that shook the country and plunged the Middle East into turmoil, as Israel went to war in Gaza, Lebanon and Iran.The election could determine whether Netanyahu remains in power after one of the most consequential periods in Israel’s history, or is defeated by centrist rivals promising to usher in a new era. Nine days before Israeli elections, Trump finally endorses Netanyahu CNN World Live News Updates: Trump endorses Israeli Prime Minister Benjamin Netanyahu for reelection. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 251
+      "brief": "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection AP News Washington: US President Donald Trump endorsed his ally Benjamin Netanyahu on Sunday for the upcoming Israeli parliamentary election.\"Bibi Netanyahu has been Strong, Brave, and Brilliant in the face of tremendous opposition, including that coming from even Israel, itself,\" Trump wrote in a post on Truth Social.\"This is the kind of Partner that the United States of America is demanding of Israel, a Country for which it has done so much. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 98
     },
     {
       "story_id": "story-11",
@@ -586,6 +578,63 @@
       "brief_word_count": 98
     },
     {
+      "story_id": "story-3",
+      "category": "Society",
+      "primary_headline": "'If actors & leaders not safe, then what about citizens?': Firing at Tiger Shroff’s car makes Oppn question Maharashtra govt over law and order",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "'If actors & leaders not safe, then what about citizens?': Firing at Tiger Shroff’s car makes Oppn question Maharashtra govt over law and order",
+        "published_at": "Sun, 18 Oct 2026 17:00:15 +0000",
+        "url": "https://www.deccanherald.com/india/maharashtra/if-actors-leaders-not-safe-then-what-about-citizens-firing-at-tiger-shroffs-car-makes-oppn-question-maharashtra-govt-over-law-and-order-4187446",
+        "content": " Mumbai: The Opposition on Sunday criticised the Maharashtra government over the firing incident involving Bollywood actor Tiger Shroff’s car in Mumbai, alleging that law and order in the city and state had deteriorated.In a post on X, Congress leader Sachin Sawant said Mumbai appeared to be in the grip of chaos and accused Chief Minister Devendra Fadnavis, who also heads the Home Department, of failing to maintain law and order.Referring to the murder of former Maharashtra minister Baba Siddique, the firing outside actor Salman Khan’s residence and threats to actors and film producers, Sawant questioned the state government’s efforts to rein in anti-social elements.Fadnavis speaks to Tiger Shroff, asks Mumbai Police commissioner to nab actor's assailants quicklyHe said the situation had reached a point where people who had earlier compared Maharashtra with Bihar were now saying that even Bihar was better.According to police, actor Tiger Shroff escaped unhurt after gunmen opened fire at his car in Mumbai’s Juhu area on Sunday evening. His driver and an autorickshaw driver were injured in the incident, police said.Mumbai Congress president Varsha Gaikwad demanded that Maharashtra have a separate home minister, blaming Fadnavis for the situation.मुंबईत कायदा आणि सुव्यवस्थेचे धिंडवडे!आधी सलमान खानच्या घराबाहेर गोळीबार, त्यानंतर बाबा सिद्दीकी यांची हत्या आणि आता अभिनेता टायगर श्रॉफवर गोळीबार झाल्याची बातमी!मुंबईसारख्या देशाच्या आर्थिक राजधानीत एकापाठोपाठ एक अशा घटना घडत असतील, तर मुंबईकरांच्या सुरक्षेची जबाबदारी नेमकी…&amp;mdash; Prof. Varsha Eknath Gaikwad (@VarshaEGaikwad) October 18, 2026\n \n\n“Does Mumbai have law and order? Does the police still command the same authority and respect as before? Are criminals afraid of the police?” she asked in a video statement.The Lok Sabha member said the Congress had consistently demanded that Maharashtra have a separate home minister.“If actors and political leaders are not safe, what can we say about the safety of ordinary citizens?” she asked.NCP (SP) MLA Rohit Pawar said the incident came days after the recent killing of Shiv Sena (UBT) leader Pradeep Purnekar in Thane.The firing incident involving the actor’s car was alarming, although the actor escaped unhurt, Pawar said.He also said such incidents, including the firing outside the Juhu residence of filmmaker Rohit Shetty, in Mumbai, the country’s financial capital, could undermine investor confidence.Pawar said the home portfolio should be handed over to a “competent minister” if the situation had become difficult to handle.The incident took place near Pushpa Park under Juhu police station limits in the western suburb, and the chain of events leading to the incident is being pieced together, an official said.\"Shroff is safe and has not sustained any injuries in the firing incident,\" the official reiterated."
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "'If actors & leaders not safe, then what about citizens?': Firing at Tiger Shroff’s car makes Oppn question Maharashtra govt over law and order",
+          "published_at": "Sun, 18 Oct 2026 17:00:15 +0000",
+          "url": "https://www.deccanherald.com/india/maharashtra/if-actors-leaders-not-safe-then-what-about-citizens-firing-at-tiger-shroffs-car-makes-oppn-question-maharashtra-govt-over-law-and-order-4187446"
+        },
+        {
+          "source_name": "The Hindu",
+          "headline": "Actor Tiger Shroff escapes unhurt in Juhu firing incident; suspect detained",
+          "published_at": "Sun, 18 Oct 2026 22:22:35 +0530",
+          "url": "https://www.thehindu.com/news/cities/mumbai/tiger-shroff-firing-in-mumbai-juhu-october-18-2026/article71600449.ece"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Fadnavis speaks to Tiger Shroff, asks Mumbai Police commissioner to nab actor's assailants quickly",
+          "published_at": "Sun, 18 Oct 2026 16:46:56 +0000",
+          "url": "https://www.deccanherald.com/india/maharashtra/fadnavis-speaks-to-tiger-shroff-asks-mumbai-police-commissioner-to-nab-actors-assailants-quickly-4187484"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "‘Last warning’: Gangster Anil Pandit claims Tiger Shroff firing, warns Salman Khan",
+          "published_at": "Sun, 18 Oct 2026 16:33:23 +0000",
+          "url": "https://indianexpress.com/article/india/bollywood-tiger-shroff-car-firing-anil-pandit-lawrence-bishnoi-salman-khan-threat-juhu-10927157/"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Tiger Shroff firing: Why the Bishnoi gang claims attacks with screenshots",
+          "published_at": "Sun, 18 Oct 2026 16:24:15 +0000",
+          "url": "https://indianexpress.com/article/cities/mumbai/tiger-shroff-shot-bishnoi-gang-attack-claim-screenshot-10927159/"
+        }
+      ],
+      "source_count": 4,
+      "total_count": 19,
+      "combined_score": 7.79,
+      "brief_bullets": [
+        "Mumbai: The Opposition on Sunday criticised the Maharashtra government over the firing incident involving Bollywood actor Tiger Shroff’s car in Mumbai, alleging that law and order in the city and state had deteriorated.",
+        "In a post on X, Congress leader Sachin Sawant said Mumbai appeared to be in the grip of chaos and accused Chief Minister Devendra Fadnavis, who also heads the Home Department, of failing to maintain law and order.",
+        "Referring to the murder of former Maharashtra minister Baba Siddique, the firing outside actor Salman Khan’s residence and threats to actors and film producers, Sawant questioned the state government’s efforts to rein in anti-social elements."
+      ],
+      "why_it_matters_bullets": [
+        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
+      ],
+      "brief": "Mumbai: The Opposition on Sunday criticised the Maharashtra government over the firing incident involving Bollywood actor Tiger Shroff’s car in Mumbai, alleging that law and order in the city and state had deteriorated. In a post on X, Congress leader Sachin Sawant said Mumbai appeared to be in the grip of chaos and accused Chief Minister Devendra Fadnavis, who also heads the Home Department, of failing to maintain law and order. Referring to the murder of former Maharashtra minister Baba Siddique, the firing outside actor Salman Khan’s residence and threats to actors and film producers, Sawant questioned the state government’s efforts to rein in anti-social elements. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
+      "brief_word_count": 120
+    },
+    {
       "story_id": "story-12",
       "category": "Society",
       "primary_headline": "Chwalinska outwits Kartal to win Wuhan Open",
@@ -633,28 +682,34 @@
       "combined_score": 3.83,
       "brief_bullets": [
         "Injured Swiatek goes down fighting in Wuhan Open semi-final Britain's Sonay Kartal fades from a strong position in a gripping Wuhan Open final against Grand Slam runner-up Maja Chwalinska.",
-        "French Open finalist wins 2-6, 6-4, 6-4 for her first titleKartal will become new British No 1 after record runSonay Kartal missed out on winning the biggest title of her career as her brilliant run at the Wuhan Open ended in a final defeat by Maja Chwalinska.Kartal has enjoyed her best tournament only a fortnight after returning from six months out with a back injury, but her efforts appeared to catch up with her as she faded in a 2-6, 6-4, 6-2 loss.",
-        "Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures.",
-        "Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum."
+        "French Open finalist wins 2-6, 6-4, 6-4 for her first titleKartal will become new British No 1 after record runSonay Kartal missed out on winning the biggest title of her career as her brilliant run at the Wuhan Open ended in a final defeat by Maja Chwalinska.",
+        "Kartal has enjoyed her best tournament only a fortnight after returning from six months out with a back injury, but her efforts appeared to catch up with her as she faded in a 2-6, 6-4, 6-2 loss.",
+        "Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures."
       ],
       "why_it_matters_bullets": [
         "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "brief": "Injured Swiatek goes down fighting in Wuhan Open semi-final Britain's Sonay Kartal fades from a strong position in a gripping Wuhan Open final against Grand Slam runner-up Maja Chwalinska. French Open finalist wins 2-6, 6-4, 6-4 for her first titleKartal will become new British No 1 after record runSonay Kartal missed out on winning the biggest title of her career as her brilliant run at the Wuhan Open ended in a final defeat by Maja Chwalinska.Kartal has enjoyed her best tournament only a fortnight after returning from six months out with a back injury, but her efforts appeared to catch up with her as she faded in a 2-6, 6-4, 6-2 loss. Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures. Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 156
+      "brief": "Injured Swiatek goes down fighting in Wuhan Open semi-final Britain's Sonay Kartal fades from a strong position in a gripping Wuhan Open final against Grand Slam runner-up Maja Chwalinska. French Open finalist wins 2-6, 6-4, 6-4 for her first titleKartal will become new British No 1 after record runSonay Kartal missed out on winning the biggest title of her career as her brilliant run at the Wuhan Open ended in a final defeat by Maja Chwalinska. Kartal has enjoyed her best tournament only a fortnight after returning from six months out with a back injury, but her efforts appeared to catch up with her as she faded in a 2-6, 6-4, 6-2 loss. Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 142
     },
     {
       "story_id": "story-13",
       "category": "Society",
-      "primary_headline": "Bachmeier leads winning drive, No. 8 BYU outlasts No. 2 Notre Dame 28-24 but Big 12 admits mistake",
+      "primary_headline": "Notre Dame Fighting Irish football",
       "primary_source": {
         "source_name": "AP News",
-        "headline": "Bachmeier leads winning drive, No. 8 BYU outlasts No. 2 Notre Dame 28-24 but Big 12 admits mistake - AP News",
-        "published_at": "Sun, 18 Oct 2026 14:01:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdTNMNzhmdWZzQm1iZmVKTFVfNVlzRUtaRVhILTFOR3RFTjBSeUtKbHg0cXoza29NczFQcU5PYVJ6dkQ3bDc4SU4za21udG5EWFVmb1ZjWVNvNjUyVjFRdFNQSjZSQ0xNMENBb3l6ZEVwX3hGUE0wLTdhWU9ONkJxS3pBaE9FRWNwbUdIQVlnVy1wcHc?oc=5",
-        "content": "Bachmeier leads winning drive, No. 8 BYU outlasts No. 2 Notre Dame 28-24 but Big 12 admits mistake&nbsp;&nbsp;AP News"
+        "headline": "Notre Dame Fighting Irish football - AP News",
+        "published_at": "Sun, 18 Oct 2026 15:36:07 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UeWxEaUZpcUFQaG5jYlNDcDhtRHhXcjhaYVd5cVp1a2NjZkxWdzFyQWRJWFljT2RDRUpMa0ZjN05MVHI0OXNuS0FpUG1ZVjQ1OWVJWm5GUW9lb3hnaHc3SjRPSDVUb25Y?oc=5",
+        "content": "Notre Dame Fighting Irish football&nbsp;&nbsp;AP News"
       },
       "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Notre Dame Fighting Irish football - AP News",
+          "published_at": "Sun, 18 Oct 2026 15:36:07 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UeWxEaUZpcUFQaG5jYlNDcDhtRHhXcjhaYVd5cVp1a2NjZkxWdzFyQWRJWFljT2RDRUpMa0ZjN05MVHI0OXNuS0FpUG1ZVjQ1OWVJWm5GUW9lb3hnaHc3SjRPSDVUb25Y?oc=5"
+        },
         {
           "source_name": "AP News",
           "headline": "Bachmeier leads winning drive, No. 8 BYU outlasts No. 2 Notre Dame 28-24 but Big 12 admits mistake - AP News",
@@ -678,149 +733,26 @@
           "headline": "France's Limoges Town Hall Survived World Wars, Now Destroyed In Clashes",
           "published_at": "Sun, 18 Oct 2026 07:42:59 +0530",
           "url": "https://www.ndtv.com/world-news/france-protest-limoges-town-hall-survived-world-wars-destroyed-in-clashes-paris-riots-cost-of-living-12201101#publisher=newsstand"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "50 detained in Karnataka over anti-SIR protest at Town Hall",
-          "published_at": "Sat, 17 Oct 2026 23:47:41 +0000",
-          "url": "https://indianexpress.com/article/cities/bangalore/detained-in-karnataka-over-anti-sir-protest-10926303/"
         }
       ],
       "source_count": 4,
-      "total_count": 5,
-      "combined_score": 3.5,
+      "total_count": 6,
+      "combined_score": 3.8,
       "brief_bullets": [
-        "AP News In France's Limoges, the fire-ravaged town hall rekindles memories of Notre Dame Red-zone failures cost No.",
+        "AP News Bachmeier leads winning drive, No.",
+        "8 BYU outlasts No.",
+        "2 Notre Dame 28-24 but Big 12 admits mistake AP News In France's Limoges, the fire-ravaged town hall rekindles memories of Notre Dame Red-zone failures cost No.",
         "2 Notre Dame against No.",
-        "8 BYU AP News The one in the city of Limoges -- more than 140 years old -- was largely destroyed by a blaze set by masked protesters who broke in.",
-        "50 detained in Karnataka over anti-SIR protest at Town Hall."
+        "8 BYU AP News The one in the city of Limoges -- more than 140 years old -- was largely destroyed by a blaze set by masked protesters who broke in."
       ],
       "why_it_matters_bullets": [
         "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "brief": "AP News In France's Limoges, the fire-ravaged town hall rekindles memories of Notre Dame Red-zone failures cost No. 2 Notre Dame against No. 8 BYU AP News The one in the city of Limoges -- more than 140 years old -- was largely destroyed by a blaze set by masked protesters who broke in. 50 detained in Karnataka over anti-SIR protest at Town Hall. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 77
+      "brief": "AP News Bachmeier leads winning drive, No. 8 BYU outlasts No. 2 Notre Dame 28-24 but Big 12 admits mistake AP News In France's Limoges, the fire-ravaged town hall rekindles memories of Notre Dame Red-zone failures cost No. 2 Notre Dame against No. 8 BYU AP News The one in the city of Limoges -- more than 140 years old -- was largely destroyed by a blaze set by masked protesters who broke in. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 87
     },
     {
-      "story_id": "story-7",
-      "category": "Society",
-      "primary_headline": "‘Last warning’: Gangster Anil Pandit claims Tiger Shroff firing, warns Salman Khan",
-      "primary_source": {
-        "source_name": "The Indian Express",
-        "headline": "‘Last warning’: Gangster Anil Pandit claims Tiger Shroff firing, warns Salman Khan",
-        "published_at": "Sun, 18 Oct 2026 16:33:23 +0000",
-        "url": "https://indianexpress.com/article/india/bollywood-tiger-shroff-car-firing-anil-pandit-lawrence-bishnoi-salman-khan-threat-juhu-10927157/",
-        "content": "Pandit, a native of Haryana's Panipat, is believed to have travelled to the United States via the dunki route in 2024 and begun working for the Bishnoi gang, according to a source."
-      },
-      "sources": [
-        {
-          "source_name": "The Indian Express",
-          "headline": "‘Last warning’: Gangster Anil Pandit claims Tiger Shroff firing, warns Salman Khan",
-          "published_at": "Sun, 18 Oct 2026 16:33:23 +0000",
-          "url": "https://indianexpress.com/article/india/bollywood-tiger-shroff-car-firing-anil-pandit-lawrence-bishnoi-salman-khan-threat-juhu-10927157/"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Tiger Shroff firing: Why the Bishnoi gang claims attacks with screenshots",
-          "published_at": "Sun, 18 Oct 2026 16:24:15 +0000",
-          "url": "https://indianexpress.com/article/cities/mumbai/tiger-shroff-shot-bishnoi-gang-attack-claim-screenshot-10927159/"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "\"I Saw Blood Spots\": Actor Karan Veer Mehra To NDTV On Tiger Shroff Shooting",
-          "published_at": "Sun, 18 Oct 2026 21:46:08 +0530",
-          "url": "https://www.ndtv.com/india-news/i-was-standing-right-behind-tiger-shroff-actor-karan-veer-mehra-to-ndtv-on-shooting-12203387#publisher=newsstand"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "Gunshot Video Emerges After Tiger Shroff Assassination Attempt In Mumbai",
-          "published_at": "Sun, 18 Oct 2026 21:45:58 +0530",
-          "url": "https://www.ndtv.com/india-news/tiger-shot-firing-salman-khan-lawrence-bishnoi-gunshot-video-emerges-after-tiger-shroff-assassination-attempt-in-mumbai-12203458#publisher=newsstand"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "Tiger Shroff Escapes Assassination Bid In Mumbai, Bishnoi Gang Claims Responsibility, 1 Detained",
-          "published_at": "Sun, 18 Oct 2026 21:42:43 +0530",
-          "url": "https://www.ndtv.com/india-news/three-men-open-fire-near-tiger-shroff-in-mumbais-juhu-area-actor-safe-12203238#publisher=newsstand"
-        }
-      ],
-      "source_count": 3,
-      "total_count": 16,
-      "combined_score": 6.39,
-      "brief_bullets": [
-        "Pandit, a native of Haryana's Panipat, is believed to have travelled to the United States via the dunki route in 2024 and begun working for the Bishnoi gang, according to a source.",
-        "Within moments of the firing on Tiger Shroff’s car, a screenshot claiming responsibility surfaced, and the account behind it was already gone.",
-        "Police sources say that’s no accident.",
-        "Mehra, who plays football with Tiger Shroff in Mumbai's Juhu, said he could not see the attackers.",
-        "At least four gunshots can be heard in the video, although investigators have yet to establish the exact number of rounds fired or how many firearms were used in the incident."
-      ],
-      "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
-      ],
-      "brief": "Pandit, a native of Haryana's Panipat, is believed to have travelled to the United States via the dunki route in 2024 and begun working for the Bishnoi gang, according to a source. Within moments of the firing on Tiger Shroff’s car, a screenshot claiming responsibility surfaced, and the account behind it was already gone. Police sources say that’s no accident. Mehra, who plays football with Tiger Shroff in Mumbai's Juhu, said he could not see the attackers. At least four gunshots can be heard in the video, although investigators have yet to establish the exact number of rounds fired or how many firearms were used in the incident. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 122
-    },
-    {
-      "story_id": "story-14",
-      "category": "Technology",
-      "primary_headline": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict - Reuters",
-        "published_at": "Sun, 18 Oct 2026 14:31:31 GMT",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUsxbVVqQ0FFUl81U25IbG1NaXhrNzFqZzIzaFpRUVhKbF9rYlZoMXg1Z3NzYjR1TEtkeHNCU1BrOWs4ZXR5VHFqMTBoX3VjSV9FRV9neGVDSkdUNWIxMlNhZWRJbldocDM5Q2hiMXYxUXpHVUJqWkkyOEF5OGNBNWduQXFPMXp6VXhYRjUyNmsxaV9pbXJhS29uVGh6Tm51emp4S3YtdmI5c21HZE9HeFkycENlNGxHRUlJd29YWkxwRF85eXc?oc=5",
-        "content": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict - Reuters",
-          "published_at": "Sun, 18 Oct 2026 14:31:31 GMT",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUsxbVVqQ0FFUl81U25IbG1NaXhrNzFqZzIzaFpRUVhKbF9rYlZoMXg1Z3NzYjR1TEtkeHNCU1BrOWs4ZXR5VHFqMTBoX3VjSV9FRV9neGVDSkdUNWIxMlNhZWRJbldocDM5Q2hiMXYxUXpHVUJqWkkyOEF5OGNBNWduQXFPMXp6VXhYRjUyNmsxaV9pbXJhS29uVGh6Tm51emp4S3YtdmI5c21HZE9HeFkycENlNGxHRUlJd29YWkxwRF85eXc?oc=5"
-        },
-        {
-          "source_name": "Reuters",
-          "headline": "Oil lifts Saudi bourse; Egypt tumbles on regional tensions - Reuters",
-          "published_at": "Sun, 18 Oct 2026 13:51:43 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdkJ2LXpMXzV0dEQ2b1NYcm9XT1FZMTUyZUlVQlZaZ2RYNFhvVFlnVFRJM1RJTU5CNzlDNVdKTmtzX2E0S0xvV2h6UEpOWFJtUlNGczZxeGR4a2NYQlU5NktIN0JQbE54SlRaS3QzRVVvWUdSRGpqWmNYWXlQSWtMbkM2R3lnRWtERTVLcTNadXMwbGxVQm9GXzVLRmVpZDY1OFFDVmI1ZlM3cGVZ?oc=5"
-        },
-        {
-          "source_name": "The Hindu",
-          "headline": "Air India and AI Express cancel Saudi Arabia flights till Oct. 24",
-          "published_at": "Sun, 18 Oct 2026 22:00:17 +0530",
-          "url": "https://www.thehindu.com/news/national/air-india-and-ai-express-cancel-saudi-arabia-flights-till-oct-24/article71595997.ece"
-        },
-        {
-          "source_name": "Deccan Herald",
-          "headline": "India asks its nationals in Saudi Arabia to take 'due precautions' in fresh advisory",
-          "published_at": "Sun, 18 Oct 2026 16:17:58 +0000",
-          "url": "https://www.deccanherald.com/world/middle-east/india-asks-its-nationals-in-saudi-arabia-to-take-due-precautions-in-fresh-advisory-4187413"
-        },
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Dhaka seeks explanation from Saudi Arabia over execution of 2 Bangladeshis",
-          "published_at": "Sun, 18 Oct 2026 16:13:36 +0000",
-          "url": "https://www.deccanherald.com/world/rest-of-world/dhaka-seeks-explanation-from-saudi-arabia-over-execution-of-2-bangladeshis-4187373"
-        }
-      ],
-      "source_count": 3,
-      "total_count": 5,
-      "combined_score": 3.2,
-      "brief_bullets": [
-        "Oil lifts Saudi bourse; Egypt tumbles on regional tensions Earlier this week, IndiGo and Akasa Air had also announced the cancellation of their services to Saudi Arabian cities Dubai: India on Sunday issued a fresh advisory for its nationals in Saudi Arabia, asking them to take \"due precautions\" amid heightened security concerns following strikes by Iran-backed Houthi rebels.The Indian Embassy in Riyadh advised the Indian Community \"to take due precautions under the prevailing situation,\" in a social media post on Sunday.\"In case of an aerial attack, immediately proceed to the nearest safe place (inside a building or an interior room away from windows), and refrain from filming, publishing, or sharing any information, photos, or videos related to the ongoing events,\" the Indian mission said.The fresh advisory came amid heightened security concerns following drone and missile attacks by Yemen's Houthi rebels on Saudi Arabia, including a deadly strike on Riyadh's King Khalid International Airport on October 10.The attack killed an Indian national and injured several others, prompting the Indian Embassy to reiterate its safety advisory.The Indian mission informed that its officials continue to visit hospitals where injured Indian nationals are receiving medical treatment, and are in constant touch with their families and providing necessary assistance.It said Riyadh’s international airport remained closed to flight operations, while airports in Dammam, Jeddah and Medina remained operational, although some disruptions continued.Indian carriers have extended the suspension of flights to and from Saudi Arabia, it said.Air India, Air India Express, and IndiGo have suspended flights until Oct 24, on all routes.",
-        "Akasa Air has suspended flights until Oct 27, on all routes, the Indian mission informed.Saudia: Scheduled flights to India from Dammam, Jeddah and Medina are available.",
-        "Flynas, Dammam–Delhi and Dammam–Mumbai flights (Oct 17–24) are available along with scheduled Dammam–Lucknow services.",
-        "Flyadeal Dammam–Mumbai flights on Oct 17–18 are also available.\"Indian nationals requiring urgent departure may consider transiting via Bahrain, Kuwait, or Qatar, subject to obtaining the necessary visas,\" the Indian mission said.India asks its nationals in Saudi Arabia to follow safety directives amid security concernsThe embassy asked Indian nationals planning to travel to Saudi Arabia, including for Umrah, to take into account ongoing disruptions at Saudi airports and the possibility of flight cancellations, which may result in extended stays.\"In case of queries, 24x7 control rooms of the Embassy and Consulate may be contacted,\" it said./ , ➡️ The Indian Community in Saudi Arabia is advised to take due precautions under the prevailing situation.",
-        "In case of an aerial attack, immediately proceed to the nearest safe place (inside a building… pic.twitter.com/yOsHTdzocJ&mdash; India in Saudi Arabia (@IndianEmbRiyadh) October 18, 2026 Embassy of India, Riyadh can be contacted on Telephone: +966-554412016; +966-542126784 and toll-free number 8002471234 within KSA only."
-      ],
-      "why_it_matters_bullets": [
-        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
-      ],
-      "brief": "Oil lifts Saudi bourse; Egypt tumbles on regional tensions Earlier this week, IndiGo and Akasa Air had also announced the cancellation of their services to Saudi Arabian cities Dubai: India on Sunday issued a fresh advisory for its nationals in Saudi Arabia, asking them to take \"due precautions\" amid heightened security concerns following strikes by Iran-backed Houthi rebels.The Indian Embassy in Riyadh advised the Indian Community \"to take due precautions under the prevailing situation,\" in a social media post on Sunday.\"In case of an aerial attack, immediately proceed to the nearest safe place (inside a building or an interior room away from windows), and refrain from filming, publishing, or sharing any information, photos, or videos related to the ongoing events,\" the Indian mission said.The fresh advisory came amid heightened security concerns following drone and missile attacks by Yemen's Houthi rebels on Saudi Arabia, including a deadly strike on Riyadh's King Khalid International Airport on October 10.The attack killed an Indian national and injured several others, prompting the Indian Embassy to reiterate its safety advisory.The Indian mission informed that its officials continue to visit hospitals where injured Indian nationals are receiving medical treatment, and are in constant touch with their families and providing necessary assistance.It said Riyadh’s international airport remained closed to flight operations, while airports in Dammam, Jeddah and Medina remained operational, although some disruptions continued.Indian carriers have extended the suspension of flights to and from Saudi Arabia, it said.Air India, Air India Express, and IndiGo have suspended flights until Oct 24, on all routes. Akasa Air has suspended flights until Oct 27, on all routes, the Indian mission informed.Saudia: Scheduled flights to India from Dammam, Jeddah and Medina are available. Flynas, Dammam–Delhi and Dammam–Mumbai flights (Oct 17–24) are available along with scheduled Dammam–Lucknow services. Flyadeal Dammam–Mumbai flights on Oct 17–18 are also available.\"Indian nationals requiring urgent departure may consider transiting via Bahrain, Kuwait, or Qatar, subject to obtaining the necessary visas,\" the Indian mission said.India asks its nationals in Saudi Arabia to follow safety directives amid security concernsThe embassy asked Indian nationals planning to travel to Saudi Arabia, including for Umrah, to take into account ongoing disruptions at Saudi airports and the possibility of flight cancellations, which may result in extended stays.\"In case of queries, 24x7 control rooms of the Embassy and Consulate may be contacted,\" it said./ , ➡️ The Indian Community in Saudi Arabia is advised to take due precautions under the prevailing situation. In case of an aerial attack, immediately proceed to the nearest safe place (inside a building… pic.twitter.com/yOsHTdzocJ&mdash; India in Saudi Arabia (@IndianEmbRiyadh) October 18, 2026 Embassy of India, Riyadh can be contacted on Telephone: +966-554412016; +966-542126784 and toll-free number 8002471234 within KSA only. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 466
-    },
-    {
-      "story_id": "story-16",
+      "story_id": "story-15",
       "category": "Society",
       "primary_headline": "Hurricane Trudy brings heavy rain and strong winds to Mexico’s Pacific coast",
       "primary_source": {
@@ -866,19 +798,18 @@
       "total_count": 5,
       "combined_score": 3.06,
       "brief_bullets": [
-        "AP News Hurricane Trudy lashes Mexico's Pacific coast, but is set to weaken tonight Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast AP News Hurricane Trudy gains strength near Mexico's coast, but is expected to weaken by Sunday Hurricane warning in effect from Manzanillo to Cabo Corrientes as storm moves toward Pacific coastTrudy strengthened to a category 2 hurricane as it moved toward Mexico’s south-western and west-central Pacific coast on Saturday, the US National Hurricane Center said.A hurricane warning was in effect from Manzanillo in Colima state to Cabo Corrientes in Jalisco.",
-        "The latest NHC data showed Trudy with maximum sustained winds of 100mph (155km/h) and about 205 miles (330km) south/south-east of Cabo Corrientes and 115 miles (180km) south/south-west of Manzanillo, moving north-west at 10mph (17km/h).",
-        "Meteorological authorities and disaster response teams have deployed emergency rescue pumps and localized assistance squads across vulnerable sectors.",
-        "Civic agencies have mobilized field personnel to inspect transit corridors, clear arterial drainages, and restore essential public utilities."
+        "AP News Hurricane Trudy lashes Mexico's Pacific coast, but is set to weaken tonight Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast AP News Hurricane Trudy gains strength near Mexico's coast, but is expected to weaken by Sunday Hurricane warning in effect from Manzanillo to Cabo Corrientes as storm moves toward Pacific coastTrudy strengthened to a category 2 hurricane as it moved toward Mexico’s south-western and west-central Pacific coast on Saturday, the US National Hurricane Center said.",
+        "A hurricane warning was in effect from Manzanillo in Colima state to Cabo Corrientes in Jalisco.",
+        "The latest NHC data showed Trudy with maximum sustained winds of 100mph (155km/h) and about 205 miles (330km) south/south-east of Cabo Corrientes and 115 miles (180km) south/south-west of Manzanillo, moving north-west at 10mph (17km/h)."
       ],
       "why_it_matters_bullets": [
         "Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
       ],
-      "brief": "AP News Hurricane Trudy lashes Mexico's Pacific coast, but is set to weaken tonight Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast AP News Hurricane Trudy gains strength near Mexico's coast, but is expected to weaken by Sunday Hurricane warning in effect from Manzanillo to Cabo Corrientes as storm moves toward Pacific coastTrudy strengthened to a category 2 hurricane as it moved toward Mexico’s south-western and west-central Pacific coast on Saturday, the US National Hurricane Center said.A hurricane warning was in effect from Manzanillo in Colima state to Cabo Corrientes in Jalisco. The latest NHC data showed Trudy with maximum sustained winds of 100mph (155km/h) and about 205 miles (330km) south/south-east of Cabo Corrientes and 115 miles (180km) south/south-west of Manzanillo, moving north-west at 10mph (17km/h). Meteorological authorities and disaster response teams have deployed emergency rescue pumps and localized assistance squads across vulnerable sectors. Civic agencies have mobilized field personnel to inspect transit corridors, clear arterial drainages, and restore essential public utilities. Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
-      "brief_word_count": 179
+      "brief": "AP News Hurricane Trudy lashes Mexico's Pacific coast, but is set to weaken tonight Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast AP News Hurricane Trudy gains strength near Mexico's coast, but is expected to weaken by Sunday Hurricane warning in effect from Manzanillo to Cabo Corrientes as storm moves toward Pacific coastTrudy strengthened to a category 2 hurricane as it moved toward Mexico’s south-western and west-central Pacific coast on Saturday, the US National Hurricane Center said. A hurricane warning was in effect from Manzanillo in Colima state to Cabo Corrientes in Jalisco. The latest NHC data showed Trudy with maximum sustained winds of 100mph (155km/h) and about 205 miles (330km) south/south-east of Cabo Corrientes and 115 miles (180km) south/south-west of Manzanillo, moving north-west at 10mph (17km/h). Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
+      "brief_word_count": 144
     },
     {
-      "story_id": "story-19",
+      "story_id": "story-18",
       "category": "Technology",
       "primary_headline": "Iran's parliament approves Mehrdad Akhlaqi as minister of defence",
       "primary_source": {
@@ -930,7 +861,110 @@
       "brief_word_count": 99
     },
     {
+      "story_id": "story-19",
+      "category": "Geopolitics",
+      "primary_headline": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict - Reuters",
+        "published_at": "Sun, 18 Oct 2026 14:31:31 GMT",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUsxbVVqQ0FFUl81U25IbG1NaXhrNzFqZzIzaFpRUVhKbF9rYlZoMXg1Z3NzYjR1TEtkeHNCU1BrOWs4ZXR5VHFqMTBoX3VjSV9FRV9neGVDSkdUNWIxMlNhZWRJbldocDM5Q2hiMXYxUXpHVUJqWkkyOEF5OGNBNWduQXFPMXp6VXhYRjUyNmsxaV9pbXJhS29uVGh6Tm51emp4S3YtdmI5c21HZE9HeFkycENlNGxHRUlJd29YWkxwRF85eXc?oc=5",
+        "content": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict - Reuters",
+          "published_at": "Sun, 18 Oct 2026 14:31:31 GMT",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUsxbVVqQ0FFUl81U25IbG1NaXhrNzFqZzIzaFpRUVhKbF9rYlZoMXg1Z3NzYjR1TEtkeHNCU1BrOWs4ZXR5VHFqMTBoX3VjSV9FRV9neGVDSkdUNWIxMlNhZWRJbldocDM5Q2hiMXYxUXpHVUJqWkkyOEF5OGNBNWduQXFPMXp6VXhYRjUyNmsxaV9pbXJhS29uVGh6Tm51emp4S3YtdmI5c21HZE9HeFkycENlNGxHRUlJd29YWkxwRF85eXc?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Oil lifts Saudi bourse; Egypt tumbles on regional tensions - Reuters",
+          "published_at": "Sun, 18 Oct 2026 13:51:43 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdkJ2LXpMXzV0dEQ2b1NYcm9XT1FZMTUyZUlVQlZaZ2RYNFhvVFlnVFRJM1RJTU5CNzlDNVdKTmtzX2E0S0xvV2h6UEpOWFJtUlNGczZxeGR4a2NYQlU5NktIN0JQbE54SlRaS3QzRVVvWUdSRGpqWmNYWXlQSWtMbkM2R3lnRWtERTVLcTNadXMwbGxVQm9GXzVLRmVpZDY1OFFDVmI1ZlM3cGVZ?oc=5"
+        },
+        {
+          "source_name": "Washington Post",
+          "headline": "As Iran war spills over, Saudis and Houthis see fighting as only path ahead - The Washington Post",
+          "published_at": "Sun, 18 Oct 2026 15:35:24 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcEJaeEpsVGVjMFo4YlNuNXhoMXBpLVF3OXNWNDFRSnphZzJ2dGRlMnJKRFl0WlR6SDJoODFSZ1cta2tHTmJQQUtYX1NzVlVRVTNLUGVCYVNadVh4NVV3b0JJOWg4eUtUb2dKbmV6cVo4ZTJrN0k1UUZvM1BERFotSFVQVnNndHJOVjFfTWFMSDBzQkM0bFlKbWVaNFE2Vld1cnlzN3FOeWwwLXhEaXVxcUxkbw?oc=5"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "UAE president, Saudi defence minister discuss regional security as Houthi attacks intensify",
+          "published_at": "Sun, 18 Oct 2026 16:59:53 +0000",
+          "url": "https://www.deccanherald.com/world/middle-east/uae-president-saudi-defence-minister-discuss-regional-security-as-houthi-attacks-intensify-4187501"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 4,
+      "combined_score": 2.76,
+      "brief_bullets": [
+        "Oil lifts Saudi bourse; Egypt tumbles on regional tensions As Iran war spills over, Saudis and Houthis see fighting as only path ahead The Washington Post Cairo: UAE President Mohammed bin​Zayed Al Nahyan received Saudi Arabia's defence minister in Abu Dhabi on Sunday, with the two discussing regional developments and ways to bolster security, the Emirati state news agency WAM reported.",
+        "All 22 Indian crew rescued after incident off UAE coast; MEA condemns attack on Saudi airportThe talks follow a visit to Riyadh last month by UAE Vice President Sheikh Mansour bin Zayed Al Nahyan, the first trip by ‌a senior UAE official to the kingdom since a deep rift emerged between the two Gulf powers last year.",
+        "The visits come as Yemen's Iran-aligned Houthis intensify attacks on the kingdom."
+      ],
+      "why_it_matters_bullets": [
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+      ],
+      "brief": "Oil lifts Saudi bourse; Egypt tumbles on regional tensions As Iran war spills over, Saudis and Houthis see fighting as only path ahead The Washington Post Cairo: UAE President Mohammed bin​Zayed Al Nahyan received Saudi Arabia's defence minister in Abu Dhabi on Sunday, with the two discussing regional developments and ways to bolster security, the Emirati state news agency WAM reported. All 22 Indian crew rescued after incident off UAE coast; MEA condemns attack on Saudi airportThe talks follow a visit to Riyadh last month by UAE Vice President Sheikh Mansour bin Zayed Al Nahyan, the first trip by ‌a senior UAE official to the kingdom since a deep rift emerged between the two Gulf powers last year. The visits come as Yemen's Iran-aligned Houthis intensify attacks on the kingdom. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 146
+    },
+    {
       "story_id": "story-20",
+      "category": "Society",
+      "primary_headline": "India, West Indies draw T20 series after rain washes out decider",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "India, West Indies draw T20 series after rain washes out decider - Reuters",
+        "published_at": "Sat, 17 Oct 2026 17:17:11 GMT",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaTNBSXc2emdJWDNveVhJaG1qN0hRRlhOa1Bndk9JczU0NGlGbU1ZNG9tRS1lOWRUd2EyWkRqT1J5dnZfb0p3VlhDUDlsZ2FCVDl6RUVSTTZ2SExaVFVXNURPUUdGLU4yejBwZ0FWN2JtbkFiVHd4RGlQdW1iempPaWxtTVFxSElSc2lUSm5hLUh4REhZcTR5NmUzbklCVEV1cFc1Y012UzZzYWc5Qms3N3cxczc?oc=5",
+        "content": "India, West Indies draw T20 series after rain washes out decider&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "India, West Indies draw T20 series after rain washes out decider - Reuters",
+          "published_at": "Sat, 17 Oct 2026 17:17:11 GMT",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaTNBSXc2emdJWDNveVhJaG1qN0hRRlhOa1Bndk9JczU0NGlGbU1ZNG9tRS1lOWRUd2EyWkRqT1J5dnZfb0p3VlhDUDlsZ2FCVDl6RUVSTTZ2SExaVFVXNURPUUdGLU4yejBwZ0FWN2JtbkFiVHd4RGlQdW1iempPaWxtTVFxSElSc2lUSm5hLUh4REhZcTR5NmUzbklCVEV1cFc1Y012UzZzYWc5Qms3N3cxczc?oc=5"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Daren Sammy hopes West Indies gets an arm around the shoulder financially after 2-2 draw in India",
+          "published_at": "Sun, 18 Oct 2026 11:00:37 +0000",
+          "url": "https://indianexpress.com/article/sports/cricket/west-indies-financial-help-head-coach-daren-sammy-10926845/"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Washout in Bengaluru: Rain forces 2-2 series draw between India and West Indies",
+          "published_at": "Sat, 17 Oct 2026 17:30:03 +0000",
+          "url": "https://indianexpress.com/article/sports/cricket/washout-bengaluru-rain-forces-series-draw-india-west-indies-10926204/"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Bengaluru T20 | Rain washes out series decider; India and West Indies share honours",
+          "published_at": "Sat, 17 Oct 2026 17:27:44 +0000",
+          "url": "https://www.deccanherald.com/sports/cricket/bengaluru-t20-rain-washes-out-series-decider-india-and-west-indies-share-honours-4186711"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 4,
+      "combined_score": 2.73,
+      "brief_bullets": [
+        "Daren Sammy hopes West Indies gets an arm around the shoulder financially after 2-2 draw in India Washout in Bengaluru: Rain forces 2-2 series draw between India and West Indies The deciding T20 International between India and the West Indies at M Chinnaswamy Cricket Stadium in Bengaluru was abandoned due to rain with the series ending in a 2-2 draw.",
+        "India posted 118 for five in the rain-shortened match, which had earlier been reduced to nine overs per side after two hours of play were lost to rain.",
+        "Ishan Kishan smashed 30 off just 10 balls after opener Abhishek Sharma fell early, while skipper Shreyas Iyer scored 22 and Naman Dhir remained unbeaten on 24.",
+        "Bengaluru T20 | Bhuvneshwar Kumar returns as West Indies put India to bat, match reduced to 9-overs-a-sideIndia had batted 7."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "Daren Sammy hopes West Indies gets an arm around the shoulder financially after 2-2 draw in India Washout in Bengaluru: Rain forces 2-2 series draw between India and West Indies The deciding T20 International between India and the West Indies at M Chinnaswamy Cricket Stadium in Bengaluru was abandoned due to rain with the series ending in a 2-2 draw. India posted 118 for five in the rain-shortened match, which had earlier been reduced to nine overs per side after two hours of play were lost to rain. Ishan Kishan smashed 30 off just 10 balls after opener Abhishek Sharma fell early, while skipper Shreyas Iyer scored 22 and Naman Dhir remained unbeaten on 24. Bengaluru T20 | Bhuvneshwar Kumar returns as West Indies put India to bat, match reduced to 9-overs-a-sideIndia had batted 7. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 148
+    },
+    {
+      "story_id": "story-21",
       "category": "Society",
       "primary_headline": "US resumes intelligence-sharing with Ukraine after pause, Zelenskiy says",
       "primary_source": {
@@ -964,19 +998,18 @@
       "total_count": 3,
       "combined_score": 2.49,
       "brief_bullets": [
-        "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump AP News Two people killed and at least 17 injured as Russia and Ukraine continue to trade strikes on power infrastructureVolodymyr Zelenskyy on Sunday thanked the Trump administration for resuming intelligence sharing between the two countries, but maintained the US had intentionally throttled its Starlink satellite internet access so that Donald Trump could send a “message” in his ongoing feud with the Ukrainian president.In an interview on NBC, Zelenskyy said the US had “unblocked” intelligence on impending Russian ballistic missile strikes, which have pounded the country’s energy infrastructure as winter draws in.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
-        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions.",
-        "Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments."
+        "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump AP News Two people killed and at least 17 injured as Russia and Ukraine continue to trade strikes on power infrastructureVolodymyr Zelenskyy on Sunday thanked the Trump administration for resuming intelligence sharing between the two countries, but maintained the US had intentionally throttled its Starlink satellite internet access so that Donald Trump could send a “message” in his ongoing feud with the Ukrainian president.",
+        "In an interview on NBC, Zelenskyy said the US had “unblocked” intelligence on impending Russian ballistic missile strikes, which have pounded the country’s energy infrastructure as winter draws in.",
+        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events."
       ],
       "why_it_matters_bullets": [
         "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
       ],
-      "brief": "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump AP News Two people killed and at least 17 injured as Russia and Ukraine continue to trade strikes on power infrastructureVolodymyr Zelenskyy on Sunday thanked the Trump administration for resuming intelligence sharing between the two countries, but maintained the US had intentionally throttled its Starlink satellite internet access so that Donald Trump could send a “message” in his ongoing feud with the Ukrainian president.In an interview on NBC, Zelenskyy said the US had “unblocked” intelligence on impending Russian ballistic missile strikes, which have pounded the country’s energy infrastructure as winter draws in. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
-      "brief_word_count": 180
+      "brief": "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump AP News Two people killed and at least 17 injured as Russia and Ukraine continue to trade strikes on power infrastructureVolodymyr Zelenskyy on Sunday thanked the Trump administration for resuming intelligence sharing between the two countries, but maintained the US had intentionally throttled its Starlink satellite internet access so that Donald Trump could send a “message” in his ongoing feud with the Ukrainian president. In an interview on NBC, Zelenskyy said the US had “unblocked” intelligence on impending Russian ballistic missile strikes, which have pounded the country’s energy infrastructure as winter draws in. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 145
     },
     {
-      "story_id": "story-21",
+      "story_id": "story-22",
       "category": "Society",
       "primary_headline": "Tensions flare again in Paris as France counts cost of worst unrest in years",
       "primary_source": {
@@ -1010,19 +1043,19 @@
       "total_count": 3,
       "combined_score": 2.49,
       "brief_bullets": [
-        "Paris: France woke on Sunday to the wreckage of one of its most violent days of unrest in years after protests over high prices and public services left one demonstrator dead, hundreds of police injured and nearly 1,800 people arrested.Nationwide demonstrations erupted into riots on Saturday, with a town hall torched, shops ransacked, and buildings covered in graffiti as violent groups clashed with police in cities across the country.One protester died after suffering a cardiac arrest during demonstrations in Paris, where police made a record 855 arrests.",
-        "Across France, police detained some 1,800 people and more than 500 officers were injured, the interior minister said.More than half a million people joined marches in scores of cities, marking the convergence of a month-long student movement with broader social discontent against rising living costs and declining public services.While hundreds of thousands protested peacefully, violent fringe groups targeted public buildings, looted luxury boutiques and supermarkets and attacked police vehicles and officers.\"No room for violence in our Republic,\" President Emmanuel Macron posted on X as the unrest unfolded late on Saturday. \"Those who have ransacked, attacked the prefectures as well as businesses, looted even our town halls, will be prosecuted and punished.\"Aucune place pour la violence dans notre République.Ceux qui ont cassé, attaqué les préfectures comme les commerces, pillé jusqu’à nos mairies, seront poursuivis et punis.Aux forces de l’ordre, garantes du droit à manifester, je dis le soutien de la Nation.Nous ferons tous…&mdash; Emmanuel Macron (@EmmanuelMacron) October 17, 2026 A massive clean-up operation began in cities from Lille in the north to Marseille in the south and Strasbourg in the east to Bordeaux in the southwest, where a masked mob invaded the residence of the local prefect.Unrest mars day of violent protest in France, as student movement turns nationalIn Paris, smashed shop windows, burnt-out bicycles and spray-painted slogans bore witness to a day that began largely with peaceful demonstrations but descended into violence.In Limoges, workers assessed the damage to the 143-year-old city hall, which was partially destroyed in an arson attack.The unrest has increased pressure on Macron and his government.",
-        "Prime Minister Sebastien Lecornu said the government would not be \"intimidated\" by violence, and blamed the unrest on the \"ultra-left\" and criminals, with a presidential election due next year.Economy Minister Roland Lescure pledged support for business owners who suffered losses. \"Those who break things will pay, repair the damage and be held accountable for their intention to sow chaos,\" Lescure said in a statement.Bordeaux Mayor Thomas Cazenave said up to 100 stores had been looted in his city, while Marseille Mayor Benoit Payan announced emergency financial aid to support those businesses impacted by the violence.The protests began last month over school conditions and teacher shortages in working-class suburbs, before broadening into a movement against inequality, public spending cuts and the rising cost of living.",
-        "France counts cost of worst unrest in years ThePrint."
+        "Paris: France woke on Sunday to the wreckage of one of its most violent days of unrest in years after protests over high prices and public services left one demonstrator dead, hundreds of police injured and nearly 1,800 people arrested.",
+        "Nationwide demonstrations erupted into riots on Saturday, with a town hall torched, shops ransacked, and buildings covered in graffiti as violent groups clashed with police in cities across the country.",
+        "One protester died after suffering a cardiac arrest during demonstrations in Paris, where police made a record 855 arrests.",
+        "Across France, police detained some 1,800 people and more than 500 officers were injured, the interior minister said."
       ],
       "why_it_matters_bullets": [
         "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
       ],
-      "brief": "Paris: France woke on Sunday to the wreckage of one of its most violent days of unrest in years after protests over high prices and public services left one demonstrator dead, hundreds of police injured and nearly 1,800 people arrested.Nationwide demonstrations erupted into riots on Saturday, with a town hall torched, shops ransacked, and buildings covered in graffiti as violent groups clashed with police in cities across the country.One protester died after suffering a cardiac arrest during demonstrations in Paris, where police made a record 855 arrests. Across France, police detained some 1,800 people and more than 500 officers were injured, the interior minister said.More than half a million people joined marches in scores of cities, marking the convergence of a month-long student movement with broader social discontent against rising living costs and declining public services.While hundreds of thousands protested peacefully, violent fringe groups targeted public buildings, looted luxury boutiques and supermarkets and attacked police vehicles and officers.\"No room for violence in our Republic,\" President Emmanuel Macron posted on X as the unrest unfolded late on Saturday. \"Those who have ransacked, attacked the prefectures as well as businesses, looted even our town halls, will be prosecuted and punished.\"Aucune place pour la violence dans notre République.Ceux qui ont cassé, attaqué les préfectures comme les commerces, pillé jusqu’à nos mairies, seront poursuivis et punis.Aux forces de l’ordre, garantes du droit à manifester, je dis le soutien de la Nation.Nous ferons tous…&mdash; Emmanuel Macron (@EmmanuelMacron) October 17, 2026 A massive clean-up operation began in cities from Lille in the north to Marseille in the south and Strasbourg in the east to Bordeaux in the southwest, where a masked mob invaded the residence of the local prefect.Unrest mars day of violent protest in France, as student movement turns nationalIn Paris, smashed shop windows, burnt-out bicycles and spray-painted slogans bore witness to a day that began largely with peaceful demonstrations but descended into violence.In Limoges, workers assessed the damage to the 143-year-old city hall, which was partially destroyed in an arson attack.The unrest has increased pressure on Macron and his government. Prime Minister Sebastien Lecornu said the government would not be \"intimidated\" by violence, and blamed the unrest on the \"ultra-left\" and criminals, with a presidential election due next year.Economy Minister Roland Lescure pledged support for business owners who suffered losses. \"Those who break things will pay, repair the damage and be held accountable for their intention to sow chaos,\" Lescure said in a statement.Bordeaux Mayor Thomas Cazenave said up to 100 stores had been looted in his city, while Marseille Mayor Benoit Payan announced emergency financial aid to support those businesses impacted by the violence.The protests began last month over school conditions and teacher shortages in working-class suburbs, before broadening into a movement against inequality, public spending cuts and the rising cost of living. France counts cost of worst unrest in years ThePrint. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 493
+      "brief": "Paris: France woke on Sunday to the wreckage of one of its most violent days of unrest in years after protests over high prices and public services left one demonstrator dead, hundreds of police injured and nearly 1,800 people arrested. Nationwide demonstrations erupted into riots on Saturday, with a town hall torched, shops ransacked, and buildings covered in graffiti as violent groups clashed with police in cities across the country. One protester died after suffering a cardiac arrest during demonstrations in Paris, where police made a record 855 arrests. Across France, police detained some 1,800 people and more than 500 officers were injured, the interior minister said. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
+      "brief_word_count": 121
     },
     {
-      "story_id": "story-22",
+      "story_id": "story-23",
       "category": "Technology",
       "primary_headline": "Army officer’s wife booked in Jammu & Kashmir over alleged links with Chinese intelligence operatives",
       "primary_source": {
@@ -1056,63 +1089,14 @@
       "total_count": 3,
       "combined_score": 2.46,
       "brief_bullets": [
-        "Srinagar: Jammu and Kashmir Police have booked the wife of a serving Army officer for alleged espionage-related activities involving foreign intelligence operatives, including those linked to China, with investigators examining research papers she allegedly prepared on sensitive defence and geopolitical issues.The woman, a freelance researcher from Telangana, has not been arrested, and a preliminary inquiry has not established that she shared sensitive information, official sources said on Sunday.The case was registered at Gandhi Nagar police station on Friday under the Official Secrets Act, 1923, and relevant provisions of the Bharatiya Nyaya Sanhita (BNS).She was questioned by a Deputy Superintendent of Police-rank officer following the registration of the FIR, according to a PTI report.'Espionage Alert': UK accuses China of using academics to spy on AI and other tech researchInvestigators are examining allegations that the woman was tasked with preparing analytical papers on subjects including Line of Control (LoC) dynamics in Jammu and Kashmir, critical infrastructure projects in Arunachal Pradesh and drone deployment, sources said.The assignments allegedly involved individuals linked to Chinese intelligence operatives, they said.According to reports, the woman is well-qualified, undertook an IT internship with the United Nations in 2023 and currently works as a freelance researcher.The investigation is seeking to establish the nature of her contacts with foreign entities and whether any information or material was communicated to them.The allegations have not been independently established, and police have not publicly detailed the evidence recovered or confirmed whether any classified documents were involved.The investigation comes months after a Delhi court acquitted five accused in a separate espionage case registered in 2015.The accused, including serving and former security personnel, had faced charges under the Official Secrets Act over allegations of passing information about Army and Border Security Force deployments in Jammu and Kashmir to Pakistan-based intelligence operatives.In its May 20, 2026, judgment, the court found that the prosecution had failed to establish that the documents allegedly recovered were classified official records and that protected information had been communicated to enemy agents.",
-        "All five accused were acquitted.",
-        "Army officer’s wife booked on suspicion of sharing sensitive info with foreign nations The accused is the wife of a senior Army officer and a resident of Telangana presently residing within the jurisdiction of Gandhi Nagar Police Station in Jammu.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events."
+        "Srinagar: Jammu and Kashmir Police have booked the wife of a serving Army officer for alleged espionage-related activities involving foreign intelligence operatives, including those linked to China, with investigators examining research papers she allegedly prepared on sensitive defence and geopolitical issues.",
+        "The woman, a freelance researcher from Telangana, has not been arrested, and a preliminary inquiry has not established that she shared sensitive information, official sources said on Sunday."
       ],
       "why_it_matters_bullets": [
         "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
       ],
-      "brief": "Srinagar: Jammu and Kashmir Police have booked the wife of a serving Army officer for alleged espionage-related activities involving foreign intelligence operatives, including those linked to China, with investigators examining research papers she allegedly prepared on sensitive defence and geopolitical issues.The woman, a freelance researcher from Telangana, has not been arrested, and a preliminary inquiry has not established that she shared sensitive information, official sources said on Sunday.The case was registered at Gandhi Nagar police station on Friday under the Official Secrets Act, 1923, and relevant provisions of the Bharatiya Nyaya Sanhita (BNS).She was questioned by a Deputy Superintendent of Police-rank officer following the registration of the FIR, according to a PTI report.'Espionage Alert': UK accuses China of using academics to spy on AI and other tech researchInvestigators are examining allegations that the woman was tasked with preparing analytical papers on subjects including Line of Control (LoC) dynamics in Jammu and Kashmir, critical infrastructure projects in Arunachal Pradesh and drone deployment, sources said.The assignments allegedly involved individuals linked to Chinese intelligence operatives, they said.According to reports, the woman is well-qualified, undertook an IT internship with the United Nations in 2023 and currently works as a freelance researcher.The investigation is seeking to establish the nature of her contacts with foreign entities and whether any information or material was communicated to them.The allegations have not been independently established, and police have not publicly detailed the evidence recovered or confirmed whether any classified documents were involved.The investigation comes months after a Delhi court acquitted five accused in a separate espionage case registered in 2015.The accused, including serving and former security personnel, had faced charges under the Official Secrets Act over allegations of passing information about Army and Border Security Force deployments in Jammu and Kashmir to Pakistan-based intelligence operatives.In its May 20, 2026, judgment, the court found that the prosecution had failed to establish that the documents allegedly recovered were classified official records and that protected information had been communicated to enemy agents. All five accused were acquitted. Army officer’s wife booked on suspicion of sharing sensitive info with foreign nations The accused is the wife of a senior Army officer and a resident of Telangana presently residing within the jurisdiction of Gandhi Nagar Police Station in Jammu. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
-      "brief_word_count": 413
-    },
-    {
-      "story_id": "story-23",
-      "category": "Finance",
-      "primary_headline": "Anti-CEC stir | Delhi Police registers cases, arrests 5 persons over attacks on protesters",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Anti-CEC stir | Delhi Police registers cases, arrests 5 persons over attacks on protesters",
-        "published_at": "Sun, 18 Oct 2026 14:26:40 +0000",
-        "url": "https://www.deccanherald.com/india/delhi/anti-cec-stir-delhi-police-registers-cases-arrests-5-persons-over-attacks-on-protesters-4187332",
-        "content": " New Delhi: Delhi Police has registered at least 10 FIRs and arrested five people in connection with alleged harassment and assaults on protesters demanding the resignation of Chief Election Commissioner Gyanesh Kumar, with several social media posts accusing right-wing activists of targeting demonstrators, officials said on Sunday.The cases were registered between October 11 and 14 at Connaught Place and Kamla Market police stations after videos and posts highlighting alleged attacks on protesters circulated on social media.At least five people have been arrested in two separate cases, a senior police officer said.According to the police, an FIR was registered at Connaught Place police station on October 13 in connection with an incident flagged through social media handles.Delhi Police registers four FIRs against 'rumour-mongers', Pak social media handles under scannerGaurav was arrested in the case, while efforts are underway to trace his alleged accomplices.A group of men was seen assaulting a protester while daring others to call them \"cockroaches\". One of the men was also heard threatening to beat up anyone who spoke against the prime minister or the police.In another case, registered at Kamla Market police station on October 11, four people were arrested after a video purportedly showing individuals harassing and assaulting protesters went viral.Police took suo motu cognisance of the incident and initiated legal action against those allegedly involved.The list of cases also includes multiple FIRs registered at Connaught Place police station on October 13 and 14 over incidents highlighted in social media posts and videos. Police are examining CCTV footage to identify those involved, establish the sequence of events and determine the roles of the suspected accused.EC-SIR row: Delhi Police take down 300 social media for spreading 'rumours'Several social media posts have alleged that right-wing activists assaulted or harassed protesters during the demonstrations.The footage and allegations are being examined by police as they work to identify the people involved and establish the circumstances surrounding the incidents.The police action comes amid a wider scrutiny of online content related to the protests, with authorities also investigating posts allegedly circulating misinformation, rumours and fabricated videos.Some social media accounts have shared claims of police brutality against demonstrators, which investigators are examining to establish their authenticity.In one of the cases, police have sought information from social media platform X to identify a user accused of uploading videos that they suspect were fabricated and circulated to disrupt public order.Police have identified more than 37 social media accounts, including over 17 allegedly linked to right-wing groups, for purportedly circulating misleading content related to the protests, a source in the police said.Takedown notices have been issued to more than 17 handles, including those linked to right-wing groups, and action has been initiated under relevant provisions of the Information Technology Act and other laws for allegedly inciting people and disrupting law and order, they said.Some right-wing accounts allegedly shared posts and reels targeting protesters and presenting the demonstrations in a misleading manner, while other users circulated videos purportedly showing police brutality against demonstrators.Investigators are examining the content to verify its authenticity and identify those responsible, the officials added.The protests in the national capital have been organised over demands for Kumar's resignation and a rollback of the SIR exercise. Further investigation in the cases is underway."
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Anti-CEC stir | Delhi Police registers cases, arrests 5 persons over attacks on protesters",
-          "published_at": "Sun, 18 Oct 2026 14:26:40 +0000",
-          "url": "https://www.deccanherald.com/india/delhi/anti-cec-stir-delhi-police-registers-cases-arrests-5-persons-over-attacks-on-protesters-4187332"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Anti-CEC stir: Police grant permission for Congress Nov 1 rally at Ramlila Maidan",
-          "published_at": "Sun, 18 Oct 2026 02:36:07 +0000",
-          "url": "https://indianexpress.com/article/delhi/congress-rally-ramlila-maidan-november-1-sir-cec-gyanesh-kumar-protest-india-bloc-cjp-10926404/"
-        },
-        {
-          "source_name": "The Print",
-          "headline": "Photos of the Week: Kolkata reels after pandal stampede kills 19, protests against CEC sweep Delhi - ThePrint",
-          "published_at": "Sun, 18 Oct 2026 11:53:01 GMT",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPaEJvZHFKc1hWblFIVlFBamJFNlhocVludFFDMk95ZDFoQk5fMjR3ZjE5THFNdUtNTTJYYlhCMENMV3BZWkdvMkJqYlUxZVZ5RUxuam1YYkR4ZUhfdjdtbEdvblJlZGd5ZVJVZTZJRDNVaUh4Z3l5VEJfVlNoTjF0U1VZZnV6VEVheWlRbFZfOVNtYUZoYnRMWW5weDBsT3c4MVRteGhDemJjUTRQMjhLejk5ajFUbXVPRmdVU0kyemFsTDRwVS1GMkFmTGVLdlh2Q0ZF0gHYAUFVX3lxTE1QWkYyZFBiMjZOVjc4ZHgtNktJaEhPbC1hQ19QWFNiYl8tSjNzYVJwVV9saHZaUnp3b2NDV0FIT2ItMkdZVTBFVEptUndZb1MycnNrY005UXRlcjI5YWpLQXpLYy1VemJFQjQwYmdTeUNUT1N1M183WEVJTndvSXhTRy11ZHNLUEJvSFJZNm9aUmVJRlktRHUtdF9XWGd4U0tJYUFESUtCZ1BsTzc2OGtlRGNKT0xaR19PeUI5SVFPMXZ4VTdFVTFrMVBodmFmOE9YOHBhQkVreQ?oc=5"
-        }
-      ],
-      "source_count": 3,
-      "total_count": 3,
-      "combined_score": 2.43,
-      "brief_bullets": [
-        "New Delhi: Delhi Police has registered at least 10 FIRs and arrested five people in connection with alleged harassment and assaults on protesters demanding the resignation of Chief Election Commissioner Gyanesh Kumar, with several social media posts accusing right-wing activists of targeting demonstrators, officials said on Sunday.The cases were registered between October 11 and 14 at Connaught Place and Kamla Market police stations after videos and posts highlighting alleged attacks on protesters circulated on social media.At least five people have been arrested in two separate cases, a senior police officer said.According to the police, an FIR was registered at Connaught Place police station on October 13 in connection with an incident flagged through social media handles.Delhi Police registers four FIRs against 'rumour-mongers', Pak social media handles under scannerGaurav was arrested in the case, while efforts are underway to trace his alleged accomplices.A group of men was seen assaulting a protester while daring others to call them \"cockroaches\".",
-        "One of the men was also heard threatening to beat up anyone who spoke against the prime minister or the police.In another case, registered at Kamla Market police station on October 11, four people were arrested after a video purportedly showing individuals harassing and assaulting protesters went viral.Police took suo motu cognisance of the incident and initiated legal action against those allegedly involved.The list of cases also includes multiple FIRs registered at Connaught Place police station on October 13 and 14 over incidents highlighted in social media posts and videos.",
-        "Police are examining CCTV footage to identify those involved, establish the sequence of events and determine the roles of the suspected accused.EC-SIR row: Delhi Police take down 300 social media for spreading 'rumours'Several social media posts have alleged that right-wing activists assaulted or harassed protesters during the demonstrations.The footage and allegations are being examined by police as they work to identify the people involved and establish the circumstances surrounding the incidents.The police action comes amid a wider scrutiny of online content related to the protests, with authorities also investigating posts allegedly circulating misinformation, rumours and fabricated videos.Some social media accounts have shared claims of police brutality against demonstrators, which investigators are examining to establish their authenticity.In one of the cases, police have sought information from social media platform X to identify a user accused of uploading videos that they suspect were fabricated and circulated to disrupt public order.Police have identified more than 37 social media accounts, including over 17 allegedly linked to right-wing groups, for purportedly circulating misleading content related to the protests, a source in the police said.Takedown notices have been issued to more than 17 handles, including those linked to right-wing groups, and action has been initiated under relevant provisions of the Information Technology Act and other laws for allegedly inciting people and disrupting law and order, they said.Some right-wing accounts allegedly shared posts and reels targeting protesters and presenting the demonstrations in a misleading manner, while other users circulated videos purportedly showing police brutality against demonstrators.Investigators are examining the content to verify its authenticity and identify those responsible, the officials added.The protests in the national capital have been organised over demands for Kumar's resignation and a rollback of the SIR exercise.",
-        "Further investigation in the cases is underway.",
-        "Anti-CEC stir: Police grant permission for Congress Nov 1 rally at Ramlila Maidan Photos of the Week: Kolkata reels after pandal stampede kills 19, protests against CEC sweep Delhi ThePrint."
-      ],
-      "why_it_matters_bullets": [
-        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
-      ],
-      "brief": "New Delhi: Delhi Police has registered at least 10 FIRs and arrested five people in connection with alleged harassment and assaults on protesters demanding the resignation of Chief Election Commissioner Gyanesh Kumar, with several social media posts accusing right-wing activists of targeting demonstrators, officials said on Sunday.The cases were registered between October 11 and 14 at Connaught Place and Kamla Market police stations after videos and posts highlighting alleged attacks on protesters circulated on social media.At least five people have been arrested in two separate cases, a senior police officer said.According to the police, an FIR was registered at Connaught Place police station on October 13 in connection with an incident flagged through social media handles.Delhi Police registers four FIRs against 'rumour-mongers', Pak social media handles under scannerGaurav was arrested in the case, while efforts are underway to trace his alleged accomplices.A group of men was seen assaulting a protester while daring others to call them \"cockroaches\". One of the men was also heard threatening to beat up anyone who spoke against the prime minister or the police.In another case, registered at Kamla Market police station on October 11, four people were arrested after a video purportedly showing individuals harassing and assaulting protesters went viral.Police took suo motu cognisance of the incident and initiated legal action against those allegedly involved.The list of cases also includes multiple FIRs registered at Connaught Place police station on October 13 and 14 over incidents highlighted in social media posts and videos. Police are examining CCTV footage to identify those involved, establish the sequence of events and determine the roles of the suspected accused.EC-SIR row: Delhi Police take down 300 social media for spreading 'rumours'Several social media posts have alleged that right-wing activists assaulted or harassed protesters during the demonstrations.The footage and allegations are being examined by police as they work to identify the people involved and establish the circumstances surrounding the incidents.The police action comes amid a wider scrutiny of online content related to the protests, with authorities also investigating posts allegedly circulating misinformation, rumours and fabricated videos.Some social media accounts have shared claims of police brutality against demonstrators, which investigators are examining to establish their authenticity.In one of the cases, police have sought information from social media platform X to identify a user accused of uploading videos that they suspect were fabricated and circulated to disrupt public order.Police have identified more than 37 social media accounts, including over 17 allegedly linked to right-wing groups, for purportedly circulating misleading content related to the protests, a source in the police said.Takedown notices have been issued to more than 17 handles, including those linked to right-wing groups, and action has been initiated under relevant provisions of the Information Technology Act and other laws for allegedly inciting people and disrupting law and order, they said.Some right-wing accounts allegedly shared posts and reels targeting protesters and presenting the demonstrations in a misleading manner, while other users circulated videos purportedly showing police brutality against demonstrators.Investigators are examining the content to verify its authenticity and identify those responsible, the officials added.The protests in the national capital have been organised over demands for Kumar's resignation and a rollback of the SIR exercise. Further investigation in the cases is underway. Anti-CEC stir: Police grant permission for Congress Nov 1 rally at Ramlila Maidan Photos of the Week: Kolkata reels after pandal stampede kills 19, protests against CEC sweep Delhi ThePrint. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 582
+      "brief": "Srinagar: Jammu and Kashmir Police have booked the wife of a serving Army officer for alleged espionage-related activities involving foreign intelligence operatives, including those linked to China, with investigators examining research papers she allegedly prepared on sensitive defence and geopolitical issues. The woman, a freelance researcher from Telangana, has not been arrested, and a preliminary inquiry has not established that she shared sensitive information, official sources said on Sunday. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 83
     }
   ]
 }
