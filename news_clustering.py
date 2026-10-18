@@ -15,7 +15,12 @@ GENERIC_TOKENS = {
     'get', 'got', 'take', 'look', 'come', 'go', 'back', 'high', 'low', 'big', 'small',
     'taiwan', 'china', 'india', 'us', 'uk', 'united', 'states', 'russia', 'japan',
     'korea', 'africa', 'europe', 'asia', 'america', 'france', 'germany', 'italy',
-    'spain', 'australia', 'canada', 'brazil', 'mexico', 'argentina', 'middle', 'east'
+    'spain', 'australia', 'canada', 'brazil', 'mexico', 'argentina', 'middle', 'east',
+    'attack', 'attacks', 'strike', 'strikes', 'war', 'killed', 'kill', 'kills',
+    'dead', 'death', 'deaths', 'court', 'police', 'minister', 'president',
+    'government', 'official', 'officials', 'probe', 'inquiry', 'investigation',
+    'claims', 'claim', 'warns', 'warning', 'amid', 'over', 'two', 'three', 'four',
+    'five', 'people', 'man', 'woman', 'chief', 'case', 'order', 'orders'
 }
 
 URGENCY_KEYWORDS = ['breaking', 'crisis', 'emergency', 'confirmed', 'developing',
@@ -24,8 +29,8 @@ URGENCY_KEYWORDS = ['breaking', 'crisis', 'emergency', 'confirmed', 'developing'
                     'explosion', 'strike', 'military', 'nuclear', 'evacuate',
                     'evacuation', 'catastrophe', 'fatal', 'deadly', 'critical']
 
-CLUSTER_JACCARD_THRESHOLD = 0.45
-CLUSTER_MIN_INTERSECTION = 3
+CLUSTER_JACCARD_THRESHOLD = 0.28
+CLUSTER_MIN_INTERSECTION = 2
 
 # Source authority rankings for primary headline selection (lower = more authoritative)
 STORY_SOURCE_AUTHORITY = {
@@ -61,23 +66,42 @@ SUBCATEGORY_TO_CATEGORY = {
 }
 
 
+def simple_stem(w):
+    for suf in ('ing', 'ed', 'es', 's'):
+        if len(w) > len(suf) + 2 and w.endswith(suf):
+            return w[:-len(suf)]
+    return w
+
+
 def normalize_title(title):
     if not title:
         return (set(), "", set())
-    # Track proper nouns: words that start with uppercase in original (excluding first word)
-    words = title.split()
-    proper_nouns = set()
-    for i, w in enumerate(words):
-        if i > 0 and w[0].isupper() and len(w) > 1 and w.lower() not in GENERIC_TOKENS:
-            proper_nouns.add(w.lower())
+    # Strip outlet attribution suffixes (e.g., "- Reuters", "| BBC News")
+    t_clean = re.sub(
+        r'\s*[\-\|—]\s*(?:Reuters|Al Jazeera|NDTV|The Indian Express|BBC News|CNN|The Print|The Guardian|TechCrunch|Scroll\.in|Deccan Herald|Vox|Bloomberg|AP News|NPR|The Hindu|NYT|Washington Post|Wired|Ars Technica|Hacker News|Sky Sports|ThePrint|AP)$',
+        '',
+        title,
+        flags=re.IGNORECASE
+    ).strip()
+    t_clean = re.sub(r'^(breaking|exclusive|urgent|update|developing)\s*[:\-–—]\s*', '', t_clean, flags=re.IGNORECASE)
 
-    title_lower = title.lower()
-    title_lower = re.sub(r'^(breaking|exclusive|urgent|update|developing)\s*[:\-–—]\s*', '', title_lower, flags=re.IGNORECASE)
-    title_lower = re.sub(r'[^a-z0-9\s]', '', title_lower)
-    tokens = title_lower.split()
-    tokens = [t for t in tokens if t not in STOPWORDS]
-    tokens = [t for t in tokens if len(t) > 1]
-    return (set(tokens), title.strip(), proper_nouns)
+    # Separate hyphenated words (e.g. Ukraine-Moldova -> Ukraine Moldova)
+    spaced = re.sub(r'[\-\–—_/:]', ' ', t_clean)
+    words = spaced.split()
+
+    proper_nouns = set()
+    for w in words:
+        clean_w = re.sub(r'[^a-zA-Z]', '', w)
+        if clean_w and clean_w[0].isupper() and len(clean_w) > 1 and clean_w.lower() not in STOPWORDS and clean_w.lower() not in GENERIC_TOKENS:
+            proper_nouns.add(simple_stem(clean_w.lower()))
+
+    cleaned = re.sub(r'[^a-z0-9\s]', '', spaced.lower())
+    tokens = set()
+    for t in cleaned.split():
+        if t not in STOPWORDS and len(t) > 1:
+            tokens.add(simple_stem(t))
+
+    return (tokens, t_clean, proper_nouns)
 
 
 def jaccard_similarity(a, b):
@@ -108,39 +132,38 @@ def cluster_articles(articles):
         tokens, cleaned, proper_nouns = normalize_title(art.get('title', ''))
         normalized.append((art, tokens, cleaned, proper_nouns))
 
+    # Single-linkage clustering: an article joins a cluster if it strongly matches any article in it
     clusters = []
-    assigned = [False] * len(normalized)
+    for art, toks, cleaned, props in normalized:
+        best_cl = None
+        best_sim = 0.0
+        for cl in clusters:
+            max_sim = 0.0
+            for item_toks, item_props in cl['items']:
+                sim = jaccard_similarity(toks, item_toks)
+                inter = toks & item_toks
+                if len(inter) >= CLUSTER_MIN_INTERSECTION:
+                    non_gen = {t for t in inter if t not in GENERIC_TOKENS}
+                    # Story match require: either a shared proper noun OR at least 2 shared specific non-generic tokens
+                    if (props & item_props) or len(non_gen) >= 2:
+                        if sim > max_sim:
+                            max_sim = sim
+            if max_sim >= CLUSTER_JACCARD_THRESHOLD and max_sim > best_sim:
+                best_sim = max_sim
+                best_cl = cl
 
-    for i in range(len(normalized)):
-        if assigned[i]:
-            continue
-        cluster_articles = [normalized[i][0]]
-        assigned[i] = True
-
-        for j in range(i + 1, len(normalized)):
-            if assigned[j]:
-                continue
-            tokens_i = normalized[i][1]
-            tokens_j = normalized[j][1]
-            similarity = jaccard_similarity(tokens_i, tokens_j)
-            if similarity >= CLUSTER_JACCARD_THRESHOLD:
-                intersection_size = len(tokens_i & tokens_j)
-                if intersection_size < CLUSTER_MIN_INTERSECTION:
-                    continue
-                # Sanity check: require at least one shared proper noun or non-generic token
-                proper_i = normalized[i][3]
-                proper_j = normalized[j][3]
-                shared_proper = proper_i & proper_j
-                non_generic_intersection = {t for t in (tokens_i & tokens_j) if t not in GENERIC_TOKENS}
-                if not shared_proper and not non_generic_intersection:
-                    continue
-                cluster_articles.append(normalized[j][0])
-                assigned[j] = True
-
-        clusters.append(cluster_articles)
+        if best_cl:
+            best_cl['articles'].append(art)
+            best_cl['items'].append((toks, props))
+        else:
+            clusters.append({
+                'articles': [art],
+                'items': [(toks, props)]
+            })
 
     result = []
-    for group in clusters:
+    for cl in clusters:
+        group = cl['articles']
         sources = set()
         all_titles = []
         latest = None

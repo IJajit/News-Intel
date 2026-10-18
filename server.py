@@ -1809,12 +1809,13 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                         with open(global_path, 'r', encoding='utf-8') as gf:
                             global_data = json.load(gf)
                         all_st = global_data.get('stories', [])
-                        if category == 'homepage' or category == 'global':
+                        if category in ('homepage', 'global', '1hour', 'latest'):
                             filtered = all_st
                         else:
                             filtered = [s for s in all_st if (s.get('category') or '').lower() == category]
                         data = {
                             "id": global_data.get("id", "latest"),
+                            "category": category,
                             "timestamp": global_data.get("timestamp", ""),
                             "articlesCount": len(filtered),
                             "stories": filtered

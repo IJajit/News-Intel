@@ -222,6 +222,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         if (tab === 'latest') {
           loadLatest1Hour();
+        } else if (tab === 'homepage') {
+          if (!currentBriefing || currentBriefing.category !== 'homepage') {
+            loadLatestBrief('homepage');
+          }
         }
         switchTab(tab);
         closeMobileSidebar();
