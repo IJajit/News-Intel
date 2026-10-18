@@ -136,21 +136,28 @@ document.addEventListener('DOMContentLoaded', () => {
   // ─── GENERATE / REFRESH BUTTON ──────────────────────────────
   generateBtn.addEventListener('click', async () => {
     scrollToTop();
-    if (activeTab === 'latest') {
-      await loadLatest1Hour(true);
-      showToast('Latest feed refreshed.', 'success');
-    } else if (activeTab === 'homepage') {
-      currentBriefing = null;
-      await loadLatestBrief('homepage');
-      showToast('Home feed refreshed.', 'success');
-    } else if (activeTab === 'reader') {
-      delete categoryBriefCache[activeCategory.toLowerCase()];
-      await switchReaderCategory(activeCategory);
-      showToast(`${activeCategory.toUpperCase()} feed refreshed.`, 'success');
-    } else {
-      window.location.reload();
+    setLoadingState(true, 'Refreshing feed...');
+    try {
+      if (activeTab === 'latest') {
+        await loadLatest1Hour(true);
+        showToast('Latest feed refreshed.', 'success');
+      } else if (activeTab === 'homepage') {
+        const ok = await loadLatestBrief('homepage');
+        if (ok) showToast('Home feed refreshed.', 'success');
+      } else if (activeTab === 'reader') {
+        delete categoryBriefCache[activeCategory.toLowerCase()];
+        await switchReaderCategory(activeCategory);
+        showToast(`${activeCategory.toUpperCase()} feed refreshed.`, 'success');
+      } else {
+        window.location.reload();
+      }
+    } catch (err) {
+      console.error('Refresh failed:', err);
+      showToast('Refresh encountered an issue. Loaded cached feed.', 'info');
+    } finally {
+      setLoadingState(false);
+      scrollToTop();
     }
-    scrollToTop();
   });
 
 
@@ -445,12 +452,16 @@ async function fetchWikiIntel() {
 async function loadLatestBrief(category) {
   setLoadingState(true, 'Loading latest briefing...');
   try {
-    const res = await fetch(`/api/latest-brief?category=${category}&t=${Date.now()}`);
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 8000);
+    const res = await fetch(`/api/latest-brief?category=${category}&t=${Date.now()}`, {
+      signal: controller.signal
+    });
+    clearTimeout(timeout);
     if (!res.ok) throw new Error('Briefing not found');
 
     const brief = await res.json();
     if (!brief || !brief.stories || brief.stories.length === 0) {
-      currentBriefing = null;
       return false;
     }
 
@@ -460,7 +471,6 @@ async function loadLatestBrief(category) {
     return true;
   } catch (err) {
     console.error('Error loading latest brief:', err);
-    currentBriefing = null;
     return false;
   } finally {
     setLoadingState(false);
@@ -642,30 +652,44 @@ async function loadLatest1Hour(refreshLive = false) {
     let data = null;
     if (refreshLive) {
       try {
+        const refreshController = new AbortController();
+        const refreshTimeout = setTimeout(() => refreshController.abort(), 6000);
         const refreshRes = await fetch('/api/refresh-latest', {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' }
+          headers: { 'Content-Type': 'application/json' },
+          signal: refreshController.signal
         });
+        clearTimeout(refreshTimeout);
         if (refreshRes.ok) {
-          data = await refreshRes.json();
+          const resJson = await refreshRes.json();
+          if (resJson && Array.isArray(resJson.stories) && resJson.stories.length > 0) {
+            data = resJson;
+          }
         }
       } catch (err) {
-        console.warn('Live refresh endpoint failed, falling back to cached brief:', err);
+        console.warn('Live refresh timed out or failed, falling back to cached brief:', err);
       }
     }
 
     if (!data || !data.stories) {
-      const res = await fetch(`/api/latest-brief?category=1hour&t=${Date.now()}`);
+      const cacheController = new AbortController();
+      const cacheTimeout = setTimeout(() => cacheController.abort(), 8000);
+      const res = await fetch(`/api/latest-brief?category=1hour&t=${Date.now()}`, {
+        signal: cacheController.signal
+      });
+      clearTimeout(cacheTimeout);
       if (!res.ok) throw new Error('Could not fetch 1-hour feed');
       data = await res.json();
     }
 
-    window._latest1HourData = data;
-    currentBriefing = data;
-    renderLatestView(data);
+    if (data && data.stories) {
+      window._latest1HourData = data;
+      currentBriefing = data;
+      renderLatestView(data);
+    }
   } catch (e) {
     console.error('Error fetching 1-hour feed:', e);
-    if (latestContent) {
+    if (latestContent && (!window._latest1HourData || !window._latest1HourData.stories)) {
       latestContent.innerHTML = `
         <div class="empty-state p-12 text-center space-y-3">
           <p class="font-headline-sm text-sm font-semibold">Could not load 1-hour feed.</p>
@@ -953,7 +977,12 @@ async function switchReaderCategory(category) {
 
   // 3. Asynchronously fetch category feed from server
   try {
-    const res = await fetch(`/api/latest-brief?category=${catKey}&t=${Date.now()}`);
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 8000);
+    const res = await fetch(`/api/latest-brief?category=${catKey}&t=${Date.now()}`, {
+      signal: controller.signal
+    });
+    clearTimeout(timeout);
     if (res.ok) {
       const catBrief = await res.json();
       if (catBrief && Array.isArray(catBrief.stories) && catBrief.stories.length > 0) {
@@ -978,6 +1007,13 @@ async function switchReaderCategory(category) {
     }
   } catch (e) {
     console.error('Error fetching category brief:', e);
+    if (readerContent && activeCategory === category) {
+      readerContent.innerHTML = `
+        <div class="empty-state p-12 text-center space-y-3">
+          <p class="font-headline-sm text-sm font-semibold">Feed temporarily unavailable.</p>
+          <p class="text-xs text-[var(--color-dark-gray)]">Please tap refresh in a moment to reload.</p>
+        </div>`;
+    }
   }
 }
 
