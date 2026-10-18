@@ -1,10 +1,11 @@
 import os
 import json
 import time
+import concurrent.futures
 from datetime import datetime, timezone, timedelta
 import server
 from news_clustering import cluster_into_stories, rank_clusters
-from news_summarizer import _structured_fallback
+from news_summarizer import generate_deep_dive_brief, _structured_fallback
 
 def run():
     now_dt = datetime.now(timezone.utc)
@@ -20,14 +21,80 @@ def run():
     ranked_stories = rank_clusters(clusters)
     print(f"Clustered into {len(ranked_stories)} stories in {time.time()-t1:.2f}s")
 
-    story_objects = []
-    for story in ranked_stories:
-        fb = _structured_fallback(story.get('primary_source', {}).get('content', ''), title=story.get('primary_headline', ''))
-        b_bullets = fb.get('brief', [story.get('primary_headline')])
-        w_bullets = fb.get('why_it_matters', [])
-        summary = fb.get('summary', '') or ' '.join(b_bullets)
+    # 1. Slice and rank stories for each section:
+    # All / Global: all stories
+    all_cats = ['technology', 'geopolitics', 'science', 'culture', 'society', 'sports', 'finance']
 
-        story_obj = {
+    # Homepage: top 20 stories in past 24 hours
+    hp_candidates = sorted(ranked_stories, key=lambda s: (s.get('source_count', 1), s.get('combined_score', 0)), reverse=True)[:20]
+
+    # 1-Hour (Latest tab): top 20 stories published in the past 1.0 hour
+    cutoff_1h = now_dt - timedelta(hours=1.0)
+    candidates_1h = []
+    for s in ranked_stories:
+        p_str = s.get('primary_source', {}).get('published_at')
+        p_dt = server.parse_iso(p_str) or server.parse_date(p_str)
+        if p_dt:
+            if p_dt.tzinfo is None:
+                p_dt = p_dt.replace(tzinfo=timezone.utc)
+            if p_dt >= cutoff_1h:
+                candidates_1h.append(s)
+    candidates_1h = sorted(candidates_1h, key=lambda s: (s.get('source_count', 1), s.get('combined_score', 0)), reverse=True)[:20]
+
+    # Category slices: top 20 for each category
+    cat_candidates = {}
+    for cat_name in all_cats:
+        c_stories = [s for s in ranked_stories if (s.get('category') or '').lower() == cat_name]
+        c_sorted = sorted(c_stories, key=lambda s: (s.get('source_count', 1), s.get('combined_score', 0)), reverse=True)[:20]
+        cat_candidates[cat_name] = c_sorted
+
+    # Priority stories: EVERY story included in Homepage, 1Hour, or any Category top 20
+    priority_story_ids = set()
+    for s in hp_candidates:
+        priority_story_ids.add(s['story_id'])
+    for s in candidates_1h:
+        priority_story_ids.add(s['story_id'])
+    for cat_name, c_stories in cat_candidates.items():
+        for s in c_stories:
+            priority_story_ids.add(s['story_id'])
+
+    print(f"Identified {len(priority_story_ids)} high-priority stories across Home, Latest (1h), and Categories for Gemini Deep-Dive briefs.")
+
+    gemini_key = server.os.environ.get('GEMINI_API_KEY', '')
+
+    def get_brief_for_story(story):
+        primary_hl = story.get('primary_headline', '')
+        primary_content = story.get('primary_source', {}).get('content', '') or primary_hl
+        story_id = story['story_id']
+
+        # Use Gemini AI for priority stories
+        if story_id in priority_story_ids:
+            try:
+                res = generate_deep_dive_brief(primary_content, title=primary_hl, gemini_key=gemini_key)
+                if res and isinstance(res, dict) and res.get('summary'):
+                    return story_id, res
+            except Exception as e:
+                print(f"Gemini brief generation error for {story_id}: {e}")
+
+        # Clean fallback for non-priority/remaining stories
+        fb = _structured_fallback(primary_content, title=primary_hl)
+        return story_id, fb
+
+    # Parallelize Gemini API calls
+    briefs_map = {}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+        fut_to_story = {executor.submit(get_brief_for_story, s): s for s in ranked_stories}
+        for fut in concurrent.futures.as_completed(fut_to_story):
+            sid, b_res = fut.result()
+            briefs_map[sid] = b_res
+
+    def convert_story_dict(story):
+        brief_data = briefs_map.get(story['story_id']) or {}
+        b_bullets = brief_data.get('brief', [story.get('primary_headline')])
+        w_bullets = brief_data.get('why_it_matters', [])
+        summary = brief_data.get('summary', '') or ' '.join(b_bullets)
+
+        return {
             'story_id': story['story_id'],
             'category': story['category'],
             'primary_headline': story['primary_headline'],
@@ -49,7 +116,8 @@ def run():
             'brief': summary,
             'brief_word_count': len(summary.split())
         }
-        story_objects.append(story_obj)
+
+    story_objects = [convert_story_dict(s) for s in ranked_stories]
 
     # 1. Global (All category) - past 24 hours, all stories across categories
     global_data = {
@@ -61,49 +129,35 @@ def run():
     }
 
     # 2. Homepage - past 24 hours, top 20 stories
-    hp_stories = list(story_objects)
-    hp_stories.sort(key=lambda s: (s.get('source_count', 1), s.get('combined_score', 0)), reverse=True)
+    hp_stories = [convert_story_dict(s) for s in hp_candidates]
     homepage_data = {
         'id': 'latest',
         'category': 'homepage',
         'timestamp': now_iso,
-        'articlesCount': min(len(hp_stories), 20),
-        'stories': hp_stories[:20]
+        'articlesCount': len(hp_stories),
+        'stories': hp_stories
     }
 
     # 3. 1hour (Latest tab) - past 1.0 hour, top 20 stories
-    cutoff_1h = now_dt - timedelta(hours=1.0)
-    stories_1h = []
-    for s in story_objects:
-        p_str = s.get('primary_source', {}).get('published_at')
-        p_dt = server.parse_iso(p_str) or server.parse_date(p_str)
-        if p_dt:
-            if p_dt.tzinfo is None:
-                p_dt = p_dt.replace(tzinfo=timezone.utc)
-            if p_dt >= cutoff_1h:
-                stories_1h.append(s)
-
-    stories_1h.sort(key=lambda s: (s.get('source_count', 1), s.get('combined_score', 0)), reverse=True)
+    stories_1h = [convert_story_dict(s) for s in candidates_1h]
     one_hour_data = {
         'id': 'latest',
         'category': '1hour',
         'timestamp': now_iso,
-        'articlesCount': min(len(stories_1h), 20),
-        'stories': stories_1h[:20]
+        'articlesCount': len(stories_1h),
+        'stories': stories_1h
     }
 
     # 4. Individual categories - past 24 hours, top 20 stories
     cat_datasets = {}
-    all_cats = ['technology', 'geopolitics', 'science', 'culture', 'society', 'sports', 'finance']
     for cat_name in all_cats:
-        cat_st = [s for s in story_objects if (s.get('category') or '').lower() == cat_name]
-        cat_st.sort(key=lambda s: (s.get('source_count', 1), s.get('combined_score', 0)), reverse=True)
+        c_stories = [convert_story_dict(s) for s in cat_candidates[cat_name]]
         cat_datasets[cat_name] = {
             'id': 'latest',
             'category': cat_name,
             'timestamp': now_iso,
-            'articlesCount': min(len(cat_st), 20),
-            'stories': cat_st[:20]
+            'articlesCount': len(c_stories),
+            'stories': c_stories
         }
 
     # Save all datasets to both data/briefings and briefings_seed

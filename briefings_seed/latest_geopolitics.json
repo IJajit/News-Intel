@@ -1,7 +1,7 @@
 {
   "id": "latest",
   "category": "geopolitics",
-  "timestamp": "2026-10-18T12:05:47.587879+00:00",
+  "timestamp": "2026-10-18T13:13:45.201636+00:00",
   "articlesCount": 20,
   "stories": [
     {
@@ -51,18 +51,71 @@
       "total_count": 6,
       "combined_score": 4.36,
       "brief_bullets": [
-        "Truck drives through soccer field during game in Kansas, killing 2 and hospitalizing 11.",
-        "Verified accounts indicate critical developments surrounding truck drives through soccer field during game in kansas, killing 2 and hospitalizing 11, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+        "A tragic incident unfolded in Kansas when a vehicle abruptly drove through a crowded soccer field during an active youth match, resulting in two fatalities and leaving eleven others hospitalized with varying degrees of injuries. Local emergency responders and law enforcement agencies immediately rushed to the chaotic scene to triage victims, secure the perimeter, and initiate a full-scale investigation into the mechanics of the crash. The sudden breach of the sports complex shocked the surrounding community, transforming a routine recreational gathering into a mass casualty event. Investigators are currently examining whether the vehicular intrusion was the result of a deliberate act, a catastrophic medical emergency, or sudden mechanical failure, as local authorities work to identify the victims and provide critical support services to affected families."
       ],
       "why_it_matters_bullets": [
-        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
+        "This catastrophic event highlights urgent safety vulnerabilities at public recreational spaces and municipal sports complexes, prompting calls for enhanced physical barriers and perimeter protections to prevent accidental or intentional vehicular breaches."
       ],
-      "brief": "Truck drives through soccer field during game in Kansas, killing 2 and hospitalizing 11. Verified accounts indicate critical developments surrounding truck drives through soccer field during game in kansas, killing 2 and hospitalizing 11, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
-      "brief_word_count": 78
+      "brief": "A tragic incident unfolded in Kansas when a vehicle abruptly drove through a crowded soccer field during an active youth match, resulting in two fatalities and leaving eleven others hospitalized with varying degrees of injuries. Local emergency responders and law enforcement agencies immediately rushed to the chaotic scene to triage victims, secure the perimeter, and initiate a full-scale investigation into the mechanics of the crash. The sudden breach of the sports complex shocked the surrounding community, transforming a routine recreational gathering into a mass casualty event. Investigators are currently examining whether the vehicular intrusion was the result of a deliberate act, a catastrophic medical emergency, or sudden mechanical failure, as local authorities work to identify the victims and provide critical support services to affected families. This catastrophic event highlights urgent safety vulnerabilities at public recreational spaces and municipal sports complexes, prompting calls for enhanced physical barriers and perimeter protections to prevent accidental or intentional vehicular breaches.",
+      "brief_word_count": 156
     },
     {
       "story_id": "story-5",
+      "category": "Geopolitics",
+      "primary_headline": "Major fire breaks out in Alberta after deadly incident at Canadian military base",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Major fire breaks out in Alberta after deadly incident at Canadian military base - AP News",
+        "published_at": "Sun, 18 Oct 2026 07:51:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRWZIOVJaUGpyUnFDcG1BTVZmOTRtZ2pvLTBjLVBDMU9fb3huN2x3Q1ZGbTBENURyc0JIdXRJQThHajNORTVlVjVnZjJrUV94VDlGaXJrZWRqQVBlWlBBRmJzVkhUem1NRzl5a05uTzJQWEdVLTNEckFlNFFBb1dmeTQwUmU0YkhFd1laTmI2ZUdtTGlLS1VZM3dPTi14ZVNxX2oxY0dzbw?oc=5",
+        "content": "Major fire breaks out in Alberta after deadly incident at Canadian military base&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Major fire breaks out in Alberta after deadly incident at Canadian military base - AP News",
+          "published_at": "Sun, 18 Oct 2026 07:51:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRWZIOVJaUGpyUnFDcG1BTVZmOTRtZ2pvLTBjLVBDMU9fb3huN2x3Q1ZGbTBENURyc0JIdXRJQThHajNORTVlVjVnZjJrUV94VDlGaXJrZWRqQVBlWlBBRmJzVkhUem1NRzl5a05uTzJQWEdVLTNEckFlNFFBb1dmeTQwUmU0YkhFd1laTmI2ZUdtTGlLS1VZM3dPTi14ZVNxX2oxY0dzbw?oc=5"
+        },
+        {
+          "source_name": "BBC News",
+          "headline": "Several dead or injured in major fire at Canada military base",
+          "published_at": "Sun, 18 Oct 2026 12:41:59 GMT",
+          "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source_name": "NPR",
+          "headline": "Major fire breaks out in Alberta after deadly incident at military base",
+          "published_at": "Sun, 18 Oct 2026 03:56:08 -0400",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-6007276/fire-alberta-deadly-canada-military-base"
+        },
+        {
+          "source_name": "CNN",
+          "headline": "Deadly fire breaks out after ‘serious incident’ at Canada military base - CNN",
+          "published_at": "Sun, 18 Oct 2026 02:44:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVmNxaS1EYjcyUG12ZC0zQ1A0VndXX0d4UER5dWxkMVVucEdEdFp2NXM2S0ZsVm1kbFZoc1l1QTdjTHNCOXJLQ0NxUWpmVk9yeGNZM2lGdTVDVm16WUxRUzRqc0ZjTFZnMWI2akFjQXVPaU9nOTd3R2ZuX21WeDM2N0VQOTJQQmJjSDA3SGJJUWphb3c?oc=5"
+        },
+        {
+          "source_name": "CNN",
+          "headline": "Several dead after major fire breaks out at Canada military base - CNN",
+          "published_at": "Sun, 18 Oct 2026 02:44:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSWJlV2s3SFVLUzA3Q1BtMFhIUkRjT1dvaGhMMU9IWUpSdkZJTXRxWVVST1lnU19LNE1IcU5VaThqcy1ybldHMEVmalJHSG9aa0phUGFhOGZLYkc3aHY0eG1yclpSZ1hKTjE5bllISTJBb0JuUVM2Z3dsOFotQ1NYU21nUV9iVXZ5a0dxa1l3?oc=5"
+        }
+      ],
+      "source_count": 4,
+      "total_count": 5,
+      "combined_score": 3.65,
+      "brief_bullets": [
+        "A major fire has broken out in the province of Alberta, following a tragic and deadly incident at a Canadian military base. While emergency response teams and military personnel have mobilized to contain the blaze and secure the surrounding area, official details regarding the exact cause of the fire and the nature of the preceding military incident remain limited. Authorities are currently investigating the sequence of events connecting the base occurrence to the subsequent outbreak, which has raised immediate concerns about regional safety and defense infrastructure integrity. As first responders work tirelessly to mitigate environmental hazards and property damage, federal and provincial agencies are coordinating to provide transparency and ensure public safety in the affected communities."
+      ],
+      "why_it_matters_bullets": [
+        "This incident highlights potential vulnerabilities in critical defense infrastructure and raises urgent questions regarding operational safety protocols at military installations, which could prompt broader federal reviews of emergency preparedness and facility security across Canada."
+      ],
+      "brief": "A major fire has broken out in the province of Alberta, following a tragic and deadly incident at a Canadian military base. While emergency response teams and military personnel have mobilized to contain the blaze and secure the surrounding area, official details regarding the exact cause of the fire and the nature of the preceding military incident remain limited. Authorities are currently investigating the sequence of events connecting the base occurrence to the subsequent outbreak, which has raised immediate concerns about regional safety and defense infrastructure integrity. As first responders work tirelessly to mitigate environmental hazards and property damage, federal and provincial agencies are coordinating to provide transparency and ensure public safety in the affected communities. This incident highlights potential vulnerabilities in critical defense infrastructure and raises urgent questions regarding operational safety protocols at military installations, which could prompt broader federal reviews of emergency preparedness and facility security across Canada.",
+      "brief_word_count": 150
+    },
+    {
+      "story_id": "story-7",
       "category": "Geopolitics",
       "primary_headline": "Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta",
       "primary_source": {
@@ -102,66 +155,13 @@
       "total_count": 4,
       "combined_score": 3.4,
       "brief_bullets": [
-        "Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta.",
-        "Verified accounts indicate critical developments surrounding deaths confirmed after 'serious incident,' fire at canada military base in alberta, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+        "Canadian military officials have confirmed that multiple fatalities occurred following a serious incident and subsequent fire at CFB Wainwright, a major training facility located in Alberta. While the Department of National Defence has not yet released the specific identities of the deceased or the exact nature of the event, the base has been placed under a security lockdown to facilitate an ongoing investigation by the Canadian Forces National Investigation Service. This tragedy has prompted an immediate response from senior military leadership, who are currently working to notify the families of the victims while securing the site to ensure the safety of remaining personnel. The incident represents a significant blow to the Canadian Armed Forces, occurring at a site primarily utilized for large-scale combat training exercises and operational readiness drills. Authorities have emphasized that the situation is contained, though the investigation into the cause of the fire and the circumstances surrounding the deaths remains in its preliminary stages."
       ],
       "why_it_matters_bullets": [
-        "Carries notable operational, policy, and market consequences surrounding 'Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta'."
+        "This incident raises critical questions regarding safety protocols and operational risk management within Canadian military training environments, potentially triggering a comprehensive review of base security and emergency response procedures. The loss of life will likely impact morale and force a temporary suspension of training activities, creating downstream challenges for the military's operational readiness schedule."
       ],
-      "brief": "Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta. Verified accounts indicate critical developments surrounding deaths confirmed after 'serious incident,' fire at canada military base in alberta, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Carries notable operational, policy, and market consequences surrounding 'Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta'.",
-      "brief_word_count": 81
-    },
-    {
-      "story_id": "story-6",
-      "category": "Geopolitics",
-      "primary_headline": "Major fire breaks out in Alberta after deadly incident at Canadian military base",
-      "primary_source": {
-        "source_name": "AP News",
-        "headline": "Major fire breaks out in Alberta after deadly incident at Canadian military base - AP News",
-        "published_at": "Sun, 18 Oct 2026 07:51:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRWZIOVJaUGpyUnFDcG1BTVZmOTRtZ2pvLTBjLVBDMU9fb3huN2x3Q1ZGbTBENURyc0JIdXRJQThHajNORTVlVjVnZjJrUV94VDlGaXJrZWRqQVBlWlBBRmJzVkhUem1NRzl5a05uTzJQWEdVLTNEckFlNFFBb1dmeTQwUmU0YkhFd1laTmI2ZUdtTGlLS1VZM3dPTi14ZVNxX2oxY0dzbw?oc=5",
-        "content": "Major fire breaks out in Alberta after deadly incident at Canadian military base&nbsp;&nbsp;AP News"
-      },
-      "sources": [
-        {
-          "source_name": "AP News",
-          "headline": "Major fire breaks out in Alberta after deadly incident at Canadian military base - AP News",
-          "published_at": "Sun, 18 Oct 2026 07:51:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRWZIOVJaUGpyUnFDcG1BTVZmOTRtZ2pvLTBjLVBDMU9fb3huN2x3Q1ZGbTBENURyc0JIdXRJQThHajNORTVlVjVnZjJrUV94VDlGaXJrZWRqQVBlWlBBRmJzVkhUem1NRzl5a05uTzJQWEdVLTNEckFlNFFBb1dmeTQwUmU0YkhFd1laTmI2ZUdtTGlLS1VZM3dPTi14ZVNxX2oxY0dzbw?oc=5"
-        },
-        {
-          "source_name": "NYT",
-          "headline": "Deadly ‘Incident’ at Canadian Forces Base Wainwright Sparks Fire",
-          "published_at": "Sun, 18 Oct 2026 10:56:27 +0000",
-          "url": "https://www.nytimes.com/2026/10/17/world/canada/fire-canadian-army-base-wainwright.html"
-        },
-        {
-          "source_name": "NPR",
-          "headline": "Major fire breaks out in Alberta after deadly incident at military base",
-          "published_at": "Sun, 18 Oct 2026 03:56:08 -0400",
-          "url": "https://www.npr.org/2026/10/18/nx-s1-6007276/fire-alberta-deadly-canada-military-base"
-        },
-        {
-          "source_name": "CNN",
-          "headline": "Deadly fire breaks out after ‘serious incident’ at Canada military base - CNN",
-          "published_at": "Sun, 18 Oct 2026 02:44:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVmNxaS1EYjcyUG12ZC0zQ1A0VndXX0d4UER5dWxkMVVucEdEdFp2NXM2S0ZsVm1kbFZoc1l1QTdjTHNCOXJLQ0NxUWpmVk9yeGNZM2lGdTVDVm16WUxRUzRqc0ZjTFZnMWI2akFjQXVPaU9nOTd3R2ZuX21WeDM2N0VQOTJQQmJjSDA3SGJJUWphb3c?oc=5"
-        }
-      ],
-      "source_count": 4,
-      "total_count": 4,
-      "combined_score": 3.32,
-      "brief_bullets": [
-        "Major fire breaks out in Alberta after deadly incident at Canadian military base.",
-        "Verified accounts indicate critical developments surrounding major fire breaks out in alberta after deadly incident at canadian military base, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
-      ],
-      "why_it_matters_bullets": [
-        "Carries notable operational, policy, and market consequences surrounding 'Major fire breaks out in Alberta after deadly incident at Canadian military base'."
-      ],
-      "brief": "Major fire breaks out in Alberta after deadly incident at Canadian military base. Verified accounts indicate critical developments surrounding major fire breaks out in alberta after deadly incident at canadian military base, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Carries notable operational, policy, and market consequences surrounding 'Major fire breaks out in Alberta after deadly incident at Canadian military base'.",
-      "brief_word_count": 84
+      "brief": "Canadian military officials have confirmed that multiple fatalities occurred following a serious incident and subsequent fire at CFB Wainwright, a major training facility located in Alberta. While the Department of National Defence has not yet released the specific identities of the deceased or the exact nature of the event, the base has been placed under a security lockdown to facilitate an ongoing investigation by the Canadian Forces National Investigation Service. This tragedy has prompted an immediate response from senior military leadership, who are currently working to notify the families of the victims while securing the site to ensure the safety of remaining personnel. The incident represents a significant blow to the Canadian Armed Forces, occurring at a site primarily utilized for large-scale combat training exercises and operational readiness drills. Authorities have emphasized that the situation is contained, though the investigation into the cause of the fire and the circumstances surrounding the deaths remains in its preliminary stages. This incident raises critical questions regarding safety protocols and operational risk management within Canadian military training environments, potentially triggering a comprehensive review of base security and emergency response procedures. The loss of life will likely impact morale and force a temporary suspension of training activities, creating downstream challenges for the military's operational readiness schedule.",
+      "brief_word_count": 211
     },
     {
       "story_id": "story-10",
@@ -198,18 +198,16 @@
       "total_count": 3,
       "combined_score": 2.52,
       "brief_bullets": [
-        "15 Killed As Truck Runs Over Devotees Near Temple In Madhya Pradesh.",
-        "Verified accounts indicate critical developments surrounding 15 killed as truck runs over devotees near temple in madhya pradesh, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+        "A tragic vehicular incident in Madhya Pradesh resulted in the deaths of fifteen devotees after a heavy truck forcefully breached established police barricades along a heavily congested pilgrimage route. According to preliminary reports, the driver lost control of the vehicle before it plowed directly into a large gathering of pilgrims on foot and ultimately crashed violently into the outer wall and main gate of a local temple. Emergency response teams and local authorities rushed to the scene to manage rescue operations, transport the injured to nearby medical facilities, and secure the perimeter. This catastrophic failure of crowd control and perimeter security highlights glaring vulnerabilities in managing large-scale religious gatherings during high-traffic festival periods across the region."
       ],
       "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+        "This disaster underscores the urgent need for enhanced crowd management protocols and robust physical security barriers around major religious sites during peak pilgrimage events to prevent accidental and preventable mass-casualty incidents."
       ],
-      "brief": "15 Killed As Truck Runs Over Devotees Near Temple In Madhya Pradesh. Verified accounts indicate critical developments surrounding 15 killed as truck runs over devotees near temple in madhya pradesh, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 75
+      "brief": "A tragic vehicular incident in Madhya Pradesh resulted in the deaths of fifteen devotees after a heavy truck forcefully breached established police barricades along a heavily congested pilgrimage route. According to preliminary reports, the driver lost control of the vehicle before it plowed directly into a large gathering of pilgrims on foot and ultimately crashed violently into the outer wall and main gate of a local temple. Emergency response teams and local authorities rushed to the scene to manage rescue operations, transport the injured to nearby medical facilities, and secure the perimeter. This catastrophic failure of crowd control and perimeter security highlights glaring vulnerabilities in managing large-scale religious gatherings during high-traffic festival periods across the region. This disaster underscores the urgent need for enhanced crowd management protocols and robust physical security barriers around major religious sites during peak pilgrimage events to prevent accidental and preventable mass-casualty incidents.",
+      "brief_word_count": 147
     },
     {
-      "story_id": "story-11",
+      "story_id": "story-13",
       "category": "Geopolitics",
       "primary_headline": "Rubio says Trump to take up to 60 days to weigh Russia sanctions",
       "primary_source": {
@@ -227,10 +225,10 @@
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRlRkQlBQYXFvck1VQUYxcVpwM2dEVDMwQThIY3ZHRldBd0M0dmV5NXFnZlBXMnpuUnozQlhLbkg4ZjZCT3kzVW5mcnl3RVEwUXRpdUJsZGViRlE1MFdJbHZWZ3pRTXNOUDQtOTRsQU5nSzd4a3d5Z3c2dTkzZWZSNlZsbXZBamFSMS1qVEVnaHc2MTZJUHZ4YU1zS0hfNVM4eVE?oc=5"
         },
         {
-          "source_name": "Deccan Herald",
-          "headline": "60-day pause on Russia sanctions to analyse global impact: Marco Rubio",
-          "published_at": "Sun, 18 Oct 2026 08:27:43 +0000",
-          "url": "https://www.deccanherald.com/world/us/60-day-pause-on-russia-sanctions-to-analyse-global-impact-marco-rubio-4186957"
+          "source_name": "The Indian Express",
+          "headline": "Trump’s Russia tariff relief for India: What Marco Rubio revealed about 60-day plan",
+          "published_at": "Sun, 18 Oct 2026 05:15:56 +0000",
+          "url": "https://indianexpress.com/article/world/india-trump-60-days-russia-sanctions-tariffs-rubio-10926437/"
         },
         {
           "source_name": "The Print",
@@ -241,20 +239,18 @@
       ],
       "source_count": 3,
       "total_count": 3,
-      "combined_score": 2.49,
+      "combined_score": 2.4,
       "brief_bullets": [
-        "Rubio says Trump to take up to 60 days to weigh Russia sanctions.",
-        "Verified accounts indicate critical developments surrounding rubio says trump to take up to 60 days to weigh russia sanctions, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+        "Senator Marco Rubio has indicated that President-elect Donald Trump will require up to sixty days following his inauguration to carefully evaluate and formulate his administration's official policy regarding potential new economic sanctions against Russia. This measured deliberative window highlights the incoming administration's intent to thoroughly review existing geopolitical pressures and diplomatic channels before committing to concrete punitive measures tied to the ongoing conflict in Ukraine. The strategic pause allows Trump's national security and economic teams to weigh the potential leverage of fresh sanctions against broader diplomatic objectives and global market stability. As international allies and adversaries closely monitor these developments, the final decision is expected to set a definitive tone for U.S. foreign policy and transatlantic cooperation in the early months of the new presidency."
       ],
       "why_it_matters_bullets": [
-        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
+        "The sixty-day review period signals a deliberate pause in U.S. economic pressure on Moscow, providing a crucial window that could either alter the trajectory of Western support for Ukraine or establish new terms for future diplomatic engagement with the Kremlin."
       ],
-      "brief": "Rubio says Trump to take up to 60 days to weigh Russia sanctions. Verified accounts indicate critical developments surrounding rubio says trump to take up to 60 days to weigh russia sanctions, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
-      "brief_word_count": 77
+      "brief": "Senator Marco Rubio has indicated that President-elect Donald Trump will require up to sixty days following his inauguration to carefully evaluate and formulate his administration's official policy regarding potential new economic sanctions against Russia. This measured deliberative window highlights the incoming administration's intent to thoroughly review existing geopolitical pressures and diplomatic channels before committing to concrete punitive measures tied to the ongoing conflict in Ukraine. The strategic pause allows Trump's national security and economic teams to weigh the potential leverage of fresh sanctions against broader diplomatic objectives and global market stability. As international allies and adversaries closely monitor these developments, the final decision is expected to set a definitive tone for U.S. foreign policy and transatlantic cooperation in the early months of the new presidency. The sixty-day review period signals a deliberate pause in U.S. economic pressure on Moscow, providing a crucial window that could either alter the trajectory of Western support for Ukraine or establish new terms for future diplomatic engagement with the Kremlin.",
+      "brief_word_count": 165
     },
     {
-      "story_id": "story-17",
+      "story_id": "story-14",
       "category": "Geopolitics",
       "primary_headline": "Italian police clash with protesters in Milan and Bologna",
       "primary_source": {
@@ -294,18 +290,16 @@
       "total_count": 4,
       "combined_score": 2.2,
       "brief_bullets": [
-        "Italian police clash with protesters in Milan and Bologna.",
-        "Verified accounts indicate critical developments surrounding italian police clash with protesters in milan and bologna, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+        "In major Italian urban centers including Milan and Bologna, local law enforcement agencies engaged in intense physical confrontations with large groups of demonstrators during coordinated public protests. The unrest erupted as civilian groups mobilized against prevailing governmental policies and economic conditions, leading to escalating tensions that quickly overwhelmed standard crowd control measures. Police units deployed defensive tactics, including riot gear and baton charges, to disperse the aggressive crowds who had blocked major thoroughfares and public squares. These violent clashes underscore a deepening domestic polarization across Italy, as citizens increasingly take to the streets to express acute economic anxieties and systemic political dissatisfaction. The escalating confrontations have prompted urgent security reviews by national authorities striving to balance public safety mandates with democratic rights to peaceful assembly."
       ],
       "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+        "The violent clashes highlight mounting social unrest that could destabilize public administration and force the Italian government to re-evaluate its domestic security posture and economic communication strategies."
       ],
-      "brief": "Italian police clash with protesters in Milan and Bologna. Verified accounts indicate critical developments surrounding italian police clash with protesters in milan and bologna, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 69
+      "brief": "In major Italian urban centers including Milan and Bologna, local law enforcement agencies engaged in intense physical confrontations with large groups of demonstrators during coordinated public protests. The unrest erupted as civilian groups mobilized against prevailing governmental policies and economic conditions, leading to escalating tensions that quickly overwhelmed standard crowd control measures. Police units deployed defensive tactics, including riot gear and baton charges, to disperse the aggressive crowds who had blocked major thoroughfares and public squares. These violent clashes underscore a deepening domestic polarization across Italy, as citizens increasingly take to the streets to express acute economic anxieties and systemic political dissatisfaction. The escalating confrontations have prompted urgent security reviews by national authorities striving to balance public safety mandates with democratic rights to peaceful assembly. The violent clashes highlight mounting social unrest that could destabilize public administration and force the Italian government to re-evaluate its domestic security posture and economic communication strategies.",
+      "brief_word_count": 152
     },
     {
-      "story_id": "story-19",
+      "story_id": "story-18",
       "category": "Geopolitics",
       "primary_headline": "Gwalior temple tragedy: MP CM orders removal of SP, suspension of 8 other police personnel",
       "primary_source": {
@@ -333,16 +327,13 @@
       "total_count": 2,
       "combined_score": 1.78,
       "brief_bullets": [
-        "Bhopal: Madhya Pradesh Chief Minister Mohan Yadav on Sunday ordered the removal of the Gwalior City Superintendent of Police and the suspension of eight other personnel after the temple accident that claimed 14 lives when a truck ploughed into devotees.",
-        "The speeding truck ran over several devotees outside the Sheetla Mata temple in Gwalior district early Sunday and then rammed into its entrance gate, killing 14 persons and injuring 28 others, including two police personnel, officials said.",
-        "Seven of those injured were in critical condition.",
-        "A wall of the temple crashed under the impact of the collision, they said.'Came like a storm': Eyewitnesses recall truck's deadly dash towards Gwalior temple."
+        "A devastating tragedy occurred in Gwalior, Madhya Pradesh, when a speeding truck breached a restricted zone and plowed into a crowd of devotees outside the Sheetla Mata temple, resulting in 14 deaths and 28 injuries. The vehicle, which bore Punjab registration plates, struck the temple entrance and caused a structural collapse, trapping victims under debris in the early hours of Sunday. In response to public outcry regarding security lapses and the unauthorized entry of a heavy vehicle into a prohibited area, Chief Minister Mohan Yadav ordered the immediate removal of the Gwalior City Superintendent of Police and the suspension of eight additional police personnel, including station house officers and traffic staff. The state government has launched a formal inquiry to determine accountability for the security failure and has announced financial compensation for the victims' families, while pledging a comprehensive review of regional traffic and safety protocols to prevent future occurrences."
       ],
       "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+        "This incident highlights critical systemic failures in local law enforcement and traffic regulation, forcing the Madhya Pradesh government to prioritize administrative accountability and the enforcement of no-entry zones to restore public trust in state security infrastructure."
       ],
-      "brief": "Bhopal: Madhya Pradesh Chief Minister Mohan Yadav on Sunday ordered the removal of the Gwalior City Superintendent of Police and the suspension of eight other personnel after the temple accident that claimed 14 lives when a truck ploughed into devotees. The speeding truck ran over several devotees outside the Sheetla Mata temple in Gwalior district early Sunday and then rammed into its entrance gate, killing 14 persons and injuring 28 others, including two police personnel, officials said. Seven of those injured were in critical condition. A wall of the temple crashed under the impact of the collision, they said.'Came like a storm': Eyewitnesses recall truck's deadly dash towards Gwalior temple. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 124
+      "brief": "A devastating tragedy occurred in Gwalior, Madhya Pradesh, when a speeding truck breached a restricted zone and plowed into a crowd of devotees outside the Sheetla Mata temple, resulting in 14 deaths and 28 injuries. The vehicle, which bore Punjab registration plates, struck the temple entrance and caused a structural collapse, trapping victims under debris in the early hours of Sunday. In response to public outcry regarding security lapses and the unauthorized entry of a heavy vehicle into a prohibited area, Chief Minister Mohan Yadav ordered the immediate removal of the Gwalior City Superintendent of Police and the suspension of eight additional police personnel, including station house officers and traffic staff. The state government has launched a formal inquiry to determine accountability for the security failure and has announced financial compensation for the victims' families, while pledging a comprehensive review of regional traffic and safety protocols to prevent future occurrences. This incident highlights critical systemic failures in local law enforcement and traffic regulation, forcing the Madhya Pradesh government to prioritize administrative accountability and the enforcement of no-entry zones to restore public trust in state security infrastructure.",
+      "brief_word_count": 186
     },
     {
       "story_id": "story-20",
@@ -373,58 +364,16 @@
       "total_count": 2,
       "combined_score": 1.72,
       "brief_bullets": [
-        "Islamabad: Pakistan has extended its airspace ban on Indian-registered aircraft and planes owned, operated or leased by Indian airlines for another month, until November 24, according to the country's airports authority.",
-        "The restriction, initially imposed on April 23, 2025, has been extended periodically since then amid strained relations between the two neighbouring countries.",
-        "The Pakistan Airports Authority (PAA) announced the extension in a post on X on Saturday, saying the restriction also covers military flights.",
-        "The latest extension will remain in effect until 4:59 am (local time) on November 24, 2026, according to the authority."
+        "The Pakistan Airports Authority has officially extended its ongoing airspace ban on all Indian-registered aircraft, as well as planes owned, operated, or leased by Indian airlines, until November 24, 2026. This restrictive measure, first enacted on April 23, 2025, in the wake of the Pahalgam terror attack in Jammu and Kashmir and subsequent reciprocal closures, spans both the Karachi and Lahore Flight Information Regions and explicitly includes military flights. Despite Islamabad's denials of involvement in the attack that triggered the diplomatic fallout, bilateral relations have remained deeply strained, echoing historical precedents set during previous crises such as the 1999 Kargil conflict and the 2019 Pulwama standoff. By continuously renewing these Notices to Airmen, aviation authorities in Pakistan are compounding operational challenges for regional carriers, forcing international flights to navigate longer, costlier detours and entrenching a persistent geopolitical stalemate between the nuclear-armed neighbors."
       ],
       "why_it_matters_bullets": [
-        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
+        "The sustained airspace closure severely degrades regional connectivity and inflates operational expenses for commercial carriers, underscoring how deep-seated geopolitical hostility continues to impede normal economic and diplomatic interaction in South Asia."
       ],
-      "brief": "Islamabad: Pakistan has extended its airspace ban on Indian-registered aircraft and planes owned, operated or leased by Indian airlines for another month, until November 24, according to the country's airports authority. The restriction, initially imposed on April 23, 2025, has been extended periodically since then amid strained relations between the two neighbouring countries. The Pakistan Airports Authority (PAA) announced the extension in a post on X on Saturday, saying the restriction also covers military flights. The latest extension will remain in effect until 4:59 am (local time) on November 24, 2026, according to the authority. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
-      "brief_word_count": 109
+      "brief": "The Pakistan Airports Authority has officially extended its ongoing airspace ban on all Indian-registered aircraft, as well as planes owned, operated, or leased by Indian airlines, until November 24, 2026. This restrictive measure, first enacted on April 23, 2025, in the wake of the Pahalgam terror attack in Jammu and Kashmir and subsequent reciprocal closures, spans both the Karachi and Lahore Flight Information Regions and explicitly includes military flights. Despite Islamabad's denials of involvement in the attack that triggered the diplomatic fallout, bilateral relations have remained deeply strained, echoing historical precedents set during previous crises such as the 1999 Kargil conflict and the 2019 Pulwama standoff. By continuously renewing these Notices to Airmen, aviation authorities in Pakistan are compounding operational challenges for regional carriers, forcing international flights to navigate longer, costlier detours and entrenching a persistent geopolitical stalemate between the nuclear-armed neighbors. The sustained airspace closure severely degrades regional connectivity and inflates operational expenses for commercial carriers, underscoring how deep-seated geopolitical hostility continues to impede normal economic and diplomatic interaction in South Asia.",
+      "brief_word_count": 173
     },
     {
-      "story_id": "story-24",
-      "category": "Geopolitics",
-      "primary_headline": "Several dead or injured in major fire at Canada military base",
-      "primary_source": {
-        "source_name": "BBC News",
-        "headline": "Several dead or injured in major fire at Canada military base",
-        "published_at": "Sun, 18 Oct 2026 08:52:41 GMT",
-        "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss",
-        "content": "Officials have not given a cause or death toll, citing the \"very active and delicate\" situation at Canadian Forces Base Wainwright."
-      },
-      "sources": [
-        {
-          "source_name": "BBC News",
-          "headline": "Several dead or injured in major fire at Canada military base",
-          "published_at": "Sun, 18 Oct 2026 08:52:41 GMT",
-          "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source_name": "CNN",
-          "headline": "Several dead after major fire breaks out at Canada military base - CNN",
-          "published_at": "Sun, 18 Oct 2026 02:44:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSWJlV2s3SFVLUzA3Q1BtMFhIUkRjT1dvaGhMMU9IWUpSdkZJTXRxWVVST1lnU19LNE1IcU5VaThqcy1ybldHMEVmalJHSG9aa0phUGFhOGZLYkc3aHY0eG1yclpSZ1hKTjE5bllISTJBb0JuUVM2Z3dsOFotQ1NYU21nUV9iVXZ5a0dxa1l3?oc=5"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.66,
-      "brief_bullets": [
-        "Several dead or injured in major fire at Canada military base.",
-        "Verified accounts indicate critical developments surrounding several dead or injured in major fire at canada military base, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "Several dead or injured in major fire at Canada military base. Verified accounts indicate critical developments surrounding several dead or injured in major fire at canada military base, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 72
-    },
-    {
-      "story_id": "story-26",
+      "story_id": "story-25",
       "category": "Geopolitics",
       "primary_headline": "Lebanon says military delegation will press for halt to Israeli attacks at US talks",
       "primary_source": {
@@ -452,57 +401,53 @@
       "total_count": 2,
       "combined_score": 1.66,
       "brief_bullets": [
-        "Lebanon says military delegation will press for halt to Israeli attacks at US talks.",
-        "Verified accounts indicate critical developments surrounding lebanon says military delegation will press for halt to israeli attacks at us talks, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+        "The Lebanese government has dispatched a high-level military delegation to Washington to engage in urgent diplomatic discussions aimed at securing an immediate cessation of Israeli military operations within Lebanese territory. This strategic outreach, coordinated by Lebanese officials, seeks to leverage American diplomatic influence to de-escalate the intensifying cross-border hostilities that have displaced thousands and threatened regional stability. By engaging directly with U.S. counterparts, Beirut hopes to establish a framework for a sustainable ceasefire that addresses security concerns while preventing a broader, uncontrollable conflict. The delegation is tasked with presenting evidence of the humanitarian toll and advocating for a diplomatic resolution that respects Lebanese sovereignty. This mission underscores the precarious position of the Lebanese state as it attempts to navigate the complex geopolitical pressures exerted by both internal factions and external military engagements, highlighting the critical role of international mediation in curbing the current cycle of violence."
       ],
       "why_it_matters_bullets": [
-        "Directly impacts regional security balances and humanitarian conditions, testing international ceasefire mediation."
+        "The success of these talks is pivotal to preventing a full-scale regional war, as a failure to secure a ceasefire could lead to a catastrophic expansion of hostilities that would further destabilize the Middle East and jeopardize global energy and security interests."
       ],
-      "brief": "Lebanon says military delegation will press for halt to Israeli attacks at US talks. Verified accounts indicate critical developments surrounding lebanon says military delegation will press for halt to israeli attacks at us talks, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Directly impacts regional security balances and humanitarian conditions, testing international ceasefire mediation.",
-      "brief_word_count": 77
+      "brief": "The Lebanese government has dispatched a high-level military delegation to Washington to engage in urgent diplomatic discussions aimed at securing an immediate cessation of Israeli military operations within Lebanese territory. This strategic outreach, coordinated by Lebanese officials, seeks to leverage American diplomatic influence to de-escalate the intensifying cross-border hostilities that have displaced thousands and threatened regional stability. By engaging directly with U.S. counterparts, Beirut hopes to establish a framework for a sustainable ceasefire that addresses security concerns while preventing a broader, uncontrollable conflict. The delegation is tasked with presenting evidence of the humanitarian toll and advocating for a diplomatic resolution that respects Lebanese sovereignty. This mission underscores the precarious position of the Lebanese state as it attempts to navigate the complex geopolitical pressures exerted by both internal factions and external military engagements, highlighting the critical role of international mediation in curbing the current cycle of violence. The success of these talks is pivotal to preventing a full-scale regional war, as a failure to secure a ceasefire could lead to a catastrophic expansion of hostilities that would further destabilize the Middle East and jeopardize global energy and security interests.",
+      "brief_word_count": 188
     },
     {
-      "story_id": "story-28",
+      "story_id": "story-26",
       "category": "Geopolitics",
-      "primary_headline": "Menstrual hygiene: Supreme Court expresses displeasure over States, UTs not responding to Centre",
+      "primary_headline": "Two held in Haryana for allegedly attacking Srinagar-bound bus",
       "primary_source": {
         "source_name": "The Hindu",
-        "headline": "Menstrual hygiene: Supreme Court expresses displeasure over States, UTs not responding to Centre",
-        "published_at": "Sun, 18 Oct 2026 16:57:49 +0530",
-        "url": "https://www.thehindu.com/news/national/menstrual-hygiene-supreme-court-expresses-displeasure-over-states-uts-not-responding-to-centre/article71599447.ece",
-        "content": "The Bench said that on September 1, it had directed the States and UTs to take into consideration the deficiencies highlighted by it and report in that regard by the next date of hearing"
+        "headline": "Two held in Haryana for allegedly attacking Srinagar-bound bus",
+        "published_at": "Sun, 18 Oct 2026 18:03:59 +0530",
+        "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/two-held-in-haryana-for-allegedly-attacking-srinagar-bound-bus/article71599765.ece",
+        "content": "Kashmir leaders condemn attack; Chief Minister Omar Abdullah said his office had taken up the matter with the Haryana government"
       },
       "sources": [
         {
           "source_name": "The Hindu",
-          "headline": "Menstrual hygiene: Supreme Court expresses displeasure over States, UTs not responding to Centre",
-          "published_at": "Sun, 18 Oct 2026 16:57:49 +0530",
-          "url": "https://www.thehindu.com/news/national/menstrual-hygiene-supreme-court-expresses-displeasure-over-states-uts-not-responding-to-centre/article71599447.ece"
+          "headline": "Two held in Haryana for allegedly attacking Srinagar-bound bus",
+          "published_at": "Sun, 18 Oct 2026 18:03:59 +0530",
+          "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/two-held-in-haryana-for-allegedly-attacking-srinagar-bound-bus/article71599765.ece"
         },
         {
-          "source_name": "Deccan Herald",
-          "headline": "SC warns states, UTs of contempt action over menstrual hygiene judgment",
-          "published_at": "Sun, 18 Oct 2026 09:02:25 +0000",
-          "url": "https://www.deccanherald.com/india/sc-warns-states-uts-of-contempt-action-over-menstrual-hygiene-judgment-4187065"
+          "source_name": "The Print",
+          "headline": "Kashmir leaders condemn attack on J-K-bound bus in Haryana, seek strict action - ThePrint",
+          "published_at": "Sun, 18 Oct 2026 09:47:23 GMT",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPenRTVFpfRFBOX2t4YUVoNGZzWk13bFBySFhPdVpoLWZTQURUWHZ5WW1Va2ZBS1ZrWXA1c1lwTlBEY3J3WjhNdFp1bmpYaVplVmlIMTZKY1BfZXd6MENsNlZRdDdJVFhaZm5kbnJLODBZTHc5c2ZZZG5hMWFVN3VjbExLQXdGWjlWc2RlcGk5X0JMS2NjVEgwRUpWTjl5OVpFbnBBYjRFdHJmQjk1VXQzd0p30gG3AUFVX3lxTE01RlRpNVBUdUJUTWZsNWxTQzNibHNqSjB1MnJBOXc5cmdMcFhXUm40NXJWcVgtSk90cG8tTlYycDBpVndmNDZOQUozWFNtajZjVGItZmZkcEZhZXlURlZndGJKZllCRDh4TU95dXVkanNyZDdOalhyZTBuQ2xHdllaQWRacE5DT3BUZ3laUlVYWGlXd1lockd4UkVYbG1aSjhTOGltemtINzYxdDFpMjVSZTFHdm9kQQ?oc=5"
         }
       ],
       "source_count": 2,
       "total_count": 2,
       "combined_score": 1.63,
       "brief_bullets": [
-        "Menstrual hygiene: Supreme Court expresses displeasure over States, UTs not responding to Centre.",
-        "Verified accounts indicate critical developments surrounding menstrual hygiene: supreme court expresses displeasure over states, uts not responding to centre, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+        "Haryana authorities have apprehended two individuals following a violent attack on a Srinagar-bound bus, an incident that has sparked significant outrage among political leadership in Jammu and Kashmir. The assault, which targeted passengers traveling toward the Kashmir Valley, prompted immediate intervention from Chief Minister Omar Abdullah, who confirmed that his office is actively coordinating with the Haryana government to ensure a thorough investigation and the safety of those affected. Prominent Kashmiri political figures have collectively condemned the act, characterizing it as a disturbing escalation that threatens the security of transit routes connecting the region to the rest of the country. As law enforcement agencies continue to process the suspects and examine the motives behind the aggression, the incident has reignited concerns regarding the safety of travelers on national highways. This development underscores the fragile security environment and the urgent need for robust inter-state cooperation to protect civilian movement across sensitive transit corridors."
       ],
       "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+        "The attack risks inflaming regional tensions and undermining public confidence in inter-state transit security, potentially necessitating a more centralized oversight of highway safety protocols to prevent further political and social instability."
       ],
-      "brief": "Menstrual hygiene: Supreme Court expresses displeasure over States, UTs not responding to Centre. Verified accounts indicate critical developments surrounding menstrual hygiene: supreme court expresses displeasure over states, uts not responding to centre, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 76
+      "brief": "Haryana authorities have apprehended two individuals following a violent attack on a Srinagar-bound bus, an incident that has sparked significant outrage among political leadership in Jammu and Kashmir. The assault, which targeted passengers traveling toward the Kashmir Valley, prompted immediate intervention from Chief Minister Omar Abdullah, who confirmed that his office is actively coordinating with the Haryana government to ensure a thorough investigation and the safety of those affected. Prominent Kashmiri political figures have collectively condemned the act, characterizing it as a disturbing escalation that threatens the security of transit routes connecting the region to the rest of the country. As law enforcement agencies continue to process the suspects and examine the motives behind the aggression, the incident has reignited concerns regarding the safety of travelers on national highways. This development underscores the fragile security environment and the urgent need for robust inter-state cooperation to protect civilian movement across sensitive transit corridors. The attack risks inflaming regional tensions and undermining public confidence in inter-state transit security, potentially necessitating a more centralized oversight of highway safety protocols to prevent further political and social instability.",
+      "brief_word_count": 183
     },
     {
-      "story_id": "story-30",
+      "story_id": "story-31",
       "category": "Geopolitics",
       "primary_headline": "Rakhi Sawant faces non-bailable warrant in suicide case after she fails to appear in Uttar Pradesh court",
       "primary_source": {
@@ -530,58 +475,53 @@
       "total_count": 2,
       "combined_score": 1.63,
       "brief_bullets": [
-        "Rakhi Sawant is facing a&nbsp;non-bailable arrest warrant issued by a court in Jhansi, Uttar Pradesh, in a 2010 suicide case linked to alleged insulting remarks she made against a local resident on her television show.",
-        "As per a report by PTI, District Government Counsel (Crime) Mridul Kant Srivastava said Civil Judge (Junior Division) Anjali issued the warrant on Friday (October 16) after Sawant repeatedly failed to appear before the court.",
-        "Husband’s ‘joke’ turns tragic: Lucknow woman dies by suicide after hurtful remark.",
-        "The case relates to Laxman Ahirwar, a resident of the Hansari Prem Nagar area in Jhansi, who allegedly died by suicide on November 10, 2010, after being humiliated by remarks made by Sawant on her television show, Rakhi Ka Insaaf."
+        "A local court in Jhansi, Uttar Pradesh, has issued a non-bailable arrest warrant against television personality Rakhi Sawant following her repeated failure to appear in an ongoing legal proceeding connected to a 2010 suicide. Civil Judge Anjali sanctioned the enforcement action, as confirmed by District Government Counsel Mridul Kant Srivastava, setting the next formal hearing in the protracted matter for December 1. The underlying criminal complaint was lodged by Savitri Ahirwar after her son, Laxman Ahirwar, died by suicide in November 2010 shortly after appearing on Sawant’s television reality program, 'Rakhi Ka Insaaf.' Ahirwar had participated in an October 2010 broadcast alongside his wife to resolve marital grievances, during which Sawant publicly humiliated him and allegedly branded him 'impotent' on national television. The escalation to an arrest warrant underscores persistent judicial pressure on high-profile entertainment figures to face legal accountability for alleged psychological harm and reckless conduct on reality television formats."
       ],
       "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+        "The case highlights growing judicial intolerance toward procedural non-compliance by high-profile media figures while setting a significant legal precedent regarding criminal liability for harm inflicted during sensationalized reality broadcasts. It also signals heightened regulatory and legal risks for television networks that exploit private domestic disputes without adequate psychological safeguards."
       ],
-      "brief": "Rakhi Sawant is facing a&nbsp;non-bailable arrest warrant issued by a court in Jhansi, Uttar Pradesh, in a 2010 suicide case linked to alleged insulting remarks she made against a local resident on her television show. As per a report by PTI, District Government Counsel (Crime) Mridul Kant Srivastava said Civil Judge (Junior Division) Anjali issued the warrant on Friday (October 16) after Sawant repeatedly failed to appear before the court. Husband’s ‘joke’ turns tragic: Lucknow woman dies by suicide after hurtful remark. The case relates to Laxman Ahirwar, a resident of the Hansari Prem Nagar area in Jhansi, who allegedly died by suicide on November 10, 2010, after being humiliated by remarks made by Sawant on her television show, Rakhi Ka Insaaf. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 136
+      "brief": "A local court in Jhansi, Uttar Pradesh, has issued a non-bailable arrest warrant against television personality Rakhi Sawant following her repeated failure to appear in an ongoing legal proceeding connected to a 2010 suicide. Civil Judge Anjali sanctioned the enforcement action, as confirmed by District Government Counsel Mridul Kant Srivastava, setting the next formal hearing in the protracted matter for December 1. The underlying criminal complaint was lodged by Savitri Ahirwar after her son, Laxman Ahirwar, died by suicide in November 2010 shortly after appearing on Sawant’s television reality program, 'Rakhi Ka Insaaf.' Ahirwar had participated in an October 2010 broadcast alongside his wife to resolve marital grievances, during which Sawant publicly humiliated him and allegedly branded him 'impotent' on national television. The escalation to an arrest warrant underscores persistent judicial pressure on high-profile entertainment figures to face legal accountability for alleged psychological harm and reckless conduct on reality television formats. The case highlights growing judicial intolerance toward procedural non-compliance by high-profile media figures while setting a significant legal precedent regarding criminal liability for harm inflicted during sensationalized reality broadcasts. It also signals heightened regulatory and legal risks for television networks that exploit private domestic disputes without adequate psychological safeguards.",
+      "brief_word_count": 200
     },
     {
-      "story_id": "story-38",
+      "story_id": "story-43",
       "category": "Geopolitics",
-      "primary_headline": "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa",
+      "primary_headline": "Albanian PM says mass protests a threat to EU membership, not government",
       "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa",
-        "published_at": "Sun, 18 Oct 2026 17:32:41 +0530",
-        "url": "https://www.thehindu.com/news/national/goa/rahul-gandhi-goa-congress-anti-cec-protest-modi-shah-gyanesh-kumar/article71599732.ece",
-        "content": "India used to have a world-class education system earlier, but now pellet guns are being used against student protesters, he said, after walking two kilometres with workers and leaders"
+        "source_name": "Reuters",
+        "headline": "Albanian PM says mass protests a threat to EU membership, not government - Reuters",
+        "published_at": "Sun, 18 Oct 2026 11:16:09 GMT",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWlc3R0V2SVhwYWpQcDQzVnptVkptdkQtWHdGZUU0SUlYdUozS3ZFQmN2bmNTQUFKbUZ5UUNWR3RWQmlFVDZSU2daT0FMcXNVM0ZIaGtYbXFTTThzWjFqV3JkWkgzbWRxZWsyTGhhYU5wVTFRc01IV3ZRSkRlTlBlZ0p1YVQzMlZYUUxTSEV6WjUxMGNQb1R6Y3k0b0dZSDZIQlo3c1l2RUpTR0o3?oc=5",
+        "content": "Albanian PM says mass protests a threat to EU membership, not government&nbsp;&nbsp;Reuters"
       },
       "sources": [
         {
-          "source_name": "The Hindu",
-          "headline": "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa",
-          "published_at": "Sun, 18 Oct 2026 17:32:41 +0530",
-          "url": "https://www.thehindu.com/news/national/goa/rahul-gandhi-goa-congress-anti-cec-protest-modi-shah-gyanesh-kumar/article71599732.ece"
+          "source_name": "Reuters",
+          "headline": "Albanian PM says mass protests a threat to EU membership, not government - Reuters",
+          "published_at": "Sun, 18 Oct 2026 11:16:09 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWlc3R0V2SVhwYWpQcDQzVnptVkptdkQtWHdGZUU0SUlYdUozS3ZFQmN2bmNTQUFKbUZ5UUNWR3RWQmlFVDZSU2daT0FMcXNVM0ZIaGtYbXFTTThzWjFqV3JkWkgzbWRxZWsyTGhhYU5wVTFRc01IV3ZRSkRlTlBlZ0p1YVQzMlZYUUxTSEV6WjUxMGNQb1R6Y3k0b0dZSDZIQlo3c1l2RUpTR0o3?oc=5"
         },
         {
-          "source_name": "The Indian Express",
-          "headline": "India News Live Updates, 18 October 2026: In Goa, Rahul Gandhi targets PM Modi, Gyanesh Kumar on ‘vote chori’",
-          "published_at": "Sun, 18 Oct 2026 02:44:17 +0000",
-          "url": "https://indianexpress.com/article/india/today-india-breaking-news-live-updates-18-october-2026-gwalior-temple-truck-accident-cjp-abhijeet-dipke-rahul-gandhi-gyanesh-kumar-10926414/"
+          "source_name": "The Print",
+          "headline": "Albanian PM says mass protests a threat to EU membership, not government - ThePrint",
+          "published_at": "Sun, 18 Oct 2026 11:00:04 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNUpPdjRiQjExenZVMmVzdk45R1U0NXJfdjVzWWZtZ014UXo0V1A5ZzJPckVxekxEa1JSQ1ZuSDJuM25ULWo4TkNDY1NXU3ktakYzSVctQ1QxWHFzc1R2a3liUndjeHBfMjVwNVVrRHJHTW1TT19obHNiSkJCc3hHU3lqS3VENEZud2hrSVQ0OEJyWFdFTXBjdmxBYXBUNC0tclotNTJxXzZYZ9IBrwFBVV95cUxNTUtEWTEwcFIyNk9pcmptWjJHd0tmeVFVZGlrMHFwSVl0VWQwTG81SFBmR25hTWNXaFg5OGJuWGlZX1hyMTBSN2RnQlRXMHRSQno1Nkl3YUNGWG5KYVdST2UzYlIwTGs0SmZKelJkYU5WbXpBbk9EQXNoZGtFa0ltRHJ6eGEteGpFdmJyQ2g4dnc0UUlCWWVNam9Oa0lQYnZGRk1MUmwzUUJkM0k4Yk9B?oc=5"
         }
       ],
       "source_count": 2,
       "total_count": 2,
       "combined_score": 1.6,
       "brief_bullets": [
-        "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa.",
-        "Verified accounts indicate critical developments surrounding modi, amit shah and cec gyanesh kumar will pay price for 'vote chori': rahul gandhi in goa, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+        "Developments regarding albanian pm says mass protests a threat to eu membership, not government are actively unfolding across key regulatory and industry channels."
       ],
       "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+        "Carries notable operational, policy, and market consequences surrounding 'Albanian PM says mass protests a threat to EU membership, not government'."
       ],
-      "brief": "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa. Verified accounts indicate critical developments surrounding modi, amit shah and cec gyanesh kumar will pay price for 'vote chori': rahul gandhi in goa, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 84
+      "brief": "Developments regarding albanian pm says mass protests a threat to eu membership, not government are actively unfolding across key regulatory and industry channels. Carries notable operational, policy, and market consequences surrounding 'Albanian PM says mass protests a threat to EU membership, not government'.",
+      "brief_word_count": 43
     },
     {
-      "story_id": "story-41",
+      "story_id": "story-44",
       "category": "Geopolitics",
       "primary_headline": "‘We are suffocating’: protests spread to Lisbon and Milan as housing and living cost tensions intensify",
       "primary_source": {
@@ -619,47 +559,44 @@
       "brief_word_count": 112
     },
     {
-      "story_id": "story-43",
+      "story_id": "story-45",
       "category": "Geopolitics",
-      "primary_headline": "Voters can fill Form 6 to get names re-included in electoral rolls: Election Commission to Delhi High Court",
+      "primary_headline": "Paris police report 855 arrests after violent clashes and looting during protests",
       "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Voters can fill Form 6 to get names re-included in electoral rolls: Election Commission to Delhi High Court",
-        "published_at": "Sun, 18 Oct 2026 08:56:53 +0000",
-        "url": "https://www.deccanherald.com/india/dl-hc-sir-4187089",
-        "content": " New Delhi: The Election Commission of India has told the Delhi High Court that two voters, whose names were deleted from the electoral rolls after they could not complete the enumeration process during the Special Intensive Revision in the national capital, can fill Form 6 for redressal of their grievance.The statement was made on behalf of the Commission before the court, which was dealing with a petition seeking restoration of names of two petitioners in the electoral rolls.The court closed the plea noting that the petitioner's apprehension that if he fills Form 6, he would be accused of furnishing a false declaration was “misplaced”.From removing Form 6 declaration to capping Form 7 submissions: All changes EC made in last three weeks amid SIR row“Having heard the learned counsel for the parties, we are of the considered opinion that when the suggestion is coming from the learned standing counsel appearing for the ECI, that too as per the instructions of the electoral registration officer, petitioner No.1's apprehension that he would be accused of furnishing a false declaration is misplaced.“With these observations, the writ proceedings are closed. The petitioners, if so desire, may fill Form 6, which shall be processed in accordance with law,” a bench of Justices Dinesh Mehta and Aditi Choudhary said.The petitioners approached the court challenging the procedure prescribed by the ECI for the existing electors who could not be enumerated during the Special Intensive Revision (SIR) exercise.They sought directions to restore their electoral entries and permit correction and transposition of their names through Form 8 instead of requiring them to seek fresh inclusion through Form 6.Their grievance was that they had shifted from their previous address and, consequently, could not fill the enumeration forms, resulting in the deletion of their names from the electoral rolls.The counsel for ECI submitted that the petitioners could get their grievance redressed by furnishing Form 6 under the Registration of Electors Rules, 1960.He also said that the electoral registration officer would extend assistance, but the petitioners have chosen not to do so for the reasons best known to them.Form 6 is the statutory application for fresh inclusion in the electoral roll. It requires an applicant to fill in their personal particulars.Applicants are also required to affirm that they are applying for inclusion in the electoral roll for the first time. Giving a false declaration can attract penal consequences. "
+        "source_name": "AP News",
+        "headline": "Paris police report 855 arrests after violent clashes and looting during protests - AP News",
+        "published_at": "Sun, 18 Oct 2026 10:10:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMHU2Y3QzdlRfOERXUU8tdkVReVV5clJIYkZNNk1USGh5R2Zmci05YUZqTHpVUDhqZ0NIMURCTTN3SWFLNUY5bmdfdDhfcmJVQWFpZkpRd3FoVEtva0pSRTljX25iYlRLUmxUV2d4c3dhN0dMZFJiaURLRnFsT3poeE5KOHdyZGRJTUdubkVaYno0alVYMzJz?oc=5",
+        "content": "Paris police report 855 arrests after violent clashes and looting during protests&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
-          "source_name": "Deccan Herald",
-          "headline": "Voters can fill Form 6 to get names re-included in electoral rolls: Election Commission to Delhi High Court",
-          "published_at": "Sun, 18 Oct 2026 08:56:53 +0000",
-          "url": "https://www.deccanherald.com/india/dl-hc-sir-4187089"
+          "source_name": "AP News",
+          "headline": "Paris police report 855 arrests after violent clashes and looting during protests - AP News",
+          "published_at": "Sun, 18 Oct 2026 10:10:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMHU2Y3QzdlRfOERXUU8tdkVReVV5clJIYkZNNk1USGh5R2Zmci05YUZqTHpVUDhqZ0NIMURCTTN3SWFLNUY5bmdfdDhfcmJVQWFpZkpRd3FoVEtva0pSRTljX25iYlRLUmxUV2d4c3dhN0dMZFJiaURLRnFsT3poeE5KOHdyZGRJTUdubkVaYno0alVYMzJz?oc=5"
         },
         {
-          "source_name": "The Indian Express",
-          "headline": "Can fill form for new voters: Delhi High Court to petitioners who didn’t make it to SIR draft",
-          "published_at": "Sat, 17 Oct 2026 13:51:36 +0000",
-          "url": "https://indianexpress.com/article/cities/delhi/can-fill-form-for-new-voters-delhi-high-court-to-petitioners-who-didnt-make-it-to-sir-draft-10925989/"
+          "source_name": "NPR",
+          "headline": "French police arrest 1,800 after violent clashes and looting mar protests",
+          "published_at": "Sat, 17 Oct 2026 11:57:40 -0400",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france"
         }
       ],
       "source_count": 2,
       "total_count": 2,
       "combined_score": 1.6,
       "brief_bullets": [
-        "New Delhi: The Election Commission of India has told the Delhi High Court that two voters, whose names were deleted from the electoral rolls after they could not complete the enumeration process during the Special Intensive Revision in the national capital, can fill Form 6 for redressal of their grievance.",
-        "The statement was made on behalf of the Commission before the court, which was dealing with a petition seeking restoration of names of two petitioners in the electoral rolls.",
-        "The court closed the plea noting that the petitioner's apprehension that if he fills Form 6, he would be accused of furnishing a false declaration was “misplaced”.From removing Form 6 declaration to capping Form 7 submissions: All changes EC made in last three weeks amid SIR row“Having heard the learned counsel for the parties, we are of the considered opinion that when the suggestion is coming from the learned standing counsel appearing for the ECI, that too as per the instructions of the electoral registration officer, petitioner No.1's apprehension that he would be accused of furnishing a false declaration is misplaced.“With these observations, the writ proceedings are closed.",
-        "The petitioners, if so desire, may fill Form 6, which shall be processed in accordance with law,” a bench of Justices Dinesh Mehta and Aditi Choudhary said."
+        "Developments regarding paris police report 855 arrests after violent clashes and looting during protests are actively unfolding across key regulatory and industry channels."
       ],
       "why_it_matters_bullets": [
-        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
       ],
-      "brief": "New Delhi: The Election Commission of India has told the Delhi High Court that two voters, whose names were deleted from the electoral rolls after they could not complete the enumeration process during the Special Intensive Revision in the national capital, can fill Form 6 for redressal of their grievance. The statement was made on behalf of the Commission before the court, which was dealing with a petition seeking restoration of names of two petitioners in the electoral rolls. The court closed the plea noting that the petitioner's apprehension that if he fills Form 6, he would be accused of furnishing a false declaration was “misplaced”.From removing Form 6 declaration to capping Form 7 submissions: All changes EC made in last three weeks amid SIR row“Having heard the learned counsel for the parties, we are of the considered opinion that when the suggestion is coming from the learned standing counsel appearing for the ECI, that too as per the instructions of the electoral registration officer, petitioner No.1's apprehension that he would be accused of furnishing a false declaration is misplaced.“With these observations, the writ proceedings are closed. The petitioners, if so desire, may fill Form 6, which shall be processed in accordance with law,” a bench of Justices Dinesh Mehta and Aditi Choudhary said. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 228
+      "brief": "Developments regarding paris police report 855 arrests after violent clashes and looting during protests are actively unfolding across key regulatory and industry channels. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 37
     },
     {
-      "story_id": "story-44",
+      "story_id": "story-47",
       "category": "Geopolitics",
       "primary_headline": "France in Shock After Protests Devolve Into Riots",
       "primary_source": {
@@ -687,18 +624,16 @@
       "total_count": 2,
       "combined_score": 1.6,
       "brief_bullets": [
-        "France in Shock After Protests Devolve Into Riots.",
-        "Verified accounts indicate critical developments surrounding france in shock after protests devolve into riots, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+        "Centrist and leftist leaders blamed each other after anti-government protests devolved into chaos."
       ],
       "why_it_matters_bullets": [
         "Carries notable operational, policy, and market consequences surrounding 'France in Shock After Protests Devolve Into Riots'."
       ],
-      "brief": "France in Shock After Protests Devolve Into Riots. Verified accounts indicate critical developments surrounding france in shock after protests devolve into riots, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Carries notable operational, policy, and market consequences surrounding 'France in Shock After Protests Devolve Into Riots'.",
-      "brief_word_count": 69
+      "brief": "Centrist and leftist leaders blamed each other after anti-government protests devolved into chaos. Carries notable operational, policy, and market consequences surrounding 'France in Shock After Protests Devolve Into Riots'.",
+      "brief_word_count": 29
     },
     {
-      "story_id": "story-51",
+      "story_id": "story-54",
       "category": "Geopolitics",
       "primary_headline": "Trump’s waiver of sanctions on Russia stirs bipartisan outrage - The Washington Post",
       "primary_source": {
@@ -726,18 +661,16 @@
       "total_count": 2,
       "combined_score": 1.6,
       "brief_bullets": [
-        "Trump’s waiver of sanctions on Russia stirs bipartisan outrage.",
-        "Verified accounts indicate critical developments surrounding trump’s waiver of sanctions on russia stirs bipartisan outrage, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+        "Trump’s waiver of sanctions on Russia stirs bipartisan outrage The Washington Post."
       ],
       "why_it_matters_bullets": [
         "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
       ],
-      "brief": "Trump’s waiver of sanctions on Russia stirs bipartisan outrage. Verified accounts indicate critical developments surrounding trump’s waiver of sanctions on russia stirs bipartisan outrage, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
-      "brief_word_count": 69
+      "brief": "Trump’s waiver of sanctions on Russia stirs bipartisan outrage The Washington Post. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 26
     },
     {
-      "story_id": "story-55",
+      "story_id": "story-57",
       "category": "Geopolitics",
       "primary_headline": "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump",
       "primary_source": {
@@ -765,15 +698,13 @@
       "total_count": 2,
       "combined_score": 1.6,
       "brief_bullets": [
-        "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump.",
-        "Verified accounts indicate critical developments surrounding zelenskyy urges support for new us sanctions on russia put on hold by trump, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+        "Developments regarding zelenskyy urges support for new us sanctions on russia put on hold by trump are actively unfolding across key regulatory and industry channels."
       ],
       "why_it_matters_bullets": [
         "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
       ],
-      "brief": "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump. Verified accounts indicate critical developments surrounding zelenskyy urges support for new us sanctions on russia put on hold by trump, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
-      "brief_word_count": 79
+      "brief": "Developments regarding zelenskyy urges support for new us sanctions on russia put on hold by trump are actively unfolding across key regulatory and industry channels. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 39
     },
     {
       "story_id": "story-65",
@@ -804,15 +735,50 @@
       "total_count": 2,
       "combined_score": 1.22,
       "brief_bullets": [
-        "Iran's New Defence Minister's \"Enormous Damage\" Warning To US.",
-        "Verified accounts indicate critical developments surrounding iran's new defence minister's \"enormous damage\" warning to us, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+        "Iranian lawmakers had earlier approved Akhlaghi's appointment as the country's new defence minister, after his predecessor was killed on the first day of the war with the United States."
       ],
       "why_it_matters_bullets": [
         "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
       ],
-      "brief": "Iran's New Defence Minister's \"Enormous Damage\" Warning To US. Verified accounts indicate critical developments surrounding iran's new defence minister's \"enormous damage\" warning to us, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 71
+      "brief": "Iranian lawmakers had earlier approved Akhlaghi's appointment as the country's new defence minister, after his predecessor was killed on the first day of the war with the United States. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 45
+    },
+    {
+      "story_id": "story-66",
+      "category": "Geopolitics",
+      "primary_headline": "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa",
+        "published_at": "Sun, 18 Oct 2026 18:02:20 +0530",
+        "url": "https://www.thehindu.com/news/national/goa/rahul-gandhi-goa-congress-anti-cec-protest-modi-shah-gyanesh-kumar/article71599732.ece",
+        "content": "India used to have a world-class education system earlier, but now pellet guns are being used against student protesters, he said, after walking two kilometres with workers and leaders"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa",
+          "published_at": "Sun, 18 Oct 2026 18:02:20 +0530",
+          "url": "https://www.thehindu.com/news/national/goa/rahul-gandhi-goa-congress-anti-cec-protest-modi-shah-gyanesh-kumar/article71599732.ece"
+        },
+        {
+          "source_name": "The Hindu",
+          "headline": "Anti-CEC protest LIVE | Rahul Gandhi warns Modi, Shah, CEC Gyanesh Kumar will pay price for ‘vote chori’",
+          "published_at": "Sun, 18 Oct 2026 17:47:05 +0530",
+          "url": "https://www.thehindu.com/news/national/cec-gyanesh-kumar-protests-oct-18-live-updates-cjp/article71598964.ece"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 2,
+      "combined_score": 1.13,
+      "brief_bullets": [
+        "India used to have a world-class education system earlier, but now pellet guns are being used against student protesters, he said, after walking two kilometres with workers and leaders."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "India used to have a world-class education system earlier, but now pellet guns are being used against student protesters, he said, after walking two kilometres with workers and leaders. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 42
     },
     {
       "story_id": "story-74",
@@ -843,15 +809,13 @@
       "total_count": 2,
       "combined_score": 1.1,
       "brief_bullets": [
-        "Opinion | A new level of chaos in Trump’s Ukraine policy.",
-        "Verified accounts indicate critical developments surrounding opinion | a new level of chaos in trump’s ukraine policy, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+        "Opinion | A new level of chaos in Trump’s Ukraine policy The Washington Post."
       ],
       "why_it_matters_bullets": [
         "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
       ],
-      "brief": "Opinion | A new level of chaos in Trump’s Ukraine policy. Verified accounts indicate critical developments surrounding opinion | a new level of chaos in trump’s ukraine policy, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
-      "brief_word_count": 73
+      "brief": "Opinion | A new level of chaos in Trump’s Ukraine policy The Washington Post. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 28
     }
   ]
 }

@@ -1,303 +1,160 @@
 {
   "id": "latest",
   "category": "1hour",
-  "timestamp": "2026-10-18T12:05:47.587879+00:00",
+  "timestamp": "2026-10-18T13:13:45.201636+00:00",
   "articlesCount": 20,
   "stories": [
     {
-      "story_id": "story-15",
+      "story_id": "story-8",
       "category": "Society",
-      "primary_headline": "Pope Leo pledges gradual return to duties in first event since cancer surgery",
+      "primary_headline": "10-Day Police Custody For 7 Accused In Kolkata Durga Puja Pandal Stampede",
       "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Pope Leo pledges gradual return to duties in first event since cancer surgery - Reuters",
-        "published_at": "Sun, 18 Oct 2026 11:23:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQajlwczZReXZXSkQ1X1JuZWNGWlNjX2VXcW9hNVdlNXYybU00b3NkSFdpdXo4ZXFLZ184OENSdTZRbE9DdDF2ejZIRVpXUWk2MjdJbWM2Y0JMNzVfcGFvYzRxUU5LYUhpTTB6QWpQWHgwR0tEUXZkNnhBMkxJYkd4dTBydU1OWFpVd3lSNjRSSmF3QW9TUmFocVJVa1QyVUtJcFFHeUwwTGg?oc=5",
-        "content": "Pope Leo pledges gradual return to duties in first event since cancer surgery&nbsp;&nbsp;Reuters"
+        "source_name": "NDTV",
+        "headline": "10-Day Police Custody For 7 Accused In Kolkata Durga Puja Pandal Stampede",
+        "published_at": "Sun, 18 Oct 2026 18:20:49 +0530",
+        "url": "https://www.ndtv.com/india-news/chorbagan-stampede-10-day-police-custody-for-7-accused-in-deadly-kolkata-pandal-stampede-12202905#publisher=newsstand",
+        "content": "Police had registered a case of culpable homicide not amounting to murder over the stampede that broke out around 7:40 pm on Saturday amid heavy rain."
       },
       "sources": [
         {
-          "source_name": "Reuters",
-          "headline": "Pope Leo pledges gradual return to duties in first event since cancer surgery - Reuters",
-          "published_at": "Sun, 18 Oct 2026 11:23:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQajlwczZReXZXSkQ1X1JuZWNGWlNjX2VXcW9hNVdlNXYybU00b3NkSFdpdXo4ZXFLZ184OENSdTZRbE9DdDF2ejZIRVpXUWk2MjdJbWM2Y0JMNzVfcGFvYzRxUU5LYUhpTTB6QWpQWHgwR0tEUXZkNnhBMkxJYkd4dTBydU1OWFpVd3lSNjRSSmF3QW9TUmFocVJVa1QyVUtJcFFHeUwwTGg?oc=5"
-        },
-        {
-          "source_name": "BBC News",
-          "headline": "Watch: Pope thanks well-wishers in first event after cancer surgery",
-          "published_at": "Sun, 18 Oct 2026 11:09:32 GMT",
-          "url": "https://www.bbc.co.uk/news/videos/cq70px6pjkg5o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Pope Leo greets crowds at Vatican City in first event since cancer surgery",
-          "published_at": "Sun, 18 Oct 2026 10:48:51 +0000",
-          "url": "https://www.deccanherald.com/world/rest-of-world/pope-leo-greets-crowds-at-vatican-city-in-first-event-since-cancer-surgery-4187187"
-        }
-      ],
-      "source_count": 3,
-      "total_count": 3,
-      "combined_score": 2.4,
-      "brief_bullets": [
-        "Pope Leo pledges gradual return to duties in first event since cancer surgery.",
-        "Verified accounts indicate critical developments surrounding pope leo pledges gradual return to duties in first event since cancer surgery, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
-      ],
-      "why_it_matters_bullets": [
-        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
-      ],
-      "brief": "Pope Leo pledges gradual return to duties in first event since cancer surgery. Verified accounts indicate critical developments surrounding pope leo pledges gradual return to duties in first event since cancer surgery, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
-      "brief_word_count": 76
-    },
-    {
-      "story_id": "story-23",
-      "category": "Society",
-      "primary_headline": "Three kin arrested after five family members found dead in Greater Noida",
-      "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Three kin arrested after five family members found dead in Greater Noida",
-        "published_at": "Sun, 18 Oct 2026 17:29:18 +0530",
-        "url": "https://www.thehindu.com/news/national/kin-arrested-after-family-members-found-dead-in-greater-noida/article71599681.ece",
-        "content": "Preliminary suspicion had pointed to possible food poisoning, with reports suggesting that the family ate noodles before their deaths"
-      },
-      "sources": [
-        {
-          "source_name": "The Hindu",
-          "headline": "Three kin arrested after five family members found dead in Greater Noida",
-          "published_at": "Sun, 18 Oct 2026 17:29:18 +0530",
-          "url": "https://www.thehindu.com/news/national/kin-arrested-after-family-members-found-dead-in-greater-noida/article71599681.ece"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Noida couple, children found dead: Police book three family members for abetment to suicide",
-          "published_at": "Sun, 18 Oct 2026 07:40:08 +0000",
-          "url": "https://indianexpress.com/article/cities/delhi/noida-couple-children-dead-police-book-family-members-abetment-suicide-10926689/"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.66,
-      "brief_bullets": [
-        "Three kin arrested after five family members found dead in Greater Noida.",
-        "Verified accounts indicate critical developments surrounding three kin arrested after five family members found dead in greater noida, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
-      ],
-      "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
-      ],
-      "brief": "Three kin arrested after five family members found dead in Greater Noida. Verified accounts indicate critical developments surrounding three kin arrested after five family members found dead in greater noida, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 75
-    },
-    {
-      "story_id": "story-27",
-      "category": "Society",
-      "primary_headline": "Cockroach effigy at Delhi Ramlila event triggers queries; organisers say promoting cleanliness",
-      "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Cockroach effigy at Delhi Ramlila event triggers queries; organisers say promoting cleanliness",
-        "published_at": "Sun, 18 Oct 2026 17:31:24 +0530",
-        "url": "https://www.thehindu.com/news/cities/Delhi/cockroach-effigy-at-delhi-ramlila-event-triggers-queries-organisers-say-promoting-cleanliness/article71599268.ece",
-        "content": "Shree Keshav Ram Leela Committee president Ashok Goel said the 30-foot effigy symbolises filth and is unrelated to the Cockroach Janta Party, as social media users question the timing"
-      },
-      "sources": [
-        {
-          "source_name": "The Hindu",
-          "headline": "Cockroach effigy at Delhi Ramlila event triggers queries; organisers say promoting cleanliness",
-          "published_at": "Sun, 18 Oct 2026 17:31:24 +0530",
-          "url": "https://www.thehindu.com/news/cities/Delhi/cockroach-effigy-at-delhi-ramlila-event-triggers-queries-organisers-say-promoting-cleanliness/article71599268.ece"
+          "source_name": "NDTV",
+          "headline": "10-Day Police Custody For 7 Accused In Kolkata Durga Puja Pandal Stampede",
+          "published_at": "Sun, 18 Oct 2026 18:20:49 +0530",
+          "url": "https://www.ndtv.com/india-news/chorbagan-stampede-10-day-police-custody-for-7-accused-in-deadly-kolkata-pandal-stampede-12202905#publisher=newsstand"
         },
         {
           "source_name": "NDTV",
-          "headline": "'For Swachh Bharat': Delhi Ram Leela Event Organisers On Burning Of Cockroach Effigy",
-          "published_at": "Sun, 18 Oct 2026 10:51:21 +0530",
-          "url": "https://www.ndtv.com/delhi-news/for-swachh-bharat-delhi-shree-keshav-ram-leela-event-organisers-on-burning-of-cockroach-effigy-12201558#publisher=newsstand"
+          "headline": "Amit Shah Visits Kolkata Hospital, Meets Durga Puja Pandal Stampede Victims",
+          "published_at": "Sun, 18 Oct 2026 10:49:52 +0530",
+          "url": "https://www.ndtv.com/india-news/kolkata-durga-puja-pandal-stampede-amit-shah-visits-kolkata-hospital-meets-durga-puja-pandal-stampede-victims-12201589#publisher=newsstand"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Kolkata Chorebagan Sarbojanin Durga Puja Pandal stampede: What we know so far",
+          "published_at": "Sat, 17 Oct 2026 18:09:45 +0000",
+          "url": "https://indianexpress.com/article/cities/kolkata/kolkata-chorebagan-sarbojanin-durga-puja-pandal-stampede-dead-injured-10926194/"
+        },
+        {
+          "source_name": "The Print",
+          "headline": "Kolkata stampede: Committee visits popular Durga puja pandals to review safety norms - ThePrint",
+          "published_at": "Sun, 18 Oct 2026 09:46:43 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQS3dYdTdYNHpMdDVBV1NMbUo0enFOQzZ2Vk1XWGNPMWhLOHNmVnRUSU5fczdwLXRmZHFEWE1GQmtadVFqSmhVMVlqcGliTkdXZ2lGV043VTFEYmszVWxvSnNCd3FaRlpZSjdtdnd5SExGdHBrSGY1MmlIWFRlVWhQWXdqTUlTd291M0toXzJaaER5NWh0RE9fLXNHTVpqYm1ZNkNOU082MWxZY1ktalFHZ0RYN0M4cVJhekHSAb8BQVVfeXFMTW10RWtlT0hPNlYxakh0aGRfSHlMTHBVRzJlakQ1WldyMWpxb0RlVlprbFdRbkxSRFJSQWF4a0Fha2JreExvYndMSjM5WHRSbXF1NEdwaWdTQlhScHlxNExjZ052LTkzclVEdzN1VGlPZzJxZTdIbVhkS1NsZ1BrX1ZldnRtNmtZWUotQVExMkJJZ3d1cmptaTEycFQzV3VSMWR2VnhmU0Q3UTF5eVpqNVdKT0dYVEt2WVJFZ1NIZFU?oc=5"
+        },
+        {
+          "source_name": "The Print",
+          "headline": "Kolkata Durga Puja stampede: Amit Shah to meet injured on Sunday - ThePrint",
+          "published_at": "Sun, 18 Oct 2026 02:45:03 GMT",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZFhJY1J3MWR4a3RvMTVLSWlfVDJCLXFsSFhlUWdhcU9lTTNPMVROcWRheXhYOWVac1VpSTZLdk1RQm9SMlo0c3ZZbFV1VXpFT0l6V0pxZ2gwVGhMSmVqZUhpanZmWVJOVHZjZm1zM01UcklJLTBzT0VFUFYwYnpGd3MzMFBMellzdXFaM2VTRm9MbURlUl9BYkRib2xOU1HSAaQBQVVfeXFMUHJ5eXRoU2lLNEptc2ZKZ3FGOVE5MjRfMXNuVzlIRU41Z2hOX0ZaREZ5TlBiMmVyU1VndURZWUJFZ1J3NEZoS1VpSW1lMmF0TUhvUFViVjI1YUJORThhT3M5S01wd01UVjdLSUhvbGN1dGI4cEYzSVllVEk4ZjZjRVh5dXEzTU1nMjFGeF9Pb3lsRG5HejJsTEw5VUwtSk45RnY2Q3c?oc=5"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 5,
+      "combined_score": 3.03,
+      "brief_bullets": [
+        "A Kolkata court has remanded seven individuals to ten days of police custody following a tragic stampede at a Durga Puja pandal that occurred during heavy rainfall on Saturday evening. Local authorities have formally registered a case of culpable homicide not amounting to murder, signaling a rigorous investigation into potential negligence regarding crowd management and safety protocols at the site. The incident, which unfolded around 7:40 pm, has prompted intense scrutiny of the organizers' adherence to safety regulations during one of the city's most significant cultural festivals. As investigators work to determine the specific lapses that led to the fatal crush, the legal proceedings against the accused highlight a growing institutional demand for stricter accountability in managing large-scale public gatherings. This development underscores the precarious balance between maintaining traditional festivities and ensuring the physical security of thousands of attendees in high-density urban environments."
+      ],
+      "why_it_matters_bullets": [
+        "This case sets a critical legal precedent for event liability in India, likely forcing organizers to adopt more stringent safety compliance measures to avoid criminal prosecution for crowd-related disasters."
+      ],
+      "brief": "A Kolkata court has remanded seven individuals to ten days of police custody following a tragic stampede at a Durga Puja pandal that occurred during heavy rainfall on Saturday evening. Local authorities have formally registered a case of culpable homicide not amounting to murder, signaling a rigorous investigation into potential negligence regarding crowd management and safety protocols at the site. The incident, which unfolded around 7:40 pm, has prompted intense scrutiny of the organizers' adherence to safety regulations during one of the city's most significant cultural festivals. As investigators work to determine the specific lapses that led to the fatal crush, the legal proceedings against the accused highlight a growing institutional demand for stricter accountability in managing large-scale public gatherings. This development underscores the precarious balance between maintaining traditional festivities and ensuring the physical security of thousands of attendees in high-density urban environments. This case sets a critical legal precedent for event liability in India, likely forcing organizers to adopt more stringent safety compliance measures to avoid criminal prosecution for crowd-related disasters.",
+      "brief_word_count": 172
+    },
+    {
+      "story_id": "story-15",
+      "category": "Society",
+      "primary_headline": "Opinion: Kolkata Durga Puja Stampede: Suvendu Adhikari's First Major Challenge As Chief Minister",
+      "primary_source": {
+        "source_name": "NDTV",
+        "headline": "Opinion: Kolkata Durga Puja Stampede: Suvendu Adhikari's First Major Challenge As Chief Minister",
+        "published_at": "Sun, 18 Oct 2026 18:07:22 +0530",
+        "url": "https://www.ndtv.com/opinion/kolkata-durga-puja-stampede-is-suvendu-adhikaris-first-major-challenge-as-chief-minister-12202902#publisher=newsstand",
+        "content": "The tragedy is not simply a question of how a single puja committee organised its festival. It is also a test of the administration's ability to anticipate risks and respond effectively when a large public gathering becomes dangerous."
+      },
+      "sources": [
+        {
+          "source_name": "NDTV",
+          "headline": "Opinion: Kolkata Durga Puja Stampede: Suvendu Adhikari's First Major Challenge As Chief Minister",
+          "published_at": "Sun, 18 Oct 2026 18:07:22 +0530",
+          "url": "https://www.ndtv.com/opinion/kolkata-durga-puja-stampede-is-suvendu-adhikaris-first-major-challenge-as-chief-minister-12202902#publisher=newsstand"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Kolkata Durga Puja Stampede: Examining CCTV, Won't Spare Anyone, Says Suvendu Adhikari",
+          "published_at": "Sun, 18 Oct 2026 00:45:26 +0530",
+          "url": "https://www.ndtv.com/india-news/kolkata-durga-puja-stampede-live-updates-north-kolkata-chorbagan-pandal-chorebagan-sarbojanin-news-today-12200230#publisher=newsstand"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Kolkata Durga Puja Stampede Live Updates: Out of 25 injured, 2 in ICU but ‘not under threat’, says Suvendu Adhikari",
+          "published_at": "Sat, 17 Oct 2026 16:52:13 +0000",
+          "url": "https://indianexpress.com/article/cities/kolkata/kolkata-durga-puja-stampede-live-updates-chorebagan-pandal-incident-today-several-injured-latest-news-10926181/"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 3,
+      "combined_score": 1.93,
+      "brief_bullets": [
+        "The tragic Kolkata Durga Puja stampede has emerged as a critical crucible for political leadership, marking Suvendu Adhikari's inaugural major crisis as Chief Minister. Beyond questioning the immediate operational protocols of a single festival committee, the disaster exposes systemic vulnerabilities in state-level crowd management and risk anticipation during massive public gatherings. The administration's delayed and uncoordinated emergency response has intensified public scrutiny over governmental preparedness, forcing a thorough re-evaluation of safety regulations at large-scale cultural events across West Bengal. This high-stakes situation tests the newly installed leadership's capacity to maintain public trust, enforce accountability among local organizers, and institute robust preventive safeguards to avert future catastrophes."
+      ],
+      "why_it_matters_bullets": [
+        "This crisis serves as an early litmus test for the administration's governance capability, directly impacting public confidence and setting a crucial precedent for how the state handles mass-gathering safety and administrative accountability moving forward."
+      ],
+      "brief": "The tragic Kolkata Durga Puja stampede has emerged as a critical crucible for political leadership, marking Suvendu Adhikari's inaugural major crisis as Chief Minister. Beyond questioning the immediate operational protocols of a single festival committee, the disaster exposes systemic vulnerabilities in state-level crowd management and risk anticipation during massive public gatherings. The administration's delayed and uncoordinated emergency response has intensified public scrutiny over governmental preparedness, forcing a thorough re-evaluation of safety regulations at large-scale cultural events across West Bengal. This high-stakes situation tests the newly installed leadership's capacity to maintain public trust, enforce accountability among local organizers, and institute robust preventive safeguards to avert future catastrophes. This crisis serves as an early litmus test for the administration's governance capability, directly impacting public confidence and setting a crucial precedent for how the state handles mass-gathering safety and administrative accountability moving forward.",
+      "brief_word_count": 140
+    },
+    {
+      "story_id": "story-26",
+      "category": "Geopolitics",
+      "primary_headline": "Two held in Haryana for allegedly attacking Srinagar-bound bus",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Two held in Haryana for allegedly attacking Srinagar-bound bus",
+        "published_at": "Sun, 18 Oct 2026 18:03:59 +0530",
+        "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/two-held-in-haryana-for-allegedly-attacking-srinagar-bound-bus/article71599765.ece",
+        "content": "Kashmir leaders condemn attack; Chief Minister Omar Abdullah said his office had taken up the matter with the Haryana government"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Two held in Haryana for allegedly attacking Srinagar-bound bus",
+          "published_at": "Sun, 18 Oct 2026 18:03:59 +0530",
+          "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/two-held-in-haryana-for-allegedly-attacking-srinagar-bound-bus/article71599765.ece"
+        },
+        {
+          "source_name": "The Print",
+          "headline": "Kashmir leaders condemn attack on J-K-bound bus in Haryana, seek strict action - ThePrint",
+          "published_at": "Sun, 18 Oct 2026 09:47:23 GMT",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPenRTVFpfRFBOX2t4YUVoNGZzWk13bFBySFhPdVpoLWZTQURUWHZ5WW1Va2ZBS1ZrWXA1c1lwTlBEY3J3WjhNdFp1bmpYaVplVmlIMTZKY1BfZXd6MENsNlZRdDdJVFhaZm5kbnJLODBZTHc5c2ZZZG5hMWFVN3VjbExLQXdGWjlWc2RlcGk5X0JMS2NjVEgwRUpWTjl5OVpFbnBBYjRFdHJmQjk1VXQzd0p30gG3AUFVX3lxTE01RlRpNVBUdUJUTWZsNWxTQzNibHNqSjB1MnJBOXc5cmdMcFhXUm40NXJWcVgtSk90cG8tTlYycDBpVndmNDZOQUozWFNtajZjVGItZmZkcEZhZXlURlZndGJKZllCRDh4TU95dXVkanNyZDdOalhyZTBuQ2xHdllaQWRacE5DT3BUZ3laUlVYWGlXd1lockd4UkVYbG1aSjhTOGltemtINzYxdDFpMjVSZTFHdm9kQQ?oc=5"
         }
       ],
       "source_count": 2,
       "total_count": 2,
       "combined_score": 1.63,
       "brief_bullets": [
-        "Cockroach effigy at Delhi Ramlila event triggers queries; organisers say promoting cleanliness.",
-        "Verified accounts indicate critical developments surrounding cockroach effigy at delhi ramlila event triggers queries; organisers say promoting cleanliness, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+        "Haryana authorities have apprehended two individuals following a violent attack on a Srinagar-bound bus, an incident that has sparked significant outrage among political leadership in Jammu and Kashmir. The assault, which targeted passengers traveling toward the Kashmir Valley, prompted immediate intervention from Chief Minister Omar Abdullah, who confirmed that his office is actively coordinating with the Haryana government to ensure a thorough investigation and the safety of those affected. Prominent Kashmiri political figures have collectively condemned the act, characterizing it as a disturbing escalation that threatens the security of transit routes connecting the region to the rest of the country. As law enforcement agencies continue to process the suspects and examine the motives behind the aggression, the incident has reignited concerns regarding the safety of travelers on national highways. This development underscores the fragile security environment and the urgent need for robust inter-state cooperation to protect civilian movement across sensitive transit corridors."
       ],
       "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+        "The attack risks inflaming regional tensions and undermining public confidence in inter-state transit security, potentially necessitating a more centralized oversight of highway safety protocols to prevent further political and social instability."
       ],
-      "brief": "Cockroach effigy at Delhi Ramlila event triggers queries; organisers say promoting cleanliness. Verified accounts indicate critical developments surrounding cockroach effigy at delhi ramlila event triggers queries; organisers say promoting cleanliness, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 74
+      "brief": "Haryana authorities have apprehended two individuals following a violent attack on a Srinagar-bound bus, an incident that has sparked significant outrage among political leadership in Jammu and Kashmir. The assault, which targeted passengers traveling toward the Kashmir Valley, prompted immediate intervention from Chief Minister Omar Abdullah, who confirmed that his office is actively coordinating with the Haryana government to ensure a thorough investigation and the safety of those affected. Prominent Kashmiri political figures have collectively condemned the act, characterizing it as a disturbing escalation that threatens the security of transit routes connecting the region to the rest of the country. As law enforcement agencies continue to process the suspects and examine the motives behind the aggression, the incident has reignited concerns regarding the safety of travelers on national highways. This development underscores the fragile security environment and the urgent need for robust inter-state cooperation to protect civilian movement across sensitive transit corridors. The attack risks inflaming regional tensions and undermining public confidence in inter-state transit security, potentially necessitating a more centralized oversight of highway safety protocols to prevent further political and social instability.",
+      "brief_word_count": 183
     },
     {
-      "story_id": "story-28",
-      "category": "Geopolitics",
-      "primary_headline": "Menstrual hygiene: Supreme Court expresses displeasure over States, UTs not responding to Centre",
-      "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Menstrual hygiene: Supreme Court expresses displeasure over States, UTs not responding to Centre",
-        "published_at": "Sun, 18 Oct 2026 16:57:49 +0530",
-        "url": "https://www.thehindu.com/news/national/menstrual-hygiene-supreme-court-expresses-displeasure-over-states-uts-not-responding-to-centre/article71599447.ece",
-        "content": "The Bench said that on September 1, it had directed the States and UTs to take into consideration the deficiencies highlighted by it and report in that regard by the next date of hearing"
-      },
-      "sources": [
-        {
-          "source_name": "The Hindu",
-          "headline": "Menstrual hygiene: Supreme Court expresses displeasure over States, UTs not responding to Centre",
-          "published_at": "Sun, 18 Oct 2026 16:57:49 +0530",
-          "url": "https://www.thehindu.com/news/national/menstrual-hygiene-supreme-court-expresses-displeasure-over-states-uts-not-responding-to-centre/article71599447.ece"
-        },
-        {
-          "source_name": "Deccan Herald",
-          "headline": "SC warns states, UTs of contempt action over menstrual hygiene judgment",
-          "published_at": "Sun, 18 Oct 2026 09:02:25 +0000",
-          "url": "https://www.deccanherald.com/india/sc-warns-states-uts-of-contempt-action-over-menstrual-hygiene-judgment-4187065"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.63,
-      "brief_bullets": [
-        "Menstrual hygiene: Supreme Court expresses displeasure over States, UTs not responding to Centre.",
-        "Verified accounts indicate critical developments surrounding menstrual hygiene: supreme court expresses displeasure over states, uts not responding to centre, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "Menstrual hygiene: Supreme Court expresses displeasure over States, UTs not responding to Centre. Verified accounts indicate critical developments surrounding menstrual hygiene: supreme court expresses displeasure over states, uts not responding to centre, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 76
-    },
-    {
-      "story_id": "story-37",
+      "story_id": "story-36",
       "category": "Society",
-      "primary_headline": "Priest accused of sexually harassing minor boys arrested",
-      "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Priest accused of sexually harassing minor boys arrested",
-        "published_at": "Sun, 18 Oct 2026 17:32:51 +0530",
-        "url": "https://www.thehindu.com/news/cities/Mangalore/priest-accused-of-sexually-harassing-minor-boys-arrested/article71599594.ece",
-        "content": "The victim said he narrated the sexual harassment to his parents, and they all went to the Mangaluru Bishop. On his instructions, he was giving the complaint, the boy said."
-      },
-      "sources": [
-        {
-          "source_name": "The Hindu",
-          "headline": "Priest accused of sexually harassing minor boys arrested",
-          "published_at": "Sun, 18 Oct 2026 17:32:51 +0530",
-          "url": "https://www.thehindu.com/news/cities/Mangalore/priest-accused-of-sexually-harassing-minor-boys-arrested/article71599594.ece"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Mangaluru church priest arrested for sexually abusing minor boys: Police",
-          "published_at": "Sun, 18 Oct 2026 06:29:32 +0000",
-          "url": "https://indianexpress.com/article/cities/bangalore/mangaluru-church-priest-arrested-for-sexual-abuse-of-minors-10926650/"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
-      "brief_bullets": [
-        "The victim said he narrated the sexual harassment to his parents, and they all went to the Mangaluru Bishop.",
-        "On his instructions, he was giving the complaint, the boy said."
-      ],
-      "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
-      ],
-      "brief": "The victim said he narrated the sexual harassment to his parents, and they all went to the Mangaluru Bishop. On his instructions, he was giving the complaint, the boy said. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 44
-    },
-    {
-      "story_id": "story-38",
-      "category": "Geopolitics",
-      "primary_headline": "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa",
-      "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa",
-        "published_at": "Sun, 18 Oct 2026 17:32:41 +0530",
-        "url": "https://www.thehindu.com/news/national/goa/rahul-gandhi-goa-congress-anti-cec-protest-modi-shah-gyanesh-kumar/article71599732.ece",
-        "content": "India used to have a world-class education system earlier, but now pellet guns are being used against student protesters, he said, after walking two kilometres with workers and leaders"
-      },
-      "sources": [
-        {
-          "source_name": "The Hindu",
-          "headline": "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa",
-          "published_at": "Sun, 18 Oct 2026 17:32:41 +0530",
-          "url": "https://www.thehindu.com/news/national/goa/rahul-gandhi-goa-congress-anti-cec-protest-modi-shah-gyanesh-kumar/article71599732.ece"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "India News Live Updates, 18 October 2026: In Goa, Rahul Gandhi targets PM Modi, Gyanesh Kumar on ‘vote chori’",
-          "published_at": "Sun, 18 Oct 2026 02:44:17 +0000",
-          "url": "https://indianexpress.com/article/india/today-india-breaking-news-live-updates-18-october-2026-gwalior-temple-truck-accident-cjp-abhijeet-dipke-rahul-gandhi-gyanesh-kumar-10926414/"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
-      "brief_bullets": [
-        "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa.",
-        "Verified accounts indicate critical developments surrounding modi, amit shah and cec gyanesh kumar will pay price for 'vote chori': rahul gandhi in goa, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa. Verified accounts indicate critical developments surrounding modi, amit shah and cec gyanesh kumar will pay price for 'vote chori': rahul gandhi in goa, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 84
-    },
-    {
-      "story_id": "story-39",
-      "category": "Society",
-      "primary_headline": "India widens cancer drug price caps, lowering prices of 137 medicines",
+      "primary_headline": "France counts cost of worst unrest in years",
       "primary_source": {
         "source_name": "Reuters",
-        "headline": "India widens cancer drug price caps, lowering prices of 137 medicines - Reuters",
-        "published_at": "Sun, 18 Oct 2026 11:27:03 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNYkkwM0RDdmdmQ1ktLWJBS05mMmp0SmNveGE5ZGRVWmNaYVA1czQwVEpSTGF0aXRSSVpYaGNYZ2tVVVVtN3Q0VUpqS1cxaVVMd3hUNkxPVEdhN2xfeHU3VjhuTkVoSlVJWDYxSXpSMkNiNUVOMGU2VUhWUTdBZUhzeUpidFhUTkhpZVFOOVRmYUV6alA3TC1BMTdYR2lJYktuZUI2UVZGMm5Wajg0MmNfMTg4NzJqeXVhVmpwNkVmbEpKbmhiUEJKUWQ4aTA3cmJTR0FR?oc=5",
-        "content": "India widens cancer drug price caps, lowering prices of 137 medicines&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "India widens cancer drug price caps, lowering prices of 137 medicines - Reuters",
-          "published_at": "Sun, 18 Oct 2026 11:27:03 GMT",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNYkkwM0RDdmdmQ1ktLWJBS05mMmp0SmNveGE5ZGRVWmNaYVA1czQwVEpSTGF0aXRSSVpYaGNYZ2tVVVVtN3Q0VUpqS1cxaVVMd3hUNkxPVEdhN2xfeHU3VjhuTkVoSlVJWDYxSXpSMkNiNUVOMGU2VUhWUTdBZUhzeUpidFhUTkhpZVFOOVRmYUV6alA3TC1BMTdYR2lJYktuZUI2UVZGMm5Wajg0MmNfMTg4NzJqeXVhVmpwNkVmbEpKbmhiUEJKUWQ4aTA3cmJTR0FR?oc=5"
-        },
-        {
-          "source_name": "Deccan Herald",
-          "headline": "India widens cancer drug price caps, lowering prices of 137 medicines",
-          "published_at": "Sun, 18 Oct 2026 11:44:04 +0000",
-          "url": "https://www.deccanherald.com/business/india-widens-cancer-drug-price-caps-lowering-prices-of-137-medicines-4187220"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
-      "brief_bullets": [
-        "India widens cancer drug price caps, lowering prices of 137 medicines.",
-        "Verified accounts indicate critical developments surrounding india widens cancer drug price caps, lowering prices of 137 medicines, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
-      ],
-      "why_it_matters_bullets": [
-        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
-      ],
-      "brief": "India widens cancer drug price caps, lowering prices of 137 medicines. Verified accounts indicate critical developments surrounding india widens cancer drug price caps, lowering prices of 137 medicines, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
-      "brief_word_count": 72
-    },
-    {
-      "story_id": "story-40",
-      "category": "Society",
-      "primary_headline": "France faces aftermath of worst unrest in years",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "France faces aftermath of worst unrest in years - Reuters",
-        "published_at": "Sun, 18 Oct 2026 11:14:58 GMT",
+        "headline": "France counts cost of worst unrest in years - Reuters",
+        "published_at": "Sun, 18 Oct 2026 12:34:05 GMT",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNd1VSODRfY1ZTZlpfMVBnaXZzSi1KU1ZsUlJWcWZBaWVaQ0Fyal85ZmEtdkR3ZU94c2ZEeGNzRXpIamtSQVdfVlpJWTdhcEY2ZkZaMFZGZzlTVTVCTDRoUDJybE90dGJGYTNmU1NwUTJDNmVZZllXTDFSR3hIVnBTV2lYTk9LM2N1MlREWk9VOEtidHY2?oc=5",
-        "content": "France faces aftermath of worst unrest in years&nbsp;&nbsp;Reuters"
+        "content": "France counts cost of worst unrest in years&nbsp;&nbsp;Reuters"
       },
       "sources": [
         {
           "source_name": "Reuters",
-          "headline": "France faces aftermath of worst unrest in years - Reuters",
-          "published_at": "Sun, 18 Oct 2026 11:14:58 GMT",
+          "headline": "France counts cost of worst unrest in years - Reuters",
+          "published_at": "Sun, 18 Oct 2026 12:34:05 GMT",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNd1VSODRfY1ZTZlpfMVBnaXZzSi1KU1ZsUlJWcWZBaWVaQ0Fyal85ZmEtdkR3ZU94c2ZEeGNzRXpIamtSQVdfVlpJWTdhcEY2ZkZaMFZGZzlTVTVCTDRoUDJybE90dGJGYTNmU1NwUTJDNmVZZllXTDFSR3hIVnBTV2lYTk9LM2N1MlREWk9VOEtidHY2?oc=5"
         },
         {
@@ -311,297 +168,459 @@
       "total_count": 2,
       "combined_score": 1.6,
       "brief_bullets": [
-        "France faces aftermath of worst unrest in years.",
-        "Verified accounts indicate critical developments surrounding france faces aftermath of worst unrest in years, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+        "Developments regarding france counts cost of worst unrest in years are actively unfolding across key regulatory and industry channels."
       ],
       "why_it_matters_bullets": [
-        "Carries notable operational, policy, and market consequences surrounding 'France faces aftermath of worst unrest in years'."
+        "Carries notable operational, policy, and market consequences surrounding 'France counts cost of worst unrest in years'."
       ],
-      "brief": "France faces aftermath of worst unrest in years. Verified accounts indicate critical developments surrounding france faces aftermath of worst unrest in years, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Carries notable operational, policy, and market consequences surrounding 'France faces aftermath of worst unrest in years'.",
-      "brief_word_count": 69
+      "brief": "Developments regarding france counts cost of worst unrest in years are actively unfolding across key regulatory and industry channels. Carries notable operational, policy, and market consequences surrounding 'France counts cost of worst unrest in years'.",
+      "brief_word_count": 35
     },
     {
-      "story_id": "story-66",
-      "category": "Society",
-      "primary_headline": "Water level in Mullaperiyar dam stands at 116.70 feet",
+      "story_id": "story-37",
+      "category": "Finance",
+      "primary_headline": "Explained|Govt caps trade margins on 137 cancer drugs at 30%: NPPA",
       "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Water level in Mullaperiyar dam stands at 116.70 feet",
-        "published_at": "Sun, 18 Oct 2026 17:01:44 +0530",
-        "url": "https://www.thehindu.com/news/cities/Madurai/water-level-in-mullaperiyar-dam-stands-at-11670-feet/article71599624.ece",
+        "source_name": "Deccan Herald",
+        "headline": "Explained|Govt caps trade margins on 137 cancer drugs at 30%: NPPA",
+        "published_at": "Sun, 18 Oct 2026 12:30:51 +0000",
+        "url": "https://www.deccanherald.com/health/healthcare/explainedgovt-caps-trade-margins-on-137-cancer-drugs-at-30-nppa-4187230",
+        "content": " The Ministry of Chemicals and Fertilisers has announced a price cap of 30 per cent on the trade margins of 137 cancer medicines, over the cost of the drug at the first point, either to a stockist/distributor or the hospital. These margins will apply when the drugs are sold directly to them by a manufacturer.&amp;nbsp;The National Pharmaceutical Pricing Authority (NPPA), in an order dated October 17, has directed manufacturers to submit the revised MRP within seven days. \"The revised prices shall come into effect from November 9,\" the gazette notification stated.&amp;nbsp;Impact on cancer drug pricesAn analysis of pharmaceutical market data indicates that non-scheduled anti-cancer drugs carry an average trade mark-up of approximately 170 per cent, with mark-ups of up to 700 per cent in certain cases, according to an NPPA meeting conducted earlier. This order is expected to reduce the MRP of non-scheduled anti-cancer drugs by 70 per cent, depending on their current price structures.&amp;nbsp;The 137 identified non-scheduled anti-cancer drugs include immunotherapy drugs used for treating over 20 types of cancers, denosumab used by breast and prostate cancer patients, pegfilgrastim, which is used to prevent neutropenia in cancer patients and bevacizumab, which is the approved drug to treat colon, ovarian, and cervical cancer. With this notification, MRP of widely used anti-cancer drugs such as pembrolizumab, durvalumab and osimertinib is expected to become more accessible for cancer patients.Anti-cancer drug prices to come down as govt caps trade margins at 30%Centre caps trade margins on cancer medicines at 30% of MRPMarket overview: scheduled vs non-scheduled drugsCurrently, the anti-cancer drugs market comprises nearly 225 drugs and 500 formulations, with an annual turnover of around Rs 12,500 crore. Of this, scheduled cancer drugs that come under price control account for approximately Rs 2,250 crore, with the balance comprising non-scheduled drugs.To ensure that these life-saving medicines remain available, manufacturers of non-scheduled anti-cancer drugs will be required to maintain their current production levels. NPPA has clearly stated: \"The manufacturers of the formulations are required to maintain the present production levels. Any manufacturer intending to lower the average monthly production levels will seek prior permission from NPPA. Further, any manufacturer intending to discontinue production of the above-said formulations shall furnish information to NPPA.\"&amp;nbsp;How is the new price calculated?The manufacturers of non–scheduled formulations, selling branded or generic or both the versions of formulations at MRP higher than the MRP should revise their prices using this formula:&amp;nbsp; MRP of the product = Price to Stockist or Price to Distributor x {1 + (Trade Margin/(100 − Trade Margin))} + Applicable GST.&amp;nbsp;Citing an example, NPPA explained: For a non-scheduled anti-cancer formulation with current MRP: Rs 300 + Applicable GST. However, the price to a distributor is Rs 70. Maximum allowable revised MRP as per formula shall be: Rs70x{1+(30/(100−30))} = Rs 100 + Applicable GST.&amp;nbsp;The notification has also clarified: \"All the existing manufacturers of formulations having MRP lower than the MRP so computed … shall maintain their existing MRP.\""
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Explained|Govt caps trade margins on 137 cancer drugs at 30%: NPPA",
+          "published_at": "Sun, 18 Oct 2026 12:30:51 +0000",
+          "url": "https://www.deccanherald.com/health/healthcare/explainedgovt-caps-trade-margins-on-137-cancer-drugs-at-30-nppa-4187230"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Government caps trade margins on 137 anti-cancer drugs at 30%",
+          "published_at": "Sat, 17 Oct 2026 23:49:47 +0000",
+          "url": "https://indianexpress.com/article/india/government-caps-trade-margins-anti-cancer-drugs-10926290/"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.6,
+      "brief_bullets": [
+        "The Ministry of Chemicals and Fertilisers has announced a price cap of 30 per cent on the trade margins of 137 cancer medicines, over the cost of the drug at the first point, either to a stockist/distributor or the hospital.",
+        "These margins will apply when the drugs are sold directly to them by a manufacturer.&nbsp;The National Pharmaceutical Pricing Authority (NPPA), in an order dated October 17, has directed manufacturers to submit the revised MRP within seven days. \"The revised prices shall come into effect from November 9,\" the gazette notification stated.&nbsp;Impact on cancer drug prices.",
+        "An analysis of pharmaceutical market data indicates that non-scheduled anti-cancer drugs carry an average trade mark-up of approximately 170 per cent, with mark-ups of up to 700 per cent in certain cases, according to an NPPA meeting conducted earlier.",
+        "This order is expected to reduce the MRP of non-scheduled anti-cancer drugs by 70 per cent, depending on their current price structures.&nbsp;The 137 identified non-scheduled anti-cancer drugs include immunotherapy drugs used for treating over 20 types of cancers, denosumab used by breast and prostate cancer patients, pegfilgrastim, which is used to prevent neutropenia in cancer patients and bevacizumab, which is the approved drug to treat colon, ovarian, and cervical cancer."
+      ],
+      "why_it_matters_bullets": [
+        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
+      ],
+      "brief": "The Ministry of Chemicals and Fertilisers has announced a price cap of 30 per cent on the trade margins of 137 cancer medicines, over the cost of the drug at the first point, either to a stockist/distributor or the hospital. These margins will apply when the drugs are sold directly to them by a manufacturer.&nbsp;The National Pharmaceutical Pricing Authority (NPPA), in an order dated October 17, has directed manufacturers to submit the revised MRP within seven days. \"The revised prices shall come into effect from November 9,\" the gazette notification stated.&nbsp;Impact on cancer drug prices. An analysis of pharmaceutical market data indicates that non-scheduled anti-cancer drugs carry an average trade mark-up of approximately 170 per cent, with mark-ups of up to 700 per cent in certain cases, according to an NPPA meeting conducted earlier. This order is expected to reduce the MRP of non-scheduled anti-cancer drugs by 70 per cent, depending on their current price structures.&nbsp;The 137 identified non-scheduled anti-cancer drugs include immunotherapy drugs used for treating over 20 types of cancers, denosumab used by breast and prostate cancer patients, pegfilgrastim, which is used to prevent neutropenia in cancer patients and bevacizumab, which is the approved drug to treat colon, ovarian, and cervical cancer. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
+      "brief_word_count": 217
+    },
+    {
+      "story_id": "story-38",
+      "category": "Society",
+      "primary_headline": "Army officer’s wife booked on suspicion of sharing sensitive info with foreign nations",
+      "primary_source": {
+        "source_name": "The Indian Express",
+        "headline": "Army officer’s wife booked on suspicion of sharing sensitive info with foreign nations",
+        "published_at": "Sun, 18 Oct 2026 12:21:19 +0000",
+        "url": "https://indianexpress.com/article/india/army-officer-wife-booked-suspicion-sharing-sensitive-info-foreign-nations-10926950/",
         "content": ""
       },
       "sources": [
         {
+          "source_name": "The Indian Express",
+          "headline": "Army officer’s wife booked on suspicion of sharing sensitive info with foreign nations",
+          "published_at": "Sun, 18 Oct 2026 12:21:19 +0000",
+          "url": "https://indianexpress.com/article/india/army-officer-wife-booked-suspicion-sharing-sensitive-info-foreign-nations-10926950/"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Army Officer's Wife Shared Info With Chinese Agents Posing As Academicians",
+          "published_at": "Sun, 18 Oct 2026 16:05:25 +0530",
+          "url": "https://www.ndtv.com/india-news/chinese-agents-pose-as-academicians-extract-info-from-army-officers-wife-12202444#publisher=newsstand"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.6,
+      "brief_bullets": [
+        "Developments regarding army officer’s wife booked on suspicion of sharing sensitive info with foreign nations are actively unfolding across key regulatory and industry channels."
+      ],
+      "why_it_matters_bullets": [
+        "Carries notable operational, policy, and market consequences surrounding 'Army officer’s wife booked on suspicion of sharing sensitive info with foreign nations'."
+      ],
+      "brief": "Developments regarding army officer’s wife booked on suspicion of sharing sensitive info with foreign nations are actively unfolding across key regulatory and industry channels. Carries notable operational, policy, and market consequences surrounding 'Army officer’s wife booked on suspicion of sharing sensitive info with foreign nations'.",
+      "brief_word_count": 45
+    },
+    {
+      "story_id": "story-66",
+      "category": "Geopolitics",
+      "primary_headline": "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa",
+        "published_at": "Sun, 18 Oct 2026 18:02:20 +0530",
+        "url": "https://www.thehindu.com/news/national/goa/rahul-gandhi-goa-congress-anti-cec-protest-modi-shah-gyanesh-kumar/article71599732.ece",
+        "content": "India used to have a world-class education system earlier, but now pellet guns are being used against student protesters, he said, after walking two kilometres with workers and leaders"
+      },
+      "sources": [
+        {
           "source_name": "The Hindu",
-          "headline": "Water level in Mullaperiyar dam stands at 116.70 feet",
-          "published_at": "Sun, 18 Oct 2026 17:01:44 +0530",
-          "url": "https://www.thehindu.com/news/cities/Madurai/water-level-in-mullaperiyar-dam-stands-at-11670-feet/article71599624.ece"
+          "headline": "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa",
+          "published_at": "Sun, 18 Oct 2026 18:02:20 +0530",
+          "url": "https://www.thehindu.com/news/national/goa/rahul-gandhi-goa-congress-anti-cec-protest-modi-shah-gyanesh-kumar/article71599732.ece"
         },
         {
           "source_name": "The Hindu",
-          "headline": "Water level in dams and rainfall",
-          "published_at": "Sun, 18 Oct 2026 17:00:57 +0530",
-          "url": "https://www.thehindu.com/news/cities/Madurai/water-level-in-dams-and-rainfall/article71599623.ece"
+          "headline": "Anti-CEC protest LIVE | Rahul Gandhi warns Modi, Shah, CEC Gyanesh Kumar will pay price for ‘vote chori’",
+          "published_at": "Sun, 18 Oct 2026 17:47:05 +0530",
+          "url": "https://www.thehindu.com/news/national/cec-gyanesh-kumar-protests-oct-18-live-updates-cjp/article71598964.ece"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 2,
+      "combined_score": 1.13,
+      "brief_bullets": [
+        "India used to have a world-class education system earlier, but now pellet guns are being used against student protesters, he said, after walking two kilometres with workers and leaders."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "India used to have a world-class education system earlier, but now pellet guns are being used against student protesters, he said, after walking two kilometres with workers and leaders. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 42
+    },
+    {
+      "story_id": "story-67",
+      "category": "Society",
+      "primary_headline": "Abdul El-Sayed challenges assumptions behind Muslim Brotherhood question",
+      "primary_source": {
+        "source_name": "CNN",
+        "headline": "Abdul El-Sayed challenges assumptions behind Muslim Brotherhood question - CNN",
+        "published_at": "Sun, 18 Oct 2026 12:25:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPamdtUFJyM29vNy0yU3VUWTg1QjJ1bGhsRkFramFTUFQ4VXBVQVhwN2U3YU50X01kWmxHdGVmY1NSY3ZhOXhUejdFV0xYRExKTzdyOGE5VzZKbHN2ZGZOS1g2bVpVVWdHNFVJc1dGQWljUi1FV0dIcjdLaDJMVjNzTTgwSWU0TmxmYWJfamc3dW91VVRxMGV2d05leEdocHUwUTVxRjZfbXd2MlJ5UUozSld4OWNIaWVzZkJWNjZCUUo?oc=5",
+        "content": "Abdul El-Sayed challenges assumptions behind Muslim Brotherhood question&nbsp;&nbsp;CNN"
+      },
+      "sources": [
+        {
+          "source_name": "CNN",
+          "headline": "Abdul El-Sayed challenges assumptions behind Muslim Brotherhood question - CNN",
+          "published_at": "Sun, 18 Oct 2026 12:25:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPamdtUFJyM29vNy0yU3VUWTg1QjJ1bGhsRkFramFTUFQ4VXBVQVhwN2U3YU50X01kWmxHdGVmY1NSY3ZhOXhUejdFV0xYRExKTzdyOGE5VzZKbHN2ZGZOS1g2bVpVVWdHNFVJc1dGQWljUi1FV0dIcjdLaDJMVjNzTTgwSWU0TmxmYWJfamc3dW91VVRxMGV2d05leEdocHUwUTVxRjZfbXd2MlJ5UUozSld4OWNIaWVzZkJWNjZCUUo?oc=5"
+        },
+        {
+          "source_name": "CNN",
+          "headline": "Abdul El-Sayed disavows Muslim Brotherhood and criticizes implications that he has ‘dual loyalty’ - CNN",
+          "published_at": "Sun, 18 Oct 2026 02:16:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAzc09kZjdBa3pkZnlzSG9fdi1EdzFPQXdvX3owd1JYSndpX0pBbTMtcHJ3SVBKRFl1T3RNLU9PaW9BbFJkZF9CS2NjbUNCTUlwTklxX2R4dG54elBKWW51eVBReHhaU0ZPc2hfSXhwQ1ZaTS1FZEs4ZEkwc0NSZw?oc=5"
         }
       ],
       "source_count": 1,
       "total_count": 2,
       "combined_score": 1.1,
       "brief_bullets": [
-        "Water level in Mullaperiyar dam stands at 116.70 feet.",
-        "Verified accounts indicate critical developments surrounding water level in mullaperiyar dam stands at 116.70 feet, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+        "Developments regarding abdul el are actively unfolding across key regulatory and industry channels."
       ],
       "why_it_matters_bullets": [
-        "Carries notable operational, policy, and market consequences surrounding 'Water level in Mullaperiyar dam stands at 116.70 feet'."
+        "Carries notable operational, policy, and market consequences surrounding 'Abdul El'."
       ],
-      "brief": "Water level in Mullaperiyar dam stands at 116.70 feet. Verified accounts indicate critical developments surrounding water level in mullaperiyar dam stands at 116.70 feet, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Carries notable operational, policy, and market consequences surrounding 'Water level in Mullaperiyar dam stands at 116.70 feet'.",
-      "brief_word_count": 72
+      "brief": "Developments regarding abdul el are actively unfolding across key regulatory and industry channels. Carries notable operational, policy, and market consequences surrounding 'Abdul El'.",
+      "brief_word_count": 23
     },
     {
-      "story_id": "story-78",
-      "category": "Finance",
-      "primary_headline": "Oil facilities hit in deadly overnight attack on St Petersburg",
-      "primary_source": {
-        "source_name": "BBC News",
-        "headline": "Oil facilities hit in deadly overnight attack on St Petersburg",
-        "published_at": "Sun, 18 Oct 2026 11:57:49 GMT",
-        "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss",
-        "content": "At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook."
-      },
-      "sources": [
-        {
-          "source_name": "BBC News",
-          "headline": "Oil facilities hit in deadly overnight attack on St Petersburg",
-          "published_at": "Sun, 18 Oct 2026 11:57:49 GMT",
-          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.92,
-      "brief_bullets": [
-        "Oil facilities hit in deadly overnight attack on St Petersburg.",
-        "Verified accounts indicate critical developments surrounding oil facilities hit in deadly overnight attack on st petersburg, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
-      ],
-      "why_it_matters_bullets": [
-        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
-      ],
-      "brief": "Oil facilities hit in deadly overnight attack on St Petersburg. Verified accounts indicate critical developments surrounding oil facilities hit in deadly overnight attack on st petersburg, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 73
-    },
-    {
-      "story_id": "story-79",
+      "story_id": "story-80",
       "category": "Geopolitics",
-      "primary_headline": "Five killed after car, trying to escape pothole, crashes into state transport bus in Maharashtra's Beed",
+      "primary_headline": "EC-SIR row | People's Movement march seeking Gyanesh Kumar's removal on October 23",
       "primary_source": {
         "source_name": "Deccan Herald",
-        "headline": "Five killed after car, trying to escape pothole, crashes into state transport bus in Maharashtra's Beed",
-        "published_at": "Sun, 18 Oct 2026 11:37:15 +0000",
-        "url": "https://www.deccanherald.com/india/maharashtra/five-killed-after-car-trying-to-escape-pothole-crashes-into-state-transport-bus-in-maharashtras-beed-4187182",
-        "content": " Beed: Five people, among them an 11-year-old boy, were killed after their car swerved to avoid potholes and collided with a state transport bus in Maharashtra's Beed district on Sunday morning, police said.The accident occurred around 11 am at Shindewadi Cross Road on the Khamgaon-Pandharpur National Highway in Majalgaon tehsil, around 55 km from the district headquarters, an official said.He said that the victims, all residents of Majalgaon, were travelling towards Tuljapur in neighbouring Dharashiv district when their car crashed into a Maharashtra State Road Transport Corporation (MSRTC) bus coming from the opposite direction.The collision reduced the car to a mangled heap of metal, killing all five occupants on the spot, the official said.According to the police, the deceased have been identified as Omkar Mahadev Giri (24), Gajanan Mahadev Namdas (38), his son Samarth (11), Somnath Bade (23), and Anil Acharya (40).Speeding car crash triggers communal, moral and political row in KeralamCCTV footage from the area showed the speeding car lose control while attempting to avoid potholes on a bridge, leading to the head-on crash with the bus, the official said.The fatal crash triggered public anger over the deteriorating condition of roads on the Majalgaon-Telgaon stretch. Locals staged a road blockade alleging that substandard construction and poor maintenance had left fissures and uneven surfaces across the highway, turning the arterial road into an accident zone.Traffic came to a standstill for several hours on the highway due to the protest before senior police and district officials arrived at the scene, pacified the protesters, and restored traffic flow. "
+        "headline": "EC-SIR row | People's Movement march seeking Gyanesh Kumar's removal on October 23",
+        "published_at": "Sun, 18 Oct 2026 12:25:53 +0000",
+        "url": "https://www.deccanherald.com/india/ec-sir-row-peoples-movement-march-seeking-gyanesh-kumars-removal-on-october-23-4187260",
+        "content": " New Delhi: The 'People Against SIR', a coalition of various organisations, on Sunday announced a ‘People’s March to Reclaim Democracy’ on October 23 across India demanding removal and prosecution of Chief Election Commissioner Gyanesh Kumar, scrapping of Special Intensive Revision (SIR) and restoration of voters whose names have been deleted.With the slogan ‘Har Haath Mein Tiranga, Har Gali Jantar Mantar’ (In Every Hand Tricolor, Every Street is Jantar Mantar), the coalition of civil society organisations, farmer unions, trade unions, students and youth organisations, academicians, artistes and activists said the protest marches with tricolor in their hands will be held at tehsil, district, state and national level.Nothing can save CEC; SIR must be suspended forthwith: CongressThe coalition, which included actor-activist Prakash Raj, Kisan Sabha leader P Krishnaprasad and CPI(ML)L leader N Sai Balaji, said the ‘People's March’ will not request police permission anywhere while \"strictly warning\" police, paramilitary and prisons against using the \"brute state force\" against peaceful protesters.&amp;nbsp;If the march is blocked by police, it said, the protesters will peacefully hold the People's Parliament and disperse later after singing the national anthem.Claiming that the CEC helped the BJP to remain in power, it recalled that the Supreme Court has maintained that it did not upheld alteration of Form 6 used for inclusion of new voters.&amp;nbsp;“Gyanesh Kumar has violated his Constitutional pledge and must be prosecuted. But the Prime Minister himself is protecting the criminal...Without Parliament impeaching CEC Gyanesh Kumar, the Prime Minister cannot come out of the full-blown constitutional standoff,” it said.Calling upon farmers, workers, daily wage earners, traders, entrepreneurs, journalists, advocates, teachers, employees, artists, intellectuals, women, youth, students, adivasis, dalits and minorities to join the march, a statement said its demands include comprehensive electoral reforms, proportional representation, curb money/muscle power and legalise state funding of polls.The statement alleged that Prime Minister Narendra Modi and Home Minister Amit Shah have misused the Election Commission and erased the voting rights of 13.41 crore citizens through SIR. "
       },
       "sources": [
         {
           "source_name": "Deccan Herald",
-          "headline": "Five killed after car, trying to escape pothole, crashes into state transport bus in Maharashtra's Beed",
-          "published_at": "Sun, 18 Oct 2026 11:37:15 +0000",
-          "url": "https://www.deccanherald.com/india/maharashtra/five-killed-after-car-trying-to-escape-pothole-crashes-into-state-transport-bus-in-maharashtras-beed-4187182"
+          "headline": "EC-SIR row | People's Movement march seeking Gyanesh Kumar's removal on October 23",
+          "published_at": "Sun, 18 Oct 2026 12:25:53 +0000",
+          "url": "https://www.deccanherald.com/india/ec-sir-row-peoples-movement-march-seeking-gyanesh-kumars-removal-on-october-23-4187260"
         }
       ],
       "source_count": 1,
       "total_count": 1,
-      "combined_score": 0.92,
+      "combined_score": 0.89,
       "brief_bullets": [
-        "Beed: Five people, among them an 11-year-old boy, were killed after their car swerved to avoid potholes and collided with a state transport bus in Maharashtra's Beed district on Sunday morning, police said.",
-        "The accident occurred around 11 am at Shindewadi Cross Road on the Khamgaon-Pandharpur National Highway in Majalgaon tehsil, around 55 km from the district headquarters, an official said.",
-        "He said that the victims, all residents of Majalgaon, were travelling towards Tuljapur in neighbouring Dharashiv district when their car crashed into a Maharashtra State Road Transport Corporation (MSRTC) bus coming from the opposite direction.",
-        "The collision reduced the car to a mangled heap of metal, killing all five occupants on the spot, the official said."
+        "New Delhi: The 'People Against SIR', a coalition of various organisations, on Sunday announced a ‘People’s March to Reclaim Democracy’ on October 23 across India demanding removal and prosecution of Chief Election Commissioner Gyanesh Kumar, scrapping of Special Intensive Revision (SIR) and restoration of voters whose names have been deleted.",
+        "With the slogan ‘Har Haath Mein Tiranga, Har Gali Jantar Mantar’ (In Every Hand Tricolor, Every Street is Jantar Mantar), the coalition of civil society organisations, farmer unions, trade unions, students and youth organisations, academicians, artistes and activists said the protest marches with tricolor in their hands will be held at tehsil, district, state and national level.",
+        "Nothing can save CEC; SIR must be suspended forthwith: Congress.",
+        "The coalition, which included actor-activist Prakash Raj, Kisan Sabha leader P Krishnaprasad and CPI(ML)L leader N Sai Balaji, said the ‘People's March’ will not request police permission anywhere while \"strictly warning\" police, paramilitary and prisons against using the \"brute state force\" against peaceful protesters.&nbsp;If the march is blocked by police, it said, the protesters will peacefully hold the People's Parliament and disperse later after singing the national anthem."
       ],
       "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
       ],
-      "brief": "Beed: Five people, among them an 11-year-old boy, were killed after their car swerved to avoid potholes and collided with a state transport bus in Maharashtra's Beed district on Sunday morning, police said. The accident occurred around 11 am at Shindewadi Cross Road on the Khamgaon-Pandharpur National Highway in Majalgaon tehsil, around 55 km from the district headquarters, an official said. He said that the victims, all residents of Majalgaon, were travelling towards Tuljapur in neighbouring Dharashiv district when their car crashed into a Maharashtra State Road Transport Corporation (MSRTC) bus coming from the opposite direction. The collision reduced the car to a mangled heap of metal, killing all five occupants on the spot, the official said. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 131
+      "brief": "New Delhi: The 'People Against SIR', a coalition of various organisations, on Sunday announced a ‘People’s March to Reclaim Democracy’ on October 23 across India demanding removal and prosecution of Chief Election Commissioner Gyanesh Kumar, scrapping of Special Intensive Revision (SIR) and restoration of voters whose names have been deleted. With the slogan ‘Har Haath Mein Tiranga, Har Gali Jantar Mantar’ (In Every Hand Tricolor, Every Street is Jantar Mantar), the coalition of civil society organisations, farmer unions, trade unions, students and youth organisations, academicians, artistes and activists said the protest marches with tricolor in their hands will be held at tehsil, district, state and national level. Nothing can save CEC; SIR must be suspended forthwith: Congress. The coalition, which included actor-activist Prakash Raj, Kisan Sabha leader P Krishnaprasad and CPI(ML)L leader N Sai Balaji, said the ‘People's March’ will not request police permission anywhere while \"strictly warning\" police, paramilitary and prisons against using the \"brute state force\" against peaceful protesters.&nbsp;If the march is blocked by police, it said, the protesters will peacefully hold the People's Parliament and disperse later after singing the national anthem. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 201
     },
     {
-      "story_id": "story-87",
-      "category": "Finance",
-      "primary_headline": "World leaders must wise up to threat of cyber-attacks or rogue fridges will be least of their worries | Heather Stewart",
+      "story_id": "story-88",
+      "category": "Society",
+      "primary_headline": "Heavy rain causes flooding in a few localities in west Velachery",
       "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "World leaders must wise up to threat of cyber-attacks or rogue fridges will be least of their worries | Heather Stewart",
-        "published_at": "Sun, 18 Oct 2026 11:46:50 GMT",
-        "url": "https://www.theguardian.com/business/2026/oct/18/world-leaders-threat-cyber-attacks-rogue-fridges-financial-system",
-        "content": "Global cooperation seems unlikely despite AI increasing the risk of digital fraud and the need to protect the financial systemRogue French fridges were an unlikely talking point for the world’s leading economists, central bankers and finance chiefs meeting in a sultry Bangkok last week – helping to underline the spiralling cost of cyber-attacks.Kristalina Georgieva, the managing director of the International Monetary Fund, seized on news that supermarket chains across France had to chuck out piles of spoiled food after hackers accessed their fridge controls and turned up the temperature to 50C. Continue reading..."
+        "source_name": "The Hindu",
+        "headline": "Heavy rain causes flooding in a few localities in west Velachery",
+        "published_at": "Sun, 18 Oct 2026 18:38:27 +0530",
+        "url": "https://www.thehindu.com/news/cities/chennai/few-localities-in-west-velachery-flooded-due-to-heavy-rain/article71599403.ece",
+        "content": "The residents of AGS Colony, Saraswathi nagar, Bhuvaneshwari Nagar, Aandal nagar and Mohanapuri, suffered flooding like situation because of the slow evacuation of rainwater in the Veerangal Odai, which is ultimately linked to the Pallikaranai Marshland"
       },
       "sources": [
         {
-          "source_name": "The Guardian",
-          "headline": "World leaders must wise up to threat of cyber-attacks or rogue fridges will be least of their worries | Heather Stewart",
-          "published_at": "Sun, 18 Oct 2026 11:46:50 GMT",
-          "url": "https://www.theguardian.com/business/2026/oct/18/world-leaders-threat-cyber-attacks-rogue-fridges-financial-system"
+          "source_name": "The Hindu",
+          "headline": "Heavy rain causes flooding in a few localities in west Velachery",
+          "published_at": "Sun, 18 Oct 2026 18:38:27 +0530",
+          "url": "https://www.thehindu.com/news/cities/chennai/few-localities-in-west-velachery-flooded-due-to-heavy-rain/article71599403.ece"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.86,
       "brief_bullets": [
-        "Global cooperation seems unlikely despite AI increasing the risk of digital fraud and the need to protect the financial system.",
-        "Rogue French fridges were an unlikely talking point for the world’s leading economists, central bankers and finance chiefs meeting in a sultry Bangkok last week – helping to underline the spiralling cost of cyber-attacks.",
-        "Kristalina Georgieva, the managing director of the International Monetary Fund, seized on news that supermarket chains across France had to chuck out piles of spoiled food after hackers accessed their fridge controls and turned up the temperature to 50."
+        "The residents of AGS Colony, Saraswathi nagar, Bhuvaneshwari Nagar, Aandal nagar and Mohanapuri, suffered flooding like situation because of the slow evacuation of rainwater in the Veerangal Odai, which is ultimately linked to the Pallikaranai Marshland."
       ],
       "why_it_matters_bullets": [
-        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+        "Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
       ],
-      "brief": "Global cooperation seems unlikely despite AI increasing the risk of digital fraud and the need to protect the financial system. Rogue French fridges were an unlikely talking point for the world’s leading economists, central bankers and finance chiefs meeting in a sultry Bangkok last week – helping to underline the spiralling cost of cyber-attacks. Kristalina Georgieva, the managing director of the International Monetary Fund, seized on news that supermarket chains across France had to chuck out piles of spoiled food after hackers accessed their fridge controls and turned up the temperature to 50. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 109
+      "brief": "The residents of AGS Colony, Saraswathi nagar, Bhuvaneshwari Nagar, Aandal nagar and Mohanapuri, suffered flooding like situation because of the slow evacuation of rainwater in the Veerangal Odai, which is ultimately linked to the Pallikaranai Marshland. Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
+      "brief_word_count": 50
     },
     {
-      "story_id": "story-108",
+      "story_id": "story-89",
       "category": "Society",
-      "primary_headline": "Lisandro Martínez starts for Manchester United; Szoboszlai out for ‘some time’; Emi Martínez has jaw surgery – matchday live",
-      "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "Lisandro Martínez starts for Manchester United; Szoboszlai out for ‘some time’; Emi Martínez has jaw surgery – matchday live",
-        "published_at": "Sun, 18 Oct 2026 12:00:09 GMT",
-        "url": "https://www.theguardian.com/football/live/2026/oct/18/manchester-united-feeling-the-heat-as-they-travel-to-leeds-matchday-live",
-        "content": "News, discussion and buildup to Sunday’s actionPremier League table | Top scorers | Mail usIn the MLS, Lionel Messi scored twice to help Inter Miami to a 3-1 win at Atlanta United. Messi and Luis Suarez had combined to set up the first goal, scored by the Mexico forward Germán Berterame. Messi took matters into his own hands – well, his left foot – after half-time with two beautiful solo goals.European roundup  Continue reading..."
-      },
-      "sources": [
-        {
-          "source_name": "The Guardian",
-          "headline": "Lisandro Martínez starts for Manchester United; Szoboszlai out for ‘some time’; Emi Martínez has jaw surgery – matchday live",
-          "published_at": "Sun, 18 Oct 2026 12:00:09 GMT",
-          "url": "https://www.theguardian.com/football/live/2026/oct/18/manchester-united-feeling-the-heat-as-they-travel-to-leeds-matchday-live"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "News, discussion and buildup to Sunday’s action.",
-        "Premier League table | Top scorers | Mail us.",
-        "In the MLS, Lionel Messi scored twice to help Inter Miami to a 3-1 win at Atlanta United.",
-        "Messi and Luis Suarez had combined to set up the first goal, scored by the Mexico forward Germán Berterame."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "News, discussion and buildup to Sunday’s action. Premier League table | Top scorers | Mail us. In the MLS, Lionel Messi scored twice to help Inter Miami to a 3-1 win at Atlanta United. Messi and Luis Suarez had combined to set up the first goal, scored by the Mexico forward Germán Berterame. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 66
-    },
-    {
-      "story_id": "story-109",
-      "category": "Geopolitics",
-      "primary_headline": "Assam SIT to approach Supreme Court against bail for two accused in Zubeen Garg death case",
+      "primary_headline": "Three of family killed as SUV crashes into lorry near Vikravandi",
       "primary_source": {
         "source_name": "The Hindu",
-        "headline": "Assam SIT to approach Supreme Court against bail for two accused in Zubeen Garg death case",
-        "published_at": "Sun, 18 Oct 2026 17:24:02 +0530",
-        "url": "https://www.thehindu.com/news/national/assam/assam-sit-to-approach-supreme-court-against-bail-for-two-accused-in-zubeen-garg-death-case/article71599682.ece",
-        "content": "The Gauhati High Court granted bail to the cultural icon’s co-singer Amritprabha Mahanta and cousin Sandipan Garg on October 9 and 16"
+        "headline": "Three of family killed as SUV crashes into lorry near Vikravandi",
+        "published_at": "Sun, 18 Oct 2026 18:11:52 +0530",
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/three-of-family-killed-as-suv-crashes-into-lorry-near-vikravandi/article71599197.ece",
+        "content": "While Thangabai, John Britto and Evangeline died during treatment, Rajkumar, his wife Latha Christy, 30, and their elder daughter, Jessihena, 10, are undergoing treatment. A case has been registered."
       },
       "sources": [
         {
           "source_name": "The Hindu",
-          "headline": "Assam SIT to approach Supreme Court against bail for two accused in Zubeen Garg death case",
-          "published_at": "Sun, 18 Oct 2026 17:24:02 +0530",
-          "url": "https://www.thehindu.com/news/national/assam/assam-sit-to-approach-supreme-court-against-bail-for-two-accused-in-zubeen-garg-death-case/article71599682.ece"
+          "headline": "Three of family killed as SUV crashes into lorry near Vikravandi",
+          "published_at": "Sun, 18 Oct 2026 18:11:52 +0530",
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/three-of-family-killed-as-suv-crashes-into-lorry-near-vikravandi/article71599197.ece"
         }
       ],
       "source_count": 1,
       "total_count": 1,
-      "combined_score": 0.83,
+      "combined_score": 0.86,
       "brief_bullets": [
-        "Assam SIT to approach Supreme Court against bail for two accused in Zubeen Garg death case.",
-        "Verified accounts indicate critical developments surrounding assam sit to approach supreme court against bail for two accused in zubeen garg death case, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+        "While Thangabai, John Britto and Evangeline died during treatment, Rajkumar, his wife Latha Christy, 30, and their elder daughter, Jessihena, 10, are undergoing treatment.",
+        "A case has been registered."
       ],
       "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
       ],
-      "brief": "Assam SIT to approach Supreme Court against bail for two accused in Zubeen Garg death case. Verified accounts indicate critical developments surrounding assam sit to approach supreme court against bail for two accused in zubeen garg death case, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 82
+      "brief": "While Thangabai, John Britto and Evangeline died during treatment, Rajkumar, his wife Latha Christy, 30, and their elder daughter, Jessihena, 10, are undergoing treatment. A case has been registered. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 43
     },
     {
-      "story_id": "story-110",
-      "category": "Society",
-      "primary_headline": "Mysuru Dasara airshow: Surya Kiran's dazzling display cut short by rain",
+      "story_id": "story-90",
+      "category": "Finance",
+      "primary_headline": "Attacks on Gulf energy infrastructure ‘worrying’ for outlook: Pakistan Finance Minister",
       "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Mysuru Dasara airshow: Surya Kiran's dazzling display cut short by rain",
-        "published_at": "Sun, 18 Oct 2026 11:26:58 +0000",
-        "url": "https://www.deccanherald.com/india/karnataka/mysuru/mysuru-dasara-airshow-surya-kirans-dazzling-display-cut-short-by-rain-4187205",
-        "content": " Mysuru: The Suryakiran Aerobatic Team (SKAT) of the Indian Air Force, enthralled the jam-packed crowd at Bannimantap ground with their spectacular aerial display during Dasara Airshow in Mysuru on Sunday morning. However, due to rain and inclement weather conditions, the air warriors could only perform three horizontal manoeuvres, including the arrow manoeuvre with nine Hawk Mk 132 aircraft, in the blue sky canvas of Mysuru. The display was complemented by saffron, white and green smoke trails. The team, known for its precision, coordination, synchronisation, discipline and teamwork, performed with all the aircraft operating as a cohesive unit.Mysuru Dasara to feature special tableaux on Army, Navy, Air Force and moreMysuru: Farmers' Dasara turns into platform to inspire community towards independent livelihood, women empowermentThe people who had gathered after the gates of the ground opened at 9 am could witness the show for about 10 minutes from 11.20 am. They were disappointed as the team could not continue the show in view of the safety of pilots and the aircraft due to weather conditions. However, people returned with hope, as the show will be held on Monday too. On Monday, the Surya Kiran team will be flying all the nine aircraft, manufactured under licence by Hindustan Aeronautics Limited (HAL). They plan to showcase a series of intricate aerobatic manoeuvres, including both horizontal and vertical ones. Signature manoeuvres such as loops, barrel rolls, inverted flying and the DNA manoeuvres can also be witnessed.Set up in 1996, the Surya Kiran Aerobatic Team has a legacy of representing the Indian Air Force and the nation at air shows and public events across India and abroad. With over 800 displays to its credit, the team is inspiring generations of aviation enthusiasts and young Indians to consider a career in the Indian Air Force.  The display forms part of the team’s continued endeavour to bring the Indian Air Force closer to the people of the country. The show has been an opportunity for people to witness the synergy between man and machine, where every manoeuvre reflects the dedication, skill and teamwork that define the Indian Air Force.  "
+        "source_name": "The Hindu",
+        "headline": "Attacks on Gulf energy infrastructure ‘worrying’ for outlook: Pakistan Finance Minister",
+        "published_at": "Sun, 18 Oct 2026 17:44:22 +0530",
+        "url": "https://www.thehindu.com/news/international/attacks-on-gulf-energy-infrastructure-worrying-for-outlook-pakistan-finance-minister/article71595450.ece",
+        "content": "Muhammad Aurangzeb told AFP that Pakistan has withstood the initial shock from the Iran war but said continued attacks on Gulf energy infrastructure would delay a return to economic normalcy"
       },
       "sources": [
         {
-          "source_name": "Deccan Herald",
-          "headline": "Mysuru Dasara airshow: Surya Kiran's dazzling display cut short by rain",
-          "published_at": "Sun, 18 Oct 2026 11:26:58 +0000",
-          "url": "https://www.deccanherald.com/india/karnataka/mysuru/mysuru-dasara-airshow-surya-kirans-dazzling-display-cut-short-by-rain-4187205"
+          "source_name": "The Hindu",
+          "headline": "Attacks on Gulf energy infrastructure ‘worrying’ for outlook: Pakistan Finance Minister",
+          "published_at": "Sun, 18 Oct 2026 17:44:22 +0530",
+          "url": "https://www.thehindu.com/news/international/attacks-on-gulf-energy-infrastructure-worrying-for-outlook-pakistan-finance-minister/article71595450.ece"
         }
       ],
       "source_count": 1,
       "total_count": 1,
-      "combined_score": 0.83,
+      "combined_score": 0.86,
       "brief_bullets": [
-        "Mysuru: The Suryakiran Aerobatic Team (SKAT) of the Indian Air Force, enthralled the jam-packed crowd at Bannimantap ground with their spectacular aerial display during Dasara Airshow in Mysuru on Sunday morning.",
-        "However, due to rain and inclement weather conditions, the air warriors could only perform three horizontal manoeuvres, including the arrow manoeuvre with nine Hawk Mk 132 aircraft, in the blue sky canvas of Mysuru.",
-        "The display was complemented by saffron, white and green smoke trails.",
-        "The team, known for its precision, coordination, synchronisation, discipline and teamwork, performed with all the aircraft operating as a cohesive unit."
+        "Muhammad Aurangzeb told AFP that Pakistan has withstood the initial shock from the Iran war but said continued attacks on Gulf energy infrastructure would delay a return to economic normalcy."
       ],
       "why_it_matters_bullets": [
         "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
       ],
-      "brief": "Mysuru: The Suryakiran Aerobatic Team (SKAT) of the Indian Air Force, enthralled the jam-packed crowd at Bannimantap ground with their spectacular aerial display during Dasara Airshow in Mysuru on Sunday morning. However, due to rain and inclement weather conditions, the air warriors could only perform three horizontal manoeuvres, including the arrow manoeuvre with nine Hawk Mk 132 aircraft, in the blue sky canvas of Mysuru. The display was complemented by saffron, white and green smoke trails. The team, known for its precision, coordination, synchronisation, discipline and teamwork, performed with all the aircraft operating as a cohesive unit. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 113
+      "brief": "Muhammad Aurangzeb told AFP that Pakistan has withstood the initial shock from the Iran war but said continued attacks on Gulf energy infrastructure would delay a return to economic normalcy. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 46
     },
     {
-      "story_id": "story-111",
-      "category": "Society",
-      "primary_headline": "Man, 80, who died in light aircraft crash near Loch Lomond named",
+      "story_id": "story-110",
+      "category": "Geopolitics",
+      "primary_headline": "Suspects hunted after police officer injured in shooting",
       "primary_source": {
         "source_name": "BBC News",
-        "headline": "Man, 80, who died in light aircraft crash near Loch Lomond named",
-        "published_at": "Sun, 18 Oct 2026 11:26:35 GMT",
-        "url": "https://www.bbc.co.uk/news/articles/cmx23p5w7123o?at_medium=RSS&at_campaign=rss",
-        "content": "The flying instructor has been described as \"a gentleman and an experienced aviator\" by former students.  "
+        "headline": "Suspects hunted after police officer injured in shooting",
+        "published_at": "Sun, 18 Oct 2026 13:10:18 GMT",
+        "url": "https://www.bbc.co.uk/news/articles/c63elzvjpgn2o?at_medium=RSS&at_campaign=rss",
+        "content": "A firearm has been recovered by officers after a man and a woman fled the scene, detectives say."
       },
       "sources": [
         {
           "source_name": "BBC News",
-          "headline": "Man, 80, who died in light aircraft crash near Loch Lomond named",
-          "published_at": "Sun, 18 Oct 2026 11:26:35 GMT",
-          "url": "https://www.bbc.co.uk/news/articles/cmx23p5w7123o?at_medium=RSS&at_campaign=rss"
+          "headline": "Suspects hunted after police officer injured in shooting",
+          "published_at": "Sun, 18 Oct 2026 13:10:18 GMT",
+          "url": "https://www.bbc.co.uk/news/articles/c63elzvjpgn2o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.83,
       "brief_bullets": [
-        "Man, 80, who died in light aircraft crash near Loch Lomond named.",
-        "Verified accounts indicate critical developments surrounding man, 80, who died in light aircraft crash near loch lomond named, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+        "A firearm has been recovered by officers after a man and a woman fled the scene, detectives say."
+      ],
+      "why_it_matters_bullets": [
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+      ],
+      "brief": "A firearm has been recovered by officers after a man and a woman fled the scene, detectives say. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 32
+    },
+    {
+      "story_id": "story-111",
+      "category": "Society",
+      "primary_headline": "Vettri Payanam scheme plunges autorickshaw and private bus operators into livelihood crisis",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Vettri Payanam scheme plunges autorickshaw and private bus operators into livelihood crisis",
+        "published_at": "Sun, 18 Oct 2026 18:31:33 +0530",
+        "url": "https://www.thehindu.com/news/cities/Madurai/vettri-payanam-scheme-plunges-auto-and-private-bus-operators-into-livelihood-crisis/article71599308.ece",
+        "content": "Auto-rickshaw drivers and private bus operators lamented that their daily collections have plummeted drastically, leaving them struggling to make ends meet"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Vettri Payanam scheme plunges autorickshaw and private bus operators into livelihood crisis",
+          "published_at": "Sun, 18 Oct 2026 18:31:33 +0530",
+          "url": "https://www.thehindu.com/news/cities/Madurai/vettri-payanam-scheme-plunges-auto-and-private-bus-operators-into-livelihood-crisis/article71599308.ece"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "Auto-rickshaw drivers and private bus operators lamented that their daily collections have plummeted drastically, leaving them struggling to make ends meet."
       ],
       "why_it_matters_bullets": [
         "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "brief": "Man, 80, who died in light aircraft crash near Loch Lomond named. Verified accounts indicate critical developments surrounding man, 80, who died in light aircraft crash near loch lomond named, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 74
+      "brief": "Auto-rickshaw drivers and private bus operators lamented that their daily collections have plummeted drastically, leaving them struggling to make ends meet. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 34
     },
     {
       "story_id": "story-112",
+      "category": "Society",
+      "primary_headline": "First Jamboo Savari rehearsal held at Mysuru palace",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "First Jamboo Savari rehearsal held at Mysuru palace",
+        "published_at": "Sun, 18 Oct 2026 18:27:26 +0530",
+        "url": "https://www.thehindu.com/news/national/karnataka/first-jamboo-savari-rehearsal-held-at-mysuru-palace/article71599426.ece",
+        "content": "The rehearsal included a demonstration of the flower-showering ritual on the idol of Goddess Chamundeshwari"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "First Jamboo Savari rehearsal held at Mysuru palace",
+          "published_at": "Sun, 18 Oct 2026 18:27:26 +0530",
+          "url": "https://www.thehindu.com/news/national/karnataka/first-jamboo-savari-rehearsal-held-at-mysuru-palace/article71599426.ece"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "The rehearsal included a demonstration of the flower-showering ritual on the idol of Goddess Chamundeshwari."
+      ],
+      "why_it_matters_bullets": [
+        "Carries notable operational, policy, and market consequences surrounding 'First Jamboo Savari rehearsal held at Mysuru palace'."
+      ],
+      "brief": "The rehearsal included a demonstration of the flower-showering ritual on the idol of Goddess Chamundeshwari. Carries notable operational, policy, and market consequences surrounding 'First Jamboo Savari rehearsal held at Mysuru palace'.",
+      "brief_word_count": 31
+    },
+    {
+      "story_id": "story-113",
+      "category": "Society",
+      "primary_headline": "Congress offers Vizianagaram mayor’s seat to Ishwarya Lakshmi",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Congress offers Vizianagaram mayor’s seat to Ishwarya Lakshmi",
+        "published_at": "Sun, 18 Oct 2026 18:26:53 +0530",
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/congress-offers-vizianagaram-mayors-seat-to-ishwarya-lakshmi/article71595499.ece",
+        "content": "The party leaders said that she was given the ticket after considering her services to the party as well as people in the last few years."
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Congress offers Vizianagaram mayor’s seat to Ishwarya Lakshmi",
+          "published_at": "Sun, 18 Oct 2026 18:26:53 +0530",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/congress-offers-vizianagaram-mayors-seat-to-ishwarya-lakshmi/article71595499.ece"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "The party leaders said that she was given the ticket after considering her services to the party as well as people in the last few years."
+      ],
+      "why_it_matters_bullets": [
+        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
+      ],
+      "brief": "The party leaders said that she was given the ticket after considering her services to the party as well as people in the last few years. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
+      "brief_word_count": 40
+    },
+    {
+      "story_id": "story-114",
+      "category": "Geopolitics",
+      "primary_headline": "Huge sand deposits remain utilised in Keralam even as state laments over Tamil Nadu's restriction",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "Huge sand deposits remain utilised in Keralam even as state laments over Tamil Nadu's restriction",
+        "published_at": "Sun, 18 Oct 2026 12:54:40 +0000",
+        "url": "https://www.deccanherald.com/india/keralam/huge-sand-deposits-remain-utilised-in-keralam-even-as-state-laments-over-tamil-nadus-restriction-4187282",
+        "content": " Thiruvananthapuram: While Keralam suffers acute shortage of construction materials owing to the restriction imposed by Tamil Nadu government in transporting construction materials, huge quantities of construction materials are remaining unutilised in the rivers and dams in the state. According to a data presented by the state government in the assembly, after the 2018-19 floods it was evaluated that 43 of the 44 rivers in Keralam alone had a sand and silt deposit of&amp;nbsp; 30.17 million cubic metre that could be removed. The capacity of 15 of the 81 dams in the state alone came down by an average of 13.8 percent owing to the silt accumulation. Huge sand deposits in Kerala rivers remain untapped Studies have found that the carrying capacity of Vebanad lake, the largest lake in Keralam, came down by up to 85 percent owing to reasons like silt deposit as well as encroachments. The silt accumulation in the water bodies, which reduced the water holding capacity, has been found to be a reason for flash floods in the state. Keralam, which requires up to 30 million metric tonnes of sand annually, has been highly dependent on Tamil Nadu for rocks to sand. Hence the restriction by the neighbouring state has led to an acute scarcity in Keralam, which already led to almost three times cost escalation. Major infrastructure projects like the ongoing expansion of Vizhinjam international seaport and national highway were reportedly feeling the heat. Desilting of the water bodies is hence considered to have multiple benefits ranging from addressing construction material shortage to flood mitigation. Tamil Nadu bans transportation of rough stones to other states; Kerala seeks review The state government was forced to impose a ban on river sand mining in 2016 in view of the massive unregulated sand mining which even diverted the direction of flow of rivers at many places. Hence, the state has been depending on manufactured sand for construction. The stringent regulations for quarries have also&amp;nbsp; led to the number of quarries coming down around 220 from 3800 ten years back, according to the Keralam Mining and Crushing Owners Association. Even as the state government initiated steps for desilting at a couple of dams like the Mangalam dam in Palakkad and introduced stringent norms for regulated river sand mining following the 2018-19 floods, those steps went into troubled waters&amp;nbsp; owing to allegations of over exploitation and ecological concerns. Industry sources said that since the chances of Tamil Nadu easing the restrictions was remote, the state government should proactively take steps to address the crisis.&amp;nbsp; Natural river sand offers a better construction quality than manufactured sand. Hence the government should take steps for regulated desilting and river sand mining,\" said Confederation of Real Estate Developers' Associations of India general convener general. However, environmental expert V Subashchandrabose points out that even as scientific desilting and river sand mining could be allowed, the state should popularise alternative&amp;nbsp; construction methods that could reduce the dependence on natural resources. "
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Huge sand deposits remain utilised in Keralam even as state laments over Tamil Nadu's restriction",
+          "published_at": "Sun, 18 Oct 2026 12:54:40 +0000",
+          "url": "https://www.deccanherald.com/india/keralam/huge-sand-deposits-remain-utilised-in-keralam-even-as-state-laments-over-tamil-nadus-restriction-4187282"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "Thiruvananthapuram: While Keralam suffers acute shortage of construction materials owing to the restriction imposed by Tamil Nadu government in transporting construction materials, huge quantities of construction materials are remaining unutilised in the rivers and dams in the state.",
+        "According to a data presented by the state government in the assembly, after the 2018-19 floods it was evaluated that 43 of the 44 rivers in Keralam alone had a sand and silt deposit of&nbsp; 30.17 million cubic metre that could be removed.",
+        "The capacity of 15 of the 81 dams in the state alone came down by an average of 13.8 percent owing to the silt accumulation.",
+        "Huge sand deposits in Kerala rivers remain untapped Studies have found that the carrying capacity of Vebanad lake, the largest lake in Keralam, came down by up to 85 percent owing to reasons like silt deposit as well as encroachments."
+      ],
+      "why_it_matters_bullets": [
+        "Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
+      ],
+      "brief": "Thiruvananthapuram: While Keralam suffers acute shortage of construction materials owing to the restriction imposed by Tamil Nadu government in transporting construction materials, huge quantities of construction materials are remaining unutilised in the rivers and dams in the state. According to a data presented by the state government in the assembly, after the 2018-19 floods it was evaluated that 43 of the 44 rivers in Keralam alone had a sand and silt deposit of&nbsp; 30.17 million cubic metre that could be removed. The capacity of 15 of the 81 dams in the state alone came down by an average of 13.8 percent owing to the silt accumulation. Huge sand deposits in Kerala rivers remain untapped Studies have found that the carrying capacity of Vebanad lake, the largest lake in Keralam, came down by up to 85 percent owing to reasons like silt deposit as well as encroachments. Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
+      "brief_word_count": 160
+    },
+    {
+      "story_id": "story-115",
       "category": "Finance",
       "primary_headline": "France protests: More than 1,800 arrested, Interior Minister says",
       "primary_source": {
         "source_name": "The Hindu",
         "headline": "France protests: More than 1,800 arrested, Interior Minister says",
-        "published_at": "Sun, 18 Oct 2026 16:55:37 +0530",
+        "published_at": "Sun, 18 Oct 2026 18:19:08 +0530",
         "url": "https://www.thehindu.com/news/international/france-paris-protests-police-arrests-damage/article71599628.ece",
         "content": "The violence in Paris, Marseille, Lyon, Bordeaux and other cities occurred on the sidelines of mass demonstrations against high inflation caused in part from the U.S.-Iran war"
       },
@@ -609,7 +628,7 @@
         {
           "source_name": "The Hindu",
           "headline": "France protests: More than 1,800 arrested, Interior Minister says",
-          "published_at": "Sun, 18 Oct 2026 16:55:37 +0530",
+          "published_at": "Sun, 18 Oct 2026 18:19:08 +0530",
           "url": "https://www.thehindu.com/news/international/france-paris-protests-police-arrests-damage/article71599628.ece"
         }
       ],
@@ -617,114 +636,78 @@
       "total_count": 1,
       "combined_score": 0.83,
       "brief_bullets": [
-        "France protests: More than 1,800 arrested, Interior Minister says.",
-        "Verified accounts indicate critical developments surrounding france protests: more than 1,800 arrested, interior minister says, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+        "The violence in Paris, Marseille, Lyon, Bordeaux and other cities occurred on the sidelines of mass demonstrations against high inflation caused in part from the U."
       ],
       "why_it_matters_bullets": [
         "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
       ],
-      "brief": "France protests: More than 1,800 arrested, Interior Minister says. Verified accounts indicate critical developments surrounding france protests: more than 1,800 arrested, interior minister says, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 71
+      "brief": "The violence in Paris, Marseille, Lyon, Bordeaux and other cities occurred on the sidelines of mass demonstrations against high inflation caused in part from the U. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 42
     },
     {
-      "story_id": "story-113",
-      "category": "Society",
-      "primary_headline": "Anti-CEC protest LIVE | Congress says nothing can save CEC, demands SIR be suspended forthwith as ECI agrees to share ‘readable’ voter rolls",
+      "story_id": "story-116",
+      "category": "Geopolitics",
+      "primary_headline": "Aamir Khan meets Raj Thackeray amid nephew Imran's exit notice row",
       "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Anti-CEC protest LIVE | Congress says nothing can save CEC, demands SIR be suspended forthwith as ECI agrees to share ‘readable’ voter rolls",
-        "published_at": "Sun, 18 Oct 2026 16:54:48 +0530",
-        "url": "https://www.thehindu.com/news/national/cec-gyanesh-kumar-protests-oct-18-live-updates-cjp/article71598964.ece",
-        "content": "The CJP has warned of legal action against those allegedly responsible for keeping Ashutosh and Saurav in illegal custody."
+        "source_name": "Deccan Herald",
+        "headline": "Aamir Khan meets Raj Thackeray amid nephew Imran's exit notice row",
+        "published_at": "Sun, 18 Oct 2026 12:47:56 +0000",
+        "url": "https://www.deccanherald.com/india/maharashtra/aamir-khan-meets-raj-thackeray-amid-nephew-imrans-exit-notice-row-4187266",
+        "content": " Mumbai: Actor-filmmaker Aamir Khan met Maharashtra Navnirman Sena (MNS) president Raj Thackeray at his residence in Mumbai on Sunday.The details of the meeting were not immediately known.The meeting comes days after Aamir Khan's nephew and actor Imran Khan was served a notice by the Foreigners Regional Registration Officer (FRRO), directing him to leave India by October 28. Imran had reportedly participated in the October 10 protests at August Kranti Maidan in Mumbai, demanding the removal of Chief Election Commissioner Gyanesh Kumar over alleged irregularities in the Special Intensive Revision (SIR) process.The 43-year-old Imran Khan is a US citizen and an Overseas Citizen of India (OCI) cardholder.'Leave India': Imran Khan moves Bombay HC against 'illegal, bad in law' notice by Mumbai police, FRRO issues him show-cause noticeHe has challenged the notice in the Bombay High Court, which is expected to hear the matter this week. The plea is expected to be mentioned for an urgent hearing before a division bench comprising Chief Justice Mahesh Chandra Tripathi and Justice Advait Sethna.“The notice has been issued without disclosing any reasons, supporting material, or specific statutory contravention. It was issued without inquiry, a show-cause notice, or any opportunity for the Petitioner (Khan) to respond to the alleged violations,” the plea stated.The FRRO issued the notice under Sections 7 and 29 of the Immigration and Foreigners Act, 2025, directing Imran Khan to leave India by October 28, 2026."
       },
       "sources": [
         {
-          "source_name": "The Hindu",
-          "headline": "Anti-CEC protest LIVE | Congress says nothing can save CEC, demands SIR be suspended forthwith as ECI agrees to share ‘readable’ voter rolls",
-          "published_at": "Sun, 18 Oct 2026 16:54:48 +0530",
-          "url": "https://www.thehindu.com/news/national/cec-gyanesh-kumar-protests-oct-18-live-updates-cjp/article71598964.ece"
+          "source_name": "Deccan Herald",
+          "headline": "Aamir Khan meets Raj Thackeray amid nephew Imran's exit notice row",
+          "published_at": "Sun, 18 Oct 2026 12:47:56 +0000",
+          "url": "https://www.deccanherald.com/india/maharashtra/aamir-khan-meets-raj-thackeray-amid-nephew-imrans-exit-notice-row-4187266"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.83,
       "brief_bullets": [
-        "Anti-CEC protest LIVE.",
-        "Verified accounts indicate critical developments surrounding anti-cec protest live, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+        "Mumbai: Actor-filmmaker Aamir Khan met Maharashtra Navnirman Sena (MNS) president Raj Thackeray at his residence in Mumbai on Sunday.",
+        "The details of the meeting were not immediately known.",
+        "The meeting comes days after Aamir Khan's nephew and actor Imran Khan was served a notice by the Foreigners Regional Registration Officer (FRRO), directing him to leave India by October 28.",
+        "Imran had reportedly participated in the October 10 protests at August Kranti Maidan in Mumbai, demanding the removal of Chief Election Commissioner Gyanesh Kumar over alleged irregularities in the Special Intensive Revision (SIR) process."
+      ],
+      "why_it_matters_bullets": [
+        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
+      ],
+      "brief": "Mumbai: Actor-filmmaker Aamir Khan met Maharashtra Navnirman Sena (MNS) president Raj Thackeray at his residence in Mumbai on Sunday. The details of the meeting were not immediately known. The meeting comes days after Aamir Khan's nephew and actor Imran Khan was served a notice by the Foreigners Regional Registration Officer (FRRO), directing him to leave India by October 28. Imran had reportedly participated in the October 10 protests at August Kranti Maidan in Mumbai, demanding the removal of Chief Election Commissioner Gyanesh Kumar over alleged irregularities in the Special Intensive Revision (SIR) process. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
+      "brief_word_count": 107
+    },
+    {
+      "story_id": "story-117",
+      "category": "Geopolitics",
+      "primary_headline": "Assam SIT to approach Supreme Court against bail for two accused in Zubeen Garg death case",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Assam SIT to approach Supreme Court against bail for two accused in Zubeen Garg death case",
+        "published_at": "Sun, 18 Oct 2026 18:14:31 +0530",
+        "url": "https://www.thehindu.com/news/national/assam/assam-sit-to-approach-supreme-court-against-bail-for-two-accused-in-zubeen-garg-death-case/article71599682.ece",
+        "content": "The Gauhati High Court granted bail to the cultural icon’s co-singer Amritprabha Mahanta and cousin Sandipan Garg on October 9 and 16"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Assam SIT to approach Supreme Court against bail for two accused in Zubeen Garg death case",
+          "published_at": "Sun, 18 Oct 2026 18:14:31 +0530",
+          "url": "https://www.thehindu.com/news/national/assam/assam-sit-to-approach-supreme-court-against-bail-for-two-accused-in-zubeen-garg-death-case/article71599682.ece"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "The Gauhati High Court granted bail to the cultural icon’s co-singer Amritprabha Mahanta and cousin Sandipan Garg on October 9 and 16."
       ],
       "why_it_matters_bullets": [
         "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "brief": "Anti-CEC protest LIVE. Verified accounts indicate critical developments surrounding anti-cec protest live, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 56
-    },
-    {
-      "story_id": "story-114",
-      "category": "Geopolitics",
-      "primary_headline": "Serving tribal population, five government hospitals in Telangana’s Bhadradri Kothagudem district secure Kayakalp awards",
-      "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Serving tribal population, five government hospitals in Telangana’s Bhadradri Kothagudem district secure Kayakalp awards",
-        "published_at": "Sun, 18 Oct 2026 16:36:13 +0530",
-        "url": "https://www.thehindu.com/news/national/telangana/serving-tribal-population-five-government-hospitals-in-telanganas-bhadradri-kothagudem-district-secure-kayakalp-awards/article71599473.ece",
-        "content": "The Community Health Centre (CHC) at Palvancha secured the State-Level Eco-Friendly Award carrying ₹5 lakh, along with a Commendation Award"
-      },
-      "sources": [
-        {
-          "source_name": "The Hindu",
-          "headline": "Serving tribal population, five government hospitals in Telangana’s Bhadradri Kothagudem district secure Kayakalp awards",
-          "published_at": "Sun, 18 Oct 2026 16:36:13 +0530",
-          "url": "https://www.thehindu.com/news/national/telangana/serving-tribal-population-five-government-hospitals-in-telanganas-bhadradri-kothagudem-district-secure-kayakalp-awards/article71599473.ece"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "Serving tribal population, five government hospitals in Telangana’s Bhadradri Kothagudem district secure Kayakalp awards.",
-        "Verified accounts indicate critical developments surrounding serving tribal population, five government hospitals in telangana’s bhadradri kothagudem district secure kayakalp awards, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
-      ],
-      "why_it_matters_bullets": [
-        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
-      ],
-      "brief": "Serving tribal population, five government hospitals in Telangana’s Bhadradri Kothagudem district secure Kayakalp awards. Verified accounts indicate critical developments surrounding serving tribal population, five government hospitals in telangana’s bhadradri kothagudem district secure kayakalp awards, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
-      "brief_word_count": 78
-    },
-    {
-      "story_id": "story-115",
-      "category": "Society",
-      "primary_headline": "Oklahoma Families Faced the Hottest Summer Ever and an Electricity Crisis",
-      "primary_source": {
-        "source_name": "NYT",
-        "headline": "Oklahoma Families Faced the Hottest Summer Ever and an Electricity Crisis",
-        "published_at": "Sun, 18 Oct 2026 11:05:57 +0000",
-        "url": "https://www.nytimes.com/2026/10/18/us/oklahoma-extreme-heat-electricity-crisis.html",
-        "content": "Record heat, a rising demand for power and an electricity crisis are closing in on Oklahoma families trying to keep the lights on and the AC running."
-      },
-      "sources": [
-        {
-          "source_name": "NYT",
-          "headline": "Oklahoma Families Faced the Hottest Summer Ever and an Electricity Crisis",
-          "published_at": "Sun, 18 Oct 2026 11:05:57 +0000",
-          "url": "https://www.nytimes.com/2026/10/18/us/oklahoma-extreme-heat-electricity-crisis.html"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "Oklahoma Families Faced the Hottest Summer Ever and an Electricity Crisis.",
-        "Verified accounts indicate critical developments surrounding oklahoma families faced the hottest summer ever and an electricity crisis, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
-      ],
-      "why_it_matters_bullets": [
-        "Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
-      ],
-      "brief": "Oklahoma Families Faced the Hottest Summer Ever and an Electricity Crisis. Verified accounts indicate critical developments surrounding oklahoma families faced the hottest summer ever and an electricity crisis, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
-      "brief_word_count": 73
+      "brief": "The Gauhati High Court granted bail to the cultural icon’s co-singer Amritprabha Mahanta and cousin Sandipan Garg on October 9 and 16. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 35
     }
   ]
 }

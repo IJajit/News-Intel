@@ -1,8 +1,8 @@
 {
   "id": "latest",
   "category": "science",
-  "timestamp": "2026-10-18T12:05:47.587879+00:00",
-  "articlesCount": 8,
+  "timestamp": "2026-10-18T13:13:45.201636+00:00",
+  "articlesCount": 7,
   "stories": [
     {
       "story_id": "story-81",
@@ -39,7 +39,7 @@
       "brief_word_count": 107
     },
     {
-      "story_id": "story-141",
+      "story_id": "story-156",
       "category": "Science",
       "primary_headline": "‘Keep away from the doctor’: a visit to an influencer’s wellness event, where the advice could kill",
       "primary_source": {
@@ -61,52 +61,47 @@
       "total_count": 1,
       "combined_score": 0.83,
       "brief_bullets": [
-        "Barbara O’Neill, identified as a risk to public safety in Australia, dismisses antibiotics, vaccines and scientifically proven cancer treatment at UK conference.",
-        "A roar of laughter erupts from a crowd inside a large conference room at the De Vere Cranage Estate hotel.",
-        "The idea that visiting the doctor could help treat a serious illness.",
-        "On stage the controversial Australian proponent of natural remedies Barbara O’Neill is taking part in a question-and-answer session during a five-day wellness conference, where science mixes uncomfortably with Bible verse and potentially deadly pseudo-scientific practices."
+        "Australian wellness influencer Barbara O’Neill, who has been officially designated a risk to public safety in her home country, recently headlined a five-day conference at the De Vere Cranage Estate in the United Kingdom. During the event, O’Neill openly disparaged evidence-based medical practices, including the use of antibiotics, vaccines, and conventional cancer treatments, while promoting unverified natural remedies to a receptive audience. Her rhetoric, which frequently conflates pseudo-scientific health claims with religious scripture, drew laughter from attendees when she suggested that consulting a medical doctor is an ineffective approach to treating serious illnesses. This gathering highlights the growing influence of non-medical practitioners who leverage digital platforms to bypass regulatory oversight and undermine public trust in established healthcare systems. By providing a physical stage for such dangerous misinformation, the event underscores the persistent challenge of managing the spread of health-related conspiracy theories that can lead to severe, life-threatening consequences for vulnerable individuals."
       ],
       "why_it_matters_bullets": [
-        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
+        "The normalization of anti-medical sentiment by high-profile influencers threatens public health stability by eroding confidence in life-saving interventions and potentially leading followers to abandon necessary clinical care. This trend necessitates a more robust regulatory and educational response to mitigate the real-world risks posed by the proliferation of dangerous medical misinformation."
       ],
-      "brief": "Barbara O’Neill, identified as a risk to public safety in Australia, dismisses antibiotics, vaccines and scientifically proven cancer treatment at UK conference. A roar of laughter erupts from a crowd inside a large conference room at the De Vere Cranage Estate hotel. The idea that visiting the doctor could help treat a serious illness. On stage the controversial Australian proponent of natural remedies Barbara O’Neill is taking part in a question-and-answer session during a five-day wellness conference, where science mixes uncomfortably with Bible verse and potentially deadly pseudo-scientific practices. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
-      "brief_word_count": 102
+      "brief": "Australian wellness influencer Barbara O’Neill, who has been officially designated a risk to public safety in her home country, recently headlined a five-day conference at the De Vere Cranage Estate in the United Kingdom. During the event, O’Neill openly disparaged evidence-based medical practices, including the use of antibiotics, vaccines, and conventional cancer treatments, while promoting unverified natural remedies to a receptive audience. Her rhetoric, which frequently conflates pseudo-scientific health claims with religious scripture, drew laughter from attendees when she suggested that consulting a medical doctor is an ineffective approach to treating serious illnesses. This gathering highlights the growing influence of non-medical practitioners who leverage digital platforms to bypass regulatory oversight and undermine public trust in established healthcare systems. By providing a physical stage for such dangerous misinformation, the event underscores the persistent challenge of managing the spread of health-related conspiracy theories that can lead to severe, life-threatening consequences for vulnerable individuals. The normalization of anti-medical sentiment by high-profile influencers threatens public health stability by eroding confidence in life-saving interventions and potentially leading followers to abandon necessary clinical care. This trend necessitates a more robust regulatory and educational response to mitigate the real-world risks posed by the proliferation of dangerous medical misinformation.",
+      "brief_word_count": 201
     },
     {
-      "story_id": "story-281",
+      "story_id": "story-254",
       "category": "Science",
-      "primary_headline": "How employment is changing at Anthropic",
+      "primary_headline": "University of Manchester plans centre in Bengaluru to help Indian students find jobs in India",
       "primary_source": {
-        "source_name": "Hacker News",
-        "headline": "How employment is changing at Anthropic",
-        "published_at": "Sun, 18 Oct 2026 10:49:26 +0000",
-        "url": "https://www.anthropic.com/research/employment-at-anthropic",
-        "content": "\nArticle URL: https://www.anthropic.com/research/employment-at-anthropic\nComments URL: https://news.ycombinator.com/item?id=50139873\nPoints: 46\n# Comments: 51\n"
+        "source_name": "The Hindu",
+        "headline": "University of Manchester plans centre in Bengaluru to help Indian students find jobs in India",
+        "published_at": "Sun, 18 Oct 2026 18:01:48 +0530",
+        "url": "https://www.thehindu.com/news/cities/bangalore/university-of-manchester-plans-india-centre-in-bengaluru-to-help-indian-students-find-jobs-back-home/article71592469.ece",
+        "content": "Engineering, computer science, and business studies are popular among Indian students at the university, followed by programmes in social sciences and humanities"
       },
       "sources": [
         {
-          "source_name": "Hacker News",
-          "headline": "How employment is changing at Anthropic",
-          "published_at": "Sun, 18 Oct 2026 10:49:26 +0000",
-          "url": "https://www.anthropic.com/research/employment-at-anthropic"
+          "source_name": "The Hindu",
+          "headline": "University of Manchester plans centre in Bengaluru to help Indian students find jobs in India",
+          "published_at": "Sun, 18 Oct 2026 18:01:48 +0530",
+          "url": "https://www.thehindu.com/news/cities/bangalore/university-of-manchester-plans-india-centre-in-bengaluru-to-help-indian-students-find-jobs-back-home/article71592469.ece"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.8,
       "brief_bullets": [
-        "How employment is changing at Anthropic.",
-        "Verified accounts indicate critical developments surrounding how employment is changing at anthropic, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+        "Engineering, computer science, and business studies are popular among Indian students at the university, followed by programmes in social sciences and humanities."
       ],
       "why_it_matters_bullets": [
-        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
+        "Reflects broader macroeconomic labor market adjustments as employers rebalance operating costs."
       ],
-      "brief": "How employment is changing at Anthropic. Verified accounts indicate critical developments surrounding how employment is changing at anthropic, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
-      "brief_word_count": 63
+      "brief": "Engineering, computer science, and business studies are popular among Indian students at the university, followed by programmes in social sciences and humanities. Reflects broader macroeconomic labor market adjustments as employers rebalance operating costs.",
+      "brief_word_count": 33
     },
     {
-      "story_id": "story-331",
+      "story_id": "story-367",
       "category": "Science",
       "primary_headline": "UK couple chooses India to undergo IVF treatment, calls the healthcare system 'mind-blowing'",
       "primary_source": {
@@ -140,7 +135,7 @@
       "brief_word_count": 147
     },
     {
-      "story_id": "story-346",
+      "story_id": "story-382",
       "category": "Science",
       "primary_headline": "Climate Change Has It In for the World’s Best Surfing",
       "primary_source": {
@@ -162,17 +157,16 @@
       "total_count": 1,
       "combined_score": 0.8,
       "brief_bullets": [
-        "As coastlines change, so do surf breaks.",
-        "That may spell the end for premier waves and the tourist economies that depend on them."
+        "Accelerating climate change and rising sea levels are fundamentally reshaping coastlines around the globe, threatening to alter or entirely destroy legendary surf breaks that have long defined coastal geography. As marine erosion intensifies and coastal infrastructure projects attempt to mitigate environmental degradation, the delicate bathymetric conditions required to generate premier waves are being disrupted. This ecological shift jeopardizes not only unique recreational assets but also the robust local tourist economies that heavily depend on visiting surfers and international competitions. Coastal communities, tourism boards, and environmental scientists now face difficult decisions regarding whether to attempt artificial wave preservation or brace for severe economic contraction as these iconic natural landmarks degrade."
       ],
       "why_it_matters_bullets": [
-        "Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
+        "The degradation of world-class surf breaks serves as a canary in the coal mine for coastal tourism economies, exposing the vulnerability of billion-dollar recreation sectors to irreversible climate-driven geography changes."
       ],
-      "brief": "As coastlines change, so do surf breaks. That may spell the end for premier waves and the tourist economies that depend on them. Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
-      "brief_word_count": 37
+      "brief": "Accelerating climate change and rising sea levels are fundamentally reshaping coastlines around the globe, threatening to alter or entirely destroy legendary surf breaks that have long defined coastal geography. As marine erosion intensifies and coastal infrastructure projects attempt to mitigate environmental degradation, the delicate bathymetric conditions required to generate premier waves are being disrupted. This ecological shift jeopardizes not only unique recreational assets but also the robust local tourist economies that heavily depend on visiting surfers and international competitions. Coastal communities, tourism boards, and environmental scientists now face difficult decisions regarding whether to attempt artificial wave preservation or brace for severe economic contraction as these iconic natural landmarks degrade. The degradation of world-class surf breaks serves as a canary in the coal mine for coastal tourism economies, exposing the vulnerability of billion-dollar recreation sectors to irreversible climate-driven geography changes.",
+      "brief_word_count": 139
     },
     {
-      "story_id": "story-347",
+      "story_id": "story-383",
       "category": "Science",
       "primary_headline": "Magnesium May Not Reach Your Brain, Despite Supplement Label Promises",
       "primary_source": {
@@ -194,18 +188,16 @@
       "total_count": 1,
       "combined_score": 0.8,
       "brief_bullets": [
-        "Magnesium May Not Reach Your Brain, Despite Supplement Label Promises.",
-        "Verified accounts indicate critical developments surrounding magnesium may not reach your brain, despite supplement label promises, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+        "Despite aggressive marketing campaigns and product labels claiming specialized efficacy, popular magnesium supplements heavily promoted for cognitive health and neurological enhancement likely fail to cross the blood-brain barrier in significant quantities. Biological reality consistently supersedes commercial promises, as human physiology strictly regulates nutrient transport into the central nervous system through sophisticated cellular mechanisms that remain impervious to chemical branding. Consumers seeking targeted neurological benefits from over-the-counter formulations are frequently misled by manufacturers who exploit the ambiguity surrounding different magnesium variants, such as magnesium L-threonate or glycinate. While these compounds offer various systemic health advantages, rigorous scientific consensus demonstrates that simply ingesting specialized supplements does not guarantee direct cerebral absorption or enhanced cognitive function. This fundamental disconnect between supplement marketing and human biology underscores a persistent regulatory challenge within the wellness industry, where unsupported physiological claims often go unchecked by federal oversight authorities."
       ],
       "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+        "This scientific reality exposes widespread consumer deception in the multi-billion-dollar wellness industry, highlighting the urgent need for stricter regulatory oversight regarding unproven cognitive health claims and nutrient delivery mechanisms."
       ],
-      "brief": "Magnesium May Not Reach Your Brain, Despite Supplement Label Promises. Verified accounts indicate critical developments surrounding magnesium may not reach your brain, despite supplement label promises, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 70
+      "brief": "Despite aggressive marketing campaigns and product labels claiming specialized efficacy, popular magnesium supplements heavily promoted for cognitive health and neurological enhancement likely fail to cross the blood-brain barrier in significant quantities. Biological reality consistently supersedes commercial promises, as human physiology strictly regulates nutrient transport into the central nervous system through sophisticated cellular mechanisms that remain impervious to chemical branding. Consumers seeking targeted neurological benefits from over-the-counter formulations are frequently misled by manufacturers who exploit the ambiguity surrounding different magnesium variants, such as magnesium L-threonate or glycinate. While these compounds offer various systemic health advantages, rigorous scientific consensus demonstrates that simply ingesting specialized supplements does not guarantee direct cerebral absorption or enhanced cognitive function. This fundamental disconnect between supplement marketing and human biology underscores a persistent regulatory challenge within the wellness industry, where unsupported physiological claims often go unchecked by federal oversight authorities. This scientific reality exposes widespread consumer deception in the multi-billion-dollar wellness industry, highlighting the urgent need for stricter regulatory oversight regarding unproven cognitive health claims and nutrient delivery mechanisms.",
+      "brief_word_count": 171
     },
     {
-      "story_id": "story-380",
+      "story_id": "story-417",
       "category": "Science",
       "primary_headline": "CBSE Class 10 Science Sample Paper 2027: Section-Wise Answer Writing Rule Explained",
       "primary_source": {
@@ -227,48 +219,13 @@
       "total_count": 1,
       "combined_score": 0.8,
       "brief_bullets": [
-        "CBSE Class 10 Science Sample Paper 2027: Section.",
-        "Verified accounts indicate critical developments surrounding cbse class 10 science sample paper 2027: section, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+        "The Central Board of Secondary Education has issued strict guidelines regarding answer-writing rules for the Class 10 Science sample paper, impacting how students approach examinations starting in 2027. Under these updated directives, students must navigate stringent section-wise formatting and response protocols, failing which could result in severe academic penalties during evaluation. The board aims to standardize assessment criteria and enhance analytical precision among secondary learners nationwide. Educators and academic institutions are now tasked with realigning their preparatory modules to ensure candidates fully comprehend these procedural mandates before entering the examination hall."
       ],
       "why_it_matters_bullets": [
-        "Carries notable operational, policy, and market consequences surrounding 'CBSE Class 10 Science Sample Paper 2027: Section'."
+        "These strict formatting rules elevate the importance of procedural compliance alongside academic knowledge, meaning even well-prepared students risk losing valuable marks if they fail to adhere to the board's precise structural directives."
       ],
-      "brief": "CBSE Class 10 Science Sample Paper 2027: Section. Verified accounts indicate critical developments surrounding cbse class 10 science sample paper 2027: section, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Carries notable operational, policy, and market consequences surrounding 'CBSE Class 10 Science Sample Paper 2027: Section'.",
-      "brief_word_count": 69
-    },
-    {
-      "story_id": "story-643",
-      "category": "Science",
-      "primary_headline": "Honorary Doctorate Conferred On Devendra Fadnavis At Adani University",
-      "primary_source": {
-        "source_name": "NDTV",
-        "headline": "Honorary Doctorate Conferred On Devendra Fadnavis At Adani University",
-        "published_at": "Sat, 17 Oct 2026 20:11:01 +0530",
-        "url": "https://www.ndtv.com/india-news/honorary-doctorate-conferred-on-devendra-fadnavis-at-adani-university-12199877#publisher=newsstand",
-        "content": "The ceremony, the first since the institution was renamed from Datta Meghe Institute of Higher Education and Research (DMIHER), was presided over by Dr Priti Adani, Chancellor of the university and Chairperson of the Adani Foundation."
-      },
-      "sources": [
-        {
-          "source_name": "NDTV",
-          "headline": "Honorary Doctorate Conferred On Devendra Fadnavis At Adani University",
-          "published_at": "Sat, 17 Oct 2026 20:11:01 +0530",
-          "url": "https://www.ndtv.com/india-news/honorary-doctorate-conferred-on-devendra-fadnavis-at-adani-university-12199877#publisher=newsstand"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.8,
-      "brief_bullets": [
-        "Honorary Doctorate Conferred On Devendra Fadnavis At Adani University.",
-        "Verified accounts indicate critical developments surrounding honorary doctorate conferred on devendra fadnavis at adani university, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "Honorary Doctorate Conferred On Devendra Fadnavis At Adani University. Verified accounts indicate critical developments surrounding honorary doctorate conferred on devendra fadnavis at adani university, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 68
+      "brief": "The Central Board of Secondary Education has issued strict guidelines regarding answer-writing rules for the Class 10 Science sample paper, impacting how students approach examinations starting in 2027. Under these updated directives, students must navigate stringent section-wise formatting and response protocols, failing which could result in severe academic penalties during evaluation. The board aims to standardize assessment criteria and enhance analytical precision among secondary learners nationwide. Educators and academic institutions are now tasked with realigning their preparatory modules to ensure candidates fully comprehend these procedural mandates before entering the examination hall. These strict formatting rules elevate the importance of procedural compliance alongside academic knowledge, meaning even well-prepared students risk losing valuable marks if they fail to adhere to the board's precise structural directives.",
+      "brief_word_count": 123
     }
   ]
 }

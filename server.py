@@ -1762,9 +1762,21 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
             self.send_json(CATEGORIES)
         elif path == '/api/config':
             groq_key = os.environ.get('GROQ_API_KEY', '')
+            gemini_key = os.environ.get('GEMINI_API_KEY', '')
+            if not gemini_key:
+                dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
+                if os.path.exists(dotenv_path):
+                    try:
+                        with open(dotenv_path, 'r', encoding='utf-8') as f:
+                            for line in f:
+                                if line.strip().startswith('GEMINI_API_KEY='):
+                                    gemini_key = line.strip().split('=', 1)[1].strip('"\'')
+                                    break
+                    except Exception:
+                        pass
             kv_configured = bool(get_kv_credentials()[0])
             self.send_json({
-                "apiKeyConfigured": bool(groq_key),
+                "apiKeyConfigured": bool(gemini_key or groq_key),
                 "webpushAvailable": WEBPUSH_AVAILABLE,
                 "kvConfigured": kv_configured
             })

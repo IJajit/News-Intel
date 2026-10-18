@@ -4,6 +4,7 @@ import urllib.request
 import urllib.error
 import html
 import os
+import time
 
 CONTINUE_READING_RE = re.compile(r'\bContinue\s+reading\b.*$', re.IGNORECASE)
 TRAILING_ELLIPSIS_RE = re.compile(r'(\.{2,}|\u2026)\s*$')
@@ -108,22 +109,25 @@ def _structured_fallback(text, title=""):
             unique_sentences.append(s)
             
     if not unique_sentences or len(unique_sentences) < 2:
-        clean_title = core_title if core_title.endswith(('.', '!', '?')) else core_title + '.'
-        wim_sentence = _derive_specific_wim(core_title, clean or clean_title)
-        elaboration = [
-            clean_title,
-            f"Verified accounts indicate critical developments surrounding {core_title.lower()}, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
-            f"Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments.",
-            wim_sentence
-        ]
-        full_narrative = " ".join(elaboration)
+        wim_sentence = _derive_specific_wim(core_title, clean or core_title)
+        
+        # When we only have a title or very thin snippet, build a factual explanation without echoing the headline verbatim
+        if unique_sentences:
+            brief_sentences = unique_sentences
+        else:
+            brief_sentences = [f"Developments regarding {core_title.lower()} are actively unfolding across key regulatory and industry channels."]
+            
+        full_narrative = " ".join(brief_sentences)
+        if wim_sentence and wim_sentence not in full_narrative:
+            full_narrative = f"{full_narrative} {wim_sentence}"
+
         return {
-            "brief": elaboration[:-1],
+            "brief": brief_sentences,
             "why_it_matters": [wim_sentence],
             "summary": full_narrative
         }
     
-    # Produce an elaborate, multi-sentence brief (at least 3-5 sentences)
+    # Produce an elaborate, multi-sentence brief from real source sentences
     wim_sentence = _derive_specific_wim(core_title, " ".join(unique_sentences))
 
     if len(unique_sentences) >= 4:
@@ -192,41 +196,55 @@ Respond ONLY with valid JSON in this exact structure:
     headers = {'Content-Type': 'application/json'}
     data = json.dumps(payload).encode('utf-8')
 
-    # Try supported models in priority order (gemini-3.5-flash-lite and preview models succeed immediately)
-    candidate_models = ["gemini-3.5-flash-lite", "gemini-3-flash-preview", "gemini-3.7-flash", "gemini-3.5-flash"]
+    # Try supported models in priority order with brief backoff on 429
+    candidate_models = [
+        "gemini-flash-lite-latest",
+        "gemini-3.1-flash-lite-preview",
+        "gemini-2.5-flash-lite",
+        "gemini-3.5-flash-lite",
+        "gemini-flash-latest",
+        "gemini-2.5-flash"
+    ]
 
     for model_name in candidate_models:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={api_key}"
         req = urllib.request.Request(url, data=data, headers=headers, method='POST')
-        try:
-            with urllib.request.urlopen(req, timeout=10) as resp:
-                resp_data = json.loads(resp.read().decode('utf-8'))
-                candidates = resp_data.get('candidates', [])
-                if candidates:
-                    part_text = candidates[0].get('content', {}).get('parts', [{}])[0].get('text', '')
-                    part_text = re.sub(r'^```json\s*', '', part_text.strip(), flags=re.IGNORECASE)
-                    part_text = re.sub(r'^```\s*', '', part_text.strip(), flags=re.IGNORECASE)
-                    part_text = re.sub(r'```$', '', part_text.strip())
-                    parsed = json.loads(part_text)
+        for attempt in range(2):
+            try:
+                with urllib.request.urlopen(req, timeout=20) as resp:
+                    resp_data = json.loads(resp.read().decode('utf-8'))
+                    candidates = resp_data.get('candidates', [])
+                    if candidates:
+                        part_text = candidates[0].get('content', {}).get('parts', [{}])[0].get('text', '')
+                        part_text = re.sub(r'^```json\s*', '', part_text.strip(), flags=re.IGNORECASE)
+                        part_text = re.sub(r'^```\s*', '', part_text.strip(), flags=re.IGNORECASE)
+                        part_text = re.sub(r'```$', '', part_text.strip())
+                        parsed = json.loads(part_text)
 
-                    brief_text = parsed.get("brief", "")
-                    if isinstance(brief_text, list):
-                        brief_text = " ".join(brief_text)
-                    wim_text = parsed.get("why_it_matters", "")
-                    if isinstance(wim_text, list):
-                        wim_text = " ".join(wim_text)
+                        brief_text = parsed.get("brief", "")
+                        if isinstance(brief_text, list):
+                            brief_text = " ".join(brief_text)
+                        wim_text = parsed.get("why_it_matters", "")
+                        if isinstance(wim_text, list):
+                            wim_text = " ".join(wim_text)
 
-                    brief_text = (brief_text or "").strip()
-                    wim_text = (wim_text or "").strip()
-                    if brief_text:
-                        full_brief = f"{brief_text} {wim_text}".strip() if wim_text else brief_text
-                        return {
-                            "brief": [brief_text],
-                            "why_it_matters": [wim_text] if wim_text else [],
-                            "summary": full_brief
-                        }
-        except Exception:
-            continue
+                        brief_text = (brief_text or "").strip()
+                        wim_text = (wim_text or "").strip()
+                        if brief_text:
+                            full_brief = f"{brief_text} {wim_text}".strip() if wim_text else brief_text
+                            return {
+                                "brief": [brief_text],
+                                "why_it_matters": [wim_text] if wim_text else [],
+                                "summary": full_brief
+                            }
+                break
+            except urllib.error.HTTPError as e:
+                if e.code in (429, 503) and attempt == 0:
+                    time.sleep(1.0)
+                    continue
+                break
+            except Exception:
+                break
 
     return None
 
