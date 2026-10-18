@@ -1,68 +1,182 @@
 {
   "id": "latest",
   "category": "society",
-  "timestamp": "2026-10-18T14:26:12.623336+00:00",
+  "timestamp": "2026-10-18T16:54:30.050994+00:00",
   "articlesCount": 20,
   "stories": [
     {
-      "story_id": "story-1",
+      "story_id": "story-3",
       "category": "Society",
-      "primary_headline": "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery",
+      "primary_headline": "Pope Leo XIV",
       "primary_source": {
         "source_name": "AP News",
-        "headline": "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery - AP News",
-        "published_at": "Sun, 18 Oct 2026 12:59:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUGxoemZ1SU5mT0NtVU56WWxPclZWWXZ3Vlc2TkpJOVlIaUw5T3luaDlkVVE0YlJqOXRTUmJ5anI3eHdqTEdJemtKRGtxUmNaN2U3Z21CWUQ0UEVLSUdZX3UtZVlFRzBQSHZmTWRQTFJtWmNrcHg2NDkxX1RBRy1BVkRMZEtnU3BfR0dYSWk3M01RZlowenZCT0QwZw?oc=5",
-        "content": "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery&nbsp;&nbsp;AP News"
+        "headline": "Pope Leo XIV - AP News",
+        "published_at": "Sun, 18 Oct 2026 15:33:55 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1BXzFaTC1GN3pKdEVBTmZXQkZPamZ2Uk1icE4wVkVUdEFqY1J1SV9FRTZfal95NlB5OHQ5ZnNVSVozNlFsRU5HM0NmUQ?oc=5",
+        "content": "Pope Leo XIV&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
           "source_name": "AP News",
+          "headline": "Pope Leo XIV - AP News",
+          "published_at": "Sun, 18 Oct 2026 15:33:55 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1BXzFaTC1GN3pKdEVBTmZXQkZPamZ2Uk1icE4wVkVUdEFqY1J1SV9FRTZfal95NlB5OHQ5ZnNVSVozNlFsRU5HM0NmUQ?oc=5"
+        },
+        {
+          "source_name": "AP News",
           "headline": "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery - AP News",
-          "published_at": "Sun, 18 Oct 2026 12:59:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUGxoemZ1SU5mT0NtVU56WWxPclZWWXZ3Vlc2TkpJOVlIaUw5T3luaDlkVVE0YlJqOXRTUmJ5anI3eHdqTEdJemtKRGtxUmNaN2U3Z21CWUQ0UEVLSUdZX3UtZVlFRzBQSHZmTWRQTFJtWmNrcHg2NDkxX1RBRy1BVkRMZEtnU3BfR0dYSWk3M01RZlowenZCT0QwZw?oc=5",
-          "content": "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery&nbsp;&nbsp;AP News"
+          "published_at": "Sun, 18 Oct 2026 14:36:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUGxoemZ1SU5mT0NtVU56WWxPclZWWXZ3Vlc2TkpJOVlIaUw5T3luaDlkVVE0YlJqOXRTUmJ5anI3eHdqTEdJemtKRGtxUmNaN2U3Z21CWUQ0UEVLSUdZX3UtZVlFRzBQSHZmTWRQTFJtWmNrcHg2NDkxX1RBRy1BVkRMZEtnU3BfR0dYSWk3M01RZlowenZCT0QwZw?oc=5"
         },
         {
           "source_name": "Reuters",
           "headline": "Pope Leo pledges gradual return to duties in first event since cancer surgery - Reuters",
-          "published_at": "Sun, 18 Oct 2026 12:32:35 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQajlwczZReXZXSkQ1X1JuZWNGWlNjX2VXcW9hNVdlNXYybU00b3NkSFdpdXo4ZXFLZ184OENSdTZRbE9DdDF2ejZIRVpXUWk2MjdJbWM2Y0JMNzVfcGFvYzRxUU5LYUhpTTB6QWpQWHgwR0tEUXZkNnhBMkxJYkd4dTBydU1OWFpVd3lSNjRSSmF3QW9TUmFocVJVa1QyVUtJcFFHeUwwTGg?oc=5",
-          "content": "Pope Leo pledges gradual return to duties in first event since cancer surgery&nbsp;&nbsp;Reuters"
+          "published_at": "Sun, 18 Oct 2026 14:09:12 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQajlwczZReXZXSkQ1X1JuZWNGWlNjX2VXcW9hNVdlNXYybU00b3NkSFdpdXo4ZXFLZ184OENSdTZRbE9DdDF2ejZIRVpXUWk2MjdJbWM2Y0JMNzVfcGFvYzRxUU5LYUhpTTB6QWpQWHgwR0tEUXZkNnhBMkxJYkd4dTBydU1OWFpVd3lSNjRSSmF3QW9TUmFocVJVa1QyVUtJcFFHeUwwTGg?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "Pope returns to Vatican days after surgery; surgeon says he should be fit for Latin America tour - AP News",
+          "published_at": "Sat, 17 Oct 2026 21:35:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOFA3aml3ZXJlRXJ4MkFBeHNZYkZvNGJGempQWkJpZDJxQTlnbFFPb1Nkb3RvNUZCR2JCNWZPT2tqNFQ1Y3NJWHNqWm5WcEtHWkJrMzN3cTdjQVV2ZmhnSUF6Y2tjWXZ0TVp1bnJrVURyYzdTU0psdXpDNFRTQjgwQUNybXphRW93NFYwa3JVdUJHRjYzUE8xTUphLVdLZDg?oc=5"
         },
         {
           "source_name": "Reuters",
           "headline": "Pope Leo returns to Vatican four days after cancer surgery - Reuters",
           "published_at": "Sat, 17 Oct 2026 18:25:25 GMT",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMEhiTWpBVEdDa1JjQmtQUDBZR1RGVHF4VmxwaTEzRHhtczZOcHlJZE9idHNKOFpxdnpndFYwLUk5Zy1lZFRFWTUtaHlEdW44aVZKZjlXenBveTRvN29sRzI1RG1JVm0wMGlRcFpoeS1hX0dCZE1WVGdVc3plR3FZay0xeUtSYjg2dk9SZVpUSEJUdw?oc=5",
-          "content": "Pope Leo returns to Vatican four days after cancer surgery&nbsp;&nbsp;Reuters"
-        },
-        {
-          "source_name": "Reuters",
-          "headline": "Pope Leo leaves hospital for Vatican days after cancer surgery - Reuters",
-          "published_at": "Sat, 17 Oct 2026 18:25:12 GMT",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBrNW5CV0RZVGx3TlkzWWZKZW5tTDQwcGRta28tbl9uNDY0RlU2MTFtTURqRTRGZ1RLaGtmaThwMHpEZUNBVmp1MUJ4Snc4YWM4aDI1NGhEY05CSUZ4WEduLXFEX0xSdVhyOEdiRU4yUGlLS3d2?oc=5",
-          "content": "Pope Leo leaves hospital for Vatican days after cancer surgery&nbsp;&nbsp;Reuters"
-        },
-        {
-          "source_name": "Reuters",
-          "headline": "Pope Leo walks out of hospital four days after lung cancer surgery - Reuters",
-          "published_at": "Sat, 17 Oct 2026 15:37:20 GMT",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBzVFNPTnpDMkVlZm5Rbm9xOHdEeW1VOGRjbzFtUEVzSXVhTkdlcDBBMnVsSHJvMlAxZTFySTNOQmdzUHBXd2tMM09tWTM1Yk1pcUR6NWNzSUFwR3ZUb3BXbkk0ZzByRFA5Mk9pVUJaWWZfaTA?oc=5",
-          "content": "Pope Leo walks out of hospital four days after lung cancer surgery&nbsp;&nbsp;Reuters"
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMEhiTWpBVEdDa1JjQmtQUDBZR1RGVHF4VmxwaTEzRHhtczZOcHlJZE9idHNKOFpxdnpndFYwLUk5Zy1lZFRFWTUtaHlEdW44aVZKZjlXenBveTRvN29sRzI1RG1JVm0wMGlRcFpoeS1hX0dCZE1WVGdVc3plR3FZay0xeUtSYjg2dk9SZVpUSEJUdw?oc=5"
         }
       ],
-      "source_count": 9,
+      "source_count": 8,
       "total_count": 13,
-      "combined_score": 8.4,
+      "combined_score": 7.9,
       "brief_bullets": [
-        "AP News Pope Leo pledges gradual return to duties in first event since cancer surgery Pope Leo returns to Vatican four days after cancer surgery Pope Leo leaves hospital for Vatican days after cancer surgery Pope Leo walks out of hospital four days after lung cancer surgery. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
+        "AP News Pope Leo tells faithful in St.",
+        "Peter's Square he will gradually resume duties after cancer surgery AP News Pope Leo pledges gradual return to duties in first event since cancer surgery Pope returns to Vatican days after surgery; surgeon says he should be fit for Latin America tour AP News Pope Leo returns to Vatican four days after cancer surgery.",
+        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Pope Leo XIV'.",
+        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements."
       ],
       "why_it_matters_bullets": [
         "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
       ],
-      "brief": "AP News Pope Leo pledges gradual return to duties in first event since cancer surgery Pope Leo returns to Vatican four days after cancer surgery Pope Leo leaves hospital for Vatican days after cancer surgery Pope Leo walks out of hospital four days after lung cancer surgery. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
-      "brief_word_count": 60
+      "brief": "AP News Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery AP News Pope Leo pledges gradual return to duties in first event since cancer surgery Pope returns to Vatican days after surgery; surgeon says he should be fit for Latin America tour AP News Pope Leo returns to Vatican four days after cancer surgery. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Pope Leo XIV'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
+      "brief_word_count": 108
+    },
+    {
+      "story_id": "story-4",
+      "category": "Society",
+      "primary_headline": "Clashes, fires and looting break out as protesters rally across France, joining students",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Clashes, fires and looting break out as protesters rally across France, joining students - AP News",
+        "published_at": "Sat, 17 Oct 2026 19:59:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWmRHbHlmZUhGb2xmVFZXeFBmNTFodEJ3U2xmUkZmZDhzdGR2aTEzTHRXOVRIWmx1REtWbHpGY2NQQUFVSk9PaHY3dFRjSUVqZUM3LURoSWlQQ3dDNlEtMnpmQmY3bVJtZEJWNV9vd0hDczg4OGV3UGJ0QmFWX0xLTHpzQ2c3ME5XcE9PN3Zidl9tV0xESXY5aW9R?oc=5",
+        "content": "Clashes, fires and looting break out as protesters rally across France, joining students&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Clashes, fires and looting break out as protesters rally across France, joining students - AP News",
+          "published_at": "Sat, 17 Oct 2026 19:59:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWmRHbHlmZUhGb2xmVFZXeFBmNTFodEJ3U2xmUkZmZDhzdGR2aTEzTHRXOVRIWmx1REtWbHpGY2NQQUFVSk9PaHY3dFRjSUVqZUM3LURoSWlQQ3dDNlEtMnpmQmY3bVJtZEJWNV9vd0hDczg4OGV3UGJ0QmFWX0xLTHpzQ2c3ME5XcE9PN3Zidl9tV0xESXY5aW9R?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "Violent protests in France as police battle demonstrators, in photos - AP News",
+          "published_at": "Sat, 17 Oct 2026 18:29:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMlplc0tOejE1Q0dfRVlSRG9HWmg5TVdmVGp2cThMeXBfNE5JdU5Oc29KOEtlVk82Z21qRS1maUZaQTI1bmR0TS1kMzBMMUpia1NwUEJXenU3MmY0SlUzS3M4ZUcyQU9UV1VTM2xDOWNCakhqamlnaUxMMl84UlMtTjBadjhWTDdIdjRkVUVrUk5KWFJXcTAxcmhycUhTS3BtUlo4MGNfWVpKRktQOHctWGhvYldZZGtjbmVuQWk1UVYxZw?oc=5"
+        },
+        {
+          "source_name": "NYT",
+          "headline": "France in Shock After Protests Turn Into Riots, Damaging Buildings and Shops",
+          "published_at": "Sun, 18 Oct 2026 15:48:40 +0000",
+          "url": "https://www.nytimes.com/2026/10/18/world/europe/france-protests-shock-arson.html"
+        },
+        {
+          "source_name": "NYT",
+          "headline": "Why Are There Protests in France?",
+          "published_at": "Sun, 18 Oct 2026 15:15:49 +0000",
+          "url": "https://www.nytimes.com/article/france-student-protests-why.html"
+        },
+        {
+          "source_name": "BBC News",
+          "headline": "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting",
+          "published_at": "Sun, 18 Oct 2026 12:07:31 GMT",
+          "url": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "source_count": 8,
+      "total_count": 12,
+      "combined_score": 7.63,
+      "brief_bullets": [
+        "AP News Violent protests in France as police battle demonstrators, in photos AP News After anti-government protests devolved into chaos, leaders from across the political spectrum blamed one another for the unrest, even as it largely subsided on Sunday.",
+        "Rioters attacked city halls and shops over the weekend amid protests over living costs and poor school conditions.",
+        "About 1,800 people were arrested after nationwide protests saw outbreaks of violence and vandalism.",
+        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events."
+      ],
+      "why_it_matters_bullets": [
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+      ],
+      "brief": "AP News Violent protests in France as police battle demonstrators, in photos AP News After anti-government protests devolved into chaos, leaders from across the political spectrum blamed one another for the unrest, even as it largely subsided on Sunday. Rioters attacked city halls and shops over the weekend amid protests over living costs and poor school conditions. About 1,800 people were arrested after nationwide protests saw outbreaks of violence and vandalism. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 109
+    },
+    {
+      "story_id": "story-5",
+      "category": "Society",
+      "primary_headline": "Latino voters helped put Trump back in the White House. What’s their next move?",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Latino voters helped put Trump back in the White House. What’s their next move? - AP News",
+        "published_at": "Sun, 18 Oct 2026 12:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFBVRGczQ3NZa3MxX0c2VXB0enIyQ0twZkwtWjI5RjhpWGdHOHBkZndUYU5CWmhOeHYzRUFEMndlWHRhOThRdFB5THlka0xaY1U3MUdNMzh2bzVkd25ScEtrYkk2LWJtdl9XVFlITWY4N3AwREZCd1ZpMURkZGJhaWZTV2ZLcHA0cjBreHZBSTFrSEJBQ1pIcTRKX3gzSUg3bUMtUTJPcWd3QQ?oc=5",
+        "content": "Latino voters helped put Trump back in the White House. What’s their next move?&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Latino voters helped put Trump back in the White House. What’s their next move? - AP News",
+          "published_at": "Sun, 18 Oct 2026 12:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFBVRGczQ3NZa3MxX0c2VXB0enIyQ0twZkwtWjI5RjhpWGdHOHBkZndUYU5CWmhOeHYzRUFEMndlWHRhOThRdFB5THlka0xaY1U3MUdNMzh2bzVkd25ScEtrYkk2LWJtdl9XVFlITWY4N3AwREZCd1ZpMURkZGJhaWZTV2ZLcHA0cjBreHZBSTFrSEJBQ1pIcTRKX3gzSUg3bUMtUTJPcWd3QQ?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "Trump’s new pitch for Republican candidates — they’re really good looking - AP News",
+          "published_at": "Sun, 18 Oct 2026 04:03:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdk9lME5Kek5UNHQ1WXRsUW5ZVEVXZ3docEt3X2JhbnNFT0kwckhVWTNEd1BGa1ZwZTBEbU5DaEVaNDhmSlV4MDh4NzdLc25YN2NmVUdnZ3pTdWxFcmd0TFkzM0dYSnhIQkl4U3B1UzJuRzhBTUxIekJfZldFNUJ4NnA2YjRIcjFidUJIWmtnTS14LUh5cUFZMmRvNW9lSTRleXlBOE0zYVVfZw?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Rubio says Trump to take up to 60 days to weigh Russia sanctions - Reuters",
+          "published_at": "Sun, 18 Oct 2026 03:38:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRlRkQlBQYXFvck1VQUYxcVpwM2dEVDMwQThIY3ZHRldBd0M0dmV5NXFnZlBXMnpuUnozQlhLbkg4ZjZCT3kzVW5mcnl3RVEwUXRpdUJsZGViRlE1MFdJbHZWZ3pRTXNOUDQtOTRsQU5nSzd4a3d5Z3c2dTkzZWZSNlZsbXZBamFSMS1qVEVnaHc2MTZJUHZ4YU1zS0hfNVM4eVE?oc=5"
+        },
+        {
+          "source_name": "The Guardian",
+          "headline": "Nicola Jennings on Trump’s new White House press secretary – cartoon",
+          "published_at": "Sun, 18 Oct 2026 16:28:31 GMT",
+          "url": "https://www.theguardian.com/commentisfree/picture/2026/oct/18/nicola-jennings-donald-trump-new-white-house-press-secretary-cartoon"
+        },
+        {
+          "source_name": "CNN",
+          "headline": "How JB Pritzker’s midterm investments could pay off in a 2028 White House bid - CNN",
+          "published_at": "Sun, 18 Oct 2026 10:30:45 GMT",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTW5LSmtCTU43c3A2LVpxOXZBREJIRlBQOFZRRl9BR1FwejJnUGlIaTluYmRtZDl1SmRYdlgwX3o2TFQ1VmtSZUswNkpGNE1kWEEtUHVHMGNoSExoZ3VZX19zcXlFSEVBYzVHd0JKdVEyYzE0TXhUUFprVWE2dXNIOGhBMnlSMlB3d2hQcw?oc=5"
+        }
+      ],
+      "source_count": 8,
+      "total_count": 11,
+      "combined_score": 7.36,
+      "brief_bullets": [
+        "AP News Trump’s new pitch for Republican candidates — they’re really good looking AP News Rubio says Trump to take up to 60 days to weigh Russia sanctions.",
+        "Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness.",
+        "The shift has triggered intense debate among foreign policy stakeholders regarding international deterrence frameworks and regulatory enforcement.",
+        "Regional defense ministries and multilateral bodies are assessing logistical readiness and diplomatic countermeasures as the geopolitical landscape evolves."
+      ],
+      "why_it_matters_bullets": [
+        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
+      ],
+      "brief": "AP News Trump’s new pitch for Republican candidates — they’re really good looking AP News Rubio says Trump to take up to 60 days to weigh Russia sanctions. Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness. The shift has triggered intense debate among foreign policy stakeholders regarding international deterrence frameworks and regulatory enforcement. Regional defense ministries and multilateral bodies are assessing logistical readiness and diplomatic countermeasures as the geopolitical landscape evolves. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 96
     },
     {
       "story_id": "story-2",
@@ -80,172 +194,167 @@
           "source_name": "AP News",
           "headline": "West Bank - AP News",
           "published_at": "Sun, 18 Oct 2026 11:14:32 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBCLUpaZFBGTl81RWtTcFVsUnJGZ19DU1dpd1FKSFpndTlxZGduSmtIWllLcnphNG9LSURuazF2dXkyZGdDR3hB?oc=5",
-          "content": "West Bank&nbsp;&nbsp;AP News"
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBCLUpaZFBGTl81RWtTcFVsUnJGZ19DU1dpd1FKSFpndTlxZGduSmtIWllLcnphNG9LSURuazF2dXkyZGdDR3hB?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "EU condemns attacks by violent settlers, including on diplomats, spokesperson says - Reuters",
+          "published_at": "Sun, 18 Oct 2026 10:52:10 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcG5pYTJCRkVpNVoxOTVPTVRoNUtwcTBYX2lhZ3ZmMVYxQjRjeG5kMHBHRnlpS1otNzZjWVNyaGJCNjhnU0ROclhuOWYwVGltT19POUY1Z0lOT2pJNDNCSUN0LTFHSkFxUW5iWW91T0ZiOVVTTm42TUpINVc2c1JVbEszT0hBQmhEUU5kemNPbFdqZndpTl9wTG1XeFRxd0JfTXhyam1zSDEzV2hXdWZ3X25xOXY4TkZwWThkLWVXTTBXREpWVFp0eC1XRQ?oc=5"
         },
         {
           "source_name": "AP News",
           "headline": "Diplomats attacked in the occupied West Bank, and other Middle East developments - AP News",
           "published_at": "Sun, 18 Oct 2026 04:08:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOV0tPUGhacDNCd3h5U1ktMS1xbVJUZHhjc1RSU0VwZEN1WThvNDNrc0F3SWFhRHRrRWt5NlBSUFhqc3FOa3VFd2V0RVUxTzZNakJBVXhSZHRvV0tmS3RRZG9pY0lqNGxxcmlTZWk4Ylp2MF8zNlh5OUtMS3AzSmdLWmhYYTByR2VyS21QODB2eV9Mb0FmbVlISE5qaGVtWEU2UG5tanR4dUd0ZlJHb05iWQ?oc=5",
-          "content": "Diplomats attacked in the occupied West Bank, and other Middle East developments&nbsp;&nbsp;AP News"
-        },
-        {
-          "source_name": "AP News",
-          "headline": "Masked settlers attack European diplomats in the occupied West Bank - AP News",
-          "published_at": "Sat, 17 Oct 2026 15:59:43 GMT",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVlRiVjVsUFhzbGdNVXNZRm9JNDNUMGJDN2FrQlRjc00tM2JRTEh0bFNFVjFZdXRwN18teXNLN2lvblRwaHlzWHFQQnVqc1pVSWhHUWtDaks1eXNodVJsYmdHSzR6R0RBQk1jTjRmZ0wxYl9OZm5KQ285WU0tWDVzNDZISzA3bktzeXU0V2d1QklWYVlNWmdoQnNzRHFaQ2E1LUU3MTN4Zw?oc=5",
-          "content": "Masked settlers attack European diplomats in the occupied West Bank&nbsp;&nbsp;AP News"
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOV0tPUGhacDNCd3h5U1ktMS1xbVJUZHhjc1RSU0VwZEN1WThvNDNrc0F3SWFhRHRrRWt5NlBSUFhqc3FOa3VFd2V0RVUxTzZNakJBVXhSZHRvV0tmS3RRZG9pY0lqNGxxcmlTZWk4Ylp2MF8zNlh5OUtMS3AzSmdLWmhYYTByR2VyS21QODB2eV9Mb0FmbVlISE5qaGVtWEU2UG5tanR4dUd0ZlJHb05iWQ?oc=5"
         },
         {
           "source_name": "Reuters",
-          "headline": "Israeli settlers attack Palestinians, European diplomats in West Bank, Belgium says - Reuters",
-          "published_at": "Sat, 17 Oct 2026 15:51:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWXplRm9KdGNaY1RUZFA0UUFLbUxVWmx3TlBnRXRCQU5BUjBBRXNDcm9TSEQ2SUthUlpYMl92X052ZGdjMzFZLUd6amZ3UHdFNG5ic0k5LURwUDFOaDZQNE1CYWFlN1JRWDhlcFRWVVZTU0tzN0l5OHVaZXh0dkVFOFFwYkQ5WTIycElqQk5ZeHh3OTZVQWpVWHNkMDFDWk1ndEc5OHUtR2EzbV9iQVZHaWx4REljaTYxSFhsSkdDRkw?oc=5",
-          "content": "Israeli settlers attack Palestinians, European diplomats in West Bank, Belgium says&nbsp;&nbsp;Reuters"
+          "headline": "US wants Israel to 'crack down' on settler violence in West Bank, Rubio says - Reuters",
+          "published_at": "Sat, 17 Oct 2026 23:49:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX2RPSkdZZ0xrcm1MRkYySnVIVFRmRFN0UXBfV21jVlcxZ2xrUDloZlFYWE1Za0JnRXNHVXdRbWkzSVljckpwSmpUSzFsWHpCcV9YM2RTSGZZNEprQlNkSmFPQlgtYUZCejI3a3BuS2RmUEgwS3JmUUNIbkxvSzJoNUg3ckdsRUxvVE9BdTFBX0NUR3pYcThTQjBUb05tQ1V2QzlUR3JneGU5ZTB2Z0xPTGdUM2lSemFsQmc?oc=5"
         },
         {
-          "source_name": "BBC News",
-          "headline": "European diplomats attacked by Israeli settlers in West Bank",
-          "published_at": "Sun, 18 Oct 2026 12:16:14 GMT",
-          "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
-          "content": "Masked settlers are accused of attacking the convoy Belgium condemned the assault on its consul general and the other envoys, while France decried the attack as \"appalling\". Both called for Israel to bring those responsible to justice. The Israel Defense Forces (IDF) also condemned what they called \"the severe act of violence\" and said they were investigating. But the office of the Prime Minister Benjamin Netanyahu cast doubt on what happened, suggesting it was part of a \"co-ordinated campaign to smear Israel\". The attack came only a day after a number of Palestinians and Heidi Levine, a Washington Post photographer, were injured in a separate assault by settlers in another village in the West Bank. US Secretary of State Marco Rubio said the attack on Levine was \"disturbing\" and \"not a good look\"."
+          "source_name": "Reuters",
+          "headline": "Lebanon says military delegation will press for halt to Israeli attacks at US talks - Reuters",
+          "published_at": "Sat, 17 Oct 2026 20:31:43 GMT",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSVBXRnY2dGJybHo5d2JiMTlEbnE2SGNfX3FBbVIyazh3dFFPWjB6eWpQaTZwZGwxT3dKQTRfVHlTQ0hZaGJfWmZtOFZYSERiV1Q1QWNTeWdDcWpSMkdtci0zOHBvelNXYW9XaFB0ZHRadFN5Sy1Vb25PNU8yeXV5Q01IdEZIX1o2TEpXNS15ZDcxX0MxQ1JJeEJZQ3laeGpvZURhYVpkajZrTmcwQzZzLW9EUnhaOUlaRmd5WGxaVEhpdElCQVE?oc=5"
         }
       ],
       "source_count": 7,
-      "total_count": 9,
-      "combined_score": 6.26,
+      "total_count": 16,
+      "combined_score": 8.39,
       "brief_bullets": [
-        "AP News Diplomats attacked in the occupied , and other Middle East developments AP News Masked settlers attack European diplomats in the occupied  AP News Israeli settlers attack Palestinians, European diplomats in , Belgium says Masked settlers are accused of attacking the convoy Belgium condemned the assault on its consul general and the other envoys, while France decried the attack as \"appalling\". Both called for Israel to bring those responsible to justice. The Israel Defense Forces (IDF) also condemned what they called \"the severe act of violence\" and said they were investigating. But the office of the Prime Minister Benjamin Netanyahu cast doubt on what happened, suggesting it was part of a \"co-ordinated campaign to smear Israel\". Directly impacts regional security balances and humanitarian conditions, testing international ceasefire mediation."
+        "AP News EU condemns attacks by violent settlers, including on diplomats, spokesperson says Diplomats attacked in the occupied , and other Middle East developments AP News US wants Israel to 'crack down' on settler violence in , Rubio says Lebanon says military delegation will press for halt to Israeli attacks at US talks.",
+        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
+        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions.",
+        "Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments."
       ],
       "why_it_matters_bullets": [
         "Directly impacts regional security balances and humanitarian conditions, testing international ceasefire mediation."
       ],
-      "brief": "AP News Diplomats attacked in the occupied , and other Middle East developments AP News Masked settlers attack European diplomats in the occupied  AP News Israeli settlers attack Palestinians, European diplomats in , Belgium says Masked settlers are accused of attacking the convoy Belgium condemned the assault on its consul general and the other envoys, while France decried the attack as \"appalling\". Both called for Israel to bring those responsible to justice. The Israel Defense Forces (IDF) also condemned what they called \"the severe act of violence\" and said they were investigating. But the office of the Prime Minister Benjamin Netanyahu cast doubt on what happened, suggesting it was part of a \"co-ordinated campaign to smear Israel\". Directly impacts regional security balances and humanitarian conditions, testing international ceasefire mediation.",
-      "brief_word_count": 129
+      "brief": "AP News EU condemns attacks by violent settlers, including on diplomats, spokesperson says Diplomats attacked in the occupied , and other Middle East developments AP News US wants Israel to 'crack down' on settler violence in , Rubio says Lebanon says military delegation will press for halt to Israeli attacks at US talks. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments. Directly impacts regional security balances and humanitarian conditions, testing international ceasefire mediation.",
+      "brief_word_count": 125
     },
     {
-      "story_id": "story-3",
+      "story_id": "story-1",
       "category": "Society",
-      "primary_headline": "Video Shows Moment Kolkata Durga Puja Stampede Broke Out, Killing 19",
-      "primary_source": {
-        "source_name": "NDTV",
-        "headline": "Video Shows Moment Kolkata Durga Puja Stampede Broke Out, Killing 19",
-        "published_at": "Sun, 18 Oct 2026 13:51:20 +0530",
-        "url": "https://www.ndtv.com/india-news/chorbagan-sarbojanin-video-shows-moment-kolkata-durga-puja-stampede-broke-out-killing-19-12202055#publisher=newsstand",
-        "content": " The video showed the moment a stampede broke out at a Durga Puja pandal in Kolkata on Saturday evening, leaving 19 people dead."
-      },
-      "sources": [
-        {
-          "source_name": "NDTV",
-          "headline": "Video Shows Moment Kolkata Durga Puja Stampede Broke Out, Killing 19",
-          "published_at": "Sun, 18 Oct 2026 13:51:20 +0530",
-          "url": "https://www.ndtv.com/india-news/chorbagan-sarbojanin-video-shows-moment-kolkata-durga-puja-stampede-broke-out-killing-19-12202055#publisher=newsstand",
-          "content": " The video showed the moment a stampede broke out at a Durga Puja pandal in Kolkata on Saturday evening, leaving 19 people dead."
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "Organisers Among 7 Arrested For Kolkata Durga Puja Stampede That Killed 19",
-          "published_at": "Sun, 18 Oct 2026 11:30:36 +0530",
-          "url": "https://www.ndtv.com/india-news/kolkata-durga-puja-girish-park-stampede-case-7-including-organisers-arrested-in-kolkata-durga-puja-stampede-that-killed-19-12201380#publisher=newsstand",
-          "content": " The stampede broke out amid heavy rain at the Chorbagan Durga Puja, which draws a large number of revellers."
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "7 arrested in Kolkata stampede case, death toll rises to 19",
-          "published_at": "Sun, 18 Oct 2026 04:21:02 +0000",
-          "url": "https://indianexpress.com/article/cities/kolkata/7-arrested-in-kolkata-chorebagan-durga-puja-committee-stampede-dead-injured-10926513/",
-          "content": ""
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Organisers of Chorebagan Durga Pandal arrested, SIT formed to probe stampede that killed 19",
-          "published_at": "Sun, 18 Oct 2026 02:13:15 +0000",
-          "url": "https://indianexpress.com/article/cities/kolkata/kolkata-stampede-organisers-detained-killed-injured-chorebagan-chorebagan-durga-puja-pandal-10926393/",
-          "content": ""
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "Major Kolkata Durga Puja Pandals Shut Temporarily After Stampede Kills 19",
-          "published_at": "Sun, 18 Oct 2026 07:28:09 +0530",
-          "url": "https://www.ndtv.com/india-news/kolkata-durga-puja-stampede-major-kolkata-durga-puja-pandals-shut-temporarily-after-stampede-kills-19-12201074#publisher=newsstand",
-          "content": "Organisers of the Santosh Mitra Square Puja restricted entry of visitors to the pandal for the time being, puja committee president Sajal Ghosh said."
-        }
-      ],
-      "source_count": 4,
-      "total_count": 11,
-      "combined_score": 5.5,
-      "brief_bullets": [
-        "The video showed the moment a stampede broke out at a Durga Puja pandal in Kolkata on Saturday evening, leaving 19 people dead. The stampede broke out amid heavy rain at the Chorbagan Durga Puja, which draws a large number of revellers. 7 arrested in Kolkata stampede case, death toll rises to 19 Organisers of Chorebagan Durga Pandal arrested, SIT formed to probe stampede that killed 19 Organisers of the Santosh Mitra Square Puja restricted entry of visitors to the pandal for the time being, puja committee president Sajal Ghosh said. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
-      ],
-      "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
-      ],
-      "brief": "The video showed the moment a stampede broke out at a Durga Puja pandal in Kolkata on Saturday evening, leaving 19 people dead. The stampede broke out amid heavy rain at the Chorbagan Durga Puja, which draws a large number of revellers. 7 arrested in Kolkata stampede case, death toll rises to 19 Organisers of Chorebagan Durga Pandal arrested, SIT formed to probe stampede that killed 19 Organisers of the Santosh Mitra Square Puja restricted entry of visitors to the pandal for the time being, puja committee president Sajal Ghosh said. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 105
-    },
-    {
-      "story_id": "story-5",
-      "category": "Society",
-      "primary_headline": "Kolkata pandal stampede LIVE | Seven accused sent to 10-day police custody",
+      "primary_headline": "Kolkata pandal stampede updates | Nine IPS officers assigned Durga Puja crowd management charge; 10-day police custody for seven accused",
       "primary_source": {
         "source_name": "The Hindu",
-        "headline": "Kolkata pandal stampede LIVE | Seven accused sent to 10-day police custody",
-        "published_at": "Sun, 18 Oct 2026 19:49:10 +0530",
+        "headline": "Kolkata pandal stampede updates | Nine IPS officers assigned Durga Puja crowd management charge; 10-day police custody for seven accused",
+        "published_at": "Sun, 18 Oct 2026 21:58:32 +0530",
         "url": "https://www.thehindu.com/news/cities/kolkata/kolkata-bengal-pandal-collapse-stampede-injured-death-updates-on-october-17-2026/article71597549.ece",
-        "content": "You don’t have any Active Subscription. Subscribed with another email? Logout and Login with that one. Account subscription benefits alongside Premium Stories, Editorials,\n              Opinions and more. Unlock these with Subscription Additional Subscription Benefits Need help with your subscription? Seven people arrested in connection with the Chorbagan Sarbojanin Durga Puja stampede incident being brought to Bankshall Court, in Kolkata on October 18, 2026.\n                                                  | Photo Credit:  \n                          ANI"
+        "content": "Kolkata Police issue 11-point advisory; CM Adhikari hints at scrapping VIP entries at major pandals"
       },
       "sources": [
         {
           "source_name": "The Hindu",
-          "headline": "Kolkata pandal stampede LIVE | Seven accused sent to 10-day police custody",
-          "published_at": "Sun, 18 Oct 2026 19:49:10 +0530",
-          "url": "https://www.thehindu.com/news/cities/kolkata/kolkata-bengal-pandal-collapse-stampede-injured-death-updates-on-october-17-2026/article71597549.ece",
-          "content": "You don’t have any Active Subscription. Subscribed with another email? Logout and Login with that one. Account subscription benefits alongside Premium Stories, Editorials,\n              Opinions and more. Unlock these with Subscription Additional Subscription Benefits Need help with your subscription? Seven people arrested in connection with the Chorbagan Sarbojanin Durga Puja stampede incident being brought to Bankshall Court, in Kolkata on October 18, 2026.\n                                                  | Photo Credit:  \n                          ANI"
+          "headline": "Kolkata pandal stampede updates | Nine IPS officers assigned Durga Puja crowd management charge; 10-day police custody for seven accused",
+          "published_at": "Sun, 18 Oct 2026 21:58:32 +0530",
+          "url": "https://www.thehindu.com/news/cities/kolkata/kolkata-bengal-pandal-collapse-stampede-injured-death-updates-on-october-17-2026/article71597549.ece"
         },
         {
-          "source_name": "NDTV",
-          "headline": "10-Day Police Custody For 7 Accused In Kolkata Durga Puja Pandal Stampede",
-          "published_at": "Sun, 18 Oct 2026 18:31:59 +0530",
-          "url": "https://www.ndtv.com/india-news/chorbagan-stampede-10-day-police-custody-for-7-accused-in-deadly-kolkata-pandal-stampede-12202905#publisher=newsstand",
-          "content": " Police had registered a case of culpable homicide not amounting to murder over the stampede that broke out around 7:40 pm on Saturday amid heavy rain."
+          "source_name": "The Hindu",
+          "headline": "Majority of victims in Kolkata Durga Puja stampede are women, children",
+          "published_at": "Sun, 18 Oct 2026 21:50:41 +0530",
+          "url": "https://www.thehindu.com/news/cities/kolkata/majority-of-victims-in-kolkata-durga-puja-stampede-are-women-children/article71599949.ece"
         },
         {
-          "source_name": "NDTV",
-          "headline": "Amit Shah Visits Kolkata Hospital, Meets Durga Puja Pandal Stampede Victims",
-          "published_at": "Sun, 18 Oct 2026 10:49:52 +0530",
-          "url": "https://www.ndtv.com/india-news/kolkata-durga-puja-pandal-stampede-amit-shah-visits-kolkata-hospital-meets-durga-puja-pandal-stampede-victims-12201589#publisher=newsstand",
-          "content": "At least 19 people died, and 25 were injured in the stampede at Chorbagan Durga Puja pandal in north Kolkata following a crowd surge amid rain on Saturday evening."
+          "source_name": "The Hindu",
+          "headline": "Kolkata’s Bonedi Bari Durga Puja: The ancestral homes preserving centuries of tradition",
+          "published_at": "Sun, 18 Oct 2026 21:46:08 +0530",
+          "url": "https://www.thehindu.com/society/kolkatas-bonedi-bari-durga-puja-the-ancestral-homes-preserving-centuries-of-tradition/article71586563.ece"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Less plastic, more pujo vibes: Assam town gives Durga Puja a 'carbon-neutral' twist",
+          "published_at": "Sun, 18 Oct 2026 15:42:33 +0000",
+          "url": "https://www.deccanherald.com/india/assam/less-plastic-more-pujo-vibes-assam-town-gives-durga-puja-a-carbon-neutral-twist-4187428"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Durga Puja pandal stampede gives Mamata's TMC a ‘bhaipo’ in BJP to target",
+          "published_at": "Sun, 18 Oct 2026 13:49:01 +0000",
+          "url": "https://www.deccanherald.com/india/west-bengal/durga-puja-pandal-stampede-gives-mamatas-tmc-a-bhaipo-in-bjp-to-target-4187326"
+        }
+      ],
+      "source_count": 5,
+      "total_count": 32,
+      "combined_score": 12.3,
+      "brief_bullets": [
+        "Kolkata Police issue 11-point advisory; CM Adhikari hints at scrapping VIP entries at major pandals Among the 19 dead are 13 females, including two minors; the two other deceased minors are males Kolkata’s Bonedi Bari Durga pujas bring together grand colonial-era architecture, family legacies and heirloom recipes.",
+        "While the city’s pandals draw the biggest crowds, these ancestral homes offer a more intimate glimpse of the festival, following family traditions dating back more than 300 years Durga Puja celebrations mean glitzy pandals, excessive lighting, high-decibel music and many more attractions.But several committees organising the annual Durga Puja in Kokrajhar town in western Assam, the district headquarters of the Bodoland Territorial Region (BTR), have pitched in to adopt the concept of “carbon-neutral” celebrations by planting trees, reducing the use of non-biodegradable items and even lowering the volume of music systems to check sound pollution.A set of dos and don'ts were proposed by the Kokrajhar district administration for nearly 200 Durga Puja committees in the town as part of efforts to popularise the concept of “carbon-neutral” celebrations.“We proposed the idea as part of our efforts to have environmentally responsible festivities while preserving the religious and cultural essence of the festival.",
+        "It is very nice to see that nearly 50 per cent of the committees have responded very positively by significantly reducing the use of plastic items, planting trees and even controlling the volume of music systems,” Kokrajhar District Commissioner Pankaj Chakravarty told DH over the phone on Sunday.",
+        "Kokrajhar is situated about 200 km west of Guwahati.Durga Puja celebrations began on Friday and will continue till Wednesday, following which the Durga idols will be immersed in rivers.With a population of nearly 35,000 (2011 Census), Kokrajhar Municipal town has diverse communities, including Bodos, Bengalis, Assamese, Rabhas, Nepalis, Adivasis, Saranias and others, each peacefully celebrating their own festivals.Lotus theme, red-and-white decor to mark Durga Puja in BengaluruCarbon-neutral celebrationsUnder the concept of “carbon-neutral” celebrations, the district administration proposed several measures, such as encouraging the use of locally available and reusable materials, including bamboo, jute, recycled paper and other environmentally responsible alternatives, for pandals and decorations; promoting idols made from natural clay and other biodegradable materials, with non-toxic colours, to minimise environmental pollution, particularly during immersion; tree plantation; the use of solar energy and LED lights; responsible sound management; and encouraging waste segregation, responsible disposal and recycling, among other measures.“This is an encouraging beginning.",
+        "The drive is resulting in public awareness, with the concept being shared by many on social media platforms."
+      ],
+      "why_it_matters_bullets": [
+        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
+      ],
+      "brief": "Kolkata Police issue 11-point advisory; CM Adhikari hints at scrapping VIP entries at major pandals Among the 19 dead are 13 females, including two minors; the two other deceased minors are males Kolkata’s Bonedi Bari Durga pujas bring together grand colonial-era architecture, family legacies and heirloom recipes. While the city’s pandals draw the biggest crowds, these ancestral homes offer a more intimate glimpse of the festival, following family traditions dating back more than 300 years Durga Puja celebrations mean glitzy pandals, excessive lighting, high-decibel music and many more attractions.But several committees organising the annual Durga Puja in Kokrajhar town in western Assam, the district headquarters of the Bodoland Territorial Region (BTR), have pitched in to adopt the concept of “carbon-neutral” celebrations by planting trees, reducing the use of non-biodegradable items and even lowering the volume of music systems to check sound pollution.A set of dos and don'ts were proposed by the Kokrajhar district administration for nearly 200 Durga Puja committees in the town as part of efforts to popularise the concept of “carbon-neutral” celebrations.“We proposed the idea as part of our efforts to have environmentally responsible festivities while preserving the religious and cultural essence of the festival. It is very nice to see that nearly 50 per cent of the committees have responded very positively by significantly reducing the use of plastic items, planting trees and even controlling the volume of music systems,” Kokrajhar District Commissioner Pankaj Chakravarty told DH over the phone on Sunday. Kokrajhar is situated about 200 km west of Guwahati.Durga Puja celebrations began on Friday and will continue till Wednesday, following which the Durga idols will be immersed in rivers.With a population of nearly 35,000 (2011 Census), Kokrajhar Municipal town has diverse communities, including Bodos, Bengalis, Assamese, Rabhas, Nepalis, Adivasis, Saranias and others, each peacefully celebrating their own festivals.Lotus theme, red-and-white decor to mark Durga Puja in BengaluruCarbon-neutral celebrationsUnder the concept of “carbon-neutral” celebrations, the district administration proposed several measures, such as encouraging the use of locally available and reusable materials, including bamboo, jute, recycled paper and other environmentally responsible alternatives, for pandals and decorations; promoting idols made from natural clay and other biodegradable materials, with non-toxic colours, to minimise environmental pollution, particularly during immersion; tree plantation; the use of solar energy and LED lights; responsible sound management; and encouraging waste segregation, responsible disposal and recycling, among other measures.“This is an encouraging beginning. The drive is resulting in public awareness, with the concept being shared by many on social media platforms. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
+      "brief_word_count": 429
+    },
+    {
+      "story_id": "story-10",
+      "category": "Society",
+      "primary_headline": "Trump endorses Netanyahu in Israeli election",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Trump endorses Netanyahu in Israeli election - Reuters",
+        "published_at": "Sun, 18 Oct 2026 16:03:44 GMT",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeXNEX0FibmplMGVhLVA1TDdESTEzdk9PR1JYNWtsQzJkTG5ER1lrMkhfV05saHNXYndlOXFxdFJONU4zOEZhZUdtXzR0WGpVSHBuLUUyOExTWHktR3AtMjlnU08yNXpaUWFVOXE1Q3dNaDFkZG4yT0JFMmlkYzdvTXFudjFQOF9rcFBaM0VBbjBaOFQ5bndSNS1fZw?oc=5",
+        "content": "Trump endorses Netanyahu in Israeli election&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Trump endorses Netanyahu in Israeli election - Reuters",
+          "published_at": "Sun, 18 Oct 2026 16:03:44 GMT",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeXNEX0FibmplMGVhLVA1TDdESTEzdk9PR1JYNWtsQzJkTG5ER1lrMkhfV05saHNXYndlOXFxdFJONU4zOEZhZUdtXzR0WGpVSHBuLUUyOExTWHktR3AtMjlnU08yNXpaUWFVOXE1Q3dNaDFkZG4yT0JFMmlkYzdvTXFudjFQOF9rcFBaM0VBbjBaOFQ5bndSNS1fZw?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection - AP News",
+          "published_at": "Sun, 18 Oct 2026 15:01:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZ001MUlHYUhFLTdzTlZPTWdsOG12UXhpTFdKOFQ1REFaUFVhWGZJTXk1V0Y3cGNhTTR3d1hnclJVamdMRFJlZ213WjVsblNIODZ6cUstbVp6U1o1STRyUVNMUXRPUkVFUlZJWWppUWo3VWpZOXB2WDlTck4yUXFQXy0wQktGczRPbkVkZ1dheURZcGp1dFA2WXVlaXpLeTNLVzAyVnhGWlRrUVNH?oc=5"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Trump endorses Netanyahu in Israeli election",
+          "published_at": "Sun, 18 Oct 2026 15:12:51 +0000",
+          "url": "https://www.deccanherald.com/world/middle-east/trump-endorses-netanyahu-in-israeli-election-4187407"
+        },
+        {
+          "source_name": "CNN",
+          "headline": "Nine days before Israeli elections, Trump finally endorses Netanyahu - CNN",
+          "published_at": "Sun, 18 Oct 2026 07:20:28 GMT",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRWp2V1pObHhqVHdUTjJ1NDBhVDRzRjJnMks5R2p3dDFVbTJEek9MR2JBZDZnckh3VUNLRVBGaEF4UGlQc285cFRjSldLMHFGbmhtbldfQjUyU2JGdU95QXRPQm1FWHJzb0NjSzVUalp0WEZFcHlmSWxpb2JRZ2J0Q29pVQ?oc=5"
         },
         {
           "source_name": "The Indian Express",
-          "headline": "Kolkata Chorebagan Sarbojanin Durga Puja Pandal stampede: What we know so far",
-          "published_at": "Sat, 17 Oct 2026 18:09:45 +0000",
-          "url": "https://indianexpress.com/article/cities/kolkata/kolkata-chorebagan-sarbojanin-durga-puja-pandal-stampede-dead-injured-10926194/",
-          "content": ""
-        },
-        {
-          "source_name": "The Print",
-          "headline": "Kolkata stampede: Committee visits popular Durga puja pandals to review safety norms - ThePrint",
-          "published_at": "Sun, 18 Oct 2026 09:46:43 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQS3dYdTdYNHpMdDVBV1NMbUo0enFOQzZ2Vk1XWGNPMWhLOHNmVnRUSU5fczdwLXRmZHFEWE1GQmtadVFqSmhVMVlqcGliTkdXZ2lGV043VTFEYmszVWxvSnNCd3FaRlpZSjdtdnd5SExGdHBrSGY1MmlIWFRlVWhQWXdqTUlTd291M0toXzJaaER5NWh0RE9fLXNHTVpqYm1ZNkNOU082MWxZY1ktalFHZ0RYN0M4cVJhekHSAb8BQVVfeXFMTW10RWtlT0hPNlYxakh0aGRfSHlMTHBVRzJlakQ1WldyMWpxb0RlVlprbFdRbkxSRFJSQWF4a0Fha2JreExvYndMSjM5WHRSbXF1NEdwaWdTQlhScHlxNExjZ052LTkzclVEdzN1VGlPZzJxZTdIbVhkS1NsZ1BrX1ZldnRtNmtZWUotQVExMkJJZ3d1cmptaTEycFQzV3VSMWR2VnhmU0Q3UTF5eVpqNVdKT0dYVEt2WVJFZ1NIZFU?oc=5",
-          "content": "Kolkata stampede: Committee visits popular Durga puja pandals to review safety norms&nbsp;&nbsp;ThePrint"
+          "headline": "World Live News Updates: Trump endorses Israeli Prime Minister Benjamin Netanyahu for reelection",
+          "published_at": "Sat, 17 Oct 2026 23:55:14 +0000",
+          "url": "https://indianexpress.com/article/world/us-iran-war-live-updates-saudi-drones-attack-trump-tehran-hormuz-shipping-india-oil-prices-10926317/"
         }
       ],
-      "source_count": 4,
+      "source_count": 5,
       "total_count": 5,
-      "combined_score": 3.53,
+      "combined_score": 4.06,
       "brief_bullets": [
-        "You don’t have any Active Subscription. Subscribed with another email? Logout and Login with that one. Account subscription benefits alongside Premium Stories, Editorials, Opinions and more. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+        "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection AP News Washington: US President Donald Trump endorsed his ally Benjamin Netanyahu on Sunday for the upcoming Israeli parliamentary election.\"Bibi Netanyahu has been Strong, Brave, and Brilliant in the face of tremendous opposition, including that coming from even Israel, itself,\" Trump wrote in a post on Truth Social.\"This is the kind of Partner that the United States of America is demanding of Israel, a Country for which it has done so much.",
+        "Please let this Letter serve to represent my Complete and Total Endorsement of Bibi Netanyahu in his upcoming Race for Re-Election as Prime Minister of Israel.\"Irrespective of Netanyahu's political fate, India-Israel ties on terra firmaIsrael will hold a national election on October 27, its first vote since the Hamas attack on October 7, 2023 that shook the country and plunged the Middle East into turmoil, as Israel went to war in Gaza, Lebanon and Iran.The election could determine whether Netanyahu remains in power after one of the most consequential periods in Israel’s history, or is defeated by centrist rivals promising to usher in a new era.",
+        "Nine days before Israeli elections, Trump finally endorses Netanyahu CNN World Live News Updates: Trump endorses Israeli Prime Minister Benjamin Netanyahu for reelection.",
+        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events."
       ],
       "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
       ],
-      "brief": "You don’t have any Active Subscription. Subscribed with another email? Logout and Login with that one. Account subscription benefits alongside Premium Stories, Editorials, Opinions and more. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 40
+      "brief": "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection AP News Washington: US President Donald Trump endorsed his ally Benjamin Netanyahu on Sunday for the upcoming Israeli parliamentary election.\"Bibi Netanyahu has been Strong, Brave, and Brilliant in the face of tremendous opposition, including that coming from even Israel, itself,\" Trump wrote in a post on Truth Social.\"This is the kind of Partner that the United States of America is demanding of Israel, a Country for which it has done so much. Please let this Letter serve to represent my Complete and Total Endorsement of Bibi Netanyahu in his upcoming Race for Re-Election as Prime Minister of Israel.\"Irrespective of Netanyahu's political fate, India-Israel ties on terra firmaIsrael will hold a national election on October 27, its first vote since the Hamas attack on October 7, 2023 that shook the country and plunged the Middle East into turmoil, as Israel went to war in Gaza, Lebanon and Iran.The election could determine whether Netanyahu remains in power after one of the most consequential periods in Israel’s history, or is defeated by centrist rivals promising to usher in a new era. Nine days before Israeli elections, Trump finally endorses Netanyahu CNN World Live News Updates: Trump endorses Israeli Prime Minister Benjamin Netanyahu for reelection. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 251
     },
     {
-      "story_id": "story-6",
+      "story_id": "story-11",
       "category": "Society",
       "primary_headline": "Iran urges US to accept proposal to reopen Strait of Hormuz",
       "primary_source": {
@@ -260,58 +369,231 @@
           "source_name": "Reuters",
           "headline": "Iran urges US to accept proposal to reopen Strait of Hormuz - Reuters",
           "published_at": "Sun, 18 Oct 2026 10:29:43 GMT",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWUh3Z1JyMmU4SkJ4ZXQ4Y0VaN3RMS1Vtcmg4S1lDMGlvUG1GeVY3Q1pkaWltSG5yOWhmcTBnNkk4U0ZiTVREVzd3RVRZNjZJTjhaTkg5bTFGX0J2Q0JzTUI4UlZIWmxHMmRDeVRRODZRYU1mbkNrVzFRX3piTnpDbllfUGc3NnJkSl9hWWRCQzlxZjFBYnE5bXJQMVBjMzNBUFlNcmRtcw?oc=5",
-          "content": "Iran urges US to accept proposal to reopen Strait of Hormuz&nbsp;&nbsp;Reuters"
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWUh3Z1JyMmU4SkJ4ZXQ4Y0VaN3RMS1Vtcmg4S1lDMGlvUG1GeVY3Q1pkaWltSG5yOWhmcTBnNkk4U0ZiTVREVzd3RVRZNjZJTjhaTkg5bTFGX0J2Q0JzTUI4UlZIWmxHMmRDeVRRODZRYU1mbkNrVzFRX3piTnpDbllfUGc3NnJkSl9hWWRCQzlxZjFBYnE5bXJQMVBjMzNBUFlNcmRtcw?oc=5"
         },
         {
           "source_name": "The Indian Express",
           "headline": "What is Iran’s 7-day proposal to the US to open the Strait of Hormuz?",
           "published_at": "Sun, 18 Oct 2026 11:57:26 +0000",
-          "url": "https://indianexpress.com/article/explained/explained-global/iran-araghchi-seven-day-plan-reopen-strait-of-hormuz-us-trump-10926929/",
-          "content": ""
+          "url": "https://indianexpress.com/article/explained/explained-global/iran-araghchi-seven-day-plan-reopen-strait-of-hormuz-us-trump-10926929/"
         },
         {
           "source_name": "NDTV",
           "headline": "Iran Urges US To Accept Proposal To Reopen Strait Of Hormuz",
           "published_at": "Sun, 18 Oct 2026 17:22:29 +0530",
-          "url": "https://www.ndtv.com/world-news/iran-urges-us-to-accept-proposal-to-reopen-strait-of-hormuz-12202784#publisher=newsstand",
-          "content": "Iran presented its proposal in mid-September after an interim ceasefire collapsed. Tehran later acknowledged receiving a US response but Iran's security chief said last week negotiations have stalled because Washington failed to address all seven conditions for reopening the strait."
+          "url": "https://www.ndtv.com/world-news/iran-urges-us-to-accept-proposal-to-reopen-strait-of-hormuz-12202784#publisher=newsstand"
         },
         {
-          "source_name": "The Indian Express",
-          "headline": "World Live News Updates: Iran offers to reopen Strait of Hormuz in 6 days if US accepts terms",
-          "published_at": "Sat, 17 Oct 2026 23:55:14 +0000",
-          "url": "https://indianexpress.com/article/world/us-iran-war-live-updates-saudi-drones-attack-trump-tehran-hormuz-shipping-india-oil-prices-10926317/",
-          "content": ""
+          "source_name": "Al Jazeera",
+          "headline": "Iran says two tankers catch fire after hitting mines in Strait of Hormuz - Al Jazeera",
+          "published_at": "Sun, 18 Oct 2026 02:02:44 GMT",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcEhpeXZhQ20xWmZjb3p1eUJRVEFVSi1QbWJnUFZpRE05QmJUd0hhMU9OQmlqMmxPemhUTGN3ZmF5YlU0LUxkaF85M2JEVEpRT1FaMVAzaV8xNTBNeGk1YUlIRVNzRFNQVkpfY3FwWllQeWU3Mmk0NEpVaV90Tkp2ZnRzQ2xaZzQ2OGRLbUp1dUVNenlPUFVuQUVGRUVKSUZRbDVVR3hjZElfSFNONWhieWF5S0_SAboBQVVfeXFMT2UzSjBRSnAybzdRcU9NRWpyV0V5SU4xT1g2LWlTNWlraWJDeFBMSDlSbGVNc093MmJCOTROSjQ5bE50Uk1WSVVMNDZGN2VRWVkyRjdFdmV3QzliaGtBci1FcjRTbll0UmZQZmJTT0tXR05oVGdjRlU3Z1FvcTNUWXVPY0drS1BvamFZdWkyU0w0QU5oSjAwTnFBU0hNc2Z6dC1yUk1ma0dDNGpZX2RuVmxEZzhrUUI4bHhn?oc=5"
         },
         {
           "source_name": "The Print",
           "headline": "Iran says offer to reopen Strait of Hormuz within 7 days remains on table - ThePrint",
           "published_at": "Sun, 18 Oct 2026 13:05:17 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaVJTNkpnNHU1ZFVIdDFnTWdMaGtFTEJDWDdKUk5QZlBtSE13emZzRDlKY3FTdVZMSzRrMEF2bndtZEJBcEVueDlkemI2d0lHMjh6LWhuYWxmaHV4aEktN1RjRTNKWWg1TG5KVHlxcUNKTF9sUTJKc1FINllEdGxhbEJzRjdBSGtsUnJXdmtnVUoyOF96V3pYTG5xZGJWbjhyaHVGbFhUcWVNbUxI0gGyAUFVX3lxTE43OVdJZC1DVW5OcEtZQm9PMU5XcTgwLWtQSzFtWEhBZ0JvTWJoUTY1QzJPOU1hSGRFS0tTcnh2VmRGNG1PS054Y0d5ZjRiS05CYmdmdHU1eDhsXzluLVVqS0VSd0NNSEstMVNYYjhGdVpEV1RUMjFlWlh4Z1RFal9JR3pKeGwwZkw1Yy1NZ19TZEwyLTRWOXBXYXpVSHVCUmc5T0EtZEVQVXBFaG1MVkxXZWc?oc=5",
-          "content": "Iran says offer to reopen Strait of Hormuz within 7 days remains on table&nbsp;&nbsp;ThePrint"
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaVJTNkpnNHU1ZFVIdDFnTWdMaGtFTEJDWDdKUk5QZlBtSE13emZzRDlKY3FTdVZMSzRrMEF2bndtZEJBcEVueDlkemI2d0lHMjh6LWhuYWxmaHV4aEktN1RjRTNKWWg1TG5KVHlxcUNKTF9sUTJKc1FINllEdGxhbEJzRjdBSGtsUnJXdmtnVUoyOF96V3pYTG5xZGJWbjhyaHVGbFhUcWVNbUxI0gGyAUFVX3lxTE43OVdJZC1DVW5OcEtZQm9PMU5XcTgwLWtQSzFtWEhBZ0JvTWJoUTY1QzJPOU1hSGRFS0tTcnh2VmRGNG1PS054Y0d5ZjRiS05CYmdmdHU1eDhsXzluLVVqS0VSd0NNSEstMVNYYjhGdVpEV1RUMjFlWlh4Z1RFal9JR3pKeGwwZkw1Yy1NZ19TZEwyLTRWOXBXYXpVSHVCUmc5T0EtZEVQVXBFaG1MVkxXZWc?oc=5"
         }
       ],
-      "source_count": 4,
+      "source_count": 5,
       "total_count": 5,
-      "combined_score": 3.53,
+      "combined_score": 4.03,
       "brief_bullets": [
-        "What is Iran’s 7-day proposal to the US to open the Strait of Hormuz? Iran presented its proposal in mid-September after an interim ceasefire collapsed. Tehran later acknowledged receiving a US response but Iran's security chief said last week negotiations have stalled because Washington failed to address all seven conditions for reopening the strait. World Live News Updates: Iran offers to reopen Strait of Hormuz in 6 days if US accepts terms Iran says offer to reopen Strait of Hormuz within 7 days remains on table The. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+        "What is Iran’s 7-day proposal to the US to open the Strait of Hormuz?",
+        "Iran presented its proposal in mid-September after an interim ceasefire collapsed.",
+        "Tehran later acknowledged receiving a US response but Iran's security chief said last week negotiations have stalled because Washington failed to address all seven conditions for reopening the strait.",
+        "Iran says two tankers catch fire after hitting mines in Strait of Hormuz Iran says offer to reopen Strait of Hormuz within 7 days remains on table ThePrint."
       ],
       "why_it_matters_bullets": [
         "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
       ],
-      "brief": "What is Iran’s 7-day proposal to the US to open the Strait of Hormuz? Iran presented its proposal in mid-September after an interim ceasefire collapsed. Tehran later acknowledged receiving a US response but Iran's security chief said last week negotiations have stalled because Washington failed to address all seven conditions for reopening the strait. World Live News Updates: Iran offers to reopen Strait of Hormuz in 6 days if US accepts terms Iran says offer to reopen Strait of Hormuz within 7 days remains on table The. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 103
+      "brief": "What is Iran’s 7-day proposal to the US to open the Strait of Hormuz? Iran presented its proposal in mid-September after an interim ceasefire collapsed. Tehran later acknowledged receiving a US response but Iran's security chief said last week negotiations have stalled because Washington failed to address all seven conditions for reopening the strait. Iran says two tankers catch fire after hitting mines in Strait of Hormuz Iran says offer to reopen Strait of Hormuz within 7 days remains on table ThePrint. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 98
     },
     {
-      "story_id": "story-11",
+      "story_id": "story-12",
+      "category": "Society",
+      "primary_headline": "Chwalinska outwits Kartal to win Wuhan Open",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Chwalinska outwits Kartal to win Wuhan Open - Reuters",
+        "published_at": "Sun, 18 Oct 2026 14:20:55 GMT",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMjU3STFELXI1OUNVckJKSmxaOFBKWnhCVU1rYS1TamFWbVJ5Q0JmeG1KeEN1aHJLMnU0NjAyUWwtZEx0ZzROMm1PbS1nOGxxYzZXb3Y0SXBsWERzYk5zd2lVb3lSaEZSdE1DMVhzOFhhM0tpcjk5UTlaaVBKWDJza2s4Umh0Vmd2dy0wQTYwU1YxWjYxRzZscw?oc=5",
+        "content": "Chwalinska outwits Kartal to win Wuhan Open&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Chwalinska outwits Kartal to win Wuhan Open - Reuters",
+          "published_at": "Sun, 18 Oct 2026 14:20:55 GMT",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMjU3STFELXI1OUNVckJKSmxaOFBKWnhCVU1rYS1TamFWbVJ5Q0JmeG1KeEN1aHJLMnU0NjAyUWwtZEx0ZzROMm1PbS1nOGxxYzZXb3Y0SXBsWERzYk5zd2lVb3lSaEZSdE1DMVhzOFhhM0tpcjk5UTlaaVBKWDJza2s4Umh0Vmd2dy0wQTYwU1YxWjYxRzZscw?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Injured Swiatek goes down fighting in Wuhan Open semi-final - Reuters",
+          "published_at": "Sat, 17 Oct 2026 18:27:10 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOLWFMdE8waHNobEdaMlNJNGtCclJHSk0xb0tMMGx5T3ZQTFRsbTV3NEh6RzZqR3J5WHJlRjNMYzlteEpITVhBWWk0QW1VaFktQjhnQ0phdjZSS3Y0NzIzZk1pZXpvSV84dS1pQ09OMjlzRXNNM2ozUFU1TEtvdldoQzdqRmVOWEY0a2dmQVpfR283Y2R0cHVHc3FVc0QzMlNJUTg2X1RzV1Nrdw?oc=5"
+        },
+        {
+          "source_name": "BBC News",
+          "headline": "Britain's Kartal misses out on biggest title of her career",
+          "published_at": "Sun, 18 Oct 2026 13:39:24 GMT",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/cqm2411vp3dgo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source_name": "The Guardian",
+          "headline": "Kartal denied biggest win of career after Chwalinska fightback in Wuhan Open final",
+          "published_at": "Sun, 18 Oct 2026 13:51:13 GMT",
+          "url": "https://www.theguardian.com/sport/2026/oct/18/kartal-denied-biggest-win-of-career-after-chwalinska-fightback-in-wuhan-open-final"
+        },
+        {
+          "source_name": "Sky Sports",
+          "headline": "Britain's Kartal misses out on maiden WTA 1000 title in Wuhan",
+          "published_at": "Sun, 18 Oct 2026 14:25:00 BST",
+          "url": "https://www.skysports.com/tennis/news/12040/13600536/sonay-kartal-misses-out-on-maiden-wta-1000-title-in-wuhan-open-final-defeat-to-maya-chwalinska"
+        }
+      ],
+      "source_count": 4,
+      "total_count": 6,
+      "combined_score": 3.83,
+      "brief_bullets": [
+        "Injured Swiatek goes down fighting in Wuhan Open semi-final Britain's Sonay Kartal fades from a strong position in a gripping Wuhan Open final against Grand Slam runner-up Maja Chwalinska.",
+        "French Open finalist wins 2-6, 6-4, 6-4 for her first titleKartal will become new British No 1 after record runSonay Kartal missed out on winning the biggest title of her career as her brilliant run at the Wuhan Open ended in a final defeat by Maja Chwalinska.Kartal has enjoyed her best tournament only a fortnight after returning from six months out with a back injury, but her efforts appeared to catch up with her as she faded in a 2-6, 6-4, 6-2 loss.",
+        "Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures.",
+        "Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "Injured Swiatek goes down fighting in Wuhan Open semi-final Britain's Sonay Kartal fades from a strong position in a gripping Wuhan Open final against Grand Slam runner-up Maja Chwalinska. French Open finalist wins 2-6, 6-4, 6-4 for her first titleKartal will become new British No 1 after record runSonay Kartal missed out on winning the biggest title of her career as her brilliant run at the Wuhan Open ended in a final defeat by Maja Chwalinska.Kartal has enjoyed her best tournament only a fortnight after returning from six months out with a back injury, but her efforts appeared to catch up with her as she faded in a 2-6, 6-4, 6-2 loss. Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures. Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 156
+    },
+    {
+      "story_id": "story-13",
+      "category": "Society",
+      "primary_headline": "Bachmeier leads winning drive, No. 8 BYU outlasts No. 2 Notre Dame 28-24 but Big 12 admits mistake",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Bachmeier leads winning drive, No. 8 BYU outlasts No. 2 Notre Dame 28-24 but Big 12 admits mistake - AP News",
+        "published_at": "Sun, 18 Oct 2026 14:01:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdTNMNzhmdWZzQm1iZmVKTFVfNVlzRUtaRVhILTFOR3RFTjBSeUtKbHg0cXoza29NczFQcU5PYVJ6dkQ3bDc4SU4za21udG5EWFVmb1ZjWVNvNjUyVjFRdFNQSjZSQ0xNMENBb3l6ZEVwX3hGUE0wLTdhWU9ONkJxS3pBaE9FRWNwbUdIQVlnVy1wcHc?oc=5",
+        "content": "Bachmeier leads winning drive, No. 8 BYU outlasts No. 2 Notre Dame 28-24 but Big 12 admits mistake&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Bachmeier leads winning drive, No. 8 BYU outlasts No. 2 Notre Dame 28-24 but Big 12 admits mistake - AP News",
+          "published_at": "Sun, 18 Oct 2026 14:01:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdTNMNzhmdWZzQm1iZmVKTFVfNVlzRUtaRVhILTFOR3RFTjBSeUtKbHg0cXoza29NczFQcU5PYVJ6dkQ3bDc4SU4za21udG5EWFVmb1ZjWVNvNjUyVjFRdFNQSjZSQ0xNMENBb3l6ZEVwX3hGUE0wLTdhWU9ONkJxS3pBaE9FRWNwbUdIQVlnVy1wcHc?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "In France's Limoges, the fire-ravaged town hall rekindles memories of Notre Dame - Reuters",
+          "published_at": "Sun, 18 Oct 2026 12:45:09 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTWltTVc0eTlSb1h1dnRjTUoyam5sQUMzODdwMVFqOEZpMmJfaDM2ZDVpWm1VSjAxOEs5c2FLN051SWo3R3JLSmRyMGVsX2RlcGFZajhlVWxBY0dwNDRVRGQ3RkdkNGVXVkRpeXdBSmt1R0lzWGdLLTJpeklQTkR2NVFTd0N6VGs2eFFRQ3N6TnluZ19PamJlSVY0YlA0NWRmc3dNWWtvZzNqTDRhMWZZ?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "Red-zone failures cost No. 2 Notre Dame against No. 8 BYU - AP News",
+          "published_at": "Sun, 18 Oct 2026 06:01:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMcE02aUNWX3dId2p5MnR5Sk54cDVmcWY0Nk1SZDZSNVJQT2c5eW5kLUxtLW9oTkM1WHdYT21mVTY4UXVoQ0FfZS1ZSjRsazZMRnhLWEhTUGxPUGZBbjVlSUhWbVNPNlRsaVBsQzZTOUtLVzdDS1duZFFGb0xjRDg?oc=5"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "France's Limoges Town Hall Survived World Wars, Now Destroyed In Clashes",
+          "published_at": "Sun, 18 Oct 2026 07:42:59 +0530",
+          "url": "https://www.ndtv.com/world-news/france-protest-limoges-town-hall-survived-world-wars-destroyed-in-clashes-paris-riots-cost-of-living-12201101#publisher=newsstand"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "50 detained in Karnataka over anti-SIR protest at Town Hall",
+          "published_at": "Sat, 17 Oct 2026 23:47:41 +0000",
+          "url": "https://indianexpress.com/article/cities/bangalore/detained-in-karnataka-over-anti-sir-protest-10926303/"
+        }
+      ],
+      "source_count": 4,
+      "total_count": 5,
+      "combined_score": 3.5,
+      "brief_bullets": [
+        "AP News In France's Limoges, the fire-ravaged town hall rekindles memories of Notre Dame Red-zone failures cost No.",
+        "2 Notre Dame against No.",
+        "8 BYU AP News The one in the city of Limoges -- more than 140 years old -- was largely destroyed by a blaze set by masked protesters who broke in.",
+        "50 detained in Karnataka over anti-SIR protest at Town Hall."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "AP News In France's Limoges, the fire-ravaged town hall rekindles memories of Notre Dame Red-zone failures cost No. 2 Notre Dame against No. 8 BYU AP News The one in the city of Limoges -- more than 140 years old -- was largely destroyed by a blaze set by masked protesters who broke in. 50 detained in Karnataka over anti-SIR protest at Town Hall. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 77
+    },
+    {
+      "story_id": "story-7",
+      "category": "Society",
+      "primary_headline": "‘Last warning’: Gangster Anil Pandit claims Tiger Shroff firing, warns Salman Khan",
+      "primary_source": {
+        "source_name": "The Indian Express",
+        "headline": "‘Last warning’: Gangster Anil Pandit claims Tiger Shroff firing, warns Salman Khan",
+        "published_at": "Sun, 18 Oct 2026 16:33:23 +0000",
+        "url": "https://indianexpress.com/article/india/bollywood-tiger-shroff-car-firing-anil-pandit-lawrence-bishnoi-salman-khan-threat-juhu-10927157/",
+        "content": "Pandit, a native of Haryana's Panipat, is believed to have travelled to the United States via the dunki route in 2024 and begun working for the Bishnoi gang, according to a source."
+      },
+      "sources": [
+        {
+          "source_name": "The Indian Express",
+          "headline": "‘Last warning’: Gangster Anil Pandit claims Tiger Shroff firing, warns Salman Khan",
+          "published_at": "Sun, 18 Oct 2026 16:33:23 +0000",
+          "url": "https://indianexpress.com/article/india/bollywood-tiger-shroff-car-firing-anil-pandit-lawrence-bishnoi-salman-khan-threat-juhu-10927157/"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Tiger Shroff firing: Why the Bishnoi gang claims attacks with screenshots",
+          "published_at": "Sun, 18 Oct 2026 16:24:15 +0000",
+          "url": "https://indianexpress.com/article/cities/mumbai/tiger-shroff-shot-bishnoi-gang-attack-claim-screenshot-10927159/"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "\"I Saw Blood Spots\": Actor Karan Veer Mehra To NDTV On Tiger Shroff Shooting",
+          "published_at": "Sun, 18 Oct 2026 21:46:08 +0530",
+          "url": "https://www.ndtv.com/india-news/i-was-standing-right-behind-tiger-shroff-actor-karan-veer-mehra-to-ndtv-on-shooting-12203387#publisher=newsstand"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Gunshot Video Emerges After Tiger Shroff Assassination Attempt In Mumbai",
+          "published_at": "Sun, 18 Oct 2026 21:45:58 +0530",
+          "url": "https://www.ndtv.com/india-news/tiger-shot-firing-salman-khan-lawrence-bishnoi-gunshot-video-emerges-after-tiger-shroff-assassination-attempt-in-mumbai-12203458#publisher=newsstand"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Tiger Shroff Escapes Assassination Bid In Mumbai, Bishnoi Gang Claims Responsibility, 1 Detained",
+          "published_at": "Sun, 18 Oct 2026 21:42:43 +0530",
+          "url": "https://www.ndtv.com/india-news/three-men-open-fire-near-tiger-shroff-in-mumbais-juhu-area-actor-safe-12203238#publisher=newsstand"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 16,
+      "combined_score": 6.39,
+      "brief_bullets": [
+        "Pandit, a native of Haryana's Panipat, is believed to have travelled to the United States via the dunki route in 2024 and begun working for the Bishnoi gang, according to a source.",
+        "Within moments of the firing on Tiger Shroff’s car, a screenshot claiming responsibility surfaced, and the account behind it was already gone.",
+        "Police sources say that’s no accident.",
+        "Mehra, who plays football with Tiger Shroff in Mumbai's Juhu, said he could not see the attackers.",
+        "At least four gunshots can be heard in the video, although investigators have yet to establish the exact number of rounds fired or how many firearms were used in the incident."
+      ],
+      "why_it_matters_bullets": [
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+      ],
+      "brief": "Pandit, a native of Haryana's Panipat, is believed to have travelled to the United States via the dunki route in 2024 and begun working for the Bishnoi gang, according to a source. Within moments of the firing on Tiger Shroff’s car, a screenshot claiming responsibility surfaced, and the account behind it was already gone. Police sources say that’s no accident. Mehra, who plays football with Tiger Shroff in Mumbai's Juhu, said he could not see the attackers. At least four gunshots can be heard in the video, although investigators have yet to establish the exact number of rounds fired or how many firearms were used in the incident. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 122
+    },
+    {
+      "story_id": "story-16",
       "category": "Society",
       "primary_headline": "Hurricane Trudy brings heavy rain and strong winds to Mexico’s Pacific coast",
       "primary_source": {
         "source_name": "AP News",
         "headline": "Hurricane Trudy brings heavy rain and strong winds to Mexico’s Pacific coast - AP News",
-        "published_at": "Sun, 18 Oct 2026 12:42:00 GMT",
+        "published_at": "Sun, 18 Oct 2026 15:13:00 GMT",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQk1CaFJzdndtbXhWVTJOMGt5WlZ5RDlzSDVEeklqU3ZuMzJPOThZOTV2cG5IWDVIMi1lSFJXWkhVdVg4OGdoajdEb0hhWWlxbVVuNkc2bGc2RlJZZTN5MDEyM2oxRU9UdkVYcWhGRHQzLUt6NktVemhJYnpTMG9MRUtJMXFSTzA3REFkcEhOTHd5ZEZBUndfZHVrR1BoeFFsRXJ1aA?oc=5",
         "content": "Hurricane Trudy brings heavy rain and strong winds to Mexico’s Pacific coast&nbsp;&nbsp;AP News"
       },
@@ -319,617 +601,494 @@
         {
           "source_name": "AP News",
           "headline": "Hurricane Trudy brings heavy rain and strong winds to Mexico’s Pacific coast - AP News",
-          "published_at": "Sun, 18 Oct 2026 12:42:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQk1CaFJzdndtbXhWVTJOMGt5WlZ5RDlzSDVEeklqU3ZuMzJPOThZOTV2cG5IWDVIMi1lSFJXWkhVdVg4OGdoajdEb0hhWWlxbVVuNkc2bGc2RlJZZTN5MDEyM2oxRU9UdkVYcWhGRHQzLUt6NktVemhJYnpTMG9MRUtJMXFSTzA3REFkcEhOTHd5ZEZBUndfZHVrR1BoeFFsRXJ1aA?oc=5",
-          "content": "Hurricane Trudy brings heavy rain and strong winds to Mexico’s Pacific coast&nbsp;&nbsp;AP News"
+          "published_at": "Sun, 18 Oct 2026 15:13:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQk1CaFJzdndtbXhWVTJOMGt5WlZ5RDlzSDVEeklqU3ZuMzJPOThZOTV2cG5IWDVIMi1lSFJXWkhVdVg4OGdoajdEb0hhWWlxbVVuNkc2bGc2RlJZZTN5MDEyM2oxRU9UdkVYcWhGRHQzLUt6NktVemhJYnpTMG9MRUtJMXFSTzA3REFkcEhOTHd5ZEZBUndfZHVrR1BoeFFsRXJ1aA?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Hurricane Trudy lashes Mexico's Pacific coast, but is set to weaken tonight - Reuters",
+          "published_at": "Sun, 18 Oct 2026 13:55:43 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOemk4X2xPTVdPcGIyVGlJTjhxOVE2b1o1Q293MldnX1NPQTdQVzJJc3hqYmVWT0xkMkhaMFF4LTJZY1RNSFZaRmlEMGQtX3d0TmZYdWU1NnMxeWZXZmp6WjByX0xDZEt6Z0dRRjE5eVBLWlByZGgyNHVCMGR0d3FuS2NOWHJodjJJZGYzcXVGaENKc01HaUd0VjlZeENPWjV2bHZBWFA3a1FITGFaMWtXdWNNRmpERmZ1ZFEyOTBEZHE?oc=5"
         },
         {
           "source_name": "AP News",
           "headline": "Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast - AP News",
           "published_at": "Sun, 18 Oct 2026 03:38:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSlJRdElHVjVoLTVtTE01UWdmVjRrNkh4TnllLXNhNXZ1Y1c1RDRyWXVQUlBPQTJLZmVkM0RlNkhHdk1KMXRsZ2pnY05RZ19EdTVrNWZVbVJBNThZVmxPSkRlaGJ3T1RtMk0zY3lxQ3ItVHNWOTFndnpQLWRJTEVLX2VFRmtjekpRZkxfMmx0dzlhb2xkZlVWY0lPczFwVC1OX2poZw?oc=5",
-          "content": "Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast&nbsp;&nbsp;AP News"
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSlJRdElHVjVoLTVtTE01UWdmVjRrNkh4TnllLXNhNXZ1Y1c1RDRyWXVQUlBPQTJLZmVkM0RlNkhHdk1KMXRsZ2pnY05RZ19EdTVrNWZVbVJBNThZVmxPSkRlaGJ3T1RtMk0zY3lxQ3ItVHNWOTFndnpQLWRJTEVLX2VFRmtjekpRZkxfMmx0dzlhb2xkZlVWY0lPczFwVC1OX2poZw?oc=5"
         },
         {
           "source_name": "Reuters",
           "headline": "Hurricane Trudy gains strength near Mexico's coast, but is expected to weaken by Sunday - Reuters",
           "published_at": "Sat, 17 Oct 2026 23:33:43 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQUdGblRuOW5ZdjFTRUR1WkFYdEZKeDAxbjVscWNybm1RS3ZwelZlT084SVFHOFFRcDY5U1dlNUYtNkJKdHJUZEJITmZBeFBCSEZsR1RfNzdwcTY4ejNON0JycmgxN21xSTRPUjRFM2Uyd1ViNkdaZWdPQUJrUTRZd1dUVWIxOGI0Z1UxYjVkaDlZYUVzN3psc3g0bzF3OGo4MkF0NU9ZTmkzZC1zM0g4SUhRWTRqYUI0NWNaYmljYTFVSHM1eHU3d2pR?oc=5",
-          "content": "Hurricane Trudy gains strength near Mexico's coast, but is expected to weaken by Sunday&nbsp;&nbsp;Reuters"
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQUdGblRuOW5ZdjFTRUR1WkFYdEZKeDAxbjVscWNybm1RS3ZwelZlT084SVFHOFFRcDY5U1dlNUYtNkJKdHJUZEJITmZBeFBCSEZsR1RfNzdwcTY4ejNON0JycmgxN21xSTRPUjRFM2Uyd1ViNkdaZWdPQUJrUTRZd1dUVWIxOGI0Z1UxYjVkaDlZYUVzN3psc3g0bzF3OGo4MkF0NU9ZTmkzZC1zM0g4SUhRWTRqYUI0NWNaYmljYTFVSHM1eHU3d2pR?oc=5"
         },
         {
           "source_name": "The Guardian",
           "headline": "Hurricane Trudy strengthens to category 2 as it heads toward Mexico",
           "published_at": "Sat, 17 Oct 2026 23:24:40 GMT",
-          "url": "https://www.theguardian.com/world/2026/oct/17/hurricane-trudy-mexico",
-          "content": "Hurricane warning in effect from Manzanillo to Cabo Corrientes as storm moves toward Pacific coastTrudy strengthened to a category 2 hurricane as it moved toward Mexico’s south-western and west-central Pacific coast on Saturday, the US National Hurricane Center said.A hurricane warning was in effect from Manzanillo in Colima state to Cabo Corrientes in Jalisco. The latest NHC data showed Trudy with maximum sustained winds of 100mph (155km/h) and about 205 miles (330km) south/south-east of Cabo Corrientes and 115 miles (180km) south/south-west of Manzanillo, moving north-west at 10mph (17km/h). Continue reading..."
+          "url": "https://www.theguardian.com/world/2026/oct/17/hurricane-trudy-mexico"
         }
       ],
       "source_count": 3,
-      "total_count": 4,
-      "combined_score": 2.76,
+      "total_count": 5,
+      "combined_score": 3.06,
       "brief_bullets": [
-        "AP News Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast AP News Hurricane Trudy gains strength near Mexico's coast, but is expected to weaken by Sunday Hurricane warning in effect from Manzanillo to Cabo Corrientes as storm moves toward Pacific coast. Trudy strengthened to a category 2 hurricane as it moved toward Mexico’s south-western and west-central Pacific coast on Saturday, the US National Hurricane Center said. A hurricane warning was in effect from Manzanillo in Colima state to Cabo Corrientes in Jalisco. The latest NHC data showed Trudy with maximum sustained winds of 100mph (155km/h) and about 205 miles (330km) south/south-east of Cabo Corrientes and 115 miles (180km) south/south-west of Manzanillo, moving north-west at 10mph (17km/h). Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
+        "AP News Hurricane Trudy lashes Mexico's Pacific coast, but is set to weaken tonight Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast AP News Hurricane Trudy gains strength near Mexico's coast, but is expected to weaken by Sunday Hurricane warning in effect from Manzanillo to Cabo Corrientes as storm moves toward Pacific coastTrudy strengthened to a category 2 hurricane as it moved toward Mexico’s south-western and west-central Pacific coast on Saturday, the US National Hurricane Center said.A hurricane warning was in effect from Manzanillo in Colima state to Cabo Corrientes in Jalisco.",
+        "The latest NHC data showed Trudy with maximum sustained winds of 100mph (155km/h) and about 205 miles (330km) south/south-east of Cabo Corrientes and 115 miles (180km) south/south-west of Manzanillo, moving north-west at 10mph (17km/h).",
+        "Meteorological authorities and disaster response teams have deployed emergency rescue pumps and localized assistance squads across vulnerable sectors.",
+        "Civic agencies have mobilized field personnel to inspect transit corridors, clear arterial drainages, and restore essential public utilities."
       ],
       "why_it_matters_bullets": [
         "Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
       ],
-      "brief": "AP News Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast AP News Hurricane Trudy gains strength near Mexico's coast, but is expected to weaken by Sunday Hurricane warning in effect from Manzanillo to Cabo Corrientes as storm moves toward Pacific coast. Trudy strengthened to a category 2 hurricane as it moved toward Mexico’s south-western and west-central Pacific coast on Saturday, the US National Hurricane Center said. A hurricane warning was in effect from Manzanillo in Colima state to Cabo Corrientes in Jalisco. The latest NHC data showed Trudy with maximum sustained winds of 100mph (155km/h) and about 205 miles (330km) south/south-east of Cabo Corrientes and 115 miles (180km) south/south-west of Manzanillo, moving north-west at 10mph (17km/h). Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
-      "brief_word_count": 133
-    },
-    {
-      "story_id": "story-14",
-      "category": "Society",
-      "primary_headline": "Mismanagement, confusing announcements and narrow gates: What led to Kolkata pandal stampede",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Mismanagement, confusing announcements and narrow gates: What led to Kolkata pandal stampede",
-        "published_at": "Sun, 18 Oct 2026 04:50:07 +0000",
-        "url": "https://www.deccanherald.com/india/west-bengal/mismanagement-confusing-announcements-and-narrow-gates-what-led-to-kolkata-pandal-stampede-4186949",
-        "content": " The stampede at the Chorbagan Durga Puja pandal in north Kolkata claimed the lives of 19 people, while 25 others were injured. A senior police officer told PTI that lack of crowd management and misleading announcements following sudden heavy rainfall during Saptami celebrations could have led to the tragic incident. Police also found that the number of police personnel and private security guards deployed at the venue was inadequate, worsening the situation.\"We have gathered sufficient evidence pointing to gross mismanagement by the puja organisers. There was no clear plan to manage the large number of visitors, and everything was handled verbally. We have collected CCTV camera footage, recorded accounts from locals and eyewitnesses, and corroborated our findings. Security personnel were inadequate,\" the police officer told PTI.At least 19 dead, 25 others injured in stampede-like situation at Durga Puja pandal in Kolkata\"Due to the mismanagement, people tried to escape through the entrance gate during the stampede. Both the gates and the approach road were narrow, which contributed to the accident,\" he said, adding that announcements regarding entry, exit and crowd movement were misleading, leaving visitors confused during the rush.\"We have video footage of an announcement asking people to leave the pandal on the grounds that the structure was about to collapse. We are trying to identify who made the announcement and what prompted it,\" the officer said.Moreover, the locals also claimed that police deployment was inadequate, alleging that personnel were mainly stationed near the VIP entrance.A team of forensic experts visited the pandal on Saturday night and collected evidence from the site, he said.\"Another team of forensic experts will visit the pandal today to collect further evidence. Officers from our Detective Department will also visit the venue as part of the investigation,\" he said.The Kolkata Police could question survivors as part of the probe, the IPS officer said.\"We need first-hand accounts to cross-check the findings based on statements from locals and other eyewitnesses. This will help our investigation,\" he added.Meanwhile, prohibitory orders under Section 163 have been imposed on roads adjoining the Chorbagan Sarbojanin Durga Puja pandal in north Kolkata on Sunday morning.The order prohibits gatherings on roads surrounding the venue, which falls under the jurisdiction of Bowbazar Police Station. The restrictions will remain in force until October 20.Chief Minister Suvendu Adhikari announced that the state government would provide Rs 25 lakh in compensation and a Group D government job to the family of each deceased victim.He also ordered the formation of a Special Investigation Team (SIT), headed by a sitting judge of the Calcutta High Court, to investigate the incident. "
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Mismanagement, confusing announcements and narrow gates: What led to Kolkata pandal stampede",
-          "published_at": "Sun, 18 Oct 2026 04:50:07 +0000",
-          "url": "https://www.deccanherald.com/india/west-bengal/mismanagement-confusing-announcements-and-narrow-gates-what-led-to-kolkata-pandal-stampede-4186949",
-          "content": " The stampede at the Chorbagan Durga Puja pandal in north Kolkata claimed the lives of 19 people, while 25 others were injured. A senior police officer told PTI that lack of crowd management and misleading announcements following sudden heavy rainfall during Saptami celebrations could have led to the tragic incident. Police also found that the number of police personnel and private security guards deployed at the venue was inadequate, worsening the situation.\"We have gathered sufficient evidence pointing to gross mismanagement by the puja organisers. There was no clear plan to manage the large number of visitors, and everything was handled verbally. We have collected CCTV camera footage, recorded accounts from locals and eyewitnesses, and corroborated our findings. Security personnel were inadequate,\" the police officer told PTI.At least 19 dead, 25 others injured in stampede-like situation at Durga Puja pandal in Kolkata\"Due to the mismanagement, people tried to escape through the entrance gate during the stampede. Both the gates and the approach road were narrow, which contributed to the accident,\" he said, adding that announcements regarding entry, exit and crowd movement were misleading, leaving visitors confused during the rush.\"We have video footage of an announcement asking people to leave the pandal on the grounds that the structure was about to collapse. We are trying to identify who made the announcement and what prompted it,\" the officer said.Moreover, the locals also claimed that police deployment was inadequate, alleging that personnel were mainly stationed near the VIP entrance.A team of forensic experts visited the pandal on Saturday night and collected evidence from the site, he said.\"Another team of forensic experts will visit the pandal today to collect further evidence. Officers from our Detective Department will also visit the venue as part of the investigation,\" he said.The Kolkata Police could question survivors as part of the probe, the IPS officer said.\"We need first-hand accounts to cross-check the findings based on statements from locals and other eyewitnesses. This will help our investigation,\" he added.Meanwhile, prohibitory orders under Section 163 have been imposed on roads adjoining the Chorbagan Sarbojanin Durga Puja pandal in north Kolkata on Sunday morning.The order prohibits gatherings on roads surrounding the venue, which falls under the jurisdiction of Bowbazar Police Station. The restrictions will remain in force until October 20.Chief Minister Suvendu Adhikari announced that the state government would provide Rs 25 lakh in compensation and a Group D government job to the family of each deceased victim.He also ordered the formation of a Special Investigation Team (SIT), headed by a sitting judge of the Calcutta High Court, to investigate the incident. "
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "Darkness, Rush, And An Announcement: What Led To Deadly Kolkata Stampede",
-          "published_at": "Sun, 18 Oct 2026 09:13:13 +0530",
-          "url": "https://www.ndtv.com/india-news/chorebagan-kolkata-stampede-kolkata-durga-puja-stampede-what-we-know-so-far-12200413#publisher=newsstand",
-          "content": "The stampede broke out at the exit gate of the Chorebagan Sarbojanin Puja Pandal in Kolkata."
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Kolkata pandal stampede: Rain and rumour led to perfect storm",
-          "published_at": "Sat, 17 Oct 2026 19:05:28 +0000",
-          "url": "https://indianexpress.com/article/cities/kolkata/dead-kolkata-durga-pandal-stampede-10926246/",
-          "content": ""
-        }
-      ],
-      "source_count": 3,
-      "total_count": 3,
-      "combined_score": 2.46,
-      "brief_bullets": [
-        " The stampede at the Chorbagan Durga Puja pandal in north Kolkata claimed the lives of 19 people, while 25 others were injured. A senior police officer told PTI that lack of crowd management and misleading announcements following sudden heavy rainfall during Saptami celebrations could have led to the tragic incident. Police also found that the number of police personnel and private security guards deployed at the venue was inadequate, worsening the situation.\"We have gathered sufficient evidence pointing to gross mismanagement by the puja organisers. There was no clear plan to manage the large number of visitors, and everything was handled verbally. We have collected CCTV camera footage, recorded accounts from locals and eyewitnesses, and corroborated our findings. Security personnel were inadequate,\" the police officer told PTI.At least 19 dead, 25 others injured in stampede-like situation at Durga Puja pandal in Kolkata\"Due to the mismanagement, people tried to escape through the entrance gate during the stampede. Both the gates and the approach road were narrow, which contributed to the accident,\" he said, adding that announcements regarding entry, exit and crowd movement were misleading, leaving visitors confused during the rush.\"We have video footage of an announcement asking people to leave the pandal on the grounds that the structure was about to collapse. We are trying to identify who made the announcement and what prompted it,\" the officer said.Moreover, the locals also claimed that police deployment was inadequate, alleging that personnel were mainly stationed near the VIP entrance.A team of forensic experts visited the pandal on Saturday night and collected evidence from the site, he said.\"Another team of forensic experts will visit the pandal today to collect further evidence. Officers from our Detective Department will also visit the venue as part of the investigation,\" he said.The Kolkata Police could question survivors as part of the probe, the IPS officer said.\"We need first-hand accounts to cross-check the findings based on statements from locals and other eyewitnesses. This will help our investigation,\" he added.Meanwhile, prohibitory orders under Section 163 have been imposed on roads adjoining the Chorbagan Sarbojanin Durga Puja pandal in north Kolkata on Sunday morning.The order prohibits gatherings on roads surrounding the venue, which falls under the jurisdiction of Bowbazar Police Station. The restrictions will remain in force until October 20.Chief Minister Suvendu Adhikari announced that the state government would provide Rs 25 lakh in compensation and a Group D government job to the family of each deceased victim.He also ordered the formation of a Special Investigation Team (SIT), headed by a sitting judge of the Calcutta High Court, to investigate the incident. "
-      ],
-      "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Society as developments unfold."
-      ],
-      "brief": " The stampede at the Chorbagan Durga Puja pandal in north Kolkata claimed the lives of 19 people, while 25 others were injured. A senior police officer told PTI that lack of crowd management and misleading announcements following sudden heavy rainfall during Saptami celebrations could have led to the tragic incident. Police also found that the number of police personnel and private security guards deployed at the venue was inadequate, worsening the situation.\"We have gathered sufficient evidence pointing to gross mismanagement by the puja organisers. There was no clear plan to manage the large number of visitors, and everything was handled verbally. We have collected CCTV camera footage, recorded accounts from locals and eyewitnesses, and corroborated our findings. Security personnel were inadequate,\" the police officer told PTI.At least 19 dead, 25 others injured in stampede-like situation at Durga Puja pandal in Kolkata\"Due to the mismanagement, people tried to escape through the entrance gate during the stampede. Both the gates and the approach road were narrow, which contributed to the accident,\" he said, adding that announcements regarding entry, exit and crowd movement were misleading, leaving visitors confused during the rush.\"We have video footage of an announcement asking people to leave the pandal on the grounds that the structure was about to collapse. We are trying to identify who made the announcement and what prompted it,\" the officer said.Moreover, the locals also claimed that police deployment was inadequate, alleging that personnel were mainly stationed near the VIP entrance.A team of forensic experts visited the pandal on Saturday night and collected evidence from the site, he said.\"Another team of forensic experts will visit the pandal today to collect further evidence. Officers from our Detective Department will also visit the venue as part of the investigation,\" he said.The Kolkata Police could question survivors as part of the probe, the IPS officer said.\"We need first-hand accounts to cross-check the findings based on statements from locals and other eyewitnesses. This will help our investigation,\" he added.Meanwhile, prohibitory orders under Section 163 have been imposed on roads adjoining the Chorbagan Sarbojanin Durga Puja pandal in north Kolkata on Sunday morning.The order prohibits gatherings on roads surrounding the venue, which falls under the jurisdiction of Bowbazar Police Station. The restrictions will remain in force until October 20.Chief Minister Suvendu Adhikari announced that the state government would provide Rs 25 lakh in compensation and a Group D government job to the family of each deceased victim.He also ordered the formation of a Special Investigation Team (SIT), headed by a sitting judge of the Calcutta High Court, to investigate the incident. ",
-      "brief_word_count": 430
-    },
-    {
-      "story_id": "story-18",
-      "category": "Society",
-      "primary_headline": "Opinion: Kolkata Durga Puja Stampede: Suvendu Adhikari's First Major Challenge As Chief Minister",
-      "primary_source": {
-        "source_name": "NDTV",
-        "headline": "Opinion: Kolkata Durga Puja Stampede: Suvendu Adhikari's First Major Challenge As Chief Minister",
-        "published_at": "Sun, 18 Oct 2026 18:07:22 +0530",
-        "url": "https://www.ndtv.com/opinion/kolkata-durga-puja-stampede-is-suvendu-adhikaris-first-major-challenge-as-chief-minister-12202902#publisher=newsstand",
-        "content": "The tragedy is not simply a question of how a single puja committee organised its festival. It is also a test of the administration's ability to anticipate risks and respond effectively when a large public gathering becomes dangerous."
-      },
-      "sources": [
-        {
-          "source_name": "NDTV",
-          "headline": "Opinion: Kolkata Durga Puja Stampede: Suvendu Adhikari's First Major Challenge As Chief Minister",
-          "published_at": "Sun, 18 Oct 2026 18:07:22 +0530",
-          "url": "https://www.ndtv.com/opinion/kolkata-durga-puja-stampede-is-suvendu-adhikaris-first-major-challenge-as-chief-minister-12202902#publisher=newsstand",
-          "content": "The tragedy is not simply a question of how a single puja committee organised its festival. It is also a test of the administration's ability to anticipate risks and respond effectively when a large public gathering becomes dangerous."
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "Kolkata Durga Puja Stampede: Examining CCTV, Won't Spare Anyone, Says Suvendu Adhikari",
-          "published_at": "Sun, 18 Oct 2026 00:45:26 +0530",
-          "url": "https://www.ndtv.com/india-news/kolkata-durga-puja-stampede-live-updates-north-kolkata-chorbagan-pandal-chorebagan-sarbojanin-news-today-12200230#publisher=newsstand",
-          "content": "Kolkata Durga Puja Stampede: Chief Minister Suvendu Adhikari, Health Minister Saradwat Mukherjee and senior officials rushed to the hospital."
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Kolkata Durga Puja Stampede Highlights: Out of 25 injured, 2 in ICU but ‘not under threat’, says Suvendu Adhikari",
-          "published_at": "Sat, 17 Oct 2026 16:52:13 +0000",
-          "url": "https://indianexpress.com/article/cities/kolkata/kolkata-durga-puja-stampede-live-updates-chorebagan-pandal-incident-today-several-injured-latest-news-10926181/",
-          "content": ""
-        }
-      ],
-      "source_count": 2,
-      "total_count": 3,
-      "combined_score": 1.93,
-      "brief_bullets": [
-        "The tragedy is not simply a question of how a single puja committee organised its festival. It is also a test of the administration's ability to anticipate risks and respond effectively when a large public gathering becomes dangerous. Kolkata Durga Puja Stampede: Chief Minister Suvendu Adhikari, Health Minister Saradwat Mukherjee and senior officials rushed to the hospital. Kolkata Durga Puja Stampede Highlights: Out of 25 injured, 2 in ICU but ‘not under threat’, says Suvendu Adhikari. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
-      ],
-      "why_it_matters_bullets": [
-        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
-      ],
-      "brief": "The tragedy is not simply a question of how a single puja committee organised its festival. It is also a test of the administration's ability to anticipate risks and respond effectively when a large public gathering becomes dangerous. Kolkata Durga Puja Stampede: Chief Minister Suvendu Adhikari, Health Minister Saradwat Mukherjee and senior officials rushed to the hospital. Kolkata Durga Puja Stampede Highlights: Out of 25 injured, 2 in ICU but ‘not under threat’, says Suvendu Adhikari. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
-      "brief_word_count": 89
-    },
-    {
-      "story_id": "story-19",
-      "category": "Society",
-      "primary_headline": "Davidovich Fokina overcomes Jodar to claim Shanghai crown",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Davidovich Fokina overcomes Jodar to claim Shanghai crown - Reuters",
-        "published_at": "Sun, 18 Oct 2026 12:06:51 GMT",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMlJ1TFIyWXlJclFycGpaSmZ4ckpFcDJ0MU9wS1Ryb3FWX1NYSlEzZ3JfS202THFRRTczMWhqemE4XzRMbDB3UV9hOENkOTlRRHZEMm9xZjFrMHI0Vm9PbVFhOFh4aUNiYkIyanZLUm1NdV9GVWJSV1lBejFQTEk2Qk5XeDFzc2FmZXUzc3FUbFZ2bnFRRnNwVnhNeHUyWmctVWcydE8tc3dadlM5YTJyTjJB?oc=5",
-        "content": "Davidovich Fokina overcomes Jodar to claim Shanghai crown&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "Davidovich Fokina overcomes Jodar to claim Shanghai crown - Reuters",
-          "published_at": "Sun, 18 Oct 2026 12:06:51 GMT",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMlJ1TFIyWXlJclFycGpaSmZ4ckpFcDJ0MU9wS1Ryb3FWX1NYSlEzZ3JfS202THFRRTczMWhqemE4XzRMbDB3UV9hOENkOTlRRHZEMm9xZjFrMHI0Vm9PbVFhOFh4aUNiYkIyanZLUm1NdV9GVWJSV1lBejFQTEk2Qk5XeDFzc2FmZXUzc3FUbFZ2bnFRRnNwVnhNeHUyWmctVWcydE8tc3dadlM5YTJyTjJB?oc=5",
-          "content": "Davidovich Fokina overcomes Jodar to claim Shanghai crown&nbsp;&nbsp;Reuters"
-        },
-        {
-          "source_name": "Reuters",
-          "headline": "Davidovich Fokina beats Zverev, sets up all-Spanish Shanghai final with Jodar - Reuters",
-          "published_at": "Sat, 17 Oct 2026 15:03:53 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPblllbEw3QVZFV2ZUblRnNElxLUhlNUZuSG05T2hIQUVyT0ZENlUwZnlUX0FMbktDcmhtb19EM0Vhc0FpUE5VNlJDUFM5dVR3YWJWRmh1cmZhVWJqOHRlLU9yNGFIcjViWW9GRG51TWV5ZG1aaEJ1Ylk0UUxBc0p6TWZhOU5mUWVzdHE4aWU0Qm9pb1ZDWXB0TG9WanMtaWxjMmJWRjVjSXdta2U0SGxKOFp4WDM4Ql9YRHc?oc=5",
-          "content": "Davidovich Fokina beats Zverev, sets up all-Spanish Shanghai final with Jodar&nbsp;&nbsp;Reuters"
-        },
-        {
-          "source_name": "Sky Sports",
-          "headline": "Davidovich Fokina beats rising star Jodar to claim maiden Masters title in Shanghai",
-          "published_at": "Sun, 18 Oct 2026 12:41:00 BST",
-          "url": "https://www.skysports.com/watch/video/13600566/alejandro-davidovich-fokina-vs-rafael-jodar-shanghai-masters-final-highlights",
-          "content": "Highlights of the Shanghai Masters final between Alejandro Davidovich Fokina and Rafael Jodar."
-        }
-      ],
-      "source_count": 2,
-      "total_count": 3,
-      "combined_score": 1.9,
-      "brief_bullets": [
-        "Davidovich Fokina beats Zverev, sets up all-Spanish Shanghai final with Jodar Highlights of the Shanghai Masters final between Alejandro Davidovich Fokina and Rafael Jodar. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "Davidovich Fokina beats Zverev, sets up all-Spanish Shanghai final with Jodar Highlights of the Shanghai Masters final between Alejandro Davidovich Fokina and Rafael Jodar. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 37
+      "brief": "AP News Hurricane Trudy lashes Mexico's Pacific coast, but is set to weaken tonight Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast AP News Hurricane Trudy gains strength near Mexico's coast, but is expected to weaken by Sunday Hurricane warning in effect from Manzanillo to Cabo Corrientes as storm moves toward Pacific coastTrudy strengthened to a category 2 hurricane as it moved toward Mexico’s south-western and west-central Pacific coast on Saturday, the US National Hurricane Center said.A hurricane warning was in effect from Manzanillo in Colima state to Cabo Corrientes in Jalisco. The latest NHC data showed Trudy with maximum sustained winds of 100mph (155km/h) and about 205 miles (330km) south/south-east of Cabo Corrientes and 115 miles (180km) south/south-west of Manzanillo, moving north-west at 10mph (17km/h). Meteorological authorities and disaster response teams have deployed emergency rescue pumps and localized assistance squads across vulnerable sectors. Civic agencies have mobilized field personnel to inspect transit corridors, clear arterial drainages, and restore essential public utilities. Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
+      "brief_word_count": 179
     },
     {
       "story_id": "story-20",
       "category": "Society",
-      "primary_headline": "No Kings rallies across US urge voters to cast ballots early ahead of midterms",
+      "primary_headline": "US resumes intelligence-sharing with Ukraine after pause, Zelenskiy says",
       "primary_source": {
-        "source_name": "AP News",
-        "headline": "No Kings rallies across US urge voters to cast ballots early ahead of midterms - AP News",
-        "published_at": "Sun, 18 Oct 2026 03:35:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVndVWEl1S1dQWm51em1FaFpNOFRmYnhjU1BaMFQ2WElJbmQyQ2JqQVVaNXQxRlk4alFzMloxRXdoQVYzVGwxRWJrWm5aYmZXQUlud2xNRzBwUWpjM2hqemo4VHdwdGs5SmFSM25NeHF2NFpybnlrNjVQOFVkX0JzMm4zQ1c0ZFAwNDA4OFM1NlF6Y0RLN2tnVXZiZnJzNHVrazREZVprN3hhdFFPcDV6Q0xPQXdHREtZT2xPSGd0a212Si1qZmE2UEJ0bXo1WEY5eGc?oc=5",
-        "content": "No Kings rallies across US urge voters to cast ballots early ahead of midterms&nbsp;&nbsp;AP News"
+        "source_name": "Reuters",
+        "headline": "US resumes intelligence-sharing with Ukraine after pause, Zelenskiy says - Reuters",
+        "published_at": "Sun, 18 Oct 2026 14:03:42 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZ2JXcTFReXJpR0UyNGM1UVFfMTVMRlJHbGpmRlh2Wk1HQ3ZQZ0Q0YUNadThFXy1IcTZXdHJMOGxNU0FqM1NTQkVaOHpOX2NaWGNMTXJaRzJnYUVmald2UmVvTExRVVdqajR0ZmVBNE8tVHhkMXFhQ3FQQmhUVGdEMmUwcXA3RHFPN2ZUOTZ6SzBqNVlpQkZGSnlOb3FjV0gyT1JIUzEtYnBwbjBySGlVcjRUaHJnN3dDb2hRMW8zbExBZw?oc=5",
+        "content": "US resumes intelligence-sharing with Ukraine after pause, Zelenskiy says&nbsp;&nbsp;Reuters"
       },
       "sources": [
         {
-          "source_name": "AP News",
-          "headline": "No Kings rallies across US urge voters to cast ballots early ahead of midterms - AP News",
-          "published_at": "Sun, 18 Oct 2026 03:35:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVndVWEl1S1dQWm51em1FaFpNOFRmYnhjU1BaMFQ2WElJbmQyQ2JqQVVaNXQxRlk4alFzMloxRXdoQVYzVGwxRWJrWm5aYmZXQUlud2xNRzBwUWpjM2hqemo4VHdwdGs5SmFSM25NeHF2NFpybnlrNjVQOFVkX0JzMm4zQ1c0ZFAwNDA4OFM1NlF6Y0RLN2tnVXZiZnJzNHVrazREZVprN3hhdFFPcDV6Q0xPQXdHREtZT2xPSGd0a212Si1qZmE2UEJ0bXo1WEY5eGc?oc=5",
-          "content": "No Kings rallies across US urge voters to cast ballots early ahead of midterms&nbsp;&nbsp;AP News"
+          "source_name": "Reuters",
+          "headline": "US resumes intelligence-sharing with Ukraine after pause, Zelenskiy says - Reuters",
+          "published_at": "Sun, 18 Oct 2026 14:03:42 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZ2JXcTFReXJpR0UyNGM1UVFfMTVMRlJHbGpmRlh2Wk1HQ3ZQZ0Q0YUNadThFXy1IcTZXdHJMOGxNU0FqM1NTQkVaOHpOX2NaWGNMTXJaRzJnYUVmald2UmVvTExRVVdqajR0ZmVBNE8tVHhkMXFhQ3FQQmhUVGdEMmUwcXA3RHFPN2ZUOTZ6SzBqNVlpQkZGSnlOb3FjV0gyT1JIUzEtYnBwbjBySGlVcjRUaHJnN3dDb2hRMW8zbExBZw?oc=5"
         },
         {
           "source_name": "AP News",
-          "headline": "No Kings rallies across US urge voters to cast ballots early ahead of midterms - AP News",
-          "published_at": "Sat, 17 Oct 2026 19:52:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSU9QdGhLZXFkak1MT3B1b3RBZlVIT3gzNEZheTFHNi1hTFpBUjZGcHVkQWhsTjFSRmJsX1RXbklDRUJ0M3dfcklfREZaYUxQWWhqNTZKWmFDZVhEMGZzd3VpLWZ0OG5zY2NIazNGbUpPQXlFc3ItM2p0akRqbkRXSF9oUnVQWHZpZlZuVWtsaw?oc=5",
-          "content": "No Kings rallies across US urge voters to cast ballots early ahead of midterms&nbsp;&nbsp;AP News"
+          "headline": "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump - AP News",
+          "published_at": "Sun, 18 Oct 2026 00:06:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUGNSbDZNbm5wY2VNaTRTRDZiMHFqMW9rbnpvNk1tU0JBdjlTQng0YXhGQTN4bWtRaUNPUUdxY0dHVEhOajRFem5jUFdSVm5QYnkyU1QtcGZuM3BBQnBqTnFYdlBrTHYyampsUEtDMDB5RUdIYVpJZVY5eHBlank0T1BhLW1OSWo5bnNNVUdCR0FJQjRRLVEtNVFqeHlZQjc2Mm1n?oc=5"
         },
         {
-          "source_name": "Al Jazeera",
-          "headline": "Photos: No Kings rallies in US urge midterm voters to cast ballots early - Al Jazeera",
-          "published_at": "Sat, 17 Oct 2026 21:18:48 GMT",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONTAzWXZlVGthYm9nc095S1l5Z1FuNXl5cXRPSTg0Ny1KRy1rRzh4a2RVMjIzYzRjUW5QZG1SdHg1enB1OGljUUY4Y2JkNFhXLTQtSnJKRmdkc0NHU0NIemx5ZE1hTldJVzZ6aTVPYjlWenFYNTlKV3g3U1g5Zlp5ZURHX3I3WnRyYVFuc0JIVG1aZm9Sem9XOUdJeVpjRUhjaGNLZGl1bFk2NzEydlpqQVdVXzlaQkXSAbwBQVVfeXFMTkJaZGtnVnNVYU5fVmlCaWQ2cmxQakpnMzFGREtTS0RIYlg1SUFXeVhoNFI3ZGRKclpZOXpTVTNCRzhoSzFZMFdPQ2VHNGxmbDhSRUdmTDZ4dkFBYmJkcUE4bF9nLU1uLTEyUHNEQnJua19aUFh5aENGVXI3eExkUHc3QUZ2d0ZQeEkyMVA2UkVOR3R1MmxZV0txQ0c3UmxfdDBMRkpjTmRFRmVjQV9SS0RVbEoyWHE3RHpNZUM?oc=5",
-          "content": "Photos: No Kings rallies in US urge midterm voters to cast ballots early&nbsp;&nbsp;Al Jazeera"
+          "source_name": "The Guardian",
+          "headline": "Zelenskyy thanks Trump for resumed intelligence sharing after US Starlink ‘message’",
+          "published_at": "Sun, 18 Oct 2026 16:37:52 GMT",
+          "url": "https://www.theguardian.com/world/2026/oct/18/killed-injured-russia-ukraine-strikes-power-infrastructure"
         }
       ],
-      "source_count": 2,
+      "source_count": 3,
       "total_count": 3,
-      "combined_score": 1.9,
+      "combined_score": 2.49,
       "brief_bullets": [
-        "AP News  AP News Photos: No Kings rallies in US urge midterm voters to cast ballots early. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
-      ],
-      "why_it_matters_bullets": [
-        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
-      ],
-      "brief": "AP News  AP News Photos: No Kings rallies in US urge midterm voters to cast ballots early. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 31
-    },
-    {
-      "story_id": "story-21",
-      "category": "Society",
-      "primary_headline": "One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region - Reuters",
-        "published_at": "Sun, 18 Oct 2026 11:17:23 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORkdkNk9DVENGZU50OHVsbHF4Z3ZWbnBxcHVqaDJSa1JEWXZ5aFVqbTQwWmwzUGpvZUJsTUFzSnZHd2laVHpqd05XaF9KM2YxdUNUSVV0YUp1SFVKbTBRVHNzcVc0ek84cTY5TTVmZGhPbnhzMVJiejFXaDdXV3pBcTZYeEI3QkZrNDlOOWllWFk3ejFfMVdVd3lQUGJMeXBhNW5xTjZJQnBINTVSTjVDUnZKSm1laDdKaEE3eGdoSUtaQQ?oc=5",
-        "content": "One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region - Reuters",
-          "published_at": "Sun, 18 Oct 2026 11:17:23 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORkdkNk9DVENGZU50OHVsbHF4Z3ZWbnBxcHVqaDJSa1JEWXZ5aFVqbTQwWmwzUGpvZUJsTUFzSnZHd2laVHpqd05XaF9KM2YxdUNUSVV0YUp1SFVKbTBRVHNzcVc0ek84cTY5TTVmZGhPbnhzMVJiejFXaDdXV3pBcTZYeEI3QkZrNDlOOWllWFk3ejFfMVdVd3lQUGJMeXBhNW5xTjZJQnBINTVSTjVDUnZKSm1laDdKaEE3eGdoSUtaQQ?oc=5",
-          "content": "One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region&nbsp;&nbsp;Reuters"
-        },
-        {
-          "source_name": "Al Jazeera",
-          "headline": "St Petersburg under attack from Ukrainian drone swarm - Al Jazeera",
-          "published_at": "Sun, 18 Oct 2026 04:58:19 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNlZMWDY1UWZoZzRJSUFYMnZHbDFGZ0dvVHlxWmpBS0JUVlQyby1BQ3ctOTNTdDZWa2h0cmxrMDlyMlJSZWhCTjNhal9mcE9HVVBWT0JxZVJ2VUMyZFpMRVM1T0Z4NjFsZ2pSVFJ4YjZQUXlpajVXdFpvYXFaY3BuMFp6QzNTMEF1WllwVmlWUUdPNTNpUHZNTlREU1dUZjhoejJhTC1fUHPSAa4BQVVfeXFMTVZKUmZRZFd6eEo3eGw1VGVuRGxiS0hnTnhTMGUxS0ZCYzJ3SmQyUlQzcjJqdHZ2R19qb0Ytc0ttQUt3eENZbDR3UF94dlJMaEJaTVVsMk9RY1NjeEJoU0stLTJzN0dkd25qeXdRektNa2NDWmd3X2NxQ1MzejlMeHExNTRKNGdlSGhEWl9NZ0JfcmpPb0pQbVMwRGc3dVhhaEpFcE5sbUN4b1QtVHhB?oc=5",
-          "content": "St Petersburg under attack from Ukrainian drone swarm&nbsp;&nbsp;Al Jazeera"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.72,
-      "brief_bullets": [
-        "A significant Ukrainian drone swarm targeted critical infrastructure within St. Petersburg and the surrounding Leningrad region, resulting in at least one fatality and fifteen injuries. This coordinated aerial assault marks a notable escalation in the conflict, as Ukrainian forces increasingly project their reach deep into Russian territory to disrupt logistics and domestic stability. Local authorities and emergency services were mobilized to address the widespread impact of the strikes, which have caused substantial alarm among regional officials and the civilian population. By successfully penetrating deep-range air defenses to strike such a high-profile metropolitan area, Ukraine is signaling a shift in its tactical approach, moving beyond frontline engagements to challenge the perceived security of Russia's interior. The incident underscores the growing vulnerability of Russian urban centers to asymmetric warfare and highlights the intensifying nature of the ongoing cross-border hostilities. This attack demonstrates Ukraine's expanding capability to strike deep within Russian territory, forcing Moscow to divert critical air defense assets away from the front lines to protect its major cities. Such operations serve to erode the domestic narrative of Russian security and increase the political cost of the war for the Kremlin."
-      ],
-      "why_it_matters_bullets": [
-        "This attack demonstrates Ukraine's expanding capability to strike deep within Russian territory, forcing Moscow to divert critical air defense assets away from the front lines to protect its major cities. Such operations serve to erode the domestic narrative of Russian security and increase the political cost of the war for the Kremlin."
-      ],
-      "brief": "A significant Ukrainian drone swarm targeted critical infrastructure within St. Petersburg and the surrounding Leningrad region, resulting in at least one fatality and fifteen injuries. This coordinated aerial assault marks a notable escalation in the conflict, as Ukrainian forces increasingly project their reach deep into Russian territory to disrupt logistics and domestic stability. Local authorities and emergency services were mobilized to address the widespread impact of the strikes, which have caused substantial alarm among regional officials and the civilian population. By successfully penetrating deep-range air defenses to strike such a high-profile metropolitan area, Ukraine is signaling a shift in its tactical approach, moving beyond frontline engagements to challenge the perceived security of Russia's interior. The incident underscores the growing vulnerability of Russian urban centers to asymmetric warfare and highlights the intensifying nature of the ongoing cross-border hostilities. This attack demonstrates Ukraine's expanding capability to strike deep within Russian territory, forcing Moscow to divert critical air defense assets away from the front lines to protect its major cities. Such operations serve to erode the domestic narrative of Russian security and increase the political cost of the war for the Kremlin.",
-      "brief_word_count": 189
-    },
-    {
-      "story_id": "story-22",
-      "category": "Society",
-      "primary_headline": "Hyderabad Engineering Student Killed After Lighting Stand Collapses During College Dandiya Event",
-      "primary_source": {
-        "source_name": "NDTV",
-        "headline": "Hyderabad Engineering Student Killed After Lighting Stand Collapses During College Dandiya Event",
-        "published_at": "Sun, 18 Oct 2026 08:28:35 +0530",
-        "url": "https://www.ndtv.com/hyderabad-news/hyderabad-engineering-student-killed-as-lighting-stand-collapses-during-dandiya-event-in-college-12201206#publisher=newsstand",
-        "content": " Telangana Chief Minister Revanth Reddy expressed sadness over the student's death and the injuries to others and conveyed his condolences to the bereaved family."
-      },
-      "sources": [
-        {
-          "source_name": "NDTV",
-          "headline": "Hyderabad Engineering Student Killed After Lighting Stand Collapses During College Dandiya Event",
-          "published_at": "Sun, 18 Oct 2026 08:28:35 +0530",
-          "url": "https://www.ndtv.com/hyderabad-news/hyderabad-engineering-student-killed-as-lighting-stand-collapses-during-dandiya-event-in-college-12201206#publisher=newsstand",
-          "content": " Telangana Chief Minister Revanth Reddy expressed sadness over the student's death and the injuries to others and conveyed his condolences to the bereaved family."
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Engineering student dies as lighting frame collapses during Dandiya night in Hyderabad; 15 injured",
-          "published_at": "Sun, 18 Oct 2026 00:45:20 +0000",
-          "url": "https://indianexpress.com/article/cities/hyderabad/engineering-student-dies-lighting-frame-collapses-dandiya-night-hyderabad-10926258/",
-          "content": ""
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.69,
-      "brief_bullets": [
-        "Telangana Chief Minister Revanth Reddy expressed sadness over the student's death and the injuries to others and conveyed his condolences to the bereaved family. Engineering student dies as lighting frame collapses during Dandiya night in Hyderabad; 15 injured. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
-      ],
-      "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
-      ],
-      "brief": "Telangana Chief Minister Revanth Reddy expressed sadness over the student's death and the injuries to others and conveyed his condolences to the bereaved family. Engineering student dies as lighting frame collapses during Dandiya night in Hyderabad; 15 injured. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 52
-    },
-    {
-      "story_id": "story-25",
-      "category": "Society",
-      "primary_headline": "Fisherman, 71, killed by 12-foot alligator alongside Florida lake",
-      "primary_source": {
-        "source_name": "AP News",
-        "headline": "Fisherman, 71, killed by 12-foot alligator alongside Florida lake - AP News",
-        "published_at": "Sat, 17 Oct 2026 21:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYWs0Y0xMUzZxN3Z1anpnTDJOMDNUVDR2eFpIV0NrVjlzem9XUFhXTjZ0MnFVbUNvUkgzV280T0hTSkVlR21TRHBJR3RqdjhCMUc3NTNqakVfNVgxZ2tENFhnbkVUSXZENDJKZFdOeWo0dU5Vb0FnRjFSVUlMVVdqaTF1dkcybFdnelhWSllfOXlyWjZuWWV6N2xCLXVmek9nOUJV?oc=5",
-        "content": "Fisherman, 71, killed by 12-foot alligator alongside Florida lake&nbsp;&nbsp;AP News"
-      },
-      "sources": [
-        {
-          "source_name": "AP News",
-          "headline": "Fisherman, 71, killed by 12-foot alligator alongside Florida lake - AP News",
-          "published_at": "Sat, 17 Oct 2026 21:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYWs0Y0xMUzZxN3Z1anpnTDJOMDNUVDR2eFpIV0NrVjlzem9XUFhXTjZ0MnFVbUNvUkgzV280T0hTSkVlR21TRHBJR3RqdjhCMUc3NTNqakVfNVgxZ2tENFhnbkVUSXZENDJKZFdOeWo0dU5Vb0FnRjFSVUlMVVdqaTF1dkcybFdnelhWSllfOXlyWjZuWWV6N2xCLXVmek9nOUJV?oc=5",
-          "content": "Fisherman, 71, killed by 12-foot alligator alongside Florida lake&nbsp;&nbsp;AP News"
-        },
-        {
-          "source_name": "CNN",
-          "headline": "Fisherman, 71, attacked and killed by 12-foot alligator alongside Florida lake - CNN",
-          "published_at": "Sat, 17 Oct 2026 18:00:51 GMT",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBQQWZ3WmRzLUhidTNFV0JudUV4QU9zVHRYSTlFbUh4d2ktV19aQWpEWHBZeklUNGFQdFZvZlNtZHlMUzlUZW40RTcxOUI0SFR3SkMzTWVYTjJwaEk2eTdXWEVtZGJESlBFbGRlTXZ2X0l2dkY0M0tz?oc=5",
-          "content": "Fisherman, 71, attacked and killed by 12-foot alligator alongside Florida lake&nbsp;&nbsp;CNN"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.66,
-      "brief_bullets": [
-        "AP News Fisherman, 71, attacked and killed by 12-foot alligator alongside Florida lake CNN. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
-      ],
-      "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
-      ],
-      "brief": "AP News Fisherman, 71, attacked and killed by 12-foot alligator alongside Florida lake CNN. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 28
-    },
-    {
-      "story_id": "story-27",
-      "category": "Society",
-      "primary_headline": "CJP alleges delay in release of leaders, four sureties rejected",
-      "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "CJP alleges delay in release of leaders, four sureties rejected",
-        "published_at": "Sun, 18 Oct 2026 19:23:14 +0530",
-        "url": "https://www.thehindu.com/news/national/cjp-alleges-delay-in-release-of-leaders-four-sureties-rejected/article71600138.ece",
-        "content": "Saurav Das and  Ashutosh Ranka were sent to five days of judicial custody on October 14 after they entered Jantar Mantar, which had been denotified as a designated protest site, by scaling its locked gates"
-      },
-      "sources": [
-        {
-          "source_name": "The Hindu",
-          "headline": "CJP alleges delay in release of leaders, four sureties rejected",
-          "published_at": "Sun, 18 Oct 2026 19:23:14 +0530",
-          "url": "https://www.thehindu.com/news/national/cjp-alleges-delay-in-release-of-leaders-four-sureties-rejected/article71600138.ece",
-          "content": "Saurav Das and  Ashutosh Ranka were sent to five days of judicial custody on October 14 after they entered Jantar Mantar, which had been denotified as a designated protest site, by scaling its locked gates"
-        },
-        {
-          "source_name": "Deccan Herald",
-          "headline": "CJP alleges delay in release of leaders, 4 sureties rejected",
-          "published_at": "Sun, 18 Oct 2026 13:16:14 +0000",
-          "url": "https://www.deccanherald.com/india/cjp-alleges-delay-in-release-of-leaders-4-sureties-rejected-4187288",
-          "content": " New Delhi: The bail hearing of Cockroach Janta Party (CJP) leaders Saurav Das and Ashutosh Ranka was \"delayed\" on Sunday as the Special Executive Magistrate (SEM) did not arrive at the scheduled time, activist Ratna Singh said and alleged that four sureties had been rejected on \"vague\" grounds.Das and Ranka were sent to five days of judicial custody on October 14 after they entered Jantar Mantar, which had been denotified as a designated protest site, by scaling its locked gates. The CJP leaders maintained that they had unfurled the national flag and raised slogans.In a post on X, Singh said she had been at the police station since 11 am, while the hearing was scheduled for noon. She said the Assistant Commissioner of Police (ACP/SEM) had not arrived at the Mandir Marg police station by 4.42 pm.CJP leaders Saurav Das, Ashutosh Ranka, Ajinkya Shinde under preventive arrest; likely to be produced before magistrate\"This is really concerning. They have rejected 4 sureties till now on vague reasons. They have made people who have FIRs against them for being part of protest as people having criminal antecedents (sic),\" Singh alleged.There was no response from police on the allegations.In another post, Singh said, \"Unfurling the Indian National Flag is not a crime, and the boys should not remain in custody due to procedural delays.\"Questioning the functioning of the SEM courts in the national capital, Singh said higher courts had asked authorities to follow the hierarchy and alleged an \"absolute misuse of power\".On Saturday, the CJP said in a post on X that it had consulted senior advocate Kapil Sibal and warned of legal action if Das and Ranka were not released by Sunday.\"If Ashu and Saurav are not released by tomorrow, we will pursue legal action against all those who deliberately ensured that they continue to be in illegal custody, especially when they have not committed nor charged with any offence,\" the outfit had said.\"The deliberate use of delaying tactics to keep them behind bars cannot go unchallenged. Those responsible will be held accountable,\" it added.The outfit has been protesting against Chief Election Commissioner Gyanesh Kumar and the Special Intensive Revision (SIR) of electoral rolls, alleging that the exercise threatens voters' rights. "
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.63,
-      "brief_bullets": [
-        "Saurav Das and Ashutosh Ranka were sent to five days of judicial custody on October 14 after they entered Jantar Mantar, which had been denotified as a designated protest site, by scaling its locked gates New Delhi: The bail hearing of Cockroach Janta Party (CJP) leaders Saurav Das and Ashutosh Ranka was \"delayed\" on Sunday as the Special Executive Magistrate (SEM) did not arrive at the scheduled time, activist Ratna Singh said and alleged that four sureties had been rejected on \"vague\" grounds. Das and Ranka were sent to five days of judicial custody on October 14 after they entered Jantar Mantar, which had been denotified as a designated protest site, by scaling its locked gates. The CJP leaders maintained that they had unfurled the national flag and raised slogans. In a post on X, Singh said she had been at the police station since 11 am, while the hearing was scheduled for noon. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
-      ],
-      "why_it_matters_bullets": [
-        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
-      ],
-      "brief": "Saurav Das and Ashutosh Ranka were sent to five days of judicial custody on October 14 after they entered Jantar Mantar, which had been denotified as a designated protest site, by scaling its locked gates New Delhi: The bail hearing of Cockroach Janta Party (CJP) leaders Saurav Das and Ashutosh Ranka was \"delayed\" on Sunday as the Special Executive Magistrate (SEM) did not arrive at the scheduled time, activist Ratna Singh said and alleged that four sureties had been rejected on \"vague\" grounds. Das and Ranka were sent to five days of judicial custody on October 14 after they entered Jantar Mantar, which had been denotified as a designated protest site, by scaling its locked gates. The CJP leaders maintained that they had unfurled the national flag and raised slogans. In a post on X, Singh said she had been at the police station since 11 am, while the hearing was scheduled for noon. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 168
-    },
-    {
-      "story_id": "story-29",
-      "category": "Society",
-      "primary_headline": "US ambassador to Israel condemns settler attack on US journalist, and other Mideast news",
-      "primary_source": {
-        "source_name": "AP News",
-        "headline": "US ambassador to Israel condemns settler attack on US journalist, and other Mideast news - AP News",
-        "published_at": "Sun, 18 Oct 2026 09:43:34 GMT",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZTVQOXY5eWJtZXExSXpLYk9CMWUycWRQTEREeEtlUUtlQkRTR3laVnZQTEFIVjN6S1BpbXVkU3N1Nm1Vb09POV8xVGRncFFBMlp6RUR6QVJTTXBwcnZ4M2kzcmVXYVJVM3FaWkZyVlRsNGs2aml5UWdBM0Nuc3oyblpMS1hrdnVjcFZnNkx4bjJTVGJ3OEM0S1piZnFtbHZ1VnlUdEZvMjVHcGtZaGNSVg?oc=5",
-        "content": "US ambassador to Israel condemns settler attack on US journalist, and other Mideast news&nbsp;&nbsp;AP News"
-      },
-      "sources": [
-        {
-          "source_name": "AP News",
-          "headline": "US ambassador to Israel condemns settler attack on US journalist, and other Mideast news - AP News",
-          "published_at": "Sun, 18 Oct 2026 09:43:34 GMT",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZTVQOXY5eWJtZXExSXpLYk9CMWUycWRQTEREeEtlUUtlQkRTR3laVnZQTEFIVjN6S1BpbXVkU3N1Nm1Vb09POV8xVGRncFFBMlp6RUR6QVJTTXBwcnZ4M2kzcmVXYVJVM3FaWkZyVlRsNGs2aml5UWdBM0Nuc3oyblpMS1hrdnVjcFZnNkx4bjJTVGJ3OEM0S1piZnFtbHZ1VnlUdEZvMjVHcGtZaGNSVg?oc=5",
-          "content": "US ambassador to Israel condemns settler attack on US journalist, and other Mideast news&nbsp;&nbsp;AP News"
-        },
-        {
-          "source_name": "Al Jazeera",
-          "headline": "US ambassador urges Israel to prosecute attackers of American journalist - Al Jazeera",
-          "published_at": "Sun, 18 Oct 2026 06:05:18 GMT",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRGt3d1FmTjFmYnlpV0xPQ0JsMDROd3doR3AzZTFGSkVZTUpoWnBkNVVEM1FhQXdDNXZnd1BvRkVZSE04R2kxWG1FSkZBYnM1dTMyM2RMQk4yTFFrYXdHWTJJZTdhNnRMTWlSOFkyTnpTdDR1STVWOFE3bG8xcUo0NzRpTS10cVVBdk5yTE9jRXJCTl9zNmJzZlVmVWNGZm03VkhycGhTWkc1NEJsOFZndDk2Y2Zwa1HSAbwBQVVfeXFMTXBYcnJMR2JJMmNITW8zMm16RWVjbzhoVGRTNEFYSWhaLUkyVFpXUExBSk9ud0UwUVFrd2p4U3FDTWd3LVk3cW1ESGNXSEJSek9HbG1IUzc4dmx4anhtcHRQMkdtZ0cyaVlvSFE0WF9iSEZrM0JMVjBNd3ZZS2p0cFNGTGFjV2lGRWlIS2ltMGJudFd1eTl4TGlOVmtfdTQwNmw1eFh2TW9ZcHJwTkQ5clFwNjB3eVlHTEFPelg?oc=5",
-          "content": "US ambassador urges Israel to prosecute attackers of American journalist&nbsp;&nbsp;Al Jazeera"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.63,
-      "brief_bullets": [
-        "AP News US ambassador urges Israel to prosecute attackers of American journalist. Directly impacts regional security balances and humanitarian conditions, testing international ceasefire mediation."
-      ],
-      "why_it_matters_bullets": [
-        "Directly impacts regional security balances and humanitarian conditions, testing international ceasefire mediation."
-      ],
-      "brief": "AP News US ambassador urges Israel to prosecute attackers of American journalist. Directly impacts regional security balances and humanitarian conditions, testing international ceasefire mediation.",
-      "brief_word_count": 24
-    },
-    {
-      "story_id": "story-30",
-      "category": "Society",
-      "primary_headline": "Zelenskiy says Russia attacked Ukrainian energy sector 76 times in past week",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Zelenskiy says Russia attacked Ukrainian energy sector 76 times in past week - Reuters",
-        "published_at": "Sun, 18 Oct 2026 08:31:43 GMT",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONHpkelZ3dVpCdWF5d2JkVGE3TmZGUzJXLUtsQWUxQnZWVXBtNWJQY1dQOVZJakRiaWRrYlZBQVhsX0JJZ2FKM3AtTW0zRWN3TGNtY2NERnRNckJFU2s1LWNVUUVDb1d3XzVFSHJwT0VOMGVieVBiZHhTbk8ta3A0MkFQeUxUeGhtTnU0aHl0OG0taVh0VU45Y25HNkhwQ2RKWGEwa2w5d0o5RVJPNURXUXRoajdReG5ZbG1YbU1hVQ?oc=5",
-        "content": "Zelenskiy says Russia attacked Ukrainian energy sector 76 times in past week&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "Zelenskiy says Russia attacked Ukrainian energy sector 76 times in past week - Reuters",
-          "published_at": "Sun, 18 Oct 2026 08:31:43 GMT",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONHpkelZ3dVpCdWF5d2JkVGE3TmZGUzJXLUtsQWUxQnZWVXBtNWJQY1dQOVZJakRiaWRrYlZBQVhsX0JJZ2FKM3AtTW0zRWN3TGNtY2NERnRNckJFU2s1LWNVUUVDb1d3XzVFSHJwT0VOMGVieVBiZHhTbk8ta3A0MkFQeUxUeGhtTnU0aHl0OG0taVh0VU45Y25HNkhwQ2RKWGEwa2w5d0o5RVJPNURXUXRoajdReG5ZbG1YbU1hVQ?oc=5",
-          "content": "Zelenskiy says Russia attacked Ukrainian energy sector 76 times in past week&nbsp;&nbsp;Reuters"
-        },
-        {
-          "source_name": "The Print",
-          "headline": "Zelenskiy says Russia attacked Ukrainian energy sector 76 times in past week - ThePrint",
-          "published_at": "Sun, 18 Oct 2026 08:30:15 GMT",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcVZmaUdFZGpqUUw2ekxKQ3FPcUpWVzFXR0xoNlI2ck9NVGxINERTUTByUEZKdzVlWGl2azBMTi14QXlQUjdua2lET1NjRkpaYzVQakZSdElSamNPTWFCTXVZUnI4R3hDa1VBZ1lkQV95eXhHby1FSm1FTjZTNDEwM3NPQ0xNSksyRFBqc0U3ZkNTVjZfSHBHZHRtSGt0a09zeVlWdXNINTdUeHFjNWdyRtIBtgFBVV95cUxNc0NnNHNYc3FIUDBWVmk4VVVEUEJ4NUoyMjFwYXRaTjJKSkJCMFF3NmRLNFB3eXFqV1hsU3ZUeUJKX2daV25GOHJPRHJQa1pZZ09BUzhMM0lFenJMb1J1MW5XLTlZWmNKYUpVSVVXNERaT0NtcDQ4TU5TY1FzUUp1c2czSWpZN1JDSHJqcTVBMjlYcVhNMWxqTHhGSVhqb2NrVjlkdkZQTTdVeWR1a2VmX29lUU56dw?oc=5",
-          "content": "Zelenskiy says Russia attacked Ukrainian energy sector 76 times in past week&nbsp;&nbsp;ThePrint"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.63,
-      "brief_bullets": [
-        "Developments regarding zelenskiy says russia attacked ukrainian energy sector 76 times in past week are actively unfolding across key regulatory and industry channels. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
+        "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump AP News Two people killed and at least 17 injured as Russia and Ukraine continue to trade strikes on power infrastructureVolodymyr Zelenskyy on Sunday thanked the Trump administration for resuming intelligence sharing between the two countries, but maintained the US had intentionally throttled its Starlink satellite internet access so that Donald Trump could send a “message” in his ongoing feud with the Ukrainian president.In an interview on NBC, Zelenskyy said the US had “unblocked” intelligence on impending Russian ballistic missile strikes, which have pounded the country’s energy infrastructure as winter draws in.",
+        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
+        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions.",
+        "Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments."
       ],
       "why_it_matters_bullets": [
         "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
       ],
-      "brief": "Developments regarding zelenskiy says russia attacked ukrainian energy sector 76 times in past week are actively unfolding across key regulatory and industry channels. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
-      "brief_word_count": 37
+      "brief": "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump AP News Two people killed and at least 17 injured as Russia and Ukraine continue to trade strikes on power infrastructureVolodymyr Zelenskyy on Sunday thanked the Trump administration for resuming intelligence sharing between the two countries, but maintained the US had intentionally throttled its Starlink satellite internet access so that Donald Trump could send a “message” in his ongoing feud with the Ukrainian president.In an interview on NBC, Zelenskyy said the US had “unblocked” intelligence on impending Russian ballistic missile strikes, which have pounded the country’s energy infrastructure as winter draws in. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 180
     },
     {
-      "story_id": "story-31",
+      "story_id": "story-21",
       "category": "Society",
-      "primary_headline": "Man shot, killed on subway platform in midtown Manhattan",
+      "primary_headline": "Tensions flare again in Paris as France counts cost of worst unrest in years",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Tensions flare again in Paris as France counts cost of worst unrest in years - Reuters",
+        "published_at": "Sun, 18 Oct 2026 16:00:50 GMT",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNd1VSODRfY1ZTZlpfMVBnaXZzSi1KU1ZsUlJWcWZBaWVaQ0Fyal85ZmEtdkR3ZU94c2ZEeGNzRXpIamtSQVdfVlpJWTdhcEY2ZkZaMFZGZzlTVTVCTDRoUDJybE90dGJGYTNmU1NwUTJDNmVZZllXTDFSR3hIVnBTV2lYTk9LM2N1MlREWk9VOEtidHY2?oc=5",
+        "content": "Tensions flare again in Paris as France counts cost of worst unrest in years&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Tensions flare again in Paris as France counts cost of worst unrest in years - Reuters",
+          "published_at": "Sun, 18 Oct 2026 16:00:50 GMT",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNd1VSODRfY1ZTZlpfMVBnaXZzSi1KU1ZsUlJWcWZBaWVaQ0Fyal85ZmEtdkR3ZU94c2ZEeGNzRXpIamtSQVdfVlpJWTdhcEY2ZkZaMFZGZzlTVTVCTDRoUDJybE90dGJGYTNmU1NwUTJDNmVZZllXTDFSR3hIVnBTV2lYTk9LM2N1MlREWk9VOEtidHY2?oc=5"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "France wakes up to one of its worst bouts of unrest in years; one dead, 500 cops injured",
+          "published_at": "Sun, 18 Oct 2026 14:46:32 +0000",
+          "url": "https://www.deccanherald.com/world/europe/france-wakes-up-to-one-of-its-worst-bouts-of-unrest-in-years-one-dead-500-cops-injured-4187385"
+        },
+        {
+          "source_name": "The Print",
+          "headline": "France counts cost of worst unrest in years - ThePrint",
+          "published_at": "Sun, 18 Oct 2026 11:30:17 GMT",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUldONjJ5c0pDRWdFVDhzLWJYRC04aVNzd29CT29iNUJZemxLYXNuTGZlS1g4QmttNUtoUVE1TXpFY1NFZS0wek9FUDg0MDN4LWs4Z3AyTWNGeUlnRTN4SVNKUktuTTZqLVN4UV84dC1DbjM3Vm95bFdQS29UbGVvbmtQR2jSAYoBQVVfeXFMT3lWVmZWajNBQVFibmFkN2JEamo3U2N3YnFFa3Y3dmZhazNXb1JLdmFXSDJnR0pmWHd0Y3p5a2l2Ymc5Si1SVE1UQnB1RERFWlY0Y1l5amlZS0I4c0t4X3ZaQTNURk5xbU5sRW93blBWb21vRktrM2l3bzRBQmpVdWQzalRJR3RDdDdn?oc=5"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 3,
+      "combined_score": 2.49,
+      "brief_bullets": [
+        "Paris: France woke on Sunday to the wreckage of one of its most violent days of unrest in years after protests over high prices and public services left one demonstrator dead, hundreds of police injured and nearly 1,800 people arrested.Nationwide demonstrations erupted into riots on Saturday, with a town hall torched, shops ransacked, and buildings covered in graffiti as violent groups clashed with police in cities across the country.One protester died after suffering a cardiac arrest during demonstrations in Paris, where police made a record 855 arrests.",
+        "Across France, police detained some 1,800 people and more than 500 officers were injured, the interior minister said.More than half a million people joined marches in scores of cities, marking the convergence of a month-long student movement with broader social discontent against rising living costs and declining public services.While hundreds of thousands protested peacefully, violent fringe groups targeted public buildings, looted luxury boutiques and supermarkets and attacked police vehicles and officers.\"No room for violence in our Republic,\" President Emmanuel Macron posted on X as the unrest unfolded late on Saturday. \"Those who have ransacked, attacked the prefectures as well as businesses, looted even our town halls, will be prosecuted and punished.\"Aucune place pour la violence dans notre République.Ceux qui ont cassé, attaqué les préfectures comme les commerces, pillé jusqu’à nos mairies, seront poursuivis et punis.Aux forces de l’ordre, garantes du droit à manifester, je dis le soutien de la Nation.Nous ferons tous…&mdash; Emmanuel Macron (@EmmanuelMacron) October 17, 2026 A massive clean-up operation began in cities from Lille in the north to Marseille in the south and Strasbourg in the east to Bordeaux in the southwest, where a masked mob invaded the residence of the local prefect.Unrest mars day of violent protest in France, as student movement turns nationalIn Paris, smashed shop windows, burnt-out bicycles and spray-painted slogans bore witness to a day that began largely with peaceful demonstrations but descended into violence.In Limoges, workers assessed the damage to the 143-year-old city hall, which was partially destroyed in an arson attack.The unrest has increased pressure on Macron and his government.",
+        "Prime Minister Sebastien Lecornu said the government would not be \"intimidated\" by violence, and blamed the unrest on the \"ultra-left\" and criminals, with a presidential election due next year.Economy Minister Roland Lescure pledged support for business owners who suffered losses. \"Those who break things will pay, repair the damage and be held accountable for their intention to sow chaos,\" Lescure said in a statement.Bordeaux Mayor Thomas Cazenave said up to 100 stores had been looted in his city, while Marseille Mayor Benoit Payan announced emergency financial aid to support those businesses impacted by the violence.The protests began last month over school conditions and teacher shortages in working-class suburbs, before broadening into a movement against inequality, public spending cuts and the rising cost of living.",
+        "France counts cost of worst unrest in years ThePrint."
+      ],
+      "why_it_matters_bullets": [
+        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
+      ],
+      "brief": "Paris: France woke on Sunday to the wreckage of one of its most violent days of unrest in years after protests over high prices and public services left one demonstrator dead, hundreds of police injured and nearly 1,800 people arrested.Nationwide demonstrations erupted into riots on Saturday, with a town hall torched, shops ransacked, and buildings covered in graffiti as violent groups clashed with police in cities across the country.One protester died after suffering a cardiac arrest during demonstrations in Paris, where police made a record 855 arrests. Across France, police detained some 1,800 people and more than 500 officers were injured, the interior minister said.More than half a million people joined marches in scores of cities, marking the convergence of a month-long student movement with broader social discontent against rising living costs and declining public services.While hundreds of thousands protested peacefully, violent fringe groups targeted public buildings, looted luxury boutiques and supermarkets and attacked police vehicles and officers.\"No room for violence in our Republic,\" President Emmanuel Macron posted on X as the unrest unfolded late on Saturday. \"Those who have ransacked, attacked the prefectures as well as businesses, looted even our town halls, will be prosecuted and punished.\"Aucune place pour la violence dans notre République.Ceux qui ont cassé, attaqué les préfectures comme les commerces, pillé jusqu’à nos mairies, seront poursuivis et punis.Aux forces de l’ordre, garantes du droit à manifester, je dis le soutien de la Nation.Nous ferons tous…&mdash; Emmanuel Macron (@EmmanuelMacron) October 17, 2026 A massive clean-up operation began in cities from Lille in the north to Marseille in the south and Strasbourg in the east to Bordeaux in the southwest, where a masked mob invaded the residence of the local prefect.Unrest mars day of violent protest in France, as student movement turns nationalIn Paris, smashed shop windows, burnt-out bicycles and spray-painted slogans bore witness to a day that began largely with peaceful demonstrations but descended into violence.In Limoges, workers assessed the damage to the 143-year-old city hall, which was partially destroyed in an arson attack.The unrest has increased pressure on Macron and his government. Prime Minister Sebastien Lecornu said the government would not be \"intimidated\" by violence, and blamed the unrest on the \"ultra-left\" and criminals, with a presidential election due next year.Economy Minister Roland Lescure pledged support for business owners who suffered losses. \"Those who break things will pay, repair the damage and be held accountable for their intention to sow chaos,\" Lescure said in a statement.Bordeaux Mayor Thomas Cazenave said up to 100 stores had been looted in his city, while Marseille Mayor Benoit Payan announced emergency financial aid to support those businesses impacted by the violence.The protests began last month over school conditions and teacher shortages in working-class suburbs, before broadening into a movement against inequality, public spending cuts and the rising cost of living. France counts cost of worst unrest in years ThePrint. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
+      "brief_word_count": 493
+    },
+    {
+      "story_id": "story-24",
+      "category": "Society",
+      "primary_headline": "By The Way: Headlines You May Have Missed",
+      "primary_source": {
+        "source_name": "Bloomberg",
+        "headline": "By The Way: Headlines You May Have Missed",
+        "published_at": "Sun, 18 Oct 2026 12:33:25 GMT",
+        "url": "https://www.bloomberg.com/news/videos/2026-10-18/by-the-way-headlines-you-may-have-missed-video",
+        "content": "The sneaker bubble bursting, hardware store cats, learning to write cursive, and live book readings: Join Lisa Mateo, David Gura and Christina Ruffini for a roundup of headlines you may have missed, but gotta see. (Source: Bloomberg)"
+      },
+      "sources": [
+        {
+          "source_name": "Bloomberg",
+          "headline": "By The Way: Headlines You May Have Missed",
+          "published_at": "Sun, 18 Oct 2026 12:33:25 GMT",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-18/by-the-way-headlines-you-may-have-missed-video"
+        },
+        {
+          "source_name": "Washington Post",
+          "headline": "If you do this in the morning, you may wreck your sleep at night - The Washington Post",
+          "published_at": "Sat, 17 Oct 2026 17:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeEJ6TEtsa1lYaXZvRXZFb2ZDMVlkZGhTSjNBc2hDZHczNUpPT3dOOS1ULWFIT3RDblNDOVpzN0RWd2c0X1I1UGpSVkZYVHBXTDlMbTE0blF6dHNsR1dCd09wWDdraUszNEI2a2hLNk5heGVEOHZtaE5lVTZRUE5uN0Fyc3RxTUxoTHlFb2JfazJzU25CZkczcEI0UnByQ0dBQTU0WmcwZDdMRFZQUjBmMHZR?oc=5"
+        },
+        {
+          "source_name": "NPR",
+          "headline": "If you have the scratch, they have the scares",
+          "published_at": "Sun, 18 Oct 2026 08:00:00 -0400",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-5985869/if-you-have-the-scratch-they-have-the-scares"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 3,
+      "combined_score": 2.43,
+      "brief_bullets": [
+        "The sneaker bubble bursting, hardware store cats, learning to write cursive, and live book readings: Join Lisa Mateo, David Gura and Christina Ruffini for a roundup of headlines you may have missed, but gotta see. (Source: Bloomberg) If you do this in the morning, you may wreck your sleep at night The Washington Post Chanthal Harris owns Long Dark House in Alexandria, Va.",
+        "It's a bookstore devoted exclusively to horror and the supernatural.",
+        "It's been doing business for just over a month and Harris says she already has steady traffic from both genre stalwarts and first-timers. \"You know, I think people are looking for things that they wouldn't normally find in a lot of other places.",
+        "I've had people comment about the curation and how they're finding something unexpected,\" Harris says. \"And I'm also surprised at how many people are trying to dip their toe into horror.\" Harris is no newbie herself: books and horror have been constant companions. \"My love of horror started from an early age.",
+        "And I joke, but I do truly blame my parents because my dad was a[n] avid reader."
+      ],
+      "why_it_matters_bullets": [
+        "Carries notable operational, policy, and market consequences surrounding 'By The Way: Headlines You May Have Missed'."
+      ],
+      "brief": "The sneaker bubble bursting, hardware store cats, learning to write cursive, and live book readings: Join Lisa Mateo, David Gura and Christina Ruffini for a roundup of headlines you may have missed, but gotta see. (Source: Bloomberg) If you do this in the morning, you may wreck your sleep at night The Washington Post Chanthal Harris owns Long Dark House in Alexandria, Va. It's a bookstore devoted exclusively to horror and the supernatural. It's been doing business for just over a month and Harris says she already has steady traffic from both genre stalwarts and first-timers. \"You know, I think people are looking for things that they wouldn't normally find in a lot of other places. I've had people comment about the curation and how they're finding something unexpected,\" Harris says. \"And I'm also surprised at how many people are trying to dip their toe into horror.\" Harris is no newbie herself: books and horror have been constant companions. \"My love of horror started from an early age. And I joke, but I do truly blame my parents because my dad was a[n] avid reader. Carries notable operational, policy, and market consequences surrounding 'By The Way: Headlines You May Have Missed'.",
+      "brief_word_count": 201
+    },
+    {
+      "story_id": "story-27",
+      "category": "Society",
+      "primary_headline": "Rioters loot stores, set fires in central Milan during cost-of-living protest",
       "primary_source": {
         "source_name": "AP News",
-        "headline": "Man shot, killed on subway platform in midtown Manhattan - AP News",
-        "published_at": "Sat, 17 Oct 2026 19:44:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWVptdmRESFJoczJQTnlZb1M2WnNSUU84eVRXTkcwOFpQbktZR3p4VEhTZHhfMWNvTm9VaVMzeXk4TGZPZV8tX2R3TjdUN2JiNmhTbkk0alNVR0xYbVF5b2NMQ3l6ZDN1bXl4X1pBMlhoQkkxR2RTNHAwRHU0R3F6aVRlNnNIQ0ZGWmVBMQ?oc=5",
-        "content": "Man shot, killed on subway platform in midtown Manhattan&nbsp;&nbsp;AP News"
+        "headline": "Rioters loot stores, set fires in central Milan during cost-of-living protest - AP News",
+        "published_at": "Sat, 17 Oct 2026 20:42:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdFk0T0hCUHRBdkZMTEFpaWNtdzdiZmJpb2NVVWpMOTlwaWhPOHQxcUV0RHlLQWtCUGpFWXB2ZEF2MGdnbDJpRzNuNnZvMVlPWG5zVlQ3aUEwekVvOWoyN2UyMU9IZG1ENmhnc3BCY0RlT0Q3YzZfeXA1N3lRWHF1MkRZdTNUT1RXSWFPTFBFX0pjZmVW?oc=5",
+        "content": "Rioters loot stores, set fires in central Milan during cost-of-living protest&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
           "source_name": "AP News",
-          "headline": "Man shot, killed on subway platform in midtown Manhattan - AP News",
-          "published_at": "Sat, 17 Oct 2026 19:44:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWVptdmRESFJoczJQTnlZb1M2WnNSUU84eVRXTkcwOFpQbktZR3p4VEhTZHhfMWNvTm9VaVMzeXk4TGZPZV8tX2R3TjdUN2JiNmhTbkk0alNVR0xYbVF5b2NMQ3l6ZDN1bXl4X1pBMlhoQkkxR2RTNHAwRHU0R3F6aVRlNnNIQ0ZGWmVBMQ?oc=5",
-          "content": "Man shot, killed on subway platform in midtown Manhattan&nbsp;&nbsp;AP News"
+          "headline": "Rioters loot stores, set fires in central Milan during cost-of-living protest - AP News",
+          "published_at": "Sat, 17 Oct 2026 20:42:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdFk0T0hCUHRBdkZMTEFpaWNtdzdiZmJpb2NVVWpMOTlwaWhPOHQxcUV0RHlLQWtCUGpFWXB2ZEF2MGdnbDJpRzNuNnZvMVlPWG5zVlQ3aUEwekVvOWoyN2UyMU9IZG1ENmhnc3BCY0RlT0Q3YzZfeXA1N3lRWHF1MkRZdTNUT1RXSWFPTFBFX0pjZmVW?oc=5"
         },
         {
-          "source_name": "CNN",
-          "headline": "Man shot and killed on subway platform in midtown Manhattan after argument - CNN",
-          "published_at": "Sat, 17 Oct 2026 20:12:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HdEpJdnNFY0NEdTdNbm5HM01JQUFFUmVwd1pJOHJkN3B1eWtQaTh3X0JENmZ6UlZkQWJWVWFXbUJUQnFWd08wM19kMlpCNFE3c2F0RER5T2cyZXBTRW9LWkJMejBRTzdwWm9KSTZ3?oc=5",
-          "content": "Man shot and killed on subway platform in midtown Manhattan after argument&nbsp;&nbsp;CNN"
+          "source_name": "The Indian Express",
+          "headline": "The 53-year-old in a suit who’s the face of France’s youth protests",
+          "published_at": "Sun, 18 Oct 2026 02:29:06 +0000",
+          "url": "https://indianexpress.com/article/world/the-53-year-old-in-a-suit-whos-the-face-of-frances-youth-protests-10926387/"
+        },
+        {
+          "source_name": "The Print",
+          "headline": "France to Italy, cost-of-living protests rock EU: Stores looted, 140-year-old landmark set on fire - ThePrint",
+          "published_at": "Sun, 18 Oct 2026 11:45:13 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORzYzbDVrWS1SMEFOZ3M3NDFUR2Z6VzJJbzRTZ3BfcEk0aHdHYnBpZjk1d1dYX2VrQ1VWa01QUmd3VUNHM0I1N3hoSnV6V1VHWmRISGV2Z0N6M0xSLUVVXzhrUE9XU0d2dFVnc0hnT20yWGhxaDhWS0d0ZEowMkZ2WlV3Y0ZEdE9wZU4wV3FSaWh1bk5lMllnblJYSDdPY1hSR1JLM3ZkR1pkdXVmd0FzRmtUT3JqMnBDTDJPZ0VMaDZiMFNsTUo4OHpR0gHPAUFVX3lxTFBleGRJd2FQSXh3UURBRGtNTFNLblBGVGZJTnpVRjJlQUY3TWs1TWZkS2I5N1J6QXIzWlZpZ1B5aGNBTlprdXViZzNLcHRjZ3hDOGJsSVBzN0RJaUtETzEzellwek5QZTRldFU2NG91X3FkeTVIS3VjWHctT3J2Wk9jS0ktWjEwSnIyM2ZvVV8zQnVHR3JMLVRxRHg0YVFrZmJlSVEwTzNGWmp1WWRMWFZxYVd2YjZGNV9YNWFfelowMFBGMkZGNUNHYkVLY2xzQQ?oc=5"
         }
       ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.63,
+      "source_count": 3,
+      "total_count": 3,
+      "combined_score": 2.4,
       "brief_bullets": [
-        "AP News Man shot and killed on subway platform in midtown Manhattan after argument CNN. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+        "AP News The 53-year-old in a suit who’s the face of France’s youth protests France to Italy, cost-of-living protests rock EU: Stores looted, 140-year-old landmark set on fire ThePrint.",
+        "Public dissent and street demonstrations have prompted emergency municipal interventions and heightened law enforcement readiness across impacted urban hubs.",
+        "Political factions and civic advocacy groups are actively debating the underlying systemic grievances that triggered the public unrest.",
+        "Government spokespersons have appealed for dialogue while maintaining heightened security cordons around administrative infrastructure."
       ],
       "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+        "Carries notable operational, policy, and market consequences surrounding 'Rioters loot stores, set fires in central Milan during cost'."
       ],
-      "brief": "AP News Man shot and killed on subway platform in midtown Manhattan after argument CNN. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 29
+      "brief": "AP News The 53-year-old in a suit who’s the face of France’s youth protests France to Italy, cost-of-living protests rock EU: Stores looted, 140-year-old landmark set on fire ThePrint. Public dissent and street demonstrations have prompted emergency municipal interventions and heightened law enforcement readiness across impacted urban hubs. Political factions and civic advocacy groups are actively debating the underlying systemic grievances that triggered the public unrest. Government spokespersons have appealed for dialogue while maintaining heightened security cordons around administrative infrastructure. Carries notable operational, policy, and market consequences surrounding 'Rioters loot stores, set fires in central Milan during cost'.",
+      "brief_word_count": 98
     },
     {
-      "story_id": "story-32",
+      "story_id": "story-15",
       "category": "Society",
-      "primary_headline": "Shakeup Saturday: 5 of the top 7 teams in the Top 25 lost in the regular season for the first time",
+      "primary_headline": "India's education system is an 'exclusion' plan keeping youth out, alleges Rahul Gandhi",
       "primary_source": {
-        "source_name": "AP News",
-        "headline": "Shakeup Saturday: 5 of the top 7 teams in the Top 25 lost in the regular season for the first time - AP News",
-        "published_at": "Sun, 18 Oct 2026 14:20:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUTF2UlFIOWVHOTloUEc0MVVLeC1VTWctWFhjRWdxaE9INDU0d3VoTElSdk5kNjZ4ak43bFJaeE1rSndiSjBOZHkyeWg1U01hZ3g1ckEyR21CTDNxa0RiREJIREJ4SmlxMk4wUmpJMHlSd01LUDBzcFI2TTFiYjV5MHJR?oc=5",
-        "content": "Shakeup Saturday: 5 of the top 7 teams in the Top 25 lost in the regular season for the first time&nbsp;&nbsp;AP News"
+        "source_name": "Deccan Herald",
+        "headline": "India's education system is an 'exclusion' plan keeping youth out, alleges Rahul Gandhi",
+        "published_at": "Sun, 18 Oct 2026 13:42:55 +0000",
+        "url": "https://www.deccanherald.com/india/indias-education-system-is-an-exclusion-plan-keeping-youth-out-alleges-rahul-gandhi-4187323",
+        "content": " New Delhi: Leader of Opposition in Lok Sabha Rahul Gandhi on Sunday criticised the education system in India, calling it an \"exclusion system\" that is designed to keep millions of youth out.His remarks came during an interaction he had with students recently, a video of which was posted on his social media handles.Rahul Gandhi joins Congress' 'Goy Rakhon Yatra' in Goa; walks 2 km with party workers\"If you don’t have money, power, or don't speak English, the system will push you out without a second thought. You can’t call this an education system. It’s an exclusion system - designed to keep millions of Indian youth out,\" he said.He said what the current system is doing is certifying people and creating a \"fake idea of merit\".&amp;nbsp;His comments came as a student said the National Education Policy is exclusionary with most of the students not being able to pursue studies in regular colleges owing to the Common University Entrance Test."
       },
       "sources": [
         {
-          "source_name": "AP News",
-          "headline": "Shakeup Saturday: 5 of the top 7 teams in the Top 25 lost in the regular season for the first time - AP News",
-          "published_at": "Sun, 18 Oct 2026 14:20:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUTF2UlFIOWVHOTloUEc0MVVLeC1VTWctWFhjRWdxaE9INDU0d3VoTElSdk5kNjZ4ak43bFJaeE1rSndiSjBOZHkyeWg1U01hZ3g1ckEyR21CTDNxa0RiREJIREJ4SmlxMk4wUmpJMHlSd01LUDBzcFI2TTFiYjV5MHJR?oc=5",
-          "content": "Shakeup Saturday: 5 of the top 7 teams in the Top 25 lost in the regular season for the first time&nbsp;&nbsp;AP News"
+          "source_name": "Deccan Herald",
+          "headline": "India's education system is an 'exclusion' plan keeping youth out, alleges Rahul Gandhi",
+          "published_at": "Sun, 18 Oct 2026 13:42:55 +0000",
+          "url": "https://www.deccanherald.com/india/indias-education-system-is-an-exclusion-plan-keeping-youth-out-alleges-rahul-gandhi-4187323"
         },
         {
-          "source_name": "CNN",
-          "headline": "Historic day in college football sees 5 of the top 7 teams in the Top 25 losing in the regular season for the first time - CNN",
-          "published_at": "Sun, 18 Oct 2026 04:50:54 GMT",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54VGt6WnRMUGRzMGdKTlJBYmJfTjFOc0tBb3pkbHVOWmdfcmZiMDV6VFVJQXVGWUQ4dmR3NWthMFF2OW9xbW1fYkt4QXFXRGx5LWpscDdEUUhLM2RYN1dPc1ZpbUdUamxIcmVqODZKdDEzZzlpZmhxeEhSN2ZIUWc?oc=5",
-          "content": "Historic day in college football sees 5 of the top 7 teams in the Top 25 losing in the regular season for the first time&nbsp;&nbsp;CNN"
+          "source_name": "Deccan Herald",
+          "headline": "'56-inch ka seena kahan hai': Rahul Gandhi slams Modi-Shah, CEC over 'vote chori'",
+          "published_at": "Sun, 18 Oct 2026 13:38:22 +0000",
+          "url": "https://www.deccanherald.com/india/56-inch-ka-seena-kahan-hai-rahul-gandhi-slams-modi-shah-cec-over-vote-chori-4187292"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "‘Where did the 56-inch chest go?’: In Goa, Rahul targets Modi, Shah, CEC",
+          "published_at": "Sun, 18 Oct 2026 13:07:55 +0000",
+          "url": "https://indianexpress.com/article/india/rahul-gandhi-pm-narendra-modi-amit-shah-gyanesh-kumar-vote-chori-goa-10926965/"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Rahul Gandhi joins Congress' 'Goy Rakhon Yatra' in Goa; walks 2 km with party workers",
+          "published_at": "Sun, 18 Oct 2026 11:42:33 +0000",
+          "url": "https://www.deccanherald.com/india/goa/rahul-gandhi-joins-congress-goy-rakhon-yatra-in-goa-walks-2-km-with-party-workers-4187207"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "‘When they lose, EC becomes an issue’: Nitin Nabin targets Rahul Gandhi over SIR",
+          "published_at": "Sun, 18 Oct 2026 01:00:34 +0000",
+          "url": "https://indianexpress.com/article/cities/patna/nitin-nabin-targets-rahul-gandhi-sir-election-commission-10926257/"
         }
       ],
       "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
+      "total_count": 7,
+      "combined_score": 3.13,
       "brief_bullets": [
-        "AP News Historic day in college football sees 5 of the top 7 teams in the Top 25 losing in the regular season for the first time CNN. Carries notable operational, policy, and market consequences surrounding 'Shakeup Saturday: 5 of the top 7 teams in the Top 25 lost in the regular season for the first time'."
+        "New Delhi: Leader of Opposition in Lok Sabha Rahul Gandhi on Sunday criticised the education system in India, calling it an \"exclusion system\" that is designed to keep millions of youth out.His remarks came during an interaction he had with students recently, a video of which was posted on his social media handles.Rahul Gandhi joins Congress' 'Goy Rakhon Yatra' in Goa; walks 2 km with party workers\"If you don’t have money, power, or don't speak English, the system will push you out without a second thought.",
+        "You can’t call this an education system.",
+        "It’s an exclusion system - designed to keep millions of Indian youth out,\" he said.He said what the current system is doing is certifying people and creating a \"fake idea of merit\".&nbsp;His comments came as a student said the National Education Policy is exclusionary with most of the students not being able to pursue studies in regular colleges owing to the Common University Entrance Test.",
+        "Congress leader Rahul Gandhi on Sunday accused Prime Minister Narendra Modi of orchestrating alleged “vote theft” behind the scenes, claiming that Union Home Minister Amit Shah operationalised it and Chief Election Commissioner Gyanesh Kumar implemented it.Addressing a rally in Margao in South Goa on the concluding day of the Congress's 'Goy Rakhon Yatra', Gandhi alleged that Modi, Shah and Kumar were facing mounting pressure over the party's allegations of electoral malpractice.“There is no confusion anymore.",
+        "Gyanesh Kumar implements the vote theft, Amit Shah operationalises it, and Prime Minister Narendra Modi does the entire planning from behind the scenes,” Gandhi said.The Leader of the Opposition in the Lok Sabha warned that the three would face justice over the alleged irregularities."
       ],
       "why_it_matters_bullets": [
-        "Carries notable operational, policy, and market consequences surrounding 'Shakeup Saturday: 5 of the top 7 teams in the Top 25 lost in the regular season for the first time'."
+        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
       ],
-      "brief": "AP News Historic day in college football sees 5 of the top 7 teams in the Top 25 losing in the regular season for the first time CNN. Carries notable operational, policy, and market consequences surrounding 'Shakeup Saturday: 5 of the top 7 teams in the Top 25 lost in the regular season for the first time'.",
-      "brief_word_count": 57
+      "brief": "New Delhi: Leader of Opposition in Lok Sabha Rahul Gandhi on Sunday criticised the education system in India, calling it an \"exclusion system\" that is designed to keep millions of youth out.His remarks came during an interaction he had with students recently, a video of which was posted on his social media handles.Rahul Gandhi joins Congress' 'Goy Rakhon Yatra' in Goa; walks 2 km with party workers\"If you don’t have money, power, or don't speak English, the system will push you out without a second thought. You can’t call this an education system. It’s an exclusion system - designed to keep millions of Indian youth out,\" he said.He said what the current system is doing is certifying people and creating a \"fake idea of merit\".&nbsp;His comments came as a student said the National Education Policy is exclusionary with most of the students not being able to pursue studies in regular colleges owing to the Common University Entrance Test. Congress leader Rahul Gandhi on Sunday accused Prime Minister Narendra Modi of orchestrating alleged “vote theft” behind the scenes, claiming that Union Home Minister Amit Shah operationalised it and Chief Election Commissioner Gyanesh Kumar implemented it.Addressing a rally in Margao in South Goa on the concluding day of the Congress's 'Goy Rakhon Yatra', Gandhi alleged that Modi, Shah and Kumar were facing mounting pressure over the party's allegations of electoral malpractice.“There is no confusion anymore. Gyanesh Kumar implements the vote theft, Amit Shah operationalises it, and Prime Minister Narendra Modi does the entire planning from behind the scenes,” Gandhi said.The Leader of the Opposition in the Lok Sabha warned that the three would face justice over the alleged irregularities. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
+      "brief_word_count": 291
     },
     {
-      "story_id": "story-33",
+      "story_id": "story-29",
       "category": "Society",
-      "primary_headline": "Texans v Jaguars at Wembley: NFL week six – live",
+      "primary_headline": "Opinion | A new level of chaos in Trump’s Ukraine policy - The Washington Post",
       "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "Texans v Jaguars at Wembley: NFL week six – live",
-        "published_at": "Sun, 18 Oct 2026 14:10:48 GMT",
-        "url": "https://www.theguardian.com/sport/live/2026/oct/18/texans-v-jaguars-nfl-week-six-live",
-        "content": "NFL updates from the 2.30pm BST kick-off at WembleyWeek six: Seahawks 14-17 Broncos | Email GrahamSpeaking to how good they are against the run, the Jaguars have gone 22 games without allowing a rusher to go for more than 75 yards. Good luck, Woody.Texans 0-0 Jaguars 11:08, 1st quarter Continue reading..."
+        "source_name": "Washington Post",
+        "headline": "Opinion | A new level of chaos in Trump’s Ukraine policy - The Washington Post",
+        "published_at": "Sat, 17 Oct 2026 23:17:52 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZ0FiQ09uTTRsSnJMVVhTWWZNQWpzQjJxU2toMFBGcjdlSkJpSGppZ2xKYVVlbzE1ZkExNjV4RzNGLW5zeU1DaFhqRkxhNVVkLTJKZGpUcG9fZEptdGsxMlIycDRJdWg4NGJBajM2aWlTWWVNNEFiSjJ6eGFadXVha3JYcFVKODZ5elRIb1pQU0E3cllWYWFHMnQzT292eWh6SmgwTXI0WjVzUQ?oc=5",
+        "content": "Opinion | A new level of chaos in Trump’s Ukraine policy&nbsp;&nbsp;The Washington Post"
       },
       "sources": [
         {
-          "source_name": "The Guardian",
-          "headline": "Texans v Jaguars at Wembley: NFL week six – live",
-          "published_at": "Sun, 18 Oct 2026 14:10:48 GMT",
-          "url": "https://www.theguardian.com/sport/live/2026/oct/18/texans-v-jaguars-nfl-week-six-live",
-          "content": "NFL updates from the 2.30pm BST kick-off at WembleyWeek six: Seahawks 14-17 Broncos | Email GrahamSpeaking to how good they are against the run, the Jaguars have gone 22 games without allowing a rusher to go for more than 75 yards. Good luck, Woody.Texans 0-0 Jaguars 11:08, 1st quarter Continue reading..."
+          "source_name": "Washington Post",
+          "headline": "Opinion | A new level of chaos in Trump’s Ukraine policy - The Washington Post",
+          "published_at": "Sat, 17 Oct 2026 23:17:52 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZ0FiQ09uTTRsSnJMVVhTWWZNQWpzQjJxU2toMFBGcjdlSkJpSGppZ2xKYVVlbzE1ZkExNjV4RzNGLW5zeU1DaFhqRkxhNVVkLTJKZGpUcG9fZEptdGsxMlIycDRJdWg4NGJBajM2aWlTWWVNNEFiSjJ6eGFadXVha3JYcFVKODZ5elRIb1pQU0E3cllWYWFHMnQzT292eWh6SmgwTXI0WjVzUQ?oc=5"
         },
         {
-          "source_name": "Sky Sports",
-          "headline": "NFL London LIVE! Texans take early lead vs Jags at Wembley",
-          "published_at": "Sun, 18 Oct 2026 14:00:00 BST",
-          "url": "https://www.skysports.com/nfl/live-blog/12040/13600279/nfl-london-games-2026-live-updates-result-highlights-from-jacksonville-jaguars-against-houston-texans-at-wembley-stadium",
-          "content": ""
+          "source_name": "Washington Post",
+          "headline": "The new Democratic candidate: Progressive, anti-Trump and jacked - The Washington Post",
+          "published_at": "Sat, 17 Oct 2026 17:00:01 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWkc2dXFXbjgtV1RFdUswamhhUXhfWXVFYUVKR3Z0aHZpYzRnNjFtZXVVQUdYQ1pCb0pCZEdhLWFIUVNBUWdkR2tDWFoyLVZsMGU5QWlheXpFTDlaZ0FFamJqcWtfVjRFVGdIQktfSVF3U0xDYWI1Sll4ZkJ5SmEweS03NWlQR0tSNTdPdmlBVm1lNTVYbEZiaWI3OXhPcTFrcUdtczgwb3A?oc=5"
+        },
+        {
+          "source_name": "CNN",
+          "headline": "Ukraine defies Trump and launches one of its biggest drone attacks on Russia this year - CNN",
+          "published_at": "Sun, 18 Oct 2026 10:52:09 GMT",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVmFIRGcydUhZa1dIRXNnd0duVkwxc2lDd1dxekFrb1h1TnAySExEODJlbFB5TXNYcVFCbktYSVN3Ylh1TGtjaWplM1NzOVZBbG45dWJwVUItX183UFVtOEZBLXgzTllzM1lhUUdyRDVzOUhpVHZqY2FtTzM4RWFlemhnTWY5OGs?oc=5"
+        },
+        {
+          "source_name": "CNN",
+          "headline": "Ukraine defies Trump and launches one of its biggest drone attacks on Russia this year - CNN",
+          "published_at": "Sun, 18 Oct 2026 10:49:15 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQa1NDR01YZm95TF9nSGhfZFdidlRLWDFfNkpVOTd0Ymg3V19laGlfQjUzTVhoWG85NlB3R0ZLN04yWGt3cHB2REszc0R1U3BCVTMzTUxIdnU1c3VTbFFNbm1qTWI1ZFloT0dSaS1JLWtJQnJOUkl5WHR3LXRxeWZpTndR?oc=5"
         }
       ],
       "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
+      "total_count": 4,
+      "combined_score": 2.23,
       "brief_bullets": [
-        "NFL updates from the 2.30pm BST kick-off at Wembley. Week six: Seahawks 14-17 Broncos | Email Graham. Speaking to how good they are against the run, the Jaguars have gone 22 games without allowing a rusher to go for more than 75 yards. Good luck, Woody. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+        "Opinion | A new level of chaos in Trump’s Ukraine policy The Washington Post The new Democratic candidate: Progressive, anti-Trump and jacked The Washington Post Ukraine defies Trump and launches one of its biggest drone attacks on Russia this year CNN Ukraine defies Trump and launches one of its biggest drone attacks on Russia this year CNN.",
+        "Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness.",
+        "The shift has triggered intense debate among foreign policy stakeholders regarding international deterrence frameworks and regulatory enforcement.",
+        "Regional defense ministries and multilateral bodies are assessing logistical readiness and diplomatic countermeasures as the geopolitical landscape evolves."
       ],
       "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
       ],
-      "brief": "NFL updates from the 2.30pm BST kick-off at Wembley. Week six: Seahawks 14-17 Broncos | Email Graham. Speaking to how good they are against the run, the Jaguars have gone 22 games without allowing a rusher to go for more than 75 yards. Good luck, Woody. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 59
+      "brief": "Opinion | A new level of chaos in Trump’s Ukraine policy The Washington Post The new Democratic candidate: Progressive, anti-Trump and jacked The Washington Post Ukraine defies Trump and launches one of its biggest drone attacks on Russia this year CNN Ukraine defies Trump and launches one of its biggest drone attacks on Russia this year CNN. Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness. The shift has triggered intense debate among foreign policy stakeholders regarding international deterrence frameworks and regulatory enforcement. Regional defense ministries and multilateral bodies are assessing logistical readiness and diplomatic countermeasures as the geopolitical landscape evolves. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 125
     },
     {
-      "story_id": "story-36",
+      "story_id": "story-30",
       "category": "Society",
-      "primary_headline": "‘Hatred in their hearts’: Trump blames immigration as violent protests rock France",
+      "primary_headline": "Today News Headlines for School Assembly, October 19, 2026: Indian Railways launches direct train to Vaishno Devi",
       "primary_source": {
         "source_name": "The Indian Express",
-        "headline": "‘Hatred in their hearts’: Trump blames immigration as violent protests rock France",
-        "published_at": "Sun, 18 Oct 2026 13:35:37 +0000",
-        "url": "https://indianexpress.com/article/world/donald-trump-france-protests-immigration-paris-riots-macron-10927010/",
+        "headline": "Today News Headlines for School Assembly, October 19, 2026: Indian Railways launches direct train to Vaishno Devi",
+        "published_at": "Sun, 18 Oct 2026 12:14:15 +0000",
+        "url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-october-19-2026-indian-railways-launches-direct-train-to-vaishno-devi-asian-para-games-begin-10926633/",
         "content": ""
       },
       "sources": [
         {
           "source_name": "The Indian Express",
-          "headline": "‘Hatred in their hearts’: Trump blames immigration as violent protests rock France",
-          "published_at": "Sun, 18 Oct 2026 13:35:37 +0000",
-          "url": "https://indianexpress.com/article/world/donald-trump-france-protests-immigration-paris-riots-macron-10927010/",
-          "content": ""
+          "headline": "Today News Headlines for School Assembly, October 19, 2026: Indian Railways launches direct train to Vaishno Devi",
+          "published_at": "Sun, 18 Oct 2026 12:14:15 +0000",
+          "url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-october-19-2026-indian-railways-launches-direct-train-to-vaishno-devi-asian-para-games-begin-10926633/"
         },
         {
           "source_name": "NDTV",
-          "headline": "\"Hatred In Their Hearts\": Trump Blames Immigrants For Unrest In France",
-          "published_at": "Sun, 18 Oct 2026 18:24:18 +0530",
-          "url": "https://www.ndtv.com/world-news/france-protests-france-violence-hatred-in-their-hearts-trump-blames-immigrants-for-unrest-in-france-12202873#publisher=newsstand",
-          "content": "The unrest in France began with students demanding more teachers and better school conditions."
+          "headline": "School Assembly News Headlines (October 18): Top National, International, Sports News",
+          "published_at": "Sun, 18 Oct 2026 17:30:13 +0530",
+          "url": "https://www.ndtv.com/education/school-assembly-news-headlines-october-18-top-national-international-sports-news-12202812#publisher=newsstand"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Schools across India to remain closed on October 19-20 for Dussehra",
+          "published_at": "Sun, 18 Oct 2026 09:12:10 +0000",
+          "url": "https://indianexpress.com/article/education/school-holidays-2026-october-19-20-dussehra-durga-ashtami-10926706/"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Direct train between Gujarat and Katra flagged off, move to benefit lakhs of Vaishno Devi pilgrims",
+          "published_at": "Sun, 18 Oct 2026 07:09:36 +0000",
+          "url": "https://indianexpress.com/article/india/gujarat-katra-direct-train-flagged-off-move-to-benefit-lakhs-of-vaishno-devi-pilgrims-10926666/"
         }
       ],
       "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
+      "total_count": 4,
+      "combined_score": 2.2,
       "brief_bullets": [
-        "The unrest in France began with students demanding more teachers and better school conditions. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
+        "Stay updated and be ready to share your thoughts in the morning with these News Headlines.",
+        "Schools across India to remain closed on October 19-20 for Dussehra Direct train between Gujarat and Katra flagged off, move to benefit lakhs of Vaishno Devi pilgrims.",
+        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Today News Headlines for School Assembly, October 19, 2026: Indian Railways launches direct train to Vaishno Devi'.",
+        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "Stay updated and be ready to share your thoughts in the morning with these News Headlines. Schools across India to remain closed on October 19-20 for Dussehra Direct train between Gujarat and Katra flagged off, move to benefit lakhs of Vaishno Devi pilgrims. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Today News Headlines for School Assembly, October 19, 2026: Indian Railways launches direct train to Vaishno Devi'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 103
+    },
+    {
+      "story_id": "story-31",
+      "category": "Society",
+      "primary_headline": "Photos show No Kings rallies across America",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Photos show No Kings rallies across America - AP News",
+        "published_at": "Sun, 18 Oct 2026 04:17:50 GMT",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcEtOV25LZWU4ZGtWR0lobDlaUGszUkpkZWtQTXZpcmtTTGRNZDVjLV9UYXJ1eHZ5ZUdHN1lyRktReDlYaXg3QzVra19JdXREaG9UT0pJTmprWDQyXzNNajFSNUhZYmFIODh6Y2lGaVhvVzhDb0pDZ2JjOU5ES3RBaURHb2NfOXFKa25HQkRhbURxdVAzRkVvVy1BLU45QnJRUFk3cndwcmJIdktBUmc?oc=5",
+        "content": "Photos show No Kings rallies across America&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Photos show No Kings rallies across America - AP News",
+          "published_at": "Sun, 18 Oct 2026 04:17:50 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcEtOV25LZWU4ZGtWR0lobDlaUGszUkpkZWtQTXZpcmtTTGRNZDVjLV9UYXJ1eHZ5ZUdHN1lyRktReDlYaXg3QzVra19JdXREaG9UT0pJTmprWDQyXzNNajFSNUhZYmFIODh6Y2lGaVhvVzhDb0pDZ2JjOU5ES3RBaURHb2NfOXFKa25HQkRhbURxdVAzRkVvVy1BLU45QnJRUFk3cndwcmJIdktBUmc?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "No Kings rallies across US urge voters to cast ballots early ahead of midterms - AP News",
+          "published_at": "Sun, 18 Oct 2026 03:35:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVndVWEl1S1dQWm51em1FaFpNOFRmYnhjU1BaMFQ2WElJbmQyQ2JqQVVaNXQxRlk4alFzMloxRXdoQVYzVGwxRWJrWm5aYmZXQUlud2xNRzBwUWpjM2hqemo4VHdwdGs5SmFSM25NeHF2NFpybnlrNjVQOFVkX0JzMm4zQ1c0ZFAwNDA4OFM1NlF6Y0RLN2tnVXZiZnJzNHVrazREZVprN3hhdFFPcDV6Q0xPQXdHREtZT2xPSGd0a212Si1qZmE2UEJ0bXo1WEY5eGc?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "No Kings rallies across US urge voters to cast ballots early ahead of midterms - AP News",
+          "published_at": "Sat, 17 Oct 2026 19:52:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSU9QdGhLZXFkak1MT3B1b3RBZlVIT3gzNEZheTFHNi1hTFpBUjZGcHVkQWhsTjFSRmJsX1RXbklDRUJ0M3dfcklfREZaYUxQWWhqNTZKWmFDZVhEMGZzd3VpLWZ0OG5zY2NIazNGbUpPQXlFc3ItM2p0akRqbkRXSF9oUnVQWHZpZlZuVWtsaw?oc=5"
+        },
+        {
+          "source_name": "Al Jazeera",
+          "headline": "Photos: No Kings rallies in US urge midterm voters to cast ballots early - Al Jazeera",
+          "published_at": "Sat, 17 Oct 2026 21:18:48 GMT",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONTAzWXZlVGthYm9nc095S1l5Z1FuNXl5cXRPSTg0Ny1KRy1rRzh4a2RVMjIzYzRjUW5QZG1SdHg1enB1OGljUUY4Y2JkNFhXLTQtSnJKRmdkc0NHU0NIemx5ZE1hTldJVzZ6aTVPYjlWenFYNTlKV3g3U1g5Zlp5ZURHX3I3WnRyYVFuc0JIVG1aZm9Sem9XOUdJeVpjRUhjaGNLZGl1bFk2NzEydlpqQVdVXzlaQkXSAbwBQVVfeXFMTkJaZGtnVnNVYU5fVmlCaWQ2cmxQakpnMzFGREtTS0RIYlg1SUFXeVhoNFI3ZGRKclpZOXpTVTNCRzhoSzFZMFdPQ2VHNGxmbDhSRUdmTDZ4dkFBYmJkcUE4bF9nLU1uLTEyUHNEQnJua19aUFh5aENGVXI3eExkUHc3QUZ2d0ZQeEkyMVA2UkVOR3R1MmxZV0txQ0c3UmxfdDBMRkpjTmRFRmVjQV9SS0RVbEoyWHE3RHpNZUM?oc=5"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 4,
+      "combined_score": 2.2,
+      "brief_bullets": [
+        "AP News No Kings rallies across US urge voters to cast ballots early ahead of midterms AP News No Kings rallies across US urge voters to cast ballots early ahead of midterms AP News Photos: No Kings rallies in US urge midterm voters to cast ballots early.",
+        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Photos show No Kings rallies across America'.",
+        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
+        "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
       ],
       "why_it_matters_bullets": [
         "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
       ],
-      "brief": "The unrest in France began with students demanding more teachers and better school conditions. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 28
+      "brief": "AP News No Kings rallies across US urge voters to cast ballots early ahead of midterms AP News No Kings rallies across US urge voters to cast ballots early ahead of midterms AP News Photos: No Kings rallies in US urge midterm voters to cast ballots early. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Photos show No Kings rallies across America'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
+      "brief_word_count": 112
+    },
+    {
+      "story_id": "story-33",
+      "category": "Society",
+      "primary_headline": "15 Killed As Truck Runs Over Devotees Near Temple In Madhya Pradesh",
+      "primary_source": {
+        "source_name": "NDTV",
+        "headline": "15 Killed As Truck Runs Over Devotees Near Temple In Madhya Pradesh",
+        "published_at": "Sun, 18 Oct 2026 09:55:17 +0530",
+        "url": "https://www.ndtv.com/india-news/madhya-pradesh-temple-accident-12-killed-as-truck-runs-over-devotees-near-temple-in-madhya-pradeshs-gwalior-12201028#publisher=newsstand",
+        "content": " The truck reportedly broke through police barricades before running over pilgrims on the road and crashing into the temple's outer wall and gate."
+      },
+      "sources": [
+        {
+          "source_name": "NDTV",
+          "headline": "15 Killed As Truck Runs Over Devotees Near Temple In Madhya Pradesh",
+          "published_at": "Sun, 18 Oct 2026 09:55:17 +0530",
+          "url": "https://www.ndtv.com/india-news/madhya-pradesh-temple-accident-12-killed-as-truck-runs-over-devotees-near-temple-in-madhya-pradeshs-gwalior-12201028#publisher=newsstand"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "12 killed, 29 injured as truck runs over devotees walking towards temple in Gwalior",
+          "published_at": "Sun, 18 Oct 2026 03:30:53 +0000",
+          "url": "https://indianexpress.com/article/india/gwalior-road-accident-truck-hits-devotees-sheetlamata-mandir-10926443/"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "3 years, 14 protests: Why Madhya Pradesh CM Mohan Yadav has blinked time and again",
+          "published_at": "Sun, 18 Oct 2026 01:30:35 +0000",
+          "url": "https://indianexpress.com/article/political-pulse/madhya-pradesh-protests-mohan-yadav-shivraj-singh-chouhan-tribal-demolition-10926263/"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 3,
+      "combined_score": 2.02,
+      "brief_bullets": [
+        "The truck reportedly broke through police barricades before running over pilgrims on the road and crashing into the temple's outer wall and gate.",
+        "12 killed, 29 injured as truck runs over devotees walking towards temple in Gwalior 3 years, 14 protests: Why Madhya Pradesh CM Mohan Yadav has blinked time and again.",
+        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
+        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions."
+      ],
+      "why_it_matters_bullets": [
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+      ],
+      "brief": "The truck reportedly broke through police barricades before running over pilgrims on the road and crashing into the temple's outer wall and gate. 12 killed, 29 injured as truck runs over devotees walking towards temple in Gwalior 3 years, 14 protests: Why Madhya Pradesh CM Mohan Yadav has blinked time and again. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 108
     }
   ]
 }

@@ -64,20 +64,28 @@ def run():
 
     def get_brief_for_story(story):
         primary_hl = story.get('primary_headline', '')
-        primary_content = story.get('primary_source', {}).get('content', '') or primary_hl
+        # Combine content from all clustered sources so summarizer has maximum context
+        all_contents = []
+        for s in story.get('sources', []):
+            c = (s.get('content') or s.get('headline') or '').strip()
+            if c:
+                all_contents.append(c)
+        combined_content = "\n\n".join(all_contents)
+        if not combined_content:
+            combined_content = story.get('primary_source', {}).get('content', '') or primary_hl
         story_id = story['story_id']
 
         # Use Gemini AI for priority stories
         if story_id in priority_story_ids:
             try:
-                res = generate_deep_dive_brief(primary_content, title=primary_hl, gemini_key=gemini_key)
+                res = generate_deep_dive_brief(combined_content, title=primary_hl, gemini_key=gemini_key)
                 if res and isinstance(res, dict) and res.get('summary'):
                     return story_id, res
             except Exception as e:
                 print(f"Gemini brief generation error for {story_id}: {e}")
 
         # Clean fallback for non-priority/remaining stories
-        fb = _structured_fallback(primary_content, title=primary_hl)
+        fb = _structured_fallback(combined_content, title=primary_hl)
         return story_id, fb
 
     # Parallelize Gemini API calls

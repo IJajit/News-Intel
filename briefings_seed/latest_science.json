@@ -1,43 +1,79 @@
 {
   "id": "latest",
   "category": "science",
-  "timestamp": "2026-10-18T14:26:12.623336+00:00",
-  "articlesCount": 7,
+  "timestamp": "2026-10-18T16:54:30.050994+00:00",
+  "articlesCount": 9,
   "stories": [
     {
-      "story_id": "story-77",
+      "story_id": "story-104",
       "category": "Science",
-      "primary_headline": "Ebola outbreak spreads to eighth province in DR Congo, death toll tops 4,500",
+      "primary_headline": "The Guardian view on plague in Russia: what is most worrying is the lack of information | Editorial",
       "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Ebola outbreak spreads to eighth province in DR Congo, death toll tops 4,500",
-        "published_at": "Sun, 18 Oct 2026 10:59:55 +0000",
-        "url": "https://www.deccanherald.com/world/rest-of-world/ebola-outbreak-spreads-to-eighth-province-in-dr-congo-death-toll-tops-4500-4187188",
-        "content": " The Ebola outbreak in Democratic Republic of Congo has spread to an eighth province, North Ubangi, Congo's public health institute said on Sunday, confirming earlier Reuters reporting.The emergence of cases in the province, which borders Central African Republic, poses a new challenge for health authorities struggling to contain the outbreak.The National Institute for Biomedical Research confirmed two cases - including one death - in North Ubangi.Reuters reported on Thursday that two cases were confirmed in the province, citing two health officials. At the time, there was no official statement by Congolese authorities.WHO says Congo Ebola outbreak can still be brought under control within three monthsNorth Ubangi becomes the eighth province affected by the outbreak, alongside North Kivu, Ituri, Haut-Uele, Tshopo, Sud-Kivu, Bas-Uele and South Ubangi.The outbreak, the worst Ebola epidemic in Congo's history, has already spread beyond the country's borders, with cases recorded in Uganda and seven infections confirmed in Kenya this month.Congo's latest situation report showed 67 new confirmed cases and 26 new deaths in the 24 hours to Oct.16, bringing the cumulative total to 9,415 cases and 4,536 deaths since the outbreak began.The outbreak remains concentrated in eastern Congo, with Ituri province reporting 44 of the 67 new cases."
+        "source_name": "The Guardian",
+        "headline": "The Guardian view on plague in Russia: what is most worrying is the lack of information | Editorial",
+        "published_at": "Sun, 18 Oct 2026 16:30:04 GMT",
+        "url": "https://www.theguardian.com/commentisfree/2026/oct/18/the-guardian-view-on-plague-in-russia-what-is-most-worrying-is-the-lack-of-information",
+        "content": "In the three weeks since a health worker’s death in Siberia, officials have stonewalled the WHO – setting a worrying precedent for future pandemicsIs there a plague outbreak in Russia? If the answer were a clear yes, there shouldn’t be much reason to worry. With swift medical intervention, plague is treatable. But in the nearly three weeks since a worker at a Siberian plague research unit died of a mysterious respiratory illness, state officials have been&nbsp;consistently tight-lipped about what happened and whether there were any further cases.It is this uncertainty that has the World Health Organization (WHO) and international community worried: partly because there is a – very small – risk of an outbreak, and partly because it is yet another warning that the international coordination we rely on&nbsp;to prevent pandemics is fraying along with the rest&nbsp;of international politics, and could easily fail to protect us in the future. Continue reading..."
       },
       "sources": [
         {
-          "source_name": "Deccan Herald",
-          "headline": "Ebola outbreak spreads to eighth province in DR Congo, death toll tops 4,500",
-          "published_at": "Sun, 18 Oct 2026 10:59:55 +0000",
-          "url": "https://www.deccanherald.com/world/rest-of-world/ebola-outbreak-spreads-to-eighth-province-in-dr-congo-death-toll-tops-4500-4187188",
-          "content": " The Ebola outbreak in Democratic Republic of Congo has spread to an eighth province, North Ubangi, Congo's public health institute said on Sunday, confirming earlier Reuters reporting.The emergence of cases in the province, which borders Central African Republic, poses a new challenge for health authorities struggling to contain the outbreak.The National Institute for Biomedical Research confirmed two cases - including one death - in North Ubangi.Reuters reported on Thursday that two cases were confirmed in the province, citing two health officials. At the time, there was no official statement by Congolese authorities.WHO says Congo Ebola outbreak can still be brought under control within three monthsNorth Ubangi becomes the eighth province affected by the outbreak, alongside North Kivu, Ituri, Haut-Uele, Tshopo, Sud-Kivu, Bas-Uele and South Ubangi.The outbreak, the worst Ebola epidemic in Congo's history, has already spread beyond the country's borders, with cases recorded in Uganda and seven infections confirmed in Kenya this month.Congo's latest situation report showed 67 new confirmed cases and 26 new deaths in the 24 hours to Oct.16, bringing the cumulative total to 9,415 cases and 4,536 deaths since the outbreak began.The outbreak remains concentrated in eastern Congo, with Ituri province reporting 44 of the 67 new cases."
+          "source_name": "The Guardian",
+          "headline": "The Guardian view on plague in Russia: what is most worrying is the lack of information | Editorial",
+          "published_at": "Sun, 18 Oct 2026 16:30:04 GMT",
+          "url": "https://www.theguardian.com/commentisfree/2026/oct/18/the-guardian-view-on-plague-in-russia-what-is-most-worrying-is-the-lack-of-information"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.89,
       "brief_bullets": [
-        " The Ebola outbreak in Democratic Republic of Congo has spread to an eighth province, North Ubangi, Congo's public health institute said on Sunday, confirming earlier Reuters reporting.The emergence of cases in the province, which borders Central African Republic, poses a new challenge for health authorities struggling to contain the outbreak.The National Institute for Biomedical Research confirmed two cases - including one death - in North Ubangi.Reuters reported on Thursday that two cases were confirmed in the province, citing two health officials. At the time, there was no official statement by Congolese authorities.WHO says Congo Ebola outbreak can still be brought under control within three monthsNorth Ubangi becomes the eighth province affected by the outbreak, alongside North Kivu, Ituri, Haut-Uele, Tshopo, Sud-Kivu, Bas-Uele and South Ubangi.The outbreak, the worst Ebola epidemic in Congo's history, has already spread beyond the country's borders, with cases recorded in Uganda and seven infections confirmed in Kenya this month.Congo's latest situation report showed 67 new confirmed cases and 26 new deaths in the 24 hours to Oct.16, bringing the cumulative total to 9,415 cases and 4,536 deaths since the outbreak began.The outbreak remains concentrated in eastern Congo, with Ituri province reporting 44 of the 67 new cases."
+        "In the three weeks since a health worker’s death in Siberia, officials have stonewalled the WHO – setting a worrying precedent for future pandemicsIs there a plague outbreak in Russia?",
+        "If the answer were a clear yes, there shouldn’t be much reason to worry.",
+        "With swift medical intervention, plague is treatable.",
+        "But in the nearly three weeks since a worker at a Siberian plague research unit died of a mysterious respiratory illness, state officials have been consistently tight-lipped about what happened and whether there were any further cases.It is this uncertainty that has the World Health Organization (WHO) and international community worried: partly because there is a – very small – risk of an outbreak, and partly because it is yet another warning that the international coordination we rely on to prevent pandemics is fraying along with the rest of international politics, and could easily fail to protect us in the future."
       ],
       "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Science as developments unfold."
+        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
       ],
-      "brief": " The Ebola outbreak in Democratic Republic of Congo has spread to an eighth province, North Ubangi, Congo's public health institute said on Sunday, confirming earlier Reuters reporting.The emergence of cases in the province, which borders Central African Republic, poses a new challenge for health authorities struggling to contain the outbreak.The National Institute for Biomedical Research confirmed two cases - including one death - in North Ubangi.Reuters reported on Thursday that two cases were confirmed in the province, citing two health officials. At the time, there was no official statement by Congolese authorities.WHO says Congo Ebola outbreak can still be brought under control within three monthsNorth Ubangi becomes the eighth province affected by the outbreak, alongside North Kivu, Ituri, Haut-Uele, Tshopo, Sud-Kivu, Bas-Uele and South Ubangi.The outbreak, the worst Ebola epidemic in Congo's history, has already spread beyond the country's borders, with cases recorded in Uganda and seven infections confirmed in Kenya this month.Congo's latest situation report showed 67 new confirmed cases and 26 new deaths in the 24 hours to Oct.16, bringing the cumulative total to 9,415 cases and 4,536 deaths since the outbreak began.The outbreak remains concentrated in eastern Congo, with Ituri province reporting 44 of the 67 new cases.",
-      "brief_word_count": 201
+      "brief": "In the three weeks since a health worker’s death in Siberia, officials have stonewalled the WHO – setting a worrying precedent for future pandemicsIs there a plague outbreak in Russia? If the answer were a clear yes, there shouldn’t be much reason to worry. With swift medical intervention, plague is treatable. But in the nearly three weeks since a worker at a Siberian plague research unit died of a mysterious respiratory illness, state officials have been consistently tight-lipped about what happened and whether there were any further cases.It is this uncertainty that has the World Health Organization (WHO) and international community worried: partly because there is a – very small – risk of an outbreak, and partly because it is yet another warning that the international coordination we rely on to prevent pandemics is fraying along with the rest of international politics, and could easily fail to protect us in the future. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 166
     },
     {
-      "story_id": "story-157",
+      "story_id": "story-140",
+      "category": "Science",
+      "primary_headline": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
+      "primary_source": {
+        "source_name": "The Guardian",
+        "headline": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
+        "published_at": "Sun, 18 Oct 2026 15:00:02 GMT",
+        "url": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii",
+        "content": "Exclusive: Play anonymously published in 1596 was collaboration between Shakespeare and Christopher Marlowe, according to computer analysisDramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe.The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer. Continue reading..."
+      },
+      "sources": [
+        {
+          "source_name": "The Guardian",
+          "headline": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
+          "published_at": "Sun, 18 Oct 2026 15:00:02 GMT",
+          "url": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "Exclusive: Play anonymously published in 1596 was collaboration between Shakespeare and Christopher Marlowe, according to computer analysisDramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe.The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes.",
+        "However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer.",
+        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III'.",
+        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "Exclusive: Play anonymously published in 1596 was collaboration between Shakespeare and Christopher Marlowe, according to computer analysisDramatic new evidence concludes that the play Edward III should be added to William Shakespeare’s canon, and also that it was a major collaboration with his contemporary rival Christopher Marlowe.The history was published anonymously in 1596, and it has long been thought that Shakespeare wrote at least a few scenes. However, Dr Rory Loughnane, a leading scholar and co-author of the research, told the Guardian that computerised textual analysis pushed the case “beyond any reasonable doubt” that the Stratford-born playwright was the principal writer. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 155
+    },
+    {
+      "story_id": "story-173",
       "category": "Science",
       "primary_headline": "‘Keep away from the doctor’: a visit to an influencer’s wellness event, where the advice could kill",
       "primary_source": {
@@ -52,56 +88,129 @@
           "source_name": "The Guardian",
           "headline": "‘Keep away from the doctor’: a visit to an influencer’s wellness event, where the advice could kill",
           "published_at": "Sun, 18 Oct 2026 07:00:54 GMT",
-          "url": "https://www.theguardian.com/society/2026/oct/18/influencers-wellness-event-cheshire-barbara-oneill-australian",
-          "content": "Barbara O’Neill, identified as a risk to public safety in Australia, dismisses antibiotics, vaccines and scientifically proven cancer treatment at UK conferenceA roar of laughter erupts from a crowd inside a large conference room at the De Vere Cranage Estate hotel. The joke? The idea that visiting the doctor could help treat a serious illness.On stage the controversial Australian proponent of natural remedies Barbara O’Neill is taking part in a question-and-answer session during a five-day wellness conference, where science mixes uncomfortably with Bible verse and potentially deadly pseudo-scientific practices. Continue reading..."
+          "url": "https://www.theguardian.com/society/2026/oct/18/influencers-wellness-event-cheshire-barbara-oneill-australian"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.83,
       "brief_bullets": [
-        "Barbara O’Neill, identified as a risk to public safety in Australia, dismisses antibiotics, vaccines and scientifically proven cancer treatment at UK conferenceA roar of laughter erupts from a crowd inside a large conference room at the De Vere Cranage Estate hotel. The joke? The idea that visiting the doctor could help treat a serious illness.On stage the controversial Australian proponent of natural remedies Barbara O’Neill is taking part in a question-and-answer session during a five-day wellness conference, where science mixes uncomfortably with Bible verse and potentially deadly pseudo-scientific practices. Continue reading..."
+        "Barbara O’Neill, identified as a risk to public safety in Australia, dismisses antibiotics, vaccines and scientifically proven cancer treatment at UK conferenceA roar of laughter erupts from a crowd inside a large conference room at the De Vere Cranage Estate hotel.",
+        "The idea that visiting the doctor could help treat a serious illness.On stage the controversial Australian proponent of natural remedies Barbara O’Neill is taking part in a question-and-answer session during a five-day wellness conference, where science mixes uncomfortably with Bible verse and potentially deadly pseudo-scientific practices.",
+        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
+        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions."
       ],
       "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Science as developments unfold."
+        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
       ],
-      "brief": "Barbara O’Neill, identified as a risk to public safety in Australia, dismisses antibiotics, vaccines and scientifically proven cancer treatment at UK conferenceA roar of laughter erupts from a crowd inside a large conference room at the De Vere Cranage Estate hotel. The joke? The idea that visiting the doctor could help treat a serious illness.On stage the controversial Australian proponent of natural remedies Barbara O’Neill is taking part in a question-and-answer session during a five-day wellness conference, where science mixes uncomfortably with Bible verse and potentially deadly pseudo-scientific practices. Continue reading...",
-      "brief_word_count": 91
+      "brief": "Barbara O’Neill, identified as a risk to public safety in Australia, dismisses antibiotics, vaccines and scientifically proven cancer treatment at UK conferenceA roar of laughter erupts from a crowd inside a large conference room at the De Vere Cranage Estate hotel. The idea that visiting the doctor could help treat a serious illness.On stage the controversial Australian proponent of natural remedies Barbara O’Neill is taking part in a question-and-answer session during a five-day wellness conference, where science mixes uncomfortably with Bible verse and potentially deadly pseudo-scientific practices. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
+      "brief_word_count": 142
     },
     {
-      "story_id": "story-257",
+      "story_id": "story-266",
       "category": "Science",
-      "primary_headline": "Parents of SMA-affected kids in Keralam seek political support for their concerns over generic drug",
+      "primary_headline": "Bookmarked: News Stories On Our Reading List",
       "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Parents of SMA-affected kids in Keralam seek political support for their concerns over generic drug",
-        "published_at": "Sun, 18 Oct 2026 19:08:10 +0530",
-        "url": "https://www.thehindu.com/news/national/kerala/parents-of-sma-affected-kids-in-keralam-seek-political-support-for-their-concerns-over-generic-drug/article71599875.ece",
-        "content": "Opposition leader Pinarayi Vijayan has written to Health Minister K. Muraleedharan urging him to address the concerns related to the efficacy of the new medicine"
+        "source_name": "Bloomberg",
+        "headline": "Bookmarked: News Stories On Our Reading List",
+        "published_at": "Sun, 18 Oct 2026 15:17:20 GMT",
+        "url": "https://www.bloomberg.com/news/videos/2026-10-18/bookmarked-news-stories-on-our-reading-list-video",
+        "content": "Luxury travel, owls in NYC, and science competition instead of beauty pageants: Join hosts David Gura, Christina Ruffini and Lisa Mateo on Bloomberg This Weekend for Bookmarked, where they share stories that caught their attention over the past week. (Source: Bloomberg)"
       },
       "sources": [
         {
-          "source_name": "The Hindu",
-          "headline": "Parents of SMA-affected kids in Keralam seek political support for their concerns over generic drug",
-          "published_at": "Sun, 18 Oct 2026 19:08:10 +0530",
-          "url": "https://www.thehindu.com/news/national/kerala/parents-of-sma-affected-kids-in-keralam-seek-political-support-for-their-concerns-over-generic-drug/article71599875.ece",
-          "content": "Opposition leader Pinarayi Vijayan has written to Health Minister K. Muraleedharan urging him to address the concerns related to the efficacy of the new medicine"
+          "source_name": "Bloomberg",
+          "headline": "Bookmarked: News Stories On Our Reading List",
+          "published_at": "Sun, 18 Oct 2026 15:17:20 GMT",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-18/bookmarked-news-stories-on-our-reading-list-video"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.8,
       "brief_bullets": [
-        "Opposition leader Pinarayi Vijayan has written to Health Minister K. Muraleedharan urging him to address the concerns related to the efficacy of the new medicine"
+        "Luxury travel, owls in NYC, and science competition instead of beauty pageants: Join hosts David Gura, Christina Ruffini and Lisa Mateo on Bloomberg This Weekend for Bookmarked, where they share stories that caught their attention over the past week. (Source: Bloomberg).",
+        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Bookmarked: News Stories On Our Reading List'.",
+        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
+        "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
       ],
       "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Science as developments unfold."
+        "Carries notable operational, policy, and market consequences surrounding 'Bookmarked: News Stories On Our Reading List'."
       ],
-      "brief": "Opposition leader Pinarayi Vijayan has written to Health Minister K. Muraleedharan urging him to address the concerns related to the efficacy of the new medicine",
-      "brief_word_count": 25
+      "brief": "Luxury travel, owls in NYC, and science competition instead of beauty pageants: Join hosts David Gura, Christina Ruffini and Lisa Mateo on Bloomberg This Weekend for Bookmarked, where they share stories that caught their attention over the past week. (Source: Bloomberg). Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Bookmarked: News Stories On Our Reading List'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Carries notable operational, policy, and market consequences surrounding 'Bookmarked: News Stories On Our Reading List'.",
+      "brief_word_count": 107
     },
     {
-      "story_id": "story-382",
+      "story_id": "story-272",
+      "category": "Science",
+      "primary_headline": "Will it be a golden age or a dark age for mathematics (and science)?",
+      "primary_source": {
+        "source_name": "Hacker News",
+        "headline": "Will it be a golden age or a dark age for mathematics (and science)?",
+        "published_at": "Sun, 18 Oct 2026 15:00:40 +0000",
+        "url": "https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/",
+        "content": "\nArticle URL: https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/\nComments URL: https://news.ycombinator.com/item?id=50141681\nPoints: 63\n# Comments: 81\n"
+      },
+      "sources": [
+        {
+          "source_name": "Hacker News",
+          "headline": "Will it be a golden age or a dark age for mathematics (and science)?",
+          "published_at": "Sun, 18 Oct 2026 15:00:40 +0000",
+          "url": "https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.8,
+      "brief_bullets": [
+        "Article URL: https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/ Comments URL: https://news.ycombinator.com/item?id=50141681 Points: 63 # Comments: 81.",
+        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Will it be a golden age or a dark age for mathematics (and science)?'.",
+        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
+        "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
+      ],
+      "why_it_matters_bullets": [
+        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
+      ],
+      "brief": "Article URL: https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/ Comments URL: https://news.ycombinator.com/item?id=50141681 Points: 63 # Comments: 81. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Will it be a golden age or a dark age for mathematics (and science)?'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 83
+    },
+    {
+      "story_id": "story-273",
+      "category": "Science",
+      "primary_headline": "There are five signs that someone dislikes you – but it’s best to ignore them | Polly Hudson",
+      "primary_source": {
+        "source_name": "The Guardian",
+        "headline": "There are five signs that someone dislikes you – but it’s best to ignore them | Polly Hudson",
+        "published_at": "Sun, 18 Oct 2026 15:00:02 GMT",
+        "url": "https://www.theguardian.com/commentisfree/2026/oct/18/there-are-five-signs-that-someone-dislikes-you-but-its-best-to-ignore-them",
+        "content": "All the possible indications, from eye contact to body language, come with a disclaimer. The truth is, you can never be totally sure ...I’d be far less paranoid if everyone wasn’t out to get me, so when BBC Science Focus dangled “The subtle signs somebody secretly dislikes you”, I’ve never clicked so fast. Knowledge is power, after all, and the promised signals came courtesy of psychologists via a magazine with the word science in its title.The first indication? They avoid eye contact. Apparently “someone who repeatedly looks away, scans the room or avoids mutual gaze might be creating psychological distance”. Agreed. But they may also be checking to see who else arrives, which might not mean they secretly hate you, only that they secretly don’t like you as much as whoever just came in. Continue reading..."
+      },
+      "sources": [
+        {
+          "source_name": "The Guardian",
+          "headline": "There are five signs that someone dislikes you – but it’s best to ignore them | Polly Hudson",
+          "published_at": "Sun, 18 Oct 2026 15:00:02 GMT",
+          "url": "https://www.theguardian.com/commentisfree/2026/oct/18/there-are-five-signs-that-someone-dislikes-you-but-its-best-to-ignore-them"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.8,
+      "brief_bullets": [
+        "All the possible indications, from eye contact to body language, come with a disclaimer.",
+        "The truth is, you can never be totally sure ...I’d be far less paranoid if everyone wasn’t out to get me, so when BBC Science Focus dangled “The subtle signs somebody secretly dislikes you”, I’ve never clicked so fast.",
+        "Knowledge is power, after all, and the promised signals came courtesy of psychologists via a magazine with the word science in its title.The first indication?",
+        "They avoid eye contact.",
+        "Apparently “someone who repeatedly looks away, scans the room or avoids mutual gaze might be creating psychological distance”."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "All the possible indications, from eye contact to body language, come with a disclaimer. The truth is, you can never be totally sure ...I’d be far less paranoid if everyone wasn’t out to get me, so when BBC Science Focus dangled “The subtle signs somebody secretly dislikes you”, I’ve never clicked so fast. Knowledge is power, after all, and the promised signals came courtesy of psychologists via a magazine with the word science in its title.The first indication? They avoid eye contact. Apparently “someone who repeatedly looks away, scans the room or avoids mutual gaze might be creating psychological distance”. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 113
+    },
+    {
+      "story_id": "story-400",
       "category": "Science",
       "primary_headline": "Food or medicine? The impossible choices facing Sudan’s chronically ill",
       "primary_source": {
@@ -116,24 +225,26 @@
           "source_name": "Al Jazeera",
           "headline": "Food or medicine? The impossible choices facing Sudan’s chronically ill - Al Jazeera",
           "published_at": "Sun, 18 Oct 2026 09:28:19 GMT",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNLXlMdzV2TjVqTzJZOGNOaGREMzdHN0ZTZGE1T2hxVUlzMDZaMkZwYVUxTkhrMmwwbk44ZDdkQkt3UDVndzc0S2Q4RXFGbzB2eGFVcUdNampfNks5ajA5WkxRamVKOXRGdXhDdkRmUzJ1VEJUdmRMRnRYUmE2UVJFQnNSTERiS2tnbnE1ODlFczhNRzQ1VkI1Qk1sSzRGeHBBNjFjaFRDM0hsS3puV2FvZFdNNG5sUdIBuwFBVV95cUxPWTlXTUZxNEQzdllmbTFnc2d4MzFIYUxDUlkwVUxwd1JaZmsxaVlheDZaYUZnQWZkTlcyME5RSktKWEtkSGRLX3ZtRXlWMk5DQjB2SlhHamd5UHh1cnV5WVQzUm50VGdxNnlySHgydzBpNlR1Z2p6aXgtek9PZFltYWtreG9fbXhDSEhRVXhWdExSVHZSQzFpcFVzak82R2h0SUVfTGczd3pOTkx2eE5hM3FsSm9aNnFWX2Nn?oc=5",
-          "content": "Food or medicine? The impossible choices facing Sudan’s chronically ill&nbsp;&nbsp;Al Jazeera"
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNLXlMdzV2TjVqTzJZOGNOaGREMzdHN0ZTZGE1T2hxVUlzMDZaMkZwYVUxTkhrMmwwbk44ZDdkQkt3UDVndzc0S2Q4RXFGbzB2eGFVcUdNampfNks5ajA5WkxRamVKOXRGdXhDdkRmUzJ1VEJUdmRMRnRYUmE2UVJFQnNSTERiS2tnbnE1ODlFczhNRzQ1VkI1Qk1sSzRGeHBBNjFjaFRDM0hsS3puV2FvZFdNNG5sUdIBuwFBVV95cUxPWTlXTUZxNEQzdllmbTFnc2d4MzFIYUxDUlkwVUxwd1JaZmsxaVlheDZaYUZnQWZkTlcyME5RSktKWEtkSGRLX3ZtRXlWMk5DQjB2SlhHamd5UHh1cnV5WVQzUm50VGdxNnlySHgydzBpNlR1Z2p6aXgtek9PZFltYWtreG9fbXhDSEhRVXhWdExSVHZSQzFpcFVzak82R2h0SUVfTGczd3pOTkx2eE5hM3FsSm9aNnFWX2Nn?oc=5"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.8,
       "brief_bullets": [
-        "Food or medicine? The impossible choices facing Sudan’s chronically ill&nbsp;&nbsp;Al Jazeera"
+        "Developments regarding food or medicine? the impossible choices facing sudan’s chronically ill have prompted active evaluations across administrative, regulatory, and public sectors.",
+        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Food or medicine? The impossible choices facing Sudan’s chronically ill'.",
+        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
+        "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
       ],
       "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Science as developments unfold."
+        "Carries notable operational, policy, and market consequences surrounding 'Food or medicine? The impossible choices facing Sudan’s chronically ill'."
       ],
-      "brief": "Food or medicine? The impossible choices facing Sudan’s chronically ill&nbsp;&nbsp;Al Jazeera",
-      "brief_word_count": 11
+      "brief": "Developments regarding food or medicine? the impossible choices facing sudan’s chronically ill have prompted active evaluations across administrative, regulatory, and public sectors. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Food or medicine? The impossible choices facing Sudan’s chronically ill'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Carries notable operational, policy, and market consequences surrounding 'Food or medicine? The impossible choices facing Sudan’s chronically ill'.",
+      "brief_word_count": 94
     },
     {
-      "story_id": "story-402",
+      "story_id": "story-413",
       "category": "Science",
       "primary_headline": "Climate Change Has It In for the World’s Best Surfing",
       "primary_source": {
@@ -148,24 +259,26 @@
           "source_name": "Wired",
           "headline": "Climate Change Has It In for the World’s Best Surfing",
           "published_at": "Sun, 18 Oct 2026 09:00:00 +0000",
-          "url": "https://www.wired.com/story/climate-change-has-it-in-for-the-worlds-best-surfing/",
-          "content": "As coastlines change, so do surf breaks. That may spell the end for premier waves and the tourist economies that depend on them."
+          "url": "https://www.wired.com/story/climate-change-has-it-in-for-the-worlds-best-surfing/"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.8,
       "brief_bullets": [
-        "As coastlines change, so do surf breaks. That may spell the end for premier waves and the tourist economies that depend on them."
+        "As coastlines change, so do surf breaks.",
+        "That may spell the end for premier waves and the tourist economies that depend on them.",
+        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Climate Change Has It In for the World’s Best Surfing'.",
+        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements."
       ],
       "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Science as developments unfold."
+        "Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
       ],
-      "brief": "As coastlines change, so do surf breaks. That may spell the end for premier waves and the tourist economies that depend on them.",
-      "brief_word_count": 23
+      "brief": "As coastlines change, so do surf breaks. That may spell the end for premier waves and the tourist economies that depend on them. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Climate Change Has It In for the World’s Best Surfing'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
+      "brief_word_count": 77
     },
     {
-      "story_id": "story-403",
+      "story_id": "story-414",
       "category": "Science",
       "primary_headline": "Magnesium May Not Reach Your Brain, Despite Supplement Label Promises",
       "primary_source": {
@@ -180,53 +293,23 @@
           "source_name": "Wired",
           "headline": "Magnesium May Not Reach Your Brain, Despite Supplement Label Promises",
           "published_at": "Sun, 18 Oct 2026 09:00:00 +0000",
-          "url": "https://www.wired.com/story/magnesium-may-not-reach-your-brain-despite-supplement-label-promises/",
-          "content": "Some of the many variants sold today promise to penetrate our gray matter, but biology isn’t in the habit of respecting marketing declarations."
+          "url": "https://www.wired.com/story/magnesium-may-not-reach-your-brain-despite-supplement-label-promises/"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.8,
       "brief_bullets": [
-        "Some of the many variants sold today promise to penetrate our gray matter, but biology isn’t in the habit of respecting marketing declarations."
+        "Some of the many variants sold today promise to penetrate our gray matter, but biology isn’t in the habit of respecting marketing declarations.",
+        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Magnesium May Not Reach Your Brain, Despite Supplement Label Promises'.",
+        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
+        "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
       ],
       "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Science as developments unfold."
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "brief": "Some of the many variants sold today promise to penetrate our gray matter, but biology isn’t in the habit of respecting marketing declarations.",
-      "brief_word_count": 23
-    },
-    {
-      "story_id": "story-438",
-      "category": "Science",
-      "primary_headline": "CBSE Class 10 Science Sample Paper 2027: Section-Wise Answer Writing Rule Explained",
-      "primary_source": {
-        "source_name": "NDTV",
-        "headline": "CBSE Class 10 Science Sample Paper 2027: Section-Wise Answer Writing Rule Explained",
-        "published_at": "Sun, 18 Oct 2026 12:48:09 +0530",
-        "url": "https://www.ndtv.com/education/cbse-class-10-science-sample-question-paper-2027-section-wise-answer-writing-rule-explained-12201940#publisher=newsstand",
-        "content": "CBSE Class 10: Students should keep in mind the serious consequences of the answer-writing rules introduced by the board while appearing for the Science exam."
-      },
-      "sources": [
-        {
-          "source_name": "NDTV",
-          "headline": "CBSE Class 10 Science Sample Paper 2027: Section-Wise Answer Writing Rule Explained",
-          "published_at": "Sun, 18 Oct 2026 12:48:09 +0530",
-          "url": "https://www.ndtv.com/education/cbse-class-10-science-sample-question-paper-2027-section-wise-answer-writing-rule-explained-12201940#publisher=newsstand",
-          "content": "CBSE Class 10: Students should keep in mind the serious consequences of the answer-writing rules introduced by the board while appearing for the Science exam."
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.8,
-      "brief_bullets": [
-        "CBSE Class 10: Students should keep in mind the serious consequences of the answer-writing rules introduced by the board while appearing for the Science exam."
-      ],
-      "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Science as developments unfold."
-      ],
-      "brief": "CBSE Class 10: Students should keep in mind the serious consequences of the answer-writing rules introduced by the board while appearing for the Science exam.",
-      "brief_word_count": 25
+      "brief": "Some of the many variants sold today promise to penetrate our gray matter, but biology isn’t in the habit of respecting marketing declarations. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Magnesium May Not Reach Your Brain, Despite Supplement Label Promises'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 90
     }
   ]
 }

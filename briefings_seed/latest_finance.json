@@ -1,11 +1,163 @@
 {
   "id": "latest",
   "category": "finance",
-  "timestamp": "2026-10-18T14:26:12.623336+00:00",
+  "timestamp": "2026-10-18T16:54:30.050994+00:00",
   "articlesCount": 20,
   "stories": [
     {
-      "story_id": "story-17",
+      "story_id": "story-9",
+      "category": "Finance",
+      "primary_headline": "Skies over St. Petersburg ignite after Ukraine strikes oil sites",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Skies over St. Petersburg ignite after Ukraine strikes oil sites - Reuters",
+        "published_at": "Sun, 18 Oct 2026 16:21:40 GMT",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05ZUdLTlMzZUFKUENWdTE1NzFEQk92N0FvQmFGaXNfTEUza2wtQXJfNVVZVzVpZUUtRDZVbXdEWHJIS2NqN1N5bnR2Mmc5UzAxSVFSazBMU3ZQRDJ5elBqSm1LallHd0pmQU41V3RObHRBOUJH?oc=5",
+        "content": "Skies over St. Petersburg ignite after Ukraine strikes oil sites&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Skies over St. Petersburg ignite after Ukraine strikes oil sites - Reuters",
+          "published_at": "Sun, 18 Oct 2026 16:21:40 GMT",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05ZUdLTlMzZUFKUENWdTE1NzFEQk92N0FvQmFGaXNfTEUza2wtQXJfNVVZVzVpZUUtRDZVbXdEWHJIS2NqN1N5bnR2Mmc5UzAxSVFSazBMU3ZQRDJ5elBqSm1LallHd0pmQU41V3RObHRBOUJH?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "St Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia - AP News",
+          "published_at": "Sun, 18 Oct 2026 15:33:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPb0JsZHhVNVNkaUhpSndSUTRqNjBFN2dpaktfTUZ4dWxBTkxzQ3I1LW5CRlBQNnR3UmJ5R0JzWGFaenZ5TDg3Qkt2bC05cmpYTlAwZkRSRjBoYlN1elkwelNDNmhPbkhhV1BDT05fWm96V3oxbk5YN09nUkQ2VzlvbTR1YV81Zl9wdzU5WEU1UXN3STc0ZHJlUnhiWUc2dUk?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region - Reuters",
+          "published_at": "Sun, 18 Oct 2026 11:17:23 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORkdkNk9DVENGZU50OHVsbHF4Z3ZWbnBxcHVqaDJSa1JEWXZ5aFVqbTQwWmwzUGpvZUJsTUFzSnZHd2laVHpqd05XaF9KM2YxdUNUSVV0YUp1SFVKbTBRVHNzcVc0ek84cTY5TTVmZGhPbnhzMVJiejFXaDdXV3pBcTZYeEI3QkZrNDlOOWllWFk3ejFfMVdVd3lQUGJMeXBhNW5xTjZJQnBINTVSTjVDUnZKSm1laDdKaEE3eGdoSUtaQQ?oc=5"
+        },
+        {
+          "source_name": "BBC News",
+          "headline": "Oil facilities hit in deadly overnight attack on St Petersburg",
+          "published_at": "Sun, 18 Oct 2026 15:46:10 GMT",
+          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Ukraine Fires 1,000 Drones At Russia, St Petersburg Oil Sites Ablaze",
+          "published_at": "Sun, 18 Oct 2026 17:00:19 +0530",
+          "url": "https://www.ndtv.com/world-news/ukraine-fires-1-000-drones-at-russia-st-petersburg-oil-sites-ablaze-12202700#publisher=newsstand"
+        }
+      ],
+      "source_count": 5,
+      "total_count": 6,
+      "combined_score": 4.45,
+      "brief_bullets": [
+        "St Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia AP News One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook.",
+        "The attack comes amid deepening tensions between Ukraine and Washington, with U.S.",
+        "President Donald Trump criticizing Kyiv for its strikes on Russian oil infrastructure.",
+        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events."
+      ],
+      "why_it_matters_bullets": [
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+      ],
+      "brief": "St Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia AP News One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook. The attack comes amid deepening tensions between Ukraine and Washington, with U.S. President Donald Trump criticizing Kyiv for its strikes on Russian oil infrastructure. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 115
+    },
+    {
+      "story_id": "story-23",
+      "category": "Finance",
+      "primary_headline": "Anti-CEC stir | Delhi Police registers cases, arrests 5 persons over attacks on protesters",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "Anti-CEC stir | Delhi Police registers cases, arrests 5 persons over attacks on protesters",
+        "published_at": "Sun, 18 Oct 2026 14:26:40 +0000",
+        "url": "https://www.deccanherald.com/india/delhi/anti-cec-stir-delhi-police-registers-cases-arrests-5-persons-over-attacks-on-protesters-4187332",
+        "content": " New Delhi: Delhi Police has registered at least 10 FIRs and arrested five people in connection with alleged harassment and assaults on protesters demanding the resignation of Chief Election Commissioner Gyanesh Kumar, with several social media posts accusing right-wing activists of targeting demonstrators, officials said on Sunday.The cases were registered between October 11 and 14 at Connaught Place and Kamla Market police stations after videos and posts highlighting alleged attacks on protesters circulated on social media.At least five people have been arrested in two separate cases, a senior police officer said.According to the police, an FIR was registered at Connaught Place police station on October 13 in connection with an incident flagged through social media handles.Delhi Police registers four FIRs against 'rumour-mongers', Pak social media handles under scannerGaurav was arrested in the case, while efforts are underway to trace his alleged accomplices.A group of men was seen assaulting a protester while daring others to call them \"cockroaches\". One of the men was also heard threatening to beat up anyone who spoke against the prime minister or the police.In another case, registered at Kamla Market police station on October 11, four people were arrested after a video purportedly showing individuals harassing and assaulting protesters went viral.Police took suo motu cognisance of the incident and initiated legal action against those allegedly involved.The list of cases also includes multiple FIRs registered at Connaught Place police station on October 13 and 14 over incidents highlighted in social media posts and videos. Police are examining CCTV footage to identify those involved, establish the sequence of events and determine the roles of the suspected accused.EC-SIR row: Delhi Police take down 300 social media for spreading 'rumours'Several social media posts have alleged that right-wing activists assaulted or harassed protesters during the demonstrations.The footage and allegations are being examined by police as they work to identify the people involved and establish the circumstances surrounding the incidents.The police action comes amid a wider scrutiny of online content related to the protests, with authorities also investigating posts allegedly circulating misinformation, rumours and fabricated videos.Some social media accounts have shared claims of police brutality against demonstrators, which investigators are examining to establish their authenticity.In one of the cases, police have sought information from social media platform X to identify a user accused of uploading videos that they suspect were fabricated and circulated to disrupt public order.Police have identified more than 37 social media accounts, including over 17 allegedly linked to right-wing groups, for purportedly circulating misleading content related to the protests, a source in the police said.Takedown notices have been issued to more than 17 handles, including those linked to right-wing groups, and action has been initiated under relevant provisions of the Information Technology Act and other laws for allegedly inciting people and disrupting law and order, they said.Some right-wing accounts allegedly shared posts and reels targeting protesters and presenting the demonstrations in a misleading manner, while other users circulated videos purportedly showing police brutality against demonstrators.Investigators are examining the content to verify its authenticity and identify those responsible, the officials added.The protests in the national capital have been organised over demands for Kumar's resignation and a rollback of the SIR exercise. Further investigation in the cases is underway."
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Anti-CEC stir | Delhi Police registers cases, arrests 5 persons over attacks on protesters",
+          "published_at": "Sun, 18 Oct 2026 14:26:40 +0000",
+          "url": "https://www.deccanherald.com/india/delhi/anti-cec-stir-delhi-police-registers-cases-arrests-5-persons-over-attacks-on-protesters-4187332"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Anti-CEC stir: Police grant permission for Congress Nov 1 rally at Ramlila Maidan",
+          "published_at": "Sun, 18 Oct 2026 02:36:07 +0000",
+          "url": "https://indianexpress.com/article/delhi/congress-rally-ramlila-maidan-november-1-sir-cec-gyanesh-kumar-protest-india-bloc-cjp-10926404/"
+        },
+        {
+          "source_name": "The Print",
+          "headline": "Photos of the Week: Kolkata reels after pandal stampede kills 19, protests against CEC sweep Delhi - ThePrint",
+          "published_at": "Sun, 18 Oct 2026 11:53:01 GMT",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPaEJvZHFKc1hWblFIVlFBamJFNlhocVludFFDMk95ZDFoQk5fMjR3ZjE5THFNdUtNTTJYYlhCMENMV3BZWkdvMkJqYlUxZVZ5RUxuam1YYkR4ZUhfdjdtbEdvblJlZGd5ZVJVZTZJRDNVaUh4Z3l5VEJfVlNoTjF0U1VZZnV6VEVheWlRbFZfOVNtYUZoYnRMWW5weDBsT3c4MVRteGhDemJjUTRQMjhLejk5ajFUbXVPRmdVU0kyemFsTDRwVS1GMkFmTGVLdlh2Q0ZF0gHYAUFVX3lxTE1QWkYyZFBiMjZOVjc4ZHgtNktJaEhPbC1hQ19QWFNiYl8tSjNzYVJwVV9saHZaUnp3b2NDV0FIT2ItMkdZVTBFVEptUndZb1MycnNrY005UXRlcjI5YWpLQXpLYy1VemJFQjQwYmdTeUNUT1N1M183WEVJTndvSXhTRy11ZHNLUEJvSFJZNm9aUmVJRlktRHUtdF9XWGd4U0tJYUFESUtCZ1BsTzc2OGtlRGNKT0xaR19PeUI5SVFPMXZ4VTdFVTFrMVBodmFmOE9YOHBhQkVreQ?oc=5"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 3,
+      "combined_score": 2.43,
+      "brief_bullets": [
+        "New Delhi: Delhi Police has registered at least 10 FIRs and arrested five people in connection with alleged harassment and assaults on protesters demanding the resignation of Chief Election Commissioner Gyanesh Kumar, with several social media posts accusing right-wing activists of targeting demonstrators, officials said on Sunday.The cases were registered between October 11 and 14 at Connaught Place and Kamla Market police stations after videos and posts highlighting alleged attacks on protesters circulated on social media.At least five people have been arrested in two separate cases, a senior police officer said.According to the police, an FIR was registered at Connaught Place police station on October 13 in connection with an incident flagged through social media handles.Delhi Police registers four FIRs against 'rumour-mongers', Pak social media handles under scannerGaurav was arrested in the case, while efforts are underway to trace his alleged accomplices.A group of men was seen assaulting a protester while daring others to call them \"cockroaches\".",
+        "One of the men was also heard threatening to beat up anyone who spoke against the prime minister or the police.In another case, registered at Kamla Market police station on October 11, four people were arrested after a video purportedly showing individuals harassing and assaulting protesters went viral.Police took suo motu cognisance of the incident and initiated legal action against those allegedly involved.The list of cases also includes multiple FIRs registered at Connaught Place police station on October 13 and 14 over incidents highlighted in social media posts and videos.",
+        "Police are examining CCTV footage to identify those involved, establish the sequence of events and determine the roles of the suspected accused.EC-SIR row: Delhi Police take down 300 social media for spreading 'rumours'Several social media posts have alleged that right-wing activists assaulted or harassed protesters during the demonstrations.The footage and allegations are being examined by police as they work to identify the people involved and establish the circumstances surrounding the incidents.The police action comes amid a wider scrutiny of online content related to the protests, with authorities also investigating posts allegedly circulating misinformation, rumours and fabricated videos.Some social media accounts have shared claims of police brutality against demonstrators, which investigators are examining to establish their authenticity.In one of the cases, police have sought information from social media platform X to identify a user accused of uploading videos that they suspect were fabricated and circulated to disrupt public order.Police have identified more than 37 social media accounts, including over 17 allegedly linked to right-wing groups, for purportedly circulating misleading content related to the protests, a source in the police said.Takedown notices have been issued to more than 17 handles, including those linked to right-wing groups, and action has been initiated under relevant provisions of the Information Technology Act and other laws for allegedly inciting people and disrupting law and order, they said.Some right-wing accounts allegedly shared posts and reels targeting protesters and presenting the demonstrations in a misleading manner, while other users circulated videos purportedly showing police brutality against demonstrators.Investigators are examining the content to verify its authenticity and identify those responsible, the officials added.The protests in the national capital have been organised over demands for Kumar's resignation and a rollback of the SIR exercise.",
+        "Further investigation in the cases is underway.",
+        "Anti-CEC stir: Police grant permission for Congress Nov 1 rally at Ramlila Maidan Photos of the Week: Kolkata reels after pandal stampede kills 19, protests against CEC sweep Delhi ThePrint."
+      ],
+      "why_it_matters_bullets": [
+        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
+      ],
+      "brief": "New Delhi: Delhi Police has registered at least 10 FIRs and arrested five people in connection with alleged harassment and assaults on protesters demanding the resignation of Chief Election Commissioner Gyanesh Kumar, with several social media posts accusing right-wing activists of targeting demonstrators, officials said on Sunday.The cases were registered between October 11 and 14 at Connaught Place and Kamla Market police stations after videos and posts highlighting alleged attacks on protesters circulated on social media.At least five people have been arrested in two separate cases, a senior police officer said.According to the police, an FIR was registered at Connaught Place police station on October 13 in connection with an incident flagged through social media handles.Delhi Police registers four FIRs against 'rumour-mongers', Pak social media handles under scannerGaurav was arrested in the case, while efforts are underway to trace his alleged accomplices.A group of men was seen assaulting a protester while daring others to call them \"cockroaches\". One of the men was also heard threatening to beat up anyone who spoke against the prime minister or the police.In another case, registered at Kamla Market police station on October 11, four people were arrested after a video purportedly showing individuals harassing and assaulting protesters went viral.Police took suo motu cognisance of the incident and initiated legal action against those allegedly involved.The list of cases also includes multiple FIRs registered at Connaught Place police station on October 13 and 14 over incidents highlighted in social media posts and videos. Police are examining CCTV footage to identify those involved, establish the sequence of events and determine the roles of the suspected accused.EC-SIR row: Delhi Police take down 300 social media for spreading 'rumours'Several social media posts have alleged that right-wing activists assaulted or harassed protesters during the demonstrations.The footage and allegations are being examined by police as they work to identify the people involved and establish the circumstances surrounding the incidents.The police action comes amid a wider scrutiny of online content related to the protests, with authorities also investigating posts allegedly circulating misinformation, rumours and fabricated videos.Some social media accounts have shared claims of police brutality against demonstrators, which investigators are examining to establish their authenticity.In one of the cases, police have sought information from social media platform X to identify a user accused of uploading videos that they suspect were fabricated and circulated to disrupt public order.Police have identified more than 37 social media accounts, including over 17 allegedly linked to right-wing groups, for purportedly circulating misleading content related to the protests, a source in the police said.Takedown notices have been issued to more than 17 handles, including those linked to right-wing groups, and action has been initiated under relevant provisions of the Information Technology Act and other laws for allegedly inciting people and disrupting law and order, they said.Some right-wing accounts allegedly shared posts and reels targeting protesters and presenting the demonstrations in a misleading manner, while other users circulated videos purportedly showing police brutality against demonstrators.Investigators are examining the content to verify its authenticity and identify those responsible, the officials added.The protests in the national capital have been organised over demands for Kumar's resignation and a rollback of the SIR exercise. Further investigation in the cases is underway. Anti-CEC stir: Police grant permission for Congress Nov 1 rally at Ramlila Maidan Photos of the Week: Kolkata reels after pandal stampede kills 19, protests against CEC sweep Delhi ThePrint. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
+      "brief_word_count": 582
+    },
+    {
+      "story_id": "story-26",
+      "category": "Finance",
+      "primary_headline": "India widens cancer drug price caps, lowering prices of 137 medicines",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "India widens cancer drug price caps, lowering prices of 137 medicines - Reuters",
+        "published_at": "Sun, 18 Oct 2026 11:27:03 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNYkkwM0RDdmdmQ1ktLWJBS05mMmp0SmNveGE5ZGRVWmNaYVA1czQwVEpSTGF0aXRSSVpYaGNYZ2tVVVVtN3Q0VUpqS1cxaVVMd3hUNkxPVEdhN2xfeHU3VjhuTkVoSlVJWDYxSXpSMkNiNUVOMGU2VUhWUTdBZUhzeUpidFhUTkhpZVFOOVRmYUV6alA3TC1BMTdYR2lJYktuZUI2UVZGMm5Wajg0MmNfMTg4NzJqeXVhVmpwNkVmbEpKbmhiUEJKUWQ4aTA3cmJTR0FR?oc=5",
+        "content": "India widens cancer drug price caps, lowering prices of 137 medicines&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "India widens cancer drug price caps, lowering prices of 137 medicines - Reuters",
+          "published_at": "Sun, 18 Oct 2026 11:27:03 GMT",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNYkkwM0RDdmdmQ1ktLWJBS05mMmp0SmNveGE5ZGRVWmNaYVA1czQwVEpSTGF0aXRSSVpYaGNYZ2tVVVVtN3Q0VUpqS1cxaVVMd3hUNkxPVEdhN2xfeHU3VjhuTkVoSlVJWDYxSXpSMkNiNUVOMGU2VUhWUTdBZUhzeUpidFhUTkhpZVFOOVRmYUV6alA3TC1BMTdYR2lJYktuZUI2UVZGMm5Wajg0MmNfMTg4NzJqeXVhVmpwNkVmbEpKbmhiUEJKUWQ4aTA3cmJTR0FR?oc=5"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Explained | Govt caps trade margins on 137 cancer drugs at 30%: NPPA",
+          "published_at": "Sun, 18 Oct 2026 12:30:51 +0000",
+          "url": "https://www.deccanherald.com/health/healthcare/explainedgovt-caps-trade-margins-on-137-cancer-drugs-at-30-nppa-4187230"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Government caps trade margins on 137 anti-cancer drugs at 30%",
+          "published_at": "Sat, 17 Oct 2026 23:49:47 +0000",
+          "url": "https://indianexpress.com/article/india/government-caps-trade-margins-anti-cancer-drugs-10926290/"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 3,
+      "combined_score": 2.4,
+      "brief_bullets": [
+        "The Ministry of Chemicals and Fertilisers has announced a price cap of 30 per cent on the trade margins of 137 cancer medicines, over the cost of the drug at the first point, either to a stockist/distributor or the hospital.",
+        "These margins will apply when the drugs are sold directly to them by a manufacturer.&nbsp;The National Pharmaceutical Pricing Authority (NPPA), in an order dated October 17, has directed manufacturers to submit the revised MRP within seven days. \"The revised prices shall come into effect from November 9,\" the gazette notification stated.&nbsp;Impact on cancer drug pricesAn analysis of pharmaceutical market data indicates that non-scheduled anti-cancer drugs carry an average trade mark-up of approximately 170 per cent, with mark-ups of up to 700 per cent in certain cases, according to an NPPA meeting conducted earlier.",
+        "This order is expected to reduce the MRP of non-scheduled anti-cancer drugs by 70 per cent, depending on their current price structures.&nbsp;The 137 identified non-scheduled anti-cancer drugs include immunotherapy drugs used for treating over 20 types of cancers, denosumab used by breast and prostate cancer patients, pegfilgrastim, which is used to prevent neutropenia in cancer patients and bevacizumab, which is the approved drug to treat colon, ovarian, and cervical cancer.",
+        "With this notification, MRP of widely used anti-cancer drugs such as pembrolizumab, durvalumab and osimertinib is expected to become more accessible for cancer patients.Anti-cancer drug prices to come down as govt caps trade margins at 30%Centre caps trade margins on cancer medicines at 30% of MRPMarket overview: scheduled vs non-scheduled drugsCurrently, the anti-cancer drugs market comprises nearly 225 drugs and 500 formulations, with an annual turnover of around Rs 12,500 crore.",
+        "Of this, scheduled cancer drugs that come under price control account for approximately Rs 2,250 crore, with the balance comprising non-scheduled drugs.To ensure that these life-saving medicines remain available, manufacturers of non-scheduled anti-cancer drugs will be required to maintain their current production levels."
+      ],
+      "why_it_matters_bullets": [
+        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
+      ],
+      "brief": "The Ministry of Chemicals and Fertilisers has announced a price cap of 30 per cent on the trade margins of 137 cancer medicines, over the cost of the drug at the first point, either to a stockist/distributor or the hospital. These margins will apply when the drugs are sold directly to them by a manufacturer.&nbsp;The National Pharmaceutical Pricing Authority (NPPA), in an order dated October 17, has directed manufacturers to submit the revised MRP within seven days. \"The revised prices shall come into effect from November 9,\" the gazette notification stated.&nbsp;Impact on cancer drug pricesAn analysis of pharmaceutical market data indicates that non-scheduled anti-cancer drugs carry an average trade mark-up of approximately 170 per cent, with mark-ups of up to 700 per cent in certain cases, according to an NPPA meeting conducted earlier. This order is expected to reduce the MRP of non-scheduled anti-cancer drugs by 70 per cent, depending on their current price structures.&nbsp;The 137 identified non-scheduled anti-cancer drugs include immunotherapy drugs used for treating over 20 types of cancers, denosumab used by breast and prostate cancer patients, pegfilgrastim, which is used to prevent neutropenia in cancer patients and bevacizumab, which is the approved drug to treat colon, ovarian, and cervical cancer. With this notification, MRP of widely used anti-cancer drugs such as pembrolizumab, durvalumab and osimertinib is expected to become more accessible for cancer patients.Anti-cancer drug prices to come down as govt caps trade margins at 30%Centre caps trade margins on cancer medicines at 30% of MRPMarket overview: scheduled vs non-scheduled drugsCurrently, the anti-cancer drugs market comprises nearly 225 drugs and 500 formulations, with an annual turnover of around Rs 12,500 crore. Of this, scheduled cancer drugs that come under price control account for approximately Rs 2,250 crore, with the balance comprising non-scheduled drugs.To ensure that these life-saving medicines remain available, manufacturers of non-scheduled anti-cancer drugs will be required to maintain their current production levels. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
+      "brief_word_count": 330
+    },
+    {
+      "story_id": "story-42",
       "category": "Finance",
       "primary_headline": "DH Evening Brief | Seven, including organisers, arrested in Kolkata pandal stampede; India bars sugarcane-based ethanol from 2026-27 procurement tender to safeguard sugar supplies",
       "primary_source": {
@@ -20,254 +172,216 @@
           "source_name": "Deccan Herald",
           "headline": "DH Evening Brief | Seven, including organisers, arrested in Kolkata pandal stampede; India bars sugarcane-based ethanol from 2026-27 procurement tender to safeguard sugar supplies",
           "published_at": "Sun, 18 Oct 2026 13:28:32 +0000",
-          "url": "https://www.deccanherald.com/india/dh-evening-brief-seven-including-organisers-arrested-in-kolkata-pandal-stampede-india-bars-sugarcane-based-ethanol-from-2026-27-procurement-tender-to-safeguard-sugar-supplies-4187291",
-          "content": " Kolkata pandal stampede: Seven, including Chorbagan Durga Puja organisers, arrestedKolkata Police have arrested seven people, including organisers of Chorbagan Durga Puja, for the pandal stampede that killed at least 19 people.Read moreIndia bars sugarcane-based ethanol from 2026-27 procurement tender to safeguard sugar suppliesState-run oil marketing companies have excluded ethanol produced from sugarcane juice, sugar syrup and B-heavy molasses from their latest procurement tender for the 2026-27 supply year, following government directions to halt sugar diversion for fuel amid concerns over domestic availability and prices.Read moreGwalior temple tragedy: MP CM orders removal of SP, suspension of 8 other police personnelMadhya Pradesh Chief Minister Mohan Yadav on Sunday ordered the removal of the Gwalior City Superintendent of Police and the suspension of eight other personnel after the temple accident that claimed 14 lives when a truck ploughed into devotees.Read moreTough task ahead for Edappadi Palaniswami as AIADMK fights to retain anti-DMK mantle against TVKAs the party entered its 55th year on Saturday, the All India Anna Dravida Munnetra Kazhagam (AIADMK) finds itself facing its biggest crisis ever since its founding in 1972 by the legendary M G Ramachandran.Read moreProfiles in cowardice: How world leaders and tech CEOs evade responsibility for their actionsPublished seventy years ago, Profiles in Courage presents short biographies of eight United States senators who voted against special interest groups which were intent on preserving their power in the halls of Congress.Read moreMismanagement, confusing announcements and narrow gates: What led to Kolkata pandal stampedeThe stampede at the Chorbagan Durga Puja pandal in north Kolkata claimed the lives of 19 people, while 25 others were injured.Read moreEC-SIR row | Congress says nothing can save Gyanesh Kumar, seeks major revamp of the poll bodyAs the Election Commission \"resumes\" distribution of \"readable\" electoral rolls to parties after a \"gap of eight years\", Congress on Sunday said \"nothing can save\" Chief Election Commissioner (CEC) Gyanesh Kumar while insisting that a \"thorough\" revamp of the poll body and its IT system is required.Read moreExplained| Govt caps trade margins on 137 cancer drugs at 30%: NPPAThe Ministry of Chemicals and Fertilisers has announced a price cap of 30 per cent on the trade margins of 137 cancer medicines, over the cost of the drug at the first point, either to a stockist/distributor or the hospital.Read moreKolkata stampede | 'CM himself inaugurated Chorebagan puja pandal, will he be held accountable?': Mamata AITC attacks Suvendu govtThe Mamata All India Trinamool Congress launched a sharp attack on West Bengal Chief Minister Suvendu Adhikari and Kolkata Police over a stampede at a Durga Puja pandal that claimed 19 lives, bringing the name of the CM's nephew Debdeep Adhikari, listed as chief patron of the Chorbagan Sarbojonin Durgotsab Samity, under the spotlight.Read moreA bitter harvest: Ginger's fading fortunes in KarnatakaGinger cultivation has declined sharply in the state in recent years due to diseases and growing awareness of the damage excessive pesticide use can cause to soil fertility.Read more"
-        },
-        {
-          "source_name": "Deccan Herald",
-          "headline": "India bars sugarcane-based ethanol from 2026-27 procurement tender to safeguard sugar supplies",
-          "published_at": "Sun, 18 Oct 2026 12:06:19 +0000",
-          "url": "https://www.deccanherald.com/business/india-bars-sugarcane-based-ethanol-from-2026-27-procurement-tender-to-safeguard-sugar-supplies-4187250",
-          "content": " New Delhi: State-run oil marketing companies have excluded ethanol produced from sugarcane juice, sugar syrup and B-heavy molasses from their latest procurement tender for the 2026-27 supply year, following government directions to halt sugar diversion for fuel amid concerns over domestic availability and prices.Bharat Petroleum Corporation Ltd (BPCL), acting on behalf of the oil marketing companies, issued the tender on October 16 seeking bids for approximately 11 billion litres of ethanol. The volume is intended to support the nationwide target of blending 20 per cent ethanol in petrol during the supply year that runs from November 2026 to October 2027.The tender document states: “The Government of India has issued directions that sugar diversion for ethanol be reduced to zero for ethanol supply year 2026-27.” It adds that “no offers have been sought for ethanol produced from sugarcane juice, sugar or sugar syrup and B-heavy molasses.”Instead, the companies will accept bids for ethanol made from maize, broken rice, surplus rice procured by the Food Corporation of India, and C-heavy molasses. The procurement price for maize-based ethanol has also been reduced to Rs 68.86 per litre from Rs 71.86, cutting the incentive from Rs 5.79 to Rs 2.79 per litre.Sugar, ethanol and the policy balance: Why India needs predictable rules over crisis controlsThe restrictions come after poor rainfall in major sugar-producing states such as Maharashtra and Karnataka raised the prospect of lower output. India, the world’s largest sugar consumer, has faced rising domestic prices and concerns that continued diversion of cane and sugar into ethanol could tighten food supplies.The ethanol-blended petrol programme has relied on both sugarcane- and grain-based feedstock to cut crude oil imports and reduce vehicle emissions. India has rolled out E20 fuel — petrol containing up to 20 per cent ethanol — as the national standard. Officials view the latest tender as an effort to maintain the blending targets while prioritising sugar availability for consumption and containing prices."
+          "url": "https://www.deccanherald.com/india/dh-evening-brief-seven-including-organisers-arrested-in-kolkata-pandal-stampede-india-bars-sugarcane-based-ethanol-from-2026-27-procurement-tender-to-safeguard-sugar-supplies-4187291"
         },
         {
           "source_name": "NDTV",
           "headline": "India Bars Sugar-Based Ethanol From 2026-27 Tender For Petrol Blend",
           "published_at": "Sun, 18 Oct 2026 16:37:42 +0530",
-          "url": "https://www.ndtv.com/india-news/india-bars-sugar-based-ethanol-from-2026-27-tender-for-petrol-blend-12202614#publisher=newsstand",
-          "content": "The tender, issued on October 16 by Bharat Petroleum Corporation Ltd (BPCL) on behalf of oil marketing companies (OMCs), seeks bids for around 11 billion litres of ethanol for the supply year beginning November to meet the requirement of doping 20 per cent ethanol in petrol."
+          "url": "https://www.ndtv.com/india-news/india-bars-sugar-based-ethanol-from-2026-27-tender-for-petrol-blend-12202614#publisher=newsstand"
         }
       ],
       "source_count": 2,
-      "total_count": 3,
-      "combined_score": 2.05,
+      "total_count": 2,
+      "combined_score": 1.75,
       "brief_bullets": [
-        " Kolkata pandal stampede: Seven, including Chorbagan Durga Puja organisers, arrestedKolkata Police have arrested seven people, including organisers of Chorbagan Durga Puja, for the pandal stampede that killed at least 19 people.Read moreIndia bars sugarcane-based ethanol from 2026-27 procurement tender to safeguard sugar suppliesState-run oil marketing companies have excluded ethanol produced from sugarcane juice, sugar syrup and B-heavy molasses from their latest procurement tender for the 2026-27 supply year, following government directions to halt sugar diversion for fuel amid concerns over domestic availability and prices.Read moreGwalior temple tragedy: MP CM orders removal of SP, suspension of 8 other police personnelMadhya Pradesh Chief Minister Mohan Yadav on Sunday ordered the removal of the Gwalior City Superintendent of Police and the suspension of eight other personnel after the temple accident that claimed 14 lives when a truck ploughed into devotees.Read moreTough task ahead for Edappadi Palaniswami as AIADMK fights to retain anti-DMK mantle against TVKAs the party entered its 55th year on Saturday, the All India Anna Dravida Munnetra Kazhagam (AIADMK) finds itself facing its biggest crisis ever since its founding in 1972 by the legendary M G Ramachandran.Read moreProfiles in cowardice: How world leaders and tech CEOs evade responsibility for their actionsPublished seventy years ago, Profiles in Courage presents short biographies of eight United States senators who voted against special interest groups which were intent on preserving their power in the halls of Congress.Read moreMismanagement, confusing announcements and narrow gates: What led to Kolkata pandal stampedeThe stampede at the Chorbagan Durga Puja pandal in north Kolkata claimed the lives of 19 people, while 25 others were injured.Read moreEC-SIR row | Congress says nothing can save Gyanesh Kumar, seeks major revamp of the poll bodyAs the Election Commission \"resumes\" distribution of \"readable\" electoral rolls to parties after a \"gap of eight years\", Congress on Sunday said \"nothing can save\" Chief Election Commissioner (CEC) Gyanesh Kumar while insisting that a \"thorough\" revamp of the poll body and its IT system is required.Read moreExplained| Govt caps trade margins on 137 cancer drugs at 30%: NPPAThe Ministry of Chemicals and Fertilisers has announced a price cap of 30 per cent on the trade margins of 137 cancer medicines, over the cost of the drug at the first point, either to a stockist/distributor or the hospital.Read moreKolkata stampede | 'CM himself inaugurated Chorebagan puja pandal, will he be held accountable?': Mamata AITC attacks Suvendu govtThe Mamata All India Trinamool Congress launched a sharp attack on West Bengal Chief Minister Suvendu Adhikari and Kolkata Police over a stampede at a Durga Puja pandal that claimed 19 lives, bringing the name of the CM's nephew Debdeep Adhikari, listed as chief patron of the Chorbagan Sarbojonin Durgotsab Samity, under the spotlight.Read moreA bitter harvest: Ginger's fading fortunes in KarnatakaGinger cultivation has declined sharply in the state in recent years due to diseases and growing awareness of the damage excessive pesticide use can cause to soil fertility.Read more"
+        "Kolkata pandal stampede: Seven, including Chorbagan Durga Puja organisers, arrestedKolkata Police have arrested seven people, including organisers of Chorbagan Durga Puja, for the pandal stampede that killed at least 19 people.Read moreIndia bars sugarcane-based ethanol from 2026-27 procurement tender to safeguard sugar suppliesState-run oil marketing companies have excluded ethanol produced from sugarcane juice, sugar syrup and B-heavy molasses from their latest procurement tender for the 2026-27 supply year, following government directions to halt sugar diversion for fuel amid concerns over domestic availability and prices.Read moreGwalior temple tragedy: MP CM orders removal of SP, suspension of 8 other police personnelMadhya Pradesh Chief Minister Mohan Yadav on Sunday ordered the removal of the Gwalior City Superintendent of Police and the suspension of eight other personnel after the temple accident that claimed 14 lives when a truck ploughed into devotees.Read moreTough task ahead for Edappadi Palaniswami as AIADMK fights to retain anti-DMK mantle against TVKAs the party entered its 55th year on Saturday, the All India Anna Dravida Munnetra Kazhagam (AIADMK) finds itself facing its biggest crisis ever since its founding in 1972 by the legendary M G Ramachandran.Read moreProfiles in cowardice: How world leaders and tech CEOs evade responsibility for their actionsPublished seventy years ago, Profiles in Courage presents short biographies of eight United States senators who voted against special interest groups which were intent on preserving their power in the halls of Congress.Read moreMismanagement, confusing announcements and narrow gates: What led to Kolkata pandal stampedeThe stampede at the Chorbagan Durga Puja pandal in north Kolkata claimed the lives of 19 people, while 25 others were injured.Read moreEC-SIR row | Congress says nothing can save Gyanesh Kumar, seeks major revamp of the poll bodyAs the Election Commission \"resumes\" distribution of \"readable\" electoral rolls to parties after a \"gap of eight years\", Congress on Sunday said \"nothing can save\" Chief Election Commissioner (CEC) Gyanesh Kumar while insisting that a \"thorough\" revamp of the poll body and its IT system is required.Read moreExplained| Govt caps trade margins on 137 cancer drugs at 30%: NPPAThe Ministry of Chemicals and Fertilisers has announced a price cap of 30 per cent on the trade margins of 137 cancer medicines, over the cost of the drug at the first point, either to a stockist/distributor or the hospital.Read moreKolkata stampede | 'CM himself inaugurated Chorebagan puja pandal, will he be held accountable?': Mamata AITC attacks Suvendu govtThe Mamata All India Trinamool Congress launched a sharp attack on West Bengal Chief Minister Suvendu Adhikari and Kolkata Police over a stampede at a Durga Puja pandal that claimed 19 lives, bringing the name of the CM's nephew Debdeep Adhikari, listed as chief patron of the Chorbagan Sarbojonin Durgotsab Samity, under the spotlight.Read moreA bitter harvest: Ginger's fading fortunes in KarnatakaGinger cultivation has declined sharply in the state in recent years due to diseases and growing awareness of the damage excessive pesticide use can cause to soil fertility.Read more The tender, issued on October 16 by Bharat Petroleum Corporation Ltd (BPCL) on behalf of oil marketing companies (OMCs), seeks bids for around 11 billion litres of ethanol for the supply year beginning November to meet the requirement of doping 20 per cent ethanol in petrol.",
+        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
+        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions.",
+        "Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments."
       ],
       "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Finance as developments unfold."
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
       ],
-      "brief": " Kolkata pandal stampede: Seven, including Chorbagan Durga Puja organisers, arrestedKolkata Police have arrested seven people, including organisers of Chorbagan Durga Puja, for the pandal stampede that killed at least 19 people.Read moreIndia bars sugarcane-based ethanol from 2026-27 procurement tender to safeguard sugar suppliesState-run oil marketing companies have excluded ethanol produced from sugarcane juice, sugar syrup and B-heavy molasses from their latest procurement tender for the 2026-27 supply year, following government directions to halt sugar diversion for fuel amid concerns over domestic availability and prices.Read moreGwalior temple tragedy: MP CM orders removal of SP, suspension of 8 other police personnelMadhya Pradesh Chief Minister Mohan Yadav on Sunday ordered the removal of the Gwalior City Superintendent of Police and the suspension of eight other personnel after the temple accident that claimed 14 lives when a truck ploughed into devotees.Read moreTough task ahead for Edappadi Palaniswami as AIADMK fights to retain anti-DMK mantle against TVKAs the party entered its 55th year on Saturday, the All India Anna Dravida Munnetra Kazhagam (AIADMK) finds itself facing its biggest crisis ever since its founding in 1972 by the legendary M G Ramachandran.Read moreProfiles in cowardice: How world leaders and tech CEOs evade responsibility for their actionsPublished seventy years ago, Profiles in Courage presents short biographies of eight United States senators who voted against special interest groups which were intent on preserving their power in the halls of Congress.Read moreMismanagement, confusing announcements and narrow gates: What led to Kolkata pandal stampedeThe stampede at the Chorbagan Durga Puja pandal in north Kolkata claimed the lives of 19 people, while 25 others were injured.Read moreEC-SIR row | Congress says nothing can save Gyanesh Kumar, seeks major revamp of the poll bodyAs the Election Commission \"resumes\" distribution of \"readable\" electoral rolls to parties after a \"gap of eight years\", Congress on Sunday said \"nothing can save\" Chief Election Commissioner (CEC) Gyanesh Kumar while insisting that a \"thorough\" revamp of the poll body and its IT system is required.Read moreExplained| Govt caps trade margins on 137 cancer drugs at 30%: NPPAThe Ministry of Chemicals and Fertilisers has announced a price cap of 30 per cent on the trade margins of 137 cancer medicines, over the cost of the drug at the first point, either to a stockist/distributor or the hospital.Read moreKolkata stampede | 'CM himself inaugurated Chorebagan puja pandal, will he be held accountable?': Mamata AITC attacks Suvendu govtThe Mamata All India Trinamool Congress launched a sharp attack on West Bengal Chief Minister Suvendu Adhikari and Kolkata Police over a stampede at a Durga Puja pandal that claimed 19 lives, bringing the name of the CM's nephew Debdeep Adhikari, listed as chief patron of the Chorbagan Sarbojonin Durgotsab Samity, under the spotlight.Read moreA bitter harvest: Ginger's fading fortunes in KarnatakaGinger cultivation has declined sharply in the state in recent years due to diseases and growing awareness of the damage excessive pesticide use can cause to soil fertility.Read more",
-      "brief_word_count": 487
+      "brief": "Kolkata pandal stampede: Seven, including Chorbagan Durga Puja organisers, arrestedKolkata Police have arrested seven people, including organisers of Chorbagan Durga Puja, for the pandal stampede that killed at least 19 people.Read moreIndia bars sugarcane-based ethanol from 2026-27 procurement tender to safeguard sugar suppliesState-run oil marketing companies have excluded ethanol produced from sugarcane juice, sugar syrup and B-heavy molasses from their latest procurement tender for the 2026-27 supply year, following government directions to halt sugar diversion for fuel amid concerns over domestic availability and prices.Read moreGwalior temple tragedy: MP CM orders removal of SP, suspension of 8 other police personnelMadhya Pradesh Chief Minister Mohan Yadav on Sunday ordered the removal of the Gwalior City Superintendent of Police and the suspension of eight other personnel after the temple accident that claimed 14 lives when a truck ploughed into devotees.Read moreTough task ahead for Edappadi Palaniswami as AIADMK fights to retain anti-DMK mantle against TVKAs the party entered its 55th year on Saturday, the All India Anna Dravida Munnetra Kazhagam (AIADMK) finds itself facing its biggest crisis ever since its founding in 1972 by the legendary M G Ramachandran.Read moreProfiles in cowardice: How world leaders and tech CEOs evade responsibility for their actionsPublished seventy years ago, Profiles in Courage presents short biographies of eight United States senators who voted against special interest groups which were intent on preserving their power in the halls of Congress.Read moreMismanagement, confusing announcements and narrow gates: What led to Kolkata pandal stampedeThe stampede at the Chorbagan Durga Puja pandal in north Kolkata claimed the lives of 19 people, while 25 others were injured.Read moreEC-SIR row | Congress says nothing can save Gyanesh Kumar, seeks major revamp of the poll bodyAs the Election Commission \"resumes\" distribution of \"readable\" electoral rolls to parties after a \"gap of eight years\", Congress on Sunday said \"nothing can save\" Chief Election Commissioner (CEC) Gyanesh Kumar while insisting that a \"thorough\" revamp of the poll body and its IT system is required.Read moreExplained| Govt caps trade margins on 137 cancer drugs at 30%: NPPAThe Ministry of Chemicals and Fertilisers has announced a price cap of 30 per cent on the trade margins of 137 cancer medicines, over the cost of the drug at the first point, either to a stockist/distributor or the hospital.Read moreKolkata stampede | 'CM himself inaugurated Chorebagan puja pandal, will he be held accountable?': Mamata AITC attacks Suvendu govtThe Mamata All India Trinamool Congress launched a sharp attack on West Bengal Chief Minister Suvendu Adhikari and Kolkata Police over a stampede at a Durga Puja pandal that claimed 19 lives, bringing the name of the CM's nephew Debdeep Adhikari, listed as chief patron of the Chorbagan Sarbojonin Durgotsab Samity, under the spotlight.Read moreA bitter harvest: Ginger's fading fortunes in KarnatakaGinger cultivation has declined sharply in the state in recent years due to diseases and growing awareness of the damage excessive pesticide use can cause to soil fertility.Read more The tender, issued on October 16 by Bharat Petroleum Corporation Ltd (BPCL) on behalf of oil marketing companies (OMCs), seeks bids for around 11 billion litres of ethanol for the supply year beginning November to meet the requirement of doping 20 per cent ethanol in petrol. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 609
     },
     {
-      "story_id": "story-24",
+      "story_id": "story-76",
       "category": "Finance",
-      "primary_headline": "Blaze at St Petersburg oil sites as Kyiv launches more than 1,000 drones at Russia",
+      "primary_headline": "Trump’s decision to waive Russian sanctions outrages Congress, but no quick counter seen",
       "primary_source": {
         "source_name": "AP News",
-        "headline": "Blaze at St Petersburg oil sites as Kyiv launches more than 1,000 drones at Russia - AP News",
-        "published_at": "Sun, 18 Oct 2026 10:34:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPb0JsZHhVNVNkaUhpSndSUTRqNjBFN2dpaktfTUZ4dWxBTkxzQ3I1LW5CRlBQNnR3UmJ5R0JzWGFaenZ5TDg3Qkt2bC05cmpYTlAwZkRSRjBoYlN1elkwelNDNmhPbkhhV1BDT05fWm96V3oxbk5YN09nUkQ2VzlvbTR1YV81Zl9wdzU5WEU1UXN3STc0ZHJlUnhiWUc2dUk?oc=5",
-        "content": "Blaze at St Petersburg oil sites as Kyiv launches more than 1,000 drones at Russia&nbsp;&nbsp;AP News"
+        "headline": "Trump’s decision to waive Russian sanctions outrages Congress, but no quick counter seen - AP News",
+        "published_at": "Sun, 18 Oct 2026 00:16:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQzV3OUN4YUtURHoxVG1sTV9uMjVTdFU0Tmlqc2hod0trU1hzQnMzUTc5UE12TGJsMVJmOVU1VEFxWXVSOEJxOU5sR3FwUFc2OFY0b2NKczZOR3pjX0xTWlJacDZSdWk1SmgxVjJvVTRWQVZyckd3MW14dFRiM0RJb3F6bG15MGNyTFJtOU1IVDVLeTNHSjZsMzl2aFB1azZZRG5TajhNTUVGUQ?oc=5",
+        "content": "Trump’s decision to waive Russian sanctions outrages Congress, but no quick counter seen&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
           "source_name": "AP News",
-          "headline": "Blaze at St Petersburg oil sites as Kyiv launches more than 1,000 drones at Russia - AP News",
-          "published_at": "Sun, 18 Oct 2026 10:34:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPb0JsZHhVNVNkaUhpSndSUTRqNjBFN2dpaktfTUZ4dWxBTkxzQ3I1LW5CRlBQNnR3UmJ5R0JzWGFaenZ5TDg3Qkt2bC05cmpYTlAwZkRSRjBoYlN1elkwelNDNmhPbkhhV1BDT05fWm96V3oxbk5YN09nUkQ2VzlvbTR1YV81Zl9wdzU5WEU1UXN3STc0ZHJlUnhiWUc2dUk?oc=5",
-          "content": "Blaze at St Petersburg oil sites as Kyiv launches more than 1,000 drones at Russia&nbsp;&nbsp;AP News"
+          "headline": "Trump’s decision to waive Russian sanctions outrages Congress, but no quick counter seen - AP News",
+          "published_at": "Sun, 18 Oct 2026 00:16:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQzV3OUN4YUtURHoxVG1sTV9uMjVTdFU0Tmlqc2hod0trU1hzQnMzUTc5UE12TGJsMVJmOVU1VEFxWXVSOEJxOU5sR3FwUFc2OFY0b2NKczZOR3pjX0xTWlJacDZSdWk1SmgxVjJvVTRWQVZyckd3MW14dFRiM0RJb3F6bG15MGNyTFJtOU1IVDVLeTNHSjZsMzl2aFB1azZZRG5TajhNTUVGUQ?oc=5"
         },
         {
           "source_name": "NDTV",
-          "headline": "Ukraine Fires 1,000 Drones At Russia, St Petersburg Oil Sites Ablaze",
-          "published_at": "Sun, 18 Oct 2026 17:00:19 +0530",
-          "url": "https://www.ndtv.com/world-news/ukraine-fires-1-000-drones-at-russia-st-petersburg-oil-sites-ablaze-12202700#publisher=newsstand",
-          "content": "The attack comes amid deepening tensions between Ukraine and Washington, with U.S. President Donald Trump criticizing Kyiv for its strikes on Russian oil infrastructure."
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.66,
-      "brief_bullets": [
-        "Blaze at St Petersburg oil sites as Kyiv launches more than 1,000 drones at Russia&nbsp;&nbsp;AP News"
-      ],
-      "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Finance as developments unfold."
-      ],
-      "brief": "Blaze at St Petersburg oil sites as Kyiv launches more than 1,000 drones at Russia&nbsp;&nbsp;AP News",
-      "brief_word_count": 16
-    },
-    {
-      "story_id": "story-28",
-      "category": "Finance",
-      "primary_headline": "'56-inch ka seena kahan hai': Rahul Gandhi slams Modi-Shah, CEC over 'vote chori'",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "'56-inch ka seena kahan hai': Rahul Gandhi slams Modi-Shah, CEC over 'vote chori'",
-        "published_at": "Sun, 18 Oct 2026 13:38:22 +0000",
-        "url": "https://www.deccanherald.com/india/56-inch-ka-seena-kahan-hai-rahul-gandhi-slams-modi-shah-cec-over-vote-chori-4187292",
-        "content": " Congress leader Rahul Gandhi on Sunday accused Prime Minister Narendra Modi of orchestrating alleged “vote theft” behind the scenes, claiming that Union Home Minister Amit Shah operationalised it and Chief Election Commissioner Gyanesh Kumar implemented it.Addressing a rally in Margao in South Goa on the concluding day of the Congress's 'Goy Rakhon Yatra', Gandhi alleged that Modi, Shah and Kumar were facing mounting pressure over the party's allegations of electoral malpractice.“There is no confusion anymore. Gyanesh Kumar implements the vote theft, Amit Shah operationalises it, and Prime Minister Narendra Modi does the entire planning from behind the scenes,” Gandhi said.The Leader of the Opposition in the Lok Sabha warned that the three would face justice over the alleged irregularities. He also claimed that the Congress had evidence of electoral malpractice in several states, including Madhya Pradesh, Haryana, Karnataka, Chhattisgarh, Maharashtra, West Bengal and Assam.“PM Modi, Amit Shah and CEC Gyanesh Kumar will face justice and pay the price for what they have done,” he said.Gandhi had led protests against the Special Intensive Revision (SIR) exercise and Kumar in New Delhi. He alleged that opposition votes had been deleted, votes added in favour of the ruling party, and voters shifted between districts or brought in from other states.Claiming that more than 45 defamation cases had been filed against him, including by people associated with Modi and Shah, Gandhi said no case had been filed over his allegations of vote theft. He suggested that the government was reluctant to pursue the matter legally because it could lead to a full-fledged legal battle.Urging voters to give the Congress a full majority in the 2027 Goa Assembly elections, Gandhi called on party workers to continue engaging with people across the state.Rahul Gandhi to address Goa rally as Congress wraps up 28-day 'Goy Rakhon Yatra'“You think about Goa. In Delhi, in a short while, we will deal with Narendra Modi and Amit Shah. You don't need to worry about that. The work is underway; their expiry date is approaching,” he said.Gandhi also accused the BJP-led Union government of favouring industrialists Gautam Adani and Mukesh Ambani by awarding them infrastructure projects, land and other economic opportunities in exchange for political support and publicity.“This is their system. This is how their system works: give billionaires money, give them contracts, give them land. In return, the billionaires do their marketing,” he alleged.Turning to Goa, Gandhi accused the state government of taking land from farmers and economically weaker sections and transferring it to outsiders and associates. He alleged that the cancellation of the regional master plan had enabled the government to facilitate such transfers, putting the state's natural resources and cultural heritage at risk.“Goa is a paradise, one of the most beautiful places in the country, with a great culture,” he said, alleging that its land was being handed over to billionaires.The Congress leader further claimed that Goa had the country's highest unemployment rate, forcing young people to seek opportunities abroad. He accused the BJP government of dismantling the state's employment structure and described its functioning as a “special Goa model of corruption”, drawing a comparison with the Gujarat model associated with Modi.On education, Gandhi criticised the alleged use of force against student protesters in Delhi and accused the BJP and the Rashtriya Swayamsevak Sangh (RSS) of influencing university appointments. He said students were raising concerns over electoral malpractice, unemployment, education costs and inflation.“This country does not belong to any one organisation. This country does not belong to the RSS. This country does not belong to the BJP. This country belongs to the people of India,” he said.Gandhi added that Goa belonged to its people, not its chief minister or ministers, and called for access to education, healthcare and employment, alongside environmental protection.Taking a swipe at the Prime Minister, Gandhi questioned the absence of Modi's often-cited “56-inch seena”, saying he could not stand in front of his political opponents.He urged Congress workers to continue the party's fight against the BJP's ideology beyond the conclusion of the yatra.The 27-day 'Goy Rakhon Yatra', led by Goa Congress leaders Yuri Alemao and Girish Chodankar, began on September 22 and covered all 40 Assembly constituencies in the coastal state. The party said the campaign aimed to protect Goa's land, environment, cultural heritage and identity while strengthening its grassroots presence ahead of the 2027 Assembly elections.(With PTI Inputs)"
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "'56-inch ka seena kahan hai': Rahul Gandhi slams Modi-Shah, CEC over 'vote chori'",
-          "published_at": "Sun, 18 Oct 2026 13:38:22 +0000",
-          "url": "https://www.deccanherald.com/india/56-inch-ka-seena-kahan-hai-rahul-gandhi-slams-modi-shah-cec-over-vote-chori-4187292",
-          "content": " Congress leader Rahul Gandhi on Sunday accused Prime Minister Narendra Modi of orchestrating alleged “vote theft” behind the scenes, claiming that Union Home Minister Amit Shah operationalised it and Chief Election Commissioner Gyanesh Kumar implemented it.Addressing a rally in Margao in South Goa on the concluding day of the Congress's 'Goy Rakhon Yatra', Gandhi alleged that Modi, Shah and Kumar were facing mounting pressure over the party's allegations of electoral malpractice.“There is no confusion anymore. Gyanesh Kumar implements the vote theft, Amit Shah operationalises it, and Prime Minister Narendra Modi does the entire planning from behind the scenes,” Gandhi said.The Leader of the Opposition in the Lok Sabha warned that the three would face justice over the alleged irregularities. He also claimed that the Congress had evidence of electoral malpractice in several states, including Madhya Pradesh, Haryana, Karnataka, Chhattisgarh, Maharashtra, West Bengal and Assam.“PM Modi, Amit Shah and CEC Gyanesh Kumar will face justice and pay the price for what they have done,” he said.Gandhi had led protests against the Special Intensive Revision (SIR) exercise and Kumar in New Delhi. He alleged that opposition votes had been deleted, votes added in favour of the ruling party, and voters shifted between districts or brought in from other states.Claiming that more than 45 defamation cases had been filed against him, including by people associated with Modi and Shah, Gandhi said no case had been filed over his allegations of vote theft. He suggested that the government was reluctant to pursue the matter legally because it could lead to a full-fledged legal battle.Urging voters to give the Congress a full majority in the 2027 Goa Assembly elections, Gandhi called on party workers to continue engaging with people across the state.Rahul Gandhi to address Goa rally as Congress wraps up 28-day 'Goy Rakhon Yatra'“You think about Goa. In Delhi, in a short while, we will deal with Narendra Modi and Amit Shah. You don't need to worry about that. The work is underway; their expiry date is approaching,” he said.Gandhi also accused the BJP-led Union government of favouring industrialists Gautam Adani and Mukesh Ambani by awarding them infrastructure projects, land and other economic opportunities in exchange for political support and publicity.“This is their system. This is how their system works: give billionaires money, give them contracts, give them land. In return, the billionaires do their marketing,” he alleged.Turning to Goa, Gandhi accused the state government of taking land from farmers and economically weaker sections and transferring it to outsiders and associates. He alleged that the cancellation of the regional master plan had enabled the government to facilitate such transfers, putting the state's natural resources and cultural heritage at risk.“Goa is a paradise, one of the most beautiful places in the country, with a great culture,” he said, alleging that its land was being handed over to billionaires.The Congress leader further claimed that Goa had the country's highest unemployment rate, forcing young people to seek opportunities abroad. He accused the BJP government of dismantling the state's employment structure and described its functioning as a “special Goa model of corruption”, drawing a comparison with the Gujarat model associated with Modi.On education, Gandhi criticised the alleged use of force against student protesters in Delhi and accused the BJP and the Rashtriya Swayamsevak Sangh (RSS) of influencing university appointments. He said students were raising concerns over electoral malpractice, unemployment, education costs and inflation.“This country does not belong to any one organisation. This country does not belong to the RSS. This country does not belong to the BJP. This country belongs to the people of India,” he said.Gandhi added that Goa belonged to its people, not its chief minister or ministers, and called for access to education, healthcare and employment, alongside environmental protection.Taking a swipe at the Prime Minister, Gandhi questioned the absence of Modi's often-cited “56-inch seena”, saying he could not stand in front of his political opponents.He urged Congress workers to continue the party's fight against the BJP's ideology beyond the conclusion of the yatra.The 27-day 'Goy Rakhon Yatra', led by Goa Congress leaders Yuri Alemao and Girish Chodankar, began on September 22 and covered all 40 Assembly constituencies in the coastal state. The party said the campaign aimed to protect Goa's land, environment, cultural heritage and identity while strengthening its grassroots presence ahead of the 2027 Assembly elections.(With PTI Inputs)"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "‘Will pay price’: From Goa, Rahul Gandhi targets PM Modi, CEC Gyanesh Kumar over ‘vote chori’",
-          "published_at": "Sun, 18 Oct 2026 13:07:55 +0000",
-          "url": "https://indianexpress.com/article/india/rahul-gandhi-pm-narendra-modi-amit-shah-gyanesh-kumar-vote-chori-goa-10926965/",
-          "content": ""
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.63,
-      "brief_bullets": [
-        " Congress leader Rahul Gandhi on Sunday accused Prime Minister Narendra Modi of orchestrating alleged “vote theft” behind the scenes, claiming that Union Home Minister Amit Shah operationalised it and Chief Election Commissioner Gyanesh Kumar implemented it.Addressing a rally in Margao in South Goa on the concluding day of the Congress's 'Goy Rakhon Yatra', Gandhi alleged that Modi, Shah and Kumar were facing mounting pressure over the party's allegations of electoral malpractice.“There is no confusion anymore. Gyanesh Kumar implements the vote theft, Amit Shah operationalises it, and Prime Minister Narendra Modi does the entire planning from behind the scenes,” Gandhi said.The Leader of the Opposition in the Lok Sabha warned that the three would face justice over the alleged irregularities. He also claimed that the Congress had evidence of electoral malpractice in several states, including Madhya Pradesh, Haryana, Karnataka, Chhattisgarh, Maharashtra, West Bengal and Assam.“PM Modi, Amit Shah and CEC Gyanesh Kumar will face justice and pay the price for what they have done,” he said.Gandhi had led protests against the Special Intensive Revision (SIR) exercise and Kumar in New Delhi. He alleged that opposition votes had been deleted, votes added in favour of the ruling party, and voters shifted between districts or brought in from other states.Claiming that more than 45 defamation cases had been filed against him, including by people associated with Modi and Shah, Gandhi said no case had been filed over his allegations of vote theft. He suggested that the government was reluctant to pursue the matter legally because it could lead to a full-fledged legal battle.Urging voters to give the Congress a full majority in the 2027 Goa Assembly elections, Gandhi called on party workers to continue engaging with people across the state.Rahul Gandhi to address Goa rally as Congress wraps up 28-day 'Goy Rakhon Yatra'“You think about Goa. In Delhi, in a short while, we will deal with Narendra Modi and Amit Shah. You don't need to worry about that. The work is underway; their expiry date is approaching,” he said.Gandhi also accused the BJP-led Union government of favouring industrialists Gautam Adani and Mukesh Ambani by awarding them infrastructure projects, land and other economic opportunities in exchange for political support and publicity.“This is their system. This is how their system works: give billionaires money, give them contracts, give them land. In return, the billionaires do their marketing,” he alleged.Turning to Goa, Gandhi accused the state government of taking land from farmers and economically weaker sections and transferring it to outsiders and associates. He alleged that the cancellation of the regional master plan had enabled the government to facilitate such transfers, putting the state's natural resources and cultural heritage at risk.“Goa is a paradise, one of the most beautiful places in the country, with a great culture,” he said, alleging that its land was being handed over to billionaires.The Congress leader further claimed that Goa had the country's highest unemployment rate, forcing young people to seek opportunities abroad. He accused the BJP government of dismantling the state's employment structure and described its functioning as a “special Goa model of corruption”, drawing a comparison with the Gujarat model associated with Modi.On education, Gandhi criticised the alleged use of force against student protesters in Delhi and accused the BJP and the Rashtriya Swayamsevak Sangh (RSS) of influencing university appointments. He said students were raising concerns over electoral malpractice, unemployment, education costs and inflation.“This country does not belong to any one organisation. This country does not belong to the RSS. This country does not belong to the BJP. This country belongs to the people of India,” he said.Gandhi added that Goa belonged to its people, not its chief minister or ministers, and called for access to education, healthcare and employment, alongside environmental protection.Taking a swipe at the Prime Minister, Gandhi questioned the absence of Modi's often-cited “56-inch seena”, saying he could not stand in front of his political opponents.He urged Congress workers to continue the party's fight against the BJP's ideology beyond the conclusion of the yatra.The 27-day 'Goy Rakhon Yatra', led by Goa Congress leaders Yuri Alemao and Girish Chodankar, began on September 22 and covered all 40 Assembly constituencies in the coastal state. The party said the campaign aimed to protect Goa's land, environment, cultural heritage and identity while strengthening its grassroots presence ahead of the 2027 Assembly elections.(With PTI Inputs)"
-      ],
-      "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Finance as developments unfold."
-      ],
-      "brief": " Congress leader Rahul Gandhi on Sunday accused Prime Minister Narendra Modi of orchestrating alleged “vote theft” behind the scenes, claiming that Union Home Minister Amit Shah operationalised it and Chief Election Commissioner Gyanesh Kumar implemented it.Addressing a rally in Margao in South Goa on the concluding day of the Congress's 'Goy Rakhon Yatra', Gandhi alleged that Modi, Shah and Kumar were facing mounting pressure over the party's allegations of electoral malpractice.“There is no confusion anymore. Gyanesh Kumar implements the vote theft, Amit Shah operationalises it, and Prime Minister Narendra Modi does the entire planning from behind the scenes,” Gandhi said.The Leader of the Opposition in the Lok Sabha warned that the three would face justice over the alleged irregularities. He also claimed that the Congress had evidence of electoral malpractice in several states, including Madhya Pradesh, Haryana, Karnataka, Chhattisgarh, Maharashtra, West Bengal and Assam.“PM Modi, Amit Shah and CEC Gyanesh Kumar will face justice and pay the price for what they have done,” he said.Gandhi had led protests against the Special Intensive Revision (SIR) exercise and Kumar in New Delhi. He alleged that opposition votes had been deleted, votes added in favour of the ruling party, and voters shifted between districts or brought in from other states.Claiming that more than 45 defamation cases had been filed against him, including by people associated with Modi and Shah, Gandhi said no case had been filed over his allegations of vote theft. He suggested that the government was reluctant to pursue the matter legally because it could lead to a full-fledged legal battle.Urging voters to give the Congress a full majority in the 2027 Goa Assembly elections, Gandhi called on party workers to continue engaging with people across the state.Rahul Gandhi to address Goa rally as Congress wraps up 28-day 'Goy Rakhon Yatra'“You think about Goa. In Delhi, in a short while, we will deal with Narendra Modi and Amit Shah. You don't need to worry about that. The work is underway; their expiry date is approaching,” he said.Gandhi also accused the BJP-led Union government of favouring industrialists Gautam Adani and Mukesh Ambani by awarding them infrastructure projects, land and other economic opportunities in exchange for political support and publicity.“This is their system. This is how their system works: give billionaires money, give them contracts, give them land. In return, the billionaires do their marketing,” he alleged.Turning to Goa, Gandhi accused the state government of taking land from farmers and economically weaker sections and transferring it to outsiders and associates. He alleged that the cancellation of the regional master plan had enabled the government to facilitate such transfers, putting the state's natural resources and cultural heritage at risk.“Goa is a paradise, one of the most beautiful places in the country, with a great culture,” he said, alleging that its land was being handed over to billionaires.The Congress leader further claimed that Goa had the country's highest unemployment rate, forcing young people to seek opportunities abroad. He accused the BJP government of dismantling the state's employment structure and described its functioning as a “special Goa model of corruption”, drawing a comparison with the Gujarat model associated with Modi.On education, Gandhi criticised the alleged use of force against student protesters in Delhi and accused the BJP and the Rashtriya Swayamsevak Sangh (RSS) of influencing university appointments. He said students were raising concerns over electoral malpractice, unemployment, education costs and inflation.“This country does not belong to any one organisation. This country does not belong to the RSS. This country does not belong to the BJP. This country belongs to the people of India,” he said.Gandhi added that Goa belonged to its people, not its chief minister or ministers, and called for access to education, healthcare and employment, alongside environmental protection.Taking a swipe at the Prime Minister, Gandhi questioned the absence of Modi's often-cited “56-inch seena”, saying he could not stand in front of his political opponents.He urged Congress workers to continue the party's fight against the BJP's ideology beyond the conclusion of the yatra.The 27-day 'Goy Rakhon Yatra', led by Goa Congress leaders Yuri Alemao and Girish Chodankar, began on September 22 and covered all 40 Assembly constituencies in the coastal state. The party said the campaign aimed to protect Goa's land, environment, cultural heritage and identity while strengthening its grassroots presence ahead of the 2027 Assembly elections.(With PTI Inputs)",
-      "brief_word_count": 724
-    },
-    {
-      "story_id": "story-39",
-      "category": "Finance",
-      "primary_headline": "Explained | Govt caps trade margins on 137 cancer drugs at 30%: NPPA",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Explained | Govt caps trade margins on 137 cancer drugs at 30%: NPPA",
-        "published_at": "Sun, 18 Oct 2026 12:30:51 +0000",
-        "url": "https://www.deccanherald.com/health/healthcare/explainedgovt-caps-trade-margins-on-137-cancer-drugs-at-30-nppa-4187230",
-        "content": " The Ministry of Chemicals and Fertilisers has announced a price cap of 30 per cent on the trade margins of 137 cancer medicines, over the cost of the drug at the first point, either to a stockist/distributor or the hospital. These margins will apply when the drugs are sold directly to them by a manufacturer.&amp;nbsp;The National Pharmaceutical Pricing Authority (NPPA), in an order dated October 17, has directed manufacturers to submit the revised MRP within seven days. \"The revised prices shall come into effect from November 9,\" the gazette notification stated.&amp;nbsp;Impact on cancer drug pricesAn analysis of pharmaceutical market data indicates that non-scheduled anti-cancer drugs carry an average trade mark-up of approximately 170 per cent, with mark-ups of up to 700 per cent in certain cases, according to an NPPA meeting conducted earlier. This order is expected to reduce the MRP of non-scheduled anti-cancer drugs by 70 per cent, depending on their current price structures.&amp;nbsp;The 137 identified non-scheduled anti-cancer drugs include immunotherapy drugs used for treating over 20 types of cancers, denosumab used by breast and prostate cancer patients, pegfilgrastim, which is used to prevent neutropenia in cancer patients and bevacizumab, which is the approved drug to treat colon, ovarian, and cervical cancer. With this notification, MRP of widely used anti-cancer drugs such as pembrolizumab, durvalumab and osimertinib is expected to become more accessible for cancer patients.Anti-cancer drug prices to come down as govt caps trade margins at 30%Centre caps trade margins on cancer medicines at 30% of MRPMarket overview: scheduled vs non-scheduled drugsCurrently, the anti-cancer drugs market comprises nearly 225 drugs and 500 formulations, with an annual turnover of around Rs 12,500 crore. Of this, scheduled cancer drugs that come under price control account for approximately Rs 2,250 crore, with the balance comprising non-scheduled drugs.To ensure that these life-saving medicines remain available, manufacturers of non-scheduled anti-cancer drugs will be required to maintain their current production levels. NPPA has clearly stated: \"The manufacturers of the formulations are required to maintain the present production levels. Any manufacturer intending to lower the average monthly production levels will seek prior permission from NPPA. Further, any manufacturer intending to discontinue production of the above-said formulations shall furnish information to NPPA.\"&amp;nbsp;How is the new price calculated?The manufacturers of non–scheduled formulations, selling branded or generic or both the versions of formulations at MRP higher than the MRP should revise their prices using this formula:&amp;nbsp; MRP of the product = Price to Stockist or Price to Distributor x {1 + (Trade Margin/(100 − Trade Margin))} + Applicable GST.&amp;nbsp;Citing an example, NPPA explained: For a non-scheduled anti-cancer formulation with current MRP: Rs 300 + Applicable GST. However, the price to a distributor is Rs 70. Maximum allowable revised MRP as per formula shall be: Rs70x{1+(30/(100−30))} = Rs 100 + Applicable GST.&amp;nbsp;The notification has also clarified: \"All the existing manufacturers of formulations having MRP lower than the MRP so computed … shall maintain their existing MRP.\""
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Explained | Govt caps trade margins on 137 cancer drugs at 30%: NPPA",
-          "published_at": "Sun, 18 Oct 2026 12:30:51 +0000",
-          "url": "https://www.deccanherald.com/health/healthcare/explainedgovt-caps-trade-margins-on-137-cancer-drugs-at-30-nppa-4187230",
-          "content": " The Ministry of Chemicals and Fertilisers has announced a price cap of 30 per cent on the trade margins of 137 cancer medicines, over the cost of the drug at the first point, either to a stockist/distributor or the hospital. These margins will apply when the drugs are sold directly to them by a manufacturer.&amp;nbsp;The National Pharmaceutical Pricing Authority (NPPA), in an order dated October 17, has directed manufacturers to submit the revised MRP within seven days. \"The revised prices shall come into effect from November 9,\" the gazette notification stated.&amp;nbsp;Impact on cancer drug pricesAn analysis of pharmaceutical market data indicates that non-scheduled anti-cancer drugs carry an average trade mark-up of approximately 170 per cent, with mark-ups of up to 700 per cent in certain cases, according to an NPPA meeting conducted earlier. This order is expected to reduce the MRP of non-scheduled anti-cancer drugs by 70 per cent, depending on their current price structures.&amp;nbsp;The 137 identified non-scheduled anti-cancer drugs include immunotherapy drugs used for treating over 20 types of cancers, denosumab used by breast and prostate cancer patients, pegfilgrastim, which is used to prevent neutropenia in cancer patients and bevacizumab, which is the approved drug to treat colon, ovarian, and cervical cancer. With this notification, MRP of widely used anti-cancer drugs such as pembrolizumab, durvalumab and osimertinib is expected to become more accessible for cancer patients.Anti-cancer drug prices to come down as govt caps trade margins at 30%Centre caps trade margins on cancer medicines at 30% of MRPMarket overview: scheduled vs non-scheduled drugsCurrently, the anti-cancer drugs market comprises nearly 225 drugs and 500 formulations, with an annual turnover of around Rs 12,500 crore. Of this, scheduled cancer drugs that come under price control account for approximately Rs 2,250 crore, with the balance comprising non-scheduled drugs.To ensure that these life-saving medicines remain available, manufacturers of non-scheduled anti-cancer drugs will be required to maintain their current production levels. NPPA has clearly stated: \"The manufacturers of the formulations are required to maintain the present production levels. Any manufacturer intending to lower the average monthly production levels will seek prior permission from NPPA. Further, any manufacturer intending to discontinue production of the above-said formulations shall furnish information to NPPA.\"&amp;nbsp;How is the new price calculated?The manufacturers of non–scheduled formulations, selling branded or generic or both the versions of formulations at MRP higher than the MRP should revise their prices using this formula:&amp;nbsp; MRP of the product = Price to Stockist or Price to Distributor x {1 + (Trade Margin/(100 − Trade Margin))} + Applicable GST.&amp;nbsp;Citing an example, NPPA explained: For a non-scheduled anti-cancer formulation with current MRP: Rs 300 + Applicable GST. However, the price to a distributor is Rs 70. Maximum allowable revised MRP as per formula shall be: Rs70x{1+(30/(100−30))} = Rs 100 + Applicable GST.&amp;nbsp;The notification has also clarified: \"All the existing manufacturers of formulations having MRP lower than the MRP so computed … shall maintain their existing MRP.\""
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Government caps trade margins on 137 anti-cancer drugs at 30%",
-          "published_at": "Sat, 17 Oct 2026 23:49:47 +0000",
-          "url": "https://indianexpress.com/article/india/government-caps-trade-margins-anti-cancer-drugs-10926290/",
-          "content": ""
+          "headline": "'Hard For India To Move Away From Russian Energy': Team Trump On Waivers",
+          "published_at": "Sun, 18 Oct 2026 09:09:52 +0530",
+          "url": "https://www.ndtv.com/world-news/team-trump-on-waivers-hard-for-india-to-move-away-from-russian-energy-says-marco-rubio-amid-ukraine-war-12201303#publisher=newsstand"
         }
       ],
       "source_count": 2,
       "total_count": 2,
       "combined_score": 1.6,
       "brief_bullets": [
-        " The Ministry of Chemicals and Fertilisers has announced a price cap of 30 per cent on the trade margins of 137 cancer medicines, over the cost of the drug at the first point, either to a stockist/distributor or the hospital. These margins will apply when the drugs are sold directly to them by a manufacturer.&amp;nbsp;The National Pharmaceutical Pricing Authority (NPPA), in an order dated October 17, has directed manufacturers to submit the revised MRP within seven days. \"The revised prices shall come into effect from November 9,\" the gazette notification stated.&amp;nbsp;Impact on cancer drug pricesAn analysis of pharmaceutical market data indicates that non-scheduled anti-cancer drugs carry an average trade mark-up of approximately 170 per cent, with mark-ups of up to 700 per cent in certain cases, according to an NPPA meeting conducted earlier. This order is expected to reduce the MRP of non-scheduled anti-cancer drugs by 70 per cent, depending on their current price structures.&amp;nbsp;The 137 identified non-scheduled anti-cancer drugs include immunotherapy drugs used for treating over 20 types of cancers, denosumab used by breast and prostate cancer patients, pegfilgrastim, which is used to prevent neutropenia in cancer patients and bevacizumab, which is the approved drug to treat colon, ovarian, and cervical cancer. With this notification, MRP of widely used anti-cancer drugs such as pembrolizumab, durvalumab and osimertinib is expected to become more accessible for cancer patients.Anti-cancer drug prices to come down as govt caps trade margins at 30%Centre caps trade margins on cancer medicines at 30% of MRPMarket overview: scheduled vs non-scheduled drugsCurrently, the anti-cancer drugs market comprises nearly 225 drugs and 500 formulations, with an annual turnover of around Rs 12,500 crore. Of this, scheduled cancer drugs that come under price control account for approximately Rs 2,250 crore, with the balance comprising non-scheduled drugs.To ensure that these life-saving medicines remain available, manufacturers of non-scheduled anti-cancer drugs will be required to maintain their current production levels. NPPA has clearly stated: \"The manufacturers of the formulations are required to maintain the present production levels. Any manufacturer intending to lower the average monthly production levels will seek prior permission from NPPA. Further, any manufacturer intending to discontinue production of the above-said formulations shall furnish information to NPPA.\"&amp;nbsp;How is the new price calculated?The manufacturers of non–scheduled formulations, selling branded or generic or both the versions of formulations at MRP higher than the MRP should revise their prices using this formula:&amp;nbsp; MRP of the product = Price to Stockist or Price to Distributor x {1 + (Trade Margin/(100 − Trade Margin))} + Applicable GST.&amp;nbsp;Citing an example, NPPA explained: For a non-scheduled anti-cancer formulation with current MRP: Rs 300 + Applicable GST. However, the price to a distributor is Rs 70. Maximum allowable revised MRP as per formula shall be: Rs70x{1+(30/(100−30))} = Rs 100 + Applicable GST.&amp;nbsp;The notification has also clarified: \"All the existing manufacturers of formulations having MRP lower than the MRP so computed … shall maintain their existing MRP.\""
+        "AP News Donald Trump has waived sanctions that threatened tariffs of up to 100 per cent on goods imported into the US from the five largest purchasers of Russian oil, including India.",
+        "Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness.",
+        "The shift has triggered intense debate among foreign policy stakeholders regarding international deterrence frameworks and regulatory enforcement.",
+        "Regional defense ministries and multilateral bodies are assessing logistical readiness and diplomatic countermeasures as the geopolitical landscape evolves."
       ],
       "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Finance as developments unfold."
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
       ],
-      "brief": " The Ministry of Chemicals and Fertilisers has announced a price cap of 30 per cent on the trade margins of 137 cancer medicines, over the cost of the drug at the first point, either to a stockist/distributor or the hospital. These margins will apply when the drugs are sold directly to them by a manufacturer.&amp;nbsp;The National Pharmaceutical Pricing Authority (NPPA), in an order dated October 17, has directed manufacturers to submit the revised MRP within seven days. \"The revised prices shall come into effect from November 9,\" the gazette notification stated.&amp;nbsp;Impact on cancer drug pricesAn analysis of pharmaceutical market data indicates that non-scheduled anti-cancer drugs carry an average trade mark-up of approximately 170 per cent, with mark-ups of up to 700 per cent in certain cases, according to an NPPA meeting conducted earlier. This order is expected to reduce the MRP of non-scheduled anti-cancer drugs by 70 per cent, depending on their current price structures.&amp;nbsp;The 137 identified non-scheduled anti-cancer drugs include immunotherapy drugs used for treating over 20 types of cancers, denosumab used by breast and prostate cancer patients, pegfilgrastim, which is used to prevent neutropenia in cancer patients and bevacizumab, which is the approved drug to treat colon, ovarian, and cervical cancer. With this notification, MRP of widely used anti-cancer drugs such as pembrolizumab, durvalumab and osimertinib is expected to become more accessible for cancer patients.Anti-cancer drug prices to come down as govt caps trade margins at 30%Centre caps trade margins on cancer medicines at 30% of MRPMarket overview: scheduled vs non-scheduled drugsCurrently, the anti-cancer drugs market comprises nearly 225 drugs and 500 formulations, with an annual turnover of around Rs 12,500 crore. Of this, scheduled cancer drugs that come under price control account for approximately Rs 2,250 crore, with the balance comprising non-scheduled drugs.To ensure that these life-saving medicines remain available, manufacturers of non-scheduled anti-cancer drugs will be required to maintain their current production levels. NPPA has clearly stated: \"The manufacturers of the formulations are required to maintain the present production levels. Any manufacturer intending to lower the average monthly production levels will seek prior permission from NPPA. Further, any manufacturer intending to discontinue production of the above-said formulations shall furnish information to NPPA.\"&amp;nbsp;How is the new price calculated?The manufacturers of non–scheduled formulations, selling branded or generic or both the versions of formulations at MRP higher than the MRP should revise their prices using this formula:&amp;nbsp; MRP of the product = Price to Stockist or Price to Distributor x {1 + (Trade Margin/(100 − Trade Margin))} + Applicable GST.&amp;nbsp;Citing an example, NPPA explained: For a non-scheduled anti-cancer formulation with current MRP: Rs 300 + Applicable GST. However, the price to a distributor is Rs 70. Maximum allowable revised MRP as per formula shall be: Rs70x{1+(30/(100−30))} = Rs 100 + Applicable GST.&amp;nbsp;The notification has also clarified: \"All the existing manufacturers of formulations having MRP lower than the MRP so computed … shall maintain their existing MRP.\"",
-      "brief_word_count": 487
+      "brief": "AP News Donald Trump has waived sanctions that threatened tariffs of up to 100 per cent on goods imported into the US from the five largest purchasers of Russian oil, including India. Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness. The shift has triggered intense debate among foreign policy stakeholders regarding international deterrence frameworks and regulatory enforcement. Regional defense ministries and multilateral bodies are assessing logistical readiness and diplomatic countermeasures as the geopolitical landscape evolves. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 102
     },
     {
-      "story_id": "story-52",
+      "story_id": "story-18",
       "category": "Finance",
-      "primary_headline": "Venezuela expects nearly $76 billion in oil investment over five years, acting president says",
+      "primary_headline": "(GANZ.N) | Stock Price & Latest News",
       "primary_source": {
         "source_name": "Reuters",
-        "headline": "Venezuela expects nearly $76 billion in oil investment over five years, acting president says - Reuters",
-        "published_at": "Sat, 17 Oct 2026 22:53:43 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNjRrMjhGV0NJUjVPZmZUdm1Da3JxcUFDaW9PTTVhVjZqSUszdzlLMGIwdjk4MFc0UXlUU0ZSZ1h4aGNTMmE1V3ZfdGJNcFVIUVIzbGFwTFdjd2xMVWtLWlBlV21QNlNxY0ZBcXVWTS05Z0c5UnY5d0tIWVFXOEdnLUZUTk84UXB1ektOV3A3OHhXSmxVYnhMZktTMl9PZUFaRGdpUkF4VXlGMlBoWVdhclhOa2p0bFExTTljdWtRZGs1bXM?oc=5",
-        "content": "Venezuela expects nearly $76 billion in oil investment over five years, acting president says&nbsp;&nbsp;Reuters"
+        "headline": "(GANZ.N) | Stock Price & Latest News - Reuters",
+        "published_at": "Sun, 18 Oct 2026 14:01:03 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9tejYwZ0lwODdnek42WGNOTDl1Zmx2eG4tTENwcWVLQncxVFFMTWtFemg1Yi1vbkU5enlsWnJockgyTmJXZmRWdXhFaF9LUklHMWdObXZtZHdKS1paZkM4SlFDcw?oc=5",
+        "content": "(GANZ.N) | Stock Price & Latest News&nbsp;&nbsp;Reuters"
       },
       "sources": [
         {
           "source_name": "Reuters",
-          "headline": "Venezuela expects nearly $76 billion in oil investment over five years, acting president says - Reuters",
-          "published_at": "Sat, 17 Oct 2026 22:53:43 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNjRrMjhGV0NJUjVPZmZUdm1Da3JxcUFDaW9PTTVhVjZqSUszdzlLMGIwdjk4MFc0UXlUU0ZSZ1h4aGNTMmE1V3ZfdGJNcFVIUVIzbGFwTFdjd2xMVWtLWlBlV21QNlNxY0ZBcXVWTS05Z0c5UnY5d0tIWVFXOEdnLUZUTk84UXB1ektOV3A3OHhXSmxVYnhMZktTMl9PZUFaRGdpUkF4VXlGMlBoWVdhclhOa2p0bFExTTljdWtRZGs1bXM?oc=5",
-          "content": "Venezuela expects nearly $76 billion in oil investment over five years, acting president says&nbsp;&nbsp;Reuters"
+          "headline": "(GANZ.N) | Stock Price & Latest News - Reuters",
+          "published_at": "Sun, 18 Oct 2026 14:01:03 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9tejYwZ0lwODdnek42WGNOTDl1Zmx2eG4tTENwcWVLQncxVFFMTWtFemg1Yi1vbkU5enlsWnJockgyTmJXZmRWdXhFaF9LUklHMWdObXZtZHdKS1paZkM4SlFDcw?oc=5"
         },
         {
-          "source_name": "Bloomberg",
-          "headline": "Venezuela Sees Nearly $76 Billion Oil Investment Over Five Years",
-          "published_at": "Sun, 18 Oct 2026 00:48:28 GMT",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-18/venezuela-sees-nearly-76-billion-oil-investment-over-five-years",
-          "content": "Venezuela expects almost $76 billion of investment in its oil and gas sector over the next five years, Acting President Delcy Rodríguez said Saturday, as the country seeks to draw private capital into a push to boost energy production."
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
-      "brief_bullets": [
-        "Venezuela expects nearly $76 billion in oil investment over five years, acting president says&nbsp;&nbsp;Reuters"
-      ],
-      "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Finance as developments unfold."
-      ],
-      "brief": "Venezuela expects nearly $76 billion in oil investment over five years, acting president says&nbsp;&nbsp;Reuters",
-      "brief_word_count": 14
-    },
-    {
-      "story_id": "story-7",
-      "category": "Finance",
-      "primary_headline": "(LDRX.O) | Stock Price & Latest News",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "(LDRX.O) | Stock Price & Latest News - Reuters",
-        "published_at": "Sun, 18 Oct 2026 03:11:16 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKS0tWLWlzbkhBZjgtb0JUZlhOc25sNXJwR2VmZ0gwSnpEZm83V092ZHowWDBVWnF4dVI4N0lYZU42elVNNjRIa2w3XzNZZlNESVltdnRBNm9vUUNYM1J1VWFuOA?oc=5",
-        "content": "(LDRX.O) | Stock Price & Latest News&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
+          "source_name": "Reuters",
+          "headline": "ARTTF.PK - | Stock Price & Latest News - Reuters",
+          "published_at": "Sun, 18 Oct 2026 13:25:38 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKXzZBTmlLTGVpTEIyTWxYV1lGaUtLVm1UQl9MQVdsMHpRSG5BVUxFSWl6aksxNFVhd052czg2ZVhsMXZFekJheG5xMW9Vc3FwRm85YW9iaW9TMG43QWs1NDZSQQ?oc=5"
+        },
         {
           "source_name": "Reuters",
           "headline": "(LDRX.O) | Stock Price & Latest News - Reuters",
           "published_at": "Sun, 18 Oct 2026 03:11:16 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKS0tWLWlzbkhBZjgtb0JUZlhOc25sNXJwR2VmZ0gwSnpEZm83V092ZHowWDBVWnF4dVI4N0lYZU42elVNNjRIa2w3XzNZZlNESVltdnRBNm9vUUNYM1J1VWFuOA?oc=5",
-          "content": "(LDRX.O) | Stock Price & Latest News&nbsp;&nbsp;Reuters"
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKS0tWLWlzbkhBZjgtb0JUZlhOc25sNXJwR2VmZ0gwSnpEZm83V092ZHowWDBVWnF4dVI4N0lYZU42elVNNjRIa2w3XzNZZlNESVltdnRBNm9vUUNYM1J1VWFuOA?oc=5"
         },
         {
           "source_name": "Reuters",
           "headline": "(2020.D) | Stock Price & Latest News - Reuters",
           "published_at": "Sun, 18 Oct 2026 01:17:29 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5OWUpNTjZiVUhQLXlPVVE5T3F3elFCaWVUOG5jd0lUcDNaYXdnblh4d3hqME1aVHdiYUhjYWs2Y2FBM25MWXh5NVBzYmZOcWdqSVZEcnlreW9LV2NtRnZnLTh1MzZzOEZX?oc=5",
-          "content": "(2020.D) | Stock Price & Latest News&nbsp;&nbsp;Reuters"
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5OWUpNTjZiVUhQLXlPVVE5T3F3elFCaWVUOG5jd0lUcDNaYXdnblh4d3hqME1aVHdiYUhjYWs2Y2FBM25MWXh5NVBzYmZOcWdqSVZEcnlreW9LV2NtRnZnLTh1MzZzOEZX?oc=5"
         },
         {
           "source_name": "Reuters",
           "headline": "(NANR.N) | Stock Price & Latest News - Reuters",
           "published_at": "Sat, 17 Oct 2026 23:20:56 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBrdW9BTThkRkkwUDRmM09WM1VoelhRWFhINW94MHZzQklicTdQZDgxem9OSVoyMFdfdDg2b281QjU3UWZpcndnbklwVWpXWlZqd3hKOEY3bTlTblcwNjduZURhNA?oc=5",
-          "content": "(NANR.N) | Stock Price & Latest News&nbsp;&nbsp;Reuters"
-        },
-        {
-          "source_name": "Reuters",
-          "headline": "TREO.O - | Stock Price & Latest News - Reuters",
-          "published_at": "Sat, 17 Oct 2026 22:58:03 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1IcDI3dnVpWGZmd1k4OUxfRzFqZEpGWUstU0ZFMVFKeHJyZm5QcHpyclpSaldrZUcxLS1VWm1nb3JoWkU0WTJhaHJ1dzNoTnN6X0t2Y19zTC1sRTZQOHZQc3FR?oc=5",
-          "content": "TREO.O - | Stock Price & Latest News&nbsp;&nbsp;Reuters"
-        },
-        {
-          "source_name": "Reuters",
-          "headline": "002410.SZ - | Stock Price & Latest News - Reuters",
-          "published_at": "Sat, 17 Oct 2026 22:26:10 GMT",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wdkltd285LWhfSS12UGVCak1lcEMwdDgwSzlDdkhGLU1JRzQ2STUzdHFvUVpxS214bENwV0s1LUU0S3BVZ2c2WEplSDNkMEc4OV9HalFnSFJZUHhJazVrbmNnU0ZtT2ZxQlVraFcteXNBblZWWVZHdkJ1NVVNVjA?oc=5",
-          "content": "002410.SZ - | Stock Price & Latest News&nbsp;&nbsp;Reuters"
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBrdW9BTThkRkkwUDRmM09WM1VoelhRWFhINW94MHZzQklicTdQZDgxem9OSVoyMFdfdDg2b281QjU3UWZpcndnbklwVWpXWlZqd3hKOEY3bTlTblcwNjduZURhNA?oc=5"
         }
       ],
       "source_count": 1,
-      "total_count": 10,
-      "combined_score": 3.5,
+      "total_count": 8,
+      "combined_score": 2.9,
       "brief_bullets": [
-        "(LDRX.O) | Stock Price & Latest News&nbsp;&nbsp;Reuters"
+        "ARTTF.PK - | Stock Price & Latest News (LDRX.O) | Stock Price & Latest News (2020.D) | Stock Price & Latest News (NANR.N) | Stock Price & Latest News.",
+        "Financial analysts and institutional investors are calculating downstream valuation benchmarks and capital allocation shifts across key asset categories.",
+        "Corporate executives and supply chain coordinators are reviewing operational forecasts to safeguard margins against external macroeconomic pressures.",
+        "Market strategists expect continued portfolio repositioning as verified performance metrics and policy guidance emerge."
       ],
       "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Finance as developments unfold."
+        "Influences institutional investor sentiment and valuation benchmarks across key equity and corporate market segments."
       ],
-      "brief": "(LDRX.O) | Stock Price & Latest News&nbsp;&nbsp;Reuters",
-      "brief_word_count": 7
+      "brief": "ARTTF.PK - | Stock Price & Latest News (LDRX.O) | Stock Price & Latest News (2020.D) | Stock Price & Latest News (NANR.N) | Stock Price & Latest News. Financial analysts and institutional investors are calculating downstream valuation benchmarks and capital allocation shifts across key asset categories. Corporate executives and supply chain coordinators are reviewing operational forecasts to safeguard margins against external macroeconomic pressures. Market strategists expect continued portfolio repositioning as verified performance metrics and policy guidance emerge. Influences institutional investor sentiment and valuation benchmarks across key equity and corporate market segments.",
+      "brief_word_count": 92
     },
     {
-      "story_id": "story-73",
+      "story_id": "story-79",
+      "category": "Finance",
+      "primary_headline": "Trump’s Latin America Allies Deepen Ties With Washington Lenders",
+      "primary_source": {
+        "source_name": "Bloomberg",
+        "headline": "Trump’s Latin America Allies Deepen Ties With Washington Lenders",
+        "published_at": "Sun, 18 Oct 2026 14:30:00 GMT",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-18/trump-s-latin-america-allies-deepen-ties-with-washington-lenders",
+        "content": "Latin America’s rightward, market-friendly shift is reshaping its relationship with Donald Trump’s Washington, including new flows of money from the multilateral lenders historically villainized in the region for pushing fiscal austerity."
+      },
+      "sources": [
+        {
+          "source_name": "Bloomberg",
+          "headline": "Trump’s Latin America Allies Deepen Ties With Washington Lenders",
+          "published_at": "Sun, 18 Oct 2026 14:30:00 GMT",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-18/trump-s-latin-america-allies-deepen-ties-with-washington-lenders"
+        },
+        {
+          "source_name": "Bloomberg",
+          "headline": "Rep. Veasey Calls for Scrutiny of Trump Russia Ties",
+          "published_at": "Sun, 18 Oct 2026 14:23:31 GMT",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-18/rep-veasey-calls-for-scrutiny-of-trump-russia-ties-video"
+        },
+        {
+          "source_name": "Bloomberg",
+          "headline": "Can America Rebuild Trust With Its Allies?",
+          "published_at": "Sun, 18 Oct 2026 14:03:47 GMT",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-18/can-america-rebuild-trust-with-its-allies"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 3,
+      "combined_score": 1.49,
+      "brief_bullets": [
+        "Latin America’s rightward, market-friendly shift is reshaping its relationship with Donald Trump’s Washington, including new flows of money from the multilateral lenders historically villainized in the region for pushing fiscal austerity.",
+        "Marc Veasey, a Texas Democrat, tells Bloomberg This Weekend that President Donald Trump’s recent moves involving Russia and Ukraine warrant greater congressional scrutiny, while warning that questions over Ukraine’s access to US military technology could undermine allies’ confidence in American defense products.",
+        "Speaking with hosts David Gura and Christina Ruffini, Veasey also says Tarrant County will be crucial to Democrats’ chances in Texas, arguing that strong performance there could help Senate candidate James Talarico win statewide. (Source: Bloomberg) Former Canadian deputy prime minister and “Wall Street Week” contributor Chrystia Freeland and former US Treasury secretary Janet Yellen say that globalization became dangerously dependent on countries willing to weaponize trade and supply chains.",
+        "Freeland recounts her shared sentiment with Yellen in her new book, “Unreliable Boyfriend.” (Source: Bloomberg)."
+      ],
+      "why_it_matters_bullets": [
+        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
+      ],
+      "brief": "Latin America’s rightward, market-friendly shift is reshaping its relationship with Donald Trump’s Washington, including new flows of money from the multilateral lenders historically villainized in the region for pushing fiscal austerity. Marc Veasey, a Texas Democrat, tells Bloomberg This Weekend that President Donald Trump’s recent moves involving Russia and Ukraine warrant greater congressional scrutiny, while warning that questions over Ukraine’s access to US military technology could undermine allies’ confidence in American defense products. Speaking with hosts David Gura and Christina Ruffini, Veasey also says Tarrant County will be crucial to Democrats’ chances in Texas, arguing that strong performance there could help Senate candidate James Talarico win statewide. (Source: Bloomberg) Former Canadian deputy prime minister and “Wall Street Week” contributor Chrystia Freeland and former US Treasury secretary Janet Yellen say that globalization became dangerously dependent on countries willing to weaponize trade and supply chains. Freeland recounts her shared sentiment with Yellen in her new book, “Unreliable Boyfriend.” (Source: Bloomberg). Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 172
+    },
+    {
+      "story_id": "story-83",
+      "category": "Finance",
+      "primary_headline": "\"Dystopian Fitness Video\": Video Of Woman Jogging Amid France Protests Goes Viral Online",
+      "primary_source": {
+        "source_name": "NDTV",
+        "headline": "\"Dystopian Fitness Video\": Video Of Woman Jogging Amid France Protests Goes Viral Online",
+        "published_at": "Sun, 18 Oct 2026 21:35:24 +0530",
+        "url": "https://www.ndtv.com/world-news/dystopian-fitness-video-video-of-woman-jogging-amid-france-protests-goes-viral-online-12203552#publisher=newsstand",
+        "content": "The protests began as a student movement over poor conditions in schools and expanded into a national crisis over cost of living, economic inequality."
+      },
+      "sources": [
+        {
+          "source_name": "NDTV",
+          "headline": "\"Dystopian Fitness Video\": Video Of Woman Jogging Amid France Protests Goes Viral Online",
+          "published_at": "Sun, 18 Oct 2026 21:35:24 +0530",
+          "url": "https://www.ndtv.com/world-news/dystopian-fitness-video-video-of-woman-jogging-amid-france-protests-goes-viral-online-12203552#publisher=newsstand"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Fixed Lunch Breaks, 9-Hour Shifts: Gen Z Employee's Corporate Job Rant Goes Viral",
+          "published_at": "Sun, 18 Oct 2026 14:32:40 +0530",
+          "url": "https://www.ndtv.com/offbeat/fixed-lunch-breaks-9-hour-shifts-gen-z-employees-corporate-job-rant-goes-viral-12202243#publisher=newsstand"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 2,
+      "combined_score": 1.13,
+      "brief_bullets": [
+        "The protests began as a student movement over poor conditions in schools and expanded into a national crisis over cost of living, economic inequality.",
+        "She shared how she was struggling to adjust to fixed lunch breaks, limited paid leave, strict attendance rules, and a demanding manager.",
+        "Public dissent and street demonstrations have prompted emergency municipal interventions and heightened law enforcement readiness across impacted urban hubs.",
+        "Political factions and civic advocacy groups are actively debating the underlying systemic grievances that triggered the public unrest."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "The protests began as a student movement over poor conditions in schools and expanded into a national crisis over cost of living, economic inequality. She shared how she was struggling to adjust to fixed lunch breaks, limited paid leave, strict attendance rules, and a demanding manager. Public dissent and street demonstrations have prompted emergency municipal interventions and heightened law enforcement readiness across impacted urban hubs. Political factions and civic advocacy groups are actively debating the underlying systemic grievances that triggered the public unrest. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 96
+    },
+    {
+      "story_id": "story-102",
       "category": "Finance",
       "primary_headline": "Attacked from the sky: Sudanese goldminers count deadly cost of eking out a living on the Egypt border",
       "primary_source": {
@@ -282,88 +396,60 @@
           "source_name": "The Guardian",
           "headline": "Attacked from the sky: Sudanese goldminers count deadly cost of eking out a living on the Egypt border",
           "published_at": "Sun, 18 Oct 2026 07:00:52 GMT",
-          "url": "https://www.theguardian.com/global-development/2026/oct/18/attacked-from-the-sky-sudanese-goldminers-count-deadly-cost-of-eking-out-a-living-on-the-egypt-border",
-          "content": "As civil war has left their country in ruins, many young Sudanese have turned to artisanal mining. An airstrike on a mine last week killed more than 100 and has provoked anger against Egypt, seen as the most likely suspectTorches still fixed on their heads but tools cast aside, the Sudanese goldminers of the North Valley had already mounted an impromptu rescue operation by the time Ammar* arrived at the site of a suspected Egyptian airstrike.At least 114 were killed, according to the Sudanese rights group Emergency Lawyers, in the strike on Saturday 10 October on an artisanal goldmine brimming with young Sudanese trying to eke out a living in a country where the economy has been shattered by three years of war. Continue reading..."
+          "url": "https://www.theguardian.com/global-development/2026/oct/18/attacked-from-the-sky-sudanese-goldminers-count-deadly-cost-of-eking-out-a-living-on-the-egypt-border"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.98,
       "brief_bullets": [
-        "As civil war has left their country in ruins, many young Sudanese have turned to artisanal mining. An airstrike on a mine last week killed more than 100 and has provoked anger against Egypt, seen as the most likely suspectTorches still fixed on their heads but tools cast aside, the Sudanese goldminers of the North Valley had already mounted an impromptu rescue operation by the time Ammar* arrived at the site of a suspected Egyptian airstrike.At least 114 were killed, according to the Sudanese rights group Emergency Lawyers, in the strike on Saturday 10 October on an artisanal goldmine brimming with young Sudanese trying to eke out a living in a country where the economy has been shattered by three years of war. Continue reading..."
+        "As civil war has left their country in ruins, many young Sudanese have turned to artisanal mining.",
+        "An airstrike on a mine last week killed more than 100 and has provoked anger against Egypt, seen as the most likely suspectTorches still fixed on their heads but tools cast aside, the Sudanese goldminers of the North Valley had already mounted an impromptu rescue operation by the time Ammar* arrived at the site of a suspected Egyptian airstrike.At least 114 were killed, according to the Sudanese rights group Emergency Lawyers, in the strike on Saturday 10 October on an artisanal goldmine brimming with young Sudanese trying to eke out a living in a country where the economy has been shattered by three years of war.",
+        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
+        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions."
       ],
       "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Finance as developments unfold."
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
       ],
-      "brief": "As civil war has left their country in ruins, many young Sudanese have turned to artisanal mining. An airstrike on a mine last week killed more than 100 and has provoked anger against Egypt, seen as the most likely suspectTorches still fixed on their heads but tools cast aside, the Sudanese goldminers of the North Valley had already mounted an impromptu rescue operation by the time Ammar* arrived at the site of a suspected Egyptian airstrike.At least 114 were killed, according to the Sudanese rights group Emergency Lawyers, in the strike on Saturday 10 October on an artisanal goldmine brimming with young Sudanese trying to eke out a living in a country where the economy has been shattered by three years of war. Continue reading...",
-      "brief_word_count": 125
+      "brief": "As civil war has left their country in ruins, many young Sudanese have turned to artisanal mining. An airstrike on a mine last week killed more than 100 and has provoked anger against Egypt, seen as the most likely suspectTorches still fixed on their heads but tools cast aside, the Sudanese goldminers of the North Valley had already mounted an impromptu rescue operation by the time Ammar* arrived at the site of a suspected Egyptian airstrike.At least 114 were killed, according to the Sudanese rights group Emergency Lawyers, in the strike on Saturday 10 October on an artisanal goldmine brimming with young Sudanese trying to eke out a living in a country where the economy has been shattered by three years of war. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 179
     },
     {
-      "story_id": "story-74",
+      "story_id": "story-106",
       "category": "Finance",
-      "primary_headline": "Oil facilities hit in deadly overnight attack on St Petersburg",
+      "primary_headline": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
       "primary_source": {
-        "source_name": "BBC News",
-        "headline": "Oil facilities hit in deadly overnight attack on St Petersburg",
-        "published_at": "Sun, 18 Oct 2026 11:57:49 GMT",
-        "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss",
-        "content": "The St Petersburg Oil Terminal was among targets hit in the city overnight The region's Governor Alexander Beglov said fires were being extinguished at the St Petersburg Oil Terminal and the Ruchyi oil depot following the attack, which also injured at least five. A logistics centre belonging to Ozon - known as Russia's Amazon - and a data centre belonging to Facebook equivalent VKontakte were also hit. Kyiv has not yet commented on the strikes. Ukrainian President Volodymyr Zelensky said on Saturday morning that Russia had targeted his country's energy sector 76 times since Donald Trump declared an \"energy ceasefire\" last week. Ukraine had paused its strikes on Russian oil facilities - which it says are to limit the main revenue stream for Moscow's war effort - for three days after the announcement, while accusing Russia of continuing. It then resumed strikes earlier this week, drawing the ire of Trump, who called for a truce to facilitate a deal he struck with his Russian counterpart Vladimir Putin to supply diesel."
+        "source_name": "Hacker News",
+        "headline": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+        "published_at": "Sun, 18 Oct 2026 14:30:27 +0000",
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+        "content": "\nArticle URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model\nComments URL: https://news.ycombinator.com/item?id=50141429\nPoints: 97\n# Comments: 105\n"
       },
       "sources": [
         {
-          "source_name": "BBC News",
-          "headline": "Oil facilities hit in deadly overnight attack on St Petersburg",
-          "published_at": "Sun, 18 Oct 2026 11:57:49 GMT",
-          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss",
-          "content": "The St Petersburg Oil Terminal was among targets hit in the city overnight The region's Governor Alexander Beglov said fires were being extinguished at the St Petersburg Oil Terminal and the Ruchyi oil depot following the attack, which also injured at least five. A logistics centre belonging to Ozon - known as Russia's Amazon - and a data centre belonging to Facebook equivalent VKontakte were also hit. Kyiv has not yet commented on the strikes. Ukrainian President Volodymyr Zelensky said on Saturday morning that Russia had targeted his country's energy sector 76 times since Donald Trump declared an \"energy ceasefire\" last week. Ukraine had paused its strikes on Russian oil facilities - which it says are to limit the main revenue stream for Moscow's war effort - for three days after the announcement, while accusing Russia of continuing. It then resumed strikes earlier this week, drawing the ire of Trump, who called for a truce to facilitate a deal he struck with his Russian counterpart Vladimir Putin to supply diesel."
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.95,
-      "brief_bullets": [
-        "The St Petersburg Oil Terminal was among targets hit in the city overnight The region's Governor Alexander Beglov said fires were being extinguished at the St Petersburg Oil Terminal and the Ruchyi oil depot following the attack, which also injured at least five. A logistics centre belonging to Ozon - known as Russia's Amazon - and a data centre belonging to Facebook equivalent VKontakte were also hit. Kyiv has not yet commented on the strikes. Ukrainian President Volodymyr Zelensky said on Saturday morning that Russia had targeted his country's energy sector 76 times since Donald Trump declared an \"energy ceasefire\" last week. Ukraine had paused its strikes on Russian oil facilities - which it says are to limit the main revenue stream for Moscow's war effort - for three days after the announcement, while accusing Russia of continuing. It then resumed strikes earlier this week, drawing the ire of Trump, who called for a truce to facilitate a deal he struck with his Russian counterpart Vladimir Putin to supply diesel."
-      ],
-      "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Finance as developments unfold."
-      ],
-      "brief": "The St Petersburg Oil Terminal was among targets hit in the city overnight The region's Governor Alexander Beglov said fires were being extinguished at the St Petersburg Oil Terminal and the Ruchyi oil depot following the attack, which also injured at least five. A logistics centre belonging to Ozon - known as Russia's Amazon - and a data centre belonging to Facebook equivalent VKontakte were also hit. Kyiv has not yet commented on the strikes. Ukrainian President Volodymyr Zelensky said on Saturday morning that Russia had targeted his country's energy sector 76 times since Donald Trump declared an \"energy ceasefire\" last week. Ukraine had paused its strikes on Russian oil facilities - which it says are to limit the main revenue stream for Moscow's war effort - for three days after the announcement, while accusing Russia of continuing. It then resumed strikes earlier this week, drawing the ire of Trump, who called for a truce to facilitate a deal he struck with his Russian counterpart Vladimir Putin to supply diesel.",
-      "brief_word_count": 170
-    },
-    {
-      "story_id": "story-83",
-      "category": "Finance",
-      "primary_headline": "Intensifying drone attacks on ships in Black Sea bring war ever closer to Nato shores",
-      "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "Intensifying drone attacks on ships in Black Sea bring war ever closer to Nato shores",
-        "published_at": "Sun, 18 Oct 2026 05:00:51 GMT",
-        "url": "https://www.theguardian.com/business/2026/oct/18/drone-attacks-ships-black-sea-russia-ukraine-war",
-        "content": "Six attacks in 10 days by suspected Russian drones mark dramatic escalation in maritime conflictThe first the crew of the Bulgarian ferry Dioscuria knew of an attack on a cargo ship in their country’s exclusive economic zone in the Black Sea in the early hours of 6 October was a distant explosion 70 miles off the coastal town of Byala.The Turkish-owned Alfa Watan, heading for the Romanian port of Sulina, had been struck by suspected Russian air and naval drones. Arriving on the scene, Dioscuria found an overturned lifeboat and lifejackets in the water. There was no sign, however, of Alfa Watan’s crew of 10. Continue reading..."
-      },
-      "sources": [
-        {
-          "source_name": "The Guardian",
-          "headline": "Intensifying drone attacks on ships in Black Sea bring war ever closer to Nato shores",
-          "published_at": "Sun, 18 Oct 2026 05:00:51 GMT",
-          "url": "https://www.theguardian.com/business/2026/oct/18/drone-attacks-ships-black-sea-russia-ukraine-war",
-          "content": "Six attacks in 10 days by suspected Russian drones mark dramatic escalation in maritime conflictThe first the crew of the Bulgarian ferry Dioscuria knew of an attack on a cargo ship in their country’s exclusive economic zone in the Black Sea in the early hours of 6 October was a distant explosion 70 miles off the coastal town of Byala.The Turkish-owned Alfa Watan, heading for the Romanian port of Sulina, had been struck by suspected Russian air and naval drones. Arriving on the scene, Dioscuria found an overturned lifeboat and lifejackets in the water. There was no sign, however, of Alfa Watan’s crew of 10. Continue reading..."
+          "source_name": "Hacker News",
+          "headline": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+          "published_at": "Sun, 18 Oct 2026 14:30:27 +0000",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.89,
       "brief_bullets": [
-        "Six attacks in 10 days by suspected Russian drones mark dramatic escalation in maritime conflictThe first the crew of the Bulgarian ferry Dioscuria knew of an attack on a cargo ship in their country’s exclusive economic zone in the Black Sea in the early hours of 6 October was a distant explosion 70 miles off the coastal town of Byala.The Turkish-owned Alfa Watan, heading for the Romanian port of Sulina, had been struck by suspected Russian air and naval drones. Arriving on the scene, Dioscuria found an overturned lifeboat and lifejackets in the water. There was no sign, however, of Alfa Watan’s crew of 10. Continue reading..."
+        "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model Comments URL: https://news.ycombinator.com/item?id=50141429 Points: 97 # Comments: 105.",
+        "Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms.",
+        "Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps.",
+        "Regulatory bodies continue to monitor market concentration to ensure equitable innovation safeguards across the broader sector."
       ],
       "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Finance as developments unfold."
+        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
       ],
-      "brief": "Six attacks in 10 days by suspected Russian drones mark dramatic escalation in maritime conflictThe first the crew of the Bulgarian ferry Dioscuria knew of an attack on a cargo ship in their country’s exclusive economic zone in the Black Sea in the early hours of 6 October was a distant explosion 70 miles off the coastal town of Byala.The Turkish-owned Alfa Watan, heading for the Romanian port of Sulina, had been struck by suspected Russian air and naval drones. Arriving on the scene, Dioscuria found an overturned lifeboat and lifejackets in the water. There was no sign, however, of Alfa Watan’s crew of 10. Continue reading...",
-      "brief_word_count": 107
+      "brief": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model Comments URL: https://news.ycombinator.com/item?id=50141429 Points: 97 # Comments: 105. Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms. Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps. Regulatory bodies continue to monitor market concentration to ensure equitable innovation safeguards across the broader sector. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 74
     },
     {
-      "story_id": "story-91",
+      "story_id": "story-112",
       "category": "Finance",
       "primary_headline": "World leaders must wise up to threat of cyber-attacks or rogue fridges will be least of their worries | Heather Stewart",
       "primary_source": {
@@ -378,24 +464,26 @@
           "source_name": "The Guardian",
           "headline": "World leaders must wise up to threat of cyber-attacks or rogue fridges will be least of their worries | Heather Stewart",
           "published_at": "Sun, 18 Oct 2026 11:46:50 GMT",
-          "url": "https://www.theguardian.com/business/2026/oct/18/world-leaders-threat-cyber-attacks-rogue-fridges-financial-system",
-          "content": "Global cooperation seems unlikely despite AI increasing the risk of digital fraud and the need to protect the financial systemRogue French fridges were an unlikely talking point for the world’s leading economists, central bankers and finance chiefs meeting in a sultry Bangkok last week – helping to underline the spiralling cost of cyber-attacks.Kristalina Georgieva, the managing director of the International Monetary Fund, seized on news that supermarket chains across France had to chuck out piles of spoiled food after hackers accessed their fridge controls and turned up the temperature to 50C. Continue reading..."
+          "url": "https://www.theguardian.com/business/2026/oct/18/world-leaders-threat-cyber-attacks-rogue-fridges-financial-system"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.86,
       "brief_bullets": [
-        "Global cooperation seems unlikely despite AI increasing the risk of digital fraud and the need to protect the financial systemRogue French fridges were an unlikely talking point for the world’s leading economists, central bankers and finance chiefs meeting in a sultry Bangkok last week – helping to underline the spiralling cost of cyber-attacks.Kristalina Georgieva, the managing director of the International Monetary Fund, seized on news that supermarket chains across France had to chuck out piles of spoiled food after hackers accessed their fridge controls and turned up the temperature to 50C. Continue reading..."
+        "Global cooperation seems unlikely despite AI increasing the risk of digital fraud and the need to protect the financial systemRogue French fridges were an unlikely talking point for the world’s leading economists, central bankers and finance chiefs meeting in a sultry Bangkok last week – helping to underline the spiralling cost of cyber-attacks.Kristalina Georgieva, the managing director of the International Monetary Fund, seized on news that supermarket chains across France had to chuck out piles of spoiled food after hackers accessed their fridge controls and turned up the temperature to 50C.",
+        "Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms.",
+        "Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps.",
+        "Regulatory bodies continue to monitor market concentration to ensure equitable innovation safeguards across the broader sector."
       ],
       "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Finance as developments unfold."
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
       ],
-      "brief": "Global cooperation seems unlikely despite AI increasing the risk of digital fraud and the need to protect the financial systemRogue French fridges were an unlikely talking point for the world’s leading economists, central bankers and finance chiefs meeting in a sultry Bangkok last week – helping to underline the spiralling cost of cyber-attacks.Kristalina Georgieva, the managing director of the International Monetary Fund, seized on news that supermarket chains across France had to chuck out piles of spoiled food after hackers accessed their fridge controls and turned up the temperature to 50C. Continue reading...",
-      "brief_word_count": 93
+      "brief": "Global cooperation seems unlikely despite AI increasing the risk of digital fraud and the need to protect the financial systemRogue French fridges were an unlikely talking point for the world’s leading economists, central bankers and finance chiefs meeting in a sultry Bangkok last week – helping to underline the spiralling cost of cyber-attacks.Kristalina Georgieva, the managing director of the International Monetary Fund, seized on news that supermarket chains across France had to chuck out piles of spoiled food after hackers accessed their fridge controls and turned up the temperature to 50C. Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms. Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps. Regulatory bodies continue to monitor market concentration to ensure equitable innovation safeguards across the broader sector. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 156
     },
     {
-      "story_id": "story-99",
+      "story_id": "story-118",
       "category": "Finance",
       "primary_headline": "‘4,000 people minding our own business’: four decades on, Falklands again face a hostile Argentina",
       "primary_source": {
@@ -403,31 +491,103 @@
         "headline": "‘4,000 people minding our own business’: four decades on, Falklands again face a hostile Argentina",
         "published_at": "Sun, 18 Oct 2026 04:00:49 GMT",
         "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/18/4000-people-minding-our-own-business-four-decades-on-falklands-again-face-a-hostile-argentina",
-        "content": "Facing a slump in the polls, Argentina’s president is making economic attacks on the islands’ oil industry, and suggesting its key fisheries industry could be next A dozen local people and a uniformed military police officer (“Do you mind if I sit in?”) took their seats at the back of the handsome wood-panelled courtroom that doubles as the Falkland Islands’ legislative assembly. Outside, it was a typically blowy early evening. It may nominally be spring in the south Atlantic, but Stanley harbour, with its dark grey water speckled with historical shipwrecks, was a cauldron of swells and churn.Six of the assembly’s eight members – five men, one woman – waited patiently at a row of desks and microphones. The heating had been turned up to just short of uncomfortable. Behind them, a portrait of King Charles. From the other walls, dusty photographs of governors, of varying popularity, gazed disinterestedly at the scene. Continue reading..."
+        "content": "Facing a slump in the polls, Argentina’s president is making economic attacks on the islands’ oil industry, and suggesting its key fisheries industry could be next A dozen local people and a uniformed military police officer (“Do you mind if I sit in?”) took their seats at the back of the handsome wood-panelled courtroom that doubles as the Falkland Islands’ legislative assembly. Outside, it was a typically blowy early evening. It may nominally be spring in the south Atlantic, but Stanley harbour, with its dark grey water speckled with historical shipwrecks, was a cauldron of swells and churn.Six of the assembly’s eight members – five men, one woman – waited patiently at a row of desks and microphones. The heating had been turned up to just short of uncomfortable. Behind them, a portrait of King Charles. From the other walls, dusty photographs of governors peered down on the scene. Continue reading..."
       },
       "sources": [
         {
           "source_name": "The Guardian",
           "headline": "‘4,000 people minding our own business’: four decades on, Falklands again face a hostile Argentina",
           "published_at": "Sun, 18 Oct 2026 04:00:49 GMT",
-          "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/18/4000-people-minding-our-own-business-four-decades-on-falklands-again-face-a-hostile-argentina",
-          "content": "Facing a slump in the polls, Argentina’s president is making economic attacks on the islands’ oil industry, and suggesting its key fisheries industry could be next A dozen local people and a uniformed military police officer (“Do you mind if I sit in?”) took their seats at the back of the handsome wood-panelled courtroom that doubles as the Falkland Islands’ legislative assembly. Outside, it was a typically blowy early evening. It may nominally be spring in the south Atlantic, but Stanley harbour, with its dark grey water speckled with historical shipwrecks, was a cauldron of swells and churn.Six of the assembly’s eight members – five men, one woman – waited patiently at a row of desks and microphones. The heating had been turned up to just short of uncomfortable. Behind them, a portrait of King Charles. From the other walls, dusty photographs of governors, of varying popularity, gazed disinterestedly at the scene. Continue reading..."
+          "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/18/4000-people-minding-our-own-business-four-decades-on-falklands-again-face-a-hostile-argentina"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.86,
       "brief_bullets": [
-        "Facing a slump in the polls, Argentina’s president is making economic attacks on the islands’ oil industry, and suggesting its key fisheries industry could be next A dozen local people and a uniformed military police officer (“Do you mind if I sit in?”) took their seats at the back of the handsome wood-panelled courtroom that doubles as the Falkland Islands’ legislative assembly. Outside, it was a typically blowy early evening. It may nominally be spring in the south Atlantic, but Stanley harbour, with its dark grey water speckled with historical shipwrecks, was a cauldron of swells and churn.Six of the assembly’s eight members – five men, one woman – waited patiently at a row of desks and microphones. The heating had been turned up to just short of uncomfortable. Behind them, a portrait of King Charles. From the other walls, dusty photographs of governors, of varying popularity, gazed disinterestedly at the scene. Continue reading..."
+        "Facing a slump in the polls, Argentina’s president is making economic attacks on the islands’ oil industry, and suggesting its key fisheries industry could be next A dozen local people and a uniformed military police officer (“Do you mind if I sit in?”) took their seats at the back of the handsome wood-panelled courtroom that doubles as the Falkland Islands’ legislative assembly.",
+        "Outside, it was a typically blowy early evening.",
+        "It may nominally be spring in the south Atlantic, but Stanley harbour, with its dark grey water speckled with historical shipwrecks, was a cauldron of swells and churn.Six of the assembly’s eight members – five men, one woman – waited patiently at a row of desks and microphones.",
+        "The heating had been turned up to just short of uncomfortable.",
+        "Behind them, a portrait of King Charles."
       ],
       "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Finance as developments unfold."
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
       ],
-      "brief": "Facing a slump in the polls, Argentina’s president is making economic attacks on the islands’ oil industry, and suggesting its key fisheries industry could be next A dozen local people and a uniformed military police officer (“Do you mind if I sit in?”) took their seats at the back of the handsome wood-panelled courtroom that doubles as the Falkland Islands’ legislative assembly. Outside, it was a typically blowy early evening. It may nominally be spring in the south Atlantic, but Stanley harbour, with its dark grey water speckled with historical shipwrecks, was a cauldron of swells and churn.Six of the assembly’s eight members – five men, one woman – waited patiently at a row of desks and microphones. The heating had been turned up to just short of uncomfortable. Behind them, a portrait of King Charles. From the other walls, dusty photographs of governors, of varying popularity, gazed disinterestedly at the scene. Continue reading...",
-      "brief_word_count": 154
+      "brief": "Facing a slump in the polls, Argentina’s president is making economic attacks on the islands’ oil industry, and suggesting its key fisheries industry could be next A dozen local people and a uniformed military police officer (“Do you mind if I sit in?”) took their seats at the back of the handsome wood-panelled courtroom that doubles as the Falkland Islands’ legislative assembly. Outside, it was a typically blowy early evening. It may nominally be spring in the south Atlantic, but Stanley harbour, with its dark grey water speckled with historical shipwrecks, was a cauldron of swells and churn.Six of the assembly’s eight members – five men, one woman – waited patiently at a row of desks and microphones. The heating had been turned up to just short of uncomfortable. Behind them, a portrait of King Charles. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 152
     },
     {
-      "story_id": "story-135",
+      "story_id": "story-127",
+      "category": "Finance",
+      "primary_headline": "Why the debate between Keynesian and orthodox economics matters",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Why the debate between Keynesian and orthodox economics matters",
+        "published_at": "Sun, 18 Oct 2026 21:47:21 +0530",
+        "url": "https://www.thehindu.com/news/international/why-the-debate-between-keynesian-and-orthodox-economics-matters/article71583919.ece",
+        "content": "Keynes-Kalecki framework holds that demand, in particular private investment, shapes short-term fluctuations as well as long-term growth, unlike orthodox approaches that see supply as determining long-term growth; shift towards inflation targeting coincided with falling wage shares and greater burden on workers"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Why the debate between Keynesian and orthodox economics matters",
+          "published_at": "Sun, 18 Oct 2026 21:47:21 +0530",
+          "url": "https://www.thehindu.com/news/international/why-the-debate-between-keynesian-and-orthodox-economics-matters/article71583919.ece"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "Keynes-Kalecki framework holds that demand, in particular private investment, shapes short-term fluctuations as well as long-term growth, unlike orthodox approaches that see supply as determining long-term growth; shift towards inflation targeting coincided with falling wage shares and greater burden on workers.",
+        "Financial analysts and institutional investors are calculating downstream valuation benchmarks and capital allocation shifts across key asset categories.",
+        "Corporate executives and supply chain coordinators are reviewing operational forecasts to safeguard margins against external macroeconomic pressures.",
+        "Market strategists expect continued portfolio repositioning as verified performance metrics and policy guidance emerge."
+      ],
+      "why_it_matters_bullets": [
+        "Directly influences borrowing costs, consumer spending appetite, and capital deployment across global financial markets."
+      ],
+      "brief": "Keynes-Kalecki framework holds that demand, in particular private investment, shapes short-term fluctuations as well as long-term growth, unlike orthodox approaches that see supply as determining long-term growth; shift towards inflation targeting coincided with falling wage shares and greater burden on workers. Financial analysts and institutional investors are calculating downstream valuation benchmarks and capital allocation shifts across key asset categories. Corporate executives and supply chain coordinators are reviewing operational forecasts to safeguard margins against external macroeconomic pressures. Market strategists expect continued portfolio repositioning as verified performance metrics and policy guidance emerge. Directly influences borrowing costs, consumer spending appetite, and capital deployment across global financial markets.",
+      "brief_word_count": 104
+    },
+    {
+      "story_id": "story-142",
+      "category": "Finance",
+      "primary_headline": "Private complaints over false election affidavits need no official sanction: Supreme Court",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "Private complaints over false election affidavits need no official sanction: Supreme Court",
+        "published_at": "Sun, 18 Oct 2026 14:46:14 +0000",
+        "url": "https://www.deccanherald.com/india/private-complaints-over-false-election-affidavits-need-no-official-sanction-supreme-court-4187384",
+        "content": " New Delhi: Private citizens can file criminal complaints against candidates for submitting false affidavits with their nomination papers, the Supreme Court has ruled, clarifying that no prior sanction or complaint from the Election Commission or any public servant is required.A bench of Justices Dipankar Datta and Sheel Nagu held that an offence under Section 125-A of the Representation of the People Act, 1951, does not fall within the restrictive ambit of Section 195 of the Code of Criminal Procedure. EC-SIR row | ‘Undermining EC, Supreme Court is not a right’: Harvard scholars warns against erosion of public trust in IndiaThe non-obstante clause in Section 125-A and the deliberate legislative omission to include it in Section 195 CrPC mean courts can take cognizance of such complaints lodged by private persons under Section 200 CrPC, the court said.The ruling came in an appeal filed by Rajkumar Madki challenging a March 7, 2025, judgment of the Karnataka High Court. The High Court had quashed Madki’s August 2023 private complaint against Dr Shailendra Beldale, the MLA from Bidar, alleging that the legislator had given a false residential address in the affidavit accompanying his 2023 nomination papers.The October 16, 2026 decision settles a substantial question of law of general public importance that had not been previously decided by the court.The High Court had held that only the Election Commission could complain of an offence under Section 125-A and that a voter’s remedy was limited to an election petition. The Supreme Court disagreed on the legal point, observing that courts cannot expand the list of offences requiring a public servant’s complaint by implication.“The prohibition on a court taking cognizance… is restricted to the offences specifically enumerated therein,” the bench said. Supreme Court seeks replies from CEC Gyanesh Kumar, others on plea filed by Rahul Gandhi, oppn leadersIt noted that Section 125-A is of relatively recent origin and that Parliament could have amended Section 195 CrPC if it intended to restrict such prosecutions. Guidelines or press notes issued by the Election Commission, the court added, cannot bind judicial interpretation of the statute.Despite upholding the maintainability of private complaints in principle, the apex court declined to revive the specific case against Beldale, represented by senior advocate Anand Sanjay M Nuli. It found that the documents on record effectively rebutted the allegation of false declaration of residence and that the prospect of conviction was remote. Continuing the trial, the court said, would only waste judicial time.The High Court’s order quashing the proceedings was therefore left undisturbed, but on different grounds. The Supreme Court made it clear that magistrates retain full powers to deal with frivolous or harassing complaints if any are filed in future."
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Private complaints over false election affidavits need no official sanction: Supreme Court",
+          "published_at": "Sun, 18 Oct 2026 14:46:14 +0000",
+          "url": "https://www.deccanherald.com/india/private-complaints-over-false-election-affidavits-need-no-official-sanction-supreme-court-4187384"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "New Delhi: Private citizens can file criminal complaints against candidates for submitting false affidavits with their nomination papers, the Supreme Court has ruled, clarifying that no prior sanction or complaint from the Election Commission or any public servant is required.A bench of Justices Dipankar Datta and Sheel Nagu held that an offence under Section 125-A of the Representation of the People Act, 1951, does not fall within the restrictive ambit of Section 195 of the Code of Criminal Procedure.",
+        "EC-SIR row | ‘Undermining EC, Supreme Court is not a right’: Harvard scholars warns against erosion of public trust in IndiaThe non-obstante clause in Section 125-A and the deliberate legislative omission to include it in Section 195 CrPC mean courts can take cognizance of such complaints lodged by private persons under Section 200 CrPC, the court said.The ruling came in an appeal filed by Rajkumar Madki challenging a March 7, 2025, judgment of the Karnataka High Court.",
+        "The High Court had quashed Madki’s August 2023 private complaint against Dr Shailendra Beldale, the MLA from Bidar, alleging that the legislator had given a false residential address in the affidavit accompanying his 2023 nomination papers.The October 16, 2026 decision settles a substantial question of law of general public importance that had not been previously decided by the court.The High Court had held that only the Election Commission could complain of an offence under Section 125-A and that a voter’s remedy was limited to an election petition.",
+        "The Supreme Court disagreed on the legal point, observing that courts cannot expand the list of offences requiring a public servant’s complaint by implication.“The prohibition on a court taking cognizance… is restricted to the offences specifically enumerated therein,” the bench said.",
+        "Supreme Court seeks replies from CEC Gyanesh Kumar, others on plea filed by Rahul Gandhi, oppn leadersIt noted that Section 125-A is of relatively recent origin and that Parliament could have amended Section 195 CrPC if it intended to restrict such prosecutions."
+      ],
+      "why_it_matters_bullets": [
+        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
+      ],
+      "brief": "New Delhi: Private citizens can file criminal complaints against candidates for submitting false affidavits with their nomination papers, the Supreme Court has ruled, clarifying that no prior sanction or complaint from the Election Commission or any public servant is required.A bench of Justices Dipankar Datta and Sheel Nagu held that an offence under Section 125-A of the Representation of the People Act, 1951, does not fall within the restrictive ambit of Section 195 of the Code of Criminal Procedure. EC-SIR row | ‘Undermining EC, Supreme Court is not a right’: Harvard scholars warns against erosion of public trust in IndiaThe non-obstante clause in Section 125-A and the deliberate legislative omission to include it in Section 195 CrPC mean courts can take cognizance of such complaints lodged by private persons under Section 200 CrPC, the court said.The ruling came in an appeal filed by Rajkumar Madki challenging a March 7, 2025, judgment of the Karnataka High Court. The High Court had quashed Madki’s August 2023 private complaint against Dr Shailendra Beldale, the MLA from Bidar, alleging that the legislator had given a false residential address in the affidavit accompanying his 2023 nomination papers.The October 16, 2026 decision settles a substantial question of law of general public importance that had not been previously decided by the court.The High Court had held that only the Election Commission could complain of an offence under Section 125-A and that a voter’s remedy was limited to an election petition. The Supreme Court disagreed on the legal point, observing that courts cannot expand the list of offences requiring a public servant’s complaint by implication.“The prohibition on a court taking cognizance… is restricted to the offences specifically enumerated therein,” the bench said. Supreme Court seeks replies from CEC Gyanesh Kumar, others on plea filed by Rahul Gandhi, oppn leadersIt noted that Section 125-A is of relatively recent origin and that Parliament could have amended Section 195 CrPC if it intended to restrict such prosecutions. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
+      "brief_word_count": 340
+    },
+    {
+      "story_id": "story-157",
       "category": "Finance",
       "primary_headline": "A California town’s beaches are washing away. Can its residents turn the tide?",
       "primary_source": {
@@ -442,88 +602,26 @@
           "source_name": "The Guardian",
           "headline": "A California town’s beaches are washing away. Can its residents turn the tide?",
           "published_at": "Sun, 18 Oct 2026 11:00:03 GMT",
-          "url": "https://www.theguardian.com/us-news/2026/oct/18/california-beach-erosion-san-clemente",
-          "content": "Rapid coastal erosion threatens coastal homes and economies, and as Super El Niño rounds the corner, a town is reckoning with the reality of climate crisisSan Clemente is one of southern California’s most picture-perfect beach towns – a capital of American surf culture since the 1950s. In two years, 2028 Olympic surfers will compete at Lower Trestles, a world-class surfing beach.But the town’s longtime cultural and economic driver, its beaches, are now under threat. As pounding waves driven by late-summer storms in the Pacific devour chunks of the California coastline, some of San Clemente’s beaches are growing narrower, the sand increasingly eaten away. Continue reading..."
+          "url": "https://www.theguardian.com/us-news/2026/oct/18/california-beach-erosion-san-clemente"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.83,
       "brief_bullets": [
-        "Rapid coastal erosion threatens coastal homes and economies, and as Super El Niño rounds the corner, a town is reckoning with the reality of climate crisisSan Clemente is one of southern California’s most picture-perfect beach towns – a capital of American surf culture since the 1950s. In two years, 2028 Olympic surfers will compete at Lower Trestles, a world-class surfing beach.But the town’s longtime cultural and economic driver, its beaches, are now under threat. As pounding waves driven by late-summer storms in the Pacific devour chunks of the California coastline, some of San Clemente’s beaches are growing narrower, the sand increasingly eaten away. Continue reading..."
+        "Rapid coastal erosion threatens coastal homes and economies, and as Super El Niño rounds the corner, a town is reckoning with the reality of climate crisisSan Clemente is one of southern California’s most picture-perfect beach towns – a capital of American surf culture since the 1950s.",
+        "In two years, 2028 Olympic surfers will compete at Lower Trestles, a world-class surfing beach.But the town’s longtime cultural and economic driver, its beaches, are now under threat.",
+        "As pounding waves driven by late-summer storms in the Pacific devour chunks of the California coastline, some of San Clemente’s beaches are growing narrower, the sand increasingly eaten away.",
+        "Financial analysts and institutional investors are calculating downstream valuation benchmarks and capital allocation shifts across key asset categories."
       ],
       "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Finance as developments unfold."
+        "Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
       ],
-      "brief": "Rapid coastal erosion threatens coastal homes and economies, and as Super El Niño rounds the corner, a town is reckoning with the reality of climate crisisSan Clemente is one of southern California’s most picture-perfect beach towns – a capital of American surf culture since the 1950s. In two years, 2028 Olympic surfers will compete at Lower Trestles, a world-class surfing beach.But the town’s longtime cultural and economic driver, its beaches, are now under threat. As pounding waves driven by late-summer storms in the Pacific devour chunks of the California coastline, some of San Clemente’s beaches are growing narrower, the sand increasingly eaten away. Continue reading...",
-      "brief_word_count": 105
+      "brief": "Rapid coastal erosion threatens coastal homes and economies, and as Super El Niño rounds the corner, a town is reckoning with the reality of climate crisisSan Clemente is one of southern California’s most picture-perfect beach towns – a capital of American surf culture since the 1950s. In two years, 2028 Olympic surfers will compete at Lower Trestles, a world-class surfing beach.But the town’s longtime cultural and economic driver, its beaches, are now under threat. As pounding waves driven by late-summer storms in the Pacific devour chunks of the California coastline, some of San Clemente’s beaches are growing narrower, the sand increasingly eaten away. Financial analysts and institutional investors are calculating downstream valuation benchmarks and capital allocation shifts across key asset categories. Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
+      "brief_word_count": 135
     },
     {
-      "story_id": "story-137",
-      "category": "Finance",
-      "primary_headline": "Keralam Devaswom Minister dissatisfied with TDB preparations for Sabarimala pilgrimage",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Keralam Devaswom Minister dissatisfied with TDB preparations for Sabarimala pilgrimage",
-        "published_at": "Sun, 18 Oct 2026 10:49:39 +0000",
-        "url": "https://www.deccanherald.com/india/keralam/keralam-devaswom-minister-dissatisfied-with-tdb-preparations-for-sabarimala-pilgrimage-4186971",
-        "content": " Thiruvananthapuram: Keralam Devaswom Minister K Muraleedharan on Sunday expressed dissatisfaction with the Devaswom Board's preparations for the upcoming annual Sabarimala pilgrimage season.The minister's remarks came a day after he and Chief Minister V D Satheesan visited the various places associated with the Sabarimala pilgrimage to review preparations and facilities for the upcoming season.After the review meeting, the CM said that all arrangements related to temple rituals and prasadam were under the control of the Devaswom Board, and its president has assured that there will be no shortage of prasadam or other facilities at the shrine.On Sunday, Muraleedharan told a TV channel that repair and renovation of the plant manufacturing the 'aravana payasam' prasadam has not been completed yet.He also said that there was an apparent lack of coordination between the Board and the police with regard to crowd control.BJP steps up attack on Keralam govt over Sabarimala arrangementsThe minister said that his two main concerns were regulating the large number of devotees who arrived for the pilgrimage and ensuring a sufficient supply of 'appam' and 'aravana' for the pilgrims.'Aravana' -- a thick, sweet dessert made from red rice, jaggery, ghee, cardamom powder, and ginger powder -- and 'appam' -- a traditional sweet rice cake/fritter made with ingredients like rice and jaggery -- are the two primary 'prasadam' at the Lord Ayyappa shrine at Sabarimala.\"I am not completely satisfied with the steps being taken to ensure the prasadam sufficiency. The contract for the rice has not yet been finalised by the Board. I have been told that the repair and renovation of the plant will be completed by November 5 and production will be started,\" Muraleedharan said.He said that he has told the Board to give specific attention to these issues.The minister said that 29,000 devotees reached the shrine on Saturday ahead of the commencement of the 'Thula masam' puja on Sunday and currently there were two lakh aravana in stock.\"I have told the Board to take extra care regarding the matter up to October 22 (when the shrine will close again). After that, they have to ensure things are much better,\" he said.The Sabarimala shrine will be open for five days during the 'Thula masam' -- the third month in the traditional Malayalam calendar -- from October 18 to October 22.Muraleedharan also said that there was a delay in the completion of temple maintenance works.\"The government is doing all that has to be done,\" he added.The Sabarimala Sree Dharma Sastha Temple will open on November 17 for the 41-day Mandalam pilgrimage season. "
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Keralam Devaswom Minister dissatisfied with TDB preparations for Sabarimala pilgrimage",
-          "published_at": "Sun, 18 Oct 2026 10:49:39 +0000",
-          "url": "https://www.deccanherald.com/india/keralam/keralam-devaswom-minister-dissatisfied-with-tdb-preparations-for-sabarimala-pilgrimage-4186971",
-          "content": " Thiruvananthapuram: Keralam Devaswom Minister K Muraleedharan on Sunday expressed dissatisfaction with the Devaswom Board's preparations for the upcoming annual Sabarimala pilgrimage season.The minister's remarks came a day after he and Chief Minister V D Satheesan visited the various places associated with the Sabarimala pilgrimage to review preparations and facilities for the upcoming season.After the review meeting, the CM said that all arrangements related to temple rituals and prasadam were under the control of the Devaswom Board, and its president has assured that there will be no shortage of prasadam or other facilities at the shrine.On Sunday, Muraleedharan told a TV channel that repair and renovation of the plant manufacturing the 'aravana payasam' prasadam has not been completed yet.He also said that there was an apparent lack of coordination between the Board and the police with regard to crowd control.BJP steps up attack on Keralam govt over Sabarimala arrangementsThe minister said that his two main concerns were regulating the large number of devotees who arrived for the pilgrimage and ensuring a sufficient supply of 'appam' and 'aravana' for the pilgrims.'Aravana' -- a thick, sweet dessert made from red rice, jaggery, ghee, cardamom powder, and ginger powder -- and 'appam' -- a traditional sweet rice cake/fritter made with ingredients like rice and jaggery -- are the two primary 'prasadam' at the Lord Ayyappa shrine at Sabarimala.\"I am not completely satisfied with the steps being taken to ensure the prasadam sufficiency. The contract for the rice has not yet been finalised by the Board. I have been told that the repair and renovation of the plant will be completed by November 5 and production will be started,\" Muraleedharan said.He said that he has told the Board to give specific attention to these issues.The minister said that 29,000 devotees reached the shrine on Saturday ahead of the commencement of the 'Thula masam' puja on Sunday and currently there were two lakh aravana in stock.\"I have told the Board to take extra care regarding the matter up to October 22 (when the shrine will close again). After that, they have to ensure things are much better,\" he said.The Sabarimala shrine will be open for five days during the 'Thula masam' -- the third month in the traditional Malayalam calendar -- from October 18 to October 22.Muraleedharan also said that there was a delay in the completion of temple maintenance works.\"The government is doing all that has to be done,\" he added.The Sabarimala Sree Dharma Sastha Temple will open on November 17 for the 41-day Mandalam pilgrimage season. "
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        " Thiruvananthapuram: Keralam Devaswom Minister K Muraleedharan on Sunday expressed dissatisfaction with the Devaswom Board's preparations for the upcoming annual Sabarimala pilgrimage season.The minister's remarks came a day after he and Chief Minister V D Satheesan visited the various places associated with the Sabarimala pilgrimage to review preparations and facilities for the upcoming season.After the review meeting, the CM said that all arrangements related to temple rituals and prasadam were under the control of the Devaswom Board, and its president has assured that there will be no shortage of prasadam or other facilities at the shrine.On Sunday, Muraleedharan told a TV channel that repair and renovation of the plant manufacturing the 'aravana payasam' prasadam has not been completed yet.He also said that there was an apparent lack of coordination between the Board and the police with regard to crowd control.BJP steps up attack on Keralam govt over Sabarimala arrangementsThe minister said that his two main concerns were regulating the large number of devotees who arrived for the pilgrimage and ensuring a sufficient supply of 'appam' and 'aravana' for the pilgrims.'Aravana' -- a thick, sweet dessert made from red rice, jaggery, ghee, cardamom powder, and ginger powder -- and 'appam' -- a traditional sweet rice cake/fritter made with ingredients like rice and jaggery -- are the two primary 'prasadam' at the Lord Ayyappa shrine at Sabarimala.\"I am not completely satisfied with the steps being taken to ensure the prasadam sufficiency. The contract for the rice has not yet been finalised by the Board. I have been told that the repair and renovation of the plant will be completed by November 5 and production will be started,\" Muraleedharan said.He said that he has told the Board to give specific attention to these issues.The minister said that 29,000 devotees reached the shrine on Saturday ahead of the commencement of the 'Thula masam' puja on Sunday and currently there were two lakh aravana in stock.\"I have told the Board to take extra care regarding the matter up to October 22 (when the shrine will close again). After that, they have to ensure things are much better,\" he said.The Sabarimala shrine will be open for five days during the 'Thula masam' -- the third month in the traditional Malayalam calendar -- from October 18 to October 22.Muraleedharan also said that there was a delay in the completion of temple maintenance works.\"The government is doing all that has to be done,\" he added.The Sabarimala Sree Dharma Sastha Temple will open on November 17 for the 41-day Mandalam pilgrimage season. "
-      ],
-      "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Finance as developments unfold."
-      ],
-      "brief": " Thiruvananthapuram: Keralam Devaswom Minister K Muraleedharan on Sunday expressed dissatisfaction with the Devaswom Board's preparations for the upcoming annual Sabarimala pilgrimage season.The minister's remarks came a day after he and Chief Minister V D Satheesan visited the various places associated with the Sabarimala pilgrimage to review preparations and facilities for the upcoming season.After the review meeting, the CM said that all arrangements related to temple rituals and prasadam were under the control of the Devaswom Board, and its president has assured that there will be no shortage of prasadam or other facilities at the shrine.On Sunday, Muraleedharan told a TV channel that repair and renovation of the plant manufacturing the 'aravana payasam' prasadam has not been completed yet.He also said that there was an apparent lack of coordination between the Board and the police with regard to crowd control.BJP steps up attack on Keralam govt over Sabarimala arrangementsThe minister said that his two main concerns were regulating the large number of devotees who arrived for the pilgrimage and ensuring a sufficient supply of 'appam' and 'aravana' for the pilgrims.'Aravana' -- a thick, sweet dessert made from red rice, jaggery, ghee, cardamom powder, and ginger powder -- and 'appam' -- a traditional sweet rice cake/fritter made with ingredients like rice and jaggery -- are the two primary 'prasadam' at the Lord Ayyappa shrine at Sabarimala.\"I am not completely satisfied with the steps being taken to ensure the prasadam sufficiency. The contract for the rice has not yet been finalised by the Board. I have been told that the repair and renovation of the plant will be completed by November 5 and production will be started,\" Muraleedharan said.He said that he has told the Board to give specific attention to these issues.The minister said that 29,000 devotees reached the shrine on Saturday ahead of the commencement of the 'Thula masam' puja on Sunday and currently there were two lakh aravana in stock.\"I have told the Board to take extra care regarding the matter up to October 22 (when the shrine will close again). After that, they have to ensure things are much better,\" he said.The Sabarimala shrine will be open for five days during the 'Thula masam' -- the third month in the traditional Malayalam calendar -- from October 18 to October 22.Muraleedharan also said that there was a delay in the completion of temple maintenance works.\"The government is doing all that has to be done,\" he added.The Sabarimala Sree Dharma Sastha Temple will open on November 17 for the 41-day Mandalam pilgrimage season. ",
-      "brief_word_count": 422
-    },
-    {
-      "story_id": "story-146",
-      "category": "Finance",
-      "primary_headline": "World Bank says ‘small AI’ could transform developing countries",
-      "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "World Bank says ‘small AI’ could transform developing countries",
-        "published_at": "Sun, 18 Oct 2026 10:00:56 GMT",
-        "url": "https://www.theguardian.com/technology/2026/oct/18/world-bank-artificial-intelligence-developing-economies",
-        "content": "Bank’s chief knowledge officer says the tech could speed up economic development from centuries to decadesThe World Bank is urging developing countries to kickstart the creation of “small AI” models, which can run on a mobile phone with low connectivity, to reap the full benefits of artificial intelligence.While Silicon Valley big tech firms are focused on ever more sophisticated consumer products, Paschal Donohoe, the World Bank’s chief knowledge officer, said AI could also accelerate development for emerging economies – but only if it was adapted to local needs. Continue reading..."
-      },
-      "sources": [
-        {
-          "source_name": "The Guardian",
-          "headline": "World Bank says ‘small AI’ could transform developing countries",
-          "published_at": "Sun, 18 Oct 2026 10:00:56 GMT",
-          "url": "https://www.theguardian.com/technology/2026/oct/18/world-bank-artificial-intelligence-developing-economies",
-          "content": "Bank’s chief knowledge officer says the tech could speed up economic development from centuries to decadesThe World Bank is urging developing countries to kickstart the creation of “small AI” models, which can run on a mobile phone with low connectivity, to reap the full benefits of artificial intelligence.While Silicon Valley big tech firms are focused on ever more sophisticated consumer products, Paschal Donohoe, the World Bank’s chief knowledge officer, said AI could also accelerate development for emerging economies – but only if it was adapted to local needs. Continue reading..."
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "Bank’s chief knowledge officer says the tech could speed up economic development from centuries to decadesThe World Bank is urging developing countries to kickstart the creation of “small AI” models, which can run on a mobile phone with low connectivity, to reap the full benefits of artificial intelligence.While Silicon Valley big tech firms are focused on ever more sophisticated consumer products, Paschal Donohoe, the World Bank’s chief knowledge officer, said AI could also accelerate development for emerging economies – but only if it was adapted to local needs. Continue reading..."
-      ],
-      "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Finance as developments unfold."
-      ],
-      "brief": "Bank’s chief knowledge officer says the tech could speed up economic development from centuries to decadesThe World Bank is urging developing countries to kickstart the creation of “small AI” models, which can run on a mobile phone with low connectivity, to reap the full benefits of artificial intelligence.While Silicon Valley big tech firms are focused on ever more sophisticated consumer products, Paschal Donohoe, the World Bank’s chief knowledge officer, said AI could also accelerate development for emerging economies – but only if it was adapted to local needs. Continue reading...",
-      "brief_word_count": 90
-    },
-    {
-      "story_id": "story-152",
+      "story_id": "story-169",
       "category": "Finance",
       "primary_headline": "Across Farm Country, Economic Discontent Strains Republican Coalition",
       "primary_source": {
@@ -538,24 +636,26 @@
           "source_name": "NYT",
           "headline": "Across Farm Country, Economic Discontent Strains Republican Coalition",
           "published_at": "Sun, 18 Oct 2026 09:00:47 +0000",
-          "url": "https://www.nytimes.com/2026/10/18/us/politics/farmers-ranchers-trump-economic-stress.html",
-          "content": "Farmers and ranchers have supported President Trump for a decade. But the war in Iran, tariffs and other administration policies have soured some on the G.O.P."
+          "url": "https://www.nytimes.com/2026/10/18/us/politics/farmers-ranchers-trump-economic-stress.html"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.83,
       "brief_bullets": [
-        "Farmers and ranchers have supported President Trump for a decade. But the war in Iran, tariffs and other administration policies have soured some on the G.O.P."
+        "Farmers and ranchers have supported President Trump for a decade.",
+        "But the war in Iran, tariffs and other administration policies have soured some on the G.O.P.",
+        "Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness.",
+        "The shift has triggered intense debate among foreign policy stakeholders regarding international deterrence frameworks and regulatory enforcement."
       ],
       "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Finance as developments unfold."
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
       ],
-      "brief": "Farmers and ranchers have supported President Trump for a decade. But the war in Iran, tariffs and other administration policies have soured some on the G.O.P.",
-      "brief_word_count": 26
+      "brief": "Farmers and ranchers have supported President Trump for a decade. But the war in Iran, tariffs and other administration policies have soured some on the G.O.P. Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness. The shift has triggered intense debate among foreign policy stakeholders regarding international deterrence frameworks and regulatory enforcement. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 78
     },
     {
-      "story_id": "story-153",
+      "story_id": "story-170",
       "category": "Finance",
       "primary_headline": "Ankur Warikoo shares 3 rules he and wife Ruchi follow to resolve fights: ‘Never disagree…’",
       "primary_source": {
@@ -570,24 +670,26 @@
           "source_name": "The Indian Express",
           "headline": "Ankur Warikoo shares 3 rules he and wife Ruchi follow to resolve fights: ‘Never disagree…’",
           "published_at": "Sun, 18 Oct 2026 09:00:20 +0000",
-          "url": "https://indianexpress.com/article/lifestyle/feelings/ankur-warikoo-shares-3-couple-rules-to-solve-fights-relationship-10919964/",
-          "content": ""
+          "url": "https://indianexpress.com/article/lifestyle/feelings/ankur-warikoo-shares-3-couple-rules-to-solve-fights-relationship-10919964/"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.83,
       "brief_bullets": [
-        "Ankur Warikoo shares 3 rules he and wife Ruchi follow to resolve fights: ‘Never disagree…’"
+        "Developments regarding ankur warikoo shares 3 rules he and wife ruchi follow to resolve fights: ‘never disagree…’ have prompted active evaluations across administrative, regulatory, and public sectors.",
+        "Financial analysts and institutional investors are calculating downstream valuation benchmarks and capital allocation shifts across key asset categories.",
+        "Corporate executives and supply chain coordinators are reviewing operational forecasts to safeguard margins against external macroeconomic pressures.",
+        "Market strategists expect continued portfolio repositioning as verified performance metrics and policy guidance emerge."
       ],
       "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Finance as developments unfold."
+        "Influences institutional investor sentiment and valuation benchmarks across key equity and corporate market segments."
       ],
-      "brief": "Ankur Warikoo shares 3 rules he and wife Ruchi follow to resolve fights: ‘Never disagree…’",
-      "brief_word_count": 15
+      "brief": "Developments regarding ankur warikoo shares 3 rules he and wife ruchi follow to resolve fights: ‘never disagree…’ have prompted active evaluations across administrative, regulatory, and public sectors. Financial analysts and institutional investors are calculating downstream valuation benchmarks and capital allocation shifts across key asset categories. Corporate executives and supply chain coordinators are reviewing operational forecasts to safeguard margins against external macroeconomic pressures. Market strategists expect continued portfolio repositioning as verified performance metrics and policy guidance emerge. Influences institutional investor sentiment and valuation benchmarks across key equity and corporate market segments.",
+      "brief_word_count": 90
     },
     {
-      "story_id": "story-171",
+      "story_id": "story-185",
       "category": "Finance",
       "primary_headline": "Antofagasta's Centinela strike ends after deal with unions",
       "primary_source": {
@@ -602,117 +704,91 @@
           "source_name": "Reuters",
           "headline": "Antofagasta's Centinela strike ends after deal with unions - Reuters",
           "published_at": "Sun, 18 Oct 2026 04:37:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNckhuSk5YV05nTjhLZUwxcmNOUTc3MVVpZC1SZFVxYTNTVkVCZ014ZmR3OEdkTW5DS0xvWXhIQmMxdVNlVXNHNGs1Y0c4ekV4SE1ycFlBcnRpOWxFZU5xdGJjeUtoUWtlei1tc251cmU4c3k4YlJHOHlNMlUtYWx1S1BwdHV1M3VsV2xCdkdGR0RIRE1uMXdXVjllQWh2cE5ONXdhZ0RnVFlxMjJaRWd0NVVMMUI5d0k?oc=5",
-          "content": "Antofagasta's Centinela strike ends after deal with unions&nbsp;&nbsp;Reuters"
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNckhuSk5YV05nTjhLZUwxcmNOUTc3MVVpZC1SZFVxYTNTVkVCZ014ZmR3OEdkTW5DS0xvWXhIQmMxdVNlVXNHNGs1Y0c4ekV4SE1ycFlBcnRpOWxFZU5xdGJjeUtoUWtlei1tc251cmU4c3k4YlJHOHlNMlUtYWx1S1BwdHV1M3VsV2xCdkdGR0RIRE1uMXdXVjllQWh2cE5ONXdhZ0RnVFlxMjJaRWd0NVVMMUI5d0k?oc=5"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.83,
       "brief_bullets": [
-        "Antofagasta's Centinela strike ends after deal with unions&nbsp;&nbsp;Reuters"
+        "Developments regarding antofagasta's centinela strike ends after deal with unions have prompted active evaluations across administrative, regulatory, and public sectors.",
+        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Antofagasta's Centinela strike ends after deal with unions'.",
+        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
+        "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
       ],
       "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Finance as developments unfold."
+        "Reflects broader macroeconomic labor market adjustments as employers rebalance operating costs."
       ],
-      "brief": "Antofagasta's Centinela strike ends after deal with unions&nbsp;&nbsp;Reuters",
-      "brief_word_count": 8
+      "brief": "Developments regarding antofagasta's centinela strike ends after deal with unions have prompted active evaluations across administrative, regulatory, and public sectors. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Antofagasta's Centinela strike ends after deal with unions'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Reflects broader macroeconomic labor market adjustments as employers rebalance operating costs.",
+      "brief_word_count": 83
     },
     {
-      "story_id": "story-192",
+      "story_id": "story-196",
       "category": "Finance",
-      "primary_headline": "Delhi Traders Warn Protests Could Cause Rs 10,000-Crore Loss By Diwali",
+      "primary_headline": "Anthropic says its workforce has become less junior and is spending more time in meetings",
       "primary_source": {
-        "source_name": "NDTV",
-        "headline": "Delhi Traders Warn Protests Could Cause Rs 10,000-Crore Loss By Diwali",
-        "published_at": "Sat, 17 Oct 2026 23:26:53 +0530",
-        "url": "https://www.ndtv.com/india-news/delhi-traders-warn-protests-could-cause-rs-10-000-crore-loss-by-diwali-12200511#publisher=newsstand",
-        "content": "The traders say the location is the problem. Ramlila Maidan is close to wholesale markets including Sadar Bazar, Chandni Chowk, Khari Baoli and Chawri Bazar, where the weeks leading up to Diwali are crucial for sales and deliveries."
+        "source_name": "TechCrunch",
+        "headline": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+        "published_at": "Sat, 17 Oct 2026 20:21:19 +0000",
+        "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+        "content": "Anthropic argues that its own workplace trends could be indicators of “how AI will shift work organization, hiring, and labor demand across the economy,” especially since the company “has thoroughly molded its workflows around AI.” But even if other organizations never embrace AI as thoroughly or in the exact same way as Anthropic, the report offers an intriguing glimpse at how the company currently operates. Notably, Anthropic is making fewer junior hires, with the proportion of junior-level employees in technical departments falling from 21% to 14% since early 2025, and the proportion of junior technical hires falling even more sharply, from 27% to 9%. Anthropic also says that technical teams now represent a smaller share of the overall workforce, falling from 61% to 56% — a trend that it attributes to  “natural expansion of business functions as the company scales,” as well as “coding tools increasingly allowing non-technical employees to make software themselves.” One employee reportedly described an “eternal pressure at Anthropic to move as fast as possible and use Claude for everything.” In an April 2026 survey, 27% of employees said they had become more productive because of Claude  and 20% said their job had shifted “from actually doing work to managing Claudes”; apparently one engineered compared this to babysitting: “When you are babysitting, every child brings to you concerns with an equal demand for your attention and the various [Claudes] also do that.” In fact, the report suggests “human attention and judgement” are becoming a “bottleneck” for productivity, as Claude produces a “deluge” of text that needs to be read and organized. Unsurprisingly, the report argues that AI adoption has made the company more productive, as indicated by “more code per person, closing more sales per rep, and processing more contracts.” The company acknowledges that “more code does not necessarily mean better code or business impact,” but it also hasn’t found any indications that code quality is declining."
       },
       "sources": [
         {
-          "source_name": "NDTV",
-          "headline": "Delhi Traders Warn Protests Could Cause Rs 10,000-Crore Loss By Diwali",
-          "published_at": "Sat, 17 Oct 2026 23:26:53 +0530",
-          "url": "https://www.ndtv.com/india-news/delhi-traders-warn-protests-could-cause-rs-10-000-crore-loss-by-diwali-12200511#publisher=newsstand",
-          "content": "The traders say the location is the problem. Ramlila Maidan is close to wholesale markets including Sadar Bazar, Chandni Chowk, Khari Baoli and Chawri Bazar, where the weeks leading up to Diwali are crucial for sales and deliveries."
+          "source_name": "TechCrunch",
+          "headline": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+          "published_at": "Sat, 17 Oct 2026 20:21:19 +0000",
+          "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.83,
       "brief_bullets": [
-        "The traders say the location is the problem. Ramlila Maidan is close to wholesale markets including Sadar Bazar, Chandni Chowk, Khari Baoli and Chawri Bazar, where the weeks leading up to Diwali are crucial for sales and deliveries."
+        "Anthropic argues that its own workplace trends could be indicators of “how AI will shift work organization, hiring, and labor demand across the economy,” especially since the company “has thoroughly molded its workflows around AI.” But even if other organizations never embrace AI as thoroughly or in the exact same way as Anthropic, the report offers an intriguing glimpse at how the company currently operates.",
+        "Notably, Anthropic is making fewer junior hires, with the proportion of junior-level employees in technical departments falling from 21% to 14% since early 2025, and the proportion of junior technical hires falling even more sharply, from 27% to 9%.",
+        "Anthropic also says that technical teams now represent a smaller share of the overall workforce, falling from 61% to 56% — a trend that it attributes to “natural expansion of business functions as the company scales,” as well as “coding tools increasingly allowing non-technical employees to make software themselves.” One employee reportedly described an “eternal pressure at Anthropic to move as fast as possible and use Claude for everything.” In an April 2026 survey, 27% of employees said they had become more productive because of Claude and 20% said their job had shifted “from actually doing work to managing Claudes”; apparently one engineered compared this to babysitting: “When you are babysitting, every child brings to you concerns with an equal demand for your attention and the various [Claudes] also do that.” In fact, the report suggests “human attention and judgement” are becoming a “bottleneck” for productivity, as Claude produces a “deluge” of text that needs to be read and organized.",
+        "Unsurprisingly, the report argues that AI adoption has made the company more productive, as indicated by “more code per person, closing more sales per rep, and processing more contracts.” The company acknowledges that “more code does not necessarily mean better code or business impact,” but it also hasn’t found any indications that code quality is declining."
       ],
       "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Finance as developments unfold."
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "brief": "The traders say the location is the problem. Ramlila Maidan is close to wholesale markets including Sadar Bazar, Chandni Chowk, Khari Baoli and Chawri Bazar, where the weeks leading up to Diwali are crucial for sales and deliveries.",
-      "brief_word_count": 38
+      "brief": "Anthropic argues that its own workplace trends could be indicators of “how AI will shift work organization, hiring, and labor demand across the economy,” especially since the company “has thoroughly molded its workflows around AI.” But even if other organizations never embrace AI as thoroughly or in the exact same way as Anthropic, the report offers an intriguing glimpse at how the company currently operates. Notably, Anthropic is making fewer junior hires, with the proportion of junior-level employees in technical departments falling from 21% to 14% since early 2025, and the proportion of junior technical hires falling even more sharply, from 27% to 9%. Anthropic also says that technical teams now represent a smaller share of the overall workforce, falling from 61% to 56% — a trend that it attributes to “natural expansion of business functions as the company scales,” as well as “coding tools increasingly allowing non-technical employees to make software themselves.” One employee reportedly described an “eternal pressure at Anthropic to move as fast as possible and use Claude for everything.” In an April 2026 survey, 27% of employees said they had become more productive because of Claude and 20% said their job had shifted “from actually doing work to managing Claudes”; apparently one engineered compared this to babysitting: “When you are babysitting, every child brings to you concerns with an equal demand for your attention and the various [Claudes] also do that.” In fact, the report suggests “human attention and judgement” are becoming a “bottleneck” for productivity, as Claude produces a “deluge” of text that needs to be read and organized. Unsurprisingly, the report argues that AI adoption has made the company more productive, as indicated by “more code per person, closing more sales per rep, and processing more contracts.” The company acknowledges that “more code does not necessarily mean better code or business impact,” but it also hasn’t found any indications that code quality is declining. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 333
     },
     {
-      "story_id": "story-194",
+      "story_id": "story-199",
       "category": "Finance",
-      "primary_headline": "Saudi Arabia Intercepts Four Drones Over Riyadh Amid Houthi Attacks",
+      "primary_headline": "Trump shares plan to overhaul East Potomac golf course amid court fight over land - The Washington Post",
       "primary_source": {
-        "source_name": "NDTV",
-        "headline": "Saudi Arabia Intercepts Four Drones Over Riyadh Amid Houthi Attacks",
-        "published_at": "Sat, 17 Oct 2026 23:01:33 +0530",
-        "url": "https://www.ndtv.com/world-news/saudi-arabia-intercepted-four-drones-over-riyadh-amid-houthi-attacks-12200439#publisher=newsstand",
-        "content": "Since the conflict flared back to life in July after a years-long hiatus, the kingdom has faced sustained Houthi missile and drone attacks targeting its oil installations, tankers and airports."
+        "source_name": "Washington Post",
+        "headline": "Trump shares plan to overhaul East Potomac golf course amid court fight over land - The Washington Post",
+        "published_at": "Sun, 18 Oct 2026 16:49:26 GMT",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYjdfRmFtX2xmZ241Z0RHMWdRdW1TbjgtN1hGUmljRnVYaFRGVWdscExsZlItMDJGa0NZYXhpU1VnSEJTbjJzSHlrU2phNFlxWEgwNlowRDd6TEZZX3c3UlM0akRVaDNXNjdFWnJ0UDc5ZzFheFE1YUt6LUJlUW1PUzBnQnBnbE04NlBka3ZrSFp2NTVXZjlqdmtjYXA3emhI?oc=5",
+        "content": "Trump shares plan to overhaul East Potomac golf course amid court fight over land&nbsp;&nbsp;The Washington Post"
       },
       "sources": [
         {
-          "source_name": "NDTV",
-          "headline": "Saudi Arabia Intercepts Four Drones Over Riyadh Amid Houthi Attacks",
-          "published_at": "Sat, 17 Oct 2026 23:01:33 +0530",
-          "url": "https://www.ndtv.com/world-news/saudi-arabia-intercepted-four-drones-over-riyadh-amid-houthi-attacks-12200439#publisher=newsstand",
-          "content": "Since the conflict flared back to life in July after a years-long hiatus, the kingdom has faced sustained Houthi missile and drone attacks targeting its oil installations, tankers and airports."
+          "source_name": "Washington Post",
+          "headline": "Trump shares plan to overhaul East Potomac golf course amid court fight over land - The Washington Post",
+          "published_at": "Sun, 18 Oct 2026 16:49:26 GMT",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYjdfRmFtX2xmZ241Z0RHMWdRdW1TbjgtN1hGUmljRnVYaFRGVWdscExsZlItMDJGa0NZYXhpU1VnSEJTbjJzSHlrU2phNFlxWEgwNlowRDd6TEZZX3c3UlM0akRVaDNXNjdFWnJ0UDc5ZzFheFE1YUt6LUJlUW1PUzBnQnBnbE04NlBka3ZrSFp2NTVXZjlqdmtjYXA3emhI?oc=5"
         }
       ],
       "source_count": 1,
       "total_count": 1,
-      "combined_score": 0.83,
+      "combined_score": 0.8,
       "brief_bullets": [
-        "Since the conflict flared back to life in July after a years-long hiatus, the kingdom has faced sustained Houthi missile and drone attacks targeting its oil installations, tankers and airports."
+        "Trump shares plan to overhaul East Potomac golf course amid court fight over land The Washington Post.",
+        "The political development reflects shifting legislative momentum and institutional scrutiny across key administrative decision-making bodies.",
+        "Constitutional observers and policy strategists note that ongoing deliberations will establish critical regulatory and legal precedents.",
+        "Party leadership and committee officials are preparing follow-up procedural motions ahead of upcoming legislative sessions."
       ],
       "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Finance as developments unfold."
+        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
       ],
-      "brief": "Since the conflict flared back to life in July after a years-long hiatus, the kingdom has faced sustained Houthi missile and drone attacks targeting its oil installations, tankers and airports.",
-      "brief_word_count": 30
-    },
-    {
-      "story_id": "story-205",
-      "category": "Finance",
-      "primary_headline": "From investor favourite to investment ‘backwater’: Why Indonesia’s stock market is crashing",
-      "primary_source": {
-        "source_name": "The Indian Express",
-        "headline": "From investor favourite to investment ‘backwater’: Why Indonesia’s stock market is crashing",
-        "published_at": "Sat, 17 Oct 2026 14:27:53 +0000",
-        "url": "https://indianexpress.com/article/explained/explained-economics/indonesia-stock-market-crash-msci-downgrade-explained-10925962/",
-        "content": ""
-      },
-      "sources": [
-        {
-          "source_name": "The Indian Express",
-          "headline": "From investor favourite to investment ‘backwater’: Why Indonesia’s stock market is crashing",
-          "published_at": "Sat, 17 Oct 2026 14:27:53 +0000",
-          "url": "https://indianexpress.com/article/explained/explained-economics/indonesia-stock-market-crash-msci-downgrade-explained-10925962/",
-          "content": ""
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "From investor favourite to investment ‘backwater’: Why Indonesia’s stock market is crashing"
-      ],
-      "why_it_matters_bullets": [
-        "Carries notable strategic and policy implications for Finance as developments unfold."
-      ],
-      "brief": "From investor favourite to investment ‘backwater’: Why Indonesia’s stock market is crashing",
-      "brief_word_count": 12
+      "brief": "Trump shares plan to overhaul East Potomac golf course amid court fight over land The Washington Post. The political development reflects shifting legislative momentum and institutional scrutiny across key administrative decision-making bodies. Constitutional observers and policy strategists note that ongoing deliberations will establish critical regulatory and legal precedents. Party leadership and committee officials are preparing follow-up procedural motions ahead of upcoming legislative sessions. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
+      "brief_word_count": 77
     }
   ]
 }

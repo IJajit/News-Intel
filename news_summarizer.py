@@ -121,46 +121,82 @@ def _structured_fallback(text, title=""):
     # Ensure every story gets an elaborate, professional multi-sentence editorial brief
     brief_sentences = list(unique_sentences)
     
-    # If we have fewer than 3 substantive sentences, expand with analytical context
-    if len(brief_sentences) < 3:
-        # Check topic context to formulate appropriate contextual elaboration
-        combined = (core_title + " " + clean).lower()
+    # If we have fewer than 4 substantive sentences, expand with comprehensive analytical context
+    if len(brief_sentences) < 4:
+        combined = f"{core_title} {clean}".lower()
         
-        if any(k in combined for k in ['shoot', 'shot', 'fir', 'attack', 'gang', 'arrest', 'kill', 'murder', 'police', 'assassin', 'probe', 'custody']):
-            context_sen = "Law enforcement and investigative teams have mobilized forensic units and initiated targeted inquiries to determine the operational chain of events."
-            outlook_sen = "Officials are closely coordinating across regional jurisdictions to prevent further retaliatory escalations while public safety advisories remain active."
-        elif any(k in combined for k in ['iran', 'israel', 'war', 'drone', 'missile', 'russia', 'ukraine', 'strike', 'military', 'houthi', 'saudi']):
-            context_sen = "The escalation marks a significant strategic development across the active conflict theater, testing defense capabilities and diplomatic containment lines."
-            outlook_sen = "International observers and regional defense ministries continue to monitor front-line movements and supply corridor readiness for subsequent counter-maneuvers."
-        elif any(k in combined for k in ['rain', 'flood', 'monsoon', 'storm', 'weather', 'cyclone', 'inundat']):
-            context_sen = "Municipal authorities and emergency disaster management personnel have deployed rescue pumps and field response squads across affected low-lying sectors."
-            outlook_sen = "Civic agencies have urged residents in inundated pockets to follow localized safety advisories while drainage restoration efforts continue."
-        elif any(k in combined for k in ['trump', 'biden', 'vote', 'election', 'poll', 'court', 'judge', 'doj', 'congress', 'senate', 'parliament']):
-            context_sen = "The development reflects mounting institutional scrutiny and shifting legislative momentum across key committee review channels."
-            outlook_sen = "Political analysts and constitutional experts note that ongoing deliberations will establish critical administrative and procedural precedents."
-        elif any(k in combined for k in ['stock', 'market', 'trade', 'economy', 'fed', 'rate', 'revenue', 'profit', 'shares', 'gold', 'oil', 'tariff']):
-            context_sen = "Financial analysts and market participants are evaluating the broader capital deployment and valuation impacts across key asset classes."
-            outlook_sen = "Institutional investors are factoring the latest operational guidance into revised risk assessments ahead of upcoming economic reports."
-        elif any(k in combined for k in ['match', 'cup', 'goal', 'score', 'tournament', 'championship', 'league', 'football', 'cricket']):
-            context_sen = "Team tacticians and coaching squads are adjusting on-field strategies to capitalize on key scoring opportunities in upcoming fixtures."
-            outlook_sen = "The competitive outcome significantly alters points table dynamics and title race momentum as the campaign progresses."
+        def _match_kw(kws):
+            return any(re.search(r'\b' + re.escape(k) + r'\b', combined) for k in kws)
+
+        if _match_kw(['shoot', 'shooting', 'fired', 'firing', 'attack', 'attacked', 'gang', 'arrest', 'arrested', 'kill', 'killed', 'murder', 'police', 'assassination', 'probe', 'custody', 'stampede']):
+            context_sentences = [
+                "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
+                "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions.",
+                "Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments."
+            ]
+        elif _match_kw(['protest', 'protests', 'protesters', 'riot', 'riots', 'rioting', 'demonstration', 'unrest', 'clash', 'clashes', 'looting']):
+            context_sentences = [
+                "Public dissent and street demonstrations have prompted emergency municipal interventions and heightened law enforcement readiness across impacted urban hubs.",
+                "Political factions and civic advocacy groups are actively debating the underlying systemic grievances that triggered the public unrest.",
+                "Government spokespersons have appealed for dialogue while maintaining heightened security cordons around administrative infrastructure."
+            ]
+        elif _match_kw(['sanctions', 'waiver', 'ukraine', 'russia', 'putin', 'zelensky', 'nato', 'missile', 'drone', 'iran', 'israel', 'gaza', 'military', 'defense', 'houthi', 'strait']):
+            context_sentences = [
+                "Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness.",
+                "The shift has triggered intense debate among foreign policy stakeholders regarding international deterrence frameworks and regulatory enforcement.",
+                "Regional defense ministries and multilateral bodies are assessing logistical readiness and diplomatic countermeasures as the geopolitical landscape evolves."
+            ]
+        elif _match_kw(['rain', 'flood', 'floods', 'flooding', 'monsoon', 'storm', 'weather', 'cyclone', 'inundated', 'tornado', 'tornadoes']):
+            context_sentences = [
+                "Meteorological authorities and disaster response teams have deployed emergency rescue pumps and localized assistance squads across vulnerable sectors.",
+                "Civic agencies have mobilized field personnel to inspect transit corridors, clear arterial drainages, and restore essential public utilities.",
+                "Municipal administrators have urged local residents to adhere to official safety bulletins until weather patterns stabilize."
+            ]
+        elif _match_kw(['trump', 'biden', 'election', 'voting', 'poll', 'polls', 'court', 'judge', 'doj', 'congress', 'senate', 'parliament', 'minister', 'nomination']):
+            context_sentences = [
+                "The political development reflects shifting legislative momentum and institutional scrutiny across key administrative decision-making bodies.",
+                "Constitutional observers and policy strategists note that ongoing deliberations will establish critical regulatory and legal precedents.",
+                "Party leadership and committee officials are preparing follow-up procedural motions ahead of upcoming legislative sessions."
+            ]
+        elif _match_kw(['ai', 'artificial intelligence', 'microsoft', 'google', 'apple', 'nvidia', 'meta', 'software', 'tech', 'technology', 'cloud', 'chip', 'semiconductor']):
+            context_sentences = [
+                "Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms.",
+                "Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps.",
+                "Regulatory bodies continue to monitor market concentration to ensure equitable innovation safeguards across the broader sector."
+            ]
+        elif _match_kw(['stock', 'stocks', 'market', 'economy', 'economic', 'fed', 'rate', 'rates', 'revenue', 'profit', 'shares', 'gold', 'oil', 'tariff', 'tariffs', 'trade']):
+            context_sentences = [
+                "Financial analysts and institutional investors are calculating downstream valuation benchmarks and capital allocation shifts across key asset categories.",
+                "Corporate executives and supply chain coordinators are reviewing operational forecasts to safeguard margins against external macroeconomic pressures.",
+                "Market strategists expect continued portfolio repositioning as verified performance metrics and policy guidance emerge."
+            ]
+        elif _match_kw(['match', 'cup', 'goal', 'tournament', 'championship', 'league', 'football', 'cricket', 'score', 'player']):
+            context_sentences = [
+                "Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures.",
+                "Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum.",
+                "Team representatives have confirmed comprehensive preparation plans to maintain strategic advantages in subsequent championship phases."
+            ]
         else:
-            context_sen = f"Key stakeholders across the sector are evaluating operational and procedural implications as verified information emerges."
-            outlook_sen = f"Relevant authorities are coordinating technical and administrative steps to address immediate priorities."
+            context_sentences = [
+                f"Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding '{core_title}'.",
+                "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
+                "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
+            ]
 
         if not brief_sentences:
             brief_sentences = [
-                f"Developments regarding {core_title.lower()} are actively unfolding across key regulatory and industry channels.",
-                context_sen,
-                outlook_sen
+                f"Developments regarding {core_title.lower()} have prompted active evaluations across administrative, regulatory, and public sectors.",
+                *context_sentences
             ]
         elif len(brief_sentences) == 1:
-            brief_sentences.extend([context_sen, outlook_sen])
+            brief_sentences.extend(context_sentences[:3])
         elif len(brief_sentences) == 2:
-            brief_sentences.append(outlook_sen)
+            brief_sentences.extend(context_sentences[:2])
+        elif len(brief_sentences) == 3:
+            brief_sentences.append(context_sentences[0])
 
-    # Limit to top 4 sentences for brief bullets
-    brief_sentences = brief_sentences[:4]
+    # Keep up to 5 substantive sentences
+    brief_sentences = brief_sentences[:5]
 
     full_narrative = " ".join(brief_sentences)
     if wim_sentence and wim_sentence not in full_narrative:
