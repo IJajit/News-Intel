@@ -5,7 +5,12 @@ from datetime import datetime, timezone
 STOPWORDS = {'the', 'a', 'an', 'and', 'or', 'in', 'on', 'at', 'to', 'for',
              'of', 'is', 'it', 'by', 'with', 'from', 'as', 'be', 'has',
              'are', 'was', 'were', 'been', 'its', 'their', 'that', 'this',
-             'not', 'no', 'but', 'if', 'so', 'up', 'do', 'just', 'out'}
+             'not', 'no', 'but', 'if', 'so', 'up', 'do', 'just', 'out',
+             'after', 'before', 'into', 'over', 'under', 'again', 'then',
+             'once', 'here', 'there', 'when', 'where', 'why', 'how', 'all',
+             'any', 'both', 'each', 'few', 'more', 'most', 'other', 'some',
+             'such', 'nor', 'only', 'own', 'same', 'than', 'too', 'very',
+             'can', 'will', 'don', 'should', 'now', 'says', 'said', 'tells', 'told'}
 
 # Generic tokens too vague to count as a story-linking match (countries, common news terms)
 GENERIC_TOKENS = {
@@ -20,7 +25,8 @@ GENERIC_TOKENS = {
     'dead', 'death', 'deaths', 'court', 'police', 'minister', 'president',
     'government', 'official', 'officials', 'probe', 'inquiry', 'investigation',
     'claims', 'claim', 'warns', 'warning', 'amid', 'over', 'two', 'three', 'four',
-    'five', 'people', 'man', 'woman', 'chief', 'case', 'order', 'orders'
+    'five', 'people', 'man', 'woman', 'chief', 'case', 'order', 'orders',
+    'opinion', 'editorial', 'analysis', 'live', 'video', 'watch', 'explainer'
 }
 
 URGENCY_KEYWORDS = ['breaking', 'crisis', 'emergency', 'confirmed', 'developing',
@@ -48,7 +54,7 @@ SUBCATEGORY_KEYWORDS = {
     "Domestic Politics & Governance": ['law', 'tax', 'policy', 'vote', 'court', 'parliament', 'government', 'bill', 'supreme court', 'police', 'arrest'],
     "Science, Health & Environment": ['climate', 'fda', 'healthcare', 'nasa', 'science', 'earthquake', 'tsunami', 'virus', 'biology', 'medicine', 'vaccine', 'research', 'scientific'],
     "Sports": ['match', 'world cup', 'score', 'cricket', 'football', 'player', 'tennis', 'olympics', 'championship', 'tournament'],
-    "Culture, Entertainment & Arts": ['film', 'movie', 'box office', 'award', 'album', 'music', 'gaming'],
+    "Culture, Entertainment & Arts": ['film', 'movie', 'box office', 'award', 'album', 'music', 'gaming', 'actor', 'actress', 'bollywood', 'hollywood', 'cinema', 'star'],
     "Lifestyle & Society": ['travel', 'real estate', 'labor', 'union', 'housing', 'crash', 'accident', 'aviation', 'airport', 'weather', 'rain', 'flood', 'storm', 'cyclone', 'monsoon']
 }
 
@@ -76,24 +82,26 @@ def simple_stem(w):
 def normalize_title(title):
     if not title:
         return (set(), "", set())
-    # Strip outlet attribution suffixes (e.g., "- Reuters", "| BBC News")
+    # Strip outlet attribution suffixes (e.g., "- Reuters", "| BBC News", "- The Washington Post")
     t_clean = re.sub(
-        r'\s*[\-\|—]\s*(?:Reuters|Al Jazeera|NDTV|The Indian Express|BBC News|CNN|The Print|The Guardian|TechCrunch|Scroll\.in|Deccan Herald|Vox|Bloomberg|AP News|NPR|The Hindu|NYT|Washington Post|Wired|Ars Technica|Hacker News|Sky Sports|ThePrint|AP)$',
+        r'\s*[\-\|—]\s*(?:The\s+)?(?:Reuters|Al Jazeera|NDTV|The Indian Express|BBC News|BBC|CNN|The Print|The Guardian|TechCrunch|Scroll\.in|Deccan Herald|Vox|Bloomberg|AP News|AP|NPR|The Hindu|NYT|Washington Post|The Washington Post|Wired|Ars Technica|Hacker News|Sky Sports|ThePrint)$',
         '',
         title,
         flags=re.IGNORECASE
     ).strip()
-    t_clean = re.sub(r'^(breaking|exclusive|urgent|update|developing)\s*[:\-–—]\s*', '', t_clean, flags=re.IGNORECASE)
+    t_clean = re.sub(r'^(?:breaking|exclusive|urgent|update|developing|opinion|editorial|live|video|watch|explainer)\s*[:\-–—\|]\s*', '', t_clean, flags=re.IGNORECASE)
 
-    # Separate hyphenated words (e.g. Ukraine-Moldova -> Ukraine Moldova)
-    spaced = re.sub(r'[\-\–—_/:]', ' ', t_clean)
+    # Separate hyphenated words and punctuation (e.g. Ukraine-Moldova -> Ukraine Moldova, Trump's -> Trump)
+    spaced = re.sub(r'[\-\–—_/:’\']', ' ', t_clean)
     words = spaced.split()
 
     proper_nouns = set()
     for w in words:
         clean_w = re.sub(r'[^a-zA-Z]', '', w)
-        if clean_w and clean_w[0].isupper() and len(clean_w) > 1 and clean_w.lower() not in STOPWORDS and clean_w.lower() not in GENERIC_TOKENS:
-            proper_nouns.add(simple_stem(clean_w.lower()))
+        if clean_w and clean_w[0].isupper() and len(clean_w) > 1:
+            cw_lower = clean_w.lower()
+            if cw_lower not in STOPWORDS and cw_lower not in GENERIC_TOKENS:
+                proper_nouns.add(simple_stem(cw_lower))
 
     cleaned = re.sub(r'[^a-z0-9\s]', '', spaced.lower())
     tokens = set()
@@ -138,19 +146,27 @@ def cluster_articles(articles):
         best_cl = None
         best_sim = 0.0
         for cl in clusters:
-            max_sim = 0.0
             for item_toks, item_props in cl['items']:
                 sim = jaccard_similarity(toks, item_toks)
                 inter = toks & item_toks
-                if len(inter) >= CLUSTER_MIN_INTERSECTION:
-                    non_gen = {t for t in inter if t not in GENERIC_TOKENS}
-                    # Story match require: either a shared proper noun OR at least 2 shared specific non-generic tokens
-                    if (props & item_props) or len(non_gen) >= 2:
-                        if sim > max_sim:
-                            max_sim = sim
-            if max_sim >= CLUSTER_JACCARD_THRESHOLD and max_sim > best_sim:
-                best_sim = max_sim
-                best_cl = cl
+                non_gen = {t for t in inter if t not in GENERIC_TOKENS}
+                prop_inter = props & item_props
+
+                # Match rules:
+                # 1. Strong entity link: 2+ shared proper nouns (e.g., "Tiger" + "Shroff") with minimum word overlap
+                # 2. Standard story match: shared proper noun or 2+ non-generic tokens with adaptive Jaccard threshold
+                match = False
+                effective_sim = sim
+                if len(prop_inter) >= 2 and sim >= 0.08:
+                    match = True
+                    effective_sim = max(sim, 0.5)
+                elif (prop_inter or len(non_gen) >= 2) and sim >= 0.18:
+                    match = True
+                    effective_sim = sim
+
+                if match and effective_sim > best_sim:
+                    best_sim = effective_sim
+                    best_cl = cl
 
         if best_cl:
             best_cl['articles'].append(art)
