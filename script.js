@@ -151,6 +151,19 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         window.location.reload();
       }
+
+      // Also refresh global stories so Filtered Feed and View All counts update
+      fetch(`/api/latest-brief?category=global&t=${Date.now()}`)
+        .then(r => r.ok ? r.json() : null)
+        .then(gBrief => {
+          if (gBrief && Array.isArray(gBrief.stories) && gBrief.stories.length > 0) {
+            window._globalStories = gBrief.stories;
+            window._allStories = gBrief.stories;
+            if (articlesCountVal) articlesCountVal.textContent = gBrief.articlesCount || gBrief.stories.length;
+            renderArticlesList();
+            renderRightSidebarArticles(gBrief.stories);
+          }
+        }).catch(() => {});
     } catch (err) {
       console.error('Refresh failed:', err);
       showToast('Refresh encountered an issue. Loaded cached feed.', 'info');
@@ -653,7 +666,7 @@ async function loadLatest1Hour(refreshLive = false) {
     if (refreshLive) {
       try {
         const refreshController = new AbortController();
-        const refreshTimeout = setTimeout(() => refreshController.abort(), 6000);
+        const refreshTimeout = setTimeout(() => refreshController.abort(), 12000);
         const refreshRes = await fetch('/api/refresh-latest', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -686,6 +699,10 @@ async function loadLatest1Hour(refreshLive = false) {
       window._latest1HourData = data;
       currentBriefing = data;
       renderLatestView(data);
+      // Also update right sidebar with fresh stories
+      if (data.stories.length > 0) {
+        renderRightSidebarArticles(data.stories);
+      }
     }
   } catch (e) {
     console.error('Error fetching 1-hour feed:', e);
@@ -1268,7 +1285,17 @@ function escapeHtml(text) {
 function parseDate(str) {
   if (!str) return null;
   try {
-    const d = new Date(str);
+    let s = String(str).trim();
+    // Normalize timezone abbreviations that cause Invalid Date in browsers
+    s = s.replace(/\bBST\b/g, '+0100')
+         .replace(/\bEDT\b/g, '-0400')
+         .replace(/\bEST\b/g, '-0500')
+         .replace(/\bCDT\b/g, '-0500')
+         .replace(/\bCST\b/g, '-0600')
+         .replace(/\bPDT\b/g, '-0700')
+         .replace(/\bPST\b/g, '-0800')
+         .replace(/\bIST\b/g, '+0530');
+    const d = new Date(s);
     return isNaN(d.getTime()) ? null : d;
   } catch { return null; }
 }
