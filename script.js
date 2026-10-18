@@ -784,9 +784,11 @@ function renderStoryCard(story, numbered, num) {
   const primaryUrl = primary.url || '';
   const primaryName = primary.source_name || '';
   const pubDate = parseDate(primary.published_at);
-  const timeStr = pubDate ? pubDate.toLocaleString('en-IN', {
+  const relTime = pubDate ? formatRelativeTime(pubDate) : '';
+  const exactTime = pubDate ? pubDate.toLocaleString(undefined, {
     hour: '2-digit', minute: '2-digit', day: 'numeric', month: 'short'
   }) : '';
+  const timeDisplay = relTime ? `${relTime} (${exactTime})` : exactTime;
   const extraCount = story.total_count - 1;
   const brief = story.brief || story.summary || '';
 
@@ -808,7 +810,7 @@ function renderStoryCard(story, numbered, num) {
         <div class="flex items-center gap-2">
           <span class="source-badge">${escapeHtml(primaryName)}</span>
           ${extraCount > 0 ? `<span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono">+${extraCount} other source${extraCount > 1 ? 's' : ''}</span>` : ''}
-          ${timeStr ? `<span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono">${timeStr}</span>` : ''}
+          ${timeDisplay ? `<span class="font-label-data text-[10px] text-[var(--color-dark-gray)] font-mono" title="${exactTime}">${escapeHtml(timeDisplay)}</span>` : ''}
         </div>
         ${brief ? renderExcerpt(brief, 'font-body-md leading-relaxed text-xs mt-1.5 opacity-90 text-[var(--color-black)] dark:text-[#e4e4e7]') : ''}
         ${sourcesHtml}
@@ -1265,7 +1267,22 @@ function escapeHtml(text) {
 
 function parseDate(str) {
   if (!str) return null;
-  try { return new Date(str); } catch { return null; }
+  try {
+    const d = new Date(str);
+    return isNaN(d.getTime()) ? null : d;
+  } catch { return null; }
+}
+
+function formatRelativeTime(date) {
+  if (!date || isNaN(date.getTime())) return '';
+  const diffSec = Math.floor((Date.now() - date.getTime()) / 1000);
+  if (diffSec < 60) return 'Just now';
+  const diffMin = Math.floor(diffSec / 60);
+  if (diffMin < 60) return `${diffMin}m ago`;
+  const diffHours = Math.floor(diffMin / 60);
+  if (diffHours < 24) return `${diffHours}h ago`;
+  const diffDays = Math.floor(diffHours / 24);
+  return `${diffDays}d ago`;
 }
 
 function sleep(ms) {

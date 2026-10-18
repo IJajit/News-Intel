@@ -1,118 +1,128 @@
 {
   "id": "latest",
   "category": "homepage",
-  "timestamp": "2026-10-18T13:13:45.201636+00:00",
+  "timestamp": "2026-10-18T14:26:12.623336+00:00",
   "articlesCount": 20,
   "stories": [
     {
       "story_id": "story-1",
       "category": "Society",
-      "primary_headline": "Pope Leo pledges gradual return to duties in first event since cancer surgery",
+      "primary_headline": "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery",
       "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Pope Leo pledges gradual return to duties in first event since cancer surgery - Reuters",
-        "published_at": "Sun, 18 Oct 2026 11:23:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQajlwczZReXZXSkQ1X1JuZWNGWlNjX2VXcW9hNVdlNXYybU00b3NkSFdpdXo4ZXFLZ184OENSdTZRbE9DdDF2ejZIRVpXUWk2MjdJbWM2Y0JMNzVfcGFvYzRxUU5LYUhpTTB6QWpQWHgwR0tEUXZkNnhBMkxJYkd4dTBydU1OWFpVd3lSNjRSSmF3QW9TUmFocVJVa1QyVUtJcFFHeUwwTGg?oc=5",
-        "content": "Pope Leo pledges gradual return to duties in first event since cancer surgery&nbsp;&nbsp;Reuters"
+        "source_name": "AP News",
+        "headline": "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery - AP News",
+        "published_at": "Sun, 18 Oct 2026 12:59:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUGxoemZ1SU5mT0NtVU56WWxPclZWWXZ3Vlc2TkpJOVlIaUw5T3luaDlkVVE0YlJqOXRTUmJ5anI3eHdqTEdJemtKRGtxUmNaN2U3Z21CWUQ0UEVLSUdZX3UtZVlFRzBQSHZmTWRQTFJtWmNrcHg2NDkxX1RBRy1BVkRMZEtnU3BfR0dYSWk3M01RZlowenZCT0QwZw?oc=5",
+        "content": "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
-          "source_name": "Reuters",
-          "headline": "Pope Leo pledges gradual return to duties in first event since cancer surgery - Reuters",
-          "published_at": "Sun, 18 Oct 2026 11:23:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQajlwczZReXZXSkQ1X1JuZWNGWlNjX2VXcW9hNVdlNXYybU00b3NkSFdpdXo4ZXFLZ184OENSdTZRbE9DdDF2ejZIRVpXUWk2MjdJbWM2Y0JMNzVfcGFvYzRxUU5LYUhpTTB6QWpQWHgwR0tEUXZkNnhBMkxJYkd4dTBydU1OWFpVd3lSNjRSSmF3QW9TUmFocVJVa1QyVUtJcFFHeUwwTGg?oc=5"
-        },
-        {
           "source_name": "AP News",
           "headline": "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery - AP News",
-          "published_at": "Sun, 18 Oct 2026 10:48:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUGxoemZ1SU5mT0NtVU56WWxPclZWWXZ3Vlc2TkpJOVlIaUw5T3luaDlkVVE0YlJqOXRTUmJ5anI3eHdqTEdJemtKRGtxUmNaN2U3Z21CWUQ0UEVLSUdZX3UtZVlFRzBQSHZmTWRQTFJtWmNrcHg2NDkxX1RBRy1BVkRMZEtnU3BfR0dYSWk3M01RZlowenZCT0QwZw?oc=5"
+          "published_at": "Sun, 18 Oct 2026 12:59:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUGxoemZ1SU5mT0NtVU56WWxPclZWWXZ3Vlc2TkpJOVlIaUw5T3luaDlkVVE0YlJqOXRTUmJ5anI3eHdqTEdJemtKRGtxUmNaN2U3Z21CWUQ0UEVLSUdZX3UtZVlFRzBQSHZmTWRQTFJtWmNrcHg2NDkxX1RBRy1BVkRMZEtnU3BfR0dYSWk3M01RZlowenZCT0QwZw?oc=5",
+          "content": "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery&nbsp;&nbsp;AP News"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Pope Leo pledges gradual return to duties in first event since cancer surgery - Reuters",
+          "published_at": "Sun, 18 Oct 2026 12:32:35 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQajlwczZReXZXSkQ1X1JuZWNGWlNjX2VXcW9hNVdlNXYybU00b3NkSFdpdXo4ZXFLZ184OENSdTZRbE9DdDF2ejZIRVpXUWk2MjdJbWM2Y0JMNzVfcGFvYzRxUU5LYUhpTTB6QWpQWHgwR0tEUXZkNnhBMkxJYkd4dTBydU1OWFpVd3lSNjRSSmF3QW9TUmFocVJVa1QyVUtJcFFHeUwwTGg?oc=5",
+          "content": "Pope Leo pledges gradual return to duties in first event since cancer surgery&nbsp;&nbsp;Reuters"
         },
         {
           "source_name": "Reuters",
           "headline": "Pope Leo returns to Vatican four days after cancer surgery - Reuters",
           "published_at": "Sat, 17 Oct 2026 18:25:25 GMT",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMEhiTWpBVEdDa1JjQmtQUDBZR1RGVHF4VmxwaTEzRHhtczZOcHlJZE9idHNKOFpxdnpndFYwLUk5Zy1lZFRFWTUtaHlEdW44aVZKZjlXenBveTRvN29sRzI1RG1JVm0wMGlRcFpoeS1hX0dCZE1WVGdVc3plR3FZay0xeUtSYjg2dk9SZVpUSEJUdw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMEhiTWpBVEdDa1JjQmtQUDBZR1RGVHF4VmxwaTEzRHhtczZOcHlJZE9idHNKOFpxdnpndFYwLUk5Zy1lZFRFWTUtaHlEdW44aVZKZjlXenBveTRvN29sRzI1RG1JVm0wMGlRcFpoeS1hX0dCZE1WVGdVc3plR3FZay0xeUtSYjg2dk9SZVpUSEJUdw?oc=5",
+          "content": "Pope Leo returns to Vatican four days after cancer surgery&nbsp;&nbsp;Reuters"
         },
         {
           "source_name": "Reuters",
           "headline": "Pope Leo leaves hospital for Vatican days after cancer surgery - Reuters",
           "published_at": "Sat, 17 Oct 2026 18:25:12 GMT",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBrNW5CV0RZVGx3TlkzWWZKZW5tTDQwcGRta28tbl9uNDY0RlU2MTFtTURqRTRGZ1RLaGtmaThwMHpEZUNBVmp1MUJ4Snc4YWM4aDI1NGhEY05CSUZ4WEduLXFEX0xSdVhyOEdiRU4yUGlLS3d2?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBrNW5CV0RZVGx3TlkzWWZKZW5tTDQwcGRta28tbl9uNDY0RlU2MTFtTURqRTRGZ1RLaGtmaThwMHpEZUNBVmp1MUJ4Snc4YWM4aDI1NGhEY05CSUZ4WEduLXFEX0xSdVhyOEdiRU4yUGlLS3d2?oc=5",
+          "content": "Pope Leo leaves hospital for Vatican days after cancer surgery&nbsp;&nbsp;Reuters"
         },
         {
           "source_name": "Reuters",
           "headline": "Pope Leo walks out of hospital four days after lung cancer surgery - Reuters",
           "published_at": "Sat, 17 Oct 2026 15:37:20 GMT",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBzVFNPTnpDMkVlZm5Rbm9xOHdEeW1VOGRjbzFtUEVzSXVhTkdlcDBBMnVsSHJvMlAxZTFySTNOQmdzUHBXd2tMM09tWTM1Yk1pcUR6NWNzSUFwR3ZUb3BXbkk0ZzByRFA5Mk9pVUJaWWZfaTA?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBzVFNPTnpDMkVlZm5Rbm9xOHdEeW1VOGRjbzFtUEVzSXVhTkdlcDBBMnVsSHJvMlAxZTFySTNOQmdzUHBXd2tMM09tWTM1Yk1pcUR6NWNzSUFwR3ZUb3BXbkk0ZzByRFA5Mk9pVUJaWWZfaTA?oc=5",
+          "content": "Pope Leo walks out of hospital four days after lung cancer surgery&nbsp;&nbsp;Reuters"
         }
       ],
       "source_count": 9,
       "total_count": 13,
       "combined_score": 8.4,
       "brief_bullets": [
-        "In his first public appearance since undergoing major cancer surgery, Pope Leo has pledged a careful and gradual return to his demanding papal duties. Speaking to assembled faithful and media, the pontiff expressed gratitude for the outpouring of global support during his medical ordeal and subsequent recovery period at the Vatican. Medical teams have advised a measured approach to his schedule to ensure a full and unhurried convalescence, balancing governance of the global Catholic Church with necessary health precautions. This milestone event marks a critical turning point in his papacy, alleviating immediate anxieties among international clergy and followers regarding the stability of Vatican leadership and the continuity of his pontificate's core pastoral initiatives."
+        "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery&nbsp;&nbsp;AP News"
       ],
       "why_it_matters_bullets": [
-        "The pontiff's measured return ensures stable leadership at the Vatican while establishing a critical precedent for managing papal health crises in an era of heightened global scrutiny."
+        "Carries notable strategic and policy implications for Society as developments unfold."
       ],
-      "brief": "In his first public appearance since undergoing major cancer surgery, Pope Leo has pledged a careful and gradual return to his demanding papal duties. Speaking to assembled faithful and media, the pontiff expressed gratitude for the outpouring of global support during his medical ordeal and subsequent recovery period at the Vatican. Medical teams have advised a measured approach to his schedule to ensure a full and unhurried convalescence, balancing governance of the global Catholic Church with necessary health precautions. This milestone event marks a critical turning point in his papacy, alleviating immediate anxieties among international clergy and followers regarding the stability of Vatican leadership and the continuity of his pontificate's core pastoral initiatives. The pontiff's measured return ensures stable leadership at the Vatican while establishing a critical precedent for managing papal health crises in an era of heightened global scrutiny.",
-      "brief_word_count": 140
+      "brief": "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery&nbsp;&nbsp;AP News",
+      "brief_word_count": 17
     },
     {
       "story_id": "story-2",
       "category": "Society",
-      "primary_headline": "Diplomats attacked in the occupied West Bank, and other Middle East developments",
+      "primary_headline": "West Bank",
       "primary_source": {
         "source_name": "AP News",
-        "headline": "Diplomats attacked in the occupied West Bank, and other Middle East developments - AP News",
-        "published_at": "Sun, 18 Oct 2026 04:08:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOV0tPUGhacDNCd3h5U1ktMS1xbVJUZHhjc1RSU0VwZEN1WThvNDNrc0F3SWFhRHRrRWt5NlBSUFhqc3FOa3VFd2V0RVUxTzZNakJBVXhSZHRvV0tmS3RRZG9pY0lqNGxxcmlTZWk4Ylp2MF8zNlh5OUtMS3AzSmdLWmhYYTByR2VyS21QODB2eV9Mb0FmbVlISE5qaGVtWEU2UG5tanR4dUd0ZlJHb05iWQ?oc=5",
-        "content": "Diplomats attacked in the occupied West Bank, and other Middle East developments&nbsp;&nbsp;AP News"
+        "headline": "West Bank - AP News",
+        "published_at": "Sun, 18 Oct 2026 11:14:32 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBCLUpaZFBGTl81RWtTcFVsUnJGZ19DU1dpd1FKSFpndTlxZGduSmtIWllLcnphNG9LSURuazF2dXkyZGdDR3hB?oc=5",
+        "content": "West Bank&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
           "source_name": "AP News",
+          "headline": "West Bank - AP News",
+          "published_at": "Sun, 18 Oct 2026 11:14:32 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBCLUpaZFBGTl81RWtTcFVsUnJGZ19DU1dpd1FKSFpndTlxZGduSmtIWllLcnphNG9LSURuazF2dXkyZGdDR3hB?oc=5",
+          "content": "West Bank&nbsp;&nbsp;AP News"
+        },
+        {
+          "source_name": "AP News",
           "headline": "Diplomats attacked in the occupied West Bank, and other Middle East developments - AP News",
           "published_at": "Sun, 18 Oct 2026 04:08:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOV0tPUGhacDNCd3h5U1ktMS1xbVJUZHhjc1RSU0VwZEN1WThvNDNrc0F3SWFhRHRrRWt5NlBSUFhqc3FOa3VFd2V0RVUxTzZNakJBVXhSZHRvV0tmS3RRZG9pY0lqNGxxcmlTZWk4Ylp2MF8zNlh5OUtMS3AzSmdLWmhYYTByR2VyS21QODB2eV9Mb0FmbVlISE5qaGVtWEU2UG5tanR4dUd0ZlJHb05iWQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOV0tPUGhacDNCd3h5U1ktMS1xbVJUZHhjc1RSU0VwZEN1WThvNDNrc0F3SWFhRHRrRWt5NlBSUFhqc3FOa3VFd2V0RVUxTzZNakJBVXhSZHRvV0tmS3RRZG9pY0lqNGxxcmlTZWk4Ylp2MF8zNlh5OUtMS3AzSmdLWmhYYTByR2VyS21QODB2eV9Mb0FmbVlISE5qaGVtWEU2UG5tanR4dUd0ZlJHb05iWQ?oc=5",
+          "content": "Diplomats attacked in the occupied West Bank, and other Middle East developments&nbsp;&nbsp;AP News"
         },
         {
           "source_name": "AP News",
           "headline": "Masked settlers attack European diplomats in the occupied West Bank - AP News",
-          "published_at": "Sat, 17 Oct 2026 20:16:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVlRiVjVsUFhzbGdNVXNZRm9JNDNUMGJDN2FrQlRjc00tM2JRTEh0bFNFVjFZdXRwN18teXNLN2lvblRwaHlzWHFQQnVqc1pVSWhHUWtDaks1eXNodVJsYmdHSzR6R0RBQk1jTjRmZ0wxYl9OZm5KQ285WU0tWDVzNDZISzA3bktzeXU0V2d1QklWYVlNWmdoQnNzRHFaQ2E1LUU3MTN4Zw?oc=5"
+          "published_at": "Sat, 17 Oct 2026 15:59:43 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVlRiVjVsUFhzbGdNVXNZRm9JNDNUMGJDN2FrQlRjc00tM2JRTEh0bFNFVjFZdXRwN18teXNLN2lvblRwaHlzWHFQQnVqc1pVSWhHUWtDaks1eXNodVJsYmdHSzR6R0RBQk1jTjRmZ0wxYl9OZm5KQ285WU0tWDVzNDZISzA3bktzeXU0V2d1QklWYVlNWmdoQnNzRHFaQ2E1LUU3MTN4Zw?oc=5",
+          "content": "Masked settlers attack European diplomats in the occupied West Bank&nbsp;&nbsp;AP News"
         },
         {
           "source_name": "Reuters",
           "headline": "Israeli settlers attack Palestinians, European diplomats in West Bank, Belgium says - Reuters",
-          "published_at": "Sat, 17 Oct 2026 17:08:04 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWXplRm9KdGNaY1RUZFA0UUFLbUxVWmx3TlBnRXRCQU5BUjBBRXNDcm9TSEQ2SUthUlpYMl92X052ZGdjMzFZLUd6amZ3UHdFNG5ic0k5LURwUDFOaDZQNE1CYWFlN1JRWDhlcFRWVVZTU0tzN0l5OHVaZXh0dkVFOFFwYkQ5WTIycElqQk5ZeHh3OTZVQWpVWHNkMDFDWk1ndEc5OHUtR2EzbV9iQVZHaWx4REljaTYxSFhsSkdDRkw?oc=5"
+          "published_at": "Sat, 17 Oct 2026 15:51:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWXplRm9KdGNaY1RUZFA0UUFLbUxVWmx3TlBnRXRCQU5BUjBBRXNDcm9TSEQ2SUthUlpYMl92X052ZGdjMzFZLUd6amZ3UHdFNG5ic0k5LURwUDFOaDZQNE1CYWFlN1JRWDhlcFRWVVZTU0tzN0l5OHVaZXh0dkVFOFFwYkQ5WTIycElqQk5ZeHh3OTZVQWpVWHNkMDFDWk1ndEc5OHUtR2EzbV9iQVZHaWx4REljaTYxSFhsSkdDRkw?oc=5",
+          "content": "Israeli settlers attack Palestinians, European diplomats in West Bank, Belgium says&nbsp;&nbsp;Reuters"
         },
         {
           "source_name": "BBC News",
           "headline": "European diplomats attacked by Israeli settlers in West Bank",
           "published_at": "Sun, 18 Oct 2026 12:16:14 GMT",
-          "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source_name": "Al Jazeera",
-          "headline": "Israeli settlers attack European diplomats during West Bank olive harvest - Al Jazeera",
-          "published_at": "Sun, 18 Oct 2026 01:26:09 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZVlrUDBYQ1lXY0JvbHNXZURHR2NDTGtDRWZVM3huYXRNcTBoRUNSQTcteTRpenJ5VjMxb19TUkl6QVlLODlLRURDbEZmV0JpQTFDbUUzVXFYRTNpUmRvNHpLSjB3QlRPMmdSRFZWRDlzTnZnSm4wOTFoRWFTRmgyQU1hajNxTGZtWTdDVFdUeGRkV1laR1l3ZmJpMGZXaDZCak1vbzBzWmhPV0nSAbABQVVfeXFMTXkyS29qczlWX1hQc0NNd0wtdkpoZE5vSTdGX3VaejRKdUZldzRaamhRYzZaTnp6MXV6QVhVcjRJbDQ5UzJhM0xOVFp1U05aSkpDM3lEUW1rczExT3o0VjYzSWFpYkxVa0l5MlVLX3E1eG1QeGlRbDMxNElGdXJuNGoxSHZZRVpOVFhhQXYtOEIxTFJhWUhRYkk1a2s4dmFCN0NlaGZoVlVWV0dtY0RMMm4?oc=5"
+          "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
+          "content": "Masked settlers are accused of attacking the convoy Belgium condemned the assault on its consul general and the other envoys, while France decried the attack as \"appalling\". Both called for Israel to bring those responsible to justice. The Israel Defense Forces (IDF) also condemned what they called \"the severe act of violence\" and said they were investigating. But the office of the Prime Minister Benjamin Netanyahu cast doubt on what happened, suggesting it was part of a \"co-ordinated campaign to smear Israel\". The attack came only a day after a number of Palestinians and Heidi Levine, a Washington Post photographer, were injured in a separate assault by settlers in another village in the West Bank. US Secretary of State Marco Rubio said the attack on Levine was \"disturbing\" and \"not a good look\"."
         }
       ],
-      "source_count": 8,
+      "source_count": 7,
       "total_count": 9,
-      "combined_score": 6.76,
+      "combined_score": 6.26,
       "brief_bullets": [
-        "A delegation of foreign diplomats visiting the occupied West Bank encountered a violent assault, underscoring the rapidly deteriorating security and political conditions in the region. The incident unfolded amid a complex backdrop of escalating regional tensions, involving local actors, international observers, and diplomatic missions attempting to assess ground conditions. Authorities and international bodies are currently reviewing the confrontation to determine the exact sequence of events and identify the perpetrators responsible for targeting the official delegation. This troubling development threatens to further strain diplomatic channels and complicates ongoing international efforts to mediate the broader Middle East conflict. The attack highlights the severe physical risks faced not only by local populations but also by international personnel operating within volatile occupied territories."
+        "West Bank&nbsp;&nbsp;AP News"
       ],
       "why_it_matters_bullets": [
-        "The assault on accredited foreign diplomats in the occupied West Bank signals an alarming breakdown of standard protections for international personnel, potentially prompting Western governments to reassess their diplomatic engagement and security postures in the region."
+        "Carries notable strategic and policy implications for Society as developments unfold."
       ],
-      "brief": "A delegation of foreign diplomats visiting the occupied West Bank encountered a violent assault, underscoring the rapidly deteriorating security and political conditions in the region. The incident unfolded amid a complex backdrop of escalating regional tensions, involving local actors, international observers, and diplomatic missions attempting to assess ground conditions. Authorities and international bodies are currently reviewing the confrontation to determine the exact sequence of events and identify the perpetrators responsible for targeting the official delegation. This troubling development threatens to further strain diplomatic channels and complicates ongoing international efforts to mediate the broader Middle East conflict. The attack highlights the severe physical risks faced not only by local populations but also by international personnel operating within volatile occupied territories. The assault on accredited foreign diplomats in the occupied West Bank signals an alarming breakdown of standard protections for international personnel, potentially prompting Western governments to reassess their diplomatic engagement and security postures in the region.",
-      "brief_word_count": 155
+      "brief": "West Bank&nbsp;&nbsp;AP News",
+      "brief_word_count": 3
     },
     {
       "story_id": "story-4",
@@ -130,44 +140,49 @@
           "source_name": "AP News",
           "headline": "Truck drives through soccer field during game in Kansas, killing 2 and hospitalizing 11 - AP News",
           "published_at": "Sun, 18 Oct 2026 07:22:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN21KT3N5VjVzVFVna0lUMTJSdUJXek83VmRmS3pzcEpST2gtXzVlMzJicjBQTnQ3Ym05cmhzSFpqNHFpWDNISnNFeFdrdERlWlkzb1lTaFlseWJPREVGeUpibV9iNkpLdklpY1llNjlyWHVZcDhyWDBMS3pHbXJta0hMOWJzQXZnVHhhUnVYX0toRDNkOFJucy1uaUVTRWY4Vlhj?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN21KT3N5VjVzVFVna0lUMTJSdUJXek83VmRmS3pzcEpST2gtXzVlMzJicjBQTnQ3Ym05cmhzSFpqNHFpWDNISnNFeFdrdERlWlkzb1lTaFlseWJPREVGeUpibV9iNkpLdklpY1llNjlyWHVZcDhyWDBMS3pHbXJta0hMOWJzQXZnVHhhUnVYX0toRDNkOFJucy1uaUVTRWY4Vlhj?oc=5",
+          "content": "Truck drives through soccer field during game in Kansas, killing 2 and hospitalizing 11&nbsp;&nbsp;AP News"
         },
         {
           "source_name": "Reuters",
           "headline": "Two killed, including 6-year-old, when truck drives through Kansas youth soccer game, police say - Reuters",
           "published_at": "Sat, 17 Oct 2026 22:10:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTXduZ3p6ZDh4VG5wY05HRmxTR2lvak9YbnNwN0FaYTlCMzE5enY5S3BpcmxNdk96V0dueGs1dWkzTkEzMmIyZnhFLTd3NW5VQUFVMFpRX2tNYWVaVWhQMmlWSHNCWVRhTUdhYVVzRGVPOU1oT0tlenFIRzdwR2RVU1pTclpfdmNqbHJiNXJ4MGpuaTFMaVJ0dzlzeE5NMG9PcHRHdUdjZENTdEotdkwtRzBjNzNuX1ZydDhjdTBxX1U?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTXduZ3p6ZDh4VG5wY05HRmxTR2lvak9YbnNwN0FaYTlCMzE5enY5S3BpcmxNdk96V0dueGs1dWkzTkEzMmIyZnhFLTd3NW5VQUFVMFpRX2tNYWVaVWhQMmlWSHNCWVRhTUdhYVVzRGVPOU1oT0tlenFIRzdwR2RVU1pTclpfdmNqbHJiNXJ4MGpuaTFMaVJ0dzlzeE5NMG9PcHRHdUdjZENTdEotdkwtRzBjNzNuX1ZydDhjdTBxX1U?oc=5",
+          "content": "Two killed, including 6-year-old, when truck drives through Kansas youth soccer game, police say&nbsp;&nbsp;Reuters"
         },
         {
           "source_name": "NDTV",
           "headline": "Woman Drives Truck Through Football Game In US, Kills 2 And Injures 11",
           "published_at": "Sun, 18 Oct 2026 11:08:28 +0530",
-          "url": "https://www.ndtv.com/world-news/woman-drives-truck-through-football-game-in-us-kansas-kills-2-and-injures-11-12201645#publisher=newsstand"
+          "url": "https://www.ndtv.com/world-news/woman-drives-truck-through-football-game-in-us-kansas-kills-2-and-injures-11-12201645#publisher=newsstand",
+          "content": "Police Chief Joe Sullivan said that immediately after the incident, and before first responders arrived at the scene, people \"sprang into action\"."
         },
         {
           "source_name": "CNN",
           "headline": "2 killed, multiple injured after mother drives onto field during youth soccer game in Wichita, Kansas - CNN",
           "published_at": "Sat, 17 Oct 2026 21:55:50 GMT",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9IOEJ6REVSSGpqUnhpVVlBVFRVbE0yOUtJUVVHS25sNHc0bGNYNUpaQ3pkV3ZqdGlLS3NzZ196ZVZaQTctQkJWb3RCODF2Rmh5UEhPdDQ5emM0T0lVTVZfOThHQ3BWSExEVnl0TmZIWjlKeEhP?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9IOEJ6REVSSGpqUnhpVVlBVFRVbE0yOUtJUVVHS25sNHc0bGNYNUpaQ3pkV3ZqdGlLS3NzZ196ZVZaQTctQkJWb3RCODF2Rmh5UEhPdDQ5emM0T0lVTVZfOThHQ3BWSExEVnl0TmZIWjlKeEhP?oc=5",
+          "content": "2 killed, multiple injured after mother drives onto field during youth soccer game in Wichita, Kansas&nbsp;&nbsp;CNN"
         },
         {
           "source_name": "The Print",
           "headline": "Two killed, including 6-year-old, when truck drives through Kansas youth soccer game, police say - ThePrint",
           "published_at": "Sun, 18 Oct 2026 02:00:17 GMT",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPck5kVGpQU05NRFYxRUdLaDlqVURnMVdPdVRTVWR5Z0pWTmVjaHQ3eHg5dDVBdTcxV0J1TUhPMUFJSy12UGJlSXZsdFR4WXNSMk5yXzVMYS1zX2puMkRDYm9DT3N3aUZLQThLU0FHMGxoNHMzLVpRU3RBSGhZM21Gd1VQaEFWSUNVRTFiWDNwN1pLR09yb1ZYUTYydG5lcF9neHRER3VqZGpNS3ozTzNnS05qU0I1ajlKaHc3M2Y0Y0pIa2JkNE9r0gHMAUFVX3lxTE9HdktLdzJjUFZkWWNFMmcybjFnM1BjY3UyLUw0R2FlN1NxUXhUZ0lVRU93dk8xRWhwYVhBMHBrZEFpdTRSRnlvckY1b1dOa3BsTUVhR3pOTnhHWHdubDdXTDFoQTIwQjhQSlNYTnRqVU02bGhYeGNzWWdYcTZ2ODB4UWtLT3FTdWFuRmVWOVJBdkpacG9TLVBXdnpfNmsxVlNYWHotbVlPdnF5dFRaVnZibi0tZEIyWU11dzJZT0tqWHJheWo5VG41YjFMUA?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPck5kVGpQU05NRFYxRUdLaDlqVURnMVdPdVRTVWR5Z0pWTmVjaHQ3eHg5dDVBdTcxV0J1TUhPMUFJSy12UGJlSXZsdFR4WXNSMk5yXzVMYS1zX2puMkRDYm9DT3N3aUZLQThLU0FHMGxoNHMzLVpRU3RBSGhZM21Gd1VQaEFWSUNVRTFiWDNwN1pLR09yb1ZYUTYydG5lcF9neHRER3VqZGpNS3ozTzNnS05qU0I1ajlKaHc3M2Y0Y0pIa2JkNE9r0gHMAUFVX3lxTE9HdktLdzJjUFZkWWNFMmcybjFnM1BjY3UyLUw0R2FlN1NxUXhUZ0lVRU93dk8xRWhwYVhBMHBrZEFpdTRSRnlvckY1b1dOa3BsTUVhR3pOTnhHWHdubDdXTDFoQTIwQjhQSlNYTnRqVU02bGhYeGNzWWdYcTZ2ODB4UWtLT3FTdWFuRmVWOVJBdkpacG9TLVBXdnpfNmsxVlNYWHotbVlPdnF5dFRaVnZibi0tZEIyWU11dzJZT0tqWHJheWo5VG41YjFMUA?oc=5",
+          "content": "Two killed, including 6-year-old, when truck drives through Kansas youth soccer game, police say&nbsp;&nbsp;ThePrint"
         }
       ],
       "source_count": 5,
       "total_count": 6,
       "combined_score": 4.36,
       "brief_bullets": [
-        "A tragic incident unfolded in Kansas when a vehicle abruptly drove through a crowded soccer field during an active youth match, resulting in two fatalities and leaving eleven others hospitalized with varying degrees of injuries. Local emergency responders and law enforcement agencies immediately rushed to the chaotic scene to triage victims, secure the perimeter, and initiate a full-scale investigation into the mechanics of the crash. The sudden breach of the sports complex shocked the surrounding community, transforming a routine recreational gathering into a mass casualty event. Investigators are currently examining whether the vehicular intrusion was the result of a deliberate act, a catastrophic medical emergency, or sudden mechanical failure, as local authorities work to identify the victims and provide critical support services to affected families."
+        "Truck drives through soccer field during game in Kansas, killing 2 and hospitalizing 11&nbsp;&nbsp;AP News"
       ],
       "why_it_matters_bullets": [
-        "This catastrophic event highlights urgent safety vulnerabilities at public recreational spaces and municipal sports complexes, prompting calls for enhanced physical barriers and perimeter protections to prevent accidental or intentional vehicular breaches."
+        "Carries notable strategic and policy implications for Geopolitics as developments unfold."
       ],
-      "brief": "A tragic incident unfolded in Kansas when a vehicle abruptly drove through a crowded soccer field during an active youth match, resulting in two fatalities and leaving eleven others hospitalized with varying degrees of injuries. Local emergency responders and law enforcement agencies immediately rushed to the chaotic scene to triage victims, secure the perimeter, and initiate a full-scale investigation into the mechanics of the crash. The sudden breach of the sports complex shocked the surrounding community, transforming a routine recreational gathering into a mass casualty event. Investigators are currently examining whether the vehicular intrusion was the result of a deliberate act, a catastrophic medical emergency, or sudden mechanical failure, as local authorities work to identify the victims and provide critical support services to affected families. This catastrophic event highlights urgent safety vulnerabilities at public recreational spaces and municipal sports complexes, prompting calls for enhanced physical barriers and perimeter protections to prevent accidental or intentional vehicular breaches.",
-      "brief_word_count": 156
+      "brief": "Truck drives through soccer field during game in Kansas, killing 2 and hospitalizing 11&nbsp;&nbsp;AP News",
+      "brief_word_count": 15
     },
     {
       "story_id": "story-3",
@@ -185,99 +200,109 @@
           "source_name": "NDTV",
           "headline": "Video Shows Moment Kolkata Durga Puja Stampede Broke Out, Killing 19",
           "published_at": "Sun, 18 Oct 2026 13:51:20 +0530",
-          "url": "https://www.ndtv.com/india-news/chorbagan-sarbojanin-video-shows-moment-kolkata-durga-puja-stampede-broke-out-killing-19-12202055#publisher=newsstand"
+          "url": "https://www.ndtv.com/india-news/chorbagan-sarbojanin-video-shows-moment-kolkata-durga-puja-stampede-broke-out-killing-19-12202055#publisher=newsstand",
+          "content": " The video showed the moment a stampede broke out at a Durga Puja pandal in Kolkata on Saturday evening, leaving 19 people dead."
         },
         {
           "source_name": "NDTV",
           "headline": "Organisers Among 7 Arrested For Kolkata Durga Puja Stampede That Killed 19",
           "published_at": "Sun, 18 Oct 2026 11:30:36 +0530",
-          "url": "https://www.ndtv.com/india-news/kolkata-durga-puja-girish-park-stampede-case-7-including-organisers-arrested-in-kolkata-durga-puja-stampede-that-killed-19-12201380#publisher=newsstand"
+          "url": "https://www.ndtv.com/india-news/kolkata-durga-puja-girish-park-stampede-case-7-including-organisers-arrested-in-kolkata-durga-puja-stampede-that-killed-19-12201380#publisher=newsstand",
+          "content": " The stampede broke out amid heavy rain at the Chorbagan Durga Puja, which draws a large number of revellers."
         },
         {
           "source_name": "The Indian Express",
           "headline": "7 arrested in Kolkata stampede case, death toll rises to 19",
           "published_at": "Sun, 18 Oct 2026 04:21:02 +0000",
-          "url": "https://indianexpress.com/article/cities/kolkata/7-arrested-in-kolkata-chorebagan-durga-puja-committee-stampede-dead-injured-10926513/"
+          "url": "https://indianexpress.com/article/cities/kolkata/7-arrested-in-kolkata-chorebagan-durga-puja-committee-stampede-dead-injured-10926513/",
+          "content": ""
         },
         {
           "source_name": "The Indian Express",
           "headline": "Organisers of Chorebagan Durga Pandal arrested, SIT formed to probe stampede that killed 19",
           "published_at": "Sun, 18 Oct 2026 02:13:15 +0000",
-          "url": "https://indianexpress.com/article/cities/kolkata/kolkata-stampede-organisers-detained-killed-injured-chorebagan-chorebagan-durga-puja-pandal-10926393/"
+          "url": "https://indianexpress.com/article/cities/kolkata/kolkata-stampede-organisers-detained-killed-injured-chorebagan-chorebagan-durga-puja-pandal-10926393/",
+          "content": ""
         },
         {
           "source_name": "NDTV",
           "headline": "Major Kolkata Durga Puja Pandals Shut Temporarily After Stampede Kills 19",
           "published_at": "Sun, 18 Oct 2026 07:28:09 +0530",
-          "url": "https://www.ndtv.com/india-news/kolkata-durga-puja-stampede-major-kolkata-durga-puja-pandals-shut-temporarily-after-stampede-kills-19-12201074#publisher=newsstand"
+          "url": "https://www.ndtv.com/india-news/kolkata-durga-puja-stampede-major-kolkata-durga-puja-pandals-shut-temporarily-after-stampede-kills-19-12201074#publisher=newsstand",
+          "content": "Organisers of the Santosh Mitra Square Puja restricted entry of visitors to the pandal for the time being, puja committee president Sajal Ghosh said."
         }
       ],
       "source_count": 4,
       "total_count": 11,
       "combined_score": 5.5,
       "brief_bullets": [
-        "Newly emerged video footage captures the harrowing moment a deadly stampede erupted on a Saturday evening at a crowded Durga Puja pandal in Kolkata, culminating in a catastrophic loss of 19 lives. The tragedy unfolded amid massive festive gatherings, where overwhelming crowds surged through temporary structures, severely testing local crowd management and safety protocols. Authorities and emergency responders rushed to the scene to manage the chaos, transport the injured to nearby hospitals, and secure the perimeter. This devastating incident has immediately triggered intense scrutiny from municipal officials and public safety advocates regarding crowd control measures, structural capacities, and emergency preparedness during large-scale religious festivals in urban centers."
+        " The video showed the moment a stampede broke out at a Durga Puja pandal in Kolkata on Saturday evening, leaving 19 people dead."
       ],
       "why_it_matters_bullets": [
-        "This disaster highlights critical systemic vulnerabilities in crowd management and infrastructure safety during major public festivals, forcing municipal authorities to radically overhaul enforcement of safety codes and emergency response protocols to prevent future mass-casualty events."
+        "Carries notable strategic and policy implications for Society as developments unfold."
       ],
-      "brief": "Newly emerged video footage captures the harrowing moment a deadly stampede erupted on a Saturday evening at a crowded Durga Puja pandal in Kolkata, culminating in a catastrophic loss of 19 lives. The tragedy unfolded amid massive festive gatherings, where overwhelming crowds surged through temporary structures, severely testing local crowd management and safety protocols. Authorities and emergency responders rushed to the scene to manage the chaos, transport the injured to nearby hospitals, and secure the perimeter. This devastating incident has immediately triggered intense scrutiny from municipal officials and public safety advocates regarding crowd control measures, structural capacities, and emergency preparedness during large-scale religious festivals in urban centers. This disaster highlights critical systemic vulnerabilities in crowd management and infrastructure safety during major public festivals, forcing municipal authorities to radically overhaul enforcement of safety codes and emergency response protocols to prevent future mass-casualty events.",
-      "brief_word_count": 142
+      "brief": " The video showed the moment a stampede broke out at a Durga Puja pandal in Kolkata on Saturday evening, leaving 19 people dead.",
+      "brief_word_count": 23
     },
     {
       "story_id": "story-5",
-      "category": "Geopolitics",
-      "primary_headline": "Major fire breaks out in Alberta after deadly incident at Canadian military base",
+      "category": "Society",
+      "primary_headline": "Kolkata pandal stampede LIVE | Seven accused sent to 10-day police custody",
       "primary_source": {
-        "source_name": "AP News",
-        "headline": "Major fire breaks out in Alberta after deadly incident at Canadian military base - AP News",
-        "published_at": "Sun, 18 Oct 2026 07:51:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRWZIOVJaUGpyUnFDcG1BTVZmOTRtZ2pvLTBjLVBDMU9fb3huN2x3Q1ZGbTBENURyc0JIdXRJQThHajNORTVlVjVnZjJrUV94VDlGaXJrZWRqQVBlWlBBRmJzVkhUem1NRzl5a05uTzJQWEdVLTNEckFlNFFBb1dmeTQwUmU0YkhFd1laTmI2ZUdtTGlLS1VZM3dPTi14ZVNxX2oxY0dzbw?oc=5",
-        "content": "Major fire breaks out in Alberta after deadly incident at Canadian military base&nbsp;&nbsp;AP News"
+        "source_name": "The Hindu",
+        "headline": "Kolkata pandal stampede LIVE | Seven accused sent to 10-day police custody",
+        "published_at": "Sun, 18 Oct 2026 19:49:10 +0530",
+        "url": "https://www.thehindu.com/news/cities/kolkata/kolkata-bengal-pandal-collapse-stampede-injured-death-updates-on-october-17-2026/article71597549.ece",
+        "content": "You don’t have any Active Subscription. Subscribed with another email? Logout and Login with that one. Account subscription benefits alongside Premium Stories, Editorials,\n              Opinions and more. Unlock these with Subscription Additional Subscription Benefits Need help with your subscription? Seven people arrested in connection with the Chorbagan Sarbojanin Durga Puja stampede incident being brought to Bankshall Court, in Kolkata on October 18, 2026.\n                                                  | Photo Credit:  \n                          ANI"
       },
       "sources": [
         {
-          "source_name": "AP News",
-          "headline": "Major fire breaks out in Alberta after deadly incident at Canadian military base - AP News",
-          "published_at": "Sun, 18 Oct 2026 07:51:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRWZIOVJaUGpyUnFDcG1BTVZmOTRtZ2pvLTBjLVBDMU9fb3huN2x3Q1ZGbTBENURyc0JIdXRJQThHajNORTVlVjVnZjJrUV94VDlGaXJrZWRqQVBlWlBBRmJzVkhUem1NRzl5a05uTzJQWEdVLTNEckFlNFFBb1dmeTQwUmU0YkhFd1laTmI2ZUdtTGlLS1VZM3dPTi14ZVNxX2oxY0dzbw?oc=5"
+          "source_name": "The Hindu",
+          "headline": "Kolkata pandal stampede LIVE | Seven accused sent to 10-day police custody",
+          "published_at": "Sun, 18 Oct 2026 19:49:10 +0530",
+          "url": "https://www.thehindu.com/news/cities/kolkata/kolkata-bengal-pandal-collapse-stampede-injured-death-updates-on-october-17-2026/article71597549.ece",
+          "content": "You don’t have any Active Subscription. Subscribed with another email? Logout and Login with that one. Account subscription benefits alongside Premium Stories, Editorials,\n              Opinions and more. Unlock these with Subscription Additional Subscription Benefits Need help with your subscription? Seven people arrested in connection with the Chorbagan Sarbojanin Durga Puja stampede incident being brought to Bankshall Court, in Kolkata on October 18, 2026.\n                                                  | Photo Credit:  \n                          ANI"
         },
         {
-          "source_name": "BBC News",
-          "headline": "Several dead or injured in major fire at Canada military base",
-          "published_at": "Sun, 18 Oct 2026 12:41:59 GMT",
-          "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss"
+          "source_name": "NDTV",
+          "headline": "10-Day Police Custody For 7 Accused In Kolkata Durga Puja Pandal Stampede",
+          "published_at": "Sun, 18 Oct 2026 18:31:59 +0530",
+          "url": "https://www.ndtv.com/india-news/chorbagan-stampede-10-day-police-custody-for-7-accused-in-deadly-kolkata-pandal-stampede-12202905#publisher=newsstand",
+          "content": " Police had registered a case of culpable homicide not amounting to murder over the stampede that broke out around 7:40 pm on Saturday amid heavy rain."
         },
         {
-          "source_name": "NPR",
-          "headline": "Major fire breaks out in Alberta after deadly incident at military base",
-          "published_at": "Sun, 18 Oct 2026 03:56:08 -0400",
-          "url": "https://www.npr.org/2026/10/18/nx-s1-6007276/fire-alberta-deadly-canada-military-base"
+          "source_name": "NDTV",
+          "headline": "Amit Shah Visits Kolkata Hospital, Meets Durga Puja Pandal Stampede Victims",
+          "published_at": "Sun, 18 Oct 2026 10:49:52 +0530",
+          "url": "https://www.ndtv.com/india-news/kolkata-durga-puja-pandal-stampede-amit-shah-visits-kolkata-hospital-meets-durga-puja-pandal-stampede-victims-12201589#publisher=newsstand",
+          "content": "At least 19 people died, and 25 were injured in the stampede at Chorbagan Durga Puja pandal in north Kolkata following a crowd surge amid rain on Saturday evening."
         },
         {
-          "source_name": "CNN",
-          "headline": "Deadly fire breaks out after ‘serious incident’ at Canada military base - CNN",
-          "published_at": "Sun, 18 Oct 2026 02:44:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVmNxaS1EYjcyUG12ZC0zQ1A0VndXX0d4UER5dWxkMVVucEdEdFp2NXM2S0ZsVm1kbFZoc1l1QTdjTHNCOXJLQ0NxUWpmVk9yeGNZM2lGdTVDVm16WUxRUzRqc0ZjTFZnMWI2akFjQXVPaU9nOTd3R2ZuX21WeDM2N0VQOTJQQmJjSDA3SGJJUWphb3c?oc=5"
+          "source_name": "The Indian Express",
+          "headline": "Kolkata Chorebagan Sarbojanin Durga Puja Pandal stampede: What we know so far",
+          "published_at": "Sat, 17 Oct 2026 18:09:45 +0000",
+          "url": "https://indianexpress.com/article/cities/kolkata/kolkata-chorebagan-sarbojanin-durga-puja-pandal-stampede-dead-injured-10926194/",
+          "content": ""
         },
         {
-          "source_name": "CNN",
-          "headline": "Several dead after major fire breaks out at Canada military base - CNN",
-          "published_at": "Sun, 18 Oct 2026 02:44:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSWJlV2s3SFVLUzA3Q1BtMFhIUkRjT1dvaGhMMU9IWUpSdkZJTXRxWVVST1lnU19LNE1IcU5VaThqcy1ybldHMEVmalJHSG9aa0phUGFhOGZLYkc3aHY0eG1yclpSZ1hKTjE5bllISTJBb0JuUVM2Z3dsOFotQ1NYU21nUV9iVXZ5a0dxa1l3?oc=5"
+          "source_name": "The Print",
+          "headline": "Kolkata stampede: Committee visits popular Durga puja pandals to review safety norms - ThePrint",
+          "published_at": "Sun, 18 Oct 2026 09:46:43 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQS3dYdTdYNHpMdDVBV1NMbUo0enFOQzZ2Vk1XWGNPMWhLOHNmVnRUSU5fczdwLXRmZHFEWE1GQmtadVFqSmhVMVlqcGliTkdXZ2lGV043VTFEYmszVWxvSnNCd3FaRlpZSjdtdnd5SExGdHBrSGY1MmlIWFRlVWhQWXdqTUlTd291M0toXzJaaER5NWh0RE9fLXNHTVpqYm1ZNkNOU082MWxZY1ktalFHZ0RYN0M4cVJhekHSAb8BQVVfeXFMTW10RWtlT0hPNlYxakh0aGRfSHlMTHBVRzJlakQ1WldyMWpxb0RlVlprbFdRbkxSRFJSQWF4a0Fha2JreExvYndMSjM5WHRSbXF1NEdwaWdTQlhScHlxNExjZ052LTkzclVEdzN1VGlPZzJxZTdIbVhkS1NsZ1BrX1ZldnRtNmtZWUotQVExMkJJZ3d1cmptaTEycFQzV3VSMWR2VnhmU0Q3UTF5eVpqNVdKT0dYVEt2WVJFZ1NIZFU?oc=5",
+          "content": "Kolkata stampede: Committee visits popular Durga puja pandals to review safety norms&nbsp;&nbsp;ThePrint"
         }
       ],
       "source_count": 4,
       "total_count": 5,
-      "combined_score": 3.65,
+      "combined_score": 3.53,
       "brief_bullets": [
-        "A major fire has broken out in the province of Alberta, following a tragic and deadly incident at a Canadian military base. While emergency response teams and military personnel have mobilized to contain the blaze and secure the surrounding area, official details regarding the exact cause of the fire and the nature of the preceding military incident remain limited. Authorities are currently investigating the sequence of events connecting the base occurrence to the subsequent outbreak, which has raised immediate concerns about regional safety and defense infrastructure integrity. As first responders work tirelessly to mitigate environmental hazards and property damage, federal and provincial agencies are coordinating to provide transparency and ensure public safety in the affected communities."
+        "You don’t have any Active Subscription. Subscribed with another email? Logout and Login with that one. Account subscription benefits alongside Premium Stories, Editorials,\n              Opinions and more. Unlock these with Subscription Additional Subscription Benefits Need help with your subscription? Seven people arrested in connection with the Chorbagan Sarbojanin Durga Puja stampede incident being brought to Bankshall Court, in Kolkata on October 18, 2026.\n                                                  | Photo Credit:  \n                          ANI"
       ],
       "why_it_matters_bullets": [
-        "This incident highlights potential vulnerabilities in critical defense infrastructure and raises urgent questions regarding operational safety protocols at military installations, which could prompt broader federal reviews of emergency preparedness and facility security across Canada."
+        "Carries notable strategic and policy implications for Society as developments unfold."
       ],
-      "brief": "A major fire has broken out in the province of Alberta, following a tragic and deadly incident at a Canadian military base. While emergency response teams and military personnel have mobilized to contain the blaze and secure the surrounding area, official details regarding the exact cause of the fire and the nature of the preceding military incident remain limited. Authorities are currently investigating the sequence of events connecting the base occurrence to the subsequent outbreak, which has raised immediate concerns about regional safety and defense infrastructure integrity. As first responders work tirelessly to mitigate environmental hazards and property damage, federal and provincial agencies are coordinating to provide transparency and ensure public safety in the affected communities. This incident highlights potential vulnerabilities in critical defense infrastructure and raises urgent questions regarding operational safety protocols at military installations, which could prompt broader federal reviews of emergency preparedness and facility security across Canada.",
-      "brief_word_count": 150
+      "brief": "You don’t have any Active Subscription. Subscribed with another email? Logout and Login with that one. Account subscription benefits alongside Premium Stories, Editorials,\n              Opinions and more. Unlock these with Subscription Additional Subscription Benefits Need help with your subscription? Seven people arrested in connection with the Chorbagan Sarbojanin Durga Puja stampede incident being brought to Bankshall Court, in Kolkata on October 18, 2026.\n                                                  | Photo Credit:  \n                          ANI",
+      "brief_word_count": 66
     },
     {
       "story_id": "story-6",
@@ -295,47 +320,52 @@
           "source_name": "Reuters",
           "headline": "Iran urges US to accept proposal to reopen Strait of Hormuz - Reuters",
           "published_at": "Sun, 18 Oct 2026 10:29:43 GMT",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWUh3Z1JyMmU4SkJ4ZXQ4Y0VaN3RMS1Vtcmg4S1lDMGlvUG1GeVY3Q1pkaWltSG5yOWhmcTBnNkk4U0ZiTVREVzd3RVRZNjZJTjhaTkg5bTFGX0J2Q0JzTUI4UlZIWmxHMmRDeVRRODZRYU1mbkNrVzFRX3piTnpDbllfUGc3NnJkSl9hWWRCQzlxZjFBYnE5bXJQMVBjMzNBUFlNcmRtcw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWUh3Z1JyMmU4SkJ4ZXQ4Y0VaN3RMS1Vtcmg4S1lDMGlvUG1GeVY3Q1pkaWltSG5yOWhmcTBnNkk4U0ZiTVREVzd3RVRZNjZJTjhaTkg5bTFGX0J2Q0JzTUI4UlZIWmxHMmRDeVRRODZRYU1mbkNrVzFRX3piTnpDbllfUGc3NnJkSl9hWWRCQzlxZjFBYnE5bXJQMVBjMzNBUFlNcmRtcw?oc=5",
+          "content": "Iran urges US to accept proposal to reopen Strait of Hormuz&nbsp;&nbsp;Reuters"
         },
         {
           "source_name": "The Indian Express",
           "headline": "What is Iran’s 7-day proposal to the US to open the Strait of Hormuz?",
           "published_at": "Sun, 18 Oct 2026 11:57:26 +0000",
-          "url": "https://indianexpress.com/article/explained/explained-global/iran-araghchi-seven-day-plan-reopen-strait-of-hormuz-us-trump-10926929/"
+          "url": "https://indianexpress.com/article/explained/explained-global/iran-araghchi-seven-day-plan-reopen-strait-of-hormuz-us-trump-10926929/",
+          "content": ""
         },
         {
           "source_name": "NDTV",
           "headline": "Iran Urges US To Accept Proposal To Reopen Strait Of Hormuz",
           "published_at": "Sun, 18 Oct 2026 17:22:29 +0530",
-          "url": "https://www.ndtv.com/world-news/iran-urges-us-to-accept-proposal-to-reopen-strait-of-hormuz-12202784#publisher=newsstand"
-        },
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Iran urges US to accept proposal to reopen Strait of Hormuz",
-          "published_at": "Sun, 18 Oct 2026 09:41:29 +0000",
-          "url": "https://www.deccanherald.com/world/middle-east/iran-urges-us-to-accept-proposal-to-reopen-strait-of-hormuz-4187151"
+          "url": "https://www.ndtv.com/world-news/iran-urges-us-to-accept-proposal-to-reopen-strait-of-hormuz-12202784#publisher=newsstand",
+          "content": "Iran presented its proposal in mid-September after an interim ceasefire collapsed. Tehran later acknowledged receiving a US response but Iran's security chief said last week negotiations have stalled because Washington failed to address all seven conditions for reopening the strait."
         },
         {
           "source_name": "The Indian Express",
           "headline": "World Live News Updates: Iran offers to reopen Strait of Hormuz in 6 days if US accepts terms",
           "published_at": "Sat, 17 Oct 2026 23:55:14 +0000",
-          "url": "https://indianexpress.com/article/world/us-iran-war-live-updates-saudi-drones-attack-trump-tehran-hormuz-shipping-india-oil-prices-10926317/"
+          "url": "https://indianexpress.com/article/world/us-iran-war-live-updates-saudi-drones-attack-trump-tehran-hormuz-shipping-india-oil-prices-10926317/",
+          "content": ""
+        },
+        {
+          "source_name": "The Print",
+          "headline": "Iran says offer to reopen Strait of Hormuz within 7 days remains on table - ThePrint",
+          "published_at": "Sun, 18 Oct 2026 13:05:17 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaVJTNkpnNHU1ZFVIdDFnTWdMaGtFTEJDWDdKUk5QZlBtSE13emZzRDlKY3FTdVZMSzRrMEF2bndtZEJBcEVueDlkemI2d0lHMjh6LWhuYWxmaHV4aEktN1RjRTNKWWg1TG5KVHlxcUNKTF9sUTJKc1FINllEdGxhbEJzRjdBSGtsUnJXdmtnVUoyOF96V3pYTG5xZGJWbjhyaHVGbFhUcWVNbUxI0gGyAUFVX3lxTE43OVdJZC1DVW5OcEtZQm9PMU5XcTgwLWtQSzFtWEhBZ0JvTWJoUTY1QzJPOU1hSGRFS0tTcnh2VmRGNG1PS054Y0d5ZjRiS05CYmdmdHU1eDhsXzluLVVqS0VSd0NNSEstMVNYYjhGdVpEV1RUMjFlWlh4Z1RFal9JR3pKeGwwZkw1Yy1NZ19TZEwyLTRWOXBXYXpVSHVCUmc5T0EtZEVQVXBFaG1MVkxXZWc?oc=5",
+          "content": "Iran says offer to reopen Strait of Hormuz within 7 days remains on table&nbsp;&nbsp;ThePrint"
         }
       ],
       "source_count": 4,
       "total_count": 5,
-      "combined_score": 3.56,
+      "combined_score": 3.53,
       "brief_bullets": [
-        "In a significant geopolitical development aimed at de-escalating maritime tensions, Iranian officials have formally urged the United States to accept a newly tabled diplomatic proposal designed to facilitate the reopening of the strategically vital Strait of Hormuz. This crucial waterway, which handles a massive share of the world's petroleum transit, has been a focal point of intense friction between Washington and Tehran, threatening global energy security and shipping lanes. The proposed framework, details of which are currently being evaluated by international diplomats and regional stakeholders, seeks to establish mutually agreed-upon security protocols to ensure unhindered commercial vessel passage. While American and allied officials remain cautious regarding Tehran's ultimate strategic intentions, the diplomatic overture opens a critical window for bilateral engagement. Successfully navigating this proposal could avert a severe economic crisis and stabilize volatile oil markets, whereas a rejection risks cementing long-term militarization and heightening the persistent threat of armed conflict in the Persian Gulf."
+        "Iran urges US to accept proposal to reopen Strait of Hormuz&nbsp;&nbsp;Reuters"
       ],
       "why_it_matters_bullets": [
-        "The potential reopening of the Strait of Hormuz is pivotal for stabilizing global energy markets and mitigating the risk of a wider military confrontation in the Middle East."
+        "Carries notable strategic and policy implications for Society as developments unfold."
       ],
-      "brief": "In a significant geopolitical development aimed at de-escalating maritime tensions, Iranian officials have formally urged the United States to accept a newly tabled diplomatic proposal designed to facilitate the reopening of the strategically vital Strait of Hormuz. This crucial waterway, which handles a massive share of the world's petroleum transit, has been a focal point of intense friction between Washington and Tehran, threatening global energy security and shipping lanes. The proposed framework, details of which are currently being evaluated by international diplomats and regional stakeholders, seeks to establish mutually agreed-upon security protocols to ensure unhindered commercial vessel passage. While American and allied officials remain cautious regarding Tehran's ultimate strategic intentions, the diplomatic overture opens a critical window for bilateral engagement. Successfully navigating this proposal could avert a severe economic crisis and stabilize volatile oil markets, whereas a rejection risks cementing long-term militarization and heightening the persistent threat of armed conflict in the Persian Gulf. The potential reopening of the Strait of Hormuz is pivotal for stabilizing global energy markets and mitigating the risk of a wider military confrontation in the Middle East.",
-      "brief_word_count": 182
+      "brief": "Iran urges US to accept proposal to reopen Strait of Hormuz&nbsp;&nbsp;Reuters",
+      "brief_word_count": 11
     },
     {
-      "story_id": "story-7",
+      "story_id": "story-8",
       "category": "Geopolitics",
       "primary_headline": "Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta",
       "primary_source": {
@@ -350,96 +380,250 @@
           "source_name": "Reuters",
           "headline": "Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta - Reuters",
           "published_at": "Sun, 18 Oct 2026 02:13:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOU2FXR2gxVGRZLXlocTZDQnduRHpvT3JVUHotdTZsTmczb1B4TDE0OWktQmlDNm1WcGdqcEE2Zm9HTmtpN19Pb29YNnVyVHI4d1hXUG1lb0U2ejg2cDF4VGE5Wng0TGdrVDRaSU85WnNQVmw2WmpOaHhMNlpnTFo0cC1tRkRjTDZJVllKdDJIaUhmM1laR01KS2FrQTRKb1lpQThJZlRIeVd0OVZQUnlFX2tnamx6bHladV95MWZHNUVsSldx?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOU2FXR2gxVGRZLXlocTZDQnduRHpvT3JVUHotdTZsTmczb1B4TDE0OWktQmlDNm1WcGdqcEE2Zm9HTmtpN19Pb29YNnVyVHI4d1hXUG1lb0U2ejg2cDF4VGE5Wng0TGdrVDRaSU85WnNQVmw2WmpOaHhMNlpnTFo0cC1tRkRjTDZJVllKdDJIaUhmM1laR01KS2FrQTRKb1lpQThJZlRIeVd0OVZQUnlFX2tnamx6bHladV95MWZHNUVsSldx?oc=5",
+          "content": "Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta&nbsp;&nbsp;Reuters"
         },
         {
           "source_name": "Al Jazeera",
           "headline": "‘Serious incident’ at Canada military base causes deaths, injuries - Al Jazeera",
           "published_at": "Sun, 18 Oct 2026 08:17:43 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQVpyNVZVdDcyQ2pTOGRIVnRqUngxYXl3QnNfOWJwT1pIeXF3ekJPZzd3WkQtZ1ZUQ3Vwb25hWnZlSEtfcVJlZHNybGhlck1JOU5PZ25GRFd1UVBJOEZiaDlBRkFPRnAxTWxHd19XQ041bHhuX1gyUlZFamJfRndyM05zM1NCRDFDSVZiNWpIeWxHcWtBNWNxTS1ocE9tTVVoMTZVdXhoaHpSWTNvdGfSAbMBQVVfeXFMT3YwZlZqR05HTmNSX0QzRWxnNHhNTnExMUMyZm4tSDRJb0lWVUc1T2ZxU3J0RkF2QnVrUWNFT2hldVZ5RHowNWpXU2FFQi1aVUtpTjVldUFjQzJLWUM3SHhoY290c3JUMDNnQnNKX182Ym9jLUhPM2REb2VaQlp1M19tbDNIeW9EWmJYWFlEUnNmUy14WWhucnZWSjFFNEFsYWpZNHNqWUxwc1RJOGU0MzlrdWc?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQVpyNVZVdDcyQ2pTOGRIVnRqUngxYXl3QnNfOWJwT1pIeXF3ekJPZzd3WkQtZ1ZUQ3Vwb25hWnZlSEtfcVJlZHNybGhlck1JOU5PZ25GRFd1UVBJOEZiaDlBRkFPRnAxTWxHd19XQ041bHhuX1gyUlZFamJfRndyM05zM1NCRDFDSVZiNWpIeWxHcWtBNWNxTS1ocE9tTVVoMTZVdXhoaHpSWTNvdGfSAbMBQVVfeXFMT3YwZlZqR05HTmNSX0QzRWxnNHhNTnExMUMyZm4tSDRJb0lWVUc1T2ZxU3J0RkF2QnVrUWNFT2hldVZ5RHowNWpXU2FFQi1aVUtpTjVldUFjQzJLWUM3SHhoY290c3JUMDNnQnNKX182Ym9jLUhPM2REb2VaQlp1M19tbDNIeW9EWmJYWFlEUnNmUy14WWhucnZWSjFFNEFsYWpZNHNqWUxwc1RJOGU0MzlrdWc?oc=5",
+          "content": "‘Serious incident’ at Canada military base causes deaths, injuries&nbsp;&nbsp;Al Jazeera"
         },
         {
           "source_name": "NDTV",
           "headline": "Canada Reports Deaths After 'Serious Incident' Triggers Fire At Military Base",
           "published_at": "Sun, 18 Oct 2026 09:27:54 +0530",
-          "url": "https://www.ndtv.com/world-news/canada-reports-deaths-after-serious-incident-triggers-fire-at-alberta-military-base-12201259#publisher=newsstand"
+          "url": "https://www.ndtv.com/world-news/canada-reports-deaths-after-serious-incident-triggers-fire-at-alberta-military-base-12201259#publisher=newsstand",
+          "content": "Alberta Premier Danielle Smith described the fire as \"significant and tragic\" and said it was affecting many military personnel."
         },
         {
           "source_name": "The Guardian",
           "headline": "‘Serious incident’ at Alberta military base causes deaths and injuries, Canada officials say",
           "published_at": "Sun, 18 Oct 2026 02:50:29 GMT",
-          "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright"
+          "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright",
+          "content": "Patients being taken to hospitals in Edmonton as Wainwright ‘completely overwhelmed’ by number of injuries, local doctor says People have been killed and injured after an incident at one of Canada’s busiest military training bases in Alberta caused a large fire, Canada’s defence minister said Saturday.“I’m saddened to share that there have been both fatalities and injuries as a result of an incident on the base,” defence minister David McGuinty said at a press conference on Saturday night. Continue reading..."
         }
       ],
       "source_count": 4,
       "total_count": 4,
       "combined_score": 3.4,
       "brief_bullets": [
-        "Canadian military officials have confirmed that multiple fatalities occurred following a serious incident and subsequent fire at CFB Wainwright, a major training facility located in Alberta. While the Department of National Defence has not yet released the specific identities of the deceased or the exact nature of the event, the base has been placed under a security lockdown to facilitate an ongoing investigation by the Canadian Forces National Investigation Service. This tragedy has prompted an immediate response from senior military leadership, who are currently working to notify the families of the victims while securing the site to ensure the safety of remaining personnel. The incident represents a significant blow to the Canadian Armed Forces, occurring at a site primarily utilized for large-scale combat training exercises and operational readiness drills. Authorities have emphasized that the situation is contained, though the investigation into the cause of the fire and the circumstances surrounding the deaths remains in its preliminary stages."
+        "Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta&nbsp;&nbsp;Reuters"
       ],
       "why_it_matters_bullets": [
-        "This incident raises critical questions regarding safety protocols and operational risk management within Canadian military training environments, potentially triggering a comprehensive review of base security and emergency response procedures. The loss of life will likely impact morale and force a temporary suspension of training activities, creating downstream challenges for the military's operational readiness schedule."
+        "Carries notable strategic and policy implications for Geopolitics as developments unfold."
       ],
-      "brief": "Canadian military officials have confirmed that multiple fatalities occurred following a serious incident and subsequent fire at CFB Wainwright, a major training facility located in Alberta. While the Department of National Defence has not yet released the specific identities of the deceased or the exact nature of the event, the base has been placed under a security lockdown to facilitate an ongoing investigation by the Canadian Forces National Investigation Service. This tragedy has prompted an immediate response from senior military leadership, who are currently working to notify the families of the victims while securing the site to ensure the safety of remaining personnel. The incident represents a significant blow to the Canadian Armed Forces, occurring at a site primarily utilized for large-scale combat training exercises and operational readiness drills. Authorities have emphasized that the situation is contained, though the investigation into the cause of the fire and the circumstances surrounding the deaths remains in its preliminary stages. This incident raises critical questions regarding safety protocols and operational risk management within Canadian military training environments, potentially triggering a comprehensive review of base security and emergency response procedures. The loss of life will likely impact morale and force a temporary suspension of training activities, creating downstream challenges for the military's operational readiness schedule.",
-      "brief_word_count": 211
+      "brief": "Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta&nbsp;&nbsp;Reuters",
+      "brief_word_count": 12
     },
     {
-      "story_id": "story-8",
-      "category": "Society",
-      "primary_headline": "10-Day Police Custody For 7 Accused In Kolkata Durga Puja Pandal Stampede",
+      "story_id": "story-9",
+      "category": "Geopolitics",
+      "primary_headline": "Major fire breaks out in Alberta after deadly incident at Canadian military base",
       "primary_source": {
-        "source_name": "NDTV",
-        "headline": "10-Day Police Custody For 7 Accused In Kolkata Durga Puja Pandal Stampede",
-        "published_at": "Sun, 18 Oct 2026 18:20:49 +0530",
-        "url": "https://www.ndtv.com/india-news/chorbagan-stampede-10-day-police-custody-for-7-accused-in-deadly-kolkata-pandal-stampede-12202905#publisher=newsstand",
-        "content": "Police had registered a case of culpable homicide not amounting to murder over the stampede that broke out around 7:40 pm on Saturday amid heavy rain."
+        "source_name": "AP News",
+        "headline": "Major fire breaks out in Alberta after deadly incident at Canadian military base - AP News",
+        "published_at": "Sun, 18 Oct 2026 13:54:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRWZIOVJaUGpyUnFDcG1BTVZmOTRtZ2pvLTBjLVBDMU9fb3huN2x3Q1ZGbTBENURyc0JIdXRJQThHajNORTVlVjVnZjJrUV94VDlGaXJrZWRqQVBlWlBBRmJzVkhUem1NRzl5a05uTzJQWEdVLTNEckFlNFFBb1dmeTQwUmU0YkhFd1laTmI2ZUdtTGlLS1VZM3dPTi14ZVNxX2oxY0dzbw?oc=5",
+        "content": "Major fire breaks out in Alberta after deadly incident at Canadian military base&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
-          "source_name": "NDTV",
-          "headline": "10-Day Police Custody For 7 Accused In Kolkata Durga Puja Pandal Stampede",
-          "published_at": "Sun, 18 Oct 2026 18:20:49 +0530",
-          "url": "https://www.ndtv.com/india-news/chorbagan-stampede-10-day-police-custody-for-7-accused-in-deadly-kolkata-pandal-stampede-12202905#publisher=newsstand"
+          "source_name": "AP News",
+          "headline": "Major fire breaks out in Alberta after deadly incident at Canadian military base - AP News",
+          "published_at": "Sun, 18 Oct 2026 13:54:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRWZIOVJaUGpyUnFDcG1BTVZmOTRtZ2pvLTBjLVBDMU9fb3huN2x3Q1ZGbTBENURyc0JIdXRJQThHajNORTVlVjVnZjJrUV94VDlGaXJrZWRqQVBlWlBBRmJzVkhUem1NRzl5a05uTzJQWEdVLTNEckFlNFFBb1dmeTQwUmU0YkhFd1laTmI2ZUdtTGlLS1VZM3dPTi14ZVNxX2oxY0dzbw?oc=5",
+          "content": "Major fire breaks out in Alberta after deadly incident at Canadian military base&nbsp;&nbsp;AP News"
         },
         {
-          "source_name": "NDTV",
-          "headline": "Amit Shah Visits Kolkata Hospital, Meets Durga Puja Pandal Stampede Victims",
-          "published_at": "Sun, 18 Oct 2026 10:49:52 +0530",
-          "url": "https://www.ndtv.com/india-news/kolkata-durga-puja-pandal-stampede-amit-shah-visits-kolkata-hospital-meets-durga-puja-pandal-stampede-victims-12201589#publisher=newsstand"
+          "source_name": "NYT",
+          "headline": "Deadly ‘Incident’ at Canadian Forces Base Wainwright Sparks Fire",
+          "published_at": "Sun, 18 Oct 2026 14:05:04 +0000",
+          "url": "https://www.nytimes.com/2026/10/17/world/canada/fire-canadian-army-base-wainwright.html",
+          "content": "The defense minister said people were killed and injured at a base in Alberta, but officials did not offer details on the cause."
         },
         {
-          "source_name": "The Indian Express",
-          "headline": "Kolkata Chorebagan Sarbojanin Durga Puja Pandal stampede: What we know so far",
-          "published_at": "Sat, 17 Oct 2026 18:09:45 +0000",
-          "url": "https://indianexpress.com/article/cities/kolkata/kolkata-chorebagan-sarbojanin-durga-puja-pandal-stampede-dead-injured-10926194/"
+          "source_name": "NPR",
+          "headline": "Major fire breaks out in Alberta after deadly incident at military base",
+          "published_at": "Sun, 18 Oct 2026 03:56:08 -0400",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-6007276/fire-alberta-deadly-canada-military-base",
+          "content": "Canada's defense minister said Saturday that people were killed and injured in an incident at a military base in Alberta that caused a major fire.(Image credit: John Ulan)"
         },
         {
-          "source_name": "The Print",
-          "headline": "Kolkata stampede: Committee visits popular Durga puja pandals to review safety norms - ThePrint",
-          "published_at": "Sun, 18 Oct 2026 09:46:43 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQS3dYdTdYNHpMdDVBV1NMbUo0enFOQzZ2Vk1XWGNPMWhLOHNmVnRUSU5fczdwLXRmZHFEWE1GQmtadVFqSmhVMVlqcGliTkdXZ2lGV043VTFEYmszVWxvSnNCd3FaRlpZSjdtdnd5SExGdHBrSGY1MmlIWFRlVWhQWXdqTUlTd291M0toXzJaaER5NWh0RE9fLXNHTVpqYm1ZNkNOU082MWxZY1ktalFHZ0RYN0M4cVJhekHSAb8BQVVfeXFMTW10RWtlT0hPNlYxakh0aGRfSHlMTHBVRzJlakQ1WldyMWpxb0RlVlprbFdRbkxSRFJSQWF4a0Fha2JreExvYndMSjM5WHRSbXF1NEdwaWdTQlhScHlxNExjZ052LTkzclVEdzN1VGlPZzJxZTdIbVhkS1NsZ1BrX1ZldnRtNmtZWUotQVExMkJJZ3d1cmptaTEycFQzV3VSMWR2VnhmU0Q3UTF5eVpqNVdKT0dYVEt2WVJFZ1NIZFU?oc=5"
-        },
-        {
-          "source_name": "The Print",
-          "headline": "Kolkata Durga Puja stampede: Amit Shah to meet injured on Sunday - ThePrint",
-          "published_at": "Sun, 18 Oct 2026 02:45:03 GMT",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZFhJY1J3MWR4a3RvMTVLSWlfVDJCLXFsSFhlUWdhcU9lTTNPMVROcWRheXhYOWVac1VpSTZLdk1RQm9SMlo0c3ZZbFV1VXpFT0l6V0pxZ2gwVGhMSmVqZUhpanZmWVJOVHZjZm1zM01UcklJLTBzT0VFUFYwYnpGd3MzMFBMellzdXFaM2VTRm9MbURlUl9BYkRib2xOU1HSAaQBQVVfeXFMUHJ5eXRoU2lLNEptc2ZKZ3FGOVE5MjRfMXNuVzlIRU41Z2hOX0ZaREZ5TlBiMmVyU1VndURZWUJFZ1J3NEZoS1VpSW1lMmF0TUhvUFViVjI1YUJORThhT3M5S01wd01UVjdLSUhvbGN1dGI4cEYzSVllVEk4ZjZjRVh5dXEzTU1nMjFGeF9Pb3lsRG5HejJsTEw5VUwtSk45RnY2Q3c?oc=5"
+          "source_name": "CNN",
+          "headline": "Deadly fire breaks out after ‘serious incident’ at Canada military base - CNN",
+          "published_at": "Sun, 18 Oct 2026 02:44:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVmNxaS1EYjcyUG12ZC0zQ1A0VndXX0d4UER5dWxkMVVucEdEdFp2NXM2S0ZsVm1kbFZoc1l1QTdjTHNCOXJLQ0NxUWpmVk9yeGNZM2lGdTVDVm16WUxRUzRqc0ZjTFZnMWI2akFjQXVPaU9nOTd3R2ZuX21WeDM2N0VQOTJQQmJjSDA3SGJJUWphb3c?oc=5",
+          "content": "Deadly fire breaks out after ‘serious incident’ at Canada military base&nbsp;&nbsp;CNN"
         }
       ],
-      "source_count": 3,
-      "total_count": 5,
-      "combined_score": 3.03,
+      "source_count": 4,
+      "total_count": 4,
+      "combined_score": 3.32,
       "brief_bullets": [
-        "A Kolkata court has remanded seven individuals to ten days of police custody following a tragic stampede at a Durga Puja pandal that occurred during heavy rainfall on Saturday evening. Local authorities have formally registered a case of culpable homicide not amounting to murder, signaling a rigorous investigation into potential negligence regarding crowd management and safety protocols at the site. The incident, which unfolded around 7:40 pm, has prompted intense scrutiny of the organizers' adherence to safety regulations during one of the city's most significant cultural festivals. As investigators work to determine the specific lapses that led to the fatal crush, the legal proceedings against the accused highlight a growing institutional demand for stricter accountability in managing large-scale public gatherings. This development underscores the precarious balance between maintaining traditional festivities and ensuring the physical security of thousands of attendees in high-density urban environments."
+        "Major fire breaks out in Alberta after deadly incident at Canadian military base&nbsp;&nbsp;AP News"
       ],
       "why_it_matters_bullets": [
-        "This case sets a critical legal precedent for event liability in India, likely forcing organizers to adopt more stringent safety compliance measures to avoid criminal prosecution for crowd-related disasters."
+        "Carries notable strategic and policy implications for Geopolitics as developments unfold."
       ],
-      "brief": "A Kolkata court has remanded seven individuals to ten days of police custody following a tragic stampede at a Durga Puja pandal that occurred during heavy rainfall on Saturday evening. Local authorities have formally registered a case of culpable homicide not amounting to murder, signaling a rigorous investigation into potential negligence regarding crowd management and safety protocols at the site. The incident, which unfolded around 7:40 pm, has prompted intense scrutiny of the organizers' adherence to safety regulations during one of the city's most significant cultural festivals. As investigators work to determine the specific lapses that led to the fatal crush, the legal proceedings against the accused highlight a growing institutional demand for stricter accountability in managing large-scale public gatherings. This development underscores the precarious balance between maintaining traditional festivities and ensuring the physical security of thousands of attendees in high-density urban environments. This case sets a critical legal precedent for event liability in India, likely forcing organizers to adopt more stringent safety compliance measures to avoid criminal prosecution for crowd-related disasters.",
-      "brief_word_count": 172
+      "brief": "Major fire breaks out in Alberta after deadly incident at Canadian military base&nbsp;&nbsp;AP News",
+      "brief_word_count": 14
     },
     {
       "story_id": "story-10",
+      "category": "Technology",
+      "primary_headline": "Iran's parliament approves Mehrdad Akhlaqi as minister of defence",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Iran's parliament approves Mehrdad Akhlaqi as minister of defence - Reuters",
+        "published_at": "Sun, 18 Oct 2026 09:08:02 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUllscVFHdi1ER1I5djNzUWkwbXpXUGVTRkRVLUNWSWRBUU9lek5waWFCVjJwMXphLXFHaV9EUkF0SjdXVGMwNnpLYl9xZ2xrWDFvZzlrN2RwV2J4QUt1UUtiLTlzZTA1Qms2eTMtTjMyRXRGblJXVkF5NV9nTzEzTE1rbDFLUDdNOWRuQlhrS1BIVXFRdVJiQUtuT0lmODVRcVZ1dTRMeU11SkJuWlJvNGNJUjJhY1RBVGN1WWJGQ0JyZw?oc=5",
+        "content": "Iran's parliament approves Mehrdad Akhlaqi as minister of defence&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Iran's parliament approves Mehrdad Akhlaqi as minister of defence - Reuters",
+          "published_at": "Sun, 18 Oct 2026 09:08:02 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUllscVFHdi1ER1I5djNzUWkwbXpXUGVTRkRVLUNWSWRBUU9lek5waWFCVjJwMXphLXFHaV9EUkF0SjdXVGMwNnpLYl9xZ2xrWDFvZzlrN2RwV2J4QUt1UUtiLTlzZTA1Qms2eTMtTjMyRXRGblJXVkF5NV9nTzEzTE1rbDFLUDdNOWRuQlhrS1BIVXFRdVJiQUtuT0lmODVRcVZ1dTRMeU11SkJuWlJvNGNJUjJhY1RBVGN1WWJGQ0JyZw?oc=5",
+          "content": "Iran's parliament approves Mehrdad Akhlaqi as minister of defence&nbsp;&nbsp;Reuters"
+        },
+        {
+          "source_name": "Al Jazeera",
+          "headline": "Who is Mehrdad Akhlaghi, Iran’s new tech-focused defence minister? - Al Jazeera",
+          "published_at": "Sun, 18 Oct 2026 12:12:58 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRy1XbDZOeHREUlNCbnZHejI3VDVWZmNWbFNXRFhxSmNtYWJwUnA3azVHWHNqb2dIbEdjN2lNY25YNGV4dFl3SDF0R2JVMkQzN0tleF9xQTBNNlUtbGpzTTUyR08ySmpJUjVUNnFnLUkxaU10eFRjUmpPSmFwRmdQamhJSUJHREMyRWV5Zkxua045a0UxSnJJcDRzZE9GLU1PX3AwRUE5NNIBrAFBVV95cUxQSUF2elRkNkFEWThQS0FuRWdScTh1dFdlaFZkQUZBWmd2MkhTQjhCd0RxUmlMaEhya0hqbTNuVHdGU0VDT2JIaWM1QVZYUUJzSG1IMWt4S0FuQjJ1TlFqTE5hTDVaSEZHMmRUZ1lwTWJ5RWY3d1ZWU0Jza09zN3dQanEydTA0NlMxRGRYX3lfWl9KNVdiRzRZazlkNVRUdGJ6QWRKZkdmUXd1V0Fl?oc=5",
+          "content": "Who is Mehrdad Akhlaghi, Iran’s new tech-focused defence minister?&nbsp;&nbsp;Al Jazeera"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Iran's New Defence Minister's \"Enormous Damage\" Warning To US",
+          "published_at": "Sun, 18 Oct 2026 15:44:53 +0530",
+          "url": "https://www.ndtv.com/world-news/irans-new-defence-minister-mehrdad-akhlaghis-enormous-damage-warning-to-us-12202461#publisher=newsstand",
+          "content": "Iranian lawmakers had earlier approved Akhlaghi's appointment as the country's new defence minister, after his predecessor was killed on the first day of the war with the United States."
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Iran Gets New Defence Minister 8 Months After Predecessor Killed In US Strikes",
+          "published_at": "Sun, 18 Oct 2026 14:49:33 +0530",
+          "url": "https://www.ndtv.com/world-news/iran-gets-new-defence-minister-mehrdad-akhlaghi-8-months-after-predecessor-killed-in-us-strikes-12202288#publisher=newsstand",
+          "content": "The veteran defence official replaces Aziz Nasirzadeh, who was killed in a US-Israeli attack on a leadership compound on February 28."
+        }
+      ],
+      "source_count": 3,
+      "total_count": 4,
+      "combined_score": 2.79,
+      "brief_bullets": [
+        "Iran's parliament approves Mehrdad Akhlaqi as minister of defence&nbsp;&nbsp;Reuters"
+      ],
+      "why_it_matters_bullets": [
+        "Carries notable strategic and policy implications for Technology as developments unfold."
+      ],
+      "brief": "Iran's parliament approves Mehrdad Akhlaqi as minister of defence&nbsp;&nbsp;Reuters",
+      "brief_word_count": 9
+    },
+    {
+      "story_id": "story-11",
+      "category": "Society",
+      "primary_headline": "Hurricane Trudy brings heavy rain and strong winds to Mexico’s Pacific coast",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Hurricane Trudy brings heavy rain and strong winds to Mexico’s Pacific coast - AP News",
+        "published_at": "Sun, 18 Oct 2026 12:42:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQk1CaFJzdndtbXhWVTJOMGt5WlZ5RDlzSDVEeklqU3ZuMzJPOThZOTV2cG5IWDVIMi1lSFJXWkhVdVg4OGdoajdEb0hhWWlxbVVuNkc2bGc2RlJZZTN5MDEyM2oxRU9UdkVYcWhGRHQzLUt6NktVemhJYnpTMG9MRUtJMXFSTzA3REFkcEhOTHd5ZEZBUndfZHVrR1BoeFFsRXJ1aA?oc=5",
+        "content": "Hurricane Trudy brings heavy rain and strong winds to Mexico’s Pacific coast&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Hurricane Trudy brings heavy rain and strong winds to Mexico’s Pacific coast - AP News",
+          "published_at": "Sun, 18 Oct 2026 12:42:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQk1CaFJzdndtbXhWVTJOMGt5WlZ5RDlzSDVEeklqU3ZuMzJPOThZOTV2cG5IWDVIMi1lSFJXWkhVdVg4OGdoajdEb0hhWWlxbVVuNkc2bGc2RlJZZTN5MDEyM2oxRU9UdkVYcWhGRHQzLUt6NktVemhJYnpTMG9MRUtJMXFSTzA3REFkcEhOTHd5ZEZBUndfZHVrR1BoeFFsRXJ1aA?oc=5",
+          "content": "Hurricane Trudy brings heavy rain and strong winds to Mexico’s Pacific coast&nbsp;&nbsp;AP News"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast - AP News",
+          "published_at": "Sun, 18 Oct 2026 03:38:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSlJRdElHVjVoLTVtTE01UWdmVjRrNkh4TnllLXNhNXZ1Y1c1RDRyWXVQUlBPQTJLZmVkM0RlNkhHdk1KMXRsZ2pnY05RZ19EdTVrNWZVbVJBNThZVmxPSkRlaGJ3T1RtMk0zY3lxQ3ItVHNWOTFndnpQLWRJTEVLX2VFRmtjekpRZkxfMmx0dzlhb2xkZlVWY0lPczFwVC1OX2poZw?oc=5",
+          "content": "Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast&nbsp;&nbsp;AP News"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Hurricane Trudy gains strength near Mexico's coast, but is expected to weaken by Sunday - Reuters",
+          "published_at": "Sat, 17 Oct 2026 23:33:43 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQUdGblRuOW5ZdjFTRUR1WkFYdEZKeDAxbjVscWNybm1RS3ZwelZlT084SVFHOFFRcDY5U1dlNUYtNkJKdHJUZEJITmZBeFBCSEZsR1RfNzdwcTY4ejNON0JycmgxN21xSTRPUjRFM2Uyd1ViNkdaZWdPQUJrUTRZd1dUVWIxOGI0Z1UxYjVkaDlZYUVzN3psc3g0bzF3OGo4MkF0NU9ZTmkzZC1zM0g4SUhRWTRqYUI0NWNaYmljYTFVSHM1eHU3d2pR?oc=5",
+          "content": "Hurricane Trudy gains strength near Mexico's coast, but is expected to weaken by Sunday&nbsp;&nbsp;Reuters"
+        },
+        {
+          "source_name": "The Guardian",
+          "headline": "Hurricane Trudy strengthens to category 2 as it heads toward Mexico",
+          "published_at": "Sat, 17 Oct 2026 23:24:40 GMT",
+          "url": "https://www.theguardian.com/world/2026/oct/17/hurricane-trudy-mexico",
+          "content": "Hurricane warning in effect from Manzanillo to Cabo Corrientes as storm moves toward Pacific coastTrudy strengthened to a category 2 hurricane as it moved toward Mexico’s south-western and west-central Pacific coast on Saturday, the US National Hurricane Center said.A hurricane warning was in effect from Manzanillo in Colima state to Cabo Corrientes in Jalisco. The latest NHC data showed Trudy with maximum sustained winds of 100mph (155km/h) and about 205 miles (330km) south/south-east of Cabo Corrientes and 115 miles (180km) south/south-west of Manzanillo, moving north-west at 10mph (17km/h). Continue reading..."
+        }
+      ],
+      "source_count": 3,
+      "total_count": 4,
+      "combined_score": 2.76,
+      "brief_bullets": [
+        "Hurricane Trudy brings heavy rain and strong winds to Mexico’s Pacific coast&nbsp;&nbsp;AP News"
+      ],
+      "why_it_matters_bullets": [
+        "Carries notable strategic and policy implications for Society as developments unfold."
+      ],
+      "brief": "Hurricane Trudy brings heavy rain and strong winds to Mexico’s Pacific coast&nbsp;&nbsp;AP News",
+      "brief_word_count": 13
+    },
+    {
+      "story_id": "story-12",
+      "category": "Geopolitics",
+      "primary_headline": "Saudi-led coalition says helicopter crash in Najran kills two crew members",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Saudi-led coalition says helicopter crash in Najran kills two crew members - Reuters",
+        "published_at": "Sun, 18 Oct 2026 09:07:13 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbFZiZFozb1RWTzVBbk4wZU8xMHlSeHhuSmhkMi1FSVhqTTZ5U3BMbF9aaU5fVjRpWnI1MkJTMTZscVcxTWM0YnVFRXFWdXQ2SnpSdVNPVm5LR1QzbVhpQjliR3VNZFl4WXhjODUzbjNZRXg0S0l0al80ZDlwdjc5ejFRU0E3NlJBZm1iOWg3VjhybzNLbWpOelQ4ZDZBWTkxS3Y4Rm9MUm9vTjdfYk9iaVRJd29DSDhMUi1KOGZMcDhzZGs?oc=5",
+        "content": "Saudi-led coalition says helicopter crash in Najran kills two crew members&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Saudi-led coalition says helicopter crash in Najran kills two crew members - Reuters",
+          "published_at": "Sun, 18 Oct 2026 09:07:13 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbFZiZFozb1RWTzVBbk4wZU8xMHlSeHhuSmhkMi1FSVhqTTZ5U3BMbF9aaU5fVjRpWnI1MkJTMTZscVcxTWM0YnVFRXFWdXQ2SnpSdVNPVm5LR1QzbVhpQjliR3VNZFl4WXhjODUzbjNZRXg0S0l0al80ZDlwdjc5ejFRU0E3NlJBZm1iOWg3VjhybzNLbWpOelQ4ZDZBWTkxS3Y4Rm9MUm9vTjdfYk9iaVRJd29DSDhMUi1KOGZMcDhzZGs?oc=5",
+          "content": "Saudi-led coalition says helicopter crash in Najran kills two crew members&nbsp;&nbsp;Reuters"
+        },
+        {
+          "source_name": "The Hindu",
+          "headline": "Saudi coalition says two pilots killed in chopper crash near Yemen",
+          "published_at": "Sun, 18 Oct 2026 19:01:53 +0530",
+          "url": "https://www.thehindu.com/news/international/saudi-coalition-says-two-pilots-killed-in-chopper-crash-near-yemen/article71599858.ece",
+          "content": "The coalition blamed a \"technical malfunction\" for the incident, which inflicted its first military fatalities since the long-running war with the Houthis reignited in July"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "2 Pilots Killed As Technical Fault Crashes Helicopter Near Yemen Border",
+          "published_at": "Sun, 18 Oct 2026 13:58:07 +0530",
+          "url": "https://www.ndtv.com/world-news/2-pilots-killed-as-technical-fault-crashes-helicopter-near-yemen-border-12202144#publisher=newsstand",
+          "content": "After a four-year, uneasy truce, Yemen's conflict reignited in July and intensified when the Iran-backed group seized strategic territory along the Red Sea coast last month."
+        }
+      ],
+      "source_count": 3,
+      "total_count": 3,
+      "combined_score": 2.52,
+      "brief_bullets": [
+        "Saudi-led coalition says helicopter crash in Najran kills two crew members&nbsp;&nbsp;Reuters"
+      ],
+      "why_it_matters_bullets": [
+        "Carries notable strategic and policy implications for Geopolitics as developments unfold."
+      ],
+      "brief": "Saudi-led coalition says helicopter crash in Najran kills two crew members&nbsp;&nbsp;Reuters",
+      "brief_word_count": 11
+    },
+    {
+      "story_id": "story-13",
       "category": "Geopolitics",
       "primary_headline": "15 Killed As Truck Runs Over Devotees Near Temple In Madhya Pradesh",
       "primary_source": {
@@ -454,35 +638,38 @@
           "source_name": "NDTV",
           "headline": "15 Killed As Truck Runs Over Devotees Near Temple In Madhya Pradesh",
           "published_at": "Sun, 18 Oct 2026 09:55:17 +0530",
-          "url": "https://www.ndtv.com/india-news/madhya-pradesh-temple-accident-12-killed-as-truck-runs-over-devotees-near-temple-in-madhya-pradeshs-gwalior-12201028#publisher=newsstand"
+          "url": "https://www.ndtv.com/india-news/madhya-pradesh-temple-accident-12-killed-as-truck-runs-over-devotees-near-temple-in-madhya-pradeshs-gwalior-12201028#publisher=newsstand",
+          "content": " The truck reportedly broke through police barricades before running over pilgrims on the road and crashing into the temple's outer wall and gate."
         },
         {
           "source_name": "The Indian Express",
           "headline": "12 killed, 29 injured as truck runs over devotees walking towards temple in Gwalior",
           "published_at": "Sun, 18 Oct 2026 03:30:53 +0000",
-          "url": "https://indianexpress.com/article/india/gwalior-road-accident-truck-hits-devotees-sheetlamata-mandir-10926443/"
+          "url": "https://indianexpress.com/article/india/gwalior-road-accident-truck-hits-devotees-sheetlamata-mandir-10926443/",
+          "content": ""
         },
         {
           "source_name": "Deccan Herald",
           "headline": "14 killed, 28 injured as truck hits devotees near temple in Madhya Pradesh's Gwalior",
           "published_at": "Sun, 18 Oct 2026 02:59:34 +0000",
-          "url": "https://www.deccanherald.com/india/madhya-pradesh/13-killed-40-injured-as-truck-hits-devotees-near-temple-in-madhya-pradeshs-gwalior-4186925"
+          "url": "https://www.deccanherald.com/india/madhya-pradesh/13-killed-40-injured-as-truck-hits-devotees-near-temple-in-madhya-pradeshs-gwalior-4186925",
+          "content": " In a horrific accident in Madhya Pradesh's Gwalior, 13 people were killed and 28 others were injured after a truck rammed into devotees and shops when they were waiting near a temple.  The incident happened at around 1:30 am on the Sheetlamata Mandir road when the truck driver lost control and the vehicle hit devotees before coming to a halt by smashing into the temple wall, which led to a collapse. Kolkata Durga Puja stampede: Police detain 12, including organisersAn investigator said the truck’s brakes may have failed, forcing the driver to swerve left in a desperate attempt to control the vehicle. Had it continued straight, he said, it would have ploughed into at least 600 to 700 devotees.The truck driver fled from the spot, and police teams were searching for him.The accident has raised concerns about security arrangements at the shrine, as the truck, with a Punjab registration number, entered the no-entry zone, officials told PTI.Meanwhile, Prime Minister Narendra Modi expressed grief over the loss of lives and announced ex gratia relief of Rs 2 lakh to the next of kin of each deceased and Rs 50,000 for each injured.“Distressed to learn about the loss of lives due to a mishap in Gwalior, Madhya Pradesh. My condolences to the bereaved families. Praying for the speedy recovery of the injured,” Modi said in an X post.Rescue operations are underway under the supervision of senior officials."
         }
       ],
       "source_count": 3,
       "total_count": 3,
       "combined_score": 2.52,
       "brief_bullets": [
-        "A tragic vehicular incident in Madhya Pradesh resulted in the deaths of fifteen devotees after a heavy truck forcefully breached established police barricades along a heavily congested pilgrimage route. According to preliminary reports, the driver lost control of the vehicle before it plowed directly into a large gathering of pilgrims on foot and ultimately crashed violently into the outer wall and main gate of a local temple. Emergency response teams and local authorities rushed to the scene to manage rescue operations, transport the injured to nearby medical facilities, and secure the perimeter. This catastrophic failure of crowd control and perimeter security highlights glaring vulnerabilities in managing large-scale religious gatherings during high-traffic festival periods across the region."
+        " The truck reportedly broke through police barricades before running over pilgrims on the road and crashing into the temple's outer wall and gate."
       ],
       "why_it_matters_bullets": [
-        "This disaster underscores the urgent need for enhanced crowd management protocols and robust physical security barriers around major religious sites during peak pilgrimage events to prevent accidental and preventable mass-casualty incidents."
+        "Carries notable strategic and policy implications for Geopolitics as developments unfold."
       ],
-      "brief": "A tragic vehicular incident in Madhya Pradesh resulted in the deaths of fifteen devotees after a heavy truck forcefully breached established police barricades along a heavily congested pilgrimage route. According to preliminary reports, the driver lost control of the vehicle before it plowed directly into a large gathering of pilgrims on foot and ultimately crashed violently into the outer wall and main gate of a local temple. Emergency response teams and local authorities rushed to the scene to manage rescue operations, transport the injured to nearby medical facilities, and secure the perimeter. This catastrophic failure of crowd control and perimeter security highlights glaring vulnerabilities in managing large-scale religious gatherings during high-traffic festival periods across the region. This disaster underscores the urgent need for enhanced crowd management protocols and robust physical security barriers around major religious sites during peak pilgrimage events to prevent accidental and preventable mass-casualty incidents.",
-      "brief_word_count": 147
+      "brief": " The truck reportedly broke through police barricades before running over pilgrims on the road and crashing into the temple's outer wall and gate.",
+      "brief_word_count": 23
     },
     {
-      "story_id": "story-11",
+      "story_id": "story-14",
       "category": "Society",
       "primary_headline": "Mismanagement, confusing announcements and narrow gates: What led to Kolkata pandal stampede",
       "primary_source": {
@@ -497,78 +684,38 @@
           "source_name": "Deccan Herald",
           "headline": "Mismanagement, confusing announcements and narrow gates: What led to Kolkata pandal stampede",
           "published_at": "Sun, 18 Oct 2026 04:50:07 +0000",
-          "url": "https://www.deccanherald.com/india/west-bengal/mismanagement-confusing-announcements-and-narrow-gates-what-led-to-kolkata-pandal-stampede-4186949"
+          "url": "https://www.deccanherald.com/india/west-bengal/mismanagement-confusing-announcements-and-narrow-gates-what-led-to-kolkata-pandal-stampede-4186949",
+          "content": " The stampede at the Chorbagan Durga Puja pandal in north Kolkata claimed the lives of 19 people, while 25 others were injured. A senior police officer told PTI that lack of crowd management and misleading announcements following sudden heavy rainfall during Saptami celebrations could have led to the tragic incident. Police also found that the number of police personnel and private security guards deployed at the venue was inadequate, worsening the situation.\"We have gathered sufficient evidence pointing to gross mismanagement by the puja organisers. There was no clear plan to manage the large number of visitors, and everything was handled verbally. We have collected CCTV camera footage, recorded accounts from locals and eyewitnesses, and corroborated our findings. Security personnel were inadequate,\" the police officer told PTI.At least 19 dead, 25 others injured in stampede-like situation at Durga Puja pandal in Kolkata\"Due to the mismanagement, people tried to escape through the entrance gate during the stampede. Both the gates and the approach road were narrow, which contributed to the accident,\" he said, adding that announcements regarding entry, exit and crowd movement were misleading, leaving visitors confused during the rush.\"We have video footage of an announcement asking people to leave the pandal on the grounds that the structure was about to collapse. We are trying to identify who made the announcement and what prompted it,\" the officer said.Moreover, the locals also claimed that police deployment was inadequate, alleging that personnel were mainly stationed near the VIP entrance.A team of forensic experts visited the pandal on Saturday night and collected evidence from the site, he said.\"Another team of forensic experts will visit the pandal today to collect further evidence. Officers from our Detective Department will also visit the venue as part of the investigation,\" he said.The Kolkata Police could question survivors as part of the probe, the IPS officer said.\"We need first-hand accounts to cross-check the findings based on statements from locals and other eyewitnesses. This will help our investigation,\" he added.Meanwhile, prohibitory orders under Section 163 have been imposed on roads adjoining the Chorbagan Sarbojanin Durga Puja pandal in north Kolkata on Sunday morning.The order prohibits gatherings on roads surrounding the venue, which falls under the jurisdiction of Bowbazar Police Station. The restrictions will remain in force until October 20.Chief Minister Suvendu Adhikari announced that the state government would provide Rs 25 lakh in compensation and a Group D government job to the family of each deceased victim.He also ordered the formation of a Special Investigation Team (SIT), headed by a sitting judge of the Calcutta High Court, to investigate the incident. "
         },
         {
           "source_name": "NDTV",
           "headline": "Darkness, Rush, And An Announcement: What Led To Deadly Kolkata Stampede",
           "published_at": "Sun, 18 Oct 2026 09:13:13 +0530",
-          "url": "https://www.ndtv.com/india-news/chorebagan-kolkata-stampede-kolkata-durga-puja-stampede-what-we-know-so-far-12200413#publisher=newsstand"
+          "url": "https://www.ndtv.com/india-news/chorebagan-kolkata-stampede-kolkata-durga-puja-stampede-what-we-know-so-far-12200413#publisher=newsstand",
+          "content": "The stampede broke out at the exit gate of the Chorebagan Sarbojanin Puja Pandal in Kolkata."
         },
         {
           "source_name": "The Indian Express",
           "headline": "Kolkata pandal stampede: Rain and rumour led to perfect storm",
           "published_at": "Sat, 17 Oct 2026 19:05:28 +0000",
-          "url": "https://indianexpress.com/article/cities/kolkata/dead-kolkata-durga-pandal-stampede-10926246/"
+          "url": "https://indianexpress.com/article/cities/kolkata/dead-kolkata-durga-pandal-stampede-10926246/",
+          "content": ""
         }
       ],
       "source_count": 3,
       "total_count": 3,
       "combined_score": 2.46,
       "brief_bullets": [
-        "A tragic stampede at the Chorbagan Durga Puja pandal in north Kolkata resulted in 19 deaths and 25 injuries during Saptami celebrations, triggered by sudden heavy rainfall and severe crowd mismanagement. Investigations by senior police officials and forensic teams revealed a critical lack of formal planning, inadequate security deployment, and narrow entry gates that trapped panicked visitors. The crisis was dangerously exacerbated by misleading verbal announcements falsely warning that the temporary structure was about to collapse, which sparked a frantic rush toward the exit. In response to the disaster, authorities have imposed prohibitory orders under Section 163 around the venue until October 20. Furthermore, Chief Minister Suvendu Adhikari announced a financial compensation package of 25 lakh rupees alongside government employment for each bereaved family, while ordering a Special Investigation Team headed by a sitting Calcutta High Court judge to probe the systemic failures."
+        " The stampede at the Chorbagan Durga Puja pandal in north Kolkata claimed the lives of 19 people, while 25 others were injured. A senior police officer told PTI that lack of crowd management and misleading announcements following sudden heavy rainfall during Saptami celebrations could have led to the tragic incident. Police also found that the number of police personnel and private security guards deployed at the venue was inadequate, worsening the situation.\"We have gathered sufficient evidence pointing to gross mismanagement by the puja organisers. There was no clear plan to manage the large number of visitors, and everything was handled verbally. We have collected CCTV camera footage, recorded accounts from locals and eyewitnesses, and corroborated our findings. Security personnel were inadequate,\" the police officer told PTI.At least 19 dead, 25 others injured in stampede-like situation at Durga Puja pandal in Kolkata\"Due to the mismanagement, people tried to escape through the entrance gate during the stampede. Both the gates and the approach road were narrow, which contributed to the accident,\" he said, adding that announcements regarding entry, exit and crowd movement were misleading, leaving visitors confused during the rush.\"We have video footage of an announcement asking people to leave the pandal on the grounds that the structure was about to collapse. We are trying to identify who made the announcement and what prompted it,\" the officer said.Moreover, the locals also claimed that police deployment was inadequate, alleging that personnel were mainly stationed near the VIP entrance.A team of forensic experts visited the pandal on Saturday night and collected evidence from the site, he said.\"Another team of forensic experts will visit the pandal today to collect further evidence. Officers from our Detective Department will also visit the venue as part of the investigation,\" he said.The Kolkata Police could question survivors as part of the probe, the IPS officer said.\"We need first-hand accounts to cross-check the findings based on statements from locals and other eyewitnesses. This will help our investigation,\" he added.Meanwhile, prohibitory orders under Section 163 have been imposed on roads adjoining the Chorbagan Sarbojanin Durga Puja pandal in north Kolkata on Sunday morning.The order prohibits gatherings on roads surrounding the venue, which falls under the jurisdiction of Bowbazar Police Station. The restrictions will remain in force until October 20.Chief Minister Suvendu Adhikari announced that the state government would provide Rs 25 lakh in compensation and a Group D government job to the family of each deceased victim.He also ordered the formation of a Special Investigation Team (SIT), headed by a sitting judge of the Calcutta High Court, to investigate the incident. "
       ],
       "why_it_matters_bullets": [
-        "This disaster exposes critical safety vulnerabilities in India's massive cultural festivals, compelling municipal and state authorities to overhaul regulatory oversight, crowd control protocols, and infrastructure standards for large-scale public gatherings."
+        "Carries notable strategic and policy implications for Society as developments unfold."
       ],
-      "brief": "A tragic stampede at the Chorbagan Durga Puja pandal in north Kolkata resulted in 19 deaths and 25 injuries during Saptami celebrations, triggered by sudden heavy rainfall and severe crowd mismanagement. Investigations by senior police officials and forensic teams revealed a critical lack of formal planning, inadequate security deployment, and narrow entry gates that trapped panicked visitors. The crisis was dangerously exacerbated by misleading verbal announcements falsely warning that the temporary structure was about to collapse, which sparked a frantic rush toward the exit. In response to the disaster, authorities have imposed prohibitory orders under Section 163 around the venue until October 20. Furthermore, Chief Minister Suvendu Adhikari announced a financial compensation package of 25 lakh rupees alongside government employment for each bereaved family, while ordering a Special Investigation Team headed by a sitting Calcutta High Court judge to probe the systemic failures. This disaster exposes critical safety vulnerabilities in India's massive cultural festivals, compelling municipal and state authorities to overhaul regulatory oversight, crowd control protocols, and infrastructure standards for large-scale public gatherings.",
-      "brief_word_count": 173
+      "brief": " The stampede at the Chorbagan Durga Puja pandal in north Kolkata claimed the lives of 19 people, while 25 others were injured. A senior police officer told PTI that lack of crowd management and misleading announcements following sudden heavy rainfall during Saptami celebrations could have led to the tragic incident. Police also found that the number of police personnel and private security guards deployed at the venue was inadequate, worsening the situation.\"We have gathered sufficient evidence pointing to gross mismanagement by the puja organisers. There was no clear plan to manage the large number of visitors, and everything was handled verbally. We have collected CCTV camera footage, recorded accounts from locals and eyewitnesses, and corroborated our findings. Security personnel were inadequate,\" the police officer told PTI.At least 19 dead, 25 others injured in stampede-like situation at Durga Puja pandal in Kolkata\"Due to the mismanagement, people tried to escape through the entrance gate during the stampede. Both the gates and the approach road were narrow, which contributed to the accident,\" he said, adding that announcements regarding entry, exit and crowd movement were misleading, leaving visitors confused during the rush.\"We have video footage of an announcement asking people to leave the pandal on the grounds that the structure was about to collapse. We are trying to identify who made the announcement and what prompted it,\" the officer said.Moreover, the locals also claimed that police deployment was inadequate, alleging that personnel were mainly stationed near the VIP entrance.A team of forensic experts visited the pandal on Saturday night and collected evidence from the site, he said.\"Another team of forensic experts will visit the pandal today to collect further evidence. Officers from our Detective Department will also visit the venue as part of the investigation,\" he said.The Kolkata Police could question survivors as part of the probe, the IPS officer said.\"We need first-hand accounts to cross-check the findings based on statements from locals and other eyewitnesses. This will help our investigation,\" he added.Meanwhile, prohibitory orders under Section 163 have been imposed on roads adjoining the Chorbagan Sarbojanin Durga Puja pandal in north Kolkata on Sunday morning.The order prohibits gatherings on roads surrounding the venue, which falls under the jurisdiction of Bowbazar Police Station. The restrictions will remain in force until October 20.Chief Minister Suvendu Adhikari announced that the state government would provide Rs 25 lakh in compensation and a Group D government job to the family of each deceased victim.He also ordered the formation of a Special Investigation Team (SIT), headed by a sitting judge of the Calcutta High Court, to investigate the incident. ",
+      "brief_word_count": 430
     },
     {
-      "story_id": "story-12",
-      "category": "Society",
-      "primary_headline": "Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast",
-      "primary_source": {
-        "source_name": "AP News",
-        "headline": "Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast - AP News",
-        "published_at": "Sun, 18 Oct 2026 03:38:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSlJRdElHVjVoLTVtTE01UWdmVjRrNkh4TnllLXNhNXZ1Y1c1RDRyWXVQUlBPQTJLZmVkM0RlNkhHdk1KMXRsZ2pnY05RZ19EdTVrNWZVbVJBNThZVmxPSkRlaGJ3T1RtMk0zY3lxQ3ItVHNWOTFndnpQLWRJTEVLX2VFRmtjekpRZkxfMmx0dzlhb2xkZlVWY0lPczFwVC1OX2poZw?oc=5",
-        "content": "Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast&nbsp;&nbsp;AP News"
-      },
-      "sources": [
-        {
-          "source_name": "AP News",
-          "headline": "Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast - AP News",
-          "published_at": "Sun, 18 Oct 2026 03:38:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSlJRdElHVjVoLTVtTE01UWdmVjRrNkh4TnllLXNhNXZ1Y1c1RDRyWXVQUlBPQTJLZmVkM0RlNkhHdk1KMXRsZ2pnY05RZ19EdTVrNWZVbVJBNThZVmxPSkRlaGJ3T1RtMk0zY3lxQ3ItVHNWOTFndnpQLWRJTEVLX2VFRmtjekpRZkxfMmx0dzlhb2xkZlVWY0lPczFwVC1OX2poZw?oc=5"
-        },
-        {
-          "source_name": "Reuters",
-          "headline": "Hurricane Trudy gains strength near Mexico's coast, but is expected to weaken by Sunday - Reuters",
-          "published_at": "Sat, 17 Oct 2026 23:33:43 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQUdGblRuOW5ZdjFTRUR1WkFYdEZKeDAxbjVscWNybm1RS3ZwelZlT084SVFHOFFRcDY5U1dlNUYtNkJKdHJUZEJITmZBeFBCSEZsR1RfNzdwcTY4ejNON0JycmgxN21xSTRPUjRFM2Uyd1ViNkdaZWdPQUJrUTRZd1dUVWIxOGI0Z1UxYjVkaDlZYUVzN3psc3g0bzF3OGo4MkF0NU9ZTmkzZC1zM0g4SUhRWTRqYUI0NWNaYmljYTFVSHM1eHU3d2pR?oc=5"
-        },
-        {
-          "source_name": "The Guardian",
-          "headline": "Hurricane Trudy strengthens to category 2 as it heads toward Mexico",
-          "published_at": "Sat, 17 Oct 2026 23:24:40 GMT",
-          "url": "https://www.theguardian.com/world/2026/oct/17/hurricane-trudy-mexico"
-        }
-      ],
-      "source_count": 3,
-      "total_count": 3,
-      "combined_score": 2.46,
-      "brief_bullets": [
-        "Hurricane Trudy has significantly intensified into a formidable Category 2 storm as it tracks steadily toward the southern coastline of Mexico, prompting heightened state alerts and emergency preparations. Meteorological agencies report that the storm's sustained wind speeds and atmospheric pressure have increased rapidly over the warm waters of the Pacific Ocean, raising the immediate threat of catastrophic storm surges, flash flooding, and destructive winds across vulnerable coastal communities. Local authorities and federal disaster response teams have activated emergency protocols, urging residents in high-risk zones to secure their properties or evacuate to designated shelters before weather conditions severely deteriorate. The impending landfall poses a serious hazard to regional infrastructure, agriculture, and tourism, forcing emergency services to remain on high alert as the storm closes in."
-      ],
-      "why_it_matters_bullets": [
-        "The rapid intensification of Hurricane Trudy underscores the increasing vulnerability of coastal regions to severe meteorological events driven by warming ocean temperatures, threatening critical supply chains, local economies, and public safety infrastructure in Mexico."
-      ],
-      "brief": "Hurricane Trudy has significantly intensified into a formidable Category 2 storm as it tracks steadily toward the southern coastline of Mexico, prompting heightened state alerts and emergency preparations. Meteorological agencies report that the storm's sustained wind speeds and atmospheric pressure have increased rapidly over the warm waters of the Pacific Ocean, raising the immediate threat of catastrophic storm surges, flash flooding, and destructive winds across vulnerable coastal communities. Local authorities and federal disaster response teams have activated emergency protocols, urging residents in high-risk zones to secure their properties or evacuate to designated shelters before weather conditions severely deteriorate. The impending landfall poses a serious hazard to regional infrastructure, agriculture, and tourism, forcing emergency services to remain on high alert as the storm closes in. The rapid intensification of Hurricane Trudy underscores the increasing vulnerability of coastal regions to severe meteorological events driven by warming ocean temperatures, threatening critical supply chains, local economies, and public safety infrastructure in Mexico.",
-      "brief_word_count": 158
-    },
-    {
-      "story_id": "story-13",
+      "story_id": "story-15",
       "category": "Geopolitics",
       "primary_headline": "Rubio says Trump to take up to 60 days to weigh Russia sanctions",
       "primary_source": {
@@ -583,35 +730,38 @@
           "source_name": "Reuters",
           "headline": "Rubio says Trump to take up to 60 days to weigh Russia sanctions - Reuters",
           "published_at": "Sun, 18 Oct 2026 03:38:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRlRkQlBQYXFvck1VQUYxcVpwM2dEVDMwQThIY3ZHRldBd0M0dmV5NXFnZlBXMnpuUnozQlhLbkg4ZjZCT3kzVW5mcnl3RVEwUXRpdUJsZGViRlE1MFdJbHZWZ3pRTXNOUDQtOTRsQU5nSzd4a3d5Z3c2dTkzZWZSNlZsbXZBamFSMS1qVEVnaHc2MTZJUHZ4YU1zS0hfNVM4eVE?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRlRkQlBQYXFvck1VQUYxcVpwM2dEVDMwQThIY3ZHRldBd0M0dmV5NXFnZlBXMnpuUnozQlhLbkg4ZjZCT3kzVW5mcnl3RVEwUXRpdUJsZGViRlE1MFdJbHZWZ3pRTXNOUDQtOTRsQU5nSzd4a3d5Z3c2dTkzZWZSNlZsbXZBamFSMS1qVEVnaHc2MTZJUHZ4YU1zS0hfNVM4eVE?oc=5",
+          "content": "Rubio says Trump to take up to 60 days to weigh Russia sanctions&nbsp;&nbsp;Reuters"
         },
         {
           "source_name": "The Indian Express",
           "headline": "Trump’s Russia tariff relief for India: What Marco Rubio revealed about 60-day plan",
           "published_at": "Sun, 18 Oct 2026 05:15:56 +0000",
-          "url": "https://indianexpress.com/article/world/india-trump-60-days-russia-sanctions-tariffs-rubio-10926437/"
+          "url": "https://indianexpress.com/article/world/india-trump-60-days-russia-sanctions-tariffs-rubio-10926437/",
+          "content": ""
         },
         {
           "source_name": "The Print",
           "headline": "Rubio says Trump to take up to 60 days to weigh Russia sanctions - ThePrint",
           "published_at": "Sun, 18 Oct 2026 03:30:41 GMT",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZlNQSDdiX0U2TE9PQWM0VUkxb3FUYWJhOGVQUWE0R2tlNTAxRm1ib0RRV2UzVF9RbV9zaWdEWkZzOWxzSVFuTk9RTTZyT1FKQlVDV0toVEtTQzd0azJ1YmFQQmZmaXFIOWRPYzhLLW9Gak5pVERHNldSRV9fLWVVWW5MemFvZXNrNmlKWnRYLUk4TWV1bmk0dTAtTDh3Y1k10gGmAUFVX3lxTFA2NVRLcXdQOGZQb0pLTXpLb0lZWmhYMGRZNFBtdXVSZ0wyVko3N1NzM3V5V0xiYkd4WjEzUjJYZDlUMWMxTXBfR1dFeVBJVS0xazg4VW1vM19xUmp1cjNxemc0eU50S0VheTRLbG1hellhN1NwWmw2QUNQUG9OWTJqSUV1UUpyUjJMejlMczdDTXowdmFOZlRZcXlzd1FTd3N0WG0zMkE?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZlNQSDdiX0U2TE9PQWM0VUkxb3FUYWJhOGVQUWE0R2tlNTAxRm1ib0RRV2UzVF9RbV9zaWdEWkZzOWxzSVFuTk9RTTZyT1FKQlVDV0toVEtTQzd0azJ1YmFQQmZmaXFIOWRPYzhLLW9Gak5pVERHNldSRV9fLWVVWW5MemFvZXNrNmlKWnRYLUk4TWV1bmk0dTAtTDh3Y1k10gGmAUFVX3lxTFA2NVRLcXdQOGZQb0pLTXpLb0lZWmhYMGRZNFBtdXVSZ0wyVko3N1NzM3V5V0xiYkd4WjEzUjJYZDlUMWMxTXBfR1dFeVBJVS0xazg4VW1vM19xUmp1cjNxemc0eU50S0VheTRLbG1hellhN1NwWmw2QUNQUG9OWTJqSUV1UUpyUjJMejlMczdDTXowdmFOZlRZcXlzd1FTd3N0WG0zMkE?oc=5",
+          "content": "Rubio says Trump to take up to 60 days to weigh Russia sanctions&nbsp;&nbsp;ThePrint"
         }
       ],
       "source_count": 3,
       "total_count": 3,
       "combined_score": 2.4,
       "brief_bullets": [
-        "Senator Marco Rubio has indicated that President-elect Donald Trump will require up to sixty days following his inauguration to carefully evaluate and formulate his administration's official policy regarding potential new economic sanctions against Russia. This measured deliberative window highlights the incoming administration's intent to thoroughly review existing geopolitical pressures and diplomatic channels before committing to concrete punitive measures tied to the ongoing conflict in Ukraine. The strategic pause allows Trump's national security and economic teams to weigh the potential leverage of fresh sanctions against broader diplomatic objectives and global market stability. As international allies and adversaries closely monitor these developments, the final decision is expected to set a definitive tone for U.S. foreign policy and transatlantic cooperation in the early months of the new presidency."
+        "Rubio says Trump to take up to 60 days to weigh Russia sanctions&nbsp;&nbsp;Reuters"
       ],
       "why_it_matters_bullets": [
-        "The sixty-day review period signals a deliberate pause in U.S. economic pressure on Moscow, providing a crucial window that could either alter the trajectory of Western support for Ukraine or establish new terms for future diplomatic engagement with the Kremlin."
+        "Carries notable strategic and policy implications for Geopolitics as developments unfold."
       ],
-      "brief": "Senator Marco Rubio has indicated that President-elect Donald Trump will require up to sixty days following his inauguration to carefully evaluate and formulate his administration's official policy regarding potential new economic sanctions against Russia. This measured deliberative window highlights the incoming administration's intent to thoroughly review existing geopolitical pressures and diplomatic channels before committing to concrete punitive measures tied to the ongoing conflict in Ukraine. The strategic pause allows Trump's national security and economic teams to weigh the potential leverage of fresh sanctions against broader diplomatic objectives and global market stability. As international allies and adversaries closely monitor these developments, the final decision is expected to set a definitive tone for U.S. foreign policy and transatlantic cooperation in the early months of the new presidency. The sixty-day review period signals a deliberate pause in U.S. economic pressure on Moscow, providing a crucial window that could either alter the trajectory of Western support for Ukraine or establish new terms for future diplomatic engagement with the Kremlin.",
-      "brief_word_count": 165
+      "brief": "Rubio says Trump to take up to 60 days to weigh Russia sanctions&nbsp;&nbsp;Reuters",
+      "brief_word_count": 13
     },
     {
-      "story_id": "story-14",
+      "story_id": "story-16",
       "category": "Geopolitics",
       "primary_headline": "Italian police clash with protesters in Milan and Bologna",
       "primary_source": {
@@ -626,41 +776,91 @@
           "source_name": "Reuters",
           "headline": "Italian police clash with protesters in Milan and Bologna - Reuters",
           "published_at": "Sat, 17 Oct 2026 18:27:40 GMT",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcEpOU0pkZXEtTWhtSDFpMEZCT01yeno3N3ViQVBwMXJRbkRvU0lldzYwSEJVbkhrVEpPV3FIdU5nYjBJa3FpeThOX2Q2QnZIS0w5Y2JscG8zLXhUTDdlc05WZzUwcldlUHJHc1oyRlZSeTlfU3J3dTg5T2l5NnpzcHlwMUNLeVNxRmJveW9OclJpUXVkSmc?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcEpOU0pkZXEtTWhtSDFpMEZCT01yeno3N3ViQVBwMXJRbkRvU0lldzYwSEJVbkhrVEpPV3FIdU5nYjBJa3FpeThOX2Q2QnZIS0w5Y2JscG8zLXhUTDdlc05WZzUwcldlUHJHc1oyRlZSeTlfU3J3dTg5T2l5NnpzcHlwMUNLeVNxRmJveW9OclJpUXVkSmc?oc=5",
+          "content": "Italian police clash with protesters in Milan and Bologna&nbsp;&nbsp;Reuters"
         },
         {
           "source_name": "Reuters",
           "headline": "Italian police clash with protesters in the centre of Milan - Reuters",
           "published_at": "Sat, 17 Oct 2026 17:24:59 GMT",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUVNiamhOTjFnamxaQ3IzNzBsNWNmR2JtVW5xMmlmdERwZWpCVVM5bTJGZFFybnNfT2NxTmptdVNqY04wckhsMG1lTnV1YWgtTC1NaUJBZV9FTHNLRWY4QXJvN0FUcUIzYkd6aFNadkhRTUhqYVczTmNuTjd6cXJxbUh1cmpwOWpnbFlHT04yUm1EbnhTNzhUbFpiUXplbzBjWmhGOGM5QQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUVNiamhOTjFnamxaQ3IzNzBsNWNmR2JtVW5xMmlmdERwZWpCVVM5bTJGZFFybnNfT2NxTmptdVNqY04wckhsMG1lTnV1YWgtTC1NaUJBZV9FTHNLRWY4QXJvN0FUcUIzYkd6aFNadkhRTUhqYVczTmNuTjd6cXJxbUh1cmpwOWpnbFlHT04yUm1EbnhTNzhUbFpiUXplbzBjWmhGOGM5QQ?oc=5",
+          "content": "Italian police clash with protesters in the centre of Milan&nbsp;&nbsp;Reuters"
         },
         {
           "source_name": "Reuters",
           "headline": "Protesters clash with police in Brussels - Reuters",
           "published_at": "Sat, 17 Oct 2026 14:42:07 GMT",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWEJmRHZXRTB5bU1Xb1FoXzVTVG4yTkVQUmM2cS1oZzZrcGZIbjVnRU5MMFBtc0FVQjBOTUFFdU1YbldSSkpTWm40Vll2YmtMaDFVRTVvREN1ODJsQ2FRaU5lRmM1cnp3d2FnU1Fsc1MtNmVzX2JrenRfM3lnQ0k1Vk1GeEExZw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWEJmRHZXRTB5bU1Xb1FoXzVTVG4yTkVQUmM2cS1oZzZrcGZIbjVnRU5MMFBtc0FVQjBOTUFFdU1YbldSSkpTWm40Vll2YmtMaDFVRTVvREN1ODJsQ2FRaU5lRmM1cnp3d2FnU1Fsc1MtNmVzX2JrenRfM3lnQ0k1Vk1GeEExZw?oc=5",
+          "content": "Protesters clash with police in Brussels&nbsp;&nbsp;Reuters"
         },
         {
           "source_name": "The Print",
           "headline": "Italian police clash with protesters in Milan and Bologna - ThePrint",
           "published_at": "Sat, 17 Oct 2026 18:00:04 GMT",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN25HdTdzYUFsTzczMEZiNV82MmxqanlWQ2JSWFozQXZGelI5R0RIUzJDS1ZjYkRRWjNvT1UzZG04QkRzUHhoME1ZWlFZRTRNblFCWWlGN3lKUXo5SmhPNEttV2d5RVdETEZDVmlxN2U4LTQzT0hDcmhJemFYTWg5NXBZeG84dWJfMmZTRzNaVVZ4T3B5ZUlv0gGcAUFVX3lxTE94YW9oTGdlNWpOb2d2eEJhUXNXMDNRS0tBQm83eTJCcl9uU3Q2SVhtUkpSeURRa0phZkxEcG9wOFNfQ3Y2SUZYVzYtaUZFUU91QmM1N1lzOVVGdEhVVUtkNXkteERIUDJneTdZNjRIbHpPMUI1NDU1WEdNcnhPMDRjN1Z0UmtQN01hbWlraTdZMm1OSlp2SmVPUzFXVw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN25HdTdzYUFsTzczMEZiNV82MmxqanlWQ2JSWFozQXZGelI5R0RIUzJDS1ZjYkRRWjNvT1UzZG04QkRzUHhoME1ZWlFZRTRNblFCWWlGN3lKUXo5SmhPNEttV2d5RVdETEZDVmlxN2U4LTQzT0hDcmhJemFYTWg5NXBZeG84dWJfMmZTRzNaVVZ4T3B5ZUlv0gGcAUFVX3lxTE94YW9oTGdlNWpOb2d2eEJhUXNXMDNRS0tBQm83eTJCcl9uU3Q2SVhtUkpSeURRa0phZkxEcG9wOFNfQ3Y2SUZYVzYtaUZFUU91QmM1N1lzOVVGdEhVVUtkNXkteERIUDJneTdZNjRIbHpPMUI1NDU1WEdNcnhPMDRjN1Z0UmtQN01hbWlraTdZMm1OSlp2SmVPUzFXVw?oc=5",
+          "content": "Italian police clash with protesters in Milan and Bologna&nbsp;&nbsp;ThePrint"
         }
       ],
       "source_count": 2,
       "total_count": 4,
       "combined_score": 2.2,
       "brief_bullets": [
-        "In major Italian urban centers including Milan and Bologna, local law enforcement agencies engaged in intense physical confrontations with large groups of demonstrators during coordinated public protests. The unrest erupted as civilian groups mobilized against prevailing governmental policies and economic conditions, leading to escalating tensions that quickly overwhelmed standard crowd control measures. Police units deployed defensive tactics, including riot gear and baton charges, to disperse the aggressive crowds who had blocked major thoroughfares and public squares. These violent clashes underscore a deepening domestic polarization across Italy, as citizens increasingly take to the streets to express acute economic anxieties and systemic political dissatisfaction. The escalating confrontations have prompted urgent security reviews by national authorities striving to balance public safety mandates with democratic rights to peaceful assembly."
+        "Italian police clash with protesters in Milan and Bologna&nbsp;&nbsp;Reuters"
       ],
       "why_it_matters_bullets": [
-        "The violent clashes highlight mounting social unrest that could destabilize public administration and force the Italian government to re-evaluate its domestic security posture and economic communication strategies."
+        "Carries notable strategic and policy implications for Geopolitics as developments unfold."
       ],
-      "brief": "In major Italian urban centers including Milan and Bologna, local law enforcement agencies engaged in intense physical confrontations with large groups of demonstrators during coordinated public protests. The unrest erupted as civilian groups mobilized against prevailing governmental policies and economic conditions, leading to escalating tensions that quickly overwhelmed standard crowd control measures. Police units deployed defensive tactics, including riot gear and baton charges, to disperse the aggressive crowds who had blocked major thoroughfares and public squares. These violent clashes underscore a deepening domestic polarization across Italy, as citizens increasingly take to the streets to express acute economic anxieties and systemic political dissatisfaction. The escalating confrontations have prompted urgent security reviews by national authorities striving to balance public safety mandates with democratic rights to peaceful assembly. The violent clashes highlight mounting social unrest that could destabilize public administration and force the Italian government to re-evaluate its domestic security posture and economic communication strategies.",
-      "brief_word_count": 152
+      "brief": "Italian police clash with protesters in Milan and Bologna&nbsp;&nbsp;Reuters",
+      "brief_word_count": 9
     },
     {
-      "story_id": "story-15",
+      "story_id": "story-17",
+      "category": "Finance",
+      "primary_headline": "DH Evening Brief | Seven, including organisers, arrested in Kolkata pandal stampede; India bars sugarcane-based ethanol from 2026-27 procurement tender to safeguard sugar supplies",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "DH Evening Brief | Seven, including organisers, arrested in Kolkata pandal stampede; India bars sugarcane-based ethanol from 2026-27 procurement tender to safeguard sugar supplies",
+        "published_at": "Sun, 18 Oct 2026 13:28:32 +0000",
+        "url": "https://www.deccanherald.com/india/dh-evening-brief-seven-including-organisers-arrested-in-kolkata-pandal-stampede-india-bars-sugarcane-based-ethanol-from-2026-27-procurement-tender-to-safeguard-sugar-supplies-4187291",
+        "content": " Kolkata pandal stampede: Seven, including Chorbagan Durga Puja organisers, arrestedKolkata Police have arrested seven people, including organisers of Chorbagan Durga Puja, for the pandal stampede that killed at least 19 people.Read moreIndia bars sugarcane-based ethanol from 2026-27 procurement tender to safeguard sugar suppliesState-run oil marketing companies have excluded ethanol produced from sugarcane juice, sugar syrup and B-heavy molasses from their latest procurement tender for the 2026-27 supply year, following government directions to halt sugar diversion for fuel amid concerns over domestic availability and prices.Read moreGwalior temple tragedy: MP CM orders removal of SP, suspension of 8 other police personnelMadhya Pradesh Chief Minister Mohan Yadav on Sunday ordered the removal of the Gwalior City Superintendent of Police and the suspension of eight other personnel after the temple accident that claimed 14 lives when a truck ploughed into devotees.Read moreTough task ahead for Edappadi Palaniswami as AIADMK fights to retain anti-DMK mantle against TVKAs the party entered its 55th year on Saturday, the All India Anna Dravida Munnetra Kazhagam (AIADMK) finds itself facing its biggest crisis ever since its founding in 1972 by the legendary M G Ramachandran.Read moreProfiles in cowardice: How world leaders and tech CEOs evade responsibility for their actionsPublished seventy years ago, Profiles in Courage presents short biographies of eight United States senators who voted against special interest groups which were intent on preserving their power in the halls of Congress.Read moreMismanagement, confusing announcements and narrow gates: What led to Kolkata pandal stampedeThe stampede at the Chorbagan Durga Puja pandal in north Kolkata claimed the lives of 19 people, while 25 others were injured.Read moreEC-SIR row | Congress says nothing can save Gyanesh Kumar, seeks major revamp of the poll bodyAs the Election Commission \"resumes\" distribution of \"readable\" electoral rolls to parties after a \"gap of eight years\", Congress on Sunday said \"nothing can save\" Chief Election Commissioner (CEC) Gyanesh Kumar while insisting that a \"thorough\" revamp of the poll body and its IT system is required.Read moreExplained| Govt caps trade margins on 137 cancer drugs at 30%: NPPAThe Ministry of Chemicals and Fertilisers has announced a price cap of 30 per cent on the trade margins of 137 cancer medicines, over the cost of the drug at the first point, either to a stockist/distributor or the hospital.Read moreKolkata stampede | 'CM himself inaugurated Chorebagan puja pandal, will he be held accountable?': Mamata AITC attacks Suvendu govtThe Mamata All India Trinamool Congress launched a sharp attack on West Bengal Chief Minister Suvendu Adhikari and Kolkata Police over a stampede at a Durga Puja pandal that claimed 19 lives, bringing the name of the CM's nephew Debdeep Adhikari, listed as chief patron of the Chorbagan Sarbojonin Durgotsab Samity, under the spotlight.Read moreA bitter harvest: Ginger's fading fortunes in KarnatakaGinger cultivation has declined sharply in the state in recent years due to diseases and growing awareness of the damage excessive pesticide use can cause to soil fertility.Read more"
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "DH Evening Brief | Seven, including organisers, arrested in Kolkata pandal stampede; India bars sugarcane-based ethanol from 2026-27 procurement tender to safeguard sugar supplies",
+          "published_at": "Sun, 18 Oct 2026 13:28:32 +0000",
+          "url": "https://www.deccanherald.com/india/dh-evening-brief-seven-including-organisers-arrested-in-kolkata-pandal-stampede-india-bars-sugarcane-based-ethanol-from-2026-27-procurement-tender-to-safeguard-sugar-supplies-4187291",
+          "content": " Kolkata pandal stampede: Seven, including Chorbagan Durga Puja organisers, arrestedKolkata Police have arrested seven people, including organisers of Chorbagan Durga Puja, for the pandal stampede that killed at least 19 people.Read moreIndia bars sugarcane-based ethanol from 2026-27 procurement tender to safeguard sugar suppliesState-run oil marketing companies have excluded ethanol produced from sugarcane juice, sugar syrup and B-heavy molasses from their latest procurement tender for the 2026-27 supply year, following government directions to halt sugar diversion for fuel amid concerns over domestic availability and prices.Read moreGwalior temple tragedy: MP CM orders removal of SP, suspension of 8 other police personnelMadhya Pradesh Chief Minister Mohan Yadav on Sunday ordered the removal of the Gwalior City Superintendent of Police and the suspension of eight other personnel after the temple accident that claimed 14 lives when a truck ploughed into devotees.Read moreTough task ahead for Edappadi Palaniswami as AIADMK fights to retain anti-DMK mantle against TVKAs the party entered its 55th year on Saturday, the All India Anna Dravida Munnetra Kazhagam (AIADMK) finds itself facing its biggest crisis ever since its founding in 1972 by the legendary M G Ramachandran.Read moreProfiles in cowardice: How world leaders and tech CEOs evade responsibility for their actionsPublished seventy years ago, Profiles in Courage presents short biographies of eight United States senators who voted against special interest groups which were intent on preserving their power in the halls of Congress.Read moreMismanagement, confusing announcements and narrow gates: What led to Kolkata pandal stampedeThe stampede at the Chorbagan Durga Puja pandal in north Kolkata claimed the lives of 19 people, while 25 others were injured.Read moreEC-SIR row | Congress says nothing can save Gyanesh Kumar, seeks major revamp of the poll bodyAs the Election Commission \"resumes\" distribution of \"readable\" electoral rolls to parties after a \"gap of eight years\", Congress on Sunday said \"nothing can save\" Chief Election Commissioner (CEC) Gyanesh Kumar while insisting that a \"thorough\" revamp of the poll body and its IT system is required.Read moreExplained| Govt caps trade margins on 137 cancer drugs at 30%: NPPAThe Ministry of Chemicals and Fertilisers has announced a price cap of 30 per cent on the trade margins of 137 cancer medicines, over the cost of the drug at the first point, either to a stockist/distributor or the hospital.Read moreKolkata stampede | 'CM himself inaugurated Chorebagan puja pandal, will he be held accountable?': Mamata AITC attacks Suvendu govtThe Mamata All India Trinamool Congress launched a sharp attack on West Bengal Chief Minister Suvendu Adhikari and Kolkata Police over a stampede at a Durga Puja pandal that claimed 19 lives, bringing the name of the CM's nephew Debdeep Adhikari, listed as chief patron of the Chorbagan Sarbojonin Durgotsab Samity, under the spotlight.Read moreA bitter harvest: Ginger's fading fortunes in KarnatakaGinger cultivation has declined sharply in the state in recent years due to diseases and growing awareness of the damage excessive pesticide use can cause to soil fertility.Read more"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "India bars sugarcane-based ethanol from 2026-27 procurement tender to safeguard sugar supplies",
+          "published_at": "Sun, 18 Oct 2026 12:06:19 +0000",
+          "url": "https://www.deccanherald.com/business/india-bars-sugarcane-based-ethanol-from-2026-27-procurement-tender-to-safeguard-sugar-supplies-4187250",
+          "content": " New Delhi: State-run oil marketing companies have excluded ethanol produced from sugarcane juice, sugar syrup and B-heavy molasses from their latest procurement tender for the 2026-27 supply year, following government directions to halt sugar diversion for fuel amid concerns over domestic availability and prices.Bharat Petroleum Corporation Ltd (BPCL), acting on behalf of the oil marketing companies, issued the tender on October 16 seeking bids for approximately 11 billion litres of ethanol. The volume is intended to support the nationwide target of blending 20 per cent ethanol in petrol during the supply year that runs from November 2026 to October 2027.The tender document states: “The Government of India has issued directions that sugar diversion for ethanol be reduced to zero for ethanol supply year 2026-27.” It adds that “no offers have been sought for ethanol produced from sugarcane juice, sugar or sugar syrup and B-heavy molasses.”Instead, the companies will accept bids for ethanol made from maize, broken rice, surplus rice procured by the Food Corporation of India, and C-heavy molasses. The procurement price for maize-based ethanol has also been reduced to Rs 68.86 per litre from Rs 71.86, cutting the incentive from Rs 5.79 to Rs 2.79 per litre.Sugar, ethanol and the policy balance: Why India needs predictable rules over crisis controlsThe restrictions come after poor rainfall in major sugar-producing states such as Maharashtra and Karnataka raised the prospect of lower output. India, the world’s largest sugar consumer, has faced rising domestic prices and concerns that continued diversion of cane and sugar into ethanol could tighten food supplies.The ethanol-blended petrol programme has relied on both sugarcane- and grain-based feedstock to cut crude oil imports and reduce vehicle emissions. India has rolled out E20 fuel — petrol containing up to 20 per cent ethanol — as the national standard. Officials view the latest tender as an effort to maintain the blending targets while prioritising sugar availability for consumption and containing prices."
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "India Bars Sugar-Based Ethanol From 2026-27 Tender For Petrol Blend",
+          "published_at": "Sun, 18 Oct 2026 16:37:42 +0530",
+          "url": "https://www.ndtv.com/india-news/india-bars-sugar-based-ethanol-from-2026-27-tender-for-petrol-blend-12202614#publisher=newsstand",
+          "content": "The tender, issued on October 16 by Bharat Petroleum Corporation Ltd (BPCL) on behalf of oil marketing companies (OMCs), seeks bids for around 11 billion litres of ethanol for the supply year beginning November to meet the requirement of doping 20 per cent ethanol in petrol."
+        }
+      ],
+      "source_count": 2,
+      "total_count": 3,
+      "combined_score": 2.05,
+      "brief_bullets": [
+        " Kolkata pandal stampede: Seven, including Chorbagan Durga Puja organisers, arrestedKolkata Police have arrested seven people, including organisers of Chorbagan Durga Puja, for the pandal stampede that killed at least 19 people.Read moreIndia bars sugarcane-based ethanol from 2026-27 procurement tender to safeguard sugar suppliesState-run oil marketing companies have excluded ethanol produced from sugarcane juice, sugar syrup and B-heavy molasses from their latest procurement tender for the 2026-27 supply year, following government directions to halt sugar diversion for fuel amid concerns over domestic availability and prices.Read moreGwalior temple tragedy: MP CM orders removal of SP, suspension of 8 other police personnelMadhya Pradesh Chief Minister Mohan Yadav on Sunday ordered the removal of the Gwalior City Superintendent of Police and the suspension of eight other personnel after the temple accident that claimed 14 lives when a truck ploughed into devotees.Read moreTough task ahead for Edappadi Palaniswami as AIADMK fights to retain anti-DMK mantle against TVKAs the party entered its 55th year on Saturday, the All India Anna Dravida Munnetra Kazhagam (AIADMK) finds itself facing its biggest crisis ever since its founding in 1972 by the legendary M G Ramachandran.Read moreProfiles in cowardice: How world leaders and tech CEOs evade responsibility for their actionsPublished seventy years ago, Profiles in Courage presents short biographies of eight United States senators who voted against special interest groups which were intent on preserving their power in the halls of Congress.Read moreMismanagement, confusing announcements and narrow gates: What led to Kolkata pandal stampedeThe stampede at the Chorbagan Durga Puja pandal in north Kolkata claimed the lives of 19 people, while 25 others were injured.Read moreEC-SIR row | Congress says nothing can save Gyanesh Kumar, seeks major revamp of the poll bodyAs the Election Commission \"resumes\" distribution of \"readable\" electoral rolls to parties after a \"gap of eight years\", Congress on Sunday said \"nothing can save\" Chief Election Commissioner (CEC) Gyanesh Kumar while insisting that a \"thorough\" revamp of the poll body and its IT system is required.Read moreExplained| Govt caps trade margins on 137 cancer drugs at 30%: NPPAThe Ministry of Chemicals and Fertilisers has announced a price cap of 30 per cent on the trade margins of 137 cancer medicines, over the cost of the drug at the first point, either to a stockist/distributor or the hospital.Read moreKolkata stampede | 'CM himself inaugurated Chorebagan puja pandal, will he be held accountable?': Mamata AITC attacks Suvendu govtThe Mamata All India Trinamool Congress launched a sharp attack on West Bengal Chief Minister Suvendu Adhikari and Kolkata Police over a stampede at a Durga Puja pandal that claimed 19 lives, bringing the name of the CM's nephew Debdeep Adhikari, listed as chief patron of the Chorbagan Sarbojonin Durgotsab Samity, under the spotlight.Read moreA bitter harvest: Ginger's fading fortunes in KarnatakaGinger cultivation has declined sharply in the state in recent years due to diseases and growing awareness of the damage excessive pesticide use can cause to soil fertility.Read more"
+      ],
+      "why_it_matters_bullets": [
+        "Carries notable strategic and policy implications for Finance as developments unfold."
+      ],
+      "brief": " Kolkata pandal stampede: Seven, including Chorbagan Durga Puja organisers, arrestedKolkata Police have arrested seven people, including organisers of Chorbagan Durga Puja, for the pandal stampede that killed at least 19 people.Read moreIndia bars sugarcane-based ethanol from 2026-27 procurement tender to safeguard sugar suppliesState-run oil marketing companies have excluded ethanol produced from sugarcane juice, sugar syrup and B-heavy molasses from their latest procurement tender for the 2026-27 supply year, following government directions to halt sugar diversion for fuel amid concerns over domestic availability and prices.Read moreGwalior temple tragedy: MP CM orders removal of SP, suspension of 8 other police personnelMadhya Pradesh Chief Minister Mohan Yadav on Sunday ordered the removal of the Gwalior City Superintendent of Police and the suspension of eight other personnel after the temple accident that claimed 14 lives when a truck ploughed into devotees.Read moreTough task ahead for Edappadi Palaniswami as AIADMK fights to retain anti-DMK mantle against TVKAs the party entered its 55th year on Saturday, the All India Anna Dravida Munnetra Kazhagam (AIADMK) finds itself facing its biggest crisis ever since its founding in 1972 by the legendary M G Ramachandran.Read moreProfiles in cowardice: How world leaders and tech CEOs evade responsibility for their actionsPublished seventy years ago, Profiles in Courage presents short biographies of eight United States senators who voted against special interest groups which were intent on preserving their power in the halls of Congress.Read moreMismanagement, confusing announcements and narrow gates: What led to Kolkata pandal stampedeThe stampede at the Chorbagan Durga Puja pandal in north Kolkata claimed the lives of 19 people, while 25 others were injured.Read moreEC-SIR row | Congress says nothing can save Gyanesh Kumar, seeks major revamp of the poll bodyAs the Election Commission \"resumes\" distribution of \"readable\" electoral rolls to parties after a \"gap of eight years\", Congress on Sunday said \"nothing can save\" Chief Election Commissioner (CEC) Gyanesh Kumar while insisting that a \"thorough\" revamp of the poll body and its IT system is required.Read moreExplained| Govt caps trade margins on 137 cancer drugs at 30%: NPPAThe Ministry of Chemicals and Fertilisers has announced a price cap of 30 per cent on the trade margins of 137 cancer medicines, over the cost of the drug at the first point, either to a stockist/distributor or the hospital.Read moreKolkata stampede | 'CM himself inaugurated Chorebagan puja pandal, will he be held accountable?': Mamata AITC attacks Suvendu govtThe Mamata All India Trinamool Congress launched a sharp attack on West Bengal Chief Minister Suvendu Adhikari and Kolkata Police over a stampede at a Durga Puja pandal that claimed 19 lives, bringing the name of the CM's nephew Debdeep Adhikari, listed as chief patron of the Chorbagan Sarbojonin Durgotsab Samity, under the spotlight.Read moreA bitter harvest: Ginger's fading fortunes in KarnatakaGinger cultivation has declined sharply in the state in recent years due to diseases and growing awareness of the damage excessive pesticide use can cause to soil fertility.Read more",
+      "brief_word_count": 487
+    },
+    {
+      "story_id": "story-18",
       "category": "Society",
       "primary_headline": "Opinion: Kolkata Durga Puja Stampede: Suvendu Adhikari's First Major Challenge As Chief Minister",
       "primary_source": {
@@ -675,35 +875,38 @@
           "source_name": "NDTV",
           "headline": "Opinion: Kolkata Durga Puja Stampede: Suvendu Adhikari's First Major Challenge As Chief Minister",
           "published_at": "Sun, 18 Oct 2026 18:07:22 +0530",
-          "url": "https://www.ndtv.com/opinion/kolkata-durga-puja-stampede-is-suvendu-adhikaris-first-major-challenge-as-chief-minister-12202902#publisher=newsstand"
+          "url": "https://www.ndtv.com/opinion/kolkata-durga-puja-stampede-is-suvendu-adhikaris-first-major-challenge-as-chief-minister-12202902#publisher=newsstand",
+          "content": "The tragedy is not simply a question of how a single puja committee organised its festival. It is also a test of the administration's ability to anticipate risks and respond effectively when a large public gathering becomes dangerous."
         },
         {
           "source_name": "NDTV",
           "headline": "Kolkata Durga Puja Stampede: Examining CCTV, Won't Spare Anyone, Says Suvendu Adhikari",
           "published_at": "Sun, 18 Oct 2026 00:45:26 +0530",
-          "url": "https://www.ndtv.com/india-news/kolkata-durga-puja-stampede-live-updates-north-kolkata-chorbagan-pandal-chorebagan-sarbojanin-news-today-12200230#publisher=newsstand"
+          "url": "https://www.ndtv.com/india-news/kolkata-durga-puja-stampede-live-updates-north-kolkata-chorbagan-pandal-chorebagan-sarbojanin-news-today-12200230#publisher=newsstand",
+          "content": "Kolkata Durga Puja Stampede: Chief Minister Suvendu Adhikari, Health Minister Saradwat Mukherjee and senior officials rushed to the hospital."
         },
         {
           "source_name": "The Indian Express",
-          "headline": "Kolkata Durga Puja Stampede Live Updates: Out of 25 injured, 2 in ICU but ‘not under threat’, says Suvendu Adhikari",
+          "headline": "Kolkata Durga Puja Stampede Highlights: Out of 25 injured, 2 in ICU but ‘not under threat’, says Suvendu Adhikari",
           "published_at": "Sat, 17 Oct 2026 16:52:13 +0000",
-          "url": "https://indianexpress.com/article/cities/kolkata/kolkata-durga-puja-stampede-live-updates-chorebagan-pandal-incident-today-several-injured-latest-news-10926181/"
+          "url": "https://indianexpress.com/article/cities/kolkata/kolkata-durga-puja-stampede-live-updates-chorebagan-pandal-incident-today-several-injured-latest-news-10926181/",
+          "content": ""
         }
       ],
       "source_count": 2,
       "total_count": 3,
       "combined_score": 1.93,
       "brief_bullets": [
-        "The tragic Kolkata Durga Puja stampede has emerged as a critical crucible for political leadership, marking Suvendu Adhikari's inaugural major crisis as Chief Minister. Beyond questioning the immediate operational protocols of a single festival committee, the disaster exposes systemic vulnerabilities in state-level crowd management and risk anticipation during massive public gatherings. The administration's delayed and uncoordinated emergency response has intensified public scrutiny over governmental preparedness, forcing a thorough re-evaluation of safety regulations at large-scale cultural events across West Bengal. This high-stakes situation tests the newly installed leadership's capacity to maintain public trust, enforce accountability among local organizers, and institute robust preventive safeguards to avert future catastrophes."
+        "The tragedy is not simply a question of how a single puja committee organised its festival. It is also a test of the administration's ability to anticipate risks and respond effectively when a large public gathering becomes dangerous."
       ],
       "why_it_matters_bullets": [
-        "This crisis serves as an early litmus test for the administration's governance capability, directly impacting public confidence and setting a crucial precedent for how the state handles mass-gathering safety and administrative accountability moving forward."
+        "Carries notable strategic and policy implications for Society as developments unfold."
       ],
-      "brief": "The tragic Kolkata Durga Puja stampede has emerged as a critical crucible for political leadership, marking Suvendu Adhikari's inaugural major crisis as Chief Minister. Beyond questioning the immediate operational protocols of a single festival committee, the disaster exposes systemic vulnerabilities in state-level crowd management and risk anticipation during massive public gatherings. The administration's delayed and uncoordinated emergency response has intensified public scrutiny over governmental preparedness, forcing a thorough re-evaluation of safety regulations at large-scale cultural events across West Bengal. This high-stakes situation tests the newly installed leadership's capacity to maintain public trust, enforce accountability among local organizers, and institute robust preventive safeguards to avert future catastrophes. This crisis serves as an early litmus test for the administration's governance capability, directly impacting public confidence and setting a crucial precedent for how the state handles mass-gathering safety and administrative accountability moving forward.",
-      "brief_word_count": 140
+      "brief": "The tragedy is not simply a question of how a single puja committee organised its festival. It is also a test of the administration's ability to anticipate risks and respond effectively when a large public gathering becomes dangerous.",
+      "brief_word_count": 38
     },
     {
-      "story_id": "story-16",
+      "story_id": "story-19",
       "category": "Society",
       "primary_headline": "Davidovich Fokina overcomes Jodar to claim Shanghai crown",
       "primary_source": {
@@ -718,35 +921,38 @@
           "source_name": "Reuters",
           "headline": "Davidovich Fokina overcomes Jodar to claim Shanghai crown - Reuters",
           "published_at": "Sun, 18 Oct 2026 12:06:51 GMT",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMlJ1TFIyWXlJclFycGpaSmZ4ckpFcDJ0MU9wS1Ryb3FWX1NYSlEzZ3JfS202THFRRTczMWhqemE4XzRMbDB3UV9hOENkOTlRRHZEMm9xZjFrMHI0Vm9PbVFhOFh4aUNiYkIyanZLUm1NdV9GVWJSV1lBejFQTEk2Qk5XeDFzc2FmZXUzc3FUbFZ2bnFRRnNwVnhNeHUyWmctVWcydE8tc3dadlM5YTJyTjJB?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMlJ1TFIyWXlJclFycGpaSmZ4ckpFcDJ0MU9wS1Ryb3FWX1NYSlEzZ3JfS202THFRRTczMWhqemE4XzRMbDB3UV9hOENkOTlRRHZEMm9xZjFrMHI0Vm9PbVFhOFh4aUNiYkIyanZLUm1NdV9GVWJSV1lBejFQTEk2Qk5XeDFzc2FmZXUzc3FUbFZ2bnFRRnNwVnhNeHUyWmctVWcydE8tc3dadlM5YTJyTjJB?oc=5",
+          "content": "Davidovich Fokina overcomes Jodar to claim Shanghai crown&nbsp;&nbsp;Reuters"
         },
         {
           "source_name": "Reuters",
           "headline": "Davidovich Fokina beats Zverev, sets up all-Spanish Shanghai final with Jodar - Reuters",
           "published_at": "Sat, 17 Oct 2026 15:03:53 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPblllbEw3QVZFV2ZUblRnNElxLUhlNUZuSG05T2hIQUVyT0ZENlUwZnlUX0FMbktDcmhtb19EM0Vhc0FpUE5VNlJDUFM5dVR3YWJWRmh1cmZhVWJqOHRlLU9yNGFIcjViWW9GRG51TWV5ZG1aaEJ1Ylk0UUxBc0p6TWZhOU5mUWVzdHE4aWU0Qm9pb1ZDWXB0TG9WanMtaWxjMmJWRjVjSXdta2U0SGxKOFp4WDM4Ql9YRHc?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPblllbEw3QVZFV2ZUblRnNElxLUhlNUZuSG05T2hIQUVyT0ZENlUwZnlUX0FMbktDcmhtb19EM0Vhc0FpUE5VNlJDUFM5dVR3YWJWRmh1cmZhVWJqOHRlLU9yNGFIcjViWW9GRG51TWV5ZG1aaEJ1Ylk0UUxBc0p6TWZhOU5mUWVzdHE4aWU0Qm9pb1ZDWXB0TG9WanMtaWxjMmJWRjVjSXdta2U0SGxKOFp4WDM4Ql9YRHc?oc=5",
+          "content": "Davidovich Fokina beats Zverev, sets up all-Spanish Shanghai final with Jodar&nbsp;&nbsp;Reuters"
         },
         {
           "source_name": "Sky Sports",
           "headline": "Davidovich Fokina beats rising star Jodar to claim maiden Masters title in Shanghai",
           "published_at": "Sun, 18 Oct 2026 12:41:00 BST",
-          "url": "https://www.skysports.com/watch/video/13600566/alejandro-davidovich-fokina-vs-rafael-jodar-shanghai-masters-final-highlights"
+          "url": "https://www.skysports.com/watch/video/13600566/alejandro-davidovich-fokina-vs-rafael-jodar-shanghai-masters-final-highlights",
+          "content": "Highlights of the Shanghai Masters final between Alejandro Davidovich Fokina and Rafael Jodar."
         }
       ],
       "source_count": 2,
       "total_count": 3,
       "combined_score": 1.9,
       "brief_bullets": [
-        "In a fiercely contested showdown at the Shanghai Masters, professional tennis player Alejandro Davidovich Fokina delivered a masterclass performance to overcome rising talent Rafael Jodar and capture the prestigious championship crown. Throughout the tournament, Davidovich Fokina demonstrated exceptional resilience and tactical precision, ultimately outmaneuvering Jodar in a high-stakes final that tested both competitors' physical and mental endurance. This hard-fought victory marks a significant milestone in Davidovich Fokina's career, rewarding his relentless pursuit of a major title on the international circuit. The tournament showcased the shifting dynamics within professional tennis, highlighting both the seasoned excellence of established competitors and the formidable promise of the next generation."
+        "Davidovich Fokina overcomes Jodar to claim Shanghai crown&nbsp;&nbsp;Reuters"
       ],
       "why_it_matters_bullets": [
-        "This victory elevates Davidovich Fokina's standing in the global rankings and provides crucial momentum heading into the later stages of the tennis season, while offering Jodar invaluable championship-level experience for future elite competitions."
+        "Carries notable strategic and policy implications for Society as developments unfold."
       ],
-      "brief": "In a fiercely contested showdown at the Shanghai Masters, professional tennis player Alejandro Davidovich Fokina delivered a masterclass performance to overcome rising talent Rafael Jodar and capture the prestigious championship crown. Throughout the tournament, Davidovich Fokina demonstrated exceptional resilience and tactical precision, ultimately outmaneuvering Jodar in a high-stakes final that tested both competitors' physical and mental endurance. This hard-fought victory marks a significant milestone in Davidovich Fokina's career, rewarding his relentless pursuit of a major title on the international circuit. The tournament showcased the shifting dynamics within professional tennis, highlighting both the seasoned excellence of established competitors and the formidable promise of the next generation. This victory elevates Davidovich Fokina's standing in the global rankings and provides crucial momentum heading into the later stages of the tennis season, while offering Jodar invaluable championship-level experience for future elite competitions.",
-      "brief_word_count": 138
+      "brief": "Davidovich Fokina overcomes Jodar to claim Shanghai crown&nbsp;&nbsp;Reuters",
+      "brief_word_count": 8
     },
     {
-      "story_id": "story-17",
+      "story_id": "story-20",
       "category": "Society",
       "primary_headline": "No Kings rallies across US urge voters to cast ballots early ahead of midterms",
       "primary_source": {
@@ -761,72 +967,38 @@
           "source_name": "AP News",
           "headline": "No Kings rallies across US urge voters to cast ballots early ahead of midterms - AP News",
           "published_at": "Sun, 18 Oct 2026 03:35:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVndVWEl1S1dQWm51em1FaFpNOFRmYnhjU1BaMFQ2WElJbmQyQ2JqQVVaNXQxRlk4alFzMloxRXdoQVYzVGwxRWJrWm5aYmZXQUlud2xNRzBwUWpjM2hqemo4VHdwdGs5SmFSM25NeHF2NFpybnlrNjVQOFVkX0JzMm4zQ1c0ZFAwNDA4OFM1NlF6Y0RLN2tnVXZiZnJzNHVrazREZVprN3hhdFFPcDV6Q0xPQXdHREtZT2xPSGd0a212Si1qZmE2UEJ0bXo1WEY5eGc?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVndVWEl1S1dQWm51em1FaFpNOFRmYnhjU1BaMFQ2WElJbmQyQ2JqQVVaNXQxRlk4alFzMloxRXdoQVYzVGwxRWJrWm5aYmZXQUlud2xNRzBwUWpjM2hqemo4VHdwdGs5SmFSM25NeHF2NFpybnlrNjVQOFVkX0JzMm4zQ1c0ZFAwNDA4OFM1NlF6Y0RLN2tnVXZiZnJzNHVrazREZVprN3hhdFFPcDV6Q0xPQXdHREtZT2xPSGd0a212Si1qZmE2UEJ0bXo1WEY5eGc?oc=5",
+          "content": "No Kings rallies across US urge voters to cast ballots early ahead of midterms&nbsp;&nbsp;AP News"
         },
         {
           "source_name": "AP News",
           "headline": "No Kings rallies across US urge voters to cast ballots early ahead of midterms - AP News",
           "published_at": "Sat, 17 Oct 2026 19:52:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSU9QdGhLZXFkak1MT3B1b3RBZlVIT3gzNEZheTFHNi1hTFpBUjZGcHVkQWhsTjFSRmJsX1RXbklDRUJ0M3dfcklfREZaYUxQWWhqNTZKWmFDZVhEMGZzd3VpLWZ0OG5zY2NIazNGbUpPQXlFc3ItM2p0akRqbkRXSF9oUnVQWHZpZlZuVWtsaw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSU9QdGhLZXFkak1MT3B1b3RBZlVIT3gzNEZheTFHNi1hTFpBUjZGcHVkQWhsTjFSRmJsX1RXbklDRUJ0M3dfcklfREZaYUxQWWhqNTZKWmFDZVhEMGZzd3VpLWZ0OG5zY2NIazNGbUpPQXlFc3ItM2p0akRqbkRXSF9oUnVQWHZpZlZuVWtsaw?oc=5",
+          "content": "No Kings rallies across US urge voters to cast ballots early ahead of midterms&nbsp;&nbsp;AP News"
         },
         {
           "source_name": "Al Jazeera",
           "headline": "Photos: No Kings rallies in US urge midterm voters to cast ballots early - Al Jazeera",
           "published_at": "Sat, 17 Oct 2026 21:18:48 GMT",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONTAzWXZlVGthYm9nc095S1l5Z1FuNXl5cXRPSTg0Ny1KRy1rRzh4a2RVMjIzYzRjUW5QZG1SdHg1enB1OGljUUY4Y2JkNFhXLTQtSnJKRmdkc0NHU0NIemx5ZE1hTldJVzZ6aTVPYjlWenFYNTlKV3g3U1g5Zlp5ZURHX3I3WnRyYVFuc0JIVG1aZm9Sem9XOUdJeVpjRUhjaGNLZGl1bFk2NzEydlpqQVdVXzlaQkXSAbwBQVVfeXFMTkJaZGtnVnNVYU5fVmlCaWQ2cmxQakpnMzFGREtTS0RIYlg1SUFXeVhoNFI3ZGRKclpZOXpTVTNCRzhoSzFZMFdPQ2VHNGxmbDhSRUdmTDZ4dkFBYmJkcUE4bF9nLU1uLTEyUHNEQnJua19aUFh5aENGVXI3eExkUHc3QUZ2d0ZQeEkyMVA2UkVOR3R1MmxZV0txQ0c3UmxfdDBMRkpjTmRFRmVjQV9SS0RVbEoyWHE3RHpNZUM?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONTAzWXZlVGthYm9nc095S1l5Z1FuNXl5cXRPSTg0Ny1KRy1rRzh4a2RVMjIzYzRjUW5QZG1SdHg1enB1OGljUUY4Y2JkNFhXLTQtSnJKRmdkc0NHU0NIemx5ZE1hTldJVzZ6aTVPYjlWenFYNTlKV3g3U1g5Zlp5ZURHX3I3WnRyYVFuc0JIVG1aZm9Sem9XOUdJeVpjRUhjaGNLZGl1bFk2NzEydlpqQVdVXzlaQkXSAbwBQVVfeXFMTkJaZGtnVnNVYU5fVmlCaWQ2cmxQakpnMzFGREtTS0RIYlg1SUFXeVhoNFI3ZGRKclpZOXpTVTNCRzhoSzFZMFdPQ2VHNGxmbDhSRUdmTDZ4dkFBYmJkcUE4bF9nLU1uLTEyUHNEQnJua19aUFh5aENGVXI3eExkUHc3QUZ2d0ZQeEkyMVA2UkVOR3R1MmxZV0txQ0c3UmxfdDBMRkpjTmRFRmVjQV9SS0RVbEoyWHE3RHpNZUM?oc=5",
+          "content": "Photos: No Kings rallies in US urge midterm voters to cast ballots early&nbsp;&nbsp;Al Jazeera"
         }
       ],
       "source_count": 2,
       "total_count": 3,
       "combined_score": 1.9,
       "brief_bullets": [
-        "Across the United States, a coordinated wave of \"No Kings\" rallies mobilized citizens to participate in early voting ahead of the critical midterm elections. Organized by progressive grassroots coalitions and civil rights advocates, the demonstrations sought to channel public discontent with executive overreach and legislative gridlock directly into electoral action. Speakers at numerous high-profile events emphasized that casting ballots early is a vital democratic safeguard against authoritarian impulses and institutional erosion. Thousands of participants heeded the call, turning out in major metropolitan areas and swing districts alike to register voters and distribute nonpartisan polling guides. Political analysts note that these rallies represent a strategic effort by opposition groups to convert protest energy into tangible voter turnout before Election Day."
+        "No Kings rallies across US urge voters to cast ballots early ahead of midterms&nbsp;&nbsp;AP News"
       ],
       "why_it_matters_bullets": [
-        "By directly mobilizing citizens toward early voting channels, these grassroots campaigns could significantly alter midterm turnout dynamics and alter the balance of power in tightly contested legislative races."
+        "Carries notable strategic and policy implications for Society as developments unfold."
       ],
-      "brief": "Across the United States, a coordinated wave of \"No Kings\" rallies mobilized citizens to participate in early voting ahead of the critical midterm elections. Organized by progressive grassroots coalitions and civil rights advocates, the demonstrations sought to channel public discontent with executive overreach and legislative gridlock directly into electoral action. Speakers at numerous high-profile events emphasized that casting ballots early is a vital democratic safeguard against authoritarian impulses and institutional erosion. Thousands of participants heeded the call, turning out in major metropolitan areas and swing districts alike to register voters and distribute nonpartisan polling guides. Political analysts note that these rallies represent a strategic effort by opposition groups to convert protest energy into tangible voter turnout before Election Day. By directly mobilizing citizens toward early voting channels, these grassroots campaigns could significantly alter midterm turnout dynamics and alter the balance of power in tightly contested legislative races.",
-      "brief_word_count": 147
+      "brief": "No Kings rallies across US urge voters to cast ballots early ahead of midterms&nbsp;&nbsp;AP News",
+      "brief_word_count": 15
     },
     {
-      "story_id": "story-18",
-      "category": "Geopolitics",
-      "primary_headline": "Gwalior temple tragedy: MP CM orders removal of SP, suspension of 8 other police personnel",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Gwalior temple tragedy: MP CM orders removal of SP, suspension of 8 other police personnel",
-        "published_at": "Sun, 18 Oct 2026 10:40:50 +0000",
-        "url": "https://www.deccanherald.com/india/madhya-pradesh/gwalior-temple-tragedy-mp-cm-orders-removal-of-sp-suspension-of-8-other-police-personnel-4187134",
-        "content": " Bhopal: Madhya Pradesh Chief Minister Mohan Yadav on Sunday ordered the removal of the Gwalior City Superintendent of Police and the suspension of eight other personnel after the temple accident that claimed 14 lives when a truck ploughed into devotees.The speeding truck ran over several devotees outside the Sheetla Mata temple in Gwalior district early Sunday and then rammed into its entrance gate, killing 14 persons and injuring 28 others, including two police personnel, officials said. Seven of those injured were in critical condition.A wall of the temple crashed under the impact of the collision, they said.'Came like a storm': Eyewitnesses recall truck's deadly dash towards Gwalior templeThe incident, which occurred around 1.30 am outside the temple near a slope on Chinor Road, raised concerns about security arrangements at the shrine, as the truck, with a Punjab registration number, entered the no-entry zone, officials said.\"The accident occurred because the truck entered a prohibited area,\" Yadav told reporters in Indore.The chief minister said he had directed the district administration to conduct a fact-based inquiry and submit a report.Later, in a post on X, Yadav said his government has ordered the removal of the Gwalior CSP from his post and the suspension of three station house officers, a traffic inspector, a head constable and three constables.A detailed inquiry has been ordered to fix responsibility and ensure strict action against those found guilty, he said.\"The safety of all citizens is paramount. To prevent the recurrence of such incidents in future, security arrangements will be reviewed and necessary steps taken. No negligence will be tolerated at any level in public safety,\" he said.Yadav also announced compensation of Rs 4 lakh each for the kin of the deceased and said the government would bear the treatment expenses of those seriously injured in the accident. The persons who suffered minor injuries would receive financial assistance of Rs 50,000 each, he added.The impact brought down a temple wall, trapping people under the debris.The bodies and injured persons were shifted to different hospitals, including Gwalior's trauma centre.Relatives of victims gathered near the post-mortem facility at the trauma centre and expressed anger over the incident, with many questioning how a heavy truck could enter an area where, they claimed, even a bicycle could not pass.Lokendra Singh Tomar, nephew of the deceased Sarla Tomar, asked how the truck was allowed to enter the temple premises despite security arrangements.14 killed, 28 injured as truck hits devotees near temple in Madhya Pradesh's Gwalior His aunt was on her way to offer prayers at the shrine, he told reporters and demanded answers from those responsible for the accident.Pawan Rathore (23), a resident of Gadaipur in Gwalior’s Hazira area, was among those killed. His family took the body away amid inconsolable grief. He had gone to the temple to offer prayers when the accident occurred.Sandeep, a relative of injured devotee Nikesh, said the family received a phone call around 5 am informing them that Nikesh had been hurt at the temple. When they reached the hospital, he was in critical condition with both legs fractured and was placed on a ventilator, he added. "
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Gwalior temple tragedy: MP CM orders removal of SP, suspension of 8 other police personnel",
-          "published_at": "Sun, 18 Oct 2026 10:40:50 +0000",
-          "url": "https://www.deccanherald.com/india/madhya-pradesh/gwalior-temple-tragedy-mp-cm-orders-removal-of-sp-suspension-of-8-other-police-personnel-4187134"
-        },
-        {
-          "source_name": "The Print",
-          "headline": "Temple tragedy: MP CM orders removal of Gwalior City SP, suspension of 8 other cops - ThePrint",
-          "published_at": "Sun, 18 Oct 2026 08:47:06 GMT",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR0liaVVYUVY3OVR1ZVowdklrdFZ0Y0JITGtPSG9PT2ZsX1l5TG85QnVVNkVuNzJxaWJZdl94V0pWNnFRazBzNTNsZml1MC1jcTIxOHpzaW9nUVV2bXIyWTF5ZGgtYU1xU3U0V0IzaDZyZHJkQ3JyOEFpZHNMUEdPRm5uOXdtZDg5MjZsLTNSM21zYkM4RzhGX3RuNVFzeXBxNE43TjZXcFZQSjJRcERqRi1jWHRvLVXSAbwBQVVfeXFMT0FNdUJCcFJkRW1ncktkZFF0QTdUd1JTUVRhX3Y2VWd2aFRMQ3dfMExsRklHdmpyOTBRTndHMkMxRnQwZmlfaVZqRERmMXRESGxzV3NMeS0xUGg0N0N0cWJCTEFjME4tSTJ5YWZaQ0NkaWgtd2dITkFNR0JSUGdXcUpBd1ZXZUxBR3daUTBiM2xmb1Bkbk9LNHFqeGRNeER2Ujl1SWpvc2ZnYkNwNWRGa1pmbVNxckV6VkFmclQ?oc=5"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.78,
-      "brief_bullets": [
-        "A devastating tragedy occurred in Gwalior, Madhya Pradesh, when a speeding truck breached a restricted zone and plowed into a crowd of devotees outside the Sheetla Mata temple, resulting in 14 deaths and 28 injuries. The vehicle, which bore Punjab registration plates, struck the temple entrance and caused a structural collapse, trapping victims under debris in the early hours of Sunday. In response to public outcry regarding security lapses and the unauthorized entry of a heavy vehicle into a prohibited area, Chief Minister Mohan Yadav ordered the immediate removal of the Gwalior City Superintendent of Police and the suspension of eight additional police personnel, including station house officers and traffic staff. The state government has launched a formal inquiry to determine accountability for the security failure and has announced financial compensation for the victims' families, while pledging a comprehensive review of regional traffic and safety protocols to prevent future occurrences."
-      ],
-      "why_it_matters_bullets": [
-        "This incident highlights critical systemic failures in local law enforcement and traffic regulation, forcing the Madhya Pradesh government to prioritize administrative accountability and the enforcement of no-entry zones to restore public trust in state security infrastructure."
-      ],
-      "brief": "A devastating tragedy occurred in Gwalior, Madhya Pradesh, when a speeding truck breached a restricted zone and plowed into a crowd of devotees outside the Sheetla Mata temple, resulting in 14 deaths and 28 injuries. The vehicle, which bore Punjab registration plates, struck the temple entrance and caused a structural collapse, trapping victims under debris in the early hours of Sunday. In response to public outcry regarding security lapses and the unauthorized entry of a heavy vehicle into a prohibited area, Chief Minister Mohan Yadav ordered the immediate removal of the Gwalior City Superintendent of Police and the suspension of eight additional police personnel, including station house officers and traffic staff. The state government has launched a formal inquiry to determine accountability for the security failure and has announced financial compensation for the victims' families, while pledging a comprehensive review of regional traffic and safety protocols to prevent future occurrences. This incident highlights critical systemic failures in local law enforcement and traffic regulation, forcing the Madhya Pradesh government to prioritize administrative accountability and the enforcement of no-entry zones to restore public trust in state security infrastructure.",
-      "brief_word_count": 186
-    },
-    {
-      "story_id": "story-19",
+      "story_id": "story-21",
       "category": "Society",
       "primary_headline": "One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region",
       "primary_source": {
@@ -841,100 +1013,28 @@
           "source_name": "Reuters",
           "headline": "One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region - Reuters",
           "published_at": "Sun, 18 Oct 2026 11:17:23 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORkdkNk9DVENGZU50OHVsbHF4Z3ZWbnBxcHVqaDJSa1JEWXZ5aFVqbTQwWmwzUGpvZUJsTUFzSnZHd2laVHpqd05XaF9KM2YxdUNUSVV0YUp1SFVKbTBRVHNzcVc0ek84cTY5TTVmZGhPbnhzMVJiejFXaDdXV3pBcTZYeEI3QkZrNDlOOWllWFk3ejFfMVdVd3lQUGJMeXBhNW5xTjZJQnBINTVSTjVDUnZKSm1laDdKaEE3eGdoSUtaQQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORkdkNk9DVENGZU50OHVsbHF4Z3ZWbnBxcHVqaDJSa1JEWXZ5aFVqbTQwWmwzUGpvZUJsTUFzSnZHd2laVHpqd05XaF9KM2YxdUNUSVV0YUp1SFVKbTBRVHNzcVc0ek84cTY5TTVmZGhPbnhzMVJiejFXaDdXV3pBcTZYeEI3QkZrNDlOOWllWFk3ejFfMVdVd3lQUGJMeXBhNW5xTjZJQnBINTVSTjVDUnZKSm1laDdKaEE3eGdoSUtaQQ?oc=5",
+          "content": "One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region&nbsp;&nbsp;Reuters"
         },
         {
           "source_name": "Al Jazeera",
           "headline": "St Petersburg under attack from Ukrainian drone swarm - Al Jazeera",
           "published_at": "Sun, 18 Oct 2026 04:58:19 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNlZMWDY1UWZoZzRJSUFYMnZHbDFGZ0dvVHlxWmpBS0JUVlQyby1BQ3ctOTNTdDZWa2h0cmxrMDlyMlJSZWhCTjNhal9mcE9HVVBWT0JxZVJ2VUMyZFpMRVM1T0Z4NjFsZ2pSVFJ4YjZQUXlpajVXdFpvYXFaY3BuMFp6QzNTMEF1WllwVmlWUUdPNTNpUHZNTlREU1dUZjhoejJhTC1fUHPSAa4BQVVfeXFMTVZKUmZRZFd6eEo3eGw1VGVuRGxiS0hnTnhTMGUxS0ZCYzJ3SmQyUlQzcjJqdHZ2R19qb0Ytc0ttQUt3eENZbDR3UF94dlJMaEJaTVVsMk9RY1NjeEJoU0stLTJzN0dkd25qeXdRektNa2NDWmd3X2NxQ1MzejlMeHExNTRKNGdlSGhEWl9NZ0JfcmpPb0pQbVMwRGc3dVhhaEpFcE5sbUN4b1QtVHhB?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNlZMWDY1UWZoZzRJSUFYMnZHbDFGZ0dvVHlxWmpBS0JUVlQyby1BQ3ctOTNTdDZWa2h0cmxrMDlyMlJSZWhCTjNhal9mcE9HVVBWT0JxZVJ2VUMyZFpMRVM1T0Z4NjFsZ2pSVFJ4YjZQUXlpajVXdFpvYXFaY3BuMFp6QzNTMEF1WllwVmlWUUdPNTNpUHZNTlREU1dUZjhoejJhTC1fUHPSAa4BQVVfeXFMTVZKUmZRZFd6eEo3eGw1VGVuRGxiS0hnTnhTMGUxS0ZCYzJ3SmQyUlQzcjJqdHZ2R19qb0Ytc0ttQUt3eENZbDR3UF94dlJMaEJaTVVsMk9RY1NjeEJoU0stLTJzN0dkd25qeXdRektNa2NDWmd3X2NxQ1MzejlMeHExNTRKNGdlSGhEWl9NZ0JfcmpPb0pQbVMwRGc3dVhhaEpFcE5sbUN4b1QtVHhB?oc=5",
+          "content": "St Petersburg under attack from Ukrainian drone swarm&nbsp;&nbsp;Al Jazeera"
         }
       ],
       "source_count": 2,
       "total_count": 2,
       "combined_score": 1.72,
       "brief_bullets": [
-        "A coordinated Ukrainian drone strike targeting Russia's northern hub of St Petersburg and the surrounding Leningrad region resulted in at least one fatality and fifteen injuries. The assault marks a significant escalation in the geographic scope of aerial incursions attributed to Kyiv, penetrating hundreds of kilometers deep into Russian territory to strike critical urban and industrial zones. Regional emergency services and local authorities scrambled to contain fires and manage structural damage inflicted by the incoming unmanned aerial vehicles. While Ukrainian officials have increasingly utilized long-range drone technology to retaliate against strategic infrastructure within Russia, this specific incident underscores growing vulnerabilities in air defense perimeters far from active frontline combat areas."
+        "One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region&nbsp;&nbsp;Reuters"
       ],
       "why_it_matters_bullets": [
-        "This deep-strike capability challenges the Kremlin's narrative of homeland invulnerability, forcing Moscow to reallocate scarce air defense assets from the frontlines to protect vital domestic population and industrial centers."
+        "Carries notable strategic and policy implications for Society as developments unfold."
       ],
-      "brief": "A coordinated Ukrainian drone strike targeting Russia's northern hub of St Petersburg and the surrounding Leningrad region resulted in at least one fatality and fifteen injuries. The assault marks a significant escalation in the geographic scope of aerial incursions attributed to Kyiv, penetrating hundreds of kilometers deep into Russian territory to strike critical urban and industrial zones. Regional emergency services and local authorities scrambled to contain fires and manage structural damage inflicted by the incoming unmanned aerial vehicles. While Ukrainian officials have increasingly utilized long-range drone technology to retaliate against strategic infrastructure within Russia, this specific incident underscores growing vulnerabilities in air defense perimeters far from active frontline combat areas. This deep-strike capability challenges the Kremlin's narrative of homeland invulnerability, forcing Moscow to reallocate scarce air defense assets from the frontlines to protect vital domestic population and industrial centers.",
-      "brief_word_count": 139
-    },
-    {
-      "story_id": "story-20",
-      "category": "Geopolitics",
-      "primary_headline": "Pakistan extends airspace ban on Indian aircraft till November 24",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Pakistan extends airspace ban on Indian aircraft till November 24",
-        "published_at": "Sun, 18 Oct 2026 09:56:05 +0000",
-        "url": "https://www.deccanherald.com/world/pakistan/pakistan-extends-airspace-ban-on-indian-aircraft-till-november-24-4187068",
-        "content": " Islamabad: Pakistan has extended its airspace ban on Indian-registered aircraft and planes owned, operated or leased by Indian airlines for another month, until November 24, according to the country's airports authority.The restriction, initially imposed on April 23, 2025, has been extended periodically since then amid strained relations between the two neighbouring countries.The Pakistan Airports Authority (PAA) announced the extension in a post on X on Saturday, saying the restriction also covers military flights.The latest extension will remain in effect until 4:59 am (local time) on November 24, 2026, according to the authority.Pakistan says it launched air strikes on Afghanistan over drone attacksA PAA spokesperson said a fresh Notice to Airmen (NOTAM) had been issued to extend the ban, Geo News reported.Pakistan’s airspace is divided into two flight information regions (FIRs) -- Karachi and Lahore, according to a Pakistan Civil Aviation Authority (PCAA) document from 2022. The latest NOTAM applies to both the Karachi and Lahore FIRs.India and Pakistan imposed reciprocal airspace restrictions on each other's aircraft following the April 2025 Pahalgam terror attack in the Union Territory of Jammu and Kashmir.India accused Pakistan of involvement in the attack, an allegation Islamabad denied. The incident was followed by a sharp escalation in diplomatic and military tensions between the two countries.India closed its airspace to Pakistani airlines on April 30, 2025, in response to Pakistan's move.Pakistan has imposed airspace restrictions on Indian aircraft during previous periods of heightened tensions, including the 1999 Kargil conflict and the 2019 Pulwama crisis, according to Geo News.The continuing airspace restrictions have affected airline operations between the two countries, forcing carriers to take longer routes on some international flights."
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Pakistan extends airspace ban on Indian aircraft till November 24",
-          "published_at": "Sun, 18 Oct 2026 09:56:05 +0000",
-          "url": "https://www.deccanherald.com/world/pakistan/pakistan-extends-airspace-ban-on-indian-aircraft-till-november-24-4187068"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "Pakistan Extends Ban On Indian Aircraft In Its Airspace Till November 24",
-          "published_at": "Sun, 18 Oct 2026 13:45:06 +0530",
-          "url": "https://www.ndtv.com/world-news/pakistan-extends-ban-on-indian-aircraft-in-its-airspace-till-november-24-12202114#publisher=newsstand"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.72,
-      "brief_bullets": [
-        "The Pakistan Airports Authority has officially extended its ongoing airspace ban on all Indian-registered aircraft, as well as planes owned, operated, or leased by Indian airlines, until November 24, 2026. This restrictive measure, first enacted on April 23, 2025, in the wake of the Pahalgam terror attack in Jammu and Kashmir and subsequent reciprocal closures, spans both the Karachi and Lahore Flight Information Regions and explicitly includes military flights. Despite Islamabad's denials of involvement in the attack that triggered the diplomatic fallout, bilateral relations have remained deeply strained, echoing historical precedents set during previous crises such as the 1999 Kargil conflict and the 2019 Pulwama standoff. By continuously renewing these Notices to Airmen, aviation authorities in Pakistan are compounding operational challenges for regional carriers, forcing international flights to navigate longer, costlier detours and entrenching a persistent geopolitical stalemate between the nuclear-armed neighbors."
-      ],
-      "why_it_matters_bullets": [
-        "The sustained airspace closure severely degrades regional connectivity and inflates operational expenses for commercial carriers, underscoring how deep-seated geopolitical hostility continues to impede normal economic and diplomatic interaction in South Asia."
-      ],
-      "brief": "The Pakistan Airports Authority has officially extended its ongoing airspace ban on all Indian-registered aircraft, as well as planes owned, operated, or leased by Indian airlines, until November 24, 2026. This restrictive measure, first enacted on April 23, 2025, in the wake of the Pahalgam terror attack in Jammu and Kashmir and subsequent reciprocal closures, spans both the Karachi and Lahore Flight Information Regions and explicitly includes military flights. Despite Islamabad's denials of involvement in the attack that triggered the diplomatic fallout, bilateral relations have remained deeply strained, echoing historical precedents set during previous crises such as the 1999 Kargil conflict and the 2019 Pulwama standoff. By continuously renewing these Notices to Airmen, aviation authorities in Pakistan are compounding operational challenges for regional carriers, forcing international flights to navigate longer, costlier detours and entrenching a persistent geopolitical stalemate between the nuclear-armed neighbors. The sustained airspace closure severely degrades regional connectivity and inflates operational expenses for commercial carriers, underscoring how deep-seated geopolitical hostility continues to impede normal economic and diplomatic interaction in South Asia.",
-      "brief_word_count": 173
-    },
-    {
-      "story_id": "story-21",
-      "category": "Society",
-      "primary_headline": "Hyderabad Engineering Student Killed After Lighting Stand Collapses During College Dandiya Event",
-      "primary_source": {
-        "source_name": "NDTV",
-        "headline": "Hyderabad Engineering Student Killed After Lighting Stand Collapses During College Dandiya Event",
-        "published_at": "Sun, 18 Oct 2026 08:28:35 +0530",
-        "url": "https://www.ndtv.com/hyderabad-news/hyderabad-engineering-student-killed-as-lighting-stand-collapses-during-dandiya-event-in-college-12201206#publisher=newsstand",
-        "content": " Telangana Chief Minister Revanth Reddy expressed sadness over the student's death and the injuries to others and conveyed his condolences to the bereaved family."
-      },
-      "sources": [
-        {
-          "source_name": "NDTV",
-          "headline": "Hyderabad Engineering Student Killed After Lighting Stand Collapses During College Dandiya Event",
-          "published_at": "Sun, 18 Oct 2026 08:28:35 +0530",
-          "url": "https://www.ndtv.com/hyderabad-news/hyderabad-engineering-student-killed-as-lighting-stand-collapses-during-dandiya-event-in-college-12201206#publisher=newsstand"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Engineering student dies as lighting frame collapses during Dandiya night in Hyderabad; 15 injured",
-          "published_at": "Sun, 18 Oct 2026 00:45:20 +0000",
-          "url": "https://indianexpress.com/article/cities/hyderabad/engineering-student-dies-lighting-frame-collapses-dandiya-night-hyderabad-10926258/"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.69,
-      "brief_bullets": [
-        "A tragic incident unfolded at an engineering college in Hyderabad during a festive Dandiya celebration when a heavy lighting stand abruptly collapsed, resulting in the fatal injury of a student and leaving several others hospitalized. Telangana Chief Minister Revanth Reddy formally expressed profound grief over the avoidable tragedy, extending his deepest condolences to the grieving family while ordering local authorities and college management to ensure comprehensive medical care for the injured. The catastrophic failure of temporary event infrastructure has triggered intense public scrutiny regarding campus safety protocols, event management standards, and regulatory oversight for student-led gatherings across regional academic institutions. As local law enforcement and safety inspectors launch a formal inquiry into the structural integrity of the installation, the event highlights severe systemic vulnerabilities in safety compliance during large-scale college festivities."
-      ],
-      "why_it_matters_bullets": [
-        "This incident serves as a critical catalyst for the stricter enforcement of safety regulations and structural audits for temporary installations at educational institutions, directly impacting how student events are managed and monitored across the region."
-      ],
-      "brief": "A tragic incident unfolded at an engineering college in Hyderabad during a festive Dandiya celebration when a heavy lighting stand abruptly collapsed, resulting in the fatal injury of a student and leaving several others hospitalized. Telangana Chief Minister Revanth Reddy formally expressed profound grief over the avoidable tragedy, extending his deepest condolences to the grieving family while ordering local authorities and college management to ensure comprehensive medical care for the injured. The catastrophic failure of temporary event infrastructure has triggered intense public scrutiny regarding campus safety protocols, event management standards, and regulatory oversight for student-led gatherings across regional academic institutions. As local law enforcement and safety inspectors launch a formal inquiry into the structural integrity of the installation, the event highlights severe systemic vulnerabilities in safety compliance during large-scale college festivities. This incident serves as a critical catalyst for the stricter enforcement of safety regulations and structural audits for temporary installations at educational institutions, directly impacting how student events are managed and monitored across the region.",
-      "brief_word_count": 166
+      "brief": "One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region&nbsp;&nbsp;Reuters",
+      "brief_word_count": 14
     }
   ]
 }
