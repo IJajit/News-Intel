@@ -135,15 +135,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ─── GENERATE / REFRESH BUTTON ──────────────────────────────
   generateBtn.addEventListener('click', async () => {
-    switchTab('latest');
-    const readerSubtabs = document.getElementById('readerSubtabs');
-    if (readerSubtabs) {
-      readerSubtabs.querySelectorAll('.sidebar-cat-btn').forEach(b => b.classList.remove('active'));
+    scrollToTop();
+    if (activeTab === 'latest') {
+      await loadLatest1Hour(true);
+      showToast('Latest feed refreshed.', 'success');
+    } else if (activeTab === 'homepage') {
+      currentBriefing = null;
+      await loadLatestBrief('homepage');
+      showToast('Home feed refreshed.', 'success');
+    } else if (activeTab === 'reader') {
+      delete categoryBriefCache[activeCategory.toLowerCase()];
+      await switchReaderCategory(activeCategory);
+      showToast(`${activeCategory.toUpperCase()} feed refreshed.`, 'success');
+    } else {
+      window.location.reload();
     }
     scrollToTop();
-    await loadLatest1Hour(true);
-    scrollToTop();
-    showToast('Latest feed refreshed.', 'success');
   });
 
 
