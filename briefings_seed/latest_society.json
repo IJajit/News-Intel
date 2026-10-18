@@ -1,624 +1,909 @@
 {
   "id": "latest",
-  "timestamp": "2026-09-09T15:56:01.806958+00:00",
+  "category": "society",
+  "timestamp": "2026-10-18T12:05:47.587879+00:00",
   "articlesCount": 20,
   "stories": [
     {
-      "story_id": "story-2",
+      "story_id": "story-1",
       "category": "Society",
-      "primary_headline": "Trump Doled Out $45,000 Cash Gifts to Natalie Harp and Other Aides Last Year",
+      "primary_headline": "Masked settlers attack European diplomats in the occupied West Bank",
       "primary_source": {
-        "source_name": "NYT",
-        "headline": "Trump Doled Out $45,000 Cash Gifts to Natalie Harp and Other Aides Last Year",
-        "published_at": "Wed, 09 Sep 2026 14:42:51 +0000",
-        "url": "https://www.nytimes.com/2026/09/09/us/politics/trump-natalie-harp-cash-gift-martin-harris.html",
-        "content": "The money, listed as “cash gift for the holidays,” was detailed in financial disclosure forms released by the administration."
+        "source_name": "AP News",
+        "headline": "Masked settlers attack European diplomats in the occupied West Bank - AP News",
+        "published_at": "Sat, 17 Oct 2026 20:16:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVlRiVjVsUFhzbGdNVXNZRm9JNDNUMGJDN2FrQlRjc00tM2JRTEh0bFNFVjFZdXRwN18teXNLN2lvblRwaHlzWHFQQnVqc1pVSWhHUWtDaks1eXNodVJsYmdHSzR6R0RBQk1jTjRmZ0wxYl9OZm5KQ285WU0tWDVzNDZISzA3bktzeXU0V2d1QklWYVlNWmdoQnNzRHFaQ2E1LUU3MTN4Zw?oc=5",
+        "content": "Masked settlers attack European diplomats in the occupied West Bank&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
-          "source_name": "NYT",
-          "headline": "Trump Doled Out $45,000 Cash Gifts to Natalie Harp and Other Aides Last Year",
-          "published_at": "Wed, 09 Sep 2026 14:42:51 +0000",
-          "url": "https://www.nytimes.com/2026/09/09/us/politics/trump-natalie-harp-cash-gift-martin-harris.html"
+          "source_name": "AP News",
+          "headline": "Masked settlers attack European diplomats in the occupied West Bank - AP News",
+          "published_at": "Sat, 17 Oct 2026 20:16:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVlRiVjVsUFhzbGdNVXNZRm9JNDNUMGJDN2FrQlRjc00tM2JRTEh0bFNFVjFZdXRwN18teXNLN2lvblRwaHlzWHFQQnVqc1pVSWhHUWtDaks1eXNodVJsYmdHSzR6R0RBQk1jTjRmZ0wxYl9OZm5KQ285WU0tWDVzNDZISzA3bktzeXU0V2d1QklWYVlNWmdoQnNzRHFaQ2E1LUU3MTN4Zw?oc=5"
         },
         {
-          "source_name": "CNN",
-          "headline": "Trump gave Natalie Harp and two other aides $45,000 each in cash gifts for holidays - CNN",
-          "published_at": "Wed, 09 Sep 2026 04:59:37 GMT",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeW54NXRxN2pGajlGSVU4bzBFR2wwZ1I0SllnbDRzTm5UUE9WNFJLWi0wNVF4MlNKZjQ2RVROaEg1X1JERWJpczVNeU1mZFVOZm5OV1pnMV9DcEhyQWVwTmdSVHE0TXVlc3N0dUlHcE5nQmhMcktoWkdMSnRQOEtfRjRYQ2FlY3M?oc=5"
+          "source_name": "Reuters",
+          "headline": "Israeli settlers attack Palestinians, European diplomats in West Bank, Belgium says - Reuters",
+          "published_at": "Sat, 17 Oct 2026 17:08:04 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWXplRm9KdGNaY1RUZFA0UUFLbUxVWmx3TlBnRXRCQU5BUjBBRXNDcm9TSEQ2SUthUlpYMl92X052ZGdjMzFZLUd6amZ3UHdFNG5ic0k5LURwUDFOaDZQNE1CYWFlN1JRWDhlcFRWVVZTU0tzN0l5OHVaZXh0dkVFOFFwYkQ5WTIycElqQk5ZeHh3OTZVQWpVWHNkMDFDWk1ndEc5OHUtR2EzbV9iQVZHaWx4REljaTYxSFhsSkdDRkw?oc=5"
+        },
+        {
+          "source_name": "Al Jazeera",
+          "headline": "Israeli settlers attack European diplomats during West Bank olive harvest - Al Jazeera",
+          "published_at": "Sun, 18 Oct 2026 01:26:09 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZVlrUDBYQ1lXY0JvbHNXZURHR2NDTGtDRWZVM3huYXRNcTBoRUNSQTcteTRpenJ5VjMxb19TUkl6QVlLODlLRURDbEZmV0JpQTFDbUUzVXFYRTNpUmRvNHpLSjB3QlRPMmdSRFZWRDlzTnZnSm4wOTFoRWFTRmgyQU1hajNxTGZtWTdDVFdUeGRkV1laR1l3ZmJpMGZXaDZCak1vbzBzWmhPV0nSAbABQVVfeXFMTXkyS29qczlWX1hQc0NNd0wtdkpoZE5vSTdGX3VaejRKdUZldzRaamhRYzZaTnp6MXV6QVhVcjRJbDQ5UzJhM0xOVFp1U05aSkpDM3lEUW1rczExT3o0VjYzSWFpYkxVa0l5MlVLX3E1eG1QeGlRbDMxNElGdXJuNGoxSHZZRVpOVFhhQXYtOEIxTFJhWUhRYkk1a2s4dmFCN0NlaGZoVlVWV0dtY0RMMm4?oc=5"
         },
         {
           "source_name": "The Guardian",
-          "headline": "Trump gave $45,000 to Natalie Harp and other White House aides as holiday gifts",
-          "published_at": "Wed, 09 Sep 2026 04:20:59 GMT",
-          "url": "https://www.theguardian.com/us-news/2026/sep/09/trump-gift-45000-natalie-harp-white-house-aides"
+          "headline": "Israeli settlers attack European diplomats in West Bank",
+          "published_at": "Sat, 17 Oct 2026 18:57:56 GMT",
+          "url": "https://www.theguardian.com/world/2026/oct/17/israeli-settlers-attack-european-diplomats-in-west-bank"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Israeli Settlers Attack European Diplomats In West Bank, French Mayor Beaten",
+          "published_at": "Sat, 17 Oct 2026 22:39:50 +0530",
+          "url": "https://www.ndtv.com/world-news/israeli-settlers-attack-european-diplomats-in-west-bank-french-mayor-beaten-12200387#publisher=newsstand"
+        }
+      ],
+      "source_count": 7,
+      "total_count": 7,
+      "combined_score": 5.63,
+      "brief_bullets": [
+        "Masked settlers attack European diplomats in the occupied West Bank.",
+        "Verified accounts indicate critical developments surrounding masked settlers attack european diplomats in the occupied west bank, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Shapes tournament standings and competitive momentum ahead of upcoming qualifying fixtures."
+      ],
+      "brief": "Masked settlers attack European diplomats in the occupied West Bank. Verified accounts indicate critical developments surrounding masked settlers attack european diplomats in the occupied west bank, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Shapes tournament standings and competitive momentum ahead of upcoming qualifying fixtures.",
+      "brief_word_count": 68
+    },
+    {
+      "story_id": "story-3",
+      "category": "Society",
+      "primary_headline": "Pope returns to Vatican days after surgery; surgeon says he should be fit for Latin America tour",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Pope returns to Vatican days after surgery; surgeon says he should be fit for Latin America tour - AP News",
+        "published_at": "Sat, 17 Oct 2026 21:35:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOFA3aml3ZXJlRXJ4MkFBeHNZYkZvNGJGempQWkJpZDJxQTlnbFFPb1Nkb3RvNUZCR2JCNWZPT2tqNFQ1Y3NJWHNqWm5WcEtHWkJrMzN3cTdjQVV2ZmhnSUF6Y2tjWXZ0TVp1bnJrVURyYzdTU0psdXpDNFRTQjgwQUNybXphRW93NFYwa3JVdUJHRjYzUE8xTUphLVdLZDg?oc=5",
+        "content": "Pope returns to Vatican days after surgery; surgeon says he should be fit for Latin America tour&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Pope returns to Vatican days after surgery; surgeon says he should be fit for Latin America tour - AP News",
+          "published_at": "Sat, 17 Oct 2026 21:35:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOFA3aml3ZXJlRXJ4MkFBeHNZYkZvNGJGempQWkJpZDJxQTlnbFFPb1Nkb3RvNUZCR2JCNWZPT2tqNFQ1Y3NJWHNqWm5WcEtHWkJrMzN3cTdjQVV2ZmhnSUF6Y2tjWXZ0TVp1bnJrVURyYzdTU0psdXpDNFRTQjgwQUNybXphRW93NFYwa3JVdUJHRjYzUE8xTUphLVdLZDg?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Pope Leo returns to Vatican four days after cancer surgery - Reuters",
+          "published_at": "Sat, 17 Oct 2026 18:25:25 GMT",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMEhiTWpBVEdDa1JjQmtQUDBZR1RGVHF4VmxwaTEzRHhtczZOcHlJZE9idHNKOFpxdnpndFYwLUk5Zy1lZFRFWTUtaHlEdW44aVZKZjlXenBveTRvN29sRzI1RG1JVm0wMGlRcFpoeS1hX0dCZE1WVGdVc3plR3FZay0xeUtSYjg2dk9SZVpUSEJUdw?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Pope Leo leaves hospital for Vatican days after cancer surgery - Reuters",
+          "published_at": "Sat, 17 Oct 2026 18:25:12 GMT",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBrNW5CV0RZVGx3TlkzWWZKZW5tTDQwcGRta28tbl9uNDY0RlU2MTFtTURqRTRGZ1RLaGtmaThwMHpEZUNBVmp1MUJ4Snc4YWM4aDI1NGhEY05CSUZ4WEduLXFEX0xSdVhyOEdiRU4yUGlLS3d2?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Pope Leo walks out of hospital four days after lung cancer surgery - Reuters",
+          "published_at": "Sat, 17 Oct 2026 15:37:20 GMT",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBzVFNPTnpDMkVlZm5Rbm9xOHdEeW1VOGRjbzFtUEVzSXVhTkdlcDBBMnVsSHJvMlAxZTFySTNOQmdzUHBXd2tMM09tWTM1Yk1pcUR6NWNzSUFwR3ZUb3BXbkk0ZzByRFA5Mk9pVUJaWWZfaTA?oc=5"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Pope Leo Returns to Vatican After Successful Cancer Surgery",
+          "published_at": "Sat, 17 Oct 2026 22:48:28 +0530",
+          "url": "https://www.ndtv.com/world-news/pope-leo-returns-to-vatican-after-successful-cancer-surgery-12200417#publisher=newsstand"
+        }
+      ],
+      "source_count": 5,
+      "total_count": 7,
+      "combined_score": 4.6,
+      "brief_bullets": [
+        "Pope returns to Vatican days after surgery; surgeon says he should be fit for Latin America tour.",
+        "Verified accounts indicate critical developments surrounding pope returns to vatican days after surgery; surgeon says he should be fit for latin america tour, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Carries notable operational, policy, and market consequences surrounding 'Pope returns to Vatican days after surgery; surgeon says he should be fit for Latin America tour'."
+      ],
+      "brief": "Pope returns to Vatican days after surgery; surgeon says he should be fit for Latin America tour. Verified accounts indicate critical developments surrounding pope returns to vatican days after surgery; surgeon says he should be fit for latin america tour, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Carries notable operational, policy, and market consequences surrounding 'Pope returns to Vatican days after surgery; surgeon says he should be fit for Latin America tour'.",
+      "brief_word_count": 96
+    },
+    {
+      "story_id": "story-2",
+      "category": "Society",
+      "primary_headline": "Video Shows Moment Kolkata Durga Puja Stampede Broke Out, Killing 19",
+      "primary_source": {
+        "source_name": "NDTV",
+        "headline": "Video Shows Moment Kolkata Durga Puja Stampede Broke Out, Killing 19",
+        "published_at": "Sun, 18 Oct 2026 13:51:20 +0530",
+        "url": "https://www.ndtv.com/india-news/chorbagan-sarbojanin-video-shows-moment-kolkata-durga-puja-stampede-broke-out-killing-19-12202055#publisher=newsstand",
+        "content": " The video showed the moment a stampede broke out at a Durga Puja pandal in Kolkata on Saturday evening, leaving 19 people dead."
+      },
+      "sources": [
+        {
+          "source_name": "NDTV",
+          "headline": "Video Shows Moment Kolkata Durga Puja Stampede Broke Out, Killing 19",
+          "published_at": "Sun, 18 Oct 2026 13:51:20 +0530",
+          "url": "https://www.ndtv.com/india-news/chorbagan-sarbojanin-video-shows-moment-kolkata-durga-puja-stampede-broke-out-killing-19-12202055#publisher=newsstand"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Organisers Among 7 Arrested For Kolkata Durga Puja Stampede That Killed 19",
+          "published_at": "Sun, 18 Oct 2026 11:30:36 +0530",
+          "url": "https://www.ndtv.com/india-news/kolkata-durga-puja-girish-park-stampede-case-7-including-organisers-arrested-in-kolkata-durga-puja-stampede-that-killed-19-12201380#publisher=newsstand"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "7 arrested in Kolkata stampede case, death toll rises to 19",
+          "published_at": "Sun, 18 Oct 2026 04:21:02 +0000",
+          "url": "https://indianexpress.com/article/cities/kolkata/7-arrested-in-kolkata-chorebagan-durga-puja-committee-stampede-dead-injured-10926513/"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Organisers of Chorebagan Durga Pandal arrested, SIT formed to probe stampede that killed 19",
+          "published_at": "Sun, 18 Oct 2026 02:13:15 +0000",
+          "url": "https://indianexpress.com/article/cities/kolkata/kolkata-stampede-organisers-detained-killed-injured-chorebagan-chorebagan-durga-puja-pandal-10926393/"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Major Kolkata Durga Puja Pandals Shut Temporarily After Stampede Kills 19",
+          "published_at": "Sun, 18 Oct 2026 07:28:09 +0530",
+          "url": "https://www.ndtv.com/india-news/kolkata-durga-puja-stampede-major-kolkata-durga-puja-pandals-shut-temporarily-after-stampede-kills-19-12201074#publisher=newsstand"
+        }
+      ],
+      "source_count": 4,
+      "total_count": 11,
+      "combined_score": 5.5,
+      "brief_bullets": [
+        "Video Shows Moment Kolkata Durga Puja Stampede Broke Out, Killing 19.",
+        "Verified accounts indicate critical developments surrounding video shows moment kolkata durga puja stampede broke out, killing 19, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Carries notable operational, policy, and market consequences surrounding 'Video Shows Moment Kolkata Durga Puja Stampede Broke Out, Killing 19'."
+      ],
+      "brief": "Video Shows Moment Kolkata Durga Puja Stampede Broke Out, Killing 19. Verified accounts indicate critical developments surrounding video shows moment kolkata durga puja stampede broke out, killing 19, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Carries notable operational, policy, and market consequences surrounding 'Video Shows Moment Kolkata Durga Puja Stampede Broke Out, Killing 19'.",
+      "brief_word_count": 78
+    },
+    {
+      "story_id": "story-7",
+      "category": "Society",
+      "primary_headline": "The aftermath of a school shooting in Oregon, in photos",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "The aftermath of a school shooting in Oregon, in photos - AP News",
+        "published_at": "Sat, 17 Oct 2026 22:26:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa3BVQ3NxY3E3dWFiU3BuWXlPb2ZMcnIyTFBySENFRDJhaGJEMUl2MHVyRF9TWDdicXh2dHVaUU9McmFRd3BXT2lBeFZjZkFBeVhoTk9COXNCdFJDbTdQTk1pOTNPVi1VRE8xX2NzRUV3a3RHWXBibUt0cERROWY0ekhMS3hHaUlPUU0yMjJYcG9Kdm9tM1dLcTNPdDZTcDh6Y2JQcXRaM1o?oc=5",
+        "content": "The aftermath of a school shooting in Oregon, in photos&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "The aftermath of a school shooting in Oregon, in photos - AP News",
+          "published_at": "Sat, 17 Oct 2026 22:26:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa3BVQ3NxY3E3dWFiU3BuWXlPb2ZMcnIyTFBySENFRDJhaGJEMUl2MHVyRF9TWDdicXh2dHVaUU9McmFRd3BXT2lBeFZjZkFBeVhoTk9COXNCdFJDbTdQTk1pOTNPVi1VRE8xX2NzRUV3a3RHWXBibUt0cERROWY0ekhMS3hHaUlPUU0yMjJYcG9Kdm9tM1dLcTNPdDZTcDh6Y2JQcXRaM1o?oc=5"
+        },
+        {
+          "source_name": "The Hindu",
+          "headline": "Shooting at elementary school in Oregon leaves at least five dead",
+          "published_at": "Sun, 18 Oct 2026 17:16:17 +0530",
+          "url": "https://www.thehindu.com/news/international/shooting-at-elementary-school-in-oregon-leaves-several-hospitalised-shooter-dead/article71590073.ece"
+        },
+        {
+          "source_name": "NPR",
+          "headline": "Oregon governor Tina Kotek reacts to Silver Rail Elementary school shooting",
+          "published_at": "Sat, 17 Oct 2026 18:45:25 -0400",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6005814/oregon-governor-tina-kotek-reacts-to-silver-rail-elementary-school-shooting"
+        },
+        {
+          "source_name": "CNN",
+          "headline": "Fourth-grader recounts Oregon school shooting - CNN",
+          "published_at": "Sat, 17 Oct 2026 17:23:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONHBMU3h5UGotc3pHd09HM25tQWV6TktlM3dxTGxyLVNGd0tUbU11R1hfSHhfWG1qSl9LZUR4TzI1V1J5VjhUNHRJdDEyQ1dNeDVyUTdYM0lqUmxlRUVrSzdVZFNvcWdOek52c0ZsVTA1YkNCd2Z6d0hrWUFrN20zZjczazBuNEdBcFdzelMwWnYwQUVT?oc=5"
+        }
+      ],
+      "source_count": 4,
+      "total_count": 4,
+      "combined_score": 3.23,
+      "brief_bullets": [
+        "The aftermath of a school shooting in Oregon, in photos.",
+        "Verified accounts indicate critical developments surrounding the aftermath of a school shooting in oregon, in photos, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+      ],
+      "brief": "The aftermath of a school shooting in Oregon, in photos. Verified accounts indicate critical developments surrounding the aftermath of a school shooting in oregon, in photos, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 71
+    },
+    {
+      "story_id": "story-9",
+      "category": "Society",
+      "primary_headline": "Amit Shah Visits Kolkata Hospital, Meets Durga Puja Pandal Stampede Victims",
+      "primary_source": {
+        "source_name": "NDTV",
+        "headline": "Amit Shah Visits Kolkata Hospital, Meets Durga Puja Pandal Stampede Victims",
+        "published_at": "Sun, 18 Oct 2026 10:49:52 +0530",
+        "url": "https://www.ndtv.com/india-news/kolkata-durga-puja-pandal-stampede-amit-shah-visits-kolkata-hospital-meets-durga-puja-pandal-stampede-victims-12201589#publisher=newsstand",
+        "content": "At least 19 people died, and 25 were injured in the stampede at Chorbagan Durga Puja pandal in north Kolkata following a crowd surge amid rain on Saturday evening."
+      },
+      "sources": [
+        {
+          "source_name": "NDTV",
+          "headline": "Amit Shah Visits Kolkata Hospital, Meets Durga Puja Pandal Stampede Victims",
+          "published_at": "Sun, 18 Oct 2026 10:49:52 +0530",
+          "url": "https://www.ndtv.com/india-news/kolkata-durga-puja-pandal-stampede-amit-shah-visits-kolkata-hospital-meets-durga-puja-pandal-stampede-victims-12201589#publisher=newsstand"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Kolkata Chorebagan Sarbojanin Durga Puja Pandal stampede: What we know so far",
+          "published_at": "Sat, 17 Oct 2026 18:09:45 +0000",
+          "url": "https://indianexpress.com/article/cities/kolkata/kolkata-chorebagan-sarbojanin-durga-puja-pandal-stampede-dead-injured-10926194/"
+        },
+        {
+          "source_name": "The Print",
+          "headline": "Kolkata stampede: Committee visits popular Durga puja pandals to review safety norms - ThePrint",
+          "published_at": "Sun, 18 Oct 2026 09:46:43 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQS3dYdTdYNHpMdDVBV1NMbUo0enFOQzZ2Vk1XWGNPMWhLOHNmVnRUSU5fczdwLXRmZHFEWE1GQmtadVFqSmhVMVlqcGliTkdXZ2lGV043VTFEYmszVWxvSnNCd3FaRlpZSjdtdnd5SExGdHBrSGY1MmlIWFRlVWhQWXdqTUlTd291M0toXzJaaER5NWh0RE9fLXNHTVpqYm1ZNkNOU082MWxZY1ktalFHZ0RYN0M4cVJhekHSAb8BQVVfeXFMTW10RWtlT0hPNlYxakh0aGRfSHlMTHBVRzJlakQ1WldyMWpxb0RlVlprbFdRbkxSRFJSQWF4a0Fha2JreExvYndMSjM5WHRSbXF1NEdwaWdTQlhScHlxNExjZ052LTkzclVEdzN1VGlPZzJxZTdIbVhkS1NsZ1BrX1ZldnRtNmtZWUotQVExMkJJZ3d1cmptaTEycFQzV3VSMWR2VnhmU0Q3UTF5eVpqNVdKT0dYVEt2WVJFZ1NIZFU?oc=5"
+        },
+        {
+          "source_name": "The Print",
+          "headline": "Kolkata Durga Puja stampede: Amit Shah to meet injured on Sunday - ThePrint",
+          "published_at": "Sun, 18 Oct 2026 02:45:03 GMT",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZFhJY1J3MWR4a3RvMTVLSWlfVDJCLXFsSFhlUWdhcU9lTTNPMVROcWRheXhYOWVac1VpSTZLdk1RQm9SMlo0c3ZZbFV1VXpFT0l6V0pxZ2gwVGhMSmVqZUhpanZmWVJOVHZjZm1zM01UcklJLTBzT0VFUFYwYnpGd3MzMFBMellzdXFaM2VTRm9MbURlUl9BYkRib2xOU1HSAaQBQVVfeXFMUHJ5eXRoU2lLNEptc2ZKZ3FGOVE5MjRfMXNuVzlIRU41Z2hOX0ZaREZ5TlBiMmVyU1VndURZWUJFZ1J3NEZoS1VpSW1lMmF0TUhvUFViVjI1YUJORThhT3M5S01wd01UVjdLSUhvbGN1dGI4cEYzSVllVEk4ZjZjRVh5dXEzTU1nMjFGeF9Pb3lsRG5HejJsTEw5VUwtSk45RnY2Q3c?oc=5"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 4,
+      "combined_score": 2.73,
+      "brief_bullets": [
+        "Amit Shah Visits Kolkata Hospital, Meets Durga Puja Pandal Stampede Victims.",
+        "Verified accounts indicate critical developments surrounding amit shah visits kolkata hospital, meets durga puja pandal stampede victims, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
+      ],
+      "brief": "Amit Shah Visits Kolkata Hospital, Meets Durga Puja Pandal Stampede Victims. Verified accounts indicate critical developments surrounding amit shah visits kolkata hospital, meets durga puja pandal stampede victims, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
+      "brief_word_count": 72
+    },
+    {
+      "story_id": "story-12",
+      "category": "Society",
+      "primary_headline": "Mismanagement, confusing announcements and narrow gates: What led to Kolkata pandal stampede",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "Mismanagement, confusing announcements and narrow gates: What led to Kolkata pandal stampede",
+        "published_at": "Sun, 18 Oct 2026 04:50:07 +0000",
+        "url": "https://www.deccanherald.com/india/west-bengal/mismanagement-confusing-announcements-and-narrow-gates-what-led-to-kolkata-pandal-stampede-4186949",
+        "content": " The stampede at the Chorbagan Durga Puja pandal in north Kolkata claimed the lives of 19 people, while 25 others were injured. A senior police officer told PTI that lack of crowd management and misleading announcements following sudden heavy rainfall during Saptami celebrations could have led to the tragic incident. Police also found that the number of police personnel and private security guards deployed at the venue was inadequate, worsening the situation.\"We have gathered sufficient evidence pointing to gross mismanagement by the puja organisers. There was no clear plan to manage the large number of visitors, and everything was handled verbally. We have collected CCTV camera footage, recorded accounts from locals and eyewitnesses, and corroborated our findings. Security personnel were inadequate,\" the police officer told PTI.At least 19 dead, 25 others injured in stampede-like situation at Durga Puja pandal in Kolkata\"Due to the mismanagement, people tried to escape through the entrance gate during the stampede. Both the gates and the approach road were narrow, which contributed to the accident,\" he said, adding that announcements regarding entry, exit and crowd movement were misleading, leaving visitors confused during the rush.\"We have video footage of an announcement asking people to leave the pandal on the grounds that the structure was about to collapse. We are trying to identify who made the announcement and what prompted it,\" the officer said.Moreover, the locals also claimed that police deployment was inadequate, alleging that personnel were mainly stationed near the VIP entrance.A team of forensic experts visited the pandal on Saturday night and collected evidence from the site, he said.\"Another team of forensic experts will visit the pandal today to collect further evidence. Officers from our Detective Department will also visit the venue as part of the investigation,\" he said.The Kolkata Police could question survivors as part of the probe, the IPS officer said.\"We need first-hand accounts to cross-check the findings based on statements from locals and other eyewitnesses. This will help our investigation,\" he added.Meanwhile, prohibitory orders under Section 163 have been imposed on roads adjoining the Chorbagan Sarbojanin Durga Puja pandal in north Kolkata on Sunday morning.The order prohibits gatherings on roads surrounding the venue, which falls under the jurisdiction of Bowbazar Police Station. The restrictions will remain in force until October 20.Chief Minister Suvendu Adhikari announced that the state government would provide Rs 25 lakh in compensation and a Group D government job to the family of each deceased victim.He also ordered the formation of a Special Investigation Team (SIT), headed by a sitting judge of the Calcutta High Court, to investigate the incident. "
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Mismanagement, confusing announcements and narrow gates: What led to Kolkata pandal stampede",
+          "published_at": "Sun, 18 Oct 2026 04:50:07 +0000",
+          "url": "https://www.deccanherald.com/india/west-bengal/mismanagement-confusing-announcements-and-narrow-gates-what-led-to-kolkata-pandal-stampede-4186949"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Darkness, Rush, And An Announcement: What Led To Deadly Kolkata Stampede",
+          "published_at": "Sun, 18 Oct 2026 09:13:13 +0530",
+          "url": "https://www.ndtv.com/india-news/chorebagan-kolkata-stampede-kolkata-durga-puja-stampede-what-we-know-so-far-12200413#publisher=newsstand"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Kolkata pandal stampede: Rain and rumour led to perfect storm",
+          "published_at": "Sat, 17 Oct 2026 19:05:28 +0000",
+          "url": "https://indianexpress.com/article/cities/kolkata/dead-kolkata-durga-pandal-stampede-10926246/"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 3,
+      "combined_score": 2.46,
+      "brief_bullets": [
+        "The stampede at the Chorbagan Durga Puja pandal in north Kolkata claimed the lives of 19 people, while 25 others were injured.",
+        "A senior police officer told PTI that lack of crowd management and misleading announcements following sudden heavy rainfall during Saptami celebrations could have led to the tragic incident.",
+        "Police also found that the number of police personnel and private security guards deployed at the venue was inadequate, worsening the situation.\"We have gathered sufficient evidence pointing to gross mismanagement by the puja organisers.",
+        "There was no clear plan to manage the large number of visitors, and everything was handled verbally."
+      ],
+      "why_it_matters_bullets": [
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+      ],
+      "brief": "The stampede at the Chorbagan Durga Puja pandal in north Kolkata claimed the lives of 19 people, while 25 others were injured. A senior police officer told PTI that lack of crowd management and misleading announcements following sudden heavy rainfall during Saptami celebrations could have led to the tragic incident. Police also found that the number of police personnel and private security guards deployed at the venue was inadequate, worsening the situation.\"We have gathered sufficient evidence pointing to gross mismanagement by the puja organisers. There was no clear plan to manage the large number of visitors, and everything was handled verbally. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 115
+    },
+    {
+      "story_id": "story-13",
+      "category": "Society",
+      "primary_headline": "Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast - AP News",
+        "published_at": "Sun, 18 Oct 2026 03:38:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSlJRdElHVjVoLTVtTE01UWdmVjRrNkh4TnllLXNhNXZ1Y1c1RDRyWXVQUlBPQTJLZmVkM0RlNkhHdk1KMXRsZ2pnY05RZ19EdTVrNWZVbVJBNThZVmxPSkRlaGJ3T1RtMk0zY3lxQ3ItVHNWOTFndnpQLWRJTEVLX2VFRmtjekpRZkxfMmx0dzlhb2xkZlVWY0lPczFwVC1OX2poZw?oc=5",
+        "content": "Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast - AP News",
+          "published_at": "Sun, 18 Oct 2026 03:38:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSlJRdElHVjVoLTVtTE01UWdmVjRrNkh4TnllLXNhNXZ1Y1c1RDRyWXVQUlBPQTJLZmVkM0RlNkhHdk1KMXRsZ2pnY05RZ19EdTVrNWZVbVJBNThZVmxPSkRlaGJ3T1RtMk0zY3lxQ3ItVHNWOTFndnpQLWRJTEVLX2VFRmtjekpRZkxfMmx0dzlhb2xkZlVWY0lPczFwVC1OX2poZw?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Hurricane Trudy gains strength near Mexico's coast, but is expected to weaken by Sunday - Reuters",
+          "published_at": "Sat, 17 Oct 2026 23:33:43 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQUdGblRuOW5ZdjFTRUR1WkFYdEZKeDAxbjVscWNybm1RS3ZwelZlT084SVFHOFFRcDY5U1dlNUYtNkJKdHJUZEJITmZBeFBCSEZsR1RfNzdwcTY4ejNON0JycmgxN21xSTRPUjRFM2Uyd1ViNkdaZWdPQUJrUTRZd1dUVWIxOGI0Z1UxYjVkaDlZYUVzN3psc3g0bzF3OGo4MkF0NU9ZTmkzZC1zM0g4SUhRWTRqYUI0NWNaYmljYTFVSHM1eHU3d2pR?oc=5"
+        },
+        {
+          "source_name": "The Guardian",
+          "headline": "Hurricane Trudy strengthens to category 2 as it heads toward Mexico",
+          "published_at": "Sat, 17 Oct 2026 23:24:40 GMT",
+          "url": "https://www.theguardian.com/world/2026/oct/17/hurricane-trudy-mexico"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 3,
+      "combined_score": 2.46,
+      "brief_bullets": [
+        "Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast.",
+        "Verified accounts indicate critical developments surrounding hurricane trudy strengthens to category 2 as it approaches mexico coast, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
+      ],
+      "brief": "Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast. Verified accounts indicate critical developments surrounding hurricane trudy strengthens to category 2 as it approaches mexico coast, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
+      "brief_word_count": 73
+    },
+    {
+      "story_id": "story-14",
+      "category": "Society",
+      "primary_headline": "Iran urges US to accept proposal to reopen Strait of Hormuz",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "Iran urges US to accept proposal to reopen Strait of Hormuz",
+        "published_at": "Sun, 18 Oct 2026 09:41:29 +0000",
+        "url": "https://www.deccanherald.com/world/middle-east/iran-urges-us-to-accept-proposal-to-reopen-strait-of-hormuz-4187151",
+        "content": " Iran's offer to the United States to reopen the Strait of Hormuz within seven days is still on the table, Foreign Minister Abbas Araqchi told Iranian media outlets on Sunday.'Hormuz is strait of honour, won't allow enemies to use it': Iranian Army voices readiness for potential renewed US attackIf Washington accepts Tehran's conditions, the strategic waterway would be open within six days and US-Iran talks would resume on the seventh day, he added."
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Iran urges US to accept proposal to reopen Strait of Hormuz",
+          "published_at": "Sun, 18 Oct 2026 09:41:29 +0000",
+          "url": "https://www.deccanherald.com/world/middle-east/iran-urges-us-to-accept-proposal-to-reopen-strait-of-hormuz-4187151"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "World Live News Updates: Iran offers to reopen Strait of Hormuz in 6 days if US accepts terms",
+          "published_at": "Sat, 17 Oct 2026 23:55:14 +0000",
+          "url": "https://indianexpress.com/article/world/us-iran-war-live-updates-saudi-drones-attack-trump-tehran-hormuz-shipping-india-oil-prices-10926317/"
+        },
+        {
+          "source_name": "Al Jazeera",
+          "headline": "US and Iran both claim control of Strait of Hormuz amid attacks on vessels - Al Jazeera",
+          "published_at": "Sat, 17 Oct 2026 12:23:53 GMT",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcUxxNHdOQmgxVGhJOTE3NDVyR3J0RUVSQkVDVjNSZFNnbnN0eU02ZHNOcUtvSVBuVmgtS0t0aGxWd05DNllrSjFRYnNMOWtJRmJJNG1hRmh6eXJkamNEek1sYUJKU2d4bVhuVEcyMXF4Y2hVUkNiSWtnOFFNZTNpTkN1MFU0Skxnb3BlTVgwODVoUzVZQVhudnJXRk9NZWpLd1ZuT3NIZmg0VE5iOHFKdE1Nek9CMWvSAbwBQVVfeXFMUFozLVllVm1zdlA2QWo0aTFOck9ZNEozcHM4RzRmeXFSTGJodmlBWkJMVlpBUHpuN2ZVVlVVLUZ4UFFYMExVeWdpVFdVV2tKUG40VV9UVVgyOWppeFU2cWxWOHdBV1ZVVko1Y2N6eW1jdERsZlV4QnpEaHVhRVFpWTVFM004dFdQbzFVVG1QM0wyRVhhcTJ6NkY4aFZxYnlmZGFMaW5ib0hKdG1KSDNEaGRTQ1VHZ2s4Xy1Oekg?oc=5"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 3,
+      "combined_score": 2.43,
+      "brief_bullets": [
+        "Iran's offer to the United States to reopen the Strait of Hormuz within seven days is still on the table, Foreign Minister Abbas Araqchi told Iranian media outlets on Sunday.'Hormuz is strait of honour, won't allow enemies to use it': Iranian Army voices readiness for potential renewed US attack.",
+        "If Washington accepts Tehran's conditions, the strategic waterway would be open within six days and US-Iran talks would resume on the seventh day, he added."
+      ],
+      "why_it_matters_bullets": [
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+      ],
+      "brief": "Iran's offer to the United States to reopen the Strait of Hormuz within seven days is still on the table, Foreign Minister Abbas Araqchi told Iranian media outlets on Sunday.'Hormuz is strait of honour, won't allow enemies to use it': Iranian Army voices readiness for potential renewed US attack. If Washington accepts Tehran's conditions, the strategic waterway would be open within six days and US-Iran talks would resume on the seventh day, he added. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 90
+    },
+    {
+      "story_id": "story-15",
+      "category": "Society",
+      "primary_headline": "Pope Leo pledges gradual return to duties in first event since cancer surgery",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Pope Leo pledges gradual return to duties in first event since cancer surgery - Reuters",
+        "published_at": "Sun, 18 Oct 2026 11:23:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQajlwczZReXZXSkQ1X1JuZWNGWlNjX2VXcW9hNVdlNXYybU00b3NkSFdpdXo4ZXFLZ184OENSdTZRbE9DdDF2ejZIRVpXUWk2MjdJbWM2Y0JMNzVfcGFvYzRxUU5LYUhpTTB6QWpQWHgwR0tEUXZkNnhBMkxJYkd4dTBydU1OWFpVd3lSNjRSSmF3QW9TUmFocVJVa1QyVUtJcFFHeUwwTGg?oc=5",
+        "content": "Pope Leo pledges gradual return to duties in first event since cancer surgery&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Pope Leo pledges gradual return to duties in first event since cancer surgery - Reuters",
+          "published_at": "Sun, 18 Oct 2026 11:23:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQajlwczZReXZXSkQ1X1JuZWNGWlNjX2VXcW9hNVdlNXYybU00b3NkSFdpdXo4ZXFLZ184OENSdTZRbE9DdDF2ejZIRVpXUWk2MjdJbWM2Y0JMNzVfcGFvYzRxUU5LYUhpTTB6QWpQWHgwR0tEUXZkNnhBMkxJYkd4dTBydU1OWFpVd3lSNjRSSmF3QW9TUmFocVJVa1QyVUtJcFFHeUwwTGg?oc=5"
+        },
+        {
+          "source_name": "BBC News",
+          "headline": "Watch: Pope thanks well-wishers in first event after cancer surgery",
+          "published_at": "Sun, 18 Oct 2026 11:09:32 GMT",
+          "url": "https://www.bbc.co.uk/news/videos/cq70px6pjkg5o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Pope Leo greets crowds at Vatican City in first event since cancer surgery",
+          "published_at": "Sun, 18 Oct 2026 10:48:51 +0000",
+          "url": "https://www.deccanherald.com/world/rest-of-world/pope-leo-greets-crowds-at-vatican-city-in-first-event-since-cancer-surgery-4187187"
         }
       ],
       "source_count": 3,
       "total_count": 3,
       "combined_score": 2.4,
-      "brief": "Recent financial disclosure filings from the Trump administration have revealed that former President Donald Trump distributed significant holiday cash bonuses to several key White House aides, sparking renewed scrutiny regarding the nature of these payments. Specifically, executive assistant Natalie Harp, communications adviser Margo Martin, and deputy director of Oval Office operations Chamberlain Harris each received $45,000, while director of Oval Office operations Walt Nauta was awarded $20,000. These disbursements, explicitly categorized as \"cash gifts for the holidays\" within the official documentation, highlight the close financial ties between the former president and his inner circle of loyalists. While such payments are legally permissible, the sheer scale of these personal financial transfers to staff members who have played pivotal roles in his administration and ongoing legal matters raises questions about the intersection of personal wealth, political loyalty, and the ethical boundaries governing executive compensation. This disclosure provides a rare, transparent glimpse into the private financial incentives used to maintain staff retention and allegiance within the Trump orbit. These substantial payments underscore the intense personal loyalty Trump cultivates among his closest staff, potentially complicating future ethics inquiries regarding the influence of personal wealth on political operations. Furthermore, the transparency of these disclosures serves as a critical data point for observers tracking the financial entanglements between the former president and his key personnel during his post-presidential and campaign activities.",
-      "brief_word_count": 225,
-      "summary": "Recent financial disclosure filings from the Trump administration have revealed that former President Donald Trump distributed significant holiday cash bonuses to several key White House aides, sparking renewed scrutiny regarding the nature of these payments. Specifically, executive assistant Natalie Harp, communications adviser Margo Martin, and deputy director of Oval Office operations Chamberlain Harris each received $45,000, while director of Oval Office operations Walt Nauta was awarded $20,000. These disbursements, explicitly categorized as \"cash gifts for the holidays\" within the official documentation, highlight the close financial ties between the former president and his inner circle of loyalists. While such payments are legally permissible, the sheer scale of these personal financial transfers to staff members who have played pivotal roles in his administration and ongoing legal matters raises questions about the intersection of personal wealth, political loyalty, and the ethical boundaries governing executive compensation. This disclosure provides a rare, transparent glimpse into the private financial incentives used to maintain staff retention and allegiance within the Trump orbit. These substantial payments underscore the intense personal loyalty Trump cultivates among his closest staff, potentially complicating future ethics inquiries regarding the influence of personal wealth on political operations. Furthermore, the transparency of these disclosures serves as a critical data point for observers tracking the financial entanglements between the former president and his key personnel during his post-presidential and campaign activities."
+      "brief_bullets": [
+        "Pope Leo pledges gradual return to duties in first event since cancer surgery.",
+        "Verified accounts indicate critical developments surrounding pope leo pledges gradual return to duties in first event since cancer surgery, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
+      ],
+      "brief": "Pope Leo pledges gradual return to duties in first event since cancer surgery. Verified accounts indicate critical developments surrounding pope leo pledges gradual return to duties in first event since cancer surgery, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
+      "brief_word_count": 76
     },
     {
-      "story_id": "story-7",
+      "story_id": "story-16",
       "category": "Society",
-      "primary_headline": "Russia says Ukrainian drone attack killed four in Novorossiysk",
+      "primary_headline": "Chelsea's Martinez undergoes surgery after collision at Everton",
       "primary_source": {
         "source_name": "Reuters",
-        "headline": "Russia says Ukrainian drone attack killed four in Novorossiysk - Reuters",
-        "published_at": "Wed, 09 Sep 2026 06:38:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcWV6T0lkampPRDhQM192cDJGRE43QWRKY0NadkxhV0JoSnhFRmYxcG9kSGh1Tk1sUHJBNm9CMUlRTURKMmdDTnNRWXFyNElYckVxdTdoZW9TWUlNOXZETWRJUHV6OE92NjBhZUhpUlBzcTM0d2VpVUNXZDlROFBLelp3X3I0bTRHdjBVTlNsQ1pGSWItR2F6NE1ROUxnX2NoeHVkcXBHSmVnNTRs?oc=5",
-        "content": "Russia says Ukrainian drone attack killed four in Novorossiysk&nbsp;&nbsp;Reuters"
+        "headline": "Chelsea's Martinez undergoes surgery after collision at Everton - Reuters",
+        "published_at": "Sat, 17 Oct 2026 16:56:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeXJaRFdVQUxVS2hXWnNvLVdaZEJVSkFzT0RpeGdYSDVoeWNyVnFSRFNxS0hrZHVzZGhsazR0dWtZS3c0d2pfMU5jNE1RMW1zdnp1dU1UZEpsazVJMU1QeFpocGx1Mi1PeWJBbFFaR19BM0hvSWp5T2JqTGF2MnV6eHVZcksxNmVqZ1N6NHRVdmhpNWg0YWRrb2xwek1DN0o2YVE1R2dnM0dXWHZlci1qWEZXb19ZZmlTcXZRdGQxRzI?oc=5",
+        "content": "Chelsea's Martinez undergoes surgery after collision at Everton&nbsp;&nbsp;Reuters"
       },
       "sources": [
         {
           "source_name": "Reuters",
-          "headline": "Russia says Ukrainian drone attack killed four in Novorossiysk - Reuters",
-          "published_at": "Wed, 09 Sep 2026 06:38:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcWV6T0lkampPRDhQM192cDJGRE43QWRKY0NadkxhV0JoSnhFRmYxcG9kSGh1Tk1sUHJBNm9CMUlRTURKMmdDTnNRWXFyNElYckVxdTdoZW9TWUlNOXZETWRJUHV6OE92NjBhZUhpUlBzcTM0d2VpVUNXZDlROFBLelp3X3I0bTRHdjBVTlNsQ1pGSWItR2F6NE1ROUxnX2NoeHVkcXBHSmVnNTRs?oc=5"
+          "headline": "Chelsea's Martinez undergoes surgery after collision at Everton - Reuters",
+          "published_at": "Sat, 17 Oct 2026 16:56:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeXJaRFdVQUxVS2hXWnNvLVdaZEJVSkFzT0RpeGdYSDVoeWNyVnFSRFNxS0hrZHVzZGhsazR0dWtZS3c0d2pfMU5jNE1RMW1zdnp1dU1UZEpsazVJMU1QeFpocGx1Mi1PeWJBbFFaR19BM0hvSWp5T2JqTGF2MnV6eHVZcksxNmVqZ1N6NHRVdmhpNWg0YWRrb2xwek1DN0o2YVE1R2dnM0dXWHZlci1qWEZXb19ZZmlTcXZRdGQxRzI?oc=5"
         },
         {
-          "source_name": "The Print",
-          "headline": "Russia says Ukrainian drone attack killed four in Novorossiysk - ThePrint",
-          "published_at": "Wed, 09 Sep 2026 06:30:03 GMT",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZVJzaXVvX3hpRlVCTjB0NVVsbkk4Wk5oREFhd2NXWDBtUlpnSVhNUktkQU1NeVNaeEtCOHNQQktsVVY1RkZRdEQ5SWxCVHZPbVU3NW1sM1FMR2tXOHpLRG0wU3hLZE16VFhORVVPbGRJQU1USmthbXdFN0FVMGdudnZOZkdBenctQmItVTVSbk1YcXRtcUhwZlI4Mk1wd9IBowFBVV95cUxNVTRicmlYWUdUb1dGQ2VmSU4zVEJaSUNEWTc3YWdrNXhZbzkwTnJfRXEyVl9mam9SMXhIeGd4eklxQWJFcGFlY3EyTWlQbXVDOWo1dlV6QzZhbzJlZE5ELWdqTkZQanYyajF6VktHdlZSbmJtRFFOc0FiNjM4bTRUa3pSTmhKM0hKckpucWcxSmtsMHZPMEN1ZlRyNVVGVlVKbmJr?oc=5"
+          "source_name": "Reuters",
+          "headline": "Neto double fires Chelsea past Everton but Martinez injury mars win - Reuters",
+          "published_at": "Sat, 17 Oct 2026 13:46:39 GMT",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMzFrWjNUNnhrcHpGdDJVRG1xMGdmWDZLd1NHLTltelluQmxRWXBkcTdSOTM1NXlZaTNDTE1uRWYwTGxRR3hBcE44VFFfSkJOcEN2YmNZWDhYTVVFclljeFZTLXJjaWR2UUJFeWhMaVBvc0RLTmFDRm1mamJpRE5jejdySnJ4NFpoOHE0NjB5Q0pRRDYzQk9ZeDZTeDFsUWZoSUJyMnJvOXFYQ3RYN2tHdHFUSUJwR2xWUTNHM0RzWUlUamdm?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Neto double fires Chelsea past Everton but Martinez head injury mars win - Reuters",
+          "published_at": "Sat, 17 Oct 2026 13:46:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMHFmblVQNDRYLW9XWWFHV0Z2MWR0dVFpN0FnWXVhYTE4NS1JWGhNSkZQc2ltcEh4SmZ0U0hlMFF6dFhwRzNaR2VwTWpjU1hVY0FPTWEtOGFsY2syaDhiLXlKQ0F5Ym16bHBiZjJLY3NyLWVnMkp1Vm1iWWVJODB2a04zcmxGNnRvQ1NVTzliMzZqN2hITGg3WjlxeUJZTjR2a2p2S05HVmdJcFZTWXBNbXMxOA?oc=5"
+        },
+        {
+          "source_name": "BBC News",
+          "headline": "Martinez breaks jaw in Chelsea win at Everton",
+          "published_at": "Sun, 18 Oct 2026 09:42:10 GMT",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cked3vl198eyo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 4,
+      "combined_score": 2.23,
+      "brief_bullets": [
+        "Chelsea's Martinez undergoes surgery after collision at Everton.",
+        "Verified accounts indicate critical developments surrounding chelsea's martinez undergoes surgery after collision at everton, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Carries notable operational, policy, and market consequences surrounding 'Chelsea's Martinez undergoes surgery after collision at Everton'."
+      ],
+      "brief": "Chelsea's Martinez undergoes surgery after collision at Everton. Verified accounts indicate critical developments surrounding chelsea's martinez undergoes surgery after collision at everton, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Carries notable operational, policy, and market consequences surrounding 'Chelsea's Martinez undergoes surgery after collision at Everton'.",
+      "brief_word_count": 69
+    },
+    {
+      "story_id": "story-18",
+      "category": "Society",
+      "primary_headline": "No Kings rallies across US urge voters to cast ballots early ahead of midterms",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "No Kings rallies across US urge voters to cast ballots early ahead of midterms - AP News",
+        "published_at": "Sun, 18 Oct 2026 03:35:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVndVWEl1S1dQWm51em1FaFpNOFRmYnhjU1BaMFQ2WElJbmQyQ2JqQVVaNXQxRlk4alFzMloxRXdoQVYzVGwxRWJrWm5aYmZXQUlud2xNRzBwUWpjM2hqemo4VHdwdGs5SmFSM25NeHF2NFpybnlrNjVQOFVkX0JzMm4zQ1c0ZFAwNDA4OFM1NlF6Y0RLN2tnVXZiZnJzNHVrazREZVprN3hhdFFPcDV6Q0xPQXdHREtZT2xPSGd0a212Si1qZmE2UEJ0bXo1WEY5eGc?oc=5",
+        "content": "No Kings rallies across US urge voters to cast ballots early ahead of midterms&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "No Kings rallies across US urge voters to cast ballots early ahead of midterms - AP News",
+          "published_at": "Sun, 18 Oct 2026 03:35:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVndVWEl1S1dQWm51em1FaFpNOFRmYnhjU1BaMFQ2WElJbmQyQ2JqQVVaNXQxRlk4alFzMloxRXdoQVYzVGwxRWJrWm5aYmZXQUlud2xNRzBwUWpjM2hqemo4VHdwdGs5SmFSM25NeHF2NFpybnlrNjVQOFVkX0JzMm4zQ1c0ZFAwNDA4OFM1NlF6Y0RLN2tnVXZiZnJzNHVrazREZVprN3hhdFFPcDV6Q0xPQXdHREtZT2xPSGd0a212Si1qZmE2UEJ0bXo1WEY5eGc?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "No Kings rallies across US urge voters to cast ballots early ahead of midterms - AP News",
+          "published_at": "Sat, 17 Oct 2026 19:52:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSU9QdGhLZXFkak1MT3B1b3RBZlVIT3gzNEZheTFHNi1hTFpBUjZGcHVkQWhsTjFSRmJsX1RXbklDRUJ0M3dfcklfREZaYUxQWWhqNTZKWmFDZVhEMGZzd3VpLWZ0OG5zY2NIazNGbUpPQXlFc3ItM2p0akRqbkRXSF9oUnVQWHZpZlZuVWtsaw?oc=5"
+        },
+        {
+          "source_name": "Al Jazeera",
+          "headline": "Photos: No Kings rallies in US urge midterm voters to cast ballots early - Al Jazeera",
+          "published_at": "Sat, 17 Oct 2026 21:18:48 GMT",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONTAzWXZlVGthYm9nc095S1l5Z1FuNXl5cXRPSTg0Ny1KRy1rRzh4a2RVMjIzYzRjUW5QZG1SdHg1enB1OGljUUY4Y2JkNFhXLTQtSnJKRmdkc0NHU0NIemx5ZE1hTldJVzZ6aTVPYjlWenFYNTlKV3g3U1g5Zlp5ZURHX3I3WnRyYVFuc0JIVG1aZm9Sem9XOUdJeVpjRUhjaGNLZGl1bFk2NzEydlpqQVdVXzlaQkXSAbwBQVVfeXFMTkJaZGtnVnNVYU5fVmlCaWQ2cmxQakpnMzFGREtTS0RIYlg1SUFXeVhoNFI3ZGRKclpZOXpTVTNCRzhoSzFZMFdPQ2VHNGxmbDhSRUdmTDZ4dkFBYmJkcUE4bF9nLU1uLTEyUHNEQnJua19aUFh5aENGVXI3eExkUHc3QUZ2d0ZQeEkyMVA2UkVOR3R1MmxZV0txQ0c3UmxfdDBMRkpjTmRFRmVjQV9SS0RVbEoyWHE3RHpNZUM?oc=5"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 3,
+      "combined_score": 1.9,
+      "brief_bullets": [
+        "No Kings rallies across US urge voters to cast ballots early ahead of midterms.",
+        "Verified accounts indicate critical developments surrounding no kings rallies across us urge voters to cast ballots early ahead of midterms, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
+      ],
+      "brief": "No Kings rallies across US urge voters to cast ballots early ahead of midterms. Verified accounts indicate critical developments surrounding no kings rallies across us urge voters to cast ballots early ahead of midterms, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
+      "brief_word_count": 79
+    },
+    {
+      "story_id": "story-22",
+      "category": "Society",
+      "primary_headline": "Hyderabad Engineering Student Killed After Lighting Stand Collapses During College Dandiya Event",
+      "primary_source": {
+        "source_name": "NDTV",
+        "headline": "Hyderabad Engineering Student Killed After Lighting Stand Collapses During College Dandiya Event",
+        "published_at": "Sun, 18 Oct 2026 08:28:35 +0530",
+        "url": "https://www.ndtv.com/hyderabad-news/hyderabad-engineering-student-killed-as-lighting-stand-collapses-during-dandiya-event-in-college-12201206#publisher=newsstand",
+        "content": " Telangana Chief Minister Revanth Reddy expressed sadness over the student's death and the injuries to others and conveyed his condolences to the bereaved family."
+      },
+      "sources": [
+        {
+          "source_name": "NDTV",
+          "headline": "Hyderabad Engineering Student Killed After Lighting Stand Collapses During College Dandiya Event",
+          "published_at": "Sun, 18 Oct 2026 08:28:35 +0530",
+          "url": "https://www.ndtv.com/hyderabad-news/hyderabad-engineering-student-killed-as-lighting-stand-collapses-during-dandiya-event-in-college-12201206#publisher=newsstand"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Engineering student dies as lighting frame collapses during Dandiya night in Hyderabad; 15 injured",
+          "published_at": "Sun, 18 Oct 2026 00:45:20 +0000",
+          "url": "https://indianexpress.com/article/cities/hyderabad/engineering-student-dies-lighting-frame-collapses-dandiya-night-hyderabad-10926258/"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.69,
+      "brief_bullets": [
+        "Hyderabad Engineering Student Killed After Lighting Stand Collapses During College Dandiya Event.",
+        "Verified accounts indicate critical developments surrounding hyderabad engineering student killed after lighting stand collapses during college dandiya event, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+      ],
+      "brief": "Hyderabad Engineering Student Killed After Lighting Stand Collapses During College Dandiya Event. Verified accounts indicate critical developments surrounding hyderabad engineering student killed after lighting stand collapses during college dandiya event, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 75
+    },
+    {
+      "story_id": "story-23",
+      "category": "Society",
+      "primary_headline": "Three kin arrested after five family members found dead in Greater Noida",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Three kin arrested after five family members found dead in Greater Noida",
+        "published_at": "Sun, 18 Oct 2026 17:29:18 +0530",
+        "url": "https://www.thehindu.com/news/national/kin-arrested-after-family-members-found-dead-in-greater-noida/article71599681.ece",
+        "content": "Preliminary suspicion had pointed to possible food poisoning, with reports suggesting that the family ate noodles before their deaths"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Three kin arrested after five family members found dead in Greater Noida",
+          "published_at": "Sun, 18 Oct 2026 17:29:18 +0530",
+          "url": "https://www.thehindu.com/news/national/kin-arrested-after-family-members-found-dead-in-greater-noida/article71599681.ece"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Noida couple, children found dead: Police book three family members for abetment to suicide",
+          "published_at": "Sun, 18 Oct 2026 07:40:08 +0000",
+          "url": "https://indianexpress.com/article/cities/delhi/noida-couple-children-dead-police-book-family-members-abetment-suicide-10926689/"
         }
       ],
       "source_count": 2,
       "total_count": 2,
       "combined_score": 1.66,
-      "brief": "Russian officials have reported that a Ukrainian drone strike targeted the strategic port city of Novorossiysk, resulting in the deaths of four individuals. This incident marks a significant escalation in the ongoing conflict, as Novorossiysk serves as a vital maritime hub for Russian oil exports and hosts key infrastructure for the Black Sea Fleet. By extending the reach of their drone operations to this critical logistical node, Ukrainian forces are demonstrating an increased capability to disrupt Russian economic lifelines and military supply chains deep within sovereign territory. Moscow has condemned the attack as a provocative act of aggression, while Kyiv maintains that such strikes are necessary defensive measures to degrade the adversary's capacity to wage war. This development underscores the shifting dynamics of the conflict, where asymmetric warfare and long-range aerial capabilities are increasingly being utilized to bypass traditional frontlines and impose direct costs on the Russian domestic and economic landscape. The targeting of Novorossiysk signals a strategic pivot toward disrupting Russia's critical energy export infrastructure, potentially destabilizing global oil markets and forcing Moscow to reallocate defensive assets away from the frontlines. This escalation risks further widening the theater of conflict and complicates international efforts to de-escalate tensions in the Black Sea region.",
-      "brief_word_count": 203,
-      "summary": "Russian officials have reported that a Ukrainian drone strike targeted the strategic port city of Novorossiysk, resulting in the deaths of four individuals. This incident marks a significant escalation in the ongoing conflict, as Novorossiysk serves as a vital maritime hub for Russian oil exports and hosts key infrastructure for the Black Sea Fleet. By extending the reach of their drone operations to this critical logistical node, Ukrainian forces are demonstrating an increased capability to disrupt Russian economic lifelines and military supply chains deep within sovereign territory. Moscow has condemned the attack as a provocative act of aggression, while Kyiv maintains that such strikes are necessary defensive measures to degrade the adversary's capacity to wage war. This development underscores the shifting dynamics of the conflict, where asymmetric warfare and long-range aerial capabilities are increasingly being utilized to bypass traditional frontlines and impose direct costs on the Russian domestic and economic landscape. The targeting of Novorossiysk signals a strategic pivot toward disrupting Russia's critical energy export infrastructure, potentially destabilizing global oil markets and forcing Moscow to reallocate defensive assets away from the frontlines. This escalation risks further widening the theater of conflict and complicates international efforts to de-escalate tensions in the Black Sea region."
+      "brief_bullets": [
+        "Three kin arrested after five family members found dead in Greater Noida.",
+        "Verified accounts indicate critical developments surrounding three kin arrested after five family members found dead in greater noida, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+      ],
+      "brief": "Three kin arrested after five family members found dead in Greater Noida. Verified accounts indicate critical developments surrounding three kin arrested after five family members found dead in greater noida, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 75
     },
     {
-      "story_id": "story-13",
+      "story_id": "story-25",
       "category": "Society",
-      "primary_headline": "Lindsay Clancy juror had reasonable doubt but would not agree to acquit, foreperson says",
+      "primary_headline": "Fisherman, 71, killed by 12-foot alligator alongside Florida lake",
       "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "Lindsay Clancy juror had reasonable doubt but would not agree to acquit, foreperson says",
-        "published_at": "Wed, 09 Sep 2026 01:45:42 GMT",
-        "url": "https://www.theguardian.com/us-news/2026/sep/08/lindsay-clancy-juror-trial",
-        "content": "Roni Carlson, in wake of mistrial, says holdout juror could not be persuaded while colleague calls him ‘very arrogant’A lone juror in the trial of Lindsay Clancy, the Massachusetts mother accused of the murder of her three children, would not agree to acquit Clancy despite expressing reasonable doubt about whether she was guilty, the jury’s foreperson said in an interview airing on Monday.Speaking to NBC 10 Boston just days after Clancy’s trial ended in a mistrial, Roni Carlson, the foreperson, confirmed there was one holdout juror who would not be persuaded to acquit Clancy due to insanity.In the US, call the national maternal health hotline on 1-833-852-6262. In the UK, the Pandas foundation offers support via WhatsApp on 07903 508334. In Australia, the national maternal and perinatal mental health hotline is 1300 726 306. Continue reading..."
+        "source_name": "AP News",
+        "headline": "Fisherman, 71, killed by 12-foot alligator alongside Florida lake - AP News",
+        "published_at": "Sat, 17 Oct 2026 21:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYWs0Y0xMUzZxN3Z1anpnTDJOMDNUVDR2eFpIV0NrVjlzem9XUFhXTjZ0MnFVbUNvUkgzV280T0hTSkVlR21TRHBJR3RqdjhCMUc3NTNqakVfNVgxZ2tENFhnbkVUSXZENDJKZFdOeWo0dU5Vb0FnRjFSVUlMVVdqaTF1dkcybFdnelhWSllfOXlyWjZuWWV6N2xCLXVmek9nOUJV?oc=5",
+        "content": "Fisherman, 71, killed by 12-foot alligator alongside Florida lake&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
-          "source_name": "The Guardian",
-          "headline": "Lindsay Clancy juror had reasonable doubt but would not agree to acquit, foreperson says",
-          "published_at": "Wed, 09 Sep 2026 01:45:42 GMT",
-          "url": "https://www.theguardian.com/us-news/2026/sep/08/lindsay-clancy-juror-trial"
+          "source_name": "AP News",
+          "headline": "Fisherman, 71, killed by 12-foot alligator alongside Florida lake - AP News",
+          "published_at": "Sat, 17 Oct 2026 21:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYWs0Y0xMUzZxN3Z1anpnTDJOMDNUVDR2eFpIV0NrVjlzem9XUFhXTjZ0MnFVbUNvUkgzV280T0hTSkVlR21TRHBJR3RqdjhCMUc3NTNqakVfNVgxZ2tENFhnbkVUSXZENDJKZFdOeWo0dU5Vb0FnRjFSVUlMVVdqaTF1dkcybFdnelhWSllfOXlyWjZuWWV6N2xCLXVmek9nOUJV?oc=5"
         },
         {
           "source_name": "CNN",
-          "headline": "Lindsay Clancy juror says holdout ‘admitted he had reasonable doubt’ - CNN",
-          "published_at": "Tue, 08 Sep 2026 21:39:40 GMT",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9VX2JnYnJ2ekNoTmRpcnMyWGV3NEwyWUhNMXpod1p3dE5oblFmSG1uM0ZpaEY1YVJLRjdmYmE0ZWR1M1dlT1U3NWJCWlF3Wi1GZjdCYXRmdmVLQXF4cGQ3SXNjSTN6dTZpZ2MwRHJ4Wjc3QQ?oc=5"
+          "headline": "Fisherman, 71, attacked and killed by 12-foot alligator alongside Florida lake - CNN",
+          "published_at": "Sat, 17 Oct 2026 18:00:51 GMT",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBQQWZ3WmRzLUhidTNFV0JudUV4QU9zVHRYSTlFbUh4d2ktV19aQWpEWHBZeklUNGFQdFZvZlNtZHlMUzlUZW40RTcxOUI0SFR3SkMzTWVYTjJwaEk2eTdXWEVtZGJESlBFbGRlTXZ2X0l2dkY0M0tz?oc=5"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.66,
+      "brief_bullets": [
+        "Fisherman, 71, killed by 12.",
+        "Verified accounts indicate critical developments surrounding fisherman, 71, killed by 12, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+      ],
+      "brief": "Fisherman, 71, killed by 12. Verified accounts indicate critical developments surrounding fisherman, 71, killed by 12, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 61
+    },
+    {
+      "story_id": "story-27",
+      "category": "Society",
+      "primary_headline": "Cockroach effigy at Delhi Ramlila event triggers queries; organisers say promoting cleanliness",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Cockroach effigy at Delhi Ramlila event triggers queries; organisers say promoting cleanliness",
+        "published_at": "Sun, 18 Oct 2026 17:31:24 +0530",
+        "url": "https://www.thehindu.com/news/cities/Delhi/cockroach-effigy-at-delhi-ramlila-event-triggers-queries-organisers-say-promoting-cleanliness/article71599268.ece",
+        "content": "Shree Keshav Ram Leela Committee president Ashok Goel said the 30-foot effigy symbolises filth and is unrelated to the Cockroach Janta Party, as social media users question the timing"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Cockroach effigy at Delhi Ramlila event triggers queries; organisers say promoting cleanliness",
+          "published_at": "Sun, 18 Oct 2026 17:31:24 +0530",
+          "url": "https://www.thehindu.com/news/cities/Delhi/cockroach-effigy-at-delhi-ramlila-event-triggers-queries-organisers-say-promoting-cleanliness/article71599268.ece"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "'For Swachh Bharat': Delhi Ram Leela Event Organisers On Burning Of Cockroach Effigy",
+          "published_at": "Sun, 18 Oct 2026 10:51:21 +0530",
+          "url": "https://www.ndtv.com/delhi-news/for-swachh-bharat-delhi-shree-keshav-ram-leela-event-organisers-on-burning-of-cockroach-effigy-12201558#publisher=newsstand"
         }
       ],
       "source_count": 2,
       "total_count": 2,
       "combined_score": 1.63,
-      "brief": "The trial of Lindsay Clancy, the Massachusetts mother accused of murdering her three children, has concluded in a mistrial, revealing deep divisions within the jury regarding her mental state at the time of the killings. Jury foreperson Roni Carlson disclosed in a recent interview that while the panel largely grappled with the complexities of an insanity defense, a single holdout juror refused to vote for acquittal despite explicitly acknowledging reasonable doubt regarding Clancy’s guilt. Carlson described the impasse as frustrating, noting that the holdout remained immovable despite extensive deliberations, while other jurors characterized the individual as arrogant and unwilling to engage in collaborative reasoning. This deadlock highlights the profound challenges inherent in high-stakes criminal trials involving severe mental health crises, where jurors must reconcile legal definitions of insanity with the tragic reality of filicide. The mistrial now forces prosecutors and the defense to confront the uncertainty of a retrial, leaving the legal outcome of this harrowing case unresolved. This mistrial underscores the persistent difficulty of applying the insanity defense in cases of severe postpartum psychosis, potentially influencing future jury selection strategies and prosecutorial approaches in similar high-profile mental health cases. It also highlights the fragility of the judicial process when individual juror rigidity clashes with the collective mandate to reach a consensus based on reasonable doubt.",
-      "brief_word_count": 216,
-      "summary": "The trial of Lindsay Clancy, the Massachusetts mother accused of murdering her three children, has concluded in a mistrial, revealing deep divisions within the jury regarding her mental state at the time of the killings. Jury foreperson Roni Carlson disclosed in a recent interview that while the panel largely grappled with the complexities of an insanity defense, a single holdout juror refused to vote for acquittal despite explicitly acknowledging reasonable doubt regarding Clancy’s guilt. Carlson described the impasse as frustrating, noting that the holdout remained immovable despite extensive deliberations, while other jurors characterized the individual as arrogant and unwilling to engage in collaborative reasoning. This deadlock highlights the profound challenges inherent in high-stakes criminal trials involving severe mental health crises, where jurors must reconcile legal definitions of insanity with the tragic reality of filicide. The mistrial now forces prosecutors and the defense to confront the uncertainty of a retrial, leaving the legal outcome of this harrowing case unresolved. This mistrial underscores the persistent difficulty of applying the insanity defense in cases of severe postpartum psychosis, potentially influencing future jury selection strategies and prosecutorial approaches in similar high-profile mental health cases. It also highlights the fragility of the judicial process when individual juror rigidity clashes with the collective mandate to reach a consensus based on reasonable doubt."
-    },
-    {
-      "story_id": "story-15",
-      "category": "Society",
-      "primary_headline": "ED raids premises linked to Karnataka PWD Minister Satish Jarkiholi, his MP daughter",
-      "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "ED raids premises linked to Karnataka PWD Minister Satish Jarkiholi, his MP daughter",
-        "published_at": "Wed, 09 Sep 2026 21:21:16 +0530",
-        "url": "https://www.thehindu.com/news/national/karnataka/ed-raids-premises-linked-to-karnataka-pwd-minister-satish-jarkiholi/article71445491.ece",
-        "content": "You don’t have any Active Subscription. Subscribed with another email? Logout and Login with that one. Account subscription benefits alongside Premium Stories, Editorials,\n              Opinions and more. Unlock these with Subscription Additional Subscription Benefits Need help with your subscription? Residence of Karnataka PWD Minister Satish Jarkiholi in Belagavi.\n                                          | Photo Credit: Special arrangement"
-      },
-      "sources": [
-        {
-          "source_name": "The Hindu",
-          "headline": "ED raids premises linked to Karnataka PWD Minister Satish Jarkiholi, his MP daughter",
-          "published_at": "Wed, 09 Sep 2026 21:21:16 +0530",
-          "url": "https://www.thehindu.com/news/national/karnataka/ed-raids-premises-linked-to-karnataka-pwd-minister-satish-jarkiholi/article71445491.ece"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "ED conducts raids at Karnataka minister Satish Jarkiholi, MP daughter Priyanka premises",
-          "published_at": "Wed, 09 Sep 2026 07:03:00 +0000",
-          "url": "https://indianexpress.com/article/cities/bangalore/ed-raids-satish-jarkiholi-priyanka-manjunath-fema-case-10869626/"
-        }
+      "brief_bullets": [
+        "Cockroach effigy at Delhi Ramlila event triggers queries; organisers say promoting cleanliness.",
+        "Verified accounts indicate critical developments surrounding cockroach effigy at delhi ramlila event triggers queries; organisers say promoting cleanliness, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
       ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
-      "brief": "The Enforcement Directorate has launched a sweeping investigation into the financial affairs of Karnataka Public Works Department Minister Satish Jarkiholi and his daughter, who serves as a Member of Parliament, by conducting coordinated raids across 18 locations throughout the state. Federal investigators targeted multiple properties linked to the influential political family, including the Minister’s residence in Bengaluru’s upscale Dollar Colony and sites in Belagavi, as part of a broader probe into alleged financial irregularities. This high-stakes operation marks a significant escalation in federal scrutiny directed at the state’s ruling administration, signaling a potential shift in the investigative landscape surrounding Karnataka’s political elite. By executing these simultaneous searches, the central agency is signaling a rigorous pursuit of evidence regarding suspected money laundering or illicit asset accumulation, which could have profound repercussions for the stability and reputation of the current state government. The involvement of both a sitting minister and a federal legislator underscores the gravity of the allegations currently under review by central authorities. These raids represent a critical intensification of federal pressure on Karnataka’s political leadership, likely heightening tensions between state and central authorities while potentially destabilizing the local administration’s political standing. The investigation could serve as a pivotal catalyst for shifting electoral narratives and legislative priorities as the state navigates the fallout of such high-profile scrutiny.",
-      "brief_word_count": 217,
-      "summary": "The Enforcement Directorate has launched a sweeping investigation into the financial affairs of Karnataka Public Works Department Minister Satish Jarkiholi and his daughter, who serves as a Member of Parliament, by conducting coordinated raids across 18 locations throughout the state. Federal investigators targeted multiple properties linked to the influential political family, including the Minister’s residence in Bengaluru’s upscale Dollar Colony and sites in Belagavi, as part of a broader probe into alleged financial irregularities. This high-stakes operation marks a significant escalation in federal scrutiny directed at the state’s ruling administration, signaling a potential shift in the investigative landscape surrounding Karnataka’s political elite. By executing these simultaneous searches, the central agency is signaling a rigorous pursuit of evidence regarding suspected money laundering or illicit asset accumulation, which could have profound repercussions for the stability and reputation of the current state government. The involvement of both a sitting minister and a federal legislator underscores the gravity of the allegations currently under review by central authorities. These raids represent a critical intensification of federal pressure on Karnataka’s political leadership, likely heightening tensions between state and central authorities while potentially destabilizing the local administration’s political standing. The investigation could serve as a pivotal catalyst for shifting electoral narratives and legislative priorities as the state navigates the fallout of such high-profile scrutiny."
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "Cockroach effigy at Delhi Ramlila event triggers queries; organisers say promoting cleanliness. Verified accounts indicate critical developments surrounding cockroach effigy at delhi ramlila event triggers queries; organisers say promoting cleanliness, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 74
     },
     {
-      "story_id": "story-16",
+      "story_id": "story-31",
       "category": "Society",
-      "primary_headline": "Norway bids final farewell to popular King Harald V as crowds and royals converge for his funeral",
+      "primary_headline": "US ambassador to Israel condemns settler attack on US journalist, and other Mideast news",
       "primary_source": {
         "source_name": "AP News",
-        "headline": "Norway bids final farewell to popular King Harald V as crowds and royals converge for his funeral - AP News",
-        "published_at": "Wed, 09 Sep 2026 14:14:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeXpMV19MeEd1WmxCaUxuYy1NZ0JqUUk1eGNSVm1MckphbnZfOFQ0NXZLVGEydWk0RWxfcGM1VFl5ODlGUmgwYXdqT19yamlVTkRoVmVwUjlmdHJzUXNGZnFvbkxLdmdhSXBmYm9jeWd5TlU0TFBqYkxTdFJEMjBUSkxNSl9iTFFCbkxjVXZIVi1LMjdBSE9YaWRwb2NuWkhO?oc=5",
-        "content": "Norway bids final farewell to popular King Harald V as crowds and royals converge for his funeral&nbsp;&nbsp;AP News"
+        "headline": "US ambassador to Israel condemns settler attack on US journalist, and other Mideast news - AP News",
+        "published_at": "Sun, 18 Oct 2026 08:46:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZTVQOXY5eWJtZXExSXpLYk9CMWUycWRQTEREeEtlUUtlQkRTR3laVnZQTEFIVjN6S1BpbXVkU3N1Nm1Vb09POV8xVGRncFFBMlp6RUR6QVJTTXBwcnZ4M2kzcmVXYVJVM3FaWkZyVlRsNGs2aml5UWdBM0Nuc3oyblpMS1hrdnVjcFZnNkx4bjJTVGJ3OEM0S1piZnFtbHZ1VnlUdEZvMjVHcGtZaGNSVg?oc=5",
+        "content": "US ambassador to Israel condemns settler attack on US journalist, and other Mideast news&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
           "source_name": "AP News",
-          "headline": "Norway bids final farewell to popular King Harald V as crowds and royals converge for his funeral - AP News",
-          "published_at": "Wed, 09 Sep 2026 14:14:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeXpMV19MeEd1WmxCaUxuYy1NZ0JqUUk1eGNSVm1MckphbnZfOFQ0NXZLVGEydWk0RWxfcGM1VFl5ODlGUmgwYXdqT19yamlVTkRoVmVwUjlmdHJzUXNGZnFvbkxLdmdhSXBmYm9jeWd5TlU0TFBqYkxTdFJEMjBUSkxNSl9iTFFCbkxjVXZIVi1LMjdBSE9YaWRwb2NuWkhO?oc=5"
+          "headline": "US ambassador to Israel condemns settler attack on US journalist, and other Mideast news - AP News",
+          "published_at": "Sun, 18 Oct 2026 08:46:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZTVQOXY5eWJtZXExSXpLYk9CMWUycWRQTEREeEtlUUtlQkRTR3laVnZQTEFIVjN6S1BpbXVkU3N1Nm1Vb09POV8xVGRncFFBMlp6RUR6QVJTTXBwcnZ4M2kzcmVXYVJVM3FaWkZyVlRsNGs2aml5UWdBM0Nuc3oyblpMS1hrdnVjcFZnNkx4bjJTVGJ3OEM0S1piZnFtbHZ1VnlUdEZvMjVHcGtZaGNSVg?oc=5"
         },
         {
-          "source_name": "CNN",
-          "headline": "Norway bids final farewell to popular King Harald V as crowds and royals converge for his funeral - CNN",
-          "published_at": "Wed, 09 Sep 2026 13:14:11 GMT",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1YcFZCTkdHZVd5MENDT0xXRl9peENBMFVWRWluTHp6SkRfZWwxVS1KVFVYUWlINEV0VXI0MzJaYkg4TVVJcERCNWstUlh1M2Jvak9xNEFrT1BIVGd1UWtuUzN1aXFCUDZleGdDOWJ3bUVEdXdDZ0M0Yw?oc=5"
+          "source_name": "Al Jazeera",
+          "headline": "US ambassador urges Israel to prosecute attackers of American journalist - Al Jazeera",
+          "published_at": "Sun, 18 Oct 2026 06:05:18 GMT",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRGt3d1FmTjFmYnlpV0xPQ0JsMDROd3doR3AzZTFGSkVZTUpoWnBkNVVEM1FhQXdDNXZnd1BvRkVZSE04R2kxWG1FSkZBYnM1dTMyM2RMQk4yTFFrYXdHWTJJZTdhNnRMTWlSOFkyTnpTdDR1STVWOFE3bG8xcUo0NzRpTS10cVVBdk5yTE9jRXJCTl9zNmJzZlVmVWNGZm03VkhycGhTWkc1NEJsOFZndDk2Y2Zwa1HSAbwBQVVfeXFMTXBYcnJMR2JJMmNITW8zMm16RWVjbzhoVGRTNEFYSWhaLUkyVFpXUExBSk9ud0UwUVFrd2p4U3FDTWd3LVk3cW1ESGNXSEJSek9HbG1IUzc4dmx4anhtcHRQMkdtZ0cyaVlvSFE0WF9iSEZrM0JMVjBNd3ZZS2p0cFNGTGFjV2lGRWlIS2ltMGJudFd1eTl4TGlOVmtfdTQwNmw1eFh2TW9ZcHJwTkQ5clFwNjB3eVlHTEFPelg?oc=5"
         }
       ],
       "source_count": 2,
       "total_count": 2,
-      "combined_score": 1.6,
-      "brief": "Norway has solemnly bid farewell to King Harald V, marking the end of an era as thousands of mourners and international royals gathered in Oslo to pay their final respects to the beloved monarch. The state funeral served as a poignant reflection of the King’s decades-long reign, characterized by his steady leadership, modernization of the monarchy, and deep connection with the Norwegian people. Dignitaries from across Europe joined the royal family in the capital, underscoring the King's significant diplomatic standing and the high regard in which he was held globally. As the nation processes this profound loss, the focus shifts toward the continuity of the constitutional monarchy and the transition of the crown. This historic event not only honors a transformative figure in Norwegian history but also highlights the enduring stability of the Scandinavian royal tradition amidst a rapidly changing geopolitical landscape. The passing of King Harald V represents a pivotal transition for the Norwegian monarchy, testing the institution's ability to maintain public support and national unity during a period of significant leadership change. This succession will influence the future trajectory of the Scandinavian royal houses and their role in modern, democratic governance.",
-      "brief_word_count": 193,
-      "summary": "Norway has solemnly bid farewell to King Harald V, marking the end of an era as thousands of mourners and international royals gathered in Oslo to pay their final respects to the beloved monarch. The state funeral served as a poignant reflection of the King’s decades-long reign, characterized by his steady leadership, modernization of the monarchy, and deep connection with the Norwegian people. Dignitaries from across Europe joined the royal family in the capital, underscoring the King's significant diplomatic standing and the high regard in which he was held globally. As the nation processes this profound loss, the focus shifts toward the continuity of the constitutional monarchy and the transition of the crown. This historic event not only honors a transformative figure in Norwegian history but also highlights the enduring stability of the Scandinavian royal tradition amidst a rapidly changing geopolitical landscape. The passing of King Harald V represents a pivotal transition for the Norwegian monarchy, testing the institution's ability to maintain public support and national unity during a period of significant leadership change. This succession will influence the future trajectory of the Scandinavian royal houses and their role in modern, democratic governance."
-    },
-    {
-      "story_id": "story-20",
-      "category": "Society",
-      "primary_headline": "Tung Chee-hwa, Hong Kong’s first post-colonial leader, dies at age 89",
-      "primary_source": {
-        "source_name": "AP News",
-        "headline": "Tung Chee-hwa, Hong Kong’s first post-colonial leader, dies at age 89 - AP News",
-        "published_at": "Wed, 09 Sep 2026 03:25:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMGRJNGZ2Yk95RXMwLWlLeWVRekg0cm4weFcyMjB1TnBLekJHOHMxTFhJLTZhaGxhRzB4OHJLRWtCSU81YTZiWXl4VEdySHF3V3NXR19BSi1USW9qbmtBV2dGeDN0M0QtZC1mYVlHekplTDJuUm4wMzlTeUl2cGJ3ZmVUWQ?oc=5",
-        "content": "Tung Chee-hwa, Hong Kong’s first post-colonial leader, dies at age 89&nbsp;&nbsp;AP News"
-      },
-      "sources": [
-        {
-          "source_name": "AP News",
-          "headline": "Tung Chee-hwa, Hong Kong’s first post-colonial leader, dies at age 89 - AP News",
-          "published_at": "Wed, 09 Sep 2026 03:25:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMGRJNGZ2Yk95RXMwLWlLeWVRekg0cm4weFcyMjB1TnBLekJHOHMxTFhJLTZhaGxhRzB4OHJLRWtCSU81YTZiWXl4VEdySHF3V3NXR19BSi1USW9qbmtBV2dGeDN0M0QtZC1mYVlHekplTDJuUm4wMzlTeUl2cGJ3ZmVUWQ?oc=5"
-        },
-        {
-          "source_name": "Reuters",
-          "headline": "Tung Chee-hwa, Hong Kong's first leader under Chinese rule, dies at 89 - Reuters",
-          "published_at": "Tue, 08 Sep 2026 18:40:40 GMT",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSllJdzlWZ1NndWpYNmZGMHRsc18yV2ctMlU3MHNJZU9PaWlkRFYwVDdKbmJlRXcwX0ctQmNPOE8zNXRZWndhSmRFcVhVUGhDTUd2UXk3VUpmN1pfZU1UT2MwdlpvTjYwdVRvbDNodTFuZVp2X1dTTW03MjdtQXdnbm4xYzJHVEJVMzRDdmY3NEJWdldPNVJzS0Q0MEdqTnBaaHB6SVVubGVRRXdLUXZKc1pB?oc=5"
-        }
+      "combined_score": 1.63,
+      "brief_bullets": [
+        "US ambassador to Israel condemns settler attack on US journalist, and other Mideast news.",
+        "Verified accounts indicate critical developments surrounding us ambassador to israel condemns settler attack on us journalist, and other mideast news, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
       ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
-      "brief": "Tung Chee-hwa, the shipping magnate who became Hong Kong’s first Chief Executive following the 1997 handover from British to Chinese rule, has passed away at the age of 89. Appointed by Beijing to navigate the delicate transition of the territory into a Special Administrative Region, Tung faced immense challenges, including the 1997 Asian financial crisis, the SARS outbreak, and significant public unrest regarding democratic reforms. His tenure was defined by the complex implementation of the \"One Country, Two Systems\" framework, which sought to balance Hong Kong's capitalist autonomy with the political authority of the Chinese Communist Party. Although his administration was often marked by controversy and declining popularity, his leadership set the foundational precedent for the integration of Hong Kong into the mainland’s political orbit. His death marks the end of an era for the city, closing a chapter on the initial, turbulent years of post-colonial governance that continue to shape the region's current political landscape. Tung’s passing serves as a poignant bookend to the initial experiment of \"One Country, Two Systems,\" highlighting the long-term erosion of the autonomy he was originally tasked to steward. His legacy remains central to understanding the current geopolitical tensions surrounding Hong Kong’s integration into the mainland’s governance model.",
-      "brief_word_count": 204,
-      "summary": "Tung Chee-hwa, the shipping magnate who became Hong Kong’s first Chief Executive following the 1997 handover from British to Chinese rule, has passed away at the age of 89. Appointed by Beijing to navigate the delicate transition of the territory into a Special Administrative Region, Tung faced immense challenges, including the 1997 Asian financial crisis, the SARS outbreak, and significant public unrest regarding democratic reforms. His tenure was defined by the complex implementation of the \"One Country, Two Systems\" framework, which sought to balance Hong Kong's capitalist autonomy with the political authority of the Chinese Communist Party. Although his administration was often marked by controversy and declining popularity, his leadership set the foundational precedent for the integration of Hong Kong into the mainland’s political orbit. His death marks the end of an era for the city, closing a chapter on the initial, turbulent years of post-colonial governance that continue to shape the region's current political landscape. Tung’s passing serves as a poignant bookend to the initial experiment of \"One Country, Two Systems,\" highlighting the long-term erosion of the autonomy he was originally tasked to steward. His legacy remains central to understanding the current geopolitical tensions surrounding Hong Kong’s integration into the mainland’s governance model."
-    },
-    {
-      "story_id": "story-21",
-      "category": "Society",
-      "primary_headline": "Former Colorado crime analyst gets 10-year prison sentence for manipulating DNA data",
-      "primary_source": {
-        "source_name": "AP News",
-        "headline": "Former Colorado crime analyst gets 10-year prison sentence for manipulating DNA data - AP News",
-        "published_at": "Tue, 08 Sep 2026 21:01:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcVRvU1ZJYU5XbHRBQUN4eUZuUFRia1VHb1MzRlkxUF9ibWtrV3lKa2c3LWNvV2tsdHJ5U2tfamlWMHRYNXk1RjJJMUo5NkFqaEc5ZGFpNXoxNGZyQkFNSVlPZmtpTGJ2ay1vcnpuek9sMjdYMVdqemg5cGRxMklDNDRmYnoxTGdpbm9LbWlkLTRGNnlzMFVXT19YellCMnhZYm5pWHhaSlp5VkUzWnExMA?oc=5",
-        "content": "Former Colorado crime analyst gets 10-year prison sentence for manipulating DNA data&nbsp;&nbsp;AP News"
-      },
-      "sources": [
-        {
-          "source_name": "AP News",
-          "headline": "Former Colorado crime analyst gets 10-year prison sentence for manipulating DNA data - AP News",
-          "published_at": "Tue, 08 Sep 2026 21:01:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcVRvU1ZJYU5XbHRBQUN4eUZuUFRia1VHb1MzRlkxUF9ibWtrV3lKa2c3LWNvV2tsdHJ5U2tfamlWMHRYNXk1RjJJMUo5NkFqaEc5ZGFpNXoxNGZyQkFNSVlPZmtpTGJ2ay1vcnpuek9sMjdYMVdqemg5cGRxMklDNDRmYnoxTGdpbm9LbWlkLTRGNnlzMFVXT19YellCMnhZYm5pWHhaSlp5VkUzWnExMA?oc=5"
-        },
-        {
-          "source_name": "CNN",
-          "headline": "Former Colorado crime analyst gets 10-year prison sentence for manipulating DNA data - CNN",
-          "published_at": "Tue, 08 Sep 2026 22:05:25 GMT",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1lWUdkRUxxN2dRem40OGtBUWtUZ2hReVVleFB2MzQ1Tm1WSGxMbTJsa0NvLTliT0xFRG0xekVrc0NTSzh3UnBmSlZtWEY1eE9KMEp1NlVIUDc1enF3NzVUcW1DT2JtN0JLbGJtVDBIRGlLbUxfN3UwTFczdExqUQ?oc=5"
-        }
+      "why_it_matters_bullets": [
+        "Directly impacts regional security balances and humanitarian conditions, testing international ceasefire mediation."
       ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
-      "brief": "Yvonne \"Missy\" Woods, a veteran forensic scientist formerly employed by the Colorado Bureau of Investigation, has been sentenced to ten years in federal prison after pleading guilty to manipulating DNA data and falsifying test results over a fifteen-year period. An extensive internal investigation revealed that Woods intentionally omitted data and altered records in hundreds of criminal cases between 2008 and 2023, effectively compromising the integrity of forensic evidence used in prosecutions across the state. This systemic failure forced Colorado officials to conduct a massive, costly review of over 600 cases, highlighting a catastrophic breach of scientific ethics and judicial procedure. The sentencing serves as a stern judicial rebuke for the betrayal of public trust, as the court acknowledged that her actions not only undermined the reliability of the state’s criminal justice system but also necessitated a complex, ongoing effort to rectify potential wrongful convictions and ensure due process for those impacted by her fraudulent analysis. This case exposes critical vulnerabilities in forensic oversight and laboratory quality control, potentially triggering a wave of legal challenges and appeals that could destabilize past convictions and erode public confidence in state-run crime laboratories. It underscores the urgent need for rigorous, independent auditing protocols to prevent individual malfeasance from compromising the foundational reliability of the entire criminal justice system.",
-      "brief_word_count": 214,
-      "summary": "Yvonne \"Missy\" Woods, a veteran forensic scientist formerly employed by the Colorado Bureau of Investigation, has been sentenced to ten years in federal prison after pleading guilty to manipulating DNA data and falsifying test results over a fifteen-year period. An extensive internal investigation revealed that Woods intentionally omitted data and altered records in hundreds of criminal cases between 2008 and 2023, effectively compromising the integrity of forensic evidence used in prosecutions across the state. This systemic failure forced Colorado officials to conduct a massive, costly review of over 600 cases, highlighting a catastrophic breach of scientific ethics and judicial procedure. The sentencing serves as a stern judicial rebuke for the betrayal of public trust, as the court acknowledged that her actions not only undermined the reliability of the state’s criminal justice system but also necessitated a complex, ongoing effort to rectify potential wrongful convictions and ensure due process for those impacted by her fraudulent analysis. This case exposes critical vulnerabilities in forensic oversight and laboratory quality control, potentially triggering a wave of legal challenges and appeals that could destabilize past convictions and erode public confidence in state-run crime laboratories. It underscores the urgent need for rigorous, independent auditing protocols to prevent individual malfeasance from compromising the foundational reliability of the entire criminal justice system."
+      "brief": "US ambassador to Israel condemns settler attack on US journalist, and other Mideast news. Verified accounts indicate critical developments surrounding us ambassador to israel condemns settler attack on us journalist, and other mideast news, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Directly impacts regional security balances and humanitarian conditions, testing international ceasefire mediation.",
+      "brief_word_count": 77
     },
     {
-      "story_id": "story-1",
+      "story_id": "story-32",
       "category": "Society",
-      "primary_headline": "ANI Press Releases - ThePrint",
-      "primary_source": {
-        "source_name": "The Print",
-        "headline": "ANI Press Releases - ThePrint",
-        "published_at": "Wed, 09 Sep 2026 12:20:51 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeGQyaVFiOU5pcm16NHpGM1kxTVFuSzVoMmRNRS0tTVdaTEh1YVZYWXZMNDI0a05xUExUWFZ5dGVFLW5ITHpjZGZUTXlTNWJGWG5xMk42ZWx3THllTjVfOVhQV1pMZ3NCY2FvVkE0VXBuR2laTVlUeXIwQ3VYOGowQ2NGNXZKOU1fbzEzV2ZVSnJBelNydURoT0VCM1V4aVdrMHc?oc=5",
-        "content": "ANI Press Releases&nbsp;&nbsp;ThePrint"
-      },
-      "sources": [
-        {
-          "source_name": "The Print",
-          "headline": "ANI Press Releases - ThePrint",
-          "published_at": "Wed, 09 Sep 2026 12:20:51 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeGQyaVFiOU5pcm16NHpGM1kxTVFuSzVoMmRNRS0tTVdaTEh1YVZYWXZMNDI0a05xUExUWFZ5dGVFLW5ITHpjZGZUTXlTNWJGWG5xMk42ZWx3THllTjVfOVhQV1pMZ3NCY2FvVkE0VXBuR2laTVlUeXIwQ3VYOGowQ2NGNXZKOU1fbzEzV2ZVSnJBelNydURoT0VCM1V4aVdrMHc?oc=5"
-        },
-        {
-          "source_name": "The Print",
-          "headline": "ANI Press Releases Archives – Page 757 of 1000 - ThePrint",
-          "published_at": "Wed, 09 Sep 2026 12:12:35 GMT",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVFY3NGRtN1Ywa04xTVF3NE42Wnl1M3FUSjkxSklmcVBHYlRiMUdyTnF6MnhSUElLVGVUNWZ0cGQySHdyLXcyTmkwVzVFMW5Ca3JmVDBpSnppUHpjbXlUempDNEdCeWxjVThVaGxrX3hRSlYxRnZ2SDRUazFPbmhvZzA5WUhVR1dwOXdnZGFGVEpDaFRuVnlHTEpEb1p2T28?oc=5"
-        },
-        {
-          "source_name": "The Print",
-          "headline": "ANI Press Releases Archives – Page 2444 of 1000 - ThePrint",
-          "published_at": "Wed, 09 Sep 2026 12:12:34 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTFJlTzAyWnM4eHhXRmpxY2F6UDBMRTdlNnN3QlliejFBSnJZUWVhbTMtLWRoek1tVWtSd2dXdUtyWXEwLU91V1lrTnNSUmVNNTZkNU9SS0ZnMUZoUDhmRllreEVIX1RBWThhblMwVmlVbTAza2t2Nk9Ud0xPVmNMelB2a1U4Tmg0a1hINk9GT08yN2RZT0tqY0oxZWt0YVk0dHc?oc=5"
-        },
-        {
-          "source_name": "The Print",
-          "headline": "ANI Press Releases - ThePrint",
-          "published_at": "Wed, 09 Sep 2026 12:10:54 GMT",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUnlFZ2Z2N1dWckVMYzVqR0xGbG5XZldjTzdJeU9yUlo3TzUyQ3JxRlE2ejV3TzgwZWVLYWR1ZXoyQzZqcUZBdHdRZmk4eXE4MG0yaUVFMUxucmNIYWhWdXJzR3RySGdremZQbmFhejlTRUhGNHB1Y3l4Qm9Wa0hMNy1Rb09odVFyMkFaazMwaFhrRGZnZTA0SURFQ2EtbktJ?oc=5"
-        },
-        {
-          "source_name": "The Print",
-          "headline": "ANI Press Releases Archives – Page 3548 of 1000 - ThePrint",
-          "published_at": "Wed, 09 Sep 2026 11:20:25 GMT",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMFhEUU5HZ0lybnI1MWR5WnFZQlZHVkVkZERudFRld2FsSGtxY1ZFQTJseXB6dlZDVzVqTDV5ZzZhdGpIaW5hTWswejdoWmZRbnlpTzN6VVFFaEFXUXZHa2ZnUUk1eGUzV21rNmVobTJwTWM0Z0FWaUotaVhrQW1XNlFmUDlwcC1ZWDBLM2dPLWxQOXZwVExpbDk0dFk?oc=5"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 12,
-      "combined_score": 4.1,
-      "brief": "The provided text consists of navigational metadata and archival indexing strings from ThePrint’s digital repository, specifically cataloging the ANI (Asian News International) press release section. These entries represent the structural backend of a high-volume news aggregator, where thousands of pages of syndicated press releases are indexed for archival retrieval. The presence of these specific page markers—ranging from 757 to 3548—highlights the sheer scale of automated content ingestion and the reliance on wire services to populate digital news cycles. This archival structure serves as a testament to the symbiotic relationship between major wire agencies and digital news platforms, where the latter maintains vast, searchable databases of raw corporate and institutional communications. Ultimately, these fragments illustrate the mechanical underpinnings of modern digital journalism, where the organization of syndicated content is as critical to the platform's operational footprint as the editorial content itself. This archival structure underscores the dependency of digital news outlets on high-volume wire service syndication, which significantly influences the information ecosystem by prioritizing rapid, automated content dissemination over curated reporting.",
-      "brief_word_count": 170,
-      "summary": "The provided text consists of navigational metadata and archival indexing strings from ThePrint’s digital repository, specifically cataloging the ANI (Asian News International) press release section. These entries represent the structural backend of a high-volume news aggregator, where thousands of pages of syndicated press releases are indexed for archival retrieval. The presence of these specific page markers—ranging from 757 to 3548—highlights the sheer scale of automated content ingestion and the reliance on wire services to populate digital news cycles. This archival structure serves as a testament to the symbiotic relationship between major wire agencies and digital news platforms, where the latter maintains vast, searchable databases of raw corporate and institutional communications. Ultimately, these fragments illustrate the mechanical underpinnings of modern digital journalism, where the organization of syndicated content is as critical to the platform's operational footprint as the editorial content itself. This archival structure underscores the dependency of digital news outlets on high-volume wire service syndication, which significantly influences the information ecosystem by prioritizing rapid, automated content dissemination over curated reporting."
-    },
-    {
-      "story_id": "story-23",
-      "category": "Society",
-      "primary_headline": "20% Off Brooks Promo Code | September 2026",
-      "primary_source": {
-        "source_name": "Wired",
-        "headline": "20% Off Brooks Promo Code | September 2026",
-        "published_at": "Wed, 09 Sep 2026 05:00:00 +0000",
-        "url": "https://www.wired.com/story/brooks-promo-code/",
-        "content": "Enjoy 20% off your first order with a Brooks coupon code, plus top discounts and deals on our favorite Brooks running shoes."
-      },
-      "sources": [
-        {
-          "source_name": "Wired",
-          "headline": "20% Off Brooks Promo Code | September 2026",
-          "published_at": "Wed, 09 Sep 2026 05:00:00 +0000",
-          "url": "https://www.wired.com/story/brooks-promo-code/"
-        },
-        {
-          "source_name": "Wired",
-          "headline": "Squarespace Promo Codes: 20% Off in September 2026",
-          "published_at": "Wed, 09 Sep 2026 05:00:00 +0000",
-          "url": "https://www.wired.com/story/squarespace-promo-code/"
-        },
-        {
-          "source_name": "Wired",
-          "headline": "Alo Discount Code: 20% Off September 2026",
-          "published_at": "Wed, 09 Sep 2026 05:00:00 +0000",
-          "url": "https://www.wired.com/story/alo-yoga-discount-code/"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 3,
-      "combined_score": 1.43,
-      "brief": "The digital retail landscape continues to prioritize aggressive affiliate marketing strategies, as evidenced by the latest promotional aggregation featuring discounts for Brooks running shoes, Squarespace web hosting, and Alo Yoga activewear. These curated coupon campaigns, often hosted by major media publications like WIRED, demonstrate a strategic shift where editorial platforms monetize consumer traffic through direct conversion incentives rather than relying solely on traditional advertising models. By bundling disparate lifestyle brands—ranging from athletic performance gear to professional digital infrastructure—these platforms create a unified shopping ecosystem that incentivizes immediate consumer action through time-sensitive, verified discount codes. This approach not only drives high-intent traffic to partner websites but also reinforces the symbiotic relationship between content creators and e-commerce entities. As consumer spending habits fluctuate, these targeted promotional strategies serve as a critical mechanism for maintaining brand visibility and securing customer acquisition in an increasingly competitive and fragmented digital marketplace. This trend highlights the evolution of media monetization, where editorial authority is increasingly leveraged to facilitate direct e-commerce transactions, effectively turning content hubs into high-conversion retail funnels. It signals a permanent shift in digital marketing where affiliate revenue streams are becoming foundational to the financial sustainability of modern digital journalism.",
-      "brief_word_count": 196,
-      "summary": "The digital retail landscape continues to prioritize aggressive affiliate marketing strategies, as evidenced by the latest promotional aggregation featuring discounts for Brooks running shoes, Squarespace web hosting, and Alo Yoga activewear. These curated coupon campaigns, often hosted by major media publications like WIRED, demonstrate a strategic shift where editorial platforms monetize consumer traffic through direct conversion incentives rather than relying solely on traditional advertising models. By bundling disparate lifestyle brands—ranging from athletic performance gear to professional digital infrastructure—these platforms create a unified shopping ecosystem that incentivizes immediate consumer action through time-sensitive, verified discount codes. This approach not only drives high-intent traffic to partner websites but also reinforces the symbiotic relationship between content creators and e-commerce entities. As consumer spending habits fluctuate, these targeted promotional strategies serve as a critical mechanism for maintaining brand visibility and securing customer acquisition in an increasingly competitive and fragmented digital marketplace. This trend highlights the evolution of media monetization, where editorial authority is increasingly leveraged to facilitate direct e-commerce transactions, effectively turning content hubs into high-conversion retail funnels. It signals a permanent shift in digital marketing where affiliate revenue streams are becoming foundational to the financial sustainability of modern digital journalism."
-    },
-    {
-      "story_id": "story-25",
-      "category": "Society",
-      "primary_headline": "Germany's Merz accuses far-right AfD of calling for 'ethnic cleansing'",
+      "primary_headline": "Zelenskiy says Russia attacked Ukrainian energy sector 76 times in past week",
       "primary_source": {
         "source_name": "Reuters",
-        "headline": "Germany's Merz accuses far-right AfD of calling for 'ethnic cleansing' - Reuters",
-        "published_at": "Wed, 09 Sep 2026 14:14:18 GMT",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeXVUTmZxbVY1LW9GSU4zdTdVZEJyY0Ixd1JWbnJfOXp3N2JpQ3pKdEIwRmk0aFQ4dmJCbmRiUkVMVkppMzBDYTNsTXI5RU50bGhoSS1NV3QxTEEybTZhQzRvbEVscTBpbXB2Rlpqa1pnVGNybEtlNGR6SHowTEh5ZVFaZGVWTE82Vy16QUJ5aVJtRmh5elA0ajBQUmZqRnhPcXd3cQ?oc=5",
-        "content": "Germany's Merz accuses far-right AfD of calling for 'ethnic cleansing'&nbsp;&nbsp;Reuters"
+        "headline": "Zelenskiy says Russia attacked Ukrainian energy sector 76 times in past week - Reuters",
+        "published_at": "Sun, 18 Oct 2026 08:31:43 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONHpkelZ3dVpCdWF5d2JkVGE3TmZGUzJXLUtsQWUxQnZWVXBtNWJQY1dQOVZJakRiaWRrYlZBQVhsX0JJZ2FKM3AtTW0zRWN3TGNtY2NERnRNckJFU2s1LWNVUUVDb1d3XzVFSHJwT0VOMGVieVBiZHhTbk8ta3A0MkFQeUxUeGhtTnU0aHl0OG0taVh0VU45Y25HNkhwQ2RKWGEwa2w5d0o5RVJPNURXUXRoajdReG5ZbG1YbU1hVQ?oc=5",
+        "content": "Zelenskiy says Russia attacked Ukrainian energy sector 76 times in past week&nbsp;&nbsp;Reuters"
       },
       "sources": [
         {
           "source_name": "Reuters",
-          "headline": "Germany's Merz accuses far-right AfD of calling for 'ethnic cleansing' - Reuters",
-          "published_at": "Wed, 09 Sep 2026 14:14:18 GMT",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeXVUTmZxbVY1LW9GSU4zdTdVZEJyY0Ixd1JWbnJfOXp3N2JpQ3pKdEIwRmk0aFQ4dmJCbmRiUkVMVkppMzBDYTNsTXI5RU50bGhoSS1NV3QxTEEybTZhQzRvbEVscTBpbXB2Rlpqa1pnVGNybEtlNGR6SHowTEh5ZVFaZGVWTE82Vy16QUJ5aVJtRmh5elA0ajBQUmZqRnhPcXd3cQ?oc=5"
+          "headline": "Zelenskiy says Russia attacked Ukrainian energy sector 76 times in past week - Reuters",
+          "published_at": "Sun, 18 Oct 2026 08:31:43 GMT",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONHpkelZ3dVpCdWF5d2JkVGE3TmZGUzJXLUtsQWUxQnZWVXBtNWJQY1dQOVZJakRiaWRrYlZBQVhsX0JJZ2FKM3AtTW0zRWN3TGNtY2NERnRNckJFU2s1LWNVUUVDb1d3XzVFSHJwT0VOMGVieVBiZHhTbk8ta3A0MkFQeUxUeGhtTnU0aHl0OG0taVh0VU45Y25HNkhwQ2RKWGEwa2w5d0o5RVJPNURXUXRoajdReG5ZbG1YbU1hVQ?oc=5"
         },
         {
-          "source_name": "Reuters",
-          "headline": "Germany's Merz accuses far-right AfD of calling for 'ethnic cleansing' - Reuters",
-          "published_at": "Wed, 09 Sep 2026 08:54:59 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONUxjZzcwVXVwbjd0dTdJN09FeTIxRi1tVDFNTDBZNXh1ZlZ2NEUwR2VzVTVvRE9VNEdVeE4wd2EyQ3gxQUpXcGRUaW1qTGhPczJfYmYxcWlUTTJZZDBlc2FOS0EzeFA4RENGWVBxTUx5RWRYOXRha3NJUWdnWnJKdjhIbzYxSEpPYTI4V0NxUUlFSTZTOWZWUUxSdzYyRnp4bF96X09qUnJNcWQ4UkE?oc=5"
+          "source_name": "The Print",
+          "headline": "Zelenskiy says Russia attacked Ukrainian energy sector 76 times in past week - ThePrint",
+          "published_at": "Sun, 18 Oct 2026 08:30:15 GMT",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcVZmaUdFZGpqUUw2ekxKQ3FPcUpWVzFXR0xoNlI2ck9NVGxINERTUTByUEZKdzVlWGl2azBMTi14QXlQUjdua2lET1NjRkpaYzVQakZSdElSamNPTWFCTXVZUnI4R3hDa1VBZ1lkQV95eXhHby1FSm1FTjZTNDEwM3NPQ0xNSksyRFBqc0U3ZkNTVjZfSHBHZHRtSGt0a09zeVlWdXNINTdUeHFjNWdyRtIBtgFBVV95cUxNc0NnNHNYc3FIUDBWVmk4VVVEUEJ4NUoyMjFwYXRaTjJKSkJCMFF3NmRLNFB3eXFqV1hsU3ZUeUJKX2daV25GOHJPRHJQa1pZZ09BUzhMM0lFenJMb1J1MW5XLTlZWmNKYUpVSVVXNERaT0NtcDQ4TU5TY1FzUUp1c2czSWpZN1JDSHJqcTVBMjlYcVhNMWxqTHhGSVhqb2NrVjlkdkZQTTdVeWR1a2VmX29lUU56dw?oc=5"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "total_count": 2,
-      "combined_score": 1.1,
-      "brief": "Friedrich Merz, the leader of Germany’s center-right Christian Democratic Union (CDU), has launched a severe political offensive against the far-right Alternative for Germany (AfD), explicitly accusing the party of advocating for \"ethnic cleansing\" in its migration policy proposals. This incendiary charge stems from intense debates surrounding the AfD’s controversial \"remigration\" plans, which critics argue fundamentally threaten the constitutional rights of foreign-born residents and naturalized citizens. By utilizing such potent historical terminology, Merz is attempting to draw a sharp moral and political demarcation line, effectively isolating the AfD and signaling to the German electorate that the party’s platform is incompatible with democratic values. This confrontation marks a significant escalation in the ongoing struggle to define the boundaries of acceptable political discourse in Germany, as mainstream parties grapple with the AfD’s rising popularity and the potential normalization of extremist rhetoric within the Bundestag. This escalation signals a hardening of the 'firewall' strategy employed by mainstream parties to contain the AfD, potentially polarizing the electorate further while framing the party not merely as a policy opponent, but as an existential threat to the German constitutional order.",
-      "brief_word_count": 183,
-      "summary": "Friedrich Merz, the leader of Germany’s center-right Christian Democratic Union (CDU), has launched a severe political offensive against the far-right Alternative for Germany (AfD), explicitly accusing the party of advocating for \"ethnic cleansing\" in its migration policy proposals. This incendiary charge stems from intense debates surrounding the AfD’s controversial \"remigration\" plans, which critics argue fundamentally threaten the constitutional rights of foreign-born residents and naturalized citizens. By utilizing such potent historical terminology, Merz is attempting to draw a sharp moral and political demarcation line, effectively isolating the AfD and signaling to the German electorate that the party’s platform is incompatible with democratic values. This confrontation marks a significant escalation in the ongoing struggle to define the boundaries of acceptable political discourse in Germany, as mainstream parties grapple with the AfD’s rising popularity and the potential normalization of extremist rhetoric within the Bundestag. This escalation signals a hardening of the 'firewall' strategy employed by mainstream parties to contain the AfD, potentially polarizing the electorate further while framing the party not merely as a policy opponent, but as an existential threat to the German constitutional order."
+      "combined_score": 1.63,
+      "brief_bullets": [
+        "Zelenskiy says Russia attacked Ukrainian energy sector 76 times in past week.",
+        "Verified accounts indicate critical developments surrounding zelenskiy says russia attacked ukrainian energy sector 76 times in past week, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
+      ],
+      "brief": "Zelenskiy says Russia attacked Ukrainian energy sector 76 times in past week. Verified accounts indicate critical developments surrounding zelenskiy says russia attacked ukrainian energy sector 76 times in past week, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 75
     },
     {
-      "story_id": "story-26",
+      "story_id": "story-33",
       "category": "Society",
-      "primary_headline": "Uber Eats Promo Codes: $15 Off │September 2026",
+      "primary_headline": "Daniel Dubois delivers devastating second-round stoppage of Fabio Wardley to retain WBO title",
       "primary_source": {
-        "source_name": "Wired",
-        "headline": "Uber Eats Promo Codes: $15 Off │September 2026",
-        "published_at": "Wed, 09 Sep 2026 05:00:00 +0000",
-        "url": "https://www.wired.com/story/uber-eats-promo-code/",
-        "content": "Hunger meets savings. Discover verified Uber Eats promo codes, new user offers, and Uber One discounts to slash your delivery fees and meal costs."
+        "source_name": "The Guardian",
+        "headline": "Daniel Dubois delivers devastating second-round stoppage of Fabio Wardley to retain WBO title",
+        "published_at": "Sat, 17 Oct 2026 22:30:18 GMT",
+        "url": "https://www.theguardian.com/sport/2026/oct/17/daniel-dubois-devastating-second-round-stoppage-of-fabio-wardley-retain-wbo-title-boxing",
+        "content": "Dubois underlines status as Britain’s leading heavyweightWardley’s corner throw in the towel in second roundDaniel Dubois overwhelmed Fabio Wardley in their WBO world title fight on Saturday night as he continued his quest to become the most authoritative heavyweight fighter on the planet with this crushing victory. This was the second time in five months that Dubois has defeated Wardley but, after their fight of the year contender in May, he unleashed a shockingly one-sided shellacking.After two minutes and 21 seconds of round two, Wardley was rescued from the bludgeoning fists of Dubois by the referee, just as the fluttering white towel of his trainer, Ben Davison, sailed over the ropes in surrender. Davison had been on the brink of throwing in the towel at the very end of the opening round but the bell sounded to end a disastrous first three minutes for Wardley. He was dropped heavily after just 17 seconds as Dubois landed a left cross followed by a pulverising right hand. Continue reading..."
       },
       "sources": [
         {
-          "source_name": "Wired",
-          "headline": "Uber Eats Promo Codes: $15 Off │September 2026",
-          "published_at": "Wed, 09 Sep 2026 05:00:00 +0000",
-          "url": "https://www.wired.com/story/uber-eats-promo-code/"
+          "source_name": "The Guardian",
+          "headline": "Daniel Dubois delivers devastating second-round stoppage of Fabio Wardley to retain WBO title",
+          "published_at": "Sat, 17 Oct 2026 22:30:18 GMT",
+          "url": "https://www.theguardian.com/sport/2026/oct/17/daniel-dubois-devastating-second-round-stoppage-of-fabio-wardley-retain-wbo-title-boxing"
         },
         {
-          "source_name": "Wired",
-          "headline": "Google Workspace Promo Codes: 14% Off for September 2026",
-          "published_at": "Wed, 09 Sep 2026 05:00:00 +0000",
-          "url": "https://www.wired.com/story/google-workspace-promo-code/"
+          "source_name": "Sky Sports",
+          "headline": "Highlights: Dubois demolishes Wardley and retains WBO heavyweight title",
+          "published_at": "Sun, 18 Oct 2026 10:00:00 BST",
+          "url": "https://www.skysports.com/watch/video/13600497/daniel-dubois-vs-fabio-wardley-2-fight-highlights"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "total_count": 2,
-      "combined_score": 1.1,
-      "brief": "As the digital economy continues to integrate consumer convenience with professional productivity tools, new promotional initiatives for September 2026 highlight a strategic convergence in affiliate marketing. Uber Eats has introduced a series of verified promotional codes offering fifteen dollars off delivery orders, targeting cost-conscious consumers amidst fluctuating inflation and shifting dining habits. Simultaneously, a partnership with WIRED has surfaced exclusive discounts for Google Workspace, providing up to fourteen percent off Starter, Standard, and Plus subscription tiers for a three-month duration. These dual-pronged offers reflect a broader trend where platforms leverage lifestyle-oriented incentives to drive user acquisition and retention across disparate sectors. By bundling immediate personal savings with long-term professional utility, these organizations are effectively capturing a wider demographic of users who are increasingly prioritizing value-driven digital services in their daily routines. This cross-sector promotional strategy demonstrates how major digital platforms are increasingly blurring the lines between consumer lifestyle services and professional enterprise tools to maximize customer lifetime value. It signals a shift toward integrated ecosystem marketing, where immediate, tangible discounts serve as a gateway to long-term subscription-based engagement.",
-      "brief_word_count": 178,
-      "summary": "As the digital economy continues to integrate consumer convenience with professional productivity tools, new promotional initiatives for September 2026 highlight a strategic convergence in affiliate marketing. Uber Eats has introduced a series of verified promotional codes offering fifteen dollars off delivery orders, targeting cost-conscious consumers amidst fluctuating inflation and shifting dining habits. Simultaneously, a partnership with WIRED has surfaced exclusive discounts for Google Workspace, providing up to fourteen percent off Starter, Standard, and Plus subscription tiers for a three-month duration. These dual-pronged offers reflect a broader trend where platforms leverage lifestyle-oriented incentives to drive user acquisition and retention across disparate sectors. By bundling immediate personal savings with long-term professional utility, these organizations are effectively capturing a wider demographic of users who are increasingly prioritizing value-driven digital services in their daily routines. This cross-sector promotional strategy demonstrates how major digital platforms are increasingly blurring the lines between consumer lifestyle services and professional enterprise tools to maximize customer lifetime value. It signals a shift toward integrated ecosystem marketing, where immediate, tangible discounts serve as a gateway to long-term subscription-based engagement."
+      "combined_score": 1.63,
+      "brief_bullets": [
+        "Dubois underlines status as Britain’s leading heavyweight.",
+        "Wardley’s corner throw in the towel in second round.",
+        "Daniel Dubois overwhelmed Fabio Wardley in their WBO world title fight on Saturday night as he continued his quest to become the most authoritative heavyweight fighter on the planet with this crushing victory.",
+        "This was the second time in five months that Dubois has defeated Wardley but, after their fight of the year contender in May, he unleashed a shockingly one-sided shellacking."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "Dubois underlines status as Britain’s leading heavyweight. Wardley’s corner throw in the towel in second round. Daniel Dubois overwhelmed Fabio Wardley in their WBO world title fight on Saturday night as he continued his quest to become the most authoritative heavyweight fighter on the planet with this crushing victory. This was the second time in five months that Dubois has defeated Wardley but, after their fight of the year contender in May, he unleashed a shockingly one-sided shellacking. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 91
     },
     {
-      "story_id": "story-29",
+      "story_id": "story-34",
       "category": "Society",
-      "primary_headline": "Sinkhole at Malibu home reportedly owned by Nicolas Cage prompts evacuation",
+      "primary_headline": "Man shot, killed on subway platform in midtown Manhattan",
       "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "Sinkhole at Malibu home reportedly owned by Nicolas Cage prompts evacuation",
-        "published_at": "Wed, 09 Sep 2026 13:53:51 GMT",
-        "url": "https://www.theguardian.com/us-news/2026/sep/09/large-sinkhole-malibu-california",
-        "content": "More than 30 properties ordered to evacuate after sinkhole grows to roughly 25-30ft deep and 30 by 60 feet wideThe city of Malibu, California, has ordered the evacuation of more than 30 properties after a large sinkhole opened on Tuesday.Malibu officials declared a local emergency on Tuesday evening after a “large sinkhole” emerged near 31630 Sea Level Drive. The officials said the sinkhole was believed to have begun developing on Monday, and had grown to roughly 25-30ft deep and 30 by 60ft wide by Tuesday evening. Continue reading..."
+        "source_name": "AP News",
+        "headline": "Man shot, killed on subway platform in midtown Manhattan - AP News",
+        "published_at": "Sat, 17 Oct 2026 19:44:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWVptdmRESFJoczJQTnlZb1M2WnNSUU84eVRXTkcwOFpQbktZR3p4VEhTZHhfMWNvTm9VaVMzeXk4TGZPZV8tX2R3TjdUN2JiNmhTbkk0alNVR0xYbVF5b2NMQ3l6ZDN1bXl4X1pBMlhoQkkxR2RTNHAwRHU0R3F6aVRlNnNIQ0ZGWmVBMQ?oc=5",
+        "content": "Man shot, killed on subway platform in midtown Manhattan&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
-          "source_name": "The Guardian",
-          "headline": "Sinkhole at Malibu home reportedly owned by Nicolas Cage prompts evacuation",
-          "published_at": "Wed, 09 Sep 2026 13:53:51 GMT",
-          "url": "https://www.theguardian.com/us-news/2026/sep/09/large-sinkhole-malibu-california"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.92,
-      "brief": "The city of Malibu, California, has declared a local emergency following the emergence of a massive sinkhole near 31630 Sea Level Drive, a property reportedly owned by actor Nicolas Cage. The geological instability, which began developing on Monday, rapidly expanded to dimensions of approximately 30 by 60 feet with a depth reaching 25 to 30 feet by Tuesday evening. In response to the escalating structural threat, municipal officials issued mandatory evacuation orders for more than 30 surrounding properties to ensure public safety. This sudden environmental crisis highlights the precarious nature of coastal infrastructure in Malibu, where geological vulnerabilities often intersect with high-value real estate. Authorities are currently assessing the site to determine the underlying causes of the collapse and the potential for further ground failure, as residents await updates on when they might safely return to their homes amidst ongoing concerns about the stability of the local terrain. This incident underscores the critical vulnerability of Malibu’s coastal infrastructure to geological instability, potentially triggering stricter zoning regulations and increased insurance scrutiny for high-value properties in erosion-prone areas. It serves as a stark reminder of the intersection between environmental risks and the preservation of luxury real estate assets.",
-      "brief_word_count": 196,
-      "summary": "The city of Malibu, California, has declared a local emergency following the emergence of a massive sinkhole near 31630 Sea Level Drive, a property reportedly owned by actor Nicolas Cage. The geological instability, which began developing on Monday, rapidly expanded to dimensions of approximately 30 by 60 feet with a depth reaching 25 to 30 feet by Tuesday evening. In response to the escalating structural threat, municipal officials issued mandatory evacuation orders for more than 30 surrounding properties to ensure public safety. This sudden environmental crisis highlights the precarious nature of coastal infrastructure in Malibu, where geological vulnerabilities often intersect with high-value real estate. Authorities are currently assessing the site to determine the underlying causes of the collapse and the potential for further ground failure, as residents await updates on when they might safely return to their homes amidst ongoing concerns about the stability of the local terrain. This incident underscores the critical vulnerability of Malibu’s coastal infrastructure to geological instability, potentially triggering stricter zoning regulations and increased insurance scrutiny for high-value properties in erosion-prone areas. It serves as a stark reminder of the intersection between environmental risks and the preservation of luxury real estate assets."
-    },
-    {
-      "story_id": "story-42",
-      "category": "Society",
-      "primary_headline": "Death and fear stalk Haitians in Ohio city amid Trump’s anti-immigrant crackdown",
-      "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "Death and fear stalk Haitians in Ohio city amid Trump’s anti-immigrant crackdown",
-        "published_at": "Wed, 09 Sep 2026 12:00:48 GMT",
-        "url": "https://www.theguardian.com/us-news/2026/sep/09/haitians-ohio-city-trump-anti-immigrant-crackdown",
-        "content": "Springfield community mourns one of its own after Pierre Damas Bel, who was forced to wear electronic ankle bracelet by ICE, walked into traffic and was killed by truckFor 20-year-old Pierre Damas Bel, the humiliation of starting college last month with an electronic ankle bracelet – attached by ICE agents this summer – was deeply traumatic.“I’m walking through the streets of the United States with a GPS monitor on my leg, carrying a feeling of shame and humiliation that I never imagined I would experience,” he wrote on Instagram in July.In the UK and Ireland, Samaritans can be contacted on freephone 116 123. In the US, you can call or text the 988 Suicide &amp; Crisis Lifeline at 988 or chat at 988lifeline.org. In Australia, the crisis support service Lifeline is 13 11 14. Other international helplines can be found at befrienders.org Continue reading..."
-      },
-      "sources": [
+          "source_name": "AP News",
+          "headline": "Man shot, killed on subway platform in midtown Manhattan - AP News",
+          "published_at": "Sat, 17 Oct 2026 19:44:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWVptdmRESFJoczJQTnlZb1M2WnNSUU84eVRXTkcwOFpQbktZR3p4VEhTZHhfMWNvTm9VaVMzeXk4TGZPZV8tX2R3TjdUN2JiNmhTbkk0alNVR0xYbVF5b2NMQ3l6ZDN1bXl4X1pBMlhoQkkxR2RTNHAwRHU0R3F6aVRlNnNIQ0ZGWmVBMQ?oc=5"
+        },
         {
-          "source_name": "The Guardian",
-          "headline": "Death and fear stalk Haitians in Ohio city amid Trump’s anti-immigrant crackdown",
-          "published_at": "Wed, 09 Sep 2026 12:00:48 GMT",
-          "url": "https://www.theguardian.com/us-news/2026/sep/09/haitians-ohio-city-trump-anti-immigrant-crackdown"
+          "source_name": "CNN",
+          "headline": "Man shot and killed on subway platform in midtown Manhattan after argument - CNN",
+          "published_at": "Sat, 17 Oct 2026 20:12:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HdEpJdnNFY0NEdTdNbm5HM01JQUFFUmVwd1pJOHJkN3B1eWtQaTh3X0JENmZ6UlZkQWJWVWFXbUJUQnFWd08wM19kMlpCNFE3c2F0RER5T2cyZXBTRW9LWkJMejBRTzdwWm9KSTZ3?oc=5"
         }
       ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.89,
-      "brief": "The Springfield, Ohio, community is reeling following the tragic death of 20-year-old Haitian immigrant Pierre Damas Bel, who was struck and killed by a truck after walking into traffic. Bel, who had recently begun his college education, had been subjected to the mandatory use of an electronic ankle bracelet by U.S. Immigration and Customs Enforcement (ICE) earlier this summer. In a poignant social media post from July, Bel expressed profound shame and trauma regarding the GPS monitor, describing the humiliation of navigating American streets while under constant electronic surveillance. His death highlights the severe psychological toll of the current administration’s aggressive anti-immigrant enforcement policies, which have increasingly targeted vulnerable populations in communities like Springfield. This incident underscores the intersection of restrictive immigration enforcement, mental health struggles, and the broader climate of fear currently permeating immigrant communities across the United States as federal authorities intensify their crackdown efforts. This tragedy serves as a stark indictment of the human cost associated with intensified immigration enforcement, signaling potential long-term social instability and mental health crises within immigrant enclaves. It forces a critical examination of whether current administrative policies prioritize security at the expense of fundamental human dignity and community safety.",
-      "brief_word_count": 197,
-      "summary": "The Springfield, Ohio, community is reeling following the tragic death of 20-year-old Haitian immigrant Pierre Damas Bel, who was struck and killed by a truck after walking into traffic. Bel, who had recently begun his college education, had been subjected to the mandatory use of an electronic ankle bracelet by U.S. Immigration and Customs Enforcement (ICE) earlier this summer. In a poignant social media post from July, Bel expressed profound shame and trauma regarding the GPS monitor, describing the humiliation of navigating American streets while under constant electronic surveillance. His death highlights the severe psychological toll of the current administration’s aggressive anti-immigrant enforcement policies, which have increasingly targeted vulnerable populations in communities like Springfield. This incident underscores the intersection of restrictive immigration enforcement, mental health struggles, and the broader climate of fear currently permeating immigrant communities across the United States as federal authorities intensify their crackdown efforts. This tragedy serves as a stark indictment of the human cost associated with intensified immigration enforcement, signaling potential long-term social instability and mental health crises within immigrant enclaves. It forces a critical examination of whether current administrative policies prioritize security at the expense of fundamental human dignity and community safety."
-    },
-    {
-      "story_id": "story-44",
-      "category": "Society",
-      "primary_headline": "'Constantly on my mind' - 9/11 agony endures for bereaved, 25 years on",
-      "primary_source": {
-        "source_name": "BBC News",
-        "headline": "'Constantly on my mind' - 9/11 agony endures for bereaved, 25 years on",
-        "published_at": "Tue, 08 Sep 2026 23:11:32 GMT",
-        "url": "https://www.bbc.co.uk/news/articles/clyrjw1yj75o?at_medium=RSS&at_campaign=rss",
-        "content": "But a quarter of a century on, the trial of its alleged mastermind is yet to begin and families of those killed fear that time for justice to be delivered is running out. Tom Resta's brother John and his wife Sylvia, who was seven months pregnant, were among the almost 3,000 people killed on 11 September 2001 when hijackers flew planes into the World Trade Center in New York City and the Pentagon in Virginia. Another crashed in a field in Pennsylvania after the passengers fought back. The couple had been preparing their unborn baby's nursery, painting it with characters from the children's television show Blue's Clues in the days before 9/11. They had dreamed of having a baby and doted on the children of friends and family. On the day of the attacks, the couple - both traders - were working on the 92nd floor of the north tower of the World Trade Center. \"After all this time, it still chokes me up,\" Resta told the BBC through tears. While 25 years have passed, he said 9/11 was \"almost constantly\" on his mind. Resta has been to the US naval base of Guantanamo Bay four times to watch complex pre-trial proceedings for alleged 9/11 mastermind Khalid Sheikh Mohammed and his co-defendants - a process he describes as \"laborious and tedious\"."
-      },
-      "sources": [
-        {
-          "source_name": "BBC News",
-          "headline": "'Constantly on my mind' - 9/11 agony endures for bereaved, 25 years on",
-          "published_at": "Tue, 08 Sep 2026 23:11:32 GMT",
-          "url": "https://www.bbc.co.uk/news/articles/clyrjw1yj75o?at_medium=RSS&at_campaign=rss"
-        }
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.63,
+      "brief_bullets": [
+        "Man shot, killed on subway platform in midtown Manhattan.",
+        "Verified accounts indicate critical developments surrounding man shot, killed on subway platform in midtown manhattan, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
       ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.89,
-      "brief": "As the twenty-fifth anniversary of the September 11 attacks approaches, the families of the nearly 3,000 victims remain trapped in a state of unresolved grief, exacerbated by the agonizingly slow pace of the American judicial process. Tom Resta, who lost his brother John and pregnant sister-in-law Sylvia in the North Tower, embodies this collective trauma, noting that the tragedy remains a constant presence in his life despite the passage of a quarter-century. While the nation reflects on the historic devastation, the legal proceedings against alleged mastermind Khalid Sheikh Mohammed and his co-defendants at Guantanamo Bay have stalled in a cycle of complex, laborious pre-trial motions that have yet to reach a definitive trial. For survivors and bereaved families, this prolonged judicial paralysis represents a profound failure to deliver closure, fueling deep-seated fears that the opportunity for true accountability is rapidly slipping away as time continues to erode the possibility of justice. The persistent failure to bring the 9/11 conspirators to trial undermines public faith in the American military justice system and highlights the systemic inability of the Guantanamo Bay detention model to resolve high-stakes terrorism cases. This ongoing delay risks permanently denying closure to victims' families while simultaneously complicating the historical and legal legacy of the post-9/11 era.",
-      "brief_word_count": 208,
-      "summary": "As the twenty-fifth anniversary of the September 11 attacks approaches, the families of the nearly 3,000 victims remain trapped in a state of unresolved grief, exacerbated by the agonizingly slow pace of the American judicial process. Tom Resta, who lost his brother John and pregnant sister-in-law Sylvia in the North Tower, embodies this collective trauma, noting that the tragedy remains a constant presence in his life despite the passage of a quarter-century. While the nation reflects on the historic devastation, the legal proceedings against alleged mastermind Khalid Sheikh Mohammed and his co-defendants at Guantanamo Bay have stalled in a cycle of complex, laborious pre-trial motions that have yet to reach a definitive trial. For survivors and bereaved families, this prolonged judicial paralysis represents a profound failure to deliver closure, fueling deep-seated fears that the opportunity for true accountability is rapidly slipping away as time continues to erode the possibility of justice. The persistent failure to bring the 9/11 conspirators to trial undermines public faith in the American military justice system and highlights the systemic inability of the Guantanamo Bay detention model to resolve high-stakes terrorism cases. This ongoing delay risks permanently denying closure to victims' families while simultaneously complicating the historical and legal legacy of the post-9/11 era."
-    },
-    {
-      "story_id": "story-48",
-      "category": "Society",
-      "primary_headline": "Jamaica’s plea to the king: use your authority to ensure colonial slavery is examined | Olivia Grange",
-      "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "Jamaica’s plea to the king: use your authority to ensure colonial slavery is examined | Olivia Grange",
-        "published_at": "Wed, 09 Sep 2026 15:44:11 GMT",
-        "url": "https://www.theguardian.com/news/2026/sep/09/jamaica-slavery-reparations-king-charles",
-        "content": "The UK drew immense wealth from our country. But was the slavery that underpinned the empire ever lawful? We deserve a fair hearingJamaican delegates arrive in UK to hand slavery reparations petition to King CharlesOn 6 September 1781, the Zong slave ship set out on the final leg of its voyage to Black River, Jamaica. Four hundred and forty two enslaved Africans were on board – twice the number of people the ship could safely accommodate.Twelve weeks later, 132 enslaved people were murdered by the ship’s crew by being pushed overboard to their deaths. The crew’s justification was the ship had insufficient water supplies to keep everyone alive for the rest of the voyage – a claim later proved false in the British courts. Continue reading..."
-      },
-      "sources": [
-        {
-          "source_name": "The Guardian",
-          "headline": "Jamaica’s plea to the king: use your authority to ensure colonial slavery is examined | Olivia Grange",
-          "published_at": "Wed, 09 Sep 2026 15:44:11 GMT",
-          "url": "https://www.theguardian.com/news/2026/sep/09/jamaica-slavery-reparations-king-charles"
-        }
+      "why_it_matters_bullets": [
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
       ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.86,
-      "brief": "A high-level Jamaican delegation has arrived in the United Kingdom to formally present a petition to King Charles III, demanding a comprehensive examination of the historical legality of colonial slavery and its enduring economic impacts. Central to their argument is the 1781 Zong massacre, a horrific event where 132 enslaved Africans were murdered by a ship’s crew under the false pretense of water shortages, an atrocity that underscores the systemic brutality underpinning the British Empire’s wealth accumulation. By challenging the legal foundations of the slave trade, the Jamaican government seeks to move beyond symbolic gestures toward a substantive, fair hearing regarding reparations. This diplomatic maneuver forces the British monarchy and government to confront the uncomfortable reality that the empire’s prosperity was built upon human rights violations that were often sanctioned or ignored by contemporary legal frameworks. The delegation’s efforts represent a significant escalation in the global movement for reparatory justice, compelling the UK to address its colonial legacy through a lens of accountability rather than historical avoidance. This petition elevates the reparations debate from academic discourse to a direct diplomatic confrontation, forcing the British monarchy to navigate the tension between historical accountability and the preservation of Commonwealth relations. It sets a critical precedent for other Caribbean nations to leverage legal and historical evidence to challenge the legitimacy of colonial-era wealth extraction.",
-      "brief_word_count": 221,
-      "summary": "A high-level Jamaican delegation has arrived in the United Kingdom to formally present a petition to King Charles III, demanding a comprehensive examination of the historical legality of colonial slavery and its enduring economic impacts. Central to their argument is the 1781 Zong massacre, a horrific event where 132 enslaved Africans were murdered by a ship’s crew under the false pretense of water shortages, an atrocity that underscores the systemic brutality underpinning the British Empire’s wealth accumulation. By challenging the legal foundations of the slave trade, the Jamaican government seeks to move beyond symbolic gestures toward a substantive, fair hearing regarding reparations. This diplomatic maneuver forces the British monarchy and government to confront the uncomfortable reality that the empire’s prosperity was built upon human rights violations that were often sanctioned or ignored by contemporary legal frameworks. The delegation’s efforts represent a significant escalation in the global movement for reparatory justice, compelling the UK to address its colonial legacy through a lens of accountability rather than historical avoidance. This petition elevates the reparations debate from academic discourse to a direct diplomatic confrontation, forcing the British monarchy to navigate the tension between historical accountability and the preservation of Commonwealth relations. It sets a critical precedent for other Caribbean nations to leverage legal and historical evidence to challenge the legitimacy of colonial-era wealth extraction."
+      "brief": "Man shot, killed on subway platform in midtown Manhattan. Verified accounts indicate critical developments surrounding man shot, killed on subway platform in midtown manhattan, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 69
     },
     {
-      "story_id": "story-62",
+      "story_id": "story-35",
       "category": "Society",
-      "primary_headline": "2 Days Before 9/11, Al Qaeda Killed Osama Bin Laden's Biggest Taliban Rival",
+      "primary_headline": "Kolkata Durga Puja Stampede: Examining CCTV, Won't Spare Anyone, Says Suvendu Adhikari",
       "primary_source": {
         "source_name": "NDTV",
-        "headline": "2 Days Before 9/11, Al Qaeda Killed Osama Bin Laden's Biggest Taliban Rival",
-        "published_at": "Wed, 09 Sep 2026 20:05:31 +0530",
-        "url": "https://www.ndtv.com/world-news/2-days-before-9-11-al-qaeda-killed-osama-bin-ladens-biggest-taliban-rival-12023555#publisher=newsstand",
-        "content": "Ahmad Shah Massoud was killed in a suicide bombing just two days before the September 11 attacks."
+        "headline": "Kolkata Durga Puja Stampede: Examining CCTV, Won't Spare Anyone, Says Suvendu Adhikari",
+        "published_at": "Sun, 18 Oct 2026 00:45:26 +0530",
+        "url": "https://www.ndtv.com/india-news/kolkata-durga-puja-stampede-live-updates-north-kolkata-chorbagan-pandal-chorebagan-sarbojanin-news-today-12200230#publisher=newsstand",
+        "content": "Kolkata Durga Puja Stampede: Chief Minister Suvendu Adhikari, Health Minister Saradwat Mukherjee and senior officials rushed to the hospital."
       },
       "sources": [
         {
           "source_name": "NDTV",
-          "headline": "2 Days Before 9/11, Al Qaeda Killed Osama Bin Laden's Biggest Taliban Rival",
-          "published_at": "Wed, 09 Sep 2026 20:05:31 +0530",
-          "url": "https://www.ndtv.com/world-news/2-days-before-9-11-al-qaeda-killed-osama-bin-ladens-biggest-taliban-rival-12023555#publisher=newsstand"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.86,
-      "brief": "On September 9, 2001, just two days before the catastrophic 9/11 attacks, Ahmad Shah Massoud, the legendary commander of the Northern Alliance and the most formidable Afghan resistance leader against the Taliban, was assassinated in a suicide bombing. Two Al Qaeda operatives, posing as journalists, detonated explosives concealed within a camera during an interview in Takhar province, effectively eliminating the primary internal obstacle to the Taliban's consolidation of power. This calculated assassination was orchestrated by Al Qaeda leadership to secure the Taliban's unwavering protection and loyalty in the immediate lead-up to the September 11 attacks on the United States. By removing Massoud, Osama bin Laden ensured that the Northern Alliance would be destabilized and leaderless, thereby preventing any significant domestic Afghan opposition from interfering with Al Qaeda’s operational sanctuary. This pivotal event fundamentally altered the trajectory of the Afghan conflict, removing the only figure capable of unifying disparate factions against the Taliban regime. Massoud’s assassination was a strategic prerequisite for the 9/11 attacks, as it neutralized the most effective Afghan resistance force and solidified the Taliban-Al Qaeda alliance, directly shaping the subsequent U.S. invasion and the geopolitical landscape of the region for decades.",
-      "brief_word_count": 193,
-      "summary": "On September 9, 2001, just two days before the catastrophic 9/11 attacks, Ahmad Shah Massoud, the legendary commander of the Northern Alliance and the most formidable Afghan resistance leader against the Taliban, was assassinated in a suicide bombing. Two Al Qaeda operatives, posing as journalists, detonated explosives concealed within a camera during an interview in Takhar province, effectively eliminating the primary internal obstacle to the Taliban's consolidation of power. This calculated assassination was orchestrated by Al Qaeda leadership to secure the Taliban's unwavering protection and loyalty in the immediate lead-up to the September 11 attacks on the United States. By removing Massoud, Osama bin Laden ensured that the Northern Alliance would be destabilized and leaderless, thereby preventing any significant domestic Afghan opposition from interfering with Al Qaeda’s operational sanctuary. This pivotal event fundamentally altered the trajectory of the Afghan conflict, removing the only figure capable of unifying disparate factions against the Taliban regime. Massoud’s assassination was a strategic prerequisite for the 9/11 attacks, as it neutralized the most effective Afghan resistance force and solidified the Taliban-Al Qaeda alliance, directly shaping the subsequent U.S. invasion and the geopolitical landscape of the region for decades."
-    },
-    {
-      "story_id": "story-63",
-      "category": "Society",
-      "primary_headline": "Two killed in explosion at hydroelectric plant in Switzerland",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Two killed in explosion at hydroelectric plant in Switzerland - Reuters",
-        "published_at": "Wed, 09 Sep 2026 14:28:41 GMT",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQkJaQnBwa3dCSXY5NkZZUThSYXVtNENWTGVIcG9UbHlNakV5blBiS1lfZkxKNUw4cTNSdW9OcVhobmItZld1bjgyMmZaUlM2Y1h2bUVJQzgybW84bnNFWDRKOEtDcWFDOWdBZDlxeDZ4TUNqNEFLcHJvMWlyXzllNlBmSWh6LW9aak5JNWQyVDhvYW5TOEx3Wkh6dE51RlRERDNQWWYwNkVMSmlmLWNzLUk0NElFZw?oc=5",
-        "content": "Two killed in explosion at hydroelectric plant in Switzerland&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "Two killed in explosion at hydroelectric plant in Switzerland - Reuters",
-          "published_at": "Wed, 09 Sep 2026 14:28:41 GMT",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQkJaQnBwa3dCSXY5NkZZUThSYXVtNENWTGVIcG9UbHlNakV5blBiS1lfZkxKNUw4cTNSdW9OcVhobmItZld1bjgyMmZaUlM2Y1h2bUVJQzgybW84bnNFWDRKOEtDcWFDOWdBZDlxeDZ4TUNqNEFLcHJvMWlyXzllNlBmSWh6LW9aak5JNWQyVDhvYW5TOEx3Wkh6dE51RlRERDNQWWYwNkVMSmlmLWNzLUk0NElFZw?oc=5"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.86,
-      "brief": "A tragic industrial accident occurred at a hydroelectric facility in Switzerland, resulting in the confirmed deaths of two individuals following a sudden explosion. Local emergency services and specialized technical teams were immediately dispatched to the site to secure the perimeter, extinguish potential fires, and initiate a comprehensive investigation into the root cause of the blast. While authorities have not yet released the identities of the victims or specific details regarding the operational status of the plant at the time of the incident, the event has triggered an immediate review of safety protocols across the region's critical energy infrastructure. Swiss officials are currently coordinating with plant operators to assess the structural integrity of the facility and determine whether the explosion was the result of mechanical failure, human error, or external factors. This incident underscores the inherent risks associated with maintaining power generation assets and highlights the urgent need for rigorous oversight in the European energy sector. This incident raises critical questions regarding the safety and maintenance standards of Switzerland's hydroelectric infrastructure, which is essential for the nation's energy security and grid stability. The investigation will likely necessitate stricter regulatory compliance and potential capital expenditure mandates for operators to prevent future catastrophic failures in the power sector.",
-      "brief_word_count": 205,
-      "summary": "A tragic industrial accident occurred at a hydroelectric facility in Switzerland, resulting in the confirmed deaths of two individuals following a sudden explosion. Local emergency services and specialized technical teams were immediately dispatched to the site to secure the perimeter, extinguish potential fires, and initiate a comprehensive investigation into the root cause of the blast. While authorities have not yet released the identities of the victims or specific details regarding the operational status of the plant at the time of the incident, the event has triggered an immediate review of safety protocols across the region's critical energy infrastructure. Swiss officials are currently coordinating with plant operators to assess the structural integrity of the facility and determine whether the explosion was the result of mechanical failure, human error, or external factors. This incident underscores the inherent risks associated with maintaining power generation assets and highlights the urgent need for rigorous oversight in the European energy sector. This incident raises critical questions regarding the safety and maintenance standards of Switzerland's hydroelectric infrastructure, which is essential for the nation's energy security and grid stability. The investigation will likely necessitate stricter regulatory compliance and potential capital expenditure mandates for operators to prevent future catastrophic failures in the power sector."
-    },
-    {
-      "story_id": "story-67",
-      "category": "Society",
-      "primary_headline": "CM Suvendu vows to 'uproot' forces raising 'Kashmir wants freedom', 'red salute' slogans on JU campus",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "CM Suvendu vows to 'uproot' forces raising 'Kashmir wants freedom', 'red salute' slogans on JU campus",
-        "published_at": "Wed, 09 Sep 2026 13:48:14 +0000",
-        "url": "https://www.deccanherald.com/india/west-bengal/cm-suvendu-vows-to-uproot-forces-raising-kashmir-wants-freedom-red-salute-slogans-on-ju-campus-4140643",
-        "content": " Kolkata: West Bengal Chief Minister Suvendu Adhikari on Wednesday vowed to \"uproot\" forces raising slogans such as \"Kashmir wants freedom\" and \"red salute\" on Jadavpur University campus, asserting that he would not tolerate any insult to the saffron colour.Addressing a gathering outside the campus after leading the 3-km 'Gerua Samman Yatra' from Golpark, Adhikari described the varsity as the land of Sri Aurobindo.\"I will not tolerate the insult of saffron. I have given a clear message. The West Bengal chief minister knows how to wipe out 'Kashmir Mange Azadi' and 'red salute' from Jadavpur,\" he said.\"I have taken a vow that from Jadavpur, the land of Sri Aurobindo and a centre of excellence, I will uproot those who raise 'Kashmir Mange Azadi' slogans and those who have supported the 'kisan' (sic) movement,\" he added.Adhikari announced he would visit the area again, saying those who insult saffron should be \"taught a lesson\" through religious programmes.\"I will come again to teach them a lesson through recitation of the Gita and the Hanuman Chalisa,\" he said.\"This is the land of Swami Vivekananda, and saffron will remain here,\" he added.Adhikari also announced a three-day Vedic recital programme, appealing to people to participate in it.West Bengal CM Suvendu Adhikari launches 'Arjun Vahini' for early-stage disaster responseDressed in saffron and carrying a saffron flag, Adhikari led the procession, which was joined by a large number of monks, including 'Naga Sadhus', and BJP workers, chanting 'Jai Shri Ram'.\"We have sacrificed our lives for the country and taken up arms to protect our faith. Why are we being insulted,\" a Naga Sadhu asked, thanking Adhikari for taking up the issue.The mobilisation comes amid a political and ideological battle at Jadavpur University, where clashes, graffiti and slogan wars between Left-wing student groups and the RSS-affiliated ABVP have intensified in recent days.A BJP leader said the march was organised to uphold the \"dignity\" of saffron, which the party has sought to project as a symbol of India's cultural heritage and national pride.The march was held less than a fortnight after Adhikari attended a programme outside the campus, where around 10,000 people sang the full version of 'Vande Mataram'.Participating in that event, Adhikari had targeted both the CPI(M)-led Left Front and the Trinamool Congress, accusing them of allowing \"nationalism to fade from public consciousness\"."
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "CM Suvendu vows to 'uproot' forces raising 'Kashmir wants freedom', 'red salute' slogans on JU campus",
-          "published_at": "Wed, 09 Sep 2026 13:48:14 +0000",
-          "url": "https://www.deccanherald.com/india/west-bengal/cm-suvendu-vows-to-uproot-forces-raising-kashmir-wants-freedom-red-salute-slogans-on-ju-campus-4140643"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.86,
-      "brief": "West Bengal politician Suvendu Adhikari led a provocative 'Gerua Samman Yatra' to the Jadavpur University campus, where he publicly vowed to \"uproot\" ideological dissenters who chant slogans such as \"Kashmir wants freedom\" and \"red salute.\" Framing the university as the historic land of Sri Aurobindo and Swami Vivekananda, Adhikari declared that he would not tolerate the perceived insult to the saffron color, announcing plans to counter these student movements with organized Vedic recitals, including the Gita and Hanuman Chalisa. The procession, which featured Naga Sadhus and BJP supporters chanting religious slogans, underscores the escalating ideological confrontation at the university between Left-wing student organizations and RSS-affiliated groups like the ABVP. By positioning himself as a defender of nationalistic and cultural heritage, Adhikari is actively intensifying the political battleground in West Bengal, aiming to reclaim public consciousness from what he characterizes as fading nationalism under the current political establishment. This mobilization signals a deliberate escalation in the BJP’s strategy to polarize the academic environment in West Bengal, transforming university campuses into primary theaters for ideological warfare. It suggests a long-term effort to consolidate a nationalist voting base by framing cultural and religious identity as the central axis of state politics.",
-      "brief_word_count": 198,
-      "summary": "West Bengal politician Suvendu Adhikari led a provocative 'Gerua Samman Yatra' to the Jadavpur University campus, where he publicly vowed to \"uproot\" ideological dissenters who chant slogans such as \"Kashmir wants freedom\" and \"red salute.\" Framing the university as the historic land of Sri Aurobindo and Swami Vivekananda, Adhikari declared that he would not tolerate the perceived insult to the saffron color, announcing plans to counter these student movements with organized Vedic recitals, including the Gita and Hanuman Chalisa. The procession, which featured Naga Sadhus and BJP supporters chanting religious slogans, underscores the escalating ideological confrontation at the university between Left-wing student organizations and RSS-affiliated groups like the ABVP. By positioning himself as a defender of nationalistic and cultural heritage, Adhikari is actively intensifying the political battleground in West Bengal, aiming to reclaim public consciousness from what he characterizes as fading nationalism under the current political establishment. This mobilization signals a deliberate escalation in the BJP’s strategy to polarize the academic environment in West Bengal, transforming university campuses into primary theaters for ideological warfare. It suggests a long-term effort to consolidate a nationalist voting base by framing cultural and religious identity as the central axis of state politics."
-    },
-    {
-      "story_id": "story-73",
-      "category": "Society",
-      "primary_headline": "Whatever happened to the measles outbreak that shocked a country this year?",
-      "primary_source": {
-        "source_name": "NPR",
-        "headline": "Whatever happened to the measles outbreak that shocked a country this year?",
-        "published_at": "Wed, 09 Sep 2026 09:04:43 -0400",
-        "url": "https://www.npr.org/2026/09/09/g-s1-141466/measles-outbreak-vaccination-bangladesh",
-        "content": "Bangladesh has seen over 50,000 confirmed or suspected cases of measles this year. The death toll among children just surpassed 1,000. How are officials trying to bring the outbreak under control?(Image credit: Ali Asif Shawon for NPR)"
-      },
-      "sources": [
-        {
-          "source_name": "NPR",
-          "headline": "Whatever happened to the measles outbreak that shocked a country this year?",
-          "published_at": "Wed, 09 Sep 2026 09:04:43 -0400",
-          "url": "https://www.npr.org/2026/09/09/g-s1-141466/measles-outbreak-vaccination-bangladesh"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.86,
-      "brief": "Bangladesh is currently grappling with a severe and devastating measles outbreak that has infected over 50,000 individuals, with the tragic death toll among children recently surpassing the 1,000 mark. This alarming surge in cases highlights significant vulnerabilities in the nation's public health infrastructure and immunization coverage, which have struggled to contain the highly contagious virus. Health officials and international organizations are now scrambling to implement emergency vaccination campaigns and bolster surveillance efforts to curb the rapid transmission rates across affected regions. The crisis has prompted urgent questions regarding the efficacy of existing healthcare delivery systems and the logistical challenges of reaching marginalized populations with life-saving vaccines. As the government intensifies its containment strategies, the focus remains on preventing further loss of life while addressing the underlying gaps in pediatric healthcare access that allowed this preventable disease to escalate into a national emergency. This outbreak serves as a critical warning about the fragility of global immunization progress and the potential for preventable diseases to resurge when healthcare systems are compromised. It underscores the urgent need for renewed international investment in robust, resilient public health infrastructure to prevent future epidemiological catastrophes in developing nations.",
-      "brief_word_count": 192,
-      "summary": "Bangladesh is currently grappling with a severe and devastating measles outbreak that has infected over 50,000 individuals, with the tragic death toll among children recently surpassing the 1,000 mark. This alarming surge in cases highlights significant vulnerabilities in the nation's public health infrastructure and immunization coverage, which have struggled to contain the highly contagious virus. Health officials and international organizations are now scrambling to implement emergency vaccination campaigns and bolster surveillance efforts to curb the rapid transmission rates across affected regions. The crisis has prompted urgent questions regarding the efficacy of existing healthcare delivery systems and the logistical challenges of reaching marginalized populations with life-saving vaccines. As the government intensifies its containment strategies, the focus remains on preventing further loss of life while addressing the underlying gaps in pediatric healthcare access that allowed this preventable disease to escalate into a national emergency. This outbreak serves as a critical warning about the fragility of global immunization progress and the potential for preventable diseases to resurge when healthcare systems are compromised. It underscores the urgent need for renewed international investment in robust, resilient public health infrastructure to prevent future epidemiological catastrophes in developing nations."
-    },
-    {
-      "story_id": "story-74",
-      "category": "Society",
-      "primary_headline": "‘I can’t live with the fear of dying’: Students leave PGs in collapsed Delhi hostel locality",
-      "primary_source": {
-        "source_name": "The Indian Express",
-        "headline": "‘I can’t live with the fear of dying’: Students leave PGs in collapsed Delhi hostel locality",
-        "published_at": "Wed, 09 Sep 2026 12:50:46 +0000",
-        "url": "https://indianexpress.com/article/cities/delhi/satya-niketan-demolition-mcd-hostel-collapse-unsafe-buildings-10870313/",
-        "content": "After Sunday’s collapse in South Delhi's Satya Niketan killed seven people, including five DU students, MCD officials asked residents of 10-15 nearby structures to vacate while buildings were cleared for demolition."
-      },
-      "sources": [
+          "headline": "Kolkata Durga Puja Stampede: Examining CCTV, Won't Spare Anyone, Says Suvendu Adhikari",
+          "published_at": "Sun, 18 Oct 2026 00:45:26 +0530",
+          "url": "https://www.ndtv.com/india-news/kolkata-durga-puja-stampede-live-updates-north-kolkata-chorbagan-pandal-chorebagan-sarbojanin-news-today-12200230#publisher=newsstand"
+        },
         {
           "source_name": "The Indian Express",
-          "headline": "‘I can’t live with the fear of dying’: Students leave PGs in collapsed Delhi hostel locality",
-          "published_at": "Wed, 09 Sep 2026 12:50:46 +0000",
-          "url": "https://indianexpress.com/article/cities/delhi/satya-niketan-demolition-mcd-hostel-collapse-unsafe-buildings-10870313/"
+          "headline": "Kolkata Durga Puja Stampede Live Updates: Out of 25 injured, 2 in ICU but ‘not under threat’, says Suvendu Adhikari",
+          "published_at": "Sat, 17 Oct 2026 16:52:13 +0000",
+          "url": "https://indianexpress.com/article/cities/kolkata/kolkata-durga-puja-stampede-live-updates-chorebagan-pandal-incident-today-several-injured-latest-news-10926181/"
         }
       ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.86,
-      "brief": "Following a catastrophic building collapse in South Delhi’s Satya Niketan neighborhood that claimed seven lives, including five Delhi University students, local authorities have initiated urgent safety measures. The Municipal Corporation of Delhi (MCD) has mandated the immediate evacuation of residents from 10 to 15 adjacent structures, citing severe structural instability that necessitates their eventual demolition. This tragedy has triggered a wave of panic among the student population, many of whom are now abandoning their paying guest accommodations, citing an overwhelming fear of living in similarly compromised infrastructure. The incident has exposed deep-seated systemic failures in urban planning and building safety enforcement, forcing a reckoning regarding the unregulated growth of student housing in the capital. As families mourn the victims, the mass displacement of students highlights the precarious nature of the city's housing market and the urgent need for rigorous structural audits to prevent further loss of life. This incident serves as a critical indictment of Delhi’s lax building safety enforcement, likely forcing a city-wide regulatory crackdown on unauthorized student housing that will disrupt the local rental market and necessitate significant infrastructure reform.",
-      "brief_word_count": 182,
-      "summary": "Following a catastrophic building collapse in South Delhi’s Satya Niketan neighborhood that claimed seven lives, including five Delhi University students, local authorities have initiated urgent safety measures. The Municipal Corporation of Delhi (MCD) has mandated the immediate evacuation of residents from 10 to 15 adjacent structures, citing severe structural instability that necessitates their eventual demolition. This tragedy has triggered a wave of panic among the student population, many of whom are now abandoning their paying guest accommodations, citing an overwhelming fear of living in similarly compromised infrastructure. The incident has exposed deep-seated systemic failures in urban planning and building safety enforcement, forcing a reckoning regarding the unregulated growth of student housing in the capital. As families mourn the victims, the mass displacement of students highlights the precarious nature of the city's housing market and the urgent need for rigorous structural audits to prevent further loss of life. This incident serves as a critical indictment of Delhi’s lax building safety enforcement, likely forcing a city-wide regulatory crackdown on unauthorized student housing that will disrupt the local rental market and necessitate significant infrastructure reform."
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.63,
+      "brief_bullets": [
+        "Kolkata Durga Puja Stampede: Examining CCTV, Won't Spare Anyone, Says Suvendu Adhikari.",
+        "Verified accounts indicate critical developments surrounding kolkata durga puja stampede: examining cctv, won't spare anyone, says suvendu adhikari, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
+      ],
+      "brief": "Kolkata Durga Puja Stampede: Examining CCTV, Won't Spare Anyone, Says Suvendu Adhikari. Verified accounts indicate critical developments surrounding kolkata durga puja stampede: examining cctv, won't spare anyone, says suvendu adhikari, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
+      "brief_word_count": 74
     }
-  ],
-  "category": "society"
+  ]
 }

@@ -1,1 +1,730 @@
-{"id": "latest", "category": "1hour", "timestamp": "2026-10-18T11:51:08.583175+00:00", "articlesCount": 0, "stories": []}
+{
+  "id": "latest",
+  "category": "1hour",
+  "timestamp": "2026-10-18T12:05:47.587879+00:00",
+  "articlesCount": 20,
+  "stories": [
+    {
+      "story_id": "story-15",
+      "category": "Society",
+      "primary_headline": "Pope Leo pledges gradual return to duties in first event since cancer surgery",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Pope Leo pledges gradual return to duties in first event since cancer surgery - Reuters",
+        "published_at": "Sun, 18 Oct 2026 11:23:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQajlwczZReXZXSkQ1X1JuZWNGWlNjX2VXcW9hNVdlNXYybU00b3NkSFdpdXo4ZXFLZ184OENSdTZRbE9DdDF2ejZIRVpXUWk2MjdJbWM2Y0JMNzVfcGFvYzRxUU5LYUhpTTB6QWpQWHgwR0tEUXZkNnhBMkxJYkd4dTBydU1OWFpVd3lSNjRSSmF3QW9TUmFocVJVa1QyVUtJcFFHeUwwTGg?oc=5",
+        "content": "Pope Leo pledges gradual return to duties in first event since cancer surgery&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Pope Leo pledges gradual return to duties in first event since cancer surgery - Reuters",
+          "published_at": "Sun, 18 Oct 2026 11:23:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQajlwczZReXZXSkQ1X1JuZWNGWlNjX2VXcW9hNVdlNXYybU00b3NkSFdpdXo4ZXFLZ184OENSdTZRbE9DdDF2ejZIRVpXUWk2MjdJbWM2Y0JMNzVfcGFvYzRxUU5LYUhpTTB6QWpQWHgwR0tEUXZkNnhBMkxJYkd4dTBydU1OWFpVd3lSNjRSSmF3QW9TUmFocVJVa1QyVUtJcFFHeUwwTGg?oc=5"
+        },
+        {
+          "source_name": "BBC News",
+          "headline": "Watch: Pope thanks well-wishers in first event after cancer surgery",
+          "published_at": "Sun, 18 Oct 2026 11:09:32 GMT",
+          "url": "https://www.bbc.co.uk/news/videos/cq70px6pjkg5o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Pope Leo greets crowds at Vatican City in first event since cancer surgery",
+          "published_at": "Sun, 18 Oct 2026 10:48:51 +0000",
+          "url": "https://www.deccanherald.com/world/rest-of-world/pope-leo-greets-crowds-at-vatican-city-in-first-event-since-cancer-surgery-4187187"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 3,
+      "combined_score": 2.4,
+      "brief_bullets": [
+        "Pope Leo pledges gradual return to duties in first event since cancer surgery.",
+        "Verified accounts indicate critical developments surrounding pope leo pledges gradual return to duties in first event since cancer surgery, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
+      ],
+      "brief": "Pope Leo pledges gradual return to duties in first event since cancer surgery. Verified accounts indicate critical developments surrounding pope leo pledges gradual return to duties in first event since cancer surgery, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
+      "brief_word_count": 76
+    },
+    {
+      "story_id": "story-23",
+      "category": "Society",
+      "primary_headline": "Three kin arrested after five family members found dead in Greater Noida",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Three kin arrested after five family members found dead in Greater Noida",
+        "published_at": "Sun, 18 Oct 2026 17:29:18 +0530",
+        "url": "https://www.thehindu.com/news/national/kin-arrested-after-family-members-found-dead-in-greater-noida/article71599681.ece",
+        "content": "Preliminary suspicion had pointed to possible food poisoning, with reports suggesting that the family ate noodles before their deaths"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Three kin arrested after five family members found dead in Greater Noida",
+          "published_at": "Sun, 18 Oct 2026 17:29:18 +0530",
+          "url": "https://www.thehindu.com/news/national/kin-arrested-after-family-members-found-dead-in-greater-noida/article71599681.ece"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Noida couple, children found dead: Police book three family members for abetment to suicide",
+          "published_at": "Sun, 18 Oct 2026 07:40:08 +0000",
+          "url": "https://indianexpress.com/article/cities/delhi/noida-couple-children-dead-police-book-family-members-abetment-suicide-10926689/"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.66,
+      "brief_bullets": [
+        "Three kin arrested after five family members found dead in Greater Noida.",
+        "Verified accounts indicate critical developments surrounding three kin arrested after five family members found dead in greater noida, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+      ],
+      "brief": "Three kin arrested after five family members found dead in Greater Noida. Verified accounts indicate critical developments surrounding three kin arrested after five family members found dead in greater noida, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 75
+    },
+    {
+      "story_id": "story-27",
+      "category": "Society",
+      "primary_headline": "Cockroach effigy at Delhi Ramlila event triggers queries; organisers say promoting cleanliness",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Cockroach effigy at Delhi Ramlila event triggers queries; organisers say promoting cleanliness",
+        "published_at": "Sun, 18 Oct 2026 17:31:24 +0530",
+        "url": "https://www.thehindu.com/news/cities/Delhi/cockroach-effigy-at-delhi-ramlila-event-triggers-queries-organisers-say-promoting-cleanliness/article71599268.ece",
+        "content": "Shree Keshav Ram Leela Committee president Ashok Goel said the 30-foot effigy symbolises filth and is unrelated to the Cockroach Janta Party, as social media users question the timing"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Cockroach effigy at Delhi Ramlila event triggers queries; organisers say promoting cleanliness",
+          "published_at": "Sun, 18 Oct 2026 17:31:24 +0530",
+          "url": "https://www.thehindu.com/news/cities/Delhi/cockroach-effigy-at-delhi-ramlila-event-triggers-queries-organisers-say-promoting-cleanliness/article71599268.ece"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "'For Swachh Bharat': Delhi Ram Leela Event Organisers On Burning Of Cockroach Effigy",
+          "published_at": "Sun, 18 Oct 2026 10:51:21 +0530",
+          "url": "https://www.ndtv.com/delhi-news/for-swachh-bharat-delhi-shree-keshav-ram-leela-event-organisers-on-burning-of-cockroach-effigy-12201558#publisher=newsstand"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.63,
+      "brief_bullets": [
+        "Cockroach effigy at Delhi Ramlila event triggers queries; organisers say promoting cleanliness.",
+        "Verified accounts indicate critical developments surrounding cockroach effigy at delhi ramlila event triggers queries; organisers say promoting cleanliness, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "Cockroach effigy at Delhi Ramlila event triggers queries; organisers say promoting cleanliness. Verified accounts indicate critical developments surrounding cockroach effigy at delhi ramlila event triggers queries; organisers say promoting cleanliness, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 74
+    },
+    {
+      "story_id": "story-28",
+      "category": "Geopolitics",
+      "primary_headline": "Menstrual hygiene: Supreme Court expresses displeasure over States, UTs not responding to Centre",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Menstrual hygiene: Supreme Court expresses displeasure over States, UTs not responding to Centre",
+        "published_at": "Sun, 18 Oct 2026 16:57:49 +0530",
+        "url": "https://www.thehindu.com/news/national/menstrual-hygiene-supreme-court-expresses-displeasure-over-states-uts-not-responding-to-centre/article71599447.ece",
+        "content": "The Bench said that on September 1, it had directed the States and UTs to take into consideration the deficiencies highlighted by it and report in that regard by the next date of hearing"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Menstrual hygiene: Supreme Court expresses displeasure over States, UTs not responding to Centre",
+          "published_at": "Sun, 18 Oct 2026 16:57:49 +0530",
+          "url": "https://www.thehindu.com/news/national/menstrual-hygiene-supreme-court-expresses-displeasure-over-states-uts-not-responding-to-centre/article71599447.ece"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "SC warns states, UTs of contempt action over menstrual hygiene judgment",
+          "published_at": "Sun, 18 Oct 2026 09:02:25 +0000",
+          "url": "https://www.deccanherald.com/india/sc-warns-states-uts-of-contempt-action-over-menstrual-hygiene-judgment-4187065"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.63,
+      "brief_bullets": [
+        "Menstrual hygiene: Supreme Court expresses displeasure over States, UTs not responding to Centre.",
+        "Verified accounts indicate critical developments surrounding menstrual hygiene: supreme court expresses displeasure over states, uts not responding to centre, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "Menstrual hygiene: Supreme Court expresses displeasure over States, UTs not responding to Centre. Verified accounts indicate critical developments surrounding menstrual hygiene: supreme court expresses displeasure over states, uts not responding to centre, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 76
+    },
+    {
+      "story_id": "story-37",
+      "category": "Society",
+      "primary_headline": "Priest accused of sexually harassing minor boys arrested",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Priest accused of sexually harassing minor boys arrested",
+        "published_at": "Sun, 18 Oct 2026 17:32:51 +0530",
+        "url": "https://www.thehindu.com/news/cities/Mangalore/priest-accused-of-sexually-harassing-minor-boys-arrested/article71599594.ece",
+        "content": "The victim said he narrated the sexual harassment to his parents, and they all went to the Mangaluru Bishop. On his instructions, he was giving the complaint, the boy said."
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Priest accused of sexually harassing minor boys arrested",
+          "published_at": "Sun, 18 Oct 2026 17:32:51 +0530",
+          "url": "https://www.thehindu.com/news/cities/Mangalore/priest-accused-of-sexually-harassing-minor-boys-arrested/article71599594.ece"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Mangaluru church priest arrested for sexually abusing minor boys: Police",
+          "published_at": "Sun, 18 Oct 2026 06:29:32 +0000",
+          "url": "https://indianexpress.com/article/cities/bangalore/mangaluru-church-priest-arrested-for-sexual-abuse-of-minors-10926650/"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.6,
+      "brief_bullets": [
+        "The victim said he narrated the sexual harassment to his parents, and they all went to the Mangaluru Bishop.",
+        "On his instructions, he was giving the complaint, the boy said."
+      ],
+      "why_it_matters_bullets": [
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+      ],
+      "brief": "The victim said he narrated the sexual harassment to his parents, and they all went to the Mangaluru Bishop. On his instructions, he was giving the complaint, the boy said. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 44
+    },
+    {
+      "story_id": "story-38",
+      "category": "Geopolitics",
+      "primary_headline": "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa",
+        "published_at": "Sun, 18 Oct 2026 17:32:41 +0530",
+        "url": "https://www.thehindu.com/news/national/goa/rahul-gandhi-goa-congress-anti-cec-protest-modi-shah-gyanesh-kumar/article71599732.ece",
+        "content": "India used to have a world-class education system earlier, but now pellet guns are being used against student protesters, he said, after walking two kilometres with workers and leaders"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa",
+          "published_at": "Sun, 18 Oct 2026 17:32:41 +0530",
+          "url": "https://www.thehindu.com/news/national/goa/rahul-gandhi-goa-congress-anti-cec-protest-modi-shah-gyanesh-kumar/article71599732.ece"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "India News Live Updates, 18 October 2026: In Goa, Rahul Gandhi targets PM Modi, Gyanesh Kumar on ‘vote chori’",
+          "published_at": "Sun, 18 Oct 2026 02:44:17 +0000",
+          "url": "https://indianexpress.com/article/india/today-india-breaking-news-live-updates-18-october-2026-gwalior-temple-truck-accident-cjp-abhijeet-dipke-rahul-gandhi-gyanesh-kumar-10926414/"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.6,
+      "brief_bullets": [
+        "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa.",
+        "Verified accounts indicate critical developments surrounding modi, amit shah and cec gyanesh kumar will pay price for 'vote chori': rahul gandhi in goa, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa. Verified accounts indicate critical developments surrounding modi, amit shah and cec gyanesh kumar will pay price for 'vote chori': rahul gandhi in goa, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 84
+    },
+    {
+      "story_id": "story-39",
+      "category": "Society",
+      "primary_headline": "India widens cancer drug price caps, lowering prices of 137 medicines",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "India widens cancer drug price caps, lowering prices of 137 medicines - Reuters",
+        "published_at": "Sun, 18 Oct 2026 11:27:03 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNYkkwM0RDdmdmQ1ktLWJBS05mMmp0SmNveGE5ZGRVWmNaYVA1czQwVEpSTGF0aXRSSVpYaGNYZ2tVVVVtN3Q0VUpqS1cxaVVMd3hUNkxPVEdhN2xfeHU3VjhuTkVoSlVJWDYxSXpSMkNiNUVOMGU2VUhWUTdBZUhzeUpidFhUTkhpZVFOOVRmYUV6alA3TC1BMTdYR2lJYktuZUI2UVZGMm5Wajg0MmNfMTg4NzJqeXVhVmpwNkVmbEpKbmhiUEJKUWQ4aTA3cmJTR0FR?oc=5",
+        "content": "India widens cancer drug price caps, lowering prices of 137 medicines&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "India widens cancer drug price caps, lowering prices of 137 medicines - Reuters",
+          "published_at": "Sun, 18 Oct 2026 11:27:03 GMT",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNYkkwM0RDdmdmQ1ktLWJBS05mMmp0SmNveGE5ZGRVWmNaYVA1czQwVEpSTGF0aXRSSVpYaGNYZ2tVVVVtN3Q0VUpqS1cxaVVMd3hUNkxPVEdhN2xfeHU3VjhuTkVoSlVJWDYxSXpSMkNiNUVOMGU2VUhWUTdBZUhzeUpidFhUTkhpZVFOOVRmYUV6alA3TC1BMTdYR2lJYktuZUI2UVZGMm5Wajg0MmNfMTg4NzJqeXVhVmpwNkVmbEpKbmhiUEJKUWQ4aTA3cmJTR0FR?oc=5"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "India widens cancer drug price caps, lowering prices of 137 medicines",
+          "published_at": "Sun, 18 Oct 2026 11:44:04 +0000",
+          "url": "https://www.deccanherald.com/business/india-widens-cancer-drug-price-caps-lowering-prices-of-137-medicines-4187220"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.6,
+      "brief_bullets": [
+        "India widens cancer drug price caps, lowering prices of 137 medicines.",
+        "Verified accounts indicate critical developments surrounding india widens cancer drug price caps, lowering prices of 137 medicines, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
+      ],
+      "brief": "India widens cancer drug price caps, lowering prices of 137 medicines. Verified accounts indicate critical developments surrounding india widens cancer drug price caps, lowering prices of 137 medicines, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
+      "brief_word_count": 72
+    },
+    {
+      "story_id": "story-40",
+      "category": "Society",
+      "primary_headline": "France faces aftermath of worst unrest in years",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "France faces aftermath of worst unrest in years - Reuters",
+        "published_at": "Sun, 18 Oct 2026 11:14:58 GMT",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNd1VSODRfY1ZTZlpfMVBnaXZzSi1KU1ZsUlJWcWZBaWVaQ0Fyal85ZmEtdkR3ZU94c2ZEeGNzRXpIamtSQVdfVlpJWTdhcEY2ZkZaMFZGZzlTVTVCTDRoUDJybE90dGJGYTNmU1NwUTJDNmVZZllXTDFSR3hIVnBTV2lYTk9LM2N1MlREWk9VOEtidHY2?oc=5",
+        "content": "France faces aftermath of worst unrest in years&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "France faces aftermath of worst unrest in years - Reuters",
+          "published_at": "Sun, 18 Oct 2026 11:14:58 GMT",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNd1VSODRfY1ZTZlpfMVBnaXZzSi1KU1ZsUlJWcWZBaWVaQ0Fyal85ZmEtdkR3ZU94c2ZEeGNzRXpIamtSQVdfVlpJWTdhcEY2ZkZaMFZGZzlTVTVCTDRoUDJybE90dGJGYTNmU1NwUTJDNmVZZllXTDFSR3hIVnBTV2lYTk9LM2N1MlREWk9VOEtidHY2?oc=5"
+        },
+        {
+          "source_name": "The Print",
+          "headline": "France counts cost of worst unrest in years - ThePrint",
+          "published_at": "Sun, 18 Oct 2026 11:30:17 GMT",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUldONjJ5c0pDRWdFVDhzLWJYRC04aVNzd29CT29iNUJZemxLYXNuTGZlS1g4QmttNUtoUVE1TXpFY1NFZS0wek9FUDg0MDN4LWs4Z3AyTWNGeUlnRTN4SVNKUktuTTZqLVN4UV84dC1DbjM3Vm95bFdQS29UbGVvbmtQR2jSAYoBQVVfeXFMT3lWVmZWajNBQVFibmFkN2JEamo3U2N3YnFFa3Y3dmZhazNXb1JLdmFXSDJnR0pmWHd0Y3p5a2l2Ymc5Si1SVE1UQnB1RERFWlY0Y1l5amlZS0I4c0t4X3ZaQTNURk5xbU5sRW93blBWb21vRktrM2l3bzRBQmpVdWQzalRJR3RDdDdn?oc=5"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.6,
+      "brief_bullets": [
+        "France faces aftermath of worst unrest in years.",
+        "Verified accounts indicate critical developments surrounding france faces aftermath of worst unrest in years, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Carries notable operational, policy, and market consequences surrounding 'France faces aftermath of worst unrest in years'."
+      ],
+      "brief": "France faces aftermath of worst unrest in years. Verified accounts indicate critical developments surrounding france faces aftermath of worst unrest in years, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Carries notable operational, policy, and market consequences surrounding 'France faces aftermath of worst unrest in years'.",
+      "brief_word_count": 69
+    },
+    {
+      "story_id": "story-66",
+      "category": "Society",
+      "primary_headline": "Water level in Mullaperiyar dam stands at 116.70 feet",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Water level in Mullaperiyar dam stands at 116.70 feet",
+        "published_at": "Sun, 18 Oct 2026 17:01:44 +0530",
+        "url": "https://www.thehindu.com/news/cities/Madurai/water-level-in-mullaperiyar-dam-stands-at-11670-feet/article71599624.ece",
+        "content": ""
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Water level in Mullaperiyar dam stands at 116.70 feet",
+          "published_at": "Sun, 18 Oct 2026 17:01:44 +0530",
+          "url": "https://www.thehindu.com/news/cities/Madurai/water-level-in-mullaperiyar-dam-stands-at-11670-feet/article71599624.ece"
+        },
+        {
+          "source_name": "The Hindu",
+          "headline": "Water level in dams and rainfall",
+          "published_at": "Sun, 18 Oct 2026 17:00:57 +0530",
+          "url": "https://www.thehindu.com/news/cities/Madurai/water-level-in-dams-and-rainfall/article71599623.ece"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 2,
+      "combined_score": 1.1,
+      "brief_bullets": [
+        "Water level in Mullaperiyar dam stands at 116.70 feet.",
+        "Verified accounts indicate critical developments surrounding water level in mullaperiyar dam stands at 116.70 feet, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Carries notable operational, policy, and market consequences surrounding 'Water level in Mullaperiyar dam stands at 116.70 feet'."
+      ],
+      "brief": "Water level in Mullaperiyar dam stands at 116.70 feet. Verified accounts indicate critical developments surrounding water level in mullaperiyar dam stands at 116.70 feet, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Carries notable operational, policy, and market consequences surrounding 'Water level in Mullaperiyar dam stands at 116.70 feet'.",
+      "brief_word_count": 72
+    },
+    {
+      "story_id": "story-78",
+      "category": "Finance",
+      "primary_headline": "Oil facilities hit in deadly overnight attack on St Petersburg",
+      "primary_source": {
+        "source_name": "BBC News",
+        "headline": "Oil facilities hit in deadly overnight attack on St Petersburg",
+        "published_at": "Sun, 18 Oct 2026 11:57:49 GMT",
+        "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss",
+        "content": "At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook."
+      },
+      "sources": [
+        {
+          "source_name": "BBC News",
+          "headline": "Oil facilities hit in deadly overnight attack on St Petersburg",
+          "published_at": "Sun, 18 Oct 2026 11:57:49 GMT",
+          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.92,
+      "brief_bullets": [
+        "Oil facilities hit in deadly overnight attack on St Petersburg.",
+        "Verified accounts indicate critical developments surrounding oil facilities hit in deadly overnight attack on st petersburg, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+      ],
+      "brief": "Oil facilities hit in deadly overnight attack on St Petersburg. Verified accounts indicate critical developments surrounding oil facilities hit in deadly overnight attack on st petersburg, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 73
+    },
+    {
+      "story_id": "story-79",
+      "category": "Geopolitics",
+      "primary_headline": "Five killed after car, trying to escape pothole, crashes into state transport bus in Maharashtra's Beed",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "Five killed after car, trying to escape pothole, crashes into state transport bus in Maharashtra's Beed",
+        "published_at": "Sun, 18 Oct 2026 11:37:15 +0000",
+        "url": "https://www.deccanherald.com/india/maharashtra/five-killed-after-car-trying-to-escape-pothole-crashes-into-state-transport-bus-in-maharashtras-beed-4187182",
+        "content": " Beed: Five people, among them an 11-year-old boy, were killed after their car swerved to avoid potholes and collided with a state transport bus in Maharashtra's Beed district on Sunday morning, police said.The accident occurred around 11 am at Shindewadi Cross Road on the Khamgaon-Pandharpur National Highway in Majalgaon tehsil, around 55 km from the district headquarters, an official said.He said that the victims, all residents of Majalgaon, were travelling towards Tuljapur in neighbouring Dharashiv district when their car crashed into a Maharashtra State Road Transport Corporation (MSRTC) bus coming from the opposite direction.The collision reduced the car to a mangled heap of metal, killing all five occupants on the spot, the official said.According to the police, the deceased have been identified as Omkar Mahadev Giri (24), Gajanan Mahadev Namdas (38), his son Samarth (11), Somnath Bade (23), and Anil Acharya (40).Speeding car crash triggers communal, moral and political row in KeralamCCTV footage from the area showed the speeding car lose control while attempting to avoid potholes on a bridge, leading to the head-on crash with the bus, the official said.The fatal crash triggered public anger over the deteriorating condition of roads on the Majalgaon-Telgaon stretch. Locals staged a road blockade alleging that substandard construction and poor maintenance had left fissures and uneven surfaces across the highway, turning the arterial road into an accident zone.Traffic came to a standstill for several hours on the highway due to the protest before senior police and district officials arrived at the scene, pacified the protesters, and restored traffic flow. "
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Five killed after car, trying to escape pothole, crashes into state transport bus in Maharashtra's Beed",
+          "published_at": "Sun, 18 Oct 2026 11:37:15 +0000",
+          "url": "https://www.deccanherald.com/india/maharashtra/five-killed-after-car-trying-to-escape-pothole-crashes-into-state-transport-bus-in-maharashtras-beed-4187182"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.92,
+      "brief_bullets": [
+        "Beed: Five people, among them an 11-year-old boy, were killed after their car swerved to avoid potholes and collided with a state transport bus in Maharashtra's Beed district on Sunday morning, police said.",
+        "The accident occurred around 11 am at Shindewadi Cross Road on the Khamgaon-Pandharpur National Highway in Majalgaon tehsil, around 55 km from the district headquarters, an official said.",
+        "He said that the victims, all residents of Majalgaon, were travelling towards Tuljapur in neighbouring Dharashiv district when their car crashed into a Maharashtra State Road Transport Corporation (MSRTC) bus coming from the opposite direction.",
+        "The collision reduced the car to a mangled heap of metal, killing all five occupants on the spot, the official said."
+      ],
+      "why_it_matters_bullets": [
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+      ],
+      "brief": "Beed: Five people, among them an 11-year-old boy, were killed after their car swerved to avoid potholes and collided with a state transport bus in Maharashtra's Beed district on Sunday morning, police said. The accident occurred around 11 am at Shindewadi Cross Road on the Khamgaon-Pandharpur National Highway in Majalgaon tehsil, around 55 km from the district headquarters, an official said. He said that the victims, all residents of Majalgaon, were travelling towards Tuljapur in neighbouring Dharashiv district when their car crashed into a Maharashtra State Road Transport Corporation (MSRTC) bus coming from the opposite direction. The collision reduced the car to a mangled heap of metal, killing all five occupants on the spot, the official said. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 131
+    },
+    {
+      "story_id": "story-87",
+      "category": "Finance",
+      "primary_headline": "World leaders must wise up to threat of cyber-attacks or rogue fridges will be least of their worries | Heather Stewart",
+      "primary_source": {
+        "source_name": "The Guardian",
+        "headline": "World leaders must wise up to threat of cyber-attacks or rogue fridges will be least of their worries | Heather Stewart",
+        "published_at": "Sun, 18 Oct 2026 11:46:50 GMT",
+        "url": "https://www.theguardian.com/business/2026/oct/18/world-leaders-threat-cyber-attacks-rogue-fridges-financial-system",
+        "content": "Global cooperation seems unlikely despite AI increasing the risk of digital fraud and the need to protect the financial systemRogue French fridges were an unlikely talking point for the world’s leading economists, central bankers and finance chiefs meeting in a sultry Bangkok last week – helping to underline the spiralling cost of cyber-attacks.Kristalina Georgieva, the managing director of the International Monetary Fund, seized on news that supermarket chains across France had to chuck out piles of spoiled food after hackers accessed their fridge controls and turned up the temperature to 50C. Continue reading..."
+      },
+      "sources": [
+        {
+          "source_name": "The Guardian",
+          "headline": "World leaders must wise up to threat of cyber-attacks or rogue fridges will be least of their worries | Heather Stewart",
+          "published_at": "Sun, 18 Oct 2026 11:46:50 GMT",
+          "url": "https://www.theguardian.com/business/2026/oct/18/world-leaders-threat-cyber-attacks-rogue-fridges-financial-system"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.86,
+      "brief_bullets": [
+        "Global cooperation seems unlikely despite AI increasing the risk of digital fraud and the need to protect the financial system.",
+        "Rogue French fridges were an unlikely talking point for the world’s leading economists, central bankers and finance chiefs meeting in a sultry Bangkok last week – helping to underline the spiralling cost of cyber-attacks.",
+        "Kristalina Georgieva, the managing director of the International Monetary Fund, seized on news that supermarket chains across France had to chuck out piles of spoiled food after hackers accessed their fridge controls and turned up the temperature to 50."
+      ],
+      "why_it_matters_bullets": [
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+      ],
+      "brief": "Global cooperation seems unlikely despite AI increasing the risk of digital fraud and the need to protect the financial system. Rogue French fridges were an unlikely talking point for the world’s leading economists, central bankers and finance chiefs meeting in a sultry Bangkok last week – helping to underline the spiralling cost of cyber-attacks. Kristalina Georgieva, the managing director of the International Monetary Fund, seized on news that supermarket chains across France had to chuck out piles of spoiled food after hackers accessed their fridge controls and turned up the temperature to 50. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 109
+    },
+    {
+      "story_id": "story-108",
+      "category": "Society",
+      "primary_headline": "Lisandro Martínez starts for Manchester United; Szoboszlai out for ‘some time’; Emi Martínez has jaw surgery – matchday live",
+      "primary_source": {
+        "source_name": "The Guardian",
+        "headline": "Lisandro Martínez starts for Manchester United; Szoboszlai out for ‘some time’; Emi Martínez has jaw surgery – matchday live",
+        "published_at": "Sun, 18 Oct 2026 12:00:09 GMT",
+        "url": "https://www.theguardian.com/football/live/2026/oct/18/manchester-united-feeling-the-heat-as-they-travel-to-leeds-matchday-live",
+        "content": "News, discussion and buildup to Sunday’s actionPremier League table | Top scorers | Mail usIn the MLS, Lionel Messi scored twice to help Inter Miami to a 3-1 win at Atlanta United. Messi and Luis Suarez had combined to set up the first goal, scored by the Mexico forward Germán Berterame. Messi took matters into his own hands – well, his left foot – after half-time with two beautiful solo goals.European roundup  Continue reading..."
+      },
+      "sources": [
+        {
+          "source_name": "The Guardian",
+          "headline": "Lisandro Martínez starts for Manchester United; Szoboszlai out for ‘some time’; Emi Martínez has jaw surgery – matchday live",
+          "published_at": "Sun, 18 Oct 2026 12:00:09 GMT",
+          "url": "https://www.theguardian.com/football/live/2026/oct/18/manchester-united-feeling-the-heat-as-they-travel-to-leeds-matchday-live"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "News, discussion and buildup to Sunday’s action.",
+        "Premier League table | Top scorers | Mail us.",
+        "In the MLS, Lionel Messi scored twice to help Inter Miami to a 3-1 win at Atlanta United.",
+        "Messi and Luis Suarez had combined to set up the first goal, scored by the Mexico forward Germán Berterame."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "News, discussion and buildup to Sunday’s action. Premier League table | Top scorers | Mail us. In the MLS, Lionel Messi scored twice to help Inter Miami to a 3-1 win at Atlanta United. Messi and Luis Suarez had combined to set up the first goal, scored by the Mexico forward Germán Berterame. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 66
+    },
+    {
+      "story_id": "story-109",
+      "category": "Geopolitics",
+      "primary_headline": "Assam SIT to approach Supreme Court against bail for two accused in Zubeen Garg death case",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Assam SIT to approach Supreme Court against bail for two accused in Zubeen Garg death case",
+        "published_at": "Sun, 18 Oct 2026 17:24:02 +0530",
+        "url": "https://www.thehindu.com/news/national/assam/assam-sit-to-approach-supreme-court-against-bail-for-two-accused-in-zubeen-garg-death-case/article71599682.ece",
+        "content": "The Gauhati High Court granted bail to the cultural icon’s co-singer Amritprabha Mahanta and cousin Sandipan Garg on October 9 and 16"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Assam SIT to approach Supreme Court against bail for two accused in Zubeen Garg death case",
+          "published_at": "Sun, 18 Oct 2026 17:24:02 +0530",
+          "url": "https://www.thehindu.com/news/national/assam/assam-sit-to-approach-supreme-court-against-bail-for-two-accused-in-zubeen-garg-death-case/article71599682.ece"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "Assam SIT to approach Supreme Court against bail for two accused in Zubeen Garg death case.",
+        "Verified accounts indicate critical developments surrounding assam sit to approach supreme court against bail for two accused in zubeen garg death case, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "Assam SIT to approach Supreme Court against bail for two accused in Zubeen Garg death case. Verified accounts indicate critical developments surrounding assam sit to approach supreme court against bail for two accused in zubeen garg death case, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 82
+    },
+    {
+      "story_id": "story-110",
+      "category": "Society",
+      "primary_headline": "Mysuru Dasara airshow: Surya Kiran's dazzling display cut short by rain",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "Mysuru Dasara airshow: Surya Kiran's dazzling display cut short by rain",
+        "published_at": "Sun, 18 Oct 2026 11:26:58 +0000",
+        "url": "https://www.deccanherald.com/india/karnataka/mysuru/mysuru-dasara-airshow-surya-kirans-dazzling-display-cut-short-by-rain-4187205",
+        "content": " Mysuru: The Suryakiran Aerobatic Team (SKAT) of the Indian Air Force, enthralled the jam-packed crowd at Bannimantap ground with their spectacular aerial display during Dasara Airshow in Mysuru on Sunday morning. However, due to rain and inclement weather conditions, the air warriors could only perform three horizontal manoeuvres, including the arrow manoeuvre with nine Hawk Mk 132 aircraft, in the blue sky canvas of Mysuru. The display was complemented by saffron, white and green smoke trails. The team, known for its precision, coordination, synchronisation, discipline and teamwork, performed with all the aircraft operating as a cohesive unit.Mysuru Dasara to feature special tableaux on Army, Navy, Air Force and moreMysuru: Farmers' Dasara turns into platform to inspire community towards independent livelihood, women empowermentThe people who had gathered after the gates of the ground opened at 9 am could witness the show for about 10 minutes from 11.20 am. They were disappointed as the team could not continue the show in view of the safety of pilots and the aircraft due to weather conditions. However, people returned with hope, as the show will be held on Monday too. On Monday, the Surya Kiran team will be flying all the nine aircraft, manufactured under licence by Hindustan Aeronautics Limited (HAL). They plan to showcase a series of intricate aerobatic manoeuvres, including both horizontal and vertical ones. Signature manoeuvres such as loops, barrel rolls, inverted flying and the DNA manoeuvres can also be witnessed.Set up in 1996, the Surya Kiran Aerobatic Team has a legacy of representing the Indian Air Force and the nation at air shows and public events across India and abroad. With over 800 displays to its credit, the team is inspiring generations of aviation enthusiasts and young Indians to consider a career in the Indian Air Force.  The display forms part of the team’s continued endeavour to bring the Indian Air Force closer to the people of the country. The show has been an opportunity for people to witness the synergy between man and machine, where every manoeuvre reflects the dedication, skill and teamwork that define the Indian Air Force.  "
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Mysuru Dasara airshow: Surya Kiran's dazzling display cut short by rain",
+          "published_at": "Sun, 18 Oct 2026 11:26:58 +0000",
+          "url": "https://www.deccanherald.com/india/karnataka/mysuru/mysuru-dasara-airshow-surya-kirans-dazzling-display-cut-short-by-rain-4187205"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "Mysuru: The Suryakiran Aerobatic Team (SKAT) of the Indian Air Force, enthralled the jam-packed crowd at Bannimantap ground with their spectacular aerial display during Dasara Airshow in Mysuru on Sunday morning.",
+        "However, due to rain and inclement weather conditions, the air warriors could only perform three horizontal manoeuvres, including the arrow manoeuvre with nine Hawk Mk 132 aircraft, in the blue sky canvas of Mysuru.",
+        "The display was complemented by saffron, white and green smoke trails.",
+        "The team, known for its precision, coordination, synchronisation, discipline and teamwork, performed with all the aircraft operating as a cohesive unit."
+      ],
+      "why_it_matters_bullets": [
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+      ],
+      "brief": "Mysuru: The Suryakiran Aerobatic Team (SKAT) of the Indian Air Force, enthralled the jam-packed crowd at Bannimantap ground with their spectacular aerial display during Dasara Airshow in Mysuru on Sunday morning. However, due to rain and inclement weather conditions, the air warriors could only perform three horizontal manoeuvres, including the arrow manoeuvre with nine Hawk Mk 132 aircraft, in the blue sky canvas of Mysuru. The display was complemented by saffron, white and green smoke trails. The team, known for its precision, coordination, synchronisation, discipline and teamwork, performed with all the aircraft operating as a cohesive unit. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 113
+    },
+    {
+      "story_id": "story-111",
+      "category": "Society",
+      "primary_headline": "Man, 80, who died in light aircraft crash near Loch Lomond named",
+      "primary_source": {
+        "source_name": "BBC News",
+        "headline": "Man, 80, who died in light aircraft crash near Loch Lomond named",
+        "published_at": "Sun, 18 Oct 2026 11:26:35 GMT",
+        "url": "https://www.bbc.co.uk/news/articles/cmx23p5w7123o?at_medium=RSS&at_campaign=rss",
+        "content": "The flying instructor has been described as \"a gentleman and an experienced aviator\" by former students.  "
+      },
+      "sources": [
+        {
+          "source_name": "BBC News",
+          "headline": "Man, 80, who died in light aircraft crash near Loch Lomond named",
+          "published_at": "Sun, 18 Oct 2026 11:26:35 GMT",
+          "url": "https://www.bbc.co.uk/news/articles/cmx23p5w7123o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "Man, 80, who died in light aircraft crash near Loch Lomond named.",
+        "Verified accounts indicate critical developments surrounding man, 80, who died in light aircraft crash near loch lomond named, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "Man, 80, who died in light aircraft crash near Loch Lomond named. Verified accounts indicate critical developments surrounding man, 80, who died in light aircraft crash near loch lomond named, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 74
+    },
+    {
+      "story_id": "story-112",
+      "category": "Finance",
+      "primary_headline": "France protests: More than 1,800 arrested, Interior Minister says",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "France protests: More than 1,800 arrested, Interior Minister says",
+        "published_at": "Sun, 18 Oct 2026 16:55:37 +0530",
+        "url": "https://www.thehindu.com/news/international/france-paris-protests-police-arrests-damage/article71599628.ece",
+        "content": "The violence in Paris, Marseille, Lyon, Bordeaux and other cities occurred on the sidelines of mass demonstrations against high inflation caused in part from the U.S.-Iran war"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "France protests: More than 1,800 arrested, Interior Minister says",
+          "published_at": "Sun, 18 Oct 2026 16:55:37 +0530",
+          "url": "https://www.thehindu.com/news/international/france-paris-protests-police-arrests-damage/article71599628.ece"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "France protests: More than 1,800 arrested, Interior Minister says.",
+        "Verified accounts indicate critical developments surrounding france protests: more than 1,800 arrested, interior minister says, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+      ],
+      "brief": "France protests: More than 1,800 arrested, Interior Minister says. Verified accounts indicate critical developments surrounding france protests: more than 1,800 arrested, interior minister says, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 71
+    },
+    {
+      "story_id": "story-113",
+      "category": "Society",
+      "primary_headline": "Anti-CEC protest LIVE | Congress says nothing can save CEC, demands SIR be suspended forthwith as ECI agrees to share ‘readable’ voter rolls",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Anti-CEC protest LIVE | Congress says nothing can save CEC, demands SIR be suspended forthwith as ECI agrees to share ‘readable’ voter rolls",
+        "published_at": "Sun, 18 Oct 2026 16:54:48 +0530",
+        "url": "https://www.thehindu.com/news/national/cec-gyanesh-kumar-protests-oct-18-live-updates-cjp/article71598964.ece",
+        "content": "The CJP has warned of legal action against those allegedly responsible for keeping Ashutosh and Saurav in illegal custody."
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Anti-CEC protest LIVE | Congress says nothing can save CEC, demands SIR be suspended forthwith as ECI agrees to share ‘readable’ voter rolls",
+          "published_at": "Sun, 18 Oct 2026 16:54:48 +0530",
+          "url": "https://www.thehindu.com/news/national/cec-gyanesh-kumar-protests-oct-18-live-updates-cjp/article71598964.ece"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "Anti-CEC protest LIVE.",
+        "Verified accounts indicate critical developments surrounding anti-cec protest live, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "Anti-CEC protest LIVE. Verified accounts indicate critical developments surrounding anti-cec protest live, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 56
+    },
+    {
+      "story_id": "story-114",
+      "category": "Geopolitics",
+      "primary_headline": "Serving tribal population, five government hospitals in Telangana’s Bhadradri Kothagudem district secure Kayakalp awards",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Serving tribal population, five government hospitals in Telangana’s Bhadradri Kothagudem district secure Kayakalp awards",
+        "published_at": "Sun, 18 Oct 2026 16:36:13 +0530",
+        "url": "https://www.thehindu.com/news/national/telangana/serving-tribal-population-five-government-hospitals-in-telanganas-bhadradri-kothagudem-district-secure-kayakalp-awards/article71599473.ece",
+        "content": "The Community Health Centre (CHC) at Palvancha secured the State-Level Eco-Friendly Award carrying ₹5 lakh, along with a Commendation Award"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Serving tribal population, five government hospitals in Telangana’s Bhadradri Kothagudem district secure Kayakalp awards",
+          "published_at": "Sun, 18 Oct 2026 16:36:13 +0530",
+          "url": "https://www.thehindu.com/news/national/telangana/serving-tribal-population-five-government-hospitals-in-telanganas-bhadradri-kothagudem-district-secure-kayakalp-awards/article71599473.ece"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "Serving tribal population, five government hospitals in Telangana’s Bhadradri Kothagudem district secure Kayakalp awards.",
+        "Verified accounts indicate critical developments surrounding serving tribal population, five government hospitals in telangana’s bhadradri kothagudem district secure kayakalp awards, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
+      ],
+      "brief": "Serving tribal population, five government hospitals in Telangana’s Bhadradri Kothagudem district secure Kayakalp awards. Verified accounts indicate critical developments surrounding serving tribal population, five government hospitals in telangana’s bhadradri kothagudem district secure kayakalp awards, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
+      "brief_word_count": 78
+    },
+    {
+      "story_id": "story-115",
+      "category": "Society",
+      "primary_headline": "Oklahoma Families Faced the Hottest Summer Ever and an Electricity Crisis",
+      "primary_source": {
+        "source_name": "NYT",
+        "headline": "Oklahoma Families Faced the Hottest Summer Ever and an Electricity Crisis",
+        "published_at": "Sun, 18 Oct 2026 11:05:57 +0000",
+        "url": "https://www.nytimes.com/2026/10/18/us/oklahoma-extreme-heat-electricity-crisis.html",
+        "content": "Record heat, a rising demand for power and an electricity crisis are closing in on Oklahoma families trying to keep the lights on and the AC running."
+      },
+      "sources": [
+        {
+          "source_name": "NYT",
+          "headline": "Oklahoma Families Faced the Hottest Summer Ever and an Electricity Crisis",
+          "published_at": "Sun, 18 Oct 2026 11:05:57 +0000",
+          "url": "https://www.nytimes.com/2026/10/18/us/oklahoma-extreme-heat-electricity-crisis.html"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "Oklahoma Families Faced the Hottest Summer Ever and an Electricity Crisis.",
+        "Verified accounts indicate critical developments surrounding oklahoma families faced the hottest summer ever and an electricity crisis, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
+      ],
+      "brief": "Oklahoma Families Faced the Hottest Summer Ever and an Electricity Crisis. Verified accounts indicate critical developments surrounding oklahoma families faced the hottest summer ever and an electricity crisis, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
+      "brief_word_count": 73
+    }
+  ]
+}

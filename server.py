@@ -90,7 +90,7 @@ SOURCES = [
   { "id": "ndtv", "name": "NDTV", "url": "https://feeds.feedburner.com/ndtvnews-latest", "siteUrl": "https://www.ndtv.com/" },
   { "id": "the-hindu", "name": "The Hindu", "url": "https://www.thehindu.com/news/feeder/default.rss", "siteUrl": "https://www.thehindu.com/" },
   { "id": "nytimes", "name": "NYT", "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml", "siteUrl": "https://www.nytimes.com/" },
-  { "id": "washington-post", "name": "Washington Post", "url": "http://feeds.washingtonpost.com/rss/world", "siteUrl": "https://www.washingtonpost.com/" },
+  { "id": "washington-post", "name": "Washington Post", "url": "https://news.google.com/rss/search?q=site:washingtonpost.com&hl=en-US&gl=US&ceid=US:en", "siteUrl": "https://www.washingtonpost.com/" },
   { "id": "wired", "name": "Wired", "url": "https://www.wired.com/feed/rss", "siteUrl": "https://www.wired.com/" },
   { "id": "ars-technica", "name": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/index", "siteUrl": "https://arstechnica.com/" },
   { "id": "hacker-news", "name": "Hacker News", "url": "https://hnrss.org/frontpage", "siteUrl": "https://news.ycombinator.com/" },
@@ -618,16 +618,15 @@ def get_filtered_articles(grounded_time_str, max_hours=24.0):
             seen_keys.add(key)
             filtered.append(art)
 
-    # Scrape description for articles with no or thin content in parallel
-    # Also re-scrape articles whose content is just the title (< 120 chars) — common with Reuters/paywalled sources
+    # Scrape description for articles with no or thin content in parallel (limit to top 20 to avoid execution timeouts)
     thin_content_articles = [
         art for art in filtered
         if not art.get('content') or len((art.get('content') or '').strip()) < 120
     ]
     if thin_content_articles:
-        print(f"[SCRAPE] Scraping/enriching content for {len(thin_content_articles)} thin-content articles...")
-        with concurrent.futures.ThreadPoolExecutor(max_workers=min(len(thin_content_articles), 10)) as executor:
-            list(executor.map(scrape_article_description, thin_content_articles))
+        to_scrape = thin_content_articles[:20]
+        with concurrent.futures.ThreadPoolExecutor(max_workers=min(len(to_scrape), 10)) as executor:
+            list(executor.map(scrape_article_description, to_scrape))
 
     def get_pub_time(a):
         dt = parse_date(a['pubDate'])

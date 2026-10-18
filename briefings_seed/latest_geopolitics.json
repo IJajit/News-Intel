@@ -1,582 +1,857 @@
 {
   "id": "latest",
-  "timestamp": "2026-09-09T15:56:01.806958+00:00",
+  "category": "geopolitics",
+  "timestamp": "2026-10-18T12:05:47.587879+00:00",
   "articlesCount": 20,
   "stories": [
     {
-      "story_id": "story-3",
+      "story_id": "story-4",
       "category": "Geopolitics",
-      "primary_headline": "At least 14 killed in explosion at weapons depot in Syria's Idlib, state TV says",
+      "primary_headline": "Truck drives through soccer field during game in Kansas, killing 2 and hospitalizing 11",
       "primary_source": {
-        "source_name": "Reuters",
-        "headline": "At least 14 killed in explosion at weapons depot in Syria's Idlib, state TV says - Reuters",
-        "published_at": "Wed, 09 Sep 2026 13:05:40 GMT",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYjc3cGhyUmRMMGN0WktZMUNsaF8wNy05RTBNY09sRUhxMnpTZ0thSl9Kam8ydlVnbUpWQjNMeWVDdUNIYVBjY0F4TTJyZUs4UlVxQ1BUUXhDalF2b0NYa2VBeTV3bUlMN1NISGlDN09VY2p5RFhUUUM0WWdBVDVRLTRtN3h6Rm5PZUdROVdvN281MmFTTm5pTllTVlFNcXZXMmZmUFZHUFlHbVI5?oc=5",
-        "content": "At least 14 killed in explosion at weapons depot in Syria's Idlib, state TV says&nbsp;&nbsp;Reuters"
+        "source_name": "AP News",
+        "headline": "Truck drives through soccer field during game in Kansas, killing 2 and hospitalizing 11 - AP News",
+        "published_at": "Sun, 18 Oct 2026 07:22:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN21KT3N5VjVzVFVna0lUMTJSdUJXek83VmRmS3pzcEpST2gtXzVlMzJicjBQTnQ3Ym05cmhzSFpqNHFpWDNISnNFeFdrdERlWlkzb1lTaFlseWJPREVGeUpibV9iNkpLdklpY1llNjlyWHVZcDhyWDBMS3pHbXJta0hMOWJzQXZnVHhhUnVYX0toRDNkOFJucy1uaUVTRWY4Vlhj?oc=5",
+        "content": "Truck drives through soccer field during game in Kansas, killing 2 and hospitalizing 11&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
-          "source_name": "Reuters",
-          "headline": "At least 14 killed in explosion at weapons depot in Syria's Idlib, state TV says - Reuters",
-          "published_at": "Wed, 09 Sep 2026 13:05:40 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYjc3cGhyUmRMMGN0WktZMUNsaF8wNy05RTBNY09sRUhxMnpTZ0thSl9Kam8ydlVnbUpWQjNMeWVDdUNIYVBjY0F4TTJyZUs4UlVxQ1BUUXhDalF2b0NYa2VBeTV3bUlMN1NISGlDN09VY2p5RFhUUUM0WWdBVDVRLTRtN3h6Rm5PZUdROVdvN281MmFTTm5pTllTVlFNcXZXMmZmUFZHUFlHbVI5?oc=5"
+          "source_name": "AP News",
+          "headline": "Truck drives through soccer field during game in Kansas, killing 2 and hospitalizing 11 - AP News",
+          "published_at": "Sun, 18 Oct 2026 07:22:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN21KT3N5VjVzVFVna0lUMTJSdUJXek83VmRmS3pzcEpST2gtXzVlMzJicjBQTnQ3Ym05cmhzSFpqNHFpWDNISnNFeFdrdERlWlkzb1lTaFlseWJPREVGeUpibV9iNkpLdklpY1llNjlyWHVZcDhyWDBMS3pHbXJta0hMOWJzQXZnVHhhUnVYX0toRDNkOFJucy1uaUVTRWY4Vlhj?oc=5"
         },
         {
-          "source_name": "Deccan Herald",
-          "headline": "At least 14 killed in explosion at weapons depot in Syria's Idlib",
-          "published_at": "Wed, 09 Sep 2026 13:47:57 +0000",
-          "url": "https://www.deccanherald.com/world/middle-east/at-least-14-killed-in-explosion-at-weapons-depot-in-syrias-idlib-4140712"
+          "source_name": "Reuters",
+          "headline": "Two killed, including 6-year-old, when truck drives through Kansas youth soccer game, police say - Reuters",
+          "published_at": "Sat, 17 Oct 2026 22:10:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTXduZ3p6ZDh4VG5wY05HRmxTR2lvak9YbnNwN0FaYTlCMzE5enY5S3BpcmxNdk96V0dueGs1dWkzTkEzMmIyZnhFLTd3NW5VQUFVMFpRX2tNYWVaVWhQMmlWSHNCWVRhTUdhYVVzRGVPOU1oT0tlenFIRzdwR2RVU1pTclpfdmNqbHJiNXJ4MGpuaTFMaVJ0dzlzeE5NMG9PcHRHdUdjZENTdEotdkwtRzBjNzNuX1ZydDhjdTBxX1U?oc=5"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Woman Drives Truck Through Football Game In US, Kills 2 And Injures 11",
+          "published_at": "Sun, 18 Oct 2026 11:08:28 +0530",
+          "url": "https://www.ndtv.com/world-news/woman-drives-truck-through-football-game-in-us-kansas-kills-2-and-injures-11-12201645#publisher=newsstand"
+        },
+        {
+          "source_name": "CNN",
+          "headline": "2 killed, multiple injured after mother drives onto field during youth soccer game in Wichita, Kansas - CNN",
+          "published_at": "Sat, 17 Oct 2026 21:55:50 GMT",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9IOEJ6REVSSGpqUnhpVVlBVFRVbE0yOUtJUVVHS25sNHc0bGNYNUpaQ3pkV3ZqdGlLS3NzZ196ZVZaQTctQkJWb3RCODF2Rmh5UEhPdDQ5emM0T0lVTVZfOThHQ3BWSExEVnl0TmZIWjlKeEhP?oc=5"
+        },
+        {
+          "source_name": "The Print",
+          "headline": "Two killed, including 6-year-old, when truck drives through Kansas youth soccer game, police say - ThePrint",
+          "published_at": "Sun, 18 Oct 2026 02:00:17 GMT",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPck5kVGpQU05NRFYxRUdLaDlqVURnMVdPdVRTVWR5Z0pWTmVjaHQ3eHg5dDVBdTcxV0J1TUhPMUFJSy12UGJlSXZsdFR4WXNSMk5yXzVMYS1zX2puMkRDYm9DT3N3aUZLQThLU0FHMGxoNHMzLVpRU3RBSGhZM21Gd1VQaEFWSUNVRTFiWDNwN1pLR09yb1ZYUTYydG5lcF9neHRER3VqZGpNS3ozTzNnS05qU0I1ajlKaHc3M2Y0Y0pIa2JkNE9r0gHMAUFVX3lxTE9HdktLdzJjUFZkWWNFMmcybjFnM1BjY3UyLUw0R2FlN1NxUXhUZ0lVRU93dk8xRWhwYVhBMHBrZEFpdTRSRnlvckY1b1dOa3BsTUVhR3pOTnhHWHdubDdXTDFoQTIwQjhQSlNYTnRqVU02bGhYeGNzWWdYcTZ2ODB4UWtLT3FTdWFuRmVWOVJBdkpacG9TLVBXdnpfNmsxVlNYWHotbVlPdnF5dFRaVnZibi0tZEIyWU11dzJZT0tqWHJheWo5VG41YjFMUA?oc=5"
         }
       ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.69,
-      "brief": "At least 14 individuals were killed and 11 others sustained injuries on Wednesday following a catastrophic explosion at a temporary weapons and war remnants storage facility near the Syrian city of Sarmada in Idlib province. Syrian state television reported that the site was being utilized to consolidate munitions for subsequent transport, though the specific cause of the initial detonation remains under investigation by local authorities. Emergency response efforts by Civil Defence and firefighting teams were significantly impeded by a series of secondary explosions that prolonged the blaze and complicated rescue operations. This tragic incident follows a similar, smaller-scale explosion in Binnish on September 1, which resulted in five fatalities and further underscores the persistent danger posed by unexploded ordnance and volatile munitions storage within the conflict-ridden region. The incident highlights the ongoing logistical and safety challenges faced by local actors attempting to manage remnants of war in volatile areas where infrastructure remains fragile and oversight is limited. This explosion highlights the lethal risks associated with the accumulation of unmanaged munitions in Syria’s conflict zones, posing a continuous threat to both local personnel and civilian populations. It underscores the critical need for safer demilitarization protocols and the severe consequences of inadequate storage management in an environment already destabilized by ongoing warfare.",
-      "brief_word_count": 210,
-      "summary": "At least 14 individuals were killed and 11 others sustained injuries on Wednesday following a catastrophic explosion at a temporary weapons and war remnants storage facility near the Syrian city of Sarmada in Idlib province. Syrian state television reported that the site was being utilized to consolidate munitions for subsequent transport, though the specific cause of the initial detonation remains under investigation by local authorities. Emergency response efforts by Civil Defence and firefighting teams were significantly impeded by a series of secondary explosions that prolonged the blaze and complicated rescue operations. This tragic incident follows a similar, smaller-scale explosion in Binnish on September 1, which resulted in five fatalities and further underscores the persistent danger posed by unexploded ordnance and volatile munitions storage within the conflict-ridden region. The incident highlights the ongoing logistical and safety challenges faced by local actors attempting to manage remnants of war in volatile areas where infrastructure remains fragile and oversight is limited. This explosion highlights the lethal risks associated with the accumulation of unmanaged munitions in Syria’s conflict zones, posing a continuous threat to both local personnel and civilian populations. It underscores the critical need for safer demilitarization protocols and the severe consequences of inadequate storage management in an environment already destabilized by ongoing warfare."
+      "source_count": 5,
+      "total_count": 6,
+      "combined_score": 4.36,
+      "brief_bullets": [
+        "Truck drives through soccer field during game in Kansas, killing 2 and hospitalizing 11.",
+        "Verified accounts indicate critical developments surrounding truck drives through soccer field during game in kansas, killing 2 and hospitalizing 11, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
+      ],
+      "brief": "Truck drives through soccer field during game in Kansas, killing 2 and hospitalizing 11. Verified accounts indicate critical developments surrounding truck drives through soccer field during game in kansas, killing 2 and hospitalizing 11, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
+      "brief_word_count": 78
     },
     {
       "story_id": "story-5",
       "category": "Geopolitics",
-      "primary_headline": "'All matters treated equally': Supreme Court refuses VVIP allegations in Rahul Gandhi defamation case",
+      "primary_headline": "Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta - Reuters",
+        "published_at": "Sun, 18 Oct 2026 02:13:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOU2FXR2gxVGRZLXlocTZDQnduRHpvT3JVUHotdTZsTmczb1B4TDE0OWktQmlDNm1WcGdqcEE2Zm9HTmtpN19Pb29YNnVyVHI4d1hXUG1lb0U2ejg2cDF4VGE5Wng0TGdrVDRaSU85WnNQVmw2WmpOaHhMNlpnTFo0cC1tRkRjTDZJVllKdDJIaUhmM1laR01KS2FrQTRKb1lpQThJZlRIeVd0OVZQUnlFX2tnamx6bHladV95MWZHNUVsSldx?oc=5",
+        "content": "Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta - Reuters",
+          "published_at": "Sun, 18 Oct 2026 02:13:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOU2FXR2gxVGRZLXlocTZDQnduRHpvT3JVUHotdTZsTmczb1B4TDE0OWktQmlDNm1WcGdqcEE2Zm9HTmtpN19Pb29YNnVyVHI4d1hXUG1lb0U2ejg2cDF4VGE5Wng0TGdrVDRaSU85WnNQVmw2WmpOaHhMNlpnTFo0cC1tRkRjTDZJVllKdDJIaUhmM1laR01KS2FrQTRKb1lpQThJZlRIeVd0OVZQUnlFX2tnamx6bHladV95MWZHNUVsSldx?oc=5"
+        },
+        {
+          "source_name": "Al Jazeera",
+          "headline": "‘Serious incident’ at Canada military base causes deaths, injuries - Al Jazeera",
+          "published_at": "Sun, 18 Oct 2026 08:17:43 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQVpyNVZVdDcyQ2pTOGRIVnRqUngxYXl3QnNfOWJwT1pIeXF3ekJPZzd3WkQtZ1ZUQ3Vwb25hWnZlSEtfcVJlZHNybGhlck1JOU5PZ25GRFd1UVBJOEZiaDlBRkFPRnAxTWxHd19XQ041bHhuX1gyUlZFamJfRndyM05zM1NCRDFDSVZiNWpIeWxHcWtBNWNxTS1ocE9tTVVoMTZVdXhoaHpSWTNvdGfSAbMBQVVfeXFMT3YwZlZqR05HTmNSX0QzRWxnNHhNTnExMUMyZm4tSDRJb0lWVUc1T2ZxU3J0RkF2QnVrUWNFT2hldVZ5RHowNWpXU2FFQi1aVUtpTjVldUFjQzJLWUM3SHhoY290c3JUMDNnQnNKX182Ym9jLUhPM2REb2VaQlp1M19tbDNIeW9EWmJYWFlEUnNmUy14WWhucnZWSjFFNEFsYWpZNHNqWUxwc1RJOGU0MzlrdWc?oc=5"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Canada Reports Deaths After 'Serious Incident' Triggers Fire At Military Base",
+          "published_at": "Sun, 18 Oct 2026 09:27:54 +0530",
+          "url": "https://www.ndtv.com/world-news/canada-reports-deaths-after-serious-incident-triggers-fire-at-alberta-military-base-12201259#publisher=newsstand"
+        },
+        {
+          "source_name": "The Guardian",
+          "headline": "‘Serious incident’ at Alberta military base causes deaths and injuries, Canada officials say",
+          "published_at": "Sun, 18 Oct 2026 02:50:29 GMT",
+          "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright"
+        }
+      ],
+      "source_count": 4,
+      "total_count": 4,
+      "combined_score": 3.4,
+      "brief_bullets": [
+        "Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta.",
+        "Verified accounts indicate critical developments surrounding deaths confirmed after 'serious incident,' fire at canada military base in alberta, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Carries notable operational, policy, and market consequences surrounding 'Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta'."
+      ],
+      "brief": "Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta. Verified accounts indicate critical developments surrounding deaths confirmed after 'serious incident,' fire at canada military base in alberta, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Carries notable operational, policy, and market consequences surrounding 'Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta'.",
+      "brief_word_count": 81
+    },
+    {
+      "story_id": "story-6",
+      "category": "Geopolitics",
+      "primary_headline": "Major fire breaks out in Alberta after deadly incident at Canadian military base",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Major fire breaks out in Alberta after deadly incident at Canadian military base - AP News",
+        "published_at": "Sun, 18 Oct 2026 07:51:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRWZIOVJaUGpyUnFDcG1BTVZmOTRtZ2pvLTBjLVBDMU9fb3huN2x3Q1ZGbTBENURyc0JIdXRJQThHajNORTVlVjVnZjJrUV94VDlGaXJrZWRqQVBlWlBBRmJzVkhUem1NRzl5a05uTzJQWEdVLTNEckFlNFFBb1dmeTQwUmU0YkhFd1laTmI2ZUdtTGlLS1VZM3dPTi14ZVNxX2oxY0dzbw?oc=5",
+        "content": "Major fire breaks out in Alberta after deadly incident at Canadian military base&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Major fire breaks out in Alberta after deadly incident at Canadian military base - AP News",
+          "published_at": "Sun, 18 Oct 2026 07:51:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRWZIOVJaUGpyUnFDcG1BTVZmOTRtZ2pvLTBjLVBDMU9fb3huN2x3Q1ZGbTBENURyc0JIdXRJQThHajNORTVlVjVnZjJrUV94VDlGaXJrZWRqQVBlWlBBRmJzVkhUem1NRzl5a05uTzJQWEdVLTNEckFlNFFBb1dmeTQwUmU0YkhFd1laTmI2ZUdtTGlLS1VZM3dPTi14ZVNxX2oxY0dzbw?oc=5"
+        },
+        {
+          "source_name": "NYT",
+          "headline": "Deadly ‘Incident’ at Canadian Forces Base Wainwright Sparks Fire",
+          "published_at": "Sun, 18 Oct 2026 10:56:27 +0000",
+          "url": "https://www.nytimes.com/2026/10/17/world/canada/fire-canadian-army-base-wainwright.html"
+        },
+        {
+          "source_name": "NPR",
+          "headline": "Major fire breaks out in Alberta after deadly incident at military base",
+          "published_at": "Sun, 18 Oct 2026 03:56:08 -0400",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-6007276/fire-alberta-deadly-canada-military-base"
+        },
+        {
+          "source_name": "CNN",
+          "headline": "Deadly fire breaks out after ‘serious incident’ at Canada military base - CNN",
+          "published_at": "Sun, 18 Oct 2026 02:44:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVmNxaS1EYjcyUG12ZC0zQ1A0VndXX0d4UER5dWxkMVVucEdEdFp2NXM2S0ZsVm1kbFZoc1l1QTdjTHNCOXJLQ0NxUWpmVk9yeGNZM2lGdTVDVm16WUxRUzRqc0ZjTFZnMWI2akFjQXVPaU9nOTd3R2ZuX21WeDM2N0VQOTJQQmJjSDA3SGJJUWphb3c?oc=5"
+        }
+      ],
+      "source_count": 4,
+      "total_count": 4,
+      "combined_score": 3.32,
+      "brief_bullets": [
+        "Major fire breaks out in Alberta after deadly incident at Canadian military base.",
+        "Verified accounts indicate critical developments surrounding major fire breaks out in alberta after deadly incident at canadian military base, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Carries notable operational, policy, and market consequences surrounding 'Major fire breaks out in Alberta after deadly incident at Canadian military base'."
+      ],
+      "brief": "Major fire breaks out in Alberta after deadly incident at Canadian military base. Verified accounts indicate critical developments surrounding major fire breaks out in alberta after deadly incident at canadian military base, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Carries notable operational, policy, and market consequences surrounding 'Major fire breaks out in Alberta after deadly incident at Canadian military base'.",
+      "brief_word_count": 84
+    },
+    {
+      "story_id": "story-10",
+      "category": "Geopolitics",
+      "primary_headline": "15 Killed As Truck Runs Over Devotees Near Temple In Madhya Pradesh",
+      "primary_source": {
+        "source_name": "NDTV",
+        "headline": "15 Killed As Truck Runs Over Devotees Near Temple In Madhya Pradesh",
+        "published_at": "Sun, 18 Oct 2026 09:55:17 +0530",
+        "url": "https://www.ndtv.com/india-news/madhya-pradesh-temple-accident-12-killed-as-truck-runs-over-devotees-near-temple-in-madhya-pradeshs-gwalior-12201028#publisher=newsstand",
+        "content": " The truck reportedly broke through police barricades before running over pilgrims on the road and crashing into the temple's outer wall and gate."
+      },
+      "sources": [
+        {
+          "source_name": "NDTV",
+          "headline": "15 Killed As Truck Runs Over Devotees Near Temple In Madhya Pradesh",
+          "published_at": "Sun, 18 Oct 2026 09:55:17 +0530",
+          "url": "https://www.ndtv.com/india-news/madhya-pradesh-temple-accident-12-killed-as-truck-runs-over-devotees-near-temple-in-madhya-pradeshs-gwalior-12201028#publisher=newsstand"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "12 killed, 29 injured as truck runs over devotees walking towards temple in Gwalior",
+          "published_at": "Sun, 18 Oct 2026 03:30:53 +0000",
+          "url": "https://indianexpress.com/article/india/gwalior-road-accident-truck-hits-devotees-sheetlamata-mandir-10926443/"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "14 killed, 28 injured as truck hits devotees near temple in Madhya Pradesh's Gwalior",
+          "published_at": "Sun, 18 Oct 2026 02:59:34 +0000",
+          "url": "https://www.deccanherald.com/india/madhya-pradesh/13-killed-40-injured-as-truck-hits-devotees-near-temple-in-madhya-pradeshs-gwalior-4186925"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 3,
+      "combined_score": 2.52,
+      "brief_bullets": [
+        "15 Killed As Truck Runs Over Devotees Near Temple In Madhya Pradesh.",
+        "Verified accounts indicate critical developments surrounding 15 killed as truck runs over devotees near temple in madhya pradesh, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+      ],
+      "brief": "15 Killed As Truck Runs Over Devotees Near Temple In Madhya Pradesh. Verified accounts indicate critical developments surrounding 15 killed as truck runs over devotees near temple in madhya pradesh, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 75
+    },
+    {
+      "story_id": "story-11",
+      "category": "Geopolitics",
+      "primary_headline": "Rubio says Trump to take up to 60 days to weigh Russia sanctions",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Rubio says Trump to take up to 60 days to weigh Russia sanctions - Reuters",
+        "published_at": "Sun, 18 Oct 2026 03:38:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRlRkQlBQYXFvck1VQUYxcVpwM2dEVDMwQThIY3ZHRldBd0M0dmV5NXFnZlBXMnpuUnozQlhLbkg4ZjZCT3kzVW5mcnl3RVEwUXRpdUJsZGViRlE1MFdJbHZWZ3pRTXNOUDQtOTRsQU5nSzd4a3d5Z3c2dTkzZWZSNlZsbXZBamFSMS1qVEVnaHc2MTZJUHZ4YU1zS0hfNVM4eVE?oc=5",
+        "content": "Rubio says Trump to take up to 60 days to weigh Russia sanctions&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Rubio says Trump to take up to 60 days to weigh Russia sanctions - Reuters",
+          "published_at": "Sun, 18 Oct 2026 03:38:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRlRkQlBQYXFvck1VQUYxcVpwM2dEVDMwQThIY3ZHRldBd0M0dmV5NXFnZlBXMnpuUnozQlhLbkg4ZjZCT3kzVW5mcnl3RVEwUXRpdUJsZGViRlE1MFdJbHZWZ3pRTXNOUDQtOTRsQU5nSzd4a3d5Z3c2dTkzZWZSNlZsbXZBamFSMS1qVEVnaHc2MTZJUHZ4YU1zS0hfNVM4eVE?oc=5"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "60-day pause on Russia sanctions to analyse global impact: Marco Rubio",
+          "published_at": "Sun, 18 Oct 2026 08:27:43 +0000",
+          "url": "https://www.deccanherald.com/world/us/60-day-pause-on-russia-sanctions-to-analyse-global-impact-marco-rubio-4186957"
+        },
+        {
+          "source_name": "The Print",
+          "headline": "Rubio says Trump to take up to 60 days to weigh Russia sanctions - ThePrint",
+          "published_at": "Sun, 18 Oct 2026 03:30:41 GMT",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZlNQSDdiX0U2TE9PQWM0VUkxb3FUYWJhOGVQUWE0R2tlNTAxRm1ib0RRV2UzVF9RbV9zaWdEWkZzOWxzSVFuTk9RTTZyT1FKQlVDV0toVEtTQzd0azJ1YmFQQmZmaXFIOWRPYzhLLW9Gak5pVERHNldSRV9fLWVVWW5MemFvZXNrNmlKWnRYLUk4TWV1bmk0dTAtTDh3Y1k10gGmAUFVX3lxTFA2NVRLcXdQOGZQb0pLTXpLb0lZWmhYMGRZNFBtdXVSZ0wyVko3N1NzM3V5V0xiYkd4WjEzUjJYZDlUMWMxTXBfR1dFeVBJVS0xazg4VW1vM19xUmp1cjNxemc0eU50S0VheTRLbG1hellhN1NwWmw2QUNQUG9OWTJqSUV1UUpyUjJMejlMczdDTXowdmFOZlRZcXlzd1FTd3N0WG0zMkE?oc=5"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 3,
+      "combined_score": 2.49,
+      "brief_bullets": [
+        "Rubio says Trump to take up to 60 days to weigh Russia sanctions.",
+        "Verified accounts indicate critical developments surrounding rubio says trump to take up to 60 days to weigh russia sanctions, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
+      ],
+      "brief": "Rubio says Trump to take up to 60 days to weigh Russia sanctions. Verified accounts indicate critical developments surrounding rubio says trump to take up to 60 days to weigh russia sanctions, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 77
+    },
+    {
+      "story_id": "story-17",
+      "category": "Geopolitics",
+      "primary_headline": "Italian police clash with protesters in Milan and Bologna",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Italian police clash with protesters in Milan and Bologna - Reuters",
+        "published_at": "Sat, 17 Oct 2026 18:27:40 GMT",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcEpOU0pkZXEtTWhtSDFpMEZCT01yeno3N3ViQVBwMXJRbkRvU0lldzYwSEJVbkhrVEpPV3FIdU5nYjBJa3FpeThOX2Q2QnZIS0w5Y2JscG8zLXhUTDdlc05WZzUwcldlUHJHc1oyRlZSeTlfU3J3dTg5T2l5NnpzcHlwMUNLeVNxRmJveW9OclJpUXVkSmc?oc=5",
+        "content": "Italian police clash with protesters in Milan and Bologna&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Italian police clash with protesters in Milan and Bologna - Reuters",
+          "published_at": "Sat, 17 Oct 2026 18:27:40 GMT",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcEpOU0pkZXEtTWhtSDFpMEZCT01yeno3N3ViQVBwMXJRbkRvU0lldzYwSEJVbkhrVEpPV3FIdU5nYjBJa3FpeThOX2Q2QnZIS0w5Y2JscG8zLXhUTDdlc05WZzUwcldlUHJHc1oyRlZSeTlfU3J3dTg5T2l5NnpzcHlwMUNLeVNxRmJveW9OclJpUXVkSmc?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Italian police clash with protesters in the centre of Milan - Reuters",
+          "published_at": "Sat, 17 Oct 2026 17:24:59 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUVNiamhOTjFnamxaQ3IzNzBsNWNmR2JtVW5xMmlmdERwZWpCVVM5bTJGZFFybnNfT2NxTmptdVNqY04wckhsMG1lTnV1YWgtTC1NaUJBZV9FTHNLRWY4QXJvN0FUcUIzYkd6aFNadkhRTUhqYVczTmNuTjd6cXJxbUh1cmpwOWpnbFlHT04yUm1EbnhTNzhUbFpiUXplbzBjWmhGOGM5QQ?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Protesters clash with police in Brussels - Reuters",
+          "published_at": "Sat, 17 Oct 2026 14:42:07 GMT",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWEJmRHZXRTB5bU1Xb1FoXzVTVG4yTkVQUmM2cS1oZzZrcGZIbjVnRU5MMFBtc0FVQjBOTUFFdU1YbldSSkpTWm40Vll2YmtMaDFVRTVvREN1ODJsQ2FRaU5lRmM1cnp3d2FnU1Fsc1MtNmVzX2JrenRfM3lnQ0k1Vk1GeEExZw?oc=5"
+        },
+        {
+          "source_name": "The Print",
+          "headline": "Italian police clash with protesters in Milan and Bologna - ThePrint",
+          "published_at": "Sat, 17 Oct 2026 18:00:04 GMT",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN25HdTdzYUFsTzczMEZiNV82MmxqanlWQ2JSWFozQXZGelI5R0RIUzJDS1ZjYkRRWjNvT1UzZG04QkRzUHhoME1ZWlFZRTRNblFCWWlGN3lKUXo5SmhPNEttV2d5RVdETEZDVmlxN2U4LTQzT0hDcmhJemFYTWg5NXBZeG84dWJfMmZTRzNaVVZ4T3B5ZUlv0gGcAUFVX3lxTE94YW9oTGdlNWpOb2d2eEJhUXNXMDNRS0tBQm83eTJCcl9uU3Q2SVhtUkpSeURRa0phZkxEcG9wOFNfQ3Y2SUZYVzYtaUZFUU91QmM1N1lzOVVGdEhVVUtkNXkteERIUDJneTdZNjRIbHpPMUI1NDU1WEdNcnhPMDRjN1Z0UmtQN01hbWlraTdZMm1OSlp2SmVPUzFXVw?oc=5"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 4,
+      "combined_score": 2.2,
+      "brief_bullets": [
+        "Italian police clash with protesters in Milan and Bologna.",
+        "Verified accounts indicate critical developments surrounding italian police clash with protesters in milan and bologna, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+      ],
+      "brief": "Italian police clash with protesters in Milan and Bologna. Verified accounts indicate critical developments surrounding italian police clash with protesters in milan and bologna, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 69
+    },
+    {
+      "story_id": "story-19",
+      "category": "Geopolitics",
+      "primary_headline": "Gwalior temple tragedy: MP CM orders removal of SP, suspension of 8 other police personnel",
       "primary_source": {
         "source_name": "Deccan Herald",
-        "headline": "'All matters treated equally': Supreme Court refuses VVIP allegations in Rahul Gandhi defamation case",
-        "published_at": "Wed, 09 Sep 2026 11:47:04 +0000",
-        "url": "https://www.deccanherald.com/india/all-matters-treated-equally-supreme-court-refuses-vvip-allegations-in-rahul-gandhi-defamation-case-4140522",
-        "content": " New Delhi: The Supreme Court on Wednesday made it clear that “all matters are treated equally before us” after a complainant in a criminal defamation case against Leader of Opposition Rahul Gandhi alleged that his petition was not being listed despite earlier directions.Senior advocate Gaurav Bhatia, appearing for the complainant, urged a bench headed by Chief Justice of India Surya Kant to de-tag Gandhi’s special leave petition and list it for early hearing. The plea challenged criminal proceedings linked to Gandhi’s alleged remarks on the Indian Army and the Chinese attack during the 2020 Galwan clash.A bench led by Justice Dipankar Datta had stayed the proceedings against Gandhi in August 2025. The matter was last listed on April 23 and came up on Wednesday tagged with two other criminal defamation cases involving The Wire.Rahul Gandhi accuses PM Modi of centralising power, leave poor citizens to 'starve to death'Bhatia submitted that the case had been repeatedly adjourned, Gandhi had not appeared on dates fixed by the trial court, and the matter had not been taken up despite being listed about five months earlier. “Rahul Gandhi is not a VVIP. Let the matter be de-tagged and heard independently,” he said, adding that the Registry’s failure to list it despite a specific judicial direction “does not augur well for the institution”.The Chief Justice responded that the complainant’s side should follow the prescribed procedure and file an appropriate application seeking early hearing. “All matters are treated equally. Please file an appropriate application,” CJI Surya Kant said.Counsel appearing in the Wire matters told the court that those cases involved a limited question under Section 223 of the Bharatiya Nagarik Suraksha Sanhita - whether an accused must be given an opportunity of hearing before cognizance is taken - and had no connection with Gandhi’s 2024 matter with which they had been tagged."
+        "headline": "Gwalior temple tragedy: MP CM orders removal of SP, suspension of 8 other police personnel",
+        "published_at": "Sun, 18 Oct 2026 10:40:50 +0000",
+        "url": "https://www.deccanherald.com/india/madhya-pradesh/gwalior-temple-tragedy-mp-cm-orders-removal-of-sp-suspension-of-8-other-police-personnel-4187134",
+        "content": " Bhopal: Madhya Pradesh Chief Minister Mohan Yadav on Sunday ordered the removal of the Gwalior City Superintendent of Police and the suspension of eight other personnel after the temple accident that claimed 14 lives when a truck ploughed into devotees.The speeding truck ran over several devotees outside the Sheetla Mata temple in Gwalior district early Sunday and then rammed into its entrance gate, killing 14 persons and injuring 28 others, including two police personnel, officials said. Seven of those injured were in critical condition.A wall of the temple crashed under the impact of the collision, they said.'Came like a storm': Eyewitnesses recall truck's deadly dash towards Gwalior templeThe incident, which occurred around 1.30 am outside the temple near a slope on Chinor Road, raised concerns about security arrangements at the shrine, as the truck, with a Punjab registration number, entered the no-entry zone, officials said.\"The accident occurred because the truck entered a prohibited area,\" Yadav told reporters in Indore.The chief minister said he had directed the district administration to conduct a fact-based inquiry and submit a report.Later, in a post on X, Yadav said his government has ordered the removal of the Gwalior CSP from his post and the suspension of three station house officers, a traffic inspector, a head constable and three constables.A detailed inquiry has been ordered to fix responsibility and ensure strict action against those found guilty, he said.\"The safety of all citizens is paramount. To prevent the recurrence of such incidents in future, security arrangements will be reviewed and necessary steps taken. No negligence will be tolerated at any level in public safety,\" he said.Yadav also announced compensation of Rs 4 lakh each for the kin of the deceased and said the government would bear the treatment expenses of those seriously injured in the accident. The persons who suffered minor injuries would receive financial assistance of Rs 50,000 each, he added.The impact brought down a temple wall, trapping people under the debris.The bodies and injured persons were shifted to different hospitals, including Gwalior's trauma centre.Relatives of victims gathered near the post-mortem facility at the trauma centre and expressed anger over the incident, with many questioning how a heavy truck could enter an area where, they claimed, even a bicycle could not pass.Lokendra Singh Tomar, nephew of the deceased Sarla Tomar, asked how the truck was allowed to enter the temple premises despite security arrangements.14 killed, 28 injured as truck hits devotees near temple in Madhya Pradesh's Gwalior His aunt was on her way to offer prayers at the shrine, he told reporters and demanded answers from those responsible for the accident.Pawan Rathore (23), a resident of Gadaipur in Gwalior’s Hazira area, was among those killed. His family took the body away amid inconsolable grief. He had gone to the temple to offer prayers when the accident occurred.Sandeep, a relative of injured devotee Nikesh, said the family received a phone call around 5 am informing them that Nikesh had been hurt at the temple. When they reached the hospital, he was in critical condition with both legs fractured and was placed on a ventilator, he added. "
       },
       "sources": [
         {
           "source_name": "Deccan Herald",
-          "headline": "'All matters treated equally': Supreme Court refuses VVIP allegations in Rahul Gandhi defamation case",
-          "published_at": "Wed, 09 Sep 2026 11:47:04 +0000",
-          "url": "https://www.deccanherald.com/india/all-matters-treated-equally-supreme-court-refuses-vvip-allegations-in-rahul-gandhi-defamation-case-4140522"
+          "headline": "Gwalior temple tragedy: MP CM orders removal of SP, suspension of 8 other police personnel",
+          "published_at": "Sun, 18 Oct 2026 10:40:50 +0000",
+          "url": "https://www.deccanherald.com/india/madhya-pradesh/gwalior-temple-tragedy-mp-cm-orders-removal-of-sp-suspension-of-8-other-police-personnel-4187134"
+        },
+        {
+          "source_name": "The Print",
+          "headline": "Temple tragedy: MP CM orders removal of Gwalior City SP, suspension of 8 other cops - ThePrint",
+          "published_at": "Sun, 18 Oct 2026 08:47:06 GMT",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR0liaVVYUVY3OVR1ZVowdklrdFZ0Y0JITGtPSG9PT2ZsX1l5TG85QnVVNkVuNzJxaWJZdl94V0pWNnFRazBzNTNsZml1MC1jcTIxOHpzaW9nUVV2bXIyWTF5ZGgtYU1xU3U0V0IzaDZyZHJkQ3JyOEFpZHNMUEdPRm5uOXdtZDg5MjZsLTNSM21zYkM4RzhGX3RuNVFzeXBxNE43TjZXcFZQSjJRcERqRi1jWHRvLVXSAbwBQVVfeXFMT0FNdUJCcFJkRW1ncktkZFF0QTdUd1JTUVRhX3Y2VWd2aFRMQ3dfMExsRklHdmpyOTBRTndHMkMxRnQwZmlfaVZqRERmMXRESGxzV3NMeS0xUGg0N0N0cWJCTEFjME4tSTJ5YWZaQ0NkaWgtd2dITkFNR0JSUGdXcUpBd1ZXZUxBR3daUTBiM2xmb1Bkbk9LNHFqeGRNeER2Ujl1SWpvc2ZnYkNwNWRGa1pmbVNxckV6VkFmclQ?oc=5"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.78,
+      "brief_bullets": [
+        "Bhopal: Madhya Pradesh Chief Minister Mohan Yadav on Sunday ordered the removal of the Gwalior City Superintendent of Police and the suspension of eight other personnel after the temple accident that claimed 14 lives when a truck ploughed into devotees.",
+        "The speeding truck ran over several devotees outside the Sheetla Mata temple in Gwalior district early Sunday and then rammed into its entrance gate, killing 14 persons and injuring 28 others, including two police personnel, officials said.",
+        "Seven of those injured were in critical condition.",
+        "A wall of the temple crashed under the impact of the collision, they said.'Came like a storm': Eyewitnesses recall truck's deadly dash towards Gwalior temple."
+      ],
+      "why_it_matters_bullets": [
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+      ],
+      "brief": "Bhopal: Madhya Pradesh Chief Minister Mohan Yadav on Sunday ordered the removal of the Gwalior City Superintendent of Police and the suspension of eight other personnel after the temple accident that claimed 14 lives when a truck ploughed into devotees. The speeding truck ran over several devotees outside the Sheetla Mata temple in Gwalior district early Sunday and then rammed into its entrance gate, killing 14 persons and injuring 28 others, including two police personnel, officials said. Seven of those injured were in critical condition. A wall of the temple crashed under the impact of the collision, they said.'Came like a storm': Eyewitnesses recall truck's deadly dash towards Gwalior temple. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 124
+    },
+    {
+      "story_id": "story-20",
+      "category": "Geopolitics",
+      "primary_headline": "Pakistan extends airspace ban on Indian aircraft till November 24",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "Pakistan extends airspace ban on Indian aircraft till November 24",
+        "published_at": "Sun, 18 Oct 2026 09:56:05 +0000",
+        "url": "https://www.deccanherald.com/world/pakistan/pakistan-extends-airspace-ban-on-indian-aircraft-till-november-24-4187068",
+        "content": " Islamabad: Pakistan has extended its airspace ban on Indian-registered aircraft and planes owned, operated or leased by Indian airlines for another month, until November 24, according to the country's airports authority.The restriction, initially imposed on April 23, 2025, has been extended periodically since then amid strained relations between the two neighbouring countries.The Pakistan Airports Authority (PAA) announced the extension in a post on X on Saturday, saying the restriction also covers military flights.The latest extension will remain in effect until 4:59 am (local time) on November 24, 2026, according to the authority.Pakistan says it launched air strikes on Afghanistan over drone attacksA PAA spokesperson said a fresh Notice to Airmen (NOTAM) had been issued to extend the ban, Geo News reported.Pakistan’s airspace is divided into two flight information regions (FIRs) -- Karachi and Lahore, according to a Pakistan Civil Aviation Authority (PCAA) document from 2022. The latest NOTAM applies to both the Karachi and Lahore FIRs.India and Pakistan imposed reciprocal airspace restrictions on each other's aircraft following the April 2025 Pahalgam terror attack in the Union Territory of Jammu and Kashmir.India accused Pakistan of involvement in the attack, an allegation Islamabad denied. The incident was followed by a sharp escalation in diplomatic and military tensions between the two countries.India closed its airspace to Pakistani airlines on April 30, 2025, in response to Pakistan's move.Pakistan has imposed airspace restrictions on Indian aircraft during previous periods of heightened tensions, including the 1999 Kargil conflict and the 2019 Pulwama crisis, according to Geo News.The continuing airspace restrictions have affected airline operations between the two countries, forcing carriers to take longer routes on some international flights."
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Pakistan extends airspace ban on Indian aircraft till November 24",
+          "published_at": "Sun, 18 Oct 2026 09:56:05 +0000",
+          "url": "https://www.deccanherald.com/world/pakistan/pakistan-extends-airspace-ban-on-indian-aircraft-till-november-24-4187068"
         },
         {
           "source_name": "NDTV",
-          "headline": "\"All Treated Equally\": Supreme Court Over Plea On Case Against Rahul Gandhi",
-          "published_at": "Wed, 09 Sep 2026 17:14:08 +0530",
-          "url": "https://www.ndtv.com/india-news/all-treated-equally-supreme-court-over-plea-on-case-against-rahul-gandhi-12023266#publisher=newsstand"
+          "headline": "Pakistan Extends Ban On Indian Aircraft In Its Airspace Till November 24",
+          "published_at": "Sun, 18 Oct 2026 13:45:06 +0530",
+          "url": "https://www.ndtv.com/world-news/pakistan-extends-ban-on-indian-aircraft-in-its-airspace-till-november-24-12202114#publisher=newsstand"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.72,
+      "brief_bullets": [
+        "Islamabad: Pakistan has extended its airspace ban on Indian-registered aircraft and planes owned, operated or leased by Indian airlines for another month, until November 24, according to the country's airports authority.",
+        "The restriction, initially imposed on April 23, 2025, has been extended periodically since then amid strained relations between the two neighbouring countries.",
+        "The Pakistan Airports Authority (PAA) announced the extension in a post on X on Saturday, saying the restriction also covers military flights.",
+        "The latest extension will remain in effect until 4:59 am (local time) on November 24, 2026, according to the authority."
+      ],
+      "why_it_matters_bullets": [
+        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
+      ],
+      "brief": "Islamabad: Pakistan has extended its airspace ban on Indian-registered aircraft and planes owned, operated or leased by Indian airlines for another month, until November 24, according to the country's airports authority. The restriction, initially imposed on April 23, 2025, has been extended periodically since then amid strained relations between the two neighbouring countries. The Pakistan Airports Authority (PAA) announced the extension in a post on X on Saturday, saying the restriction also covers military flights. The latest extension will remain in effect until 4:59 am (local time) on November 24, 2026, according to the authority. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 109
+    },
+    {
+      "story_id": "story-24",
+      "category": "Geopolitics",
+      "primary_headline": "Several dead or injured in major fire at Canada military base",
+      "primary_source": {
+        "source_name": "BBC News",
+        "headline": "Several dead or injured in major fire at Canada military base",
+        "published_at": "Sun, 18 Oct 2026 08:52:41 GMT",
+        "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss",
+        "content": "Officials have not given a cause or death toll, citing the \"very active and delicate\" situation at Canadian Forces Base Wainwright."
+      },
+      "sources": [
+        {
+          "source_name": "BBC News",
+          "headline": "Several dead or injured in major fire at Canada military base",
+          "published_at": "Sun, 18 Oct 2026 08:52:41 GMT",
+          "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source_name": "CNN",
+          "headline": "Several dead after major fire breaks out at Canada military base - CNN",
+          "published_at": "Sun, 18 Oct 2026 02:44:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSWJlV2s3SFVLUzA3Q1BtMFhIUkRjT1dvaGhMMU9IWUpSdkZJTXRxWVVST1lnU19LNE1IcU5VaThqcy1ybldHMEVmalJHSG9aa0phUGFhOGZLYkc3aHY0eG1yclpSZ1hKTjE5bllISTJBb0JuUVM2Z3dsOFotQ1NYU21nUV9iVXZ5a0dxa1l3?oc=5"
         }
       ],
       "source_count": 2,
       "total_count": 2,
       "combined_score": 1.66,
-      "brief": "The Supreme Court of India, led by Chief Justice Surya Kant, firmly rejected allegations of preferential treatment regarding the criminal defamation case against Leader of Opposition Rahul Gandhi, asserting that all matters are treated with equal judicial priority. The controversy arose when senior advocate Gaurav Bhatia, representing the complainant, argued that the case had been repeatedly adjourned and improperly tagged with unrelated matters involving The Wire, thereby delaying proceedings concerning Gandhi’s alleged remarks about the Indian Army and the 2020 Galwan clash. Bhatia contended that the Registry’s failure to list the matter despite previous judicial directions undermined institutional integrity, explicitly arguing that Gandhi should not be treated as a VVIP. In response, the bench dismissed these claims of special status, instructing the complainant to adhere to established protocols by filing a formal application for an early hearing. This interaction underscores the court's commitment to procedural uniformity while navigating high-profile litigation involving prominent political figures. This ruling reinforces the judiciary's insistence on procedural neutrality, effectively insulating the Supreme Court from political narratives that accuse it of granting special privileges to high-profile opposition leaders. By mandating formal applications for scheduling, the court preserves its administrative autonomy and mitigates the risk of being drawn into partisan disputes over case prioritization.",
-      "brief_word_count": 207,
-      "summary": "The Supreme Court of India, led by Chief Justice Surya Kant, firmly rejected allegations of preferential treatment regarding the criminal defamation case against Leader of Opposition Rahul Gandhi, asserting that all matters are treated with equal judicial priority. The controversy arose when senior advocate Gaurav Bhatia, representing the complainant, argued that the case had been repeatedly adjourned and improperly tagged with unrelated matters involving The Wire, thereby delaying proceedings concerning Gandhi’s alleged remarks about the Indian Army and the 2020 Galwan clash. Bhatia contended that the Registry’s failure to list the matter despite previous judicial directions undermined institutional integrity, explicitly arguing that Gandhi should not be treated as a VVIP. In response, the bench dismissed these claims of special status, instructing the complainant to adhere to established protocols by filing a formal application for an early hearing. This interaction underscores the court's commitment to procedural uniformity while navigating high-profile litigation involving prominent political figures. This ruling reinforces the judiciary's insistence on procedural neutrality, effectively insulating the Supreme Court from political narratives that accuse it of granting special privileges to high-profile opposition leaders. By mandating formal applications for scheduling, the court preserves its administrative autonomy and mitigates the risk of being drawn into partisan disputes over case prioritization."
-    },
-    {
-      "story_id": "story-8",
-      "category": "Geopolitics",
-      "primary_headline": "Police launch criminal investigation into Reform UK donations",
-      "primary_source": {
-        "source_name": "BBC News",
-        "headline": "Police launch criminal investigation into Reform UK donations",
-        "published_at": "Wed, 09 Sep 2026 15:50:12 GMT",
-        "url": "https://www.bbc.co.uk/news/articles/cp3k72k1y3vo?at_medium=RSS&at_campaign=rss",
-        "content": "The investigation, which follows a broadcast by Channel 4 News, is being folded into the inquiry that has been under way into other donations."
-      },
-      "sources": [
-        {
-          "source_name": "BBC News",
-          "headline": "Police launch criminal investigation into Reform UK donations",
-          "published_at": "Wed, 09 Sep 2026 15:50:12 GMT",
-          "url": "https://www.bbc.co.uk/news/articles/cp3k72k1y3vo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source_name": "The Guardian",
-          "headline": "Met police launch inquiry into alleged overseas donations to Reform UK",
-          "published_at": "Wed, 09 Sep 2026 13:56:03 GMT",
-          "url": "https://www.theguardian.com/politics/2026/sep/09/met-police-launch-inquiry-into-alleged-overseas-donations-to-reform-uk"
-        }
+      "brief_bullets": [
+        "Several dead or injured in major fire at Canada military base.",
+        "Verified accounts indicate critical developments surrounding several dead or injured in major fire at canada military base, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
       ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.63,
-      "brief": "The Metropolitan Police have officially launched a criminal investigation into Reform UK following allegations that the political party may have breached electoral law regarding the acceptance of overseas donations. This inquiry, which is being incorporated into an existing broader investigation, was triggered by a recent Channel 4 News broadcast featuring an undercover sting operation conducted by reporters from Verbatim. During this operation, journalists posed as foreign donors attempting to financially support the party, allegedly exposing vulnerabilities or direct violations of UK campaign finance regulations. As the Met Police scrutinize these findings, the party faces significant regulatory and reputational scrutiny regarding its fundraising compliance and internal governance. This development marks a critical escalation in the oversight of political funding, potentially forcing a re-evaluation of how emerging political entities manage donor vetting processes and adhere to strict statutory requirements governing foreign influence in British elections. This investigation poses a substantial threat to Reform UK’s political legitimacy and operational stability, potentially resulting in severe legal penalties or electoral sanctions. Furthermore, it highlights the persistent vulnerabilities in UK campaign finance laws, likely prompting calls for stricter regulatory oversight to prevent foreign interference in domestic political processes.",
-      "brief_word_count": 192,
-      "summary": "The Metropolitan Police have officially launched a criminal investigation into Reform UK following allegations that the political party may have breached electoral law regarding the acceptance of overseas donations. This inquiry, which is being incorporated into an existing broader investigation, was triggered by a recent Channel 4 News broadcast featuring an undercover sting operation conducted by reporters from Verbatim. During this operation, journalists posed as foreign donors attempting to financially support the party, allegedly exposing vulnerabilities or direct violations of UK campaign finance regulations. As the Met Police scrutinize these findings, the party faces significant regulatory and reputational scrutiny regarding its fundraising compliance and internal governance. This development marks a critical escalation in the oversight of political funding, potentially forcing a re-evaluation of how emerging political entities manage donor vetting processes and adhere to strict statutory requirements governing foreign influence in British elections. This investigation poses a substantial threat to Reform UK’s political legitimacy and operational stability, potentially resulting in severe legal penalties or electoral sanctions. Furthermore, it highlights the persistent vulnerabilities in UK campaign finance laws, likely prompting calls for stricter regulatory oversight to prevent foreign interference in domestic political processes."
-    },
-    {
-      "story_id": "story-9",
-      "category": "Geopolitics",
-      "primary_headline": "Israeli foreign minister says no plans to deport Palestinians from Gaza",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Israeli foreign minister says no plans to deport Palestinians from Gaza",
-        "published_at": "Wed, 09 Sep 2026 15:40:52 +0000",
-        "url": "https://www.deccanherald.com/world/middle-east/israeli-foreign-minister-says-no-plans-to-deport-palestinians-from-gaza-4140880",
-        "content": " Telaviv: Israeli Foreign Minister Gideon Saar said on Wednesday that the government does not plan to deport Palestinians from Gaza, after two Israeli ministers this month floated proposals for the mass removal of Palestinians from the coastal territory.\"We are not planning to expel or to deport anyone from (the) Gaza Strip,\" Saar told a press conference in Ljubljana, Slovenia.Israel tells British consulate in East Jerusalem to close within 30 days: Report\"If someone wants to immigrate (on) his own will, and there is a country which is ready to accept him .... we will not oppose that, but we will (also) not enforce anyone against (their) will,\" he said.Saar is in Slovenia to open the Israeli embassy in Ljubljana.Defence Minister Israel Katz on Wednesday said on September 2 there was \"no real solution for Gaza in the end without this migration\" of Palestinians.US ambassador to Israel says there is no plan to force Palestinians to leave GazaFar-right security minister Itamar Ben-Gvir on September 3 outlined a seven-year plan for removing Gaza's population through what he described as \"voluntary emigration.\"The US Ambassador to Israel Mike Huckabee has said that Israel has no plans to force Palestinians to leave Gaza.Israel is to hold a general election on October 27."
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Israeli foreign minister says no plans to deport Palestinians from Gaza",
-          "published_at": "Wed, 09 Sep 2026 15:40:52 +0000",
-          "url": "https://www.deccanherald.com/world/middle-east/israeli-foreign-minister-says-no-plans-to-deport-palestinians-from-gaza-4140880"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "Israeli Foreign Minister Says No Plans To \"Expel Or Deport\" Anyone From Gaza",
-          "published_at": "Wed, 09 Sep 2026 20:00:57 +0530",
-          "url": "https://www.ndtv.com/world-news/israeli-foreign-minister-says-no-plans-to-expel-or-deport-anyone-from-gaza-12024350#publisher=newsstand"
-        }
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.63,
-      "brief": "Israeli Foreign Minister Gideon Saar has explicitly rejected proposals for the mass deportation of Palestinians from the Gaza Strip, clarifying that the government maintains no official policy to forcibly remove the coastal territory's population. This statement serves as a direct rebuttal to recent rhetoric from far-right cabinet members, including Defence Minister Israel Katz and National Security Minister Itamar Ben-Gvir, who have previously advocated for \"voluntary\" emigration as a strategic solution for Gaza’s future. While Saar acknowledged that Israel would not obstruct individuals choosing to leave if a third-party nation agreed to accept them, he emphasized that no coercion would be utilized. This official stance aligns with recent assurances provided by U.S. Ambassador to Israel Mike Huckabee, who also confirmed that no plans exist to force Palestinian displacement. The internal cabinet friction occurs against the backdrop of an impending general election on October 27, highlighting deep ideological divisions within the Israeli government regarding the long-term management of the war-ravaged enclave. This clarification attempts to mitigate international diplomatic backlash and potential legal challenges regarding forced displacement, while simultaneously exposing the significant ideological rift within the Israeli cabinet ahead of the October elections. It underscores the tension between the government's official diplomatic commitments to international allies and the nationalist agendas pushed by hardline coalition members.",
-      "brief_word_count": 212,
-      "summary": "Israeli Foreign Minister Gideon Saar has explicitly rejected proposals for the mass deportation of Palestinians from the Gaza Strip, clarifying that the government maintains no official policy to forcibly remove the coastal territory's population. This statement serves as a direct rebuttal to recent rhetoric from far-right cabinet members, including Defence Minister Israel Katz and National Security Minister Itamar Ben-Gvir, who have previously advocated for \"voluntary\" emigration as a strategic solution for Gaza’s future. While Saar acknowledged that Israel would not obstruct individuals choosing to leave if a third-party nation agreed to accept them, he emphasized that no coercion would be utilized. This official stance aligns with recent assurances provided by U.S. Ambassador to Israel Mike Huckabee, who also confirmed that no plans exist to force Palestinian displacement. The internal cabinet friction occurs against the backdrop of an impending general election on October 27, highlighting deep ideological divisions within the Israeli government regarding the long-term management of the war-ravaged enclave. This clarification attempts to mitigate international diplomatic backlash and potential legal challenges regarding forced displacement, while simultaneously exposing the significant ideological rift within the Israeli cabinet ahead of the October elections. It underscores the tension between the government's official diplomatic commitments to international allies and the nationalist agendas pushed by hardline coalition members."
+      "brief": "Several dead or injured in major fire at Canada military base. Verified accounts indicate critical developments surrounding several dead or injured in major fire at canada military base, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 72
     },
     {
-      "story_id": "story-10",
+      "story_id": "story-26",
       "category": "Geopolitics",
-      "primary_headline": "Bihar Board To Felicitate 168 Inter Toppers With Cash Awards And Laptops",
-      "primary_source": {
-        "source_name": "NDTV",
-        "headline": "Bihar Board To Felicitate 168 Inter Toppers With Cash Awards And Laptops",
-        "published_at": "Wed, 09 Sep 2026 20:07:19 +0530",
-        "url": "https://www.ndtv.com/education/bihar-board-to-felicitate-168-inter-toppers-with-cash-awards-and-laptops-12024377#publisher=newsstand",
-        "content": "Bihar government will honour 168 top students from BSEB Intermediate and Matric exams 2026 with cash prizes and laptop funds."
-      },
-      "sources": [
-        {
-          "source_name": "NDTV",
-          "headline": "Bihar Board To Felicitate 168 Inter Toppers With Cash Awards And Laptops",
-          "published_at": "Wed, 09 Sep 2026 20:07:19 +0530",
-          "url": "https://www.ndtv.com/education/bihar-board-to-felicitate-168-inter-toppers-with-cash-awards-and-laptops-12024377#publisher=newsstand"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Bihar Board to felicitate 168 BSEB Inter toppers; cash awards, laptops, scholarships and more",
-          "published_at": "Wed, 09 Sep 2026 11:07:09 +0000",
-          "url": "https://indianexpress.com/article/education/bihar-board-to-felicitate-168-bseb-inter-toppers-cash-awards-laptops-scholarships-toppers-list-jee-main-coaching-institute-10870131/"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.63,
-      "brief": "The Bihar School Examination Board (BSEB) has announced a significant initiative to recognize academic excellence by felicitating 168 top-performing students from the 2026 Intermediate and Matric examinations. This government-backed program will reward these high achievers with substantial cash prizes and dedicated funding for laptops, aiming to incentivize scholastic dedication and provide essential digital tools for higher education. Beyond immediate rewards, the BSEB is simultaneously launching \"Bihar Vidya Sathi,\" a sophisticated 24x7 live teacher-interaction platform designed to bridge educational gaps. This digital infrastructure will be deployed across 700 Saraswati Vidya Niketan model schools, specifically targeting students in Classes 9 through 12 to ensure continuous academic support. By combining direct financial incentives for top performers with systemic technological upgrades for the broader student body, the Bihar government is signaling a dual-pronged strategy to elevate the state's educational standards and foster a more competitive, tech-enabled learning environment for its youth. This initiative represents a strategic shift toward integrating digital accessibility with performance-based rewards, potentially setting a new benchmark for state-level educational reform in India. By institutionalizing 24x7 support and digital resource allocation, the Bihar government is actively working to reduce regional educational disparities and improve long-term student retention and achievement rates.",
-      "brief_word_count": 198,
-      "summary": "The Bihar School Examination Board (BSEB) has announced a significant initiative to recognize academic excellence by felicitating 168 top-performing students from the 2026 Intermediate and Matric examinations. This government-backed program will reward these high achievers with substantial cash prizes and dedicated funding for laptops, aiming to incentivize scholastic dedication and provide essential digital tools for higher education. Beyond immediate rewards, the BSEB is simultaneously launching \"Bihar Vidya Sathi,\" a sophisticated 24x7 live teacher-interaction platform designed to bridge educational gaps. This digital infrastructure will be deployed across 700 Saraswati Vidya Niketan model schools, specifically targeting students in Classes 9 through 12 to ensure continuous academic support. By combining direct financial incentives for top performers with systemic technological upgrades for the broader student body, the Bihar government is signaling a dual-pronged strategy to elevate the state's educational standards and foster a more competitive, tech-enabled learning environment for its youth. This initiative represents a strategic shift toward integrating digital accessibility with performance-based rewards, potentially setting a new benchmark for state-level educational reform in India. By institutionalizing 24x7 support and digital resource allocation, the Bihar government is actively working to reduce regional educational disparities and improve long-term student retention and achievement rates."
-    },
-    {
-      "story_id": "story-14",
-      "category": "Geopolitics",
-      "primary_headline": "US Open 2026 quarter-finals: Zheng v Rybakina, Andreeva v Gauff – live",
-      "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "US Open 2026 quarter-finals: Zheng v Rybakina, Andreeva v Gauff – live",
-        "published_at": "Wed, 09 Sep 2026 15:54:19 GMT",
-        "url": "https://www.theguardian.com/sport/live/2026/sep/09/us-open-tennis-2026-quarter-finals-rybakina-zheng-andreeva-gauff-blockx-khachanov-live",
-        "content": " Rolling updates from the last eight at Flushing Meadows Shelton wins after night of vomit, sweat and home hopes Get in touch: email Katy | And follow us over on TikTokRybakina has won four of her five meetings with Zheng, including two three-set victories this year. But Zheng was earlier in her comeback from elbow surgery then, the 2024 Olympic champion is a totally different proposition now, carrying the momentum of seven successive match wins in New York having come through qualifying - and the belief she can turn around any deficit after coming from 5-0 down in sets against both Madison Keys in the third round and Iga Swiatek in the last 16.Here come Zheng and Rybakina, Zheng stepping on to court wearing headphones, not that there’s much noise to drown out yet at 11.35am New York time. Both already look extremely focused with their game faces on. Continue reading..."
-      },
-      "sources": [
-        {
-          "source_name": "The Guardian",
-          "headline": "US Open 2026 quarter-finals: Zheng v Rybakina, Andreeva v Gauff – live",
-          "published_at": "Wed, 09 Sep 2026 15:54:19 GMT",
-          "url": "https://www.theguardian.com/sport/live/2026/sep/09/us-open-tennis-2026-quarter-finals-rybakina-zheng-andreeva-gauff-blockx-khachanov-live"
-        },
-        {
-          "source_name": "Sky Sports",
-          "headline": "US Open LIVE! Rybakina goes for world No 1 with Gauff vs Andreeva to come",
-          "published_at": "Wed, 09 Sep 2026 15:30:00 BST",
-          "url": "https://www.skysports.com/tennis/live-blog/12040/13583384/us-open-live-scores-updates-news-commentary-results-from-new-york-with-elena-rybakina-coco-gauff-and-mirra-andreeva-all-in-action"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
-      "brief": "The 2026 US Open quarter-finals at Flushing Meadows have set the stage for a high-stakes showdown between Olympic champion Zheng Qinwen and Elena Rybakina, a match defined by contrasting trajectories and recent momentum. While Rybakina enters the contest holding a dominant four-to-one head-to-head record, the narrative has shifted significantly due to Zheng’s remarkable resurgence following elbow surgery. Zheng, who navigated the qualifying rounds to reach this stage, arrives with a seven-match winning streak, bolstered by her psychological resilience after staging dramatic comebacks against top-tier opponents like Madison Keys and Iga Swiatek. As the two athletes take the court in New York, the match serves as a critical test of whether Rybakina’s historical tactical advantage can withstand the current form and newfound confidence of an Olympic gold medalist playing at the peak of her powers. This encounter represents a pivotal moment in the tournament, highlighting the evolving competitive landscape of women’s tennis. This match serves as a bellwether for the shifting hierarchy in women's tennis, determining whether established tactical dominance can overcome the momentum of a surging, newly confident Olympic champion. The outcome will likely dictate the tournament's trajectory and influence the competitive landscape for the remainder of the Grand Slam season.",
-      "brief_word_count": 201,
-      "summary": "The 2026 US Open quarter-finals at Flushing Meadows have set the stage for a high-stakes showdown between Olympic champion Zheng Qinwen and Elena Rybakina, a match defined by contrasting trajectories and recent momentum. While Rybakina enters the contest holding a dominant four-to-one head-to-head record, the narrative has shifted significantly due to Zheng’s remarkable resurgence following elbow surgery. Zheng, who navigated the qualifying rounds to reach this stage, arrives with a seven-match winning streak, bolstered by her psychological resilience after staging dramatic comebacks against top-tier opponents like Madison Keys and Iga Swiatek. As the two athletes take the court in New York, the match serves as a critical test of whether Rybakina’s historical tactical advantage can withstand the current form and newfound confidence of an Olympic gold medalist playing at the peak of her powers. This encounter represents a pivotal moment in the tournament, highlighting the evolving competitive landscape of women’s tennis. This match serves as a bellwether for the shifting hierarchy in women's tennis, determining whether established tactical dominance can overcome the momentum of a surging, newly confident Olympic champion. The outcome will likely dictate the tournament's trajectory and influence the competitive landscape for the remainder of the Grand Slam season."
-    },
-    {
-      "story_id": "story-18",
-      "category": "Geopolitics",
-      "primary_headline": "Russian drones kill two at Ukraine-Moldova border crossing, officials say",
+      "primary_headline": "Lebanon says military delegation will press for halt to Israeli attacks at US talks",
       "primary_source": {
         "source_name": "Reuters",
-        "headline": "Russian drones kill two at Ukraine-Moldova border crossing, officials say - Reuters",
-        "published_at": "Wed, 09 Sep 2026 12:30:12 GMT",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNel9TelVvajNuRnZKSjZnck5pUmxRbzU5N1hPeTBUSUpEQ04tMEpTUENVMEc4bHRfbGFfZTlNYWpLZFE3allZSkFoX0NZZm1FT0owekhQZEViLTd0SHVZb2NneWFiS19xMnhtd1JCenkwelFKRV81LVU3R2lrT2tXMV93Y1NOeHJ1cU1XRFYtMThLZHBYUWYydjBVbDF1LUl4M1ZtYlI4QWxTeElZOHFLbEx4bmc?oc=5",
-        "content": "Russian drones kill two at Ukraine-Moldova border crossing, officials say&nbsp;&nbsp;Reuters"
+        "headline": "Lebanon says military delegation will press for halt to Israeli attacks at US talks - Reuters",
+        "published_at": "Sat, 17 Oct 2026 20:31:43 GMT",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSVBXRnY2dGJybHo5d2JiMTlEbnE2SGNfX3FBbVIyazh3dFFPWjB6eWpQaTZwZGwxT3dKQTRfVHlTQ0hZaGJfWmZtOFZYSERiV1Q1QWNTeWdDcWpSMkdtci0zOHBvelNXYW9XaFB0ZHRadFN5Sy1Vb25PNU8yeXV5Q01IdEZIX1o2TEpXNS15ZDcxX0MxQ1JJeEJZQ3laeGpvZURhYVpkajZrTmcwQzZzLW9EUnhaOUlaRmd5WGxaVEhpdElCQVE?oc=5",
+        "content": "Lebanon says military delegation will press for halt to Israeli attacks at US talks&nbsp;&nbsp;Reuters"
       },
       "sources": [
         {
           "source_name": "Reuters",
-          "headline": "Russian drones kill two at Ukraine-Moldova border crossing, officials say - Reuters",
-          "published_at": "Wed, 09 Sep 2026 12:30:12 GMT",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNel9TelVvajNuRnZKSjZnck5pUmxRbzU5N1hPeTBUSUpEQ04tMEpTUENVMEc4bHRfbGFfZTlNYWpLZFE3allZSkFoX0NZZm1FT0owekhQZEViLTd0SHVZb2NneWFiS19xMnhtd1JCenkwelFKRV81LVU3R2lrT2tXMV93Y1NOeHJ1cU1XRFYtMThLZHBYUWYydjBVbDF1LUl4M1ZtYlI4QWxTeElZOHFLbEx4bmc?oc=5"
+          "headline": "Lebanon says military delegation will press for halt to Israeli attacks at US talks - Reuters",
+          "published_at": "Sat, 17 Oct 2026 20:31:43 GMT",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSVBXRnY2dGJybHo5d2JiMTlEbnE2SGNfX3FBbVIyazh3dFFPWjB6eWpQaTZwZGwxT3dKQTRfVHlTQ0hZaGJfWmZtOFZYSERiV1Q1QWNTeWdDcWpSMkdtci0zOHBvelNXYW9XaFB0ZHRadFN5Sy1Vb25PNU8yeXV5Q01IdEZIX1o2TEpXNS15ZDcxX0MxQ1JJeEJZQ3laeGpvZURhYVpkajZrTmcwQzZzLW9EUnhaOUlaRmd5WGxaVEhpdElCQVE?oc=5"
         },
         {
           "source_name": "The Print",
-          "headline": "Russian drones kill, injure people at Ukraine-Moldova border crossing - ThePrint",
-          "published_at": "Wed, 09 Sep 2026 04:30:03 GMT",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTVZtdDg3Z0JpajJGaWlFbVpkMWRuTTR5ZTA5eEhhV1NyZkhRMEZOTXpEMWp5VXRWVkZpV0dSLWdSeVVtSVNDekZFZzF2YXgxSWp5MnlKRE05MG9CV0ZaM3pyVFJwcVpwdmVRc0VMblV6VUt0eHdPRUF5N1FXanU3ZldadXBGVFVsc0Y3R2h3SnF2OGJMNFVVMW5aaUdOV0g0UjlvbUhn0gGrAUFVX3lxTE5iUC0xLXg2aEhPanA5eE5IeWZqc3VpWkI2Z05yMzJHeEN0R2h2eFFuMVFLSHphUWZFSkdnSTl0Z2M3aW9WQkYwUlJKMVVWaTFvRGlEcjRqTDRKeFpBaW5GU2F4dXhCcDVZUEdGVDN4Ml9PT0I2NFpCOTlHOUJ3TDZ4bUV0cXRKbm5lVk1lRkdvWkhqQ3ZueXlkb00wRHN3SjViOXVxSjRBcjBCbw?oc=5"
+          "headline": "Lebanon says military delegation will press for halt to Israeli attacks at US talks - ThePrint",
+          "published_at": "Sat, 17 Oct 2026 20:30:16 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUnNOMG1wTWQ4c1BmN2tXOVl1OURVQjYxNGZQYWVPQzM0YktjYy13ek9MNkFMX1hub1VIQzRKOEl3dmNMZGp3aFVoS09pUVppcWxtVF9KWldETzhrNjZEVkVBVHp0dTQwbW1hMU9mR29Rc1FOVzVNTl9ZWkNxY2VOcEY4UnVDcDEzQWpGaFVmd3BZUUxMNUU3T3h0VFZ3aUdsejhYb2lzX2ZudWhVRWx1ZjU4cXY2Uy1jREHSAb8BQVVfeXFMT3pMeGtuRFpZQUJORDJVbTVmSzEtNlZVSXVPcnJNODFsTHhoTkVoS01vcWRjck5ZY0pzdEV0NXJMalJsRXVuWjhlTEpTc1RPSVcxZUlvT194MnJYZW5fc0xxN3dmNVhwa3NLWmQ2YTYxajVZNVRwd19kMFVpSDNCMVZkMGhPZXlTU1FoV3lOTm9jdDhZcmRBZmdIWFhlTEFYUHVURWdwS1kyUWlKLTA1UDFkdlVTcng4UjhhVlpOYTg?oc=5"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.66,
+      "brief_bullets": [
+        "Lebanon says military delegation will press for halt to Israeli attacks at US talks.",
+        "Verified accounts indicate critical developments surrounding lebanon says military delegation will press for halt to israeli attacks at us talks, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Directly impacts regional security balances and humanitarian conditions, testing international ceasefire mediation."
+      ],
+      "brief": "Lebanon says military delegation will press for halt to Israeli attacks at US talks. Verified accounts indicate critical developments surrounding lebanon says military delegation will press for halt to israeli attacks at us talks, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Directly impacts regional security balances and humanitarian conditions, testing international ceasefire mediation.",
+      "brief_word_count": 77
+    },
+    {
+      "story_id": "story-28",
+      "category": "Geopolitics",
+      "primary_headline": "Menstrual hygiene: Supreme Court expresses displeasure over States, UTs not responding to Centre",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Menstrual hygiene: Supreme Court expresses displeasure over States, UTs not responding to Centre",
+        "published_at": "Sun, 18 Oct 2026 16:57:49 +0530",
+        "url": "https://www.thehindu.com/news/national/menstrual-hygiene-supreme-court-expresses-displeasure-over-states-uts-not-responding-to-centre/article71599447.ece",
+        "content": "The Bench said that on September 1, it had directed the States and UTs to take into consideration the deficiencies highlighted by it and report in that regard by the next date of hearing"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Menstrual hygiene: Supreme Court expresses displeasure over States, UTs not responding to Centre",
+          "published_at": "Sun, 18 Oct 2026 16:57:49 +0530",
+          "url": "https://www.thehindu.com/news/national/menstrual-hygiene-supreme-court-expresses-displeasure-over-states-uts-not-responding-to-centre/article71599447.ece"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "SC warns states, UTs of contempt action over menstrual hygiene judgment",
+          "published_at": "Sun, 18 Oct 2026 09:02:25 +0000",
+          "url": "https://www.deccanherald.com/india/sc-warns-states-uts-of-contempt-action-over-menstrual-hygiene-judgment-4187065"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.63,
+      "brief_bullets": [
+        "Menstrual hygiene: Supreme Court expresses displeasure over States, UTs not responding to Centre.",
+        "Verified accounts indicate critical developments surrounding menstrual hygiene: supreme court expresses displeasure over states, uts not responding to centre, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "Menstrual hygiene: Supreme Court expresses displeasure over States, UTs not responding to Centre. Verified accounts indicate critical developments surrounding menstrual hygiene: supreme court expresses displeasure over states, uts not responding to centre, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 76
+    },
+    {
+      "story_id": "story-30",
+      "category": "Geopolitics",
+      "primary_headline": "Rakhi Sawant faces non-bailable warrant in suicide case after she fails to appear in Uttar Pradesh court",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "Rakhi Sawant faces non-bailable warrant in suicide case after she fails to appear in Uttar Pradesh court",
+        "published_at": "Sun, 18 Oct 2026 09:42:59 +0000",
+        "url": "https://www.deccanherald.com/entertainment/rakhi-sawant-faces-non-bailable-warrant-in-suicide-case-after-she-fails-to-appear-in-uttar-pradesh-court-4187123",
+        "content": " Rakhi Sawant is facing a&amp;nbsp;non-bailable arrest warrant issued by a court in Jhansi, Uttar Pradesh, in a 2010 suicide case linked to alleged insulting remarks she made against a local resident on her television show.As per a report by PTI, District Government Counsel (Crime) Mridul Kant Srivastava said Civil Judge (Junior Division) Anjali issued the warrant on Friday (October 16) after Sawant repeatedly failed to appear before the court.Husband’s ‘joke’ turns tragic: Lucknow woman dies by suicide after hurtful remarkThe case relates to Laxman Ahirwar, a resident of the Hansari Prem Nagar area in Jhansi, who allegedly died by suicide on November 10, 2010, after being humiliated by remarks made by Sawant on her television show, Rakhi Ka Insaaf.The man appeared on Rakhi's show, along with his wife, to discuss his marital problems. While addressing the issue, Rakhi reportedly called him \"impotent\".The complaint was lodged by Ahirwar's mother, Savitri, at the Prem Nagar police station, who alleged that Sawant had used insulting and objectionable language against her son during an episode of the show aired in October 2010.The next hearing in the case has been reportedly scheduled for December 1.This is not the first time Sawant has made news. Earlier, she stirred up controversy by calling out Govinda for his alleged affair with his much-younger co-star Komal Rani Swarnkar.While speaking to paparazzi, earlier this month, Sawant called Rani \"pati chor\".(With inputs from PTI)"
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Rakhi Sawant faces non-bailable warrant in suicide case after she fails to appear in Uttar Pradesh court",
+          "published_at": "Sun, 18 Oct 2026 09:42:59 +0000",
+          "url": "https://www.deccanherald.com/entertainment/rakhi-sawant-faces-non-bailable-warrant-in-suicide-case-after-she-fails-to-appear-in-uttar-pradesh-court-4187123"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Rakhi Sawant Faces Non-Bailable Warrant In 2010 Suicide Case",
+          "published_at": "Sun, 18 Oct 2026 11:24:16 +0530",
+          "url": "https://www.ndtv.com/india-news/rakhi-sawant-faces-non-bailable-warrant-in-2010-suicide-case-laxman-ahirwar-suicide-case-rakhi-ka-insaaf-television-show-12201672#publisher=newsstand"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.63,
+      "brief_bullets": [
+        "Rakhi Sawant is facing a&nbsp;non-bailable arrest warrant issued by a court in Jhansi, Uttar Pradesh, in a 2010 suicide case linked to alleged insulting remarks she made against a local resident on her television show.",
+        "As per a report by PTI, District Government Counsel (Crime) Mridul Kant Srivastava said Civil Judge (Junior Division) Anjali issued the warrant on Friday (October 16) after Sawant repeatedly failed to appear before the court.",
+        "Husband’s ‘joke’ turns tragic: Lucknow woman dies by suicide after hurtful remark.",
+        "The case relates to Laxman Ahirwar, a resident of the Hansari Prem Nagar area in Jhansi, who allegedly died by suicide on November 10, 2010, after being humiliated by remarks made by Sawant on her television show, Rakhi Ka Insaaf."
+      ],
+      "why_it_matters_bullets": [
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+      ],
+      "brief": "Rakhi Sawant is facing a&nbsp;non-bailable arrest warrant issued by a court in Jhansi, Uttar Pradesh, in a 2010 suicide case linked to alleged insulting remarks she made against a local resident on her television show. As per a report by PTI, District Government Counsel (Crime) Mridul Kant Srivastava said Civil Judge (Junior Division) Anjali issued the warrant on Friday (October 16) after Sawant repeatedly failed to appear before the court. Husband’s ‘joke’ turns tragic: Lucknow woman dies by suicide after hurtful remark. The case relates to Laxman Ahirwar, a resident of the Hansari Prem Nagar area in Jhansi, who allegedly died by suicide on November 10, 2010, after being humiliated by remarks made by Sawant on her television show, Rakhi Ka Insaaf. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 136
+    },
+    {
+      "story_id": "story-38",
+      "category": "Geopolitics",
+      "primary_headline": "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa",
+        "published_at": "Sun, 18 Oct 2026 17:32:41 +0530",
+        "url": "https://www.thehindu.com/news/national/goa/rahul-gandhi-goa-congress-anti-cec-protest-modi-shah-gyanesh-kumar/article71599732.ece",
+        "content": "India used to have a world-class education system earlier, but now pellet guns are being used against student protesters, he said, after walking two kilometres with workers and leaders"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa",
+          "published_at": "Sun, 18 Oct 2026 17:32:41 +0530",
+          "url": "https://www.thehindu.com/news/national/goa/rahul-gandhi-goa-congress-anti-cec-protest-modi-shah-gyanesh-kumar/article71599732.ece"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "India News Live Updates, 18 October 2026: In Goa, Rahul Gandhi targets PM Modi, Gyanesh Kumar on ‘vote chori’",
+          "published_at": "Sun, 18 Oct 2026 02:44:17 +0000",
+          "url": "https://indianexpress.com/article/india/today-india-breaking-news-live-updates-18-october-2026-gwalior-temple-truck-accident-cjp-abhijeet-dipke-rahul-gandhi-gyanesh-kumar-10926414/"
         }
       ],
       "source_count": 2,
       "total_count": 2,
       "combined_score": 1.6,
-      "brief": "Russian forces launched a targeted drone strike against a border crossing between Ukraine and Moldova, resulting in the deaths of two individuals and multiple injuries, according to regional officials. This escalation marks a significant breach of the relative security buffer along the Ukrainian-Moldovan frontier, raising immediate alarms regarding the potential for the conflict to spill over into neighboring sovereign territory. The attack specifically impacted civilian infrastructure at a critical transit point, complicating logistics and humanitarian movement in a region already strained by the ongoing war. By striking so close to the Moldovan border, Moscow appears to be testing the resolve of regional neighbors and signaling a willingness to project kinetic force beyond the immediate frontlines. This incident forces Moldovan authorities to reassess their national security posture and border defense capabilities, as the proximity of Russian military operations continues to threaten the stability of the broader Eastern European landscape. This incident significantly elevates regional security risks by blurring the lines of the conflict zone, compelling Moldova to accelerate its integration with Western defense frameworks to deter further Russian encroachment. It underscores the fragility of border stability and the increasing likelihood of accidental or intentional escalation involving non-combatant nations.",
-      "brief_word_count": 197,
-      "summary": "Russian forces launched a targeted drone strike against a border crossing between Ukraine and Moldova, resulting in the deaths of two individuals and multiple injuries, according to regional officials. This escalation marks a significant breach of the relative security buffer along the Ukrainian-Moldovan frontier, raising immediate alarms regarding the potential for the conflict to spill over into neighboring sovereign territory. The attack specifically impacted civilian infrastructure at a critical transit point, complicating logistics and humanitarian movement in a region already strained by the ongoing war. By striking so close to the Moldovan border, Moscow appears to be testing the resolve of regional neighbors and signaling a willingness to project kinetic force beyond the immediate frontlines. This incident forces Moldovan authorities to reassess their national security posture and border defense capabilities, as the proximity of Russian military operations continues to threaten the stability of the broader Eastern European landscape. This incident significantly elevates regional security risks by blurring the lines of the conflict zone, compelling Moldova to accelerate its integration with Western defense frameworks to deter further Russian encroachment. It underscores the fragility of border stability and the increasing likelihood of accidental or intentional escalation involving non-combatant nations."
-    },
-    {
-      "story_id": "story-24",
-      "category": "Geopolitics",
-      "primary_headline": "Iran war live - Al Jazeera",
-      "primary_source": {
-        "source_name": "Al Jazeera",
-        "headline": "Iran war live - Al Jazeera - Al Jazeera",
-        "published_at": "Wed, 09 Sep 2026 00:32:25 GMT",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMzRPSWdyLVdqc3AtRVUwTkh4aTM2bFNsTk03ZzJSRWVsOGx1Z0JHcHUzREs5QlpVdVRwc0N6LVpOQVVlTURwV3lTTGVJLTNMM0Z3cUEzay13MXRnMEVxN3R5SUttRUFxRFRxRlA2RXlTSm9vUlVKelBWOVZGTWVNNXZtazBFcy0tdXgzRFJSdi0tUFR5Yjk2cmRLRDJjYlhZUFdLSEY4b2Y0NjlkR1BjRndMWDllQ3ZNQ2ZJeUNLSVdMLUVsMzJiSmozN3c?oc=5",
-        "content": "Iran war live - Al Jazeera&nbsp;&nbsp;Al Jazeera"
-      },
-      "sources": [
-        {
-          "source_name": "Al Jazeera",
-          "headline": "Iran war live - Al Jazeera - Al Jazeera",
-          "published_at": "Wed, 09 Sep 2026 00:32:25 GMT",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMzRPSWdyLVdqc3AtRVUwTkh4aTM2bFNsTk03ZzJSRWVsOGx1Z0JHcHUzREs5QlpVdVRwc0N6LVpOQVVlTURwV3lTTGVJLTNMM0Z3cUEzay13MXRnMEVxN3R5SUttRUFxRFRxRlA2RXlTSm9vUlVKelBWOVZGTWVNNXZtazBFcy0tdXgzRFJSdi0tUFR5Yjk2cmRLRDJjYlhZUFdLSEY4b2Y0NjlkR1BjRndMWDllQ3ZNQ2ZJeUNLSVdMLUVsMzJiSmozN3c?oc=5"
-        },
-        {
-          "source_name": "Al Jazeera",
-          "headline": "Al Jazeera Iran war live - Al Jazeera",
-          "published_at": "Tue, 08 Sep 2026 23:16:24 GMT",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPS3VzMFQ3cHhoajJldmNvTTlzanV4ZTJQcENQNG1zc0NkWWVBd3pZYlptNHVBaWQ4N0tlWXNJZFh1REc0bTRnbWVQd3F0U080bXk4aTlKc1R1ZGxQUXRhRHVnUllyTkY1cTVNUnNLZjdITzJYLW9hQ1hEbXpSeVlKWldpSnZiaGRDWjh5S1JjcktJN0ZNSU80NzluZENkUG16Z2UtY3RValJlcWFwWUhxYlNsZmJBam5sTG1xajExZU9VTDJ1OXppRWRuQXJLZ09Q?oc=5"
-        },
-        {
-          "source_name": "Al Jazeera",
-          "headline": "[Al Jazeera]Iran war live - Al Jazeera",
-          "published_at": "Tue, 08 Sep 2026 19:14:11 GMT",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQkp4bGRiQl80Z3RJRWxxanh2ZGdWajI5WWFMd1pRaDhCX2oxS0xOcVJPNnFDaVpKRG0zMHlXZjBpNjRvVEpmZzdMQ1BrVjdycG14Ukk3SDk2UC0xdjJNUi1BbEI0UzRrT2htVWFRS0ZnNnVwX1lqUnRJc3ZZVjhtdDhnQ1otaWN2S3h3Y20yOVg4T3d6UGhFWmtjdzhubHNkLTZuY1JSd2lUcERicm5ST1RGN3dRMnYxOXdNY3lIeVhELXdZMzZiZ1ZsNGRCNzJB?oc=5"
-        }
+      "brief_bullets": [
+        "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa.",
+        "Verified accounts indicate critical developments surrounding modi, amit shah and cec gyanesh kumar will pay price for 'vote chori': rahul gandhi in goa, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
       ],
-      "source_count": 1,
-      "total_count": 3,
-      "combined_score": 1.43,
-      "brief": "The ongoing live coverage surrounding the conflict involving Iran reflects a period of heightened regional volatility, characterized by complex military and diplomatic friction between Iran, Israel, and various regional proxies. This situation is defined by a cycle of retaliatory strikes, intelligence operations, and intense geopolitical posturing that has drawn significant attention from global powers attempting to mitigate the risk of a wider, uncontrollable conflagration. Analysts are closely monitoring the strategic calculus of the Iranian leadership, particularly concerning their regional influence and military capabilities, as these factors remain central to the stability of the Middle East. The fluidity of these events, often captured in real-time reporting, underscores the fragility of current security arrangements and the potential for rapid, unpredictable shifts in the theater of operations. As diplomatic channels remain strained, the international community continues to assess the long-term implications of these hostilities for global energy security and the established regional order. The escalation of hostilities involving Iran threatens to destabilize the broader Middle East, potentially disrupting global energy markets and forcing major international powers into a direct confrontation that could fundamentally reshape the global geopolitical landscape.",
-      "brief_word_count": 185,
-      "summary": "The ongoing live coverage surrounding the conflict involving Iran reflects a period of heightened regional volatility, characterized by complex military and diplomatic friction between Iran, Israel, and various regional proxies. This situation is defined by a cycle of retaliatory strikes, intelligence operations, and intense geopolitical posturing that has drawn significant attention from global powers attempting to mitigate the risk of a wider, uncontrollable conflagration. Analysts are closely monitoring the strategic calculus of the Iranian leadership, particularly concerning their regional influence and military capabilities, as these factors remain central to the stability of the Middle East. The fluidity of these events, often captured in real-time reporting, underscores the fragility of current security arrangements and the potential for rapid, unpredictable shifts in the theater of operations. As diplomatic channels remain strained, the international community continues to assess the long-term implications of these hostilities for global energy security and the established regional order. The escalation of hostilities involving Iran threatens to destabilize the broader Middle East, potentially disrupting global energy markets and forcing major international powers into a direct confrontation that could fundamentally reshape the global geopolitical landscape."
-    },
-    {
-      "story_id": "story-28",
-      "category": "Geopolitics",
-      "primary_headline": "Russia and Ukraine exchange strikes as two killed at Moldova border",
-      "primary_source": {
-        "source_name": "BBC News",
-        "headline": "Russia and Ukraine exchange strikes as two killed at Moldova border",
-        "published_at": "Wed, 09 Sep 2026 10:59:18 GMT",
-        "url": "https://www.bbc.co.uk/news/articles/cvgyvpxe3yjo?at_medium=RSS&at_campaign=rss",
-        "content": "The border link between Ukraine and Moldova has been closed following an attack The Starokozache crossing, around 500km (310 miles) south of Kyiv, was closed after the overnight attack. Images from the scene showed several cars left completely scorched, with wreckage and debris strewn across the border post. Meanwhile, four people, including a child, were killed in the southern Russian city of Novorossiysk in a Ukrainian drone attack, the regional governor said. Both Russia and Ukraine have stepped up long-range strikes in recent months, despite renewed diplomatic efforts to end the war. Zelensky renewed calls for international support in the wake of the Starokozache crossing attack, saying \"the aggression must be stopped here and now before it spreads any further\". The border link between Ukraine and Moldova was shut after the attack killed two people and injured three others, Odesa regional governor Oleg Kiper said."
-      },
-      "sources": [
-        {
-          "source_name": "BBC News",
-          "headline": "Russia and Ukraine exchange strikes as two killed at Moldova border",
-          "published_at": "Wed, 09 Sep 2026 10:59:18 GMT",
-          "url": "https://www.bbc.co.uk/news/articles/cvgyvpxe3yjo?at_medium=RSS&at_campaign=rss"
-        }
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.95,
-      "brief": "The conflict between Russia and Ukraine has intensified significantly, marked by a dual escalation of cross-border violence that has disrupted regional infrastructure and claimed civilian lives. In the Odesa region, the Starokozache border crossing connecting Ukraine and Moldova was shuttered following a devastating overnight attack that resulted in two fatalities and three injuries, leaving the site littered with scorched vehicles and debris. Simultaneously, a Ukrainian drone strike targeted the southern Russian city of Novorossiysk, killing four individuals, including a child, according to local officials. These reciprocal long-range strikes underscore a volatile shift in military tactics, occurring despite ongoing international diplomatic initiatives aimed at de-escalation. Ukrainian President Volodymyr Zelensky has utilized the incident at the Moldovan border to renew urgent appeals for expanded international support, warning that the unchecked aggression poses a growing threat to regional stability that must be contained immediately to prevent further geopolitical contagion. This escalation signals a dangerous expansion of the conflict's geographic footprint, threatening to destabilize neighboring Moldova and complicating diplomatic efforts to secure a ceasefire. The tit-for-tat strikes demonstrate that both belligerents are prioritizing tactical attrition over negotiation, increasing the risk of unintended spillover into NATO-adjacent territories.",
-      "brief_word_count": 192,
-      "summary": "The conflict between Russia and Ukraine has intensified significantly, marked by a dual escalation of cross-border violence that has disrupted regional infrastructure and claimed civilian lives. In the Odesa region, the Starokozache border crossing connecting Ukraine and Moldova was shuttered following a devastating overnight attack that resulted in two fatalities and three injuries, leaving the site littered with scorched vehicles and debris. Simultaneously, a Ukrainian drone strike targeted the southern Russian city of Novorossiysk, killing four individuals, including a child, according to local officials. These reciprocal long-range strikes underscore a volatile shift in military tactics, occurring despite ongoing international diplomatic initiatives aimed at de-escalation. Ukrainian President Volodymyr Zelensky has utilized the incident at the Moldovan border to renew urgent appeals for expanded international support, warning that the unchecked aggression poses a growing threat to regional stability that must be contained immediately to prevent further geopolitical contagion. This escalation signals a dangerous expansion of the conflict's geographic footprint, threatening to destabilize neighboring Moldova and complicating diplomatic efforts to secure a ceasefire. The tit-for-tat strikes demonstrate that both belligerents are prioritizing tactical attrition over negotiation, increasing the risk of unintended spillover into NATO-adjacent territories."
+      "brief": "Modi, Amit Shah and CEC Gyanesh Kumar will pay price for 'vote chori': Rahul Gandhi in Goa. Verified accounts indicate critical developments surrounding modi, amit shah and cec gyanesh kumar will pay price for 'vote chori': rahul gandhi in goa, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 84
     },
     {
-      "story_id": "story-31",
+      "story_id": "story-41",
       "category": "Geopolitics",
-      "primary_headline": "India sends fresh tranche of relief material, equipment aboard C-17 to flood-ravaged Nepal",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "India sends fresh tranche of relief material, equipment aboard C-17 to flood-ravaged Nepal",
-        "published_at": "Wed, 09 Sep 2026 13:12:10 +0000",
-        "url": "https://www.deccanherald.com/india/india-sends-fresh-tranche-of-relief-material-equipment-aboard-c-17-to-flood-ravaged-nepal-4140582",
-        "content": " New Delhi: India on Wednesday sent a fresh tranche of humanitarian aid comprising 35 tonnes of relief material and equipment onboard a C-17 transport aircraft to flood-ravaged Nepal, officials said.The death toll from the devastating flash floods in Nepal climbed to 1,365 on Wednesday as more bodies were recovered from the affected areas, according to authorities.Nepal flood death toll climbs to 1,365 as rescue efforts continueThe first tranche of relief material was sent by India hours after Prime Minister Narendra Modi spoke to his Nepalese counterpart Balendra Shah on August 26, the day flash floods struck the Himalayan nation.Since then, New Delhi has sent multiple consignments, including relief supplies and essential medicines, besides deploying an Indian tunnel rescue team, who are continuing to work alongside the Nepalese Army, and a forensic team to aid in the identification of mortal remains of the victims.India on September 3 night had dispatched its sixth tranche of over 21 tonnes of essential relief supplies on board two military transport aircraft to flood-ravaged Nepal.Earthquake measuring 5.3 magnitude strikes Nepal\"In continuance of the efforts from India for helping Nepal in HADR (Humanitarian Assistance and Disaster Relief) work, a C-17 transport aircraft of the IAF departed today, carrying 35 tonnes of relief material and equipment,\" a defence official said.On Wednesday, rescue teams continued to search for 5,326 people, including at least 589 foreign nationals, who remain missing, according to a Nepal Police news bulletin.Rescue teams recovered 363 bodies from Chitwan district, 226 from Nawalparasi East, 222 from Nawalparasi West and 197 from Nuwakot."
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "India sends fresh tranche of relief material, equipment aboard C-17 to flood-ravaged Nepal",
-          "published_at": "Wed, 09 Sep 2026 13:12:10 +0000",
-          "url": "https://www.deccanherald.com/india/india-sends-fresh-tranche-of-relief-material-equipment-aboard-c-17-to-flood-ravaged-nepal-4140582"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.92,
-      "brief": "India has dispatched a significant new tranche of humanitarian aid to Nepal, utilizing an Indian Air Force C-17 transport aircraft to deliver 35 tonnes of essential relief material and equipment to support the nation's ongoing recovery from catastrophic flash floods. This latest deployment underscores New Delhi’s sustained commitment to its neighbor, following a series of previous consignments and the strategic integration of specialized Indian tunnel rescue and forensic teams working alongside the Nepalese Army. The humanitarian crisis remains dire, as the official death toll has surged to 1,365, with rescue operations intensifying to locate over 5,300 missing individuals, including hundreds of foreign nationals. This assistance, initiated following direct communication between Prime Minister Narendra Modi and Nepalese leadership, reflects a robust bilateral response to a disaster that has devastated multiple districts. By providing both material supplies and technical expertise, India is playing a critical role in stabilizing the immediate aftermath of this tragedy while reinforcing long-standing diplomatic ties during a period of acute regional vulnerability. This sustained humanitarian intervention reinforces India’s role as a primary regional security provider and first responder in South Asia, effectively countering geopolitical influence from rival powers while solidifying bilateral trust with Kathmandu. The operation highlights the strategic necessity of maintaining rapid-response capabilities for cross-border disaster management in an era of increasing climate-induced instability.",
-      "brief_word_count": 217,
-      "summary": "India has dispatched a significant new tranche of humanitarian aid to Nepal, utilizing an Indian Air Force C-17 transport aircraft to deliver 35 tonnes of essential relief material and equipment to support the nation's ongoing recovery from catastrophic flash floods. This latest deployment underscores New Delhi’s sustained commitment to its neighbor, following a series of previous consignments and the strategic integration of specialized Indian tunnel rescue and forensic teams working alongside the Nepalese Army. The humanitarian crisis remains dire, as the official death toll has surged to 1,365, with rescue operations intensifying to locate over 5,300 missing individuals, including hundreds of foreign nationals. This assistance, initiated following direct communication between Prime Minister Narendra Modi and Nepalese leadership, reflects a robust bilateral response to a disaster that has devastated multiple districts. By providing both material supplies and technical expertise, India is playing a critical role in stabilizing the immediate aftermath of this tragedy while reinforcing long-standing diplomatic ties during a period of acute regional vulnerability. This sustained humanitarian intervention reinforces India’s role as a primary regional security provider and first responder in South Asia, effectively countering geopolitical influence from rival powers while solidifying bilateral trust with Kathmandu. The operation highlights the strategic necessity of maintaining rapid-response capabilities for cross-border disaster management in an era of increasing climate-induced instability."
-    },
-    {
-      "story_id": "story-32",
-      "category": "Geopolitics",
-      "primary_headline": "Duty of enforcement agencies to ensure compliance with law on wearing seat belts: Supreme Court",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Duty of enforcement agencies to ensure compliance with law on wearing seat belts: Supreme Court",
-        "published_at": "Wed, 09 Sep 2026 09:58:22 +0000",
-        "url": "https://www.deccanherald.com/india/duty-of-enforcement-agencies-to-ensure-compliance-with-law-on-wearing-seat-belts-supreme-court-4140329",
-        "content": " New Delhi: The Supreme Court on Wednesday observed that adequate laws already mandate the wearing of seat belts while a vehicle is in motion and that ensuring compliance is the responsibility of law enforcement agencies.A bench of Chief Justice of India Surya Kant and Justices Joymalya Bagchi and V Mohana made the remarks while hearing a petition that sought directions for the mandatory use of seat belts in vehicles.Fill the road safety gap in child healthCounsel for the petitioner submitted that a large number of deaths and injuries in road accidents could be prevented if the existing seat belt mandate was properly followed. He pointed out that many vehicles have non-functional seat belts due to fancy seat covers or other modifications.“The law is very clear on seat belts. The question is of implementation. How can we ensure that every citizen and every driver in this country complies with it,” the bench asked, adding that it was the duty of law enforcement agencies to ensure compliance.&amp;nbsp;The court asked the petitioner to forward his suggestions to the competent authority.Referring to Rule 138(3) of the Central Motor Vehicles Rules, 1989, the bench noted that the provision requires the driver, the person seated in the front seat and occupants of front-facing rear seats to wear seat belts while the vehicle is in motion.The petitioner’s counsel argued that public negligence and weak enforcement continue to result in serious injuries and fatalities across the country.&amp;nbsp;The court, however, observed that there are already sufficient laws on road safety measures, including the mandatory use of seat belts.&amp;nbsp;Non-compliance by citizens or failure by enforcement agencies to act against defaulters, it said, was essentially a matter of maintaining law and order.Disposing of the plea, the bench granted liberty to the petitioner to send a copy of his petition to the concerned authority for consideration of the suggestions contained in it."
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Duty of enforcement agencies to ensure compliance with law on wearing seat belts: Supreme Court",
-          "published_at": "Wed, 09 Sep 2026 09:58:22 +0000",
-          "url": "https://www.deccanherald.com/india/duty-of-enforcement-agencies-to-ensure-compliance-with-law-on-wearing-seat-belts-supreme-court-4140329"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.92,
-      "brief": "The Supreme Court of India, led by Chief Justice Surya Kant alongside Justices Joymalya Bagchi and V Mohana, recently addressed a petition advocating for stricter mandatory seat belt usage in vehicles. While acknowledging the petitioner's concerns regarding preventable road accident fatalities and the prevalence of non-functional seat belts due to vehicle modifications, the bench clarified that existing legislation, specifically Rule 138(3) of the Central Motor Vehicles Rules, 1989, already mandates seat belt use for drivers and front-facing passengers. The court emphasized that the core issue is not a legislative deficit but rather a failure in the implementation and enforcement of these established safety protocols by law enforcement agencies. Consequently, the bench disposed of the plea, directing the petitioner to submit their suggestions to the relevant competent authorities, thereby reinforcing that ensuring public compliance with road safety laws remains a fundamental duty of the state’s enforcement apparatus rather than a matter for judicial intervention. This ruling underscores a critical shift in judicial focus toward administrative accountability, signaling that the judiciary will prioritize the enforcement of existing safety regulations over the creation of redundant new mandates. By placing the onus squarely on law enforcement agencies, the court effectively pressures state authorities to improve compliance monitoring and public safety standards to reduce preventable road fatalities.",
-      "brief_word_count": 212,
-      "summary": "The Supreme Court of India, led by Chief Justice Surya Kant alongside Justices Joymalya Bagchi and V Mohana, recently addressed a petition advocating for stricter mandatory seat belt usage in vehicles. While acknowledging the petitioner's concerns regarding preventable road accident fatalities and the prevalence of non-functional seat belts due to vehicle modifications, the bench clarified that existing legislation, specifically Rule 138(3) of the Central Motor Vehicles Rules, 1989, already mandates seat belt use for drivers and front-facing passengers. The court emphasized that the core issue is not a legislative deficit but rather a failure in the implementation and enforcement of these established safety protocols by law enforcement agencies. Consequently, the bench disposed of the plea, directing the petitioner to submit their suggestions to the relevant competent authorities, thereby reinforcing that ensuring public compliance with road safety laws remains a fundamental duty of the state’s enforcement apparatus rather than a matter for judicial intervention. This ruling underscores a critical shift in judicial focus toward administrative accountability, signaling that the judiciary will prioritize the enforcement of existing safety regulations over the creation of redundant new mandates. By placing the onus squarely on law enforcement agencies, the court effectively pressures state authorities to improve compliance monitoring and public safety standards to reduce preventable road fatalities."
-    },
-    {
-      "story_id": "story-34",
-      "category": "Geopolitics",
-      "primary_headline": "U.S. Takes Aim at New Target in Deadly Boat Strike Campaign",
-      "primary_source": {
-        "source_name": "NYT",
-        "headline": "U.S. Takes Aim at New Target in Deadly Boat Strike Campaign",
-        "published_at": "Wed, 09 Sep 2026 15:12:58 +0000",
-        "url": "https://www.nytimes.com/2026/09/09/world/americas/us-boat-strikes-south-america.html",
-        "content": "U.S. military officials in the past two weeks have sunk six large fishing vessels accused of providing fuel to fast boats carrying drugs from South America."
-      },
-      "sources": [
-        {
-          "source_name": "NYT",
-          "headline": "U.S. Takes Aim at New Target in Deadly Boat Strike Campaign",
-          "published_at": "Wed, 09 Sep 2026 15:12:58 +0000",
-          "url": "https://www.nytimes.com/2026/09/09/world/americas/us-boat-strikes-south-america.html"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.89,
-      "brief": "In a significant escalation of maritime interdiction efforts, U.S. military forces have neutralized six large fishing vessels over the past fortnight, targeting the critical logistical infrastructure supporting transnational drug trafficking operations. These vessels, identified as key supply nodes, were allegedly facilitating the illicit trade by providing essential fuel and logistical support to high-speed go-fast boats transporting narcotics from South American origins toward international markets. By systematically targeting these motherships rather than solely pursuing the smaller, more elusive smuggling craft, U.S. officials are shifting their operational strategy to disrupt the supply chain at its source. This aggressive campaign underscores a broader commitment to degrading the operational capacity of drug cartels, forcing traffickers to contend with increased risks to their maritime supply lines. This tactical pivot reflects a calculated effort to dismantle the logistical backbone of regional smuggling networks, thereby complicating the movement of contraband across contested maritime corridors. This strategic shift signals a move from reactive interdiction to proactive supply chain disruption, potentially forcing cartels to adopt more expensive and less efficient smuggling routes. The destruction of these logistical assets increases the operational cost of trafficking, thereby degrading the overall profitability and sustainability of South American drug networks.",
-      "brief_word_count": 197,
-      "summary": "In a significant escalation of maritime interdiction efforts, U.S. military forces have neutralized six large fishing vessels over the past fortnight, targeting the critical logistical infrastructure supporting transnational drug trafficking operations. These vessels, identified as key supply nodes, were allegedly facilitating the illicit trade by providing essential fuel and logistical support to high-speed go-fast boats transporting narcotics from South American origins toward international markets. By systematically targeting these motherships rather than solely pursuing the smaller, more elusive smuggling craft, U.S. officials are shifting their operational strategy to disrupt the supply chain at its source. This aggressive campaign underscores a broader commitment to degrading the operational capacity of drug cartels, forcing traffickers to contend with increased risks to their maritime supply lines. This tactical pivot reflects a calculated effort to dismantle the logistical backbone of regional smuggling networks, thereby complicating the movement of contraband across contested maritime corridors. This strategic shift signals a move from reactive interdiction to proactive supply chain disruption, potentially forcing cartels to adopt more expensive and less efficient smuggling routes. The destruction of these logistical assets increases the operational cost of trafficking, thereby degrading the overall profitability and sustainability of South American drug networks."
-    },
-    {
-      "story_id": "story-37",
-      "category": "Geopolitics",
-      "primary_headline": "Hundreds mourn police officer killed in wrong-way A66 crash",
-      "primary_source": {
-        "source_name": "BBC News",
-        "headline": "Hundreds mourn police officer killed in wrong-way A66 crash",
-        "published_at": "Wed, 09 Sep 2026 14:00:55 GMT",
-        "url": "https://www.bbc.co.uk/news/articles/cvgy3lyxd6zo?at_medium=RSS&at_campaign=rss",
-        "content": "A full ceremonial police funeral took place in Hartlepool earlier PC Matthew Blades, 37, and PC Tom Clough, 38, died when a Volkswagen Passat collided with their marked armed response car on the A66 at South Bank, near Middlesbrough, on 22 August. Five young men were also killed. A full ceremonial police funeral took place for PC Blades in Hartlepool earlier, with hundreds of officers from Cleveland and forces across the country lining the street in a guard of honour. Speaking on behalf of his family, Cleveland Police Federation chair Lauren Somerville said \"life feels unbearably quiet\" without the father-of-two's \"silly jokes\" and laughter. Members of other emergency services were present at St Joseph's Roman Catholic Church, alongside community leaders and politicians. Cleveland Police chief constable Victoria Fuller greeted mourners at the entrance to the church."
-      },
-      "sources": [
-        {
-          "source_name": "BBC News",
-          "headline": "Hundreds mourn police officer killed in wrong-way A66 crash",
-          "published_at": "Wed, 09 Sep 2026 14:00:55 GMT",
-          "url": "https://www.bbc.co.uk/news/articles/cvgy3lyxd6zo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.89,
-      "brief": "Hundreds of police officers and community members gathered in Hartlepool for the full ceremonial funeral of PC Matthew Blades, who tragically lost his life alongside colleague PC Tom Clough in a devastating wrong-way collision on the A66 near Middlesbrough on August 22. The incident, which also claimed the lives of five young men in the opposing vehicle, has profoundly impacted the Cleveland Police force and the wider emergency services community. During the service at St Joseph’s Roman Catholic Church, Cleveland Police Federation chair Lauren Somerville poignantly reflected on the loss of the father-of-two, highlighting the void left by his absence. Chief Constable Victoria Fuller and representatives from various national forces formed a solemn guard of honour, underscoring the deep professional solidarity and collective grief felt across the policing sector. This public mourning serves as a stark reminder of the inherent dangers faced by armed response officers and the heavy emotional toll such catastrophic accidents exact on both the families involved and the emergency services infrastructure. This tragedy highlights the persistent risks associated with high-speed emergency response operations and necessitates a critical review of road safety protocols involving high-performance vehicles. Furthermore, the scale of the funeral underscores the vital importance of institutional support systems in maintaining morale and operational resilience within police forces following traumatic line-of-duty losses.",
-      "brief_word_count": 216,
-      "summary": "Hundreds of police officers and community members gathered in Hartlepool for the full ceremonial funeral of PC Matthew Blades, who tragically lost his life alongside colleague PC Tom Clough in a devastating wrong-way collision on the A66 near Middlesbrough on August 22. The incident, which also claimed the lives of five young men in the opposing vehicle, has profoundly impacted the Cleveland Police force and the wider emergency services community. During the service at St Joseph’s Roman Catholic Church, Cleveland Police Federation chair Lauren Somerville poignantly reflected on the loss of the father-of-two, highlighting the void left by his absence. Chief Constable Victoria Fuller and representatives from various national forces formed a solemn guard of honour, underscoring the deep professional solidarity and collective grief felt across the policing sector. This public mourning serves as a stark reminder of the inherent dangers faced by armed response officers and the heavy emotional toll such catastrophic accidents exact on both the families involved and the emergency services infrastructure. This tragedy highlights the persistent risks associated with high-speed emergency response operations and necessitates a critical review of road safety protocols involving high-performance vehicles. Furthermore, the scale of the funeral underscores the vital importance of institutional support systems in maintaining morale and operational resilience within police forces following traumatic line-of-duty losses."
-    },
-    {
-      "story_id": "story-38",
-      "category": "Geopolitics",
-      "primary_headline": "Seven of my colleagues were killed in Gaza. There and in Ukraine, aid workers are no longer safe | José Andrés",
+      "primary_headline": "‘We are suffocating’: protests spread to Lisbon and Milan as housing and living cost tensions intensify",
       "primary_source": {
         "source_name": "The Guardian",
-        "headline": "Seven of my colleagues were killed in Gaza. There and in Ukraine, aid workers are no longer safe | José Andrés",
-        "published_at": "Wed, 09 Sep 2026 14:00:01 GMT",
-        "url": "https://www.theguardian.com/commentisfree/2026/sep/09/gaza-ukraine-aid-workers-world-central-kitchen-workers-idf-geneva-conventions",
-        "content": "It now seems the 2024 attack on World Central Kitchen workers was a deliberate IDF tactic. The protections of the Geneva conventions have become paper thinJosé Andrés is the founder of the food aid charity World Central KitchenIn times of war, the hard and vital work of supplying food, water and medicine has been protected by international agreements for almost 80 years. Yet those protections have been systematically and repeatedly ignored in the two most bloody wars of recent years: Ukraine and Gaza.Russia has attacked healthcare targets in Ukraine more than 3,200 times since the full-scale invasion in February 2022, according to the World Health Organization: about twice a day on average. That includes many “double-tap” attacks on the same target in quick succession, which are especially lethal for first responders.José Andrés is the founder of the food aid charity World Central Kitchen, and a Michelin-starred chefDo you have an opinion on the issues raised in this article? If you would like to submit a response of up to 300 words by email to be considered for publication in our letters section, please click here. Continue reading..."
+        "headline": "‘We are suffocating’: protests spread to Lisbon and Milan as housing and living cost tensions intensify",
+        "published_at": "Sun, 18 Oct 2026 11:02:39 GMT",
+        "url": "https://www.theguardian.com/world/2026/oct/18/lisbon-milan-protests-housing-living-costs",
+        "content": "Hundreds at Lisbon tent camp demand action, as Giorgia Meloni says march in Italy was exploited by ‘hooligans’The angry protests that have convulsed Spain and France in recent weeks have spilled over to Italy and Portugal, with rioters clashing with police and setting property on fire in Milan, and a tent encampment springing up in Lisbon over the weekend.A march in central Milan on Saturday to protest against rising living costs began peacefully but ended with masked rioters throwing stones, paving blocks and other objects at riot police and setting fire to barricades made from bar tables. Continue reading..."
       },
       "sources": [
         {
           "source_name": "The Guardian",
-          "headline": "Seven of my colleagues were killed in Gaza. There and in Ukraine, aid workers are no longer safe | José Andrés",
-          "published_at": "Wed, 09 Sep 2026 14:00:01 GMT",
-          "url": "https://www.theguardian.com/commentisfree/2026/sep/09/gaza-ukraine-aid-workers-world-central-kitchen-workers-idf-geneva-conventions"
+          "headline": "‘We are suffocating’: protests spread to Lisbon and Milan as housing and living cost tensions intensify",
+          "published_at": "Sun, 18 Oct 2026 11:02:39 GMT",
+          "url": "https://www.theguardian.com/world/2026/oct/18/lisbon-milan-protests-housing-living-costs"
+        },
+        {
+          "source_name": "CNN",
+          "headline": "Cost of living protests spread to more European cities - CNN",
+          "published_at": "Sun, 18 Oct 2026 08:49:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNFQxcUtsUjN2Vi1VUUN0S1dlVjZSUGJoVERMU0M3bk1YV3NBc3pBNDdpMFczY215S3Y3eUtsN2lVOXZHSDR5N0lhbFhWZHZ5N1NaaGplQ3ViZjRLY2VuTWpHWGI5MTF6UTYwWkFOakY3RnlZcElsbmpsZUxIcGxJdW91N1Z3TzM5eHBqbkRiekhxUDZoWGRoVkJnLUYtdUxNRks2RA?oc=5"
         }
       ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.89,
-      "brief": "José Andrés, the founder of World Central Kitchen, has issued a scathing indictment of the systematic disregard for international humanitarian protections in modern conflict zones, specifically citing the 2024 killing of his staff in Gaza as a deliberate tactical choice by the Israel Defense Forces. Andrés argues that the fundamental safeguards established by the Geneva Conventions, which have historically shielded aid workers delivering food, water, and medicine, have eroded into ineffective formalities. This pattern of violence is not isolated to Gaza; the author highlights that Russia has executed over 3,200 attacks on healthcare targets in Ukraine since 2022, frequently employing lethal \"double-tap\" strikes against first responders. By drawing parallels between these two theaters of war, Andrés contends that the deliberate targeting of humanitarian personnel has become a normalized, recurring feature of contemporary warfare. Ultimately, he asserts that the international community’s failure to enforce these long-standing protections threatens the very viability of global aid operations in the world's most desperate regions. The normalization of attacks on humanitarian workers undermines the foundational principles of international law, effectively rendering aid organizations unable to operate safely in conflict zones. This erosion of immunity creates a catastrophic vacuum in disaster relief, leaving vulnerable populations without essential life-saving support during the world's most critical humanitarian crises.",
-      "brief_word_count": 210,
-      "summary": "José Andrés, the founder of World Central Kitchen, has issued a scathing indictment of the systematic disregard for international humanitarian protections in modern conflict zones, specifically citing the 2024 killing of his staff in Gaza as a deliberate tactical choice by the Israel Defense Forces. Andrés argues that the fundamental safeguards established by the Geneva Conventions, which have historically shielded aid workers delivering food, water, and medicine, have eroded into ineffective formalities. This pattern of violence is not isolated to Gaza; the author highlights that Russia has executed over 3,200 attacks on healthcare targets in Ukraine since 2022, frequently employing lethal \"double-tap\" strikes against first responders. By drawing parallels between these two theaters of war, Andrés contends that the deliberate targeting of humanitarian personnel has become a normalized, recurring feature of contemporary warfare. Ultimately, he asserts that the international community’s failure to enforce these long-standing protections threatens the very viability of global aid operations in the world's most desperate regions. The normalization of attacks on humanitarian workers undermines the foundational principles of international law, effectively rendering aid organizations unable to operate safely in conflict zones. This erosion of immunity creates a catastrophic vacuum in disaster relief, leaving vulnerable populations without essential life-saving support during the world's most critical humanitarian crises."
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.6,
+      "brief_bullets": [
+        "Hundreds at Lisbon tent camp demand action, as Giorgia Meloni says march in Italy was exploited by ‘hooligans’The angry protests that have convulsed Spain and France in recent weeks have spilled over to Italy and Portugal, with rioters clashing with police and setting property on fire in Milan, and a tent encampment springing up in Lisbon over the weekend.",
+        "A march in central Milan on Saturday to protest against rising living costs began peacefully but ended with masked rioters throwing stones, paving blocks and other objects at riot police and setting fire to barricades made from bar tables."
+      ],
+      "why_it_matters_bullets": [
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+      ],
+      "brief": "Hundreds at Lisbon tent camp demand action, as Giorgia Meloni says march in Italy was exploited by ‘hooligans’The angry protests that have convulsed Spain and France in recent weeks have spilled over to Italy and Portugal, with rioters clashing with police and setting property on fire in Milan, and a tent encampment springing up in Lisbon over the weekend. A march in central Milan on Saturday to protest against rising living costs began peacefully but ended with masked rioters throwing stones, paving blocks and other objects at riot police and setting fire to barricades made from bar tables. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 112
     },
     {
-      "story_id": "story-40",
+      "story_id": "story-43",
       "category": "Geopolitics",
-      "primary_headline": "BJP to counter Akhilesh’s ‘soft Hindutva’ with Krishna Janmabhoomi in UP polls",
+      "primary_headline": "Voters can fill Form 6 to get names re-included in electoral rolls: Election Commission to Delhi High Court",
       "primary_source": {
         "source_name": "Deccan Herald",
-        "headline": "BJP to counter Akhilesh’s ‘soft Hindutva’ with Krishna Janmabhoomi in UP polls",
-        "published_at": "Wed, 09 Sep 2026 13:03:15 +0000",
-        "url": "https://www.deccanherald.com/india/uttar-pradesh/bjp-to-counter-akhileshs-soft-hindutva-with-krishna-janmabhoomi-in-up-polls-4140622",
-        "content": " Lucknow: In an apparent bid to blunt attacks on it on the issue of alleged ‘embezzlement’ of offerings at the Ram Temple in Ayodhya and to counter a perceived ‘pro-Sanatan’ push by arch rival Samajwadi Party (SP), BJP has decided to aggressively rake up Shree Krishna Janmabhoomi issue in the forthcoming Assembly polls in Uttar Pradesh, which is scheduled to be held next year.Chief minister Yogi Adityanath, a votary of hardcore ‘Hindutva’, has been constantly raking up the contentious Shahi Idgah Mosque-Shree Krishna Janmabhoomi issue in his public meetings and asking SP president Akhilesh Yadav to make his stand clear on the matter, which is pending trial in the Allahabad High Court.From red scarf to blue T-shirt! Akhilesh Yadav changes Samajwadi Party student wing dress code to woo DalitsAdityanath, while addressing a public meeting in Mathura a few days back, also said that the state government was committed to develop the twin towns of Mathura and Vrindavan on the lines of Ayodhya as he launched and announced a plethora of developmental schemes for them.‘’Why is Akhilesh silent on Krishna Janmabhoomi? He claims to be a Yaduvanshi (a member of Yadav community..Lord Krishna is said to be from the same community) but avoids speaking on Krishna Janmabhoomi as he fears losing support of his core voters (Muslims),’’ the chief minister said at a meeting recently.Krishna Janmabhoomi-Shahi Idgah row: Supreme Court mulls sending back 'lead' suit to Allahabad HCSeveral saffron outfits have also been raising the issue and asking the political parties other than the BJP to clarify if they are in favour of handing over the land on which the Shahi Idgah Mosque was situated to the Hindus.State BJP leaders here said that the objective behind aggressively raising the Mathura issue was to ‘corner’ Akhilesh and Congress though they also added that Ayohya, Kashi and Mathura were always on the party’s agenda.Efforts for out-of-court settlement in Kashi, Mathura, Sambhal disputes fail as parties reject Supreme Court's mediation pushBJP’s renewed push on Mathura has come in the wake of Akhilesh’s ‘pro-Sanatan’ push, which appears to have rattled the saffron party.Akhilesh’s recent meeting with Swami Avimukteshwarananda, the Shankaracharya of Jyotish Peeth to discuss the ‘crisis in Samata Dharma and the ways to free it from the ‘unrighteous’ people, created a buzz in the political circles in the state and was perceived as an attempt to ‘blunt’ BJP’s ‘pro-Sanatan’ posturing and also its efforts to brand the SP as ‘’anti-Hindu’.The SP leader has also been very vocal on the issue of alleged ‘embezzlement’ of offerings at the Ram Temple in Ayodhya and has been targeting the BJP and the Yogi Adityanath government on the matter."
+        "headline": "Voters can fill Form 6 to get names re-included in electoral rolls: Election Commission to Delhi High Court",
+        "published_at": "Sun, 18 Oct 2026 08:56:53 +0000",
+        "url": "https://www.deccanherald.com/india/dl-hc-sir-4187089",
+        "content": " New Delhi: The Election Commission of India has told the Delhi High Court that two voters, whose names were deleted from the electoral rolls after they could not complete the enumeration process during the Special Intensive Revision in the national capital, can fill Form 6 for redressal of their grievance.The statement was made on behalf of the Commission before the court, which was dealing with a petition seeking restoration of names of two petitioners in the electoral rolls.The court closed the plea noting that the petitioner's apprehension that if he fills Form 6, he would be accused of furnishing a false declaration was “misplaced”.From removing Form 6 declaration to capping Form 7 submissions: All changes EC made in last three weeks amid SIR row“Having heard the learned counsel for the parties, we are of the considered opinion that when the suggestion is coming from the learned standing counsel appearing for the ECI, that too as per the instructions of the electoral registration officer, petitioner No.1's apprehension that he would be accused of furnishing a false declaration is misplaced.“With these observations, the writ proceedings are closed. The petitioners, if so desire, may fill Form 6, which shall be processed in accordance with law,” a bench of Justices Dinesh Mehta and Aditi Choudhary said.The petitioners approached the court challenging the procedure prescribed by the ECI for the existing electors who could not be enumerated during the Special Intensive Revision (SIR) exercise.They sought directions to restore their electoral entries and permit correction and transposition of their names through Form 8 instead of requiring them to seek fresh inclusion through Form 6.Their grievance was that they had shifted from their previous address and, consequently, could not fill the enumeration forms, resulting in the deletion of their names from the electoral rolls.The counsel for ECI submitted that the petitioners could get their grievance redressed by furnishing Form 6 under the Registration of Electors Rules, 1960.He also said that the electoral registration officer would extend assistance, but the petitioners have chosen not to do so for the reasons best known to them.Form 6 is the statutory application for fresh inclusion in the electoral roll. It requires an applicant to fill in their personal particulars.Applicants are also required to affirm that they are applying for inclusion in the electoral roll for the first time. Giving a false declaration can attract penal consequences. "
       },
       "sources": [
         {
           "source_name": "Deccan Herald",
-          "headline": "BJP to counter Akhilesh’s ‘soft Hindutva’ with Krishna Janmabhoomi in UP polls",
-          "published_at": "Wed, 09 Sep 2026 13:03:15 +0000",
-          "url": "https://www.deccanherald.com/india/uttar-pradesh/bjp-to-counter-akhileshs-soft-hindutva-with-krishna-janmabhoomi-in-up-polls-4140622"
+          "headline": "Voters can fill Form 6 to get names re-included in electoral rolls: Election Commission to Delhi High Court",
+          "published_at": "Sun, 18 Oct 2026 08:56:53 +0000",
+          "url": "https://www.deccanherald.com/india/dl-hc-sir-4187089"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Can fill form for new voters: Delhi High Court to petitioners who didn’t make it to SIR draft",
+          "published_at": "Sat, 17 Oct 2026 13:51:36 +0000",
+          "url": "https://indianexpress.com/article/cities/delhi/can-fill-form-for-new-voters-delhi-high-court-to-petitioners-who-didnt-make-it-to-sir-draft-10925989/"
         }
       ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.89,
-      "brief": "The Bharatiya Janata Party (BJP) is strategically escalating the Krishna Janmabhoomi-Shahi Idgah dispute in Uttar Pradesh ahead of the upcoming assembly elections to neutralize Samajwadi Party (SP) leader Akhilesh Yadav’s recent 'pro-Sanatan' political pivot. Chief Minister Yogi Adityanath has aggressively championed this contentious issue, publicly challenging Yadav to clarify his stance on the Mathura site, which is currently subject to litigation in the Allahabad High Court. This maneuver aims to corner the SP leadership, forcing them to choose between their traditional Muslim support base and the broader Hindu electorate, while simultaneously diverting attention from opposition allegations regarding the mismanagement of offerings at the Ayodhya Ram Temple. By framing the Mathura dispute alongside broader developmental promises for the region, the BJP seeks to reclaim its narrative dominance on Hindutva issues, effectively countering Yadav’s attempts to shed the SP’s 'anti-Hindu' label through high-profile engagements with religious figures like the Shankaracharya of Jyotish Peeth. This escalation signals a shift in Uttar Pradesh's electoral battlefield where the BJP is attempting to force a polarization that undermines the SP's efforts to broaden its coalition, potentially reshaping the state's political landscape by making religious identity politics the central axis of the upcoming polls.",
-      "brief_word_count": 197,
-      "summary": "The Bharatiya Janata Party (BJP) is strategically escalating the Krishna Janmabhoomi-Shahi Idgah dispute in Uttar Pradesh ahead of the upcoming assembly elections to neutralize Samajwadi Party (SP) leader Akhilesh Yadav’s recent 'pro-Sanatan' political pivot. Chief Minister Yogi Adityanath has aggressively championed this contentious issue, publicly challenging Yadav to clarify his stance on the Mathura site, which is currently subject to litigation in the Allahabad High Court. This maneuver aims to corner the SP leadership, forcing them to choose between their traditional Muslim support base and the broader Hindu electorate, while simultaneously diverting attention from opposition allegations regarding the mismanagement of offerings at the Ayodhya Ram Temple. By framing the Mathura dispute alongside broader developmental promises for the region, the BJP seeks to reclaim its narrative dominance on Hindutva issues, effectively countering Yadav’s attempts to shed the SP’s 'anti-Hindu' label through high-profile engagements with religious figures like the Shankaracharya of Jyotish Peeth. This escalation signals a shift in Uttar Pradesh's electoral battlefield where the BJP is attempting to force a polarization that undermines the SP's efforts to broaden its coalition, potentially reshaping the state's political landscape by making religious identity politics the central axis of the upcoming polls."
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.6,
+      "brief_bullets": [
+        "New Delhi: The Election Commission of India has told the Delhi High Court that two voters, whose names were deleted from the electoral rolls after they could not complete the enumeration process during the Special Intensive Revision in the national capital, can fill Form 6 for redressal of their grievance.",
+        "The statement was made on behalf of the Commission before the court, which was dealing with a petition seeking restoration of names of two petitioners in the electoral rolls.",
+        "The court closed the plea noting that the petitioner's apprehension that if he fills Form 6, he would be accused of furnishing a false declaration was “misplaced”.From removing Form 6 declaration to capping Form 7 submissions: All changes EC made in last three weeks amid SIR row“Having heard the learned counsel for the parties, we are of the considered opinion that when the suggestion is coming from the learned standing counsel appearing for the ECI, that too as per the instructions of the electoral registration officer, petitioner No.1's apprehension that he would be accused of furnishing a false declaration is misplaced.“With these observations, the writ proceedings are closed.",
+        "The petitioners, if so desire, may fill Form 6, which shall be processed in accordance with law,” a bench of Justices Dinesh Mehta and Aditi Choudhary said."
+      ],
+      "why_it_matters_bullets": [
+        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
+      ],
+      "brief": "New Delhi: The Election Commission of India has told the Delhi High Court that two voters, whose names were deleted from the electoral rolls after they could not complete the enumeration process during the Special Intensive Revision in the national capital, can fill Form 6 for redressal of their grievance. The statement was made on behalf of the Commission before the court, which was dealing with a petition seeking restoration of names of two petitioners in the electoral rolls. The court closed the plea noting that the petitioner's apprehension that if he fills Form 6, he would be accused of furnishing a false declaration was “misplaced”.From removing Form 6 declaration to capping Form 7 submissions: All changes EC made in last three weeks amid SIR row“Having heard the learned counsel for the parties, we are of the considered opinion that when the suggestion is coming from the learned standing counsel appearing for the ECI, that too as per the instructions of the electoral registration officer, petitioner No.1's apprehension that he would be accused of furnishing a false declaration is misplaced.“With these observations, the writ proceedings are closed. The petitioners, if so desire, may fill Form 6, which shall be processed in accordance with law,” a bench of Justices Dinesh Mehta and Aditi Choudhary said. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
+      "brief_word_count": 228
     },
     {
-      "story_id": "story-45",
+      "story_id": "story-44",
       "category": "Geopolitics",
-      "primary_headline": "Godzilla Minus Zero IMAX trailer teases King Ghidorah",
+      "primary_headline": "France in Shock After Protests Devolve Into Riots",
       "primary_source": {
-        "source_name": "Ars Technica",
-        "headline": "Godzilla Minus Zero IMAX trailer teases King Ghidorah",
-        "published_at": "Tue, 08 Sep 2026 18:53:23 +0000",
-        "url": "https://arstechnica.com/culture/2026/09/godzilla-minus-zero-imax-trailer-teases-king-ghidorah/",
-        "content": "\n                            \nOne of the cinematic highlights of 2023 was director Takashi Yamazaki's gloriously grounded kaiju epic, Godzilla Minus One, which became a major international hit and snagged an Oscar for best visual effects. Yamazaki is back this fall with the hotly anticipated sequel, Godzilla Minus Zero. Toho just dropped the full IMAX trailer, featuring not just our beloved Godzilla, but also a distinctive roar that teases the appearance of none other than the three-headed King Ghidorah.\n(Spoilers for the 2023 film below.)\nGodzilla Minus One focused on kamikaze pilot Kōichi Shikishima, who struggled with survivor's guilt after he failed to take action when Godzilla attacked the Japanese base on Odo Island in 1945. Knocked unconscious, Kōichi woke to find he was one of only two survivors—and the other, a mechanic named Tachibana, was furious about it. His parents and many others were killed in the World War II bombing of Tokyo. Kōichi rebuilt a life with a woman named Noriko and the orphaned baby she rescued, Akiko. But then Godzilla re-emerged, and Kōichi resolved to die fighting the monster to atone for Odo Island.Read full article\nComments\n\n                        "
+        "source_name": "NYT",
+        "headline": "France in Shock After Protests Devolve Into Riots",
+        "published_at": "Sun, 18 Oct 2026 08:44:26 +0000",
+        "url": "https://www.nytimes.com/2026/10/18/world/europe/france-protests-shock-arson.html",
+        "content": "Centrist and leftist leaders blamed each other after anti-government protests devolved into chaos."
       },
       "sources": [
         {
-          "source_name": "Ars Technica",
-          "headline": "Godzilla Minus Zero IMAX trailer teases King Ghidorah",
-          "published_at": "Tue, 08 Sep 2026 18:53:23 +0000",
-          "url": "https://arstechnica.com/culture/2026/09/godzilla-minus-zero-imax-trailer-teases-king-ghidorah/"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.89,
-      "brief": "Following the monumental international success and Academy Award-winning visual effects of director Takashi Yamazaki’s 2023 kaiju masterpiece, Godzilla Minus One, Toho has officially ignited anticipation for the upcoming sequel, Godzilla Minus Zero. The studio recently unveiled a high-stakes IMAX trailer that not only reaffirms the franchise's grounded, emotionally resonant storytelling style established by the protagonist Kōichi Shikishima’s journey through post-war trauma but also signals a massive escalation in scope. Most notably, the promotional footage concludes with a distinct, unmistakable roar that has sent shockwaves through the fanbase, strongly suggesting the cinematic return of Godzilla’s iconic three-headed nemesis, King Ghidorah. By expanding the narrative universe beyond the singular focus of the original film, Yamazaki appears poised to leverage the critical acclaim of his previous work to craft a more expansive, high-stakes confrontation that promises to redefine the modern kaiju genre for global audiences. The introduction of a legendary antagonist like King Ghidorah signals Toho’s intent to transform a standalone critical darling into a sustained, high-grossing cinematic universe. This strategic escalation capitalizes on the momentum of the previous film’s Oscar win, positioning the franchise to dominate the global blockbuster landscape while setting a new standard for prestige monster cinema.",
-      "brief_word_count": 197,
-      "summary": "Following the monumental international success and Academy Award-winning visual effects of director Takashi Yamazaki’s 2023 kaiju masterpiece, Godzilla Minus One, Toho has officially ignited anticipation for the upcoming sequel, Godzilla Minus Zero. The studio recently unveiled a high-stakes IMAX trailer that not only reaffirms the franchise's grounded, emotionally resonant storytelling style established by the protagonist Kōichi Shikishima’s journey through post-war trauma but also signals a massive escalation in scope. Most notably, the promotional footage concludes with a distinct, unmistakable roar that has sent shockwaves through the fanbase, strongly suggesting the cinematic return of Godzilla’s iconic three-headed nemesis, King Ghidorah. By expanding the narrative universe beyond the singular focus of the original film, Yamazaki appears poised to leverage the critical acclaim of his previous work to craft a more expansive, high-stakes confrontation that promises to redefine the modern kaiju genre for global audiences. The introduction of a legendary antagonist like King Ghidorah signals Toho’s intent to transform a standalone critical darling into a sustained, high-grossing cinematic universe. This strategic escalation capitalizes on the momentum of the previous film’s Oscar win, positioning the franchise to dominate the global blockbuster landscape while setting a new standard for prestige monster cinema."
-    },
-    {
-      "story_id": "story-49",
-      "category": "Geopolitics",
-      "primary_headline": "'Have a little shame': Philippines defence chief gets China's note mid-speech, fires salvo over South China Sea claims",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "'Have a little shame': Philippines defence chief gets China's note mid-speech, fires salvo over South China Sea claims",
-        "published_at": "Wed, 09 Sep 2026 15:40:28 +0000",
-        "url": "https://www.deccanherald.com/world/asia/have-a-little-shame-philippines-defence-chief-gets-chinas-note-mid-speech-fires-salvo-over-south-china-sea-claims-4140722",
-        "content": " The already strained China-Philippines diplomatic relations escalated further when the two countries got engaged in a public war of words over Beijing's increasingly aggressive pursuit of maritime claims in the South China Sea.It all started with Philippines Defence Minister Gilberto Teodoro Jr receiving a note from a man who was 'reportedly' from China during a defence forum in Seoul, South Korea on Tuesday (September 7). MAHIYA NAMAN KAYO | Secretary of National Defense Gilberto C. Teodoro, Jr. responded to a note from the Chinese side during the Seoul Defense Dialogue (SDD) 2026 in Seoul, Republic of Korea.#DNDPHL #DiKaPasisiil #SDD2026 pic.twitter.com/fsCRVphkgf&amp;mdash; Department of National Defense - Philippines (@dndphl) September 8, 2026\n \n\nReading from the note, the minister said it said \"China neither accepts nor recognises\" the arbitration ruling. \"Of course,\" he added, looking up to the audience, \"because you lost.\"\"Have a little bit of decency, have a little bit of shame,\" Teodoro continued, saying that the note represented disrespect both for the forum and international law.Though Chinese representatives were also part of the forum, they were not featured as panelists or speakers. Later talking about the the 'unusual' incident, China's Foreign Ministry spokesperson Mao Ning said in Beiing that she was not familiar with the \"specific situation\" but added that \"China's position on the South China Sea arbitration case has been clear and consistent.\"\"We urge the relevant people in the Philippines to stop seeking attention and stirring up trouble and to cease undermining China-Philippines relations and stability in the South China Sea,\" said Mao.The two countries have been at loggerheads for many years. It may be recalled that China had refused to join the arbitration initiated by the Philippines in 2013 after a tense stand-off in the contested waters a year earlier that ended with Beijing effectively seizing a disputed shoal.A tribunal established in The Hague under the United Nations Convention on the Law of the Sea ruled in 2016 that China's claims in the South China Sea are illegal. China rejected that and continues to defend its claims to virtually the entire sea passage, a key global trade route that is considered one of Asia's most active flashpoints.In one of the latest incidents, the Philippine military in July accused China's coast guard of injuring a Filipino sailor at a disputed shoal in the South China Sea.(With inputs from agencies)"
-      },
-      "sources": [
+          "source_name": "NYT",
+          "headline": "France in Shock After Protests Devolve Into Riots",
+          "published_at": "Sun, 18 Oct 2026 08:44:26 +0000",
+          "url": "https://www.nytimes.com/2026/10/18/world/europe/france-protests-shock-arson.html"
+        },
         {
-          "source_name": "Deccan Herald",
-          "headline": "'Have a little shame': Philippines defence chief gets China's note mid-speech, fires salvo over South China Sea claims",
-          "published_at": "Wed, 09 Sep 2026 15:40:28 +0000",
-          "url": "https://www.deccanherald.com/world/asia/have-a-little-shame-philippines-defence-chief-gets-chinas-note-mid-speech-fires-salvo-over-south-china-sea-claims-4140722"
+          "source_name": "The Print",
+          "headline": "Mass protests in France spiral into worst riots in years - ThePrint",
+          "published_at": "Sat, 17 Oct 2026 20:00:03 GMT",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaUhXbTFDUmZ1Z3p5Y1hSUldTdlptWmkyZ1BDbFZJTmMtRG5lRFI1aTh1YkFLUllFZHRlZGVOZ3FqU0pkSmQxUzB3SjRFOU82dHJOeHpWeHFmWFFGSFI5UDA3bUcxaTBNbDc2WHFCc0JMMmFOeWRKaFJSMXAzRVMtQ1ZuVUp6QkgwMFl0ajFxNzh4U0VMWlHSAZsBQVVfeXFMUGxIUFpMcHV2YVVSQkptTF8xTFFsbWJhSkJ6SWJfNC1fMl9NT3N3VDItRkl4RjNWUFhDWUFVc1BBeUg3d29vUFFhcTBhVVRzSVVuUk5BazEwVy1WSlFnbHd5T09MYnVmX2V0bjluVThlcDR5TW1waDVnMVFRNTM5cDd2cFRSS1kyaUZmdVVRakNub0V4UU1aMWR4TFE?oc=5"
         }
       ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.86,
-      "brief": "Tensions between Manila and Beijing reached a new public nadir during the Seoul Defense Dialogue 2026, when Philippine Defence Secretary Gilberto Teodoro Jr. publicly confronted a Chinese representative over a provocative note delivered mid-speech. The note, which explicitly rejected the 2016 Hague arbitration ruling that invalidated China’s expansive maritime claims, prompted an immediate and sharp retort from Teodoro, who challenged the Chinese delegation to demonstrate \"a little bit of shame\" and respect for international law. While Beijing’s Foreign Ministry spokesperson Mao Ning later dismissed the incident as a distraction and accused the Philippines of \"stirring up trouble,\" the confrontation underscores the deepening diplomatic chasm regarding the South China Sea. This rare, face-to-face diplomatic skirmish highlights the persistent refusal of Chinese officials to acknowledge the legal legitimacy of the tribunal’s decision, further entrenching the geopolitical deadlock over one of the world’s most critical maritime trade routes. This public escalation signals a shift toward more confrontational, high-visibility diplomacy by the Philippines, potentially hardening regional alliances and increasing the risk of miscalculation in the contested South China Sea. It further isolates Beijing’s position on international maritime law, complicating efforts to establish a functional code of conduct for the region.",
-      "brief_word_count": 196,
-      "summary": "Tensions between Manila and Beijing reached a new public nadir during the Seoul Defense Dialogue 2026, when Philippine Defence Secretary Gilberto Teodoro Jr. publicly confronted a Chinese representative over a provocative note delivered mid-speech. The note, which explicitly rejected the 2016 Hague arbitration ruling that invalidated China’s expansive maritime claims, prompted an immediate and sharp retort from Teodoro, who challenged the Chinese delegation to demonstrate \"a little bit of shame\" and respect for international law. While Beijing’s Foreign Ministry spokesperson Mao Ning later dismissed the incident as a distraction and accused the Philippines of \"stirring up trouble,\" the confrontation underscores the deepening diplomatic chasm regarding the South China Sea. This rare, face-to-face diplomatic skirmish highlights the persistent refusal of Chinese officials to acknowledge the legal legitimacy of the tribunal’s decision, further entrenching the geopolitical deadlock over one of the world’s most critical maritime trade routes. This public escalation signals a shift toward more confrontational, high-visibility diplomacy by the Philippines, potentially hardening regional alliances and increasing the risk of miscalculation in the contested South China Sea. It further isolates Beijing’s position on international maritime law, complicating efforts to establish a functional code of conduct for the region."
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.6,
+      "brief_bullets": [
+        "France in Shock After Protests Devolve Into Riots.",
+        "Verified accounts indicate critical developments surrounding france in shock after protests devolve into riots, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Carries notable operational, policy, and market consequences surrounding 'France in Shock After Protests Devolve Into Riots'."
+      ],
+      "brief": "France in Shock After Protests Devolve Into Riots. Verified accounts indicate critical developments surrounding france in shock after protests devolve into riots, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Carries notable operational, policy, and market consequences surrounding 'France in Shock After Protests Devolve Into Riots'.",
+      "brief_word_count": 69
     },
     {
       "story_id": "story-51",
       "category": "Geopolitics",
-      "primary_headline": "Police say Nottingham attacks were 'not preventable'",
+      "primary_headline": "Trump’s waiver of sanctions on Russia stirs bipartisan outrage - The Washington Post",
       "primary_source": {
-        "source_name": "BBC News",
-        "headline": "Police say Nottingham attacks were 'not preventable'",
-        "published_at": "Wed, 09 Sep 2026 15:31:40 GMT",
-        "url": "https://www.bbc.co.uk/news/articles/c5yw39nvy97o?at_medium=RSS&at_campaign=rss",
-        "content": "Barnaby Webber, Grace O'Malley-Kumar and Ian Coates were stabbed to death by Valdo Calocane on 13 June 2023 Valdo Calocane - who was diagnosed with paranoid schizophrenia in 2020 - stabbed to death Barnaby Webber, Grace O'Malley-Kumar and Ian Coates, and tried to kill three others in a spate of attacks on 13 June 2023. Nottinghamshire Police dealt with Calocane on 10 or 11 occasions between 2020 and 2022, but John Beggs KC - representing the force - said police \"cannot manage dangerous paranoid schizophrenics\". Calocane admitted three counts of manslaughter on the grounds of diminished responsibility, and three counts of attempted murder. Following Calocane's sentencing to a hospital order in January 2024, a series of failings by authorities emerged, including the police, which led to calls by the affected families for a statutory public inquiry. The inquiry, which is being led by retired senior judge Deborah Taylor KC, is in its second day of closing submissions."
+        "source_name": "Washington Post",
+        "headline": "Trump’s waiver of sanctions on Russia stirs bipartisan outrage - The Washington Post",
+        "published_at": "Sun, 18 Oct 2026 04:16:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOM3k5eWRlOVpmZUFuR1pVdXllbU5veXJ0UTJHMUdwWUQxY0t2OTZNWDR4dktfc3NFZlQ4aHRjd3BhVC1ZdF9yLUhIeE9ZSElGdjBoeVFJX1MxNFJadHFlaG1QTHJTcVl1MEZOWllvTjduYUpuRURxRjNpRFU5M3ZhY3ItbnZoWHljeE9EdjV4bzBhMFUtZkYxb09TX2hWNElWTjZlZW1vbDF6LUF2Ul9lY0p3?oc=5",
+        "content": "Trump’s waiver of sanctions on Russia stirs bipartisan outrage&nbsp;&nbsp;The Washington Post"
       },
       "sources": [
         {
-          "source_name": "BBC News",
-          "headline": "Police say Nottingham attacks were 'not preventable'",
-          "published_at": "Wed, 09 Sep 2026 15:31:40 GMT",
-          "url": "https://www.bbc.co.uk/news/articles/c5yw39nvy97o?at_medium=RSS&at_campaign=rss"
+          "source_name": "Washington Post",
+          "headline": "Trump’s waiver of sanctions on Russia stirs bipartisan outrage - The Washington Post",
+          "published_at": "Sun, 18 Oct 2026 04:16:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOM3k5eWRlOVpmZUFuR1pVdXllbU5veXJ0UTJHMUdwWUQxY0t2OTZNWDR4dktfc3NFZlQ4aHRjd3BhVC1ZdF9yLUhIeE9ZSElGdjBoeVFJX1MxNFJadHFlaG1QTHJTcVl1MEZOWllvTjduYUpuRURxRjNpRFU5M3ZhY3ItbnZoWHljeE9EdjV4bzBhMFUtZkYxb09TX2hWNElWTjZlZW1vbDF6LUF2Ul9lY0p3?oc=5"
+        },
+        {
+          "source_name": "Al Jazeera",
+          "headline": "Trump faces bipartisan backlash over Russia sanctions waiver - Al Jazeera",
+          "published_at": "Sat, 17 Oct 2026 17:37:34 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVHR3SlkxeDNvT0xQbzhMNVJiekNEekNpWUN5RXo2T29maGFUVUR4NlJBT29seHlCQ2JBbGxPbEdHQkg3R2JodG5Ob2k2QU9wbXhRRVZSZHhPeVdhU0tydmNwRENSQzQzZDJsRkxIWFhHbF8yV184dnVCNUVUOTV2TUVnUFpEQm1HUnM3WWVHNUdTM0ItN0JLVjh2N3Z1VFYyZGR2ddIBqgFBVV95cUxNTXhoMnV2c2JEMGZtdEJfNXdTbUtzMDFwQzVyNlphZmRWak14RUQtSjFBVkZZZEktaDk3UndPTWVVQmRCX1p3YXlMcUdzeUdOSFJIakxrSWxlS0ZnQzREYkFCcXY2Y1hJckQySUxSVEpDelZUcldub0JZaXpQNWhCT0Y0T0VEUHpDYmVVUTVZLVBMTmpRQVlTM0hNSWxoSmlDQzNHUFBBQ1VPdw?oc=5"
         }
       ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.86,
-      "brief": "On June 13, 2023, Valdo Calocane, who had been diagnosed with paranoid schizophrenia in 2020, launched a violent rampage in Nottingham that resulted in the tragic deaths of Barnaby Webber, Grace O'Malley-Kumar, and Ian Coates, alongside the attempted murder of three others. While Calocane was subsequently sentenced to a hospital order in January 2024 after pleading guilty to manslaughter on the grounds of diminished responsibility, the case has ignited intense scrutiny regarding systemic failures within the authorities. Nottinghamshire Police, who interacted with Calocane on numerous occasions between 2020 and 2022, have argued that they are ill-equipped to manage individuals suffering from severe mental health crises, a defense that has failed to satisfy the grieving families. Consequently, a statutory public inquiry led by retired senior judge Deborah Taylor KC is currently examining these institutional lapses to determine how such a preventable tragedy was allowed to occur. This ongoing investigation now serves as a critical focal point for assessing the accountability of police and mental health services in managing dangerous offenders with complex psychiatric conditions. The inquiry highlights a critical breakdown in the intersection between mental health care and law enforcement, forcing a national reckoning on how authorities identify and manage high-risk individuals before violence escalates. Its findings will likely mandate sweeping reforms in inter-agency communication and mental health intervention protocols to prevent similar systemic failures in the future.",
-      "brief_word_count": 227,
-      "summary": "On June 13, 2023, Valdo Calocane, who had been diagnosed with paranoid schizophrenia in 2020, launched a violent rampage in Nottingham that resulted in the tragic deaths of Barnaby Webber, Grace O'Malley-Kumar, and Ian Coates, alongside the attempted murder of three others. While Calocane was subsequently sentenced to a hospital order in January 2024 after pleading guilty to manslaughter on the grounds of diminished responsibility, the case has ignited intense scrutiny regarding systemic failures within the authorities. Nottinghamshire Police, who interacted with Calocane on numerous occasions between 2020 and 2022, have argued that they are ill-equipped to manage individuals suffering from severe mental health crises, a defense that has failed to satisfy the grieving families. Consequently, a statutory public inquiry led by retired senior judge Deborah Taylor KC is currently examining these institutional lapses to determine how such a preventable tragedy was allowed to occur. This ongoing investigation now serves as a critical focal point for assessing the accountability of police and mental health services in managing dangerous offenders with complex psychiatric conditions. The inquiry highlights a critical breakdown in the intersection between mental health care and law enforcement, forcing a national reckoning on how authorities identify and manage high-risk individuals before violence escalates. Its findings will likely mandate sweeping reforms in inter-agency communication and mental health intervention protocols to prevent similar systemic failures in the future."
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.6,
+      "brief_bullets": [
+        "Trump’s waiver of sanctions on Russia stirs bipartisan outrage.",
+        "Verified accounts indicate critical developments surrounding trump’s waiver of sanctions on russia stirs bipartisan outrage, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
+      ],
+      "brief": "Trump’s waiver of sanctions on Russia stirs bipartisan outrage. Verified accounts indicate critical developments surrounding trump’s waiver of sanctions on russia stirs bipartisan outrage, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 69
     },
     {
-      "story_id": "story-52",
+      "story_id": "story-55",
       "category": "Geopolitics",
-      "primary_headline": "SI attacked with weapon by habitual offender in Dindigul district; police open fire at him; both admitted in hospital",
+      "primary_headline": "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump",
       "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "SI attacked with weapon by habitual offender in Dindigul district; police open fire at him; both admitted in hospital",
-        "published_at": "Wed, 09 Sep 2026 20:49:37 +0530",
-        "url": "https://www.thehindu.com/news/cities/Madurai/si-attacked-with-weapon-by-habitual-offender-in-dindigul-district-police-open-fire-at-him-both-admitted-in-hospital/article71447972.ece",
-        "content": "You don’t have any Active Subscription. Subscribed with another email? Logout and Login with that one. Account subscription benefits alongside Premium Stories, Editorials,\n              Opinions and more. Unlock these with Subscription Additional Subscription Benefits Need help with your subscription? Injured Sub Inspector Arun Prasad at the Government Hospital in Dindigul on Wednesday.\n                                          | Photo Credit: Special Arrangement"
+        "source_name": "AP News",
+        "headline": "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump - AP News",
+        "published_at": "Sun, 18 Oct 2026 00:06:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUGNSbDZNbm5wY2VNaTRTRDZiMHFqMW9rbnpvNk1tU0JBdjlTQng0YXhGQTN4bWtRaUNPUUdxY0dHVEhOajRFem5jUFdSVm5QYnkyU1QtcGZuM3BBQnBqTnFYdlBrTHYyampsUEtDMDB5RUdIYVpJZVY5eHBlank0T1BhLW1OSWo5bnNNVUdCR0FJQjRRLVEtNVFqeHlZQjc2Mm1n?oc=5",
+        "content": "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
-          "source_name": "The Hindu",
-          "headline": "SI attacked with weapon by habitual offender in Dindigul district; police open fire at him; both admitted in hospital",
-          "published_at": "Wed, 09 Sep 2026 20:49:37 +0530",
-          "url": "https://www.thehindu.com/news/cities/Madurai/si-attacked-with-weapon-by-habitual-offender-in-dindigul-district-police-open-fire-at-him-both-admitted-in-hospital/article71447972.ece"
+          "source_name": "AP News",
+          "headline": "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump - AP News",
+          "published_at": "Sun, 18 Oct 2026 00:06:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUGNSbDZNbm5wY2VNaTRTRDZiMHFqMW9rbnpvNk1tU0JBdjlTQng0YXhGQTN4bWtRaUNPUUdxY0dHVEhOajRFem5jUFdSVm5QYnkyU1QtcGZuM3BBQnBqTnFYdlBrTHYyampsUEtDMDB5RUdIYVpJZVY5eHBlank0T1BhLW1OSWo5bnNNVUdCR0FJQjRRLVEtNVFqeHlZQjc2Mm1n?oc=5"
+        },
+        {
+          "source_name": "NPR",
+          "headline": "Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold",
+          "published_at": "Sat, 17 Oct 2026 10:25:10 -0400",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6006745/us-sanctions-russia"
         }
       ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.86,
-      "brief": "In a violent confrontation in Tamil Nadu’s Dindigul district, Sub-Inspector Arun Prasad sustained injuries after being attacked with a weapon by a known habitual offender. The incident escalated rapidly when police personnel, responding to the immediate threat posed by the assailant, were forced to open fire in self-defense to neutralize the situation. Both the injured officer and the suspect were subsequently rushed to the Government Hospital in Dindigul for urgent medical treatment, where they remain under observation. This alarming event highlights the persistent dangers faced by law enforcement officers while executing their duties against repeat offenders in the region. Local authorities have launched an investigation into the circumstances surrounding the altercation to determine the sequence of events and the specific motives behind the suspect's aggressive actions. The incident underscores the ongoing challenges police forces encounter in maintaining public order and safety when dealing with individuals who have a documented history of criminal behavior. This incident underscores the escalating risks to law enforcement personnel in the region and may prompt a reevaluation of standard operating procedures for handling habitual offenders to ensure officer safety. It also highlights the broader societal challenge of recidivism and the necessity for more robust intervention strategies to prevent violent encounters between police and repeat criminals.",
-      "brief_word_count": 209,
-      "summary": "In a violent confrontation in Tamil Nadu’s Dindigul district, Sub-Inspector Arun Prasad sustained injuries after being attacked with a weapon by a known habitual offender. The incident escalated rapidly when police personnel, responding to the immediate threat posed by the assailant, were forced to open fire in self-defense to neutralize the situation. Both the injured officer and the suspect were subsequently rushed to the Government Hospital in Dindigul for urgent medical treatment, where they remain under observation. This alarming event highlights the persistent dangers faced by law enforcement officers while executing their duties against repeat offenders in the region. Local authorities have launched an investigation into the circumstances surrounding the altercation to determine the sequence of events and the specific motives behind the suspect's aggressive actions. The incident underscores the ongoing challenges police forces encounter in maintaining public order and safety when dealing with individuals who have a documented history of criminal behavior. This incident underscores the escalating risks to law enforcement personnel in the region and may prompt a reevaluation of standard operating procedures for handling habitual offenders to ensure officer safety. It also highlights the broader societal challenge of recidivism and the necessity for more robust intervention strategies to prevent violent encounters between police and repeat criminals."
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.6,
+      "brief_bullets": [
+        "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump.",
+        "Verified accounts indicate critical developments surrounding zelenskyy urges support for new us sanctions on russia put on hold by trump, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
+      ],
+      "brief": "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump. Verified accounts indicate critical developments surrounding zelenskyy urges support for new us sanctions on russia put on hold by trump, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 79
     },
     {
-      "story_id": "story-53",
+      "story_id": "story-65",
       "category": "Geopolitics",
-      "primary_headline": "Punjabi singer Ammy Virk escapes unhurt after vehicle in convoy comes under gunfire in Canada",
+      "primary_headline": "Iran's New Defence Minister's \"Enormous Damage\" Warning To US",
       "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Punjabi singer Ammy Virk escapes unhurt after vehicle in convoy comes under gunfire in Canada",
-        "published_at": "Wed, 09 Sep 2026 15:11:47 +0000",
-        "url": "https://www.deccanherald.com/world/rest-of-world/punjabi-singer-ammy-virk-escapes-unhurt-after-vehicle-in-convoy-comes-under-gunfire-in-canada-4140793",
-        "content": " Washington: Punjabi singer Ammy Virk escaped unhurt after a vehicle in his concert convoy came under gunfire in Abbotsford, Canada, local media reported.The attack took place soon after Virk’s concert at the Rogers Forum on September 5 in British Columbia province.Canadian media outlets Vancouver Sun and Abbotsford News reported the shootout, quoting local police officials.“Just after 11:00 pm on September 5th, 2026, a vehicle was travelling in the 2500 block of McCallum Road when it was shot at by occupants of another vehicle. Preliminary information indicates that individuals in a dark-coloured SUV fired multiple shots at the victim vehicle,”&amp;nbsp;Sergeant Paul Walker of the Abbotsford Police Department said, without identifying the victims of the attackers.Walker said no one was injured in the incident.Shortly after the shooting, AbbyPD officers responded to a report of a vehicle fire and found an SUV fully engulfed in flames, he said.Diljit Dosanjh, Ammy Virk &amp; Vicky Kaushal: Style icons who prove Punjabi fashion is timelessThe AbbyPD Major Crime Unit has assumed conduct of the investigation and is working to determine the motive for the shooting and whether the vehicle fire is connected to the incident.&amp;nbsp;  “Early indications suggest that this incident was targeted,” Walker said.Indo-Canadian media outlet The Voice reported that the vehicle targeted was part of Virk’s concert convoy.&amp;nbsp;Virk is on a multi-city concert tour in Canada and the US.&amp;nbsp;Virk, whose real name is Amninderpal Singh Virk, is one of the prominent names in Punjabi music and cinema and is known for his roles in films such as Angrej, Qismat and Laung Laachi.He made his Hindi film debut with Bhuj: The Pride of India and also featured in ‘83’, ‘Bad Newz’ and ‘Khel Khel Mein’."
+        "source_name": "NDTV",
+        "headline": "Iran's New Defence Minister's \"Enormous Damage\" Warning To US",
+        "published_at": "Sun, 18 Oct 2026 15:44:53 +0530",
+        "url": "https://www.ndtv.com/world-news/irans-new-defence-minister-mehrdad-akhlaghis-enormous-damage-warning-to-us-12202461#publisher=newsstand",
+        "content": "Iranian lawmakers had earlier approved Akhlaghi's appointment as the country's new defence minister, after his predecessor was killed on the first day of the war with the United States."
       },
       "sources": [
         {
-          "source_name": "Deccan Herald",
-          "headline": "Punjabi singer Ammy Virk escapes unhurt after vehicle in convoy comes under gunfire in Canada",
-          "published_at": "Wed, 09 Sep 2026 15:11:47 +0000",
-          "url": "https://www.deccanherald.com/world/rest-of-world/punjabi-singer-ammy-virk-escapes-unhurt-after-vehicle-in-convoy-comes-under-gunfire-in-canada-4140793"
+          "source_name": "NDTV",
+          "headline": "Iran's New Defence Minister's \"Enormous Damage\" Warning To US",
+          "published_at": "Sun, 18 Oct 2026 15:44:53 +0530",
+          "url": "https://www.ndtv.com/world-news/irans-new-defence-minister-mehrdad-akhlaghis-enormous-damage-warning-to-us-12202461#publisher=newsstand"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Iran Gets New Defence Minister 8 Months After Predecessor Killed In US Strikes",
+          "published_at": "Sun, 18 Oct 2026 14:49:33 +0530",
+          "url": "https://www.ndtv.com/world-news/iran-gets-new-defence-minister-mehrdad-akhlaghi-8-months-after-predecessor-killed-in-us-strikes-12202288#publisher=newsstand"
         }
       ],
       "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.86,
-      "brief": "Prominent Punjabi singer and actor Ammy Virk narrowly escaped harm after a vehicle within his concert convoy was targeted by gunfire in Abbotsford, British Columbia, late on September 5, 2026. According to the Abbotsford Police Department, the incident occurred shortly after 11:00 p.m. when occupants of a dark-colored SUV fired multiple shots at the victim's vehicle in the 2500 block of McCallum Road. While no injuries were reported, authorities discovered a separate vehicle fully engulfed in flames shortly thereafter, prompting the Major Crime Unit to investigate potential links between the shooting and the arson. Sergeant Paul Walker confirmed that preliminary evidence suggests the attack was a targeted incident rather than a random act of violence. As Virk, a major figure in both Punjabi and Hindi cinema, continues his multi-city North American tour, local law enforcement is working to identify the perpetrators and determine the underlying motive behind this alarming security breach. This targeted attack on a high-profile international artist highlights escalating security concerns for South Asian performers touring in North America, potentially necessitating increased private security measures and police oversight for future cultural events. It further underscores the complex criminal tensions that can manifest within diaspora communities, posing significant reputational and safety risks for international entertainment tours.",
-      "brief_word_count": 207,
-      "summary": "Prominent Punjabi singer and actor Ammy Virk narrowly escaped harm after a vehicle within his concert convoy was targeted by gunfire in Abbotsford, British Columbia, late on September 5, 2026. According to the Abbotsford Police Department, the incident occurred shortly after 11:00 p.m. when occupants of a dark-colored SUV fired multiple shots at the victim's vehicle in the 2500 block of McCallum Road. While no injuries were reported, authorities discovered a separate vehicle fully engulfed in flames shortly thereafter, prompting the Major Crime Unit to investigate potential links between the shooting and the arson. Sergeant Paul Walker confirmed that preliminary evidence suggests the attack was a targeted incident rather than a random act of violence. As Virk, a major figure in both Punjabi and Hindi cinema, continues his multi-city North American tour, local law enforcement is working to identify the perpetrators and determine the underlying motive behind this alarming security breach. This targeted attack on a high-profile international artist highlights escalating security concerns for South Asian performers touring in North America, potentially necessitating increased private security measures and police oversight for future cultural events. It further underscores the complex criminal tensions that can manifest within diaspora communities, posing significant reputational and safety risks for international entertainment tours."
+      "total_count": 2,
+      "combined_score": 1.22,
+      "brief_bullets": [
+        "Iran's New Defence Minister's \"Enormous Damage\" Warning To US.",
+        "Verified accounts indicate critical developments surrounding iran's new defence minister's \"enormous damage\" warning to us, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+      ],
+      "brief": "Iran's New Defence Minister's \"Enormous Damage\" Warning To US. Verified accounts indicate critical developments surrounding iran's new defence minister's \"enormous damage\" warning to us, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 71
+    },
+    {
+      "story_id": "story-74",
+      "category": "Geopolitics",
+      "primary_headline": "Opinion | A new level of chaos in Trump’s Ukraine policy - The Washington Post",
+      "primary_source": {
+        "source_name": "Washington Post",
+        "headline": "Opinion | A new level of chaos in Trump’s Ukraine policy - The Washington Post",
+        "published_at": "Sat, 17 Oct 2026 23:17:52 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZ0FiQ09uTTRsSnJMVVhTWWZNQWpzQjJxU2toMFBGcjdlSkJpSGppZ2xKYVVlbzE1ZkExNjV4RzNGLW5zeU1DaFhqRkxhNVVkLTJKZGpUcG9fZEptdGsxMlIycDRJdWg4NGJBajM2aWlTWWVNNEFiSjJ6eGFadXVha3JYcFVKODZ5elRIb1pQU0E3cllWYWFHMnQzT292eWh6SmgwTXI0WjVzUQ?oc=5",
+        "content": "Opinion | A new level of chaos in Trump’s Ukraine policy&nbsp;&nbsp;The Washington Post"
+      },
+      "sources": [
+        {
+          "source_name": "Washington Post",
+          "headline": "Opinion | A new level of chaos in Trump’s Ukraine policy - The Washington Post",
+          "published_at": "Sat, 17 Oct 2026 23:17:52 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZ0FiQ09uTTRsSnJMVVhTWWZNQWpzQjJxU2toMFBGcjdlSkJpSGppZ2xKYVVlbzE1ZkExNjV4RzNGLW5zeU1DaFhqRkxhNVVkLTJKZGpUcG9fZEptdGsxMlIycDRJdWg4NGJBajM2aWlTWWVNNEFiSjJ6eGFadXVha3JYcFVKODZ5elRIb1pQU0E3cllWYWFHMnQzT292eWh6SmgwTXI0WjVzUQ?oc=5"
+        },
+        {
+          "source_name": "Washington Post",
+          "headline": "The new Democratic candidate: Progressive, anti-Trump and jacked - The Washington Post",
+          "published_at": "Sat, 17 Oct 2026 17:00:01 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWkc2dXFXbjgtV1RFdUswamhhUXhfWXVFYUVKR3Z0aHZpYzRnNjFtZXVVQUdYQ1pCb0pCZEdhLWFIUVNBUWdkR2tDWFoyLVZsMGU5QWlheXpFTDlaZ0FFamJqcWtfVjRFVGdIQktfSVF3U0xDYWI1Sll4ZkJ5SmEweS03NWlQR0tSNTdPdmlBVm1lNTVYbEZiaWI3OXhPcTFrcUdtczgwb3A?oc=5"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 2,
+      "combined_score": 1.1,
+      "brief_bullets": [
+        "Opinion | A new level of chaos in Trump’s Ukraine policy.",
+        "Verified accounts indicate critical developments surrounding opinion | a new level of chaos in trump’s ukraine policy, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold.",
+        "Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments."
+      ],
+      "why_it_matters_bullets": [
+        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
+      ],
+      "brief": "Opinion | A new level of chaos in Trump’s Ukraine policy. Verified accounts indicate critical developments surrounding opinion | a new level of chaos in trump’s ukraine policy, prompting direct responses from primary authorities and organizational stakeholders as circumstances unfold. Sector observers and regulatory monitors are assessing the immediate operational trajectory and potential institutional adjustments resulting from these developments. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 73
     }
-  ],
-  "category": "geopolitics"
+  ]
 }
