@@ -1778,7 +1778,8 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
             self.send_json({
                 "apiKeyConfigured": bool(gemini_key or groq_key),
                 "webpushAvailable": WEBPUSH_AVAILABLE,
-                "kvConfigured": kv_configured
+                "kvConfigured": kv_configured,
+                "envKeys": {k: bool(os.environ.get(k)) for k in os.environ.keys() if any(sub in k for sub in ('KV', 'REDIS', 'UPSTASH'))}
             })
         elif path == '/api/vapid-public-key':
             pub_key, _ = get_or_create_vapid_keys()
