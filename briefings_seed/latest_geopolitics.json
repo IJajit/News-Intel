@@ -1,825 +1,852 @@
 {
   "id": "latest",
   "category": "geopolitics",
-  "timestamp": "2026-10-18T17:07:26.267801+00:00",
+  "timestamp": "2026-10-23T08:07:39.235393+00:00",
   "articlesCount": 20,
   "stories": [
     {
-      "story_id": "story-6",
+      "story_id": "story-1",
       "category": "Geopolitics",
-      "primary_headline": "Major fire breaks out in Alberta after deadly incident at Canadian military base",
+      "primary_headline": "Trump administration offers mixed messages on limits to Ukraine’s Starshield access",
       "primary_source": {
         "source_name": "AP News",
-        "headline": "Major fire breaks out in Alberta after deadly incident at Canadian military base - AP News",
-        "published_at": "Sun, 18 Oct 2026 13:54:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRWZIOVJaUGpyUnFDcG1BTVZmOTRtZ2pvLTBjLVBDMU9fb3huN2x3Q1ZGbTBENURyc0JIdXRJQThHajNORTVlVjVnZjJrUV94VDlGaXJrZWRqQVBlWlBBRmJzVkhUem1NRzl5a05uTzJQWEdVLTNEckFlNFFBb1dmeTQwUmU0YkhFd1laTmI2ZUdtTGlLS1VZM3dPTi14ZVNxX2oxY0dzbw?oc=5",
-        "content": "Major fire breaks out in Alberta after deadly incident at Canadian military base&nbsp;&nbsp;AP News"
+        "headline": "Trump administration offers mixed messages on limits to Ukraine’s Starshield access - AP News",
+        "published_at": "Thu, 22 Oct 2026 21:31:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOU0ZDU3ctZms3MzcyT3liSW5NSXV4SXpvUVRyZ3YzTm9SWXFaRkhIRFN1NFlRN2RlaG9OcDluTDh1Z3RkTzVGN3JKSlozNHdWZW9ORGVDSlZfcDViMGFGRl9mVDlaT3c1VVlRUjV3NFFjWkFPSFZUWEhpQzktaHZiQTk1WGhpRFNXZ2QyN25OTDNnUWhWb043RHJmaEtqaWNaZV8zaHdYMTNpbXdWYUJldw?oc=5",
+        "content": "Trump administration offers mixed messages on limits to Ukraine’s Starshield access&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
           "source_name": "AP News",
-          "headline": "Major fire breaks out in Alberta after deadly incident at Canadian military base - AP News",
-          "published_at": "Sun, 18 Oct 2026 13:54:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRWZIOVJaUGpyUnFDcG1BTVZmOTRtZ2pvLTBjLVBDMU9fb3huN2x3Q1ZGbTBENURyc0JIdXRJQThHajNORTVlVjVnZjJrUV94VDlGaXJrZWRqQVBlWlBBRmJzVkhUem1NRzl5a05uTzJQWEdVLTNEckFlNFFBb1dmeTQwUmU0YkhFd1laTmI2ZUdtTGlLS1VZM3dPTi14ZVNxX2oxY0dzbw?oc=5"
+          "headline": "Trump administration offers mixed messages on limits to Ukraine’s Starshield access - AP News",
+          "published_at": "Thu, 22 Oct 2026 21:31:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOU0ZDU3ctZms3MzcyT3liSW5NSXV4SXpvUVRyZ3YzTm9SWXFaRkhIRFN1NFlRN2RlaG9OcDluTDh1Z3RkTzVGN3JKSlozNHdWZW9ORGVDSlZfcDViMGFGRl9mVDlaT3c1VVlRUjV3NFFjWkFPSFZUWEhpQzktaHZiQTk1WGhpRFNXZ2QyN25OTDNnUWhWb043RHJmaEtqaWNaZV8zaHdYMTNpbXdWYUJldw?oc=5"
         },
         {
           "source_name": "Reuters",
-          "headline": "Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta - Reuters",
-          "published_at": "Sun, 18 Oct 2026 02:13:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOU2FXR2gxVGRZLXlocTZDQnduRHpvT3JVUHotdTZsTmczb1B4TDE0OWktQmlDNm1WcGdqcEE2Zm9HTmtpN19Pb29YNnVyVHI4d1hXUG1lb0U2ejg2cDF4VGE5Wng0TGdrVDRaSU85WnNQVmw2WmpOaHhMNlpnTFo0cC1tRkRjTDZJVllKdDJIaUhmM1laR01KS2FrQTRKb1lpQThJZlRIeVd0OVZQUnlFX2tnamx6bHladV95MWZHNUVsSldx?oc=5"
+          "headline": "US Democratic senator probes Ukraine's loss of Starshield service - Reuters",
+          "published_at": "Thu, 22 Oct 2026 21:10:27 GMT",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSUJERFlQTjFmYU5kSERHc0lMNVVadXJ0UVVwTnl1ZTBwZkZ1WGU0WmpSbWpQNnNYZkwyUUhka2YwejVZXzFmSU5kUjZaOE1ZMjdIaTB4YkgyejJESWRKTEI4dm1rV3AySXBIVVpRNHl2eHlkLVphX1FWZEtSNlVFZzlmZUE0WThFV2xlRldFNmdleG9ZWUM2aFVTOU1BZmZ0OUlKOVhSTUczMnVyLWtZbi1aTVA?oc=5"
         },
         {
-          "source_name": "The Guardian",
-          "headline": "Multiple people killed as Canadian authorities tackle active blaze at Alberta military base",
-          "published_at": "Sun, 18 Oct 2026 15:31:33 GMT",
-          "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright"
+          "source_name": "Reuters",
+          "headline": "Trump says Musk restored Ukraine's Starlink access, declines to say if they spoke - Reuters",
+          "published_at": "Thu, 22 Oct 2026 18:43:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeVl2TFdMRGk3SHRydndCTVJDMm5QSV91MEtxODd1aE5QNmxXSk4tV0FmVUlYcUpwU3JieHB1MFNCbXlNMnY0eEtvMnh4UnpsZURBaWNacmFBRjVLZHdNNk1pY0NyU1lwREdkNnNmNlY4UU9MMHZ1c2Z3cnBNM01PcExkYVlaaVRpWkNCcGpfdHc3eFRQMGxRU3pPM2tEbmp5Z1ZJSFgyZ3IyNWxIYXFCa2lsQmt4Zjgwd1F2MnZR?oc=5"
         },
         {
-          "source_name": "Al Jazeera",
-          "headline": "‘Serious incident’ at Canada military base causes deaths, injuries - Al Jazeera",
-          "published_at": "Sun, 18 Oct 2026 08:17:43 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQVpyNVZVdDcyQ2pTOGRIVnRqUngxYXl3QnNfOWJwT1pIeXF3ekJPZzd3WkQtZ1ZUQ3Vwb25hWnZlSEtfcVJlZHNybGhlck1JOU5PZ25GRFd1UVBJOEZiaDlBRkFPRnAxTWxHd19XQ041bHhuX1gyUlZFamJfRndyM05zM1NCRDFDSVZiNWpIeWxHcWtBNWNxTS1ocE9tTVVoMTZVdXhoaHpSWTNvdGfSAbMBQVVfeXFMT3YwZlZqR05HTmNSX0QzRWxnNHhNTnExMUMyZm4tSDRJb0lWVUc1T2ZxU3J0RkF2QnVrUWNFT2hldVZ5RHowNWpXU2FFQi1aVUtpTjVldUFjQzJLWUM3SHhoY290c3JUMDNnQnNKX182Ym9jLUhPM2REb2VaQlp1M19tbDNIeW9EWmJYWFlEUnNmUy14WWhucnZWSjFFNEFsYWpZNHNqWUxwc1RJOGU0MzlrdWc?oc=5"
+          "source_name": "Reuters",
+          "headline": "NEWSLETTER: Trump's midterm calculus scrambles Ukraine policy - Reuters",
+          "published_at": "Thu, 22 Oct 2026 18:39:36 GMT",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE05S1pwNlVDdVJhd19YQ05pckdQTW1laFBxRmxFWklDY2dXQW5Wd0U4T2RudEdTak02UjU2LUdXamxNSkt0OTg1dW4tUjRjdlZCRk9qTjRNQkpVRnJyZkdyUlhaeXV2NzRFY3ZGUnJMZFpWUQ?oc=5"
         },
         {
-          "source_name": "NPR",
-          "headline": "Major fire breaks out in Alberta after deadly incident at military base",
-          "published_at": "Sun, 18 Oct 2026 03:56:08 -0400",
-          "url": "https://www.npr.org/2026/10/18/nx-s1-6007276/fire-alberta-deadly-canada-military-base"
+          "source_name": "NYT",
+          "headline": "Trump Asked Musk to Reverse Limits on Ukraine’s Military Internet Use",
+          "published_at": "Fri, 23 Oct 2026 07:52:27 +0000",
+          "url": "https://www.nytimes.com/2026/10/22/us/politics/starshield-outage-ukraine-musk-trump.html"
         }
       ],
-      "source_count": 8,
-      "total_count": 9,
-      "combined_score": 6.9,
+      "source_count": 10,
+      "total_count": 19,
+      "combined_score": 10.85,
       "brief_bullets": [
-        "AP News Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta Hospitals receive injured patients as doctor describes scale of emergency in Wainwright as a ‘disaster’Multiple people have been killed and others injured after a deadly blaze tore through one of Canada’s busiest military training bases in Alberta, Canada’s defence minister said on Saturday.“I’m saddened to share that there have been both fatalities and injuries as a result of an incident on the base,” said David McGuinty.",
-        "The defence minister described the situation at CFB Wainwright as “active and delicate” with the fire being monitored very closely, telling reporters that high winds had worsened the fire.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events."
+        "The Trump administration has issued conflicting signals regarding restrictions on Ukraine's access to Elon Musk's Starshield and Starlink satellite networks, which are vital for military drone operations against Russian forces. While President Trump confirmed that Musk ultimately restored access following disruptions reported by Ukrainian officials, he declined to clarify whether direct communications prompted the reversal. Meanwhile, U.S. lawmakers have launched formal inquiries into the service outages, highlighting growing congressional concern over the geopolitical vulnerability of relying on commercial satellite infrastructure during active warfare."
       ],
       "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+        "Commercial satellite reliance creates profound national security vulnerabilities for sovereign nations engaged in active warfare."
       ],
-      "brief": "AP News Deaths confirmed after 'serious incident,' fire at Canada military base in Alberta Hospitals receive injured patients as doctor describes scale of emergency in Wainwright as a ‘disaster’Multiple people have been killed and others injured after a deadly blaze tore through one of Canada’s busiest military training bases in Alberta, Canada’s defence minister said on Saturday.“I’m saddened to share that there have been both fatalities and injuries as a result of an incident on the base,” said David McGuinty. The defence minister described the situation at CFB Wainwright as “active and delicate” with the fire being monitored very closely, telling reporters that high winds had worsened the fire. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 147
+      "brief": "The Trump administration has issued conflicting signals regarding restrictions on Ukraine's access to Elon Musk's Starshield and Starlink satellite networks, which are vital for military drone operations against Russian forces. While President Trump confirmed that Musk ultimately restored access following disruptions reported by Ukrainian officials, he declined to clarify whether direct communications prompted the reversal. Meanwhile, U.S. lawmakers have launched formal inquiries into the service outages, highlighting growing congressional concern over the geopolitical vulnerability of relying on commercial satellite infrastructure during active warfare. Commercial satellite reliance creates profound national security vulnerabilities for sovereign nations engaged in active warfare.",
+      "brief_word_count": 98
     },
     {
-      "story_id": "story-8",
+      "story_id": "story-27",
       "category": "Geopolitics",
-      "primary_headline": "Truck drives through soccer field during game in Kansas, killing 2 and hospitalizing 11",
+      "primary_headline": "Power supply hit in Gurugram, Faridabad and Nuh as workers strike over privatisation",
       "primary_source": {
-        "source_name": "AP News",
-        "headline": "Truck drives through soccer field during game in Kansas, killing 2 and hospitalizing 11 - AP News",
-        "published_at": "Sun, 18 Oct 2026 07:22:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN21KT3N5VjVzVFVna0lUMTJSdUJXek83VmRmS3pzcEpST2gtXzVlMzJicjBQTnQ3Ym05cmhzSFpqNHFpWDNISnNFeFdrdERlWlkzb1lTaFlseWJPREVGeUpibV9iNkpLdklpY1llNjlyWHVZcDhyWDBMS3pHbXJta0hMOWJzQXZnVHhhUnVYX0toRDNkOFJucy1uaUVTRWY4Vlhj?oc=5",
-        "content": "Truck drives through soccer field during game in Kansas, killing 2 and hospitalizing 11&nbsp;&nbsp;AP News"
+        "source_name": "Deccan Herald",
+        "headline": "Power supply hit in Gurugram, Faridabad and Nuh as workers strike over privatisation",
+        "published_at": "Fri, 23 Oct 2026 06:01:51 +0000",
+        "url": "https://www.deccanherald.com/india/haryana/power-supply-hit-in-gurugram-faridabad-and-nuh-as-workers-strike-over-privatisation-4191829",
+        "content": " Gurugram: A strike by Dakshin Haryana Bijli Vitran Nigam (DHBVN) workers plunged Gurugram, Faridabad, and Nuh districts into darkness since 10 pm on Wednesday, affecting thousands of consumers and industrial units.The power department received more than 3,000 complaints of outages within 12 hours of the strike, an official said on condition of anonymity on Thursday.The employees had announced the strike to protest against the Haryana Electricity Regulatory Commission's decision to grant a parallel electricity distribution licence to a private company for Gurugram and Nuh districts.Gurugram Deputy Commissioner Uttam Singh held a meeting with the employees till late at night, urging them to reconsider their decision. However, the talks proved inconclusive, and no agreement was reached to end the strike.Several industrial units in Gurugram came to a standstill due to prolonged power cuts, with many owners complaining of potential losses running to crores of rupees.Deepak Maini, an industrialist and the chairman of the Progressive Federation of Trade and Industry, said there had been no power supply at Gurugram’s Sector-37 since 10 pm on Wednesday.Maini also expressed concern that any delay in the restoration of power supply could adversely affect production and business activities.He said that the availability of finished goods and the timely delivery of supplies could also be affected.“Power cuts at industrial units have brought machinery and production to a halt, impacting business operations. With operations suspended across hundreds of units, the risk of losses has increased,” Maini said.Apart from Gurugram, industrial units in Kadipur and Basai were also affected by power cuts.Ahmedabad Crime Branch catches MP man wanted in murder of six persons from GurugramSeveral residential colonies in Gurugram had to switch to generators as inverter backups ran out, residents said.In many areas, the breakdown of the power supply led to a shortage of drinking water. Residents say they are managing using water stored in tanks but claim that it will last only a few hours.\"Electricity and water are both essential services. Where is the government? Residents are held hostage by DHBVN staff. There has been no power since 10 pm yesterday. Either the government should settle employees' demands or depute the Disaster Management team to restore the supply. Officers are also showing helplessness. In such a situation, how will we come up with a solution?” said Shiv Kumar Sharma, a resident.In Faridabad, people in the New Industrial Township-2 area hit the streets, demanding restoration of power supply. They said the power cut also impacted water supply.Upon hearing information of a road blockade, police arrived at the scene and pacified the protesters, following which they were dispersed.In Nuh district, the power outage severely affected life in several areas, including Punhana, Nagina, and Firozpur Jhirka.Despite several attempts, the Superintending Engineer of the Dakshin Haryana Bijli Vitran Nigam (DHBVN), Operation Circle Gurugram-I, could not be contacted."
       },
       "sources": [
         {
-          "source_name": "AP News",
-          "headline": "Truck drives through soccer field during game in Kansas, killing 2 and hospitalizing 11 - AP News",
-          "published_at": "Sun, 18 Oct 2026 07:22:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN21KT3N5VjVzVFVna0lUMTJSdUJXek83VmRmS3pzcEpST2gtXzVlMzJicjBQTnQ3Ym05cmhzSFpqNHFpWDNISnNFeFdrdERlWlkzb1lTaFlseWJPREVGeUpibV9iNkpLdklpY1llNjlyWHVZcDhyWDBMS3pHbXJta0hMOWJzQXZnVHhhUnVYX0toRDNkOFJucy1uaUVTRWY4Vlhj?oc=5"
-        },
-        {
-          "source_name": "Reuters",
-          "headline": "Two killed, including 6-year-old, when truck drives through Kansas youth soccer game, police say - Reuters",
-          "published_at": "Sat, 17 Oct 2026 22:10:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTXduZ3p6ZDh4VG5wY05HRmxTR2lvak9YbnNwN0FaYTlCMzE5enY5S3BpcmxNdk96V0dueGs1dWkzTkEzMmIyZnhFLTd3NW5VQUFVMFpRX2tNYWVaVWhQMmlWSHNCWVRhTUdhYVVzRGVPOU1oT0tlenFIRzdwR2RVU1pTclpfdmNqbHJiNXJ4MGpuaTFMaVJ0dzlzeE5NMG9PcHRHdUdjZENTdEotdkwtRzBjNzNuX1ZydDhjdTBxX1U?oc=5"
-        },
-        {
-          "source_name": "The Hindu",
-          "headline": "Two killed, three-year-old girl injured as Thar rams into scooter in Hayathnagar",
-          "published_at": "Sun, 18 Oct 2026 21:43:09 +0530",
-          "url": "https://www.thehindu.com/news/national/telangana/two-killed-three-year-old-girl-injured-as-thar-rams-into-scooter-in-hayathnagar/article71600696.ece"
-        },
-        {
-          "source_name": "The Guardian",
-          "headline": "Six-year-old among two dead after Kansas woman drives through soccer game, with 11 more injured",
-          "published_at": "Sun, 18 Oct 2026 14:58:27 GMT",
-          "url": "https://www.theguardian.com/us-news/2026/oct/18/wichita-kansas-soccer-field-game-truck-deaths"
+          "source_name": "Deccan Herald",
+          "headline": "Power supply hit in Gurugram, Faridabad and Nuh as workers strike over privatisation",
+          "published_at": "Fri, 23 Oct 2026 06:01:51 +0000",
+          "url": "https://www.deccanherald.com/india/haryana/power-supply-hit-in-gurugram-faridabad-and-nuh-as-workers-strike-over-privatisation-4191829"
         },
         {
           "source_name": "NDTV",
-          "headline": "Woman Drives Truck Through Football Game In US, Kills 2 And Injures 11",
-          "published_at": "Sun, 18 Oct 2026 11:08:28 +0530",
-          "url": "https://www.ndtv.com/world-news/woman-drives-truck-through-football-game-in-us-kansas-kills-2-and-injures-11-12201645#publisher=newsstand"
-        }
-      ],
-      "source_count": 7,
-      "total_count": 8,
-      "combined_score": 5.96,
-      "brief_bullets": [
-        "AP News Two killed, including 6-year-old, when truck drives through Kansas youth soccer game, police say Two killed, three-year-old girl injured as Thar rams into scooter in Hayathnagar Wichita police say 34-year-old truck driver from Garden City was taken into custody amid case at youth soccer gameThe two people killed on Saturday when a truck drove through a youth soccer game in north-east Wichita, Kansas, were a six-year-old boy and a 35-year-old man, according to authorities.",
-        "Eleven other people between the ages of five and 68 were injured in a case whose possible motivations remained unclear early on Sunday, when it was still capturing widespread attention across the US.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events."
-      ],
-      "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
-      ],
-      "brief": "AP News Two killed, including 6-year-old, when truck drives through Kansas youth soccer game, police say Two killed, three-year-old girl injured as Thar rams into scooter in Hayathnagar Wichita police say 34-year-old truck driver from Garden City was taken into custody amid case at youth soccer gameThe two people killed on Saturday when a truck drove through a youth soccer game in north-east Wichita, Kansas, were a six-year-old boy and a 35-year-old man, according to authorities. Eleven other people between the ages of five and 68 were injured in a case whose possible motivations remained unclear early on Sunday, when it was still capturing widespread attention across the US. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 147
-    },
-    {
-      "story_id": "story-19",
-      "category": "Geopolitics",
-      "primary_headline": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict - Reuters",
-        "published_at": "Sun, 18 Oct 2026 14:31:31 GMT",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUsxbVVqQ0FFUl81U25IbG1NaXhrNzFqZzIzaFpRUVhKbF9rYlZoMXg1Z3NzYjR1TEtkeHNCU1BrOWs4ZXR5VHFqMTBoX3VjSV9FRV9neGVDSkdUNWIxMlNhZWRJbldocDM5Q2hiMXYxUXpHVUJqWkkyOEF5OGNBNWduQXFPMXp6VXhYRjUyNmsxaV9pbXJhS29uVGh6Tm51emp4S3YtdmI5c21HZE9HeFkycENlNGxHRUlJd29YWkxwRF85eXc?oc=5",
-        "content": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict - Reuters",
-          "published_at": "Sun, 18 Oct 2026 14:31:31 GMT",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUsxbVVqQ0FFUl81U25IbG1NaXhrNzFqZzIzaFpRUVhKbF9rYlZoMXg1Z3NzYjR1TEtkeHNCU1BrOWs4ZXR5VHFqMTBoX3VjSV9FRV9neGVDSkdUNWIxMlNhZWRJbldocDM5Q2hiMXYxUXpHVUJqWkkyOEF5OGNBNWduQXFPMXp6VXhYRjUyNmsxaV9pbXJhS29uVGh6Tm51emp4S3YtdmI5c21HZE9HeFkycENlNGxHRUlJd29YWkxwRF85eXc?oc=5"
+          "headline": "Punjab Hit As Over 3 Lakh Government Employees, Roadways Workers On Strike",
+          "published_at": "Fri, 23 Oct 2026 00:45:12 +0530",
+          "url": "https://www.ndtv.com/india-news/punjab-hit-as-over-3-lakh-government-employees-roadways-workers-on-strike-12222587#publisher=newsstand"
         },
         {
-          "source_name": "Reuters",
-          "headline": "Oil lifts Saudi bourse; Egypt tumbles on regional tensions - Reuters",
-          "published_at": "Sun, 18 Oct 2026 13:51:43 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdkJ2LXpMXzV0dEQ2b1NYcm9XT1FZMTUyZUlVQlZaZ2RYNFhvVFlnVFRJM1RJTU5CNzlDNVdKTmtzX2E0S0xvV2h6UEpOWFJtUlNGczZxeGR4a2NYQlU5NktIN0JQbE54SlRaS3QzRVVvWUdSRGpqWmNYWXlQSWtMbkM2R3lnRWtERTVLcTNadXMwbGxVQm9GXzVLRmVpZDY1OFFDVmI1ZlM3cGVZ?oc=5"
+          "source_name": "NDTV",
+          "headline": "Gurugram Plunges Into Darkness As Electricity Workers Go On Strike",
+          "published_at": "Fri, 23 Oct 2026 00:26:52 +0530",
+          "url": "https://www.ndtv.com/india-news/gurugram-faridabad-plunge-into-darkness-as-power-workers-strike-against-privatisation-12222486#publisher=newsstand"
         },
         {
-          "source_name": "Washington Post",
-          "headline": "As Iran war spills over, Saudis and Houthis see fighting as only path ahead - The Washington Post",
-          "published_at": "Sun, 18 Oct 2026 15:35:24 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcEJaeEpsVGVjMFo4YlNuNXhoMXBpLVF3OXNWNDFRSnphZzJ2dGRlMnJKRFl0WlR6SDJoODFSZ1cta2tHTmJQQUtYX1NzVlVRVTNLUGVCYVNadVh4NVV3b0JJOWg4eUtUb2dKbmV6cVo4ZTJrN0k1UUZvM1BERFotSFVQVnNndHJOVjFfTWFMSDBzQkM0bFlKbWVaNFE2Vld1cnlzN3FOeWwwLXhEaXVxcUxkbw?oc=5"
-        },
-        {
-          "source_name": "Deccan Herald",
-          "headline": "UAE president, Saudi defence minister discuss regional security as Houthi attacks intensify",
-          "published_at": "Sun, 18 Oct 2026 16:59:53 +0000",
-          "url": "https://www.deccanherald.com/world/middle-east/uae-president-saudi-defence-minister-discuss-regional-security-as-houthi-attacks-intensify-4187501"
+          "source_name": "The Print",
+          "headline": "Power supply hit in Gurugram, Faridabad and Nuh as workers strike over privatisation - ThePrint",
+          "published_at": "Thu, 22 Oct 2026 15:49:32 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYUlZQ1RoeWNFOFlXYkdBbHEwRWN0QkVPLTNRUDBvS2hIcWlib0wwb0JCTjBVQVV2NDVoNWw4S3NESWxJUzlHSmJrRGhDTlpqZzgyLThZQklIODY0LVVuSGQtYlFEVWJhbTdoRDc4X3FBWktZUnM0VjF1QzN6cU5MUzEwVVlFWnI0YWRLZ1VTRWRzSXVhZ2I3UjEtMmg4UTdfUUFRLXFqOTdEWkRVVktJSjJYWUx6aUh6aXfSAb8BQVVfeXFMT2FuUEl5Nlhrd1ZSblUxLXJFOC1tdm5nRG5kTVg2YkUwN1JCQnNUV3h0b0RlSy1Yc3k1N3M2WnhoQWF2bVd4Qy1jQlRRX2NjdnE3bUJYWVY4WFdJdXJDMEhSTjNYX21DQXBYZXB2UDJwNzNCbW1kLUEzN1FNd2NoOFRxeTZIWVJJOFJ4YV8wczlFNUpNZFN3Wm5leTFDN1JxQzI1UDE0YnZHdE8wRS1YaldnR1o5SWdpUVBkbGYzclU?oc=5"
         }
       ],
       "source_count": 3,
       "total_count": 4,
       "combined_score": 2.76,
       "brief_bullets": [
-        "Oil lifts Saudi bourse; Egypt tumbles on regional tensions As Iran war spills over, Saudis and Houthis see fighting as only path ahead The Washington Post Cairo: UAE President Mohammed bin​Zayed Al Nahyan received Saudi Arabia's defence minister in Abu Dhabi on Sunday, with the two discussing regional developments and ways to bolster security, the Emirati state news agency WAM reported.",
-        "All 22 Indian crew rescued after incident off UAE coast; MEA condemns attack on Saudi airportThe talks follow a visit to Riyadh last month by UAE Vice President Sheikh Mansour bin Zayed Al Nahyan, the first trip by ‌a senior UAE official to the kingdom since a deep rift emerged between the two Gulf powers last year.",
-        "The visits come as Yemen's Iran-aligned Houthis intensify attacks on the kingdom."
+        "A widespread power strike by Dakshin Haryana Bijli Vitran Nigam (DHBVN) workers has plunged Gurugram, Faridabad, and Nuh districts into darkness since Wednesday night, affecting thousands of consumers and industrial units. The strike protests the Haryana Electricity Regulatory Commission's decision to grant a parallel electricity distribution license to a private company for Gurugram and Nuh. Gurugram Deputy Commissioner Uttam Singh's late-night talks with employees proved inconclusive, failing to resolve the dispute. This disruption has brought numerous industrial units to a standstill, with industrialists like Deepak Maini warning of significant financial losses, while residents face critical shortages of power and water, leading to public protests. The incident highlights the severe economic and social consequences of labor disputes over privatization in essential services."
       ],
       "why_it_matters_bullets": [
-        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+        "This strike underscores the volatile challenges of privatizing essential services, risking economic stability and public welfare."
       ],
-      "brief": "Oil lifts Saudi bourse; Egypt tumbles on regional tensions As Iran war spills over, Saudis and Houthis see fighting as only path ahead The Washington Post Cairo: UAE President Mohammed bin​Zayed Al Nahyan received Saudi Arabia's defence minister in Abu Dhabi on Sunday, with the two discussing regional developments and ways to bolster security, the Emirati state news agency WAM reported. All 22 Indian crew rescued after incident off UAE coast; MEA condemns attack on Saudi airportThe talks follow a visit to Riyadh last month by UAE Vice President Sheikh Mansour bin Zayed Al Nahyan, the first trip by ‌a senior UAE official to the kingdom since a deep rift emerged between the two Gulf powers last year. The visits come as Yemen's Iran-aligned Houthis intensify attacks on the kingdom. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 146
+      "brief": "A widespread power strike by Dakshin Haryana Bijli Vitran Nigam (DHBVN) workers has plunged Gurugram, Faridabad, and Nuh districts into darkness since Wednesday night, affecting thousands of consumers and industrial units. The strike protests the Haryana Electricity Regulatory Commission's decision to grant a parallel electricity distribution license to a private company for Gurugram and Nuh. Gurugram Deputy Commissioner Uttam Singh's late-night talks with employees proved inconclusive, failing to resolve the dispute. This disruption has brought numerous industrial units to a standstill, with industrialists like Deepak Maini warning of significant financial losses, while residents face critical shortages of power and water, leading to public protests. The incident highlights the severe economic and social consequences of labor disputes over privatization in essential services. This strike underscores the volatile challenges of privatizing essential services, risking economic stability and public welfare.",
+      "brief_word_count": 137
     },
     {
-      "story_id": "story-28",
+      "story_id": "story-29",
       "category": "Geopolitics",
-      "primary_headline": "Trump’s waiver of sanctions on Russia stirs bipartisan outrage - The Washington Post",
+      "primary_headline": "Mississippi releases video showing fatal shooting of 1-year-old boy by police officer",
       "primary_source": {
-        "source_name": "Washington Post",
-        "headline": "Trump’s waiver of sanctions on Russia stirs bipartisan outrage - The Washington Post",
-        "published_at": "Sun, 18 Oct 2026 04:16:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOM3k5eWRlOVpmZUFuR1pVdXllbU5veXJ0UTJHMUdwWUQxY0t2OTZNWDR4dktfc3NFZlQ4aHRjd3BhVC1ZdF9yLUhIeE9ZSElGdjBoeVFJX1MxNFJadHFlaG1QTHJTcVl1MEZOWllvTjduYUpuRURxRjNpRFU5M3ZhY3ItbnZoWHljeE9EdjV4bzBhMFUtZkYxb09TX2hWNElWTjZlZW1vbDF6LUF2Ul9lY0p3?oc=5",
-        "content": "Trump’s waiver of sanctions on Russia stirs bipartisan outrage&nbsp;&nbsp;The Washington Post"
+        "source_name": "AP News",
+        "headline": "Mississippi releases video showing fatal shooting of 1-year-old boy by police officer - AP News",
+        "published_at": "Fri, 23 Oct 2026 04:59:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVXBZYkZtdldzQ01oLVBGazQ1WTlGbkVWZW9vSlljTHBDY0liRXJ0cC0yRlhCSG80MFZJT3VDNzNsWldMczBGS0dQR3ZyQ3ZlLWd1T2p4cTJEVHItSEhtcU4wSWNaUjJhMXF1SW5vRlNZQk8zNXA0aTVfTmJhOFQzOTZzS3JOYmxoNFludUpUZlhYQXBhZHE5SlRTdHY4bW1kMFE?oc=5",
+        "content": "Mississippi releases video showing fatal shooting of 1-year-old boy by police officer&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
-          "source_name": "Washington Post",
-          "headline": "Trump’s waiver of sanctions on Russia stirs bipartisan outrage - The Washington Post",
-          "published_at": "Sun, 18 Oct 2026 04:16:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOM3k5eWRlOVpmZUFuR1pVdXllbU5veXJ0UTJHMUdwWUQxY0t2OTZNWDR4dktfc3NFZlQ4aHRjd3BhVC1ZdF9yLUhIeE9ZSElGdjBoeVFJX1MxNFJadHFlaG1QTHJTcVl1MEZOWllvTjduYUpuRURxRjNpRFU5M3ZhY3ItbnZoWHljeE9EdjV4bzBhMFUtZkYxb09TX2hWNElWTjZlZW1vbDF6LUF2Ul9lY0p3?oc=5"
+          "source_name": "AP News",
+          "headline": "Mississippi releases video showing fatal shooting of 1-year-old boy by police officer - AP News",
+          "published_at": "Fri, 23 Oct 2026 04:59:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVXBZYkZtdldzQ01oLVBGazQ1WTlGbkVWZW9vSlljTHBDY0liRXJ0cC0yRlhCSG80MFZJT3VDNzNsWldMczBGS0dQR3ZyQ3ZlLWd1T2p4cTJEVHItSEhtcU4wSWNaUjJhMXF1SW5vRlNZQk8zNXA0aTVfTmJhOFQzOTZzS3JOYmxoNFludUpUZlhYQXBhZHE5SlRTdHY4bW1kMFE?oc=5"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Mississippi releases video of police shooting that killed 1-year-old",
+          "published_at": "Fri, 23 Oct 2026 06:47:37 +0000",
+          "url": "https://indianexpress.com/article/world/mississippi-video-fatal-shooting-of-1-year-old-boy-by-police-officer-10933296/"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Bodycam Video Shows Police Officer Shooting 1-Year-Old Boy Dead In Mississippi",
+          "published_at": "Fri, 23 Oct 2026 11:03:25 +0530",
+          "url": "https://www.ndtv.com/world-news/bodycam-video-shows-police-officer-shooting-1-year-old-boy-dead-in-mississippi-12223682#publisher=newsstand"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "2 Election Commissioners Complained Against Senior Panel Officer, RTI Shows",
+          "published_at": "Fri, 23 Oct 2026 08:39:26 +0530",
+          "url": "https://www.ndtv.com/india-news/election-commission-of-india-2-election-commissioners-complained-against-senior-panel-officer-to-cabinet-secretary-rti-shows-12223270#publisher=newsstand"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 4,
+      "combined_score": 2.73,
+      "brief_bullets": [
+        "The Mississippi Attorney General’s office has released body camera footage documenting the fatal shooting of a one-year-old boy by Gulfport Police Sergeant Hunter Foster. The incident occurred when Foster opened fire on a vehicle, claiming he was in imminent danger of being struck as the driver attempted to flee. While the Attorney General’s office concluded that Foster’s use of lethal force was legally appropriate under the circumstances, the release of the video has reignited intense public scrutiny regarding police protocols and the tragic loss of a child. This case underscores the ongoing national debate surrounding officer-involved shootings and the legal thresholds governing the use of force when civilians are present in high-stakes encounters."
+      ],
+      "why_it_matters_bullets": [
+        "This incident intensifies public distrust and highlights critical policy gaps regarding lethal force in proximity to innocent bystanders."
+      ],
+      "brief": "The Mississippi Attorney General’s office has released body camera footage documenting the fatal shooting of a one-year-old boy by Gulfport Police Sergeant Hunter Foster. The incident occurred when Foster opened fire on a vehicle, claiming he was in imminent danger of being struck as the driver attempted to flee. While the Attorney General’s office concluded that Foster’s use of lethal force was legally appropriate under the circumstances, the release of the video has reignited intense public scrutiny regarding police protocols and the tragic loss of a child. This case underscores the ongoing national debate surrounding officer-involved shootings and the legal thresholds governing the use of force when civilians are present in high-stakes encounters. This incident intensifies public distrust and highlights critical policy gaps regarding lethal force in proximity to innocent bystanders.",
+      "brief_word_count": 131
+    },
+    {
+      "story_id": "story-34",
+      "category": "Geopolitics",
+      "primary_headline": "Pakistan refused to accept bodies of its own soldiers killed in Kargil war: India at UN",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Pakistan refused to accept bodies of its own soldiers killed in Kargil war: India at UN",
+        "published_at": "Fri, 23 Oct 2026 13:05:21 +0530",
+        "url": "https://www.thehindu.com/news/national/pakistan-refused-to-accept-bodies-of-its-own-soldiers-killed-in-kargil-war-india-at-un/article71614773.ece",
+        "content": "Ms. Mangalanandan added that burial rights for terrorists are being justified by indicating that States may restrict funeral rights of terrorists, but only within legal limits"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Pakistan refused to accept bodies of its own soldiers killed in Kargil war: India at UN",
+          "published_at": "Fri, 23 Oct 2026 13:05:21 +0530",
+          "url": "https://www.thehindu.com/news/national/pakistan-refused-to-accept-bodies-of-its-own-soldiers-killed-in-kargil-war-india-at-un/article71614773.ece"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Pakistan refused to accept bodies of its own soldiers killed in Kargil war: India at UN",
+          "published_at": "Fri, 23 Oct 2026 06:56:12 +0000",
+          "url": "https://www.deccanherald.com/india/pakistan-refused-to-accept-bodies-of-its-own-soldiers-killed-in-kargil-war-india-at-un-4192297"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "'Pak Didn't Accept Bodies Of Its Own Soldiers In Kargil': India Slams UN Rapporteur",
+          "published_at": "Fri, 23 Oct 2026 09:43:15 +0530",
+          "url": "https://www.ndtv.com/world-news/pakistan-did-not-accept-bodies-of-its-own-soldiers-in-kargil-war-india-slams-un-rapporteur-12223452#publisher=newsstand"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 3,
+      "combined_score": 2.49,
+      "brief_bullets": [
+        "At a United Nations interactive dialogue, India’s First Secretary Bhavika Mangalanandan sharply rebuked Pakistan for its hypocrisy regarding religious freedom and funeral rights. Responding to a UN report criticizing India’s security operations in Jammu and Kashmir, Mangalanandan highlighted that Pakistan famously refused to claim its own soldiers killed during the 1999 Kargil War, forcing the Indian Army to provide them with dignified Islamic burials. She further dismissed the UN rapporteur’s findings as unsupported, arguing that Pakistan lacks the moral standing to lecture India on human rights while its own minorities face systemic abuse. India maintains that sovereign states must retain the legal authority to restrict funeral rites for terrorists who violate the fundamental right to life."
+      ],
+      "why_it_matters_bullets": [
+        "This diplomatic confrontation underscores India's aggressive strategy to delegitimize Pakistan's international advocacy by exposing its historical and domestic contradictions."
+      ],
+      "brief": "At a United Nations interactive dialogue, India’s First Secretary Bhavika Mangalanandan sharply rebuked Pakistan for its hypocrisy regarding religious freedom and funeral rights. Responding to a UN report criticizing India’s security operations in Jammu and Kashmir, Mangalanandan highlighted that Pakistan famously refused to claim its own soldiers killed during the 1999 Kargil War, forcing the Indian Army to provide them with dignified Islamic burials. She further dismissed the UN rapporteur’s findings as unsupported, arguing that Pakistan lacks the moral standing to lecture India on human rights while its own minorities face systemic abuse. India maintains that sovereign states must retain the legal authority to restrict funeral rites for terrorists who violate the fundamental right to life. This diplomatic confrontation underscores India's aggressive strategy to delegitimize Pakistan's international advocacy by exposing its historical and domestic contradictions.",
+      "brief_word_count": 135
+    },
+    {
+      "story_id": "story-36",
+      "category": "Geopolitics",
+      "primary_headline": "New Zealand's top military officer resigns over 'inappropriate relationship'",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "New Zealand's top military officer resigns over 'inappropriate relationship' - Reuters",
+        "published_at": "Fri, 23 Oct 2026 03:49:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOekZkb1pyMXY1c1Z0MXZWWWNpS2x2SjdZWGJFQUpyZGN4Sm9iTkRKSE8zTHYxM0x0RVZEbW5ic3hYS212STFGZGhXb29HQ1VhMndyRVVyLWJlN2t5Z0xNMnlCVEtFTVBSMW80WndFTDAxSUxobWVhYVNTY2hRS1NVaFkwVDJPa2FZZ2dhd3ZPR21QX1F1RDVzSU10eWt4LWZCN2NEZmdfLTRQcWJQYjEzU1NVUE1udFMwellTeDA1QTk1dHpSb3hj?oc=5",
+        "content": "New Zealand's top military officer resigns over 'inappropriate relationship'&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "New Zealand's top military officer resigns over 'inappropriate relationship' - Reuters",
+          "published_at": "Fri, 23 Oct 2026 03:49:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOekZkb1pyMXY1c1Z0MXZWWWNpS2x2SjdZWGJFQUpyZGN4Sm9iTkRKSE8zTHYxM0x0RVZEbW5ic3hYS212STFGZGhXb29HQ1VhMndyRVVyLWJlN2t5Z0xNMnlCVEtFTVBSMW80WndFTDAxSUxobWVhYVNTY2hRS1NVaFkwVDJPa2FZZ2dhd3ZPR21QX1F1RDVzSU10eWt4LWZCN2NEZmdfLTRQcWJQYjEzU1NVUE1udFMwellTeDA1QTk1dHpSb3hj?oc=5"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "New Zealand's top military officer resigns over 'inappropriate relationship'",
+          "published_at": "Fri, 23 Oct 2026 06:35:05 +0000",
+          "url": "https://www.deccanherald.com/world/rest-of-world/new-zealands-top-military-officer-resigns-over-inappropriate-relationship-4192331"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "New Zealand Military Chief Admits To 'Inappropriate Relationship', Resigns",
+          "published_at": "Fri, 23 Oct 2026 10:56:11 +0530",
+          "url": "https://www.ndtv.com/world-news/new-zealand-military-chief-air-marshal-tony-davies-resigns-admits-to-inappropriate-relationship-12223732#publisher=newsstand"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 3,
+      "combined_score": 2.43,
+      "brief_bullets": [
+        "New Zealand's Chief of Defence Force, Tony Davies, has resigned over an undisclosed \"inappropriate relationship\" he maintained while in a position of unit command. Davies informed Defence Minister Paul Goldsmith, acknowledging \"errors of judgement\" contrary to military values and his failure to disclose the matter earlier. Minister Goldsmith supported the resignation, stating Davies' position was \"no longer tenable\" due to integrity issues. Vice Chief Mat Williams will serve as acting chief, and the matter has been referred to an independent inspector-general, underscoring the military's commitment to accountability and ethical conduct at its highest levels."
+      ],
+      "why_it_matters_bullets": [
+        "This resignation highlights critical integrity standards and leadership accountability within New Zealand's military."
+      ],
+      "brief": "New Zealand's Chief of Defence Force, Tony Davies, has resigned over an undisclosed \"inappropriate relationship\" he maintained while in a position of unit command. Davies informed Defence Minister Paul Goldsmith, acknowledging \"errors of judgement\" contrary to military values and his failure to disclose the matter earlier. Minister Goldsmith supported the resignation, stating Davies' position was \"no longer tenable\" due to integrity issues. Vice Chief Mat Williams will serve as acting chief, and the matter has been referred to an independent inspector-general, underscoring the military's commitment to accountability and ethical conduct at its highest levels. This resignation highlights critical integrity standards and leadership accountability within New Zealand's military.",
+      "brief_word_count": 107
+    },
+    {
+      "story_id": "story-46",
+      "category": "Geopolitics",
+      "primary_headline": "Supreme Court allows New Hampshire to fully ban student IDs for voting in midterms",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Supreme Court allows New Hampshire to fully ban student IDs for voting in midterms - AP News",
+        "published_at": "Fri, 23 Oct 2026 02:39:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa2NKV09fM19HaUhPdlNRZDJqc2dTYmdjMjRCWXpsaWJZTTJkdnNkV2VmM3NxeHFDTkQtNXozYkJGQ09VbUYxOUFlckQ4YmRsZ3NkazNMNGNqR2wwQVJ0Y3VfRkpRWFVpeEFEaGk5ZGJFUC05REFjd2ZCM2h2dnZpSUxubHZWRnFFd0FtSWY5c2puM2dOeldFTE95TG9SclBINVVjbDVPU3I?oc=5",
+        "content": "Supreme Court allows New Hampshire to fully ban student IDs for voting in midterms&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Supreme Court allows New Hampshire to fully ban student IDs for voting in midterms - AP News",
+          "published_at": "Fri, 23 Oct 2026 02:39:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa2NKV09fM19HaUhPdlNRZDJqc2dTYmdjMjRCWXpsaWJZTTJkdnNkV2VmM3NxeHFDTkQtNXozYkJGQ09VbUYxOUFlckQ4YmRsZ3NkazNMNGNqR2wwQVJ0Y3VfRkpRWFVpeEFEaGk5ZGJFUC05REFjd2ZCM2h2dnZpSUxubHZWRnFFd0FtSWY5c2puM2dOeldFTE95TG9SclBINVVjbDVPU3I?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "US Supreme Court rulings reshape midterm election battlefield - Reuters",
+          "published_at": "Thu, 22 Oct 2026 10:27:20 GMT",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbHJpX0tZVUZndXRmTDJCVWRtZ2xNM1I1ZWdRU3A0YTBCYjNubVA4WERsLUtlckRPdm9td0V2VmN6WFVYZ2Y2dXl6dGZRV1N3U2VlR09lOE1MbjZ0alBjNFdGb2FEWE5jSEUyWTNjaGZQTVczX2J5UkFnVC1sR01Yb0tYNElfaWV1Mjhac2czQURsNGpqbmtuQkVjT1ZVRHBBRnA4X1ZKYkhQXzYtaTE3V3Rkdk4?oc=5"
         },
         {
           "source_name": "CNN",
-          "headline": "Trump waives more Russia sanctions as feud with Zelensky deepens - CNN",
-          "published_at": "Sun, 18 Oct 2026 01:04:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSVNzblp1aHJpeHBMcXZNaVIyUG5RdmRRQUF2dTgxbFZxNUNPcXZUS1dHSldndnd3eWltTzNIN0tHdDA5RnFuYVphYzRPODFRRlR4QWY4Vkk5eE9wNjVzN2NIM0Q4b0NhOWZpUjRPdzM3ZWNJUHJEUm9LWlBqbUlnWWFycEtSb3ZGcUt5MGhQZXplNktSWDFnbU1pRWJFOXlia3BFdHdhNUN3SWNuUXg0?oc=5"
-        },
-        {
-          "source_name": "Al Jazeera",
-          "headline": "Trump faces bipartisan backlash over Russia sanctions waiver - Al Jazeera",
-          "published_at": "Sat, 17 Oct 2026 17:37:34 GMT",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVHR3SlkxeDNvT0xQbzhMNVJiekNEekNpWUN5RXo2T29maGFUVUR4NlJBT29seHlCQ2JBbGxPbEdHQkg3R2JodG5Ob2k2QU9wbXhRRVZSZHhPeVdhU0tydmNwRENSQzQzZDJsRkxIWFhHbF8yV184dnVCNUVUOTV2TUVnUFpEQm1HUnM3WWVHNUdTM0ItN0JLVjh2N3Z1VFYyZGR2ddIBqgFBVV95cUxNTXhoMnV2c2JEMGZtdEJfNXdTbUtzMDFwQzVyNlphZmRWak14RUQtSjFBVkZZZEktaDk3UndPTWVVQmRCX1p3YXlMcUdzeUdOSFJIakxrSWxlS0ZnQzREYkFCcXY2Y1hJckQySUxSVEpDelZUcldub0JZaXpQNWhCT0Y0T0VEUHpDYmVVUTVZLVBMTmpRQVlTM0hNSWxoSmlDQzNHUFBBQ1VPdw?oc=5"
+          "headline": "Supreme Court says New Hampshire can limit use of student IDs for voting - CNN",
+          "published_at": "Thu, 22 Oct 2026 22:16:11 GMT",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNndEZUdHTm9Nb1ZUMDJ5MnhWZVd0STNIa0RDOTE4cUJUZlRyWG1GUjJrOFNsUWhrOURoQjM0U1dKZmZxaEhsOXQ2OGFXck1yTnpnNmItOVhEVXJZODNMa01nTHF1elB1Rm1mSkVzT3RKRGQ2ZS1VYXI5MnR2XzRXWUZJR1ZjdTJTNDcwa1VqYzVucmZCc3c?oc=5"
         }
       ],
       "source_count": 3,
       "total_count": 3,
       "combined_score": 2.4,
       "brief_bullets": [
-        "Trump’s waiver of sanctions on Russia stirs bipartisan outrage The Washington Post Trump waives more Russia sanctions as feud with Zelensky deepens CNN Trump faces bipartisan backlash over Russia sanctions waiver.",
-        "Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness.",
-        "The shift has triggered intense debate among foreign policy stakeholders regarding international deterrence frameworks and regulatory enforcement.",
-        "Regional defense ministries and multilateral bodies are assessing logistical readiness and diplomatic countermeasures as the geopolitical landscape evolves."
+        "The United States Supreme Court has permitted New Hampshire to fully enforce restrictions banning student identification cards for voting in upcoming midterm elections. This pivotal decision significantly reshapes the state's electoral landscape by altering accepted forms of voter identification, a move heavily contested by civil rights advocates and student organizations. The ruling underscores the ongoing legal battles across the nation regarding ballot access regulations and voter verification protocols. Consequently, thousands of students may face increased logistical hurdles to exercise their franchise, shifting the strategic calculus for political campaigns operating in the region."
       ],
       "why_it_matters_bullets": [
-        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
+        "This ruling establishes a critical legal precedent restricting student voting access, directly impacting midterm election turnout nationwide."
       ],
-      "brief": "Trump’s waiver of sanctions on Russia stirs bipartisan outrage The Washington Post Trump waives more Russia sanctions as feud with Zelensky deepens CNN Trump faces bipartisan backlash over Russia sanctions waiver. Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness. The shift has triggered intense debate among foreign policy stakeholders regarding international deterrence frameworks and regulatory enforcement. Regional defense ministries and multilateral bodies are assessing logistical readiness and diplomatic countermeasures as the geopolitical landscape evolves. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
-      "brief_word_count": 99
+      "brief": "The United States Supreme Court has permitted New Hampshire to fully enforce restrictions banning student identification cards for voting in upcoming midterm elections. This pivotal decision significantly reshapes the state's electoral landscape by altering accepted forms of voter identification, a move heavily contested by civil rights advocates and student organizations. The ruling underscores the ongoing legal battles across the nation regarding ballot access regulations and voter verification protocols. Consequently, thousands of students may face increased logistical hurdles to exercise their franchise, shifting the strategic calculus for political campaigns operating in the region. This ruling establishes a critical legal precedent restricting student voting access, directly impacting midterm election turnout nationwide.",
+      "brief_word_count": 109
     },
     {
-      "story_id": "story-41",
+      "story_id": "story-53",
       "category": "Geopolitics",
-      "primary_headline": "Italian police clash with protesters in Milan and Bologna",
+      "primary_headline": "Protests against SIR LIVE: Delhi Police issue traffic advisory ahead of stir",
       "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Italian police clash with protesters in Milan and Bologna - Reuters",
-        "published_at": "Sat, 17 Oct 2026 18:27:40 GMT",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcEpOU0pkZXEtTWhtSDFpMEZCT01yeno3N3ViQVBwMXJRbkRvU0lldzYwSEJVbkhrVEpPV3FIdU5nYjBJa3FpeThOX2Q2QnZIS0w5Y2JscG8zLXhUTDdlc05WZzUwcldlUHJHc1oyRlZSeTlfU3J3dTg5T2l5NnpzcHlwMUNLeVNxRmJveW9OclJpUXVkSmc?oc=5",
-        "content": "Italian police clash with protesters in Milan and Bologna&nbsp;&nbsp;Reuters"
+        "source_name": "The Hindu",
+        "headline": "Protests against SIR LIVE: Delhi Police issue traffic advisory ahead of stir",
+        "published_at": "Fri, 23 Oct 2026 13:27:14 +0530",
+        "url": "https://www.thehindu.com/news/national/samyukt-kisan-morcha-anti-cec-protest-gyanesh-kumar-live-updates-jantar-mantar-ramila-ground-delhi-october-23/article71615036.ece",
+        "content": "Samyukt Kisan Morcha and ‘People Against SIR’ platform are protesting nationwide; various trade unions and civil society organisations have pledged support to the farmers’ march"
       },
       "sources": [
         {
-          "source_name": "Reuters",
-          "headline": "Italian police clash with protesters in Milan and Bologna - Reuters",
-          "published_at": "Sat, 17 Oct 2026 18:27:40 GMT",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcEpOU0pkZXEtTWhtSDFpMEZCT01yeno3N3ViQVBwMXJRbkRvU0lldzYwSEJVbkhrVEpPV3FIdU5nYjBJa3FpeThOX2Q2QnZIS0w5Y2JscG8zLXhUTDdlc05WZzUwcldlUHJHc1oyRlZSeTlfU3J3dTg5T2l5NnpzcHlwMUNLeVNxRmJveW9OclJpUXVkSmc?oc=5"
+          "source_name": "The Hindu",
+          "headline": "Protests against SIR LIVE: Delhi Police issue traffic advisory ahead of stir",
+          "published_at": "Fri, 23 Oct 2026 13:27:14 +0530",
+          "url": "https://www.thehindu.com/news/national/samyukt-kisan-morcha-anti-cec-protest-gyanesh-kumar-live-updates-jantar-mantar-ramila-ground-delhi-october-23/article71615036.ece"
         },
         {
-          "source_name": "Reuters",
-          "headline": "Italian police clash with protesters in the centre of Milan - Reuters",
-          "published_at": "Sat, 17 Oct 2026 17:24:59 GMT",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUVNiamhOTjFnamxaQ3IzNzBsNWNmR2JtVW5xMmlmdERwZWpCVVM5bTJGZFFybnNfT2NxTmptdVNqY04wckhsMG1lTnV1YWgtTC1NaUJBZV9FTHNLRWY4QXJvN0FUcUIzYkd6aFNadkhRTUhqYVczTmNuTjd6cXJxbUh1cmpwOWpnbFlHT04yUm1EbnhTNzhUbFpiUXplbzBjWmhGOGM5QQ?oc=5"
+          "source_name": "The Hindu",
+          "headline": "Delhi SIR: revised data show sharp increase in Form 6 disposal rate",
+          "published_at": "Fri, 23 Oct 2026 11:09:02 +0530",
+          "url": "https://www.thehindu.com/news/cities/Delhi/delhi-sir-revised-data-show-sharp-increase-in-form-6-disposal-rate/article71613317.ece"
         },
         {
-          "source_name": "The Print",
-          "headline": "Italian police clash with protesters in Milan and Bologna - ThePrint",
-          "published_at": "Sat, 17 Oct 2026 18:00:04 GMT",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN25HdTdzYUFsTzczMEZiNV82MmxqanlWQ2JSWFozQXZGelI5R0RIUzJDS1ZjYkRRWjNvT1UzZG04QkRzUHhoME1ZWlFZRTRNblFCWWlGN3lKUXo5SmhPNEttV2d5RVdETEZDVmlxN2U4LTQzT0hDcmhJemFYTWg5NXBZeG84dWJfMmZTRzNaVVZ4T3B5ZUlv0gGcAUFVX3lxTE94YW9oTGdlNWpOb2d2eEJhUXNXMDNRS0tBQm83eTJCcl9uU3Q2SVhtUkpSeURRa0phZkxEcG9wOFNfQ3Y2SUZYVzYtaUZFUU91QmM1N1lzOVVGdEhVVUtkNXkteERIUDJneTdZNjRIbHpPMUI1NDU1WEdNcnhPMDRjN1Z0UmtQN01hbWlraTdZMm1OSlp2SmVPUzFXVw?oc=5"
+          "source_name": "The Indian Express",
+          "headline": "Delhi Protest Live Updates: Traffic diversion near Bangla Sahib Gurudwara, Jantar Mantar till 5pm amid call for anti-CEC protest",
+          "published_at": "Fri, 23 Oct 2026 04:06:18 +0000",
+          "url": "https://indianexpress.com/article/india/skm-people-against-sir-protest-live-updates-delhi-neha-bora-high-court-verdict-samyukt-kisan-morcha-10933122/"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 3,
+      "combined_score": 1.93,
+      "brief_bullets": [
+        "The Samyukt Kisan Morcha and the People Against SIR platform have organized nationwide protests alongside allied trade unions and civil society organizations targeting the Chief Election Commissioner. In response to the planned demonstrations near Jantar Mantar and Bangla Sahib Gurudwara, the Delhi Police issued comprehensive traffic advisories and implemented strategic road diversions. While administrative data indicates variable processing rates for electoral forms, the unfolding civil unrest underscores mounting pressure from coalition-led advocacy groups regarding institutional transparency, carrying significant operational disruptions for the capital's commuter networks."
+      ],
+      "why_it_matters_bullets": [
+        "These coordinated nationwide demonstrations threaten significant urban disruption and test the government's capacity to manage populist civil dissent."
+      ],
+      "brief": "The Samyukt Kisan Morcha and the People Against SIR platform have organized nationwide protests alongside allied trade unions and civil society organizations targeting the Chief Election Commissioner. In response to the planned demonstrations near Jantar Mantar and Bangla Sahib Gurudwara, the Delhi Police issued comprehensive traffic advisories and implemented strategic road diversions. While administrative data indicates variable processing rates for electoral forms, the unfolding civil unrest underscores mounting pressure from coalition-led advocacy groups regarding institutional transparency, carrying significant operational disruptions for the capital's commuter networks. These coordinated nationwide demonstrations threaten significant urban disruption and test the government's capacity to manage populist civil dissent.",
+      "brief_word_count": 103
+    },
+    {
+      "story_id": "story-58",
+      "category": "Geopolitics",
+      "primary_headline": "Tamil Nadu government releases list of public holidays for 2027",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Tamil Nadu government releases list of public holidays for 2027",
+        "published_at": "Fri, 23 Oct 2026 13:04:36 +0530",
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-government-releases-list-of-public-holidays-for-2027/article71611311.ece",
+        "content": ""
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Tamil Nadu government releases list of public holidays for 2027",
+          "published_at": "Fri, 23 Oct 2026 13:04:36 +0530",
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-government-releases-list-of-public-holidays-for-2027/article71611311.ece"
+        },
+        {
+          "source_name": "The Hindu",
+          "headline": "Rains lash Tamil Nadu; schools closed in many districts on October 23",
+          "published_at": "Fri, 23 Oct 2026 11:44:54 +0530",
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-rain-heavy-rains-school-declared-holidays-updates-on-october-23-2026/article71614697.ece"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "YouTuber Jason Samuel arrested over finance influencer Harish’s suicide in Tamil Nadu",
+          "published_at": "Thu, 22 Oct 2026 14:03:19 +0000",
+          "url": "https://indianexpress.com/article/india/youtuber-jason-samuel-arrested-over-finance-influencer-harishs-suicide-in-tamil-nadu-10932622/"
         }
       ],
       "source_count": 2,
       "total_count": 3,
       "combined_score": 1.9,
       "brief_bullets": [
-        "Italian police clash with protesters in the centre of Milan  ThePrint.",
+        "The Tamil Nadu government has officially released its comprehensive list of public holidays for the year 2027, establishing the state-wide administrative calendar well in advance. In separate regional developments, multiple districts including Villupuram, Kallakurichi, Vellore, Puducherry, and Karaikal declared urgent school closures due to severe weather conditions. Meanwhile, state law enforcement authorities arrested prominent YouTuber Jason Samuel in connection with the tragic suicide of financial influencer Harish, signaling intensifying regulatory and legal scrutiny over digital content creators within the region."
+      ],
+      "why_it_matters_bullets": [
+        "Proactive holiday scheduling ensures administrative continuity while regional weather and high-profile arrests highlight escalating local governance and digital accountability challenges."
+      ],
+      "brief": "The Tamil Nadu government has officially released its comprehensive list of public holidays for the year 2027, establishing the state-wide administrative calendar well in advance. In separate regional developments, multiple districts including Villupuram, Kallakurichi, Vellore, Puducherry, and Karaikal declared urgent school closures due to severe weather conditions. Meanwhile, state law enforcement authorities arrested prominent YouTuber Jason Samuel in connection with the tragic suicide of financial influencer Harish, signaling intensifying regulatory and legal scrutiny over digital content creators within the region. Proactive holiday scheduling ensures administrative continuity while regional weather and high-profile arrests highlight escalating local governance and digital accountability challenges.",
+      "brief_word_count": 100
+    },
+    {
+      "story_id": "story-64",
+      "category": "Geopolitics",
+      "primary_headline": "Injuries in China's Tibet rise to 65 after earthquake, death toll remains at 16",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Injuries in China's Tibet rise to 65 after earthquake, death toll remains at 16 - Reuters",
+        "published_at": "Fri, 23 Oct 2026 03:18:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOT3RUZTBjRENZY1ZLS2FfZzJIWUN6QVdCcnYzQXVtc25yZFJMZTg0UVpSMlAzM2ZqQzVzSVBvclp0NFZDb1drQ29zZTlnakRnNXc3aE42R2ZId3RqSll2Q0dBamdNdzFUUnVTX19vWC11XzVJTTZ0QmxIazVPcDY2S3pFeDduc2oxaWlTQ2k4b1pQbXo5RjdNb0Q1TFBUbHh4UjZfcU9laE5sdVc1Vk1PUmRkOVZqZkk?oc=5",
+        "content": "Injuries in China's Tibet rise to 65 after earthquake, death toll remains at 16&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Injuries in China's Tibet rise to 65 after earthquake, death toll remains at 16 - Reuters",
+          "published_at": "Fri, 23 Oct 2026 03:18:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOT3RUZTBjRENZY1ZLS2FfZzJIWUN6QVdCcnYzQXVtc25yZFJMZTg0UVpSMlAzM2ZqQzVzSVBvclp0NFZDb1drQ29zZTlnakRnNXc3aE42R2ZId3RqSll2Q0dBamdNdzFUUnVTX19vWC11XzVJTTZ0QmxIazVPcDY2S3pFeDduc2oxaWlTQ2k4b1pQbXo5RjdNb0Q1TFBUbHh4UjZfcU9laE5sdVc1Vk1PUmRkOVZqZkk?oc=5"
+        },
+        {
+          "source_name": "The Hindu",
+          "headline": "Tibet earthquake updates | Injuries in Tibet rise to 65 after 7.0 earthquake, death toll at 16",
+          "published_at": "Fri, 23 Oct 2026 12:32:34 +0530",
+          "url": "https://www.thehindu.com/news/international/70-magnitude-earthquake-hit-chinas-tibet-region-killing-many/article71613335.ece"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.69,
+      "brief_bullets": [
+        "Following a powerful earthquake in China's Tibet region, the number of recorded injuries has climbed to 65, while the death toll remains steady at 16. Local government officials and the Nagqu media office confirmed that search and rescue operations are ongoing amidst severe infrastructure damage, including the collapse of at least 339 residential homes. Among those currently receiving medical treatment, 11 individuals remain in critical condition while others suffer from minor trauma, highlighting the ongoing humanitarian challenges in the remote mountainous terrain."
+      ],
+      "why_it_matters_bullets": [
+        "This disaster tests regional emergency infrastructure and underscores the extreme vulnerability of remote high-altitude communities to seismic shocks."
+      ],
+      "brief": "Following a powerful earthquake in China's Tibet region, the number of recorded injuries has climbed to 65, while the death toll remains steady at 16. Local government officials and the Nagqu media office confirmed that search and rescue operations are ongoing amidst severe infrastructure damage, including the collapse of at least 339 residential homes. Among those currently receiving medical treatment, 11 individuals remain in critical condition while others suffer from minor trauma, highlighting the ongoing humanitarian challenges in the remote mountainous terrain. This disaster tests regional emergency infrastructure and underscores the extreme vulnerability of remote high-altitude communities to seismic shocks.",
+      "brief_word_count": 100
+    },
+    {
+      "story_id": "story-67",
+      "category": "Geopolitics",
+      "primary_headline": "Deadly fire at Canada military base was caused by live grenade exercise, army says",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Deadly fire at Canada military base was caused by live grenade exercise, army says - Reuters",
+        "published_at": "Thu, 22 Oct 2026 22:09:45 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQX0dzbTd2ZjJIX0dMNU9xTEhMWFdxS0ltUmlfMmFhT3RYOVNiRTNENEZ2LXJyR3ZESkJ3ZW5FbTZzN2hLSWtCbTc5UHB3QzRBZlRZMGFaaHNjMDA4NFA5VEltaUpFNWtIWjExbk1LWUNLNHRKRk05eUZvcGNiMnR1UkNUNWhsQ2RaU2Y3dk9uTE1yOUxQWUZRWU8ycUxBU25OdDB4aV9Ib21PejlPeFB4dUtrWFNGRU1LQV9kcw?oc=5",
+        "content": "Deadly fire at Canada military base was caused by live grenade exercise, army says&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Deadly fire at Canada military base was caused by live grenade exercise, army says - Reuters",
+          "published_at": "Thu, 22 Oct 2026 22:09:45 GMT",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQX0dzbTd2ZjJIX0dMNU9xTEhMWFdxS0ltUmlfMmFhT3RYOVNiRTNENEZ2LXJyR3ZESkJ3ZW5FbTZzN2hLSWtCbTc5UHB3QzRBZlRZMGFaaHNjMDA4NFA5VEltaUpFNWtIWjExbk1LWUNLNHRKRk05eUZvcGNiMnR1UkNUNWhsQ2RaU2Y3dk9uTE1yOUxQWUZRWU8ycUxBU25OdDB4aV9Ib21PejlPeFB4dUtrWFNGRU1LQV9kcw?oc=5"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Grenades Sparked Canadian Military Base Fire That Killed 4",
+          "published_at": "Fri, 23 Oct 2026 12:08:53 +0530",
+          "url": "https://www.ndtv.com/world-news/grenades-sparked-canadian-military-base-fire-albertathat-killed-4-12224018#publisher=newsstand"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.66,
+      "brief_bullets": [
+        "A deadly fire erupted at a Canadian military base, confirmed by the army to have been caused by a live grenade exercise. The blaze, occurring within the range's \"permanent danger area,\" critically prevented firefighters from directly engaging the inferno, allowing it to spread unchecked and potentially causing extensive damage. This incident immediately raises significant concerns regarding the Canadian Armed Forces' training safety protocols, the management of high-risk live-fire exercises, and the operational limitations faced by emergency responders in designated danger zones. The broader implications extend to environmental damage, potential revisions of live-fire exercise guidelines, and public scrutiny over military accountability and risk assessment practices, particularly concerning the proximity of such activities to sensitive areas and the effectiveness of containment strategies."
+      ],
+      "why_it_matters_bullets": [
+        "This incident challenges military safety protocols, demanding immediate review of live-fire exercise procedures and environmental impact."
+      ],
+      "brief": "A deadly fire erupted at a Canadian military base, confirmed by the army to have been caused by a live grenade exercise. The blaze, occurring within the range's \"permanent danger area,\" critically prevented firefighters from directly engaging the inferno, allowing it to spread unchecked and potentially causing extensive damage. This incident immediately raises significant concerns regarding the Canadian Armed Forces' training safety protocols, the management of high-risk live-fire exercises, and the operational limitations faced by emergency responders in designated danger zones. The broader implications extend to environmental damage, potential revisions of live-fire exercise guidelines, and public scrutiny over military accountability and risk assessment practices, particularly concerning the proximity of such activities to sensitive areas and the effectiveness of containment strategies. This incident challenges military safety protocols, demanding immediate review of live-fire exercise procedures and environmental impact.",
+      "brief_word_count": 136
+    },
+    {
+      "story_id": "story-68",
+      "category": "Geopolitics",
+      "primary_headline": "EU ‘inviting disaster’ by imposing carbon tax on steel, says Piyush Goyal in Berlin",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "EU ‘inviting disaster’ by imposing carbon tax on steel, says Piyush Goyal in Berlin",
+        "published_at": "Fri, 23 Oct 2026 10:55:05 +0530",
+        "url": "https://www.thehindu.com/news/international/eu-inviting-disaster-by-imposing-carbon-tax-on-steel-says-piyush-goyal-in-berlin/article71614612.ece",
+        "content": "The Union Minister said the EU is “shooting” itself in the foot by bringing in more regulations, restrictions on itself, and closing its borders, something that actually helped them become a developed set of nations."
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "EU ‘inviting disaster’ by imposing carbon tax on steel, says Piyush Goyal in Berlin",
+          "published_at": "Fri, 23 Oct 2026 10:55:05 +0530",
+          "url": "https://www.thehindu.com/news/international/eu-inviting-disaster-by-imposing-carbon-tax-on-steel-says-piyush-goyal-in-berlin/article71614612.ece"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "\"Haven't Seen Dime Of That\": Piyush Goyal On $100 Billion Climate Finance",
+          "published_at": "Fri, 23 Oct 2026 07:36:41 +0530",
+          "url": "https://www.ndtv.com/india-news/havent-seen-dime-of-that-piyush-goyal-on-100-billion-climate-finance-12223061#publisher=newsstand"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.66,
+      "brief_bullets": [
+        "The Union Minister said the EU is “shooting” itself in the foot by bringing in more regulations, restrictions on itself, and closing its borders, something that actually helped them become a developed set of nations.",
+        "Piyush Goyal called out developed nations for historically contributing the lion's share of global carbon emissions while reneging on their pledged financial and technological support to developing and vulnerable nations under the Paris Agreement.",
         "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
-        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions.",
-        "Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments."
+        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions."
       ],
       "why_it_matters_bullets": [
         "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
       ],
-      "brief": "Italian police clash with protesters in the centre of Milan  ThePrint. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 85
+      "brief": "The Union Minister said the EU is “shooting” itself in the foot by bringing in more regulations, restrictions on itself, and closing its borders, something that actually helped them become a developed set of nations. Piyush Goyal called out developed nations for historically contributing the lion's share of global carbon emissions while reneging on their pledged financial and technological support to developing and vulnerable nations under the Paris Agreement. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 125
     },
     {
-      "story_id": "story-49",
+      "story_id": "story-74",
       "category": "Geopolitics",
-      "primary_headline": "India Cockroach Leaders Remain in Custody as Release Delayed",
+      "primary_headline": "Call of Duty promises a return to form - but can it compete with GTA?",
       "primary_source": {
-        "source_name": "Bloomberg",
-        "headline": "India Cockroach Leaders Remain in Custody as Release Delayed",
-        "published_at": "Sun, 18 Oct 2026 01:45:09 GMT",
-        "url": "https://www.bloomberg.com/news/articles/2026-10-18/two-india-cockroach-leaders-set-to-be-freed-as-protests-spread",
-        "content": "India’s Cockroach Janta Party raised concerns over what it described as “systematic delays and procedural obstruction” by Delhi Police and other authorities in securing the release of two of its leaders who have now spent five days in custody."
+        "source_name": "BBC News",
+        "headline": "Call of Duty promises a return to form - but can it compete with GTA?",
+        "published_at": "Thu, 22 Oct 2026 23:20:48 GMT",
+        "url": "https://www.bbc.co.uk/news/articles/cm369kkg92x6o?at_medium=RSS&at_campaign=rss",
+        "content": "Modern Warfare 4 faces an uphill battle after last year's Call of Duty missed the mark with fans."
       },
       "sources": [
         {
-          "source_name": "Bloomberg",
-          "headline": "India Cockroach Leaders Remain in Custody as Release Delayed",
-          "published_at": "Sun, 18 Oct 2026 01:45:09 GMT",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-18/two-india-cockroach-leaders-set-to-be-freed-as-protests-spread"
+          "source_name": "BBC News",
+          "headline": "Call of Duty promises a return to form - but can it compete with GTA?",
+          "published_at": "Thu, 22 Oct 2026 23:20:48 GMT",
+          "url": "https://www.bbc.co.uk/news/articles/cm369kkg92x6o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "source_name": "Deccan Herald",
-          "headline": "CJP alleges delay in release of leaders, 4 sureties rejected",
-          "published_at": "Sun, 18 Oct 2026 13:16:14 +0000",
-          "url": "https://www.deccanherald.com/india/cjp-alleges-delay-in-release-of-leaders-4-sureties-rejected-4187288"
+          "source_name": "The Guardian",
+          "headline": "Call of Duty: Modern Warfare 4 review – a thrilling airport novel of a game",
+          "published_at": "Fri, 23 Oct 2026 04:00:06 GMT",
+          "url": "https://www.theguardian.com/games/2026/oct/23/call-of-duty-modern-warfare-4-review-a-thrilling-airport-novel-of-a-game"
         }
       ],
       "source_count": 2,
       "total_count": 2,
       "combined_score": 1.63,
       "brief_bullets": [
-        "India’s Cockroach Janta Party raised concerns over what it described as “systematic delays and procedural obstruction” by Delhi Police and other authorities in securing the release of two of its leaders who have now spent five days in custody.",
-        "New Delhi: The bail hearing of Cockroach Janta Party (CJP) leaders Saurav Das and Ashutosh Ranka was \"delayed\" on Sunday as the Special Executive Magistrate (SEM) did not arrive at the scheduled time, activist Ratna Singh said and alleged that four sureties had been rejected on \"vague\" grounds.",
-        "Das and Ranka were sent to five days of judicial custody on October 14 after they entered Jantar Mantar, which had been denotified as a designated protest site, by scaling its locked gates.",
-        "The CJP leaders maintained that they had unfurled the national flag and raised slogans."
+        "Activision's Infinity Ward studio is under immense pressure to deliver a successful \"Modern Warfare 4\" after last year's \"Black Ops 7\" installment proved a sales disappointment for the \"Call of Duty\" franchise. Developers are \"throwing everything\" at this new title, returning to the popular \"Modern Warfare\" strand with a campaign featuring a fictitious North Korean invasion, where characters like Price, Gaz, and Ghost, alongside American and Korean marines, fight back against a rogue state. Despite a cameo from Mads Mikkelsen as \"The Archer,\" the focus remains on high-stakes, \"ripped from the headlines\" narratives. This release is crucial for Activision to regain fan confidence and revitalize the series' commercial performance."
       ],
       "why_it_matters_bullets": [
-        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
+        "This release is critical for Activision to revitalize its flagship franchise and maintain market dominance."
       ],
-      "brief": "India’s Cockroach Janta Party raised concerns over what it described as “systematic delays and procedural obstruction” by Delhi Police and other authorities in securing the release of two of its leaders who have now spent five days in custody. New Delhi: The bail hearing of Cockroach Janta Party (CJP) leaders Saurav Das and Ashutosh Ranka was \"delayed\" on Sunday as the Special Executive Magistrate (SEM) did not arrive at the scheduled time, activist Ratna Singh said and alleged that four sureties had been rejected on \"vague\" grounds. Das and Ranka were sent to five days of judicial custody on October 14 after they entered Jantar Mantar, which had been denotified as a designated protest site, by scaling its locked gates. The CJP leaders maintained that they had unfurled the national flag and raised slogans. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 148
+      "brief": "Activision's Infinity Ward studio is under immense pressure to deliver a successful \"Modern Warfare 4\" after last year's \"Black Ops 7\" installment proved a sales disappointment for the \"Call of Duty\" franchise. Developers are \"throwing everything\" at this new title, returning to the popular \"Modern Warfare\" strand with a campaign featuring a fictitious North Korean invasion, where characters like Price, Gaz, and Ghost, alongside American and Korean marines, fight back against a rogue state. Despite a cameo from Mads Mikkelsen as \"The Archer,\" the focus remains on high-stakes, \"ripped from the headlines\" narratives. This release is crucial for Activision to regain fan confidence and revitalize the series' commercial performance. This release is critical for Activision to revitalize its flagship franchise and maintain market dominance.",
+      "brief_word_count": 124
     },
     {
-      "story_id": "story-59",
+      "story_id": "story-80",
       "category": "Geopolitics",
-      "primary_headline": "Youth organisations attempt march to Jantar Mantar seeking CEC’s resignation; several detained",
+      "primary_headline": "CMRL-Exalogic pay-off case: Kerala HC to hear Pinarayi Vijayan, kin’s appeal against FIR order on October 26",
       "primary_source": {
         "source_name": "The Hindu",
-        "headline": "Youth organisations attempt march to Jantar Mantar seeking CEC’s resignation; several detained",
-        "published_at": "Sun, 18 Oct 2026 22:03:58 +0530",
-        "url": "https://www.thehindu.com/news/national/youth-organisations-attempt-march-to-jantar-mantar-seeking-cecs-resignation-several-detained/article71600610.ece",
-        "content": "We will continue our democratic struggle against the politicisation of the Election Commission, says NSUI national president Vinod Jakhar"
+        "headline": "CMRL-Exalogic pay-off case: Kerala HC to hear Pinarayi Vijayan, kin’s appeal against FIR order on October 26",
+        "published_at": "Fri, 23 Oct 2026 13:28:35 +0530",
+        "url": "https://www.thehindu.com/news/national/kerala/cmrl-exalogic-pay-off-case-kerala-hc-to-hear-pinarayi-vijayan-kins-appeal-against-fir-order-on-october-26/article71614865.ece",
+        "content": "A Division Bench had denied former Chief Minister the permission to appeal against Single Bench order, after which he approached Supreme Court, which stayed the order for seven days and redirected the matter to be considered again"
       },
       "sources": [
         {
           "source_name": "The Hindu",
-          "headline": "Youth organisations attempt march to Jantar Mantar seeking CEC’s resignation; several detained",
-          "published_at": "Sun, 18 Oct 2026 22:03:58 +0530",
-          "url": "https://www.thehindu.com/news/national/youth-organisations-attempt-march-to-jantar-mantar-seeking-cecs-resignation-several-detained/article71600610.ece"
+          "headline": "CMRL-Exalogic pay-off case: Kerala HC to hear Pinarayi Vijayan, kin’s appeal against FIR order on October 26",
+          "published_at": "Fri, 23 Oct 2026 13:28:35 +0530",
+          "url": "https://www.thehindu.com/news/national/kerala/cmrl-exalogic-pay-off-case-kerala-hc-to-hear-pinarayi-vijayan-kins-appeal-against-fir-order-on-october-26/article71614865.ece"
         },
         {
-          "source_name": "The Print",
-          "headline": "I walked into Jantar Mantar a nervous student. I walked out a citizen - ThePrint",
-          "published_at": "Sun, 18 Oct 2026 08:37:30 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdFo5azVOR2ZJYUtsVW4yaUc5Q3lDd3ZxQ09MVnNEYUluQzdQYlhualRrbU53OXRCX3E5TXN0ajZyNk9ES3A2SmdXcVlHRmpLOE5zNlNZN29nYzhLQUlOci1TeERXclFrVHZPWnZ0VG1GX2JBc2twRmZKaVEzZlhWYWJiMzZoZWNNT0lVb1kxWU5fbzJBQ0hMNzMxaFFkaEd2VnZxZUgzNDRjbUJlSWfSAbMBQVVfeXFMUHNjRVYyR3R3UzZfWXdZZDY2YmVua2hlcW50S2d1bURXLTJVd3FHSXFXMXNHVzBldElEeHdtV01QSlBHbkN3NkFmS1owYzktdWdHcUJiX21WZkxPcjFYMEcxYm5meEhXaERYNHhpMTg5VTBJSDJwRV80X3RaY21saFFVZ1ZfbGNabzJKblNVNkEyTjFDcVN5eVpEcWU2eXJ3NmZXSGxIQVhZMXpRX2JrUlRkU00?oc=5"
+          "source_name": "Deccan Herald",
+          "headline": "CMRL bribery case: Kerala High Court posts Vijayan, family’s appeals against FIR order to October 26",
+          "published_at": "Fri, 23 Oct 2026 07:47:13 +0000",
+          "url": "https://www.deccanherald.com/india/keralam/court-posts-vijayan-familys-appeals-against-fir-order-to-october-26-4192324"
         }
       ],
       "source_count": 2,
       "total_count": 2,
       "combined_score": 1.6,
       "brief_bullets": [
-        "We will continue our democratic struggle against the politicisation of the Election Commission, says NSUI national president Vinod Jakhar I walked into Jantar Mantar a nervous student.",
-        "I walked out a citizen ThePrint.",
+        "A Division Bench had denied former Chief Minister the permission to appeal against Single Bench order, after which he approached Supreme Court, which stayed the order for seven days and redirected the matter to be considered again Kochi: The Kerala High Court on Friday posted to October 26 the appeals filed by former Chief Minister Pinarayi Vijayan and his family members challenging a single judge's order directing the registration of an FIR against them in the alleged CMRL bribery case.",
+        "The appeals filed by Vijayan, his daughter Veena T and son-in-law P A Muhammed Riyas MLA, came up before a Division Bench comprising Justice Sathish Ninan and Justice P Krishna Kumar, which posted the matter for further hearing on Monday."
+      ],
+      "why_it_matters_bullets": [
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+      ],
+      "brief": "A Division Bench had denied former Chief Minister the permission to appeal against Single Bench order, after which he approached Supreme Court, which stayed the order for seven days and redirected the matter to be considered again Kochi: The Kerala High Court on Friday posted to October 26 the appeals filed by former Chief Minister Pinarayi Vijayan and his family members challenging a single judge's order directing the registration of an FIR against them in the alleged CMRL bribery case. The appeals filed by Vijayan, his daughter Veena T and son-in-law P A Muhammed Riyas MLA, came up before a Division Bench comprising Justice Sathish Ninan and Justice P Krishna Kumar, which posted the matter for further hearing on Monday. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 134
+    },
+    {
+      "story_id": "story-104",
+      "category": "Geopolitics",
+      "primary_headline": "Huge crowds gather at final pre-election rally of Serbia’s students",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Huge crowds gather at final pre-election rally of Serbia’s students - AP News",
+        "published_at": "Thu, 22 Oct 2026 18:08:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMUI4d2ZmWWpZQ05HTFZ4YnNoYUZWRm1sUmNIZEF2UktNWHExLW8xWVZFNUNaQklLcFI4am5IaER4YXR1aUdYRjZ4MEczUFhLVGV6cjI4LWZDeXBybURkOUlVdk9Bc29CYVNpSktCeHBGRFhxX1pYcHM2WHBaakE5dUFfZmVoYjBDLUNjOVdtUmc5aUxuRFVvY2k5TjQ?oc=5",
+        "content": "Huge crowds gather at final pre-election rally of Serbia’s students&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Huge crowds gather at final pre-election rally of Serbia’s students - AP News",
+          "published_at": "Thu, 22 Oct 2026 18:08:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMUI4d2ZmWWpZQ05HTFZ4YnNoYUZWRm1sUmNIZEF2UktNWHExLW8xWVZFNUNaQklLcFI4am5IaER4YXR1aUdYRjZ4MEczUFhLVGV6cjI4LWZDeXBybURkOUlVdk9Bc29CYVNpSktCeHBGRFhxX1pYcHM2WHBaakE5dUFfZmVoYjBDLUNjOVdtUmc5aUxuRFVvY2k5TjQ?oc=5"
+        },
+        {
+          "source_name": "The Guardian",
+          "headline": "Massive student-led rally marches in Belgrade ahead of Serbian election",
+          "published_at": "Fri, 23 Oct 2026 00:22:56 GMT",
+          "url": "https://www.theguardian.com/world/2026/oct/23/serbia-election-student-list-rally-belgrade-aleksandar-vucic"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.6,
+      "brief_bullets": [
+        "AP News Student List movement hopes to oust the party of veteran leader Aleksandar Vucic in a pivotal vote on SundayExplained: what’s at stake in Serbia’s election?",
+        "The key players, main issues and potential falloutAbout 150,000 supporters of Serbia’s opposition student movement rallied in central Belgrade on Thursday, seeking to oust the party of veteran leader Aleksandar Vucic in crunch parliamentary elections this weekend.",
+        "The Student List, a leaderless movement of student-backed candidates, wants to end more than 14 years of rule by Vucic’s rightwing populist Serbian Progressive party (SNS) in Sunday’s vote.",
+        "The political development reflects shifting legislative momentum and institutional scrutiny across key administrative decision-making bodies."
+      ],
+      "why_it_matters_bullets": [
+        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
+      ],
+      "brief": "AP News Student List movement hopes to oust the party of veteran leader Aleksandar Vucic in a pivotal vote on SundayExplained: what’s at stake in Serbia’s election? The key players, main issues and potential falloutAbout 150,000 supporters of Serbia’s opposition student movement rallied in central Belgrade on Thursday, seeking to oust the party of veteran leader Aleksandar Vucic in crunch parliamentary elections this weekend. The Student List, a leaderless movement of student-backed candidates, wants to end more than 14 years of rule by Vucic’s rightwing populist Serbian Progressive party (SNS) in Sunday’s vote. The political development reflects shifting legislative momentum and institutional scrutiny across key administrative decision-making bodies. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
+      "brief_word_count": 122
+    },
+    {
+      "story_id": "story-109",
+      "category": "Geopolitics",
+      "primary_headline": "The 2026 election could reshape healthcare",
+      "primary_source": {
+        "source_name": "Vox",
+        "headline": "The 2026 election could reshape healthcare",
+        "published_at": "2026-10-22T16:00:00-04:00",
+        "url": "https://www.vox.com/good-medicine-newsletter/507342/2026-midterm-elections-house-senate-healthcare",
+        "content": "Americans are furious about the state of our healthcare system.&#160; A recent KFF poll found 60 percent of US adults worry about the cost of medical care —&#160;more than gasoline, food and groceries, or their rent or mortgage. One in three Americans say they worry every day or almost every day about their ability to [&#8230;]"
+      },
+      "sources": [
+        {
+          "source_name": "Vox",
+          "headline": "The 2026 election could reshape healthcare",
+          "published_at": "2026-10-22T16:00:00-04:00",
+          "url": "https://www.vox.com/good-medicine-newsletter/507342/2026-midterm-elections-house-senate-healthcare"
+        },
+        {
+          "source_name": "Wired",
+          "headline": "They Believe 2020 Was Stolen. They Could Be in Charge of Elections in 2028",
+          "published_at": "Thu, 22 Oct 2026 10:15:00 +0000",
+          "url": "https://www.wired.com/story/they-believe-2020-was-stolen-they-could-be-in-charge-of-elections-in-2028/"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.6,
+      "brief_bullets": [
+        "Americans are furious about the state of our healthcare system.",
+        "A recent KFF poll found 60 percent of US adults worry about the cost of medical care — more than gasoline, food and groceries, or their rent or mortgage.",
+        "One in three Americans say they worry every day or almost every day about their ability to […] A host of election-denying candidates are running for attorney general in states across the country.",
+        "The political development reflects shifting legislative momentum and institutional scrutiny across key administrative decision-making bodies."
+      ],
+      "why_it_matters_bullets": [
+        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
+      ],
+      "brief": "Americans are furious about the state of our healthcare system. A recent KFF poll found 60 percent of US adults worry about the cost of medical care — more than gasoline, food and groceries, or their rent or mortgage. One in three Americans say they worry every day or almost every day about their ability to […] A host of election-denying candidates are running for attorney general in states across the country. The political development reflects shifting legislative momentum and institutional scrutiny across key administrative decision-making bodies. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
+      "brief_word_count": 101
+    },
+    {
+      "story_id": "story-111",
+      "category": "Geopolitics",
+      "primary_headline": "As Priyanka backs son Raihan over exhibition, Bikaner House says photos were ‘inconsistent with policy’",
+      "primary_source": {
+        "source_name": "The Indian Express",
+        "headline": "As Priyanka backs son Raihan over exhibition, Bikaner House says photos were ‘inconsistent with policy’",
+        "published_at": "Thu, 22 Oct 2026 14:11:42 +0000",
+        "url": "https://indianexpress.com/article/cities/delhi/priyanka-gandhi-son-raihan-vadra-exhibition-photos-removed-bikaner-house-10932614/",
+        "content": ""
+      },
+      "sources": [
+        {
+          "source_name": "The Indian Express",
+          "headline": "As Priyanka backs son Raihan over exhibition, Bikaner House says photos were ‘inconsistent with policy’",
+          "published_at": "Thu, 22 Oct 2026 14:11:42 +0000",
+          "url": "https://indianexpress.com/article/cities/delhi/priyanka-gandhi-son-raihan-vadra-exhibition-photos-removed-bikaner-house-10932614/"
+        },
+        {
+          "source_name": "The Print",
+          "headline": "Bare nails at Bikaner House: No idea is final, except the censor’s - ThePrint",
+          "published_at": "Thu, 22 Oct 2026 12:29:24 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaG1BYU1yanRJSWRhWVh1ZUVMZDNOSVdwN1dUc3FZMmRfMkZZcFdPcDkwZ2ZacEdQXzh5SHZBbVFxNWZIUDlXWUQxd1RtSGp2MDJBV0Q2aHNVUzdhYW1nM201eGR1Y0dyOWN5dl9NQTlELUU5eF85SXJLT205c3F5Z1RoQllKN2hUcmRYdmpad3VoRVV4VVpMWC1LME8yb1BpTUHSAacBQVVfeXFMUFJqMmVlWW9iZ1RJWXpMYllXREItdFUyaHJVVzR0LUllb1R5MXY1T19acldEbWFDQmV5aWZZWjFONWJhTnY2ME9uMGthMWUwVVFDZHo1d0xDNUpiNlNoYTZURFVCTjFsdDJFeTBGaUxfVGZibTJKakVJYzJzVDJ5NTJ5bnFkNzhadllUbG96MW1fLVFtNUpQcGNjZU9DYzd2ZXVuTGxvNGM?oc=5"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.6,
+      "brief_bullets": [
+        "Bare nails at Bikaner House: No idea is final, except the censor’s ThePrint.",
+        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'As Priyanka backs son Raihan over exhibition, Bikaner House says photos were ‘inconsistent with policy’'.",
+        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
+        "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "Bare nails at Bikaner House: No idea is final, except the censor’s ThePrint. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'As Priyanka backs son Raihan over exhibition, Bikaner House says photos were ‘inconsistent with policy’'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 85
+    },
+    {
+      "story_id": "story-113",
+      "category": "Geopolitics",
+      "primary_headline": "‘Nothing wrong in demanding regime change in democracy’: Neha Bora’s lawyer to court",
+      "primary_source": {
+        "source_name": "The Indian Express",
+        "headline": "‘Nothing wrong in demanding regime change in democracy’: Neha Bora’s lawyer to court",
+        "published_at": "Thu, 22 Oct 2026 12:46:06 +0000",
+        "url": "https://indianexpress.com/article/cities/delhi/have-you-predetermined-the-need-for-a-bond-delhi-high-court-on-neha-boras-plea-10932512/",
+        "content": ""
+      },
+      "sources": [
+        {
+          "source_name": "The Indian Express",
+          "headline": "‘Nothing wrong in demanding regime change in democracy’: Neha Bora’s lawyer to court",
+          "published_at": "Thu, 22 Oct 2026 12:46:06 +0000",
+          "url": "https://indianexpress.com/article/cities/delhi/have-you-predetermined-the-need-for-a-bond-delhi-high-court-on-neha-boras-plea-10932512/"
+        },
+        {
+          "source_name": "Al Jazeera",
+          "headline": "Neha Bora can outwit the police. Can Indian youth leader outfox Modi? - Al Jazeera",
+          "published_at": "Thu, 22 Oct 2026 10:51:29 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRE9fRzBCa3FKVGRGTTNaTjRmSkhSc0lQWXBZR2ZJMVFxdW9fVE9Ba2hrT0w2UE1WRWNtall2bmdDNDV3cHlWRDFRb2QtQzF1eFhGQ3U4MTdENjhTNjYtLWhuODA0QmFlT1R1V2tYaUpzOU96QVFKcC1TbWJkRWJTRFU4dzhRQkVYNXhMSFhScmUyZ21Ob0FHbDd4RVVzanVPQmpIS9IBqgFBVV95cUxOQjJ3UHFuTFI3ZHJlVFZNWElSalIxSEtDRUNIeW52TzU0ZHBzbFZKdVluRHU0MERPUy1SREdSU0dTcm9ZY0JyWTk4SmNKanVYcE91bGV5RUZkQUFrblVfWVZaUkliNVVadTJNbzlBNDdOZFREczN4QkZ1eHo0eDZZb0dvZ0c3T2p3UTJoNWZIcWU5bGVmaHZabjRLZHNEcVJnaGZhQ21maDJsdw?oc=5"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.6,
+      "brief_bullets": [
+        "Neha Bora can outwit the police.",
+        "Can Indian youth leader outfox Modi?",
+        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
+        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions."
+      ],
+      "why_it_matters_bullets": [
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+      ],
+      "brief": "Neha Bora can outwit the police. Can Indian youth leader outfox Modi? Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 68
+    },
+    {
+      "story_id": "story-117",
+      "category": "Geopolitics",
+      "primary_headline": "Trump's Son-In-Law's Hacked Phone Shows Secret Dealings With Saudi, UAE. His Reply",
+      "primary_source": {
+        "source_name": "NDTV",
+        "headline": "Trump's Son-In-Law's Hacked Phone Shows Secret Dealings With Saudi, UAE. His Reply",
+        "published_at": "Fri, 23 Oct 2026 08:41:25 +0530",
+        "url": "https://www.ndtv.com/world-news/trumps-son-in-laws-hacked-phone-show-secret-dealings-with-saudi-uae-his-reply-12223209#publisher=newsstand",
+        "content": "The report claimed that bin Zayed and Saudi Arabian Crown Prince Mohammed bin Salman were behind the idea of the account, as they wanted to set up a slush fund to help the Trump administration with its foreign policy goals."
+      },
+      "sources": [
+        {
+          "source_name": "NDTV",
+          "headline": "Trump's Son-In-Law's Hacked Phone Shows Secret Dealings With Saudi, UAE. His Reply",
+          "published_at": "Fri, 23 Oct 2026 08:41:25 +0530",
+          "url": "https://www.ndtv.com/world-news/trumps-son-in-laws-hacked-phone-show-secret-dealings-with-saudi-uae-his-reply-12223209#publisher=newsstand"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Trump's Crypto Firm Sued Over Alleged Profits From $2 Billion UAE-Linked Deal",
+          "published_at": "Fri, 23 Oct 2026 07:34:28 +0530",
+          "url": "https://www.ndtv.com/world-news/donald-trumps-crypto-firm-world-liberty-financial-sued-over-alleged-profits-from-2-billion-dollar-uae-linked-deal-12223077#publisher=newsstand"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Anand Mahindra's Witty Reply To Fan's Prediction About His Lifespan Goes Viral",
+          "published_at": "Fri, 23 Oct 2026 07:03:06 +0530",
+          "url": "https://www.ndtv.com/offbeat/anand-mahindras-witty-reply-to-fans-prediction-about-his-lifespan-goes-viral-12222978#publisher=newsstand"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 3,
+      "combined_score": 1.4,
+      "brief_bullets": [
+        "The report claimed that bin Zayed and Saudi Arabian Crown Prince Mohammed bin Salman were behind the idea of the account, as they wanted to set up a slush fund to help the Trump administration with its foreign policy goals.",
+        "The suit claims Trump violated the Foreign Emoluments Clause, a provision of the US Constitution that bars presidents from taking payments from foreign governments without the approval of Congress On October 14, Mahindra shared a video showing a fleet of electric vehicles handed over by the Indian government to the government of Bhutan.",
         "The political development reflects shifting legislative momentum and institutional scrutiny across key administrative decision-making bodies.",
         "Constitutional observers and policy strategists note that ongoing deliberations will establish critical regulatory and legal precedents."
       ],
       "why_it_matters_bullets": [
         "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
       ],
-      "brief": "We will continue our democratic struggle against the politicisation of the Election Commission, says NSUI national president Vinod Jakhar I walked into Jantar Mantar a nervous student. I walked out a citizen ThePrint. The political development reflects shifting legislative momentum and institutional scrutiny across key administrative decision-making bodies. Constitutional observers and policy strategists note that ongoing deliberations will establish critical regulatory and legal precedents. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 78
-    },
-    {
-      "story_id": "story-61",
-      "category": "Geopolitics",
-      "primary_headline": "Zelenskiy says he spoke to US envoys Witkoff, Kushner",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Zelenskiy says he spoke to US envoys Witkoff, Kushner - Reuters",
-        "published_at": "Sun, 18 Oct 2026 15:23:35 GMT",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdUZwZGVuV0Y5UUEteEtVeE56ME9lNmZYQmFtMFYxcmFRZzFQQld3REF3ZWZ3a1hERUhyWkJhN3RPbFdYOEcxRUpsZkI5dFRsbkJPVDhuYUFKYVp5ZElxR2J1Q2x1T1VYTjY5REhzbHlSUHZkUDN4QWZmbzV3cjAyLWVMZG5kWkttUk1vcnY5MmlpcWwzMnpPa3JIMXdCdkVldXlWYzJ2enhsUi1O?oc=5",
-        "content": "Zelenskiy says he spoke to US envoys Witkoff, Kushner&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "Zelenskiy says he spoke to US envoys Witkoff, Kushner - Reuters",
-          "published_at": "Sun, 18 Oct 2026 15:23:35 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdUZwZGVuV0Y5UUEteEtVeE56ME9lNmZYQmFtMFYxcmFRZzFQQld3REF3ZWZ3a1hERUhyWkJhN3RPbFdYOEcxRUpsZkI5dFRsbkJPVDhuYUFKYVp5ZElxR2J1Q2x1T1VYTjY5REhzbHlSUHZkUDN4QWZmbzV3cjAyLWVMZG5kWkttUk1vcnY5MmlpcWwzMnpPa3JIMXdCdkVldXlWYzJ2enhsUi1O?oc=5"
-        },
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Ukraine's Zelenskyy says he spoke to US envoys  Steve Witkoff, Jared Kushner",
-          "published_at": "Sun, 18 Oct 2026 16:12:16 +0000",
-          "url": "https://www.deccanherald.com/world/ukraines-zelenskyy-says-he-spoke-to-us-envoys-steve-witkoff-jared-kushner-4187448"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
-      "brief_bullets": [
-        "Ukrainian President Volodymyr Zelenskyy said on Sunday he had spoken with US peace envoys Steve Witkoff and Jared Kushner as part of \"virtually nonstop communication\" between the two countries' teams aimed at the \"next steps in diplomacy\".\"Had a conversation with the American President's envoys, Steve Witkoff and Jared Kushner.",
-        "Peace comes only through strength and cooperation built on trust,\" he wrote on X.Had a conversation with the American President’s envoys, Steve Witkoff @SEPeaceMissions and Jared Kushner @jaredkushner.",
-        "Peace comes only through strength and cooperation built on trust.",
-        "We are doing everything on our part to make this happen, and to ensure that America’s… pic.twitter.com/eNFwsJkNJS&mdash; Volodymyr Zelenskyy / Володимир Зеленський (@ZelenskyyUa) October 18, 2026 \"In particular, we discussed the results of our teams' meeting in Florida.",
-        "Our teams maintain virtually nonstop communication."
-      ],
-      "why_it_matters_bullets": [
-        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
-      ],
-      "brief": "Ukrainian President Volodymyr Zelenskyy said on Sunday he had spoken with US peace envoys Steve Witkoff and Jared Kushner as part of \"virtually nonstop communication\" between the two countries' teams aimed at the \"next steps in diplomacy\".\"Had a conversation with the American President's envoys, Steve Witkoff and Jared Kushner. Peace comes only through strength and cooperation built on trust,\" he wrote on X.Had a conversation with the American President’s envoys, Steve Witkoff @SEPeaceMissions and Jared Kushner @jaredkushner. Peace comes only through strength and cooperation built on trust. We are doing everything on our part to make this happen, and to ensure that America’s… pic.twitter.com/eNFwsJkNJS&mdash; Volodymyr Zelenskyy / Володимир Зеленський (@ZelenskyyUa) October 18, 2026 \"In particular, we discussed the results of our teams' meeting in Florida. Our teams maintain virtually nonstop communication. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
-      "brief_word_count": 145
-    },
-    {
-      "story_id": "story-67",
-      "category": "Geopolitics",
-      "primary_headline": "Albanian PM says protests pose threat to EU membership, not government",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Albanian PM says protests pose threat to EU membership, not government - Reuters",
-        "published_at": "Sun, 18 Oct 2026 13:47:43 GMT",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWlc3R0V2SVhwYWpQcDQzVnptVkptdkQtWHdGZUU0SUlYdUozS3ZFQmN2bmNTQUFKbUZ5UUNWR3RWQmlFVDZSU2daT0FMcXNVM0ZIaGtYbXFTTThzWjFqV3JkWkgzbWRxZWsyTGhhYU5wVTFRc01IV3ZRSkRlTlBlZ0p1YVQzMlZYUUxTSEV6WjUxMGNQb1R6Y3k0b0dZSDZIQlo3c1l2RUpTR0o3?oc=5",
-        "content": "Albanian PM says protests pose threat to EU membership, not government&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "Albanian PM says protests pose threat to EU membership, not government - Reuters",
-          "published_at": "Sun, 18 Oct 2026 13:47:43 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWlc3R0V2SVhwYWpQcDQzVnptVkptdkQtWHdGZUU0SUlYdUozS3ZFQmN2bmNTQUFKbUZ5UUNWR3RWQmlFVDZSU2daT0FMcXNVM0ZIaGtYbXFTTThzWjFqV3JkWkgzbWRxZWsyTGhhYU5wVTFRc01IV3ZRSkRlTlBlZ0p1YVQzMlZYUUxTSEV6WjUxMGNQb1R6Y3k0b0dZSDZIQlo3c1l2RUpTR0o3?oc=5"
-        },
-        {
-          "source_name": "The Print",
-          "headline": "Albanian PM says mass protests a threat to EU membership, not government - ThePrint",
-          "published_at": "Sun, 18 Oct 2026 11:00:04 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNUpPdjRiQjExenZVMmVzdk45R1U0NXJfdjVzWWZtZ014UXo0V1A5ZzJPckVxekxEa1JSQ1ZuSDJuM25ULWo4TkNDY1NXU3ktakYzSVctQ1QxWHFzc1R2a3liUndjeHBfMjVwNVVrRHJHTW1TT19obHNiSkJCc3hHU3lqS3VENEZud2hrSVQ0OEJyWFdFTXBjdmxBYXBUNC0tclotNTJxXzZYZ9IBrwFBVV95cUxNTUtEWTEwcFIyNk9pcmptWjJHd0tmeVFVZGlrMHFwSVl0VWQwTG81SFBmR25hTWNXaFg5OGJuWGlZX1hyMTBSN2RnQlRXMHRSQno1Nkl3YUNGWG5KYVdST2UzYlIwTGs0SmZKelJkYU5WbXpBbk9EQXNoZGtFa0ltRHJ6eGEteGpFdmJyQ2g4dnc0UUlCWWVNam9Oa0lQYnZGRk1MUmwzUUJkM0k4Yk9B?oc=5"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
-      "brief_bullets": [
-        "Albanian PM says mass protests a threat to EU membership, not government ThePrint.",
-        "Public dissent and street demonstrations have prompted emergency municipal interventions and heightened law enforcement readiness across impacted urban hubs.",
-        "Political factions and civic advocacy groups are actively debating the underlying systemic grievances that triggered the public unrest.",
-        "Government spokespersons have appealed for dialogue while maintaining heightened security cordons around administrative infrastructure."
-      ],
-      "why_it_matters_bullets": [
-        "Carries notable operational, policy, and market consequences surrounding 'Albanian PM says protests pose threat to EU membership, not government'."
-      ],
-      "brief": "Albanian PM says mass protests a threat to EU membership, not government ThePrint. Public dissent and street demonstrations have prompted emergency municipal interventions and heightened law enforcement readiness across impacted urban hubs. Political factions and civic advocacy groups are actively debating the underlying systemic grievances that triggered the public unrest. Government spokespersons have appealed for dialogue while maintaining heightened security cordons around administrative infrastructure. Carries notable operational, policy, and market consequences surrounding 'Albanian PM says protests pose threat to EU membership, not government'.",
-      "brief_word_count": 83
-    },
-    {
-      "story_id": "story-74",
-      "category": "Geopolitics",
-      "primary_headline": "Rubio heads to Central Asia while other US officials hit foreign policy hot spots",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Rubio heads to Central Asia while other US officials hit foreign policy hot spots - Reuters",
-        "published_at": "Sun, 18 Oct 2026 05:03:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMmFpc0NDcHNWM0tpSVFxYURNSGY4OTFCRlhISGVnLUZqUGtaWEpJUXhsTVpyNzZaRmV3R1JhRnRIdjJjS21DaVFjTDRHaEtIUXEySXNwd0U3el93cmNJeEtHblpNc2VhZERoMXliOUFxXzFMVHhnTUNpY1dRVHJEMGxVR1Uxb0ctRThOeGNxN0ZxaW8wQjhJVTJpSG5sSWVNWndGWWRTOW40TjFEa0d3MDVYcU1Id2tRekxlbURxS2gxcDQ5dlZYUnJ4UWlRUQ?oc=5",
-        "content": "Rubio heads to Central Asia while other US officials hit foreign policy hot spots&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "Rubio heads to Central Asia while other US officials hit foreign policy hot spots - Reuters",
-          "published_at": "Sun, 18 Oct 2026 05:03:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMmFpc0NDcHNWM0tpSVFxYURNSGY4OTFCRlhISGVnLUZqUGtaWEpJUXhsTVpyNzZaRmV3R1JhRnRIdjJjS21DaVFjTDRHaEtIUXEySXNwd0U3el93cmNJeEtHblpNc2VhZERoMXliOUFxXzFMVHhnTUNpY1dRVHJEMGxVR1Uxb0ctRThOeGNxN0ZxaW8wQjhJVTJpSG5sSWVNWndGWWRTOW40TjFEa0d3MDVYcU1Id2tRekxlbURxS2gxcDQ5dlZYUnJ4UWlRUQ?oc=5"
-        },
-        {
-          "source_name": "AP News",
-          "headline": "Rubio heads to Central Asia as some wonder if he's keeping the most pressing matters at a distance - AP News",
-          "published_at": "Sun, 18 Oct 2026 04:05:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQd2Voc3pyWGZMSUI3aGk1dDdlRDc2eUxyR1lIUVdVNDBSZFV0WTJ0VUV3T2czM3dMTzd0RERDREM0REE1UjBIU3dGUlBuTFpfMFU2eGdJYlItR1cwd0xLRlZlVEh4YkFBNHZhOGk1YTVjdzU4SHdsS0l5cl9BOXdadGh6R2s0UHFXck9HUGROWGRJZw?oc=5"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
-      "brief_bullets": [
-        "Rubio heads to Central Asia as some wonder if he's keeping the most pressing matters at a distance AP News.",
-        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Rubio heads to Central Asia while other US officials hit foreign policy hot spots'.",
-        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
-        "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
-      ],
-      "why_it_matters_bullets": [
-        "Carries notable operational, policy, and market consequences surrounding 'Rubio heads to Central Asia while other US officials hit foreign policy hot spots'."
-      ],
-      "brief": "Rubio heads to Central Asia as some wonder if he's keeping the most pressing matters at a distance AP News. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Rubio heads to Central Asia while other US officials hit foreign policy hot spots'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Carries notable operational, policy, and market consequences surrounding 'Rubio heads to Central Asia while other US officials hit foreign policy hot spots'.",
-      "brief_word_count": 100
-    },
-    {
-      "story_id": "story-96",
-      "category": "Geopolitics",
-      "primary_headline": "CJP’s Goa protest: Police file FIR for ‘promoting enmity’, say communal slogans were raised",
-      "primary_source": {
-        "source_name": "The Indian Express",
-        "headline": "CJP’s Goa protest: Police file FIR for ‘promoting enmity’, say communal slogans were raised",
-        "published_at": "Sun, 18 Oct 2026 09:22:09 +0000",
-        "url": "https://indianexpress.com/article/india/goa-goa-azad-maidan-protest-fir-communal-slogans-cjp-pramod-sawant-10926804/",
-        "content": ""
-      },
-      "sources": [
-        {
-          "source_name": "The Indian Express",
-          "headline": "CJP’s Goa protest: Police file FIR for ‘promoting enmity’, say communal slogans were raised",
-          "published_at": "Sun, 18 Oct 2026 09:22:09 +0000",
-          "url": "https://indianexpress.com/article/india/goa-goa-azad-maidan-protest-fir-communal-slogans-cjp-pramod-sawant-10926804/"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "‘Outraging religious feelings’ charge on protesters at CJP’s SIR stir in Goa",
-          "published_at": "Sun, 18 Oct 2026 08:48:39 +0000",
-          "url": "https://indianexpress.com/article/india/goa-cjp-protest-fir-alleged-communal-slogans-10926771/"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 2,
-      "combined_score": 1.1,
-      "brief_bullets": [
-        "‘Outraging religious feelings’ charge on protesters at CJP’s SIR stir in Goa.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
-        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions.",
-        "Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments."
-      ],
-      "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
-      ],
-      "brief": "‘Outraging religious feelings’ charge on protesters at CJP’s SIR stir in Goa. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 86
-    },
-    {
-      "story_id": "story-103",
-      "category": "Geopolitics",
-      "primary_headline": "Riots in Tirana enter a fifth day as Albania’s anti-government protests escalate",
-      "primary_source": {
-        "source_name": "AP News",
-        "headline": "Riots in Tirana enter a fifth day as Albania’s anti-government protests escalate - AP News",
-        "published_at": "Sat, 17 Oct 2026 23:17:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTnVabEt4SGdCQ1hoRC1pV0d4TzlMVDZDRWRKbGFDUkNoWHUzbEswLXBlTGJ5Z3pRSnNTR21RWnFqYmpWTlNialdLSy1TQXZtYXBNUTg2S1F3bU8zZ2g1b2I2eU4tQUZva3hXOGNXS2RNUzZUd1hCeFVlTWtUXzdhRnNLeXhkNS1Gemp4MmliMmhRcWwzRllmdW5nSnIzekZuTGxVeFBYNXBGXzA0QV8yTFhaYXRUWmVxWjgyVlhpUFBaN0piSndXSi12WFQzWnZuSE1z?oc=5",
-        "content": "Riots in Tirana enter a fifth day as Albania’s anti-government protests escalate&nbsp;&nbsp;AP News"
-      },
-      "sources": [
-        {
-          "source_name": "AP News",
-          "headline": "Riots in Tirana enter a fifth day as Albania’s anti-government protests escalate - AP News",
-          "published_at": "Sat, 17 Oct 2026 23:17:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTnVabEt4SGdCQ1hoRC1pV0d4TzlMVDZDRWRKbGFDUkNoWHUzbEswLXBlTGJ5Z3pRSnNTR21RWnFqYmpWTlNialdLSy1TQXZtYXBNUTg2S1F3bU8zZ2g1b2I2eU4tQUZva3hXOGNXS2RNUzZUd1hCeFVlTWtUXzdhRnNLeXhkNS1Gemp4MmliMmhRcWwzRllmdW5nSnIzekZuTGxVeFBYNXBGXzA0QV8yTFhaYXRUWmVxWjgyVlhpUFBaN0piSndXSi12WFQzWnZuSE1z?oc=5"
-        },
-        {
-          "source_name": "AP News",
-          "headline": "Riots in Tirana enter a fifth day as Albania’s anti-government protests escalate - AP News",
-          "published_at": "Sat, 17 Oct 2026 17:18:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUmtQX1pNSEUweTEtSmFyRUphbU1CX0s1ZDNIT3hzMElGM3BSLVk1QURsVVFEaXY2WXdmZVJEaHI3YWx3aUsyR1JzWjZvc3V5VWVodUUtWW9uMnlRT3RmQXUtSjNJVnFZeWQ4Vk5mdXpydzNaOTRiZDNQclVwQXQzZXdIZGtKT3ZZN2hDVDVFVkM0M3Jyd1ZTcVhQTDA4UEl3?oc=5"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 2,
-      "combined_score": 1.1,
-      "brief_bullets": [
-        "AP News  AP News.",
-        "Public dissent and street demonstrations have prompted emergency municipal interventions and heightened law enforcement readiness across impacted urban hubs.",
-        "Political factions and civic advocacy groups are actively debating the underlying systemic grievances that triggered the public unrest.",
-        "Government spokespersons have appealed for dialogue while maintaining heightened security cordons around administrative infrastructure."
-      ],
-      "why_it_matters_bullets": [
-        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
-      ],
-      "brief": "AP News  AP News. Public dissent and street demonstrations have prompted emergency municipal interventions and heightened law enforcement readiness across impacted urban hubs. Political factions and civic advocacy groups are actively debating the underlying systemic grievances that triggered the public unrest. Government spokespersons have appealed for dialogue while maintaining heightened security cordons around administrative infrastructure. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 71
-    },
-    {
-      "story_id": "story-105",
-      "category": "Geopolitics",
-      "primary_headline": "Delhi: Class 12 student stabbed to death outside school, five apprehended",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Delhi: Class 12 student stabbed to death outside school, five apprehended",
-        "published_at": "Sun, 18 Oct 2026 16:38:56 +0000",
-        "url": "https://www.deccanherald.com/india/delhi/delhi-class-12-student-stabbed-to-death-outside-school-five-apprehended-4187405",
-        "content": " New Delhi: A 17-year-old Class 12 student was allegedly stabbed to death outside a government school in southwest Delhi's Mohan Garden area following an altercation between two students over the prescribed school shoes, police said on Sunday.Five accused, including three minors and two adults, have been apprehended in connection with the murder, three of whom are students of the same school, they said.The incident took place on October 14 when a PCR call regarding a stabbing incident near a government school in Mohan Garden was received at 6.10 pm at the local police station. The victim, a resident of Mohan Garden, had sustained stab injuries and was taken to Tarak Hospital, where he succumbed during treatment, the police said.Class 11 student fatally stabbed in south Delhi; two heldAccording to an eyewitness, a Class 12 student of the same school, the dispute began after another student complained to a teacher that he was not wearing the prescribed school-pattern shoes. This led to a heated argument between the two, during which the latter allegedly threatened him.After school hours, when the student left the premises with his friends, including the victim, the other student allegedly instigated the remaining accused, following which the group assaulted them. During the attack, one of the assailants allegedly stabbed the victim, causing fatal injuries, the police said.The knife allegedly used in the crime was recovered near the school gate.The victim's father is an ex-serviceman and is currently employed as a gunman in Gurugram, police said."
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Delhi: Class 12 student stabbed to death outside school, five apprehended",
-          "published_at": "Sun, 18 Oct 2026 16:38:56 +0000",
-          "url": "https://www.deccanherald.com/india/delhi/delhi-class-12-student-stabbed-to-death-outside-school-five-apprehended-4187405"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.89,
-      "brief_bullets": [
-        "New Delhi: A 17-year-old Class 12 student was allegedly stabbed to death outside a government school in southwest Delhi's Mohan Garden area following an altercation between two students over the prescribed school shoes, police said on Sunday.",
-        "Five accused, including three minors and two adults, have been apprehended in connection with the murder, three of whom are students of the same school, they said.",
-        "The incident took place on October 14 when a PCR call regarding a stabbing incident near a government school in Mohan Garden was received at 6.",
-        "10 pm at the local police station.",
-        "The victim, a resident of Mohan Garden, had sustained stab injuries and was taken to Tarak Hospital, where he succumbed during treatment, the police said."
-      ],
-      "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
-      ],
-      "brief": "New Delhi: A 17-year-old Class 12 student was allegedly stabbed to death outside a government school in southwest Delhi's Mohan Garden area following an altercation between two students over the prescribed school shoes, police said on Sunday. Five accused, including three minors and two adults, have been apprehended in connection with the murder, three of whom are students of the same school, they said. The incident took place on October 14 when a PCR call regarding a stabbing incident near a government school in Mohan Garden was received at 6. 10 pm at the local police station. The victim, a resident of Mohan Garden, had sustained stab injuries and was taken to Tarak Hospital, where he succumbed during treatment, the police said. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 136
-    },
-    {
-      "story_id": "story-107",
-      "category": "Geopolitics",
-      "primary_headline": "They came to see Kolkata's famous pandals, but never returned home",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "They came to see Kolkata's famous pandals, but never returned home",
-        "published_at": "Sun, 18 Oct 2026 16:04:49 +0000",
-        "url": "https://www.deccanherald.com/india/west-bengal/they-came-to-see-kolkatas-famous-pandals-but-never-returned-home-4187449",
-        "content": " Kolkata: Pranjal Sarkar had no visible injuries anywhere else on his body. The only mark was that of a shoe on the left side of his face, a grim imprint of the brutal force of the footstep of an unknown person who may have unwittingly crushed the 13-year-old to death when the crowd surged at the Durga Puja pandal in Chorbagan in north-central Kolkata.Pranjal watched videos of the Chorbagan Sarbojanin Durgotsab Samiti’s pandal on social media. The 13-year-old might not have fully grasped the “Beyond Sound” theme conceived and brought to life by artist Susanta Shibani Paul, but the sight of Goddess Durga and her four children, Kartik, Ganesh, Lakshmi and Saraswati, seated on a crescent moon amid dim, celestial lighting, caught his imagination. He insisted that the pandal be a must-see when his parents, Anukul Sarkar and Priyanka Sarkar, brought him from Agarpara in the North 24 Parganas district to Kolkata on the second day of the autumn festival.Little did Pranjal or his parents know that a danger lurked beneath the pandal’s surreal ambience, one that would turn the family’s Durga Puja outing into an unimaginable tragedy.The boy was one of the 19 people killed in the stampede at the pandal on Saturday. His parents survived, though. “He would have left for a tour to Shillong today with my sister and brother-in-law. Instead, I had to see the lifeless body of my nephew,” Pranjal’s maternal uncle said in front of the mortuary of Kolkata Medical College and Hospital on Sunday. “My brother-in-law could save seven or eight other children, but not his own son.”Even as the autumn festival unfolded across West Bengal, the stampede cast a pall of gloom over the families of the deceased and their neighbourhoods, from Kolkata and the Hooghly, Purba Bardhaman, North 24 Parganas and Nadia districts of West Bengal to Muzaffarpur in Bihar, turning what should have been a time of celebration into one of mourning.Kolkata stampede: Families mourn loss of loved ones as evening of festivity turned into heartacheSriparna Poddar, a 27-year-old nurse at a hospital in Kolkata, was often the first person her neighbours in Baidyabati, Hooghly, approached for healthcare advice. But on Sunday, she lay dead among the other victims of the stampede, while her family and neighbours waited to take home her mortal remains.Sandeep Bej, another 13-year-old boy, wanted to stay in his village in Madhabdihi in Purba Bardhaman for the Durga Puja celebrations but, at the last moment, went to Kolkata with his mother, Tagar Bej, 37, to see some of the city's pandals. However, the mother-son duo died in the stampede. So did Tagar’s sister, Piyali. Sandeep’s sister, Agamani Bej, was injured. “They were expected to return to their village on Sunday. But now only their mortal remains will return.”Ram Biswas came from Chakdaha in Nadia with his wife, Arati Sarkar Biswas, for pandal-hopping in Kolkata. He survived the stampede at Chorbagan but could not save his wife. Recalling the horror, Ram said that the crowd surged into the pandal after the ropes restricting entry were removed when it started raining. “It was dark inside, and people rushing in knocked others to the ground. Arati and I fell. I somehow got up and tried to pull her to her feet, but I couldn’t. My wife died before my eyes. I could do nothing,” Ram said on Sunday.For Abhishek Srivastava and his 13-year-old son, Ayansh, the trip to Kolkata was meant to be their first experience of the city’s famed Durga Puja celebrations. The two travelled from Muzaffarpur in Bihar to visit relatives in Agarpara, West Bengal, and went pandal-hopping with family members on Saturday. But both died in the stampede.Tania Biswas and Barnali Haldar, both 17, had planned their Maha Saptami outing well in advance. The Class XI students from Gouranga Nagar in New Town were close friends who had decided to wear sarees for the occasion. They set out with five other friends to visit the city’s Durga Puja pandals, but the outing ended in tragedy in Chorbagan, where both died in the stampede.Barnali’s father, Binod Haldar, who ekes out a living by pulling a rickshaw around New Town, learnt of his daughter’s death while he was still working. Her friends called him, and he rushed to the hospital, only to find that his elder child had already died. He spent the night outside the hospital mortuary. “My world has ended,” he said in a trembling voice, with tears rolling down his cheeks. “There will never be a Durga Puja in our lives again.”"
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "They came to see Kolkata's famous pandals, but never returned home",
-          "published_at": "Sun, 18 Oct 2026 16:04:49 +0000",
-          "url": "https://www.deccanherald.com/india/west-bengal/they-came-to-see-kolkatas-famous-pandals-but-never-returned-home-4187449"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.89,
-      "brief_bullets": [
-        "Kolkata: Pranjal Sarkar had no visible injuries anywhere else on his body.",
-        "The only mark was that of a shoe on the left side of his face, a grim imprint of the brutal force of the footstep of an unknown person who may have unwittingly crushed the 13-year-old to death when the crowd surged at the Durga Puja pandal in Chorbagan in north-central Kolkata.",
-        "Pranjal watched videos of the Chorbagan Sarbojanin Durgotsab Samiti’s pandal on social media.",
-        "The 13-year-old might not have fully grasped the “Beyond Sound” theme conceived and brought to life by artist Susanta Shibani Paul, but the sight of Goddess Durga and her four children, Kartik, Ganesh, Lakshmi and Saraswati, seated on a crescent moon amid dim, celestial lighting, caught his imagination."
-      ],
-      "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
-      ],
-      "brief": "Kolkata: Pranjal Sarkar had no visible injuries anywhere else on his body. The only mark was that of a shoe on the left side of his face, a grim imprint of the brutal force of the footstep of an unknown person who may have unwittingly crushed the 13-year-old to death when the crowd surged at the Durga Puja pandal in Chorbagan in north-central Kolkata. Pranjal watched videos of the Chorbagan Sarbojanin Durgotsab Samiti’s pandal on social media. The 13-year-old might not have fully grasped the “Beyond Sound” theme conceived and brought to life by artist Susanta Shibani Paul, but the sight of Goddess Durga and her four children, Kartik, Ganesh, Lakshmi and Saraswati, seated on a crescent moon amid dim, celestial lighting, caught his imagination. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 139
-    },
-    {
-      "story_id": "story-111",
-      "category": "Geopolitics",
-      "primary_headline": "‘Thenisai Thendral’ Deva laid to rest amid tears, tributes",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "‘Thenisai Thendral’ Deva laid to rest amid tears, tributes",
-        "published_at": "Sun, 18 Oct 2026 14:21:02 +0000",
-        "url": "https://www.deccanherald.com/india/tamil-nadu/tamil-nadu-thenisai-thendral-deva-laid-to-rest-amid-tears-tributes-4187280",
-        "content": " Ranipet (Tamil Nadu): Veteran Tamil music composer and singer Deva, popularly known as 'Thenisai Thendral', was laid to rest with full state honours at his family farmland in Sakkaramallur near Arcot, Ranipet district, on Sunday.He was 75.Deva died of a heart attack in Chennai on the morning of October 17.His mortal remains were taken from his Chennai residence to the farmland, where the final rites were performed.Thousands of people gathered at the site to pay their last respects to the celebrated music director.Tamil Nadu Chief Minister C Joseph Vijay had visited Deva's residence in Chennai to pay his respects and announced that the funeral would be held with state honours in recognition of the composer's contribution to the music industry.Revenue and police officials oversaw arrangements for the ceremony at Sakkaramallur.‘Thenisai Thendral’ Deva (1950-2026): The maestro who took gaana to the masses Relatives and villagers recalled Deva's enduring connection to his roots, saying he regularly visited his native village during festivals such as Pongal and contributed to local initiatives, including funding the construction of a Sri Ranganathar temple.Born Devanesan Chokkalingam, Deva had a career spanning nearly four decades and composed music for more than 400 films in Tamil, Telugu, Kannada and Malayalam.Before turning to films, Deva was an employee of the Tamil Nadu government’s Public Works Department (PWD).He made his entry as a composer in 1986 with 'Mattukkara Mannaru', which did not fare well in theatres, though its songs found a loyal audience over time.'Manasukketha Maharasa' (1989), starring Ramarajan and Seetha, was the film that first drew attention to his work. His real breakthrough, however, came in 1990 with the Prashanth-starrer 'Vaigasi Poranthachu', which won him widespread acclaim.Deva rose to prominence in the late 1980s and 1990s with his high-energy, folk-rooted tunes, and is widely credited with bringing the ‘gaana’ genre into mainstream Tamil cinema.Few composers in Tamil cinema are as closely identified with one genre as Deva is with 'gaana', the urban folk music born in the working-class neighbourhoods of North Chennai.He worked with nearly every leading star of his time, among them Vijayakanth, Sarathkumar, Vijay and Ajith, and delivered some of the biggest hits of their careers.Among his chartbusters were the Rajinikanth films ‘Annamalai’, ‘Baashha’ and ‘Arunachalam’, and the Kamal Haasan outings ‘Avvai Shanmugi’, ‘Pammal K Sambandam’ and ‘Panchathanthiram’.His death drew tributes from political leaders, members of the film fraternity and fans across Tamil Nadu. "
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "‘Thenisai Thendral’ Deva laid to rest amid tears, tributes",
-          "published_at": "Sun, 18 Oct 2026 14:21:02 +0000",
-          "url": "https://www.deccanherald.com/india/tamil-nadu/tamil-nadu-thenisai-thendral-deva-laid-to-rest-amid-tears-tributes-4187280"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.86,
-      "brief_bullets": [
-        "Ranipet (Tamil Nadu): Veteran Tamil music composer and singer Deva, popularly known as 'Thenisai Thendral', was laid to rest with full state honours at his family farmland in Sakkaramallur near Arcot, Ranipet district, on Sunday.",
-        "Deva died of a heart attack in Chennai on the morning of October 17.",
-        "His mortal remains were taken from his Chennai residence to the farmland, where the final rites were performed.",
-        "Thousands of people gathered at the site to pay their last respects to the celebrated music director.",
-        "Tamil Nadu Chief Minister C Joseph Vijay had visited Deva's residence in Chennai to pay his respects and announced that the funeral would be held with state honours in recognition of the composer's contribution to the music industry."
-      ],
-      "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
-      ],
-      "brief": "Ranipet (Tamil Nadu): Veteran Tamil music composer and singer Deva, popularly known as 'Thenisai Thendral', was laid to rest with full state honours at his family farmland in Sakkaramallur near Arcot, Ranipet district, on Sunday. Deva died of a heart attack in Chennai on the morning of October 17. His mortal remains were taken from his Chennai residence to the farmland, where the final rites were performed. Thousands of people gathered at the site to pay their last respects to the celebrated music director. Tamil Nadu Chief Minister C Joseph Vijay had visited Deva's residence in Chennai to pay his respects and announced that the funeral would be held with state honours in recognition of the composer's contribution to the music industry. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 136
+      "brief": "The report claimed that bin Zayed and Saudi Arabian Crown Prince Mohammed bin Salman were behind the idea of the account, as they wanted to set up a slush fund to help the Trump administration with its foreign policy goals. The suit claims Trump violated the Foreign Emoluments Clause, a provision of the US Constitution that bars presidents from taking payments from foreign governments without the approval of Congress On October 14, Mahindra shared a video showing a fleet of electric vehicles handed over by the Indian government to the government of Bhutan. The political development reflects shifting legislative momentum and institutional scrutiny across key administrative decision-making bodies. Constitutional observers and policy strategists note that ongoing deliberations will establish critical regulatory and legal precedents. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
+      "brief_word_count": 138
     },
     {
       "story_id": "story-119",
       "category": "Geopolitics",
-      "primary_headline": "Blunder in, abandon allies and court a dictator: it’s the Trump doctrine, now playing out in Myanmar | Steve Bloomfield",
-      "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "Blunder in, abandon allies and court a dictator: it’s the Trump doctrine, now playing out in Myanmar | Steve Bloomfield",
-        "published_at": "Sun, 18 Oct 2026 05:00:50 GMT",
-        "url": "https://www.theguardian.com/commentisfree/2026/oct/18/myanmar-donald-trump-dictator-rare-earths-china",
-        "content": "The US condemned the genocide and military rule there, but now that Trump craves its rare earths, that’s all changed. For democracy activists, that’s a disasterMarco Rubio was once adamant that the US had to do everything in its power to end what he described as the “ethnic cleansing” of the Rohingya in Myanmar. In a 2017 letter he signed along with 20 other US senators, Rubio called for “strong multilateral sanctions against specific senior Burmese military officials associated with the gross human rights abuses”. Those responsible for the atrocities should be prosecuted, he argued.In the years since, the Myanmar military’s crimes have only increased. What was then deemed ethnic cleansing of the Rohingya is now widely viewed, including by the US, as genocide. What little democracy existed in Myanmar was eradicated in 2021 when Aung San Suu Kyi was arrested and imprisoned and her party’s election victory overturned, and the military took full control. Continue reading..."
-      },
-      "sources": [
-        {
-          "source_name": "The Guardian",
-          "headline": "Blunder in, abandon allies and court a dictator: it’s the Trump doctrine, now playing out in Myanmar | Steve Bloomfield",
-          "published_at": "Sun, 18 Oct 2026 05:00:50 GMT",
-          "url": "https://www.theguardian.com/commentisfree/2026/oct/18/myanmar-donald-trump-dictator-rare-earths-china"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.86,
-      "brief_bullets": [
-        "The US condemned the genocide and military rule there, but now that Trump craves its rare earths, that’s all changed.",
-        "For democracy activists, that’s a disasterMarco Rubio was once adamant that the US had to do everything in its power to end what he described as the “ethnic cleansing” of the Rohingya in Myanmar.",
-        "In a 2017 letter he signed along with 20 other US senators, Rubio called for “strong multilateral sanctions against specific senior Burmese military officials associated with the gross human rights abuses”.",
-        "Those responsible for the atrocities should be prosecuted, he argued.",
-        "In the years since, the Myanmar military’s crimes have only increased.",
-        "What was then deemed ethnic cleansing of the Rohingya is now widely viewed, including by the US, as genocide."
-      ],
-      "why_it_matters_bullets": [
-        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
-      ],
-      "brief": "The US condemned the genocide and military rule there, but now that Trump craves its rare earths, that’s all changed. For democracy activists, that’s a disasterMarco Rubio was once adamant that the US had to do everything in its power to end what he described as the “ethnic cleansing” of the Rohingya in Myanmar. In a 2017 letter he signed along with 20 other US senators, Rubio called for “strong multilateral sanctions against specific senior Burmese military officials associated with the gross human rights abuses”. Those responsible for the atrocities should be prosecuted, he argued. In the years since, the Myanmar military’s crimes have only increased. What was then deemed ethnic cleansing of the Rohingya is now widely viewed, including by the US, as genocide. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
-      "brief_word_count": 139
-    },
-    {
-      "story_id": "story-124",
-      "category": "Geopolitics",
-      "primary_headline": "Businessman shot at near Baramati Airport in Pune district",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Businessman shot at near Baramati Airport in Pune district",
-        "published_at": "Sun, 18 Oct 2026 16:55:18 +0000",
-        "url": "https://www.deccanherald.com/india/maharashtra/businessman-shot-at-near-baramati-airport-in-pune-district-4187499",
-        "content": " Mumbai: In a shocking incident, a businessman, Rana Suryawanshi, was shot at near the Baramati Airport in the Pune district on Sunday.The Pune Rural Police has registered a case and investigations are in progress. “The news of gunfire targeting Rana Suryavanshi, the owner of Rana Shipping Company, in the vicinity of Baramati Airport is extremely shocking. Fortunately, he has survived and is currently receiving treatment,” Baramati MP Supriya Sule said. Shiv Sena (UBT) leader's murder: Police nab shooter, accomplice from Raigad“This news highlights the dire state of law and order in the state. Criminals are brazenly carrying out shootings and escaping, while the Home Department's machinery is unable to act. The public lives in fear, and it seems like criminals have been given free rein,” she said. “The Home Department should immediately take note of this incident, arrest the attackers, and implement concrete measures for the safety of citizens,” she added. "
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Businessman shot at near Baramati Airport in Pune district",
-          "published_at": "Sun, 18 Oct 2026 16:55:18 +0000",
-          "url": "https://www.deccanherald.com/india/maharashtra/businessman-shot-at-near-baramati-airport-in-pune-district-4187499"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "Mumbai: In a shocking incident, a businessman, Rana Suryawanshi, was shot at near the Baramati Airport in the Pune district on Sunday.",
-        "The Pune Rural Police has registered a case and investigations are in progress. “The news of gunfire targeting Rana Suryavanshi, the owner of Rana Shipping Company, in the vicinity of Baramati Airport is extremely shocking.",
-        "Fortunately, he has survived and is currently receiving treatment,” Baramati MP Supriya Sule said.",
-        "Shiv Sena (UBT) leader's murder: Police nab shooter, accomplice from Raigad“This news highlights the dire state of law and order in the state.",
-        "Criminals are brazenly carrying out shootings and escaping, while the Home Department's machinery is unable to act."
-      ],
-      "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
-      ],
-      "brief": "Mumbai: In a shocking incident, a businessman, Rana Suryawanshi, was shot at near the Baramati Airport in the Pune district on Sunday. The Pune Rural Police has registered a case and investigations are in progress. “The news of gunfire targeting Rana Suryavanshi, the owner of Rana Shipping Company, in the vicinity of Baramati Airport is extremely shocking. Fortunately, he has survived and is currently receiving treatment,” Baramati MP Supriya Sule said. Shiv Sena (UBT) leader's murder: Police nab shooter, accomplice from Raigad“This news highlights the dire state of law and order in the state. Criminals are brazenly carrying out shootings and escaping, while the Home Department's machinery is unable to act. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 125
-    },
-    {
-      "story_id": "story-125",
-      "category": "Geopolitics",
-      "primary_headline": "Why UAPA demands urgent reform",
+      "primary_headline": "Low pressure over Bay of Bengal likely to turn into cyclonic storm by October end",
       "primary_source": {
         "source_name": "The Hindu",
-        "headline": "Why UAPA demands urgent reform",
-        "published_at": "Sun, 18 Oct 2026 22:19:55 +0530",
-        "url": "https://www.thehindu.com/news/national/why-uapa-demands-urgent-reform/article71571306.ece",
-        "content": "UAPA’s vague provisions, stringent bail conditions and inconsistent judicial interpretations have enabled the prolonged imprisonment of activists, scholars and journalists without trial; Prof. G.N. Saibaba’s experience shows the urgent need to reform a legal regime that undermines civil liberties, due process and rule of law"
+        "headline": "Low pressure over Bay of Bengal likely to turn into cyclonic storm by October end",
+        "published_at": "Fri, 23 Oct 2026 13:22:49 +0530",
+        "url": "https://www.thehindu.com/news/national/odisha/low-pressure-near-bay-of-bengal-expected-to-become-a-cyclonic-storm/article71615056.ece",
+        "content": "The India Meteorological Department (IMD) informed the state government that a low-pressure area has formed over east-central and adjoining south-east Bay of Bengal at 5.30 a.m"
       },
       "sources": [
         {
           "source_name": "The Hindu",
-          "headline": "Why UAPA demands urgent reform",
-          "published_at": "Sun, 18 Oct 2026 22:19:55 +0530",
-          "url": "https://www.thehindu.com/news/national/why-uapa-demands-urgent-reform/article71571306.ece"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "UAPA’s vague provisions, stringent bail conditions and inconsistent judicial interpretations have enabled the prolonged imprisonment of activists, scholars and journalists without trial; Prof.",
-        "Saibaba’s experience shows the urgent need to reform a legal regime that undermines civil liberties, due process and rule of law.",
-        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Why UAPA demands urgent reform'.",
-        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements."
-      ],
-      "why_it_matters_bullets": [
-        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
-      ],
-      "brief": "UAPA’s vague provisions, stringent bail conditions and inconsistent judicial interpretations have enabled the prolonged imprisonment of activists, scholars and journalists without trial; Prof. Saibaba’s experience shows the urgent need to reform a legal regime that undermines civil liberties, due process and rule of law. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Why UAPA demands urgent reform'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
-      "brief_word_count": 92
-    },
-    {
-      "story_id": "story-126",
-      "category": "Geopolitics",
-      "primary_headline": "No lift, no ramp: Kolar taluk office leaves elderly struggling",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "No lift, no ramp: Kolar taluk office leaves elderly struggling",
-        "published_at": "Sun, 18 Oct 2026 16:47:00 +0000",
-        "url": "https://www.deccanherald.com/india/karnataka/no-lift-no-ramp-kolar-taluk-office-leaves-elderly-struggling-4187492",
-        "content": " Kolar: The common man often has to struggle to get work done at government offices, with delays, demands for money, interference by middlemen and official apathy making the process difficult. Many people are even apprehensive about visiting these offices, as getting routine public services done without hassle remains a challenge.Adding to their woes, a long-pending problem at the Taluk Office building in Kolar continues to inconvenience the elderly and persons with disabilities. With no lift or ramp to access the first floor, they are forced to climb the stairs to get their work done.Distressing gaps in senior healthcareThe office of the sub-registrar, located on the first floor, is among the key offices in the building. Hundreds of people visit it every day for property, site and marriage registrations. A significant number of them are elderly or persons with disabilities, for whom climbing the stairs is a daunting task.In some cases, people who cannot walk have to be carried up the stairs, turning what should be a routine visit into an ordeal. Some struggle up the steps with the help of walking sticks, while others depend on family members or companions to climb up and down.Although a wheelchair is available at the entrance to the office, there is no ramp to take users to the first floor. A ramp has been provided only at the building's entrance.Four in 10 Bengalureans dread stepping into a lift: Survey     A branch of the sub-registrar's office has been opened on the ground floor to assist those unable to climb the stairs. However, visitors complain that staff are sometimes unavailable there. Several organisations have, therefore, urged the authorities to shift the entire sub-registrar's office to the ground floor. The office was earlier located near Prabhat Theatre in the City.The problem is not new. For several years, representatives of various organisations and senior citizens have been demanding the installation of a lift. Several tahsildars, deputy commissioners and MLAs have come but the lift remains a promise.Buildings housing major government offices are expected to be accessible to senior citizens and persons with disabilities. However, the lack of basic facilities at taluk office building has left many struggling to access public services.A lift should have been installed when the building was constructed, but the requirement appears to have been overlooked.Karnataka: Citizens suffer as new taluks lack admin buildingsLakshminarayanaswamy, a resident of Urigili in Kolar, said several government offices at taluk office building are located on the first floor. How are senior citizens and persons with disabilities expected to reach them? People are being carried up the stairs even for something as simple as obtaining a signature or completing other formalities. The taluk and district administrations should address the issue immediately, he urged.Prem Sagar Gowda, a resident of Markandapura in Kolar said the sub-registrar's office at the taluk office building is on the first floor. We can manage the stairs but shouldn't the authorities consider the difficulties faced by the elderly and persons with disabilities? A lift should be installed immediately. Alternatively, the entire sub-registrar's office should be shifted to the ground floor.Srinivas, Kolar TahsildarMLA Kottur Manjunath has taken the initiative to install a lift with the help of corporate social responsibility (CSR) funds. He is aware of the problem and the lift is expected to be ready within a few months easing the difficulties faced by visitors."
-      },
-      "sources": [
+          "headline": "Low pressure over Bay of Bengal likely to turn into cyclonic storm by October end",
+          "published_at": "Fri, 23 Oct 2026 13:22:49 +0530",
+          "url": "https://www.thehindu.com/news/national/odisha/low-pressure-near-bay-of-bengal-expected-to-become-a-cyclonic-storm/article71615056.ece"
+        },
         {
-          "source_name": "Deccan Herald",
-          "headline": "No lift, no ramp: Kolar taluk office leaves elderly struggling",
-          "published_at": "Sun, 18 Oct 2026 16:47:00 +0000",
-          "url": "https://www.deccanherald.com/india/karnataka/no-lift-no-ramp-kolar-taluk-office-leaves-elderly-struggling-4187492"
+          "source_name": "The Hindu",
+          "headline": "Cyclonic storm likely by October 26; heavy rain in Coastal Andhra from October 27: IMD",
+          "published_at": "Fri, 23 Oct 2026 11:44:55 +0530",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclonic-storm-likely-by-october-26-heavy-rain-in-coastal-andhra-from-october-27-imd/article71612805.ece"
         }
       ],
       "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
+      "total_count": 2,
+      "combined_score": 1.13,
       "brief_bullets": [
-        "Kolar: The common man often has to struggle to get work done at government offices, with delays, demands for money, interference by middlemen and official apathy making the process difficult.",
-        "Many people are even apprehensive about visiting these offices, as getting routine public services done without hassle remains a challenge.",
-        "Adding to their woes, a long-pending problem at the Taluk Office building in Kolar continues to inconvenience the elderly and persons with disabilities.",
-        "With no lift or ramp to access the first floor, they are forced to climb the stairs to get their work done.",
-        "Distressing gaps in senior healthcareThe office of the sub-registrar, located on the first floor, is among the key offices in the building.",
-        "Hundreds of people visit it every day for property, site and marriage registrations."
+        "The India Meteorological Department (IMD) informed the state government that a low-pressure area has formed over east-central and adjoining south-east Bay of Bengal at 5.",
+        "30 a.m The system is forecast to move towards the north Andhra Pradesh and south Odisha coasts after October 26.",
+        "Meteorological authorities and disaster response teams have deployed emergency rescue pumps and localized assistance squads across vulnerable sectors.",
+        "Civic agencies have mobilized field personnel to inspect transit corridors, clear arterial drainages, and restore essential public utilities."
       ],
       "why_it_matters_bullets": [
         "Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
       ],
-      "brief": "Kolar: The common man often has to struggle to get work done at government offices, with delays, demands for money, interference by middlemen and official apathy making the process difficult. Many people are even apprehensive about visiting these offices, as getting routine public services done without hassle remains a challenge. Adding to their woes, a long-pending problem at the Taluk Office building in Kolar continues to inconvenience the elderly and persons with disabilities. With no lift or ramp to access the first floor, they are forced to climb the stairs to get their work done. Distressing gaps in senior healthcareThe office of the sub-registrar, located on the first floor, is among the key offices in the building. Hundreds of people visit it every day for property, site and marriage registrations. Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
-      "brief_word_count": 144
+      "brief": "The India Meteorological Department (IMD) informed the state government that a low-pressure area has formed over east-central and adjoining south-east Bay of Bengal at 5. 30 a.m The system is forecast to move towards the north Andhra Pradesh and south Odisha coasts after October 26. Meteorological authorities and disaster response teams have deployed emergency rescue pumps and localized assistance squads across vulnerable sectors. Civic agencies have mobilized field personnel to inspect transit corridors, clear arterial drainages, and restore essential public utilities. Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
+      "brief_word_count": 95
     },
     {
-      "story_id": "story-129",
+      "story_id": "story-121",
       "category": "Geopolitics",
-      "primary_headline": "Kuki group announces shutdown of key Manipur highway after attacks on villages",
+      "primary_headline": "Watch: Met chief Rowley not fit for job, says detective raped by colleague",
       "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Kuki group announces shutdown of key Manipur highway after attacks on villages",
-        "published_at": "Sun, 18 Oct 2026 22:10:52 +0530",
-        "url": "https://www.thehindu.com/news/national/manipur/kuki-group-announces-shutdown-of-key-manipur-highway-after-attacks-on-villages/article71600255.ece",
-        "content": "State government transfers Superintendent of Police in charge of Kamjong district"
+        "source_name": "BBC News",
+        "headline": "Watch: Met chief Rowley not fit for job, says detective raped by colleague",
+        "published_at": "Fri, 23 Oct 2026 05:00:12 GMT",
+        "url": "https://www.bbc.co.uk/news/videos/c3wyv7lr15nvo?at_medium=RSS&at_campaign=rss",
+        "content": "A Met Police detective who was raped by a fellow officer has said the force's handling of her case was \"like being raped all over again\". Det Con Linda Williams was attacked in 2004 by PC David Carrick - who was jailed for life in 2023 for sexual offences against her and 11 others. Linda sought damages from the Met for failing to protect her from Carrick and said the process left her feeling suicidal. She now wants Met Commissioner, Sir Mark Rowley, to resign because he has failed to change police culture as promised. Investigations correspondent Daniel De Simone reports."
       },
       "sources": [
         {
-          "source_name": "The Hindu",
-          "headline": "Kuki group announces shutdown of key Manipur highway after attacks on villages",
-          "published_at": "Sun, 18 Oct 2026 22:10:52 +0530",
-          "url": "https://www.thehindu.com/news/national/manipur/kuki-group-announces-shutdown-of-key-manipur-highway-after-attacks-on-villages/article71600255.ece"
+          "source_name": "BBC News",
+          "headline": "Watch: Met chief Rowley not fit for job, says detective raped by colleague",
+          "published_at": "Fri, 23 Oct 2026 05:00:12 GMT",
+          "url": "https://www.bbc.co.uk/news/videos/c3wyv7lr15nvo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source_name": "BBC News",
+          "headline": "Detective raped by colleague says Met handling of case 'like being raped again'",
+          "published_at": "Fri, 23 Oct 2026 05:00:05 GMT",
+          "url": "https://www.bbc.co.uk/news/articles/ckdd83dz0153o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
+      "total_count": 2,
+      "combined_score": 1.13,
       "brief_bullets": [
-        "State government transfers Superintendent of Police in charge of Kamjong district.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
-        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions.",
-        "Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments."
+        "A Met Police detective who was raped by a fellow officer has said the force's handling of her case was \"like being raped all over again\".",
+        "Det Con Linda Williams was attacked in 2004 by PC David Carrick - who was jailed for life in 2023 for sexual offences against her and 11 others.",
+        "Linda sought damages from the Met for failing to protect her from Carrick and said the process left her feeling suicidal.",
+        "She now wants Met Commissioner, Sir Mark Rowley, to resign because he has failed to change police culture as promised.",
+        "Investigations correspondent Daniel De Simone reports."
       ],
       "why_it_matters_bullets": [
         "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
       ],
-      "brief": "State government transfers Superintendent of Police in charge of Kamjong district. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 85
+      "brief": "A Met Police detective who was raped by a fellow officer has said the force's handling of her case was \"like being raped all over again\". Det Con Linda Williams was attacked in 2004 by PC David Carrick - who was jailed for life in 2023 for sexual offences against her and 11 others. Linda sought damages from the Met for failing to protect her from Carrick and said the process left her feeling suicidal. She now wants Met Commissioner, Sir Mark Rowley, to resign because he has failed to change police culture as promised. Investigations correspondent Daniel De Simone reports. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 115
     }
   ]
 }

@@ -1,875 +1,888 @@
 {
   "id": "latest",
   "category": "1hour",
-  "timestamp": "2026-10-18T17:07:26.267801+00:00",
+  "timestamp": "2026-10-23T08:07:39.235393+00:00",
   "articlesCount": 20,
   "stories": [
     {
-      "story_id": "story-9",
-      "category": "Finance",
-      "primary_headline": "Skies over St. Petersburg ignite after Ukraine strikes oil sites",
+      "story_id": "story-14",
+      "category": "Technology",
+      "primary_headline": "‘Ram ne Yadav ko maara’: Software error throws up bizarre names in UP MLC voter rolls",
       "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Skies over St. Petersburg ignite after Ukraine strikes oil sites - Reuters",
-        "published_at": "Sun, 18 Oct 2026 16:21:40 GMT",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05ZUdLTlMzZUFKUENWdTE1NzFEQk92N0FvQmFGaXNfTEUza2wtQXJfNVVZVzVpZUUtRDZVbXdEWHJIS2NqN1N5bnR2Mmc5UzAxSVFSazBMU3ZQRDJ5elBqSm1LallHd0pmQU41V3RObHRBOUJH?oc=5",
-        "content": "Skies over St. Petersburg ignite after Ukraine strikes oil sites&nbsp;&nbsp;Reuters"
+        "source_name": "The Indian Express",
+        "headline": "‘Ram ne Yadav ko maara’: Software error throws up bizarre names in UP MLC voter rolls",
+        "published_at": "Fri, 23 Oct 2026 07:38:09 +0000",
+        "url": "https://indianexpress.com/article/cities/lucknow/ram-ne-yadav-ko-maara-software-error-up-bizarre-names-up-mlc-voter-rolls-state-election-commision-10933459/",
+        "content": ""
       },
       "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "Skies over St. Petersburg ignite after Ukraine strikes oil sites - Reuters",
-          "published_at": "Sun, 18 Oct 2026 16:21:40 GMT",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05ZUdLTlMzZUFKUENWdTE1NzFEQk92N0FvQmFGaXNfTEUza2wtQXJfNVVZVzVpZUUtRDZVbXdEWHJIS2NqN1N5bnR2Mmc5UzAxSVFSazBMU3ZQRDJ5elBqSm1LallHd0pmQU41V3RObHRBOUJH?oc=5"
-        },
-        {
-          "source_name": "AP News",
-          "headline": "St Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia - AP News",
-          "published_at": "Sun, 18 Oct 2026 15:33:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPb0JsZHhVNVNkaUhpSndSUTRqNjBFN2dpaktfTUZ4dWxBTkxzQ3I1LW5CRlBQNnR3UmJ5R0JzWGFaenZ5TDg3Qkt2bC05cmpYTlAwZkRSRjBoYlN1elkwelNDNmhPbkhhV1BDT05fWm96V3oxbk5YN09nUkQ2VzlvbTR1YV81Zl9wdzU5WEU1UXN3STc0ZHJlUnhiWUc2dUk?oc=5"
-        },
-        {
-          "source_name": "Reuters",
-          "headline": "One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region - Reuters",
-          "published_at": "Sun, 18 Oct 2026 11:17:23 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORkdkNk9DVENGZU50OHVsbHF4Z3ZWbnBxcHVqaDJSa1JEWXZ5aFVqbTQwWmwzUGpvZUJsTUFzSnZHd2laVHpqd05XaF9KM2YxdUNUSVV0YUp1SFVKbTBRVHNzcVc0ek84cTY5TTVmZGhPbnhzMVJiejFXaDdXV3pBcTZYeEI3QkZrNDlOOWllWFk3ejFfMVdVd3lQUGJMeXBhNW5xTjZJQnBINTVSTjVDUnZKSm1laDdKaEE3eGdoSUtaQQ?oc=5"
-        },
-        {
-          "source_name": "BBC News",
-          "headline": "Oil facilities hit in deadly overnight attack on St Petersburg",
-          "published_at": "Sun, 18 Oct 2026 15:46:10 GMT",
-          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source_name": "The Hindu",
-          "headline": "St. Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia",
-          "published_at": "Sun, 18 Oct 2026 22:21:52 +0530",
-          "url": "https://www.thehindu.com/news/international/st-petersburg-oil-facilities-ablaze-as-ukraine-launches-more-than-1000-drones-at-russia/article71600876.ece"
-        }
-      ],
-      "source_count": 6,
-      "total_count": 7,
-      "combined_score": 5.28,
-      "brief_bullets": [
-        "St Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia AP News One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook.",
-        "A logistics centre belonging to Russian retailer Ozon and a data centre operated by Russian tech giant VK were also targeted, the companies confirmed.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
-        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions."
-      ],
-      "why_it_matters_bullets": [
-        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
-      ],
-      "brief": "St Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia AP News One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook. A logistics centre belonging to Russian retailer Ozon and a data centre operated by Russian tech giant VK were also targeted, the companies confirmed. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 133
-    },
-    {
-      "story_id": "story-1",
-      "category": "Society",
-      "primary_headline": "Kolkata pandal stampede updates | Nine IPS officers assigned Durga Puja crowd management charge; 10-day police custody for seven accused",
-      "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Kolkata pandal stampede updates | Nine IPS officers assigned Durga Puja crowd management charge; 10-day police custody for seven accused",
-        "published_at": "Sun, 18 Oct 2026 21:58:32 +0530",
-        "url": "https://www.thehindu.com/news/cities/kolkata/kolkata-bengal-pandal-collapse-stampede-injured-death-updates-on-october-17-2026/article71597549.ece",
-        "content": "Kolkata Police issue 11-point advisory; CM Adhikari hints at scrapping VIP entries at major pandals"
-      },
-      "sources": [
-        {
-          "source_name": "The Hindu",
-          "headline": "Kolkata pandal stampede updates | Nine IPS officers assigned Durga Puja crowd management charge; 10-day police custody for seven accused",
-          "published_at": "Sun, 18 Oct 2026 21:58:32 +0530",
-          "url": "https://www.thehindu.com/news/cities/kolkata/kolkata-bengal-pandal-collapse-stampede-injured-death-updates-on-october-17-2026/article71597549.ece"
-        },
-        {
-          "source_name": "The Hindu",
-          "headline": "Majority of victims in Kolkata Durga Puja stampede are women, children",
-          "published_at": "Sun, 18 Oct 2026 21:50:41 +0530",
-          "url": "https://www.thehindu.com/news/cities/kolkata/majority-of-victims-in-kolkata-durga-puja-stampede-are-women-children/article71599949.ece"
-        },
-        {
-          "source_name": "The Hindu",
-          "headline": "Kolkata’s Bonedi Bari Durga Puja: The ancestral homes preserving centuries of tradition",
-          "published_at": "Sun, 18 Oct 2026 21:46:08 +0530",
-          "url": "https://www.thehindu.com/society/kolkatas-bonedi-bari-durga-puja-the-ancestral-homes-preserving-centuries-of-tradition/article71586563.ece"
-        },
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Less plastic, more pujo vibes: Assam town gives Durga Puja a 'carbon-neutral' twist",
-          "published_at": "Sun, 18 Oct 2026 15:42:33 +0000",
-          "url": "https://www.deccanherald.com/india/assam/less-plastic-more-pujo-vibes-assam-town-gives-durga-puja-a-carbon-neutral-twist-4187428"
-        },
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Durga Puja pandal stampede gives Mamata's TMC a ‘bhaipo’ in BJP to target",
-          "published_at": "Sun, 18 Oct 2026 13:49:01 +0000",
-          "url": "https://www.deccanherald.com/india/west-bengal/durga-puja-pandal-stampede-gives-mamatas-tmc-a-bhaipo-in-bjp-to-target-4187326"
-        }
-      ],
-      "source_count": 5,
-      "total_count": 32,
-      "combined_score": 12.3,
-      "brief_bullets": [
-        "Kolkata Police issue 11-point advisory; CM Adhikari hints at scrapping VIP entries at major pandals Among the 19 dead are 13 females, including two minors; the two other deceased minors are males Kolkata’s Bonedi Bari Durga pujas bring together grand colonial-era architecture, family legacies and heirloom recipes.",
-        "While the city’s pandals draw the biggest crowds, these ancestral homes offer a more intimate glimpse of the festival, following family traditions dating back more than 300 years Durga Puja celebrations mean glitzy pandals, excessive lighting, high-decibel music and many more attractions."
-      ],
-      "why_it_matters_bullets": [
-        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
-      ],
-      "brief": "Kolkata Police issue 11-point advisory; CM Adhikari hints at scrapping VIP entries at major pandals Among the 19 dead are 13 females, including two minors; the two other deceased minors are males Kolkata’s Bonedi Bari Durga pujas bring together grand colonial-era architecture, family legacies and heirloom recipes. While the city’s pandals draw the biggest crowds, these ancestral homes offer a more intimate glimpse of the festival, following family traditions dating back more than 300 years Durga Puja celebrations mean glitzy pandals, excessive lighting, high-decibel music and many more attractions. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 103
-    },
-    {
-      "story_id": "story-10",
-      "category": "Society",
-      "primary_headline": "Trump endorses Netanyahu in Israeli election",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Trump endorses Netanyahu in Israeli election - Reuters",
-        "published_at": "Sun, 18 Oct 2026 16:10:37 GMT",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeXNEX0FibmplMGVhLVA1TDdESTEzdk9PR1JYNWtsQzJkTG5ER1lrMkhfV05saHNXYndlOXFxdFJONU4zOEZhZUdtXzR0WGpVSHBuLUUyOExTWHktR3AtMjlnU08yNXpaUWFVOXE1Q3dNaDFkZG4yT0JFMmlkYzdvTXFudjFQOF9rcFBaM0VBbjBaOFQ5bndSNS1fZw?oc=5",
-        "content": "Trump endorses Netanyahu in Israeli election&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "Trump endorses Netanyahu in Israeli election - Reuters",
-          "published_at": "Sun, 18 Oct 2026 16:10:37 GMT",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeXNEX0FibmplMGVhLVA1TDdESTEzdk9PR1JYNWtsQzJkTG5ER1lrMkhfV05saHNXYndlOXFxdFJONU4zOEZhZUdtXzR0WGpVSHBuLUUyOExTWHktR3AtMjlnU08yNXpaUWFVOXE1Q3dNaDFkZG4yT0JFMmlkYzdvTXFudjFQOF9rcFBaM0VBbjBaOFQ5bndSNS1fZw?oc=5"
-        },
-        {
-          "source_name": "AP News",
-          "headline": "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection - AP News",
-          "published_at": "Sun, 18 Oct 2026 15:01:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZ001MUlHYUhFLTdzTlZPTWdsOG12UXhpTFdKOFQ1REFaUFVhWGZJTXk1V0Y3cGNhTTR3d1hnclJVamdMRFJlZ213WjVsblNIODZ6cUstbVp6U1o1STRyUVNMUXRPUkVFUlZJWWppUWo3VWpZOXB2WDlTck4yUXFQXy0wQktGczRPbkVkZ1dheURZcGp1dFA2WXVlaXpLeTNLVzAyVnhGWlRrUVNH?oc=5"
-        },
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Trump endorses Netanyahu in Israeli election",
-          "published_at": "Sun, 18 Oct 2026 15:12:51 +0000",
-          "url": "https://www.deccanherald.com/world/middle-east/trump-endorses-netanyahu-in-israeli-election-4187407"
-        },
-        {
-          "source_name": "CNN",
-          "headline": "Nine days before Israeli elections, Trump finally endorses Netanyahu - CNN",
-          "published_at": "Sun, 18 Oct 2026 07:20:28 GMT",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRWp2V1pObHhqVHdUTjJ1NDBhVDRzRjJnMks5R2p3dDFVbTJEek9MR2JBZDZnckh3VUNLRVBGaEF4UGlQc285cFRjSldLMHFGbmhtbldfQjUyU2JGdU95QXRPQm1FWHJzb0NjSzVUalp0WEZFcHlmSWxpb2JRZ2J0Q29pVQ?oc=5"
-        },
         {
           "source_name": "The Indian Express",
-          "headline": "World Live News Updates: Trump endorses Israeli Prime Minister Benjamin Netanyahu for reelection",
-          "published_at": "Sat, 17 Oct 2026 23:55:14 +0000",
-          "url": "https://indianexpress.com/article/world/us-iran-war-live-updates-saudi-drones-attack-trump-tehran-hormuz-shipping-india-oil-prices-10926317/"
-        }
-      ],
-      "source_count": 5,
-      "total_count": 5,
-      "combined_score": 4.06,
-      "brief_bullets": [
-        "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection AP News Washington: US President Donald Trump endorsed his ally Benjamin Netanyahu on Sunday for the upcoming Israeli parliamentary election.\"Bibi Netanyahu has been Strong, Brave, and Brilliant in the face of tremendous opposition, including that coming from even Israel, itself,\" Trump wrote in a post on Truth Social.\"This is the kind of Partner that the United States of America is demanding of Israel, a Country for which it has done so much."
-      ],
-      "why_it_matters_bullets": [
-        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
-      ],
-      "brief": "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection AP News Washington: US President Donald Trump endorsed his ally Benjamin Netanyahu on Sunday for the upcoming Israeli parliamentary election.\"Bibi Netanyahu has been Strong, Brave, and Brilliant in the face of tremendous opposition, including that coming from even Israel, itself,\" Trump wrote in a post on Truth Social.\"This is the kind of Partner that the United States of America is demanding of Israel, a Country for which it has done so much. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 98
-    },
-    {
-      "story_id": "story-3",
-      "category": "Society",
-      "primary_headline": "'If actors & leaders not safe, then what about citizens?': Firing at Tiger Shroff’s car makes Oppn question Maharashtra govt over law and order",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "'If actors & leaders not safe, then what about citizens?': Firing at Tiger Shroff’s car makes Oppn question Maharashtra govt over law and order",
-        "published_at": "Sun, 18 Oct 2026 17:00:15 +0000",
-        "url": "https://www.deccanherald.com/india/maharashtra/if-actors-leaders-not-safe-then-what-about-citizens-firing-at-tiger-shroffs-car-makes-oppn-question-maharashtra-govt-over-law-and-order-4187446",
-        "content": " Mumbai: The Opposition on Sunday criticised the Maharashtra government over the firing incident involving Bollywood actor Tiger Shroff’s car in Mumbai, alleging that law and order in the city and state had deteriorated.In a post on X, Congress leader Sachin Sawant said Mumbai appeared to be in the grip of chaos and accused Chief Minister Devendra Fadnavis, who also heads the Home Department, of failing to maintain law and order.Referring to the murder of former Maharashtra minister Baba Siddique, the firing outside actor Salman Khan’s residence and threats to actors and film producers, Sawant questioned the state government’s efforts to rein in anti-social elements.Fadnavis speaks to Tiger Shroff, asks Mumbai Police commissioner to nab actor's assailants quicklyHe said the situation had reached a point where people who had earlier compared Maharashtra with Bihar were now saying that even Bihar was better.According to police, actor Tiger Shroff escaped unhurt after gunmen opened fire at his car in Mumbai’s Juhu area on Sunday evening. His driver and an autorickshaw driver were injured in the incident, police said.Mumbai Congress president Varsha Gaikwad demanded that Maharashtra have a separate home minister, blaming Fadnavis for the situation.मुंबईत कायदा आणि सुव्यवस्थेचे धिंडवडे!आधी सलमान खानच्या घराबाहेर गोळीबार, त्यानंतर बाबा सिद्दीकी यांची हत्या आणि आता अभिनेता टायगर श्रॉफवर गोळीबार झाल्याची बातमी!मुंबईसारख्या देशाच्या आर्थिक राजधानीत एकापाठोपाठ एक अशा घटना घडत असतील, तर मुंबईकरांच्या सुरक्षेची जबाबदारी नेमकी…&amp;mdash; Prof. Varsha Eknath Gaikwad (@VarshaEGaikwad) October 18, 2026\n \n\n“Does Mumbai have law and order? Does the police still command the same authority and respect as before? Are criminals afraid of the police?” she asked in a video statement.The Lok Sabha member said the Congress had consistently demanded that Maharashtra have a separate home minister.“If actors and political leaders are not safe, what can we say about the safety of ordinary citizens?” she asked.NCP (SP) MLA Rohit Pawar said the incident came days after the recent killing of Shiv Sena (UBT) leader Pradeep Purnekar in Thane.The firing incident involving the actor’s car was alarming, although the actor escaped unhurt, Pawar said.He also said such incidents, including the firing outside the Juhu residence of filmmaker Rohit Shetty, in Mumbai, the country’s financial capital, could undermine investor confidence.Pawar said the home portfolio should be handed over to a “competent minister” if the situation had become difficult to handle.The incident took place near Pushpa Park under Juhu police station limits in the western suburb, and the chain of events leading to the incident is being pieced together, an official said.\"Shroff is safe and has not sustained any injuries in the firing incident,\" the official reiterated."
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "'If actors & leaders not safe, then what about citizens?': Firing at Tiger Shroff’s car makes Oppn question Maharashtra govt over law and order",
-          "published_at": "Sun, 18 Oct 2026 17:00:15 +0000",
-          "url": "https://www.deccanherald.com/india/maharashtra/if-actors-leaders-not-safe-then-what-about-citizens-firing-at-tiger-shroffs-car-makes-oppn-question-maharashtra-govt-over-law-and-order-4187446"
+          "headline": "‘Ram ne Yadav ko maara’: Software error throws up bizarre names in UP MLC voter rolls",
+          "published_at": "Fri, 23 Oct 2026 07:38:09 +0000",
+          "url": "https://indianexpress.com/article/cities/lucknow/ram-ne-yadav-ko-maara-software-error-up-bizarre-names-up-mlc-voter-rolls-state-election-commision-10933459/"
         },
         {
           "source_name": "The Hindu",
-          "headline": "Actor Tiger Shroff escapes unhurt in Juhu firing incident; suspect detained",
-          "published_at": "Sun, 18 Oct 2026 22:22:35 +0530",
-          "url": "https://www.thehindu.com/news/cities/mumbai/tiger-shroff-firing-in-mumbai-juhu-october-18-2026/article71600449.ece"
+          "headline": "‘Unusual’ names, details crop up in electoral roll for MLC polls in U.P.; ECI cites software error",
+          "published_at": "Fri, 23 Oct 2026 12:56:45 +0530",
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/unusual-names-details-crop-up-in-electoral-roll-for-mlc-polls-in-up-eci-cites-software-error/article71614964.ece"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "'Ram Ne Yadav Ko Maara': UP Poll Body Explains Bizarre Voter Entries Glitch",
+          "published_at": "Fri, 23 Oct 2026 11:23:26 +0530",
+          "url": "https://www.ndtv.com/india-news/election-commission-lost-in-translation-up-poll-officer-blames-bizarre-voter-names-on-software-12223726#publisher=newsstand"
         },
         {
           "source_name": "Deccan Herald",
-          "headline": "Fadnavis speaks to Tiger Shroff, asks Mumbai Police commissioner to nab actor's assailants quickly",
-          "published_at": "Sun, 18 Oct 2026 16:46:56 +0000",
-          "url": "https://www.deccanherald.com/india/maharashtra/fadnavis-speaks-to-tiger-shroff-asks-mumbai-police-commissioner-to-nab-actors-assailants-quickly-4187484"
+          "headline": "'Ram ne Sharma ko maara': 'Unusual' names in electoral roll for MLC polls in Uttar Pradesh; EC blames translation errors",
+          "published_at": "Fri, 23 Oct 2026 05:38:18 +0000",
+          "url": "https://www.deccanherald.com/india/uttar-pradesh/ram-ne-sharma-ko-maara-unusual-names-in-electoral-roll-for-mlc-polls-in-uttar-pradesh-ec-blames-translation-errors-4192270"
         },
         {
-          "source_name": "The Indian Express",
-          "headline": "‘Last warning’: Gangster Anil Pandit claims Tiger Shroff firing, warns Salman Khan",
-          "published_at": "Sun, 18 Oct 2026 16:33:23 +0000",
-          "url": "https://indianexpress.com/article/india/bollywood-tiger-shroff-car-firing-anil-pandit-lawrence-bishnoi-salman-khan-threat-juhu-10927157/"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Tiger Shroff firing: Why the Bishnoi gang claims attacks with screenshots",
-          "published_at": "Sun, 18 Oct 2026 16:24:15 +0000",
-          "url": "https://indianexpress.com/article/cities/mumbai/tiger-shroff-shot-bishnoi-gang-attack-claim-screenshot-10927159/"
+          "source_name": "NDTV",
+          "headline": "Glitches In Over 10,000 Voter Entries In UP Seat, 2 Poll Officials Suspended",
+          "published_at": "Fri, 23 Oct 2026 06:49:21 +0530",
+          "url": "https://www.ndtv.com/india-news/glitches-in-over-10-000-voter-entries-in-up-two-poll-officials-suspended-12222897#publisher=newsstand"
         }
       ],
       "source_count": 4,
-      "total_count": 19,
-      "combined_score": 7.79,
+      "total_count": 6,
+      "combined_score": 3.86,
       "brief_bullets": [
-        "Mumbai: The Opposition on Sunday criticised the Maharashtra government over the firing incident involving Bollywood actor Tiger Shroff’s car in Mumbai, alleging that law and order in the city and state had deteriorated.",
-        "In a post on X, Congress leader Sachin Sawant said Mumbai appeared to be in the grip of chaos and accused Chief Minister Devendra Fadnavis, who also heads the Home Department, of failing to maintain law and order.",
-        "Referring to the murder of former Maharashtra minister Baba Siddique, the firing outside actor Salman Khan’s residence and threats to actors and film producers, Sawant questioned the state government’s efforts to rein in anti-social elements."
+        "A software translation error in Uttar Pradesh generated bizarre and offensive voter names, such as Ram ne Yadav ko maara, across the Allahabad-Jhansi graduates constituency electoral rolls. State Chief Electoral Officer Navdeep Rinwa acknowledged 158 erroneous entries stemming from a newly introduced digital platform for MLC elections, prompting an official inquiry and immediate instructions for presiding officers to verify documents and prevent voter disenfranchisement."
       ],
       "why_it_matters_bullets": [
-        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
+        "The glitch exposes technological vulnerabilities in electoral roll digitization, risking voter disenfranchisement and undermining public trust in democratic institutions."
       ],
-      "brief": "Mumbai: The Opposition on Sunday criticised the Maharashtra government over the firing incident involving Bollywood actor Tiger Shroff’s car in Mumbai, alleging that law and order in the city and state had deteriorated. In a post on X, Congress leader Sachin Sawant said Mumbai appeared to be in the grip of chaos and accused Chief Minister Devendra Fadnavis, who also heads the Home Department, of failing to maintain law and order. Referring to the murder of former Maharashtra minister Baba Siddique, the firing outside actor Salman Khan’s residence and threats to actors and film producers, Sawant questioned the state government’s efforts to rein in anti-social elements. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 120
+      "brief": "A software translation error in Uttar Pradesh generated bizarre and offensive voter names, such as Ram ne Yadav ko maara, across the Allahabad-Jhansi graduates constituency electoral rolls. State Chief Electoral Officer Navdeep Rinwa acknowledged 158 erroneous entries stemming from a newly introduced digital platform for MLC elections, prompting an official inquiry and immediate instructions for presiding officers to verify documents and prevent voter disenfranchisement. The glitch exposes technological vulnerabilities in electoral roll digitization, risking voter disenfranchisement and undermining public trust in democratic institutions.",
+      "brief_word_count": 83
     },
     {
-      "story_id": "story-31",
-      "category": "Technology",
-      "primary_headline": "Air India and AI Express cancel Saudi Arabia flights till Oct. 24",
+      "story_id": "story-19",
+      "category": "Society",
+      "primary_headline": "Harry Brook's record ODI double ton in vain as Sri Lanka pull off epic chase",
       "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Air India and AI Express cancel Saudi Arabia flights till Oct. 24",
-        "published_at": "Sun, 18 Oct 2026 22:00:17 +0530",
-        "url": "https://www.thehindu.com/news/national/air-india-and-ai-express-cancel-saudi-arabia-flights-till-oct-24/article71595997.ece",
-        "content": "Earlier this week, IndiGo and Akasa Air had also announced the cancellation of their services to Saudi Arabian cities"
+        "source_name": "Deccan Herald",
+        "headline": "Harry Brook's record ODI double ton in vain as Sri Lanka pull off epic chase",
+        "published_at": "Fri, 23 Oct 2026 07:51:47 +0000",
+        "url": "https://www.deccanherald.com/sports/cricket/harry-brooks-record-odi-double-ton-in-vain-as-sri-lanka-pull-off-epic-chase-4192419",
+        "content": " Sri Lanka pulled off an epic chase despite Harry Brook smashing the fastest double-century in One-day International (ODI) history in the tri-series match at Rawalpindi. Quick summary - click for full detailsConcise summary of key highlightsHarry Brook's record ODI double ton in vain as Sri Lanka pull off epic chaseIn one lineHarry Brook's record-breaking ODI double century was in vain as Sri Lanka pulled off an epic run chase to win.Key highlights• Brook's Record-Breaking InningsEngland captain Harry Brook smashed the fastest double-century in ODI history, making 202 off 116 balls and becoming the first Englishman to score 200 in the format.• Sri Lanka's Epic Run ChaseSri Lanka successfully chased down England's mammoth total of 429 for four, sealing a two-wicket win with one ball to spare in the second-highest successful run chase in ODI history.• Standout Batting PerformancesPavan Rathnayake top-scored for Sri Lanka with 130 runs, while teammates Avishka Fernando and Dasun Shanaka both narrowly missed out on centuries with 97 runs each.• Tournament Standings ImpactThe defeat leaves England at the bottom of the tri-series standings after losing both their opening matches, requiring wins in their remaining games to reach the final.Key statistics202Brook's record double-century score429 for fourEngland's innings total130Pavan Rathnayake's top score for Sri Lanka435Record for highest ODI chase set by South Africa2006Year South Africa set the highest ODI chase recordProcessed with AI. Reviewed by DH Digital Team.The England captain hit the fastest-ever ODI double hundred, making 202 off 116 balls to propel his team to a mammoth 429 for four after they were put in to bat.Batters thoroughly dominated in Rawalpindi as Brook also hit the first ODI double century by an England player. However, Sri Lanka proved up to the challenge as Pavan Rathnayake scored 130, with Avishka Fernando and Dasun Shanaka both making 97.South Africa hold the record for the highest ODI chase, knocking off a target of 435 against Australia at Johannesburg in 2006.Brook became the first Englishman to score 200 in the format, but Sri Lanka sealed a two-wicket win with one ball to spare.ICC Test Rankings | Brook reclaims top spot, Bumrah stays as No.1 bowlerThe 27-year-old rewrote the record books by racing to his double hundred in 114 balls, surpassing the previous mark of 117 deliveries set by India's Shubman Gill.In the process, Brook also eclipsed England's highest individual ODI score of 182, held by all-rounder Ben Stokes.ICC rankings | Iyer rises to career-best 7th in T20Is; Gill consolidates numero uno position in ODIsBrook's scintillating performance ended with the final ball of England's innings when he was caught by Sahan Arachchige off the bowling of Janith Liyanage.He made 202 from 116 deliveries, peppering the Sri Lanka attack with 21 fours and 10 sixes before departing to warm applause from the crowd.The defeat leaves England bottom of the standings after losing both their matches, with Brook saying they need to win their next two games to reach the final in Lahore.Joe Root provided strong support with 69 off 66 balls.But the total proved insufficient as Sri Lanka completed the second-highest successful run chase in ODI history.Pavan Rathnayake top-scored with 130 from 106 deliveries, while opener Avishka Fernando and Dasun Shanaka both fell three runs short of centuries.Needing six runs from the final two deliveries, Sri Lanka sealed victory when Liyanage launched Josh Tongue over long-off for six, leaving Brook's record-breaking innings all in vain.Tongue was England's most successful bowler with 3-79.England lost by 87 runs at the same venue in Rawalpindi to Pakistan, who lead the table with two wins from two.Pakistan, who beat Sri Lanka and England in their two games, will face England in Lahore on Sunday in the next match in the tri-series. "
       },
       "sources": [
         {
-          "source_name": "The Hindu",
-          "headline": "Air India and AI Express cancel Saudi Arabia flights till Oct. 24",
-          "published_at": "Sun, 18 Oct 2026 22:00:17 +0530",
-          "url": "https://www.thehindu.com/news/national/air-india-and-ai-express-cancel-saudi-arabia-flights-till-oct-24/article71595997.ece"
+          "source_name": "Deccan Herald",
+          "headline": "Harry Brook's record ODI double ton in vain as Sri Lanka pull off epic chase",
+          "published_at": "Fri, 23 Oct 2026 07:51:47 +0000",
+          "url": "https://www.deccanherald.com/sports/cricket/harry-brooks-record-odi-double-ton-in-vain-as-sri-lanka-pull-off-epic-chase-4192419"
         },
         {
-          "source_name": "Deccan Herald",
-          "headline": "India asks its nationals in Saudi Arabia to take 'due precautions' in fresh advisory",
-          "published_at": "Sun, 18 Oct 2026 16:17:58 +0000",
-          "url": "https://www.deccanherald.com/world/middle-east/india-asks-its-nationals-in-saudi-arabia-to-take-due-precautions-in-fresh-advisory-4187413"
+          "source_name": "Al Jazeera",
+          "headline": "Sri Lanka beat England to overcome Harry Brook hitting fastest 200 in ODIs - Al Jazeera",
+          "published_at": "Thu, 22 Oct 2026 17:30:14 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZGRLQTRLbS0tMkFPZ1pJNC1WaWxEc29hdjZXSmxrQUdENHBKbldQWms4MDNFWURiQTRLejA1bTJQT0tRX1kyMEdDamFhWjFPRW5iaTdkTDllQjE5dFR1ZG4zWGd6WHNSNkF2S09RSHhvZkhSc3ZUREhudmJyeUNPbGV6U2ZWRUsxTkx5UG5kajM2eXFZUHpqMkFaNkRmY3dIVFpjWHlsUjBrRG4zTENUYlpKcWtKOWJueGfSAb8BQVVfeXFMUFF5Z19aaDB2cnZXbDdmVWpIYWZsbTVBQVNZMVpHaXkwLWxOd05YZElNY3JDVEI3NWd2SmN6QUdtVWlQdGJKSDZpTFZDX0VUS1NOTUVXd2Fld2o4YVpDX05hN1V3eFV0ZUUxUzg4dkNjQUczMi1sRTJhWmFnTW0takhKUWNZYlI0TDdBb2tzVGlleTJUc3VreGIzeEZCS09WQ3Z4ZVJtazl5ckxmTEJ2Vm5ZWjBCR3VuMXJrX0MwLUU?oc=5"
         },
         {
-          "source_name": "Deccan Herald",
-          "headline": "Dhaka seeks explanation from Saudi Arabia over execution of 2 Bangladeshis",
-          "published_at": "Sun, 18 Oct 2026 16:13:36 +0000",
-          "url": "https://www.deccanherald.com/world/rest-of-world/dhaka-seeks-explanation-from-saudi-arabia-over-execution-of-2-bangladeshis-4187373"
+          "source_name": "The Indian Express",
+          "headline": "Harry Brook breaks Shubman Gill’s record for fastest ODI double century",
+          "published_at": "Thu, 22 Oct 2026 12:16:59 +0000",
+          "url": "https://indianexpress.com/article/sports/cricket/harry-brook-fastest-odi-double-century-114-balls-vs-sri-lanka-10932454/"
+        },
+        {
+          "source_name": "Sky Sports",
+          "headline": "Sri Lanka stun England in astonishing ODI epic!",
+          "published_at": "Thu, 22 Oct 2026 17:46:00 BST",
+          "url": "https://www.skysports.com/watch/video/13602412/sri-lanka-stun-england-with-record-breaking-comeback-sri-lanka-vs-england-odi-highlights"
         }
       ],
-      "source_count": 2,
-      "total_count": 3,
-      "combined_score": 2.1,
+      "source_count": 4,
+      "total_count": 4,
+      "combined_score": 3.29,
       "brief_bullets": [
-        "Earlier this week, IndiGo and Akasa Air had also announced the cancellation of their services to Saudi Arabian cities Dubai: India on Sunday issued a fresh advisory for its nationals in Saudi Arabia, asking them to take \"due precautions\" amid heightened security concerns following strikes by Iran-backed Houthi rebels.",
-        "The Indian Embassy in Riyadh advised the Indian Community \"to take due precautions under the prevailing situation,\" in a social media post on Sunday.\"In case of an aerial attack, immediately proceed to the nearest safe place (inside a building or an interior room away from windows), and refrain from filming, publishing, or sharing any information, photos, or videos related to the ongoing events,\" the Indian mission said."
+        "England captain Harry Brook made history by smashing the fastest double-century in One-day International (ODI) history, scoring 202 off 116 balls against Sri Lanka in a tri-series match at Rawalpindi. His record-breaking innings, the first ODI double ton by an Englishman, propelled England to a mammoth 429 for four. However, Sri Lanka mounted an extraordinary chase, with Pavan Rathnayake scoring 130 and Avishka Fernando and Dasun Shanaka both adding 97, ultimately securing a two-wicket victory with one ball to spare. This epic pursuit marks the second-highest successful run chase in ODI history, leaving England at the bottom of the tournament standings after two defeats."
       ],
       "why_it_matters_bullets": [
-        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+        "This historic match highlights cricket's evolving high-scoring dynamics and significantly impacts England's tri-series progression."
       ],
-      "brief": "Earlier this week, IndiGo and Akasa Air had also announced the cancellation of their services to Saudi Arabian cities Dubai: India on Sunday issued a fresh advisory for its nationals in Saudi Arabia, asking them to take \"due precautions\" amid heightened security concerns following strikes by Iran-backed Houthi rebels. The Indian Embassy in Riyadh advised the Indian Community \"to take due precautions under the prevailing situation,\" in a social media post on Sunday.\"In case of an aerial attack, immediately proceed to the nearest safe place (inside a building or an interior room away from windows), and refrain from filming, publishing, or sharing any information, photos, or videos related to the ongoing events,\" the Indian mission said. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 132
+      "brief": "England captain Harry Brook made history by smashing the fastest double-century in One-day International (ODI) history, scoring 202 off 116 balls against Sri Lanka in a tri-series match at Rawalpindi. His record-breaking innings, the first ODI double ton by an Englishman, propelled England to a mammoth 429 for four. However, Sri Lanka mounted an extraordinary chase, with Pavan Rathnayake scoring 130 and Avishka Fernando and Dasun Shanaka both adding 97, ultimately securing a two-wicket victory with one ball to spare. This epic pursuit marks the second-highest successful run chase in ODI history, leaving England at the bottom of the tournament standings after two defeats. This historic match highlights cricket's evolving high-scoring dynamics and significantly impacts England's tri-series progression.",
+      "brief_word_count": 118
     },
     {
       "story_id": "story-34",
-      "category": "Society",
-      "primary_headline": "Ranji Trophy | Manvanth Kumar saves the day for Karnataka",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Ranji Trophy | Manvanth Kumar saves the day for Karnataka",
-        "published_at": "Sun, 18 Oct 2026 16:45:59 +0000",
-        "url": "https://www.deccanherald.com/sports/cricket/manvanth-saves-day-for-hosts-4187483",
-        "content": " Bengaluru: An interesting opening day, which began with a strange move of Karnataka fast bowler Vyshak Vijaykumar (1, 5b) walking in at No. 3 in gloomy conditions and Jaydev Unadkat (3/51) and Chetan Sakariya (2/48) reaping some rewards for exploiting pace-friendly conditions, ended with a resilient Manvanth Kumar (86 n.o., 124b) lifting the hosts from a precarious position in their Ranji Trophy game against Saurashtra at the Alur 1 Ground here on Sunday.Arriving at the crease at 187/7 in 50 overs, No. 9 Manvanth, just one first-class game old, showcased his grace and gumption after Aneesh K V’s (59, 96b, 4x8) impressive stay as Karnataka battled hard to reach 281 for eight in 86 overs.Ranji Trophy | Karnataka need batting reset against SaurashtraManvanth hit six fours and five sixes in his unbeaten knock, including one that showed off his elegance, gloriously coming down the track to hit Unadkat down the ground for a maximum.Credit must also go to Abhilash Shetty (6 n.o., 85b), who stuck around with Manvanth, to carve out a late rescue act by stitching an unbeaten 87-run partnership off 206 balls.For Saurashtra, skipper Unadkat, who relentlessly kept it tight, and Parth Bhut (3/73), were the pick of the bowlers.Earlier, the hosts had made as many as five changes, including two debutants, but their batting frailties at the top were again exposed.There was a good amount of movement and bounce on offer for the quicks with Unadkat, in particular, moving the ball at a decent pace in the first session and beating the outside edges at ease.And he did not have to wait long for his first wicket, dismissing Rohan Patil (6) in the fifth over, as the debutant was pinned in front from a ball that cut back in.ExperimentHead coach Vinay Kumar’s experiments continued for a second straight game with Vyshak’s promotion to No.3. The logic behind the move could have been to take the shine off the new ball, but that failed spectacularly. Vyshak was back in the hut within five balls when he was castled after he stepped out and went for a wild swing across the sticks.When Aneesh and Mayank Agarwal (42, 83b) joined hands, Karnataka were two down for not many, with Saurashtra dominating proceedings and making the hosts play and earn every run.While batting wasn’t easy, Aneesh and Mayank portrayed superb application with the rotation of strike and looked more at ease in the middle after surviving some anxious moments.Aneesh, batting for a spot, looked very composed and brought up his third first-class fifty with a single to square leg in 65 balls, and Mayank, with all his experience, respected the good deliveries as Karnataka went into Lunch with 91/2 in 25 overs.After the break, the runs started to dry up, and the hosts lost Agarwal leg before when he shuffled across to flick Unadkat in the 33rd over.It was a bittersweet day for Aneesh, as he followed Mayank three overs later, throwing his wicket while trying to pull a delivery over his head.Karun Nair once again steadied a sinking Karnataka ship with an proactive 46 off 57, laced with nine boundaries, and skipper Shreyas Gopal (3) was sent back with a beautiful Parth delivery that took his edge and into the Sammar Gajjar at slip.Highlights - Shreyas felicitated It was an afternoon of pride and celebration for all-rounder Shreyas Gopal as he was felicitated by the KSCA on Sunday for his 100 first-class appearances.&amp;nbsp; During the Tea break in Karnataka’s Ranji Trophy fixture against Saurashtra in Alur, Shreyas was presented with a special jersey with the No. 100 on the back by KSCA Committee Member Avinash Vaidya.&amp;nbsp; Shreyas’ 100th game came during the Duleep Trophy final between South Zone and East Zone at the M A Chidambaram Stadium in Chennai.SCOREBOARD KARNATAKA (I Innings): Rohan Patil lbw Unadkat 6 (18b 1x4) Mayank Agarwal lbw Unadkat 42 (83b 4x4 1x6) Vyshak Vijaykumar b Sakariya 1 (5b) K V Aneesh c Desai b Sakariya 59 (96b 4x8) Karun Nair c Kotak b Bhut 46 (57b 9x4) Aneeshwar Gautam 4 (2b 1x4) Shreyas Gopal c Gajjar b Bhut 3 (11b) Manvanth Kumar (batting) 86 (124b 6x4 5x6) Abhilash Shetty (batting) 6 (85b). Extras (LB-6 W-1) 7. TOTAL (for 8 wkts 86 overs) 281. Fall of wickets: 1-12 2-13 3-111 4-131 5-140 6-183 7-187 8-194. Bowling: Jaydev Unadkat 19-3-51-3 Chetan Sakariya 18-3-48-2 Ankur Panwar 9-2-30-0 Chirag Jani 8-0-45-0 Parth Bhut 21-3-73-3 Prerak Mankad 9-4-19-0 Sammar Gajjar 2-0-9-0. Other Group B brief scores: At Vijayawada: Hyderabad: 275 all out in 86 overs (Tanmay Agarwal 42 Abhirath Reddy 67 Pragnay Reddy 31 Rahul Radesh 58; Lalith Mohan 3-42 Tripurana Vijay 4-90 Saurabh Kumar 3-75) vs Andhra: 9/0 in 2 overs. At New Chandigarh: Punjab: 269/4 in 90 overs (Vihaan Malhotra 40 Uday Saharan 106 Prabhsimran Singh 62 Sahil Arora 38 n.o.; Dharmendrasinh Jadeja 2-92 Ajay Mandal 2-60) vs Chhattisgarh. At Guwahati: Assam: 228/6 in 86 overs (Nibir Deka 34 Rishav Das 37 Sibsankar Roy 54 Sumit Ghadigaonkar 49; Sandip Sarkar 3-64) vs Tripura."
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Ranji Trophy | Manvanth Kumar saves the day for Karnataka",
-          "published_at": "Sun, 18 Oct 2026 16:45:59 +0000",
-          "url": "https://www.deccanherald.com/sports/cricket/manvanth-saves-day-for-hosts-4187483"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Ranji Trophy, Round 2 Day 1: 10 bowl outs, 2 five-fors and ton for Rinku Singh",
-          "published_at": "Sun, 18 Oct 2026 15:23:12 +0000",
-          "url": "https://indianexpress.com/article/sports/cricket/ranji-trophy-roundup-10-bowl-outs-2-five-for-ton-for-rinku-singh-10927113/"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Pujara on Manav Suthar snub for NZ Tests: ‘Has played enough Ranji Trophy’",
-          "published_at": "Sun, 18 Oct 2026 08:43:07 +0000",
-          "url": "https://indianexpress.com/article/sports/cricket/india-vs-new-zealand-tests-manav-suthar-snub-ranji-trophy-cheteshwar-pujara-10926739/"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 3,
-      "combined_score": 1.96,
-      "brief_bullets": [
-        "Bengaluru: An interesting opening day, which began with a strange move of Karnataka fast bowler Vyshak Vijaykumar (1, 5b) walking in at No.",
-        "3 in gloomy conditions and Jaydev Unadkat (3/51) and Chetan Sakariya (2/48) reaping some rewards for exploiting pace-friendly conditions, ended with a resilient Manvanth Kumar (86 n.o., 124b) lifting the hosts from a precarious position in their Ranji Trophy game against Saurashtra at the Alur 1 Ground here on Sunday.",
-        "Arriving at the crease at 187/7 in 50 overs, No.",
-        "9 Manvanth, just one first-class game old, showcased his grace and gumption after Aneesh K V’s (59, 96b, 4x8) impressive stay as Karnataka battled hard to reach 281 for eight in 86 overs."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "Bengaluru: An interesting opening day, which began with a strange move of Karnataka fast bowler Vyshak Vijaykumar (1, 5b) walking in at No. 3 in gloomy conditions and Jaydev Unadkat (3/51) and Chetan Sakariya (2/48) reaping some rewards for exploiting pace-friendly conditions, ended with a resilient Manvanth Kumar (86 n.o., 124b) lifting the hosts from a precarious position in their Ranji Trophy game against Saurashtra at the Alur 1 Ground here on Sunday. Arriving at the crease at 187/7 in 50 overs, No. 9 Manvanth, just one first-class game old, showcased his grace and gumption after Aneesh K V’s (59, 96b, 4x8) impressive stay as Karnataka battled hard to reach 281 for eight in 86 overs. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 129
-    },
-    {
-      "story_id": "story-37",
-      "category": "Society",
-      "primary_headline": "Delhi SIR: Public audit in two booths find over 100 voters wrongly marked absent, shifted, or dead",
+      "category": "Geopolitics",
+      "primary_headline": "Pakistan refused to accept bodies of its own soldiers killed in Kargil war: India at UN",
       "primary_source": {
         "source_name": "The Hindu",
-        "headline": "Delhi SIR: Public audit in two booths find over 100 voters wrongly marked absent, shifted, or dead",
-        "published_at": "Sun, 18 Oct 2026 22:16:28 +0530",
-        "url": "https://www.thehindu.com/news/cities/Delhi/delhi-sir-public-audit-in-two-booths-find-over-100-voters-wrongly-marked-absent-shifted-or-dead/article71600683.ece",
-        "content": "Voters residing at the same address for multiple decades express anger that they were marked ‘untraceable’, ‘absent’, and permanently shifted, and their only option is to enrol afresh using Form 6"
+        "headline": "Pakistan refused to accept bodies of its own soldiers killed in Kargil war: India at UN",
+        "published_at": "Fri, 23 Oct 2026 13:05:21 +0530",
+        "url": "https://www.thehindu.com/news/national/pakistan-refused-to-accept-bodies-of-its-own-soldiers-killed-in-kargil-war-india-at-un/article71614773.ece",
+        "content": "Ms. Mangalanandan added that burial rights for terrorists are being justified by indicating that States may restrict funeral rights of terrorists, but only within legal limits"
       },
       "sources": [
         {
           "source_name": "The Hindu",
-          "headline": "Delhi SIR: Public audit in two booths find over 100 voters wrongly marked absent, shifted, or dead",
-          "published_at": "Sun, 18 Oct 2026 22:16:28 +0530",
-          "url": "https://www.thehindu.com/news/cities/Delhi/delhi-sir-public-audit-in-two-booths-find-over-100-voters-wrongly-marked-absent-shifted-or-dead/article71600683.ece"
+          "headline": "Pakistan refused to accept bodies of its own soldiers killed in Kargil war: India at UN",
+          "published_at": "Fri, 23 Oct 2026 13:05:21 +0530",
+          "url": "https://www.thehindu.com/news/national/pakistan-refused-to-accept-bodies-of-its-own-soldiers-killed-in-kargil-war-india-at-un/article71614773.ece"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Pakistan refused to accept bodies of its own soldiers killed in Kargil war: India at UN",
+          "published_at": "Fri, 23 Oct 2026 06:56:12 +0000",
+          "url": "https://www.deccanherald.com/india/pakistan-refused-to-accept-bodies-of-its-own-soldiers-killed-in-kargil-war-india-at-un-4192297"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "'Pak Didn't Accept Bodies Of Its Own Soldiers In Kargil': India Slams UN Rapporteur",
+          "published_at": "Fri, 23 Oct 2026 09:43:15 +0530",
+          "url": "https://www.ndtv.com/world-news/pakistan-did-not-accept-bodies-of-its-own-soldiers-in-kargil-war-india-slams-un-rapporteur-12223452#publisher=newsstand"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 3,
+      "combined_score": 2.49,
+      "brief_bullets": [
+        "At a United Nations interactive dialogue, India’s First Secretary Bhavika Mangalanandan sharply rebuked Pakistan for its hypocrisy regarding religious freedom and funeral rights. Responding to a UN report criticizing India’s security operations in Jammu and Kashmir, Mangalanandan highlighted that Pakistan famously refused to claim its own soldiers killed during the 1999 Kargil War, forcing the Indian Army to provide them with dignified Islamic burials. She further dismissed the UN rapporteur’s findings as unsupported, arguing that Pakistan lacks the moral standing to lecture India on human rights while its own minorities face systemic abuse. India maintains that sovereign states must retain the legal authority to restrict funeral rites for terrorists who violate the fundamental right to life."
+      ],
+      "why_it_matters_bullets": [
+        "This diplomatic confrontation underscores India's aggressive strategy to delegitimize Pakistan's international advocacy by exposing its historical and domestic contradictions."
+      ],
+      "brief": "At a United Nations interactive dialogue, India’s First Secretary Bhavika Mangalanandan sharply rebuked Pakistan for its hypocrisy regarding religious freedom and funeral rights. Responding to a UN report criticizing India’s security operations in Jammu and Kashmir, Mangalanandan highlighted that Pakistan famously refused to claim its own soldiers killed during the 1999 Kargil War, forcing the Indian Army to provide them with dignified Islamic burials. She further dismissed the UN rapporteur’s findings as unsupported, arguing that Pakistan lacks the moral standing to lecture India on human rights while its own minorities face systemic abuse. India maintains that sovereign states must retain the legal authority to restrict funeral rites for terrorists who violate the fundamental right to life. This diplomatic confrontation underscores India's aggressive strategy to delegitimize Pakistan's international advocacy by exposing its historical and domestic contradictions.",
+      "brief_word_count": 135
+    },
+    {
+      "story_id": "story-40",
+      "category": "Society",
+      "primary_headline": "Karnataka Chief Minister D.K. Shivakumar invites Poland as partner for Global Investors Meet 2027",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Karnataka Chief Minister D.K. Shivakumar invites Poland as partner for Global Investors Meet 2027",
+        "published_at": "Fri, 23 Oct 2026 13:27:08 +0530",
+        "url": "https://www.thehindu.com/news/national/karnataka/karnataka-chief-minister-dk-shivakumar-invites-poland-as-partner-for-global-investors-meet-2027/article71615031.ece",
+        "content": "Mr. Shivakumar sats the State is keen to deepen bilateral cooperation in investment, technology, innovation and employment, building on Bengaluru’s technology ecosystem and Poland’s expertise in advanced manufacturing, artificial intelligence and green energy"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Karnataka Chief Minister D.K. Shivakumar invites Poland as partner for Global Investors Meet 2027",
+          "published_at": "Fri, 23 Oct 2026 13:27:08 +0530",
+          "url": "https://www.thehindu.com/news/national/karnataka/karnataka-chief-minister-dk-shivakumar-invites-poland-as-partner-for-global-investors-meet-2027/article71615031.ece"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Karnataka Chief Minister Shivakumar meets Poland PM Donald Tusk",
+          "published_at": "Fri, 23 Oct 2026 07:08:01 +0000",
+          "url": "https://www.deccanherald.com/india/karnataka/karnataka-chief-minister-shivakumar-meets-poland-pm-donald-tusk-4192302"
+        },
+        {
+          "source_name": "The Print",
+          "headline": "India, Poland have ‘no conflicts of interest’, PM Tusk says as both sides push defence, space ties - ThePrint",
+          "published_at": "Thu, 22 Oct 2026 10:28:06 GMT",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTHBOMEdvajMwazV5YkszSWpFR3JiUmVuYTluU3RPV3lJbHgtX3VhbEV2WjZITVdtLXFvN2dScTBzRWtyWVBHS2M0aURoT00taVBVR1ktUHBUNXV3bWxIdlB1MjNPS1VndU42bDRUX1NRMkZUeTljalN6TWM1ZHh1OHZDN3ZyQmtsN2FEbXhBUWlRVlZoSFNQTGFLc0hPakcyVUtZV3ByRmRmemRVYWFNcmljaGxnQ3lhVnFhTjJOVFpLNjJxUEc5cmljZE7SAdIBQVVfeXFMTkRMZFlwZms0a3lQblJqdHBfY1BkdFdOczdySktqSHMzNkxkSFlNVTdnTTYyZlhkbzJuSHp3QnAzZHhXdHhqanlUOFg3UkYtbmc2d21NeHppTjlpQ1NhWUtHY19ZREdsV2FQTXotd1Nibl9FZU9oVkxjcWs2bXpwd2k4WVFOdktydjNMUHBQdFY2ODRnSUtva3hhTWlaVW5fU1E3LUhwVk5TWTRTVmtmYUFNZ0Z1bURmREVkTmZNZGcyNDVtVkNESTBIZndYQkJobFF3?oc=5"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 3,
+      "combined_score": 2.4,
+      "brief_bullets": [
+        "Karnataka Deputy Chief Minister D.K. Shivakumar met visiting Polish Prime Minister Donald Tusk in Bengaluru to pitch the state as a prime investment destination, formally inviting Poland to partner in the upcoming Global Investors Meet 2027. The high-level discussions focused on expanding bilateral cooperation across advanced manufacturing, artificial intelligence, green energy, and technology innovation, leveraging Bengaluru's robust tech ecosystem. Prime Minister Tusk's three-day Indian itinerary highlights deepening strategic, defense, and economic ties between the two nations, reinforcing regional technology partnerships following his earlier meetings with Prime Minister Narendra Modi."
+      ],
+      "why_it_matters_bullets": [
+        "This partnership positions Karnataka as a premier global hub for international industrial and technological collaboration."
+      ],
+      "brief": "Karnataka Deputy Chief Minister D.K. Shivakumar met visiting Polish Prime Minister Donald Tusk in Bengaluru to pitch the state as a prime investment destination, formally inviting Poland to partner in the upcoming Global Investors Meet 2027. The high-level discussions focused on expanding bilateral cooperation across advanced manufacturing, artificial intelligence, green energy, and technology innovation, leveraging Bengaluru's robust tech ecosystem. Prime Minister Tusk's three-day Indian itinerary highlights deepening strategic, defense, and economic ties between the two nations, reinforcing regional technology partnerships following his earlier meetings with Prime Minister Narendra Modi. This partnership positions Karnataka as a premier global hub for international industrial and technological collaboration.",
+      "brief_word_count": 104
+    },
+    {
+      "story_id": "story-42",
+      "category": "Finance",
+      "primary_headline": "Kochi synagogue arson: UAPA invoked, police probe crypto trail",
+      "primary_source": {
+        "source_name": "The Indian Express",
+        "headline": "Kochi synagogue arson: UAPA invoked, police probe crypto trail",
+        "published_at": "Fri, 23 Oct 2026 07:08:37 +0000",
+        "url": "https://indianexpress.com/article/india/kochi-synagogue-arson-uapa-police-probe-crypto-trail-10933392/",
+        "content": ""
+      },
+      "sources": [
+        {
+          "source_name": "The Indian Express",
+          "headline": "Kochi synagogue arson: UAPA invoked, police probe crypto trail",
+          "published_at": "Fri, 23 Oct 2026 07:08:37 +0000",
+          "url": "https://indianexpress.com/article/india/kochi-synagogue-arson-uapa-police-probe-crypto-trail-10933392/"
+        },
+        {
+          "source_name": "The Hindu",
+          "headline": "Accused in Keralam synagogue arson case slapped with UAPA, larger conspiracy suspected: police",
+          "published_at": "Fri, 23 Oct 2026 12:35:47 +0530",
+          "url": "https://www.thehindu.com/news/national/kerala/accused-in-keralam-synagogue-arson-case-slapped-with-uapa-larger-conspiracy-suspected-police/article71614894.ece"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "UAPA invoked in Kochi arson case, NIA likely to take over probe",
+          "published_at": "Fri, 23 Oct 2026 06:57:38 +0000",
+          "url": "https://www.deccanherald.com/india/keralam/uapa-invoked-in-kochi-arson-case-nia-likely-to-take-over-probe-4192350"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 3,
+      "combined_score": 2.4,
+      "brief_bullets": [
+        "Kerala police have invoked the stringent Unlawful Activities Prevention Act against Ebin Paul, arrested for the October arson near Kochi's Kadavubhagam synagogue. Investigators leading the Special Investigation Team discovered that the suspect allegedly acted under encrypted Telegram instructions from an unidentified handler, receiving cryptocurrency funding to execute targeted property attacks. With authorities uncovering digital evidence of pre-incident surveillance and multiple related arson cases in Muvattupuzha, the state Anti-Terrorism Squad and central agencies are examining a broader conspiracy, paving the way for the National Investigation Agency to assume control of the high-profile probe."
+      ],
+      "why_it_matters_bullets": [
+        "The invocation of anti-terror laws highlights growing security concerns over cryptofinanced, handler-driven attacks on sensitive religious and commercial sites."
+      ],
+      "brief": "Kerala police have invoked the stringent Unlawful Activities Prevention Act against Ebin Paul, arrested for the October arson near Kochi's Kadavubhagam synagogue. Investigators leading the Special Investigation Team discovered that the suspect allegedly acted under encrypted Telegram instructions from an unidentified handler, receiving cryptocurrency funding to execute targeted property attacks. With authorities uncovering digital evidence of pre-incident surveillance and multiple related arson cases in Muvattupuzha, the state Anti-Terrorism Squad and central agencies are examining a broader conspiracy, paving the way for the National Investigation Agency to assume control of the high-profile probe. The invocation of anti-terror laws highlights growing security concerns over cryptofinanced, handler-driven attacks on sensitive religious and commercial sites.",
+      "brief_word_count": 111
+    },
+    {
+      "story_id": "story-49",
+      "category": "Society",
+      "primary_headline": "AP Inter 1st, 2nd Year Exams 2027 starts from February; complete schedule here",
+      "primary_source": {
+        "source_name": "The Indian Express",
+        "headline": "AP Inter 1st, 2nd Year Exams 2027 starts from February; complete schedule here",
+        "published_at": "Fri, 23 Oct 2026 07:32:19 +0000",
+        "url": "https://indianexpress.com/article/education/bieap-ap-intermediate-1st-2nd-year-ipe-exams-2027-date-sheet-out-complete-timetable-here-10933411/",
+        "content": ""
+      },
+      "sources": [
+        {
+          "source_name": "The Indian Express",
+          "headline": "AP Inter 1st, 2nd Year Exams 2027 starts from February; complete schedule here",
+          "published_at": "Fri, 23 Oct 2026 07:32:19 +0000",
+          "url": "https://indianexpress.com/article/education/bieap-ap-intermediate-1st-2nd-year-ipe-exams-2027-date-sheet-out-complete-timetable-here-10933411/"
         },
         {
           "source_name": "The Indian Express",
-          "headline": "Door-to-door BLO visits expected to include ‘left-out’ voters in Delhi SIR",
-          "published_at": "Sun, 18 Oct 2026 03:01:04 +0000",
-          "url": "https://indianexpress.com/article/cities/delhi/delhi-sir-blo-home-visits-left-out-voters-form-6-enrolment-special-intensive-revision-10926422/"
+          "headline": "Telangana SSC March 2027 exam fee schedule announced; payment starts October 30",
+          "published_at": "Fri, 23 Oct 2026 05:17:50 +0000",
+          "url": "https://indianexpress.com/article/education/telangana-ssc-march-2027-exam-fee-schedule-announced-payment-starts-october-30-10933223/"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Andhra Pradesh Inter Exam Date Sheet 2027 Out: Check 1st, 2nd Year Theory Exam Schedule",
+          "published_at": "Fri, 23 Oct 2026 10:29:23 +0530",
+          "url": "https://www.ndtv.com/education/andhra-pradesh-inter-exam-date-sheet-2027-out-check-1st-2nd-year-theory-exam-dates-12223620#publisher=newsstand"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "JEE Main 2027 Registration Date Highlights: Session 1 Application Form Guidelines, Check List Of Documents",
+          "published_at": "Fri, 23 Oct 2026 08:21:53 +0530",
+          "url": "https://www.ndtv.com/education/jee-main-2027-registration-date-live-session-1-application-form-check-documents-required-steps-to-apply-exam-guidelines-12213007#publisher=newsstand"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 4,
+      "combined_score": 2.2,
+      "brief_bullets": [
+        "The Board of Intermediate Education in Andhra Pradesh has officially released the detailed date sheet for the 2027 first and second-year intermediate examinations on its official portal. According to the published schedule, the first-year examinations are slated to run from February 24 through March 15, 2027, with daily three-hour papers administered across designated state centers. This early announcement allows lakhs of students, educational institutions, and administrative bodies to streamline their academic planning and preparation timelines ahead of competitive entrance exams."
+      ],
+      "why_it_matters_bullets": [
+        "Early exam schedules ensure structured academic planning, reducing student stress and aligning secondary assessments with national competitive testing timelines."
+      ],
+      "brief": "The Board of Intermediate Education in Andhra Pradesh has officially released the detailed date sheet for the 2027 first and second-year intermediate examinations on its official portal. According to the published schedule, the first-year examinations are slated to run from February 24 through March 15, 2027, with daily three-hour papers administered across designated state centers. This early announcement allows lakhs of students, educational institutions, and administrative bodies to streamline their academic planning and preparation timelines ahead of competitive entrance exams. Early exam schedules ensure structured academic planning, reducing student stress and aligning secondary assessments with national competitive testing timelines.",
+      "brief_word_count": 99
+    },
+    {
+      "story_id": "story-53",
+      "category": "Geopolitics",
+      "primary_headline": "Protests against SIR LIVE: Delhi Police issue traffic advisory ahead of stir",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Protests against SIR LIVE: Delhi Police issue traffic advisory ahead of stir",
+        "published_at": "Fri, 23 Oct 2026 13:27:14 +0530",
+        "url": "https://www.thehindu.com/news/national/samyukt-kisan-morcha-anti-cec-protest-gyanesh-kumar-live-updates-jantar-mantar-ramila-ground-delhi-october-23/article71615036.ece",
+        "content": "Samyukt Kisan Morcha and ‘People Against SIR’ platform are protesting nationwide; various trade unions and civil society organisations have pledged support to the farmers’ march"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Protests against SIR LIVE: Delhi Police issue traffic advisory ahead of stir",
+          "published_at": "Fri, 23 Oct 2026 13:27:14 +0530",
+          "url": "https://www.thehindu.com/news/national/samyukt-kisan-morcha-anti-cec-protest-gyanesh-kumar-live-updates-jantar-mantar-ramila-ground-delhi-october-23/article71615036.ece"
+        },
+        {
+          "source_name": "The Hindu",
+          "headline": "Delhi SIR: revised data show sharp increase in Form 6 disposal rate",
+          "published_at": "Fri, 23 Oct 2026 11:09:02 +0530",
+          "url": "https://www.thehindu.com/news/cities/Delhi/delhi-sir-revised-data-show-sharp-increase-in-form-6-disposal-rate/article71613317.ece"
         },
         {
           "source_name": "The Indian Express",
-          "headline": "From door-to-door visits to special booths, Noida BLOs say SIR work ‘never stopped’",
-          "published_at": "Sun, 18 Oct 2026 02:26:49 +0000",
-          "url": "https://indianexpress.com/article/cities/delhi/sir-exercise-door-door-special-booths-noida-blos-work-10926403/"
+          "headline": "Delhi Protest Live Updates: Traffic diversion near Bangla Sahib Gurudwara, Jantar Mantar till 5pm amid call for anti-CEC protest",
+          "published_at": "Fri, 23 Oct 2026 04:06:18 +0000",
+          "url": "https://indianexpress.com/article/india/skm-people-against-sir-protest-live-updates-delhi-neha-bora-high-court-verdict-samyukt-kisan-morcha-10933122/"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 3,
+      "combined_score": 1.93,
+      "brief_bullets": [
+        "The Samyukt Kisan Morcha and the People Against SIR platform have organized nationwide protests alongside allied trade unions and civil society organizations targeting the Chief Election Commissioner. In response to the planned demonstrations near Jantar Mantar and Bangla Sahib Gurudwara, the Delhi Police issued comprehensive traffic advisories and implemented strategic road diversions. While administrative data indicates variable processing rates for electoral forms, the unfolding civil unrest underscores mounting pressure from coalition-led advocacy groups regarding institutional transparency, carrying significant operational disruptions for the capital's commuter networks."
+      ],
+      "why_it_matters_bullets": [
+        "These coordinated nationwide demonstrations threaten significant urban disruption and test the government's capacity to manage populist civil dissent."
+      ],
+      "brief": "The Samyukt Kisan Morcha and the People Against SIR platform have organized nationwide protests alongside allied trade unions and civil society organizations targeting the Chief Election Commissioner. In response to the planned demonstrations near Jantar Mantar and Bangla Sahib Gurudwara, the Delhi Police issued comprehensive traffic advisories and implemented strategic road diversions. While administrative data indicates variable processing rates for electoral forms, the unfolding civil unrest underscores mounting pressure from coalition-led advocacy groups regarding institutional transparency, carrying significant operational disruptions for the capital's commuter networks. These coordinated nationwide demonstrations threaten significant urban disruption and test the government's capacity to manage populist civil dissent.",
+      "brief_word_count": 103
+    },
+    {
+      "story_id": "story-57",
+      "category": "Society",
+      "primary_headline": "Expelled former Udupi MLA Raghupathi Bhat wants to return to BJP",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Expelled former Udupi MLA Raghupathi Bhat wants to return to BJP",
+        "published_at": "Fri, 23 Oct 2026 13:09:04 +0530",
+        "url": "https://www.thehindu.com/news/cities/Mangalore/expelled-former-udupi-mla-raghupathi-bhat-wants-to-return-to-bjp/article71612469.ece",
+        "content": "Mr. Bhat said he has not yet decided whether to contest the 2028 Assembly elections as a candidate for a political party or as an independent"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Expelled former Udupi MLA Raghupathi Bhat wants to return to BJP",
+          "published_at": "Fri, 23 Oct 2026 13:09:04 +0530",
+          "url": "https://www.thehindu.com/news/cities/Mangalore/expelled-former-udupi-mla-raghupathi-bhat-wants-to-return-to-bjp/article71612469.ece"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Ex-BJP MLA JD Solanki returns to Congress, says anti-social elements ‘ruling’ Kodinar",
+          "published_at": "Thu, 22 Oct 2026 23:10:16 +0000",
+          "url": "https://indianexpress.com/article/cities/ahmedabad/jd-solanki-returns-congress-gujarat-10932965/"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Eight MLAs, one month: How a BJP ally was reduced to 1 legislator",
+          "published_at": "Thu, 22 Oct 2026 12:27:04 +0000",
+          "url": "https://indianexpress.com/article/political-pulse/meghalaya-udp-mlas-join-bjp-npp-party-crisis-10932470/"
         }
       ],
       "source_count": 2,
       "total_count": 3,
       "combined_score": 1.9,
       "brief_bullets": [
-        "Voters residing at the same address for multiple decades express anger that they were marked ‘untraceable’, ‘absent’, and permanently shifted, and their only option is to enrol afresh using Form 6 Door-to-door BLO visits expected to include ‘left-out’ voters in Delhi SIR From door-to-door visits to special booths, Noida BLOs say SIR work ‘never stopped’.",
-        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Delhi SIR: Public audit in two booths find over 100 voters wrongly marked absent, shifted, or dead'.",
-        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
-        "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
+        "Expelled former Udupi MLA Raghupathi Bhat has expressed his desire to return to the Bharatiya Janata Party, though he remains undecided on whether to contest the upcoming 2028 Assembly elections under a party banner or as an independent candidate. This development unfolds amidst broader regional political realignments and defections across Karnataka and neighboring constituencies, reflecting fluid alliances and shifting loyalties within the ruling and opposition camps. Bhat's potential reintegration highlights ongoing internal negotiations within the BJP as party leadership weighs the strategic value of welcoming back seasoned incumbents ahead of future electoral contests."
       ],
       "why_it_matters_bullets": [
-        "Shapes tournament standings and competitive momentum ahead of upcoming qualifying fixtures."
+        "Reintegrating expelled veterans could either strengthen BJP's grassroots cohesion or ignite internal friction ahead of 2028."
       ],
-      "brief": "Voters residing at the same address for multiple decades express anger that they were marked ‘untraceable’, ‘absent’, and permanently shifted, and their only option is to enrol afresh using Form 6 Door-to-door BLO visits expected to include ‘left-out’ voters in Delhi SIR From door-to-door visits to special booths, Noida BLOs say SIR work ‘never stopped’. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Delhi SIR: Public audit in two booths find over 100 voters wrongly marked absent, shifted, or dead'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Shapes tournament standings and competitive momentum ahead of upcoming qualifying fixtures.",
-      "brief_word_count": 127
-    },
-    {
-      "story_id": "story-56",
-      "category": "Sports",
-      "primary_headline": "Nottingham Forest v Arsenal: Premier League – live",
-      "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "Nottingham Forest v Arsenal: Premier League – live",
-        "published_at": "Sun, 18 Oct 2026 17:04:31 GMT",
-        "url": "https://www.theguardian.com/football/live/2026/oct/18/nottingham-forest-v-arsenal-premier-league-live",
-        "content": "⚽ Updates from the City Ground; kick-off 4.30pm BST⚽ Scores | Tables | Read Football Daily | Mail DanielForest will want – and probably need – to make this game a mess. If it’s open and played through midfield, Arsenal will open them up because, with the guile they’ve added by buying Guimaraes, along with an in-form Odegaard, they have the ability to exploit space. For that reason, Forest need bodies everywhere, especially in the middle of the pitch, forcing them wide, where Saka might just’ve lost the spring in his acceleration following last season’s achilles injury while, on the other side, Eze isn’t going to go on the outside.Elsewhere, 10-man Sunderland trail Bournemouth 2-0 with seconds remaining, while Brighton have splattered Palace 5-0 to move second above Arsenal, their goal difference +18. Ridiculous behaviour. Continue reading..."
-      },
-      "sources": [
-        {
-          "source_name": "The Guardian",
-          "headline": "Nottingham Forest v Arsenal: Premier League – live",
-          "published_at": "Sun, 18 Oct 2026 17:04:31 GMT",
-          "url": "https://www.theguardian.com/football/live/2026/oct/18/nottingham-forest-v-arsenal-premier-league-live"
-        },
-        {
-          "source_name": "Sky Sports",
-          "headline": "Arsenal pushing for breakthrough at Forest LIVE! &amp; highlights",
-          "published_at": "Sun, 18 Oct 2026 14:55:00 BST",
-          "url": "https://www.skysports.com/football/nottingham-forest-vs-arsenal/live/559512"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
-      "brief_bullets": [
-        "⚽ Updates from the City Ground; kick-off 4.",
-        "30pm BST⚽ Scores | Tables | Read Football Daily | Mail DanielForest will want – and probably need – to make this game a mess.",
-        "If it’s open and played through midfield, Arsenal will open them up because, with the guile they’ve added by buying Guimaraes, along with an in-form Odegaard, they have the ability to exploit space.",
-        "For that reason, Forest need bodies everywhere, especially in the middle of the pitch, forcing them wide, where Saka might just’ve lost the spring in his acceleration following last season’s achilles injury while, on the other side, Eze isn’t going to go on the outside.",
-        "Elsewhere, 10-man Sunderland trail Bournemouth 2-0 with seconds remaining, while Brighton have splattered Palace 5-0 to move second above Arsenal, their goal difference +18.",
-        "Ridiculous behaviour."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "⚽ Updates from the City Ground; kick-off 4. 30pm BST⚽ Scores | Tables | Read Football Daily | Mail DanielForest will want – and probably need – to make this game a mess. If it’s open and played through midfield, Arsenal will open them up because, with the guile they’ve added by buying Guimaraes, along with an in-form Odegaard, they have the ability to exploit space. For that reason, Forest need bodies everywhere, especially in the middle of the pitch, forcing them wide, where Saka might just’ve lost the spring in his acceleration following last season’s achilles injury while, on the other side, Eze isn’t going to go on the outside. Elsewhere, 10-man Sunderland trail Bournemouth 2-0 with seconds remaining, while Brighton have splattered Palace 5-0 to move second above Arsenal, their goal difference +18. Ridiculous behaviour. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 150
-    },
-    {
-      "story_id": "story-57",
-      "category": "Society",
-      "primary_headline": "Texans beat Jaguars at the last; Bears v Falcons, Ravens v Browns and more: NFL week six – live",
-      "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "Texans beat Jaguars at the last; Bears v Falcons, Ravens v Browns and more: NFL week six – live",
-        "published_at": "Sun, 18 Oct 2026 16:58:44 GMT",
-        "url": "https://www.theguardian.com/sport/live/2026/oct/18/texans-v-jaguars-nfl-week-six-live",
-        "content": "Texans 34-31 Jaguars in Wembley thrillerWeek six: Seahawks 14-17 Broncos | Email GrahamSpeaking to how good they are against the run, the Jaguars have gone 22 games without allowing a rusher to go for more than 75 yards. Good luck, Woody.Texans 0-0 Jaguars 11:08, 1st quarter Continue reading..."
-      },
-      "sources": [
-        {
-          "source_name": "The Guardian",
-          "headline": "Texans beat Jaguars at the last; Bears v Falcons, Ravens v Browns and more: NFL week six – live",
-          "published_at": "Sun, 18 Oct 2026 16:58:44 GMT",
-          "url": "https://www.theguardian.com/sport/live/2026/oct/18/texans-v-jaguars-nfl-week-six-live"
-        },
-        {
-          "source_name": "Sky Sports",
-          "headline": "NFL London LIVE! Last-second field goal AGAIN as Texans beat Jags",
-          "published_at": "Sun, 18 Oct 2026 14:00:00 BST",
-          "url": "https://www.skysports.com/nfl/live-blog/12040/13600279/nfl-london-games-2026-live-updates-result-highlights-from-jacksonville-jaguars-against-houston-texans-at-wembley-stadium"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
-      "brief_bullets": [
-        "Texans 34-31 Jaguars in Wembley thrillerWeek six: Seahawks 14-17 Broncos | Email GrahamSpeaking to how good they are against the run, the Jaguars have gone 22 games without allowing a rusher to go for more than 75 yards.",
-        "Good luck, Woody.",
-        "Texans 0-0 Jaguars 11:08, 1st quarter.",
-        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Texans beat Jaguars at the last; Bears v Falcons, Ravens v Browns and more: NFL week six'."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "Texans 34-31 Jaguars in Wembley thrillerWeek six: Seahawks 14-17 Broncos | Email GrahamSpeaking to how good they are against the run, the Jaguars have gone 22 games without allowing a rusher to go for more than 75 yards. Good luck, Woody. Texans 0-0 Jaguars 11:08, 1st quarter. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Texans beat Jaguars at the last; Bears v Falcons, Ravens v Browns and more: NFL week six'. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 90
+      "brief": "Expelled former Udupi MLA Raghupathi Bhat has expressed his desire to return to the Bharatiya Janata Party, though he remains undecided on whether to contest the upcoming 2028 Assembly elections under a party banner or as an independent candidate. This development unfolds amidst broader regional political realignments and defections across Karnataka and neighboring constituencies, reflecting fluid alliances and shifting loyalties within the ruling and opposition camps. Bhat's potential reintegration highlights ongoing internal negotiations within the BJP as party leadership weighs the strategic value of welcoming back seasoned incumbents ahead of future electoral contests. Reintegrating expelled veterans could either strengthen BJP's grassroots cohesion or ignite internal friction ahead of 2028.",
+      "brief_word_count": 109
     },
     {
       "story_id": "story-58",
-      "category": "Sports",
-      "primary_headline": "Tilak Varma relishes new role as finisher",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Tilak Varma relishes new role as finisher",
-        "published_at": "Sun, 18 Oct 2026 16:42:16 +0000",
-        "url": "https://www.deccanherald.com/sports/cricket/tilak-is-relishing-finishing-games-4187485",
-        "content": " Bengaluru: India’s T20I vice-captain Tilak Varma has never shied away from talking his heart out. And for someone who loves pace on the ball and batting at No. 3, dropping down to No. 5 or even No. 6 is not an ideal situation to be in.However, for Tilak, who rarely gets to bat in his preferred position in a changed set-up, versatility has been his biggest strength.&amp;nbsp;Asian Games 2026 | Abhishek Sharma, Tilak Varma do the star turn as India beat Pakistan by 19 runs to defend titleFrom the third T20I against South Africa in Dharamsala in December 2025 to the T20 World Cup (Super Eights vs South Africa) in Ahmedabad in February, Tilak regularly batted at No. 3 for seven straight games.And since his debut, if not on some rare occasion, Tilak has been a standard in India’s T20 top-four. Once Sanju Samson returned to the XI to accompany Abhishek Sharma at the top, and with Ishan Kishan playing one drop, Tilak was pushed down the order as a floating option. He admits that the situation is “unfortunate”, but India’s vice-captain also understands what it means to be a team-player, while enjoying the role of a finisher. “It is not easy to change the numbers (batting) from No. 3 to No. 5 and No. 6. It will be slightly challenging. But I have been working on that, especially how to finish the games. I have said I love finishing the games for India,” Tilak said after the series-deciding fifth T20I was called off due to persistent rain.For me as an individual, if you see, it will be easier batting at 3. But unfortunately, I should bat at 5 or 6 because we have got that combination at the top right now. Kishan (Ishan) is batting at 3, and he is doing brilliantly. I think there is no option but to bat at five or six and do the job.&quot;Talking about his role clarity and preparation in his transition to a T20I finisher, Tilak highlighted he’s got all the shots in the book and is confident of changing positions with just a few sessions in the nets. And the numbers are impressive: averaging 65.66 in nine games.“We should do that (working on his skills as a finisher), otherwise, it will be tough. When you go in to bat as a finisher, if the ball comes in your arc, you should try to hit it for a six. Because, if you see in T20s, most of the time in this role, you get to bat a maximum of five or six overs.“If you see, I have been in this role in my childhood as well. I have got shots all over the ground. So I am confident that whether I bat at three or five, I have got the technique to adapt, and if I practice for a day or two, I can do any role for the team. Now even if I come back to No. 3, I can adapt within a day or two of practice. I am confident of batting anywhere,” he said. "
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Tilak Varma relishes new role as finisher",
-          "published_at": "Sun, 18 Oct 2026 16:42:16 +0000",
-          "url": "https://www.deccanherald.com/sports/cricket/tilak-is-relishing-finishing-games-4187485"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Tilak Varma on switching from No. 3 to middle-order: ‘There is no option’",
-          "published_at": "Sun, 18 Oct 2026 03:31:25 +0000",
-          "url": "https://indianexpress.com/article/sports/cricket/tilak-varma-india-west-indies-switching-no-3-middle-order-10926411/"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
-      "brief_bullets": [
-        "Bengaluru: India’s T20I vice-captain Tilak Varma has never shied away from talking his heart out.",
-        "And for someone who loves pace on the ball and batting at No.",
-        "3, dropping down to No.",
-        "6 is not an ideal situation to be in.",
-        "However, for Tilak, who rarely gets to bat in his preferred position in a changed set-up, versatility has been his biggest strength.&nbsp;Asian Games 2026 | Abhishek Sharma, Tilak Varma do the star turn as India beat Pakistan by 19 runs to defend titleFrom the third T20I against South Africa in Dharamsala in December 2025 to the T20 World Cup (Super Eights vs South Africa) in Ahmedabad in February, Tilak regularly batted at No.",
-        "3 for seven straight games."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "Bengaluru: India’s T20I vice-captain Tilak Varma has never shied away from talking his heart out. And for someone who loves pace on the ball and batting at No. 3, dropping down to No. 6 is not an ideal situation to be in. However, for Tilak, who rarely gets to bat in his preferred position in a changed set-up, versatility has been his biggest strength.&nbsp;Asian Games 2026 | Abhishek Sharma, Tilak Varma do the star turn as India beat Pakistan by 19 runs to defend titleFrom the third T20I against South Africa in Dharamsala in December 2025 to the T20 World Cup (Super Eights vs South Africa) in Ahmedabad in February, Tilak regularly batted at No. 3 for seven straight games. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 133
-    },
-    {
-      "story_id": "story-59",
       "category": "Geopolitics",
-      "primary_headline": "Youth organisations attempt march to Jantar Mantar seeking CEC’s resignation; several detained",
+      "primary_headline": "Tamil Nadu government releases list of public holidays for 2027",
       "primary_source": {
         "source_name": "The Hindu",
-        "headline": "Youth organisations attempt march to Jantar Mantar seeking CEC’s resignation; several detained",
-        "published_at": "Sun, 18 Oct 2026 22:03:58 +0530",
-        "url": "https://www.thehindu.com/news/national/youth-organisations-attempt-march-to-jantar-mantar-seeking-cecs-resignation-several-detained/article71600610.ece",
-        "content": "We will continue our democratic struggle against the politicisation of the Election Commission, says NSUI national president Vinod Jakhar"
+        "headline": "Tamil Nadu government releases list of public holidays for 2027",
+        "published_at": "Fri, 23 Oct 2026 13:04:36 +0530",
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-government-releases-list-of-public-holidays-for-2027/article71611311.ece",
+        "content": ""
       },
       "sources": [
         {
           "source_name": "The Hindu",
-          "headline": "Youth organisations attempt march to Jantar Mantar seeking CEC’s resignation; several detained",
-          "published_at": "Sun, 18 Oct 2026 22:03:58 +0530",
-          "url": "https://www.thehindu.com/news/national/youth-organisations-attempt-march-to-jantar-mantar-seeking-cecs-resignation-several-detained/article71600610.ece"
+          "headline": "Tamil Nadu government releases list of public holidays for 2027",
+          "published_at": "Fri, 23 Oct 2026 13:04:36 +0530",
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-government-releases-list-of-public-holidays-for-2027/article71611311.ece"
         },
         {
-          "source_name": "The Print",
-          "headline": "I walked into Jantar Mantar a nervous student. I walked out a citizen - ThePrint",
-          "published_at": "Sun, 18 Oct 2026 08:37:30 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdFo5azVOR2ZJYUtsVW4yaUc5Q3lDd3ZxQ09MVnNEYUluQzdQYlhualRrbU53OXRCX3E5TXN0ajZyNk9ES3A2SmdXcVlHRmpLOE5zNlNZN29nYzhLQUlOci1TeERXclFrVHZPWnZ0VG1GX2JBc2twRmZKaVEzZlhWYWJiMzZoZWNNT0lVb1kxWU5fbzJBQ0hMNzMxaFFkaEd2VnZxZUgzNDRjbUJlSWfSAbMBQVVfeXFMUHNjRVYyR3R3UzZfWXdZZDY2YmVua2hlcW50S2d1bURXLTJVd3FHSXFXMXNHVzBldElEeHdtV01QSlBHbkN3NkFmS1owYzktdWdHcUJiX21WZkxPcjFYMEcxYm5meEhXaERYNHhpMTg5VTBJSDJwRV80X3RaY21saFFVZ1ZfbGNabzJKblNVNkEyTjFDcVN5eVpEcWU2eXJ3NmZXSGxIQVhZMXpRX2JrUlRkU00?oc=5"
+          "source_name": "The Hindu",
+          "headline": "Rains lash Tamil Nadu; schools closed in many districts on October 23",
+          "published_at": "Fri, 23 Oct 2026 11:44:54 +0530",
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-rain-heavy-rains-school-declared-holidays-updates-on-october-23-2026/article71614697.ece"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "YouTuber Jason Samuel arrested over finance influencer Harish’s suicide in Tamil Nadu",
+          "published_at": "Thu, 22 Oct 2026 14:03:19 +0000",
+          "url": "https://indianexpress.com/article/india/youtuber-jason-samuel-arrested-over-finance-influencer-harishs-suicide-in-tamil-nadu-10932622/"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 3,
+      "combined_score": 1.9,
+      "brief_bullets": [
+        "The Tamil Nadu government has officially released its comprehensive list of public holidays for the year 2027, establishing the state-wide administrative calendar well in advance. In separate regional developments, multiple districts including Villupuram, Kallakurichi, Vellore, Puducherry, and Karaikal declared urgent school closures due to severe weather conditions. Meanwhile, state law enforcement authorities arrested prominent YouTuber Jason Samuel in connection with the tragic suicide of financial influencer Harish, signaling intensifying regulatory and legal scrutiny over digital content creators within the region."
+      ],
+      "why_it_matters_bullets": [
+        "Proactive holiday scheduling ensures administrative continuity while regional weather and high-profile arrests highlight escalating local governance and digital accountability challenges."
+      ],
+      "brief": "The Tamil Nadu government has officially released its comprehensive list of public holidays for the year 2027, establishing the state-wide administrative calendar well in advance. In separate regional developments, multiple districts including Villupuram, Kallakurichi, Vellore, Puducherry, and Karaikal declared urgent school closures due to severe weather conditions. Meanwhile, state law enforcement authorities arrested prominent YouTuber Jason Samuel in connection with the tragic suicide of financial influencer Harish, signaling intensifying regulatory and legal scrutiny over digital content creators within the region. Proactive holiday scheduling ensures administrative continuity while regional weather and high-profile arrests highlight escalating local governance and digital accountability challenges.",
+      "brief_word_count": 100
+    },
+    {
+      "story_id": "story-59",
+      "category": "Society",
+      "primary_headline": "Changing City: Thane-Bhiwandi Metro Line 5 inches closer to opening, trials next week",
+      "primary_source": {
+        "source_name": "The Indian Express",
+        "headline": "Changing City: Thane-Bhiwandi Metro Line 5 inches closer to opening, trials next week",
+        "published_at": "Fri, 23 Oct 2026 07:17:33 +0000",
+        "url": "https://indianexpress.com/article/cities/mumbai/changing-city-thane-bhiwandi-metro-line-5-opening-trials-next-week-10933388/",
+        "content": ""
+      },
+      "sources": [
+        {
+          "source_name": "The Indian Express",
+          "headline": "Changing City: Thane-Bhiwandi Metro Line 5 inches closer to opening, trials next week",
+          "published_at": "Fri, 23 Oct 2026 07:17:33 +0000",
+          "url": "https://indianexpress.com/article/cities/mumbai/changing-city-thane-bhiwandi-metro-line-5-opening-trials-next-week-10933388/"
+        },
+        {
+          "source_name": "The Hindu",
+          "headline": "Bengaluru Pink Line Metro opening approval expected within five days; Blue Line trial runs by October-end",
+          "published_at": "Fri, 23 Oct 2026 10:42:58 +0530",
+          "url": "https://www.thehindu.com/news/national/karnataka/bengaluru-pink-line-metro-opening-approval-expected-within-five-days-blue-line-trial-runs-by-october-end/article71612366.ece"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Bengaluru’s KR Puram–Silk Board Metro trial runs by October end",
+          "published_at": "Fri, 23 Oct 2026 04:13:49 +0000",
+          "url": "https://indianexpress.com/article/cities/bangalore/bengaluru-metro-blue-line-trials-kr-puram-silk-board-10933185/"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 3,
+      "combined_score": 1.9,
+      "brief_bullets": [
+        "Thane-Bhiwandi Metro Line 5 is advancing rapidly toward its operational phase, with trial runs scheduled to commence next week following a comprehensive progress review by transit authorities. This crucial transit milestone coincides with accelerated infrastructure directives for Bengaluru's delayed Blue Line corridors, reflecting heightened governmental focus on expanding urban rail networks and alleviating severe metropolitan congestion. As regional authorities push to meet ambitious late-year trial deadlines, these expansions highlight a broader national push to modernize public mass transit systems and enhance intercity economic connectivity."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerated metro trials significantly improve urban mobility and reduce chronic commuter congestion across major metropolitan corridors."
+      ],
+      "brief": "Thane-Bhiwandi Metro Line 5 is advancing rapidly toward its operational phase, with trial runs scheduled to commence next week following a comprehensive progress review by transit authorities. This crucial transit milestone coincides with accelerated infrastructure directives for Bengaluru's delayed Blue Line corridors, reflecting heightened governmental focus on expanding urban rail networks and alleviating severe metropolitan congestion. As regional authorities push to meet ambitious late-year trial deadlines, these expansions highlight a broader national push to modernize public mass transit systems and enhance intercity economic connectivity. Accelerated metro trials significantly improve urban mobility and reduce chronic commuter congestion across major metropolitan corridors.",
+      "brief_word_count": 100
+    },
+    {
+      "story_id": "story-80",
+      "category": "Geopolitics",
+      "primary_headline": "CMRL-Exalogic pay-off case: Kerala HC to hear Pinarayi Vijayan, kin’s appeal against FIR order on October 26",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "CMRL-Exalogic pay-off case: Kerala HC to hear Pinarayi Vijayan, kin’s appeal against FIR order on October 26",
+        "published_at": "Fri, 23 Oct 2026 13:28:35 +0530",
+        "url": "https://www.thehindu.com/news/national/kerala/cmrl-exalogic-pay-off-case-kerala-hc-to-hear-pinarayi-vijayan-kins-appeal-against-fir-order-on-october-26/article71614865.ece",
+        "content": "A Division Bench had denied former Chief Minister the permission to appeal against Single Bench order, after which he approached Supreme Court, which stayed the order for seven days and redirected the matter to be considered again"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "CMRL-Exalogic pay-off case: Kerala HC to hear Pinarayi Vijayan, kin’s appeal against FIR order on October 26",
+          "published_at": "Fri, 23 Oct 2026 13:28:35 +0530",
+          "url": "https://www.thehindu.com/news/national/kerala/cmrl-exalogic-pay-off-case-kerala-hc-to-hear-pinarayi-vijayan-kins-appeal-against-fir-order-on-october-26/article71614865.ece"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "CMRL bribery case: Kerala High Court posts Vijayan, family’s appeals against FIR order to October 26",
+          "published_at": "Fri, 23 Oct 2026 07:47:13 +0000",
+          "url": "https://www.deccanherald.com/india/keralam/court-posts-vijayan-familys-appeals-against-fir-order-to-october-26-4192324"
         }
       ],
       "source_count": 2,
       "total_count": 2,
       "combined_score": 1.6,
       "brief_bullets": [
-        "We will continue our democratic struggle against the politicisation of the Election Commission, says NSUI national president Vinod Jakhar I walked into Jantar Mantar a nervous student.",
-        "I walked out a citizen ThePrint.",
-        "The political development reflects shifting legislative momentum and institutional scrutiny across key administrative decision-making bodies.",
-        "Constitutional observers and policy strategists note that ongoing deliberations will establish critical regulatory and legal precedents."
+        "A Division Bench had denied former Chief Minister the permission to appeal against Single Bench order, after which he approached Supreme Court, which stayed the order for seven days and redirected the matter to be considered again Kochi: The Kerala High Court on Friday posted to October 26 the appeals filed by former Chief Minister Pinarayi Vijayan and his family members challenging a single judge's order directing the registration of an FIR against them in the alleged CMRL bribery case.",
+        "The appeals filed by Vijayan, his daughter Veena T and son-in-law P A Muhammed Riyas MLA, came up before a Division Bench comprising Justice Sathish Ninan and Justice P Krishna Kumar, which posted the matter for further hearing on Monday."
       ],
       "why_it_matters_bullets": [
-        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
       ],
-      "brief": "We will continue our democratic struggle against the politicisation of the Election Commission, says NSUI national president Vinod Jakhar I walked into Jantar Mantar a nervous student. I walked out a citizen ThePrint. The political development reflects shifting legislative momentum and institutional scrutiny across key administrative decision-making bodies. Constitutional observers and policy strategists note that ongoing deliberations will establish critical regulatory and legal precedents. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 78
+      "brief": "A Division Bench had denied former Chief Minister the permission to appeal against Single Bench order, after which he approached Supreme Court, which stayed the order for seven days and redirected the matter to be considered again Kochi: The Kerala High Court on Friday posted to October 26 the appeals filed by former Chief Minister Pinarayi Vijayan and his family members challenging a single judge's order directing the registration of an FIR against them in the alleged CMRL bribery case. The appeals filed by Vijayan, his daughter Veena T and son-in-law P A Muhammed Riyas MLA, came up before a Division Bench comprising Justice Sathish Ninan and Justice P Krishna Kumar, which posted the matter for further hearing on Monday. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 134
     },
     {
-      "story_id": "story-80",
+      "story_id": "story-81",
       "category": "Society",
-      "primary_headline": "Saba Ali Khan on being single at 50: ‘I will not compromise just for the sake of marriage’",
+      "primary_headline": "Golden Chariot revamped, fully booked for the first time",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Golden Chariot revamped, fully booked for the first time",
+        "published_at": "Fri, 23 Oct 2026 13:10:24 +0530",
+        "url": "https://www.thehindu.com/news/national/karnataka/golden-chariot-revamped-fully-booked-for-the-first-time/article71611630.ece",
+        "content": "The food menu on the train has been diversified, includes Jain and gluten-free options"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Golden Chariot revamped, fully booked for the first time",
+          "published_at": "Fri, 23 Oct 2026 13:10:24 +0530",
+          "url": "https://www.thehindu.com/news/national/karnataka/golden-chariot-revamped-fully-booked-for-the-first-time/article71611630.ece"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Karnataka’s Golden Chariot luxury train from Oct 24: routes, fares, booking",
+          "published_at": "Thu, 22 Oct 2026 12:56:39 +0000",
+          "url": "https://indianexpress.com/article/cities/bangalore/karnataka-golden-chariot-train-routes-fares-booking-10932508/"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.6,
+      "brief_bullets": [
+        "The food menu on the train has been diversified, includes Jain and gluten-free options Karnataka’s Golden Chariot luxury train from Oct 24: routes, fares, booking.",
+        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Golden Chariot revamped, fully booked for the first time'.",
+        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
+        "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "The food menu on the train has been diversified, includes Jain and gluten-free options Karnataka’s Golden Chariot luxury train from Oct 24: routes, fares, booking. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Golden Chariot revamped, fully booked for the first time'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 91
+    },
+    {
+      "story_id": "story-82",
+      "category": "Society",
+      "primary_headline": "Speaker Sets Deadline For Decision On AIADMK Rebel MLAs Who Joined Vijay's TVK",
+      "primary_source": {
+        "source_name": "NDTV",
+        "headline": "Speaker Sets Deadline For Decision On AIADMK Rebel MLAs Who Joined Vijay's TVK",
+        "published_at": "Fri, 23 Oct 2026 13:07:42 +0530",
+        "url": "https://www.ndtv.com/india-news/tamil-nadu-speaker-sets-deadline-for-decision-on-aiadmk-rebel-mlas-who-joined-vijays-tvk-12224307#publisher=newsstand",
+        "content": "AIADMK has sought disqualification of six former AIADMK MLAs who switched to the ruling TVK. Speaker has set November 17 date for final argument."
+      },
+      "sources": [
+        {
+          "source_name": "NDTV",
+          "headline": "Speaker Sets Deadline For Decision On AIADMK Rebel MLAs Who Joined Vijay's TVK",
+          "published_at": "Fri, 23 Oct 2026 13:07:42 +0530",
+          "url": "https://www.ndtv.com/india-news/tamil-nadu-speaker-sets-deadline-for-decision-on-aiadmk-rebel-mlas-who-joined-vijays-tvk-12224307#publisher=newsstand"
+        },
+        {
+          "source_name": "The Print",
+          "headline": "Decision on 20 rebel TMC MPs after receiving responses: Speaker Om Birla - ThePrint",
+          "published_at": "Thu, 22 Oct 2026 11:45:18 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPR29BUC04S3BOMzhJc283MmQzNTBKRnJuc25iYUV1VHpBbDFFVER3aWFzd01EdUExUkZFVXNZUFA1NC1GcExJb1IxTTVKbkk0VTlRazlnSlNmS1VYYlBYa244RUw4LXpYNkR1VFp3YkRPdnNMNExmN0pWeGZaM0piMmtQaVpxUzFpSC1ZdldsMzJ1Q3lQemxFU0dmMEZIazdXT2xjTDFsTW1md9IBrwFBVV95cUxQMWQwRWVxSFBPRGFRYmNYcDVfeDhiVlZvd195Ym84NllBUFhNYUlSeVJveHhyX2stNVUwRGFneHp6OWpYSEJaZ2Rtc3Bsb3JMXzNkTUZMZGREbmxzczFZVzFVSXpDcGk4ZE1aWjVjdExYZGxZZk9wMk9EV3pBZUdkMUpabGlQVTB5am9jSnlPOERwT0hXRlluM2JfRlNaVFdLWmIycXlwRGJEM1JIRTNB?oc=5"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.6,
+      "brief_bullets": [
+        "AIADMK has sought disqualification of six former AIADMK MLAs who switched to the ruling TVK.",
+        "Speaker has set November 17 date for final argument.",
+        "Decision on 20 rebel TMC MPs after receiving responses: Speaker Om Birla ThePrint.",
+        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Speaker Sets Deadline For Decision On AIADMK Rebel MLAs Who Joined Vijay's TVK'."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "AIADMK has sought disqualification of six former AIADMK MLAs who switched to the ruling TVK. Speaker has set November 17 date for final argument. Decision on 20 rebel TMC MPs after receiving responses: Speaker Om Birla ThePrint. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Speaker Sets Deadline For Decision On AIADMK Rebel MLAs Who Joined Vijay's TVK'. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 76
+    },
+    {
+      "story_id": "story-51",
+      "category": "Society",
+      "primary_headline": "‘Daler Mehndi was ill but worked in peak winter’: Raaj Shaandilyaa recalls film shoot in 2024",
       "primary_source": {
         "source_name": "The Indian Express",
-        "headline": "Saba Ali Khan on being single at 50: ‘I will not compromise just for the sake of marriage’",
-        "published_at": "Sun, 18 Oct 2026 16:30:31 +0000",
-        "url": "https://indianexpress.com/article/lifestyle/saba-ali-khan-single-at-50-marriage-10921331/",
-        "content": "Saba Ali Khan opens up about being single at 50, her expectations from a life partner and why mutual respect, trust and friendship matter more than chemistry."
+        "headline": "‘Daler Mehndi was ill but worked in peak winter’: Raaj Shaandilyaa recalls film shoot in 2024",
+        "published_at": "Fri, 23 Oct 2026 07:43:31 +0000",
+        "url": "https://indianexpress.com/article/entertainment/bollywood/daler-mehndi-was-ill-but-worked-in-peak-winter-raaj-shandilya-uttarakhand-minister-daler-controversy-10933287/",
+        "content": ""
       },
       "sources": [
         {
           "source_name": "The Indian Express",
-          "headline": "Saba Ali Khan on being single at 50: ‘I will not compromise just for the sake of marriage’",
-          "published_at": "Sun, 18 Oct 2026 16:30:31 +0000",
-          "url": "https://indianexpress.com/article/lifestyle/saba-ali-khan-single-at-50-marriage-10921331/"
+          "headline": "‘Daler Mehndi was ill but worked in peak winter’: Raaj Shaandilyaa recalls film shoot in 2024",
+          "published_at": "Fri, 23 Oct 2026 07:43:31 +0000",
+          "url": "https://indianexpress.com/article/entertainment/bollywood/daler-mehndi-was-ill-but-worked-in-peak-winter-raaj-shandilya-uttarakhand-minister-daler-controversy-10933287/"
         },
         {
           "source_name": "The Indian Express",
-          "headline": "‘What is your educational status?’: Saif Ali Khan, Kareena Kapoor bicker over Taimur’s studies",
-          "published_at": "Sun, 18 Oct 2026 09:42:25 +0000",
-          "url": "https://indianexpress.com/article/entertainment/bollywood/saif-ali-khan-kareena-kapoor-bicker-over-taimurs-studies-on-kapil-sharma-show-10926705/"
+          "headline": "Daler Mehndi’s son on singer’s health amid Uttarakhand concert row: ‘He’s first class’",
+          "published_at": "Fri, 23 Oct 2026 04:11:07 +0000",
+          "url": "https://indianexpress.com/article/entertainment/music/daler-mehndi-son-gurdeep-breaks-silence-health-amid-uttarakhand-concert-controversy-first-class-fantastic-10933098/"
         },
         {
           "source_name": "The Indian Express",
-          "headline": "‘Because of Kapil Sharma’: Saif Ali Khan reveals why he doesn’t manage his Instagram account",
-          "published_at": "Sun, 18 Oct 2026 05:04:13 +0000",
-          "url": "https://indianexpress.com/article/entertainment/bollywood/saif-ali-khan-reveals-why-he-doesnt-manage-his-instagram-accoun-kapil-sharma-show-10926506/"
+          "headline": "Daler Mehndi’s audience was owed a performance. And he was owed respect",
+          "published_at": "Thu, 22 Oct 2026 13:39:09 +0000",
+          "url": "https://indianexpress.com/article/opinion/columns/daler-mehndis-audience-was-owed-a-performance-and-he-was-owed-respect-10932568/"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Daler Mehndi, a ‘mixer’ and a minister: What are minus-one tracks at live concerts",
+          "published_at": "Thu, 22 Oct 2026 12:59:59 +0000",
+          "url": "https://indianexpress.com/article/explained/explained-culture/daler-mehndi-uttarakhand-minister-what-are-minus-one-tracks-10932504/"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Daler Mehndi row simmers, Uttarakhand CM Dhami tries defusing: ‘Will speak to him’",
+          "published_at": "Thu, 22 Oct 2026 11:49:34 +0000",
+          "url": "https://indianexpress.com/article/india/daler-mehndi-row-uttarakhand-cm-dhami-10932412/"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 5,
+      "combined_score": 2.0,
+      "brief_bullets": [
+        "Director Raaj Shaandilyaa revealed that veteran singer Daler Mehndi maintained a grueling production schedule during peak winter despite battling illness for a 2024 film project. This disclosure follows mounting public scrutiny regarding Mehndi's health, which intensified after a recent controversial Uttarakhand concert. While Mehndi's son defended his father's robust condition, the unfolding discourse highlights broader industry concerns surrounding the rigorous physical demands placed on aging musical icons. As Uttarakhand Chief Minister Pushkar Singh Dhami intervenes to defuse local tensions, the incident underscores the fragile intersection of artist welfare and contractual obligations in live entertainment."
+      ],
+      "why_it_matters_bullets": [
+        "The controversy highlights the urgent need for better health protections for aging artists in high-pressure entertainment industries."
+      ],
+      "brief": "Director Raaj Shaandilyaa revealed that veteran singer Daler Mehndi maintained a grueling production schedule during peak winter despite battling illness for a 2024 film project. This disclosure follows mounting public scrutiny regarding Mehndi's health, which intensified after a recent controversial Uttarakhand concert. While Mehndi's son defended his father's robust condition, the unfolding discourse highlights broader industry concerns surrounding the rigorous physical demands placed on aging musical icons. As Uttarakhand Chief Minister Pushkar Singh Dhami intervenes to defuse local tensions, the incident underscores the fragile intersection of artist welfare and contractual obligations in live entertainment. The controversy highlights the urgent need for better health protections for aging artists in high-pressure entertainment industries.",
+      "brief_word_count": 111
+    },
+    {
+      "story_id": "story-114",
+      "category": "Society",
+      "primary_headline": "Why 'Healthy' Mojtaba Khamenei Can't Appear In Public, Reveals Iran Diplomat",
+      "primary_source": {
+        "source_name": "NDTV",
+        "headline": "Why 'Healthy' Mojtaba Khamenei Can't Appear In Public, Reveals Iran Diplomat",
+        "published_at": "Fri, 23 Oct 2026 13:09:30 +0530",
+        "url": "https://www.ndtv.com/world-news/abdul-majid-hakeem-elahi-at-ndtv-world-summit-why-healthy-mojtaba-khamenei-cant-appear-in-public-reveals-iranian-diplomat-12224156#publisher=newsstand",
+        "content": "The absence of Mojtaba Khamenei from the funeral ceremonies of Ali Khamenei, his father, that culminated in July raised questions about his health and fear of assassination."
+      },
+      "sources": [
+        {
+          "source_name": "NDTV",
+          "headline": "Why 'Healthy' Mojtaba Khamenei Can't Appear In Public, Reveals Iran Diplomat",
+          "published_at": "Fri, 23 Oct 2026 13:09:30 +0530",
+          "url": "https://www.ndtv.com/world-news/abdul-majid-hakeem-elahi-at-ndtv-world-summit-why-healthy-mojtaba-khamenei-cant-appear-in-public-reveals-iranian-diplomat-12224156#publisher=newsstand"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "'US Never Apologised': Iran Diplomat On Primary School Bombing",
+          "published_at": "Fri, 23 Oct 2026 13:00:17 +0530",
+          "url": "https://www.ndtv.com/world-news/iran-diplomat-dr-abdul-majeed-hakim-ilahi-at-ndtv-world-summit-on-minab-school-bombing-us-never-apologised-12224054#publisher=newsstand"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "'Human Pulled The Trigger, Machine Helped': Ex-CIA Chief On Iran School Bombing",
+          "published_at": "Fri, 23 Oct 2026 12:03:17 +0530",
+          "url": "https://www.ndtv.com/india-news/general-david-petraeus-at-ndtv-world-summit-human-pulled-the-trigger-machine-helped-ex-cia-chief-on-iran-school-bombing-12223816#publisher=newsstand"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 3,
+      "combined_score": 1.43,
+      "brief_bullets": [
+        "The absence of Mojtaba Khamenei from the funeral ceremonies of Ali Khamenei, his father, that culminated in July raised questions about his health and fear of assassination.",
+        "The Trump administration has yet to directly accept responsibility or release the findings of a Pentagon investigation into the school bombing.",
+        "The statement contradicts an earlier report that said an AI 'Kill Chain' was behind US strikes on an Iranian school.",
+        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events."
+      ],
+      "why_it_matters_bullets": [
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+      ],
+      "brief": "The absence of Mojtaba Khamenei from the funeral ceremonies of Ali Khamenei, his father, that culminated in July raised questions about his health and fear of assassination. The Trump administration has yet to directly accept responsibility or release the findings of a Pentagon investigation into the school bombing. The statement contradicts an earlier report that said an AI 'Kill Chain' was behind US strikes on an Iranian school. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 108
+    },
+    {
+      "story_id": "story-116",
+      "category": "Society",
+      "primary_headline": "PMAY housing subsidy sanctioned but bank ‘fails to release it’, woman wins Rs 2 lakh",
+      "primary_source": {
+        "source_name": "The Indian Express",
+        "headline": "PMAY housing subsidy sanctioned but bank ‘fails to release it’, woman wins Rs 2 lakh",
+        "published_at": "Fri, 23 Oct 2026 07:11:32 +0000",
+        "url": "https://indianexpress.com/article/legal-news/pmay-housing-subsidy-bank-fails-release-woman-wins-rs-2-lakh-10933326/",
+        "content": ""
+      },
+      "sources": [
+        {
+          "source_name": "The Indian Express",
+          "headline": "PMAY housing subsidy sanctioned but bank ‘fails to release it’, woman wins Rs 2 lakh",
+          "published_at": "Fri, 23 Oct 2026 07:11:32 +0000",
+          "url": "https://indianexpress.com/article/legal-news/pmay-housing-subsidy-bank-fails-release-woman-wins-rs-2-lakh-10933326/"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Rs 61,000 card payment ‘not credited’, man wins Rs 1 lakh payout from bank, fintech app",
+          "published_at": "Fri, 23 Oct 2026 05:05:17 +0000",
+          "url": "https://indianexpress.com/article/legal-news/card-payment-not-credited-man-wins-rs-1-lakh-bank-fintech-app-10932324/"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "No stroke but knee surgery claim denied over its ‘missing records’, man wins Rs 2.8 lakh",
+          "published_at": "Thu, 22 Oct 2026 12:34:21 +0000",
+          "url": "https://indianexpress.com/article/legal-news/no-stroke-knee-surgery-claim-denied-missing-record-man-rs-2-8-lakh-10932211/"
         }
       ],
       "source_count": 1,
       "total_count": 3,
       "combined_score": 1.4,
       "brief_bullets": [
-        "Saba Ali Khan opens up about being single at 50, her expectations from a life partner and why mutual respect, trust and friendship matter more than chemistry. ‘What is your educational status?’: Saif Ali Khan, Kareena Kapoor bicker over Taimur’s studies ‘Because of Kapil Sharma’: Saif Ali Khan reveals why he doesn’t manage his Instagram account.",
-        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Saba Ali Khan on being single at 50: ‘I will not compromise just for the sake of marriage’'.",
+        "Rs 61,000 card payment ‘not credited’, man wins Rs 1 lakh payout from bank, fintech app No stroke but knee surgery claim denied over its ‘missing records’, man wins Rs 2.",
+        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'PMAY housing subsidy sanctioned but bank ‘fails to release it’, woman wins Rs 2 lakh'.",
         "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
         "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
       ],
       "why_it_matters_bullets": [
         "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "brief": "Saba Ali Khan opens up about being single at 50, her expectations from a life partner and why mutual respect, trust and friendship matter more than chemistry. ‘What is your educational status?’: Saif Ali Khan, Kareena Kapoor bicker over Taimur’s studies ‘Because of Kapil Sharma’: Saif Ali Khan reveals why he doesn’t manage his Instagram account. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Saba Ali Khan on being single at 50: ‘I will not compromise just for the sake of marriage’'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 131
+      "brief": "Rs 61,000 card payment ‘not credited’, man wins Rs 1 lakh payout from bank, fintech app No stroke but knee surgery claim denied over its ‘missing records’, man wins Rs 2. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'PMAY housing subsidy sanctioned but bank ‘fails to release it’, woman wins Rs 2 lakh'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 103
     },
     {
-      "story_id": "story-83",
-      "category": "Finance",
-      "primary_headline": "Mysuru Dasara 2026 | Kambala turns Saathgalli into mini Tulu Naadu",
+      "story_id": "story-119",
+      "category": "Geopolitics",
+      "primary_headline": "Low pressure over Bay of Bengal likely to turn into cyclonic storm by October end",
       "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Mysuru Dasara 2026 | Kambala turns Saathgalli into mini Tulu Naadu",
-        "published_at": "Sun, 18 Oct 2026 16:49:01 +0000",
-        "url": "https://www.deccanherald.com/india/karnataka/mysuru/mysuru-dasara-2026-kambala-turns-saathgalli-into-mini-tulu-naadu-4187491",
-        "content": " Mysuru: Amid all the opposition by activists, two-day Kambala-male buffalo or bulls race which began on Sunday morning, is unravelling mini Tulu Naadu at Saathgalli in Mysuru. A sea of people of all age groups are rushing to the mini fair. They are thrilled to witness 150 pairs of bulls who are splashing the water to the height of upto 7 feet and crossing 145 meter length and 30 meter width Kambala track in lightning speed within seconds. While the races in six segments began around 10 am, Chief Minister D K Shivakumar formally inaugurated it at around 7.30 pm and witnessed the race for about an hour. CM D K Shivakumar said \"Kambala is a harvest festival of Coastal region. They started it 800 years praying Kadri Manjunathswamy to protect farmers. In order to showcase all cultures during Naada Habba Mysuru Dasara we are hosting Kambala here to foster the culture. They have put sensors to record the time taken by each buffalo and one had crossed track in nine seconds.\"Forums urge Kambala buffalo owners to stay away from Mysuru event amid droughtPuttur MLA Ashok Kumar Rai said, \"We hosted Kambala in Bengaluru last year. We had planned to host it during Dasara in Mysuru last year itself. We are happy to introduce this coastal culture of Kambala to the people of Mysuru region during Dasara this year.\" He urged CM for the opportunity to host it in all possible districts across the State.Ashok Kumar Rai said, \"The race will conclude on Monday evening. A reward of 16 gram gold, 8 gram gold and 4 gram gold will be given for those winning first, second and third prizes respectively. The owners of each pair of Buffaloes need atleast Rs 3 lakh to bring them here. They spend atleast Rs 12 lakh a year to nourish them. The owners of these buffaloes don't participate in Kambala for prize but to keep up their family name and carry forward the legacy of this culture.\"He informed, \"The bulls which arrived on Saturday evening will be leaving on Tuesday morning. About 5000 assistants have accompanied them. They are accommodated with the buffaloes at the venue. They have brought the food and water for the buffaloes. The state government is spending about Rs 3 crore and they have made all arrangements. They are giving an honorarium of Rs 65,000 for each pair of bigger bulls and Rs 50,000 per pair for smaller bulls.\"Environmentalists, farmers hold mega protest opposing Kambala amid droughtEven as about half a million liter water is required per day, they have drilled two borewells. He claimed that since it has rained well, the tracks are naturally full and the water consumption has reduced. Ashok Rai also said that the arrangement has been done to accommodate about 15,000 people, but atleast 20,000 people are witnessing the event at a time. By 12 noon 75,000 people had witnessed it at the venue; and 2 million people had watched it online by 2 pm on Sunday.Besides races, people are even enjoying coastal style food including varieties of fishes, Kori rotti, Neerdose at food mela hosted by people of coastal region including those from Mangaluru. Besides grabbing video of races, people are also clicking photos and selfies with buffaloes.85-year-old Lakshmi from Shirsi who had come for Dasara to her daughter's house in Mysuru said, \"I had never seen it live though I had seen it on TV and internet, so I was keen to witness it.\"Mysuru district police led by SP Mallikarjun Balanandi said that they have deployed about 1500 cops for the security to the overnight event. They have installed 50 CCTV cameras and are using four drones too. "
+        "source_name": "The Hindu",
+        "headline": "Low pressure over Bay of Bengal likely to turn into cyclonic storm by October end",
+        "published_at": "Fri, 23 Oct 2026 13:22:49 +0530",
+        "url": "https://www.thehindu.com/news/national/odisha/low-pressure-near-bay-of-bengal-expected-to-become-a-cyclonic-storm/article71615056.ece",
+        "content": "The India Meteorological Department (IMD) informed the state government that a low-pressure area has formed over east-central and adjoining south-east Bay of Bengal at 5.30 a.m"
       },
       "sources": [
         {
-          "source_name": "Deccan Herald",
-          "headline": "Mysuru Dasara 2026 | Kambala turns Saathgalli into mini Tulu Naadu",
-          "published_at": "Sun, 18 Oct 2026 16:49:01 +0000",
-          "url": "https://www.deccanherald.com/india/karnataka/mysuru/mysuru-dasara-2026-kambala-turns-saathgalli-into-mini-tulu-naadu-4187491"
+          "source_name": "The Hindu",
+          "headline": "Low pressure over Bay of Bengal likely to turn into cyclonic storm by October end",
+          "published_at": "Fri, 23 Oct 2026 13:22:49 +0530",
+          "url": "https://www.thehindu.com/news/national/odisha/low-pressure-near-bay-of-bengal-expected-to-become-a-cyclonic-storm/article71615056.ece"
         },
         {
-          "source_name": "Deccan Herald",
-          "headline": "Mysuru Dasara: Final round of rehearsal begins for all 13 Dasara elephants",
-          "published_at": "Sun, 18 Oct 2026 13:38:53 +0000",
-          "url": "https://www.deccanherald.com/india/karnataka/mysuru/mysuru-dasara-final-round-of-rehearsal-begins-for-all-13-dasara-elephants-4187317"
+          "source_name": "The Hindu",
+          "headline": "Cyclonic storm likely by October 26; heavy rain in Coastal Andhra from October 27: IMD",
+          "published_at": "Fri, 23 Oct 2026 11:44:55 +0530",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclonic-storm-likely-by-october-26-heavy-rain-in-coastal-andhra-from-october-27-imd/article71612805.ece"
         }
       ],
       "source_count": 1,
       "total_count": 2,
       "combined_score": 1.13,
       "brief_bullets": [
-        "Mysuru: Amid all the opposition by activists, two-day Kambala-male buffalo or bulls race which began on Sunday morning, is unravelling mini Tulu Naadu at Saathgalli in Mysuru.",
-        "A sea of people of all age groups are rushing to the mini fair.",
-        "They are thrilled to witness 150 pairs of bulls who are splashing the water to the height of upto 7 feet and crossing 145 meter length and 30 meter width Kambala track in lightning speed within seconds.",
-        "While the races in six segments began around 10 am, Chief Minister D K Shivakumar formally inaugurated it at around 7.",
-        "30 pm and witnessed the race for about an hour.",
-        "CM D K Shivakumar said \"Kambala is a harvest festival of Coastal region.",
-        "They started it 800 years praying Kadri Manjunathswamy to protect farmers."
+        "The India Meteorological Department (IMD) informed the state government that a low-pressure area has formed over east-central and adjoining south-east Bay of Bengal at 5.",
+        "30 a.m The system is forecast to move towards the north Andhra Pradesh and south Odisha coasts after October 26.",
+        "Meteorological authorities and disaster response teams have deployed emergency rescue pumps and localized assistance squads across vulnerable sectors.",
+        "Civic agencies have mobilized field personnel to inspect transit corridors, clear arterial drainages, and restore essential public utilities."
       ],
       "why_it_matters_bullets": [
-        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
+        "Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
       ],
-      "brief": "Mysuru: Amid all the opposition by activists, two-day Kambala-male buffalo or bulls race which began on Sunday morning, is unravelling mini Tulu Naadu at Saathgalli in Mysuru. A sea of people of all age groups are rushing to the mini fair. They are thrilled to witness 150 pairs of bulls who are splashing the water to the height of upto 7 feet and crossing 145 meter length and 30 meter width Kambala track in lightning speed within seconds. While the races in six segments began around 10 am, Chief Minister D K Shivakumar formally inaugurated it at around 7. 30 pm and witnessed the race for about an hour. CM D K Shivakumar said \"Kambala is a harvest festival of Coastal region. They started it 800 years praying Kadri Manjunathswamy to protect farmers. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
-      "brief_word_count": 147
+      "brief": "The India Meteorological Department (IMD) informed the state government that a low-pressure area has formed over east-central and adjoining south-east Bay of Bengal at 5. 30 a.m The system is forecast to move towards the north Andhra Pradesh and south Odisha coasts after October 26. Meteorological authorities and disaster response teams have deployed emergency rescue pumps and localized assistance squads across vulnerable sectors. Civic agencies have mobilized field personnel to inspect transit corridors, clear arterial drainages, and restore essential public utilities. Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
+      "brief_word_count": 95
     },
     {
-      "story_id": "story-88",
+      "story_id": "story-124",
       "category": "Society",
-      "primary_headline": "TDP Mayor candidate Mukka Sravani files nominations",
+      "primary_headline": "Pendency and punishment: Why India needs a Sentencing Council | Experts Explain",
       "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "TDP Mayor candidate Mukka Sravani files nominations",
-        "published_at": "Sun, 18 Oct 2026 21:41:59 +0530",
-        "url": "https://www.thehindu.com/news/cities/Visakhapatnam/tdp-mayor-candidate-mukka-sravani-files-nominations/article71599789.ece",
+        "source_name": "The Indian Express",
+        "headline": "Pendency and punishment: Why India needs a Sentencing Council | Experts Explain",
+        "published_at": "Fri, 23 Oct 2026 08:00:59 +0000",
+        "url": "https://indianexpress.com/article/explained/explained-law/india-sentencing-policy-national-sentencing-council-explained-10933467/",
         "content": ""
       },
       "sources": [
         {
-          "source_name": "The Hindu",
-          "headline": "TDP Mayor candidate Mukka Sravani files nominations",
-          "published_at": "Sun, 18 Oct 2026 21:41:59 +0530",
-          "url": "https://www.thehindu.com/news/cities/Visakhapatnam/tdp-mayor-candidate-mukka-sravani-files-nominations/article71599789.ece"
+          "source_name": "The Indian Express",
+          "headline": "Pendency and punishment: Why India needs a Sentencing Council | Experts Explain",
+          "published_at": "Fri, 23 Oct 2026 08:00:59 +0000",
+          "url": "https://indianexpress.com/article/explained/explained-law/india-sentencing-policy-national-sentencing-council-explained-10933467/"
         },
         {
-          "source_name": "The Hindu",
-          "headline": "TDP’s Pratyusha files nomination for KMC mayoral post",
-          "published_at": "Sun, 18 Oct 2026 21:37:01 +0530",
-          "url": "https://www.thehindu.com/news/national/andhra-pradesh/tdps-pratyusha-files-nomination-for-kmc-mayoral-post/article71600258.ece"
+          "source_name": "The Indian Express",
+          "headline": "Experts Explain | How India can make its Rs 20,000 crore carbon capture investment count",
+          "published_at": "Fri, 23 Oct 2026 02:30:44 +0000",
+          "url": "https://indianexpress.com/article/explained/explained-climate/experts-explain-india-carbon-capture-investment-10932847/"
         }
       ],
       "source_count": 1,
       "total_count": 2,
       "combined_score": 1.1,
       "brief_bullets": [
-        "TDP’s Pratyusha files nomination for KMC mayoral post.",
-        "The political development reflects shifting legislative momentum and institutional scrutiny across key administrative decision-making bodies.",
-        "Constitutional observers and policy strategists note that ongoing deliberations will establish critical regulatory and legal precedents.",
-        "Party leadership and committee officials are preparing follow-up procedural motions ahead of upcoming legislative sessions."
-      ],
-      "why_it_matters_bullets": [
-        "Carries notable operational, policy, and market consequences surrounding 'TDP Mayor candidate Mukka Sravani files nominations'."
-      ],
-      "brief": "TDP’s Pratyusha files nomination for KMC mayoral post. The political development reflects shifting legislative momentum and institutional scrutiny across key administrative decision-making bodies. Constitutional observers and policy strategists note that ongoing deliberations will establish critical regulatory and legal precedents. Party leadership and committee officials are preparing follow-up procedural motions ahead of upcoming legislative sessions. Carries notable operational, policy, and market consequences surrounding 'TDP Mayor candidate Mukka Sravani files nominations'.",
-      "brief_word_count": 69
-    },
-    {
-      "story_id": "story-90",
-      "category": "Society",
-      "primary_headline": "Bournemouth latest: Rose reveals relief after ending wait for PL win",
-      "primary_source": {
-        "source_name": "Sky Sports",
-        "headline": "Bournemouth latest: Rose reveals relief after ending wait for PL win",
-        "published_at": "Sun, 18 Oct 2026 17:00:00 BST",
-        "url": "https://www.skysports.com/football/live-blog/12040/13279286/bournemouth-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-        "content": ""
-      },
-      "sources": [
-        {
-          "source_name": "Sky Sports",
-          "headline": "Bournemouth latest: Rose reveals relief after ending wait for PL win",
-          "published_at": "Sun, 18 Oct 2026 17:00:00 BST",
-          "url": "https://www.skysports.com/football/live-blog/12040/13279286/bournemouth-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights"
-        },
-        {
-          "source_name": "Sky Sports",
-          "headline": "Bournemouth earn first PL win of Rose era to move out of bottom three",
-          "published_at": "Sun, 18 Oct 2026 16:11:00 BST",
-          "url": "https://www.skysports.com/watch/video/13600674/bournemouth-2-0-sunderland-premier-league-highlights"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 2,
-      "combined_score": 1.1,
-      "brief_bullets": [
-        "FREE TO WATCH: Highlights from the Premier League match between Bournemouth and Sunderland.",
-        "Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures.",
-        "Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum.",
-        "Team representatives have confirmed comprehensive preparation plans to maintain strategic advantages in subsequent championship phases."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "FREE TO WATCH: Highlights from the Premier League match between Bournemouth and Sunderland. Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures. Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum. Team representatives have confirmed comprehensive preparation plans to maintain strategic advantages in subsequent championship phases. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 72
-    },
-    {
-      "story_id": "story-105",
-      "category": "Geopolitics",
-      "primary_headline": "Delhi: Class 12 student stabbed to death outside school, five apprehended",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Delhi: Class 12 student stabbed to death outside school, five apprehended",
-        "published_at": "Sun, 18 Oct 2026 16:38:56 +0000",
-        "url": "https://www.deccanherald.com/india/delhi/delhi-class-12-student-stabbed-to-death-outside-school-five-apprehended-4187405",
-        "content": " New Delhi: A 17-year-old Class 12 student was allegedly stabbed to death outside a government school in southwest Delhi's Mohan Garden area following an altercation between two students over the prescribed school shoes, police said on Sunday.Five accused, including three minors and two adults, have been apprehended in connection with the murder, three of whom are students of the same school, they said.The incident took place on October 14 when a PCR call regarding a stabbing incident near a government school in Mohan Garden was received at 6.10 pm at the local police station. The victim, a resident of Mohan Garden, had sustained stab injuries and was taken to Tarak Hospital, where he succumbed during treatment, the police said.Class 11 student fatally stabbed in south Delhi; two heldAccording to an eyewitness, a Class 12 student of the same school, the dispute began after another student complained to a teacher that he was not wearing the prescribed school-pattern shoes. This led to a heated argument between the two, during which the latter allegedly threatened him.After school hours, when the student left the premises with his friends, including the victim, the other student allegedly instigated the remaining accused, following which the group assaulted them. During the attack, one of the assailants allegedly stabbed the victim, causing fatal injuries, the police said.The knife allegedly used in the crime was recovered near the school gate.The victim's father is an ex-serviceman and is currently employed as a gunman in Gurugram, police said."
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Delhi: Class 12 student stabbed to death outside school, five apprehended",
-          "published_at": "Sun, 18 Oct 2026 16:38:56 +0000",
-          "url": "https://www.deccanherald.com/india/delhi/delhi-class-12-student-stabbed-to-death-outside-school-five-apprehended-4187405"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.89,
-      "brief_bullets": [
-        "New Delhi: A 17-year-old Class 12 student was allegedly stabbed to death outside a government school in southwest Delhi's Mohan Garden area following an altercation between two students over the prescribed school shoes, police said on Sunday.",
-        "Five accused, including three minors and two adults, have been apprehended in connection with the murder, three of whom are students of the same school, they said.",
-        "The incident took place on October 14 when a PCR call regarding a stabbing incident near a government school in Mohan Garden was received at 6.",
-        "10 pm at the local police station.",
-        "The victim, a resident of Mohan Garden, had sustained stab injuries and was taken to Tarak Hospital, where he succumbed during treatment, the police said."
-      ],
-      "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
-      ],
-      "brief": "New Delhi: A 17-year-old Class 12 student was allegedly stabbed to death outside a government school in southwest Delhi's Mohan Garden area following an altercation between two students over the prescribed school shoes, police said on Sunday. Five accused, including three minors and two adults, have been apprehended in connection with the murder, three of whom are students of the same school, they said. The incident took place on October 14 when a PCR call regarding a stabbing incident near a government school in Mohan Garden was received at 6. 10 pm at the local police station. The victim, a resident of Mohan Garden, had sustained stab injuries and was taken to Tarak Hospital, where he succumbed during treatment, the police said. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 136
-    },
-    {
-      "story_id": "story-106",
-      "category": "Science",
-      "primary_headline": "The Guardian view on plague in Russia: what is most worrying is the lack of information | Editorial",
-      "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "The Guardian view on plague in Russia: what is most worrying is the lack of information | Editorial",
-        "published_at": "Sun, 18 Oct 2026 16:30:04 GMT",
-        "url": "https://www.theguardian.com/commentisfree/2026/oct/18/the-guardian-view-on-plague-in-russia-what-is-most-worrying-is-the-lack-of-information",
-        "content": "In the three weeks since a health worker’s death in Siberia, officials have stonewalled the WHO – setting a worrying precedent for future pandemicsIs there a plague outbreak in Russia? If the answer were a clear yes, there shouldn’t be much reason to worry. With swift medical intervention, plague is treatable. But in the nearly three weeks since a worker at a Siberian plague research unit died of a mysterious respiratory illness, state officials have been&nbsp;consistently tight-lipped about what happened and whether there were any further cases.It is this uncertainty that has the World Health Organization (WHO) and international community worried: partly because there is a – very small – risk of an outbreak, and partly because it is yet another warning that the international coordination we rely on&nbsp;to prevent pandemics is fraying along with the rest&nbsp;of international politics, and could easily fail to protect us in the future. Continue reading..."
-      },
-      "sources": [
-        {
-          "source_name": "The Guardian",
-          "headline": "The Guardian view on plague in Russia: what is most worrying is the lack of information | Editorial",
-          "published_at": "Sun, 18 Oct 2026 16:30:04 GMT",
-          "url": "https://www.theguardian.com/commentisfree/2026/oct/18/the-guardian-view-on-plague-in-russia-what-is-most-worrying-is-the-lack-of-information"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.89,
-      "brief_bullets": [
-        "In the three weeks since a health worker’s death in Siberia, officials have stonewalled the WHO – setting a worrying precedent for future pandemicsIs there a plague outbreak in Russia?",
-        "If the answer were a clear yes, there shouldn’t be much reason to worry.",
-        "With swift medical intervention, plague is treatable.",
-        "But in the nearly three weeks since a worker at a Siberian plague research unit died of a mysterious respiratory illness, state officials have been consistently tight-lipped about what happened and whether there were any further cases."
-      ],
-      "why_it_matters_bullets": [
-        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
-      ],
-      "brief": "In the three weeks since a health worker’s death in Siberia, officials have stonewalled the WHO – setting a worrying precedent for future pandemicsIs there a plague outbreak in Russia? If the answer were a clear yes, there shouldn’t be much reason to worry. With swift medical intervention, plague is treatable. But in the nearly three weeks since a worker at a Siberian plague research unit died of a mysterious respiratory illness, state officials have been consistently tight-lipped about what happened and whether there were any further cases. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
-      "brief_word_count": 102
-    },
-    {
-      "story_id": "story-123",
-      "category": "Society",
-      "primary_headline": "Man, 80, who died in light aircraft crash near Loch Lomond named",
-      "primary_source": {
-        "source_name": "BBC News",
-        "headline": "Man, 80, who died in light aircraft crash near Loch Lomond named",
-        "published_at": "Sun, 18 Oct 2026 17:00:42 GMT",
-        "url": "https://www.bbc.co.uk/news/articles/cmx23p5w7123o?at_medium=RSS&at_campaign=rss",
-        "content": "The flying instructor has been described as \"a gentleman and an experienced aviator\" by former students.  "
-      },
-      "sources": [
-        {
-          "source_name": "BBC News",
-          "headline": "Man, 80, who died in light aircraft crash near Loch Lomond named",
-          "published_at": "Sun, 18 Oct 2026 17:00:42 GMT",
-          "url": "https://www.bbc.co.uk/news/articles/cmx23p5w7123o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "The flying instructor has been described as \"a gentleman and an experienced aviator\" by former students.",
-        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Man, 80, who died in light aircraft crash near Loch Lomond named'.",
+        "Experts Explain | How India can make its Rs 20,000 crore carbon capture investment count.",
+        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Pendency and punishment: Why India needs a Sentencing Council'.",
         "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
         "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
       ],
       "why_it_matters_bullets": [
         "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "brief": "The flying instructor has been described as \"a gentleman and an experienced aviator\" by former students. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Man, 80, who died in light aircraft crash near Loch Lomond named'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 85
-    },
-    {
-      "story_id": "story-124",
-      "category": "Geopolitics",
-      "primary_headline": "Businessman shot at near Baramati Airport in Pune district",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Businessman shot at near Baramati Airport in Pune district",
-        "published_at": "Sun, 18 Oct 2026 16:55:18 +0000",
-        "url": "https://www.deccanherald.com/india/maharashtra/businessman-shot-at-near-baramati-airport-in-pune-district-4187499",
-        "content": " Mumbai: In a shocking incident, a businessman, Rana Suryawanshi, was shot at near the Baramati Airport in the Pune district on Sunday.The Pune Rural Police has registered a case and investigations are in progress. “The news of gunfire targeting Rana Suryavanshi, the owner of Rana Shipping Company, in the vicinity of Baramati Airport is extremely shocking. Fortunately, he has survived and is currently receiving treatment,” Baramati MP Supriya Sule said. Shiv Sena (UBT) leader's murder: Police nab shooter, accomplice from Raigad“This news highlights the dire state of law and order in the state. Criminals are brazenly carrying out shootings and escaping, while the Home Department's machinery is unable to act. The public lives in fear, and it seems like criminals have been given free rein,” she said. “The Home Department should immediately take note of this incident, arrest the attackers, and implement concrete measures for the safety of citizens,” she added. "
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Businessman shot at near Baramati Airport in Pune district",
-          "published_at": "Sun, 18 Oct 2026 16:55:18 +0000",
-          "url": "https://www.deccanherald.com/india/maharashtra/businessman-shot-at-near-baramati-airport-in-pune-district-4187499"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "Mumbai: In a shocking incident, a businessman, Rana Suryawanshi, was shot at near the Baramati Airport in the Pune district on Sunday.",
-        "The Pune Rural Police has registered a case and investigations are in progress. “The news of gunfire targeting Rana Suryavanshi, the owner of Rana Shipping Company, in the vicinity of Baramati Airport is extremely shocking.",
-        "Fortunately, he has survived and is currently receiving treatment,” Baramati MP Supriya Sule said.",
-        "Shiv Sena (UBT) leader's murder: Police nab shooter, accomplice from Raigad“This news highlights the dire state of law and order in the state.",
-        "Criminals are brazenly carrying out shootings and escaping, while the Home Department's machinery is unable to act."
-      ],
-      "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
-      ],
-      "brief": "Mumbai: In a shocking incident, a businessman, Rana Suryawanshi, was shot at near the Baramati Airport in the Pune district on Sunday. The Pune Rural Police has registered a case and investigations are in progress. “The news of gunfire targeting Rana Suryavanshi, the owner of Rana Shipping Company, in the vicinity of Baramati Airport is extremely shocking. Fortunately, he has survived and is currently receiving treatment,” Baramati MP Supriya Sule said. Shiv Sena (UBT) leader's murder: Police nab shooter, accomplice from Raigad“This news highlights the dire state of law and order in the state. Criminals are brazenly carrying out shootings and escaping, while the Home Department's machinery is unable to act. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 125
+      "brief": "Experts Explain | How India can make its Rs 20,000 crore carbon capture investment count. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Pendency and punishment: Why India needs a Sentencing Council'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 81
     },
     {
       "story_id": "story-125",
-      "category": "Geopolitics",
-      "primary_headline": "Why UAPA demands urgent reform",
+      "category": "Society",
+      "primary_headline": "Maria Edgeworth, The Long Lost Godmother of Economics",
       "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Why UAPA demands urgent reform",
-        "published_at": "Sun, 18 Oct 2026 22:19:55 +0530",
-        "url": "https://www.thehindu.com/news/national/why-uapa-demands-urgent-reform/article71571306.ece",
-        "content": "UAPA’s vague provisions, stringent bail conditions and inconsistent judicial interpretations have enabled the prolonged imprisonment of activists, scholars and journalists without trial; Prof. G.N. Saibaba’s experience shows the urgent need to reform a legal regime that undermines civil liberties, due process and rule of law"
+        "source_name": "Bloomberg",
+        "headline": "Maria Edgeworth, The Long Lost Godmother of Economics",
+        "published_at": "Fri, 23 Oct 2026 08:00:13 GMT",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-23/maria-edgeworth-the-long-lost-godmother-of-economics",
+        "content": "How a Regency-era novelist helped shaped the field's early history."
       },
       "sources": [
         {
-          "source_name": "The Hindu",
-          "headline": "Why UAPA demands urgent reform",
-          "published_at": "Sun, 18 Oct 2026 22:19:55 +0530",
-          "url": "https://www.thehindu.com/news/national/why-uapa-demands-urgent-reform/article71571306.ece"
+          "source_name": "Bloomberg",
+          "headline": "Maria Edgeworth, The Long Lost Godmother of Economics",
+          "published_at": "Fri, 23 Oct 2026 08:00:13 GMT",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-23/maria-edgeworth-the-long-lost-godmother-of-economics"
+        },
+        {
+          "source_name": "Bloomberg",
+          "headline": "Odd Lots: The Forgotten Godmother of Economic Writing (Podcast)",
+          "published_at": "Fri, 23 Oct 2026 08:00:00 GMT",
+          "url": "https://www.bloomberg.com/news/audio/2026-10-23/odd-lots-the-forgotten-godmother-of-economic-writing-podcast"
         }
       ],
       "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
+      "total_count": 2,
+      "combined_score": 1.1,
       "brief_bullets": [
-        "UAPA’s vague provisions, stringent bail conditions and inconsistent judicial interpretations have enabled the prolonged imprisonment of activists, scholars and journalists without trial; Prof.",
-        "Saibaba’s experience shows the urgent need to reform a legal regime that undermines civil liberties, due process and rule of law.",
-        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Why UAPA demands urgent reform'.",
-        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements."
+        "How a Regency-era novelist helped shaped the field's early history.",
+        "In 1776, the field of economics was born with the publication of Adam Smith’s The Wealth of Nations.",
+        "And among the book’s earliest readers, and most ardent advocates, was a Regency-era novelist named Maria Edgeworth.",
+        "In her time, Edgeworth was one of the most famous literary figures in England, and she smuggled into her stories economic concepts and debates around rent seeking, the idea of productive labor, and so on.",
+        "These works were enormously influential and they helped expose a generation to."
       ],
       "why_it_matters_bullets": [
-        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
+        "Carries notable operational, policy, and market consequences surrounding 'Maria Edgeworth, The Long Lost Godmother of Economics'."
       ],
-      "brief": "UAPA’s vague provisions, stringent bail conditions and inconsistent judicial interpretations have enabled the prolonged imprisonment of activists, scholars and journalists without trial; Prof. Saibaba’s experience shows the urgent need to reform a legal regime that undermines civil liberties, due process and rule of law. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Why UAPA demands urgent reform'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
-      "brief_word_count": 92
+      "brief": "How a Regency-era novelist helped shaped the field's early history. In 1776, the field of economics was born with the publication of Adam Smith’s The Wealth of Nations. And among the book’s earliest readers, and most ardent advocates, was a Regency-era novelist named Maria Edgeworth. In her time, Edgeworth was one of the most famous literary figures in England, and she smuggled into her stories economic concepts and debates around rent seeking, the idea of productive labor, and so on. These works were enormously influential and they helped expose a generation to. Carries notable operational, policy, and market consequences surrounding 'Maria Edgeworth, The Long Lost Godmother of Economics'.",
+      "brief_word_count": 108
+    },
+    {
+      "story_id": "story-126",
+      "category": "Finance",
+      "primary_headline": "Asian shares mostly rebound from AI-related losses, while oil prices jump",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Asian shares mostly rebound from AI-related losses, while oil prices jump - AP News",
+        "published_at": "Fri, 23 Oct 2026 07:46:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNWpGTk1fbkF2SWY0S1Q2MHN6WjRqQ1R3VWp4WXFKd3VQUG5WSlI1ZXFDY1pSUGJyampWMGtwZ3dRQmxGRzlTbERHSnlraUZ4WmFCSXM4U3J1Z1VSdV81eTB2ck1lWElpSnR2Qi1FbWUwUmJBT1l5enVZLVpsYmMySnBhZ0FDWHZBTElJVEhGYl9tN2tXblE?oc=5",
+        "content": "Asian shares mostly rebound from AI-related losses, while oil prices jump&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Asian shares mostly rebound from AI-related losses, while oil prices jump - AP News",
+          "published_at": "Fri, 23 Oct 2026 07:46:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNWpGTk1fbkF2SWY0S1Q2MHN6WjRqQ1R3VWp4WXFKd3VQUG5WSlI1ZXFDY1pSUGJyampWMGtwZ3dRQmxGRzlTbERHSnlraUZ4WmFCSXM4U3J1Z1VSdV81eTB2ck1lWElpSnR2Qi1FbWUwUmJBT1l5enVZLVpsYmMySnBhZ0FDWHZBTElJVEhGYl9tN2tXblE?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "Sharp drops for AI stocks overwhelm markets worldwide as oil prices jump - AP News",
+          "published_at": "Thu, 22 Oct 2026 21:07:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbG9Bb3haUmhvOWFmQ0t6bWoyLThHN0pFV21XNjVOVXpsVmFBUEFhSk9HcC1ZYkV3eFhqT2d1SEFSQldtdm16YVM5UW1nRU5yc1JGRVkteEhNZmx0eEpOck1HdnNXNW1TSnh4YmRHU3dyeGdXdzdUZ3JsdFNHVUZwWEZrQVRXUWtrbHlJbDh1eDBSVU9iOUJScQ?oc=5"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 2,
+      "combined_score": 1.1,
+      "brief_bullets": [
+        "AP News Sharp drops for AI stocks overwhelm markets worldwide as oil prices jump AP News.",
+        "Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms.",
+        "Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps.",
+        "Regulatory bodies continue to monitor market concentration to ensure equitable innovation safeguards across the broader sector."
+      ],
+      "why_it_matters_bullets": [
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+      ],
+      "brief": "AP News Sharp drops for AI stocks overwhelm markets worldwide as oil prices jump AP News. Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms. Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps. Regulatory bodies continue to monitor market concentration to ensure equitable innovation safeguards across the broader sector. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 81
     }
   ]
 }

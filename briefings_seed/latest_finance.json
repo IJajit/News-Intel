@@ -1,789 +1,869 @@
 {
   "id": "latest",
   "category": "finance",
-  "timestamp": "2026-10-18T17:07:26.267801+00:00",
+  "timestamp": "2026-10-23T08:07:39.235393+00:00",
   "articlesCount": 20,
   "stories": [
     {
-      "story_id": "story-9",
+      "story_id": "story-11",
       "category": "Finance",
-      "primary_headline": "Skies over St. Petersburg ignite after Ukraine strikes oil sites",
+      "primary_headline": "Apple launches into foldable market as iPhone Duo sales begin",
       "primary_source": {
         "source_name": "Reuters",
-        "headline": "Skies over St. Petersburg ignite after Ukraine strikes oil sites - Reuters",
-        "published_at": "Sun, 18 Oct 2026 16:21:40 GMT",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05ZUdLTlMzZUFKUENWdTE1NzFEQk92N0FvQmFGaXNfTEUza2wtQXJfNVVZVzVpZUUtRDZVbXdEWHJIS2NqN1N5bnR2Mmc5UzAxSVFSazBMU3ZQRDJ5elBqSm1LallHd0pmQU41V3RObHRBOUJH?oc=5",
-        "content": "Skies over St. Petersburg ignite after Ukraine strikes oil sites&nbsp;&nbsp;Reuters"
+        "headline": "Apple launches into foldable market as iPhone Duo sales begin - Reuters",
+        "published_at": "Thu, 22 Oct 2026 20:03:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMTlwRzRMSWgwZGFjeWp0bG01c2c1WUkxckYtOGR3MUhieUYwZUwxRVNHdFBCbWUwSm02TWgzdG5fRGxEX0U1TUtvUnF5bGpXQkRaN1lnbmJZeTVuZmZzS21ob0FTMnBYekcySDlic3VVUE0ySjZTOHhJR2V1RzlmN09ZdDh1Mlg1a0N3dXR5ckstOW13Mk91YjJOcmdqNkd3dFR1MzhKYmFORFItakQyMTltekVOaVQyc0ZMSm5B?oc=5",
+        "content": "Apple launches into foldable market as iPhone Duo sales begin&nbsp;&nbsp;Reuters"
       },
       "sources": [
         {
           "source_name": "Reuters",
-          "headline": "Skies over St. Petersburg ignite after Ukraine strikes oil sites - Reuters",
-          "published_at": "Sun, 18 Oct 2026 16:21:40 GMT",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05ZUdLTlMzZUFKUENWdTE1NzFEQk92N0FvQmFGaXNfTEUza2wtQXJfNVVZVzVpZUUtRDZVbXdEWHJIS2NqN1N5bnR2Mmc5UzAxSVFSazBMU3ZQRDJ5elBqSm1LallHd0pmQU41V3RObHRBOUJH?oc=5"
+          "headline": "Apple launches into foldable market as iPhone Duo sales begin - Reuters",
+          "published_at": "Thu, 22 Oct 2026 20:03:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMTlwRzRMSWgwZGFjeWp0bG01c2c1WUkxckYtOGR3MUhieUYwZUwxRVNHdFBCbWUwSm02TWgzdG5fRGxEX0U1TUtvUnF5bGpXQkRaN1lnbmJZeTVuZmZzS21ob0FTMnBYekcySDlic3VVUE0ySjZTOHhJR2V1RzlmN09ZdDh1Mlg1a0N3dXR5ckstOW13Mk91YjJOcmdqNkd3dFR1MzhKYmFORFItakQyMTltekVOaVQyc0ZMSm5B?oc=5"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Apple iPhone Duo hits stores in India",
+          "published_at": "Fri, 23 Oct 2026 04:52:27 +0000",
+          "url": "https://www.deccanherald.com/technology/apple-iphone-duo-hits-stores-in-india-4192239"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "iPhone Duo On Sale Today: India's First-Week Stock Pre-Booked, Apple Store Rules And Wait Times Explained",
+          "published_at": "Fri, 23 Oct 2026 08:17:13 +0530",
+          "url": "https://www.ndtv.com/feature/iphone-duo-on-sale-today-indias-first-week-stock-pre-booked-apple-store-rules-and-wait-times-explained-12223193#publisher=newsstand"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Apple's iPhone Duo Hits Stores In Face Of Short Supply And High Demand",
+          "published_at": "Fri, 23 Oct 2026 07:54:51 +0530",
+          "url": "https://www.ndtv.com/world-news/apples-iphone-duo-hits-stores-in-face-of-short-supply-and-high-demand-12223140#publisher=newsstand"
+        },
+        {
+          "source_name": "Ars Technica",
+          "headline": "Samsung all but confirms iPhone Duo is goosing Galaxy Z8 sales",
+          "published_at": "Thu, 22 Oct 2026 18:49:14 +0000",
+          "url": "https://arstechnica.com/gadgets/2026/10/samsung-all-but-confirms-iphone-duo-is-goosing-galaxy-z8-sales/"
+        }
+      ],
+      "source_count": 5,
+      "total_count": 6,
+      "combined_score": 4.36,
+      "brief_bullets": [
+        "Apple has officially entered the foldable smartphone market with the global launch of the iPhone Duo, featuring a pocket-book design with a 5.4-inch cover display that unfolds into a 7.6-inch Super Retina XDR screen. Powered by the advanced 2nm A20 Pro chipset and starting at Rs 2,99,900 in India, the device has triggered unprecedented consumer demand worldwide. Consequently, Apple has directed its supply partners to ramp up factory output by forty-four percent as delivery timelines stretch into early 2027."
+      ],
+      "why_it_matters_bullets": [
+        "This monumental launch validates the foldable category and cements Apple's dominance in ultra-premium mobile hardware."
+      ],
+      "brief": "Apple has officially entered the foldable smartphone market with the global launch of the iPhone Duo, featuring a pocket-book design with a 5.4-inch cover display that unfolds into a 7.6-inch Super Retina XDR screen. Powered by the advanced 2nm A20 Pro chipset and starting at Rs 2,99,900 in India, the device has triggered unprecedented consumer demand worldwide. Consequently, Apple has directed its supply partners to ramp up factory output by forty-four percent as delivery timelines stretch into early 2027. This monumental launch validates the foldable category and cements Apple's dominance in ultra-premium mobile hardware.",
+      "brief_word_count": 94
+    },
+    {
+      "story_id": "story-16",
+      "category": "Finance",
+      "primary_headline": "EXCLUSIVE: Russian diesel heads to US after Putin-Trump deal, data shows",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "EXCLUSIVE: Russian diesel heads to US after Putin-Trump deal, data shows - Reuters",
+        "published_at": "Fri, 23 Oct 2026 06:27:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOb3Zka2dCZ1RzeXJfN1BWOGlIbHpxODVFbTdvdjFuengzUlVHTkpLVGlOa05wUXNvdWpyNl9MTGRVMTJmWFdMTTFyU3pka3FrZ0hzMGhHVEJTRGpVQXV1TEhPYXBsSjU2UllWZHlfVzBCMnBvT01NbVNUdkJiMER4YWhKZDljRUVMY2N1REdxMEpZVkg1RFhOMGFkT3NnNWljS29Jd05ZLXdNMnhmaUlUZXJWY3hGTzN4b3hEM2ExUGxNcDRLMDVr?oc=5",
+        "content": "EXCLUSIVE: Russian diesel heads to US after Putin-Trump deal, data shows&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "EXCLUSIVE: Russian diesel heads to US after Putin-Trump deal, data shows - Reuters",
+          "published_at": "Fri, 23 Oct 2026 06:27:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOb3Zka2dCZ1RzeXJfN1BWOGlIbHpxODVFbTdvdjFuengzUlVHTkpLVGlOa05wUXNvdWpyNl9MTGRVMTJmWFdMTTFyU3pka3FrZ0hzMGhHVEJTRGpVQXV1TEhPYXBsSjU2UllWZHlfVzBCMnBvT01NbVNUdkJiMER4YWhKZDljRUVMY2N1REdxMEpZVkg1RFhOMGFkT3NnNWljS29Jd05ZLXdNMnhmaUlUZXJWY3hGTzN4b3hEM2ExUGxNcDRLMDVr?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Top RFK Jr. adviser Calley Means quits Trump administration - Reuters",
+          "published_at": "Thu, 22 Oct 2026 18:47:57 GMT",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUkJ1NWhmN2ZjaDh1QlNPa1hhUVd1OVBmd1FsMkQtRWU5cGVlQ1lZdGl6TTBRalREdC00Rlk3SURrYUs0bFlORkNZQUZBZTZYX1hpU3dDaDRVUzE3OGdIQVRPc0dBcVJtZkFRTS16WlNaY3M4NTM2V29ubDdWWEU4MXpmbUQweGY1Y01XanB0LVdsc0dsY0hXQVN1TDFTSmphdC1yczdOZlVmcUlMaWZ1UGNhdVI1QQ?oc=5"
         },
         {
           "source_name": "AP News",
-          "headline": "St Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia - AP News",
-          "published_at": "Sun, 18 Oct 2026 15:33:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPb0JsZHhVNVNkaUhpSndSUTRqNjBFN2dpaktfTUZ4dWxBTkxzQ3I1LW5CRlBQNnR3UmJ5R0JzWGFaenZ5TDg3Qkt2bC05cmpYTlAwZkRSRjBoYlN1elkwelNDNmhPbkhhV1BDT05fWm96V3oxbk5YN09nUkQ2VzlvbTR1YV81Zl9wdzU5WEU1UXN3STc0ZHJlUnhiWUc2dUk?oc=5"
+          "headline": "Trump’s math on US deal for Venezuelan oil doesn't add up, experts say. The bad data began years ago - AP News",
+          "published_at": "Thu, 22 Oct 2026 17:13:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYW93dzdYRlFUeEhOUHBwWlhObXNER0RNN2NBckh0ZHBTY2VnRTk4XzRPZE4wRG0tOUExY0hHcFpyWkduWWUyR0ZRdjRJaFhWUlFjWGgtZW5UdEhtUTM4M2IweTlna0duR1BlVXcxRDkzNUczUk9kQVNBa0xwM21GNXE5Uzc0NS03QzliN1JJbXdzTk9oUDVvWjZ2RnpnaWU1NWV3?oc=5"
         },
         {
-          "source_name": "Reuters",
-          "headline": "One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region - Reuters",
-          "published_at": "Sun, 18 Oct 2026 11:17:23 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORkdkNk9DVENGZU50OHVsbHF4Z3ZWbnBxcHVqaDJSa1JEWXZ5aFVqbTQwWmwzUGpvZUJsTUFzSnZHd2laVHpqd05XaF9KM2YxdUNUSVV0YUp1SFVKbTBRVHNzcVc0ek84cTY5TTVmZGhPbnhzMVJiejFXaDdXV3pBcTZYeEI3QkZrNDlOOWllWFk3ejFfMVdVd3lQUGJMeXBhNW5xTjZJQnBINTVSTjVDUnZKSm1laDdKaEE3eGdoSUtaQQ?oc=5"
+          "source_name": "Washington Post",
+          "headline": "Democrats plan to investigate U.S. diesel companies involved in easing Russian sanctions - The Washington Post",
+          "published_at": "Fri, 23 Oct 2026 05:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNVQzNTdialg4SXI3UUhJb3dGTnBJS0J3MGlYcDVrNlViMkJqY3NLN09ZSllPVUlzZm0xN2ZTQ1hfT1JnVHVzZ0pGMUhaQzFzd185VHRHdGg3eTVSZFdyeUNhZzJCdVlGaEZZcDhBNHNTR0dBMzJoRTZYS3lBV1FfVGhLQXQ1VC0zMk5CRVNGSTFnU2hBNFpPWEtyckZIaWNldmpYaDZySHVJM1lnQzJmNFZNU1VWa1ZpTERDNDVJT3hTRXYxUXA0YVVUaGk?oc=5"
         },
         {
-          "source_name": "BBC News",
-          "headline": "Oil facilities hit in deadly overnight attack on St Petersburg",
-          "published_at": "Sun, 18 Oct 2026 15:46:10 GMT",
-          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source_name": "The Hindu",
-          "headline": "St. Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia",
-          "published_at": "Sun, 18 Oct 2026 22:21:52 +0530",
-          "url": "https://www.thehindu.com/news/international/st-petersburg-oil-facilities-ablaze-as-ukraine-launches-more-than-1000-drones-at-russia/article71600876.ece"
+          "source_name": "CNN",
+          "headline": "Top Trump political advisers donate fee for work on behalf of pro-Russian government after he floated firing them - CNN",
+          "published_at": "Fri, 23 Oct 2026 03:39:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaVdQWnNGSzRXdVRuVWdVSW5mMjdvbVpXOHNlbzY3T2FtVUJXRl9iZkUxWEdpb1RqV3V0VThhQUhoNE8wYXBVeERlXzFLRV9CMmFkSU1PYTBwVWd4T3dvdGpWalFsaGx3UEtvQkNaZmp0dUE2UWVUYVhWQnFPNGNSYURFaHBsVmtGYUUzOFRXTXREejJP?oc=5"
         }
       ],
-      "source_count": 6,
-      "total_count": 7,
-      "combined_score": 5.28,
+      "source_count": 4,
+      "total_count": 5,
+      "combined_score": 3.5,
       "brief_bullets": [
-        "St Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia AP News One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook.",
-        "A logistics centre belonging to Russian retailer Ozon and a data centre operated by Russian tech giant VK were also targeted, the companies confirmed.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
-        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions."
+        "Recent trade data reveals that Russian diesel shipments have begun arriving in the United States following a newly brokered understanding between Vladimir Putin and Donald Trump. This development has immediately triggered intense political fallout, prompting congressional Democrats to launch formal investigations into domestic energy companies suspected of facilitating the circumvention of existing sanctions. Meanwhile, the Trump administration faces additional internal friction as senior advisers depart amid overlapping controversies regarding financial transparency and foreign policy alignments."
       ],
       "why_it_matters_bullets": [
-        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+        "The resumption of Russian fuel imports strains bipartisan alliances and threatens renewed scrutiny over U.S. sanctions enforcement."
       ],
-      "brief": "St Petersburg oil facilities ablaze as Ukraine launches more than 1,000 drones at Russia AP News One killed, 15 injured in Ukrainian drone attack on St Petersburg and Leningrad region At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook. A logistics centre belonging to Russian retailer Ozon and a data centre operated by Russian tech giant VK were also targeted, the companies confirmed. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 133
+      "brief": "Recent trade data reveals that Russian diesel shipments have begun arriving in the United States following a newly brokered understanding between Vladimir Putin and Donald Trump. This development has immediately triggered intense political fallout, prompting congressional Democrats to launch formal investigations into domestic energy companies suspected of facilitating the circumvention of existing sanctions. Meanwhile, the Trump administration faces additional internal friction as senior advisers depart amid overlapping controversies regarding financial transparency and foreign policy alignments. The resumption of Russian fuel imports strains bipartisan alliances and threatens renewed scrutiny over U.S. sanctions enforcement.",
+      "brief_word_count": 92
     },
     {
-      "story_id": "story-24",
+      "story_id": "story-28",
       "category": "Finance",
-      "primary_headline": "Anti-CEC stir | Delhi Police registers cases, arrests 5 persons over attacks on protesters",
+      "primary_headline": "Iran says 7 tankers damaged in Strait of Hormuz, and other Mideast news",
       "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Anti-CEC stir | Delhi Police registers cases, arrests 5 persons over attacks on protesters",
-        "published_at": "Sun, 18 Oct 2026 14:26:40 +0000",
-        "url": "https://www.deccanherald.com/india/delhi/anti-cec-stir-delhi-police-registers-cases-arrests-5-persons-over-attacks-on-protesters-4187332",
-        "content": " New Delhi: Delhi Police has registered at least 10 FIRs and arrested five people in connection with alleged harassment and assaults on protesters demanding the resignation of Chief Election Commissioner Gyanesh Kumar, with several social media posts accusing right-wing activists of targeting demonstrators, officials said on Sunday.The cases were registered between October 11 and 14 at Connaught Place and Kamla Market police stations after videos and posts highlighting alleged attacks on protesters circulated on social media.At least five people have been arrested in two separate cases, a senior police officer said.According to the police, an FIR was registered at Connaught Place police station on October 13 in connection with an incident flagged through social media handles.Delhi Police registers four FIRs against 'rumour-mongers', Pak social media handles under scannerGaurav was arrested in the case, while efforts are underway to trace his alleged accomplices.A group of men was seen assaulting a protester while daring others to call them \"cockroaches\". One of the men was also heard threatening to beat up anyone who spoke against the prime minister or the police.In another case, registered at Kamla Market police station on October 11, four people were arrested after a video purportedly showing individuals harassing and assaulting protesters went viral.Police took suo motu cognisance of the incident and initiated legal action against those allegedly involved.The list of cases also includes multiple FIRs registered at Connaught Place police station on October 13 and 14 over incidents highlighted in social media posts and videos. Police are examining CCTV footage to identify those involved, establish the sequence of events and determine the roles of the suspected accused.EC-SIR row: Delhi Police take down 300 social media for spreading 'rumours'Several social media posts have alleged that right-wing activists assaulted or harassed protesters during the demonstrations.The footage and allegations are being examined by police as they work to identify the people involved and establish the circumstances surrounding the incidents.The police action comes amid a wider scrutiny of online content related to the protests, with authorities also investigating posts allegedly circulating misinformation, rumours and fabricated videos.Some social media accounts have shared claims of police brutality against demonstrators, which investigators are examining to establish their authenticity.In one of the cases, police have sought information from social media platform X to identify a user accused of uploading videos that they suspect were fabricated and circulated to disrupt public order.Police have identified more than 37 social media accounts, including over 17 allegedly linked to right-wing groups, for purportedly circulating misleading content related to the protests, a source in the police said.Takedown notices have been issued to more than 17 handles, including those linked to right-wing groups, and action has been initiated under relevant provisions of the Information Technology Act and other laws for allegedly inciting people and disrupting law and order, they said.Some right-wing accounts allegedly shared posts and reels targeting protesters and presenting the demonstrations in a misleading manner, while other users circulated videos purportedly showing police brutality against demonstrators.Investigators are examining the content to verify its authenticity and identify those responsible, the officials added.The protests in the national capital have been organised over demands for Kumar's resignation and a rollback of the SIR exercise. Further investigation in the cases is underway."
+        "source_name": "AP News",
+        "headline": "Iran says 7 tankers damaged in Strait of Hormuz, and other Mideast news - AP News",
+        "published_at": "Thu, 22 Oct 2026 19:38:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcmxkSUw3N3BIRncxYTA1MkE4Y1JuX0dKaG1kSU1jZElzcFVoWFk4REluNnd2VjZZMFo2S0c4U1k4VG9QaC03RF9zakxFQWpZQURfRTdLazEyaXFETmtNS2Q0TjJHamY2cTVPQ3JaRlBZZHhoRS11ZHFLblp3am05aGpaT2hUcW5UZDQ5bFJ4SGpjd0k0NVpiLTZFQlA2RVpFaHJZMA?oc=5",
+        "content": "Iran says 7 tankers damaged in Strait of Hormuz, and other Mideast news&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
-          "source_name": "Deccan Herald",
-          "headline": "Anti-CEC stir | Delhi Police registers cases, arrests 5 persons over attacks on protesters",
-          "published_at": "Sun, 18 Oct 2026 14:26:40 +0000",
-          "url": "https://www.deccanherald.com/india/delhi/anti-cec-stir-delhi-police-registers-cases-arrests-5-persons-over-attacks-on-protesters-4187332"
+          "source_name": "AP News",
+          "headline": "Iran says 7 tankers damaged in Strait of Hormuz, and other Mideast news - AP News",
+          "published_at": "Thu, 22 Oct 2026 19:38:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcmxkSUw3N3BIRncxYTA1MkE4Y1JuX0dKaG1kSU1jZElzcFVoWFk4REluNnd2VjZZMFo2S0c4U1k4VG9QaC03RF9zakxFQWpZQURfRTdLazEyaXFETmtNS2Q0TjJHamY2cTVPQ3JaRlBZZHhoRS11ZHFLblp3am05aGpaT2hUcW5UZDQ5bFJ4SGpjd0k0NVpiLTZFQlA2RVpFaHJZMA?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war - AP News",
+          "published_at": "Thu, 22 Oct 2026 18:55:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOVo5NGVvb09wSzBSTFVOa21PVVRNWWlEYUd1ZEU2U0tjTm55R3hYQ2Ezd1lUWUYwbFNpVUhJVDBxNlZaamJKaDJvblV1dl83LVhSX21rMkZuUXQtWFZmZmpZbXRrMkwwRzloVnA0QUs0cjN5MXNiZDBKR2MwaW9Sa1BKUGlaRUlQeG5PYnNPcTQ3YXZFc3QybjE1ZmVCYVJmY0doag?oc=5"
+        },
+        {
+          "source_name": "The Guardian",
+          "headline": "Tell us: do you live near the Strait of Hormuz? How is the US-Iran conflict affecting your life?",
+          "published_at": "Thu, 22 Oct 2026 13:02:04 GMT",
+          "url": "https://www.theguardian.com/world/2026/oct/22/tell-us-do-live-near-strait-of-hormuz-iran-us-conflict"
+        },
+        {
+          "source_name": "Al Jazeera",
+          "headline": "Can Russia broker a new US-Iran deal? - Al Jazeera",
+          "published_at": "Thu, 22 Oct 2026 08:11:56 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQb0t6TE1iTm95ald6TEVjM29NUjFjOTJ1ZWJyODFWeWtUeGR3T1ZDa2NXX0ZIQ3RGZUxNUWF1Q002amRNOHVGOW5Cazh3N3lEaGROQ2t4dkpCZmo4ZmFrQm5BNXNYZ3ZGemJHa3FPQjcxWm5NVE5jWFk4c1FiQ190eG1mSmZuYWExLVHSAY8BQVVfeXFMT2FDR2F4X0dyOXVGczJBRkJXcVJFbGpSQ1RRSU9IM0NnejEzdm8tSFVkMnlaeWhjZzV6Wk5FZW10c0lER19fMGM0OXBrcDU1MVJNaGp2Rk4yODVOakMzNUMxem5RMVp4UUdZS3RtMTFSLVhZa0lrbHcxS25vc3ZlWURpQVVNc3d0MEpNQ0lqUG8?oc=5"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 4,
+      "combined_score": 2.76,
+      "brief_bullets": [
+        "Tensions in the Strait of Hormuz have escalated sharply as Iranian forces reportedly attacked seven oil tankers on Wednesday, contributing to a broader surge of at least 15 vessel strikes over the past fortnight. The UK Maritime Trade Operations Centre confirms that 12 ships were targeted within a single week, primarily along routes near the Omani coast that Tehran deems unauthorized. These persistent maritime assaults have disrupted critical energy transit corridors and sparked significant international alarm regarding potential environmental catastrophes from oil spills. As regional instability intensifies, the systematic targeting of commercial shipping threatens to destabilize global energy markets and risks drawing major powers into a direct military confrontation within this vital maritime chokepoint."
+      ],
+      "why_it_matters_bullets": [
+        "Escalating attacks on global energy transit routes threaten to trigger severe supply chain disruptions and wider regional military conflict."
+      ],
+      "brief": "Tensions in the Strait of Hormuz have escalated sharply as Iranian forces reportedly attacked seven oil tankers on Wednesday, contributing to a broader surge of at least 15 vessel strikes over the past fortnight. The UK Maritime Trade Operations Centre confirms that 12 ships were targeted within a single week, primarily along routes near the Omani coast that Tehran deems unauthorized. These persistent maritime assaults have disrupted critical energy transit corridors and sparked significant international alarm regarding potential environmental catastrophes from oil spills. As regional instability intensifies, the systematic targeting of commercial shipping threatens to destabilize global energy markets and risks drawing major powers into a direct military confrontation within this vital maritime chokepoint. Escalating attacks on global energy transit routes threaten to trigger severe supply chain disruptions and wider regional military conflict.",
+      "brief_word_count": 133
+    },
+    {
+      "story_id": "story-30",
+      "category": "Finance",
+      "primary_headline": "SpaceX says potential Tesla merger would need Elon Musk's approval",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "SpaceX says potential Tesla merger would need Elon Musk's approval - Reuters",
+        "published_at": "Thu, 22 Oct 2026 20:49:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPekJwbzJpb0hnTHRJeE8yRWNyNzM3QjF2MkQxbzVSak1vNUJmQ3ctRWd2Q2stNTlzcnppeTc4MXRra3pXZHlfVUYtZEptbFN0RWxCa0Jrcl9SRHNaWWJkUkxaUXU3aVRvcGFTRUNwbWdiS2l6RmdpLTdERGdrdzJCMlA4c1hxNHV3a1NYMzRfdUxVRldYc2hkMmxsRXJCY2JCaURRNlZBZTh0UQ?oc=5",
+        "content": "SpaceX says potential Tesla merger would need Elon Musk's approval&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "SpaceX says potential Tesla merger would need Elon Musk's approval - Reuters",
+          "published_at": "Thu, 22 Oct 2026 20:49:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPekJwbzJpb0hnTHRJeE8yRWNyNzM3QjF2MkQxbzVSak1vNUJmQ3ctRWd2Q2stNTlzcnppeTc4MXRra3pXZHlfVUYtZEptbFN0RWxCa0Jrcl9SRHNaWWJkUkxaUXU3aVRvcGFTRUNwbWdiS2l6RmdpLTdERGdrdzJCMlA4c1hxNHV3a1NYMzRfdUxVRldYc2hkMmxsRXJCY2JCaURRNlZBZTh0UQ?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Elon Musk invests about $1 billion in Skydance, CNBC reports - Reuters",
+          "published_at": "Thu, 22 Oct 2026 19:37:43 GMT",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORE9VS0szMDd1WndXQU1weENRQU93eGQ4cWRfRWpwMDM5SGNDVGE4elNjZWdHcU43dTBOYmxEUnhmaERyUmNlMmdFV1BfRDNFNlBicjZxME10M1hqcjktWDZ5M2I0RVUzc0c1TkhieERBMElUZFRINjluaUs3OTBBcm9LcFBrR3JwVHFvM0cwNWFwX0tKZDRmY3c4aE9GZlY3UGgyNWJHZjVoX1hZdlJoOW9BaWM?oc=5"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Elon Musk To Merge SpaceX, Tesla: A Look Into $3.5 Trillion Corporate Deal",
+          "published_at": "Fri, 23 Oct 2026 09:35:46 +0530",
+          "url": "https://www.ndtv.com/world-news/elon-musk-to-merge-spacex-tesla-a-look-into-3-5-trillion-corporate-deal-12223421#publisher=newsstand"
+        },
+        {
+          "source_name": "NPR",
+          "headline": "U.S., Israel may attack Iran post-elections. And, SpaceX and Tesla consider merging",
+          "published_at": "Thu, 22 Oct 2026 07:28:24 -0400",
+          "url": "https://www.npr.org/2026/10/22/g-s1-149315/up-first-newsletter-midterm-campaign-israel-iran-elon-musk-spacex-tesla"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 4,
+      "combined_score": 2.73,
+      "brief_bullets": [
+        "Elon Musk is reportedly evaluating a potential merger between his aerospace firm SpaceX and electric vehicle manufacturer Tesla. While Musk maintains absolute control over SpaceX with 82 percent of voting power, his influence at Tesla is significantly lower at 20 percent, complicating any consolidation efforts. Such a move would require explicit approval from Musk and likely face intense scrutiny from Tesla shareholders, who have previously challenged his governance and corporate decision-making. This development emerges alongside reports of Musk’s recent $1 billion investment in Skydance, further highlighting his expansive and complex business portfolio. The proposed integration of these distinct industries raises significant questions regarding corporate structure, regulatory oversight, and the future alignment of Musk’s diverse technological ventures."
+      ],
+      "why_it_matters_bullets": [
+        "A merger would consolidate unprecedented technological power, triggering massive regulatory scrutiny and reshaping global corporate governance standards."
+      ],
+      "brief": "Elon Musk is reportedly evaluating a potential merger between his aerospace firm SpaceX and electric vehicle manufacturer Tesla. While Musk maintains absolute control over SpaceX with 82 percent of voting power, his influence at Tesla is significantly lower at 20 percent, complicating any consolidation efforts. Such a move would require explicit approval from Musk and likely face intense scrutiny from Tesla shareholders, who have previously challenged his governance and corporate decision-making. This development emerges alongside reports of Musk’s recent $1 billion investment in Skydance, further highlighting his expansive and complex business portfolio. The proposed integration of these distinct industries raises significant questions regarding corporate structure, regulatory oversight, and the future alignment of Musk’s diverse technological ventures. A merger would consolidate unprecedented technological power, triggering massive regulatory scrutiny and reshaping global corporate governance standards.",
+      "brief_word_count": 133
+    },
+    {
+      "story_id": "story-37",
+      "category": "Finance",
+      "primary_headline": "Nepal to get $20 million from climate fund after deadly August flood",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Nepal to get $20 million from climate fund after deadly August flood - Reuters",
+        "published_at": "Fri, 23 Oct 2026 02:00:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTlVRZ1pRQmFHclNSbW1xY0szUm5hdHZ4NnVQemZWcmxOWW1jRnFCcC1aM2wydFoyVUxYLWptNUk0VDJDVlhWay1MUi1JQVl5V2xpT1FFVy14U2Vhd2IxZmJQRHN2aHpRaHlZQXhrTGt4d0R5bE51TlVBT0xzeWtpUk9hR3g4QWxmbUp3SE1xU0NUVTdhNy1mTXBQSlk0WWJtSklCX0NaMUU5a1RWT0JFbkpQMDhjbXM?oc=5",
+        "content": "Nepal to get $20 million from climate fund after deadly August flood&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Nepal to get $20 million from climate fund after deadly August flood - Reuters",
+          "published_at": "Fri, 23 Oct 2026 02:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTlVRZ1pRQmFHclNSbW1xY0szUm5hdHZ4NnVQemZWcmxOWW1jRnFCcC1aM2wydFoyVUxYLWptNUk0VDJDVlhWay1MUi1JQVl5V2xpT1FFVy14U2Vhd2IxZmJQRHN2aHpRaHlZQXhrTGt4d0R5bE51TlVBT0xzeWtpUk9hR3g4QWxmbUp3SE1xU0NUVTdhNy1mTXBQSlk0WWJtSklCX0NaMUU5a1RWT0JFbkpQMDhjbXM?oc=5"
+        },
+        {
+          "source_name": "The Hindu",
+          "headline": "Nepal to receive first-ever loss and damage fund payout after devastating floods",
+          "published_at": "Fri, 23 Oct 2026 11:43:13 +0530",
+          "url": "https://www.thehindu.com/videos/nepal-to-receive-first-ever-loss-and-damage-fund-payout-after-devastating-floods/article71614805.ece"
         },
         {
           "source_name": "The Indian Express",
-          "headline": "Anti-CEC stir: Police grant permission for Congress Nov 1 rally at Ramlila Maidan",
-          "published_at": "Sun, 18 Oct 2026 02:36:07 +0000",
-          "url": "https://indianexpress.com/article/delhi/congress-rally-ramlila-maidan-november-1-sir-cec-gyanesh-kumar-protest-india-bloc-cjp-10926404/"
-        },
-        {
-          "source_name": "The Print",
-          "headline": "Photos of the Week: Kolkata reels after pandal stampede kills 19, protests against CEC sweep Delhi - ThePrint",
-          "published_at": "Sun, 18 Oct 2026 11:53:01 GMT",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPaEJvZHFKc1hWblFIVlFBamJFNlhocVludFFDMk95ZDFoQk5fMjR3ZjE5THFNdUtNTTJYYlhCMENMV3BZWkdvMkJqYlUxZVZ5RUxuam1YYkR4ZUhfdjdtbEdvblJlZGd5ZVJVZTZJRDNVaUh4Z3l5VEJfVlNoTjF0U1VZZnV6VEVheWlRbFZfOVNtYUZoYnRMWW5weDBsT3c4MVRteGhDemJjUTRQMjhLejk5ajFUbXVPRmdVU0kyemFsTDRwVS1GMkFmTGVLdlh2Q0ZF0gHYAUFVX3lxTE1QWkYyZFBiMjZOVjc4ZHgtNktJaEhPbC1hQ19QWFNiYl8tSjNzYVJwVV9saHZaUnp3b2NDV0FIT2ItMkdZVTBFVEptUndZb1MycnNrY005UXRlcjI5YWpLQXpLYy1VemJFQjQwYmdTeUNUT1N1M183WEVJTndvSXhTRy11ZHNLUEJvSFJZNm9aUmVJRlktRHUtdF9XWGd4U0tJYUFESUtCZ1BsTzc2OGtlRGNKT0xaR19PeUI5SVFPMXZ4VTdFVTFrMVBodmFmOE9YOHBhQkVreQ?oc=5"
+          "headline": "Nepal becomes first beneficiary of global funding for loss & damage",
+          "published_at": "Fri, 23 Oct 2026 01:32:47 +0000",
+          "url": "https://indianexpress.com/article/world/nepal-flash-floods-loss-damage-fund-20-million-10933002/"
         }
       ],
       "source_count": 3,
       "total_count": 3,
       "combined_score": 2.43,
       "brief_bullets": [
-        "New Delhi: Delhi Police has registered at least 10 FIRs and arrested five people in connection with alleged harassment and assaults on protesters demanding the resignation of Chief Election Commissioner Gyanesh Kumar, with several social media posts accusing right-wing activists of targeting demonstrators, officials said on Sunday.",
-        "The cases were registered between October 11 and 14 at Connaught Place and Kamla Market police stations after videos and posts highlighting alleged attacks on protesters circulated on social media.",
-        "At least five people have been arrested in two separate cases, a senior police officer said.",
-        "According to the police, an FIR was registered at Connaught Place police station on October 13 in connection with an incident flagged through social media handles."
+        "Nepal is set to receive $21.6 million from the United Nations Loss and Damage Fund following the devastating Bhotekoshi floods in August. This landmark decision marks the first time the global climate fund has earmarked direct financial assistance for a specific nation to address climate-change-linked disasters. While climate experts have widely praised this unprecedented allocation, the financial support represents only a fraction of the nearly $5 billion Nepal urgently requires for comprehensive national recovery and reconstruction efforts."
       ],
       "why_it_matters_bullets": [
-        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
+        "This unprecedented allocation sets a crucial precedent for international climate reparations and vulnerable nation support."
       ],
-      "brief": "New Delhi: Delhi Police has registered at least 10 FIRs and arrested five people in connection with alleged harassment and assaults on protesters demanding the resignation of Chief Election Commissioner Gyanesh Kumar, with several social media posts accusing right-wing activists of targeting demonstrators, officials said on Sunday. The cases were registered between October 11 and 14 at Connaught Place and Kamla Market police stations after videos and posts highlighting alleged attacks on protesters circulated on social media. At least five people have been arrested in two separate cases, a senior police officer said. According to the police, an FIR was registered at Connaught Place police station on October 13 in connection with an incident flagged through social media handles. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 133
+      "brief": "Nepal is set to receive $21.6 million from the United Nations Loss and Damage Fund following the devastating Bhotekoshi floods in August. This landmark decision marks the first time the global climate fund has earmarked direct financial assistance for a specific nation to address climate-change-linked disasters. While climate experts have widely praised this unprecedented allocation, the financial support represents only a fraction of the nearly $5 billion Nepal urgently requires for comprehensive national recovery and reconstruction efforts. This unprecedented allocation sets a crucial precedent for international climate reparations and vulnerable nation support.",
+      "brief_word_count": 92
     },
     {
-      "story_id": "story-26",
+      "story_id": "story-38",
       "category": "Finance",
-      "primary_headline": "India widens cancer drug price caps, lowering prices of 137 medicines",
+      "primary_headline": "Zuckerberg makes deal with Meta to help him pay billionaire tax if it passes",
       "primary_source": {
-        "source_name": "Reuters",
-        "headline": "India widens cancer drug price caps, lowering prices of 137 medicines - Reuters",
-        "published_at": "Sun, 18 Oct 2026 11:27:03 GMT",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNYkkwM0RDdmdmQ1ktLWJBS05mMmp0SmNveGE5ZGRVWmNaYVA1czQwVEpSTGF0aXRSSVpYaGNYZ2tVVVVtN3Q0VUpqS1cxaVVMd3hUNkxPVEdhN2xfeHU3VjhuTkVoSlVJWDYxSXpSMkNiNUVOMGU2VUhWUTdBZUhzeUpidFhUTkhpZVFOOVRmYUV6alA3TC1BMTdYR2lJYktuZUI2UVZGMm5Wajg0MmNfMTg4NzJqeXVhVmpwNkVmbEpKbmhiUEJKUWQ4aTA3cmJTR0FR?oc=5",
-        "content": "India widens cancer drug price caps, lowering prices of 137 medicines&nbsp;&nbsp;Reuters"
+        "source_name": "AP News",
+        "headline": "Zuckerberg makes deal with Meta to help him pay billionaire tax if it passes - AP News",
+        "published_at": "Thu, 22 Oct 2026 22:01:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRWVrSU05RXd3Q0RmUmhPdUJGT1ZlOWpFcWY4QWM1QjYtdXVBOFJPd194U3V2Qlp3Vk5VLXN5S1VyMW9qdjR6aGNRbDFCYVBrVk9TYlRoelNJUEZBaDJQZDRpREotVEk2M01IMzNZekVoeWEzV1lxMTViTjJ1WlZFMTdhbWNSdEFUSFVHd21yTmVHc3o2RVdNME9fQVJIU3p1M3A3LXVjM2pYU05waVBWNEtOcXJlUQ?oc=5",
+        "content": "Zuckerberg makes deal with Meta to help him pay billionaire tax if it passes&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
-          "source_name": "Reuters",
-          "headline": "India widens cancer drug price caps, lowering prices of 137 medicines - Reuters",
-          "published_at": "Sun, 18 Oct 2026 11:27:03 GMT",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNYkkwM0RDdmdmQ1ktLWJBS05mMmp0SmNveGE5ZGRVWmNaYVA1czQwVEpSTGF0aXRSSVpYaGNYZ2tVVVVtN3Q0VUpqS1cxaVVMd3hUNkxPVEdhN2xfeHU3VjhuTkVoSlVJWDYxSXpSMkNiNUVOMGU2VUhWUTdBZUhzeUpidFhUTkhpZVFOOVRmYUV6alA3TC1BMTdYR2lJYktuZUI2UVZGMm5Wajg0MmNfMTg4NzJqeXVhVmpwNkVmbEpKbmhiUEJKUWQ4aTA3cmJTR0FR?oc=5"
+          "source_name": "AP News",
+          "headline": "Zuckerberg makes deal with Meta to help him pay billionaire tax if it passes - AP News",
+          "published_at": "Thu, 22 Oct 2026 22:01:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRWVrSU05RXd3Q0RmUmhPdUJGT1ZlOWpFcWY4QWM1QjYtdXVBOFJPd194U3V2Qlp3Vk5VLXN5S1VyMW9qdjR6aGNRbDFCYVBrVk9TYlRoelNJUEZBaDJQZDRpREotVEk2M01IMzNZekVoeWEzV1lxMTViTjJ1WlZFMTdhbWNSdEFUSFVHd21yTmVHc3o2RVdNME9fQVJIU3p1M3A3LXVjM2pYU05waVBWNEtOcXJlUQ?oc=5"
+        },
+        {
+          "source_name": "Washington Post",
+          "headline": "How Mark Zuckerberg went to war with his own board of directors over pay and power - The Washington Post",
+          "published_at": "Fri, 23 Oct 2026 04:08:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWnlBZ3dyc0JsazJiVEcxTFJYbWY3b2pjeDRrb0x5VkJXUTBld3RqM0tFV3FaZTluaU12NFdmZ1g2S1JIZVdrS2lWUTkycFNXRlNXOFBEMmVscm5IQU55X0VDUUVLVzZzZEczamhDcFZFQjdPakpsaVJyTy1MM0JWX1lLQmF1NGQzRmhEQ1V0ZnBxODNLZmRjOFk2d2NYUWFiMElZcG1zbkJleUNfc1JQZnJwOWphWGpGY1Zz?oc=5"
+        },
+        {
+          "source_name": "TechCrunch",
+          "headline": "Mark Zuckerberg’s creative plan to pay California’s proposed billionaire tax without losing control of Meta",
+          "published_at": "Thu, 22 Oct 2026 23:50:41 +0000",
+          "url": "https://techcrunch.com/2026/10/22/mark-zuckerbergs-creative-plan-to-pay-californias-proposed-billionaire-tax-without-losing-control-of-meta/"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 3,
+      "combined_score": 2.43,
+      "brief_bullets": [
+        "Meta has engineered a newly launched stock class designed to help founder and chief executive officer Mark Zuckerberg meet potential financial obligations under a proposed billionaire tax. The strategic structural adjustment emerged alongside internal board discussions regarding executive compensation and corporate governance power. This arrangement shields Zuckerberg's personal wealth from catastrophic liquidity strains if wealth-tax legislation successfully passes into law. The development highlights how ultra-high-net-worth individuals proactively restructure corporate equities to mitigate unprecedented regulatory and legislative fiscal threats."
+      ],
+      "why_it_matters_bullets": [
+        "This maneuver sets a precedent for executive asset protection against prospective wealth taxes."
+      ],
+      "brief": "Meta has engineered a newly launched stock class designed to help founder and chief executive officer Mark Zuckerberg meet potential financial obligations under a proposed billionaire tax. The strategic structural adjustment emerged alongside internal board discussions regarding executive compensation and corporate governance power. This arrangement shields Zuckerberg's personal wealth from catastrophic liquidity strains if wealth-tax legislation successfully passes into law. The development highlights how ultra-high-net-worth individuals proactively restructure corporate equities to mitigate unprecedented regulatory and legislative fiscal threats. This maneuver sets a precedent for executive asset protection against prospective wealth taxes.",
+      "brief_word_count": 91
+    },
+    {
+      "story_id": "story-42",
+      "category": "Finance",
+      "primary_headline": "Kochi synagogue arson: UAPA invoked, police probe crypto trail",
+      "primary_source": {
+        "source_name": "The Indian Express",
+        "headline": "Kochi synagogue arson: UAPA invoked, police probe crypto trail",
+        "published_at": "Fri, 23 Oct 2026 07:08:37 +0000",
+        "url": "https://indianexpress.com/article/india/kochi-synagogue-arson-uapa-police-probe-crypto-trail-10933392/",
+        "content": ""
+      },
+      "sources": [
+        {
+          "source_name": "The Indian Express",
+          "headline": "Kochi synagogue arson: UAPA invoked, police probe crypto trail",
+          "published_at": "Fri, 23 Oct 2026 07:08:37 +0000",
+          "url": "https://indianexpress.com/article/india/kochi-synagogue-arson-uapa-police-probe-crypto-trail-10933392/"
+        },
+        {
+          "source_name": "The Hindu",
+          "headline": "Accused in Keralam synagogue arson case slapped with UAPA, larger conspiracy suspected: police",
+          "published_at": "Fri, 23 Oct 2026 12:35:47 +0530",
+          "url": "https://www.thehindu.com/news/national/kerala/accused-in-keralam-synagogue-arson-case-slapped-with-uapa-larger-conspiracy-suspected-police/article71614894.ece"
         },
         {
           "source_name": "Deccan Herald",
-          "headline": "Explained | Govt caps trade margins on 137 cancer drugs at 30%: NPPA",
-          "published_at": "Sun, 18 Oct 2026 12:30:51 +0000",
-          "url": "https://www.deccanherald.com/health/healthcare/explainedgovt-caps-trade-margins-on-137-cancer-drugs-at-30-nppa-4187230"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Government caps trade margins on 137 anti-cancer drugs at 30%",
-          "published_at": "Sat, 17 Oct 2026 23:49:47 +0000",
-          "url": "https://indianexpress.com/article/india/government-caps-trade-margins-anti-cancer-drugs-10926290/"
+          "headline": "UAPA invoked in Kochi arson case, NIA likely to take over probe",
+          "published_at": "Fri, 23 Oct 2026 06:57:38 +0000",
+          "url": "https://www.deccanherald.com/india/keralam/uapa-invoked-in-kochi-arson-case-nia-likely-to-take-over-probe-4192350"
         }
       ],
       "source_count": 3,
       "total_count": 3,
       "combined_score": 2.4,
       "brief_bullets": [
-        "The Ministry of Chemicals and Fertilisers has announced a price cap of 30 per cent on the trade margins of 137 cancer medicines, over the cost of the drug at the first point, either to a stockist/distributor or the hospital.",
-        "These margins will apply when the drugs are sold directly to them by a manufacturer.&nbsp;The National Pharmaceutical Pricing Authority (NPPA), in an order dated October 17, has directed manufacturers to submit the revised MRP within seven days. \"The revised prices shall come into effect from November 9,\" the gazette notification stated.&nbsp;Impact on cancer drug pricesAn analysis of pharmaceutical market data indicates that non-scheduled anti-cancer drugs carry an average trade mark-up of approximately 170 per cent, with mark-ups of up to 700 per cent in certain cases, according to an NPPA meeting conducted earlier."
+        "Kerala police have invoked the stringent Unlawful Activities Prevention Act against Ebin Paul, arrested for the October arson near Kochi's Kadavubhagam synagogue. Investigators leading the Special Investigation Team discovered that the suspect allegedly acted under encrypted Telegram instructions from an unidentified handler, receiving cryptocurrency funding to execute targeted property attacks. With authorities uncovering digital evidence of pre-incident surveillance and multiple related arson cases in Muvattupuzha, the state Anti-Terrorism Squad and central agencies are examining a broader conspiracy, paving the way for the National Investigation Agency to assume control of the high-profile probe."
       ],
       "why_it_matters_bullets": [
-        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
+        "The invocation of anti-terror laws highlights growing security concerns over cryptofinanced, handler-driven attacks on sensitive religious and commercial sites."
       ],
-      "brief": "The Ministry of Chemicals and Fertilisers has announced a price cap of 30 per cent on the trade margins of 137 cancer medicines, over the cost of the drug at the first point, either to a stockist/distributor or the hospital. These margins will apply when the drugs are sold directly to them by a manufacturer.&nbsp;The National Pharmaceutical Pricing Authority (NPPA), in an order dated October 17, has directed manufacturers to submit the revised MRP within seven days. \"The revised prices shall come into effect from November 9,\" the gazette notification stated.&nbsp;Impact on cancer drug pricesAn analysis of pharmaceutical market data indicates that non-scheduled anti-cancer drugs carry an average trade mark-up of approximately 170 per cent, with mark-ups of up to 700 per cent in certain cases, according to an NPPA meeting conducted earlier. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
-      "brief_word_count": 146
+      "brief": "Kerala police have invoked the stringent Unlawful Activities Prevention Act against Ebin Paul, arrested for the October arson near Kochi's Kadavubhagam synagogue. Investigators leading the Special Investigation Team discovered that the suspect allegedly acted under encrypted Telegram instructions from an unidentified handler, receiving cryptocurrency funding to execute targeted property attacks. With authorities uncovering digital evidence of pre-incident surveillance and multiple related arson cases in Muvattupuzha, the state Anti-Terrorism Squad and central agencies are examining a broader conspiracy, paving the way for the National Investigation Agency to assume control of the high-profile probe. The invocation of anti-terror laws highlights growing security concerns over cryptofinanced, handler-driven attacks on sensitive religious and commercial sites.",
+      "brief_word_count": 111
     },
     {
-      "story_id": "story-42",
+      "story_id": "story-32",
       "category": "Finance",
-      "primary_headline": "DH Evening Brief | Seven, including organisers, arrested in Kolkata pandal stampede; India bars sugarcane-based ethanol from 2026-27 procurement tender to safeguard sugar supplies",
+      "primary_headline": "Karnataka swimmer nets bronze in Asian Para Games 2026",
       "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "DH Evening Brief | Seven, including organisers, arrested in Kolkata pandal stampede; India bars sugarcane-based ethanol from 2026-27 procurement tender to safeguard sugar supplies",
-        "published_at": "Sun, 18 Oct 2026 13:28:32 +0000",
-        "url": "https://www.deccanherald.com/india/dh-evening-brief-seven-including-organisers-arrested-in-kolkata-pandal-stampede-india-bars-sugarcane-based-ethanol-from-2026-27-procurement-tender-to-safeguard-sugar-supplies-4187291",
-        "content": " Kolkata pandal stampede: Seven, including Chorbagan Durga Puja organisers, arrestedKolkata Police have arrested seven people, including organisers of Chorbagan Durga Puja, for the pandal stampede that killed at least 19 people.Read moreIndia bars sugarcane-based ethanol from 2026-27 procurement tender to safeguard sugar suppliesState-run oil marketing companies have excluded ethanol produced from sugarcane juice, sugar syrup and B-heavy molasses from their latest procurement tender for the 2026-27 supply year, following government directions to halt sugar diversion for fuel amid concerns over domestic availability and prices.Read moreGwalior temple tragedy: MP CM orders removal of SP, suspension of 8 other police personnelMadhya Pradesh Chief Minister Mohan Yadav on Sunday ordered the removal of the Gwalior City Superintendent of Police and the suspension of eight other personnel after the temple accident that claimed 14 lives when a truck ploughed into devotees.Read moreTough task ahead for Edappadi Palaniswami as AIADMK fights to retain anti-DMK mantle against TVKAs the party entered its 55th year on Saturday, the All India Anna Dravida Munnetra Kazhagam (AIADMK) finds itself facing its biggest crisis ever since its founding in 1972 by the legendary M G Ramachandran.Read moreProfiles in cowardice: How world leaders and tech CEOs evade responsibility for their actionsPublished seventy years ago, Profiles in Courage presents short biographies of eight United States senators who voted against special interest groups which were intent on preserving their power in the halls of Congress.Read moreMismanagement, confusing announcements and narrow gates: What led to Kolkata pandal stampedeThe stampede at the Chorbagan Durga Puja pandal in north Kolkata claimed the lives of 19 people, while 25 others were injured.Read moreEC-SIR row | Congress says nothing can save Gyanesh Kumar, seeks major revamp of the poll bodyAs the Election Commission \"resumes\" distribution of \"readable\" electoral rolls to parties after a \"gap of eight years\", Congress on Sunday said \"nothing can save\" Chief Election Commissioner (CEC) Gyanesh Kumar while insisting that a \"thorough\" revamp of the poll body and its IT system is required.Read moreExplained| Govt caps trade margins on 137 cancer drugs at 30%: NPPAThe Ministry of Chemicals and Fertilisers has announced a price cap of 30 per cent on the trade margins of 137 cancer medicines, over the cost of the drug at the first point, either to a stockist/distributor or the hospital.Read moreKolkata stampede | 'CM himself inaugurated Chorebagan puja pandal, will he be held accountable?': Mamata AITC attacks Suvendu govtThe Mamata All India Trinamool Congress launched a sharp attack on West Bengal Chief Minister Suvendu Adhikari and Kolkata Police over a stampede at a Durga Puja pandal that claimed 19 lives, bringing the name of the CM's nephew Debdeep Adhikari, listed as chief patron of the Chorbagan Sarbojonin Durgotsab Samity, under the spotlight.Read moreA bitter harvest: Ginger's fading fortunes in KarnatakaGinger cultivation has declined sharply in the state in recent years due to diseases and growing awareness of the damage excessive pesticide use can cause to soil fertility.Read more"
+        "source_name": "The Hindu",
+        "headline": "Karnataka swimmer nets bronze in Asian Para Games 2026",
+        "published_at": "Fri, 23 Oct 2026 11:00:00 +0530",
+        "url": "https://www.thehindu.com/news/national/karnataka/karnataka-boy-nets-bronze-in-asian-para-games-2026/article71612081.ece",
+        "content": "Iran’s Sina Zeyghaminejad won gold with a time of 1:09.47 while compatriot Shahin Izadyar secured silver in 1:13.23"
       },
       "sources": [
         {
-          "source_name": "Deccan Herald",
-          "headline": "DH Evening Brief | Seven, including organisers, arrested in Kolkata pandal stampede; India bars sugarcane-based ethanol from 2026-27 procurement tender to safeguard sugar supplies",
-          "published_at": "Sun, 18 Oct 2026 13:28:32 +0000",
-          "url": "https://www.deccanherald.com/india/dh-evening-brief-seven-including-organisers-arrested-in-kolkata-pandal-stampede-india-bars-sugarcane-based-ethanol-from-2026-27-procurement-tender-to-safeguard-sugar-supplies-4187291"
+          "source_name": "The Hindu",
+          "headline": "Karnataka swimmer nets bronze in Asian Para Games 2026",
+          "published_at": "Fri, 23 Oct 2026 11:00:00 +0530",
+          "url": "https://www.thehindu.com/news/national/karnataka/karnataka-boy-nets-bronze-in-asian-para-games-2026/article71612081.ece"
         },
         {
-          "source_name": "NDTV",
-          "headline": "India Bars Sugar-Based Ethanol From 2026-27 Tender For Petrol Blend",
-          "published_at": "Sun, 18 Oct 2026 16:37:42 +0530",
-          "url": "https://www.ndtv.com/india-news/india-bars-sugar-based-ethanol-from-2026-27-tender-for-petrol-blend-12202614#publisher=newsstand"
+          "source_name": "The Hindu",
+          "headline": "Asian Para Games 2026: Indian para-athletes’ medal tally crosses 100",
+          "published_at": "Fri, 23 Oct 2026 10:54:48 +0530",
+          "url": "https://www.thehindu.com/sport/athletics/asian-para-games-2026-indian-para-athletes-medal-tally-crosses-100/article71614468.ece"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "India crosses 100-medal mark for 2nd consecutive Asian Para Games",
+          "published_at": "Fri, 23 Oct 2026 04:22:13 +0000",
+          "url": "https://indianexpress.com/article/sports/india-100-medals-asian-para-games-sandeep-world-record-gold-mens-400m-t64-10933156/"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Shams Alam sent home from Asian Para Games after allegations of sexual misconduct",
+          "published_at": "Thu, 22 Oct 2026 17:58:37 +0000",
+          "url": "https://indianexpress.com/article/sports/shams-alam-sexual-misconduct-allegation-asian-para-games-ban-10932858/"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Sheetal Devi wins two gold medals a day after doubles loss at Asian Para Games",
+          "published_at": "Thu, 22 Oct 2026 17:49:17 +0000",
+          "url": "https://indianexpress.com/article/sports/sheetal-devi-two-golds-asian-para-games-coach-la-olympics-10932852/"
         }
       ],
       "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.75,
+      "total_count": 5,
+      "combined_score": 2.5,
       "brief_bullets": [
-        "Kolkata pandal stampede: Seven, including Chorbagan Durga Puja organisers, arrestedKolkata Police have arrested seven people, including organisers of Chorbagan Durga Puja, for the pandal stampede that killed at least 19 people.",
-        "Read moreIndia bars sugarcane-based ethanol from 2026-27 procurement tender to safeguard sugar suppliesState-run oil marketing companies have excluded ethanol produced from sugarcane juice, sugar syrup and B-heavy molasses from their latest procurement tender for the 2026-27 supply year, following government directions to halt sugar diversion for fuel amid concerns over domestic availability and prices."
+        "The 2023 Asian Para Games concluded with India achieving a significant milestone, finishing fifth overall with an impressive tally of 111 medals, including 29 gold, 31 silver, and 51 bronze. This marks the second consecutive Games where India surpassed the 100-medal mark, highlighting consistent athletic growth and development in para-sports. Notable individual performances included Iran's Sina Zeyghaminejad securing gold and Shahin Izadyar winning silver in their respective events, while India's Sheetal Devi earned two gold medals. However, the Games were also marred by controversy, as Indian athlete Shams Alam was sent home following allegations of sexual misconduct, underscoring the importance of athlete conduct alongside sporting achievements."
       ],
       "why_it_matters_bullets": [
-        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+        "India's consistent medal haul signifies growing para-sports prowess, but misconduct issues highlight critical governance challenges."
       ],
-      "brief": "Kolkata pandal stampede: Seven, including Chorbagan Durga Puja organisers, arrestedKolkata Police have arrested seven people, including organisers of Chorbagan Durga Puja, for the pandal stampede that killed at least 19 people. Read moreIndia bars sugarcane-based ethanol from 2026-27 procurement tender to safeguard sugar suppliesState-run oil marketing companies have excluded ethanol produced from sugarcane juice, sugar syrup and B-heavy molasses from their latest procurement tender for the 2026-27 supply year, following government directions to halt sugar diversion for fuel amid concerns over domestic availability and prices. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 101
+      "brief": "The 2023 Asian Para Games concluded with India achieving a significant milestone, finishing fifth overall with an impressive tally of 111 medals, including 29 gold, 31 silver, and 51 bronze. This marks the second consecutive Games where India surpassed the 100-medal mark, highlighting consistent athletic growth and development in para-sports. Notable individual performances included Iran's Sina Zeyghaminejad securing gold and Shahin Izadyar winning silver in their respective events, while India's Sheetal Devi earned two gold medals. However, the Games were also marred by controversy, as Indian athlete Shams Alam was sent home following allegations of sexual misconduct, underscoring the importance of athlete conduct alongside sporting achievements. India's consistent medal haul signifies growing para-sports prowess, but misconduct issues highlight critical governance challenges.",
+      "brief_word_count": 121
     },
     {
-      "story_id": "story-76",
+      "story_id": "story-79",
       "category": "Finance",
-      "primary_headline": "Trump’s decision to waive Russian sanctions outrages Congress, but no quick counter seen",
+      "primary_headline": "Tech selloff slows in Asia, oil hits five-month high",
       "primary_source": {
-        "source_name": "AP News",
-        "headline": "Trump’s decision to waive Russian sanctions outrages Congress, but no quick counter seen - AP News",
-        "published_at": "Sun, 18 Oct 2026 00:16:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQzV3OUN4YUtURHoxVG1sTV9uMjVTdFU0Tmlqc2hod0trU1hzQnMzUTc5UE12TGJsMVJmOVU1VEFxWXVSOEJxOU5sR3FwUFc2OFY0b2NKczZOR3pjX0xTWlJacDZSdWk1SmgxVjJvVTRWQVZyckd3MW14dFRiM0RJb3F6bG15MGNyTFJtOU1IVDVLeTNHSjZsMzl2aFB1azZZRG5TajhNTUVGUQ?oc=5",
-        "content": "Trump’s decision to waive Russian sanctions outrages Congress, but no quick counter seen&nbsp;&nbsp;AP News"
+        "source_name": "Reuters",
+        "headline": "Tech selloff slows in Asia, oil hits five-month high - Reuters",
+        "published_at": "Fri, 23 Oct 2026 01:50:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMG5uTk9BQ2lzbUtHT1k4Nlp4RlRCcXFvVXR5YUhCamhubGQ1SlB0c2FYczVLdl9ESzJBRzdkNmVuYU1ISVc2MndXWnBZTzBDNFdzeHBEQTNPTGU2SGhBTmtKM3Z1SWUxR2szN20yYWIySGIzUXlZcXVhdGNtTlJNMGN1WQ?oc=5",
+        "content": "Tech selloff slows in Asia, oil hits five-month high&nbsp;&nbsp;Reuters"
       },
       "sources": [
         {
-          "source_name": "AP News",
-          "headline": "Trump’s decision to waive Russian sanctions outrages Congress, but no quick counter seen - AP News",
-          "published_at": "Sun, 18 Oct 2026 00:16:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQzV3OUN4YUtURHoxVG1sTV9uMjVTdFU0Tmlqc2hod0trU1hzQnMzUTc5UE12TGJsMVJmOVU1VEFxWXVSOEJxOU5sR3FwUFc2OFY0b2NKczZOR3pjX0xTWlJacDZSdWk1SmgxVjJvVTRWQVZyckd3MW14dFRiM0RJb3F6bG15MGNyTFJtOU1IVDVLeTNHSjZsMzl2aFB1azZZRG5TajhNTUVGUQ?oc=5"
+          "source_name": "Reuters",
+          "headline": "Tech selloff slows in Asia, oil hits five-month high - Reuters",
+          "published_at": "Fri, 23 Oct 2026 01:50:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMG5uTk9BQ2lzbUtHT1k4Nlp4RlRCcXFvVXR5YUhCamhubGQ1SlB0c2FYczVLdl9ESzJBRzdkNmVuYU1ISVc2MndXWnBZTzBDNFdzeHBEQTNPTGU2SGhBTmtKM3Z1SWUxR2szN20yYWIySGIzUXlZcXVhdGNtTlJNMGN1WQ?oc=5"
         },
         {
-          "source_name": "NDTV",
-          "headline": "'Hard For India To Move Away From Russian Energy': Team Trump On Waivers",
-          "published_at": "Sun, 18 Oct 2026 09:09:52 +0530",
-          "url": "https://www.ndtv.com/world-news/team-trump-on-waivers-hard-for-india-to-move-away-from-russian-energy-says-marco-rubio-amid-ukraine-war-12201303#publisher=newsstand"
+          "source_name": "The Guardian",
+          "headline": "Oil hits five-month high as global stocks wobble on AI fears; retail sales in Great Britain fall as shoppers cut back - business live",
+          "published_at": "Fri, 23 Oct 2026 07:59:00 GMT",
+          "url": "https://www.theguardian.com/business/live/2026/oct/23/global-stocks-fall-ai-fears-grow-british-retail-sales-fall-business-live-latest-news"
         }
       ],
       "source_count": 2,
       "total_count": 2,
       "combined_score": 1.6,
       "brief_bullets": [
-        "AP News Donald Trump has waived sanctions that threatened tariffs of up to 100 per cent on goods imported into the US from the five largest purchasers of Russian oil, including India.",
-        "Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness.",
-        "The shift has triggered intense debate among foreign policy stakeholders regarding international deterrence frameworks and regulatory enforcement.",
-        "Regional defense ministries and multilateral bodies are assessing logistical readiness and diplomatic countermeasures as the geopolitical landscape evolves."
+        "Rolling coverage of the latest economic and financial newsWhile less red tape will be welcome news for small businesses, the chancellor is still facing pressure from bigger companies in the UK for more support.",
+        "Earlier this month some of the UK’s biggest retailers and hospitality businesses, including Tesco, Costa Coffee and the Co-op, met John Healey to urge him to cut the cost of employing young people in his first budget.",
+        "It’s not right that pointless bureaucracy gets in the way of people working hard to build something that matters to their high street.",
+        "So we’re getting government off their backs and giving businesses the breathing space to grow."
       ],
       "why_it_matters_bullets": [
         "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
       ],
-      "brief": "AP News Donald Trump has waived sanctions that threatened tariffs of up to 100 per cent on goods imported into the US from the five largest purchasers of Russian oil, including India. Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness. The shift has triggered intense debate among foreign policy stakeholders regarding international deterrence frameworks and regulatory enforcement. Regional defense ministries and multilateral bodies are assessing logistical readiness and diplomatic countermeasures as the geopolitical landscape evolves. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 102
-    },
-    {
-      "story_id": "story-17",
-      "category": "Finance",
-      "primary_headline": "(GANZ.N) | Stock Price & Latest News",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "(GANZ.N) | Stock Price & Latest News - Reuters",
-        "published_at": "Sun, 18 Oct 2026 14:01:03 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9tejYwZ0lwODdnek42WGNOTDl1Zmx2eG4tTENwcWVLQncxVFFMTWtFemg1Yi1vbkU5enlsWnJockgyTmJXZmRWdXhFaF9LUklHMWdObXZtZHdKS1paZkM4SlFDcw?oc=5",
-        "content": "(GANZ.N) | Stock Price & Latest News&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "(GANZ.N) | Stock Price & Latest News - Reuters",
-          "published_at": "Sun, 18 Oct 2026 14:01:03 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9tejYwZ0lwODdnek42WGNOTDl1Zmx2eG4tTENwcWVLQncxVFFMTWtFemg1Yi1vbkU5enlsWnJockgyTmJXZmRWdXhFaF9LUklHMWdObXZtZHdKS1paZkM4SlFDcw?oc=5"
-        },
-        {
-          "source_name": "Reuters",
-          "headline": "ARTTF.PK - | Stock Price & Latest News - Reuters",
-          "published_at": "Sun, 18 Oct 2026 13:25:38 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKXzZBTmlLTGVpTEIyTWxYV1lGaUtLVm1UQl9MQVdsMHpRSG5BVUxFSWl6aksxNFVhd052czg2ZVhsMXZFekJheG5xMW9Vc3FwRm85YW9iaW9TMG43QWs1NDZSQQ?oc=5"
-        },
-        {
-          "source_name": "Reuters",
-          "headline": "(LDRX.O) | Stock Price & Latest News - Reuters",
-          "published_at": "Sun, 18 Oct 2026 03:11:16 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKS0tWLWlzbkhBZjgtb0JUZlhOc25sNXJwR2VmZ0gwSnpEZm83V092ZHowWDBVWnF4dVI4N0lYZU42elVNNjRIa2w3XzNZZlNESVltdnRBNm9vUUNYM1J1VWFuOA?oc=5"
-        },
-        {
-          "source_name": "Reuters",
-          "headline": "(2020.D) | Stock Price & Latest News - Reuters",
-          "published_at": "Sun, 18 Oct 2026 01:17:29 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5OWUpNTjZiVUhQLXlPVVE5T3F3elFCaWVUOG5jd0lUcDNaYXdnblh4d3hqME1aVHdiYUhjYWs2Y2FBM25MWXh5NVBzYmZOcWdqSVZEcnlreW9LV2NtRnZnLTh1MzZzOEZX?oc=5"
-        },
-        {
-          "source_name": "Reuters",
-          "headline": "(NANR.N) | Stock Price & Latest News - Reuters",
-          "published_at": "Sat, 17 Oct 2026 23:20:56 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBrdW9BTThkRkkwUDRmM09WM1VoelhRWFhINW94MHZzQklicTdQZDgxem9OSVoyMFdfdDg2b281QjU3UWZpcndnbklwVWpXWlZqd3hKOEY3bTlTblcwNjduZURhNA?oc=5"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 8,
-      "combined_score": 2.9,
-      "brief_bullets": [
-        "ARTTF.PK - | Stock Price & Latest News (LDRX.O) | Stock Price & Latest News (2020.",
-        "D) | Stock Price & Latest News (NANR.N) | Stock Price & Latest News.",
-        "Financial analysts and institutional investors are calculating downstream valuation benchmarks and capital allocation shifts across key asset categories.",
-        "Corporate executives and supply chain coordinators are reviewing operational forecasts to safeguard margins against external macroeconomic pressures."
-      ],
-      "why_it_matters_bullets": [
-        "Influences institutional investor sentiment and valuation benchmarks across key equity and corporate market segments."
-      ],
-      "brief": "ARTTF.PK - | Stock Price & Latest News (LDRX.O) | Stock Price & Latest News (2020. D) | Stock Price & Latest News (NANR.N) | Stock Price & Latest News. Financial analysts and institutional investors are calculating downstream valuation benchmarks and capital allocation shifts across key asset categories. Corporate executives and supply chain coordinators are reviewing operational forecasts to safeguard margins against external macroeconomic pressures. Influences institutional investor sentiment and valuation benchmarks across key equity and corporate market segments.",
-      "brief_word_count": 79
-    },
-    {
-      "story_id": "story-79",
-      "category": "Finance",
-      "primary_headline": "Trump’s Latin America Allies Deepen Ties With Washington Lenders",
-      "primary_source": {
-        "source_name": "Bloomberg",
-        "headline": "Trump’s Latin America Allies Deepen Ties With Washington Lenders",
-        "published_at": "Sun, 18 Oct 2026 14:30:00 GMT",
-        "url": "https://www.bloomberg.com/news/articles/2026-10-18/trump-s-latin-america-allies-deepen-ties-with-washington-lenders",
-        "content": "Latin America’s rightward, market-friendly shift is reshaping its relationship with Donald Trump’s Washington, including new flows of money from the multilateral lenders historically villainized in the region for pushing fiscal austerity."
-      },
-      "sources": [
-        {
-          "source_name": "Bloomberg",
-          "headline": "Trump’s Latin America Allies Deepen Ties With Washington Lenders",
-          "published_at": "Sun, 18 Oct 2026 14:30:00 GMT",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-18/trump-s-latin-america-allies-deepen-ties-with-washington-lenders"
-        },
-        {
-          "source_name": "Bloomberg",
-          "headline": "Rep. Veasey Calls for Scrutiny of Trump Russia Ties",
-          "published_at": "Sun, 18 Oct 2026 14:23:31 GMT",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-18/rep-veasey-calls-for-scrutiny-of-trump-russia-ties-video"
-        },
-        {
-          "source_name": "Bloomberg",
-          "headline": "Can America Rebuild Trust With Its Allies?",
-          "published_at": "Sun, 18 Oct 2026 14:03:47 GMT",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-18/can-america-rebuild-trust-with-its-allies"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 3,
-      "combined_score": 1.49,
-      "brief_bullets": [
-        "Latin America’s rightward, market-friendly shift is reshaping its relationship with Donald Trump’s Washington, including new flows of money from the multilateral lenders historically villainized in the region for pushing fiscal austerity.",
-        "Marc Veasey, a Texas Democrat, tells Bloomberg This Weekend that President Donald Trump’s recent moves involving Russia and Ukraine warrant greater congressional scrutiny, while warning that questions over Ukraine’s access to US military technology could undermine allies’ confidence in American defense products."
-      ],
-      "why_it_matters_bullets": [
-        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
-      ],
-      "brief": "Latin America’s rightward, market-friendly shift is reshaping its relationship with Donald Trump’s Washington, including new flows of money from the multilateral lenders historically villainized in the region for pushing fiscal austerity. Marc Veasey, a Texas Democrat, tells Bloomberg This Weekend that President Donald Trump’s recent moves involving Russia and Ukraine warrant greater congressional scrutiny, while warning that questions over Ukraine’s access to US military technology could undermine allies’ confidence in American defense products. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
-      "brief_word_count": 87
+      "brief": "Rolling coverage of the latest economic and financial newsWhile less red tape will be welcome news for small businesses, the chancellor is still facing pressure from bigger companies in the UK for more support. Earlier this month some of the UK’s biggest retailers and hospitality businesses, including Tesco, Costa Coffee and the Co-op, met John Healey to urge him to cut the cost of employing young people in his first budget. It’s not right that pointless bureaucracy gets in the way of people working hard to build something that matters to their high street. So we’re getting government off their backs and giving businesses the breathing space to grow. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 125
     },
     {
       "story_id": "story-83",
       "category": "Finance",
-      "primary_headline": "Mysuru Dasara 2026 | Kambala turns Saathgalli into mini Tulu Naadu",
+      "primary_headline": "Volvo Cars to cut 2,500 jobs as third quarter swings to loss",
       "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Mysuru Dasara 2026 | Kambala turns Saathgalli into mini Tulu Naadu",
-        "published_at": "Sun, 18 Oct 2026 16:49:01 +0000",
-        "url": "https://www.deccanherald.com/india/karnataka/mysuru/mysuru-dasara-2026-kambala-turns-saathgalli-into-mini-tulu-naadu-4187491",
-        "content": " Mysuru: Amid all the opposition by activists, two-day Kambala-male buffalo or bulls race which began on Sunday morning, is unravelling mini Tulu Naadu at Saathgalli in Mysuru. A sea of people of all age groups are rushing to the mini fair. They are thrilled to witness 150 pairs of bulls who are splashing the water to the height of upto 7 feet and crossing 145 meter length and 30 meter width Kambala track in lightning speed within seconds. While the races in six segments began around 10 am, Chief Minister D K Shivakumar formally inaugurated it at around 7.30 pm and witnessed the race for about an hour. CM D K Shivakumar said \"Kambala is a harvest festival of Coastal region. They started it 800 years praying Kadri Manjunathswamy to protect farmers. In order to showcase all cultures during Naada Habba Mysuru Dasara we are hosting Kambala here to foster the culture. They have put sensors to record the time taken by each buffalo and one had crossed track in nine seconds.\"Forums urge Kambala buffalo owners to stay away from Mysuru event amid droughtPuttur MLA Ashok Kumar Rai said, \"We hosted Kambala in Bengaluru last year. We had planned to host it during Dasara in Mysuru last year itself. We are happy to introduce this coastal culture of Kambala to the people of Mysuru region during Dasara this year.\" He urged CM for the opportunity to host it in all possible districts across the State.Ashok Kumar Rai said, \"The race will conclude on Monday evening. A reward of 16 gram gold, 8 gram gold and 4 gram gold will be given for those winning first, second and third prizes respectively. The owners of each pair of Buffaloes need atleast Rs 3 lakh to bring them here. They spend atleast Rs 12 lakh a year to nourish them. The owners of these buffaloes don't participate in Kambala for prize but to keep up their family name and carry forward the legacy of this culture.\"He informed, \"The bulls which arrived on Saturday evening will be leaving on Tuesday morning. About 5000 assistants have accompanied them. They are accommodated with the buffaloes at the venue. They have brought the food and water for the buffaloes. The state government is spending about Rs 3 crore and they have made all arrangements. They are giving an honorarium of Rs 65,000 for each pair of bigger bulls and Rs 50,000 per pair for smaller bulls.\"Environmentalists, farmers hold mega protest opposing Kambala amid droughtEven as about half a million liter water is required per day, they have drilled two borewells. He claimed that since it has rained well, the tracks are naturally full and the water consumption has reduced. Ashok Rai also said that the arrangement has been done to accommodate about 15,000 people, but atleast 20,000 people are witnessing the event at a time. By 12 noon 75,000 people had witnessed it at the venue; and 2 million people had watched it online by 2 pm on Sunday.Besides races, people are even enjoying coastal style food including varieties of fishes, Kori rotti, Neerdose at food mela hosted by people of coastal region including those from Mangaluru. Besides grabbing video of races, people are also clicking photos and selfies with buffaloes.85-year-old Lakshmi from Shirsi who had come for Dasara to her daughter's house in Mysuru said, \"I had never seen it live though I had seen it on TV and internet, so I was keen to witness it.\"Mysuru district police led by SP Mallikarjun Balanandi said that they have deployed about 1500 cops for the security to the overnight event. They have installed 50 CCTV cameras and are using four drones too. "
+        "source_name": "Reuters",
+        "headline": "Volvo Cars to cut 2,500 jobs as third quarter swings to loss - Reuters",
+        "published_at": "Fri, 23 Oct 2026 05:07:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONjE0Qml6Mkw5WkFyRXlUcjZ3QTE3LWtGVF9kckI3cExBa0dsaHM2S1dyY1IzZnk0aFlYOGc4M1RoYzd0TVQ0aVNWM1I1RmVCRTNDcURBeHluNDFOOEJaMXVaOUo5ZGN0U0RoTFNuUmJHSjVSdFQzcHdCbHdyNHU1cUFaU290VVhzbV9HbVJjeDJrNGV1TGJOdmNzaHdmR29H?oc=5",
+        "content": "Volvo Cars to cut 2,500 jobs as third quarter swings to loss&nbsp;&nbsp;Reuters"
       },
       "sources": [
         {
-          "source_name": "Deccan Herald",
-          "headline": "Mysuru Dasara 2026 | Kambala turns Saathgalli into mini Tulu Naadu",
-          "published_at": "Sun, 18 Oct 2026 16:49:01 +0000",
-          "url": "https://www.deccanherald.com/india/karnataka/mysuru/mysuru-dasara-2026-kambala-turns-saathgalli-into-mini-tulu-naadu-4187491"
+          "source_name": "Reuters",
+          "headline": "Volvo Cars to cut 2,500 jobs as third quarter swings to loss - Reuters",
+          "published_at": "Fri, 23 Oct 2026 05:07:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONjE0Qml6Mkw5WkFyRXlUcjZ3QTE3LWtGVF9kckI3cExBa0dsaHM2S1dyY1IzZnk0aFlYOGc4M1RoYzd0TVQ0aVNWM1I1RmVCRTNDcURBeHluNDFOOEJaMXVaOUo5ZGN0U0RoTFNuUmJHSjVSdFQzcHdCbHdyNHU1cUFaU290VVhzbV9HbVJjeDJrNGV1TGJOdmNzaHdmR29H?oc=5"
         },
         {
-          "source_name": "Deccan Herald",
-          "headline": "Mysuru Dasara: Final round of rehearsal begins for all 13 Dasara elephants",
-          "published_at": "Sun, 18 Oct 2026 13:38:53 +0000",
-          "url": "https://www.deccanherald.com/india/karnataka/mysuru/mysuru-dasara-final-round-of-rehearsal-begins-for-all-13-dasara-elephants-4187317"
+          "source_name": "Bloomberg",
+          "headline": "European Stocks Fall as China Woes Hit Volvo Car, Gucci",
+          "published_at": "Fri, 23 Oct 2026 07:34:28 GMT",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-23/european-stocks-fall-as-china-woes-hit-volvo-car-gucci"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "total_count": 2,
-      "combined_score": 1.13,
+      "combined_score": 1.6,
       "brief_bullets": [
-        "Mysuru: Amid all the opposition by activists, two-day Kambala-male buffalo or bulls race which began on Sunday morning, is unravelling mini Tulu Naadu at Saathgalli in Mysuru.",
-        "A sea of people of all age groups are rushing to the mini fair.",
-        "They are thrilled to witness 150 pairs of bulls who are splashing the water to the height of upto 7 feet and crossing 145 meter length and 30 meter width Kambala track in lightning speed within seconds.",
-        "While the races in six segments began around 10 am, Chief Minister D K Shivakumar formally inaugurated it at around 7.",
-        "30 pm and witnessed the race for about an hour.",
-        "CM D K Shivakumar said \"Kambala is a harvest festival of Coastal region.",
-        "They started it 800 years praying Kadri Manjunathswamy to protect farmers."
+        "European stocks fell for a second day as disappointing earnings, including from Kering SA’s Gucci, added to concerns over the artificial intelligence trade and elevated oil prices.",
+        "Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms.",
+        "Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps.",
+        "Regulatory bodies continue to monitor market concentration to ensure equitable innovation safeguards across the broader sector."
       ],
       "why_it_matters_bullets": [
-        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
       ],
-      "brief": "Mysuru: Amid all the opposition by activists, two-day Kambala-male buffalo or bulls race which began on Sunday morning, is unravelling mini Tulu Naadu at Saathgalli in Mysuru. A sea of people of all age groups are rushing to the mini fair. They are thrilled to witness 150 pairs of bulls who are splashing the water to the height of upto 7 feet and crossing 145 meter length and 30 meter width Kambala track in lightning speed within seconds. While the races in six segments began around 10 am, Chief Minister D K Shivakumar formally inaugurated it at around 7. 30 pm and witnessed the race for about an hour. CM D K Shivakumar said \"Kambala is a harvest festival of Coastal region. They started it 800 years praying Kadri Manjunathswamy to protect farmers. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
-      "brief_word_count": 147
+      "brief": "European stocks fell for a second day as disappointing earnings, including from Kering SA’s Gucci, added to concerns over the artificial intelligence trade and elevated oil prices. Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms. Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps. Regulatory bodies continue to monitor market concentration to ensure equitable innovation safeguards across the broader sector. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 92
     },
     {
-      "story_id": "story-84",
+      "story_id": "story-94",
       "category": "Finance",
-      "primary_headline": "\"Dystopian Fitness Video\": Video Of Woman Jogging Amid France Protests Goes Viral Online",
+      "primary_headline": "China Stocks Rebound as National Team ETF Buying Picks Up",
       "primary_source": {
-        "source_name": "NDTV",
-        "headline": "\"Dystopian Fitness Video\": Video Of Woman Jogging Amid France Protests Goes Viral Online",
-        "published_at": "Sun, 18 Oct 2026 21:35:24 +0530",
-        "url": "https://www.ndtv.com/world-news/dystopian-fitness-video-video-of-woman-jogging-amid-france-protests-goes-viral-online-12203552#publisher=newsstand",
-        "content": "The protests began as a student movement over poor conditions in schools and expanded into a national crisis over cost of living, economic inequality."
+        "source_name": "Bloomberg",
+        "headline": "China Stocks Rebound as National Team ETF Buying Picks Up",
+        "published_at": "Fri, 23 Oct 2026 02:13:40 GMT",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-23/china-stocks-sink-deeper-into-bear-market-despite-state-buying",
+        "content": "Chinese stocks swung into gains as turnover in a basket of exchange-traded funds favored by the national team picked up pace."
       },
       "sources": [
         {
-          "source_name": "NDTV",
-          "headline": "\"Dystopian Fitness Video\": Video Of Woman Jogging Amid France Protests Goes Viral Online",
-          "published_at": "Sun, 18 Oct 2026 21:35:24 +0530",
-          "url": "https://www.ndtv.com/world-news/dystopian-fitness-video-video-of-woman-jogging-amid-france-protests-goes-viral-online-12203552#publisher=newsstand"
+          "source_name": "Bloomberg",
+          "headline": "China Stocks Rebound as National Team ETF Buying Picks Up",
+          "published_at": "Fri, 23 Oct 2026 02:13:40 GMT",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-23/china-stocks-sink-deeper-into-bear-market-despite-state-buying"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Sensex, Nifty rebound after three-day fall on IT stocks buying",
+          "published_at": "Fri, 23 Oct 2026 05:18:34 +0000",
+          "url": "https://www.deccanherald.com/business/markets/sensex-nifty-rebound-after-three-day-fall-on-it-stocks-buying-4192264"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.6,
+      "brief_bullets": [
+        "Chinese stocks swung into gains as turnover in a basket of exchange-traded funds favored by the national team picked up pace.",
+        "Mumbai: Equity benchmark indices Sensex and Nifty rebounded in early trade on Friday after falling for three consecutive sessions, supported by value buying in IT stocks and gains in index bellwether Reliance Industries shares.",
+        "However, gains remained modest as soaring crude oil prices amid escalating tensions in West Asia dampened investors' sentiment.",
+        "The 30-share BSE Sensex climbed 187.",
+        "68 points, or 0.",
+        "26 per cent, to 73,437.",
+        "07 in the morning trade.",
+        "The 50-share NSE Nifty rose 11.",
+        "10 points, or 0.",
+        "05 per cent, to 22,698.",
+        "Tata Consultancy Services jumped over 3 per cent to emerge as the biggest gainer among Sensex constituents."
+      ],
+      "why_it_matters_bullets": [
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+      ],
+      "brief": "Chinese stocks swung into gains as turnover in a basket of exchange-traded funds favored by the national team picked up pace. Mumbai: Equity benchmark indices Sensex and Nifty rebounded in early trade on Friday after falling for three consecutive sessions, supported by value buying in IT stocks and gains in index bellwether Reliance Industries shares. However, gains remained modest as soaring crude oil prices amid escalating tensions in West Asia dampened investors' sentiment. The 30-share BSE Sensex climbed 187. 68 points, or 0. 26 per cent, to 73,437. 07 in the morning trade. The 50-share NSE Nifty rose 11. 10 points, or 0. 05 per cent, to 22,698. Tata Consultancy Services jumped over 3 per cent to emerge as the biggest gainer among Sensex constituents. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 141
+    },
+    {
+      "story_id": "story-95",
+      "category": "Finance",
+      "primary_headline": "Gold Rate Today, October 23: Check 18, 22 and 24 carat gold prices in Chennai, Mumbai, Delhi, Kolkata and other cities",
+      "primary_source": {
+        "source_name": "The Indian Express",
+        "headline": "Gold Rate Today, October 23: Check 18, 22 and 24 carat gold prices in Chennai, Mumbai, Delhi, Kolkata and other cities",
+        "published_at": "Fri, 23 Oct 2026 04:52:07 +0000",
+        "url": "https://indianexpress.com/article/india/gold-rate-today-october-23-check-18-22-and-24-carat-gold-prices-in-chennai-mumbai-delhi-kolkata-and-other-cities-10933189/",
+        "content": ""
+      },
+      "sources": [
+        {
+          "source_name": "The Indian Express",
+          "headline": "Gold Rate Today, October 23: Check 18, 22 and 24 carat gold prices in Chennai, Mumbai, Delhi, Kolkata and other cities",
+          "published_at": "Fri, 23 Oct 2026 04:52:07 +0000",
+          "url": "https://indianexpress.com/article/india/gold-rate-today-october-23-check-18-22-and-24-carat-gold-prices-in-chennai-mumbai-delhi-kolkata-and-other-cities-10933189/"
         },
         {
           "source_name": "NDTV",
-          "headline": "Fixed Lunch Breaks, 9-Hour Shifts: Gen Z Employee's Corporate Job Rant Goes Viral",
-          "published_at": "Sun, 18 Oct 2026 14:32:40 +0530",
-          "url": "https://www.ndtv.com/offbeat/fixed-lunch-breaks-9-hour-shifts-gen-z-employees-corporate-job-rant-goes-viral-12202243#publisher=newsstand"
+          "headline": "From Ancient Tombs To Forest Trails: Delhi Heritage Walks Begin October 24",
+          "published_at": "Fri, 23 Oct 2026 04:21:36 +0530",
+          "url": "https://www.ndtv.com/delhi-news/from-ancient-tombs-to-forest-trails-delhi-heritage-walks-begin-october-24-12222857#publisher=newsstand"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "total_count": 2,
-      "combined_score": 1.13,
+      "combined_score": 1.6,
       "brief_bullets": [
-        "The protests began as a student movement over poor conditions in schools and expanded into a national crisis over cost of living, economic inequality.",
-        "She shared how she was struggling to adjust to fixed lunch breaks, limited paid leave, strict attendance rules, and a demanding manager.",
-        "Public dissent and street demonstrations have prompted emergency municipal interventions and heightened law enforcement readiness across impacted urban hubs.",
-        "Political factions and civic advocacy groups are actively debating the underlying systemic grievances that triggered the public unrest."
+        "The first walk will take place at Mehrauli Archaeological Park on October 24 at 4 PM.",
+        "Heritage experts will take visitors through the park's historic structures, explaining their architecture and lesser-known stories from Delhi's past.",
+        "Financial analysts and institutional investors are calculating downstream valuation benchmarks and capital allocation shifts across key asset categories.",
+        "Corporate executives and supply chain coordinators are reviewing operational forecasts to safeguard margins against external macroeconomic pressures."
       ],
       "why_it_matters_bullets": [
         "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "brief": "The protests began as a student movement over poor conditions in schools and expanded into a national crisis over cost of living, economic inequality. She shared how she was struggling to adjust to fixed lunch breaks, limited paid leave, strict attendance rules, and a demanding manager. Public dissent and street demonstrations have prompted emergency municipal interventions and heightened law enforcement readiness across impacted urban hubs. Political factions and civic advocacy groups are actively debating the underlying systemic grievances that triggered the public unrest. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 96
+      "brief": "The first walk will take place at Mehrauli Archaeological Park on October 24 at 4 PM. Heritage experts will take visitors through the park's historic structures, explaining their architecture and lesser-known stories from Delhi's past. Financial analysts and institutional investors are calculating downstream valuation benchmarks and capital allocation shifts across key asset categories. Corporate executives and supply chain coordinators are reviewing operational forecasts to safeguard margins against external macroeconomic pressures. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 83
     },
     {
-      "story_id": "story-104",
+      "story_id": "story-115",
       "category": "Finance",
-      "primary_headline": "Attacked from the sky: Sudanese goldminers count deadly cost of eking out a living on the Egypt border",
+      "primary_headline": "Margin Trade Liquidation Speeds Indian Small-Cap Stock Decline",
       "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "Attacked from the sky: Sudanese goldminers count deadly cost of eking out a living on the Egypt border",
-        "published_at": "Sun, 18 Oct 2026 07:00:52 GMT",
-        "url": "https://www.theguardian.com/global-development/2026/oct/18/attacked-from-the-sky-sudanese-goldminers-count-deadly-cost-of-eking-out-a-living-on-the-egypt-border",
-        "content": "As civil war has left their country in ruins, many young Sudanese have turned to artisanal mining. An airstrike on a mine last week killed more than 100 and has provoked anger against Egypt, seen as the most likely suspectTorches still fixed on their heads but tools cast aside, the Sudanese goldminers of the North Valley had already mounted an impromptu rescue operation by the time Ammar* arrived at the site of a suspected Egyptian airstrike.At least 114 were killed, according to the Sudanese rights group Emergency Lawyers, in the strike on Saturday 10 October on an artisanal goldmine brimming with young Sudanese trying to eke out a living in a country where the economy has been shattered by three years of war. Continue reading..."
+        "source_name": "Bloomberg",
+        "headline": "Margin Trade Liquidation Speeds Indian Small-Cap Stock Decline",
+        "published_at": "Fri, 23 Oct 2026 07:04:57 GMT",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-23/margin-trade-liquidation-speeds-indian-small-cap-stock-decline",
+        "content": "A wave of deleveraging by retail investors has triggered the biggest rout in Indian small-cap stocks in seven months, as mounting concerns over inflation and higher interest rates weigh on sentiment."
       },
       "sources": [
         {
-          "source_name": "The Guardian",
-          "headline": "Attacked from the sky: Sudanese goldminers count deadly cost of eking out a living on the Egypt border",
-          "published_at": "Sun, 18 Oct 2026 07:00:52 GMT",
-          "url": "https://www.theguardian.com/global-development/2026/oct/18/attacked-from-the-sky-sudanese-goldminers-count-deadly-cost-of-eking-out-a-living-on-the-egypt-border"
+          "source_name": "Bloomberg",
+          "headline": "Margin Trade Liquidation Speeds Indian Small-Cap Stock Decline",
+          "published_at": "Fri, 23 Oct 2026 07:04:57 GMT",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-23/margin-trade-liquidation-speeds-indian-small-cap-stock-decline"
+        },
+        {
+          "source_name": "Bloomberg",
+          "headline": "French Crisis Creates a Cheap Contrarian Trade: Taking Stock",
+          "published_at": "Fri, 23 Oct 2026 06:26:20 GMT",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-23/french-crisis-creates-a-cheap-contrarian-trade-taking-stock"
+        },
+        {
+          "source_name": "Bloomberg",
+          "headline": "Copper Pares Weekly Decline as Selloff in AI Stocks Eases",
+          "published_at": "Fri, 23 Oct 2026 03:00:19 GMT",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-23/copper-heads-for-weekly-loss-as-ai-selloff-hurts-risk-appetite"
         }
       ],
       "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.98,
+      "total_count": 3,
+      "combined_score": 1.43,
       "brief_bullets": [
-        "As civil war has left their country in ruins, many young Sudanese have turned to artisanal mining.",
-        "An airstrike on a mine last week killed more than 100 and has provoked anger against Egypt, seen as the most likely suspectTorches still fixed on their heads but tools cast aside, the Sudanese goldminers of the North Valley had already mounted an impromptu rescue operation by the time Ammar* arrived at the site of a suspected Egyptian airstrike.",
-        "At least 114 were killed, according to the Sudanese rights group Emergency Lawyers, in the strike on Saturday 10 October on an artisanal goldmine brimming with young Sudanese trying to eke out a living in a country where the economy has been shattered by three years of war."
+        "A wave of deleveraging by retail investors has triggered the biggest rout in Indian small-cap stocks in seven months, as mounting concerns over inflation and higher interest rates weigh on sentiment.",
+        "A deepening social and economic crisis has turned France into the most disliked equity market in Europe and a serious bet for a reversal, though not one for the faint-hearted.",
+        "Copper pared a third weekly loss in four as a selloff in technology stocks eased, mitigating concerns about demand for the metal that’s used in data centers and power infrastructure.",
+        "Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms."
       ],
       "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "brief": "As civil war has left their country in ruins, many young Sudanese have turned to artisanal mining. An airstrike on a mine last week killed more than 100 and has provoked anger against Egypt, seen as the most likely suspectTorches still fixed on their heads but tools cast aside, the Sudanese goldminers of the North Valley had already mounted an impromptu rescue operation by the time Ammar* arrived at the site of a suspected Egyptian airstrike. At least 114 were killed, according to the Sudanese rights group Emergency Lawyers, in the strike on Saturday 10 October on an artisanal goldmine brimming with young Sudanese trying to eke out a living in a country where the economy has been shattered by three years of war. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 138
+      "brief": "A wave of deleveraging by retail investors has triggered the biggest rout in Indian small-cap stocks in seven months, as mounting concerns over inflation and higher interest rates weigh on sentiment. A deepening social and economic crisis has turned France into the most disliked equity market in Europe and a serious bet for a reversal, though not one for the faint-hearted. Copper pared a third weekly loss in four as a selloff in technology stocks eased, mitigating concerns about demand for the metal that’s used in data centers and power infrastructure. Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 121
     },
     {
-      "story_id": "story-108",
+      "story_id": "story-126",
       "category": "Finance",
-      "primary_headline": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+      "primary_headline": "Asian shares mostly rebound from AI-related losses, while oil prices jump",
       "primary_source": {
-        "source_name": "Hacker News",
-        "headline": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
-        "published_at": "Sun, 18 Oct 2026 14:30:27 +0000",
-        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
-        "content": "\nArticle URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model\nComments URL: https://news.ycombinator.com/item?id=50141429\nPoints: 106\n# Comments: 115\n"
+        "source_name": "AP News",
+        "headline": "Asian shares mostly rebound from AI-related losses, while oil prices jump - AP News",
+        "published_at": "Fri, 23 Oct 2026 07:46:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNWpGTk1fbkF2SWY0S1Q2MHN6WjRqQ1R3VWp4WXFKd3VQUG5WSlI1ZXFDY1pSUGJyampWMGtwZ3dRQmxGRzlTbERHSnlraUZ4WmFCSXM4U3J1Z1VSdV81eTB2ck1lWElpSnR2Qi1FbWUwUmJBT1l5enVZLVpsYmMySnBhZ0FDWHZBTElJVEhGYl9tN2tXblE?oc=5",
+        "content": "Asian shares mostly rebound from AI-related losses, while oil prices jump&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
-          "source_name": "Hacker News",
-          "headline": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
-          "published_at": "Sun, 18 Oct 2026 14:30:27 +0000",
-          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model"
+          "source_name": "AP News",
+          "headline": "Asian shares mostly rebound from AI-related losses, while oil prices jump - AP News",
+          "published_at": "Fri, 23 Oct 2026 07:46:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNWpGTk1fbkF2SWY0S1Q2MHN6WjRqQ1R3VWp4WXFKd3VQUG5WSlI1ZXFDY1pSUGJyampWMGtwZ3dRQmxGRzlTbERHSnlraUZ4WmFCSXM4U3J1Z1VSdV81eTB2ck1lWElpSnR2Qi1FbWUwUmJBT1l5enVZLVpsYmMySnBhZ0FDWHZBTElJVEhGYl9tN2tXblE?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "Sharp drops for AI stocks overwhelm markets worldwide as oil prices jump - AP News",
+          "published_at": "Thu, 22 Oct 2026 21:07:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbG9Bb3haUmhvOWFmQ0t6bWoyLThHN0pFV21XNjVOVXpsVmFBUEFhSk9HcC1ZYkV3eFhqT2d1SEFSQldtdm16YVM5UW1nRU5yc1JGRVkteEhNZmx0eEpOck1HdnNXNW1TSnh4YmRHU3dyeGdXdzdUZ3JsdFNHVUZwWEZrQVRXUWtrbHlJbDh1eDBSVU9iOUJScQ?oc=5"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 2,
+      "combined_score": 1.1,
+      "brief_bullets": [
+        "AP News Sharp drops for AI stocks overwhelm markets worldwide as oil prices jump AP News.",
+        "Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms.",
+        "Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps.",
+        "Regulatory bodies continue to monitor market concentration to ensure equitable innovation safeguards across the broader sector."
+      ],
+      "why_it_matters_bullets": [
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+      ],
+      "brief": "AP News Sharp drops for AI stocks overwhelm markets worldwide as oil prices jump AP News. Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms. Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps. Regulatory bodies continue to monitor market concentration to ensure equitable innovation safeguards across the broader sector. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 81
+    },
+    {
+      "story_id": "story-128",
+      "category": "Finance",
+      "primary_headline": "Centre and State Governments Working Together to Accelerate MP’s Development: CM Dr. Yadav",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "Centre and State Governments Working Together to Accelerate MP’s Development: CM Dr. Yadav",
+        "published_at": "Fri, 23 Oct 2026 06:57:06 +0000",
+        "url": "https://www.deccanherald.com/dhbrandpr/centre-and-state-governments-working-together-to-accelerate-mps-development-cm-dr-yadav-4192363",
+        "content": " Chief Minister Dr. Mohan Yadav said the Centre and state are jointly accelerating Madhya Pradesh’s development through major industrial and infrastructure initiatives. He said addressing the Viksit Bharat Industry and Trade Summit in Bhopal, that investment proposals worth ₹12 lakh crore had been translated into projects on the ground over the past two-and-a-half years, while entrepreneurs at the summit proposed fresh investments worth ₹7,500 crore.Chief Minister Dr. Yadav said that investment proposals worth ₹12 lakh crore had been translated into projects on the ground in the state over the past two-and-a-half years. Madhya Pradesh is strengthening its position across sectors, and transparent policies have made it easier for investors to establish industries. Investment promotion programmes and activities are being organised regularly to generate employment for the youth.Industry Brings Prosperity to PeopleChief Minister Dr. Yadav said that entrepreneurs contribute to improving people’s lives through investment across sectors. Their efforts in trade and industry sustain the livelihoods of millions of families. He also commended the industry’s active role in advancing Prime Minister Shri Narendra Modi’s Make in India vision.Global Recognition for IndiaChief Minister Dr. Yadav said that under the leadership of Prime Minister Shri Narendra Modi, major countries around the world have begun viewing India with greater respect. He emphasised that Madhya Pradesh has considerable potential and that greater focus is needed on economic prosperity alongside agricultural development.Other States Adopting Madhya Pradesh’s Industrial ModelChief Minister Dr. Yadav said that Bhopal is hosting the Global Investors Summit for the second time, reflecting the state’s efforts to create an industry-friendly environment. The Regional Industry Conclave model developed by Madhya Pradesh has been appreciated by other states, several of which are adopting it. He said the Bhoomi Poojan performed earlier by Prime Minister Shri Narendra Modi for the ₹50,000-crore downstream petrochemical unit at Bina Refinery would enable production of more than 2.2 million tonnes of petrochemical products annually in the coming years. These developments will accelerate growth not only in Madhya Pradesh but across the country.Chief Minister Dr. Yadav also released several publications brought out by the Federation. MSME Minister Shri Chaitanya Kashyap said the Chief Minister had helped create a favourable environment for investment in Madhya Pradesh. Hundreds of entrepreneurs associated with around a dozen federations are participating in the two-day summit. He highlighted initiatives such as the Regional Development Plan and metropolitan areas, noting that these had strengthened confidence in the state’s industry and trade sectors."
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Centre and State Governments Working Together to Accelerate MP’s Development: CM Dr. Yadav",
+          "published_at": "Fri, 23 Oct 2026 06:57:06 +0000",
+          "url": "https://www.deccanherald.com/dhbrandpr/centre-and-state-governments-working-together-to-accelerate-mps-development-cm-dr-yadav-4192363"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Madhya Pradesh Semiconductor Summit 2026, held in Indore under the chief hospitality of Chief Minister Dr. Mohan Yadav",
+          "published_at": "Fri, 23 Oct 2026 06:41:24 +0000",
+          "url": "https://www.deccanherald.com/dhbrandpr/madhya-pradesh-semiconductor-summit-2026-held-in-indore-under-the-chief-hospitality-of-chief-minister-dr-mohan-yadav-4192347"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 2,
+      "combined_score": 1.1,
+      "brief_bullets": [
+        "Madhya Pradesh Chief Minister Dr. Mohan Yadav announced that the state has successfully operationalized ₹12 lakh crore in industrial projects over the past thirty months, bolstered by strong synergy with the central government. Addressing the Viksit Bharat Industry and Trade Summit in Bhopal, Dr. Yadav highlighted that the state’s innovative Regional Industry Conclave model is now being adopted by other Indian states to foster economic growth. With new investment proposals totaling ₹7,500 crore and major infrastructure projects like the Bina Refinery petrochemical unit underway, the administration is prioritizing industrial diversification alongside traditional agricultural strengths. These initiatives aim to align Madhya Pradesh with Prime Minister Narendra Modi’s 'Make in India' vision while creating sustainable employment opportunities for the state's youth."
+      ],
+      "why_it_matters_bullets": [
+        "Madhya Pradesh’s successful industrial model serves as a scalable blueprint for regional economic development and national manufacturing growth."
+      ],
+      "brief": "Madhya Pradesh Chief Minister Dr. Mohan Yadav announced that the state has successfully operationalized ₹12 lakh crore in industrial projects over the past thirty months, bolstered by strong synergy with the central government. Addressing the Viksit Bharat Industry and Trade Summit in Bhopal, Dr. Yadav highlighted that the state’s innovative Regional Industry Conclave model is now being adopted by other Indian states to foster economic growth. With new investment proposals totaling ₹7,500 crore and major infrastructure projects like the Bina Refinery petrochemical unit underway, the administration is prioritizing industrial diversification alongside traditional agricultural strengths. These initiatives aim to align Madhya Pradesh with Prime Minister Narendra Modi’s 'Make in India' vision while creating sustainable employment opportunities for the state's youth. Madhya Pradesh’s successful industrial model serves as a scalable blueprint for regional economic development and national manufacturing growth.",
+      "brief_word_count": 137
+    },
+    {
+      "story_id": "story-129",
+      "category": "Finance",
+      "primary_headline": "UK Retail Sales Fall, Consumer Confidence Worst Since Covid",
+      "primary_source": {
+        "source_name": "Bloomberg",
+        "headline": "UK Retail Sales Fall, Consumer Confidence Worst Since Covid",
+        "published_at": "Fri, 23 Oct 2026 06:46:28 GMT",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-10-23/uk-retail-sales-fall-consumer-confidence-worst-since-covid",
+        "content": "Plus, the nation’s bonds and stocks are showing resilience in the run up to the budget"
+      },
+      "sources": [
+        {
+          "source_name": "Bloomberg",
+          "headline": "UK Retail Sales Fall, Consumer Confidence Worst Since Covid",
+          "published_at": "Fri, 23 Oct 2026 06:46:28 GMT",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-10-23/uk-retail-sales-fall-consumer-confidence-worst-since-covid"
+        },
+        {
+          "source_name": "Bloomberg",
+          "headline": "Hedge Funds Log Widest Daily Drawdown Since Covid in Stock Rout",
+          "published_at": "Fri, 23 Oct 2026 06:17:21 GMT",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-23/hedge-funds-log-widest-daily-drawdown-since-covid-in-stock-rout"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 2,
+      "combined_score": 1.1,
+      "brief_bullets": [
+        "UK retail sales have declined sharply as consumer confidence hits its lowest level since the pandemic, signaling mounting economic strain ahead of the government's upcoming budget. This downturn coincides with a broader global market correction, as Goldman Sachs reports that hedge funds experienced one of their most significant selloffs since 2020 following Thursday's equity market volatility. Despite these retail and institutional headwinds, UK government bonds and domestic stocks have demonstrated unexpected resilience as investors position themselves for fiscal policy shifts. These converging pressures highlight a precarious balancing act for policymakers, who must navigate fragile consumer sentiment and volatile global financial conditions while attempting to stabilize the national economy through impending fiscal adjustments."
+      ],
+      "why_it_matters_bullets": [
+        "Weakening consumer demand and hedge fund instability threaten to undermine the UK's fiscal recovery and broader market confidence."
+      ],
+      "brief": "UK retail sales have declined sharply as consumer confidence hits its lowest level since the pandemic, signaling mounting economic strain ahead of the government's upcoming budget. This downturn coincides with a broader global market correction, as Goldman Sachs reports that hedge funds experienced one of their most significant selloffs since 2020 following Thursday's equity market volatility. Despite these retail and institutional headwinds, UK government bonds and domestic stocks have demonstrated unexpected resilience as investors position themselves for fiscal policy shifts. These converging pressures highlight a precarious balancing act for policymakers, who must navigate fragile consumer sentiment and volatile global financial conditions while attempting to stabilize the national economy through impending fiscal adjustments. Weakening consumer demand and hedge fund instability threaten to undermine the UK's fiscal recovery and broader market confidence.",
+      "brief_word_count": 130
+    },
+    {
+      "story_id": "story-134",
+      "category": "Finance",
+      "primary_headline": "Stock Market LIVE Updates, Sensex Today: Sensex Drops 600 Points Lower, Trading Session Remains Volatile",
+      "primary_source": {
+        "source_name": "NDTV",
+        "headline": "Stock Market LIVE Updates, Sensex Today: Sensex Drops 600 Points Lower, Trading Session Remains Volatile",
+        "published_at": "Fri, 23 Oct 2026 11:19:52 +0530",
+        "url": "https://www.ndtv.com/business-news/stock-market-sensex-share-market-nifty-live-updates-today-23-october-us-iran-war-oil-price-12223144#publisher=newsstand",
+        "content": "Stock Market, Sensex, Share Market, Nifty LIVE Updates: Brent crude futures fell 0.38% to $112.74 a barrel, while US WTI crude was at $99.15 a barrel."
+      },
+      "sources": [
+        {
+          "source_name": "NDTV",
+          "headline": "Stock Market LIVE Updates, Sensex Today: Sensex Drops 600 Points Lower, Trading Session Remains Volatile",
+          "published_at": "Fri, 23 Oct 2026 11:19:52 +0530",
+          "url": "https://www.ndtv.com/business-news/stock-market-sensex-share-market-nifty-live-updates-today-23-october-us-iran-war-oil-price-12223144#publisher=newsstand"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "JEE Main Registration 2027 Date Live Updates: Session 1 Application Details, Documents Required",
+          "published_at": "Fri, 23 Oct 2026 09:01:29 +0530",
+          "url": "https://www.ndtv.com/education/jee-main-registration-2027-date-live-updates-session-1-application-details-documents-required-exam-dates-12223223#publisher=newsstand"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 2,
+      "combined_score": 1.1,
+      "brief_bullets": [
+        "The Indian stock market experienced significant volatility today as the benchmark Sensex index plummeted by 600 points during the trading session. This downward pressure coincides with fluctuations in global energy markets, where Brent crude futures retreated to $112.74 per barrel and US WTI crude hovered near $99.15. While investors navigate these macroeconomic headwinds, the National Testing Agency simultaneously prepares to launch the JEE Main 2027 registration portal for students across thirteen languages. The confluence of shifting commodity prices and domestic market instability underscores a period of heightened uncertainty for traders and institutional stakeholders alike as they monitor global inflationary trends and local economic indicators for further signals regarding market direction."
+      ],
+      "why_it_matters_bullets": [
+        "Market volatility driven by energy price fluctuations signals potential inflationary risks and broader economic instability for domestic investors."
+      ],
+      "brief": "The Indian stock market experienced significant volatility today as the benchmark Sensex index plummeted by 600 points during the trading session. This downward pressure coincides with fluctuations in global energy markets, where Brent crude futures retreated to $112.74 per barrel and US WTI crude hovered near $99.15. While investors navigate these macroeconomic headwinds, the National Testing Agency simultaneously prepares to launch the JEE Main 2027 registration portal for students across thirteen languages. The confluence of shifting commodity prices and domestic market instability underscores a period of heightened uncertainty for traders and institutional stakeholders alike as they monitor global inflationary trends and local economic indicators for further signals regarding market direction. Market volatility driven by energy price fluctuations signals potential inflationary risks and broader economic instability for domestic investors.",
+      "brief_word_count": 128
+    },
+    {
+      "story_id": "story-136",
+      "category": "Finance",
+      "primary_headline": "Gold heads for steep weekly loss as oil prices fuel Fed rate concerns",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Gold heads for steep weekly loss as oil prices fuel Fed rate concerns - Reuters",
+        "published_at": "Fri, 23 Oct 2026 04:14:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWE1LcUgzRWRwVDZmX3FEaWszVHF0cFQ1ekt6M1pyQ0lfc05PQm9DekdZcXprdm1vQk00SlNEZjEwQllCd1VwMUJySnIxcF9ZblFaRHFsV3BzSU52SlJSSi1TeWxoTmdYc1h6UHhPQTFQYU41ZEdQTFRNY3l0N1Q2bnRDV2x1MjlveGtxTk1oQWlGd3ExcUZEd2QzdF9TUkVKcXotUlIycUgtb1RrZjJ3?oc=5",
+        "content": "Gold heads for steep weekly loss as oil prices fuel Fed rate concerns&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Gold heads for steep weekly loss as oil prices fuel Fed rate concerns - Reuters",
+          "published_at": "Fri, 23 Oct 2026 04:14:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWE1LcUgzRWRwVDZmX3FEaWszVHF0cFQ1ekt6M1pyQ0lfc05PQm9DekdZcXprdm1vQk00SlNEZjEwQllCd1VwMUJySnIxcF9ZblFaRHFsV3BzSU52SlJSSi1TeWxoTmdYc1h6UHhPQTFQYU41ZEdQTFRNY3l0N1Q2bnRDV2x1MjlveGtxTk1oQWlGd3ExcUZEd2QzdF9TUkVKcXotUlIycUgtb1RrZjJ3?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Oil prices rise more than 1% as supply concerns linger - Reuters",
+          "published_at": "Fri, 23 Oct 2026 01:04:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2dZUC10TmJYRUk2RmM5WWpxaUx2XzBPZ0ZTV3hIR3BkaGFvZ3B2T1hhd0xEcXZOWk5LdXhLLUF5QU9XdTRQdnRyTk9jcmVNMEZvZlZBRW8xcG1TVW1fTkY2UnFrcXlVWlUwbDhRYk9pcW1fdEdzMVNRR2ZhYVl2T0RZa09uZTktZGFWRVRWSEpGeFhYVXVPR09zNDVaTVdiNDdRRHg3VFNyZWNNWVBmdkxGMWFOa05yN2NBRnRVZjF3eF9i?oc=5"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 2,
+      "combined_score": 1.1,
+      "brief_bullets": [
+        "Gold prices are tracking toward a significant weekly decline as surging oil prices exacerbate inflationary pressures, complicating the Federal Reserve’s monetary policy outlook. Crude oil futures climbed over 1% amid persistent global supply concerns, prompting investors to reassess the likelihood of sustained high interest rates. As yields on government bonds rise in response to these inflationary signals, non-yielding assets like gold have faced substantial selling pressure. This market shift reflects a broader investor pivot toward hedging against prolonged restrictive policy, as the intersection of energy volatility and central bank hawkishness diminishes the appeal of precious metals. Consequently, gold remains vulnerable to further downward momentum as traders await clearer signals regarding the Federal Reserve's future interest rate trajectory."
+      ],
+      "why_it_matters_bullets": [
+        "Rising energy costs threaten to keep inflation elevated, forcing the Federal Reserve to maintain restrictive rates, pressuring non-yielding assets."
+      ],
+      "brief": "Gold prices are tracking toward a significant weekly decline as surging oil prices exacerbate inflationary pressures, complicating the Federal Reserve’s monetary policy outlook. Crude oil futures climbed over 1% amid persistent global supply concerns, prompting investors to reassess the likelihood of sustained high interest rates. As yields on government bonds rise in response to these inflationary signals, non-yielding assets like gold have faced substantial selling pressure. This market shift reflects a broader investor pivot toward hedging against prolonged restrictive policy, as the intersection of energy volatility and central bank hawkishness diminishes the appeal of precious metals. Consequently, gold remains vulnerable to further downward momentum as traders await clearer signals regarding the Federal Reserve's future interest rate trajectory. Rising energy costs threaten to keep inflation elevated, forcing the Federal Reserve to maintain restrictive rates, pressuring non-yielding assets.",
+      "brief_word_count": 136
+    },
+    {
+      "story_id": "story-139",
+      "category": "Finance",
+      "primary_headline": "Pete Ricketts’s Wealth Puts Class at the Center of Nebraska’s Senate Race",
+      "primary_source": {
+        "source_name": "NYT",
+        "headline": "Pete Ricketts’s Wealth Puts Class at the Center of Nebraska’s Senate Race",
+        "published_at": "Fri, 23 Oct 2026 01:04:07 +0000",
+        "url": "https://www.nytimes.com/2026/10/22/us/politics/pete-ricketts-billionaire-nebraska-senate-race.html",
+        "content": "In a year when the wealth of the rich soared while workers lost ground to inflation, class has become political, especially in the Nebraska Senate race."
+      },
+      "sources": [
+        {
+          "source_name": "NYT",
+          "headline": "Pete Ricketts’s Wealth Puts Class at the Center of Nebraska’s Senate Race",
+          "published_at": "Fri, 23 Oct 2026 01:04:07 +0000",
+          "url": "https://www.nytimes.com/2026/10/22/us/politics/pete-ricketts-billionaire-nebraska-senate-race.html"
+        },
+        {
+          "source_name": "NYT",
+          "headline": "Chris Pappas Could Make History in New Hampshire’s Senate Race",
+          "published_at": "Thu, 22 Oct 2026 20:00:01 +0000",
+          "url": "https://www.nytimes.com/2026/10/22/us/politics/chris-pappas-new-hampshire-senate.html"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 2,
+      "combined_score": 1.1,
+      "brief_bullets": [
+        "Nebraska’s Senate race has evolved into a sharp referendum on economic inequality as incumbent Pete Ricketts faces scrutiny over his substantial personal wealth. Amidst a national climate where inflationary pressures have eroded the purchasing power of average workers, Ricketts’s financial background has become a central point of contention for his political opponents. This dynamic highlights a broader trend in American politics where candidates’ socioeconomic status increasingly dictates voter perception and campaign messaging. While Ricketts leverages his business experience, critics argue his immense fortune creates a disconnect from the daily struggles of middle-class Nebraskans, effectively transforming the contest into a high-stakes debate over class representation and the influence of elite wealth in the legislative process."
+      ],
+      "why_it_matters_bullets": [
+        "The focus on Ricketts’s wealth underscores how economic disparity is reshaping electoral strategies and voter alignment in modern politics."
+      ],
+      "brief": "Nebraska’s Senate race has evolved into a sharp referendum on economic inequality as incumbent Pete Ricketts faces scrutiny over his substantial personal wealth. Amidst a national climate where inflationary pressures have eroded the purchasing power of average workers, Ricketts’s financial background has become a central point of contention for his political opponents. This dynamic highlights a broader trend in American politics where candidates’ socioeconomic status increasingly dictates voter perception and campaign messaging. While Ricketts leverages his business experience, critics argue his immense fortune creates a disconnect from the daily struggles of middle-class Nebraskans, effectively transforming the contest into a high-stakes debate over class representation and the influence of elite wealth in the legislative process. The focus on Ricketts’s wealth underscores how economic disparity is reshaping electoral strategies and voter alignment in modern politics.",
+      "brief_word_count": 133
+    },
+    {
+      "story_id": "story-148",
+      "category": "Finance",
+      "primary_headline": "SBI customers’ data leak: Here’s how to protect yourself from phishing attacks",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "SBI customers’ data leak: Here’s how to protect yourself from phishing attacks",
+        "published_at": "Fri, 23 Oct 2026 07:30:35 +0000",
+        "url": "https://www.deccanherald.com/technology/sbi-customers-data-leak-heres-how-to-protect-yourself-from-phishing-attacks-4192388",
+        "content": " Earlier this week, a report emerged that the customer database server of the State Bank of India was breached. And, customer data was being sold on darknet for the highest bidder.The exposed information includes account owners' registered mobile numbers, dates of birth, names, gender, email addresses, residential addresses, branch and CIF identifiers (customer information file number), lead IDs (unique reference number generated to track a potential customer), and metadata associated with loan/lead records and other related files. Quick summary - click for full detailsConcise summary of key highlightsSBI customers’ data leak: Here’s how to protect yourself from phishing attacksIn one lineFollowing a data breach exposing State Bank of India customer records, experts urge users to follow strict cybersecurity practices against phishing.Step-by-step1Stay calm during intimidating callsIf you receive alarming calls from individuals posing as officials threatening account seizure, do not panic. Cut the call and verify directly at your nearest bank branch.2Secure your login credentialsRegularly update your netbanking passwords across both web and mobile applications to prevent unauthorized access.3Avoid suspicious links and APKsNever click on URL links or install APK files shared via WhatsApp, messengers, or social media, as they frequently contain malware.4Download apps from official storesEnsure you only install applications from recognized platforms like the Google Play Store, Apple App Store, or Microsoft Windows Store after checking user reviews.5Keep devices updated and protectedMaintain fully updated operating systems with the latest security patches and install reputable anti-virus software to defend against cyber threats.Key statistics4,000Reported affected accounts99 per centRisk rate of unverified APK files1930Emergency fraud helplineOne hourTime limit to report fraud for best recovery chanceProcessed with AI. Reviewed by DH Digital Team.Though it claims there is leakage of customer data of close to 4,000 accounts, the exposure seems much bigger.And, SBI's customers are still at risk of getting scammed online, particularly through frauds like phishing attacks and digital arrest.Google rolls out new AI-powered security features to Chrome to curb online fraudIt should be noted that the highest bidder on the darknet may now have thousands of customers' data with personally identifiable credentials. With that, they disguise themselves as a bank executive, CBI officer, an Income Tax official or a Supreme Court/High Court judge, and will surely make calls to customers of the leaked data.Here are tips on how to safeguard yourself from online scams like phishing and digital arrests:1) Whenever you receive a call from a person identifying themselves as a police or Income Tax official, a cellular company executive or a bank official stating that your account may get seized, never panic. Just tell them, I will speak to a bank official and just cut the call. Go to the nearest bank branch and clear the doubt.2) Regularly change the password of your netbanking account, both on the website and on the phone app.3)  If you ever receive messages with URL links to third-party app stores or APK files resembling a bank app, ignore them. Never install an APK file shared on WhatsApp or any messenger or social media platform. For 99 per cent of the time, they are risky and potentially come with malware-laced files.4) Always install and download apps from the official Google Play Store, Microsoft Windows Store, and Apple App Store only.Supreme Court cautions of fake website created for phishing attack, stealing user details5) Even if you are downloading from official websites or the aforementioned platforms, make it a habit to read the reviews of the app. The feedback shared by genuine users will let you know if the app is trustworthy or not.6) Ensure the device is fully updated to the latest version of the operating system. Smartphone, tablet and computer makers regularly send security patches along with OS updates to protect your device from such cyber threats.7) Also, to be on the safe side, install anti-virus apps by renowned publishers such as Kaspersky, ESET and others.In India, if you fall victim to an online fraud, immediately call toll-free 1930. It is run by the Indian Cyber Crime Coordination Centre, and once you share the bank transaction details, they will be able to trace and freeze the mule bank accounts. Ensure you call them within one hour, as there will be a higher chance of blocking the cyber criminals from withdrawing the ill-gotten money.Google rolls out next-gen Gemini 4 Argon AI model to developers globallyGet the latest news on new launches, gadget reviews, apps, cybersecurity, and more on personal technology only on DH Tech."
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "SBI customers’ data leak: Here’s how to protect yourself from phishing attacks",
+          "published_at": "Fri, 23 Oct 2026 07:30:35 +0000",
+          "url": "https://www.deccanherald.com/technology/sbi-customers-data-leak-heres-how-to-protect-yourself-from-phishing-attacks-4192388"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.89,
       "brief_bullets": [
-        "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model Comments URL: https://news.ycombinator.com/item?id=50141429 Points: 106 # Comments: 115.",
-        "Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms.",
-        "Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps.",
-        "Regulatory bodies continue to monitor market concentration to ensure equitable innovation safeguards across the broader sector."
+        "A significant data breach at the State Bank of India has exposed sensitive customer information, including mobile numbers, residential addresses, and unique CIF identifiers, which are currently being auctioned on the darknet. While initial reports suggest approximately 4,000 accounts were compromised, the scope of the exposure potentially threatens a much larger user base. Malicious actors are leveraging this personally identifiable information to conduct sophisticated phishing campaigns and digital arrest scams by impersonating law enforcement or bank officials. In response, cybersecurity experts are urging customers to immediately update credentials, avoid suspicious links, and verify all official communications through authorized bank channels to mitigate the heightened risk of financial fraud and identity theft."
       ],
       "why_it_matters_bullets": [
-        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
+        "This breach undermines public trust in digital banking and necessitates urgent, widespread adoption of advanced multi-factor authentication protocols."
       ],
-      "brief": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model Comments URL: https://news.ycombinator.com/item?id=50141429 Points: 106 # Comments: 115. Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms. Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps. Regulatory bodies continue to monitor market concentration to ensure equitable innovation safeguards across the broader sector. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
-      "brief_word_count": 74
-    },
-    {
-      "story_id": "story-114",
-      "category": "Finance",
-      "primary_headline": "World leaders must wise up to threat of cyber-attacks or rogue fridges will be least of their worries | Heather Stewart",
-      "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "World leaders must wise up to threat of cyber-attacks or rogue fridges will be least of their worries | Heather Stewart",
-        "published_at": "Sun, 18 Oct 2026 11:46:50 GMT",
-        "url": "https://www.theguardian.com/business/2026/oct/18/world-leaders-threat-cyber-attacks-rogue-fridges-financial-system",
-        "content": "Global cooperation seems unlikely despite AI increasing the risk of digital fraud and the need to protect the financial systemRogue French fridges were an unlikely talking point for the world’s leading economists, central bankers and finance chiefs meeting in a sultry Bangkok last week – helping to underline the spiralling cost of cyber-attacks.Kristalina Georgieva, the managing director of the International Monetary Fund, seized on news that supermarket chains across France had to chuck out piles of spoiled food after hackers accessed their fridge controls and turned up the temperature to 50C. Continue reading..."
-      },
-      "sources": [
-        {
-          "source_name": "The Guardian",
-          "headline": "World leaders must wise up to threat of cyber-attacks or rogue fridges will be least of their worries | Heather Stewart",
-          "published_at": "Sun, 18 Oct 2026 11:46:50 GMT",
-          "url": "https://www.theguardian.com/business/2026/oct/18/world-leaders-threat-cyber-attacks-rogue-fridges-financial-system"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.86,
-      "brief_bullets": [
-        "Global cooperation seems unlikely despite AI increasing the risk of digital fraud and the need to protect the financial systemRogue French fridges were an unlikely talking point for the world’s leading economists, central bankers and finance chiefs meeting in a sultry Bangkok last week – helping to underline the spiralling cost of cyber-attacks.",
-        "Kristalina Georgieva, the managing director of the International Monetary Fund, seized on news that supermarket chains across France had to chuck out piles of spoiled food after hackers accessed their fridge controls and turned up the temperature to 50C.",
-        "Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms.",
-        "Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps."
-      ],
-      "why_it_matters_bullets": [
-        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
-      ],
-      "brief": "Global cooperation seems unlikely despite AI increasing the risk of digital fraud and the need to protect the financial systemRogue French fridges were an unlikely talking point for the world’s leading economists, central bankers and finance chiefs meeting in a sultry Bangkok last week – helping to underline the spiralling cost of cyber-attacks. Kristalina Georgieva, the managing director of the International Monetary Fund, seized on news that supermarket chains across France had to chuck out piles of spoiled food after hackers accessed their fridge controls and turned up the temperature to 50C. Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms. Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 141
-    },
-    {
-      "story_id": "story-120",
-      "category": "Finance",
-      "primary_headline": "‘4,000 people minding our own business’: four decades on, Falklands again face a hostile Argentina",
-      "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "‘4,000 people minding our own business’: four decades on, Falklands again face a hostile Argentina",
-        "published_at": "Sun, 18 Oct 2026 04:00:49 GMT",
-        "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/18/4000-people-minding-our-own-business-four-decades-on-falklands-again-face-a-hostile-argentina",
-        "content": "Facing a slump in the polls, Argentina’s president is making economic attacks on the islands’ oil industry, and suggesting its key fisheries industry could be next A dozen local people and a uniformed military police officer (“Do you mind if I sit in?”) took their seats at the back of the handsome wood-panelled courtroom that doubles as the Falkland Islands’ legislative assembly. Outside, it was a typically blowy early evening. It may nominally be spring in the south Atlantic, but Stanley harbour, with its dark grey water speckled with historical shipwrecks, was a cauldron of swells and churn.Six of the assembly’s eight members – five men, one woman – waited patiently at a row of desks and microphones. The heating had been turned up to just short of uncomfortable. Behind them, a portrait of King Charles. From the other walls, dusty photographs of governors peered down on the scene. Continue reading..."
-      },
-      "sources": [
-        {
-          "source_name": "The Guardian",
-          "headline": "‘4,000 people minding our own business’: four decades on, Falklands again face a hostile Argentina",
-          "published_at": "Sun, 18 Oct 2026 04:00:49 GMT",
-          "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/18/4000-people-minding-our-own-business-four-decades-on-falklands-again-face-a-hostile-argentina"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.86,
-      "brief_bullets": [
-        "Facing a slump in the polls, Argentina’s president is making economic attacks on the islands’ oil industry, and suggesting its key fisheries industry could be next A dozen local people and a uniformed military police officer (“Do you mind if I sit in?”) took their seats at the back of the handsome wood-panelled courtroom that doubles as the Falkland Islands’ legislative assembly.",
-        "Outside, it was a typically blowy early evening.",
-        "It may nominally be spring in the south Atlantic, but Stanley harbour, with its dark grey water speckled with historical shipwrecks, was a cauldron of swells and churn.",
-        "Six of the assembly’s eight members – five men, one woman – waited patiently at a row of desks and microphones.",
-        "The heating had been turned up to just short of uncomfortable."
-      ],
-      "why_it_matters_bullets": [
-        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
-      ],
-      "brief": "Facing a slump in the polls, Argentina’s president is making economic attacks on the islands’ oil industry, and suggesting its key fisheries industry could be next A dozen local people and a uniformed military police officer (“Do you mind if I sit in?”) took their seats at the back of the handsome wood-panelled courtroom that doubles as the Falkland Islands’ legislative assembly. Outside, it was a typically blowy early evening. It may nominally be spring in the south Atlantic, but Stanley harbour, with its dark grey water speckled with historical shipwrecks, was a cauldron of swells and churn. Six of the assembly’s eight members – five men, one woman – waited patiently at a row of desks and microphones. The heating had been turned up to just short of uncomfortable. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 146
-    },
-    {
-      "story_id": "story-134",
-      "category": "Finance",
-      "primary_headline": "Why the debate between Keynesian and orthodox economics matters",
-      "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Why the debate between Keynesian and orthodox economics matters",
-        "published_at": "Sun, 18 Oct 2026 21:47:21 +0530",
-        "url": "https://www.thehindu.com/news/international/why-the-debate-between-keynesian-and-orthodox-economics-matters/article71583919.ece",
-        "content": "Keynes-Kalecki framework holds that demand, in particular private investment, shapes short-term fluctuations as well as long-term growth, unlike orthodox approaches that see supply as determining long-term growth; shift towards inflation targeting coincided with falling wage shares and greater burden on workers"
-      },
-      "sources": [
-        {
-          "source_name": "The Hindu",
-          "headline": "Why the debate between Keynesian and orthodox economics matters",
-          "published_at": "Sun, 18 Oct 2026 21:47:21 +0530",
-          "url": "https://www.thehindu.com/news/international/why-the-debate-between-keynesian-and-orthodox-economics-matters/article71583919.ece"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "Keynes-Kalecki framework holds that demand, in particular private investment, shapes short-term fluctuations as well as long-term growth, unlike orthodox approaches that see supply as determining long-term growth; shift towards inflation targeting coincided with falling wage shares and greater burden on workers.",
-        "Financial analysts and institutional investors are calculating downstream valuation benchmarks and capital allocation shifts across key asset categories.",
-        "Corporate executives and supply chain coordinators are reviewing operational forecasts to safeguard margins against external macroeconomic pressures.",
-        "Market strategists expect continued portfolio repositioning as verified performance metrics and policy guidance emerge."
-      ],
-      "why_it_matters_bullets": [
-        "Directly influences borrowing costs, consumer spending appetite, and capital deployment across global financial markets."
-      ],
-      "brief": "Keynes-Kalecki framework holds that demand, in particular private investment, shapes short-term fluctuations as well as long-term growth, unlike orthodox approaches that see supply as determining long-term growth; shift towards inflation targeting coincided with falling wage shares and greater burden on workers. Financial analysts and institutional investors are calculating downstream valuation benchmarks and capital allocation shifts across key asset categories. Corporate executives and supply chain coordinators are reviewing operational forecasts to safeguard margins against external macroeconomic pressures. Market strategists expect continued portfolio repositioning as verified performance metrics and policy guidance emerge. Directly influences borrowing costs, consumer spending appetite, and capital deployment across global financial markets.",
-      "brief_word_count": 104
-    },
-    {
-      "story_id": "story-145",
-      "category": "Finance",
-      "primary_headline": "Private complaints over false election affidavits need no official sanction: Supreme Court",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Private complaints over false election affidavits need no official sanction: Supreme Court",
-        "published_at": "Sun, 18 Oct 2026 14:46:14 +0000",
-        "url": "https://www.deccanherald.com/india/private-complaints-over-false-election-affidavits-need-no-official-sanction-supreme-court-4187384",
-        "content": " New Delhi: Private citizens can file criminal complaints against candidates for submitting false affidavits with their nomination papers, the Supreme Court has ruled, clarifying that no prior sanction or complaint from the Election Commission or any public servant is required.A bench of Justices Dipankar Datta and Sheel Nagu held that an offence under Section 125-A of the Representation of the People Act, 1951, does not fall within the restrictive ambit of Section 195 of the Code of Criminal Procedure. EC-SIR row | ‘Undermining EC, Supreme Court is not a right’: Harvard scholars warns against erosion of public trust in IndiaThe non-obstante clause in Section 125-A and the deliberate legislative omission to include it in Section 195 CrPC mean courts can take cognizance of such complaints lodged by private persons under Section 200 CrPC, the court said.The ruling came in an appeal filed by Rajkumar Madki challenging a March 7, 2025, judgment of the Karnataka High Court. The High Court had quashed Madki’s August 2023 private complaint against Dr Shailendra Beldale, the MLA from Bidar, alleging that the legislator had given a false residential address in the affidavit accompanying his 2023 nomination papers.The October 16, 2026 decision settles a substantial question of law of general public importance that had not been previously decided by the court.The High Court had held that only the Election Commission could complain of an offence under Section 125-A and that a voter’s remedy was limited to an election petition. The Supreme Court disagreed on the legal point, observing that courts cannot expand the list of offences requiring a public servant’s complaint by implication.“The prohibition on a court taking cognizance… is restricted to the offences specifically enumerated therein,” the bench said. Supreme Court seeks replies from CEC Gyanesh Kumar, others on plea filed by Rahul Gandhi, oppn leadersIt noted that Section 125-A is of relatively recent origin and that Parliament could have amended Section 195 CrPC if it intended to restrict such prosecutions. Guidelines or press notes issued by the Election Commission, the court added, cannot bind judicial interpretation of the statute.Despite upholding the maintainability of private complaints in principle, the apex court declined to revive the specific case against Beldale, represented by senior advocate Anand Sanjay M Nuli. It found that the documents on record effectively rebutted the allegation of false declaration of residence and that the prospect of conviction was remote. Continuing the trial, the court said, would only waste judicial time.The High Court’s order quashing the proceedings was therefore left undisturbed, but on different grounds. The Supreme Court made it clear that magistrates retain full powers to deal with frivolous or harassing complaints if any are filed in future."
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Private complaints over false election affidavits need no official sanction: Supreme Court",
-          "published_at": "Sun, 18 Oct 2026 14:46:14 +0000",
-          "url": "https://www.deccanherald.com/india/private-complaints-over-false-election-affidavits-need-no-official-sanction-supreme-court-4187384"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "New Delhi: Private citizens can file criminal complaints against candidates for submitting false affidavits with their nomination papers, the Supreme Court has ruled, clarifying that no prior sanction or complaint from the Election Commission or any public servant is required.",
-        "A bench of Justices Dipankar Datta and Sheel Nagu held that an offence under Section 125-A of the Representation of the People Act, 1951, does not fall within the restrictive ambit of Section 195 of the Code of Criminal Procedure."
-      ],
-      "why_it_matters_bullets": [
-        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
-      ],
-      "brief": "New Delhi: Private citizens can file criminal complaints against candidates for submitting false affidavits with their nomination papers, the Supreme Court has ruled, clarifying that no prior sanction or complaint from the Election Commission or any public servant is required. A bench of Justices Dipankar Datta and Sheel Nagu held that an offence under Section 125-A of the Representation of the People Act, 1951, does not fall within the restrictive ambit of Section 195 of the Code of Criminal Procedure. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 94
-    },
-    {
-      "story_id": "story-158",
-      "category": "Finance",
-      "primary_headline": "A California town’s beaches are washing away. Can its residents turn the tide?",
-      "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "A California town’s beaches are washing away. Can its residents turn the tide?",
-        "published_at": "Sun, 18 Oct 2026 11:00:03 GMT",
-        "url": "https://www.theguardian.com/us-news/2026/oct/18/california-beach-erosion-san-clemente",
-        "content": "Rapid coastal erosion threatens coastal homes and economies, and as Super El Niño rounds the corner, a town is reckoning with the reality of climate crisisSan Clemente is one of southern California’s most picture-perfect beach towns – a capital of American surf culture since the 1950s. In two years, 2028 Olympic surfers will compete at Lower Trestles, a world-class surfing beach.But the town’s longtime cultural and economic driver, its beaches, are now under threat. As pounding waves driven by late-summer storms in the Pacific devour chunks of the California coastline, some of San Clemente’s beaches are growing narrower, the sand increasingly eaten away. Continue reading..."
-      },
-      "sources": [
-        {
-          "source_name": "The Guardian",
-          "headline": "A California town’s beaches are washing away. Can its residents turn the tide?",
-          "published_at": "Sun, 18 Oct 2026 11:00:03 GMT",
-          "url": "https://www.theguardian.com/us-news/2026/oct/18/california-beach-erosion-san-clemente"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "Rapid coastal erosion threatens coastal homes and economies, and as Super El Niño rounds the corner, a town is reckoning with the reality of climate crisisSan Clemente is one of southern California’s most picture-perfect beach towns – a capital of American surf culture since the 1950s.",
-        "In two years, 2028 Olympic surfers will compete at Lower Trestles, a world-class surfing beach.",
-        "But the town’s longtime cultural and economic driver, its beaches, are now under threat.",
-        "As pounding waves driven by late-summer storms in the Pacific devour chunks of the California coastline, some of San Clemente’s beaches are growing narrower, the sand increasingly eaten away."
-      ],
-      "why_it_matters_bullets": [
-        "Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
-      ],
-      "brief": "Rapid coastal erosion threatens coastal homes and economies, and as Super El Niño rounds the corner, a town is reckoning with the reality of climate crisisSan Clemente is one of southern California’s most picture-perfect beach towns – a capital of American surf culture since the 1950s. In two years, 2028 Olympic surfers will compete at Lower Trestles, a world-class surfing beach. But the town’s longtime cultural and economic driver, its beaches, are now under threat. As pounding waves driven by late-summer storms in the Pacific devour chunks of the California coastline, some of San Clemente’s beaches are growing narrower, the sand increasingly eaten away. Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
-      "brief_word_count": 118
-    },
-    {
-      "story_id": "story-171",
-      "category": "Finance",
-      "primary_headline": "Across Farm Country, Economic Discontent Strains Republican Coalition",
-      "primary_source": {
-        "source_name": "NYT",
-        "headline": "Across Farm Country, Economic Discontent Strains Republican Coalition",
-        "published_at": "Sun, 18 Oct 2026 09:00:47 +0000",
-        "url": "https://www.nytimes.com/2026/10/18/us/politics/farmers-ranchers-trump-economic-stress.html",
-        "content": "Farmers and ranchers have supported President Trump for a decade. But the war in Iran, tariffs and other administration policies have soured some on the G.O.P."
-      },
-      "sources": [
-        {
-          "source_name": "NYT",
-          "headline": "Across Farm Country, Economic Discontent Strains Republican Coalition",
-          "published_at": "Sun, 18 Oct 2026 09:00:47 +0000",
-          "url": "https://www.nytimes.com/2026/10/18/us/politics/farmers-ranchers-trump-economic-stress.html"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "Farmers and ranchers have supported President Trump for a decade.",
-        "But the war in Iran, tariffs and other administration policies have soured some on the G.O.P.",
-        "Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness.",
-        "The shift has triggered intense debate among foreign policy stakeholders regarding international deterrence frameworks and regulatory enforcement."
-      ],
-      "why_it_matters_bullets": [
-        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
-      ],
-      "brief": "Farmers and ranchers have supported President Trump for a decade. But the war in Iran, tariffs and other administration policies have soured some on the G.O.P. Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness. The shift has triggered intense debate among foreign policy stakeholders regarding international deterrence frameworks and regulatory enforcement. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 78
-    },
-    {
-      "story_id": "story-172",
-      "category": "Finance",
-      "primary_headline": "Ankur Warikoo shares 3 rules he and wife Ruchi follow to resolve fights: ‘Never disagree…’",
-      "primary_source": {
-        "source_name": "The Indian Express",
-        "headline": "Ankur Warikoo shares 3 rules he and wife Ruchi follow to resolve fights: ‘Never disagree…’",
-        "published_at": "Sun, 18 Oct 2026 09:00:20 +0000",
-        "url": "https://indianexpress.com/article/lifestyle/feelings/ankur-warikoo-shares-3-couple-rules-to-solve-fights-relationship-10919964/",
-        "content": ""
-      },
-      "sources": [
-        {
-          "source_name": "The Indian Express",
-          "headline": "Ankur Warikoo shares 3 rules he and wife Ruchi follow to resolve fights: ‘Never disagree…’",
-          "published_at": "Sun, 18 Oct 2026 09:00:20 +0000",
-          "url": "https://indianexpress.com/article/lifestyle/feelings/ankur-warikoo-shares-3-couple-rules-to-solve-fights-relationship-10919964/"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "Developments regarding ankur warikoo shares 3 rules he and wife ruchi follow to resolve fights: ‘never disagree…’ have prompted active evaluations across administrative, regulatory, and public sectors.",
-        "Financial analysts and institutional investors are calculating downstream valuation benchmarks and capital allocation shifts across key asset categories.",
-        "Corporate executives and supply chain coordinators are reviewing operational forecasts to safeguard margins against external macroeconomic pressures.",
-        "Market strategists expect continued portfolio repositioning as verified performance metrics and policy guidance emerge."
-      ],
-      "why_it_matters_bullets": [
-        "Influences institutional investor sentiment and valuation benchmarks across key equity and corporate market segments."
-      ],
-      "brief": "Developments regarding ankur warikoo shares 3 rules he and wife ruchi follow to resolve fights: ‘never disagree…’ have prompted active evaluations across administrative, regulatory, and public sectors. Financial analysts and institutional investors are calculating downstream valuation benchmarks and capital allocation shifts across key asset categories. Corporate executives and supply chain coordinators are reviewing operational forecasts to safeguard margins against external macroeconomic pressures. Market strategists expect continued portfolio repositioning as verified performance metrics and policy guidance emerge. Influences institutional investor sentiment and valuation benchmarks across key equity and corporate market segments.",
-      "brief_word_count": 90
-    },
-    {
-      "story_id": "story-187",
-      "category": "Finance",
-      "primary_headline": "Antofagasta's Centinela strike ends after deal with unions",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Antofagasta's Centinela strike ends after deal with unions - Reuters",
-        "published_at": "Sun, 18 Oct 2026 04:37:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNckhuSk5YV05nTjhLZUwxcmNOUTc3MVVpZC1SZFVxYTNTVkVCZ014ZmR3OEdkTW5DS0xvWXhIQmMxdVNlVXNHNGs1Y0c4ekV4SE1ycFlBcnRpOWxFZU5xdGJjeUtoUWtlei1tc251cmU4c3k4YlJHOHlNMlUtYWx1S1BwdHV1M3VsV2xCdkdGR0RIRE1uMXdXVjllQWh2cE5ONXdhZ0RnVFlxMjJaRWd0NVVMMUI5d0k?oc=5",
-        "content": "Antofagasta's Centinela strike ends after deal with unions&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "Antofagasta's Centinela strike ends after deal with unions - Reuters",
-          "published_at": "Sun, 18 Oct 2026 04:37:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNckhuSk5YV05nTjhLZUwxcmNOUTc3MVVpZC1SZFVxYTNTVkVCZ014ZmR3OEdkTW5DS0xvWXhIQmMxdVNlVXNHNGs1Y0c4ekV4SE1ycFlBcnRpOWxFZU5xdGJjeUtoUWtlei1tc251cmU4c3k4YlJHOHlNMlUtYWx1S1BwdHV1M3VsV2xCdkdGR0RIRE1uMXdXVjllQWh2cE5ONXdhZ0RnVFlxMjJaRWd0NVVMMUI5d0k?oc=5"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "Developments regarding antofagasta's centinela strike ends after deal with unions have prompted active evaluations across administrative, regulatory, and public sectors.",
-        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Antofagasta's Centinela strike ends after deal with unions'.",
-        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
-        "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
-      ],
-      "why_it_matters_bullets": [
-        "Reflects broader macroeconomic labor market adjustments as employers rebalance operating costs."
-      ],
-      "brief": "Developments regarding antofagasta's centinela strike ends after deal with unions have prompted active evaluations across administrative, regulatory, and public sectors. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Antofagasta's Centinela strike ends after deal with unions'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Reflects broader macroeconomic labor market adjustments as employers rebalance operating costs.",
-      "brief_word_count": 83
-    },
-    {
-      "story_id": "story-198",
-      "category": "Finance",
-      "primary_headline": "Anthropic says its workforce has become less junior and is spending more time in meetings",
-      "primary_source": {
-        "source_name": "TechCrunch",
-        "headline": "Anthropic says its workforce has become less junior and is spending more time in meetings",
-        "published_at": "Sat, 17 Oct 2026 20:21:19 +0000",
-        "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
-        "content": "Anthropic argues that its own workplace trends could be indicators of “how AI will shift work organization, hiring, and labor demand across the economy,” especially since the company “has thoroughly molded its workflows around AI.” But even if other organizations never embrace AI as thoroughly or in the exact same way as Anthropic, the report offers an intriguing glimpse at how the company currently operates. Notably, Anthropic is making fewer junior hires, with the proportion of junior-level employees in technical departments falling from 21% to 14% since early 2025, and the proportion of junior technical hires falling even more sharply, from 27% to 9%. Anthropic also says that technical teams now represent a smaller share of the overall workforce, falling from 61% to 56% — a trend that it attributes to  “natural expansion of business functions as the company scales,” as well as “coding tools increasingly allowing non-technical employees to make software themselves.” One employee reportedly described an “eternal pressure at Anthropic to move as fast as possible and use Claude for everything.” In an April 2026 survey, 27% of employees said they had become more productive because of Claude  and 20% said their job had shifted “from actually doing work to managing Claudes”; apparently one engineered compared this to babysitting: “When you are babysitting, every child brings to you concerns with an equal demand for your attention and the various [Claudes] also do that.” In fact, the report suggests “human attention and judgement” are becoming a “bottleneck” for productivity, as Claude produces a “deluge” of text that needs to be read and organized. Unsurprisingly, the report argues that AI adoption has made the company more productive, as indicated by “more code per person, closing more sales per rep, and processing more contracts.” The company acknowledges that “more code does not necessarily mean better code or business impact,” but it also hasn’t found any indications that code quality is declining."
-      },
-      "sources": [
-        {
-          "source_name": "TechCrunch",
-          "headline": "Anthropic says its workforce has become less junior and is spending more time in meetings",
-          "published_at": "Sat, 17 Oct 2026 20:21:19 +0000",
-          "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "Anthropic argues that its own workplace trends could be indicators of “how AI will shift work organization, hiring, and labor demand across the economy,” especially since the company “has thoroughly molded its workflows around AI.” But even if other organizations never embrace AI as thoroughly or in the exact same way as Anthropic, the report offers an intriguing glimpse at how the company currently operates.",
-        "Notably, Anthropic is making fewer junior hires, with the proportion of junior-level employees in technical departments falling from 21% to 14% since early 2025, and the proportion of junior technical hires falling even more sharply, from 27% to 9%."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "Anthropic argues that its own workplace trends could be indicators of “how AI will shift work organization, hiring, and labor demand across the economy,” especially since the company “has thoroughly molded its workflows around AI.” But even if other organizations never embrace AI as thoroughly or in the exact same way as Anthropic, the report offers an intriguing glimpse at how the company currently operates. Notably, Anthropic is making fewer junior hires, with the proportion of junior-level employees in technical departments falling from 21% to 14% since early 2025, and the proportion of junior technical hires falling even more sharply, from 27% to 9%. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 117
+      "brief": "A significant data breach at the State Bank of India has exposed sensitive customer information, including mobile numbers, residential addresses, and unique CIF identifiers, which are currently being auctioned on the darknet. While initial reports suggest approximately 4,000 accounts were compromised, the scope of the exposure potentially threatens a much larger user base. Malicious actors are leveraging this personally identifiable information to conduct sophisticated phishing campaigns and digital arrest scams by impersonating law enforcement or bank officials. In response, cybersecurity experts are urging customers to immediately update credentials, avoid suspicious links, and verify all official communications through authorized bank channels to mitigate the heightened risk of financial fraud and identity theft. This breach undermines public trust in digital banking and necessitates urgent, widespread adoption of advanced multi-factor authentication protocols.",
+      "brief_word_count": 129
     }
   ]
 }

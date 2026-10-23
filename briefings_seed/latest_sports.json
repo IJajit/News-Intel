@@ -1,499 +1,337 @@
 {
   "id": "latest",
   "category": "sports",
-  "timestamp": "2026-10-18T17:07:26.267801+00:00",
-  "articlesCount": 13,
+  "timestamp": "2026-10-23T08:07:39.235393+00:00",
+  "articlesCount": 10,
   "stories": [
     {
-      "story_id": "story-35",
+      "story_id": "story-41",
       "category": "Sports",
-      "primary_headline": "Gómez halfway-line wondergoal sparks Brighton’s 5-0 thrashing of sorry Crystal Palace",
-      "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "Gómez halfway-line wondergoal sparks Brighton’s 5-0 thrashing of sorry Crystal Palace",
-        "published_at": "Sun, 18 Oct 2026 15:06:49 GMT",
-        "url": "https://www.theguardian.com/football/2026/oct/18/brighton-crystal-palace-premier-league-match-report",
-        "content": "At last, Fabian Hürzeler has the scalp that matters most to all Brighton fans and in humiliating fashion. Diego Gómez’s breathtaking goal-of-the-season contender from the halfway line, à la David Beckham, was the highlight of another hugely impressive performance from the Premier League’s top scorers as they continued their flying start to the season.Not since a 4-1 thrashing here in February 2024 under Roberto De Zerbi had Brighton tasted victory against their arch rivals from up the A23 – a run of four matches. But having been handed the initiative by Jaydee Canvot’s own goal, a stunned Palace found themselves 3-0 down after 10 minutes. It got even worse for Pierre Sage after Brighton extended their lead through Gómez’s wonderstrike and Yasin Ayari, with Charalampos Kostoulas adding a fourth after half-time and the substitute Jack Hinshelwood’s late header matching their record 5-0 win over Palace from 1956 in Division Three South. Continue reading..."
-      },
-      "sources": [
-        {
-          "source_name": "The Guardian",
-          "headline": "Gómez halfway-line wondergoal sparks Brighton’s 5-0 thrashing of sorry Crystal Palace",
-          "published_at": "Sun, 18 Oct 2026 15:06:49 GMT",
-          "url": "https://www.theguardian.com/football/2026/oct/18/brighton-crystal-palace-premier-league-match-report"
-        },
-        {
-          "source_name": "Sky Sports",
-          "headline": "Brighton put FIVE past rivals Palace to continue scintillating form",
-          "published_at": "Sun, 18 Oct 2026 16:15:00 BST",
-          "url": "https://www.skysports.com/watch/video/13600677/brighton-5-0-crystal-palace-premier-league-highlights"
-        },
-        {
-          "source_name": "Sky Sports",
-          "headline": "Brighton score five in Palace dismantling as Gomez nets wondergoal",
-          "published_at": "Sun, 18 Oct 2026 16:00:00 BST",
-          "url": "https://www.skysports.com/football/brighton-and-hove-albion-vs-crystal-palace/report/559506"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 3,
-      "combined_score": 1.93,
-      "brief_bullets": [
-        "At last, Fabian Hürzeler has the scalp that matters most to all Brighton fans and in humiliating fashion.",
-        "Diego Gómez’s breathtaking goal-of-the-season contender from the halfway line, à la David Beckham, was the highlight of another hugely impressive performance from the Premier League’s top scorers as they continued their flying start to the season.",
-        "Not since a 4-1 thrashing here in February 2024 under Roberto De Zerbi had Brighton tasted victory against their arch rivals from up the A23 – a run of four matches.",
-        "But having been handed the initiative by Jaydee Canvot’s own goal, a stunned Palace found themselves 3-0 down after 10 minutes."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "At last, Fabian Hürzeler has the scalp that matters most to all Brighton fans and in humiliating fashion. Diego Gómez’s breathtaking goal-of-the-season contender from the halfway line, à la David Beckham, was the highlight of another hugely impressive performance from the Premier League’s top scorers as they continued their flying start to the season. Not since a 4-1 thrashing here in February 2024 under Roberto De Zerbi had Brighton tasted victory against their arch rivals from up the A23 – a run of four matches. But having been handed the initiative by Jaydee Canvot’s own goal, a stunned Palace found themselves 3-0 down after 10 minutes. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 119
-    },
-    {
-      "story_id": "story-38",
-      "category": "Sports",
-      "primary_headline": "Shakeup Saturday: 5 of the top 7 teams in the Top 25 lost in the regular season for the first time",
-      "primary_source": {
-        "source_name": "AP News",
-        "headline": "Shakeup Saturday: 5 of the top 7 teams in the Top 25 lost in the regular season for the first time - AP News",
-        "published_at": "Sun, 18 Oct 2026 14:20:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUTF2UlFIOWVHOTloUEc0MVVLeC1VTWctWFhjRWdxaE9INDU0d3VoTElSdk5kNjZ4ak43bFJaeE1rSndiSjBOZHkyeWg1U01hZ3g1ckEyR21CTDNxa0RiREJIREJ4SmlxMk4wUmpJMHlSd01LUDBzcFI2TTFiYjV5MHJR?oc=5",
-        "content": "Shakeup Saturday: 5 of the top 7 teams in the Top 25 lost in the regular season for the first time&nbsp;&nbsp;AP News"
-      },
-      "sources": [
-        {
-          "source_name": "AP News",
-          "headline": "Shakeup Saturday: 5 of the top 7 teams in the Top 25 lost in the regular season for the first time - AP News",
-          "published_at": "Sun, 18 Oct 2026 14:20:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUTF2UlFIOWVHOTloUEc0MVVLeC1VTWctWFhjRWdxaE9INDU0d3VoTElSdk5kNjZ4ak43bFJaeE1rSndiSjBOZHkyeWg1U01hZ3g1ckEyR21CTDNxa0RiREJIREJ4SmlxMk4wUmpJMHlSd01LUDBzcFI2TTFiYjV5MHJR?oc=5"
-        },
-        {
-          "source_name": "CNN",
-          "headline": "Historic day in college football sees 5 of the top 7 teams in the Top 25 losing in the regular season for the first time - CNN",
-          "published_at": "Sun, 18 Oct 2026 04:50:54 GMT",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54VGt6WnRMUGRzMGdKTlJBYmJfTjFOc0tBb3pkbHVOWmdfcmZiMDV6VFVJQXVGWUQ4dmR3NWthMFF2OW9xbW1fYkt4QXFXRGx5LWpscDdEUUhLM2RYN1dPc1ZpbUdUamxIcmVqODZKdDEzZzlpZmhxeEhSN2ZIUWc?oc=5"
-        },
-        {
-          "source_name": "CNN",
-          "headline": "Indiana’s first loss in almost 2 years shows Hoosiers a new, painful side to being in college football’s top tier - CNN",
-          "published_at": "Sat, 17 Oct 2026 23:37:23 GMT",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ZblU2N0syVnU3MGg4V1ZVZnlpU25TRFkzNTE2WmJzREM4NFcwTlRTSWRnd0R4MHN4Q3Fmd0FjWW9COTJHMU1YcmtBQWJ0V0o4SEFLOGxfbXJmTjBEalRiZFplSEk0eVVkR29XVk14b2VhUQ?oc=5"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 3,
-      "combined_score": 1.9,
-      "brief_bullets": [
-        "AP News Historic day in college football sees 5 of the top 7 teams in the Top 25 losing in the regular season for the first time CNN Indiana’s first loss in almost 2 years shows Hoosiers a new, painful side to being in college football’s top tier CNN.",
-        "Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures.",
-        "Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum.",
-        "Team representatives have confirmed comprehensive preparation plans to maintain strategic advantages in subsequent championship phases."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "AP News Historic day in college football sees 5 of the top 7 teams in the Top 25 losing in the regular season for the first time CNN Indiana’s first loss in almost 2 years shows Hoosiers a new, painful side to being in college football’s top tier CNN. Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures. Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum. Team representatives have confirmed comprehensive preparation plans to maintain strategic advantages in subsequent championship phases. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 108
-    },
-    {
-      "story_id": "story-56",
-      "category": "Sports",
-      "primary_headline": "Nottingham Forest v Arsenal: Premier League – live",
-      "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "Nottingham Forest v Arsenal: Premier League – live",
-        "published_at": "Sun, 18 Oct 2026 17:04:31 GMT",
-        "url": "https://www.theguardian.com/football/live/2026/oct/18/nottingham-forest-v-arsenal-premier-league-live",
-        "content": "⚽ Updates from the City Ground; kick-off 4.30pm BST⚽ Scores | Tables | Read Football Daily | Mail DanielForest will want – and probably need – to make this game a mess. If it’s open and played through midfield, Arsenal will open them up because, with the guile they’ve added by buying Guimaraes, along with an in-form Odegaard, they have the ability to exploit space. For that reason, Forest need bodies everywhere, especially in the middle of the pitch, forcing them wide, where Saka might just’ve lost the spring in his acceleration following last season’s achilles injury while, on the other side, Eze isn’t going to go on the outside.Elsewhere, 10-man Sunderland trail Bournemouth 2-0 with seconds remaining, while Brighton have splattered Palace 5-0 to move second above Arsenal, their goal difference +18. Ridiculous behaviour. Continue reading..."
-      },
-      "sources": [
-        {
-          "source_name": "The Guardian",
-          "headline": "Nottingham Forest v Arsenal: Premier League – live",
-          "published_at": "Sun, 18 Oct 2026 17:04:31 GMT",
-          "url": "https://www.theguardian.com/football/live/2026/oct/18/nottingham-forest-v-arsenal-premier-league-live"
-        },
-        {
-          "source_name": "Sky Sports",
-          "headline": "Arsenal pushing for breakthrough at Forest LIVE! &amp; highlights",
-          "published_at": "Sun, 18 Oct 2026 14:55:00 BST",
-          "url": "https://www.skysports.com/football/nottingham-forest-vs-arsenal/live/559512"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
-      "brief_bullets": [
-        "⚽ Updates from the City Ground; kick-off 4.",
-        "30pm BST⚽ Scores | Tables | Read Football Daily | Mail DanielForest will want – and probably need – to make this game a mess.",
-        "If it’s open and played through midfield, Arsenal will open them up because, with the guile they’ve added by buying Guimaraes, along with an in-form Odegaard, they have the ability to exploit space.",
-        "For that reason, Forest need bodies everywhere, especially in the middle of the pitch, forcing them wide, where Saka might just’ve lost the spring in his acceleration following last season’s achilles injury while, on the other side, Eze isn’t going to go on the outside.",
-        "Elsewhere, 10-man Sunderland trail Bournemouth 2-0 with seconds remaining, while Brighton have splattered Palace 5-0 to move second above Arsenal, their goal difference +18.",
-        "Ridiculous behaviour."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "⚽ Updates from the City Ground; kick-off 4. 30pm BST⚽ Scores | Tables | Read Football Daily | Mail DanielForest will want – and probably need – to make this game a mess. If it’s open and played through midfield, Arsenal will open them up because, with the guile they’ve added by buying Guimaraes, along with an in-form Odegaard, they have the ability to exploit space. For that reason, Forest need bodies everywhere, especially in the middle of the pitch, forcing them wide, where Saka might just’ve lost the spring in his acceleration following last season’s achilles injury while, on the other side, Eze isn’t going to go on the outside. Elsewhere, 10-man Sunderland trail Bournemouth 2-0 with seconds remaining, while Brighton have splattered Palace 5-0 to move second above Arsenal, their goal difference +18. Ridiculous behaviour. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 150
-    },
-    {
-      "story_id": "story-58",
-      "category": "Sports",
-      "primary_headline": "Tilak Varma relishes new role as finisher",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Tilak Varma relishes new role as finisher",
-        "published_at": "Sun, 18 Oct 2026 16:42:16 +0000",
-        "url": "https://www.deccanherald.com/sports/cricket/tilak-is-relishing-finishing-games-4187485",
-        "content": " Bengaluru: India’s T20I vice-captain Tilak Varma has never shied away from talking his heart out. And for someone who loves pace on the ball and batting at No. 3, dropping down to No. 5 or even No. 6 is not an ideal situation to be in.However, for Tilak, who rarely gets to bat in his preferred position in a changed set-up, versatility has been his biggest strength.&amp;nbsp;Asian Games 2026 | Abhishek Sharma, Tilak Varma do the star turn as India beat Pakistan by 19 runs to defend titleFrom the third T20I against South Africa in Dharamsala in December 2025 to the T20 World Cup (Super Eights vs South Africa) in Ahmedabad in February, Tilak regularly batted at No. 3 for seven straight games.And since his debut, if not on some rare occasion, Tilak has been a standard in India’s T20 top-four. Once Sanju Samson returned to the XI to accompany Abhishek Sharma at the top, and with Ishan Kishan playing one drop, Tilak was pushed down the order as a floating option. He admits that the situation is “unfortunate”, but India’s vice-captain also understands what it means to be a team-player, while enjoying the role of a finisher. “It is not easy to change the numbers (batting) from No. 3 to No. 5 and No. 6. It will be slightly challenging. But I have been working on that, especially how to finish the games. I have said I love finishing the games for India,” Tilak said after the series-deciding fifth T20I was called off due to persistent rain.For me as an individual, if you see, it will be easier batting at 3. But unfortunately, I should bat at 5 or 6 because we have got that combination at the top right now. Kishan (Ishan) is batting at 3, and he is doing brilliantly. I think there is no option but to bat at five or six and do the job.&quot;Talking about his role clarity and preparation in his transition to a T20I finisher, Tilak highlighted he’s got all the shots in the book and is confident of changing positions with just a few sessions in the nets. And the numbers are impressive: averaging 65.66 in nine games.“We should do that (working on his skills as a finisher), otherwise, it will be tough. When you go in to bat as a finisher, if the ball comes in your arc, you should try to hit it for a six. Because, if you see in T20s, most of the time in this role, you get to bat a maximum of five or six overs.“If you see, I have been in this role in my childhood as well. I have got shots all over the ground. So I am confident that whether I bat at three or five, I have got the technique to adapt, and if I practice for a day or two, I can do any role for the team. Now even if I come back to No. 3, I can adapt within a day or two of practice. I am confident of batting anywhere,” he said. "
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Tilak Varma relishes new role as finisher",
-          "published_at": "Sun, 18 Oct 2026 16:42:16 +0000",
-          "url": "https://www.deccanherald.com/sports/cricket/tilak-is-relishing-finishing-games-4187485"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Tilak Varma on switching from No. 3 to middle-order: ‘There is no option’",
-          "published_at": "Sun, 18 Oct 2026 03:31:25 +0000",
-          "url": "https://indianexpress.com/article/sports/cricket/tilak-varma-india-west-indies-switching-no-3-middle-order-10926411/"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
-      "brief_bullets": [
-        "Bengaluru: India’s T20I vice-captain Tilak Varma has never shied away from talking his heart out.",
-        "And for someone who loves pace on the ball and batting at No.",
-        "3, dropping down to No.",
-        "6 is not an ideal situation to be in.",
-        "However, for Tilak, who rarely gets to bat in his preferred position in a changed set-up, versatility has been his biggest strength.&nbsp;Asian Games 2026 | Abhishek Sharma, Tilak Varma do the star turn as India beat Pakistan by 19 runs to defend titleFrom the third T20I against South Africa in Dharamsala in December 2025 to the T20 World Cup (Super Eights vs South Africa) in Ahmedabad in February, Tilak regularly batted at No.",
-        "3 for seven straight games."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "Bengaluru: India’s T20I vice-captain Tilak Varma has never shied away from talking his heart out. And for someone who loves pace on the ball and batting at No. 3, dropping down to No. 6 is not an ideal situation to be in. However, for Tilak, who rarely gets to bat in his preferred position in a changed set-up, versatility has been his biggest strength.&nbsp;Asian Games 2026 | Abhishek Sharma, Tilak Varma do the star turn as India beat Pakistan by 19 runs to defend titleFrom the third T20I against South Africa in Dharamsala in December 2025 to the T20 World Cup (Super Eights vs South Africa) in Ahmedabad in February, Tilak regularly batted at No. 3 for seven straight games. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 133
-    },
-    {
-      "story_id": "story-78",
-      "category": "Sports",
-      "primary_headline": "Capitals score 4 unanswered goals, double up Devils",
+      "primary_headline": "Asian Football Confederation boss says governing body is backing Infantino",
       "primary_source": {
         "source_name": "Reuters",
-        "headline": "Capitals score 4 unanswered goals, double up Devils - Reuters",
-        "published_at": "Sat, 17 Oct 2026 20:23:26 GMT",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNV1N3bmF2YjhNNnJWTFl4emMyTFhnakJ0Q0pnT1RQZXdHVmRjcjFsc181R0FsNjM5RG1INWN4UDYyeWwzSzg1U3NZSE5CMlg5T2RKcGZSa09BTFg0Tmp1aHZSeTZ4ck56R3NxQkJGWkd3ek1YVzl4bDdEQ2FpdDE3RlZ1NHVHR3hyTVd3UXk0N2RVM3drSFVnU3hxWk0wMlozdFVrcWlkUXAxblVFd1lyNVhMUEFkQQ?oc=5",
-        "content": "Capitals score 4 unanswered goals, double up Devils&nbsp;&nbsp;Reuters"
+        "headline": "Asian Football Confederation boss says governing body is backing Infantino - Reuters",
+        "published_at": "Fri, 23 Oct 2026 03:06:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNam1sMjZiWkdxdWwwS25yTG03NWFnWnRMZVVMUGcyMlFfTEloTFB1TzZVWEQtamFPbjItMkFPNFJsemZ2TVpQc0pBVG1OX2VFRWhUOFBZQk9DZ0NnMW0ySkRjcTA1Y2h4bjZBQ1BfQ3VRZFB5R2twZExmbE5lTnZwNHZza3F0bnU1SW5OWVRSa1NSM3VCS0tET2xhWl9QcEt5UUdteEplOG9lSmI2TVRZVkNXMjJNR2hhQi1oZjZPekxncEdrRWMw?oc=5",
+        "content": "Asian Football Confederation boss says governing body is backing Infantino&nbsp;&nbsp;Reuters"
       },
       "sources": [
         {
           "source_name": "Reuters",
-          "headline": "Capitals score 4 unanswered goals, double up Devils - Reuters",
-          "published_at": "Sat, 17 Oct 2026 20:23:26 GMT",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNV1N3bmF2YjhNNnJWTFl4emMyTFhnakJ0Q0pnT1RQZXdHVmRjcjFsc181R0FsNjM5RG1INWN4UDYyeWwzSzg1U3NZSE5CMlg5T2RKcGZSa09BTFg0Tmp1aHZSeTZ4ck56R3NxQkJGWkd3ek1YVzl4bDdEQ2FpdDE3RlZ1NHVHR3hyTVd3UXk0N2RVM3drSFVnU3hxWk0wMlozdFVrcWlkUXAxblVFd1lyNVhMUEFkQQ?oc=5"
+          "headline": "Asian Football Confederation boss says governing body is backing Infantino - Reuters",
+          "published_at": "Fri, 23 Oct 2026 03:06:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNam1sMjZiWkdxdWwwS25yTG03NWFnWnRMZVVMUGcyMlFfTEloTFB1TzZVWEQtamFPbjItMkFPNFJsemZ2TVpQc0pBVG1OX2VFRWhUOFBZQk9DZ0NnMW0ySkRjcTA1Y2h4bjZBQ1BfQ3VRZFB5R2twZExmbE5lTnZwNHZza3F0bnU1SW5OWVRSa1NSM3VCS0tET2xhWl9QcEt5UUdteEplOG9lSmI2TVRZVkNXMjJNR2hhQi1oZjZPekxncEdrRWMw?oc=5"
         },
         {
-          "source_name": "AP News",
-          "headline": "Ryan Leonard scores highlight-reel goal, leads the Capitals over the Devils 4-2 - AP News",
-          "published_at": "Sat, 17 Oct 2026 19:48:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSG0tbWlNdmRxQVZDelk4U09aTDFkTjhWa2dOdHRiSUVlNThtenNIU09VNk5NenpGLTNJay1PSGVheVk0SmZzWjJTdmZkNHdWWGRQVWpfVkx3Y3p5TXFtR1F1Ui1PdjYxa2hydUxfZGpOSkxIZVZpMU4yeHBhQjdmYlN1YTJyS0po?oc=5"
+          "source_name": "The Guardian",
+          "headline": "Asian Football Confederation backs Gianni Infantino in U-turn on Fifa presidency",
+          "published_at": "Fri, 23 Oct 2026 07:37:56 GMT",
+          "url": "https://www.theguardian.com/football/2026/oct/23/asian-football-confederation-backs-gianni-infantino-u-turn-fifa-president"
+        },
+        {
+          "source_name": "Al Jazeera",
+          "headline": "FIFA’s Infantino made to wait on Asian support as chief coy at AFC session - Al Jazeera",
+          "published_at": "Thu, 22 Oct 2026 15:39:06 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNXIxZzJmbWwtZ1dNMzlPUGpfYURvZWVvMUFMLUVBU2JySVJNbDVVMnNiY2hIODhCRGprRWk2N2FqWTdCM2gxZk0xVVFnaXJNS2c5djU1T2hnMlR6NlJUWFRXMFZhbjlZcXRiMTBLYVB5TVJfLXNqQk9OY3hOS1hLamE0Xy1PSkRwb2pQTWdKM2hqTFotaEh2WVpFLXJjbnBoOTE5VTdHTVM0VENtTXN1YVVvczFMTDVn0gG-AUFVX3lxTFBURzZJRmVFdDJ1NlBPZWlFUGtGWmdGcHVpcEEwSkhVckdNWUJqMDJncUxyQ2JwTnh4aDV0anJSQUhWZjE4WjFIeTFBTXA3YkJXbWJHOXVMbTFGRVN0QVhVaWVscjJtLXV4bENVc2ktcVBSMjhEbS0xcVA5SDhKdTV5VGhCWDBJSmNTN19MaVRWM3lPcGdVOW5TVHh5VXE3ZG1keEcxeGt0eEJ0MjZYaEVuMUJhNkk0YnBuNFZBZmc?oc=5"
         }
       ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
+      "source_count": 3,
+      "total_count": 3,
+      "combined_score": 2.4,
       "brief_bullets": [
-        "Ryan Leonard scores highlight-reel goal, leads the Capitals over the Devils 4-2 AP News.",
+        "In a notable strategic pivot, Asian Football Confederation President Sheikh Salman bin Ibrahim al-Khalifa publicly endorsed Gianni Infantino for another term as FIFA president during an extraordinary congress in Tokyo. This endorsement marks a complete reversal from the AFC's stance just two months prior, when the continental governing body sharply criticized Infantino for an alleged breach of trust alongside UEFA and CONCACAF. By warmly embracing Infantino before the membership, Sheikh Salman signaled restored regional alignment with FIFA's leadership, potentially cementing Infantino's upcoming electoral path and solidifying key political alliances within global football administration."
+      ],
+      "why_it_matters_bullets": [
+        "This sudden regional realignment neutralizes major opposition, virtually guaranteeing Infantino's continued uncontested consolidation of global football power."
+      ],
+      "brief": "In a notable strategic pivot, Asian Football Confederation President Sheikh Salman bin Ibrahim al-Khalifa publicly endorsed Gianni Infantino for another term as FIFA president during an extraordinary congress in Tokyo. This endorsement marks a complete reversal from the AFC's stance just two months prior, when the continental governing body sharply criticized Infantino for an alleged breach of trust alongside UEFA and CONCACAF. By warmly embracing Infantino before the membership, Sheikh Salman signaled restored regional alignment with FIFA's leadership, potentially cementing Infantino's upcoming electoral path and solidifying key political alliances within global football administration. This sudden regional realignment neutralizes major opposition, virtually guaranteeing Infantino's continued uncontested consolidation of global football power.",
+      "brief_word_count": 110
+    },
+    {
+      "story_id": "story-214",
+      "category": "Sports",
+      "primary_headline": "Norris: 'Incredible' Antonelli two levels above Russell all season",
+      "primary_source": {
+        "source_name": "Sky Sports",
+        "headline": "Norris: 'Incredible' Antonelli two levels above Russell all season",
+        "published_at": "Thu, 22 Oct 2026 23:50:00 BST",
+        "url": "https://www.skysports.com/f1/news/12040/13602369/kimi-antonelli-lando-norris-lewis-hamilton-praise-mercedes-driver-ahead-of-first-f1-2026-title-win-chance-at-united-states-gp",
+        "content": "Lando Norris believes Kimi Antonelli has done an \"incredible job\" and performed \"two levels above\" Mercedes team-mate George Russell this season, in form which has taken the Italian to the brink of a record-breaking world championship triumph."
+      },
+      "sources": [
+        {
+          "source_name": "Sky Sports",
+          "headline": "Norris: 'Incredible' Antonelli two levels above Russell all season",
+          "published_at": "Thu, 22 Oct 2026 23:50:00 BST",
+          "url": "https://www.skysports.com/f1/news/12040/13602369/kimi-antonelli-lando-norris-lewis-hamilton-praise-mercedes-driver-ahead-of-first-f1-2026-title-win-chance-at-united-states-gp"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "Lando Norris believes Kimi Antonelli has done an \"incredible job\" and performed \"two levels above\" Mercedes team-mate George Russell this season, in form which has taken the Italian to the brink of a record-breaking world championship triumph.",
         "Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures.",
         "Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum.",
         "Team representatives have confirmed comprehensive preparation plans to maintain strategic advantages in subsequent championship phases."
       ],
       "why_it_matters_bullets": [
-        "Shapes tournament standings and competitive momentum ahead of upcoming qualifying fixtures."
+        "Reflects broader macroeconomic labor market adjustments as employers rebalance operating costs."
       ],
-      "brief": "Ryan Leonard scores highlight-reel goal, leads the Capitals over the Devils 4-2 AP News. Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures. Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum. Team representatives have confirmed comprehensive preparation plans to maintain strategic advantages in subsequent championship phases. Shapes tournament standings and competitive momentum ahead of upcoming qualifying fixtures.",
-      "brief_word_count": 71
+      "brief": "Lando Norris believes Kimi Antonelli has done an \"incredible job\" and performed \"two levels above\" Mercedes team-mate George Russell this season, in form which has taken the Italian to the brink of a record-breaking world championship triumph. Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures. Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum. Team representatives have confirmed comprehensive preparation plans to maintain strategic advantages in subsequent championship phases. Reflects broader macroeconomic labor market adjustments as employers rebalance operating costs.",
+      "brief_word_count": 94
     },
     {
-      "story_id": "story-127",
+      "story_id": "story-233",
       "category": "Sports",
-      "primary_headline": "Australia’s Boland damages South Africa in brief respite from rain",
+      "primary_headline": "This emulator reimagines Nintendo’s Virtual Boy with a full color display",
       "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "Australia’s Boland damages South Africa in brief respite from rain",
-        "published_at": "Sun, 18 Oct 2026 16:45:55 GMT",
-        "url": "https://www.theguardian.com/sport/2026/oct/18/australias-boland-damages-south-africa-in-brief-respite-from-rain",
-        "content": "Just 12.2 overs possible on first day of second TestBowler seizes his opportunity with two wicketsIf there is a theme to Scott Boland’s Test career, it’s making the most of limited opportunity. Finding a way into the team in 2021 when it seemed that chance had passed him by, remaining fourth in line for three spots, playing at the whim of absence, yet in those moments becoming a wrecking force, causing rashes of wickets, taking first-over strikes, threatening hat-tricks and once making good.So began the second Test in Gqeberha, another match he wasn’t supposed to play, on a day that didn’t get 13 overs bowled, yet there he was. Making the score 20 for two. Squeezing into the game through the tiniest gap, like Eugene Tooms escaping from a cell. Continue reading..."
+        "source_name": "Ars Technica",
+        "headline": "This emulator reimagines Nintendo’s Virtual Boy with a full color display",
+        "published_at": "Thu, 22 Oct 2026 15:59:40 +0000",
+        "url": "https://arstechnica.com/gaming/2026/10/this-emulator-reimagines-nintendos-virtual-boy-with-a-full-color-display/",
+        "content": "\n                            Last year, we reported on Red Viper, a Virtual Boy emulator that added a splash of Super Game Boy-style color to Nintendo's famously failed red-on-black \"portable\" 3D headset from the '90s. Now, a new emulation experiment, VBoy Color, has taken the concept to a higher level, using a tile-based palette system that allows for many more distinct colors in each individual Virtual Boy frame.\nRather than simply replacing the Virtual Boy's four shades of red with four different colors, VBoy Color's readme files explain how the emulator's game-specific Color Packs can assign a distinct four-color palette to each 8x8 tile in a Virtual Boy scene. That means the emulator can differentiate between green pipes, grey platforms, and red brick wall in Mario Clash, for instance, even though all those in-game objects share the same overlapping red hues in the original game.\nThe Game Boy Color-esque results feel like being transported into an alternate history where Nintendo invested in a full-color display rather than cheaper red LEDs for the Virtual Boy hardware. The increased contrast between differently colored elements is particularly welcome in games like Jack Bros. or Vertical Force, where the original red-on-red display often makes it hard to differentiate the player-character from busy red background elements.Read full article\nComments\n\n                        "
       },
       "sources": [
         {
-          "source_name": "The Guardian",
-          "headline": "Australia’s Boland damages South Africa in brief respite from rain",
-          "published_at": "Sun, 18 Oct 2026 16:45:55 GMT",
-          "url": "https://www.theguardian.com/sport/2026/oct/18/australias-boland-damages-south-africa-in-brief-respite-from-rain"
+          "source_name": "Ars Technica",
+          "headline": "This emulator reimagines Nintendo’s Virtual Boy with a full color display",
+          "published_at": "Thu, 22 Oct 2026 15:59:40 +0000",
+          "url": "https://arstechnica.com/gaming/2026/10/this-emulator-reimagines-nintendos-virtual-boy-with-a-full-color-display/"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.83,
       "brief_bullets": [
-        "2 overs possible on first day of second TestBowler seizes his opportunity with two wicketsIf there is a theme to Scott Boland’s Test career, it’s making the most of limited opportunity.",
-        "Finding a way into the team in 2021 when it seemed that chance had passed him by, remaining fourth in line for three spots, playing at the whim of absence, yet in those moments becoming a wrecking force, causing rashes of wickets, taking first-over strikes, threatening hat-tricks and once making good.",
-        "So began the second Test in Gqeberha, another match he wasn’t supposed to play, on a day that didn’t get 13 overs bowled, yet there he was.",
-        "Making the score 20 for two.",
-        "Squeezing into the game through the tiniest gap, like Eugene Tooms escaping from a cell."
+        "Last year, we reported on Red Viper, a Virtual Boy emulator that added a splash of Super Game Boy-style color to Nintendo's famously failed red-on-black \"portable\" 3D headset from the '90s.",
+        "Now, a new emulation experiment, VBoy Color, has taken the concept to a higher level, using a tile-based palette system that allows for many more distinct colors in each individual Virtual Boy frame.",
+        "Rather than simply replacing the Virtual Boy's four shades of red with four different colors, VBoy Color's readme files explain how the emulator's game-specific Color Packs can assign a distinct four-color palette to each 8x8 tile in a Virtual Boy scene."
       ],
       "why_it_matters_bullets": [
         "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "brief": "2 overs possible on first day of second TestBowler seizes his opportunity with two wicketsIf there is a theme to Scott Boland’s Test career, it’s making the most of limited opportunity. Finding a way into the team in 2021 when it seemed that chance had passed him by, remaining fourth in line for three spots, playing at the whim of absence, yet in those moments becoming a wrecking force, causing rashes of wickets, taking first-over strikes, threatening hat-tricks and once making good. So began the second Test in Gqeberha, another match he wasn’t supposed to play, on a day that didn’t get 13 overs bowled, yet there he was. Making the score 20 for two. Squeezing into the game through the tiniest gap, like Eugene Tooms escaping from a cell. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 143
+      "brief": "Last year, we reported on Red Viper, a Virtual Boy emulator that added a splash of Super Game Boy-style color to Nintendo's famously failed red-on-black \"portable\" 3D headset from the '90s. Now, a new emulation experiment, VBoy Color, has taken the concept to a higher level, using a tile-based palette system that allows for many more distinct colors in each individual Virtual Boy frame. Rather than simply replacing the Virtual Boy's four shades of red with four different colors, VBoy Color's readme files explain how the emulator's game-specific Color Packs can assign a distinct four-color palette to each 8x8 tile in a Virtual Boy scene. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 118
     },
     {
-      "story_id": "story-162",
+      "story_id": "story-255",
       "category": "Sports",
-      "primary_headline": "Opinion: Blog: Kolkata Didn't Learn From 2015. Eleven Years Later, It Proved To Be Fatal",
-      "primary_source": {
-        "source_name": "NDTV",
-        "headline": "Opinion: Blog: Kolkata Didn't Learn From 2015. Eleven Years Later, It Proved To Be Fatal",
-        "published_at": "Sun, 18 Oct 2026 16:03:42 +0530",
-        "url": "https://www.ndtv.com/opinion/kolkata-chorbagan-stampede-kolkata-champions-pujo-crowd-control-why-thats-not-enough-12201049#publisher=newsstand",
-        "content": "The City of Joy isn't a stranger to crowd control. Be it during Pujo or Christmas at Park Street, Eden Gardens cricket matches, or Derbies between Mohun Bagan and East Bengal. But during Pujo, the entire city is on alert."
-      },
-      "sources": [
-        {
-          "source_name": "NDTV",
-          "headline": "Opinion: Blog: Kolkata Didn't Learn From 2015. Eleven Years Later, It Proved To Be Fatal",
-          "published_at": "Sun, 18 Oct 2026 16:03:42 +0530",
-          "url": "https://www.ndtv.com/opinion/kolkata-chorbagan-stampede-kolkata-champions-pujo-crowd-control-why-thats-not-enough-12201049#publisher=newsstand"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "The City of Joy isn't a stranger to crowd control.",
-        "Be it during Pujo or Christmas at Park Street, Eden Gardens cricket matches, or Derbies between Mohun Bagan and East Bengal.",
-        "But during Pujo, the entire city is on alert.",
-        "Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures."
-      ],
-      "why_it_matters_bullets": [
-        "Shapes tournament standings and competitive momentum ahead of upcoming qualifying fixtures."
-      ],
-      "brief": "The City of Joy isn't a stranger to crowd control. Be it during Pujo or Christmas at Park Street, Eden Gardens cricket matches, or Derbies between Mohun Bagan and East Bengal. But during Pujo, the entire city is on alert. Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures. Shapes tournament standings and competitive momentum ahead of upcoming qualifying fixtures.",
-      "brief_word_count": 67
-    },
-    {
-      "story_id": "story-166",
-      "category": "Sports",
-      "primary_headline": "If Trump fells 430 trees in the middle of a golf course, do they make a sound?",
+      "primary_headline": "Nintendo Switch Sports Resort review – Wii Sports lives on in this effortlessly appealing collection of games",
       "primary_source": {
         "source_name": "The Guardian",
-        "headline": "If Trump fells 430 trees in the middle of a golf course, do they make a sound?",
-        "published_at": "Sun, 18 Oct 2026 10:00:56 GMT",
-        "url": "https://www.theguardian.com/commentisfree/2026/oct/18/trump-golf-course-washington-dc",
-        "content": "In attempting to turn a public space in DC into an enclave for elites, Trump is moving the US capital closer to GracelandWhen is a tree not a tree? When it’s an obstacle to a par-3. If a tree falls in the middle of a golf course, does it make a sound? Yeah, probably. I wasn’t there, but I have to assume, based on my limited knowledge of the laws of physics.What I do know is that Donald Trump’s crusade to clear more than 400 trees for the purposes of redeveloping East Potomac Golf Links into a championship-level course isn’t happening. For now.Dave Schilling is a Los Angeles-based writer and humorist Continue reading..."
+        "headline": "Nintendo Switch Sports Resort review – Wii Sports lives on in this effortlessly appealing collection of games",
+        "published_at": "Thu, 22 Oct 2026 09:00:58 GMT",
+        "url": "https://www.theguardian.com/games/2026/oct/22/nintendo-switch-sports-resort-review-wii-sports-games",
+        "content": "Nintendo Switch 2; Nintendo/NintendoBringing a holiday vibe and a generous selection of sport-themed games, this is exactly what you want from a family video gameWhen the first Nintendo Switch Sports brought the effortless fun of Wii Sports back into my living room in 2022, I was frankly delighted. My small children discovered the pleasure of waving a controller around in enthusiastic imitation of a tennis player, and the surprising subtlety of virtual bowling, working out how to twist the wrist just right to guarantee a strike. I did not expect this game to become a family fixture for the next several years as my kids got older and climbed up the online ranks in all six of its sports (plus the two that were added as free updates). Switch Sports is so beloved in my household that the release of Switch Sports Resort this week is the most anticipated gaming event of the year. To be fair, my children are a bit young for Grand Theft Auto.Nintendo Switch Sports Resort brings three of the six sports back – tennis, bowling, and volleyball – alongside golf and basketball. Then there are seven entirely new sports: boxing, table tennis, archery, thumb wrestling, skateboarding, jetski, and piloting a little prop plane. They are all intuitive, easy to get the hang of on the first or second attempt – some have more legs than others, in the long run – and all of them, crucially, are a little bit silly. Thumb wrestling in particular is cheerfully absurd, giving your characters gigantic thumbs on hands the size of their heads. Continue reading..."
       },
       "sources": [
         {
           "source_name": "The Guardian",
-          "headline": "If Trump fells 430 trees in the middle of a golf course, do they make a sound?",
-          "published_at": "Sun, 18 Oct 2026 10:00:56 GMT",
-          "url": "https://www.theguardian.com/commentisfree/2026/oct/18/trump-golf-course-washington-dc"
+          "headline": "Nintendo Switch Sports Resort review – Wii Sports lives on in this effortlessly appealing collection of games",
+          "published_at": "Thu, 22 Oct 2026 09:00:58 GMT",
+          "url": "https://www.theguardian.com/games/2026/oct/22/nintendo-switch-sports-resort-review-wii-sports-games"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.83,
       "brief_bullets": [
-        "In attempting to turn a public space in DC into an enclave for elites, Trump is moving the US capital closer to GracelandWhen is a tree not a tree?",
-        "When it’s an obstacle to a par-3.",
-        "If a tree falls in the middle of a golf course, does it make a sound?",
-        "I wasn’t there, but I have to assume, based on my limited knowledge of the laws of physics.",
-        "What I do know is that Donald Trump’s crusade to clear more than 400 trees for the purposes of redeveloping East Potomac Golf Links into a championship-level course isn’t happening.",
-        "Dave Schilling is a Los Angeles-based writer and humorist."
+        "Nintendo Switch 2; Nintendo/NintendoBringing a holiday vibe and a generous selection of sport-themed games, this is exactly what you want from a family video gameWhen the first Nintendo Switch Sports brought the effortless fun of Wii Sports back into my living room in 2022, I was frankly delighted.",
+        "My small children discovered the pleasure of waving a controller around in enthusiastic imitation of a tennis player, and the surprising subtlety of virtual bowling, working out how to twist the wrist just right to guarantee a strike.",
+        "I did not expect this game to become a family fixture for the next several years as my kids got older and climbed up the online ranks in all six of its sports (plus the two that were added as free updates)."
       ],
       "why_it_matters_bullets": [
         "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
       ],
-      "brief": "In attempting to turn a public space in DC into an enclave for elites, Trump is moving the US capital closer to GracelandWhen is a tree not a tree? When it’s an obstacle to a par-3. If a tree falls in the middle of a golf course, does it make a sound? I wasn’t there, but I have to assume, based on my limited knowledge of the laws of physics. What I do know is that Donald Trump’s crusade to clear more than 400 trees for the purposes of redeveloping East Potomac Golf Links into a championship-level course isn’t happening. Dave Schilling is a Los Angeles-based writer and humorist. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 123
+      "brief": "Nintendo Switch 2; Nintendo/NintendoBringing a holiday vibe and a generous selection of sport-themed games, this is exactly what you want from a family video gameWhen the first Nintendo Switch Sports brought the effortless fun of Wii Sports back into my living room in 2022, I was frankly delighted. My small children discovered the pleasure of waving a controller around in enthusiastic imitation of a tennis player, and the surprising subtlety of virtual bowling, working out how to twist the wrist just right to guarantee a strike. I did not expect this game to become a family fixture for the next several years as my kids got older and climbed up the online ranks in all six of its sports (plus the two that were added as free updates). Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
+      "brief_word_count": 142
     },
     {
-      "story_id": "story-396",
+      "story_id": "story-285",
       "category": "Sports",
-      "primary_headline": "Chacarra earns third win of year to move top of Race to Dubai standings",
+      "primary_headline": "Sports quiz of the week: eagles, ultra-endurance feats and assist records",
       "primary_source": {
-        "source_name": "Sky Sports",
-        "headline": "Chacarra earns third win of year to move top of Race to Dubai standings",
-        "published_at": "Sun, 18 Oct 2026 12:00:00 BST",
-        "url": "https://www.skysports.com/golf/news/12040/13600531/dp-world-india-championship-eugenio-chacarra-wins-to-move-top-of-race-to-dubai-standings-with-rory-mcilroy-finishing-in-a-share-of-42nd-place",
-        "content": "Eugenio Chacarra won the DP World India Championship by two shots with the Spaniard's third victory of the season moving him top of the Race to Dubai standings, above Patrick Reed and Rory McIlroy, with three events remaining."
+        "source_name": "The Guardian",
+        "headline": "Sports quiz of the week: eagles, ultra-endurance feats and assist records",
+        "published_at": "Fri, 23 Oct 2026 07:00:03 GMT",
+        "url": "https://www.theguardian.com/sport/2026/oct/23/sports-quiz-of-the-week-eagles-ultra-endurance-feats-and-assist-records",
+        "content": "Have you followed the big stories in football, rugby, baseball, snooker, NFL, cricket, F1, cricket and cycling? Continue reading..."
       },
       "sources": [
         {
-          "source_name": "Sky Sports",
-          "headline": "Chacarra earns third win of year to move top of Race to Dubai standings",
-          "published_at": "Sun, 18 Oct 2026 12:00:00 BST",
-          "url": "https://www.skysports.com/golf/news/12040/13600531/dp-world-india-championship-eugenio-chacarra-wins-to-move-top-of-race-to-dubai-standings-with-rory-mcilroy-finishing-in-a-share-of-42nd-place"
+          "source_name": "The Guardian",
+          "headline": "Sports quiz of the week: eagles, ultra-endurance feats and assist records",
+          "published_at": "Fri, 23 Oct 2026 07:00:03 GMT",
+          "url": "https://www.theguardian.com/sport/2026/oct/23/sports-quiz-of-the-week-eagles-ultra-endurance-feats-and-assist-records"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.8,
       "brief_bullets": [
-        "Eugenio Chacarra won the DP World India Championship by two shots with the Spaniard's third victory of the season moving him top of the Race to Dubai standings, above Patrick Reed and Rory McIlroy, with three events remaining.",
-        "Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures.",
-        "Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum.",
-        "Team representatives have confirmed comprehensive preparation plans to maintain strategic advantages in subsequent championship phases."
+        "This week's comprehensive sports quiz challenges enthusiasts across a diverse spectrum of athletic disciplines, testing their knowledge on recent monumental achievements in football, rugby, baseball, snooker, the NFL, cricket, Formula One, and cycling. Participants must recall pivotal moments, including historic assist records, extraordinary ultra-endurance feats, and high-stakes match outcomes that dominated global sports media headlines over the past seven days. By engaging with these multifaceted trivia questions, fans can measure their retention of major league developments and record-breaking performances across professional and international competition landscapes. This weekly synthesis underscores the dynamic and interconnected nature of modern sports journalism, capturing the widespread public fascination with athletic excellence."
       ],
       "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+        "It engages global audiences by reinforcing cultural touchstones and measuring public retention of major athletic achievements."
       ],
-      "brief": "Eugenio Chacarra won the DP World India Championship by two shots with the Spaniard's third victory of the season moving him top of the Race to Dubai standings, above Patrick Reed and Rory McIlroy, with three events remaining. Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures. Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum. Team representatives have confirmed comprehensive preparation plans to maintain strategic advantages in subsequent championship phases. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 97
+      "brief": "This week's comprehensive sports quiz challenges enthusiasts across a diverse spectrum of athletic disciplines, testing their knowledge on recent monumental achievements in football, rugby, baseball, snooker, the NFL, cricket, Formula One, and cycling. Participants must recall pivotal moments, including historic assist records, extraordinary ultra-endurance feats, and high-stakes match outcomes that dominated global sports media headlines over the past seven days. By engaging with these multifaceted trivia questions, fans can measure their retention of major league developments and record-breaking performances across professional and international competition landscapes. This weekly synthesis underscores the dynamic and interconnected nature of modern sports journalism, capturing the widespread public fascination with athletic excellence. It engages global audiences by reinforcing cultural touchstones and measuring public retention of major athletic achievements.",
+      "brief_word_count": 122
     },
     {
-      "story_id": "story-401",
+      "story_id": "story-438",
       "category": "Sports",
-      "primary_headline": "Cricket",
+      "primary_headline": "Premier League: 10 things to look out for this weekend",
+      "primary_source": {
+        "source_name": "The Guardian",
+        "headline": "Premier League: 10 things to look out for this weekend",
+        "published_at": "Thu, 22 Oct 2026 23:01:52 GMT",
+        "url": "https://www.theguardian.com/football/2026/oct/23/premier-league-10-things-to-look-out-for-this-weekend",
+        "content": "Max Dowman may get a chance, Spurs need to find balance at Stamford Bridge and Axel Disasi must make amendsPremier League top scorersAfter seven games, Nottingham Forest’s record is eerily similar to last season: five points, five goals scored. A year ago Forest’s eighth game was a 3-0 home loss to Chelsea that marked the end for Ange Postecoglou, the second of four managers to occupy the dugout last term. There is no suggestion that Oliver Glasner is under similar scrutiny yet, but the Austrian needs to find solutions for the league’s lowest scorers. Morgan Gibbs-White is available after missing the narrow defeat by Arsenal, while Liam Delap may benefit from a return to familiar surroundings – 12 of his 14 career Premier League goals were scored for Ipswich, six of them at Portman Road. “What we need to improve is getting [Delap] into more positions where he can score,” Glasner said before Friday evening’s game. “He’s one of our best finishers.” Gary O’Neil also lacks a standout scorer, but he is squeezing goals out of his side. Eight different Ipswich players have scored in seven games; only Brighton and Brentford can better that total this season. Niall McVeighIpswich v Nottingham Forest, Friday 8pm BSTAston Villa v Manchester City, Saturday 12.30pm BSTArsenal v Everton, Saturday 3pm BSTCoventry v Fulham, Saturday 3pm BST Continue reading..."
+      },
+      "sources": [
+        {
+          "source_name": "The Guardian",
+          "headline": "Premier League: 10 things to look out for this weekend",
+          "published_at": "Thu, 22 Oct 2026 23:01:52 GMT",
+          "url": "https://www.theguardian.com/football/2026/oct/23/premier-league-10-things-to-look-out-for-this-weekend"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.8,
+      "brief_bullets": [
+        "As the Premier League enters its latest weekend fixture slate, attention centers on mounting pressure across several clubs striving to correct early-season trajectories. Nottingham Forest prepares to face Ipswich Town under manager Oliver Glasner, who urgently seeks to unlock the league's lowest-scoring attack despite the anticipated return of key playmaker Morgan Gibbs-White. Concurrently, tactical battles loom across high-profile matchups including Aston Villa hosting Manchester City and Arsenal taking on Everton. Analysts are also monitoring rising young talents like Max Dowman and defensive redemption arcs for players such as Axel Disasi, highlighting the fine margins defining success in top-flight English football."
+      ],
+      "why_it_matters_bullets": [
+        "Early tactical adjustments and offensive revamps will dictate whether struggling clubs escape relegation battles."
+      ],
+      "brief": "As the Premier League enters its latest weekend fixture slate, attention centers on mounting pressure across several clubs striving to correct early-season trajectories. Nottingham Forest prepares to face Ipswich Town under manager Oliver Glasner, who urgently seeks to unlock the league's lowest-scoring attack despite the anticipated return of key playmaker Morgan Gibbs-White. Concurrently, tactical battles loom across high-profile matchups including Aston Villa hosting Manchester City and Arsenal taking on Everton. Analysts are also monitoring rising young talents like Max Dowman and defensive redemption arcs for players such as Axel Disasi, highlighting the fine margins defining success in top-flight English football. Early tactical adjustments and offensive revamps will dictate whether struggling clubs escape relegation battles.",
+      "brief_word_count": 114
+    },
+    {
+      "story_id": "story-502",
+      "category": "Sports",
+      "primary_headline": "Former NHL player and longtime Rangers fan favorite Ron Duguay dies at 69",
       "primary_source": {
         "source_name": "AP News",
-        "headline": "Cricket - AP News",
-        "published_at": "Sun, 18 Oct 2026 09:52:18 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBfY1ozNUxwdEpqZFVSUXZlNG5IM3FGMzFJVUg2ZjIwVXpxWmMxNmppaUJDbTNWQS0zR1NPbW5pZTJzTGY3?oc=5",
-        "content": "Cricket&nbsp;&nbsp;AP News"
+        "headline": "Former NHL player and longtime Rangers fan favorite Ron Duguay dies at 69 - AP News",
+        "published_at": "Thu, 22 Oct 2026 19:01:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1YWWJWTzduY2RwUjMtWk1JLXNtRHpJdHNCRFU0bU91WGJaejA4VkZqQ0Ftc09hM0J6OUxpLU5STENIamQ4dVhEOW9SamFBbGJVcW8yOWxySlFfWDBhaThUU2loQXVxbVJRaW1VMFhxZnhPWEc4YU1JTC1DT29FZU0?oc=5",
+        "content": "Former NHL player and longtime Rangers fan favorite Ron Duguay dies at 69&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
           "source_name": "AP News",
-          "headline": "Cricket - AP News",
-          "published_at": "Sun, 18 Oct 2026 09:52:18 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBfY1ozNUxwdEpqZFVSUXZlNG5IM3FGMzFJVUg2ZjIwVXpxWmMxNmppaUJDbTNWQS0zR1NPbW5pZTJzTGY3?oc=5"
+          "headline": "Former NHL player and longtime Rangers fan favorite Ron Duguay dies at 69 - AP News",
+          "published_at": "Thu, 22 Oct 2026 19:01:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1YWWJWTzduY2RwUjMtWk1JLXNtRHpJdHNCRFU0bU91WGJaejA4VkZqQ0Ftc09hM0J6OUxpLU5STENIamQ4dVhEOW9SamFBbGJVcW8yOWxySlFfWDBhaThUU2loQXVxbVJRaW1VMFhxZnhPWEc4YU1JTC1DT29FZU0?oc=5"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.8,
       "brief_bullets": [
-        "Developments regarding cricket have prompted active evaluations across administrative, regulatory, and public sectors.",
-        "Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures.",
-        "Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum.",
-        "Team representatives have confirmed comprehensive preparation plans to maintain strategic advantages in subsequent championship phases."
+        "Ron Duguay, the charismatic former NHL star and longtime New York Rangers fan favorite renowned for his dynamic play and iconic flow, has passed away at the age of 69. Throughout his illustrious career, the talented forward captured the hearts of Madison Square Garden faithful while making a lasting cultural imprint on professional hockey. His sudden passing marks the end of an era for the historic franchise and prompts widespread mourning across the broader sports community."
       ],
       "why_it_matters_bullets": [
-        "Shapes tournament standings and competitive momentum ahead of upcoming qualifying fixtures."
+        "His passing closes a celebrated chapter of vintage NHL flair, deeply impacting Rangers legacy and sports culture."
       ],
-      "brief": "Developments regarding cricket have prompted active evaluations across administrative, regulatory, and public sectors. Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures. Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum. Team representatives have confirmed comprehensive preparation plans to maintain strategic advantages in subsequent championship phases. Shapes tournament standings and competitive momentum ahead of upcoming qualifying fixtures.",
-      "brief_word_count": 70
+      "brief": "Ron Duguay, the charismatic former NHL star and longtime New York Rangers fan favorite renowned for his dynamic play and iconic flow, has passed away at the age of 69. Throughout his illustrious career, the talented forward captured the hearts of Madison Square Garden faithful while making a lasting cultural imprint on professional hockey. His sudden passing marks the end of an era for the historic franchise and prompts widespread mourning across the broader sports community. His passing closes a celebrated chapter of vintage NHL flair, deeply impacting Rangers legacy and sports culture.",
+      "brief_word_count": 93
     },
     {
-      "story_id": "story-471",
+      "story_id": "story-532",
       "category": "Sports",
-      "primary_headline": "‘Be back in few weeks’: Emi Martinez in first words after horrific head clash in Premier League match",
+      "primary_headline": "Chess players to get new route to Esports World Cup through 2027 qualifier program",
       "primary_source": {
         "source_name": "The Indian Express",
-        "headline": "‘Be back in few weeks’: Emi Martinez in first words after horrific head clash in Premier League match",
-        "published_at": "Sun, 18 Oct 2026 05:55:38 +0000",
-        "url": "https://indianexpress.com/article/sports/football/emiliano-martinez-injury-chelsea-everton-premier-league-argentina-10926546/",
+        "headline": "Chess players to get new route to Esports World Cup through 2027 qualifier program",
+        "published_at": "Thu, 22 Oct 2026 16:54:48 +0000",
+        "url": "https://indianexpress.com/article/sports/chess/esports-world-cup-2027-qualifier-program-chess-pathway-ewc-10932807/",
         "content": ""
       },
       "sources": [
         {
           "source_name": "The Indian Express",
-          "headline": "‘Be back in few weeks’: Emi Martinez in first words after horrific head clash in Premier League match",
-          "published_at": "Sun, 18 Oct 2026 05:55:38 +0000",
-          "url": "https://indianexpress.com/article/sports/football/emiliano-martinez-injury-chelsea-everton-premier-league-argentina-10926546/"
+          "headline": "Chess players to get new route to Esports World Cup through 2027 qualifier program",
+          "published_at": "Thu, 22 Oct 2026 16:54:48 +0000",
+          "url": "https://indianexpress.com/article/sports/chess/esports-world-cup-2027-qualifier-program-chess-pathway-ewc-10932807/"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.8,
       "brief_bullets": [
-        "Developments regarding ‘be back in few weeks’: emi martinez in first words after horrific head clash in premier league match have prompted active evaluations across administrative, regulatory, and public sectors.",
-        "Public dissent and street demonstrations have prompted emergency municipal interventions and heightened law enforcement readiness across impacted urban hubs.",
-        "Political factions and civic advocacy groups are actively debating the underlying systemic grievances that triggered the public unrest.",
-        "Government spokespersons have appealed for dialogue while maintaining heightened security cordons around administrative infrastructure."
+        "Chess players will gain a dedicated pathway to the Esports World Cup through a newly established qualifier program extending through 2027. Organizers announced this strategic initiative to integrate traditional competitive chess into the rapidly expanding global esports ecosystem, bridging physical board gaming with digital tournament infrastructure. Key stakeholders hope this multi-year partnership will attract broader demographics and elevate competitive stakes for elite grandmasters worldwide. The decision highlights the convergence of traditional sports and modern electronic gaming as major tournament circuits compete for mainstream cultural dominance."
       ],
       "why_it_matters_bullets": [
-        "Shapes tournament standings and competitive momentum ahead of upcoming qualifying fixtures."
+        "This initiative accelerates the mainstream convergence of traditional sports and competitive esports on a global stage."
       ],
-      "brief": "Developments regarding ‘be back in few weeks’: emi martinez in first words after horrific head clash in premier league match have prompted active evaluations across administrative, regulatory, and public sectors. Public dissent and street demonstrations have prompted emergency municipal interventions and heightened law enforcement readiness across impacted urban hubs. Political factions and civic advocacy groups are actively debating the underlying systemic grievances that triggered the public unrest. Government spokespersons have appealed for dialogue while maintaining heightened security cordons around administrative infrastructure. Shapes tournament standings and competitive momentum ahead of upcoming qualifying fixtures.",
-      "brief_word_count": 92
+      "brief": "Chess players will gain a dedicated pathway to the Esports World Cup through a newly established qualifier program extending through 2027. Organizers announced this strategic initiative to integrate traditional competitive chess into the rapidly expanding global esports ecosystem, bridging physical board gaming with digital tournament infrastructure. Key stakeholders hope this multi-year partnership will attract broader demographics and elevate competitive stakes for elite grandmasters worldwide. The decision highlights the convergence of traditional sports and modern electronic gaming as major tournament circuits compete for mainstream cultural dominance. This initiative accelerates the mainstream convergence of traditional sports and competitive esports on a global stage.",
+      "brief_word_count": 101
     },
     {
-      "story_id": "story-563",
+      "story_id": "story-549",
       "category": "Sports",
-      "primary_headline": "Van Gerwen suffers another early exit as Van Veen makes history",
+      "primary_headline": "The rising French star whose dad won Rugby World Cup with England",
       "primary_source": {
-        "source_name": "Sky Sports",
-        "headline": "Van Gerwen suffers another early exit as Van Veen makes history",
-        "published_at": "Sat, 17 Oct 2026 23:02:00 BST",
-        "url": "https://www.skysports.com/darts/news/12040/13600495/dutch-darts-championship-michael-van-gerwen-suffers-another-early-exit-as-gian-van-veen-makes-history-and-gerwyn-price-triumphs-on-return",
-        "content": "Dutch favourite Michael van Gerwen suffered a shock second-round exit at the Dutch Darts Championship on Saturday, losing 6-5 to Irishman William O'Connor."
+        "source_name": "BBC News",
+        "headline": "The rising French star whose dad won Rugby World Cup with England",
+        "published_at": "Thu, 22 Oct 2026 16:21:57 GMT",
+        "url": "https://www.bbc.co.uk/sport/tennis/articles/cqe9ldmdpxzzo?at_medium=RSS&at_campaign=rss",
+        "content": "Felix Balshaw is the son of an English Rugby World Cup winner - but is representing France as he climbs the world tennis rankings."
       },
       "sources": [
         {
-          "source_name": "Sky Sports",
-          "headline": "Van Gerwen suffers another early exit as Van Veen makes history",
-          "published_at": "Sat, 17 Oct 2026 23:02:00 BST",
-          "url": "https://www.skysports.com/darts/news/12040/13600495/dutch-darts-championship-michael-van-gerwen-suffers-another-early-exit-as-gian-van-veen-makes-history-and-gerwyn-price-triumphs-on-return"
+          "source_name": "BBC News",
+          "headline": "The rising French star whose dad won Rugby World Cup with England",
+          "published_at": "Thu, 22 Oct 2026 16:21:57 GMT",
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/cqe9ldmdpxzzo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.8,
       "brief_bullets": [
-        "Dutch favourite Michael van Gerwen suffered a shock second-round exit at the Dutch Darts Championship on Saturday, losing 6-5 to Irishman William O'Connor.",
-        "Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures.",
-        "Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum.",
-        "Team representatives have confirmed comprehensive preparation plans to maintain strategic advantages in subsequent championship phases."
+        "Rising tennis talent Felix Balshaw is carving out an elite athletic path representing France on the global circuit, despite his unique sporting heritage as the son of an English Rugby World Cup champion. Navigating the competitive junior and professional tennis rankings, Balshaw has chosen to compete under the French flag, symbolizing a cross-channel sporting crossover. This decision highlights the increasingly international nature of modern athletic development, where lineage often intersects with multi-national identity and strategic career positioning within the global sports ecosystem."
       ],
       "why_it_matters_bullets": [
-        "Shapes tournament standings and competitive momentum ahead of upcoming qualifying fixtures."
+        "Balshaw's dual-national sporting identity highlights the globalization of talent pipelines in modern individual sports."
       ],
-      "brief": "Dutch favourite Michael van Gerwen suffered a shock second-round exit at the Dutch Darts Championship on Saturday, losing 6-5 to Irishman William O'Connor. Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures. Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum. Team representatives have confirmed comprehensive preparation plans to maintain strategic advantages in subsequent championship phases. Shapes tournament standings and competitive momentum ahead of upcoming qualifying fixtures.",
-      "brief_word_count": 80
+      "brief": "Rising tennis talent Felix Balshaw is carving out an elite athletic path representing France on the global circuit, despite his unique sporting heritage as the son of an English Rugby World Cup champion. Navigating the competitive junior and professional tennis rankings, Balshaw has chosen to compete under the French flag, symbolizing a cross-channel sporting crossover. This decision highlights the increasingly international nature of modern athletic development, where lineage often intersects with multi-national identity and strategic career positioning within the global sports ecosystem. Balshaw's dual-national sporting identity highlights the globalization of talent pipelines in modern individual sports.",
+      "brief_word_count": 96
     },
     {
-      "story_id": "story-582",
+      "story_id": "story-577",
       "category": "Sports",
-      "primary_headline": "Delhi’s playing XI is like musical chairs and the match results reflect the chaos",
+      "primary_headline": "Real Kashmir Football Club: Vishakha Singh on financial blows before International Emmy nod",
       "primary_source": {
         "source_name": "The Indian Express",
-        "headline": "Delhi’s playing XI is like musical chairs and the match results reflect the chaos",
-        "published_at": "Sat, 17 Oct 2026 17:36:14 +0000",
-        "url": "https://indianexpress.com/article/sports/cricket/delhis-playing-xi-is-like-musical-chairs-and-the-match-results-reflect-the-chaos-10926200/",
+        "headline": "Real Kashmir Football Club: Vishakha Singh on financial blows before International Emmy nod",
+        "published_at": "Thu, 22 Oct 2026 15:25:45 +0000",
+        "url": "https://indianexpress.com/article/entertainment/web-series/real-kashmir-fc-vishakha-singh-on-financial-blows-before-international-emmy-nomination-10932619/",
         "content": ""
       },
       "sources": [
         {
           "source_name": "The Indian Express",
-          "headline": "Delhi’s playing XI is like musical chairs and the match results reflect the chaos",
-          "published_at": "Sat, 17 Oct 2026 17:36:14 +0000",
-          "url": "https://indianexpress.com/article/sports/cricket/delhis-playing-xi-is-like-musical-chairs-and-the-match-results-reflect-the-chaos-10926200/"
+          "headline": "Real Kashmir Football Club: Vishakha Singh on financial blows before International Emmy nod",
+          "published_at": "Thu, 22 Oct 2026 15:25:45 +0000",
+          "url": "https://indianexpress.com/article/entertainment/web-series/real-kashmir-fc-vishakha-singh-on-financial-blows-before-international-emmy-nomination-10932619/"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.8,
       "brief_bullets": [
-        "Developments regarding delhi’s playing xi is like musical chairs and the match results reflect the chaos have prompted active evaluations across administrative, regulatory, and public sectors.",
-        "Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures.",
-        "Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum.",
-        "Team representatives have confirmed comprehensive preparation plans to maintain strategic advantages in subsequent championship phases."
+        "Real Kashmir Football Club co-owner Vishakha Singh revealed that the pioneering sports organization faced severe financial hurdles prior to earning a prestigious International Emmy nomination. Despite operating in a conflict-ridden region and struggling with chronic funding shortages, the club transformed regional adversity into a globally recognized narrative of resilience and athletic triumph. The executive decision to leverage sports for social upliftment ultimately captured international media attention, validating the club's profound cultural impact far beyond the pitch."
       ],
       "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+        "It demonstrates how resilient grassroots sports initiatives can transcend local socio-economic barriers to achieve unprecedented global recognition."
       ],
-      "brief": "Developments regarding delhi’s playing xi is like musical chairs and the match results reflect the chaos have prompted active evaluations across administrative, regulatory, and public sectors. Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures. Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum. Team representatives have confirmed comprehensive preparation plans to maintain strategic advantages in subsequent championship phases. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 85
+      "brief": "Real Kashmir Football Club co-owner Vishakha Singh revealed that the pioneering sports organization faced severe financial hurdles prior to earning a prestigious International Emmy nomination. Despite operating in a conflict-ridden region and struggling with chronic funding shortages, the club transformed regional adversity into a globally recognized narrative of resilience and athletic triumph. The executive decision to leverage sports for social upliftment ultimately captured international media attention, validating the club's profound cultural impact far beyond the pitch. It demonstrates how resilient grassroots sports initiatives can transcend local socio-economic barriers to achieve unprecedented global recognition.",
+      "brief_word_count": 93
     }
   ]
 }

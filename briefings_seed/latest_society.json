@@ -1,1084 +1,1006 @@
 {
   "id": "latest",
   "category": "society",
-  "timestamp": "2026-10-18T17:07:26.267801+00:00",
+  "timestamp": "2026-10-23T08:07:39.235393+00:00",
   "articlesCount": 20,
   "stories": [
     {
-      "story_id": "story-4",
+      "story_id": "story-3",
       "category": "Society",
-      "primary_headline": "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery",
+      "primary_headline": "Judge orders Trump to sit for a deposition in his defamation lawsuit against the BBC by Dec. 11",
       "primary_source": {
         "source_name": "AP News",
-        "headline": "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery - AP News",
-        "published_at": "Sun, 18 Oct 2026 14:36:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUGxoemZ1SU5mT0NtVU56WWxPclZWWXZ3Vlc2TkpJOVlIaUw5T3luaDlkVVE0YlJqOXRTUmJ5anI3eHdqTEdJemtKRGtxUmNaN2U3Z21CWUQ0UEVLSUdZX3UtZVlFRzBQSHZmTWRQTFJtWmNrcHg2NDkxX1RBRy1BVkRMZEtnU3BfR0dYSWk3M01RZlowenZCT0QwZw?oc=5",
-        "content": "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery&nbsp;&nbsp;AP News"
+        "headline": "Judge orders Trump to sit for a deposition in his defamation lawsuit against the BBC by Dec. 11 - AP News",
+        "published_at": "Thu, 22 Oct 2026 21:20:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTE5OWjZqUUw1RlBFbXM0Z1N2R1dqNVo0YkF1U3diZFhJeHZxdWZuZHJNTlZNQzBVY0ZHdkVoWW5nUGVxdTJGYmxncUlYbnM0YU9UR0ZtSllZM1otYTNWS2cyM0lDTlA2U3hYYVNpTVU0MmFIendPOVBJaW4tcDRnTElVeEdmdHppaTRPNHZfTQ?oc=5",
+        "content": "Judge orders Trump to sit for a deposition in his defamation lawsuit against the BBC by Dec. 11&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
           "source_name": "AP News",
-          "headline": "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery - AP News",
-          "published_at": "Sun, 18 Oct 2026 14:36:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUGxoemZ1SU5mT0NtVU56WWxPclZWWXZ3Vlc2TkpJOVlIaUw5T3luaDlkVVE0YlJqOXRTUmJ5anI3eHdqTEdJemtKRGtxUmNaN2U3Z21CWUQ0UEVLSUdZX3UtZVlFRzBQSHZmTWRQTFJtWmNrcHg2NDkxX1RBRy1BVkRMZEtnU3BfR0dYSWk3M01RZlowenZCT0QwZw?oc=5"
-        },
-        {
-          "source_name": "AP News",
-          "headline": "Pope Leo XIV - AP News",
-          "published_at": "Sun, 18 Oct 2026 14:33:55 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1BXzFaTC1GN3pKdEVBTmZXQkZPamZ2Uk1icE4wVkVUdEFqY1J1SV9FRTZfal95NlB5OHQ5ZnNVSVozNlFsRU5HM0NmUQ?oc=5"
+          "headline": "Judge orders Trump to sit for a deposition in his defamation lawsuit against the BBC by Dec. 11 - AP News",
+          "published_at": "Thu, 22 Oct 2026 21:20:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTE5OWjZqUUw1RlBFbXM0Z1N2R1dqNVo0YkF1U3diZFhJeHZxdWZuZHJNTlZNQzBVY0ZHdkVoWW5nUGVxdTJGYmxncUlYbnM0YU9UR0ZtSllZM1otYTNWS2cyM0lDTlA2U3hYYVNpTVU0MmFIendPOVBJaW4tcDRnTElVeEdmdHppaTRPNHZfTQ?oc=5"
         },
         {
           "source_name": "Reuters",
-          "headline": "Pope Leo pledges gradual return to duties in first event since cancer surgery - Reuters",
-          "published_at": "Sun, 18 Oct 2026 14:09:12 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQajlwczZReXZXSkQ1X1JuZWNGWlNjX2VXcW9hNVdlNXYybU00b3NkSFdpdXo4ZXFLZ184OENSdTZRbE9DdDF2ejZIRVpXUWk2MjdJbWM2Y0JMNzVfcGFvYzRxUU5LYUhpTTB6QWpQWHgwR0tEUXZkNnhBMkxJYkd4dTBydU1OWFpVd3lSNjRSSmF3QW9TUmFocVJVa1QyVUtJcFFHeUwwTGg?oc=5"
+          "headline": "Trump ordered to sit for deposition in his $10 billion BBC lawsuit - Reuters",
+          "published_at": "Thu, 22 Oct 2026 19:31:50 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeEdESlAybnhYTFk5QmF1cXdLNGxzSHN3MEp6QWpMSjk2bUJXYzVySWtIZ3ljblNPeWpULTlYVV9sWnhKVWdoeHRNSUZzODZ5XzhqUV9TMGxwZzNyc19LZGtpQllIX25VVF9SZmdGZm1SUmJuekk1Qm8yWlllZ1NsaWE3ZDkzcmZBUm1jMzFiVXBJdmxuX1NEanh3SW5KMzJxQmp0aldGWl9SRWdS?oc=5"
         },
         {
-          "source_name": "AP News",
-          "headline": "Pope returns to Vatican days after surgery; surgeon says he should be fit for Latin America tour - AP News",
-          "published_at": "Sat, 17 Oct 2026 21:35:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOFA3aml3ZXJlRXJ4MkFBeHNZYkZvNGJGempQWkJpZDJxQTlnbFFPb1Nkb3RvNUZCR2JCNWZPT2tqNFQ1Y3NJWHNqWm5WcEtHWkJrMzN3cTdjQVV2ZmhnSUF6Y2tjWXZ0TVp1bnJrVURyYzdTU0psdXpDNFRTQjgwQUNybXphRW93NFYwa3JVdUJHRjYzUE8xTUphLVdLZDg?oc=5"
-        },
-        {
-          "source_name": "Reuters",
-          "headline": "Pope Leo returns to Vatican four days after cancer surgery - Reuters",
-          "published_at": "Sat, 17 Oct 2026 18:25:25 GMT",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMEhiTWpBVEdDa1JjQmtQUDBZR1RGVHF4VmxwaTEzRHhtczZOcHlJZE9idHNKOFpxdnpndFYwLUk5Zy1lZFRFWTUtaHlEdW44aVZKZjlXenBveTRvN29sRzI1RG1JVm0wMGlRcFpoeS1hX0dCZE1WVGdVc3plR3FZay0xeUtSYjg2dk9SZVpUSEJUdw?oc=5"
-        }
-      ],
-      "source_count": 8,
-      "total_count": 12,
-      "combined_score": 7.6,
-      "brief_bullets": [
-        "AP News Pope Leo XIV AP News Pope Leo pledges gradual return to duties in first event since cancer surgery Pope returns to Vatican days after surgery; surgeon says he should be fit for Latin America tour AP News Pope Leo returns to Vatican four days after cancer surgery.",
-        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery'.",
-        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
-        "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
-      ],
-      "why_it_matters_bullets": [
-        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
-      ],
-      "brief": "AP News Pope Leo XIV AP News Pope Leo pledges gradual return to duties in first event since cancer surgery Pope returns to Vatican days after surgery; surgeon says he should be fit for Latin America tour AP News Pope Leo returns to Vatican four days after cancer surgery. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
-      "brief_word_count": 122
-    },
-    {
-      "story_id": "story-5",
-      "category": "Society",
-      "primary_headline": "Latino voters helped put Trump back in the White House. What’s their next move?",
-      "primary_source": {
-        "source_name": "AP News",
-        "headline": "Latino voters helped put Trump back in the White House. What’s their next move? - AP News",
-        "published_at": "Sun, 18 Oct 2026 12:00:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFBVRGczQ3NZa3MxX0c2VXB0enIyQ0twZkwtWjI5RjhpWGdHOHBkZndUYU5CWmhOeHYzRUFEMndlWHRhOThRdFB5THlka0xaY1U3MUdNMzh2bzVkd25ScEtrYkk2LWJtdl9XVFlITWY4N3AwREZCd1ZpMURkZGJhaWZTV2ZLcHA0cjBreHZBSTFrSEJBQ1pIcTRKX3gzSUg3bUMtUTJPcWd3QQ?oc=5",
-        "content": "Latino voters helped put Trump back in the White House. What’s their next move?&nbsp;&nbsp;AP News"
-      },
-      "sources": [
-        {
-          "source_name": "AP News",
-          "headline": "Latino voters helped put Trump back in the White House. What’s their next move? - AP News",
-          "published_at": "Sun, 18 Oct 2026 12:00:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFBVRGczQ3NZa3MxX0c2VXB0enIyQ0twZkwtWjI5RjhpWGdHOHBkZndUYU5CWmhOeHYzRUFEMndlWHRhOThRdFB5THlka0xaY1U3MUdNMzh2bzVkd25ScEtrYkk2LWJtdl9XVFlITWY4N3AwREZCd1ZpMURkZGJhaWZTV2ZLcHA0cjBreHZBSTFrSEJBQ1pIcTRKX3gzSUg3bUMtUTJPcWd3QQ?oc=5"
-        },
-        {
-          "source_name": "AP News",
-          "headline": "Trump’s new pitch for Republican candidates — they’re really good looking - AP News",
-          "published_at": "Sun, 18 Oct 2026 04:03:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdk9lME5Kek5UNHQ1WXRsUW5ZVEVXZ3docEt3X2JhbnNFT0kwckhVWTNEd1BGa1ZwZTBEbU5DaEVaNDhmSlV4MDh4NzdLc25YN2NmVUdnZ3pTdWxFcmd0TFkzM0dYSnhIQkl4U3B1UzJuRzhBTUxIekJfZldFNUJ4NnA2YjRIcjFidUJIWmtnTS14LUh5cUFZMmRvNW9lSTRleXlBOE0zYVVfZw?oc=5"
-        },
-        {
-          "source_name": "Reuters",
-          "headline": "Rubio says Trump to take up to 60 days to weigh Russia sanctions - Reuters",
-          "published_at": "Sun, 18 Oct 2026 03:38:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRlRkQlBQYXFvck1VQUYxcVpwM2dEVDMwQThIY3ZHRldBd0M0dmV5NXFnZlBXMnpuUnozQlhLbkg4ZjZCT3kzVW5mcnl3RVEwUXRpdUJsZGViRlE1MFdJbHZWZ3pRTXNOUDQtOTRsQU5nSzd4a3d5Z3c2dTkzZWZSNlZsbXZBamFSMS1qVEVnaHc2MTZJUHZ4YU1zS0hfNVM4eVE?oc=5"
-        },
-        {
-          "source_name": "The Guardian",
-          "headline": "Nicola Jennings on Trump’s new White House press secretary – cartoon",
-          "published_at": "Sun, 18 Oct 2026 16:28:31 GMT",
-          "url": "https://www.theguardian.com/commentisfree/picture/2026/oct/18/nicola-jennings-donald-trump-new-white-house-press-secretary-cartoon"
+          "source_name": "BBC News",
+          "headline": "Trump ordered to answer questions under oath in BBC lawsuit",
+          "published_at": "Fri, 23 Oct 2026 01:38:44 GMT",
+          "url": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss"
         },
         {
           "source_name": "CNN",
-          "headline": "How JB Pritzker’s midterm investments could pay off in a 2028 White House bid - CNN",
-          "published_at": "Sun, 18 Oct 2026 10:30:45 GMT",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTW5LSmtCTU43c3A2LVpxOXZBREJIRlBQOFZRRl9BR1FwejJnUGlIaTluYmRtZDl1SmRYdlgwX3o2TFQ1VmtSZUswNkpGNE1kWEEtUHVHMGNoSExoZ3VZX19zcXlFSEVBYzVHd0JKdVEyYzE0TXhUUFprVWE2dXNIOGhBMnlSMlB3d2hQcw?oc=5"
-        }
-      ],
-      "source_count": 8,
-      "total_count": 11,
-      "combined_score": 7.36,
-      "brief_bullets": [
-        "AP News Trump’s new pitch for Republican candidates — they’re really good looking AP News Rubio says Trump to take up to 60 days to weigh Russia sanctions.",
-        "Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness.",
-        "The shift has triggered intense debate among foreign policy stakeholders regarding international deterrence frameworks and regulatory enforcement.",
-        "Regional defense ministries and multilateral bodies are assessing logistical readiness and diplomatic countermeasures as the geopolitical landscape evolves."
-      ],
-      "why_it_matters_bullets": [
-        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
-      ],
-      "brief": "AP News Trump’s new pitch for Republican candidates — they’re really good looking AP News Rubio says Trump to take up to 60 days to weigh Russia sanctions. Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness. The shift has triggered intense debate among foreign policy stakeholders regarding international deterrence frameworks and regulatory enforcement. Regional defense ministries and multilateral bodies are assessing logistical readiness and diplomatic countermeasures as the geopolitical landscape evolves. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
-      "brief_word_count": 96
-    },
-    {
-      "story_id": "story-2",
-      "category": "Society",
-      "primary_headline": "EU condemns attacks by violent settlers, including on diplomats, spokesperson says",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "EU condemns attacks by violent settlers, including on diplomats, spokesperson says - Reuters",
-        "published_at": "Sun, 18 Oct 2026 10:52:10 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcG5pYTJCRkVpNVoxOTVPTVRoNUtwcTBYX2lhZ3ZmMVYxQjRjeG5kMHBHRnlpS1otNzZjWVNyaGJCNjhnU0ROclhuOWYwVGltT19POUY1Z0lOT2pJNDNCSUN0LTFHSkFxUW5iWW91T0ZiOVVTTm42TUpINVc2c1JVbEszT0hBQmhEUU5kemNPbFdqZndpTl9wTG1XeFRxd0JfTXhyam1zSDEzV2hXdWZ3X25xOXY4TkZwWThkLWVXTTBXREpWVFp0eC1XRQ?oc=5",
-        "content": "EU condemns attacks by violent settlers, including on diplomats, spokesperson says&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "EU condemns attacks by violent settlers, including on diplomats, spokesperson says - Reuters",
-          "published_at": "Sun, 18 Oct 2026 10:52:10 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcG5pYTJCRkVpNVoxOTVPTVRoNUtwcTBYX2lhZ3ZmMVYxQjRjeG5kMHBHRnlpS1otNzZjWVNyaGJCNjhnU0ROclhuOWYwVGltT19POUY1Z0lOT2pJNDNCSUN0LTFHSkFxUW5iWW91T0ZiOVVTTm42TUpINVc2c1JVbEszT0hBQmhEUU5kemNPbFdqZndpTl9wTG1XeFRxd0JfTXhyam1zSDEzV2hXdWZ3X25xOXY4TkZwWThkLWVXTTBXREpWVFp0eC1XRQ?oc=5"
+          "headline": "Ty Cobb on judge ordering Trump to sit for deposition in $10B media lawsuit: ‘it’s backfired’ - CNN",
+          "published_at": "Thu, 22 Oct 2026 23:52:04 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYXRZNW9GMTZna2c1WFprSnRUZksxcGhIYzhwS2FMRHo0RXNnQ29JWndBRXZ5cXlaNU1pVFJxVklpVmJqRkptR3JGQWdxXzNIN29sYU1PWWJUeWM0UkNGSXlscmJJVTlONi0zaWZGb29HRkZXeERQZTNxZzZWM1NuU21yRWtyZ0hx?oc=5"
         },
         {
-          "source_name": "Reuters",
-          "headline": "EU condemns attacks by violent settlers, including on diplomats, spokesperson says - Reuters",
-          "published_at": "Sun, 18 Oct 2026 10:52:10 GMT",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQSTl4T2JQWHBSUFBidmNBdHVINjRhMEVUX19yUFpEVkhkWEh0OXZkeThXT3MtOU94c1VLOVJTODlSMDNIdkZBQjRxeXBNSUlSMUpkMXdGdEVGZkIwcnUyc0lHbWpfanZSUUlvYndXZFdBQ2ZqQU53eEU5RW1KSnBwem1ReXBaQl9HRGJxQ2w4UC1reW9jaW1SdnJYbC1vUW03ZzVSUkRPb1dwdWtxM2RJMXRXTXhTbWRCajM5ZGhaU2N6ckFHXzRpQkdpM25yWTBFVHk5UVVCcWxZU3RU?oc=5"
-        },
-        {
-          "source_name": "AP News",
-          "headline": "Diplomats attacked in the occupied West Bank, and other Middle East developments - AP News",
-          "published_at": "Sun, 18 Oct 2026 04:08:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOV0tPUGhacDNCd3h5U1ktMS1xbVJUZHhjc1RSU0VwZEN1WThvNDNrc0F3SWFhRHRrRWt5NlBSUFhqc3FOa3VFd2V0RVUxTzZNakJBVXhSZHRvV0tmS3RRZG9pY0lqNGxxcmlTZWk4Ylp2MF8zNlh5OUtMS3AzSmdLWmhYYTByR2VyS21QODB2eV9Mb0FmbVlISE5qaGVtWEU2UG5tanR4dUd0ZlJHb05iWQ?oc=5"
-        },
-        {
-          "source_name": "Reuters",
-          "headline": "US wants Israel to 'crack down' on settler violence in West Bank, Rubio says - Reuters",
-          "published_at": "Sat, 17 Oct 2026 23:49:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX2RPSkdZZ0xrcm1MRkYySnVIVFRmRFN0UXBfV21jVlcxZ2xrUDloZlFYWE1Za0JnRXNHVXdRbWkzSVljckpwSmpUSzFsWHpCcV9YM2RTSGZZNEprQlNkSmFPQlgtYUZCejI3a3BuS2RmUEgwS3JmUUNIbkxvSzJoNUg3ckdsRUxvVE9BdTFBX0NUR3pYcThTQjBUb05tQ1V2QzlUR3JneGU5ZTB2Z0xPTGdUM2lSemFsQmc?oc=5"
-        },
-        {
-          "source_name": "Reuters",
-          "headline": "Lebanon says military delegation will press for halt to Israeli attacks at US talks - Reuters",
-          "published_at": "Sat, 17 Oct 2026 20:31:43 GMT",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSVBXRnY2dGJybHo5d2JiMTlEbnE2SGNfX3FBbVIyazh3dFFPWjB6eWpQaTZwZGwxT3dKQTRfVHlTQ0hZaGJfWmZtOFZYSERiV1Q1QWNTeWdDcWpSMkdtci0zOHBvelNXYW9XaFB0ZHRadFN5Sy1Vb25PNU8yeXV5Q01IdEZIX1o2TEpXNS15ZDcxX0MxQ1JJeEJZQ3laeGpvZURhYVpkajZrTmcwQzZzLW9EUnhaOUlaRmd5WGxaVEhpdElCQVE?oc=5"
+          "source_name": "Al Jazeera",
+          "headline": "Trump ordered to sit for deposition in BBC defamation lawsuit - Al Jazeera",
+          "published_at": "Thu, 22 Oct 2026 21:39:08 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRWNGWjdLWk1aY205MmgwM2RxNlhja05IdXZrSVJobFJZanY1RDJONER5VUN5VFY5OHBjRTFZVmR5cE9iX0psdWVVR0tVVmRNdzk3dXZKWUk4SEZZYnR0VUtoWE12SzBMNUpSRFBFdUlXVlJ5Ul9PSjJ2UC10MjhpYXFGSUFkYkJMRG15blVSMWIzUmJuLUVPLXBIcEtQLUt5QXVxZ3VB0gGrAUFVX3lxTE1CZEpDR2o3THBBdjIybUFZM3pQWUo3UXpqTDFneG9ZM2hIcWFDdW9oanhpX294ZS1XMWJKMVJtNkRMa20ybTZkRUgySnExTFpJbFlPUVI0QnJOSW1LcVkxZW9vTnRPdkdaMWE2S0cyTDdtd3d6MDYyOE9LMVFMa3RDMlZHY0FlR2ZqaE9GLXJ3Z01aMFhtUnlWbEtRMU1sZWNvQktHdjdwZjB3TQ?oc=5"
         }
       ],
       "source_count": 7,
-      "total_count": 15,
-      "combined_score": 8.09,
+      "total_count": 8,
+      "combined_score": 5.93,
       "brief_bullets": [
-        "Diplomats attacked in the occupied West Bank, and other Middle East developments AP News US wants Israel to 'crack down' on settler violence in West Bank, Rubio says Lebanon says military delegation will press for halt to Israeli attacks at US talks.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
-        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions.",
-        "Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments."
+        "A federal judge has ordered former President Donald Trump to participate in a deposition by December 11 as part of his ten billion dollar defamation lawsuit against the BBC. The high-stakes legal action stems from a Panorama episode that spliced together disparate sections of a 2021 speech delivered by Trump. While legal analysts suggest the expedited discovery process could expose his legal strategy to intense scrutiny, the ruling escalates tensions between political figures and international media organizations over editorial standards and defamation liability."
       ],
       "why_it_matters_bullets": [
-        "Directly impacts regional security balances and humanitarian conditions, testing international ceasefire mediation."
+        "The deposition sets a high-stakes precedent for defamation accountability involving international media and political speech."
       ],
-      "brief": "Diplomats attacked in the occupied West Bank, and other Middle East developments AP News US wants Israel to 'crack down' on settler violence in West Bank, Rubio says Lebanon says military delegation will press for halt to Israeli attacks at US talks. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments. Directly impacts regional security balances and humanitarian conditions, testing international ceasefire mediation.",
-      "brief_word_count": 114
+      "brief": "A federal judge has ordered former President Donald Trump to participate in a deposition by December 11 as part of his ten billion dollar defamation lawsuit against the BBC. The high-stakes legal action stems from a Panorama episode that spliced together disparate sections of a 2021 speech delivered by Trump. While legal analysts suggest the expedited discovery process could expose his legal strategy to intense scrutiny, the ruling escalates tensions between political figures and international media organizations over editorial standards and defamation liability. The deposition sets a high-stakes precedent for defamation accountability involving international media and political speech.",
+      "brief_word_count": 98
     },
     {
       "story_id": "story-7",
       "category": "Society",
-      "primary_headline": "Clashes, fires and looting break out as protesters rally across France, joining students",
+      "primary_headline": "Central Park's horse-drawn carriage drivers fear for their future as New York City passes a ban",
       "primary_source": {
         "source_name": "AP News",
-        "headline": "Clashes, fires and looting break out as protesters rally across France, joining students - AP News",
-        "published_at": "Sat, 17 Oct 2026 19:59:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWmRHbHlmZUhGb2xmVFZXeFBmNTFodEJ3U2xmUkZmZDhzdGR2aTEzTHRXOVRIWmx1REtWbHpGY2NQQUFVSk9PaHY3dFRjSUVqZUM3LURoSWlQQ3dDNlEtMnpmQmY3bVJtZEJWNV9vd0hDczg4OGV3UGJ0QmFWX0xLTHpzQ2c3ME5XcE9PN3Zidl9tV0xESXY5aW9R?oc=5",
-        "content": "Clashes, fires and looting break out as protesters rally across France, joining students&nbsp;&nbsp;AP News"
+        "headline": "Central Park's horse-drawn carriage drivers fear for their future as New York City passes a ban - AP News",
+        "published_at": "Thu, 22 Oct 2026 21:34:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTG5DcHRNNURGcnp2YVRHWDBVdUQ0UzlxRndZMUtwMzlGT05UX0wxV1dFZnBWNGlCTDdhT0xxNzR3djc2bnpQRWxEV2dIS3hOTnoxc3lYdUhERmtoaXZJVVp2QWhCbk1YYUwxNzNrdzBKMUVyTHh1dGcyU0JtbmNMb0NxcVZmX2Rmd0dmdmliS0VkNm1yWFFFWjZRNjVlR01tRDNNYnZn?oc=5",
+        "content": "Central Park's horse-drawn carriage drivers fear for their future as New York City passes a ban&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
           "source_name": "AP News",
-          "headline": "Clashes, fires and looting break out as protesters rally across France, joining students - AP News",
-          "published_at": "Sat, 17 Oct 2026 19:59:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWmRHbHlmZUhGb2xmVFZXeFBmNTFodEJ3U2xmUkZmZDhzdGR2aTEzTHRXOVRIWmx1REtWbHpGY2NQQUFVSk9PaHY3dFRjSUVqZUM3LURoSWlQQ3dDNlEtMnpmQmY3bVJtZEJWNV9vd0hDczg4OGV3UGJ0QmFWX0xLTHpzQ2c3ME5XcE9PN3Zidl9tV0xESXY5aW9R?oc=5"
-        },
-        {
-          "source_name": "AP News",
-          "headline": "Violent protests in France as police battle demonstrators, in photos - AP News",
-          "published_at": "Sat, 17 Oct 2026 18:29:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMlplc0tOejE1Q0dfRVlSRG9HWmg5TVdmVGp2cThMeXBfNE5JdU5Oc29KOEtlVk82Z21qRS1maUZaQTI1bmR0TS1kMzBMMUpia1NwUEJXenU3MmY0SlUzS3M4ZUcyQU9UV1VTM2xDOWNCakhqamlnaUxMMl84UlMtTjBadjhWTDdIdjRkVUVrUk5KWFJXcTAxcmhycUhTS3BtUlo4MGNfWVpKRktQOHctWGhvYldZZGtjbmVuQWk1UVYxZw?oc=5"
+          "headline": "Central Park's horse-drawn carriage drivers fear for their future as New York City passes a ban - AP News",
+          "published_at": "Thu, 22 Oct 2026 21:34:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTG5DcHRNNURGcnp2YVRHWDBVdUQ0UzlxRndZMUtwMzlGT05UX0wxV1dFZnBWNGlCTDdhT0xxNzR3djc2bnpQRWxEV2dIS3hOTnoxc3lYdUhERmtoaXZJVVp2QWhCbk1YYUwxNzNrdzBKMUVyTHh1dGcyU0JtbmNMb0NxcVZmX2Rmd0dmdmliS0VkNm1yWFFFWjZRNjVlR01tRDNNYnZn?oc=5"
         },
         {
           "source_name": "NYT",
-          "headline": "France in Shock After Protests Turn Into Riots, Damaging Buildings and Shops",
-          "published_at": "Sun, 18 Oct 2026 15:48:40 +0000",
-          "url": "https://www.nytimes.com/2026/10/18/world/europe/france-protests-shock-arson.html"
-        },
-        {
-          "source_name": "NYT",
-          "headline": "Why Are There Protests in France?",
-          "published_at": "Sun, 18 Oct 2026 15:15:49 +0000",
-          "url": "https://www.nytimes.com/article/france-student-protests-why.html"
-        },
-        {
-          "source_name": "BBC News",
-          "headline": "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting",
-          "published_at": "Sun, 18 Oct 2026 12:07:31 GMT",
-          "url": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "source_count": 7,
-      "total_count": 11,
-      "combined_score": 6.83,
-      "brief_bullets": [
-        "AP News Violent protests in France as police battle demonstrators, in photos AP News After anti-government protests devolved into chaos, leaders from across the political spectrum blamed one another for the unrest, even as it largely subsided on Sunday.",
-        "Rioters attacked city halls and shops over the weekend amid protests over living costs and poor school conditions.",
-        "About 1,800 people were arrested after nationwide protests saw outbreaks of violence and vandalism.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events."
-      ],
-      "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
-      ],
-      "brief": "AP News Violent protests in France as police battle demonstrators, in photos AP News After anti-government protests devolved into chaos, leaders from across the political spectrum blamed one another for the unrest, even as it largely subsided on Sunday. Rioters attacked city halls and shops over the weekend amid protests over living costs and poor school conditions. About 1,800 people were arrested after nationwide protests saw outbreaks of violence and vandalism. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 109
-    },
-    {
-      "story_id": "story-1",
-      "category": "Society",
-      "primary_headline": "Kolkata pandal stampede updates | Nine IPS officers assigned Durga Puja crowd management charge; 10-day police custody for seven accused",
-      "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Kolkata pandal stampede updates | Nine IPS officers assigned Durga Puja crowd management charge; 10-day police custody for seven accused",
-        "published_at": "Sun, 18 Oct 2026 21:58:32 +0530",
-        "url": "https://www.thehindu.com/news/cities/kolkata/kolkata-bengal-pandal-collapse-stampede-injured-death-updates-on-october-17-2026/article71597549.ece",
-        "content": "Kolkata Police issue 11-point advisory; CM Adhikari hints at scrapping VIP entries at major pandals"
-      },
-      "sources": [
-        {
-          "source_name": "The Hindu",
-          "headline": "Kolkata pandal stampede updates | Nine IPS officers assigned Durga Puja crowd management charge; 10-day police custody for seven accused",
-          "published_at": "Sun, 18 Oct 2026 21:58:32 +0530",
-          "url": "https://www.thehindu.com/news/cities/kolkata/kolkata-bengal-pandal-collapse-stampede-injured-death-updates-on-october-17-2026/article71597549.ece"
+          "headline": "New York City Passes Horse Carriage Ban, Ending a Central Park Tradition",
+          "published_at": "Fri, 23 Oct 2026 00:40:08 +0000",
+          "url": "https://www.nytimes.com/2026/10/22/nyregion/nyc-horse-carriage-ban-workers-jobs.html"
         },
         {
           "source_name": "The Hindu",
-          "headline": "Majority of victims in Kolkata Durga Puja stampede are women, children",
-          "published_at": "Sun, 18 Oct 2026 21:50:41 +0530",
-          "url": "https://www.thehindu.com/news/cities/kolkata/majority-of-victims-in-kolkata-durga-puja-stampede-are-women-children/article71599949.ece"
-        },
-        {
-          "source_name": "The Hindu",
-          "headline": "Kolkata’s Bonedi Bari Durga Puja: The ancestral homes preserving centuries of tradition",
-          "published_at": "Sun, 18 Oct 2026 21:46:08 +0530",
-          "url": "https://www.thehindu.com/society/kolkatas-bonedi-bari-durga-puja-the-ancestral-homes-preserving-centuries-of-tradition/article71586563.ece"
-        },
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Less plastic, more pujo vibes: Assam town gives Durga Puja a 'carbon-neutral' twist",
-          "published_at": "Sun, 18 Oct 2026 15:42:33 +0000",
-          "url": "https://www.deccanherald.com/india/assam/less-plastic-more-pujo-vibes-assam-town-gives-durga-puja-a-carbon-neutral-twist-4187428"
-        },
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Durga Puja pandal stampede gives Mamata's TMC a ‘bhaipo’ in BJP to target",
-          "published_at": "Sun, 18 Oct 2026 13:49:01 +0000",
-          "url": "https://www.deccanherald.com/india/west-bengal/durga-puja-pandal-stampede-gives-mamatas-tmc-a-bhaipo-in-bjp-to-target-4187326"
-        }
-      ],
-      "source_count": 5,
-      "total_count": 32,
-      "combined_score": 12.3,
-      "brief_bullets": [
-        "Kolkata Police issue 11-point advisory; CM Adhikari hints at scrapping VIP entries at major pandals Among the 19 dead are 13 females, including two minors; the two other deceased minors are males Kolkata’s Bonedi Bari Durga pujas bring together grand colonial-era architecture, family legacies and heirloom recipes.",
-        "While the city’s pandals draw the biggest crowds, these ancestral homes offer a more intimate glimpse of the festival, following family traditions dating back more than 300 years Durga Puja celebrations mean glitzy pandals, excessive lighting, high-decibel music and many more attractions."
-      ],
-      "why_it_matters_bullets": [
-        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
-      ],
-      "brief": "Kolkata Police issue 11-point advisory; CM Adhikari hints at scrapping VIP entries at major pandals Among the 19 dead are 13 females, including two minors; the two other deceased minors are males Kolkata’s Bonedi Bari Durga pujas bring together grand colonial-era architecture, family legacies and heirloom recipes. While the city’s pandals draw the biggest crowds, these ancestral homes offer a more intimate glimpse of the festival, following family traditions dating back more than 300 years Durga Puja celebrations mean glitzy pandals, excessive lighting, high-decibel music and many more attractions. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 103
-    },
-    {
-      "story_id": "story-10",
-      "category": "Society",
-      "primary_headline": "Trump endorses Netanyahu in Israeli election",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Trump endorses Netanyahu in Israeli election - Reuters",
-        "published_at": "Sun, 18 Oct 2026 16:10:37 GMT",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeXNEX0FibmplMGVhLVA1TDdESTEzdk9PR1JYNWtsQzJkTG5ER1lrMkhfV05saHNXYndlOXFxdFJONU4zOEZhZUdtXzR0WGpVSHBuLUUyOExTWHktR3AtMjlnU08yNXpaUWFVOXE1Q3dNaDFkZG4yT0JFMmlkYzdvTXFudjFQOF9rcFBaM0VBbjBaOFQ5bndSNS1fZw?oc=5",
-        "content": "Trump endorses Netanyahu in Israeli election&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "Trump endorses Netanyahu in Israeli election - Reuters",
-          "published_at": "Sun, 18 Oct 2026 16:10:37 GMT",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeXNEX0FibmplMGVhLVA1TDdESTEzdk9PR1JYNWtsQzJkTG5ER1lrMkhfV05saHNXYndlOXFxdFJONU4zOEZhZUdtXzR0WGpVSHBuLUUyOExTWHktR3AtMjlnU08yNXpaUWFVOXE1Q3dNaDFkZG4yT0JFMmlkYzdvTXFudjFQOF9rcFBaM0VBbjBaOFQ5bndSNS1fZw?oc=5"
-        },
-        {
-          "source_name": "AP News",
-          "headline": "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection - AP News",
-          "published_at": "Sun, 18 Oct 2026 15:01:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZ001MUlHYUhFLTdzTlZPTWdsOG12UXhpTFdKOFQ1REFaUFVhWGZJTXk1V0Y3cGNhTTR3d1hnclJVamdMRFJlZ213WjVsblNIODZ6cUstbVp6U1o1STRyUVNMUXRPUkVFUlZJWWppUWo3VWpZOXB2WDlTck4yUXFQXy0wQktGczRPbkVkZ1dheURZcGp1dFA2WXVlaXpLeTNLVzAyVnhGWlRrUVNH?oc=5"
-        },
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Trump endorses Netanyahu in Israeli election",
-          "published_at": "Sun, 18 Oct 2026 15:12:51 +0000",
-          "url": "https://www.deccanherald.com/world/middle-east/trump-endorses-netanyahu-in-israeli-election-4187407"
-        },
-        {
-          "source_name": "CNN",
-          "headline": "Nine days before Israeli elections, Trump finally endorses Netanyahu - CNN",
-          "published_at": "Sun, 18 Oct 2026 07:20:28 GMT",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRWp2V1pObHhqVHdUTjJ1NDBhVDRzRjJnMks5R2p3dDFVbTJEek9MR2JBZDZnckh3VUNLRVBGaEF4UGlQc285cFRjSldLMHFGbmhtbldfQjUyU2JGdU95QXRPQm1FWHJzb0NjSzVUalp0WEZFcHlmSWxpb2JRZ2J0Q29pVQ?oc=5"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "World Live News Updates: Trump endorses Israeli Prime Minister Benjamin Netanyahu for reelection",
-          "published_at": "Sat, 17 Oct 2026 23:55:14 +0000",
-          "url": "https://indianexpress.com/article/world/us-iran-war-live-updates-saudi-drones-attack-trump-tehran-hormuz-shipping-india-oil-prices-10926317/"
-        }
-      ],
-      "source_count": 5,
-      "total_count": 5,
-      "combined_score": 4.06,
-      "brief_bullets": [
-        "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection AP News Washington: US President Donald Trump endorsed his ally Benjamin Netanyahu on Sunday for the upcoming Israeli parliamentary election.\"Bibi Netanyahu has been Strong, Brave, and Brilliant in the face of tremendous opposition, including that coming from even Israel, itself,\" Trump wrote in a post on Truth Social.\"This is the kind of Partner that the United States of America is demanding of Israel, a Country for which it has done so much."
-      ],
-      "why_it_matters_bullets": [
-        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
-      ],
-      "brief": "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection AP News Washington: US President Donald Trump endorsed his ally Benjamin Netanyahu on Sunday for the upcoming Israeli parliamentary election.\"Bibi Netanyahu has been Strong, Brave, and Brilliant in the face of tremendous opposition, including that coming from even Israel, itself,\" Trump wrote in a post on Truth Social.\"This is the kind of Partner that the United States of America is demanding of Israel, a Country for which it has done so much. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 98
-    },
-    {
-      "story_id": "story-11",
-      "category": "Society",
-      "primary_headline": "Iran urges US to accept proposal to reopen Strait of Hormuz",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Iran urges US to accept proposal to reopen Strait of Hormuz - Reuters",
-        "published_at": "Sun, 18 Oct 2026 10:29:43 GMT",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWUh3Z1JyMmU4SkJ4ZXQ4Y0VaN3RMS1Vtcmg4S1lDMGlvUG1GeVY3Q1pkaWltSG5yOWhmcTBnNkk4U0ZiTVREVzd3RVRZNjZJTjhaTkg5bTFGX0J2Q0JzTUI4UlZIWmxHMmRDeVRRODZRYU1mbkNrVzFRX3piTnpDbllfUGc3NnJkSl9hWWRCQzlxZjFBYnE5bXJQMVBjMzNBUFlNcmRtcw?oc=5",
-        "content": "Iran urges US to accept proposal to reopen Strait of Hormuz&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "Iran urges US to accept proposal to reopen Strait of Hormuz - Reuters",
-          "published_at": "Sun, 18 Oct 2026 10:29:43 GMT",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWUh3Z1JyMmU4SkJ4ZXQ4Y0VaN3RMS1Vtcmg4S1lDMGlvUG1GeVY3Q1pkaWltSG5yOWhmcTBnNkk4U0ZiTVREVzd3RVRZNjZJTjhaTkg5bTFGX0J2Q0JzTUI4UlZIWmxHMmRDeVRRODZRYU1mbkNrVzFRX3piTnpDbllfUGc3NnJkSl9hWWRCQzlxZjFBYnE5bXJQMVBjMzNBUFlNcmRtcw?oc=5"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "What is Iran’s 7-day proposal to the US to open the Strait of Hormuz?",
-          "published_at": "Sun, 18 Oct 2026 11:57:26 +0000",
-          "url": "https://indianexpress.com/article/explained/explained-global/iran-araghchi-seven-day-plan-reopen-strait-of-hormuz-us-trump-10926929/"
+          "headline": "What is Romanch’s Law? New York City’s historic horse carriage ban after Indian tourist’s death",
+          "published_at": "Fri, 23 Oct 2026 12:25:32 +0530",
+          "url": "https://www.thehindu.com/news/international/what-is-romanchs-law-new-york-city-historic-horse-carriage-ban-explained/article71614635.ece"
         },
         {
           "source_name": "NDTV",
-          "headline": "Iran Urges US To Accept Proposal To Reopen Strait Of Hormuz",
-          "published_at": "Sun, 18 Oct 2026 17:22:29 +0530",
-          "url": "https://www.ndtv.com/world-news/iran-urges-us-to-accept-proposal-to-reopen-strait-of-hormuz-12202784#publisher=newsstand"
+          "headline": "New York Bans 150-Year-Old Horse Carriages Months After Indian Tourist's Death",
+          "published_at": "Fri, 23 Oct 2026 07:30:30 +0530",
+          "url": "https://www.ndtv.com/world-news/new-york-bans-150-year-old-horse-carriages-after-indian-tourists-death-12223049#publisher=newsstand"
         },
         {
-          "source_name": "Al Jazeera",
-          "headline": "Iran says two tankers catch fire after hitting mines in Strait of Hormuz - Al Jazeera",
-          "published_at": "Sun, 18 Oct 2026 02:02:44 GMT",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcEhpeXZhQ20xWmZjb3p1eUJRVEFVSi1QbWJnUFZpRE05QmJUd0hhMU9OQmlqMmxPemhUTGN3ZmF5YlU0LUxkaF85M2JEVEpRT1FaMVAzaV8xNTBNeGk1YUlIRVNzRFNQVkpfY3FwWllQeWU3Mmk0NEpVaV90Tkp2ZnRzQ2xaZzQ2OGRLbUp1dUVNenlPUFVuQUVGRUVKSUZRbDVVR3hjZElfSFNONWhieWF5S0_SAboBQVVfeXFMT2UzSjBRSnAybzdRcU9NRWpyV0V5SU4xT1g2LWlTNWlraWJDeFBMSDlSbGVNc093MmJCOTROSjQ5bE50Uk1WSVVMNDZGN2VRWVkyRjdFdmV3QzliaGtBci1FcjRTbll0UmZQZmJTT0tXR05oVGdjRlU3Z1FvcTNUWXVPY0drS1BvamFZdWkyU0w0QU5oSjAwTnFBU0hNc2Z6dC1yUk1ma0dDNGpZX2RuVmxEZzhrUUI4bHhn?oc=5"
+          "source_name": "CNN",
+          "headline": "Facing a ban on horse-drawn carriages, Central Park’s drivers fear for their future - CNN",
+          "published_at": "Thu, 22 Oct 2026 12:05:51 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1PNURVMUdNMUpSMTRYWS1PMlNvQl9zaS1tRnk4cHRDNjZuMVJvQlJqeVpZWjFvOVlLRG5CMXhST21HbzMxTTdOdFZIcTQ3bHlIVWFIb09Na082N1NCckxGQXVZTQ?oc=5"
+        }
+      ],
+      "source_count": 6,
+      "total_count": 6,
+      "combined_score": 4.89,
+      "brief_bullets": [
+        "The New York City Council passed Romanch’s Law, championing a landmark ban on Central Park horse-drawn carriages by June 2028 following a fatal tourist accident in June. Spearheaded by Mayor Mamdani, the legislation addresses long-standing animal welfare concerns regarding escapes and collapses, though it threatens historic jobs and heritage. While animal rights advocates celebrate the decisive regulatory action, the coalition of carriage drivers strongly opposes the decision and prepares for an imminent, high-stakes court challenge before implementation."
+      ],
+      "why_it_matters_bullets": [
+        "This ban reshapes urban tourism and sets a major precedent for balancing historical tradition against animal rights."
+      ],
+      "brief": "The New York City Council passed Romanch’s Law, championing a landmark ban on Central Park horse-drawn carriages by June 2028 following a fatal tourist accident in June. Spearheaded by Mayor Mamdani, the legislation addresses long-standing animal welfare concerns regarding escapes and collapses, though it threatens historic jobs and heritage. While animal rights advocates celebrate the decisive regulatory action, the coalition of carriage drivers strongly opposes the decision and prepares for an imminent, high-stakes court challenge before implementation. This ban reshapes urban tourism and sets a major precedent for balancing historical tradition against animal rights.",
+      "brief_word_count": 94
+    },
+    {
+      "story_id": "story-6",
+      "category": "Society",
+      "primary_headline": "Ashley Hinson shows Republicans' midterm balancing act as Trump comes to boost Iowa turnout",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Ashley Hinson shows Republicans' midterm balancing act as Trump comes to boost Iowa turnout - AP News",
+        "published_at": "Fri, 23 Oct 2026 02:18:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaG5uUGpMN2p0bXJwZm5OdkN6MTUyOEhrb0VoTU9SS2dXQ2FyTXNONVV3QTg0T0Y5OEVQOG1QU3VxWjFzNzVkNExoZHF6WjVEV0RpakFueGxiWGNQYmk4amQ2VWNBXzdKdFRwZnJoLVd1OHE4LVlEc083OFdlUFYtRk1WSF95Q3NqdnNELVNYOE9fdlhldDlacjhXdlRma2Y0NGt1cA?oc=5",
+        "content": "Ashley Hinson shows Republicans' midterm balancing act as Trump comes to boost Iowa turnout&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Ashley Hinson shows Republicans' midterm balancing act as Trump comes to boost Iowa turnout - AP News",
+          "published_at": "Fri, 23 Oct 2026 02:18:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaG5uUGpMN2p0bXJwZm5OdkN6MTUyOEhrb0VoTU9SS2dXQ2FyTXNONVV3QTg0T0Y5OEVQOG1QU3VxWjFzNzVkNExoZHF6WjVEV0RpakFueGxiWGNQYmk4amQ2VWNBXzdKdFRwZnJoLVd1OHE4LVlEc083OFdlUFYtRk1WSF95Q3NqdnNELVNYOE9fdlhldDlacjhXdlRma2Y0NGt1cA?oc=5"
         },
         {
-          "source_name": "The Print",
-          "headline": "Iran says offer to reopen Strait of Hormuz within 7 days remains on table - ThePrint",
-          "published_at": "Sun, 18 Oct 2026 13:05:17 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaVJTNkpnNHU1ZFVIdDFnTWdMaGtFTEJDWDdKUk5QZlBtSE13emZzRDlKY3FTdVZMSzRrMEF2bndtZEJBcEVueDlkemI2d0lHMjh6LWhuYWxmaHV4aEktN1RjRTNKWWg1TG5KVHlxcUNKTF9sUTJKc1FINllEdGxhbEJzRjdBSGtsUnJXdmtnVUoyOF96V3pYTG5xZGJWbjhyaHVGbFhUcWVNbUxI0gGyAUFVX3lxTE43OVdJZC1DVW5OcEtZQm9PMU5XcTgwLWtQSzFtWEhBZ0JvTWJoUTY1QzJPOU1hSGRFS0tTcnh2VmRGNG1PS054Y0d5ZjRiS05CYmdmdHU1eDhsXzluLVVqS0VSd0NNSEstMVNYYjhGdVpEV1RUMjFlWlh4Z1RFal9JR3pKeGwwZkw1Yy1NZ19TZEwyLTRWOXBXYXpVSHVCUmc5T0EtZEVQVXBFaG1MVkxXZWc?oc=5"
+          "source_name": "AP News",
+          "headline": "Voters prioritize costs and Iran over investigating Trump for next Congress, AP-NORC poll finds - AP News",
+          "published_at": "Thu, 22 Oct 2026 14:12:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUlZzVmJWWUprcG9oV3lXbGRTZ3dZNl9ZNnFfWDBtTEVJQ3EzamgyTWNRSE4tWEc3UjF1RVNpN3Naa0g0QUVXRFRyWHl4c1BLREtZeUpBVWlFa0VLb0VteWFxQ1ZiV0lqMEpDQVE2eGQ0YUVwckZXTVM5RUh3UlRWN0h3Y1BseWRPdXVENkNUcUxWTlNQd2x1Vnc3aWtVOXd2Vkt3NVBKX25iLTJhZ21QQ2Q2MDA?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "Voter turnout soars in some key states, AP-NORC poll finds voters want Congress to focus on costs and Iran - AP News",
+          "published_at": "Thu, 22 Oct 2026 11:08:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LMUF4MlBsYTJGY08zX255dGRzZ2JMS1UzTTB5bjVFcFQtbTdpY3YtbnlDbDJ4MnliNUZoc21OYVJOSS1DUkdaMGdrejZsaGFhQVh1eld2WEotVm1ObjJwU3p5eVZPWU81V0E?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "As Trump's support slips, white evangelicals remain his Republican bedrock - Reuters",
+          "published_at": "Thu, 22 Oct 2026 10:06:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRnNVTGtmN2VWX3RIWkxlUEx6d2hVV1djTnhWellIdWZMM1JMa1RrbTVKMlIycEI0em5CcHYtMXhucUFOdk5vZW9LZHVLRzNNWExIcHZqeVFtRFFxTlY3MDNka0l1VjE4T2NnOExIWFBlWXI1V1ZSVXRaRXVIVFB0UTFCcGpGZjZYUk9SekxGNE9GUWg0V3p4VW14MHVEUkY3MWNPQzdGMzRJVTZRVmIzZDRkS2Y?oc=5"
+        },
+        {
+          "source_name": "Washington Post",
+          "headline": "In Iowa, Trump seeks to temper economic woes of farm country - The Washington Post",
+          "published_at": "Fri, 23 Oct 2026 05:27:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdlBubzdGb3MzZzJlT0RaeGV4eUdfcVBwS0UydG92UU1tZGhVcENPdGMxdFVDNElTdWRkYkx1ZUVqQnZrWFp3UTVCVGlVTXlhM3hVYlp0Q1Y3U3pDaks3OTBDdGw0TUpVdnRsSzhRTFdRQnNFQzVaeUtvTjZIWEliWlJNbzdseFpEZTRuX1JvQkJPWTVxSkU1Uk5vdFdvQXRGWDdzZTdEUQ?oc=5"
+        }
+      ],
+      "source_count": 5,
+      "total_count": 8,
+      "combined_score": 4.93,
+      "brief_bullets": [
+        "As former President Donald Trump travels to Iowa to rally conservative turnout and temper economic anxieties in critical agricultural communities, Republican candidates like Representative Ashley Hinson are forced to navigate a complex midterm balancing act. Recent AP-NORC polling indicates that voters are increasingly prioritizing immediate domestic costs and foreign policy concerns over congressional investigations into Trump. This dynamic highlights the delicate electoral tightrope GOP figures must walk, aiming to harness Trump's passionate white evangelical bedrock while distancing themselves from his political baggage to secure crucial swing voters ahead of the general election."
+      ],
+      "why_it_matters_bullets": [
+        "GOP candidates must balance Trump's loyal base with voter focus on kitchen-table economics to win midterms."
+      ],
+      "brief": "As former President Donald Trump travels to Iowa to rally conservative turnout and temper economic anxieties in critical agricultural communities, Republican candidates like Representative Ashley Hinson are forced to navigate a complex midterm balancing act. Recent AP-NORC polling indicates that voters are increasingly prioritizing immediate domestic costs and foreign policy concerns over congressional investigations into Trump. This dynamic highlights the delicate electoral tightrope GOP figures must walk, aiming to harness Trump's passionate white evangelical bedrock while distancing themselves from his political baggage to secure crucial swing voters ahead of the general election. GOP candidates must balance Trump's loyal base with voter focus on kitchen-table economics to win midterms.",
+      "brief_word_count": 108
+    },
+    {
+      "story_id": "story-9",
+      "category": "Society",
+      "primary_headline": "Trump says he 'heard something about' Justice Department probe into longtime ally Corey Lewandowski",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Trump says he 'heard something about' Justice Department probe into longtime ally Corey Lewandowski - AP News",
+        "published_at": "Fri, 23 Oct 2026 02:11:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPd3djenRyV2xLaUc5U0MyM2JHZlcwbERmbHlhOWV2aEVBNkVYSllKZHVrN04xdjJGck5hS0lTZVNjakxfbzJFZ1N4TlVVOTNWU2FtYnhvWEl2Q0Vwbk9SbWM4RDZQWjN4WkFhaUdCNTU4MGZHU0xJRmhvZi1HWEFfOWJEWW51RWNqa1VmOFBhZXFRaWJzb0lFYWsyc2NBanlXRDNldkRZSXMtbUs1SEUzVWtNRXIzRU9wWDBhUGxfenFNMkctOUZEX1FhMTFzcUk?oc=5",
+        "content": "Trump says he 'heard something about' Justice Department probe into longtime ally Corey Lewandowski&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Trump says he 'heard something about' Justice Department probe into longtime ally Corey Lewandowski - AP News",
+          "published_at": "Fri, 23 Oct 2026 02:11:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPd3djenRyV2xLaUc5U0MyM2JHZlcwbERmbHlhOWV2aEVBNkVYSllKZHVrN04xdjJGck5hS0lTZVNjakxfbzJFZ1N4TlVVOTNWU2FtYnhvWEl2Q0Vwbk9SbWM4RDZQWjN4WkFhaUdCNTU4MGZHU0xJRmhvZi1HWEFfOWJEWW51RWNqa1VmOFBhZXFRaWJzb0lFYWsyc2NBanlXRDNldkRZSXMtbUs1SEUzVWtNRXIzRU9wWDBhUGxfenFNMkctOUZEX1FhMTFzcUk?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Trump ally Lewandowski faces criminal investigation over DHS tenure, sources say - Reuters",
+          "published_at": "Fri, 23 Oct 2026 00:28:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOUFlQnZ3MnRaVmVhX2Y1M1Fxc0JTaXE5cHZqdmhUX2gyWTh0OFBJVW1kTzkxMGJkMlNqa0lkcDhMMUZNNnI1NWltc1NYenhWTG5DRHE2ekRjRUlIM0xFNGJTSjRLQlE1TUZtd1U3bWhCVUxWRENmV1VFWTZHS3FXeUhZczFrcXJIMDdLMkxiQngxWnVSVFVlemRXeGhneXRUWktvLU5INVJuMDdQSmUyQUV0WnJFaHk2SlgtbkRVUkpkZlh4NFNFaGVrLVE?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Justice Department asks appeals court to intervene in California ballot case - Reuters",
+          "published_at": "Fri, 23 Oct 2026 00:18:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaUd6X09TZ2dRQWxPNF9DZ1IzdXBZaGIwR2g2dGN3M2l4MVU0S2hhMnhWMUZKdTFucVRETXhfQ3RtTDFwM2ZKQkFDWDQxY2NJMVRRN2hTUjQxdU9nU3Zxc0NHYTkwOGZxdGdMcUZhUnlhOFA5OGxKUl9GeW5UaVdGZFJmRDQ2YWhJZ1Qzc0dVZU9nYmJ3TGtRZnRGTTVwLTNOaFgtall2ZlFaVWpUaUc1TVd3?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "California latest target in Department of Justice efforts to end public benefits fraud - AP News",
+          "published_at": "Thu, 22 Oct 2026 23:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWUphZEJRTEZZcjJzNVdjYVlzY0NpWGg1bnE5dkw0Z1FVYTAwbVJmYXlmZFh6ckFCZDRkZkhHZFBENlNrdXBvT2JlbjVJVUptUmpFNC04WU1pRUdITjNYTE55bkxWbWp0enpVOHJnRDBzNVN4SVZjekd1UUJ3TWlIOHBrZzlmNldCVkg2LV9oNjY0ZDdHQmxHRTl4VWlkWXVGZDVFVjFwbDBFYlZhWGJKeXE2ZHRBVUUyTGdyYlFzVlpBVms?oc=5"
+        },
+        {
+          "source_name": "Washington Post",
+          "headline": "DOJ reviewing accusations of contracting misconduct involving Corey Lewandowski - The Washington Post",
+          "published_at": "Fri, 23 Oct 2026 06:12:10 GMT",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOS2NOUUhtdzkxQjFsWGpSazJIMUFxNWZiZ0pRdG1YckFJc1dDNEZPbzNFZVhFVTZXVEgzQjE0OGRjdTc0TFI1SEdKUzJBeFZUUWhLRTkxQXk0dUNQdWVuR3ZyNVNpemRXUjNvUGJYX0ptemRKbEY1VEdTSlVRdmFKd3FXM2NUSlBmaWFhcGh3bDZVbXdlZ1lOdzdzS0I1MDdYeTBwa2NYdTRaREJ5NTR6bVlHSlg1dW9YRmFDQmo0VEJpcWZmTVMzSXBzc2VIODU3dVhZ?oc=5"
+        }
+      ],
+      "source_count": 5,
+      "total_count": 7,
+      "combined_score": 4.6,
+      "brief_bullets": [
+        "Former President Donald Trump acknowledged he heard about a Department of Justice criminal investigation targeting his longtime ally Corey Lewandowski regarding alleged contracting misconduct during his Department of Homeland Security tenure. Multiple sources confirmed that federal prosecutors are actively reviewing accusations against Lewandowski, marking another legal scrutiny point for associates within Trump's political orbit. This developing probe underscores the persistent regulatory and criminal exposures facing key figures from past administration circles as federal oversight agencies continue targeted reviews."
+      ],
+      "why_it_matters_bullets": [
+        "This federal probe intensifies legal pressure on Trump's inner circle, signaling continued accountability risks for former administration officials."
+      ],
+      "brief": "Former President Donald Trump acknowledged he heard about a Department of Justice criminal investigation targeting his longtime ally Corey Lewandowski regarding alleged contracting misconduct during his Department of Homeland Security tenure. Multiple sources confirmed that federal prosecutors are actively reviewing accusations against Lewandowski, marking another legal scrutiny point for associates within Trump's political orbit. This developing probe underscores the persistent regulatory and criminal exposures facing key figures from past administration circles as federal oversight agencies continue targeted reviews. This federal probe intensifies legal pressure on Trump's inner circle, signaling continued accountability risks for former administration officials.",
+      "brief_word_count": 96
+    },
+    {
+      "story_id": "story-13",
+      "category": "Society",
+      "primary_headline": "Trump blasts 76ers star LeBron James as 'disgrace' for not standing still during national anthem",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Trump blasts 76ers star LeBron James as 'disgrace' for not standing still during national anthem - AP News",
+        "published_at": "Fri, 23 Oct 2026 03:12:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNUgxR2FFOThLekhqb3BGZnVkRDJGVkxmcDNCN3VVM3M0YU1pYWhjMXJJc0FFZTFPc2thckdyenJGS2NuVkdOV0tSazM3blJTMFV0eXdOWWlWMjZGTUhBTUI3VFRHQ3ItSXRCWmlhY21GR1c4eXdScVExenAtU04teklRd05XbFRNbE9INVNKLUJ6dUxrYVR3?oc=5",
+        "content": "Trump blasts 76ers star LeBron James as 'disgrace' for not standing still during national anthem&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Trump blasts 76ers star LeBron James as 'disgrace' for not standing still during national anthem - AP News",
+          "published_at": "Fri, 23 Oct 2026 03:12:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNUgxR2FFOThLekhqb3BGZnVkRDJGVkxmcDNCN3VVM3M0YU1pYWhjMXJJc0FFZTFPc2thckdyenJGS2NuVkdOV0tSazM3blJTMFV0eXdOWWlWMjZGTUhBTUI3VFRHQ3ItSXRCWmlhY21GR1c4eXdScVExenAtU04teklRd05XbFRNbE9INVNKLUJ6dUxrYVR3?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Trump says LeBron James showed disrespect during US national anthem - Reuters",
+          "published_at": "Thu, 22 Oct 2026 16:40:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONUV5LXBkNzVYX1RiRXhLcVRpZ0JZRUVSdk00N2oyQVg2NUZ5Z1lzMnRXU2JxTUVxaUE5d1IxUzlKRXVrSTAtWHVnQXJIYTdSSFZaWEg3MERLTTJhY1lUTFdNT21ORUwxLVAxc3J4VmJnX0w0cU0xZjRHZzV2QlpFbzRUNERZaHJpWWxnVFN0elhCR05yVnBkMTJWdWhKMzF4UWQxSERNMXc?oc=5"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "NBA great LeBron James comes under fire from Donald Trump for not standing still during US national anthem",
+          "published_at": "Fri, 23 Oct 2026 06:42:44 +0000",
+          "url": "https://indianexpress.com/article/sports/basketball/nba-great-lebron-james-comes-under-fire-from-donald-trump-for-not-standing-still-during-us-national-anthem-10933328/"
+        },
+        {
+          "source_name": "The Guardian",
+          "headline": "‘Slow news day at the office’: LeBron James shrugs off Trump’s national anthem attack",
+          "published_at": "Fri, 23 Oct 2026 04:29:50 GMT",
+          "url": "https://www.theguardian.com/sport/2026/oct/23/lebron-james-donald-trump-national-anthem-76ers"
+        },
+        {
+          "source_name": "Sky Sports",
+          "headline": "LeBron reacts to Trump criticism as Sixers complete huge comeback",
+          "published_at": "Fri, 23 Oct 2026 06:51:00 BST",
+          "url": "https://www.skysports.com/nba/news/12040/13602548/lebron-james-donald-trump-accuses-philadelphia-76ers-star-of-moving-during-national-anthem-before-nba-season-opener"
         }
       ],
       "source_count": 5,
       "total_count": 5,
       "combined_score": 4.03,
       "brief_bullets": [
-        "What is Iran’s 7-day proposal to the US to open the Strait of Hormuz?",
-        "Iran presented its proposal in mid-September after an interim ceasefire collapsed.",
-        "Tehran later acknowledged receiving a US response but Iran's security chief said last week negotiations have stalled because Washington failed to address all seven conditions for reopening the strait.",
-        "Iran says two tankers catch fire after hitting mines in Strait of Hormuz Iran says offer to reopen Strait of Hormuz within 7 days remains on table ThePrint."
+        "Former President Donald Trump publicly criticized NBA superstar LeBron James, calling him a total disgrace and demanding an apology after video showed the Philadelphia 76ers forward performing warm-up movements during the national anthem prior to the season opener against the New York Knicks. Trump slammed the veteran athlete for alleged disrespect toward the United States, amplifying ongoing cultural tensions surrounding sports figures and patriotic displays. Meanwhile, James focused on the court, helping his team achieve a remarkable comeback victory against the Cleveland Cavaliers, demonstrating the enduring intersection of professional sports and national politics."
       ],
       "why_it_matters_bullets": [
-        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+        "This clash reignites intense cultural polarization, underscoring how sports figures remain focal points for national political debates."
       ],
-      "brief": "What is Iran’s 7-day proposal to the US to open the Strait of Hormuz? Iran presented its proposal in mid-September after an interim ceasefire collapsed. Tehran later acknowledged receiving a US response but Iran's security chief said last week negotiations have stalled because Washington failed to address all seven conditions for reopening the strait. Iran says two tankers catch fire after hitting mines in Strait of Hormuz Iran says offer to reopen Strait of Hormuz within 7 days remains on table ThePrint. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 98
+      "brief": "Former President Donald Trump publicly criticized NBA superstar LeBron James, calling him a total disgrace and demanding an apology after video showed the Philadelphia 76ers forward performing warm-up movements during the national anthem prior to the season opener against the New York Knicks. Trump slammed the veteran athlete for alleged disrespect toward the United States, amplifying ongoing cultural tensions surrounding sports figures and patriotic displays. Meanwhile, James focused on the court, helping his team achieve a remarkable comeback victory against the Cleveland Cavaliers, demonstrating the enduring intersection of professional sports and national politics. This clash reignites intense cultural polarization, underscoring how sports figures remain focal points for national political debates.",
+      "brief_word_count": 110
     },
     {
-      "story_id": "story-3",
+      "story_id": "story-17",
       "category": "Society",
-      "primary_headline": "'If actors & leaders not safe, then what about citizens?': Firing at Tiger Shroff’s car makes Oppn question Maharashtra govt over law and order",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "'If actors & leaders not safe, then what about citizens?': Firing at Tiger Shroff’s car makes Oppn question Maharashtra govt over law and order",
-        "published_at": "Sun, 18 Oct 2026 17:00:15 +0000",
-        "url": "https://www.deccanherald.com/india/maharashtra/if-actors-leaders-not-safe-then-what-about-citizens-firing-at-tiger-shroffs-car-makes-oppn-question-maharashtra-govt-over-law-and-order-4187446",
-        "content": " Mumbai: The Opposition on Sunday criticised the Maharashtra government over the firing incident involving Bollywood actor Tiger Shroff’s car in Mumbai, alleging that law and order in the city and state had deteriorated.In a post on X, Congress leader Sachin Sawant said Mumbai appeared to be in the grip of chaos and accused Chief Minister Devendra Fadnavis, who also heads the Home Department, of failing to maintain law and order.Referring to the murder of former Maharashtra minister Baba Siddique, the firing outside actor Salman Khan’s residence and threats to actors and film producers, Sawant questioned the state government’s efforts to rein in anti-social elements.Fadnavis speaks to Tiger Shroff, asks Mumbai Police commissioner to nab actor's assailants quicklyHe said the situation had reached a point where people who had earlier compared Maharashtra with Bihar were now saying that even Bihar was better.According to police, actor Tiger Shroff escaped unhurt after gunmen opened fire at his car in Mumbai’s Juhu area on Sunday evening. His driver and an autorickshaw driver were injured in the incident, police said.Mumbai Congress president Varsha Gaikwad demanded that Maharashtra have a separate home minister, blaming Fadnavis for the situation.मुंबईत कायदा आणि सुव्यवस्थेचे धिंडवडे!आधी सलमान खानच्या घराबाहेर गोळीबार, त्यानंतर बाबा सिद्दीकी यांची हत्या आणि आता अभिनेता टायगर श्रॉफवर गोळीबार झाल्याची बातमी!मुंबईसारख्या देशाच्या आर्थिक राजधानीत एकापाठोपाठ एक अशा घटना घडत असतील, तर मुंबईकरांच्या सुरक्षेची जबाबदारी नेमकी…&amp;mdash; Prof. Varsha Eknath Gaikwad (@VarshaEGaikwad) October 18, 2026\n \n\n“Does Mumbai have law and order? Does the police still command the same authority and respect as before? Are criminals afraid of the police?” she asked in a video statement.The Lok Sabha member said the Congress had consistently demanded that Maharashtra have a separate home minister.“If actors and political leaders are not safe, what can we say about the safety of ordinary citizens?” she asked.NCP (SP) MLA Rohit Pawar said the incident came days after the recent killing of Shiv Sena (UBT) leader Pradeep Purnekar in Thane.The firing incident involving the actor’s car was alarming, although the actor escaped unhurt, Pawar said.He also said such incidents, including the firing outside the Juhu residence of filmmaker Rohit Shetty, in Mumbai, the country’s financial capital, could undermine investor confidence.Pawar said the home portfolio should be handed over to a “competent minister” if the situation had become difficult to handle.The incident took place near Pushpa Park under Juhu police station limits in the western suburb, and the chain of events leading to the incident is being pieced together, an official said.\"Shroff is safe and has not sustained any injuries in the firing incident,\" the official reiterated."
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "'If actors & leaders not safe, then what about citizens?': Firing at Tiger Shroff’s car makes Oppn question Maharashtra govt over law and order",
-          "published_at": "Sun, 18 Oct 2026 17:00:15 +0000",
-          "url": "https://www.deccanherald.com/india/maharashtra/if-actors-leaders-not-safe-then-what-about-citizens-firing-at-tiger-shroffs-car-makes-oppn-question-maharashtra-govt-over-law-and-order-4187446"
-        },
-        {
-          "source_name": "The Hindu",
-          "headline": "Actor Tiger Shroff escapes unhurt in Juhu firing incident; suspect detained",
-          "published_at": "Sun, 18 Oct 2026 22:22:35 +0530",
-          "url": "https://www.thehindu.com/news/cities/mumbai/tiger-shroff-firing-in-mumbai-juhu-october-18-2026/article71600449.ece"
-        },
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Fadnavis speaks to Tiger Shroff, asks Mumbai Police commissioner to nab actor's assailants quickly",
-          "published_at": "Sun, 18 Oct 2026 16:46:56 +0000",
-          "url": "https://www.deccanherald.com/india/maharashtra/fadnavis-speaks-to-tiger-shroff-asks-mumbai-police-commissioner-to-nab-actors-assailants-quickly-4187484"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "‘Last warning’: Gangster Anil Pandit claims Tiger Shroff firing, warns Salman Khan",
-          "published_at": "Sun, 18 Oct 2026 16:33:23 +0000",
-          "url": "https://indianexpress.com/article/india/bollywood-tiger-shroff-car-firing-anil-pandit-lawrence-bishnoi-salman-khan-threat-juhu-10927157/"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Tiger Shroff firing: Why the Bishnoi gang claims attacks with screenshots",
-          "published_at": "Sun, 18 Oct 2026 16:24:15 +0000",
-          "url": "https://indianexpress.com/article/cities/mumbai/tiger-shroff-shot-bishnoi-gang-attack-claim-screenshot-10927159/"
-        }
-      ],
-      "source_count": 4,
-      "total_count": 19,
-      "combined_score": 7.79,
-      "brief_bullets": [
-        "Mumbai: The Opposition on Sunday criticised the Maharashtra government over the firing incident involving Bollywood actor Tiger Shroff’s car in Mumbai, alleging that law and order in the city and state had deteriorated.",
-        "In a post on X, Congress leader Sachin Sawant said Mumbai appeared to be in the grip of chaos and accused Chief Minister Devendra Fadnavis, who also heads the Home Department, of failing to maintain law and order.",
-        "Referring to the murder of former Maharashtra minister Baba Siddique, the firing outside actor Salman Khan’s residence and threats to actors and film producers, Sawant questioned the state government’s efforts to rein in anti-social elements."
-      ],
-      "why_it_matters_bullets": [
-        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
-      ],
-      "brief": "Mumbai: The Opposition on Sunday criticised the Maharashtra government over the firing incident involving Bollywood actor Tiger Shroff’s car in Mumbai, alleging that law and order in the city and state had deteriorated. In a post on X, Congress leader Sachin Sawant said Mumbai appeared to be in the grip of chaos and accused Chief Minister Devendra Fadnavis, who also heads the Home Department, of failing to maintain law and order. Referring to the murder of former Maharashtra minister Baba Siddique, the firing outside actor Salman Khan’s residence and threats to actors and film producers, Sawant questioned the state government’s efforts to rein in anti-social elements. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 120
-    },
-    {
-      "story_id": "story-12",
-      "category": "Society",
-      "primary_headline": "Chwalinska outwits Kartal to win Wuhan Open",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Chwalinska outwits Kartal to win Wuhan Open - Reuters",
-        "published_at": "Sun, 18 Oct 2026 14:20:55 GMT",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMjU3STFELXI1OUNVckJKSmxaOFBKWnhCVU1rYS1TamFWbVJ5Q0JmeG1KeEN1aHJLMnU0NjAyUWwtZEx0ZzROMm1PbS1nOGxxYzZXb3Y0SXBsWERzYk5zd2lVb3lSaEZSdE1DMVhzOFhhM0tpcjk5UTlaaVBKWDJza2s4Umh0Vmd2dy0wQTYwU1YxWjYxRzZscw?oc=5",
-        "content": "Chwalinska outwits Kartal to win Wuhan Open&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "Chwalinska outwits Kartal to win Wuhan Open - Reuters",
-          "published_at": "Sun, 18 Oct 2026 14:20:55 GMT",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMjU3STFELXI1OUNVckJKSmxaOFBKWnhCVU1rYS1TamFWbVJ5Q0JmeG1KeEN1aHJLMnU0NjAyUWwtZEx0ZzROMm1PbS1nOGxxYzZXb3Y0SXBsWERzYk5zd2lVb3lSaEZSdE1DMVhzOFhhM0tpcjk5UTlaaVBKWDJza2s4Umh0Vmd2dy0wQTYwU1YxWjYxRzZscw?oc=5"
-        },
-        {
-          "source_name": "Reuters",
-          "headline": "Injured Swiatek goes down fighting in Wuhan Open semi-final - Reuters",
-          "published_at": "Sat, 17 Oct 2026 18:27:10 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOLWFMdE8waHNobEdaMlNJNGtCclJHSk0xb0tMMGx5T3ZQTFRsbTV3NEh6RzZqR3J5WHJlRjNMYzlteEpITVhBWWk0QW1VaFktQjhnQ0phdjZSS3Y0NzIzZk1pZXpvSV84dS1pQ09OMjlzRXNNM2ozUFU1TEtvdldoQzdqRmVOWEY0a2dmQVpfR283Y2R0cHVHc3FVc0QzMlNJUTg2X1RzV1Nrdw?oc=5"
-        },
-        {
-          "source_name": "BBC News",
-          "headline": "Britain's Kartal misses out on biggest title of her career",
-          "published_at": "Sun, 18 Oct 2026 13:39:24 GMT",
-          "url": "https://www.bbc.co.uk/sport/tennis/articles/cqm2411vp3dgo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source_name": "The Guardian",
-          "headline": "Kartal denied biggest win of career after Chwalinska fightback in Wuhan Open final",
-          "published_at": "Sun, 18 Oct 2026 13:51:13 GMT",
-          "url": "https://www.theguardian.com/sport/2026/oct/18/kartal-denied-biggest-win-of-career-after-chwalinska-fightback-in-wuhan-open-final"
-        },
-        {
-          "source_name": "Sky Sports",
-          "headline": "Britain's Kartal misses out on maiden WTA 1000 title in Wuhan",
-          "published_at": "Sun, 18 Oct 2026 14:25:00 BST",
-          "url": "https://www.skysports.com/tennis/news/12040/13600536/sonay-kartal-misses-out-on-maiden-wta-1000-title-in-wuhan-open-final-defeat-to-maya-chwalinska"
-        }
-      ],
-      "source_count": 4,
-      "total_count": 6,
-      "combined_score": 3.83,
-      "brief_bullets": [
-        "Injured Swiatek goes down fighting in Wuhan Open semi-final Britain's Sonay Kartal fades from a strong position in a gripping Wuhan Open final against Grand Slam runner-up Maja Chwalinska.",
-        "French Open finalist wins 2-6, 6-4, 6-4 for her first titleKartal will become new British No 1 after record runSonay Kartal missed out on winning the biggest title of her career as her brilliant run at the Wuhan Open ended in a final defeat by Maja Chwalinska.",
-        "Kartal has enjoyed her best tournament only a fortnight after returning from six months out with a back injury, but her efforts appeared to catch up with her as she faded in a 2-6, 6-4, 6-2 loss.",
-        "Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "Injured Swiatek goes down fighting in Wuhan Open semi-final Britain's Sonay Kartal fades from a strong position in a gripping Wuhan Open final against Grand Slam runner-up Maja Chwalinska. French Open finalist wins 2-6, 6-4, 6-4 for her first titleKartal will become new British No 1 after record runSonay Kartal missed out on winning the biggest title of her career as her brilliant run at the Wuhan Open ended in a final defeat by Maja Chwalinska. Kartal has enjoyed her best tournament only a fortnight after returning from six months out with a back injury, but her efforts appeared to catch up with her as she faded in a 2-6, 6-4, 6-2 loss. Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 142
-    },
-    {
-      "story_id": "story-13",
-      "category": "Society",
-      "primary_headline": "Notre Dame Fighting Irish football",
+      "primary_headline": "Powerful Democratic Virginia state Sen. Lucas is accused of leading a marijuana criminal conspiracy",
       "primary_source": {
         "source_name": "AP News",
-        "headline": "Notre Dame Fighting Irish football - AP News",
-        "published_at": "Sun, 18 Oct 2026 15:36:07 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UeWxEaUZpcUFQaG5jYlNDcDhtRHhXcjhaYVd5cVp1a2NjZkxWdzFyQWRJWFljT2RDRUpMa0ZjN05MVHI0OXNuS0FpUG1ZVjQ1OWVJWm5GUW9lb3hnaHc3SjRPSDVUb25Y?oc=5",
-        "content": "Notre Dame Fighting Irish football&nbsp;&nbsp;AP News"
+        "headline": "Powerful Democratic Virginia state Sen. Lucas is accused of leading a marijuana criminal conspiracy - AP News",
+        "published_at": "Thu, 22 Oct 2026 21:27:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWV9EN19IUDB3X3ROUy1MNUhvTnh1cUdDMHJQeWhhLVBWTnpiNXhSQkV6a24xdWF5SXVmN184c3UwZFVzc3pOMWpOb25PZkZFbzY4LThoamJBSXJZRFBnR0hUWFBBMk5pOTUzLVFkc3BDcFhUVS1JcHROdmUtN0Q4RFh3cDVPNjRFNHM5WHFUYkZzdE9jTWt0ZW5KMTY5MXRpVms1cDluQ3Y2b19j?oc=5",
+        "content": "Powerful Democratic Virginia state Sen. Lucas is accused of leading a marijuana criminal conspiracy&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
           "source_name": "AP News",
-          "headline": "Notre Dame Fighting Irish football - AP News",
-          "published_at": "Sun, 18 Oct 2026 15:36:07 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UeWxEaUZpcUFQaG5jYlNDcDhtRHhXcjhaYVd5cVp1a2NjZkxWdzFyQWRJWFljT2RDRUpMa0ZjN05MVHI0OXNuS0FpUG1ZVjQ1OWVJWm5GUW9lb3hnaHc3SjRPSDVUb25Y?oc=5"
-        },
-        {
-          "source_name": "AP News",
-          "headline": "Bachmeier leads winning drive, No. 8 BYU outlasts No. 2 Notre Dame 28-24 but Big 12 admits mistake - AP News",
-          "published_at": "Sun, 18 Oct 2026 14:01:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdTNMNzhmdWZzQm1iZmVKTFVfNVlzRUtaRVhILTFOR3RFTjBSeUtKbHg0cXoza29NczFQcU5PYVJ6dkQ3bDc4SU4za21udG5EWFVmb1ZjWVNvNjUyVjFRdFNQSjZSQ0xNMENBb3l6ZEVwX3hGUE0wLTdhWU9ONkJxS3pBaE9FRWNwbUdIQVlnVy1wcHc?oc=5"
+          "headline": "Powerful Democratic Virginia state Sen. Lucas is accused of leading a marijuana criminal conspiracy - AP News",
+          "published_at": "Thu, 22 Oct 2026 21:27:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWV9EN19IUDB3X3ROUy1MNUhvTnh1cUdDMHJQeWhhLVBWTnpiNXhSQkV6a24xdWF5SXVmN184c3UwZFVzc3pOMWpOb25PZkZFbzY4LThoamJBSXJZRFBnR0hUWFBBMk5pOTUzLVFkc3BDcFhUVS1JcHROdmUtN0Q4RFh3cDVPNjRFNHM5WHFUYkZzdE9jTWt0ZW5KMTY5MXRpVms1cDluQ3Y2b19j?oc=5"
         },
         {
           "source_name": "Reuters",
-          "headline": "In France's Limoges, the fire-ravaged town hall rekindles memories of Notre Dame - Reuters",
-          "published_at": "Sun, 18 Oct 2026 12:45:09 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTWltTVc0eTlSb1h1dnRjTUoyam5sQUMzODdwMVFqOEZpMmJfaDM2ZDVpWm1VSjAxOEs5c2FLN051SWo3R3JLSmRyMGVsX2RlcGFZajhlVWxBY0dwNDRVRGQ3RkdkNGVXVkRpeXdBSmt1R0lzWGdLLTJpeklQTkR2NVFTd0N6VGs2eFFRQ3N6TnluZ19PamJlSVY0YlA0NWRmc3dNWWtvZzNqTDRhMWZZ?oc=5"
+          "headline": "Top Democratic Virginia lawmaker charged by DOJ with running illegal cannabis operation - Reuters",
+          "published_at": "Thu, 22 Oct 2026 18:20:37 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOc0xFbHRnZ0VNY3ZGOXExUkVOWGM0TG8tanhZSjduQzkxc181cGllQWdRMngyeUF3SGJrWkMxd0lFOW5sTTBxVngzeTFRR1ktY0lvQmpEakxKaTZvYmJ6Q1pvVGpWUUR3bHpCS0g2bGIwRHRrbmo5MnY0bGZFWEluTnhmYzQ0NTlvMERBd0FhN0ZQeG5Qc0MxV1ExbV9BQVJ2TmN1OVN1dldDNlNwM1lyQ1d6T1o1cjlfM1V1dFJWTUFWdzd3SzhNd3Vn?oc=5"
         },
         {
+          "source_name": "Washington Post",
+          "headline": "Virginia state Sen. L. Louise Lucas indicted in connection with marijuana business - The Washington Post",
+          "published_at": "Fri, 23 Oct 2026 04:23:16 GMT",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTXo4M0FhRzNpblkwRVl4R09EUWRvbW9iWmxiMVNscXBmYXN4b2pGVVA3aDBYSjNtcjN2cWNsUmtUbXdOcWo1S2VVMkhSX09kcUUtM2xZdGp1Q3cwNFZYM3J0YUVsYXo1TUh0QWVNNHc4MHMxbXNxR2lmT1QtMmZDckRQNk1mcGNON25Md09OVWVfdElFS0lUUGc1MXVrQjZ1Szh1aThhX081Y1llU1ZVRnhUeWNfaVd5dlRWRHBxMDNpckhkSDh2ZG9YaWp0a0xUY3hOVEVESUtvZmM?oc=5"
+        },
+        {
+          "source_name": "Washington Post",
+          "headline": "Read the indictment of Virginia state Sen. L. Louise Lucas - The Washington Post",
+          "published_at": "Thu, 22 Oct 2026 23:15:09 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUjJvaGtWVWl5c3BNUnlfUHYwdmRDTmZneGtTekRnVHlwdFo0ajE4Ny1SdDZkZDB4b1hHQXRpeHZ5LTY0V1hXWE1HRWxURUVNQnp5akVQZ0ZmQk95cnFiM1BJWlMyMkRpZGVJSzhjeVpEY0hKaEJOcVpXeGdvYVNmQi1YekdsdklsRlRwVG44ejJEUDcxM0s2VVEwZkUzZkhRSEFOYVAwelR3cG5NYUIydllOT09UZjltTWdSV0poTmo?oc=5"
+        },
+        {
+          "source_name": "CNN",
+          "headline": "Virginia state Sen. L. Louise Lucas indicted on drug and money laundering charges - CNN",
+          "published_at": "Thu, 22 Oct 2026 13:51:01 GMT",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE80QWVMc1dFUVpBVm1SandJbHNHVGwzQzJWUmZIRTMwTWhJbWM2MHR0NGk2RHpzeG83ZVllTDYyT0hGS09uV3V3QTJkd2tIWnBUb1ItVkdURnJwTThfX240SmRibXRIYllfU3NmOEE2Z3ZIRXR0a2ppcHFGTGJOMTQ?oc=5"
+        }
+      ],
+      "source_count": 4,
+      "total_count": 5,
+      "combined_score": 3.5,
+      "brief_bullets": [
+        "Virginia state Senator L. Louise Lucas, a prominent Democratic leader, has been indicted by the Department of Justice on serious charges including leading an illegal marijuana criminal conspiracy and money laundering. The federal indictment alleges that Lucas leveraged her political influence to facilitate an illicit cannabis operation, marking a significant legal escalation against a high-ranking state official. This development has sent shockwaves through the Virginia General Assembly, raising profound questions regarding legislative integrity and the potential for severe political fallout within the state’s Democratic caucus. As federal prosecutors move forward with the case, the investigation threatens to destabilize local political dynamics and complicate ongoing legislative efforts surrounding the state’s evolving marijuana regulatory framework."
+      ],
+      "why_it_matters_bullets": [
+        "The indictment threatens Democratic legislative control and undermines public trust in Virginia’s regulatory oversight of the cannabis industry."
+      ],
+      "brief": "Virginia state Senator L. Louise Lucas, a prominent Democratic leader, has been indicted by the Department of Justice on serious charges including leading an illegal marijuana criminal conspiracy and money laundering. The federal indictment alleges that Lucas leveraged her political influence to facilitate an illicit cannabis operation, marking a significant legal escalation against a high-ranking state official. This development has sent shockwaves through the Virginia General Assembly, raising profound questions regarding legislative integrity and the potential for severe political fallout within the state’s Democratic caucus. As federal prosecutors move forward with the case, the investigation threatens to destabilize local political dynamics and complicate ongoing legislative efforts surrounding the state’s evolving marijuana regulatory framework. The indictment threatens Democratic legislative control and undermines public trust in Virginia’s regulatory oversight of the cannabis industry.",
+      "brief_word_count": 131
+    },
+    {
+      "story_id": "story-18",
+      "category": "Society",
+      "primary_headline": "Thousands gather in Paris after a court lifts a protest ban despite fears of new violence",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Thousands gather in Paris after a court lifts a protest ban despite fears of new violence - AP News",
+        "published_at": "Thu, 22 Oct 2026 16:43:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNGlhWmUxSkoxRjVmNFNQc1E3Y24tRWxiT2k0d1d3TlNESnVPR2VqVEtOSURGTy1pNWtLcDVBZEd2aFJtVjI4dzhqVzVaUEJMUWRpQW5neW1aX05PQ3NJV0hKOXhlcVJmRVFuN0NhRU9hMWM5bHB4SXVCWDRkUUdzbzRVZXJSSHdqU2tIU3hzYUdtaldXX0RieDRR?oc=5",
+        "content": "Thousands gather in Paris after a court lifts a protest ban despite fears of new violence&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
           "source_name": "AP News",
-          "headline": "Red-zone failures cost No. 2 Notre Dame against No. 8 BYU - AP News",
-          "published_at": "Sun, 18 Oct 2026 06:01:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMcE02aUNWX3dId2p5MnR5Sk54cDVmcWY0Nk1SZDZSNVJQT2c5eW5kLUxtLW9oTkM1WHdYT21mVTY4UXVoQ0FfZS1ZSjRsazZMRnhLWEhTUGxPUGZBbjVlSUhWbVNPNlRsaVBsQzZTOUtLVzdDS1duZFFGb0xjRDg?oc=5"
+          "headline": "Thousands gather in Paris after a court lifts a protest ban despite fears of new violence - AP News",
+          "published_at": "Thu, 22 Oct 2026 16:43:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNGlhWmUxSkoxRjVmNFNQc1E3Y24tRWxiT2k0d1d3TlNESnVPR2VqVEtOSURGTy1pNWtLcDVBZEd2aFJtVjI4dzhqVzVaUEJMUWRpQW5neW1aX05PQ3NJV0hKOXhlcVJmRVFuN0NhRU9hMWM5bHB4SXVCWDRkUUdzbzRVZXJSSHdqU2tIU3hzYUdtaldXX0RieDRR?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "France's Macron tightens curbs on protests, blaming hard left for unrest - Reuters",
+          "published_at": "Thu, 22 Oct 2026 11:26:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdHhBdkpVMVZzcjFPVTR6dkJIR1VJcGR3QXBOeFRHRFJuZFBGM2hWYzczWXdMUFdjVnpsYzI0RE1nZzhIMUNaQzVQMHRKa1VxcnpsaHJzalQzNHJXb2lkbDd3WkJQdXItb1UtZmpQNmQwQzQtV1VfUkJtdHpTR3p4OG95dmM3UkozM3FxWm5WMF9wMl9qQVVJR0l5NmxzV1pzVWtzVy1HXzQwSGRKTVlEZWtB?oc=5"
         },
         {
           "source_name": "NDTV",
-          "headline": "France's Limoges Town Hall Survived World Wars, Now Destroyed In Clashes",
-          "published_at": "Sun, 18 Oct 2026 07:42:59 +0530",
-          "url": "https://www.ndtv.com/world-news/france-protest-limoges-town-hall-survived-world-wars-destroyed-in-clashes-paris-riots-cost-of-living-12201101#publisher=newsstand"
-        }
-      ],
-      "source_count": 4,
-      "total_count": 6,
-      "combined_score": 3.8,
-      "brief_bullets": [
-        "AP News Bachmeier leads winning drive, No.",
-        "8 BYU outlasts No.",
-        "2 Notre Dame 28-24 but Big 12 admits mistake AP News In France's Limoges, the fire-ravaged town hall rekindles memories of Notre Dame Red-zone failures cost No.",
-        "2 Notre Dame against No.",
-        "8 BYU AP News The one in the city of Limoges -- more than 140 years old -- was largely destroyed by a blaze set by masked protesters who broke in."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "AP News Bachmeier leads winning drive, No. 8 BYU outlasts No. 2 Notre Dame 28-24 but Big 12 admits mistake AP News In France's Limoges, the fire-ravaged town hall rekindles memories of Notre Dame Red-zone failures cost No. 2 Notre Dame against No. 8 BYU AP News The one in the city of Limoges -- more than 140 years old -- was largely destroyed by a blaze set by masked protesters who broke in. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 87
-    },
-    {
-      "story_id": "story-15",
-      "category": "Society",
-      "primary_headline": "Hurricane Trudy brings heavy rain and strong winds to Mexico’s Pacific coast",
-      "primary_source": {
-        "source_name": "AP News",
-        "headline": "Hurricane Trudy brings heavy rain and strong winds to Mexico’s Pacific coast - AP News",
-        "published_at": "Sun, 18 Oct 2026 15:13:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQk1CaFJzdndtbXhWVTJOMGt5WlZ5RDlzSDVEeklqU3ZuMzJPOThZOTV2cG5IWDVIMi1lSFJXWkhVdVg4OGdoajdEb0hhWWlxbVVuNkc2bGc2RlJZZTN5MDEyM2oxRU9UdkVYcWhGRHQzLUt6NktVemhJYnpTMG9MRUtJMXFSTzA3REFkcEhOTHd5ZEZBUndfZHVrR1BoeFFsRXJ1aA?oc=5",
-        "content": "Hurricane Trudy brings heavy rain and strong winds to Mexico’s Pacific coast&nbsp;&nbsp;AP News"
-      },
-      "sources": [
-        {
-          "source_name": "AP News",
-          "headline": "Hurricane Trudy brings heavy rain and strong winds to Mexico’s Pacific coast - AP News",
-          "published_at": "Sun, 18 Oct 2026 15:13:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQk1CaFJzdndtbXhWVTJOMGt5WlZ5RDlzSDVEeklqU3ZuMzJPOThZOTV2cG5IWDVIMi1lSFJXWkhVdVg4OGdoajdEb0hhWWlxbVVuNkc2bGc2RlJZZTN5MDEyM2oxRU9UdkVYcWhGRHQzLUt6NktVemhJYnpTMG9MRUtJMXFSTzA3REFkcEhOTHd5ZEZBUndfZHVrR1BoeFFsRXJ1aA?oc=5"
+          "headline": "Thousands March On Paris Streets After Court Lifts Macron's Protest Ban",
+          "published_at": "Fri, 23 Oct 2026 07:55:44 +0530",
+          "url": "https://www.ndtv.com/world-news/thousands-march-on-paris-streets-after-court-lifts-emmanuel-macrons-protest-ban-12223139#publisher=newsstand"
         },
         {
-          "source_name": "Reuters",
-          "headline": "Hurricane Trudy lashes Mexico's Pacific coast, but is set to weaken tonight - Reuters",
-          "published_at": "Sun, 18 Oct 2026 13:55:43 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOemk4X2xPTVdPcGIyVGlJTjhxOVE2b1o1Q293MldnX1NPQTdQVzJJc3hqYmVWT0xkMkhaMFF4LTJZY1RNSFZaRmlEMGQtX3d0TmZYdWU1NnMxeWZXZmp6WjByX0xDZEt6Z0dRRjE5eVBLWlByZGgyNHVCMGR0d3FuS2NOWHJodjJJZGYzcXVGaENKc01HaUd0VjlZeENPWjV2bHZBWFA3a1FITGFaMWtXdWNNRmpERmZ1ZFEyOTBEZHE?oc=5"
-        },
-        {
-          "source_name": "AP News",
-          "headline": "Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast - AP News",
-          "published_at": "Sun, 18 Oct 2026 03:38:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSlJRdElHVjVoLTVtTE01UWdmVjRrNkh4TnllLXNhNXZ1Y1c1RDRyWXVQUlBPQTJLZmVkM0RlNkhHdk1KMXRsZ2pnY05RZ19EdTVrNWZVbVJBNThZVmxPSkRlaGJ3T1RtMk0zY3lxQ3ItVHNWOTFndnpQLWRJTEVLX2VFRmtjekpRZkxfMmx0dzlhb2xkZlVWY0lPczFwVC1OX2poZw?oc=5"
-        },
-        {
-          "source_name": "Reuters",
-          "headline": "Hurricane Trudy gains strength near Mexico's coast, but is expected to weaken by Sunday - Reuters",
-          "published_at": "Sat, 17 Oct 2026 23:33:43 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQUdGblRuOW5ZdjFTRUR1WkFYdEZKeDAxbjVscWNybm1RS3ZwelZlT084SVFHOFFRcDY5U1dlNUYtNkJKdHJUZEJITmZBeFBCSEZsR1RfNzdwcTY4ejNON0JycmgxN21xSTRPUjRFM2Uyd1ViNkdaZWdPQUJrUTRZd1dUVWIxOGI0Z1UxYjVkaDlZYUVzN3psc3g0bzF3OGo4MkF0NU9ZTmkzZC1zM0g4SUhRWTRqYUI0NWNaYmljYTFVSHM1eHU3d2pR?oc=5"
+          "source_name": "NDTV",
+          "headline": "Video: Thousands Gather To Protest As Serbian Ex-President Runs For PM",
+          "published_at": "Fri, 23 Oct 2026 00:27:28 +0530",
+          "url": "https://www.ndtv.com/world-news/video-thousands-gather-to-protest-as-serbian-ex-president-runs-for-pm-12222470#publisher=newsstand"
         },
         {
           "source_name": "The Guardian",
-          "headline": "Hurricane Trudy strengthens to category 2 as it heads toward Mexico",
-          "published_at": "Sat, 17 Oct 2026 23:24:40 GMT",
-          "url": "https://www.theguardian.com/world/2026/oct/17/hurricane-trudy-mexico"
+          "headline": "Macron bans ‘illegitimate’ protests in France as he tries to get a grip on unrest",
+          "published_at": "Thu, 22 Oct 2026 15:54:13 GMT",
+          "url": "https://www.theguardian.com/world/2026/oct/22/macron-ban-illegitimate-demonstrations-france-unrest"
         }
       ],
-      "source_count": 3,
+      "source_count": 4,
       "total_count": 5,
-      "combined_score": 3.06,
+      "combined_score": 3.5,
       "brief_bullets": [
-        "AP News Hurricane Trudy lashes Mexico's Pacific coast, but is set to weaken tonight Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast AP News Hurricane Trudy gains strength near Mexico's coast, but is expected to weaken by Sunday Hurricane warning in effect from Manzanillo to Cabo Corrientes as storm moves toward Pacific coastTrudy strengthened to a category 2 hurricane as it moved toward Mexico’s south-western and west-central Pacific coast on Saturday, the US National Hurricane Center said.",
-        "A hurricane warning was in effect from Manzanillo in Colima state to Cabo Corrientes in Jalisco.",
-        "The latest NHC data showed Trudy with maximum sustained winds of 100mph (155km/h) and about 205 miles (330km) south/south-east of Cabo Corrientes and 115 miles (180km) south/south-west of Manzanillo, moving north-west at 10mph (17km/h)."
+        "Thousands of demonstrators gathered in Paris following a court decision to lift a prior protest ban, amid lingering concerns over potential violence stemming from ongoing cost of living demonstrations. French President Emmanuel Macron responded to the severe street unrest by tightening curbs on public assemblies and condemning the involvement of radical far-left groups. Following emergency security consultations with intelligence officials and senior ministers, Macron announced that authorized demonstrations may proceed under modified routes while illegitimate gatherings remain strictly banned."
       ],
       "why_it_matters_bullets": [
-        "Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
+        "The policy tightens state control over civil liberties, balancing public safety against democratic rights amid rising economic tensions."
       ],
-      "brief": "AP News Hurricane Trudy lashes Mexico's Pacific coast, but is set to weaken tonight Hurricane Trudy strengthens to Category 2 as it approaches Mexico coast AP News Hurricane Trudy gains strength near Mexico's coast, but is expected to weaken by Sunday Hurricane warning in effect from Manzanillo to Cabo Corrientes as storm moves toward Pacific coastTrudy strengthened to a category 2 hurricane as it moved toward Mexico’s south-western and west-central Pacific coast on Saturday, the US National Hurricane Center said. A hurricane warning was in effect from Manzanillo in Colima state to Cabo Corrientes in Jalisco. The latest NHC data showed Trudy with maximum sustained winds of 100mph (155km/h) and about 205 miles (330km) south/south-east of Cabo Corrientes and 115 miles (180km) south/south-west of Manzanillo, moving north-west at 10mph (17km/h). Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
-      "brief_word_count": 144
+      "brief": "Thousands of demonstrators gathered in Paris following a court decision to lift a prior protest ban, amid lingering concerns over potential violence stemming from ongoing cost of living demonstrations. French President Emmanuel Macron responded to the severe street unrest by tightening curbs on public assemblies and condemning the involvement of radical far-left groups. Following emergency security consultations with intelligence officials and senior ministers, Macron announced that authorized demonstrations may proceed under modified routes while illegitimate gatherings remain strictly banned. The policy tightens state control over civil liberties, balancing public safety against democratic rights amid rising economic tensions.",
+      "brief_word_count": 97
+    },
+    {
+      "story_id": "story-19",
+      "category": "Society",
+      "primary_headline": "Harry Brook's record ODI double ton in vain as Sri Lanka pull off epic chase",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "Harry Brook's record ODI double ton in vain as Sri Lanka pull off epic chase",
+        "published_at": "Fri, 23 Oct 2026 07:51:47 +0000",
+        "url": "https://www.deccanherald.com/sports/cricket/harry-brooks-record-odi-double-ton-in-vain-as-sri-lanka-pull-off-epic-chase-4192419",
+        "content": " Sri Lanka pulled off an epic chase despite Harry Brook smashing the fastest double-century in One-day International (ODI) history in the tri-series match at Rawalpindi. Quick summary - click for full detailsConcise summary of key highlightsHarry Brook's record ODI double ton in vain as Sri Lanka pull off epic chaseIn one lineHarry Brook's record-breaking ODI double century was in vain as Sri Lanka pulled off an epic run chase to win.Key highlights• Brook's Record-Breaking InningsEngland captain Harry Brook smashed the fastest double-century in ODI history, making 202 off 116 balls and becoming the first Englishman to score 200 in the format.• Sri Lanka's Epic Run ChaseSri Lanka successfully chased down England's mammoth total of 429 for four, sealing a two-wicket win with one ball to spare in the second-highest successful run chase in ODI history.• Standout Batting PerformancesPavan Rathnayake top-scored for Sri Lanka with 130 runs, while teammates Avishka Fernando and Dasun Shanaka both narrowly missed out on centuries with 97 runs each.• Tournament Standings ImpactThe defeat leaves England at the bottom of the tri-series standings after losing both their opening matches, requiring wins in their remaining games to reach the final.Key statistics202Brook's record double-century score429 for fourEngland's innings total130Pavan Rathnayake's top score for Sri Lanka435Record for highest ODI chase set by South Africa2006Year South Africa set the highest ODI chase recordProcessed with AI. Reviewed by DH Digital Team.The England captain hit the fastest-ever ODI double hundred, making 202 off 116 balls to propel his team to a mammoth 429 for four after they were put in to bat.Batters thoroughly dominated in Rawalpindi as Brook also hit the first ODI double century by an England player. However, Sri Lanka proved up to the challenge as Pavan Rathnayake scored 130, with Avishka Fernando and Dasun Shanaka both making 97.South Africa hold the record for the highest ODI chase, knocking off a target of 435 against Australia at Johannesburg in 2006.Brook became the first Englishman to score 200 in the format, but Sri Lanka sealed a two-wicket win with one ball to spare.ICC Test Rankings | Brook reclaims top spot, Bumrah stays as No.1 bowlerThe 27-year-old rewrote the record books by racing to his double hundred in 114 balls, surpassing the previous mark of 117 deliveries set by India's Shubman Gill.In the process, Brook also eclipsed England's highest individual ODI score of 182, held by all-rounder Ben Stokes.ICC rankings | Iyer rises to career-best 7th in T20Is; Gill consolidates numero uno position in ODIsBrook's scintillating performance ended with the final ball of England's innings when he was caught by Sahan Arachchige off the bowling of Janith Liyanage.He made 202 from 116 deliveries, peppering the Sri Lanka attack with 21 fours and 10 sixes before departing to warm applause from the crowd.The defeat leaves England bottom of the standings after losing both their matches, with Brook saying they need to win their next two games to reach the final in Lahore.Joe Root provided strong support with 69 off 66 balls.But the total proved insufficient as Sri Lanka completed the second-highest successful run chase in ODI history.Pavan Rathnayake top-scored with 130 from 106 deliveries, while opener Avishka Fernando and Dasun Shanaka both fell three runs short of centuries.Needing six runs from the final two deliveries, Sri Lanka sealed victory when Liyanage launched Josh Tongue over long-off for six, leaving Brook's record-breaking innings all in vain.Tongue was England's most successful bowler with 3-79.England lost by 87 runs at the same venue in Rawalpindi to Pakistan, who lead the table with two wins from two.Pakistan, who beat Sri Lanka and England in their two games, will face England in Lahore on Sunday in the next match in the tri-series. "
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Harry Brook's record ODI double ton in vain as Sri Lanka pull off epic chase",
+          "published_at": "Fri, 23 Oct 2026 07:51:47 +0000",
+          "url": "https://www.deccanherald.com/sports/cricket/harry-brooks-record-odi-double-ton-in-vain-as-sri-lanka-pull-off-epic-chase-4192419"
+        },
+        {
+          "source_name": "Al Jazeera",
+          "headline": "Sri Lanka beat England to overcome Harry Brook hitting fastest 200 in ODIs - Al Jazeera",
+          "published_at": "Thu, 22 Oct 2026 17:30:14 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZGRLQTRLbS0tMkFPZ1pJNC1WaWxEc29hdjZXSmxrQUdENHBKbldQWms4MDNFWURiQTRLejA1bTJQT0tRX1kyMEdDamFhWjFPRW5iaTdkTDllQjE5dFR1ZG4zWGd6WHNSNkF2S09RSHhvZkhSc3ZUREhudmJyeUNPbGV6U2ZWRUsxTkx5UG5kajM2eXFZUHpqMkFaNkRmY3dIVFpjWHlsUjBrRG4zTENUYlpKcWtKOWJueGfSAb8BQVVfeXFMUFF5Z19aaDB2cnZXbDdmVWpIYWZsbTVBQVNZMVpHaXkwLWxOd05YZElNY3JDVEI3NWd2SmN6QUdtVWlQdGJKSDZpTFZDX0VUS1NOTUVXd2Fld2o4YVpDX05hN1V3eFV0ZUUxUzg4dkNjQUczMi1sRTJhWmFnTW0takhKUWNZYlI0TDdBb2tzVGlleTJUc3VreGIzeEZCS09WQ3Z4ZVJtazl5ckxmTEJ2Vm5ZWjBCR3VuMXJrX0MwLUU?oc=5"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Harry Brook breaks Shubman Gill’s record for fastest ODI double century",
+          "published_at": "Thu, 22 Oct 2026 12:16:59 +0000",
+          "url": "https://indianexpress.com/article/sports/cricket/harry-brook-fastest-odi-double-century-114-balls-vs-sri-lanka-10932454/"
+        },
+        {
+          "source_name": "Sky Sports",
+          "headline": "Sri Lanka stun England in astonishing ODI epic!",
+          "published_at": "Thu, 22 Oct 2026 17:46:00 BST",
+          "url": "https://www.skysports.com/watch/video/13602412/sri-lanka-stun-england-with-record-breaking-comeback-sri-lanka-vs-england-odi-highlights"
+        }
+      ],
+      "source_count": 4,
+      "total_count": 4,
+      "combined_score": 3.29,
+      "brief_bullets": [
+        "England captain Harry Brook made history by smashing the fastest double-century in One-day International (ODI) history, scoring 202 off 116 balls against Sri Lanka in a tri-series match at Rawalpindi. His record-breaking innings, the first ODI double ton by an Englishman, propelled England to a mammoth 429 for four. However, Sri Lanka mounted an extraordinary chase, with Pavan Rathnayake scoring 130 and Avishka Fernando and Dasun Shanaka both adding 97, ultimately securing a two-wicket victory with one ball to spare. This epic pursuit marks the second-highest successful run chase in ODI history, leaving England at the bottom of the tournament standings after two defeats."
+      ],
+      "why_it_matters_bullets": [
+        "This historic match highlights cricket's evolving high-scoring dynamics and significantly impacts England's tri-series progression."
+      ],
+      "brief": "England captain Harry Brook made history by smashing the fastest double-century in One-day International (ODI) history, scoring 202 off 116 balls against Sri Lanka in a tri-series match at Rawalpindi. His record-breaking innings, the first ODI double ton by an Englishman, propelled England to a mammoth 429 for four. However, Sri Lanka mounted an extraordinary chase, with Pavan Rathnayake scoring 130 and Avishka Fernando and Dasun Shanaka both adding 97, ultimately securing a two-wicket victory with one ball to spare. This epic pursuit marks the second-highest successful run chase in ODI history, leaving England at the bottom of the tournament standings after two defeats. This historic match highlights cricket's evolving high-scoring dynamics and significantly impacts England's tri-series progression.",
+      "brief_word_count": 118
     },
     {
       "story_id": "story-20",
       "category": "Society",
-      "primary_headline": "India, West Indies draw T20 series after rain washes out decider",
+      "primary_headline": "Europe's killer heat this summer claims 50,000 lives. Climate change blamed for two-thirds of deaths",
       "primary_source": {
-        "source_name": "Reuters",
-        "headline": "India, West Indies draw T20 series after rain washes out decider - Reuters",
-        "published_at": "Sat, 17 Oct 2026 17:17:11 GMT",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaTNBSXc2emdJWDNveVhJaG1qN0hRRlhOa1Bndk9JczU0NGlGbU1ZNG9tRS1lOWRUd2EyWkRqT1J5dnZfb0p3VlhDUDlsZ2FCVDl6RUVSTTZ2SExaVFVXNURPUUdGLU4yejBwZ0FWN2JtbkFiVHd4RGlQdW1iempPaWxtTVFxSElSc2lUSm5hLUh4REhZcTR5NmUzbklCVEV1cFc1Y012UzZzYWc5Qms3N3cxczc?oc=5",
-        "content": "India, West Indies draw T20 series after rain washes out decider&nbsp;&nbsp;Reuters"
+        "source_name": "AP News",
+        "headline": "Europe's killer heat this summer claims 50,000 lives. Climate change blamed for two-thirds of deaths - AP News",
+        "published_at": "Thu, 22 Oct 2026 23:28:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxON2Y3SGtTSE5PWlZPdlBnMkUyck9CY3FyUTR6bGx2aHVJQmY3a3kwU0xTSEVHNDB0UE9mdDFjZlJzNVFDaWtkc3ZCcExFOXYwWm4yYXNsblJGeFlZN3pzcVFuN3VzZ3hqVG1zZk1EakhJZ1VJcHh2eloxYlFlRmZXUFphcUc1Y2hZZDdISUUwdHVFdE1TMjVlX0NkLWdqYWhwZmc?oc=5",
+        "content": "Europe's killer heat this summer claims 50,000 lives. Climate change blamed for two-thirds of deaths&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
-          "source_name": "Reuters",
-          "headline": "India, West Indies draw T20 series after rain washes out decider - Reuters",
-          "published_at": "Sat, 17 Oct 2026 17:17:11 GMT",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaTNBSXc2emdJWDNveVhJaG1qN0hRRlhOa1Bndk9JczU0NGlGbU1ZNG9tRS1lOWRUd2EyWkRqT1J5dnZfb0p3VlhDUDlsZ2FCVDl6RUVSTTZ2SExaVFVXNURPUUdGLU4yejBwZ0FWN2JtbkFiVHd4RGlQdW1iempPaWxtTVFxSElSc2lUSm5hLUh4REhZcTR5NmUzbklCVEV1cFc1Y012UzZzYWc5Qms3N3cxczc?oc=5"
+          "source_name": "AP News",
+          "headline": "Europe's killer heat this summer claims 50,000 lives. Climate change blamed for two-thirds of deaths - AP News",
+          "published_at": "Thu, 22 Oct 2026 23:28:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxON2Y3SGtTSE5PWlZPdlBnMkUyck9CY3FyUTR6bGx2aHVJQmY3a3kwU0xTSEVHNDB0UE9mdDFjZlJzNVFDaWtkc3ZCcExFOXYwWm4yYXNsblJGeFlZN3pzcVFuN3VzZ3hqVG1zZk1EakhJZ1VJcHh2eloxYlFlRmZXUFphcUc1Y2hZZDdISUUwdHVFdE1TMjVlX0NkLWdqYWhwZmc?oc=5"
         },
         {
           "source_name": "The Indian Express",
-          "headline": "Daren Sammy hopes West Indies gets an arm around the shoulder financially after 2-2 draw in India",
-          "published_at": "Sun, 18 Oct 2026 11:00:37 +0000",
-          "url": "https://indianexpress.com/article/sports/cricket/west-indies-financial-help-head-coach-daren-sammy-10926845/"
+          "headline": "For Europe, a summer of record heat and 50,000 estimated deaths",
+          "published_at": "Fri, 23 Oct 2026 05:40:16 +0000",
+          "url": "https://indianexpress.com/article/india/europe-heat-deaths-50000-climate-change-2026-10933301/"
         },
         {
-          "source_name": "The Indian Express",
-          "headline": "Washout in Bengaluru: Rain forces 2-2 series draw between India and West Indies",
-          "published_at": "Sat, 17 Oct 2026 17:30:03 +0000",
-          "url": "https://indianexpress.com/article/sports/cricket/washout-bengaluru-rain-forces-series-draw-india-west-indies-10926204/"
+          "source_name": "NDTV",
+          "headline": "50,000 Deaths, Nearly $19 Billion GDP Hit: What Extreme Summer Cost Europe",
+          "published_at": "Fri, 23 Oct 2026 08:34:58 +0530",
+          "url": "https://www.ndtv.com/world-news/50-000-deaths-nearly-usd-19-billion-gdp-hit-what-extreme-summer-cost-europe-12218330#publisher=newsstand"
         },
         {
-          "source_name": "Deccan Herald",
-          "headline": "Bengaluru T20 | Rain washes out series decider; India and West Indies share honours",
-          "published_at": "Sat, 17 Oct 2026 17:27:44 +0000",
-          "url": "https://www.deccanherald.com/sports/cricket/bengaluru-t20-rain-washes-out-series-decider-india-and-west-indies-share-honours-4186711"
+          "source_name": "CNN",
+          "headline": "‘Worst on record’: Brutal summer heat wave killed more than 50,000 in Europe’s cities - CNN",
+          "published_at": "Thu, 22 Oct 2026 23:01:15 GMT",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4wQkxxRlBsMnNUaUt1VjhOOG1Dd0JtcUt6MGswNmFaNVBiYm5BVElyd3JmdXA2a0dPVXd4VXlER21JMVRETWY1eTdLYnlON19BWmllSEhrbXZILTh2T2ZTQWFEWWRyWERFVm1fek50XzhIOGZ1ZU9N?oc=5"
         }
       ],
-      "source_count": 3,
+      "source_count": 4,
       "total_count": 4,
-      "combined_score": 2.73,
+      "combined_score": 3.29,
       "brief_bullets": [
-        "Daren Sammy hopes West Indies gets an arm around the shoulder financially after 2-2 draw in India Washout in Bengaluru: Rain forces 2-2 series draw between India and West Indies The deciding T20 International between India and the West Indies at M Chinnaswamy Cricket Stadium in Bengaluru was abandoned due to rain with the series ending in a 2-2 draw.",
-        "India posted 118 for five in the rain-shortened match, which had earlier been reduced to nine overs per side after two hours of play were lost to rain.",
-        "Ishan Kishan smashed 30 off just 10 balls after opener Abhishek Sharma fell early, while skipper Shreyas Iyer scored 22 and Naman Dhir remained unbeaten on 24.",
-        "Bengaluru T20 | Bhuvneshwar Kumar returns as West Indies put India to bat, match reduced to 9-overs-a-sideIndia had batted 7."
+        "Europe experienced a catastrophic summer as record-breaking heat waves claimed an estimated 50,000 lives across the continent. Scientific analysis confirms that climate change is directly responsible for two-thirds of these fatalities, highlighting the lethal intersection of rising global temperatures and urban vulnerability. The extreme conditions crippled vital infrastructure, causing widespread transport failures, hospital overheating, and the destruction of homes through intense wildfires. This surge in mortality underscores the urgent need for systemic adaptation strategies as heat-related health risks escalate. Policymakers now face mounting pressure to overhaul public health protocols and urban planning to mitigate the human cost of increasingly frequent and severe thermal events that threaten to overwhelm existing societal resilience and emergency response capabilities."
       ],
       "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+        "The death toll signals a critical failure in climate adaptation, necessitating immediate infrastructure overhauls to prevent future mass casualties."
       ],
-      "brief": "Daren Sammy hopes West Indies gets an arm around the shoulder financially after 2-2 draw in India Washout in Bengaluru: Rain forces 2-2 series draw between India and West Indies The deciding T20 International between India and the West Indies at M Chinnaswamy Cricket Stadium in Bengaluru was abandoned due to rain with the series ending in a 2-2 draw. India posted 118 for five in the rain-shortened match, which had earlier been reduced to nine overs per side after two hours of play were lost to rain. Ishan Kishan smashed 30 off just 10 balls after opener Abhishek Sharma fell early, while skipper Shreyas Iyer scored 22 and Naman Dhir remained unbeaten on 24. Bengaluru T20 | Bhuvneshwar Kumar returns as West Indies put India to bat, match reduced to 9-overs-a-sideIndia had batted 7. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 148
+      "brief": "Europe experienced a catastrophic summer as record-breaking heat waves claimed an estimated 50,000 lives across the continent. Scientific analysis confirms that climate change is directly responsible for two-thirds of these fatalities, highlighting the lethal intersection of rising global temperatures and urban vulnerability. The extreme conditions crippled vital infrastructure, causing widespread transport failures, hospital overheating, and the destruction of homes through intense wildfires. This surge in mortality underscores the urgent need for systemic adaptation strategies as heat-related health risks escalate. Policymakers now face mounting pressure to overhaul public health protocols and urban planning to mitigate the human cost of increasingly frequent and severe thermal events that threaten to overwhelm existing societal resilience and emergency response capabilities. The death toll signals a critical failure in climate adaptation, necessitating immediate infrastructure overhauls to prevent future mass casualties.",
+      "brief_word_count": 134
     },
     {
       "story_id": "story-21",
       "category": "Society",
-      "primary_headline": "US resumes intelligence-sharing with Ukraine after pause, Zelenskiy says",
+      "primary_headline": "Execution staff warned IV site might have ‘blown’ during Christa Pike’s execution attempt",
       "primary_source": {
-        "source_name": "Reuters",
-        "headline": "US resumes intelligence-sharing with Ukraine after pause, Zelenskiy says - Reuters",
-        "published_at": "Sun, 18 Oct 2026 14:03:42 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZ2JXcTFReXJpR0UyNGM1UVFfMTVMRlJHbGpmRlh2Wk1HQ3ZQZ0Q0YUNadThFXy1IcTZXdHJMOGxNU0FqM1NTQkVaOHpOX2NaWGNMTXJaRzJnYUVmald2UmVvTExRVVdqajR0ZmVBNE8tVHhkMXFhQ3FQQmhUVGdEMmUwcXA3RHFPN2ZUOTZ6SzBqNVlpQkZGSnlOb3FjV0gyT1JIUzEtYnBwbjBySGlVcjRUaHJnN3dDb2hRMW8zbExBZw?oc=5",
-        "content": "US resumes intelligence-sharing with Ukraine after pause, Zelenskiy says&nbsp;&nbsp;Reuters"
+        "source_name": "AP News",
+        "headline": "Execution staff warned IV site might have ‘blown’ during Christa Pike’s execution attempt - AP News",
+        "published_at": "Fri, 23 Oct 2026 00:51:09 GMT",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQb2RHNkJkZ3FBTktGc0I4Uy1CM1RCY3dMSmcwaVpPaUxwZGdTd0pkOV9GSG5CMVZwaHBRcE1oeDR0cU10cXhVeWJ3ZlQycElOZGUwSi1CRFdWWm1VbzhhYkZuMUE4X2w5N1d6QU9kQUw2bGxtaEpadExna1FkUnc0Q0Y0YllBdlREWThCbnhQTjk?oc=5",
+        "content": "Execution staff warned IV site might have ‘blown’ during Christa Pike’s execution attempt&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
-          "source_name": "Reuters",
-          "headline": "US resumes intelligence-sharing with Ukraine after pause, Zelenskiy says - Reuters",
-          "published_at": "Sun, 18 Oct 2026 14:03:42 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZ2JXcTFReXJpR0UyNGM1UVFfMTVMRlJHbGpmRlh2Wk1HQ3ZQZ0Q0YUNadThFXy1IcTZXdHJMOGxNU0FqM1NTQkVaOHpOX2NaWGNMTXJaRzJnYUVmald2UmVvTExRVVdqajR0ZmVBNE8tVHhkMXFhQ3FQQmhUVGdEMmUwcXA3RHFPN2ZUOTZ6SzBqNVlpQkZGSnlOb3FjV0gyT1JIUzEtYnBwbjBySGlVcjRUaHJnN3dDb2hRMW8zbExBZw?oc=5"
+          "source_name": "AP News",
+          "headline": "Execution staff warned IV site might have ‘blown’ during Christa Pike’s execution attempt - AP News",
+          "published_at": "Fri, 23 Oct 2026 00:51:09 GMT",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQb2RHNkJkZ3FBTktGc0I4Uy1CM1RCY3dMSmcwaVpPaUxwZGdTd0pkOV9GSG5CMVZwaHBRcE1oeDR0cU10cXhVeWJ3ZlQycElOZGUwSi1CRFdWWm1VbzhhYkZuMUE4X2w5N1d6QU9kQUw2bGxtaEpadExna1FkUnc0Q0Y0YllBdlREWThCbnhQTjk?oc=5"
         },
         {
-          "source_name": "AP News",
-          "headline": "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump - AP News",
-          "published_at": "Sun, 18 Oct 2026 00:06:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUGNSbDZNbm5wY2VNaTRTRDZiMHFqMW9rbnpvNk1tU0JBdjlTQng0YXhGQTN4bWtRaUNPUUdxY0dHVEhOajRFem5jUFdSVm5QYnkyU1QtcGZuM3BBQnBqTnFYdlBrTHYyampsUEtDMDB5RUdIYVpJZVY5eHBlank0T1BhLW1OSWo5bnNNVUdCR0FJQjRRLVEtNVFqeHlZQjc2Mm1n?oc=5"
+          "source_name": "NDTV",
+          "headline": "\"Veins May Have Ruptured, Blown\": How Christa Pike Survived Execution Attempt",
+          "published_at": "Fri, 23 Oct 2026 11:03:51 +0530",
+          "url": "https://www.ndtv.com/world-news/how-christa-pike-survived-execution-attempt-veins-may-have-ruptured-blown-12223766#publisher=newsstand"
+        },
+        {
+          "source_name": "CNN",
+          "headline": "Execution staff worried IV site might have ‘blown’ during Christa Pike’s execution attempt - CNN",
+          "published_at": "Thu, 22 Oct 2026 22:02:21 GMT",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbjItNjhGYXd3QXJQcGpYQ0NPRU8tUWpGSnBRbzkxcHBwWXhiRmFPdE4xZVZ2d3V5YkszTllkNnhCYS1HcHFwTy1HOWh0NnhlTUVHd1BOSGYxRUh6UldxNmNBN2xnWVhBV1M1al9nUDJaa0NyYlgzMU9WNmFHeEswazF5Tnc?oc=5"
         },
         {
           "source_name": "The Guardian",
-          "headline": "Zelenskyy thanks Trump for resumed intelligence sharing after US Starlink ‘message’",
-          "published_at": "Sun, 18 Oct 2026 16:37:52 GMT",
-          "url": "https://www.theguardian.com/world/2026/oct/18/killed-injured-russia-ukraine-strikes-power-infrastructure"
+          "headline": "Christa Pike’s IV team warned vein might be ‘blowing’ before failed execution",
+          "published_at": "Thu, 22 Oct 2026 18:42:14 GMT",
+          "url": "https://www.theguardian.com/us-news/2026/oct/22/christa-pike-failed-execution-lawyer-witness"
         }
       ],
-      "source_count": 3,
-      "total_count": 3,
-      "combined_score": 2.49,
+      "source_count": 4,
+      "total_count": 4,
+      "combined_score": 3.29,
       "brief_bullets": [
-        "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump AP News Two people killed and at least 17 injured as Russia and Ukraine continue to trade strikes on power infrastructureVolodymyr Zelenskyy on Sunday thanked the Trump administration for resuming intelligence sharing between the two countries, but maintained the US had intentionally throttled its Starlink satellite internet access so that Donald Trump could send a “message” in his ongoing feud with the Ukrainian president.",
-        "In an interview on NBC, Zelenskyy said the US had “unblocked” intelligence on impending Russian ballistic missile strikes, which have pounded the country’s energy infrastructure as winter draws in.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events."
+        "During the execution attempt of Tennessee death row prisoner Christa Pike, legal counsel revealed that the intravenous team repeatedly expressed concern that her vein might have blown before administering pentobarbital. Over a twenty-minute period, staff members struggled to establish a reliable line, reportedly utilizing up to ten needles while discussing the potential compromise of the site. Pike eventually reported arm pain shortly before the sedative was pushed. This disturbing disclosure intensifies ongoing national scrutiny regarding lethal injection protocols, state-sanctioned medical practices, and the constitutional limits of capital punishment procedures."
       ],
       "why_it_matters_bullets": [
-        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
+        "It exposes critical vulnerabilities in lethal injection protocols, intensifying legal battles over execution methods and human rights."
       ],
-      "brief": "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump AP News Two people killed and at least 17 injured as Russia and Ukraine continue to trade strikes on power infrastructureVolodymyr Zelenskyy on Sunday thanked the Trump administration for resuming intelligence sharing between the two countries, but maintained the US had intentionally throttled its Starlink satellite internet access so that Donald Trump could send a “message” in his ongoing feud with the Ukrainian president. In an interview on NBC, Zelenskyy said the US had “unblocked” intelligence on impending Russian ballistic missile strikes, which have pounded the country’s energy infrastructure as winter draws in. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
-      "brief_word_count": 145
+      "brief": "During the execution attempt of Tennessee death row prisoner Christa Pike, legal counsel revealed that the intravenous team repeatedly expressed concern that her vein might have blown before administering pentobarbital. Over a twenty-minute period, staff members struggled to establish a reliable line, reportedly utilizing up to ten needles while discussing the potential compromise of the site. Pike eventually reported arm pain shortly before the sedative was pushed. This disturbing disclosure intensifies ongoing national scrutiny regarding lethal injection protocols, state-sanctioned medical practices, and the constitutional limits of capital punishment procedures. It exposes critical vulnerabilities in lethal injection protocols, intensifying legal battles over execution methods and human rights.",
+      "brief_word_count": 106
     },
     {
       "story_id": "story-22",
       "category": "Society",
-      "primary_headline": "Tensions flare again in Paris as France counts cost of worst unrest in years",
+      "primary_headline": "Ramaswamy’s Ohio attack ad shows ‘owning the libs’ may have limits - The Washington Post",
+      "primary_source": {
+        "source_name": "Washington Post",
+        "headline": "Ramaswamy’s Ohio attack ad shows ‘owning the libs’ may have limits - The Washington Post",
+        "published_at": "Fri, 23 Oct 2026 04:03:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOY1MzSXdpMFBIa1B2RzVmQ3NSanctdFJidkd6V3hDOTVtSDJac3IwOHg1VnV1N2d1OVViNHlacTRpenQtdDNuTUtuZFNuT0wwN3BjdE5faTBZRmhRYTdCdGhmeU5abXA5RmNnRGtYQ1g1dC05bzlYcVVNNVhuSnJIX2pORUNMaWREeU5KU3pqZGlvWVVwcG9HOUxQcXZEcElIcW5rcTlQZ1gydVRHOTNyR3Z2bDVnLWl2QUFsd2FJQmJoQQ?oc=5",
+        "content": "Ramaswamy’s Ohio attack ad shows ‘owning the libs’ may have limits&nbsp;&nbsp;The Washington Post"
+      },
+      "sources": [
+        {
+          "source_name": "Washington Post",
+          "headline": "Ramaswamy’s Ohio attack ad shows ‘owning the libs’ may have limits - The Washington Post",
+          "published_at": "Fri, 23 Oct 2026 04:03:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOY1MzSXdpMFBIa1B2RzVmQ3NSanctdFJidkd6V3hDOTVtSDJac3IwOHg1VnV1N2d1OVViNHlacTRpenQtdDNuTUtuZFNuT0wwN3BjdE5faTBZRmhRYTdCdGhmeU5abXA5RmNnRGtYQ1g1dC05bzlYcVVNNVhuSnJIX2pORUNMaWREeU5KU3pqZGlvWVVwcG9HOUxQcXZEcElIcW5rcTlQZ1gydVRHOTNyR3Z2bDVnLWl2QUFsd2FJQmJoQQ?oc=5"
+        },
+        {
+          "source_name": "The Guardian",
+          "headline": "Trump attacks Ohio governor over call for Ramaswamy to drop ‘deeply troubling’ ad",
+          "published_at": "Thu, 22 Oct 2026 20:11:04 GMT",
+          "url": "https://www.theguardian.com/us-news/2026/oct/22/ramaswamy-attack-ad-ohio-dewine"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "\"Keep It Up\": Trump Defends Vivek Ramaswamy's Controversial Ad",
+          "published_at": "Fri, 23 Oct 2026 01:20:20 +0530",
+          "url": "https://www.ndtv.com/world-news/donald-trump-defends-vivek-ramaswamys-controversial-ad-12222642#publisher=newsstand"
+        },
+        {
+          "source_name": "CNN",
+          "headline": "Why Ohio Gov. Mike DeWine's condemnation of Vivek Ramaswamy's attack ad could swing the race - CNN",
+          "published_at": "Thu, 22 Oct 2026 17:15:05 GMT",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQlhqOHhMcVlwV1hpZUI4TjFSUFd2SEk4TjE1WEU1ZGc5a3N5ZjktVnl0eTNSV2JCM1d6LWVteHlXLVJWS0lYVjF1VkFfNm96UU5EUTR1OHBSUXMzUXpGRXpyYnFORHNVYnZReW53MWUzcnFla1ltc0plOGJlMkNqV1VYZ2Rtb2YxYTZiYi1KWnZLQUJR?oc=5"
+        }
+      ],
+      "source_count": 4,
+      "total_count": 4,
+      "combined_score": 3.26,
+      "brief_bullets": [
+        "Republican gubernatorial candidate Vivek Ramaswamy faced intense backlash after releasing an Ohio attack ad featuring the estranged mother of his Democratic rival, Amy Acton. Ohio Republican Governor Mike DeWine publicly condemned the tactic as wrong and demanded the spot be pulled, signaling potential limits to aggressive cultural combat strategies within the party. However, former President Donald Trump swiftly intervened, urging Ramaswamy to keep the ad on air while accusing Governor DeWine of disloyalty. This clash highlights a deepening intraparty division over campaign ethics and the boundaries of confrontational political discourse ahead of crucial midterms."
+      ],
+      "why_it_matters_bullets": [
+        "This dispute exposes widening ideological fractures within the Republican Party regarding the acceptable limits of aggressive personal attacks."
+      ],
+      "brief": "Republican gubernatorial candidate Vivek Ramaswamy faced intense backlash after releasing an Ohio attack ad featuring the estranged mother of his Democratic rival, Amy Acton. Ohio Republican Governor Mike DeWine publicly condemned the tactic as wrong and demanded the spot be pulled, signaling potential limits to aggressive cultural combat strategies within the party. However, former President Donald Trump swiftly intervened, urging Ramaswamy to keep the ad on air while accusing Governor DeWine of disloyalty. This clash highlights a deepening intraparty division over campaign ethics and the boundaries of confrontational political discourse ahead of crucial midterms. This dispute exposes widening ideological fractures within the Republican Party regarding the acceptable limits of aggressive personal attacks.",
+      "brief_word_count": 112
+    },
+    {
+      "story_id": "story-23",
+      "category": "Society",
+      "primary_headline": "Egypt calls for Yemen talks as parliament weighs military support to Saudi Arabia",
       "primary_source": {
         "source_name": "Reuters",
-        "headline": "Tensions flare again in Paris as France counts cost of worst unrest in years - Reuters",
-        "published_at": "Sun, 18 Oct 2026 16:00:50 GMT",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNd1VSODRfY1ZTZlpfMVBnaXZzSi1KU1ZsUlJWcWZBaWVaQ0Fyal85ZmEtdkR3ZU94c2ZEeGNzRXpIamtSQVdfVlpJWTdhcEY2ZkZaMFZGZzlTVTVCTDRoUDJybE90dGJGYTNmU1NwUTJDNmVZZllXTDFSR3hIVnBTV2lYTk9LM2N1MlREWk9VOEtidHY2?oc=5",
-        "content": "Tensions flare again in Paris as France counts cost of worst unrest in years&nbsp;&nbsp;Reuters"
+        "headline": "Egypt calls for Yemen talks as parliament weighs military support to Saudi Arabia - Reuters",
+        "published_at": "Thu, 22 Oct 2026 18:09:35 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSjlqS1owcXdLQnhHZnV3Q3FSWUU4OXhFTkpxV1E3dVdnU1pEak1sSENZRnN5cEs1dE5YREx5NnZsODFFWm01T1FNMC0wVXF0dWhkTUl5MTZaRHhJcVVRNkdyVnh5ZFJKam9xMHYxMG42R3F3WDdyQ1lsSDBPTmJVMVJLSmhYeFRnamp1aVRWYmY0RlcwdmVibkZ2cWl6S21QS1JEOUt5UWd3M2RpTld2eVhFTjJ5bmpjX1RZX3BuaGNUZUU?oc=5",
+        "content": "Egypt calls for Yemen talks as parliament weighs military support to Saudi Arabia&nbsp;&nbsp;Reuters"
       },
       "sources": [
         {
           "source_name": "Reuters",
-          "headline": "Tensions flare again in Paris as France counts cost of worst unrest in years - Reuters",
-          "published_at": "Sun, 18 Oct 2026 16:00:50 GMT",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNd1VSODRfY1ZTZlpfMVBnaXZzSi1KU1ZsUlJWcWZBaWVaQ0Fyal85ZmEtdkR3ZU94c2ZEeGNzRXpIamtSQVdfVlpJWTdhcEY2ZkZaMFZGZzlTVTVCTDRoUDJybE90dGJGYTNmU1NwUTJDNmVZZllXTDFSR3hIVnBTV2lYTk9LM2N1MlREWk9VOEtidHY2?oc=5"
+          "headline": "Egypt calls for Yemen talks as parliament weighs military support to Saudi Arabia - Reuters",
+          "published_at": "Thu, 22 Oct 2026 18:09:35 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSjlqS1owcXdLQnhHZnV3Q3FSWUU4OXhFTkpxV1E3dVdnU1pEak1sSENZRnN5cEs1dE5YREx5NnZsODFFWm01T1FNMC0wVXF0dWhkTUl5MTZaRHhJcVVRNkdyVnh5ZFJKam9xMHYxMG42R3F3WDdyQ1lsSDBPTmJVMVJLSmhYeFRnamp1aVRWYmY0RlcwdmVibkZ2cWl6S21QS1JEOUt5UWd3M2RpTld2eVhFTjJ5bmpjX1RZX3BuaGNUZUU?oc=5"
         },
         {
-          "source_name": "Deccan Herald",
-          "headline": "France wakes up to one of its worst bouts of unrest in years; one dead, 500 cops injured",
-          "published_at": "Sun, 18 Oct 2026 14:46:32 +0000",
-          "url": "https://www.deccanherald.com/world/europe/france-wakes-up-to-one-of-its-worst-bouts-of-unrest-in-years-one-dead-500-cops-injured-4187385"
+          "source_name": "Washington Post",
+          "headline": "U.S. orders some diplomats to leave Saudi Arabia amid Houthi attacks - The Washington Post",
+          "published_at": "Thu, 22 Oct 2026 21:09:54 GMT",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOGZ2VEpSaUZoaWQwZHVVek1fYUJpT25DU2RIaU5mWWFVTkJZa3p1bTRXZHE1SlRTb2pMS3pOZEVKQU10MkpSeHNfY0h1Ul9PdGYxdFNvTzBWQWVidnJfTTJYUC12NjM3S01namtXWmVjcll5elY5ODVIVXlKejNKbWZ1d2xPS0YxOG9EcUdFb0hxYlBhWHBRSkJkWkhTU2pqT3ZPdFNyT3dYMTBsRm83d2Rn?oc=5"
         },
         {
-          "source_name": "The Print",
-          "headline": "France counts cost of worst unrest in years - ThePrint",
-          "published_at": "Sun, 18 Oct 2026 11:30:17 GMT",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUldONjJ5c0pDRWdFVDhzLWJYRC04aVNzd29CT29iNUJZemxLYXNuTGZlS1g4QmttNUtoUVE1TXpFY1NFZS0wek9FUDg0MDN4LWs4Z3AyTWNGeUlnRTN4SVNKUktuTTZqLVN4UV84dC1DbjM3Vm95bFdQS29UbGVvbmtQR2jSAYoBQVVfeXFMT3lWVmZWajNBQVFibmFkN2JEamo3U2N3YnFFa3Y3dmZhazNXb1JLdmFXSDJnR0pmWHd0Y3p5a2l2Ymc5Si1SVE1UQnB1RERFWlY0Y1l5amlZS0I4c0t4X3ZaQTNURk5xbU5sRW93blBWb21vRktrM2l3bzRBQmpVdWQzalRJR3RDdDdn?oc=5"
+          "source_name": "The Indian Express",
+          "headline": "Why Saudi Arabia executed 2 Bangladeshis, and what remains unanswered",
+          "published_at": "Thu, 22 Oct 2026 15:31:25 +0000",
+          "url": "https://indianexpress.com/article/world/saudi-arabia-executes-two-bangladeshis-nazrul-islam-sweety-akhtar-mecca-10932648/"
+        },
+        {
+          "source_name": "Al Jazeera",
+          "headline": "Attack on Saudi Arabia’s King Fahd airport kills two people - Al Jazeera",
+          "published_at": "Thu, 22 Oct 2026 14:01:53 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMktOQVdUcmhmWlhhcHVNQ1laMzRELXBuXzhLMHFqNHdLdEE5TVdmbDR0eXJlT3ZwVjgtQi1KVXNWWm9ReHhsNjhER0phWmxadWdDZDRfWk1xdGNOSWNkUDRSSW1fMC1RNkhCbUJxRTlZTUFoUkYtUGt1Z0tkalVHVWFXSks0N3llZ1g1ZXJWUXpDN2l3MjJFVzlhZVVROWwybnlYMkZWVkdkYkFxTHlGaUQ2Z9IBuAFBVV95cUxObmo4ZHczZ2Fza2VqLS1NUHoxem5hcHVTUXloZnBSeHo5Tk9LUUoxMVpRVGNLYURhanlfb09qcnhRMmtkT3N6bEpObHZwaTJhY0xCWW5oMjI0YWpRNUFnX1VaTkFmb3c4YTUzamdzZUxMVWZ2Yk9oVk1sYmZ1TkdJMXpjQUxFcGFEa0lpVHF4SGdWa0Y0eG9rUG1MeHVKY3VLM2hkUHpPZWJsR0haMUQ5UDhOVmRNcFFE?oc=5"
         }
       ],
-      "source_count": 3,
-      "total_count": 3,
-      "combined_score": 2.49,
+      "source_count": 4,
+      "total_count": 4,
+      "combined_score": 3.26,
       "brief_bullets": [
-        "Paris: France woke on Sunday to the wreckage of one of its most violent days of unrest in years after protests over high prices and public services left one demonstrator dead, hundreds of police injured and nearly 1,800 people arrested.",
-        "Nationwide demonstrations erupted into riots on Saturday, with a town hall torched, shops ransacked, and buildings covered in graffiti as violent groups clashed with police in cities across the country.",
-        "One protester died after suffering a cardiac arrest during demonstrations in Paris, where police made a record 855 arrests.",
-        "Across France, police detained some 1,800 people and more than 500 officers were injured, the interior minister said."
+        "Amid escalating Houthi-led drone and missile attacks against Saudi Arabia, Egypt has formally urged a diplomatic resolution to the Yemeni conflict while its parliament debates authorizing direct military support for Riyadh. This legislative deliberation coincides with the U.S. State Department’s decision to order a partial evacuation of diplomatic personnel from Saudi Arabia due to heightened security risks. Recent strikes on King Fahd International Airport, resulting in casualties, have intensified regional instability and underscored the vulnerability of critical infrastructure. These developments signal a critical juncture for Middle Eastern security alliances, as Egypt weighs the risks of deeper military entanglement against the necessity of maintaining regional stability and protecting its strategic partnership with the Saudi-led coalition."
       ],
       "why_it_matters_bullets": [
-        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
+        "Escalating Houthi aggression threatens regional energy security and risks drawing major Arab powers into a protracted, destabilizing military conflict."
       ],
-      "brief": "Paris: France woke on Sunday to the wreckage of one of its most violent days of unrest in years after protests over high prices and public services left one demonstrator dead, hundreds of police injured and nearly 1,800 people arrested. Nationwide demonstrations erupted into riots on Saturday, with a town hall torched, shops ransacked, and buildings covered in graffiti as violent groups clashed with police in cities across the country. One protester died after suffering a cardiac arrest during demonstrations in Paris, where police made a record 855 arrests. Across France, police detained some 1,800 people and more than 500 officers were injured, the interior minister said. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 121
+      "brief": "Amid escalating Houthi-led drone and missile attacks against Saudi Arabia, Egypt has formally urged a diplomatic resolution to the Yemeni conflict while its parliament debates authorizing direct military support for Riyadh. This legislative deliberation coincides with the U.S. State Department’s decision to order a partial evacuation of diplomatic personnel from Saudi Arabia due to heightened security risks. Recent strikes on King Fahd International Airport, resulting in casualties, have intensified regional instability and underscored the vulnerability of critical infrastructure. These developments signal a critical juncture for Middle Eastern security alliances, as Egypt weighs the risks of deeper military entanglement against the necessity of maintaining regional stability and protecting its strategic partnership with the Saudi-led coalition. Escalating Houthi aggression threatens regional energy security and risks drawing major Arab powers into a protracted, destabilizing military conflict.",
+      "brief_word_count": 133
     },
     {
-      "story_id": "story-27",
+      "story_id": "story-24",
       "category": "Society",
-      "primary_headline": "Rioters loot stores, set fires in central Milan during cost-of-living protest",
+      "primary_headline": "Rep. Ilhan Omar says she will move out of her Washington, DC, home after federal search",
       "primary_source": {
         "source_name": "AP News",
-        "headline": "Rioters loot stores, set fires in central Milan during cost-of-living protest - AP News",
-        "published_at": "Sat, 17 Oct 2026 20:42:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdFk0T0hCUHRBdkZMTEFpaWNtdzdiZmJpb2NVVWpMOTlwaWhPOHQxcUV0RHlLQWtCUGpFWXB2ZEF2MGdnbDJpRzNuNnZvMVlPWG5zVlQ3aUEwekVvOWoyN2UyMU9IZG1ENmhnc3BCY0RlT0Q3YzZfeXA1N3lRWHF1MkRZdTNUT1RXSWFPTFBFX0pjZmVW?oc=5",
-        "content": "Rioters loot stores, set fires in central Milan during cost-of-living protest&nbsp;&nbsp;AP News"
+        "headline": "Rep. Ilhan Omar says she will move out of her Washington, DC, home after federal search - AP News",
+        "published_at": "Thu, 22 Oct 2026 18:19:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQamo1WlhRUTl4eGFicHo0cllPQ0s2Q051UDNTb1o1UGI1bUVsT1RIVGxIdXF4YmNGSWlxelpxQkE1NjVVTkhXTU5mRTNRRVVqQ2tBc2pRUktmcU4xRFFLQWdEby03NDBpR0VvWEhPWThhNGE0cVhCdFMxUlp5RVF2Njl1VUZYN0kxQ2tiOVhPQTZ5eUFDLWp0ak1BZDNqTUZfVFE?oc=5",
+        "content": "Rep. Ilhan Omar says she will move out of her Washington, DC, home after federal search&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "Vox",
+          "headline": "Can Trump deport Ilhan Omar?",
+          "published_at": "2026-10-22T17:00:00-04:00",
+          "url": "https://www.vox.com/podcasts/507328/ilhan-omar-trump-immigration-investigation-denaturalize-deport"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "Rep. Ilhan Omar says she will move out of her Washington, DC, home after federal search - AP News",
+          "published_at": "Thu, 22 Oct 2026 18:19:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQamo1WlhRUTl4eGFicHo0cllPQ0s2Q051UDNTb1o1UGI1bUVsT1RIVGxIdXF4YmNGSWlxelpxQkE1NjVVTkhXTU5mRTNRRVVqQ2tBc2pRUktmcU4xRFFLQWdEby03NDBpR0VvWEhPWThhNGE0cVhCdFMxUlp5RVF2Njl1VUZYN0kxQ2tiOVhPQTZ5eUFDLWp0ak1BZDNqTUZfVFE?oc=5"
+        },
+        {
+          "source_name": "Washington Post",
+          "headline": "Trump administration deported nearly 1 million through July, report finds - The Washington Post",
+          "published_at": "Thu, 22 Oct 2026 18:00:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdFFhTGxVSVhLRkc4M1pVNUxpcU5fSWVYd1I4ZnBGQ2N3c1VFYThXWUNPZWdZRldnV2RJc2lVTVcxNVlQYWplUTZsOHV4dGsxR29NQUZDd1pScE9ubi1hLTNWdTFOMzkxLXlrSFl4RlJSeGdVMG1BSGtNMDh1ZXdnbmhtMTNWenFKdzdkMkpMZXlZMUtoWW9rM0YzSnVwMXd4dzNNQmNZVkl1Q3hXNUxLS1UtMlkxdlNFa2VycjluUDJpeGhIYWc?oc=5"
+        },
+        {
+          "source_name": "CNN",
+          "headline": "Rep. Ilhan Omar tells MS NOW what was seized from her home - CNN",
+          "published_at": "Thu, 22 Oct 2026 09:41:39 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZGlIdE9MZlRyQU1BbTVOcDNJZ1dEMTQ1VDVWQ1JYU2MxNGdIdm5UcnJ5YUtkMEZmUFNFTW1xVS1sR0tlS2pBVFQ1dTYzLWloNkxTQ3A5UlRCTHRtOU9DNXdaWlMzT283N0NwMVhGSzJ4T1hSVlhGRi1QN1pmUFkxWUc5elQ2cFViMkFzWXlZLWRPOFJ1anNyYVN4c0paLWJzcThMODFGSVpFN2RyOE00?oc=5"
+        }
+      ],
+      "source_count": 4,
+      "total_count": 4,
+      "combined_score": 3.23,
+      "brief_bullets": [
+        "Rep. Ilhan Omar (D-MN) announced her decision to vacate her Washington, DC, residence following a federal search of her home. This development comes amidst a history of sustained public attacks and calls for investigation and arrest by then-President Donald Trump, who has targeted the progressive lawmaker since her 2019 entry into Congress. While specific details of the search and seized items remain partially undisclosed, Omar confirmed the federal action to CNN. The incident raises significant concerns regarding potential political targeting of a prominent critic and its implications for civil liberties and due process, further escalating political tensions surrounding a high-profile member of Congress. This move by Omar underscores the intense scrutiny and pressure faced by certain political figures."
+      ],
+      "why_it_matters_bullets": [
+        "This incident highlights potential political weaponization of federal power against critics, impacting democratic discourse and civil liberties."
+      ],
+      "brief": "Rep. Ilhan Omar (D-MN) announced her decision to vacate her Washington, DC, residence following a federal search of her home. This development comes amidst a history of sustained public attacks and calls for investigation and arrest by then-President Donald Trump, who has targeted the progressive lawmaker since her 2019 entry into Congress. While specific details of the search and seized items remain partially undisclosed, Omar confirmed the federal action to CNN. The incident raises significant concerns regarding potential political targeting of a prominent critic and its implications for civil liberties and due process, further escalating political tensions surrounding a high-profile member of Congress. This move by Omar underscores the intense scrutiny and pressure faced by certain political figures. This incident highlights potential political weaponization of federal power against critics, impacting democratic discourse and civil liberties.",
+      "brief_word_count": 135
+    },
+    {
+      "story_id": "story-25",
+      "category": "Society",
+      "primary_headline": "Calley Means, a key MAHA advocate, resigns as a top RFK Jr. adviser",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Calley Means, a key MAHA advocate, resigns as a top RFK Jr. adviser - AP News",
+        "published_at": "Fri, 23 Oct 2026 00:21:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMFQ2d1A4WE5xcGdreGIwUzlhN3VNcU9pNk5UcmFqdVlwcV9qeEw0WlBBbkZrUGxEMnFMVU9RQWZJUTZRTk9KXzJSWVZMRnpuWDdKclhBUWNnTVMyQlVDcUV1NE45MzJabW5EV1NVSkJUWWwzUTZrZWVkRnFJa0tqaEEzaExST2lGVEVFdXRIUHNIUQ?oc=5",
+        "content": "Calley Means, a key MAHA advocate, resigns as a top RFK Jr. adviser&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
           "source_name": "AP News",
-          "headline": "Rioters loot stores, set fires in central Milan during cost-of-living protest - AP News",
-          "published_at": "Sat, 17 Oct 2026 20:42:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdFk0T0hCUHRBdkZMTEFpaWNtdzdiZmJpb2NVVWpMOTlwaWhPOHQxcUV0RHlLQWtCUGpFWXB2ZEF2MGdnbDJpRzNuNnZvMVlPWG5zVlQ3aUEwekVvOWoyN2UyMU9IZG1ENmhnc3BCY0RlT0Q3YzZfeXA1N3lRWHF1MkRZdTNUT1RXSWFPTFBFX0pjZmVW?oc=5"
+          "headline": "Calley Means, a key MAHA advocate, resigns as a top RFK Jr. adviser - AP News",
+          "published_at": "Fri, 23 Oct 2026 00:21:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMFQ2d1A4WE5xcGdreGIwUzlhN3VNcU9pNk5UcmFqdVlwcV9qeEw0WlBBbkZrUGxEMnFMVU9RQWZJUTZRTk9KXzJSWVZMRnpuWDdKclhBUWNnTVMyQlVDcUV1NE45MzJabW5EV1NVSkJUWWwzUTZrZWVkRnFJa0tqaEEzaExST2lGVEVFdXRIUHNIUQ?oc=5"
+        },
+        {
+          "source_name": "Washington Post",
+          "headline": "RFK Jr. ally Calley Means quits Trump administration amid food agenda delays - The Washington Post",
+          "published_at": "Fri, 23 Oct 2026 03:01:31 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbEhDenp3WTdJM0NFWVh0aW44UHNJSGJYRUxVQmUxTGpoV3dQNnotbkxUQ1ZLWWNnM3VqNHh1c0t4aU1rU2w5azZ5S0xTUm9tQ0tZa3JwWGZpVFlQLWxOVXZKSzdkY1ZpZGNsZldPeHo3ZHBvd0dra0VuaXZyT1pXNTJha1ZRZ2hSM2dBQXFRZVVuN1lRZnhHbWJGSnd2X2dKTDc1YlQ0NVVsWERZWGI5MGQ1Ym9wNTEtci01MmxFMWFqTWM?oc=5"
+        },
+        {
+          "source_name": "CNN",
+          "headline": "MAHA adviser who introduced RFK Jr. to Trump quits admin amid frustrations over food policy - CNN",
+          "published_at": "Thu, 22 Oct 2026 19:21:16 GMT",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1UbFZBS0FYNDNfYjRSWU11U3hzQmdLMFp2WU5wVHpUNUZ0b0tPeHpSVDhwZEtSMzlrdFR6bDNWVkRLeXlmOExEVGRpYnpsbjFpNlNaVDNvNnd6MWNQZ3B1WlM0emtzN3ZDcW9NZG83Nkg?oc=5"
+        },
+        {
+          "source_name": "Ars Technica",
+          "headline": "\"Disillusioned\" MAHA leader quits as Trump admin's food agenda spoils: Report",
+          "published_at": "Thu, 22 Oct 2026 19:04:06 +0000",
+          "url": "https://arstechnica.com/health/2026/10/disillusioned-maha-leader-quits-as-trump-admins-food-agenda-spoils-report/"
+        }
+      ],
+      "source_count": 4,
+      "total_count": 4,
+      "combined_score": 3.2,
+      "brief_bullets": [
+        "Calley Means, a prominent strategist and co-author of the Make America Healthy Again (MAHA) agenda, has resigned from his senior advisory role within the Trump administration. A key ally to Health Secretary Robert F. Kennedy Jr., Means reportedly departed due to mounting frustrations over stalled progress on ambitious food policy reforms, including proposed changes to dietary guidelines, SNAP program restrictions, and the removal of food dyes. While Means expressed continued respect for President Trump and Kennedy in his resignation statement, his exit highlights internal friction regarding the administration's commitment to the MAHA movement's aggressive public health platform. This departure signals potential challenges for the administration in balancing populist health initiatives against entrenched bureaucratic and political resistance."
+      ],
+      "why_it_matters_bullets": [
+        "Means' resignation signals internal instability and potential abandonment of the administration's aggressive, controversial public health and food policy agenda."
+      ],
+      "brief": "Calley Means, a prominent strategist and co-author of the Make America Healthy Again (MAHA) agenda, has resigned from his senior advisory role within the Trump administration. A key ally to Health Secretary Robert F. Kennedy Jr., Means reportedly departed due to mounting frustrations over stalled progress on ambitious food policy reforms, including proposed changes to dietary guidelines, SNAP program restrictions, and the removal of food dyes. While Means expressed continued respect for President Trump and Kennedy in his resignation statement, his exit highlights internal friction regarding the administration's commitment to the MAHA movement's aggressive public health platform. This departure signals potential challenges for the administration in balancing populist health initiatives against entrenched bureaucratic and political resistance. Means' resignation signals internal instability and potential abandonment of the administration's aggressive, controversial public health and food policy agenda.",
+      "brief_word_count": 135
+    },
+    {
+      "story_id": "story-15",
+      "category": "Society",
+      "primary_headline": "Face-Off With China Continues In Arunachal: Border Police Force Chief",
+      "primary_source": {
+        "source_name": "NDTV",
+        "headline": "Face-Off With China Continues In Arunachal: Border Police Force Chief",
+        "published_at": "Fri, 23 Oct 2026 12:12:12 +0530",
+        "url": "https://www.ndtv.com/india-news/face-off-with-china-continues-at-multiple-locations-along-arunachal-border-indo-tibetan-border-police-chief-shatrujeet-kapur-12223984#publisher=newsstand",
+        "content": "The ITBP chief added that a new combat team, the Shaurya commandos, has been raised. This team displayed its skills during the \"ongoing\" faceoff with the Chinese PLA troops at multiple places in Arunachal Pradesh, he said."
+      },
+      "sources": [
+        {
+          "source_name": "NDTV",
+          "headline": "Face-Off With China Continues In Arunachal: Border Police Force Chief",
+          "published_at": "Fri, 23 Oct 2026 12:12:12 +0530",
+          "url": "https://www.ndtv.com/india-news/face-off-with-china-continues-at-multiple-locations-along-arunachal-border-indo-tibetan-border-police-chief-shatrujeet-kapur-12223984#publisher=newsstand"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "'Deafening silence, calibrated concessions': Congress slams PM Modi over face-offs with China in Arunachal Pradesh",
+          "published_at": "Fri, 23 Oct 2026 06:41:18 +0000",
+          "url": "https://www.deccanherald.com/india/deafening-silence-calibrated-concessions-congress-slams-pm-modi-over-face-offs-with-china-in-arunachal-pradesh-4192317"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "'Deafening silence, calibrated concessions': Congress slams PM Modi on reported Arunachal 'face-offs' with China",
+          "published_at": "Fri, 23 Oct 2026 04:50:31 +0000",
+          "url": "https://www.deccanherald.com/india/deafening-silence-calibrated-concessions-congress-slams-pm-modi-on-reported-arunachal-face-offs-with-china-4192221"
         },
         {
           "source_name": "The Indian Express",
-          "headline": "The 53-year-old in a suit who’s the face of France’s youth protests",
-          "published_at": "Sun, 18 Oct 2026 02:29:06 +0000",
-          "url": "https://indianexpress.com/article/world/the-53-year-old-in-a-suit-whos-the-face-of-frances-youth-protests-10926387/"
+          "headline": "Arunachal face-offs continue despite India-China talks: ITBP chief",
+          "published_at": "Fri, 23 Oct 2026 03:10:18 +0000",
+          "url": "https://indianexpress.com/article/india/arunachal-pradesh-lac-face-offs-itbp-dg-shatrujeet-kapur-10933127/"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "PM Modi targets Rahul Gandhi: New world order, some for disorder here",
+          "published_at": "Thu, 22 Oct 2026 23:35:19 +0000",
+          "url": "https://indianexpress.com/article/india/narendra-modi-targets-rahul-gandhi-cjp-protest-delhi-10932878/"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 7,
+      "combined_score": 3.72,
+      "brief_bullets": [
+        "Indo-Tibetan Border Police Director General Shatrujeet Kapoor confirmed ongoing face-offs between Indian forces and the Chinese People's Liberation Army at multiple locations in Arunachal Pradesh, showcasing newly raised Shaurya commandos. In response, opposition Congress leader Jairam Ramesh heavily criticized Prime Minister Narendra Modi, accusing the administration of maintaining a deafening silence and making strategic concessions following the 2020 Galwan Valley clash. Ramesh also highlighted a record trade deficit with China reaching one hundred twelve billion dollars, alongside ecological threats from massive dam construction and lost patrolling rights."
+      ],
+      "why_it_matters_bullets": [
+        "Persistent Himalayan border tensions and surging economic dependence on Beijing undermine India's national security and domestic industrial stability."
+      ],
+      "brief": "Indo-Tibetan Border Police Director General Shatrujeet Kapoor confirmed ongoing face-offs between Indian forces and the Chinese People's Liberation Army at multiple locations in Arunachal Pradesh, showcasing newly raised Shaurya commandos. In response, opposition Congress leader Jairam Ramesh heavily criticized Prime Minister Narendra Modi, accusing the administration of maintaining a deafening silence and making strategic concessions following the 2020 Galwan Valley clash. Ramesh also highlighted a record trade deficit with China reaching one hundred twelve billion dollars, alongside ecological threats from massive dam construction and lost patrolling rights. Persistent Himalayan border tensions and surging economic dependence on Beijing undermine India's national security and domestic industrial stability.",
+      "brief_word_count": 105
+    },
+    {
+      "story_id": "story-35",
+      "category": "Society",
+      "primary_headline": "Deportations climb under Trump but fall short of White House target, a new report finds",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Deportations climb under Trump but fall short of White House target, a new report finds - AP News",
+        "published_at": "Thu, 22 Oct 2026 11:32:53 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSEVoaXdRUEtDWnZ2SllUUTZoZy1MNHdEQzBNUFhudjhpelE1QTkzeno5QTdkU29Vc3V6SmdSQUNzSEtYU2RqWTVCc2hVYmtZWlVWYTd1dDd1OVdTck1wTHRndGpOQmY2dUNvUndPdXRlbHFlVHYxTnBaQmtzeDBHWll3bFJESkVKUm1iM2t4a3pBUktOLW5DZEhOSEZwLVV1TkpnNnln?oc=5",
+        "content": "Deportations climb under Trump but fall short of White House target, a new report finds&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Deportations climb under Trump but fall short of White House target, a new report finds - AP News",
+          "published_at": "Thu, 22 Oct 2026 11:32:53 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSEVoaXdRUEtDWnZ2SllUUTZoZy1MNHdEQzBNUFhudjhpelE1QTkzeno5QTdkU29Vc3V6SmdSQUNzSEtYU2RqWTVCc2hVYmtZWlVWYTd1dDd1OVdTck1wTHRndGpOQmY2dUNvUndPdXRlbHFlVHYxTnBaQmtzeDBHWll3bFJESkVKUm1iM2t4a3pBUktOLW5DZEhOSEZwLVV1TkpnNnln?oc=5"
+        },
+        {
+          "source_name": "BBC News",
+          "headline": "Weekly quiz: How long did Katie Zacharia last as White House press secretary?",
+          "published_at": "Thu, 22 Oct 2026 18:28:17 GMT",
+          "url": "https://www.bbc.co.uk/news/articles/cmx2qpj72znwo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source_name": "The Guardian",
+          "headline": "The White House Farm massacre – exclusive: new forensic evidence suggests Sheila Caffell killed herself. Is Jeremy Bamber innocent?",
+          "published_at": "Fri, 23 Oct 2026 04:00:04 GMT",
+          "url": "https://www.theguardian.com/uk-news/ng-interactive/2026/oct/23/the-white-house-farm-massacre-exclusive-new-forensic-evidence-suggests-sheila-caffell-killed-herself-is-jeremy-bamber-innocent"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 3,
+      "combined_score": 2.46,
+      "brief_bullets": [
+        "A new report reveals that deportations significantly increased under the Trump administration, reflecting a heightened focus on immigration enforcement, yet ultimately fell short of its ambitious White House targets for removals. This finding highlights the complexities and operational challenges inherent in executing large-scale immigration policies, even with clear directives from the executive branch. The discrepancy between stated goals and actual outcomes suggests potential limitations in resources, legal hurdles, or other systemic factors impacting the pace of removals, providing crucial insight into the practical realities of immigration policy implementation during a period of intensified enforcement efforts."
+      ],
+      "why_it_matters_bullets": [
+        "This reveals operational complexities and limitations in executing ambitious immigration enforcement policies, shaping future debates."
+      ],
+      "brief": "A new report reveals that deportations significantly increased under the Trump administration, reflecting a heightened focus on immigration enforcement, yet ultimately fell short of its ambitious White House targets for removals. This finding highlights the complexities and operational challenges inherent in executing large-scale immigration policies, even with clear directives from the executive branch. The discrepancy between stated goals and actual outcomes suggests potential limitations in resources, legal hurdles, or other systemic factors impacting the pace of removals, providing crucial insight into the practical realities of immigration policy implementation during a period of intensified enforcement efforts. This reveals operational complexities and limitations in executing ambitious immigration enforcement policies, shaping future debates.",
+      "brief_word_count": 110
+    },
+    {
+      "story_id": "story-39",
+      "category": "Society",
+      "primary_headline": "Dream night for Bournemouth - win over Milan a sign of Premier League power",
+      "primary_source": {
+        "source_name": "BBC News",
+        "headline": "Dream night for Bournemouth - win over Milan a sign of Premier League power",
+        "published_at": "Thu, 22 Oct 2026 21:30:31 GMT",
+        "url": "https://www.bbc.co.uk/sport/football/articles/c6z981p24q1eo?at_medium=RSS&at_campaign=rss",
+        "content": "Bournemouth's 3-0 win against AC Milan further illustrated the dominance of Premier League sides against their European counterparts. "
+      },
+      "sources": [
+        {
+          "source_name": "BBC News",
+          "headline": "Dream night for Bournemouth - win over Milan a sign of Premier League power",
+          "published_at": "Thu, 22 Oct 2026 21:30:31 GMT",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c6z981p24q1eo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source_name": "The Guardian",
+          "headline": "Bournemouth enjoy night to remember as 10-man Milan fail to weather storm",
+          "published_at": "Thu, 22 Oct 2026 21:00:49 GMT",
+          "url": "https://www.theguardian.com/football/2026/oct/22/bournemouth-milan-europa-league-match-report"
+        },
+        {
+          "source_name": "Sky Sports",
+          "headline": "Bournemouth seal historic win over Amorim's 10-man Milan",
+          "published_at": "Thu, 22 Oct 2026 22:00:00 BST",
+          "url": "https://www.skysports.com/football/bournemouth-vs-ac-milan/report/577779"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 3,
+      "combined_score": 2.43,
+      "brief_bullets": [
+        "Bournemouth secured a historic and dominant 3-0 victory over seven-time European champions AC Milan, highlighted by Amine Adli’s late free-kick. The match turned decisively when Milan goalkeeper Mike Maignan received a red card and conceded a penalty following a reckless challenge, compounding a lifeless performance from the Italian visitors. While the south coast club celebrated a momentous European night, the lopsided result further underscored the immense financial and competitive disparity currently favoring English Premier League sides over their continental counterparts."
+      ],
+      "why_it_matters_bullets": [
+        "This lopsided victory starkly highlights the widening financial and competitive chasm between the Premier League and elite European giants."
+      ],
+      "brief": "Bournemouth secured a historic and dominant 3-0 victory over seven-time European champions AC Milan, highlighted by Amine Adli’s late free-kick. The match turned decisively when Milan goalkeeper Mike Maignan received a red card and conceded a penalty following a reckless challenge, compounding a lifeless performance from the Italian visitors. While the south coast club celebrated a momentous European night, the lopsided result further underscored the immense financial and competitive disparity currently favoring English Premier League sides over their continental counterparts. This lopsided victory starkly highlights the widening financial and competitive chasm between the Premier League and elite European giants.",
+      "brief_word_count": 99
+    },
+    {
+      "story_id": "story-40",
+      "category": "Society",
+      "primary_headline": "Karnataka Chief Minister D.K. Shivakumar invites Poland as partner for Global Investors Meet 2027",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Karnataka Chief Minister D.K. Shivakumar invites Poland as partner for Global Investors Meet 2027",
+        "published_at": "Fri, 23 Oct 2026 13:27:08 +0530",
+        "url": "https://www.thehindu.com/news/national/karnataka/karnataka-chief-minister-dk-shivakumar-invites-poland-as-partner-for-global-investors-meet-2027/article71615031.ece",
+        "content": "Mr. Shivakumar sats the State is keen to deepen bilateral cooperation in investment, technology, innovation and employment, building on Bengaluru’s technology ecosystem and Poland’s expertise in advanced manufacturing, artificial intelligence and green energy"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Karnataka Chief Minister D.K. Shivakumar invites Poland as partner for Global Investors Meet 2027",
+          "published_at": "Fri, 23 Oct 2026 13:27:08 +0530",
+          "url": "https://www.thehindu.com/news/national/karnataka/karnataka-chief-minister-dk-shivakumar-invites-poland-as-partner-for-global-investors-meet-2027/article71615031.ece"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Karnataka Chief Minister Shivakumar meets Poland PM Donald Tusk",
+          "published_at": "Fri, 23 Oct 2026 07:08:01 +0000",
+          "url": "https://www.deccanherald.com/india/karnataka/karnataka-chief-minister-shivakumar-meets-poland-pm-donald-tusk-4192302"
         },
         {
           "source_name": "The Print",
-          "headline": "France to Italy, cost-of-living protests rock EU: Stores looted, 140-year-old landmark set on fire - ThePrint",
-          "published_at": "Sun, 18 Oct 2026 11:45:13 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORzYzbDVrWS1SMEFOZ3M3NDFUR2Z6VzJJbzRTZ3BfcEk0aHdHYnBpZjk1d1dYX2VrQ1VWa01QUmd3VUNHM0I1N3hoSnV6V1VHWmRISGV2Z0N6M0xSLUVVXzhrUE9XU0d2dFVnc0hnT20yWGhxaDhWS0d0ZEowMkZ2WlV3Y0ZEdE9wZU4wV3FSaWh1bk5lMllnblJYSDdPY1hSR1JLM3ZkR1pkdXVmd0FzRmtUT3JqMnBDTDJPZ0VMaDZiMFNsTUo4OHpR0gHPAUFVX3lxTFBleGRJd2FQSXh3UURBRGtNTFNLblBGVGZJTnpVRjJlQUY3TWs1TWZkS2I5N1J6QXIzWlZpZ1B5aGNBTlprdXViZzNLcHRjZ3hDOGJsSVBzN0RJaUtETzEzellwek5QZTRldFU2NG91X3FkeTVIS3VjWHctT3J2Wk9jS0ktWjEwSnIyM2ZvVV8zQnVHR3JMLVRxRHg0YVFrZmJlSVEwTzNGWmp1WWRMWFZxYVd2YjZGNV9YNWFfelowMFBGMkZGNUNHYkVLY2xzQQ?oc=5"
+          "headline": "India, Poland have ‘no conflicts of interest’, PM Tusk says as both sides push defence, space ties - ThePrint",
+          "published_at": "Thu, 22 Oct 2026 10:28:06 GMT",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTHBOMEdvajMwazV5YkszSWpFR3JiUmVuYTluU3RPV3lJbHgtX3VhbEV2WjZITVdtLXFvN2dScTBzRWtyWVBHS2M0aURoT00taVBVR1ktUHBUNXV3bWxIdlB1MjNPS1VndU42bDRUX1NRMkZUeTljalN6TWM1ZHh1OHZDN3ZyQmtsN2FEbXhBUWlRVlZoSFNQTGFLc0hPakcyVUtZV3ByRmRmemRVYWFNcmljaGxnQ3lhVnFhTjJOVFpLNjJxUEc5cmljZE7SAdIBQVVfeXFMTkRMZFlwZms0a3lQblJqdHBfY1BkdFdOczdySktqSHMzNkxkSFlNVTdnTTYyZlhkbzJuSHp3QnAzZHhXdHhqanlUOFg3UkYtbmc2d21NeHppTjlpQ1NhWUtHY19ZREdsV2FQTXotd1Nibl9FZU9oVkxjcWs2bXpwd2k4WVFOdktydjNMUHBQdFY2ODRnSUtva3hhTWlaVW5fU1E3LUhwVk5TWTRTVmtmYUFNZ0Z1bURmREVkTmZNZGcyNDVtVkNESTBIZndYQkJobFF3?oc=5"
         }
       ],
       "source_count": 3,
       "total_count": 3,
       "combined_score": 2.4,
       "brief_bullets": [
-        "AP News The 53-year-old in a suit who’s the face of France’s youth protests France to Italy, cost-of-living protests rock EU: Stores looted, 140-year-old landmark set on fire ThePrint.",
-        "Public dissent and street demonstrations have prompted emergency municipal interventions and heightened law enforcement readiness across impacted urban hubs.",
-        "Political factions and civic advocacy groups are actively debating the underlying systemic grievances that triggered the public unrest.",
-        "Government spokespersons have appealed for dialogue while maintaining heightened security cordons around administrative infrastructure."
+        "Karnataka Deputy Chief Minister D.K. Shivakumar met visiting Polish Prime Minister Donald Tusk in Bengaluru to pitch the state as a prime investment destination, formally inviting Poland to partner in the upcoming Global Investors Meet 2027. The high-level discussions focused on expanding bilateral cooperation across advanced manufacturing, artificial intelligence, green energy, and technology innovation, leveraging Bengaluru's robust tech ecosystem. Prime Minister Tusk's three-day Indian itinerary highlights deepening strategic, defense, and economic ties between the two nations, reinforcing regional technology partnerships following his earlier meetings with Prime Minister Narendra Modi."
       ],
       "why_it_matters_bullets": [
-        "Carries notable operational, policy, and market consequences surrounding 'Rioters loot stores, set fires in central Milan during cost'."
+        "This partnership positions Karnataka as a premier global hub for international industrial and technological collaboration."
       ],
-      "brief": "AP News The 53-year-old in a suit who’s the face of France’s youth protests France to Italy, cost-of-living protests rock EU: Stores looted, 140-year-old landmark set on fire ThePrint. Public dissent and street demonstrations have prompted emergency municipal interventions and heightened law enforcement readiness across impacted urban hubs. Political factions and civic advocacy groups are actively debating the underlying systemic grievances that triggered the public unrest. Government spokespersons have appealed for dialogue while maintaining heightened security cordons around administrative infrastructure. Carries notable operational, policy, and market consequences surrounding 'Rioters loot stores, set fires in central Milan during cost'.",
-      "brief_word_count": 98
+      "brief": "Karnataka Deputy Chief Minister D.K. Shivakumar met visiting Polish Prime Minister Donald Tusk in Bengaluru to pitch the state as a prime investment destination, formally inviting Poland to partner in the upcoming Global Investors Meet 2027. The high-level discussions focused on expanding bilateral cooperation across advanced manufacturing, artificial intelligence, green energy, and technology innovation, leveraging Bengaluru's robust tech ecosystem. Prime Minister Tusk's three-day Indian itinerary highlights deepening strategic, defense, and economic ties between the two nations, reinforcing regional technology partnerships following his earlier meetings with Prime Minister Narendra Modi. This partnership positions Karnataka as a premier global hub for international industrial and technological collaboration.",
+      "brief_word_count": 104
     },
     {
-      "story_id": "story-14",
+      "story_id": "story-44",
       "category": "Society",
-      "primary_headline": "India's education system is an 'exclusion' plan keeping youth out, alleges Rahul Gandhi",
+      "primary_headline": "Australian TV reporter recalls 'terrifying' rescue of man from sinking car",
       "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "India's education system is an 'exclusion' plan keeping youth out, alleges Rahul Gandhi",
-        "published_at": "Sun, 18 Oct 2026 13:42:55 +0000",
-        "url": "https://www.deccanherald.com/india/indias-education-system-is-an-exclusion-plan-keeping-youth-out-alleges-rahul-gandhi-4187323",
-        "content": " New Delhi: Leader of Opposition in Lok Sabha Rahul Gandhi on Sunday criticised the education system in India, calling it an \"exclusion system\" that is designed to keep millions of youth out.His remarks came during an interaction he had with students recently, a video of which was posted on his social media handles.Rahul Gandhi joins Congress' 'Goy Rakhon Yatra' in Goa; walks 2 km with party workers\"If you don’t have money, power, or don't speak English, the system will push you out without a second thought. You can’t call this an education system. It’s an exclusion system - designed to keep millions of Indian youth out,\" he said.He said what the current system is doing is certifying people and creating a \"fake idea of merit\".&amp;nbsp;His comments came as a student said the National Education Policy is exclusionary with most of the students not being able to pursue studies in regular colleges owing to the Common University Entrance Test."
+        "source_name": "Reuters",
+        "headline": "Australian TV reporter recalls 'terrifying' rescue of man from sinking car - Reuters",
+        "published_at": "Fri, 23 Oct 2026 00:54:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNS3F1RDB3UjZDc29VNHZLc25nTzBzM0ZhcmVzbFB0MG9Va2lZOVFiVWFLdWIzMXhFNy1IcUVXNXA3OUptQjVyWUFDTVVEVlNGdEpzME5MQlhQYnZJTFI2TU5iN2swaHRQUXEzSFVHcWs3VkNwb2MwYkh5MEo0am50emVTR3NGTWp1SFV0cG5IcmNOVW9xU0pndDlrR05GQlNCSlFGVVJuRVRFUkxLeHYySnBrTnJOTDZZSE1FRUJB?oc=5",
+        "content": "Australian TV reporter recalls 'terrifying' rescue of man from sinking car&nbsp;&nbsp;Reuters"
       },
       "sources": [
         {
-          "source_name": "Deccan Herald",
-          "headline": "India's education system is an 'exclusion' plan keeping youth out, alleges Rahul Gandhi",
-          "published_at": "Sun, 18 Oct 2026 13:42:55 +0000",
-          "url": "https://www.deccanherald.com/india/indias-education-system-is-an-exclusion-plan-keeping-youth-out-alleges-rahul-gandhi-4187323"
-        },
-        {
-          "source_name": "Deccan Herald",
-          "headline": "'56-inch ka seena kahan hai': Rahul Gandhi slams Modi-Shah, CEC over 'vote chori'",
-          "published_at": "Sun, 18 Oct 2026 13:38:22 +0000",
-          "url": "https://www.deccanherald.com/india/56-inch-ka-seena-kahan-hai-rahul-gandhi-slams-modi-shah-cec-over-vote-chori-4187292"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "‘Where did the 56-inch chest go?’: In Goa, Rahul targets Modi, Shah, CEC",
-          "published_at": "Sun, 18 Oct 2026 13:07:55 +0000",
-          "url": "https://indianexpress.com/article/india/rahul-gandhi-pm-narendra-modi-amit-shah-gyanesh-kumar-vote-chori-goa-10926965/"
-        },
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Rahul Gandhi joins Congress' 'Goy Rakhon Yatra' in Goa; walks 2 km with party workers",
-          "published_at": "Sun, 18 Oct 2026 11:42:33 +0000",
-          "url": "https://www.deccanherald.com/india/goa/rahul-gandhi-joins-congress-goy-rakhon-yatra-in-goa-walks-2-km-with-party-workers-4187207"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "‘When they lose, EC becomes an issue’: Nitin Nabin targets Rahul Gandhi over SIR",
-          "published_at": "Sun, 18 Oct 2026 01:00:34 +0000",
-          "url": "https://indianexpress.com/article/cities/patna/nitin-nabin-targets-rahul-gandhi-sir-election-commission-10926257/"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 7,
-      "combined_score": 3.13,
-      "brief_bullets": [
-        "New Delhi: Leader of Opposition in Lok Sabha Rahul Gandhi on Sunday criticised the education system in India, calling it an \"exclusion system\" that is designed to keep millions of youth out.",
-        "His remarks came during an interaction he had with students recently, a video of which was posted on his social media handles.",
-        "Rahul Gandhi joins Congress' 'Goy Rakhon Yatra' in Goa; walks 2 km with party workers\"If you don’t have money, power, or don't speak English, the system will push you out without a second thought.",
-        "You can’t call this an education system.",
-        "It’s an exclusion system - designed to keep millions of Indian youth out,\" he said."
-      ],
-      "why_it_matters_bullets": [
-        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
-      ],
-      "brief": "New Delhi: Leader of Opposition in Lok Sabha Rahul Gandhi on Sunday criticised the education system in India, calling it an \"exclusion system\" that is designed to keep millions of youth out. His remarks came during an interaction he had with students recently, a video of which was posted on his social media handles. Rahul Gandhi joins Congress' 'Goy Rakhon Yatra' in Goa; walks 2 km with party workers\"If you don’t have money, power, or don't speak English, the system will push you out without a second thought. You can’t call this an education system. It’s an exclusion system - designed to keep millions of Indian youth out,\" he said. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 124
-    },
-    {
-      "story_id": "story-29",
-      "category": "Society",
-      "primary_headline": "Today News Headlines for School Assembly, October 19, 2026: Indian Railways launches direct train to Vaishno Devi",
-      "primary_source": {
-        "source_name": "The Indian Express",
-        "headline": "Today News Headlines for School Assembly, October 19, 2026: Indian Railways launches direct train to Vaishno Devi",
-        "published_at": "Sun, 18 Oct 2026 12:14:15 +0000",
-        "url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-october-19-2026-indian-railways-launches-direct-train-to-vaishno-devi-asian-para-games-begin-10926633/",
-        "content": ""
-      },
-      "sources": [
-        {
-          "source_name": "The Indian Express",
-          "headline": "Today News Headlines for School Assembly, October 19, 2026: Indian Railways launches direct train to Vaishno Devi",
-          "published_at": "Sun, 18 Oct 2026 12:14:15 +0000",
-          "url": "https://indianexpress.com/article/education/today-news-headlines-for-school-assembly-october-19-2026-indian-railways-launches-direct-train-to-vaishno-devi-asian-para-games-begin-10926633/"
+          "source_name": "Reuters",
+          "headline": "Australian TV reporter recalls 'terrifying' rescue of man from sinking car - Reuters",
+          "published_at": "Fri, 23 Oct 2026 00:54:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNS3F1RDB3UjZDc29VNHZLc25nTzBzM0ZhcmVzbFB0MG9Va2lZOVFiVWFLdWIzMXhFNy1IcUVXNXA3OUptQjVyWUFDTVVEVlNGdEpzME5MQlhQYnZJTFI2TU5iN2swaHRQUXEzSFVHcWs3VkNwb2MwYkh5MEo0am50emVTR3NGTWp1SFV0cG5IcmNOVW9xU0pndDlrR05GQlNCSlFGVVJuRVRFUkxLeHYySnBrTnJOTDZZSE1FRUJB?oc=5"
         },
         {
           "source_name": "NDTV",
-          "headline": "School Assembly News Headlines (October 18): Top National, International, Sports News",
-          "published_at": "Sun, 18 Oct 2026 17:30:13 +0530",
-          "url": "https://www.ndtv.com/education/school-assembly-news-headlines-october-18-top-national-international-sports-news-12202812#publisher=newsstand"
+          "headline": "Australian Reporter And Bystander Jump Into Floodwaters To Rescue Man From Sinking Car",
+          "published_at": "Fri, 23 Oct 2026 10:55:57 +0530",
+          "url": "https://www.ndtv.com/world-news/australian-reporter-and-bystander-jump-into-floodwaters-to-rescue-man-from-sinking-truck-12223634#publisher=newsstand"
         },
         {
-          "source_name": "The Indian Express",
-          "headline": "Schools across India to remain closed on October 19-20 for Dussehra",
-          "published_at": "Sun, 18 Oct 2026 09:12:10 +0000",
-          "url": "https://indianexpress.com/article/education/school-holidays-2026-october-19-20-dussehra-durga-ashtami-10926706/"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Direct train between Gujarat and Katra flagged off, move to benefit lakhs of Vaishno Devi pilgrims",
-          "published_at": "Sun, 18 Oct 2026 07:09:36 +0000",
-          "url": "https://indianexpress.com/article/india/gujarat-katra-direct-train-flagged-off-move-to-benefit-lakhs-of-vaishno-devi-pilgrims-10926666/"
+          "source_name": "CNN",
+          "headline": "Australian reporter rescues man from sinking car - CNN",
+          "published_at": "Thu, 22 Oct 2026 11:23:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSGNhNEYwakVSSEZlLUdIMnlIMjNQRjJ5aEpyOUJ6X1dGNjdHaXJFR1g0dklJNkpmazZMVF9SaGwyTDRPWV85STQ2NF9hRGl4bDMycUtLT3RJSmpMTjE1N0xicEpJbWhhUFJnZ0lnZGF2RDV3bXNndUFJR1g0UEkwanM2TWljRC03dkFNV0dqZS00Z2Y2QzVVSlUwVWM?oc=5"
         }
       ],
-      "source_count": 2,
-      "total_count": 4,
-      "combined_score": 2.2,
-      "brief_bullets": [
-        "Stay updated and be ready to share your thoughts in the morning with these News Headlines.",
-        "Schools across India to remain closed on October 19-20 for Dussehra Direct train between Gujarat and Katra flagged off, move to benefit lakhs of Vaishno Devi pilgrims.",
-        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Today News Headlines for School Assembly, October 19, 2026: Indian Railways launches direct train to Vaishno Devi'.",
-        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "Stay updated and be ready to share your thoughts in the morning with these News Headlines. Schools across India to remain closed on October 19-20 for Dussehra Direct train between Gujarat and Katra flagged off, move to benefit lakhs of Vaishno Devi pilgrims. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Today News Headlines for School Assembly, October 19, 2026: Indian Railways launches direct train to Vaishno Devi'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 103
-    },
-    {
-      "story_id": "story-30",
-      "category": "Society",
-      "primary_headline": "Photos show No Kings rallies across America",
-      "primary_source": {
-        "source_name": "AP News",
-        "headline": "Photos show No Kings rallies across America - AP News",
-        "published_at": "Sun, 18 Oct 2026 04:17:50 GMT",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcEtOV25LZWU4ZGtWR0lobDlaUGszUkpkZWtQTXZpcmtTTGRNZDVjLV9UYXJ1eHZ5ZUdHN1lyRktReDlYaXg3QzVra19JdXREaG9UT0pJTmprWDQyXzNNajFSNUhZYmFIODh6Y2lGaVhvVzhDb0pDZ2JjOU5ES3RBaURHb2NfOXFKa25HQkRhbURxdVAzRkVvVy1BLU45QnJRUFk3cndwcmJIdktBUmc?oc=5",
-        "content": "Photos show No Kings rallies across America&nbsp;&nbsp;AP News"
-      },
-      "sources": [
-        {
-          "source_name": "AP News",
-          "headline": "Photos show No Kings rallies across America - AP News",
-          "published_at": "Sun, 18 Oct 2026 04:17:50 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcEtOV25LZWU4ZGtWR0lobDlaUGszUkpkZWtQTXZpcmtTTGRNZDVjLV9UYXJ1eHZ5ZUdHN1lyRktReDlYaXg3QzVra19JdXREaG9UT0pJTmprWDQyXzNNajFSNUhZYmFIODh6Y2lGaVhvVzhDb0pDZ2JjOU5ES3RBaURHb2NfOXFKa25HQkRhbURxdVAzRkVvVy1BLU45QnJRUFk3cndwcmJIdktBUmc?oc=5"
-        },
-        {
-          "source_name": "AP News",
-          "headline": "No Kings rallies across US urge voters to cast ballots early ahead of midterms - AP News",
-          "published_at": "Sun, 18 Oct 2026 03:35:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVndVWEl1S1dQWm51em1FaFpNOFRmYnhjU1BaMFQ2WElJbmQyQ2JqQVVaNXQxRlk4alFzMloxRXdoQVYzVGwxRWJrWm5aYmZXQUlud2xNRzBwUWpjM2hqemo4VHdwdGs5SmFSM25NeHF2NFpybnlrNjVQOFVkX0JzMm4zQ1c0ZFAwNDA4OFM1NlF6Y0RLN2tnVXZiZnJzNHVrazREZVprN3hhdFFPcDV6Q0xPQXdHREtZT2xPSGd0a212Si1qZmE2UEJ0bXo1WEY5eGc?oc=5"
-        },
-        {
-          "source_name": "AP News",
-          "headline": "No Kings rallies across US urge voters to cast ballots early ahead of midterms - AP News",
-          "published_at": "Sat, 17 Oct 2026 19:52:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSU9QdGhLZXFkak1MT3B1b3RBZlVIT3gzNEZheTFHNi1hTFpBUjZGcHVkQWhsTjFSRmJsX1RXbklDRUJ0M3dfcklfREZaYUxQWWhqNTZKWmFDZVhEMGZzd3VpLWZ0OG5zY2NIazNGbUpPQXlFc3ItM2p0akRqbkRXSF9oUnVQWHZpZlZuVWtsaw?oc=5"
-        },
-        {
-          "source_name": "Al Jazeera",
-          "headline": "Photos: No Kings rallies in US urge midterm voters to cast ballots early - Al Jazeera",
-          "published_at": "Sat, 17 Oct 2026 21:18:48 GMT",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONTAzWXZlVGthYm9nc095S1l5Z1FuNXl5cXRPSTg0Ny1KRy1rRzh4a2RVMjIzYzRjUW5QZG1SdHg1enB1OGljUUY4Y2JkNFhXLTQtSnJKRmdkc0NHU0NIemx5ZE1hTldJVzZ6aTVPYjlWenFYNTlKV3g3U1g5Zlp5ZURHX3I3WnRyYVFuc0JIVG1aZm9Sem9XOUdJeVpjRUhjaGNLZGl1bFk2NzEydlpqQVdVXzlaQkXSAbwBQVVfeXFMTkJaZGtnVnNVYU5fVmlCaWQ2cmxQakpnMzFGREtTS0RIYlg1SUFXeVhoNFI3ZGRKclpZOXpTVTNCRzhoSzFZMFdPQ2VHNGxmbDhSRUdmTDZ4dkFBYmJkcUE4bF9nLU1uLTEyUHNEQnJua19aUFh5aENGVXI3eExkUHc3QUZ2d0ZQeEkyMVA2UkVOR3R1MmxZV0txQ0c3UmxfdDBMRkpjTmRFRmVjQV9SS0RVbEoyWHE3RHpNZUM?oc=5"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 4,
-      "combined_score": 2.2,
-      "brief_bullets": [
-        "AP News No Kings rallies across US urge voters to cast ballots early ahead of midterms AP News No Kings rallies across US urge voters to cast ballots early ahead of midterms AP News Photos: No Kings rallies in US urge midterm voters to cast ballots early.",
-        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Photos show No Kings rallies across America'.",
-        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
-        "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
-      ],
-      "why_it_matters_bullets": [
-        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
-      ],
-      "brief": "AP News No Kings rallies across US urge voters to cast ballots early ahead of midterms AP News No Kings rallies across US urge voters to cast ballots early ahead of midterms AP News Photos: No Kings rallies in US urge midterm voters to cast ballots early. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Photos show No Kings rallies across America'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 112
-    },
-    {
-      "story_id": "story-32",
-      "category": "Society",
-      "primary_headline": "15 Killed As Truck Runs Over Devotees Near Temple In Madhya Pradesh",
-      "primary_source": {
-        "source_name": "NDTV",
-        "headline": "15 Killed As Truck Runs Over Devotees Near Temple In Madhya Pradesh",
-        "published_at": "Sun, 18 Oct 2026 09:55:17 +0530",
-        "url": "https://www.ndtv.com/india-news/madhya-pradesh-temple-accident-12-killed-as-truck-runs-over-devotees-near-temple-in-madhya-pradeshs-gwalior-12201028#publisher=newsstand",
-        "content": " The truck reportedly broke through police barricades before running over pilgrims on the road and crashing into the temple's outer wall and gate."
-      },
-      "sources": [
-        {
-          "source_name": "NDTV",
-          "headline": "15 Killed As Truck Runs Over Devotees Near Temple In Madhya Pradesh",
-          "published_at": "Sun, 18 Oct 2026 09:55:17 +0530",
-          "url": "https://www.ndtv.com/india-news/madhya-pradesh-temple-accident-12-killed-as-truck-runs-over-devotees-near-temple-in-madhya-pradeshs-gwalior-12201028#publisher=newsstand"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "12 killed, 29 injured as truck runs over devotees walking towards temple in Gwalior",
-          "published_at": "Sun, 18 Oct 2026 03:30:53 +0000",
-          "url": "https://indianexpress.com/article/india/gwalior-road-accident-truck-hits-devotees-sheetlamata-mandir-10926443/"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "3 years, 14 protests: Why Madhya Pradesh CM Mohan Yadav has blinked time and again",
-          "published_at": "Sun, 18 Oct 2026 01:30:35 +0000",
-          "url": "https://indianexpress.com/article/political-pulse/madhya-pradesh-protests-mohan-yadav-shivraj-singh-chouhan-tribal-demolition-10926263/"
-        }
-      ],
-      "source_count": 2,
+      "source_count": 3,
       "total_count": 3,
-      "combined_score": 2.02,
+      "combined_score": 2.4,
       "brief_bullets": [
-        "The truck reportedly broke through police barricades before running over pilgrims on the road and crashing into the temple's outer wall and gate.",
-        "12 killed, 29 injured as truck runs over devotees walking towards temple in Gwalior 3 years, 14 protests: Why Madhya Pradesh CM Mohan Yadav has blinked time and again.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
-        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions."
+        "An Australian television reporter transitioned from covering breaking news to performing a high-stakes rescue when he and a bystander saved a driver from a rapidly sinking vehicle. The journalist recounted the terrifying ordeal of placing his feet against the car's side to leverage enough force to extract the trapped motorist moments before total submersion. This dramatic intervention highlights the unpredictable realities reporters face in the field, where split-second human instincts frequently supersede professional detachment during life-threatening crises."
       ],
       "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+        "This harrowing rescue underscores the profound human element often intersecting with frontline journalism during unpredictable emergency situations."
       ],
-      "brief": "The truck reportedly broke through police barricades before running over pilgrims on the road and crashing into the temple's outer wall and gate. 12 killed, 29 injured as truck runs over devotees walking towards temple in Gwalior 3 years, 14 protests: Why Madhya Pradesh CM Mohan Yadav has blinked time and again. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 108
+      "brief": "An Australian television reporter transitioned from covering breaking news to performing a high-stakes rescue when he and a bystander saved a driver from a rapidly sinking vehicle. The journalist recounted the terrifying ordeal of placing his feet against the car's side to leverage enough force to extract the trapped motorist moments before total submersion. This dramatic intervention highlights the unpredictable realities reporters face in the field, where split-second human instincts frequently supersede professional detachment during life-threatening crises. This harrowing rescue underscores the profound human element often intersecting with frontline journalism during unpredictable emergency situations.",
+      "brief_word_count": 94
     },
     {
-      "story_id": "story-34",
+      "story_id": "story-45",
       "category": "Society",
-      "primary_headline": "Ranji Trophy | Manvanth Kumar saves the day for Karnataka",
+      "primary_headline": "Laboratory operator Quest reports cyber breach affecting patient records",
       "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Ranji Trophy | Manvanth Kumar saves the day for Karnataka",
-        "published_at": "Sun, 18 Oct 2026 16:45:59 +0000",
-        "url": "https://www.deccanherald.com/sports/cricket/manvanth-saves-day-for-hosts-4187483",
-        "content": " Bengaluru: An interesting opening day, which began with a strange move of Karnataka fast bowler Vyshak Vijaykumar (1, 5b) walking in at No. 3 in gloomy conditions and Jaydev Unadkat (3/51) and Chetan Sakariya (2/48) reaping some rewards for exploiting pace-friendly conditions, ended with a resilient Manvanth Kumar (86 n.o., 124b) lifting the hosts from a precarious position in their Ranji Trophy game against Saurashtra at the Alur 1 Ground here on Sunday.Arriving at the crease at 187/7 in 50 overs, No. 9 Manvanth, just one first-class game old, showcased his grace and gumption after Aneesh K V’s (59, 96b, 4x8) impressive stay as Karnataka battled hard to reach 281 for eight in 86 overs.Ranji Trophy | Karnataka need batting reset against SaurashtraManvanth hit six fours and five sixes in his unbeaten knock, including one that showed off his elegance, gloriously coming down the track to hit Unadkat down the ground for a maximum.Credit must also go to Abhilash Shetty (6 n.o., 85b), who stuck around with Manvanth, to carve out a late rescue act by stitching an unbeaten 87-run partnership off 206 balls.For Saurashtra, skipper Unadkat, who relentlessly kept it tight, and Parth Bhut (3/73), were the pick of the bowlers.Earlier, the hosts had made as many as five changes, including two debutants, but their batting frailties at the top were again exposed.There was a good amount of movement and bounce on offer for the quicks with Unadkat, in particular, moving the ball at a decent pace in the first session and beating the outside edges at ease.And he did not have to wait long for his first wicket, dismissing Rohan Patil (6) in the fifth over, as the debutant was pinned in front from a ball that cut back in.ExperimentHead coach Vinay Kumar’s experiments continued for a second straight game with Vyshak’s promotion to No.3. The logic behind the move could have been to take the shine off the new ball, but that failed spectacularly. Vyshak was back in the hut within five balls when he was castled after he stepped out and went for a wild swing across the sticks.When Aneesh and Mayank Agarwal (42, 83b) joined hands, Karnataka were two down for not many, with Saurashtra dominating proceedings and making the hosts play and earn every run.While batting wasn’t easy, Aneesh and Mayank portrayed superb application with the rotation of strike and looked more at ease in the middle after surviving some anxious moments.Aneesh, batting for a spot, looked very composed and brought up his third first-class fifty with a single to square leg in 65 balls, and Mayank, with all his experience, respected the good deliveries as Karnataka went into Lunch with 91/2 in 25 overs.After the break, the runs started to dry up, and the hosts lost Agarwal leg before when he shuffled across to flick Unadkat in the 33rd over.It was a bittersweet day for Aneesh, as he followed Mayank three overs later, throwing his wicket while trying to pull a delivery over his head.Karun Nair once again steadied a sinking Karnataka ship with an proactive 46 off 57, laced with nine boundaries, and skipper Shreyas Gopal (3) was sent back with a beautiful Parth delivery that took his edge and into the Sammar Gajjar at slip.Highlights - Shreyas felicitated It was an afternoon of pride and celebration for all-rounder Shreyas Gopal as he was felicitated by the KSCA on Sunday for his 100 first-class appearances.&amp;nbsp; During the Tea break in Karnataka’s Ranji Trophy fixture against Saurashtra in Alur, Shreyas was presented with a special jersey with the No. 100 on the back by KSCA Committee Member Avinash Vaidya.&amp;nbsp; Shreyas’ 100th game came during the Duleep Trophy final between South Zone and East Zone at the M A Chidambaram Stadium in Chennai.SCOREBOARD KARNATAKA (I Innings): Rohan Patil lbw Unadkat 6 (18b 1x4) Mayank Agarwal lbw Unadkat 42 (83b 4x4 1x6) Vyshak Vijaykumar b Sakariya 1 (5b) K V Aneesh c Desai b Sakariya 59 (96b 4x8) Karun Nair c Kotak b Bhut 46 (57b 9x4) Aneeshwar Gautam 4 (2b 1x4) Shreyas Gopal c Gajjar b Bhut 3 (11b) Manvanth Kumar (batting) 86 (124b 6x4 5x6) Abhilash Shetty (batting) 6 (85b). Extras (LB-6 W-1) 7. TOTAL (for 8 wkts 86 overs) 281. Fall of wickets: 1-12 2-13 3-111 4-131 5-140 6-183 7-187 8-194. Bowling: Jaydev Unadkat 19-3-51-3 Chetan Sakariya 18-3-48-2 Ankur Panwar 9-2-30-0 Chirag Jani 8-0-45-0 Parth Bhut 21-3-73-3 Prerak Mankad 9-4-19-0 Sammar Gajjar 2-0-9-0. Other Group B brief scores: At Vijayawada: Hyderabad: 275 all out in 86 overs (Tanmay Agarwal 42 Abhirath Reddy 67 Pragnay Reddy 31 Rahul Radesh 58; Lalith Mohan 3-42 Tripurana Vijay 4-90 Saurabh Kumar 3-75) vs Andhra: 9/0 in 2 overs. At New Chandigarh: Punjab: 269/4 in 90 overs (Vihaan Malhotra 40 Uday Saharan 106 Prabhsimran Singh 62 Sahil Arora 38 n.o.; Dharmendrasinh Jadeja 2-92 Ajay Mandal 2-60) vs Chhattisgarh. At Guwahati: Assam: 228/6 in 86 overs (Nibir Deka 34 Rishav Das 37 Sibsankar Roy 54 Sumit Ghadigaonkar 49; Sandip Sarkar 3-64) vs Tripura."
+        "source_name": "Reuters",
+        "headline": "Laboratory operator Quest reports cyber breach affecting patient records - Reuters",
+        "published_at": "Thu, 22 Oct 2026 15:35:43 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObWV3NGM1S1J4RHVYM2xFZlZOM1FNekxQQ3hDeUd5OGx3eXc0bjNkd1J6alZPYUtnQUpUX1R4X2xEYnNHVXM0Q1d2VzhoYkduRk5YZ1hNalV2dEhYYUFFX3RDUF9HZmRsVkhHbzE3WXJ0WHZ0UXJkaW52ajZQbndhSVNlbi14Nnh6WUR0OHVIb3lVdHhCMTVvejRpYU9iblVwZHlMalQtT2hJRzJpZVVYV1ZDZ1hiVnE1alM2MnhpeFFVTkE?oc=5",
+        "content": "Laboratory operator Quest reports cyber breach affecting patient records&nbsp;&nbsp;Reuters"
       },
       "sources": [
         {
-          "source_name": "Deccan Herald",
-          "headline": "Ranji Trophy | Manvanth Kumar saves the day for Karnataka",
-          "published_at": "Sun, 18 Oct 2026 16:45:59 +0000",
-          "url": "https://www.deccanherald.com/sports/cricket/manvanth-saves-day-for-hosts-4187483"
+          "source_name": "Reuters",
+          "headline": "Laboratory operator Quest reports cyber breach affecting patient records - Reuters",
+          "published_at": "Thu, 22 Oct 2026 15:35:43 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObWV3NGM1S1J4RHVYM2xFZlZOM1FNekxQQ3hDeUd5OGx3eXc0bjNkd1J6alZPYUtnQUpUX1R4X2xEYnNHVXM0Q1d2VzhoYkduRk5YZ1hNalV2dEhYYUFFX3RDUF9HZmRsVkhHbzE3WXJ0WHZ0UXJkaW52ajZQbndhSVNlbi14Nnh6WUR0OHVIb3lVdHhCMTVvejRpYU9iblVwZHlMalQtT2hJRzJpZVVYV1ZDZ1hiVnE1alM2MnhpeFFVTkE?oc=5"
         },
         {
-          "source_name": "The Indian Express",
-          "headline": "Ranji Trophy, Round 2 Day 1: 10 bowl outs, 2 five-fors and ton for Rinku Singh",
-          "published_at": "Sun, 18 Oct 2026 15:23:12 +0000",
-          "url": "https://indianexpress.com/article/sports/cricket/ranji-trophy-roundup-10-bowl-outs-2-five-for-ton-for-rinku-singh-10927113/"
+          "source_name": "AP News",
+          "headline": "Quest Diagnostics reports cyber breach affecting ‘certain patient records’ - AP News",
+          "published_at": "Thu, 22 Oct 2026 15:09:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUERqTFZheDFjRWV4cGQ2N1FjUDNMMWZ1TUgzSlJMa2xPejAxLU9KckNkUjF6WXJlaWliUkdPR3NidFRJbzB1YlhMdHk0U0x3YWdTTE12S2JNLS1LLWg1NGdzemVpRzZVc0lwTnRINUIzbWFiQTFVSW9ha2ZacEhCWEZkS00?oc=5"
         },
         {
-          "source_name": "The Indian Express",
-          "headline": "Pujara on Manav Suthar snub for NZ Tests: ‘Has played enough Ranji Trophy’",
-          "published_at": "Sun, 18 Oct 2026 08:43:07 +0000",
-          "url": "https://indianexpress.com/article/sports/cricket/india-vs-new-zealand-tests-manav-suthar-snub-ranji-trophy-cheteshwar-pujara-10926739/"
+          "source_name": "Washington Post",
+          "headline": "Major medical lab operator believes cyber breach exposed patient records - The Washington Post",
+          "published_at": "Fri, 23 Oct 2026 03:04:40 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOb3ByREkyNzdKVHFhUlViNFVveW5oa3R2WjczRnlTeVQ3UEF4NkVhdldfaER4NnJuN0hFNmxZM2FwTS1FS0ZaOHd4TVc2SjEzNW9hV2tVdU1vVnhXN3lsVEZaeHgwRnBLeW9xOGZIQkRBcy1EUFdvYVNIRExfcVktd0U4YndXS0t6aV8xaVVPdG1JQXhjUDEwTXRha1VtTm5RVmFCYS16dW1KeU12WHFXRzFySEFPQUozY0t3c2VpYWZ0Zw?oc=5"
         }
       ],
-      "source_count": 2,
+      "source_count": 3,
       "total_count": 3,
-      "combined_score": 1.96,
+      "combined_score": 2.4,
       "brief_bullets": [
-        "Bengaluru: An interesting opening day, which began with a strange move of Karnataka fast bowler Vyshak Vijaykumar (1, 5b) walking in at No.",
-        "3 in gloomy conditions and Jaydev Unadkat (3/51) and Chetan Sakariya (2/48) reaping some rewards for exploiting pace-friendly conditions, ended with a resilient Manvanth Kumar (86 n.o., 124b) lifting the hosts from a precarious position in their Ranji Trophy game against Saurashtra at the Alur 1 Ground here on Sunday.",
-        "Arriving at the crease at 187/7 in 50 overs, No.",
-        "9 Manvanth, just one first-class game old, showcased his grace and gumption after Aneesh K V’s (59, 96b, 4x8) impressive stay as Karnataka battled hard to reach 281 for eight in 86 overs."
+        "Major medical laboratory operator Quest Diagnostics has disclosed a significant cyber breach that compromised certain sensitive patient records. Cybersecurity experts and company officials are actively investigating the incident to determine the full scope of the unauthorized data access and potential exposure of personal health information. This security failure places millions of patients at risk of medical identity theft and underscores critical vulnerabilities within healthcare IT infrastructure. Regulatory bodies are expected to launch intensive probes into the company's data protection protocols following this alarming disclosure."
       ],
       "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+        "This breach exposes critical healthcare vulnerabilities, risking widespread medical identity theft and prompting stringent regulatory investigations."
       ],
-      "brief": "Bengaluru: An interesting opening day, which began with a strange move of Karnataka fast bowler Vyshak Vijaykumar (1, 5b) walking in at No. 3 in gloomy conditions and Jaydev Unadkat (3/51) and Chetan Sakariya (2/48) reaping some rewards for exploiting pace-friendly conditions, ended with a resilient Manvanth Kumar (86 n.o., 124b) lifting the hosts from a precarious position in their Ranji Trophy game against Saurashtra at the Alur 1 Ground here on Sunday. Arriving at the crease at 187/7 in 50 overs, No. 9 Manvanth, just one first-class game old, showcased his grace and gumption after Aneesh K V’s (59, 96b, 4x8) impressive stay as Karnataka battled hard to reach 281 for eight in 86 overs. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 129
+      "brief": "Major medical laboratory operator Quest Diagnostics has disclosed a significant cyber breach that compromised certain sensitive patient records. Cybersecurity experts and company officials are actively investigating the incident to determine the full scope of the unauthorized data access and potential exposure of personal health information. This security failure places millions of patients at risk of medical identity theft and underscores critical vulnerabilities within healthcare IT infrastructure. Regulatory bodies are expected to launch intensive probes into the company's data protection protocols following this alarming disclosure. This breach exposes critical healthcare vulnerabilities, risking widespread medical identity theft and prompting stringent regulatory investigations.",
+      "brief_word_count": 100
     }
   ]
 }
