@@ -1,597 +1,375 @@
 {
   "id": "latest",
   "category": "science",
-  "timestamp": "2026-10-23T08:07:39.235393+00:00",
-  "articlesCount": 16,
+  "timestamp": "2026-11-06T17:32:13.589848+00:00",
+  "articlesCount": 11,
   "stories": [
     {
-      "story_id": "story-2",
+      "story_id": "story-62",
       "category": "Science",
-      "primary_headline": "Powerful earthquake in China’s Tibet region collapses hundreds of homes and kills at least 16 people",
+      "primary_headline": "The Voters Who Powered the Blue Tsunami",
       "primary_source": {
-        "source_name": "AP News",
-        "headline": "Powerful earthquake in China’s Tibet region collapses hundreds of homes and kills at least 16 people - AP News",
-        "published_at": "Fri, 23 Oct 2026 05:25:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORldaOFZPaTBpbVQ2N05EYjc0VlEzMVFUSHNTY0NZMTlUQnQwRTd2MTk0YU96N1N6WUlFZ2R5c3RnZ0FCNWkwemZlV1FmM3dfSVlFekRYc3AwQ2U4WmhESG5pT0xPT2NDUVNxLUZtMlFQNmFkYjN0TmRfUnF2azNnR3Z0aVVsZE16OGc?oc=5",
-        "content": "Powerful earthquake in China’s Tibet region collapses hundreds of homes and kills at least 16 people&nbsp;&nbsp;AP News"
+        "source_name": "NYT",
+        "headline": "The Voters Who Powered the Blue Tsunami",
+        "published_at": "Fri, 06 Nov 2026 16:41:05 +0000",
+        "url": "https://www.nytimes.com/video/us/elections/100000011265557/the-voters-who-powered-the-blue-tsunami.html",
+        "content": "A younger, more diverse electorate than is typical in midterm elections helped drive Democrats’ decisive victory, along with gains among swing voters and support from some Republican voters. Nate Cohn, The New York Times’s chief political analyst, explains."
       },
       "sources": [
         {
-          "source_name": "AP News",
-          "headline": "Powerful earthquake in China’s Tibet region collapses hundreds of homes and kills at least 16 people - AP News",
-          "published_at": "Fri, 23 Oct 2026 05:25:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORldaOFZPaTBpbVQ2N05EYjc0VlEzMVFUSHNTY0NZMTlUQnQwRTd2MTk0YU96N1N6WUlFZ2R5c3RnZ0FCNWkwemZlV1FmM3dfSVlFekRYc3AwQ2U4WmhESG5pT0xPT2NDUVNxLUZtMlFQNmFkYjN0TmRfUnF2azNnR3Z0aVVsZE16OGc?oc=5"
+          "source_name": "NYT",
+          "headline": "The Voters Who Powered the Blue Tsunami",
+          "published_at": "Fri, 06 Nov 2026 16:41:05 +0000",
+          "url": "https://www.nytimes.com/video/us/elections/100000011265557/the-voters-who-powered-the-blue-tsunami.html"
         },
         {
-          "source_name": "Reuters",
-          "headline": "Earthquake of magnitude 7 strikes China's Tibet, killing 16, Xinhua reports - Reuters",
-          "published_at": "Thu, 22 Oct 2026 14:58:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaUlEUG80aTRoVHhfOFptUTJYZHpwWE1LT0hURTlrM1JpejJqZ0pEYnJUSG1zbWk4RUVmMnpnMXVlU05LUXdoWjNrMXAxYS1HR051VDBVZ2FqQ1RHOUs4aVFGcExLTDFJVHg4QUhpUDNlNkxud2dldEFQYXA0bUs1eThHS1lVWm4zUm5kQ2NQcGxKQ0E3N3gyZnUtVk5GNENkVXc?oc=5"
-        },
-        {
-          "source_name": "The Guardian",
-          "headline": "Magnitude-7 earthquake hits Tibet, killing at least 16 and destroying hundreds of homes",
-          "published_at": "Fri, 23 Oct 2026 07:53:58 GMT",
-          "url": "https://www.theguardian.com/world/2026/oct/23/magnitude-7-earthquake-hits-china-tibet"
-        },
-        {
-          "source_name": "The Hindu",
-          "headline": "16 killed, 65 injured as magnitude 7 quake hits Tibet; over 12,000 evacuated",
-          "published_at": "Fri, 23 Oct 2026 13:22:38 +0530",
-          "url": "https://www.thehindu.com/news/international/tibet-earthquake-nagqu-updates-october-22-2026/article71612585.ece"
-        },
-        {
-          "source_name": "CNN",
-          "headline": "Deadly magnitude 7 earthquake hits Tibet - CNN",
-          "published_at": "Fri, 23 Oct 2026 06:14:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTFpJWHg5aXBuMkVROEVSUnh5bzhnUXJQdXMyeEFscE9nVTZQSVlYRFdwalgwcndMZGRTVlZuN3ZwSWNJZ24zRnJFd0YtOG9pazZfVzdUdzdjQ1hWQnRZRUwzcUFxU19tMVJ4MFpVUFVPUExmdENlV2NOaVVQXzc3Y0lYemRWdWRER3N2VUhsaGZ1V01sT0NXMXFuUTlOQQ?oc=5"
-        }
-      ],
-      "source_count": 7,
-      "total_count": 8,
-      "combined_score": 5.99,
-      "brief_bullets": [
-        "A powerful magnitude-7 earthquake struck China's northern Tibet region, centered around the city of Nagqu, resulting in at least 16 deaths and 54 injuries. Official media reported that the disaster collapsed hundreds of homes and livestock sheds, triggering immediate search and rescue operations amid dozens of subsequent aftershocks. Local government agencies and emergency response teams have deployed resources to the remote disaster zone to address widespread structural damage and provide medical assistance to affected residents."
-      ],
-      "why_it_matters_bullets": [
-        "The disaster exposes critical infrastructure vulnerabilities in remote Tibetan communities, straining regional emergency response capacities."
-      ],
-      "brief": "A powerful magnitude-7 earthquake struck China's northern Tibet region, centered around the city of Nagqu, resulting in at least 16 deaths and 54 injuries. Official media reported that the disaster collapsed hundreds of homes and livestock sheds, triggering immediate search and rescue operations amid dozens of subsequent aftershocks. Local government agencies and emergency response teams have deployed resources to the remote disaster zone to address widespread structural damage and provide medical assistance to affected residents. The disaster exposes critical infrastructure vulnerabilities in remote Tibetan communities, straining regional emergency response capacities.",
-      "brief_word_count": 90
-    },
-    {
-      "story_id": "story-8",
-      "category": "Science",
-      "primary_headline": "Merck/Moderna cancer vaccine cuts melanoma death or recurrence risk by 42%, shares fall",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Merck/Moderna cancer vaccine cuts melanoma death or recurrence risk by 42%, shares fall - Reuters",
-        "published_at": "Thu, 22 Oct 2026 21:25:14 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSXhsdlctOU15SmpPZm9IX2gzemJrTWstX0h6cTZwQmotNjBGOXdWOUFLa0Nob3NpSmY3cmFZLTZUSFRDS2xXVVNySTJhdDNlZURUV2lmaFJhSkpiS3RuN09LRGlpM2ttQklLeTVzWDhsVVlLc3pibG5fZE93QWIzZHk3bFo5NnBZUHhNanhBbng2bDBMbGZibTVhLVFmY3I5YlkyNi1OeHdfYmdNWXV1RHYxdVRFUlZRdV85TFNsVVIxcHV1NUV6MUpB?oc=5",
-        "content": "Merck/Moderna cancer vaccine cuts melanoma death or recurrence risk by 42%, shares fall&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "Merck/Moderna cancer vaccine cuts melanoma death or recurrence risk by 42%, shares fall - Reuters",
-          "published_at": "Thu, 22 Oct 2026 21:25:14 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSXhsdlctOU15SmpPZm9IX2gzemJrTWstX0h6cTZwQmotNjBGOXdWOUFLa0Nob3NpSmY3cmFZLTZUSFRDS2xXVVNySTJhdDNlZURUV2lmaFJhSkpiS3RuN09LRGlpM2ttQklLeTVzWDhsVVlLc3pibG5fZE93QWIzZHk3bFo5NnBZUHhNanhBbng2bDBMbGZibTVhLVFmY3I5YlkyNi1OeHdfYmdNWXV1RHYxdVRFUlZRdV85TFNsVVIxcHV1NUV6MUpB?oc=5"
-        },
-        {
-          "source_name": "BBC News",
-          "headline": "First personalised cancer vaccine cuts risk of disease returning in major trial",
-          "published_at": "Fri, 23 Oct 2026 07:49:02 GMT",
-          "url": "https://www.bbc.co.uk/news/articles/cq0ld9g9e913o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source_name": "Washington Post",
-          "headline": "Breakthrough vaccine for the deadliest skin cancer cut risk by almost half - The Washington Post",
-          "published_at": "Fri, 23 Oct 2026 03:24:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcnNsU1A1OWYzanlaZGVQdThwV1FIb2NhREFoT2RvSmpsNmw1cWsxWFdTVXBzZW9Qb2o4elBxZDZkSjVCNjJBenVWM05EOElWVnlIbzRONzZHTDdDdEtFSm5kMDZOVkpoSDVRT0tQMjBTMlZRbWpycV9lcld2Z3hXOWhkN1FsME1IU3d5OWstbkx3RWY1MmJCZGV0MXVDQTRrRjB6VThFbUVoWDNkR01jd3NDWEFhN0U?oc=5"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Moderna, Merck’s experimental cancer vaccine cuts melanoma recurrence risk by 42%: Report",
-          "published_at": "Fri, 23 Oct 2026 06:17:23 +0000",
-          "url": "https://indianexpress.com/article/lifestyle/health/moderna-mercks-personalized-mrna-vaccine-intismeran-cut-melanoma-recurrence-or-death-risk-by-42-over-two-years-in-a-key-study-10933292/"
-        },
-        {
-          "source_name": "Ars Technica",
-          "headline": "Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%",
-          "published_at": "Thu, 22 Oct 2026 22:12:19 +0000",
-          "url": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/"
-        }
-      ],
-      "source_count": 6,
-      "total_count": 6,
-      "combined_score": 4.83,
-      "brief_bullets": [
-        "Pharmaceutical partners Merck and Moderna announced that their experimental personalized mRNA cancer vaccine, when combined with standard immunotherapy, reduced the risk of melanoma recurrence or death by 42 percent compared to standard treatment alone in a pivotal late-stage clinical trial. Led by industry executives including Moderna CEO Stéphane Bancel, the companies are now actively engaging with global regulatory authorities to secure approval for the deadliest form of skin cancer. This clinical milestone validates the viability of custom-tailored genetic therapies, signaling a major structural shift toward personalized oncology and broader commercial applications for messenger RNA technology across various human malignancies."
-      ],
-      "why_it_matters_bullets": [
-        "This breakthrough validates personalized mRNA oncology, paving the way for rapid regulatory approvals and transformative cancer treatments."
-      ],
-      "brief": "Pharmaceutical partners Merck and Moderna announced that their experimental personalized mRNA cancer vaccine, when combined with standard immunotherapy, reduced the risk of melanoma recurrence or death by 42 percent compared to standard treatment alone in a pivotal late-stage clinical trial. Led by industry executives including Moderna CEO Stéphane Bancel, the companies are now actively engaging with global regulatory authorities to secure approval for the deadliest form of skin cancer. This clinical milestone validates the viability of custom-tailored genetic therapies, signaling a major structural shift toward personalized oncology and broader commercial applications for messenger RNA technology across various human malignancies. This breakthrough validates personalized mRNA oncology, paving the way for rapid regulatory approvals and transformative cancer treatments.",
-      "brief_word_count": 116
-    },
-    {
-      "story_id": "story-12",
-      "category": "Science",
-      "primary_headline": "Explainer: What is Shamonda virus and what are the risks to humans and animals?",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Explainer: What is Shamonda virus and what are the risks to humans and animals? - Reuters",
-        "published_at": "Thu, 22 Oct 2026 14:40:09 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcUN4SHd0NkRQS01tU1NYd3RnTnVTU2RFazF5ejBYUjFoSWtQRHJGTTlMS2FqQlN0N19YMURseFpFaGNjZXdfZC14Y2dNa3hTNEVfSkpvMno2ZGVTVXRzX1JKOFFqa0l6QXRVMFRId3ZHR0gzZnJTVjhWaGlSTWdkTTY2b3JmNG11RGdFQ3pKUmo5VzBPQjBNUmNEMWpkVUhOUFJ3VzM4WlFqcTRSMkNhT2laTWlFU0U5WlpsNVF4WlVDQQ?oc=5",
-        "content": "Explainer: What is Shamonda virus and what are the risks to humans and animals?&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "Explainer: What is Shamonda virus and what are the risks to humans and animals? - Reuters",
-          "published_at": "Thu, 22 Oct 2026 14:40:09 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcUN4SHd0NkRQS01tU1NYd3RnTnVTU2RFazF5ejBYUjFoSWtQRHJGTTlMS2FqQlN0N19YMURseFpFaGNjZXdfZC14Y2dNa3hTNEVfSkpvMno2ZGVTVXRzX1JKOFFqa0l6QXRVMFRId3ZHR0gzZnJTVjhWaGlSTWdkTTY2b3JmNG11RGdFQ3pKUmo5VzBPQjBNUmNEMWpkVUhOUFJ3VzM4WlFqcTRSMkNhT2laTWlFU0U5WlpsNVF4WlVDQQ?oc=5"
-        },
-        {
-          "source_name": "AP News",
-          "headline": "France reports first human case of livestock virus Shamonda in patient who later died - AP News",
-          "published_at": "Thu, 22 Oct 2026 12:28:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMUd0ZUxrUVpmUmp6TkF0YlZQZnM3dERWbEJxMERaM1IxdEZTTHY0MzhiLUZXam0wMU8zM3RSamJEdzdFVUdVOXVvRkhuOV9mUkF0VmlLMnhOQWpOaUU2aDlqaFA1cUZUQlhNNXlXN2FYREZ4eEZ2VmJyZldXWGN3dlQtaEFGYVpDNHEyZmhCbkZGaERpdEVN?oc=5"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Shamonda Virus: Why the first human infection in France matters",
-          "published_at": "Fri, 23 Oct 2026 02:08:07 +0000",
-          "url": "https://indianexpress.com/article/health-wellness/shamonda-virus-first-human-infection-france-matters-10933073/"
+          "source_name": "NYT",
+          "headline": "Fed Up With Politics and Struggle, Young Voters Powered Democrats’ Midterm Victory",
+          "published_at": "Fri, 06 Nov 2026 12:26:56 +0000",
+          "url": "https://www.nytimes.com/2026/11/06/us/politics/young-voters-democratic-wave-midterms.html"
         },
         {
           "source_name": "Wired",
-          "headline": "What to Know About Shamonda Virus Following the First Reported Human Infection",
-          "published_at": "Thu, 22 Oct 2026 22:26:57 +0000",
-          "url": "https://www.wired.com/story/what-to-about-shamonda-virus-following-the-first-reported-human-infection/"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Shamonda virus: First human case reported in France; patient dies",
-          "published_at": "Thu, 22 Oct 2026 15:14:40 +0000",
-          "url": "https://indianexpress.com/article/world/first-human-case-shamonda-virus-france-lyon-death-10932667/"
+          "headline": "The Blue Tsunami Swept Doctors and Scientists Into Office",
+          "published_at": "Thu, 05 Nov 2026 19:55:24 +0000",
+          "url": "https://www.wired.com/story/the-blue-tsunami-swept-doctors-and-scientists-into-office/"
         }
       ],
-      "source_count": 5,
-      "total_count": 6,
-      "combined_score": 4.33,
+      "source_count": 2,
+      "total_count": 3,
+      "combined_score": 1.9,
       "brief_bullets": [
-        "France has reported its first-ever human case of the livestock pathogen Shamonda virus in a patient who subsequently died. Public health investigators are currently working to determine the precise route of transmission and whether the virus directly contributed to the fatality. Conventionally known as an animal virus affecting livestock, this unprecedented human infection has triggered heightened surveillance by health authorities. Experts are assessing the potential zoonotic risks and evaluating whether the pathogen poses a broader threat to public health and veterinary safety."
+        "A younger, more diverse electorate proved instrumental in driving Democrats to a decisive midterm victory, bolstered by significant gains among swing voters and moderate Republicans. Chief political analyst Nate Cohn highlights that this surge was fueled by a generational demand for change, as young voters increasingly challenged the status quo regarding resource allocation and leadership. Furthermore, the success of science-focused organizations like 314 Action, which saw over 80 percent of its endorsed candidates win, underscores a growing electoral appetite for expertise in governance. This coalition of youth, diverse demographics, and professionalized candidates effectively reshaped the political landscape, signaling a shift in voter priorities that transcends traditional party lines and challenges established political norms."
       ],
       "why_it_matters_bullets": [
-        "This first documented human case signals a concerning potential spillover of a livestock virus into human populations."
+        "This shift signals that demographic evolution and issue-based voting are increasingly overriding traditional partisan loyalty in American elections."
       ],
-      "brief": "France has reported its first-ever human case of the livestock pathogen Shamonda virus in a patient who subsequently died. Public health investigators are currently working to determine the precise route of transmission and whether the virus directly contributed to the fatality. Conventionally known as an animal virus affecting livestock, this unprecedented human infection has triggered heightened surveillance by health authorities. Experts are assessing the potential zoonotic risks and evaluating whether the pathogen poses a broader threat to public health and veterinary safety. This first documented human case signals a concerning potential spillover of a livestock virus into human populations.",
-      "brief_word_count": 99
+      "brief": "A younger, more diverse electorate proved instrumental in driving Democrats to a decisive midterm victory, bolstered by significant gains among swing voters and moderate Republicans. Chief political analyst Nate Cohn highlights that this surge was fueled by a generational demand for change, as young voters increasingly challenged the status quo regarding resource allocation and leadership. Furthermore, the success of science-focused organizations like 314 Action, which saw over 80 percent of its endorsed candidates win, underscores a growing electoral appetite for expertise in governance. This coalition of youth, diverse demographics, and professionalized candidates effectively reshaped the political landscape, signaling a shift in voter priorities that transcends traditional party lines and challenges established political norms. This shift signals that demographic evolution and issue-based voting are increasingly overriding traditional partisan loyalty in American elections.",
+      "brief_word_count": 131
     },
     {
-      "story_id": "story-213",
+      "story_id": "story-163",
       "category": "Science",
-      "primary_headline": "Latest estimate for Starship launches required to support a Moon landing? 22.",
+      "primary_headline": "Officials inspects cloud kitchens, hotels and sweet manufacturing units in Dakshina Kannada",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "Officials inspects cloud kitchens, hotels and sweet manufacturing units in Dakshina Kannada",
+        "published_at": "Fri, 06 Nov 2026 15:04:39 +0000",
+        "url": "https://www.deccanherald.com/india/karnataka/mangaluru/officials-inspects-cloud-kitchens-hotels-and-sweet-manufacturing-units-in-dakshina-kannada-4210443",
+        "content": " Mangaluru: Following instructions from Health and Family Welfare Minister U T Khader, a team led by Dakshina Kannada District Food Safety Designated Officer Dr Praveen Kumar CH, conducted inspections at the franchise units of shops that supply and sell cakes and ice creams sourced from cloud kitchens and central cake manufacturing units.The inspections were carried out in Surathkal jurisdiction. Officials collected cake samples for laboratory analysis to test whether colours are being used. Maharashtra FDA suspends 19 food licences; acts against Patanjali distributor over 'adulteration'Officials issued warnings against using harmful artificial colours to make cakes visually attractive. Manufacturers were asked to maintain quality and hygiene standards, without the addition of artificial colours while preparing sweets.During the drive, surprise raids were also conducted on local hotels to check kitchen cleanliness. Samples of raw materials and ingredients used in food preparation were sent to the laboratory for testing, and notices were served to establishments failing to maintain  hygiene."
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Officials inspects cloud kitchens, hotels and sweet manufacturing units in Dakshina Kannada",
+          "published_at": "Fri, 06 Nov 2026 15:04:39 +0000",
+          "url": "https://www.deccanherald.com/india/karnataka/mangaluru/officials-inspects-cloud-kitchens-hotels-and-sweet-manufacturing-units-in-dakshina-kannada-4210443"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.86,
+      "brief_bullets": [
+        "Following directives from Health Minister U T Khader, Dakshina Kannada health officials led by Dr Praveen Kumar CH executed rigorous surprise inspections across cloud kitchens, hotels, and sweet manufacturing units in Surathkal. The multi-agency team targeted establishments supplying cakes and ice creams, collecting multiple food samples for laboratory analysis to detect unauthorized artificial colorings and adulterants. Authorities issued strict warnings regarding hygiene compliance and quality standards, serving formal notices to non-compliant operators to safeguard public health."
+      ],
+      "why_it_matters_bullets": [
+        "Proactive food safety inspections enforce regional hygiene compliance and protect consumers from harmful artificial additives."
+      ],
+      "brief": "Following directives from Health Minister U T Khader, Dakshina Kannada health officials led by Dr Praveen Kumar CH executed rigorous surprise inspections across cloud kitchens, hotels, and sweet manufacturing units in Surathkal. The multi-agency team targeted establishments supplying cakes and ice creams, collecting multiple food samples for laboratory analysis to detect unauthorized artificial colorings and adulterants. Authorities issued strict warnings regarding hygiene compliance and quality standards, serving formal notices to non-compliant operators to safeguard public health. Proactive food safety inspections enforce regional hygiene compliance and protect consumers from harmful artificial additives.",
+      "brief_word_count": 91
+    },
+    {
+      "story_id": "story-212",
+      "category": "Science",
+      "primary_headline": "Most Europeans want action to tackle climate crisis but not at any cost, poll shows",
+      "primary_source": {
+        "source_name": "The Guardian",
+        "headline": "Most Europeans want action to tackle climate crisis but not at any cost, poll shows",
+        "published_at": "Fri, 06 Nov 2026 12:27:54 GMT",
+        "url": "https://www.theguardian.com/world/2026/nov/06/europeans-want-action-climate-crisis-yougov-poll",
+        "content": "YouGov survey finds support for tree planting and emissions taxes but opposition to air travel and fuel leviesEurope live – latest updatesEuropeans believe human-made climate change is real, a survey has shown, with most feeling action must be taken soon – as long as they do not have to sacrifice too much to achieve it.The YouGov poll of six European countries showed between 69% (Germany) and 80% (France) of respondents believed the climate was changing, with few (1%-4%) denying it and 14-20% believing it was changing, but not as a result of human activity. Continue reading..."
+      },
+      "sources": [
+        {
+          "source_name": "The Guardian",
+          "headline": "Most Europeans want action to tackle climate crisis but not at any cost, poll shows",
+          "published_at": "Fri, 06 Nov 2026 12:27:54 GMT",
+          "url": "https://www.theguardian.com/world/2026/nov/06/europeans-want-action-climate-crisis-yougov-poll"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "A recent YouGov survey across six European nations reveals that while a vast majority of citizens acknowledge human-driven climate change and support urgent intervention, public enthusiasm wanes when policies demand significant personal lifestyle sacrifices. Respondents overwhelmingly favor non-intrusive measures like large-scale tree planting and corporate emissions taxes, yet they express strong resistance toward levies targeting air travel and personal fuel consumption. This data highlights a critical disconnect between broad climate awareness and the political feasibility of aggressive decarbonization strategies. As European governments navigate the transition to net-zero, these findings underscore the delicate balance policymakers must strike to maintain public support while implementing the necessary, albeit unpopular, structural changes required to meet ambitious environmental targets."
+      ],
+      "why_it_matters_bullets": [
+        "Policymakers face a growing political risk if climate mandates prioritize aggressive personal restrictions over palatable, systemic industrial reforms."
+      ],
+      "brief": "A recent YouGov survey across six European nations reveals that while a vast majority of citizens acknowledge human-driven climate change and support urgent intervention, public enthusiasm wanes when policies demand significant personal lifestyle sacrifices. Respondents overwhelmingly favor non-intrusive measures like large-scale tree planting and corporate emissions taxes, yet they express strong resistance toward levies targeting air travel and personal fuel consumption. This data highlights a critical disconnect between broad climate awareness and the political feasibility of aggressive decarbonization strategies. As European governments navigate the transition to net-zero, these findings underscore the delicate balance policymakers must strike to maintain public support while implementing the necessary, albeit unpopular, structural changes required to meet ambitious environmental targets. Policymakers face a growing political risk if climate mandates prioritize aggressive personal restrictions over palatable, systemic industrial reforms.",
+      "brief_word_count": 132
+    },
+    {
+      "story_id": "story-221",
+      "category": "Science",
+      "primary_headline": "Is ‘ferritin face’ real? Why your iron levels might be low - video",
+      "primary_source": {
+        "source_name": "The Guardian",
+        "headline": "Is ‘ferritin face’ real? Why your iron levels might be low - video",
+        "published_at": "Fri, 06 Nov 2026 10:54:06 GMT",
+        "url": "https://www.theguardian.com/science/video/2026/nov/06/is-ferritin-face-real-why-your-iron-levels-might-be-low-video",
+        "content": "Social media is awash with claims iron deficiency can be identified in the mirror by dark circles, breaking hair and dry skin. But is ‘ferritin face’ real? Madeleine Finlay tells Ian Sample why so many of us struggle to keep our iron levels up, how we can actually diagnose low iron and the best way to correct a deficiency, with help from Hal Drakesmith, a professor of iron biology at Oxford University, and advice from Dr Sue Pavord, a consultant haematologist at Oxford university hospitals and associate senior lecturer in clinical medicine at St Edmund Hall. Continue reading..."
+      },
+      "sources": [
+        {
+          "source_name": "The Guardian",
+          "headline": "Is ‘ferritin face’ real? Why your iron levels might be low - video",
+          "published_at": "Fri, 06 Nov 2026 10:54:06 GMT",
+          "url": "https://www.theguardian.com/science/video/2026/nov/06/is-ferritin-face-real-why-your-iron-levels-might-be-low-video"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "Social media platforms are currently promoting the concept of 'ferritin face,' a trend suggesting that physical markers like dark circles, brittle hair, and dry skin serve as reliable indicators of iron deficiency. However, experts including Oxford University’s Professor Hal Drakesmith and consultant haematologist Dr. Sue Pavord caution that these anecdotal signs are not medically diagnostic. While iron deficiency remains a widespread health challenge, the experts emphasize that accurate assessment requires clinical blood testing rather than subjective visual observation. This discourse highlights the growing tension between viral wellness trends and evidence-based medicine, underscoring the necessity for professional medical consultation to address nutritional imbalances effectively and avoid the potential risks of self-diagnosis or improper supplementation."
+      ],
+      "why_it_matters_bullets": [
+        "The trend highlights the dangers of medical misinformation, emphasizing that clinical diagnostics remain essential for managing nutritional health."
+      ],
+      "brief": "Social media platforms are currently promoting the concept of 'ferritin face,' a trend suggesting that physical markers like dark circles, brittle hair, and dry skin serve as reliable indicators of iron deficiency. However, experts including Oxford University’s Professor Hal Drakesmith and consultant haematologist Dr. Sue Pavord caution that these anecdotal signs are not medically diagnostic. While iron deficiency remains a widespread health challenge, the experts emphasize that accurate assessment requires clinical blood testing rather than subjective visual observation. This discourse highlights the growing tension between viral wellness trends and evidence-based medicine, underscoring the necessity for professional medical consultation to address nutritional imbalances effectively and avoid the potential risks of self-diagnosis or improper supplementation. The trend highlights the dangers of medical misinformation, emphasizing that clinical diagnostics remain essential for managing nutritional health.",
+      "brief_word_count": 131
+    },
+    {
+      "story_id": "story-238",
+      "category": "Science",
+      "primary_headline": "UN climate talks start in the year of disasters, energy price shocks and fast rising temperatures",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "UN climate talks start in the year of disasters, energy price shocks and fast rising temperatures - AP News",
+        "published_at": "Fri, 06 Nov 2026 02:06:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWUZrSkdKLTY2TXFCSG9hYlJQRmtJQk9nMkVzS3FNcHhBNm91UVpid1B0dFctRS1ETzlRamJ2Z2ZPcm9CNmdJTnBQbGlWc29CZ2JDaTdaNTc2emNFaUNHcnZHZWZxQ3lZOUJHNXdqNkhCT2FwMWNwSE5zbTNZWW5yd0ZQcTh0QXZaMVZ1cXpIc3k2WDRCclZucDlYc3AxdmdpX1E?oc=5",
+        "content": "UN climate talks start in the year of disasters, energy price shocks and fast rising temperatures&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "UN climate talks start in the year of disasters, energy price shocks and fast rising temperatures - AP News",
+          "published_at": "Fri, 06 Nov 2026 02:06:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWUZrSkdKLTY2TXFCSG9hYlJQRmtJQk9nMkVzS3FNcHhBNm91UVpid1B0dFctRS1ETzlRamJ2Z2ZPcm9CNmdJTnBQbGlWc29CZ2JDaTdaNTc2emNFaUNHcnZHZWZxQ3lZOUJHNXdqNkhCT2FwMWNwSE5zbTNZWW5yd0ZQcTh0QXZaMVZ1cXpIc3k2WDRCclZucDlYc3AxdmdpX1E?oc=5"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "Delegates have convened for the United Nations climate summit against a turbulent global backdrop marked by unprecedented natural disasters, escalating energy price shocks, and accelerating temperature rises. Global leaders and negotiators face immense pressure to deliver concrete mitigation and financing commitments amidst converging ecological and economic crises. The proceedings test the resolve of member states to implement critical emissions reductions and secure climate justice for vulnerable nations bearing the brunt of environmental degradation. Ultimately, the high-stakes summit highlights the widening gap between escalating climate impacts and the sluggish pace of international policy implementation."
+      ],
+      "why_it_matters_bullets": [
+        "It determines global commitment levels to mitigate escalating environmental and economic crises."
+      ],
+      "brief": "Delegates have convened for the United Nations climate summit against a turbulent global backdrop marked by unprecedented natural disasters, escalating energy price shocks, and accelerating temperature rises. Global leaders and negotiators face immense pressure to deliver concrete mitigation and financing commitments amidst converging ecological and economic crises. The proceedings test the resolve of member states to implement critical emissions reductions and secure climate justice for vulnerable nations bearing the brunt of environmental degradation. Ultimately, the high-stakes summit highlights the widening gap between escalating climate impacts and the sluggish pace of international policy implementation. It determines global commitment levels to mitigate escalating environmental and economic crises.",
+      "brief_word_count": 105
+    },
+    {
+      "story_id": "story-252",
+      "category": "Science",
+      "primary_headline": "MAHA lost bigly in the midterms—is it at death's door?",
       "primary_source": {
         "source_name": "Ars Technica",
-        "headline": "Latest estimate for Starship launches required to support a Moon landing? 22.",
-        "published_at": "Thu, 22 Oct 2026 21:52:31 +0000",
-        "url": "https://arstechnica.com/space/2026/10/latest-estimate-for-starship-launches-required-to-support-a-moon-landing-22/",
-        "content": "\n                            NASA does not have, nor want, nuclear weapons. But when it comes to a particular metric that is part of the Artemis Program to land people on the Moon, NASA guards a particular number like they are trying to prevent outsiders from cracking nuclear codes.\nI am speaking of the number of Starship launches required to fuel a Starship-based lunar lander in low-Earth orbit such that it can fly out to the Moon, land there, and return to lunar orbit.\nThis number has been a moving target over the years. The general response from NASA has typically been, 'We don't know for sure, so we're not going to say.' In 2023, for example, the then-director of NASA's Human Landing System, Lisa Watson-Morgan, told Ars, \"We have a general idea, but I’m reluctant to say exactly what that is.\"Read full article\nComments\n\n                        "
+        "headline": "MAHA lost bigly in the midterms—is it at death's door?",
+        "published_at": "Thu, 05 Nov 2026 18:49:41 +0000",
+        "url": "https://arstechnica.com/health/2026/11/is-maha-dying-or-will-it-be-reborn-whats-next-after-crushing-midterm-losses/",
+        "content": "\n                            As Democrats blew away their Republican rivals in an unprecedented midterm sweep Tuesday, the Make America Health Again movement also got bowled over, raising questions about the fate of the motley movement.\nMAHA—which has centered around anti-vaccine activist and current Health Secretary Robert F. Kennedy Jr.—saw many of its favored candidates and allies lose, while vocal adversaries of Kennedy won. And the coalition was splintering under stress even before the voting started; in recent months, supporters have accused Kennedy and the Trump administration of inaction and betrayals in their two years in power.\nNow hobbled in Washington, shedding supporters, and showing little to no influence in voting booths, is MAHA on its deathbed? Or will it be reborn—possibly into a new group? Could it be assimilated into a blue platform—after sloughing off the more repulsive, conspiratorial aspects of Kennedy's ideology? These are the questions circling in the aftermath of Tuesday's bloodbath.Read full article\nComments\n\n                        "
       },
       "sources": [
         {
           "source_name": "Ars Technica",
-          "headline": "Latest estimate for Starship launches required to support a Moon landing? 22.",
-          "published_at": "Thu, 22 Oct 2026 21:52:31 +0000",
-          "url": "https://arstechnica.com/space/2026/10/latest-estimate-for-starship-launches-required-to-support-a-moon-landing-22/"
+          "headline": "MAHA lost bigly in the midterms—is it at death's door?",
+          "published_at": "Thu, 05 Nov 2026 18:49:41 +0000",
+          "url": "https://arstechnica.com/health/2026/11/is-maha-dying-or-will-it-be-reborn-whats-next-after-crushing-midterm-losses/"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.83,
       "brief_bullets": [
-        "NASA does not have, nor want, nuclear weapons.",
-        "But when it comes to a particular metric that is part of the Artemis Program to land people on the Moon, NASA guards a particular number like they are trying to prevent outsiders from cracking nuclear codes.",
-        "I am speaking of the number of Starship launches required to fuel a Starship-based lunar lander in low-Earth orbit such that it can fly out to the Moon, land there, and return to lunar orbit.",
-        "This number has been a moving target over the years."
+        "The Make America Health Again (MAHA) movement, spearheaded by Health Secretary Robert F. Kennedy Jr., suffered a decisive defeat in the recent midterm elections as Democratic candidates secured sweeping victories. The coalition, already weakened by internal fractures and accusations of administrative betrayal, saw its endorsed allies lose across the board while vocal critics gained significant ground. This electoral bloodbath has left the movement politically hobbled and struggling to maintain relevance within the current Washington landscape. As the organization faces potential dissolution, analysts are questioning whether MAHA can undergo a radical transformation or if its influence has permanently evaporated, leaving the movement at a critical existential crossroads following its failure to translate ideological fervor into tangible electoral success."
       ],
       "why_it_matters_bullets": [
-        "Carries notable operational, policy, and market consequences surrounding 'Latest estimate for Starship launches required to support a Moon landing? 22.'."
+        "The collapse of MAHA signals a waning appetite for fringe health populism and reshapes the future of political health-policy."
       ],
-      "brief": "NASA does not have, nor want, nuclear weapons. But when it comes to a particular metric that is part of the Artemis Program to land people on the Moon, NASA guards a particular number like they are trying to prevent outsiders from cracking nuclear codes. I am speaking of the number of Starship launches required to fuel a Starship-based lunar lander in low-Earth orbit such that it can fly out to the Moon, land there, and return to lunar orbit. This number has been a moving target over the years. Carries notable operational, policy, and market consequences surrounding 'Latest estimate for Starship launches required to support a Moon landing? 22.'.",
-      "brief_word_count": 110
+      "brief": "The Make America Health Again (MAHA) movement, spearheaded by Health Secretary Robert F. Kennedy Jr., suffered a decisive defeat in the recent midterm elections as Democratic candidates secured sweeping victories. The coalition, already weakened by internal fractures and accusations of administrative betrayal, saw its endorsed allies lose across the board while vocal critics gained significant ground. This electoral bloodbath has left the movement politically hobbled and struggling to maintain relevance within the current Washington landscape. As the organization faces potential dissolution, analysts are questioning whether MAHA can undergo a radical transformation or if its influence has permanently evaporated, leaving the movement at a critical existential crossroads following its failure to translate ideological fervor into tangible electoral success. The collapse of MAHA signals a waning appetite for fringe health populism and reshapes the future of political health-policy.",
+      "brief_word_count": 136
     },
     {
-      "story_id": "story-217",
+      "story_id": "story-352",
       "category": "Science",
-      "primary_headline": "Prince William makes surprise appearance on Graham Norton Show",
+      "primary_headline": "Moderna lifts annual revenue forecast on strong COVID vaccine demand overseas",
       "primary_source": {
-        "source_name": "BBC News",
-        "headline": "Prince William makes surprise appearance on Graham Norton Show",
-        "published_at": "Thu, 22 Oct 2026 21:21:22 GMT",
-        "url": "https://www.bbc.co.uk/news/articles/c30rlpkglkwpo?at_medium=RSS&at_campaign=rss",
-        "content": "During the episode, which airs on Friday, he joined Cate Blanchett, Robert Irwin and Hannah Waddingham, who are all involved with the prize. As Norton spoke about the initiative with the trio he surprised the audience by then inviting the prince out to join them on the sofa, to cheers and gasps from the audience. They discussed the need to pair optimism and urgency when tackling climate change. The prize was founded by William to \"celebrate and scale the solutions that will repair our planet\". The guests also chatted about William's long-time support for Aston Villa, and his love of Christopher Nolan films. William set up the Earthshot Prize in 2020, drawing inspiration from US President John F Kennedy's Moonshot project, which challenged scientists to get astronauts to the Moon and back safely. There are five Earthshots, or goals, for which an award is given: Protect and Restore Nature, Clean Our Air, Revive Our Oceans, Build a Waste-Free World and Fix Our Climate. Each winner receives £1m."
+        "source_name": "Reuters",
+        "headline": "Moderna lifts annual revenue forecast on strong COVID vaccine demand overseas - Reuters",
+        "published_at": "Fri, 06 Nov 2026 15:22:45 GMT",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNMDhadHhGWmZFVl9UTzNKeW1PaXdMbW9QS2dWd2NZVklVQWFScG0teTJTREVpdU1oc0tYdkJ2RE5oSi1ESVBCdTNqekZtb0FvemZhRjlVVUNMOUdqdklndTQ4cFB6dUJmZXYwcS0xa3hMX2ZJVmNiMUpzTFVDWE42NUE1YkgyYkhzUVlMZElXMUdaOTFEMkxaV2k4QWk0TVRmbVNQZDQ1RDZWRjFaOEkyazQ2MlhEeC1MVS1GMkxyR2xod0hyckYwYTZheU1zSk9SdFhGLWk1dkJvQlNkY0JF?oc=5",
+        "content": "Moderna lifts annual revenue forecast on strong COVID vaccine demand overseas&nbsp;&nbsp;Reuters"
       },
       "sources": [
         {
-          "source_name": "BBC News",
-          "headline": "Prince William makes surprise appearance on Graham Norton Show",
-          "published_at": "Thu, 22 Oct 2026 21:21:22 GMT",
-          "url": "https://www.bbc.co.uk/news/articles/c30rlpkglkwpo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "During the episode, which airs on Friday, he joined Cate Blanchett, Robert Irwin and Hannah Waddingham, who are all involved with the prize.",
-        "As Norton spoke about the initiative with the trio he surprised the audience by then inviting the prince out to join them on the sofa, to cheers and gasps from the audience.",
-        "They discussed the need to pair optimism and urgency when tackling climate change.",
-        "The prize was founded by William to \"celebrate and scale the solutions that will repair our planet\".",
-        "The guests also chatted about William's long-time support for Aston Villa, and his love of Christopher Nolan films.",
-        "William set up the Earthshot Prize in 2020, drawing inspiration from US President John F Kennedy's Moonshot project, which challenged scientists to get astronauts to the Moon and back safely."
-      ],
-      "why_it_matters_bullets": [
-        "Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
-      ],
-      "brief": "During the episode, which airs on Friday, he joined Cate Blanchett, Robert Irwin and Hannah Waddingham, who are all involved with the prize. As Norton spoke about the initiative with the trio he surprised the audience by then inviting the prince out to join them on the sofa, to cheers and gasps from the audience. They discussed the need to pair optimism and urgency when tackling climate change. The prize was founded by William to \"celebrate and scale the solutions that will repair our planet\". The guests also chatted about William's long-time support for Aston Villa, and his love of Christopher Nolan films. William set up the Earthshot Prize in 2020, drawing inspiration from US President John F Kennedy's Moonshot project, which challenged scientists to get astronauts to the Moon and back safely. Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
-      "brief_word_count": 147
-    },
-    {
-      "story_id": "story-231",
-      "category": "Science",
-      "primary_headline": "How to face the end of the world – according to Plato and the Stoics",
-      "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "How to face the end of the world – according to Plato and the Stoics",
-        "published_at": "Thu, 22 Oct 2026 16:00:43 GMT",
-        "url": "https://www.theguardian.com/wellness/ng-interactive/2026/oct/22/ancient-philosophy-apocalypse",
-        "content": "Fearing future catastrophe is nothing new – ancient Greek and Roman philosophers all visualized the apocalypseDo your feelings of existential dread extend beyond your own personal mortality? Do they include fears about the survival of our culture and institutions, our species, nonhuman life and the Earth itself? Do you feel like there’s nothing that can help to wrap your head around the biggest problem we face: the end of the world as we know it?Apocalyptic expectations are on the rise. According to a 2022 Pew Research Center survey, 39% of Americans believe that we are living in the end times. Continue reading..."
-      },
-      "sources": [
-        {
-          "source_name": "The Guardian",
-          "headline": "How to face the end of the world – according to Plato and the Stoics",
-          "published_at": "Thu, 22 Oct 2026 16:00:43 GMT",
-          "url": "https://www.theguardian.com/wellness/ng-interactive/2026/oct/22/ancient-philosophy-apocalypse"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "Fearing future catastrophe is nothing new – ancient Greek and Roman philosophers all visualized the apocalypseDo your feelings of existential dread extend beyond your own personal mortality?",
-        "Do they include fears about the survival of our culture and institutions, our species, nonhuman life and the Earth itself?",
-        "Do you feel like there’s nothing that can help to wrap your head around the biggest problem we face: the end of the world as we know it?",
-        "Apocalyptic expectations are on the rise.",
-        "According to a 2022 Pew Research Center survey, 39% of Americans believe that we are living in the end times."
-      ],
-      "why_it_matters_bullets": [
-        "Carries notable operational, policy, and market consequences surrounding 'How to face the end of the world'."
-      ],
-      "brief": "Fearing future catastrophe is nothing new – ancient Greek and Roman philosophers all visualized the apocalypseDo your feelings of existential dread extend beyond your own personal mortality? Do they include fears about the survival of our culture and institutions, our species, nonhuman life and the Earth itself? Do you feel like there’s nothing that can help to wrap your head around the biggest problem we face: the end of the world as we know it? Apocalyptic expectations are on the rise. According to a 2022 Pew Research Center survey, 39% of Americans believe that we are living in the end times. Carries notable operational, policy, and market consequences surrounding 'How to face the end of the world'.",
-      "brief_word_count": 117
-    },
-    {
-      "story_id": "story-345",
-      "category": "Science",
-      "primary_headline": "HeLa to a new world where progress in science matches dignity for patient",
-      "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "HeLa to a new world where progress in science matches dignity for patient",
-        "published_at": "Fri, 23 Oct 2026 10:32:31 +0530",
-        "url": "https://www.thehindu.com/sci-tech/health/hela-to-a-new-worldwhereprogress-in-science-matches-dignity-for-patient/article70989564.ece",
-        "content": "The omission of Henrietta Lacks, who donated the immortal cells that have facilitated biomedical research, from scientific history is a rare wrong that has been righted, recently. Thanks to the battle her family fought, today, more regulations will govern ethical research."
-      },
-      "sources": [
-        {
-          "source_name": "The Hindu",
-          "headline": "HeLa to a new world where progress in science matches dignity for patient",
-          "published_at": "Fri, 23 Oct 2026 10:32:31 +0530",
-          "url": "https://www.thehindu.com/sci-tech/health/hela-to-a-new-worldwhereprogress-in-science-matches-dignity-for-patient/article70989564.ece"
+          "source_name": "Reuters",
+          "headline": "Moderna lifts annual revenue forecast on strong COVID vaccine demand overseas - Reuters",
+          "published_at": "Fri, 06 Nov 2026 15:22:45 GMT",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNMDhadHhGWmZFVl9UTzNKeW1PaXdMbW9QS2dWd2NZVklVQWFScG0teTJTREVpdU1oc0tYdkJ2RE5oSi1ESVBCdTNqekZtb0FvemZhRjlVVUNMOUdqdklndTQ4cFB6dUJmZXYwcS0xa3hMX2ZJVmNiMUpzTFVDWE42NUE1YkgyYkhzUVlMZElXMUdaOTFEMkxaV2k4QWk0TVRmbVNQZDQ1RDZWRjFaOEkyazQ2MlhEeC1MVS1GMkxyR2xod0hyckYwYTZheU1zSk9SdFhGLWk1dkJvQlNkY0JF?oc=5"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.8,
       "brief_bullets": [
-        "Henrietta Lacks, an African American woman whose cervical cancer cells were harvested without her knowledge in 1951, has finally received historical and institutional recognition following a relentless advocacy campaign by her descendants. The landmark settlement between the Lacks family and biotechnology giant Thermo Fisher Scientific rectifies decades of medical exploitation that birthed the immortal HeLa cell line, which fundamentally transformed global biomedical research, vaccine development, and oncology. This watershed moment highlights systemic historical injustices in medical ethics while catalyzing modern institutional reforms to ensure patient consent, transparency, and dignity govern contemporary scientific research and commercialization practices."
+        "Moderna has raised its full-year revenue forecast, citing robust international demand for its updated Spikevax COVID-19 vaccine. The biotechnology firm now anticipates annual revenue between $3 billion and $3.5 billion, surpassing previous conservative estimates as global health authorities accelerate autumn vaccination campaigns. CEO Stéphane Bancel attributed this positive momentum to strong commercial execution and successful regulatory approvals across key overseas markets, which have offset declining domestic interest. By securing significant procurement contracts and streamlining its supply chain, Moderna is effectively stabilizing its financial outlook despite the broader post-pandemic market contraction. This strategic pivot underscores the company's ability to maintain a sustainable commercial footprint while transitioning its mRNA platform toward a diversified portfolio of respiratory and personalized cancer therapeutics."
       ],
       "why_it_matters_bullets": [
-        "This milestone reshapes bioethical standards by reinforcing patient consent requirements and corporate accountability in biomedical research."
+        "The upward revision signals a resilient commercial model for mRNA technology, bolstering investor confidence in Moderna’s long-term financial viability."
       ],
-      "brief": "Henrietta Lacks, an African American woman whose cervical cancer cells were harvested without her knowledge in 1951, has finally received historical and institutional recognition following a relentless advocacy campaign by her descendants. The landmark settlement between the Lacks family and biotechnology giant Thermo Fisher Scientific rectifies decades of medical exploitation that birthed the immortal HeLa cell line, which fundamentally transformed global biomedical research, vaccine development, and oncology. This watershed moment highlights systemic historical injustices in medical ethics while catalyzing modern institutional reforms to ensure patient consent, transparency, and dignity govern contemporary scientific research and commercialization practices. This milestone reshapes bioethical standards by reinforcing patient consent requirements and corporate accountability in biomedical research.",
-      "brief_word_count": 112
+      "brief": "Moderna has raised its full-year revenue forecast, citing robust international demand for its updated Spikevax COVID-19 vaccine. The biotechnology firm now anticipates annual revenue between $3 billion and $3.5 billion, surpassing previous conservative estimates as global health authorities accelerate autumn vaccination campaigns. CEO Stéphane Bancel attributed this positive momentum to strong commercial execution and successful regulatory approvals across key overseas markets, which have offset declining domestic interest. By securing significant procurement contracts and streamlining its supply chain, Moderna is effectively stabilizing its financial outlook despite the broader post-pandemic market contraction. This strategic pivot underscores the company's ability to maintain a sustainable commercial footprint while transitioning its mRNA platform toward a diversified portfolio of respiratory and personalized cancer therapeutics. The upward revision signals a resilient commercial model for mRNA technology, bolstering investor confidence in Moderna’s long-term financial viability.",
+      "brief_word_count": 137
     },
     {
-      "story_id": "story-353",
+      "story_id": "story-458",
       "category": "Science",
-      "primary_headline": "How citizen science is tracking changes in shorelines around the world",
-      "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "How citizen science is tracking changes in shorelines around the world",
-        "published_at": "Fri, 23 Oct 2026 05:00:01 GMT",
-        "url": "https://www.theguardian.com/news/2026/oct/23/how-citizen-science-is-tracking-changes-in-shorelines-around-the-world",
-        "content": "An app and a camera phone are all that’s needed at more than 200 spots to help researchers monitor coastal areasThe shoreline changes with the weather. Tracking these changes over time is a labour-intensive task, and an army of citizen scientists with camera phones is a great asset.The CoastSnap project started in Australia in 2017 and has spread to beaches worldwide. You may have spotted the setup while out walking along the coast: a cradle to rest your phone on while taking a picture and a sign explaining where to send the snap. Continue reading..."
-      },
-      "sources": [
-        {
-          "source_name": "The Guardian",
-          "headline": "How citizen science is tracking changes in shorelines around the world",
-          "published_at": "Fri, 23 Oct 2026 05:00:01 GMT",
-          "url": "https://www.theguardian.com/news/2026/oct/23/how-citizen-science-is-tracking-changes-in-shorelines-around-the-world"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.8,
-      "brief_bullets": [
-        "The global CoastSnap initiative leverages crowdsourced smartphone photography across more than two hundred international locations to monitor rapid shoreline changes driven by weather and environmental shifts. Initiated in Australia in 2017, the project utilizes standardized camera cradles and community participation to overcome the labor-intensive hurdles historically faced by coastal researchers. By gathering consistent visual data from everyday beachgoers, scientists can better track erosion patterns and coastal vulnerabilities without relying exclusively on expensive, dedicated monitoring equipment. This collaborative model demonstrates how public engagement can effectively scale data collection for critical climate and geographic research."
-      ],
-      "why_it_matters_bullets": [
-        "Crowdsourcing coastal monitoring democratizes vital climate data, empowering researchers to track environmental shifts at an unprecedented global scale."
-      ],
-      "brief": "The global CoastSnap initiative leverages crowdsourced smartphone photography across more than two hundred international locations to monitor rapid shoreline changes driven by weather and environmental shifts. Initiated in Australia in 2017, the project utilizes standardized camera cradles and community participation to overcome the labor-intensive hurdles historically faced by coastal researchers. By gathering consistent visual data from everyday beachgoers, scientists can better track erosion patterns and coastal vulnerabilities without relying exclusively on expensive, dedicated monitoring equipment. This collaborative model demonstrates how public engagement can effectively scale data collection for critical climate and geographic research. Crowdsourcing coastal monitoring democratizes vital climate data, empowering researchers to track environmental shifts at an unprecedented global scale.",
-      "brief_word_count": 111
-    },
-    {
-      "story_id": "story-360",
-      "category": "Science",
-      "primary_headline": "The Papers: 'Prepare for the worst' and 'Covid report fallout'",
-      "primary_source": {
-        "source_name": "BBC News",
-        "headline": "The Papers: 'Prepare for the worst' and 'Covid report fallout'",
-        "published_at": "Fri, 23 Oct 2026 04:28:29 GMT",
-        "url": "https://www.bbc.co.uk/news/articles/cwly393mj7y3o?at_medium=RSS&at_campaign=rss",
-        "content": "Defence Secretary Wes Streeting's national campaign on preparedness for cyber or climate emergencies dominates today's papers."
-      },
-      "sources": [
-        {
-          "source_name": "BBC News",
-          "headline": "The Papers: 'Prepare for the worst' and 'Covid report fallout'",
-          "published_at": "Fri, 23 Oct 2026 04:28:29 GMT",
-          "url": "https://www.bbc.co.uk/news/articles/cwly393mj7y3o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.8,
-      "brief_bullets": [
-        "Defence Secretary Wes Streeting has launched a major national campaign urging British citizens and institutions to prepare for severe systemic shocks, including cyber attacks and climate emergencies. Dominating the morning papers, the initiative outlines a comprehensive preparedness strategy designed to bolster national resilience amid escalating geopolitical and environmental instabilities. By emphasizing proactive civilian readiness, the government aims to mitigate potential disruptions to critical infrastructure and safeguard public safety against increasingly complex modern threats."
-      ],
-      "why_it_matters_bullets": [
-        "This campaign signals a decisive shift toward mainstreaming national defense and proactive civilian readiness against asymmetric threats."
-      ],
-      "brief": "Defence Secretary Wes Streeting has launched a major national campaign urging British citizens and institutions to prepare for severe systemic shocks, including cyber attacks and climate emergencies. Dominating the morning papers, the initiative outlines a comprehensive preparedness strategy designed to bolster national resilience amid escalating geopolitical and environmental instabilities. By emphasizing proactive civilian readiness, the government aims to mitigate potential disruptions to critical infrastructure and safeguard public safety against increasingly complex modern threats. This campaign signals a decisive shift toward mainstreaming national defense and proactive civilian readiness against asymmetric threats.",
-      "brief_word_count": 90
-    },
-    {
-      "story_id": "story-386",
-      "category": "Science",
-      "primary_headline": "450 Get Anti-Rabies Vaccine After Consuming Milk From Suspected Rabid Cow",
+      "primary_headline": "NASA Astronaut Anil Menon Completes Nearly 7-Hour Spacewalk To Install Final Solar Array",
       "primary_source": {
         "source_name": "NDTV",
-        "headline": "450 Get Anti-Rabies Vaccine After Consuming Milk From Suspected Rabid Cow",
-        "published_at": "Fri, 23 Oct 2026 08:03:06 +0530",
-        "url": "https://www.ndtv.com/india-news/450-get-anti-rabies-vaccine-after-consuming-milk-from-suspected-rabid-cow-12223162#publisher=newsstand",
-        "content": "The incident prompted devotees who had consumed the 'charanamrit' during Durga Puja to seek vaccination as a precaution."
+        "headline": "NASA Astronaut Anil Menon Completes Nearly 7-Hour Spacewalk To Install Final Solar Array",
+        "published_at": "Fri, 06 Nov 2026 17:02:29 +0530",
+        "url": "https://www.ndtv.com/science/nasa-astronaut-anil-menon-completes-nearly-7-hour-spacewalk-to-install-final-solar-array-12292672#publisher=newsstand",
+        "content": "NASA astronauts Luke Delaney and Jessica Watkins operated the Canadarm2 robotic arm aboard the International Space Station."
       },
       "sources": [
         {
           "source_name": "NDTV",
-          "headline": "450 Get Anti-Rabies Vaccine After Consuming Milk From Suspected Rabid Cow",
-          "published_at": "Fri, 23 Oct 2026 08:03:06 +0530",
-          "url": "https://www.ndtv.com/india-news/450-get-anti-rabies-vaccine-after-consuming-milk-from-suspected-rabid-cow-12223162#publisher=newsstand"
+          "headline": "NASA Astronaut Anil Menon Completes Nearly 7-Hour Spacewalk To Install Final Solar Array",
+          "published_at": "Fri, 06 Nov 2026 17:02:29 +0530",
+          "url": "https://www.ndtv.com/science/nasa-astronaut-anil-menon-completes-nearly-7-hour-spacewalk-to-install-final-solar-array-12292672#publisher=newsstand"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.8,
       "brief_bullets": [
-        "Following a Durga Puja ritual in India, approximately 450 devotees received anti-rabies vaccinations after consuming 'charanamrit'—a sacred offering containing milk—derived from a cow later suspected of having rabies. Local health authorities and temple organizers acted swiftly to administer post-exposure prophylaxis to all potentially exposed individuals to prevent fatal viral transmission. While no infections have been confirmed yet, the massive preventative intervention highlights severe bio-security vulnerabilities in traditional communal food practices during religious gatherings, sparking urgent calls for rigorous veterinary screening of dairy livestock."
-      ],
-      "why_it_matters_bullets": [
-        "This incident exposes critical food safety risks in religious rituals, demanding mandatory veterinary checks for temple livestock."
-      ],
-      "brief": "Following a Durga Puja ritual in India, approximately 450 devotees received anti-rabies vaccinations after consuming 'charanamrit'—a sacred offering containing milk—derived from a cow later suspected of having rabies. Local health authorities and temple organizers acted swiftly to administer post-exposure prophylaxis to all potentially exposed individuals to prevent fatal viral transmission. While no infections have been confirmed yet, the massive preventative intervention highlights severe bio-security vulnerabilities in traditional communal food practices during religious gatherings, sparking urgent calls for rigorous veterinary screening of dairy livestock. This incident exposes critical food safety risks in religious rituals, demanding mandatory veterinary checks for temple livestock.",
-      "brief_word_count": 100
-    },
-    {
-      "story_id": "story-414",
-      "category": "Science",
-      "primary_headline": "On climate, a long road back to Paris",
-      "primary_source": {
-        "source_name": "The Indian Express",
-        "headline": "On climate, a long road back to Paris",
-        "published_at": "Fri, 23 Oct 2026 00:35:09 +0000",
-        "url": "https://indianexpress.com/article/opinion/editorials/unep-emissions-gap-report-2026-global-warming-climate-change-10932886/",
-        "content": ""
-      },
-      "sources": [
-        {
-          "source_name": "The Indian Express",
-          "headline": "On climate, a long road back to Paris",
-          "published_at": "Fri, 23 Oct 2026 00:35:09 +0000",
-          "url": "https://indianexpress.com/article/opinion/editorials/unep-emissions-gap-report-2026-global-warming-climate-change-10932886/"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.8,
-      "brief_bullets": [
-        "Global leaders and policymakers face intricate diplomatic and logistical challenges in restoring international climate coalitions following previous U.S. withdrawals from the landmark Paris Agreement. Re-engaging major economies requires navigating complex domestic legislative hurdles, rebuilding broken institutional trust, and aligning aggressive emission-reduction targets across shifting geopolitical landscapes. Diplomatic efforts led by specialized environmental envoys are currently focused on reinstating binding commitments and financial frameworks to limit global temperature rises. Consequently, nations must balance immediate energy security demands with long-term ecological preservation mandates under intense scrutiny from international civil society."
-      ],
-      "why_it_matters_bullets": [
-        "Restoring Paris Agreement momentum determines whether global carbon targets remain achievable amid escalating climate crises."
-      ],
-      "brief": "Global leaders and policymakers face intricate diplomatic and logistical challenges in restoring international climate coalitions following previous U.S. withdrawals from the landmark Paris Agreement. Re-engaging major economies requires navigating complex domestic legislative hurdles, rebuilding broken institutional trust, and aligning aggressive emission-reduction targets across shifting geopolitical landscapes. Diplomatic efforts led by specialized environmental envoys are currently focused on reinstating binding commitments and financial frameworks to limit global temperature rises. Consequently, nations must balance immediate energy security demands with long-term ecological preservation mandates under intense scrutiny from international civil society. Restoring Paris Agreement momentum determines whether global carbon targets remain achievable amid escalating climate crises.",
-      "brief_word_count": 103
-    },
-    {
-      "story_id": "story-418",
-      "category": "Science",
-      "primary_headline": "West Virginia investigates climate, environmental groups over alleged ‘deceptive’ acts",
-      "primary_source": {
-        "source_name": "AP News",
-        "headline": "West Virginia investigates climate, environmental groups over alleged ‘deceptive’ acts - AP News",
-        "published_at": "Fri, 23 Oct 2026 00:05:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWVIxUFZFdnB5UmZ1WXduRHI2U1BoTlhIdVBxZlVzeUluQlU2a3ZkUnpybEZSakVOYVZWT0Q4WUpocm9PSTZHUjdqTktxcmd5Y2pwZ0JmRklncy05ZGwzV1FuSEl2c0JBNUZuREVfTzZXX2JSZlphT0NjOTVNSUhuaEROVDlKcDI3RXh1aVdHUkI4eDFSYWZFY0x3VlN3enJ4?oc=5",
-        "content": "West Virginia investigates climate, environmental groups over alleged ‘deceptive’ acts&nbsp;&nbsp;AP News"
-      },
-      "sources": [
-        {
-          "source_name": "AP News",
-          "headline": "West Virginia investigates climate, environmental groups over alleged ‘deceptive’ acts - AP News",
-          "published_at": "Fri, 23 Oct 2026 00:05:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWVIxUFZFdnB5UmZ1WXduRHI2U1BoTlhIdVBxZlVzeUluQlU2a3ZkUnpybEZSakVOYVZWT0Q4WUpocm9PSTZHUjdqTktxcmd5Y2pwZ0JmRklncy05ZGwzV1FuSEl2c0JBNUZuREVfTzZXX2JSZlphT0NjOTVNSUhuaEROVDlKcDI3RXh1aVdHUkI4eDFSYWZFY0x3VlN3enJ4?oc=5"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.8,
-      "brief_bullets": [
-        "West Virginia Attorney General Patrick Morrisey has launched an official investigation into several prominent climate and environmental organizations, citing suspicions of deceptive trade practices and misleading public campaigns. The state inquiry targets specific non-profit groups for allegedly misrepresenting their environmental policies and financial dealings to consumers and investors. This regulatory action reflects a broader political push by fossil-fuel-reliant states to scrutinize advocacy groups engaging in aggressive climate campaigns. Legal experts anticipate this proceeding will set a significant precedent regarding the intersection of state consumer protection laws and environmental advocacy."
-      ],
-      "why_it_matters_bullets": [
-        "This investigation establishes a vital legal battleground for state-level oversight of environmental advocacy and green marketing."
-      ],
-      "brief": "West Virginia Attorney General Patrick Morrisey has launched an official investigation into several prominent climate and environmental organizations, citing suspicions of deceptive trade practices and misleading public campaigns. The state inquiry targets specific non-profit groups for allegedly misrepresenting their environmental policies and financial dealings to consumers and investors. This regulatory action reflects a broader political push by fossil-fuel-reliant states to scrutinize advocacy groups engaging in aggressive climate campaigns. Legal experts anticipate this proceeding will set a significant precedent regarding the intersection of state consumer protection laws and environmental advocacy. This investigation establishes a vital legal battleground for state-level oversight of environmental advocacy and green marketing.",
-      "brief_word_count": 105
-    },
-    {
-      "story_id": "story-448",
-      "category": "Science",
-      "primary_headline": "A novel mRNA cancer vaccine helps reduce the chances of melanoma patients' tumors returning",
-      "primary_source": {
-        "source_name": "AP News",
-        "headline": "A novel mRNA cancer vaccine helps reduce the chances of melanoma patients' tumors returning - AP News",
-        "published_at": "Thu, 22 Oct 2026 22:23:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa21rSEs4bmdSczAyejNYbnhOLUtnWjVRNTFHNHVqMGZOVTdhUDNRcDlzT2M2cWFpYkZtc3BpRXdCdDFKZEtwZ2llUFFaTktoZXJPanVDbGxWaVhjb0stT3IwUDNwSFJRd2w1UDhteHB5SWtnZHBWQUtKYmdGNE0yeTNpZ3NzUENMZTZPNVpfVHBNcngzQ3VPYmxvb2gtR1ZGZzI5OERsclVYLUU?oc=5",
-        "content": "A novel mRNA cancer vaccine helps reduce the chances of melanoma patients' tumors returning&nbsp;&nbsp;AP News"
-      },
-      "sources": [
-        {
-          "source_name": "AP News",
-          "headline": "A novel mRNA cancer vaccine helps reduce the chances of melanoma patients' tumors returning - AP News",
-          "published_at": "Thu, 22 Oct 2026 22:23:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa21rSEs4bmdSczAyejNYbnhOLUtnWjVRNTFHNHVqMGZOVTdhUDNRcDlzT2M2cWFpYkZtc3BpRXdCdDFKZEtwZ2llUFFaTktoZXJPanVDbGxWaVhjb0stT3IwUDNwSFJRd2w1UDhteHB5SWtnZHBWQUtKYmdGNE0yeTNpZ3NzUENMZTZPNVpfVHBNcngzQ3VPYmxvb2gtR1ZGZzI5OERsclVYLUU?oc=5"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.8,
-      "brief_bullets": [
-        "A pioneering mRNA cancer vaccine has demonstrated significant success in reducing recurrence rates among melanoma patients in recent clinical trials. Developed by leading pharmaceutical researchers, the innovative immunotherapy leverages messenger RNA technology to train the patient's immune system to specifically target and destroy residual malignant cells. Regulatory bodies and medical institutions are closely evaluating these promising verified results, which could fundamentally transform adjuvant therapy protocols. This breakthrough represents a major milestone in personalized oncology, paving the way for broader clinical applications across various solid tumor malignancies."
-      ],
-      "why_it_matters_bullets": [
-        "This advancement validates mRNA technology beyond infectious diseases, heralding a new era of personalized cancer immunotherapies."
-      ],
-      "brief": "A pioneering mRNA cancer vaccine has demonstrated significant success in reducing recurrence rates among melanoma patients in recent clinical trials. Developed by leading pharmaceutical researchers, the innovative immunotherapy leverages messenger RNA technology to train the patient's immune system to specifically target and destroy residual malignant cells. Regulatory bodies and medical institutions are closely evaluating these promising verified results, which could fundamentally transform adjuvant therapy protocols. This breakthrough represents a major milestone in personalized oncology, paving the way for broader clinical applications across various solid tumor malignancies. This advancement validates mRNA technology beyond infectious diseases, heralding a new era of personalized cancer immunotherapies.",
-      "brief_word_count": 102
-    },
-    {
-      "story_id": "story-520",
-      "category": "Science",
-      "primary_headline": "A New Ice Age Was Beginning. Then Humans Started Burning Fossil Fuels",
-      "primary_source": {
-        "source_name": "Wired",
-        "headline": "A New Ice Age Was Beginning. Then Humans Started Burning Fossil Fuels",
-        "published_at": "Thu, 22 Oct 2026 18:00:00 +0000",
-        "url": "https://www.wired.com/story/ice-age-beginning-then-humans-started-burning-fossil-fuels/",
-        "content": "Ancient plants reveal that the vestiges of the North American ice sheet started expanding a few thousand years ago, but that climate change caused it to reverse course."
-      },
-      "sources": [
-        {
-          "source_name": "Wired",
-          "headline": "A New Ice Age Was Beginning. Then Humans Started Burning Fossil Fuels",
-          "published_at": "Thu, 22 Oct 2026 18:00:00 +0000",
-          "url": "https://www.wired.com/story/ice-age-beginning-then-humans-started-burning-fossil-fuels/"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.8,
-      "brief_bullets": [
-        "Ancient plants reveal that the vestiges of the North American ice sheet started expanding a few thousand years ago, but that climate change caused it to reverse course.",
-        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'A New Ice Age Was Beginning. Then Humans Started Burning Fossil Fuels'.",
+        "NASA astronauts Luke Delaney and Jessica Watkins operated the Canadarm2 robotic arm aboard the International Space Station.",
+        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'NASA Astronaut Anil Menon Completes Nearly 7'.",
         "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
         "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
       ],
       "why_it_matters_bullets": [
-        "Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
+        "Carries notable operational, policy, and market consequences surrounding 'NASA Astronaut Anil Menon Completes Nearly 7'."
       ],
-      "brief": "Ancient plants reveal that the vestiges of the North American ice sheet started expanding a few thousand years ago, but that climate change caused it to reverse course. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'A New Ice Age Was Beginning. Then Humans Started Burning Fossil Fuels'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
-      "brief_word_count": 98
+      "brief": "NASA astronauts Luke Delaney and Jessica Watkins operated the Canadarm2 robotic arm aboard the International Space Station. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'NASA Astronaut Anil Menon Completes Nearly 7'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Carries notable operational, policy, and market consequences surrounding 'NASA Astronaut Anil Menon Completes Nearly 7'.",
+      "brief_word_count": 83
     },
     {
-      "story_id": "story-593",
+      "story_id": "story-464",
       "category": "Science",
-      "primary_headline": "Glee’s pro-LGBTQ+ vision captured 2010s hope. Can a reboot handle Trump’s America? | Alim Kheraj",
+      "primary_headline": "Magnitude-6.1 Earthquake Off Tokyo Coast, No Tsunami Alert",
+      "primary_source": {
+        "source_name": "NDTV",
+        "headline": "Magnitude-6.1 Earthquake Off Tokyo Coast, No Tsunami Alert",
+        "published_at": "Fri, 06 Nov 2026 16:44:50 +0530",
+        "url": "https://www.ndtv.com/world-news/japan-earthquake-magnitude-6-1-earthquake-off-tokyo-coast-no-tsunami-alert-12292740#publisher=newsstand",
+        "content": "A magnitude 6.1 earthquake struck eastern Japan near Tokyo on Friday, monitoring agencies said."
+      },
+      "sources": [
+        {
+          "source_name": "NDTV",
+          "headline": "Magnitude-6.1 Earthquake Off Tokyo Coast, No Tsunami Alert",
+          "published_at": "Fri, 06 Nov 2026 16:44:50 +0530",
+          "url": "https://www.ndtv.com/world-news/japan-earthquake-magnitude-6-1-earthquake-off-tokyo-coast-no-tsunami-alert-12292740#publisher=newsstand"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.8,
+      "brief_bullets": [
+        "1 earthquake struck eastern Japan near Tokyo on Friday, monitoring agencies said.",
+        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Magnitude'.",
+        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
+        "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "1 earthquake struck eastern Japan near Tokyo on Friday, monitoring agencies said. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Magnitude'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 70
+    },
+    {
+      "story_id": "story-560",
+      "category": "Science",
+      "primary_headline": "‘Instead of scuba diving on shrinking reefs, we helped regrow them’: readers’ best conservation tourism experiences",
       "primary_source": {
         "source_name": "The Guardian",
-        "headline": "Glee’s pro-LGBTQ+ vision captured 2010s hope. Can a reboot handle Trump’s America? | Alim Kheraj",
-        "published_at": "Thu, 22 Oct 2026 14:45:40 GMT",
-        "url": "https://www.theguardian.com/tv-and-radio/2026/oct/22/glee-reboot-lgbtq-politics-trump",
-        "content": "The beloved high school TV show is returning in a different political climate. I’m skeptical that Ryan Murphy has the nuance this moment needsFor months, Ryan Murphy has been discussing Glee. In July, he expressed his love for the musical comedy drama he created. In September, he said that he had finished writing a pilot for a potential reboot, adding that he had reached out to some of the cast about a reunion. And now it is official: Disney+ and Hulu have commissioned a Glee revival.Glee, which ran for six seasons between 2009 and 2015, was a cultural juggernaut during its initial tenure. The show won six Emmys, four Golden Globes and made stars of actors including Lea Michele, Jonathan Groff, Chris Colfer, Darren Criss and the late Cory Monteith and Naya Rivera. Centred on the trials of New Directions, a scrappy show choir at the fictional McKinley high school in Ohio, the show became known for its peppy covers of show tunes, 80s power pop hits such as Journey’s Don’t Stop Believin’ (a Glee signature), 2010s chart-toppers and some truly baffling mashups (the amalgamation of Scissor Sisters’ Let’s Have a Kiki and Turkey Lurkey Time from Promises, Promises remains … a choice). Continue reading..."
+        "headline": "‘Instead of scuba diving on shrinking reefs, we helped regrow them’: readers’ best conservation tourism experiences",
+        "published_at": "Fri, 06 Nov 2026 07:00:46 GMT",
+        "url": "https://www.theguardian.com/travel/2026/nov/06/readers-travel-tips-best-conservation-tourism-holidays",
+        "content": "From a sea turtle rescue centre in Italy to rewilding in the Scottish Highlands, here are some of your favourite trips that give a little backThe Ropes of Hope works for coral reef restoration in the Mafia Island marine park, off Tanzania. Instead of scuba diving to see shrinking reefs, we got involved with a project regrowing them. It’s the brainchild of Jean de Villiers, a South African molecular biologist who talked my teenagers through the underwater coral gene bank research and community involvement. Our ocean-view tree house accommodation didn’t hurt, with hot chocolate and cake hoisted up fresh each morning. In an educational U-turn, our eldest now studies sustainable development – Jean is doing something right.\n \n Claire Continue reading..."
       },
       "sources": [
         {
           "source_name": "The Guardian",
-          "headline": "Glee’s pro-LGBTQ+ vision captured 2010s hope. Can a reboot handle Trump’s America? | Alim Kheraj",
-          "published_at": "Thu, 22 Oct 2026 14:45:40 GMT",
-          "url": "https://www.theguardian.com/tv-and-radio/2026/oct/22/glee-reboot-lgbtq-politics-trump"
+          "headline": "‘Instead of scuba diving on shrinking reefs, we helped regrow them’: readers’ best conservation tourism experiences",
+          "published_at": "Fri, 06 Nov 2026 07:00:46 GMT",
+          "url": "https://www.theguardian.com/travel/2026/nov/06/readers-travel-tips-best-conservation-tourism-holidays"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.8,
       "brief_bullets": [
-        "The beloved high school TV show is returning in a different political climate.",
-        "I’m skeptical that Ryan Murphy has the nuance this moment needsFor months, Ryan Murphy has been discussing Glee.",
-        "In July, he expressed his love for the musical comedy drama he created.",
-        "In September, he said that he had finished writing a pilot for a potential reboot, adding that he had reached out to some of the cast about a reunion.",
-        "And now it is official: Disney+ and Hulu have commissioned a Glee revival.",
-        "Glee, which ran for six seasons between 2009 and 2015, was a cultural juggernaut during its initial tenure.",
-        "The show won six Emmys, four Golden Globes and made stars of actors including Lea Michele, Jonathan Groff, Chris Colfer, Darren Criss and the late Cory Monteith and Naya Rivera."
+        "From a sea turtle rescue centre in Italy to rewilding in the Scottish Highlands, here are some of your favourite trips that give a little backThe Ropes of Hope works for coral reef restoration in the Mafia Island marine park, off Tanzania.",
+        "Instead of scuba diving to see shrinking reefs, we got involved with a project regrowing them.",
+        "It’s the brainchild of Jean de Villiers, a South African molecular biologist who talked my teenagers through the underwater coral gene bank research and community involvement.",
+        "Our ocean-view tree house accommodation didn’t hurt, with hot chocolate and cake hoisted up fresh each morning.",
+        "In an educational U-turn, our eldest now studies sustainable development – Jean is doing something right."
       ],
       "why_it_matters_bullets": [
-        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "brief": "The beloved high school TV show is returning in a different political climate. I’m skeptical that Ryan Murphy has the nuance this moment needsFor months, Ryan Murphy has been discussing Glee. In July, he expressed his love for the musical comedy drama he created. In September, he said that he had finished writing a pilot for a potential reboot, adding that he had reached out to some of the cast about a reunion. And now it is official: Disney+ and Hulu have commissioned a Glee revival. Glee, which ran for six seasons between 2009 and 2015, was a cultural juggernaut during its initial tenure. The show won six Emmys, four Golden Globes and made stars of actors including Lea Michele, Jonathan Groff, Chris Colfer, Darren Criss and the late Cory Monteith and Naya Rivera. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 148
+      "brief": "From a sea turtle rescue centre in Italy to rewilding in the Scottish Highlands, here are some of your favourite trips that give a little backThe Ropes of Hope works for coral reef restoration in the Mafia Island marine park, off Tanzania. Instead of scuba diving to see shrinking reefs, we got involved with a project regrowing them. It’s the brainchild of Jean de Villiers, a South African molecular biologist who talked my teenagers through the underwater coral gene bank research and community involvement. Our ocean-view tree house accommodation didn’t hurt, with hot chocolate and cake hoisted up fresh each morning. In an educational U-turn, our eldest now studies sustainable development – Jean is doing something right. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 130
     },
     {
-      "story_id": "story-650",
+      "story_id": "story-689",
       "category": "Science",
-      "primary_headline": "A mutated virus is driving the US into an early flu season, especially on the West Coast",
+      "primary_headline": "Songs from the Firefront by Tim Winton review – climate urgency verges on panic, with moments of wonder too",
       "primary_source": {
-        "source_name": "CNN",
-        "headline": "A mutated virus is driving the US into an early flu season, especially on the West Coast - CNN",
-        "published_at": "Thu, 22 Oct 2026 10:00:16 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1vSE9VbTI5U0NaZXkwMllWUnhwNFRHQW9rSWhjUms4WWJUWG4tdVBGa3BtcUxCUEUwZ0pIbk9TZDY1MHhiekw2bFJKSGs3WjEwVDZZU1FXaEhIS2V1OVphVDFVWU41dw?oc=5",
-        "content": "A mutated virus is driving the US into an early flu season, especially on the West Coast&nbsp;&nbsp;CNN"
+        "source_name": "The Guardian",
+        "headline": "Songs from the Firefront by Tim Winton review – climate urgency verges on panic, with moments of wonder too",
+        "published_at": "Thu, 05 Nov 2026 21:00:34 GMT",
+        "url": "https://www.theguardian.com/books/2026/nov/06/songs-from-the-firefront-by-tim-winton-review",
+        "content": "The masterful Australian writer has become a kind of prophet – and his dramatic and moving new essay collection challenges us not to look awayTim Winton has been working his themes for almost 50 years in a palimpsest of 32 books: family, manhood, land and ocean; what it is to be human and Australian; intimate pleasures and anxieties that feed his fiction. The distinctive quality of his new collection of memoir and essays, Songs from the Firefront, is urgency verging on panic. He’s an elder in his 60s, with limited time to get his messages across before we all go up in flames.Living on the western edge of Australia, Winton has been an eloquent climate-change activist for decades. He has fought, with tenuous success, to protect Ningaloo Reef. He entrances us with Scheherazade stories that blend crystalline nature writing and terrifying facts. The loss has accelerated now, he says, and the danger is immediate.Songs from the Firefront by Tim Winton is out now through Hamish Hamilton/Penguin Continue reading..."
       },
       "sources": [
         {
-          "source_name": "CNN",
-          "headline": "A mutated virus is driving the US into an early flu season, especially on the West Coast - CNN",
-          "published_at": "Thu, 22 Oct 2026 10:00:16 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1vSE9VbTI5U0NaZXkwMllWUnhwNFRHQW9rSWhjUms4WWJUWG4tdVBGa3BtcUxCUEUwZ0pIbk9TZDY1MHhiekw2bFJKSGs3WjEwVDZZU1FXaEhIS2V1OVphVDFVWU41dw?oc=5"
+          "source_name": "The Guardian",
+          "headline": "Songs from the Firefront by Tim Winton review – climate urgency verges on panic, with moments of wonder too",
+          "published_at": "Thu, 05 Nov 2026 21:00:34 GMT",
+          "url": "https://www.theguardian.com/books/2026/nov/06/songs-from-the-firefront-by-tim-winton-review"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.8,
       "brief_bullets": [
-        "A mutated influenza virus strain is driving an unusually early flu season across the United States, with public health officials reporting particularly intense early-season transmission concentrated along the West Coast. Federal agencies and regional healthcare networks are closely monitoring the mutated strain's epidemiological trajectory to assess vaccine efficacy and healthcare capacity. Medical organizations emphasize that this premature surge could strain hospital systems if community mitigation and vaccination efforts are not rapidly accelerated."
+        "The masterful Australian writer has become a kind of prophet – and his dramatic and moving new essay collection challenges us not to look awayTim Winton has been working his themes for almost 50 years in a palimpsest of 32 books: family, manhood, land and ocean; what it is to be human and Australian; intimate pleasures and anxieties that feed his fiction.",
+        "The distinctive quality of his new collection of memoir and essays, Songs from the Firefront, is urgency verging on panic.",
+        "He’s an elder in his 60s, with limited time to get his messages across before we all go up in flames.",
+        "Living on the western edge of Australia, Winton has been an eloquent climate-change activist for decades.",
+        "He has fought, with tenuous success, to protect Ningaloo Reef."
       ],
       "why_it_matters_bullets": [
-        "Early viral mutation threatens vaccine efficacy, risking severe healthcare strain across regional hospital networks nationwide."
+        "Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
       ],
-      "brief": "A mutated influenza virus strain is driving an unusually early flu season across the United States, with public health officials reporting particularly intense early-season transmission concentrated along the West Coast. Federal agencies and regional healthcare networks are closely monitoring the mutated strain's epidemiological trajectory to assess vaccine efficacy and healthcare capacity. Medical organizations emphasize that this premature surge could strain hospital systems if community mitigation and vaccination efforts are not rapidly accelerated. Early viral mutation threatens vaccine efficacy, risking severe healthcare strain across regional hospital networks nationwide.",
-      "brief_word_count": 87
+      "brief": "The masterful Australian writer has become a kind of prophet – and his dramatic and moving new essay collection challenges us not to look awayTim Winton has been working his themes for almost 50 years in a palimpsest of 32 books: family, manhood, land and ocean; what it is to be human and Australian; intimate pleasures and anxieties that feed his fiction. The distinctive quality of his new collection of memoir and essays, Songs from the Firefront, is urgency verging on panic. He’s an elder in his 60s, with limited time to get his messages across before we all go up in flames. Living on the western edge of Australia, Winton has been an eloquent climate-change activist for decades. He has fought, with tenuous success, to protect Ningaloo Reef. Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
+      "brief_word_count": 143
     }
   ]
 }

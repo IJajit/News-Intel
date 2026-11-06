@@ -1581,115 +1581,172 @@ def run_hourly_pipeline(grounded_time=None, send_push=True):
 
     print(f"[HOURLY CRON] Starting hourly news intelligence pipeline at {grounded_time} (send_push={send_push})...")
     
-    # 1. Fetch articles from past 1.0 hour across all sources
-    raw_articles = get_filtered_articles(grounded_time, max_hours=1.0)
-    
-    # If fewer than 3 stories in the last hour, expand window up to 2.0 hours to keep user updated with latest context
-    if len(raw_articles) < 3:
-        raw_articles = get_filtered_articles(grounded_time, max_hours=2.0)
+    # 1. Fetch articles from past 24 hours to support 1hour, homepage, and category feeds
+    raw_articles_24h = get_filtered_articles(grounded_time, max_hours=24.0)
 
-    story_objects = []
-    if raw_articles:
-        clusters = cluster_into_stories(raw_articles)
-        clusters = rank_clusters(clusters)
+    # 1-hour candidate filter
+    now_ref = parse_iso(grounded_time) or datetime.now(timezone.utc)
+    if now_ref.tzinfo is None:
+        now_ref = now_ref.replace(tzinfo=timezone.utc)
+    cutoff_1h = now_ref - timedelta(hours=1.0)
+    cutoff_2h = now_ref - timedelta(hours=2.0)
 
-        groq_api_key = os.environ.get('GROQ_API_KEY', '')
-        gemini_api_key = os.environ.get('GEMINI_API_KEY', '')
+    raw_articles_1h = [
+        a for a in raw_articles_24h
+        if (parse_date(a.get('pubDate')) and (parse_date(a.get('pubDate')).replace(tzinfo=timezone.utc) if parse_date(a.get('pubDate')).tzinfo is None else parse_date(a.get('pubDate'))) >= cutoff_1h)
+    ]
+    if len(raw_articles_1h) < 3:
+        raw_articles_1h = [
+            a for a in raw_articles_24h
+            if (parse_date(a.get('pubDate')) and (parse_date(a.get('pubDate')).replace(tzinfo=timezone.utc) if parse_date(a.get('pubDate')).tzinfo is None else parse_date(a.get('pubDate'))) >= cutoff_2h)
+        ]
 
-        brief_cache = {}
-        with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
-            fut_map = {
-                pool.submit(generate_story_brief, story, ssl_context, HF_API_TOKEN, groq_api_key, gemini_api_key): story
-                for story in clusters
-            }
-            for future in concurrent.futures.as_completed(fut_map):
-                story = fut_map[future]
-                try:
-                    res = future.result()
-                    if isinstance(res, dict):
-                        b_bullets = res.get("brief", [])
-                        w_bullets = res.get("why_it_matters", [])
-                        summary = res.get("summary", "")
-                        if not summary and b_bullets:
-                            summary = " ".join(b_bullets)
-                        wc = res.get("word_count", len(summary.split()))
-                    else:
-                        summary = str(res)
-                        b_bullets = [summary]
-                        w_bullets = []
-                        wc = len(summary.split())
-                    brief_cache[story["story_id"]] = {
-                        "brief_bullets": b_bullets,
-                        "why_it_matters_bullets": w_bullets,
-                        "brief": summary,
-                        "brief_word_count": wc
-                    }
-                except Exception as e:
-                    print(f"Hourly brief generation failed for story {story.get('story_id')}: {e}")
+    clusters_1h = cluster_into_stories(raw_articles_1h) if raw_articles_1h else []
+    clusters_1h = rank_clusters(clusters_1h)
 
-        for story in clusters:
-            cached = brief_cache.get(story["story_id"], {})
-            b_bullets = cached.get("brief_bullets", [])
-            if not b_bullets:
-                b_bullets = [cached.get("brief") or story.get("primary_headline")]
-            w_bullets = cached.get("why_it_matters_bullets", [])
-            if not w_bullets:
-                cat_name = story.get("category", "this sector")
-                w_bullets = [f"Carries notable strategic, policy, and market implications for {cat_name} stakeholders as developments unfold."]
+    clusters_24h = cluster_into_stories(raw_articles_24h) if raw_articles_24h else []
+    clusters_24h = rank_clusters(clusters_24h)
 
-            story_obj = {
-                "story_id": story["story_id"],
-                "category": story["category"],
-                "primary_headline": story["primary_headline"],
-                "primary_source": story["primary_source"],
-                "sources": [
-                    {
-                        "source_name": s["source_name"],
-                        "headline": s["headline"],
-                        "published_at": s["published_at"],
-                        "url": s["url"]
-                    }
-                    for s in story["sources"]
-                ],
-                "source_count": story["source_count"],
-                "total_count": story["total_count"],
-                "combined_score": story["combined_score"],
-                "brief_bullets": b_bullets,
-                "why_it_matters_bullets": w_bullets,
-                "brief": cached.get("brief", ""),
-                "brief_word_count": cached.get("brief_word_count", 0)
-            }
-            story_objects.append(story_obj)
+    # Collect top stories across Homepage (top 20) and 1Hour (top 20) for Gemini summaries
+    hp_candidates = clusters_24h[:20]
+    one_h_candidates = clusters_1h[:20]
 
-        story_objects.sort(key=lambda s: (s.get("source_count", 1), s.get("combined_score", 0)), reverse=True)
+    all_cats = ['technology', 'geopolitics', 'science', 'culture', 'society', 'sports', 'finance']
+    cat_candidates = {}
+    for cat_name in all_cats:
+        c_stories = [s for s in clusters_24h if (s.get('category') or '').lower() == cat_name]
+        cat_candidates[cat_name] = c_stories[:20]
 
+    priority_stories_map = {}
+    for s in hp_candidates + one_h_candidates:
+        priority_stories_map[s["story_id"]] = s
+    for cat_list in cat_candidates.values():
+        for s in cat_list:
+            priority_stories_map[s["story_id"]] = s
+
+    groq_api_key = os.environ.get('GROQ_API_KEY', '')
+    gemini_api_key = os.environ.get('GEMINI_API_KEY', '')
+
+    brief_cache = {}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+        fut_map = {
+            pool.submit(generate_story_brief, story, ssl_context, HF_API_TOKEN, groq_api_key, gemini_api_key): story
+            for story in priority_stories_map.values()
+        }
+        for future in concurrent.futures.as_completed(fut_map):
+            story = fut_map[future]
+            try:
+                res = future.result()
+                if isinstance(res, dict):
+                    b_bullets = res.get("brief", [])
+                    w_bullets = res.get("why_it_matters", [])
+                    summary = res.get("summary", "")
+                    if not summary and b_bullets:
+                        summary = " ".join(b_bullets)
+                    wc = res.get("word_count", len(summary.split()))
+                else:
+                    summary = str(res)
+                    b_bullets = [summary]
+                    w_bullets = []
+                    wc = len(summary.split())
+                brief_cache[story["story_id"]] = {
+                    "brief_bullets": b_bullets,
+                    "why_it_matters_bullets": w_bullets,
+                    "brief": summary,
+                    "brief_word_count": wc
+                }
+            except Exception as e:
+                print(f"Hourly brief generation failed for story {story.get('story_id')}: {e}")
+
+    def assemble_story_obj(story):
+        cached = brief_cache.get(story["story_id"], {})
+        b_bullets = cached.get("brief_bullets", [])
+        if not b_bullets:
+            b_bullets = [cached.get("brief") or story.get("primary_headline")]
+        w_bullets = cached.get("why_it_matters_bullets", [])
+        if not w_bullets:
+            cat_name = story.get("category", "this sector")
+            w_bullets = [f"Carries notable strategic, policy, and market implications for {cat_name} stakeholders as developments unfold."]
+
+        return {
+            "story_id": story["story_id"],
+            "category": story["category"],
+            "primary_headline": story["primary_headline"],
+            "primary_source": story["primary_source"],
+            "sources": [
+                {
+                    "source_name": s["source_name"],
+                    "headline": s["headline"],
+                    "published_at": s["published_at"],
+                    "url": s["url"]
+                }
+                for s in story["sources"]
+            ],
+            "source_count": story["source_count"],
+            "total_count": story["total_count"],
+            "combined_score": story["combined_score"],
+            "brief_bullets": b_bullets,
+            "why_it_matters_bullets": w_bullets,
+            "brief": cached.get("brief", ""),
+            "brief_word_count": cached.get("brief_word_count", 0)
+        }
+
+    # 1. 1hour data
+    story_objects_1h = [assemble_story_obj(s) for s in one_h_candidates]
+    story_objects_1h.sort(key=lambda s: (s.get("source_count", 1), s.get("combined_score", 0)), reverse=True)
     one_hour_data = {
         "id": "latest",
         "category": "1hour",
         "timestamp": grounded_time,
-        "articlesCount": len(story_objects),
-        "stories": story_objects
+        "articlesCount": len(story_objects_1h),
+        "stories": story_objects_1h
     }
 
-    # Save to briefings directory
-    one_hour_path = os.path.join(BRIEFINGS_DIR, "latest_1hour.json")
-    try:
-        with open(one_hour_path, "w", encoding="utf-8") as f:
-            json.dump(one_hour_data, f, ensure_ascii=False)
-    except Exception as e:
-        print(f"[HOURLY CRON] Error saving to {one_hour_path}: {e}")
+    # 2. Homepage data
+    story_objects_hp = [assemble_story_obj(s) for s in hp_candidates]
+    homepage_data = {
+        "id": "latest",
+        "category": "homepage",
+        "timestamp": grounded_time,
+        "articlesCount": len(story_objects_hp),
+        "stories": story_objects_hp
+    }
 
-    # Persist to Upstash KV so all serverless instances share this globally
-    kv_set("briefing_1hour", one_hour_data)
+    # 3. Category datasets
+    cat_datasets = {}
+    for cat_name, c_list in cat_candidates.items():
+        c_objs = [assemble_story_obj(s) for s in c_list]
+        cat_datasets[cat_name] = {
+            "id": "latest",
+            "category": cat_name,
+            "timestamp": grounded_time,
+            "articlesCount": len(c_objs),
+            "stories": c_objs
+        }
 
-    # Also update seed file if writable
-    seed_path = os.path.join(SEED_DIR, "latest_1hour.json")
-    if os.access(os.path.dirname(seed_path), os.W_OK):
+    # Persist all feeds to local files and Upstash KV
+    def save_briefing(name, data_obj):
+        p = os.path.join(BRIEFINGS_DIR, f"latest_{name}.json")
         try:
-            with open(seed_path, "w", encoding="utf-8") as f:
-                json.dump(one_hour_data, f, ensure_ascii=False)
-        except Exception:
-            pass
+            with open(p, "w", encoding="utf-8") as f:
+                json.dump(data_obj, f, ensure_ascii=False)
+        except Exception as e:
+            print(f"[HOURLY CRON] Error saving {p}: {e}")
+        kv_set(f"briefing_{name}", data_obj)
+        s_path = os.path.join(SEED_DIR, f"latest_{name}.json")
+        if os.access(os.path.dirname(s_path), os.W_OK):
+            try:
+                with open(s_path, "w", encoding="utf-8") as f:
+                    json.dump(data_obj, f, ensure_ascii=False)
+            except Exception:
+                pass
+
+    save_briefing("1hour", one_hour_data)
+    save_briefing("homepage", homepage_data)
+    for c_name, c_data in cat_datasets.items():
+        save_briefing(c_name, c_data)
+
+    story_objects = story_objects_1h
 
     # Format push notification payload
     payload = format_hourly_push_payload(story_objects)
@@ -1836,6 +1893,23 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                         print(f"Error reading global fallback: {e}")
 
             if data and isinstance(data, dict):
+                # Auto-refresh if data is older than 2 hours or if category is missing in KV
+                data_ts = data.get("timestamp")
+                data_dt = parse_iso(data_ts) if data_ts else None
+                is_stale = False
+                now_utc = datetime.now(timezone.utc)
+                if data_dt:
+                    if data_dt.tzinfo is None:
+                        data_dt = data_dt.replace(tzinfo=timezone.utc)
+                    if (now_utc - data_dt).total_seconds() > 7200: # 2 hours
+                        is_stale = True
+                else:
+                    is_stale = True
+
+                if is_stale:
+                    # Spawn non-blocking background refresh so subsequent hits and current users get fresh news
+                    threading.Thread(target=run_hourly_pipeline, kwargs={"send_push": False}, daemon=True).start()
+
                 # Ensure homepage, 1hour (latest), and individual categories are capped to top 20 most important stories,
                 # while 'global' ("All") retains all news articles across all categories
                 if category != 'global' and isinstance(data.get('stories'), list) and len(data['stories']) > 20:

@@ -1,888 +1,1039 @@
 {
   "id": "latest",
   "category": "1hour",
-  "timestamp": "2026-10-23T08:07:39.235393+00:00",
+  "timestamp": "2026-11-06T17:32:13.589848+00:00",
   "articlesCount": 20,
   "stories": [
     {
-      "story_id": "story-14",
-      "category": "Technology",
-      "primary_headline": "‘Ram ne Yadav ko maara’: Software error throws up bizarre names in UP MLC voter rolls",
+      "story_id": "story-1",
+      "category": "Finance",
+      "primary_headline": "Democrats planning flood of AI bills when they take control of Congress",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Democrats planning flood of AI bills when they take control of Congress - Reuters",
+        "published_at": "Fri, 06 Nov 2026 16:52:32 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSW1qclJEWjVTQTNNU0hWWndTVFlOWFpNY1RqQ1I5Z0F2anRxTE5IQnlTTDhjeU9uUGV2anlLaVBfMFdPc0k5eDJVTVk4VTlVbnVZX0VwVnBEMnhHX19fTGRvX2NrQnNJeGN5MzBBaXBLb3d3Y25JdHpjSXFQMENoa01vNk0yLXVLRVBGZjlHLVFuUmI0QWp5aFBBRzRUSDdNMkpCQ1lJVExIei0zVFFiY0x2eVBPcFJ3d2NCeGN6REF0dw?oc=5",
+        "content": "Democrats planning flood of AI bills when they take control of Congress&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Democrats planning flood of AI bills when they take control of Congress - Reuters",
+          "published_at": "Fri, 06 Nov 2026 16:52:32 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSW1qclJEWjVTQTNNU0hWWndTVFlOWFpNY1RqQ1I5Z0F2anRxTE5IQnlTTDhjeU9uUGV2anlLaVBfMFdPc0k5eDJVTVk4VTlVbnVZX0VwVnBEMnhHX19fTGRvX2NrQnNJeGN5MzBBaXBLb3d3Y25JdHpjSXFQMENoa01vNk0yLXVLRVBGZjlHLVFuUmI0QWp5aFBBRzRUSDdNMkpCQ1lJVExIei0zVFFiY0x2eVBPcFJ3d2NCeGN6REF0dw?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "As Congress returns to Democrats, one likely casualty emerges: Trump's District of Columbia projects - AP News",
+          "published_at": "Fri, 06 Nov 2026 14:29:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRUhMSnFxMU8wb01haWNqYXVDaVRid2M2VkJLRndDS2FjVkY0SmV0M1VYY0tiQWdlQlNwOFFqdXBtZ0pBbXlKVWJyUDFKRk5kSjg2a3h3TFZzSHdkYXdmUnN5Slo5YTluMUdrSzJaZ2pYelpSVmdHYXUybXcwY3lCeVRHV3dfTE9pcFprT0h0cUctbEVlRU96RjFSVEd2NXc?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Analysts and investors react to AI market rout - Reuters",
+          "published_at": "Fri, 06 Nov 2026 01:11:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZldlNGFPZ1lfa0RKbWVfZllvX2drcWh5TjF2S2RuV19Gal9wTE9PVUxHb05KODcwcXlEc2hINTEzOFc2MTlCT05rUXFVVnVpbmFocFRNcFlURk1hYkRpZklJc2ZKaFotYVR0VXRMWkRTQU16QzF4dVBDLUFsODJDaDNfNnFLVUpQMV8xLVBQbXhqaGNaVld3NzlB?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "Trump meets with top Putin envoy at the White House — but not visiting Ukrainian officials - AP News",
+          "published_at": "Thu, 05 Nov 2026 23:35:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSjNMN3IzWmgzdHJtQzktSjczNDY4QmFyWF9rT21VTnlON0ZCNHpOOXc4b290WDdndUpGR3BGY0pyQndnN3dwdENPM3ZWb3B4UUx4aVE2ZWhjcGtHV1d1clUwNXJsd243QnpJUmh1UHlCV2d6RURIQzdXNGlNMmxSMldaZUpqR1hEcDhBZ014dWhHUHBIUE40U09TUElSNk1oWE05VjhYLUViZzRUVl83bw?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "Iowa Democrat wins state House race despite suspending campaign in September - AP News",
+          "published_at": "Thu, 05 Nov 2026 22:44:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTXFkQl9PenRNLUdoQUNqak9pVHZCZXh6TF9QUlVVQTc3T2x0UHN0Z0xoVjVyR0NnLWtmNDJkQ1BNd0hxMnBQTW9uRGN2dXA2bFk5SDJNVVpZNGxTRUdDZVZfZ1Q4TzZHN0xXa3hNa0tWUVdfTkd5MVdUVFdjVGZHNVpULWo3V3h3ZVd1b0pwbEVOOFNmXzZZMGJWanF1UllxX2pTR0NnblVOWUk?oc=5"
+        }
+      ],
+      "source_count": 12,
+      "total_count": 24,
+      "combined_score": 13.23,
+      "brief_bullets": [
+        "As congressional control transitions to Democrats, lawmakers are preparing a comprehensive legislative package targeting artificial intelligence regulation and oversight. The planned initiative, spearheaded by key congressional leaders, aims to establish federal guardrails for emerging technologies, data privacy, and market competition. This forthcoming legislative push responds to escalating concerns over rapid sector growth, algorithmic bias, and national security implications. Ultimately, this strategic pivot sets the stage for high-stakes partisan debates over technology policy and federal intervention in the digital economy."
+      ],
+      "why_it_matters_bullets": [
+        "This legislative wave will fundamentally reshape federal oversight and regulatory compliance standards across the technology sector."
+      ],
+      "brief": "As congressional control transitions to Democrats, lawmakers are preparing a comprehensive legislative package targeting artificial intelligence regulation and oversight. The planned initiative, spearheaded by key congressional leaders, aims to establish federal guardrails for emerging technologies, data privacy, and market competition. This forthcoming legislative push responds to escalating concerns over rapid sector growth, algorithmic bias, and national security implications. Ultimately, this strategic pivot sets the stage for high-stakes partisan debates over technology policy and federal intervention in the digital economy. This legislative wave will fundamentally reshape federal oversight and regulatory compliance standards across the technology sector.",
+      "brief_word_count": 95
+    },
+    {
+      "story_id": "story-2",
+      "category": "Society",
+      "primary_headline": "European flights and broadcasters are targeted with another wave of bomb threats",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "European flights and broadcasters are targeted with another wave of bomb threats - AP News",
+        "published_at": "Fri, 06 Nov 2026 17:06:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONWZQMnRNaU1EcUtVVmRJSFpGOE5qZk5vZFE0eWNPVXFWcVRnMnRvdE1jeDBUZkFCUGlHVFhtQndfVVg5RXB3NWlBWjlqV1BTX0JoVVdTSElfQ0l0X3RselczRU5GQURCMzFjR2dOQ2ljak1QM1AxdDNaWk1yUEdJcjBETlhReDJsQzdHUkYtOE0wUE1s?oc=5",
+        "content": "European flights and broadcasters are targeted with another wave of bomb threats&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "European flights and broadcasters are targeted with another wave of bomb threats - AP News",
+          "published_at": "Fri, 06 Nov 2026 17:06:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONWZQMnRNaU1EcUtVVmRJSFpGOE5qZk5vZFE0eWNPVXFWcVRnMnRvdE1jeDBUZkFCUGlHVFhtQndfVVg5RXB3NWlBWjlqV1BTX0JoVVdTSElfQ0l0X3RselczRU5GQURCMzFjR2dOQ2ljak1QM1AxdDNaWk1yUEdJcjBETlhReDJsQzdHUkYtOE0wUE1s?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Newsroom bomb threats follow escalating European flight hoaxes - Reuters",
+          "published_at": "Fri, 06 Nov 2026 15:55:21 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPM1hGX3FNRUVaMDhGcnI2WkxBSk53bDZLT1A3RDZvZFktR0wyZy05Ym8xc2hsTFlQMDJzT3lHeHZkTl9UMkttb3RocE9KSDB6OGNmNG9iNFY0aFdVelhFeXREVWJ1OUpUNG1zWEFMUnZueUVMdGhXNVVuUFBCY2lhMm1EY0pxUEsweDVveC11eF9ZRmwwSEdVUy1Jbndzdi1GWXd3M282NHdpdkdqeU83T1FRcmtXZ2RGSDRFN2pKRzg?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Bomb threats warning 'the clock is ticking' disrupt TV channels across Europe - Reuters",
+          "published_at": "Fri, 06 Nov 2026 15:09:49 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdnRXOWRIUkRMTjJUVHA5MERSRnEzbUpJLWdYbjJwUkhyMUlkaVBELWNFWWhyVDl5RTNqQkhUSTdacElqLUhNRk9RSlg2SXpvRkQwTENWZ1MzRFlfYW1OcFBMRHFRQ0RfRDZ1MkVBbHJYTncyWXVOSnh6UTBFMklGLVRiSGNoN21PNURKcUtGSXpWYnkxM19zcDNCbldTeGc4bzJrRmVZNGt4Slp3NmFHcGpLMWNTSFJr?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "More than a dozen flights in Europe receive bomb threats that an official calls 'malicious' hoaxes - AP News",
+          "published_at": "Thu, 05 Nov 2026 21:56:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQblN6SXBxQ2x2LUZZYXBQd1ZlLTc5SE9sOXZYV0JyelE0X0p5RlNFOHV2MzR5T1lTTHZORlRzWmdVQndTcjhESjhvbV84eU1IeXZsVmwwV2VNMElhbTlJVFhzMV9fRy02Z01jX2Z0X1hTbFVwV3lzVUhKUURQQkYtU3Voc2RpOHFSNHRDNXUzb2NsWVB0dHRoN19wU0dvTVd6OEhnV1VYclpqdw?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "Here’s what happens when airlines receive bomb threats - AP News",
+          "published_at": "Thu, 05 Nov 2026 18:40:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMWFsZGlIUExzeDBTWm9KRlBBNzNhcFp2X0JTOWZwVGxsZ25ZelktU29CMWtXMHgzdENaMG1LYVdJNDdSS3BmTWxxYmZaeHhvMlR3emFWY0x1bndaRGlIbWJOZW1icnRhUkx5M0R1RE13YW5vR2tWWlhpb2N4ZlBYb2NLT1lBNDhIY2szckZHNlhsSHlZeTVMZGRJTQ?oc=5"
+        }
+      ],
+      "source_count": 10,
+      "total_count": 15,
+      "combined_score": 9.7,
+      "brief_bullets": [
+        "A coordinated wave of malicious bomb threats has severely disrupted European aviation and major broadcasting networks, targeting over a dozen flights and multiple television channels with warnings that the clock is ticking. Transport authorities and security officials confirmed that while the alerts triggered widespread emergency responses and logistical chaos, preliminary investigations indicate the incidents are sophisticated hoaxes. This synchronized campaign exploits critical infrastructure vulnerabilities, forcing aviation and media operators to execute costly security protocols while stoking public anxiety across the continent."
+      ],
+      "why_it_matters_bullets": [
+        "These persistent hoaxes drain vital emergency resources and expose critical vulnerabilities in European transport and media security networks."
+      ],
+      "brief": "A coordinated wave of malicious bomb threats has severely disrupted European aviation and major broadcasting networks, targeting over a dozen flights and multiple television channels with warnings that the clock is ticking. Transport authorities and security officials confirmed that while the alerts triggered widespread emergency responses and logistical chaos, preliminary investigations indicate the incidents are sophisticated hoaxes. This synchronized campaign exploits critical infrastructure vulnerabilities, forcing aviation and media operators to execute costly security protocols while stoking public anxiety across the continent. These persistent hoaxes drain vital emergency resources and expose critical vulnerabilities in European transport and media security networks.",
+      "brief_word_count": 99
+    },
+    {
+      "story_id": "story-3",
+      "category": "Geopolitics",
+      "primary_headline": "Kansas Governor Election Live Results 2026",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Kansas Governor Election Live Results 2026 - AP News",
+        "published_at": "Fri, 06 Nov 2026 17:26:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1nWHBNNWZibldPNElQNFdGbHpZVmdlaFY0em9Va3BrSlZ6djdaV0ZYQWdXLVIyQm1rb2xpeVdueDdvRmRZdjc3SEJ4WFk0V1ZqWW1zUG12eEpoVmxnbXd1SlpITzBEMHVlZVNyTlE0ekYwVmRQS2c?oc=5",
+        "content": "Kansas Governor Election Live Results 2026&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Kansas Governor Election Live Results 2026 - AP News",
+          "published_at": "Fri, 06 Nov 2026 17:26:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1nWHBNNWZibldPNElQNFdGbHpZVmdlaFY0em9Va3BrSlZ6djdaV0ZYQWdXLVIyQm1rb2xpeVdueDdvRmRZdjc3SEJ4WFk0V1ZqWW1zUG12eEpoVmxnbXd1SlpITzBEMHVlZVNyTlE0ekYwVmRQS2c?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "Tennessee U.S. House Election Live Results 2026 - AP News",
+          "published_at": "Fri, 06 Nov 2026 17:14:01 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE81Wk9Pd3EzbFdLZld2QzV6bGFyWHFZOU9Ba1N2OFVxWEM4cXZBMVhYTmZtTU1lWkhSU0E2X2hIWEdfN0xlUW55VGxCTThWNHdWTnlCOGttZnVtbVdCU2tsOGYydF8yczkxWUw5YXNMMXVyMFpGaDNTZjlB?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "Minnesota U.S. Senate Election Live Results 2026 - AP News",
+          "published_at": "Fri, 06 Nov 2026 16:37:20 GMT",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAtVlB1RE53YVlWOWc1emd2bm9senc1NFQ1cE1MVkxwMDFmR1lVcktCLTNCelVla043S3Q5ZEpETmx0S29ZZHlGOVA3SDQ4clV0MGtCVlBTLVhnVW5zZzZvV0pVbTJEdS13SS1hRl9KeUZRc0o0bFN6Zy1SWQ?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Can the US Democrats' 'Blue Wave' election sweep buoy Ukraine? - Reuters",
+          "published_at": "Fri, 06 Nov 2026 11:33:21 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSUlCRnhXUUxLU0EwelVOdThCN1pOUlJwQ1hZdk0yNldENVU2dlZsb2JPTVZ3WWgyRURjUWtZWmUyYjNNY2E3WXhtNzEtRHJhdVE4MTJRdmE1dXoxOXo3MkZMX1FEQTl3eEt3RmpzaVdJaXdJaFBTRl9sWUhPeU82YnhtSnM4eER1MlNLbDh5NklvYWZWWFFaSVBfdG4zMEE1b0FnOWxIcXdoZDQ?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "2026 Michigan Midterm Election Results - AP News",
+          "published_at": "Fri, 06 Nov 2026 09:14:05 GMT",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAzdVd0QWRXZVllV2lQR0pxamw0TWZ2ZjhBNlY4aGh2TmVETUhGSHlQdm1nV2pqVkhyZmZzWVJaUTNUdmttZXM0VF96OHFMR0dQdEdrNnhBSHVlTDZISHd4c0s3aE9MQU1BdEdoOQ?oc=5"
+        }
+      ],
+      "source_count": 8,
+      "total_count": 18,
+      "combined_score": 9.43,
+      "brief_bullets": [
+        "As the 2026 midterm elections approach, media outlets including the Associated Press are preparing comprehensive live result trackers for critical gubernatorial and congressional races nationwide, notably covering Kansas, Tennessee, Minnesota, and Michigan. These high-stakes state and federal contests carry immense political weight, testing the Democratic Party's potential for a sweeping legislative comeback while influencing crucial domestic policy directions. Major news organizations are deploying advanced tracking infrastructure to deliver real-time data on these pivotal electoral battles, reflecting intense public interest in the shifting balance of power across American governance."
+      ],
+      "why_it_matters_bullets": [
+        "These midterm results will redefine congressional power balances and dictate future federal policy execution."
+      ],
+      "brief": "As the 2026 midterm elections approach, media outlets including the Associated Press are preparing comprehensive live result trackers for critical gubernatorial and congressional races nationwide, notably covering Kansas, Tennessee, Minnesota, and Michigan. These high-stakes state and federal contests carry immense political weight, testing the Democratic Party's potential for a sweeping legislative comeback while influencing crucial domestic policy directions. Major news organizations are deploying advanced tracking infrastructure to deliver real-time data on these pivotal electoral battles, reflecting intense public interest in the shifting balance of power across American governance. These midterm results will redefine congressional power balances and dictate future federal policy execution.",
+      "brief_word_count": 102
+    },
+    {
+      "story_id": "story-6",
+      "category": "Society",
+      "primary_headline": "Kenyan cult leader sentenced to 200 years in prison for mass starvation murders of children",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Kenyan cult leader sentenced to 200 years in prison for mass starvation murders of children - Reuters",
+        "published_at": "Fri, 06 Nov 2026 16:33:55 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOVFQN3ZZdXgwV0VlOWE3MF8zbXg0ZF9ZenNaZ3pVTl8xcHpuREFHUFpodWFmMXVzSmN3c29kRVViMDZhdkZ1QjB1WGdoR0tLZ09OaTRORzBOWmNQQUFUb2RvMnpVdjQ3eGlCcmJsSGxPNzFVM0N2bEJCZ3V5SVJ0OTRyZW9LbFVhVmRXeUV2a0Q0eFE4WVR1Vl81V1NoTWZ4THNYbklpbFc1RmxIZ043WTBVWWxwTW4yVmNYXw?oc=5",
+        "content": "Kenyan cult leader sentenced to 200 years in prison for mass starvation murders of children&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Kenyan cult leader sentenced to 200 years in prison for mass starvation murders of children - Reuters",
+          "published_at": "Fri, 06 Nov 2026 16:33:55 GMT",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOVFQN3ZZdXgwV0VlOWE3MF8zbXg0ZF9ZenNaZ3pVTl8xcHpuREFHUFpodWFmMXVzSmN3c29kRVViMDZhdkZ1QjB1WGdoR0tLZ09OaTRORzBOWmNQQUFUb2RvMnpVdjQ3eGlCcmJsSGxPNzFVM0N2bEJCZ3V5SVJ0OTRyZW9LbFVhVmRXeUV2a0Q0eFE4WVR1Vl81V1NoTWZ4THNYbklpbFc1RmxIZ043WTBVWWxwTW4yVmNYXw?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "Leader of Kenyan doomsday cult sentenced to 200 years in prison - AP News",
+          "published_at": "Fri, 06 Nov 2026 14:19:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdUw2eEJsbFByTGFvckM5bXBFbHBVOTZZQ1FFTFdtdjJLSXJlU21jNGRGWXZwV2M3WGFLNVZ4a1ZVZDZPRGgtTzU1OVVrdVg2Z2V2TklKTjRzbkRmUXMwd0c0YTlwUDFfWC1EWnFsekxxYUJ0NWhHQ3hUU0swOUpXOUViZGpHV3FuM2N6Wi1WUkotUQ?oc=5"
+        },
+        {
+          "source_name": "The Guardian",
+          "headline": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
+          "published_at": "Fri, 06 Nov 2026 15:08:43 GMT",
+          "url": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie"
+        },
+        {
+          "source_name": "NPR",
+          "headline": "The leader of a Kenyan doomsday cult is sentenced to 200 years in prison",
+          "published_at": "Fri, 06 Nov 2026 09:53:46 -0500",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6032593/kenya-cult-leader-paul-mackenzie-sentenced-murder"
+        },
+        {
+          "source_name": "Al Jazeera",
+          "headline": "Kenyan court sentences starvation cult leader to 200 years - Al Jazeera",
+          "published_at": "Fri, 06 Nov 2026 12:54:55 GMT",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc0hDeXNSTHY4bm1IdVpRWS1XLS1nb1lVQ3NqWUZjZ2Y1NTU2aTRVYnhqVGNNSEE2VzdTU08yOUQ4bUpySEJud1c4eHhZRUdRczlSWW5FZEQybzUtYzBEZjNKcEZ4bHhUbzFYUmZpNDRGSzFFX1hNN2lsUVJIbHlacTZ0eXVKN3EtQlJnb2laaEtnMHd6NXdDanBZTkdxRjVx0gGmAUFVX3lxTE1PdGQwUWoyenBRLWVhdnc5THlTbkhaX3VBdDB5Rk90WS1kTHBTcFBlX3VGS3FpencyNGNtRklWYkJGamlqdTExWVZCMUhqeG1uSVBFajZOSXpDa3FmRHItc19HaUlUUUJ5SVowR1hVdF9xVXhNT0RXTnpYZ1BmcVhLRHZrS1NwTkQ3OUFFbjFHNTRfemE0V2tZMnJyeUFLREJTXzJYUUE?oc=5"
+        }
+      ],
+      "source_count": 6,
+      "total_count": 6,
+      "combined_score": 4.89,
+      "brief_bullets": [
+        "A Kenyan coastal court has sentenced doomsday cult leader Paul Mackenzie to 200 years in prison following the horrific mass starvation murders of 190 children and one adult. Mackenzie, who directed followers to starve themselves and their families to meet Jesus, was convicted across multiple counts of murder by starvation and direct homicide. This landmark ruling concludes one of the deadliest cult-related atrocities in modern history, underscoring severe systemic vulnerabilities in state oversight regarding radical religious organizations."
+      ],
+      "why_it_matters_bullets": [
+        "This unprecedented sentence establishes a vital legal precedent for prosecuting extreme religious extremism and protecting vulnerable populations from predatory cults."
+      ],
+      "brief": "A Kenyan coastal court has sentenced doomsday cult leader Paul Mackenzie to 200 years in prison following the horrific mass starvation murders of 190 children and one adult. Mackenzie, who directed followers to starve themselves and their families to meet Jesus, was convicted across multiple counts of murder by starvation and direct homicide. This landmark ruling concludes one of the deadliest cult-related atrocities in modern history, underscoring severe systemic vulnerabilities in state oversight regarding radical religious organizations. This unprecedented sentence establishes a vital legal precedent for prosecuting extreme religious extremism and protecting vulnerable populations from predatory cults.",
+      "brief_word_count": 97
+    },
+    {
+      "story_id": "story-7",
+      "category": "Society",
+      "primary_headline": "Meghan Markle's estranged father arrested and charged with possessing child sexual abuse materials",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Meghan Markle's estranged father arrested and charged with possessing child sexual abuse materials - AP News",
+        "published_at": "Fri, 06 Nov 2026 17:13:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNHpGTGhqcHRFbVlLRWRncDVhUFJnU25fSGFTclFBam5RNWpJSDBxanJTRkxGVmFaWjU3WFRXaHJQaldNU2ZURXBuRzRXLUhYUmdrR083a3FaaTJEdG84QUVFMzdxNVJ5NmVuYkstV1AwVVg2YmREMzAwRFEzYmlLODhzbGUwZHpTV2YwVzdNekFGZjk1MnEyMXhCTDFaVjg?oc=5",
+        "content": "Meghan Markle's estranged father arrested and charged with possessing child sexual abuse materials&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Meghan Markle's estranged father arrested and charged with possessing child sexual abuse materials - AP News",
+          "published_at": "Fri, 06 Nov 2026 17:13:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNHpGTGhqcHRFbVlLRWRncDVhUFJnU25fSGFTclFBam5RNWpJSDBxanJTRkxGVmFaWjU3WFRXaHJQaldNU2ZURXBuRzRXLUhYUmdrR083a3FaaTJEdG84QUVFMzdxNVJ5NmVuYkstV1AwVVg2YmREMzAwRFEzYmlLODhzbGUwZHpTV2YwVzdNekFGZjk1MnEyMXhCTDFaVjg?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Thomas Markle, father of Meghan, arrested for child pornography possession - Reuters",
+          "published_at": "Fri, 06 Nov 2026 16:59:33 GMT",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQX3ZsOHM5bmJFSVZCX3dsS3g1cUIxWEE5SHprTWZubEpyNW1xajlvdnBYZnpvZGlqVnhBRF96NFBKZEhDTXpTNVE0VzVLbGd0dVVFcmVCeUxQenRvdlpEUTA3Q2hYZ2EwcmJRdkppV1JUcE1OQU5vLTU4MFdDNzJyTVFyOHYzZ3BUU05iQVJscG12UzByNDN0WHlKb2Q?oc=5"
+        },
+        {
+          "source_name": "The Guardian",
+          "headline": "Thomas Markle, Meghan’s father, arrested in Florida on charges related to child sexual abuse material",
+          "published_at": "Fri, 06 Nov 2026 17:20:25 GMT",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/06/thomas-markle-arrested"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Meghan Markle's Father Arrested Over Child Sexual Abuse Material",
+          "published_at": "Fri, 06 Nov 2026 21:59:53 +0530",
+          "url": "https://www.ndtv.com/world-news/meghan-markles-father-thomas-markle-sr-arrested-over-child-sexual-abuse-material-12294334#publisher=newsstand"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Thomas Markle arrested: Meghan Markle’s father held over child sexual abuse material",
+          "published_at": "Fri, 06 Nov 2026 15:43:00 +0000",
+          "url": "https://indianexpress.com/article/world/thomas-markle-arrested-florida-child-sexual-abuse-material-meghan-markle-father-10953858/"
+        }
+      ],
+      "source_count": 6,
+      "total_count": 6,
+      "combined_score": 4.8,
+      "brief_bullets": [
+        "AP News Thomas Markle, father of Meghan, arrested for child pornography possession Father of the Duchess of Sussex was taken into custody near Tampa, US prosecutors saidThomas Markle, the father of Meghan, the Duchess of Sussex, was arrested by US federal agents in Florida on Friday and charged in connection with possession of child sexual abuse material, according to federal law enforcement.",
+        "Markle, 82, was taken into custody at a nursing home near Tampa early on Friday, and was expected to appear in court in Tampa in the early afternoon, the US justice department said in a statement.",
+        "In the US, call or text the Childhelp abuse hotline on 800-422-4453 or visit their website for more resources and to report child abuse or DM for help."
+      ],
+      "why_it_matters_bullets": [
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+      ],
+      "brief": "AP News Thomas Markle, father of Meghan, arrested for child pornography possession Father of the Duchess of Sussex was taken into custody near Tampa, US prosecutors saidThomas Markle, the father of Meghan, the Duchess of Sussex, was arrested by US federal agents in Florida on Friday and charged in connection with possession of child sexual abuse material, according to federal law enforcement. Markle, 82, was taken into custody at a nursing home near Tampa early on Friday, and was expected to appear in court in Tampa in the early afternoon, the US justice department said in a statement. In the US, call or text the Childhelp abuse hotline on 800-422-4453 or visit their website for more resources and to report child abuse or DM for help. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 140
+    },
+    {
+      "story_id": "story-13",
+      "category": "Society",
+      "primary_headline": "Lab tests show ethanol blend in E20 petrol as high as 31% in Karnataka",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Lab tests show ethanol blend in E20 petrol as high as 31% in Karnataka",
+        "published_at": "Fri, 06 Nov 2026 22:18:41 +0530",
+        "url": "https://www.thehindu.com/news/national/karnataka/lab-tests-show-ethanol-blend-in-petrol-is-as-high-as-31-higher-than-20-e20-petrol-in-karnataka-government/article71673683.ece",
+        "content": "Minister for Food, Civil Supplies and Consumer Affairs of Karnataka demands penalising OMCs, an E20 spoilage fund to compensate consumers"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Lab tests show ethanol blend in E20 petrol as high as 31% in Karnataka",
+          "published_at": "Fri, 06 Nov 2026 22:18:41 +0530",
+          "url": "https://www.thehindu.com/news/national/karnataka/lab-tests-show-ethanol-blend-in-petrol-is-as-high-as-31-higher-than-20-e20-petrol-in-karnataka-government/article71673683.ece"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Up to 31.2% ethanol in petrol: Karnataka govt alleges oil companies sell blends exceeding prescribed limits",
+          "published_at": "Fri, 06 Nov 2026 14:55:43 +0000",
+          "url": "https://www.deccanherald.com/india/up-to-312-ethanol-in-petrol-karnataka-govt-alleges-oil-companies-sell-blends-exceeding-prescribed-limits-4210256"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "'E20 Actually Has Over 30% Ethanol': Karnataka Minister Cites Petrol Tests, Demands Consumer Relief Fund",
+          "published_at": "Fri, 06 Nov 2026 17:40:00 +0530",
+          "url": "https://www.ndtv.com/india-news/e20-actually-has-over-30-ethanol-karnataka-minister-cites-petrol-tests-demands-relief-fund-for-consumers-12292948#publisher=newsstand"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "30% ethanol blend in petrol? Karnataka accuses Central oil firms of exceeding limit",
+          "published_at": "Fri, 06 Nov 2026 10:57:46 +0000",
+          "url": "https://indianexpress.com/article/cities/bangalore/20-ethanol-allowed-31-2-found-karnataka-flags-petrol-sold-by-oil-majors-10953529/"
+        },
+        {
+          "source_name": "The Print",
+          "headline": "Karnataka CM seeks public disclosure of ethanol content in petrol - ThePrint",
+          "published_at": "Fri, 06 Nov 2026 16:47:29 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcVhFeXEwLTBpUzBEQzBHTHlJakZjZkVZTExiVndTd3B1TlVuYklSOExFUUg4VkM3WDFZME5uU1c0akxwWmp0alJEbEZmME5idFYzQzRZM3RfRVJTb1lJRnVXN1RrWWg4Sm1aRTRJT1BvZXpRVHRBMHI0VWdkRFl2UTBtZzRBUFJEYW4taEw3X1ZzVm9YbFhVUGNSVEZsbXZwWFHSAacBQVVfeXFMUHlRcnd4aFM1b0stRTl0b2RWeGdMbURHQjRkdUE1ZGRSdVJKN3Z0S2NCbjV4eC1iSjZoMVl0QmlnUGxMb1hyUUFSZkdOYlRyTzBYcW9yTDV4SU03UTF1RDk4NzdpTEtJVURsSDBZUkM5Ml9UV2FWZ0xCMmgxV1Q4MV8ySDlLb1lrQnZBNnJEZk5BQ1BndllRRW1GVF9fRWtDbnJTMU1PSjg?oc=5"
+        }
+      ],
+      "source_count": 5,
+      "total_count": 5,
+      "combined_score": 4.03,
+      "brief_bullets": [
+        "Karnataka Food and Civil Supplies Minister Rizwan Arshad announced that accredited laboratory tests revealed major oil marketing companies supplied petrol with ethanol levels reaching up to 31.2 percent, significantly exceeding the mandated 20 percent cap. The state government highlighted that these excessive ethanol concentrations threaten millions of non-compliant vehicles built before 2023, potentially causing severe engine damage and eroding consumer warranties. Officials have formally demanded strict penalties against state-run and private fuel distributors, alongside the establishment of a dedicated spoilage compensation fund. This revelation intensifies nationwide debates regarding the aggressive national rollout of biofuel mandates and vehicle compatibility risks."
+      ],
+      "why_it_matters_bullets": [
+        "It exposes critical regulatory vulnerabilities in India's green fuel transition, risking massive consumer liabilities and engine damage."
+      ],
+      "brief": "Karnataka Food and Civil Supplies Minister Rizwan Arshad announced that accredited laboratory tests revealed major oil marketing companies supplied petrol with ethanol levels reaching up to 31.2 percent, significantly exceeding the mandated 20 percent cap. The state government highlighted that these excessive ethanol concentrations threaten millions of non-compliant vehicles built before 2023, potentially causing severe engine damage and eroding consumer warranties. Officials have formally demanded strict penalties against state-run and private fuel distributors, alongside the establishment of a dedicated spoilage compensation fund. This revelation intensifies nationwide debates regarding the aggressive national rollout of biofuel mandates and vehicle compatibility risks. It exposes critical regulatory vulnerabilities in India's green fuel transition, risking massive consumer liabilities and engine damage.",
+      "brief_word_count": 116
+    },
+    {
+      "story_id": "story-9",
+      "category": "Society",
+      "primary_headline": "Telangana Fire Services issues 7,601 firecracker licences ahead of Diwali",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Telangana Fire Services issues 7,601 firecracker licences ahead of Diwali",
+        "published_at": "Fri, 06 Nov 2026 22:34:38 +0530",
+        "url": "https://www.thehindu.com/news/national/telangana/telangana-fire-services-issues-7601-firecracker-licences-ahead-of-diwali/article71675054.ece",
+        "content": ""
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Telangana Fire Services issues 7,601 firecracker licences ahead of Diwali",
+          "published_at": "Fri, 06 Nov 2026 22:34:38 +0530",
+          "url": "https://www.thehindu.com/news/national/telangana/telangana-fire-services-issues-7601-firecracker-licences-ahead-of-diwali/article71675054.ece"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Delhi Metro Services On 3 Lines To Start Early On Diwali, Last Train At 10 pm",
+          "published_at": "Fri, 06 Nov 2026 17:04:18 +0530",
+          "url": "https://www.ndtv.com/india-news/delhi-metro-services-on-3-lines-to-start-early-on-diwali-last-train-at-10-pm-12292763#publisher=newsstand"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Delhi Metro timings on Diwali: Last train at 10 PM, services to start at 6 AM on 3 lines",
+          "published_at": "Fri, 06 Nov 2026 10:31:27 +0000",
+          "url": "https://indianexpress.com/article/cities/delhi/delhi-metro-revises-timings-on-diwali-last-train-at-10-pm-services-to-start-at-6-am-on-3-lines-10953474/"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "US Envoy Sergio Gor Shares Glimpse Of Diwali Celebrations At Embassy In New Delhi",
+          "published_at": "Fri, 06 Nov 2026 15:41:43 +0530",
+          "url": "https://www.ndtv.com/offbeat/us-envoy-sergio-gor-shares-glimpse-of-diwali-celebrations-at-embassy-in-new-delhi-12292389#publisher=newsstand"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Dilwali Diwali movie review: Manoj Pahwa’s Delhi drama is sweet, forgettable",
+          "published_at": "Fri, 06 Nov 2026 09:16:31 +0000",
+          "url": "https://indianexpress.com/article/entertainment/movie-review/diwali-diwali-movie-review-manoj-pahwas-delhi-drama-is-sweet-forgettable-10953365/"
+        }
+      ],
+      "source_count": 4,
+      "total_count": 8,
+      "combined_score": 4.43,
+      "brief_bullets": [
+        "Ahead of Diwali celebrations, Telangana Fire Services has officially issued 7,601 temporary firecracker licenses across the region to regulate safety compliance. Concurrently, public transit adjustments have been enacted, notably altering metro operations to accommodate holiday schedules and ensure passenger safety during peak festivities. These coordinated administrative measures reflect regional efforts to balance cultural celebrations with strict public safety protocols and infrastructure management. The initiative underscores local authorities' proactive stance in mitigating seasonal fire hazards and crowd control challenges during major nationwide holidays."
+      ],
+      "why_it_matters_bullets": [
+        "Proactive safety licensing and transit adjustments mitigate holiday risks, ensuring public security during major nationwide celebrations."
+      ],
+      "brief": "Ahead of Diwali celebrations, Telangana Fire Services has officially issued 7,601 temporary firecracker licenses across the region to regulate safety compliance. Concurrently, public transit adjustments have been enacted, notably altering metro operations to accommodate holiday schedules and ensure passenger safety during peak festivities. These coordinated administrative measures reflect regional efforts to balance cultural celebrations with strict public safety protocols and infrastructure management. The initiative underscores local authorities' proactive stance in mitigating seasonal fire hazards and crowd control challenges during major nationwide holidays. Proactive safety licensing and transit adjustments mitigate holiday risks, ensuring public security during major nationwide celebrations.",
+      "brief_word_count": 98
+    },
+    {
+      "story_id": "story-10",
+      "category": "Society",
+      "primary_headline": "CBI books Future Retail, Kishore Biyani, others in ₹904 crore bank fraud case; searches conducted in Mumbai",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "CBI books Future Retail, Kishore Biyani, others in ₹904 crore bank fraud case; searches conducted in Mumbai",
+        "published_at": "Fri, 06 Nov 2026 22:42:28 +0530",
+        "url": "https://www.thehindu.com/business/Industry/cbi-books-future-retail-kishore-biyani-others-in-904-crore-bank-fraud-case-searches-conducted-in-mumbai/article71675017.ece",
+        "content": "SBI alleged that the company failed to utilise the sanctioned funds in accordance with the terms and conditions of the loan facilities"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "CBI books Future Retail, Kishore Biyani, others in ₹904 crore bank fraud case; searches conducted in Mumbai",
+          "published_at": "Fri, 06 Nov 2026 22:42:28 +0530",
+          "url": "https://www.thehindu.com/business/Industry/cbi-books-future-retail-kishore-biyani-others-in-904-crore-bank-fraud-case-searches-conducted-in-mumbai/article71675017.ece"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Businessman Kishore Biyani Charged In Rs 904-Crore SBI Fraud Case",
+          "published_at": "Fri, 06 Nov 2026 21:09:57 +0530",
+          "url": "https://www.ndtv.com/india-news/future-retail-businessman-kishore-biyani-charged-in-rs-904-crore-sbi-fraud-case-12294140#publisher=newsstand"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Probe Agency Raids Premises Linked To Punjab AAP MLA In Rs 1-Crore Land 'Scam'",
+          "published_at": "Fri, 06 Nov 2026 20:48:41 +0530",
+          "url": "https://www.ndtv.com/india-news/enforcement-directorate-raids-premises-linked-to-punjab-aap-mla-amandeep-kaur-arora-in-rs-1-crore-land-scam-12294005#publisher=newsstand"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "CBI Files Rs 904-Crore Bank Fraud Case Against Businessman Kishore Biyani",
+          "published_at": "Fri, 06 Nov 2026 17:57:13 +0530",
+          "url": "https://www.ndtv.com/india-news/cbi-files-rs-904-crore-bank-fraud-case-against-businessman-kishore-biyani-12292746#publisher=newsstand"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "AIADMK Leader Arrested Over Attempt To Offer Rs 30 Crore To TVK MLA",
+          "published_at": "Fri, 06 Nov 2026 14:19:48 +0530",
+          "url": "https://www.ndtv.com/india-news/aiadmk-leader-pm-mannan-arrested-over-attempt-to-offer-rs-30-crore-to-tvk-mla-12291923#publisher=newsstand"
+        }
+      ],
+      "source_count": 4,
+      "total_count": 8,
+      "combined_score": 4.4,
+      "brief_bullets": [
+        "The Central Bureau of Investigation has registered a case against Future Retail and promoter Kishore Biyani over a 904 crore rupee bank fraud following a complaint by the State Bank of India. Investigators allege the defendants entered a criminal conspiracy to misappropriate credit facilities from a nine-bank consortium by illicitly transferring borrowed funds to related corporate entities. Consequently, enforcement authorities conducted coordinated searches across Mumbai premises, including a hospital-cum-de-addiction facility, while moving swiftly to secure judicial custody and remand for the key individuals involved."
+      ],
+      "why_it_matters_bullets": [
+        "This case intensifies institutional scrutiny over corporate debt defaults and bank fraud within India's retail sector."
+      ],
+      "brief": "The Central Bureau of Investigation has registered a case against Future Retail and promoter Kishore Biyani over a 904 crore rupee bank fraud following a complaint by the State Bank of India. Investigators allege the defendants entered a criminal conspiracy to misappropriate credit facilities from a nine-bank consortium by illicitly transferring borrowed funds to related corporate entities. Consequently, enforcement authorities conducted coordinated searches across Mumbai premises, including a hospital-cum-de-addiction facility, while moving swiftly to secure judicial custody and remand for the key individuals involved. This case intensifies institutional scrutiny over corporate debt defaults and bank fraud within India's retail sector.",
+      "brief_word_count": 100
+    },
+    {
+      "story_id": "story-11",
+      "category": "Society",
+      "primary_headline": "15,000 kg of illegal firecrackers seized in Capital, over 70 FIRs across Delhi-NCR",
       "primary_source": {
         "source_name": "The Indian Express",
-        "headline": "‘Ram ne Yadav ko maara’: Software error throws up bizarre names in UP MLC voter rolls",
-        "published_at": "Fri, 23 Oct 2026 07:38:09 +0000",
-        "url": "https://indianexpress.com/article/cities/lucknow/ram-ne-yadav-ko-maara-software-error-up-bizarre-names-up-mlc-voter-rolls-state-election-commision-10933459/",
+        "headline": "15,000 kg of illegal firecrackers seized in Capital, over 70 FIRs across Delhi-NCR",
+        "published_at": "Fri, 06 Nov 2026 16:51:10 +0000",
+        "url": "https://indianexpress.com/article/cities/delhi/delhi-illegal-firecrackers-seizure-15000-kg-70-firs-10953879/",
         "content": ""
       },
       "sources": [
         {
           "source_name": "The Indian Express",
-          "headline": "‘Ram ne Yadav ko maara’: Software error throws up bizarre names in UP MLC voter rolls",
-          "published_at": "Fri, 23 Oct 2026 07:38:09 +0000",
-          "url": "https://indianexpress.com/article/cities/lucknow/ram-ne-yadav-ko-maara-software-error-up-bizarre-names-up-mlc-voter-rolls-state-election-commision-10933459/"
-        },
-        {
-          "source_name": "The Hindu",
-          "headline": "‘Unusual’ names, details crop up in electoral roll for MLC polls in U.P.; ECI cites software error",
-          "published_at": "Fri, 23 Oct 2026 12:56:45 +0530",
-          "url": "https://www.thehindu.com/news/national/uttar-pradesh/unusual-names-details-crop-up-in-electoral-roll-for-mlc-polls-in-up-eci-cites-software-error/article71614964.ece"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "'Ram Ne Yadav Ko Maara': UP Poll Body Explains Bizarre Voter Entries Glitch",
-          "published_at": "Fri, 23 Oct 2026 11:23:26 +0530",
-          "url": "https://www.ndtv.com/india-news/election-commission-lost-in-translation-up-poll-officer-blames-bizarre-voter-names-on-software-12223726#publisher=newsstand"
+          "headline": "15,000 kg of illegal firecrackers seized in Capital, over 70 FIRs across Delhi-NCR",
+          "published_at": "Fri, 06 Nov 2026 16:51:10 +0000",
+          "url": "https://indianexpress.com/article/cities/delhi/delhi-illegal-firecrackers-seizure-15000-kg-70-firs-10953879/"
         },
         {
           "source_name": "Deccan Herald",
-          "headline": "'Ram ne Sharma ko maara': 'Unusual' names in electoral roll for MLC polls in Uttar Pradesh; EC blames translation errors",
-          "published_at": "Fri, 23 Oct 2026 05:38:18 +0000",
-          "url": "https://www.deccanherald.com/india/uttar-pradesh/ram-ne-sharma-ko-maara-unusual-names-in-electoral-roll-for-mlc-polls-in-uttar-pradesh-ec-blames-translation-errors-4192270"
+          "headline": "Air pollution | GRAP III introduced in Delhi NCR ahead of Deepavali",
+          "published_at": "Fri, 06 Nov 2026 13:48:22 +0000",
+          "url": "https://www.deccanherald.com/india/air-pollution-grap-iii-introduced-in-delhi-ncr-ahead-of-deepavali-4210322"
         },
         {
           "source_name": "NDTV",
-          "headline": "Glitches In Over 10,000 Voter Entries In UP Seat, 2 Poll Officials Suspended",
-          "published_at": "Fri, 23 Oct 2026 06:49:21 +0530",
-          "url": "https://www.ndtv.com/india-news/glitches-in-over-10-000-voter-entries-in-up-two-poll-officials-suspended-12222897#publisher=newsstand"
-        }
-      ],
-      "source_count": 4,
-      "total_count": 6,
-      "combined_score": 3.86,
-      "brief_bullets": [
-        "A software translation error in Uttar Pradesh generated bizarre and offensive voter names, such as Ram ne Yadav ko maara, across the Allahabad-Jhansi graduates constituency electoral rolls. State Chief Electoral Officer Navdeep Rinwa acknowledged 158 erroneous entries stemming from a newly introduced digital platform for MLC elections, prompting an official inquiry and immediate instructions for presiding officers to verify documents and prevent voter disenfranchisement."
-      ],
-      "why_it_matters_bullets": [
-        "The glitch exposes technological vulnerabilities in electoral roll digitization, risking voter disenfranchisement and undermining public trust in democratic institutions."
-      ],
-      "brief": "A software translation error in Uttar Pradesh generated bizarre and offensive voter names, such as Ram ne Yadav ko maara, across the Allahabad-Jhansi graduates constituency electoral rolls. State Chief Electoral Officer Navdeep Rinwa acknowledged 158 erroneous entries stemming from a newly introduced digital platform for MLC elections, prompting an official inquiry and immediate instructions for presiding officers to verify documents and prevent voter disenfranchisement. The glitch exposes technological vulnerabilities in electoral roll digitization, risking voter disenfranchisement and undermining public trust in democratic institutions.",
-      "brief_word_count": 83
-    },
-    {
-      "story_id": "story-19",
-      "category": "Society",
-      "primary_headline": "Harry Brook's record ODI double ton in vain as Sri Lanka pull off epic chase",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Harry Brook's record ODI double ton in vain as Sri Lanka pull off epic chase",
-        "published_at": "Fri, 23 Oct 2026 07:51:47 +0000",
-        "url": "https://www.deccanherald.com/sports/cricket/harry-brooks-record-odi-double-ton-in-vain-as-sri-lanka-pull-off-epic-chase-4192419",
-        "content": " Sri Lanka pulled off an epic chase despite Harry Brook smashing the fastest double-century in One-day International (ODI) history in the tri-series match at Rawalpindi. Quick summary - click for full detailsConcise summary of key highlightsHarry Brook's record ODI double ton in vain as Sri Lanka pull off epic chaseIn one lineHarry Brook's record-breaking ODI double century was in vain as Sri Lanka pulled off an epic run chase to win.Key highlights• Brook's Record-Breaking InningsEngland captain Harry Brook smashed the fastest double-century in ODI history, making 202 off 116 balls and becoming the first Englishman to score 200 in the format.• Sri Lanka's Epic Run ChaseSri Lanka successfully chased down England's mammoth total of 429 for four, sealing a two-wicket win with one ball to spare in the second-highest successful run chase in ODI history.• Standout Batting PerformancesPavan Rathnayake top-scored for Sri Lanka with 130 runs, while teammates Avishka Fernando and Dasun Shanaka both narrowly missed out on centuries with 97 runs each.• Tournament Standings ImpactThe defeat leaves England at the bottom of the tri-series standings after losing both their opening matches, requiring wins in their remaining games to reach the final.Key statistics202Brook's record double-century score429 for fourEngland's innings total130Pavan Rathnayake's top score for Sri Lanka435Record for highest ODI chase set by South Africa2006Year South Africa set the highest ODI chase recordProcessed with AI. Reviewed by DH Digital Team.The England captain hit the fastest-ever ODI double hundred, making 202 off 116 balls to propel his team to a mammoth 429 for four after they were put in to bat.Batters thoroughly dominated in Rawalpindi as Brook also hit the first ODI double century by an England player. However, Sri Lanka proved up to the challenge as Pavan Rathnayake scored 130, with Avishka Fernando and Dasun Shanaka both making 97.South Africa hold the record for the highest ODI chase, knocking off a target of 435 against Australia at Johannesburg in 2006.Brook became the first Englishman to score 200 in the format, but Sri Lanka sealed a two-wicket win with one ball to spare.ICC Test Rankings | Brook reclaims top spot, Bumrah stays as No.1 bowlerThe 27-year-old rewrote the record books by racing to his double hundred in 114 balls, surpassing the previous mark of 117 deliveries set by India's Shubman Gill.In the process, Brook also eclipsed England's highest individual ODI score of 182, held by all-rounder Ben Stokes.ICC rankings | Iyer rises to career-best 7th in T20Is; Gill consolidates numero uno position in ODIsBrook's scintillating performance ended with the final ball of England's innings when he was caught by Sahan Arachchige off the bowling of Janith Liyanage.He made 202 from 116 deliveries, peppering the Sri Lanka attack with 21 fours and 10 sixes before departing to warm applause from the crowd.The defeat leaves England bottom of the standings after losing both their matches, with Brook saying they need to win their next two games to reach the final in Lahore.Joe Root provided strong support with 69 off 66 balls.But the total proved insufficient as Sri Lanka completed the second-highest successful run chase in ODI history.Pavan Rathnayake top-scored with 130 from 106 deliveries, while opener Avishka Fernando and Dasun Shanaka both fell three runs short of centuries.Needing six runs from the final two deliveries, Sri Lanka sealed victory when Liyanage launched Josh Tongue over long-off for six, leaving Brook's record-breaking innings all in vain.Tongue was England's most successful bowler with 3-79.England lost by 87 runs at the same venue in Rawalpindi to Pakistan, who lead the table with two wins from two.Pakistan, who beat Sri Lanka and England in their two games, will face England in Lahore on Sunday in the next match in the tri-series. "
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Harry Brook's record ODI double ton in vain as Sri Lanka pull off epic chase",
-          "published_at": "Fri, 23 Oct 2026 07:51:47 +0000",
-          "url": "https://www.deccanherald.com/sports/cricket/harry-brooks-record-odi-double-ton-in-vain-as-sri-lanka-pull-off-epic-chase-4192419"
-        },
-        {
-          "source_name": "Al Jazeera",
-          "headline": "Sri Lanka beat England to overcome Harry Brook hitting fastest 200 in ODIs - Al Jazeera",
-          "published_at": "Thu, 22 Oct 2026 17:30:14 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZGRLQTRLbS0tMkFPZ1pJNC1WaWxEc29hdjZXSmxrQUdENHBKbldQWms4MDNFWURiQTRLejA1bTJQT0tRX1kyMEdDamFhWjFPRW5iaTdkTDllQjE5dFR1ZG4zWGd6WHNSNkF2S09RSHhvZkhSc3ZUREhudmJyeUNPbGV6U2ZWRUsxTkx5UG5kajM2eXFZUHpqMkFaNkRmY3dIVFpjWHlsUjBrRG4zTENUYlpKcWtKOWJueGfSAb8BQVVfeXFMUFF5Z19aaDB2cnZXbDdmVWpIYWZsbTVBQVNZMVpHaXkwLWxOd05YZElNY3JDVEI3NWd2SmN6QUdtVWlQdGJKSDZpTFZDX0VUS1NOTUVXd2Fld2o4YVpDX05hN1V3eFV0ZUUxUzg4dkNjQUczMi1sRTJhWmFnTW0takhKUWNZYlI0TDdBb2tzVGlleTJUc3VreGIzeEZCS09WQ3Z4ZVJtazl5ckxmTEJ2Vm5ZWjBCR3VuMXJrX0MwLUU?oc=5"
+          "headline": "Stricter Pollution Curbs Under GRAP-III Imposed In Delhi-NCR Ahead Of Diwali",
+          "published_at": "Fri, 06 Nov 2026 18:22:09 +0530",
+          "url": "https://www.ndtv.com/india-news/delhi-grap-3-stricter-pollution-curbs-under-grap-iii-imposed-in-delhi-ncr-ahead-of-diwali-12292778#publisher=newsstand"
         },
         {
           "source_name": "The Indian Express",
-          "headline": "Harry Brook breaks Shubman Gill’s record for fastest ODI double century",
-          "published_at": "Thu, 22 Oct 2026 12:16:59 +0000",
-          "url": "https://indianexpress.com/article/sports/cricket/harry-brook-fastest-odi-double-century-114-balls-vs-sri-lanka-10932454/"
+          "headline": "Ahead of Diwali, Pune sees 16% drop in new vehicle registrations, EVs rise 62%",
+          "published_at": "Fri, 06 Nov 2026 12:50:35 +0000",
+          "url": "https://indianexpress.com/article/cities/pune/ahead-of-diwali-pune-sees-16-drop-in-new-vehicle-registrations-evs-rise-62-10953482/"
         },
         {
-          "source_name": "Sky Sports",
-          "headline": "Sri Lanka stun England in astonishing ODI epic!",
-          "published_at": "Thu, 22 Oct 2026 17:46:00 BST",
-          "url": "https://www.skysports.com/watch/video/13602412/sri-lanka-stun-england-with-record-breaking-comeback-sri-lanka-vs-england-odi-highlights"
+          "source_name": "NDTV",
+          "headline": "Classes In Hybrid Mode, Restrictions On Cars: What Changes Under GRAP-III",
+          "published_at": "Fri, 06 Nov 2026 17:28:41 +0530",
+          "url": "https://www.ndtv.com/india-news/classes-in-hybrid-mode-restrictions-on-cars-what-changes-under-grap-iii-as-delhi-air-quality-worsens-12292922#publisher=newsstand"
+        }
+      ],
+      "source_count": 4,
+      "total_count": 8,
+      "combined_score": 4.4,
+      "brief_bullets": [
+        "As toxic smog choked the National Capital Region ahead of Deepavali, authorities seized 15,000 kilograms of illegal firecrackers and registered over 70 First Information Reports. Triggered by an alarming Air Quality Index of 382, the Commission for Air Quality Management invoked stringent Stage-III Graded Response Action Plan measures across Delhi-NCR. This enforcement mandates heavy restrictions on construction and demolition activities, limits vehicular movement, and permits hybrid schooling up to Standard-V to mitigate severe health hazards. While regulatory bodies strive to curtail compounding emissions, student leaders have raised equity concerns, arguing that essential protective measures risk becoming exclusionary privileges."
+      ],
+      "why_it_matters_bullets": [
+        "Aggressive anti-pollution interventions highlight the severe economic and social strain of chronic urban environmental degradation."
+      ],
+      "brief": "As toxic smog choked the National Capital Region ahead of Deepavali, authorities seized 15,000 kilograms of illegal firecrackers and registered over 70 First Information Reports. Triggered by an alarming Air Quality Index of 382, the Commission for Air Quality Management invoked stringent Stage-III Graded Response Action Plan measures across Delhi-NCR. This enforcement mandates heavy restrictions on construction and demolition activities, limits vehicular movement, and permits hybrid schooling up to Standard-V to mitigate severe health hazards. While regulatory bodies strive to curtail compounding emissions, student leaders have raised equity concerns, arguing that essential protective measures risk becoming exclusionary privileges. Aggressive anti-pollution interventions highlight the severe economic and social strain of chronic urban environmental degradation.",
+      "brief_word_count": 113
+    },
+    {
+      "story_id": "story-20",
+      "category": "Society",
+      "primary_headline": "White House said Starlink donated its service, but tax dollars are funding it - The Washington Post",
+      "primary_source": {
+        "source_name": "Washington Post",
+        "headline": "White House said Starlink donated its service, but tax dollars are funding it - The Washington Post",
+        "published_at": "Fri, 06 Nov 2026 17:01:52 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNUdMbVVxYVNKOUp1LTJfcURWcUtFeDNCYWtnMS1yZ2FBRU5kcnhqaTlfTzNTMDRwQ0pWVTY0VlFTcmRUQ2g5ZUtWZk8yR3FseFM2MUFuSDNoNUhPejdVVjhnUElEaUFOVFJRMEk5TjR5X0NMYkhweU52dEJOR0ZEMzJmbDJjYllDcGkzUllOU2l6RUxMbE1nWlVJdFZfTW5QWWNUczZ1cFNFMWFRbUM5bXA3b3VSTDUwRHZLQjB6NEJGSC1IeDhVOWdB?oc=5",
+        "content": "White House said Starlink donated its service, but tax dollars are funding it&nbsp;&nbsp;The Washington Post"
+      },
+      "sources": [
+        {
+          "source_name": "Washington Post",
+          "headline": "White House said Starlink donated its service, but tax dollars are funding it - The Washington Post",
+          "published_at": "Fri, 06 Nov 2026 17:01:52 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNUdMbVVxYVNKOUp1LTJfcURWcUtFeDNCYWtnMS1yZ2FBRU5kcnhqaTlfTzNTMDRwQ0pWVTY0VlFTcmRUQ2g5ZUtWZk8yR3FseFM2MUFuSDNoNUhPejdVVjhnUElEaUFOVFJRMEk5TjR5X0NMYkhweU52dEJOR0ZEMzJmbDJjYllDcGkzUllOU2l6RUxMbE1nWlVJdFZfTW5QWWNUczZ1cFNFMWFRbUM5bXA3b3VSTDUwRHZLQjB6NEJGSC1IeDhVOWdB?oc=5"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Man Arrested For Making 'Finger Gun' Gesture Near White House",
+          "published_at": "Fri, 06 Nov 2026 18:38:45 +0530",
+          "url": "https://www.ndtv.com/world-news/man-arrested-for-making-finger-gun-gesture-near-white-house-12293355#publisher=newsstand"
+        },
+        {
+          "source_name": "NPR",
+          "headline": "Past White House adviser Raj Panjabi has written a playbook for 'living room' crises",
+          "published_at": "Fri, 06 Nov 2026 06:57:32 -0500",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6021013/white-house-adviser-raj-panjabi-safer-playbook"
+        },
+        {
+          "source_name": "CNN",
+          "headline": "Sources: White House aides met to discuss path forward after losing Congress - CNN",
+          "published_at": "Fri, 06 Nov 2026 01:10:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNczR1SGFMRFo5OVI5bG5JS3pXWHN2b1hWa0Z6N1NleVJzR1E4WElCWVBkRElIYXVCZHJmOWpoeWktNnNWQ0lOaFlTbkpWWEJ2ZHZ2aDZhWFhBWGFnUDJLMEJEVXR6TFZaTzZJN3FfNmU4dmJCSmVoRFNlQVNMN2xuTUZuVHVmaFlfc1FBWEtad3NUeGVqY2wyRVZSVHRUVTQ1QTgtY1pGeW5seWVscmZPS0p1QUFYQUFRcFE?oc=5"
         }
       ],
       "source_count": 4,
       "total_count": 4,
-      "combined_score": 3.29,
+      "combined_score": 3.26,
       "brief_bullets": [
-        "England captain Harry Brook made history by smashing the fastest double-century in One-day International (ODI) history, scoring 202 off 116 balls against Sri Lanka in a tri-series match at Rawalpindi. His record-breaking innings, the first ODI double ton by an Englishman, propelled England to a mammoth 429 for four. However, Sri Lanka mounted an extraordinary chase, with Pavan Rathnayake scoring 130 and Avishka Fernando and Dasun Shanaka both adding 97, ultimately securing a two-wicket victory with one ball to spare. This epic pursuit marks the second-highest successful run chase in ODI history, leaving England at the bottom of the tournament standings after two defeats."
+        "Despite initial White House claims that SpaceX donated Starlink satellite terminals to Ukraine, federal contracting records reveal that public tax dollars are actually funding the acquisition and deployment of these vital communications systems. The arrangement highlights the complex intersection of private defense technology contributions and government subsidization during geopolitical crises. As federal agencies increasingly rely on commercial space infrastructure for foreign aid and tactical support, questions of transparency and public spending accountability have intensified across Washington policymaking circles."
       ],
       "why_it_matters_bullets": [
-        "This historic match highlights cricket's evolving high-scoring dynamics and significantly impacts England's tri-series progression."
+        "This revelation exposes transparency gaps in government procurement for critical wartime technology."
       ],
-      "brief": "England captain Harry Brook made history by smashing the fastest double-century in One-day International (ODI) history, scoring 202 off 116 balls against Sri Lanka in a tri-series match at Rawalpindi. His record-breaking innings, the first ODI double ton by an Englishman, propelled England to a mammoth 429 for four. However, Sri Lanka mounted an extraordinary chase, with Pavan Rathnayake scoring 130 and Avishka Fernando and Dasun Shanaka both adding 97, ultimately securing a two-wicket victory with one ball to spare. This epic pursuit marks the second-highest successful run chase in ODI history, leaving England at the bottom of the tournament standings after two defeats. This historic match highlights cricket's evolving high-scoring dynamics and significantly impacts England's tri-series progression.",
-      "brief_word_count": 118
+      "brief": "Despite initial White House claims that SpaceX donated Starlink satellite terminals to Ukraine, federal contracting records reveal that public tax dollars are actually funding the acquisition and deployment of these vital communications systems. The arrangement highlights the complex intersection of private defense technology contributions and government subsidization during geopolitical crises. As federal agencies increasingly rely on commercial space infrastructure for foreign aid and tactical support, questions of transparency and public spending accountability have intensified across Washington policymaking circles. This revelation exposes transparency gaps in government procurement for critical wartime technology.",
+      "brief_word_count": 90
     },
     {
-      "story_id": "story-34",
-      "category": "Geopolitics",
-      "primary_headline": "Pakistan refused to accept bodies of its own soldiers killed in Kargil war: India at UN",
+      "story_id": "story-22",
+      "category": "Society",
+      "primary_headline": "Jay Rockefeller, heir to famed dynasty and healthcare advocate in US Senate, dies at 89",
       "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Pakistan refused to accept bodies of its own soldiers killed in Kargil war: India at UN",
-        "published_at": "Fri, 23 Oct 2026 13:05:21 +0530",
-        "url": "https://www.thehindu.com/news/national/pakistan-refused-to-accept-bodies-of-its-own-soldiers-killed-in-kargil-war-india-at-un/article71614773.ece",
-        "content": "Ms. Mangalanandan added that burial rights for terrorists are being justified by indicating that States may restrict funeral rights of terrorists, but only within legal limits"
+        "source_name": "Reuters",
+        "headline": "Jay Rockefeller, heir to famed dynasty and healthcare advocate in US Senate, dies at 89 - Reuters",
+        "published_at": "Fri, 06 Nov 2026 16:52:50 GMT",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZDBJMDRPNVh2YlpfUHRFLTNnNG9YSWJwQ0lEYWpIc1M3Q2c2WW1aLUZKVm9xaGVEMHNkUVpHbXRYLWp0NzB3WlN0VlMxVWxQWFRaSUtJamtqelJoQkdNMGZ4TWpaR1Rya0FKZlRPM2NYRkZMSm9DN1VtNlZNZlc4eXdyT0hVdzR2VHNVbWs0emtkRjdwRVlFQmhSbzhGMFBlVUZhTzdJamRhTDlmdVRB?oc=5",
+        "content": "Jay Rockefeller, heir to famed dynasty and healthcare advocate in US Senate, dies at 89&nbsp;&nbsp;Reuters"
       },
       "sources": [
         {
-          "source_name": "The Hindu",
-          "headline": "Pakistan refused to accept bodies of its own soldiers killed in Kargil war: India at UN",
-          "published_at": "Fri, 23 Oct 2026 13:05:21 +0530",
-          "url": "https://www.thehindu.com/news/national/pakistan-refused-to-accept-bodies-of-its-own-soldiers-killed-in-kargil-war-india-at-un/article71614773.ece"
+          "source_name": "Reuters",
+          "headline": "Jay Rockefeller, heir to famed dynasty and healthcare advocate in US Senate, dies at 89 - Reuters",
+          "published_at": "Fri, 06 Nov 2026 16:52:50 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZDBJMDRPNVh2YlpfUHRFLTNnNG9YSWJwQ0lEYWpIc1M3Q2c2WW1aLUZKVm9xaGVEMHNkUVpHbXRYLWp0NzB3WlN0VlMxVWxQWFRaSUtJamtqelJoQkdNMGZ4TWpaR1Rya0FKZlRPM2NYRkZMSm9DN1VtNlZNZlc4eXdyT0hVdzR2VHNVbWs0emtkRjdwRVlFQmhSbzhGMFBlVUZhTzdJamRhTDlmdVRB?oc=5"
         },
         {
+          "source_name": "AP News",
+          "headline": "Jay Rockefeller, former West Virginia governor and US senator who was part of a dynasty, dies at 89 - AP News",
+          "published_at": "Fri, 06 Nov 2026 14:58:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQWdMenU4WEZGSGRQNGNwN1FOZjhJeW9NdDZ4cU1XTVJ0aktsemVNTEtOdUkycXdIdDJrRE15X0tPeXhMelBSbW85MHVXSFJfNDNMVWo5UHBBMzhhVy1Edm80blBTaG9YWEF2cy1GM28tTGo4OUk1R3RTUmlfbnRaVXNpbHBEbEo0Q1dSaTBYZ25LbUtxWWN1VnR3?oc=5"
+        },
+        {
+          "source_name": "NYT",
+          "headline": "John D. Rockefeller IV, West Virginia Governor and Senator, Dies at 89",
+          "published_at": "Fri, 06 Nov 2026 14:10:45 +0000",
+          "url": "https://www.nytimes.com/2026/11/06/us/politics/jay-rockefeller-dead.html"
+        },
+        {
+          "source_name": "CNN",
+          "headline": "Jay Rockefeller, former West Virginia governor and US senator who was part of a dynasty, dies at 89 - CNN",
+          "published_at": "Fri, 06 Nov 2026 16:01:56 GMT",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVjhzZ2FpMU1XR3J4TGdjcnNtUTBfS0ZVellYaHlFNVF1MDNjSE1XbUVDX0ZHQUp3UldLaUdOU1p4eGJQMXFPYWMtb0RQVGMxWmRlVjVSWWNNRFBzMzlRUU5yX1pBNGFaT0VkRlJDRC1mam9SRGZiMm5kc0oteVpWQU5hT1ZQdTc2b1VBYg?oc=5"
+        }
+      ],
+      "source_count": 4,
+      "total_count": 4,
+      "combined_score": 3.2,
+      "brief_bullets": [
+        "Jay Rockefeller, the influential former West Virginia governor and five-term U.S. senator, has passed away at age 89. A prominent member of the storied Rockefeller family, he notably broke from his dynasty’s Republican roots to champion Democratic policies, most significantly the creation of the Children’s Health Insurance Program, which expanded coverage to millions of low-income youth. During his thirty-year tenure in the Senate, Rockefeller became a pivotal figure in healthcare reform and intelligence oversight, leaving a legacy defined by his commitment to public service and social welfare. His death marks the end of an era for a political titan who leveraged his immense private wealth to advocate for systemic improvements in American public health and government accountability."
+      ],
+      "why_it_matters_bullets": [
+        "His passing marks the loss of a rare bipartisan bridge-builder whose legislative legacy fundamentally reshaped American pediatric healthcare access."
+      ],
+      "brief": "Jay Rockefeller, the influential former West Virginia governor and five-term U.S. senator, has passed away at age 89. A prominent member of the storied Rockefeller family, he notably broke from his dynasty’s Republican roots to champion Democratic policies, most significantly the creation of the Children’s Health Insurance Program, which expanded coverage to millions of low-income youth. During his thirty-year tenure in the Senate, Rockefeller became a pivotal figure in healthcare reform and intelligence oversight, leaving a legacy defined by his commitment to public service and social welfare. His death marks the end of an era for a political titan who leveraged his immense private wealth to advocate for systemic improvements in American public health and government accountability. His passing marks the loss of a rare bipartisan bridge-builder whose legislative legacy fundamentally reshaped American pediatric healthcare access.",
+      "brief_word_count": 136
+    },
+    {
+      "story_id": "story-12",
+      "category": "Society",
+      "primary_headline": "CBSE announces date sheet for class 10 and 12 board examinations 2027",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "CBSE announces date sheet for class 10 and 12 board examinations 2027",
+        "published_at": "Fri, 06 Nov 2026 16:45:11 +0000",
+        "url": "https://www.deccanherald.com/education/cbse-announces-date-sheet-for-class-10-and-12-board-examinations-2027-4210571",
+        "content": " New Delhi: After a delay, the Central Board of Secondary Education (CBSE) finally announced the dates for class 10 and 12 examinations. Exams for both the classes will begin on February 16, with physics being the first paper for Class 12 and painting the first for Class 10. The exams will conclude on March 9 for Class 10 and April 9 for Class 12.The exams, which will be held offline in pen-paper model, will be conducted across 86 subjects for Class 10, and for Class 12, students will appear across 121 subjects.CBSE Board Exams 2027: Practical exams from January 1; Class 10, 12 date sheet awaited“Adequate gaps have been provided between examinations of subjects commonly offered together by students in both Class X and Class XII. The tentative schedules of major entrance examinations for Class XII students have been taken  into account. Every effort has been made to complete the Board Examinations well before the commencement of such entrance examinations, enabling students to manage their preparation effectively,” CBSE said in a release. The board also said that it has further taken into account the number of candidates appearing on a particular day at each examination centre to facilitate smooth conduct of examinations. They added that the schedule was designed to minimise the prolonged absence of teachers from their schools during the evaluation process.In all, the Board said, it factored in 40,000 subject combinations while designing the exam sheet. "
+      },
+      "sources": [
+        {
           "source_name": "Deccan Herald",
-          "headline": "Pakistan refused to accept bodies of its own soldiers killed in Kargil war: India at UN",
-          "published_at": "Fri, 23 Oct 2026 06:56:12 +0000",
-          "url": "https://www.deccanherald.com/india/pakistan-refused-to-accept-bodies-of-its-own-soldiers-killed-in-kargil-war-india-at-un-4192297"
+          "headline": "CBSE announces date sheet for class 10 and 12 board examinations 2027",
+          "published_at": "Fri, 06 Nov 2026 16:45:11 +0000",
+          "url": "https://www.deccanherald.com/education/cbse-announces-date-sheet-for-class-10-and-12-board-examinations-2027-4210571"
         },
         {
           "source_name": "NDTV",
-          "headline": "'Pak Didn't Accept Bodies Of Its Own Soldiers In Kargil': India Slams UN Rapporteur",
-          "published_at": "Fri, 23 Oct 2026 09:43:15 +0530",
-          "url": "https://www.ndtv.com/world-news/pakistan-did-not-accept-bodies-of-its-own-soldiers-in-kargil-war-india-slams-un-rapporteur-12223452#publisher=newsstand"
+          "headline": "CBSE Class 10, 12 Exams To Begin On February 16, Date Sheets Out",
+          "published_at": "Fri, 06 Nov 2026 20:27:29 +0530",
+          "url": "https://www.ndtv.com/education/cbse-class-10-12-exams-to-begin-on-february-16-date-sheets-out-12293618#publisher=newsstand"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "CBSE Class 10, 12 Exam Date Sheet 2027 out; check detailed timetables here",
+          "published_at": "Fri, 06 Nov 2026 14:02:47 +0000",
+          "url": "https://indianexpress.com/article/education/cbse-class-10th-12th-exam-date-sheet-2027-out-check-detailed-schedule-subject-wise-timetable-10943794/"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "CBSE announces schedule for Class 10, 12 board examinations 2027: Check important dates here",
+          "published_at": "Fri, 06 Nov 2026 13:52:13 +0000",
+          "url": "https://www.deccanherald.com/education/cbse-announces-schedule-for-class-10-12-board-examinations-2027-check-important-dates-here-4210318"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "CBSE Class 10, 12 Practical Exams Date Sheet 2027: Check schedule for regular schools",
+          "published_at": "Fri, 06 Nov 2026 12:34:13 +0000",
+          "url": "https://indianexpress.com/article/education/cbse-class-10-12-practical-exam-date-sheet-2027-marks-distribution-10953660/"
         }
       ],
       "source_count": 3,
-      "total_count": 3,
-      "combined_score": 2.49,
+      "total_count": 9,
+      "combined_score": 4.2,
       "brief_bullets": [
-        "At a United Nations interactive dialogue, India’s First Secretary Bhavika Mangalanandan sharply rebuked Pakistan for its hypocrisy regarding religious freedom and funeral rights. Responding to a UN report criticizing India’s security operations in Jammu and Kashmir, Mangalanandan highlighted that Pakistan famously refused to claim its own soldiers killed during the 1999 Kargil War, forcing the Indian Army to provide them with dignified Islamic burials. She further dismissed the UN rapporteur’s findings as unsupported, arguing that Pakistan lacks the moral standing to lecture India on human rights while its own minorities face systemic abuse. India maintains that sovereign states must retain the legal authority to restrict funeral rites for terrorists who violate the fundamental right to life."
+        "The Central Board of Secondary Education has officially released the schedule for the 2027 Class 10 and Class 12 board examinations, ending weeks of anticipation. Announced on November 6, 2026, the offline pen-paper exams for both classes will commence simultaneously on February 16, 2027, with Class 10 concluding on March 9 and Class 12 wrapping up on April 9. Practical assessments are slated to begin on January 1, 2027. The board crafted the comprehensive timetable, factoring in over 40,000 subject combinations, to ensure adequate preparation intervals and to align seamlessly with major national entrance test schedules."
       ],
       "why_it_matters_bullets": [
-        "This diplomatic confrontation underscores India's aggressive strategy to delegitimize Pakistan's international advocacy by exposing its historical and domestic contradictions."
+        "The timely schedule allows millions of students to optimize preparation while avoiding conflicts with major entrance examinations."
       ],
-      "brief": "At a United Nations interactive dialogue, India’s First Secretary Bhavika Mangalanandan sharply rebuked Pakistan for its hypocrisy regarding religious freedom and funeral rights. Responding to a UN report criticizing India’s security operations in Jammu and Kashmir, Mangalanandan highlighted that Pakistan famously refused to claim its own soldiers killed during the 1999 Kargil War, forcing the Indian Army to provide them with dignified Islamic burials. She further dismissed the UN rapporteur’s findings as unsupported, arguing that Pakistan lacks the moral standing to lecture India on human rights while its own minorities face systemic abuse. India maintains that sovereign states must retain the legal authority to restrict funeral rites for terrorists who violate the fundamental right to life. This diplomatic confrontation underscores India's aggressive strategy to delegitimize Pakistan's international advocacy by exposing its historical and domestic contradictions.",
-      "brief_word_count": 135
+      "brief": "The Central Board of Secondary Education has officially released the schedule for the 2027 Class 10 and Class 12 board examinations, ending weeks of anticipation. Announced on November 6, 2026, the offline pen-paper exams for both classes will commence simultaneously on February 16, 2027, with Class 10 concluding on March 9 and Class 12 wrapping up on April 9. Practical assessments are slated to begin on January 1, 2027. The board crafted the comprehensive timetable, factoring in over 40,000 subject combinations, to ensure adequate preparation intervals and to align seamlessly with major national entrance test schedules. The timely schedule allows millions of students to optimize preparation while avoiding conflicts with major entrance examinations.",
+      "brief_word_count": 113
     },
     {
-      "story_id": "story-40",
+      "story_id": "story-17",
       "category": "Society",
-      "primary_headline": "Karnataka Chief Minister D.K. Shivakumar invites Poland as partner for Global Investors Meet 2027",
+      "primary_headline": "Karnataka Chief Minister meets Rahul Gandhi",
       "primary_source": {
         "source_name": "The Hindu",
-        "headline": "Karnataka Chief Minister D.K. Shivakumar invites Poland as partner for Global Investors Meet 2027",
-        "published_at": "Fri, 23 Oct 2026 13:27:08 +0530",
-        "url": "https://www.thehindu.com/news/national/karnataka/karnataka-chief-minister-dk-shivakumar-invites-poland-as-partner-for-global-investors-meet-2027/article71615031.ece",
-        "content": "Mr. Shivakumar sats the State is keen to deepen bilateral cooperation in investment, technology, innovation and employment, building on Bengaluru’s technology ecosystem and Poland’s expertise in advanced manufacturing, artificial intelligence and green energy"
+        "headline": "Karnataka Chief Minister meets Rahul Gandhi",
+        "published_at": "Fri, 06 Nov 2026 22:35:20 +0530",
+        "url": "https://www.thehindu.com/news/national/karnataka/karnataka-chief-minister-meets-rahul-gandhi/article71675352.ece",
+        "content": ""
       },
       "sources": [
         {
           "source_name": "The Hindu",
-          "headline": "Karnataka Chief Minister D.K. Shivakumar invites Poland as partner for Global Investors Meet 2027",
-          "published_at": "Fri, 23 Oct 2026 13:27:08 +0530",
-          "url": "https://www.thehindu.com/news/national/karnataka/karnataka-chief-minister-dk-shivakumar-invites-poland-as-partner-for-global-investors-meet-2027/article71615031.ece"
+          "headline": "Karnataka Chief Minister meets Rahul Gandhi",
+          "published_at": "Fri, 06 Nov 2026 22:35:20 +0530",
+          "url": "https://www.thehindu.com/news/national/karnataka/karnataka-chief-minister-meets-rahul-gandhi/article71675352.ece"
         },
         {
           "source_name": "Deccan Herald",
-          "headline": "Karnataka Chief Minister Shivakumar meets Poland PM Donald Tusk",
-          "published_at": "Fri, 23 Oct 2026 07:08:01 +0000",
-          "url": "https://www.deccanherald.com/india/karnataka/karnataka-chief-minister-shivakumar-meets-poland-pm-donald-tusk-4192302"
+          "headline": "Lalan Singh, Rahul Gandhi spar over voter ID for Panchayati Raj benefits",
+          "published_at": "Fri, 06 Nov 2026 16:47:46 +0000",
+          "url": "https://www.deccanherald.com/india/lalan-singh-rahul-gandhi-spar-over-voter-id-for-panchayati-raj-benefits-4210547"
         },
         {
-          "source_name": "The Print",
-          "headline": "India, Poland have ‘no conflicts of interest’, PM Tusk says as both sides push defence, space ties - ThePrint",
-          "published_at": "Thu, 22 Oct 2026 10:28:06 GMT",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTHBOMEdvajMwazV5YkszSWpFR3JiUmVuYTluU3RPV3lJbHgtX3VhbEV2WjZITVdtLXFvN2dScTBzRWtyWVBHS2M0aURoT00taVBVR1ktUHBUNXV3bWxIdlB1MjNPS1VndU42bDRUX1NRMkZUeTljalN6TWM1ZHh1OHZDN3ZyQmtsN2FEbXhBUWlRVlZoSFNQTGFLc0hPakcyVUtZV3ByRmRmemRVYWFNcmljaGxnQ3lhVnFhTjJOVFpLNjJxUEc5cmljZE7SAdIBQVVfeXFMTkRMZFlwZms0a3lQblJqdHBfY1BkdFdOczdySktqSHMzNkxkSFlNVTdnTTYyZlhkbzJuSHp3QnAzZHhXdHhqanlUOFg3UkYtbmc2d21NeHppTjlpQ1NhWUtHY19ZREdsV2FQTXotd1Nibl9FZU9oVkxjcWs2bXpwd2k4WVFOdktydjNMUHBQdFY2ODRnSUtva3hhTWlaVW5fU1E3LUhwVk5TWTRTVmtmYUFNZ0Z1bURmREVkTmZNZGcyNDVtVkNESTBIZndYQkJobFF3?oc=5"
+          "source_name": "Deccan Herald",
+          "headline": "Karnataka CM DK Shivakumar backs Rahul Gandhi’s ‘vote chori’ campaign, calls it ‘country’s campaign’",
+          "published_at": "Fri, 06 Nov 2026 16:30:51 +0000",
+          "url": "https://www.deccanherald.com/india/karnataka/karnataka-cm-dk-shivakumar-backs-rahul-gandhis-vote-chori-campaign-calls-it-countrys-campaign-4210545"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Schoolboy DK Shivakumar In BJP's AI Video Over Karnataka Milk, Bus Fare Hikes",
+          "published_at": "Fri, 06 Nov 2026 13:35:56 +0530",
+          "url": "https://www.ndtv.com/karnataka-news/schoolboy-dk-shivakumar-in-bjps-ai-video-over-karnataka-milk-bus-hikes-12291857#publisher=newsstand"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Opinion: BJP Hunts For A Crack. Rahul Gandhi's Allies Could Be His Weak Spot",
+          "published_at": "Fri, 06 Nov 2026 12:08:41 +0530",
+          "url": "https://www.ndtv.com/opinion/bjp-hunts-for-a-crack-rahul-gandhis-allies-could-be-his-weak-spot-12291238#publisher=newsstand"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 6,
+      "combined_score": 3.33,
+      "brief_bullets": [
+        "A political confrontation has erupted between the central government and the opposition following Union Minister Lalan Singh's announcement that welfare beneficiary identification under Panchayati Raj schemes will prioritize voter ID cards over Aadhaar. Leader of Opposition Rahul Gandhi strongly condemned the decision as a systemic conspiracy to manipulate elections and suppress citizen rights. In response, Lalan Singh dismissed the criticism, asserting that biometric verification and EPIC numbers ensure absolute transparency without middlemen. Meanwhile, Karnataka Chief Minister DK Shivakumar rallied behind Gandhi, framing the opposition's campaign as a national movement to safeguard India's democratic framework and constitutional integrity."
+      ],
+      "why_it_matters_bullets": [
+        "The dispute over welfare identification mechanisms directly impacts national electoral trust and marginalized community rights."
+      ],
+      "brief": "A political confrontation has erupted between the central government and the opposition following Union Minister Lalan Singh's announcement that welfare beneficiary identification under Panchayati Raj schemes will prioritize voter ID cards over Aadhaar. Leader of Opposition Rahul Gandhi strongly condemned the decision as a systemic conspiracy to manipulate elections and suppress citizen rights. In response, Lalan Singh dismissed the criticism, asserting that biometric verification and EPIC numbers ensure absolute transparency without middlemen. Meanwhile, Karnataka Chief Minister DK Shivakumar rallied behind Gandhi, framing the opposition's campaign as a national movement to safeguard India's democratic framework and constitutional integrity. The dispute over welfare identification mechanisms directly impacts national electoral trust and marginalized community rights.",
+      "brief_word_count": 112
+    },
+    {
+      "story_id": "story-25",
+      "category": "Society",
+      "primary_headline": "After These Midterms, JD Vance Is in a Bind",
+      "primary_source": {
+        "source_name": "NYT",
+        "headline": "After These Midterms, JD Vance Is in a Bind",
+        "published_at": "Fri, 06 Nov 2026 17:04:21 +0000",
+        "url": "https://www.nytimes.com/2026/11/06/opinion/jd-vance-midterms.html",
+        "content": "He will need to sell voters on a tarnished Trump brand."
+      },
+      "sources": [
+        {
+          "source_name": "NYT",
+          "headline": "After These Midterms, JD Vance Is in a Bind",
+          "published_at": "Fri, 06 Nov 2026 17:04:21 +0000",
+          "url": "https://www.nytimes.com/2026/11/06/opinion/jd-vance-midterms.html"
+        },
+        {
+          "source_name": "Washington Post",
+          "headline": "Opinion | President JD Vance? More slogging through a sewer of odious politics. - The Washington Post",
+          "published_at": "Fri, 06 Nov 2026 16:32:31 GMT",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObE5neU50OUstM2JDMlVCdENySFJYWjlWdm15aUN3QnMtXzJkakdjcFhXemMyLXc3OXd6SG1kaElNQVdOeDEwdWRKeTBJVEs2anV6RlpERVZ4dUMyUUVXVmMzSDhfVEstSmpUdmlXSjAxUGNaVkxCSEJ1WTJmV01FVjRRbjZiNElZZm5qYmRNdTdEOU40Q3BiVDlSYlg5ZXR1VTRJZjRGcTdVQVNIYnBockhZSkp4ZmVFeWE4QzB6RQ?oc=5"
+        },
+        {
+          "source_name": "Washington Post",
+          "headline": "Opinion | JD Vance’s stunning act of disloyalty - The Washington Post",
+          "published_at": "Fri, 06 Nov 2026 01:57:08 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZEd3bkNrZXU1VFduVWNIZlI1REFocVZTR2trZEFncE4yN003OVc3dW91UjMzNUdwejZSLXBNTlpZcFd0TVFtamY2RGVFT1BRcy1HMjlQbDRVbEVkcGN6MjFCTHNrTVd6d3owNnAyWmcyUHQ4M3dpcXpnd2l1UVpHbE9URlF0UHFxWDA3LTFYcEdFVnNiVFBRNmNnTjRVeUMtMjRRQ0ktNGFFZw?oc=5"
+        },
+        {
+          "source_name": "Washington Post",
+          "headline": "‘JD, habibi ... swear me in’: What El-Sayed’s quip to Vance means - The Washington Post",
+          "published_at": "Thu, 05 Nov 2026 23:40:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNzFwMGd5U1lQd1FGU3pnOXU1UUJaMVFxbUdoMzhscjBNUklKNUNiamtmVThvSEhlc1VWS0xkZWdpMWl0WnZvMjZ3RTlhRFBzQ29NVGxndnkyN2ZzcmJVT2JVZ0IxN2h4eTBlb2h1ek85aTVSLVFWWU1WcmI2OFU1RDhsdjJMam5GZk1VT3JTWEVnaGI5SzJNQkF6VTF3Y3RXdXktd01oc29ablRWWnpySnhxQk1xcW9kOW9nM2hVV3U?oc=5"
+        },
+        {
+          "source_name": "NPR",
+          "headline": "Fill in the blank in the quiz: Vance says they lost the midterms because of ____",
+          "published_at": "Fri, 06 Nov 2026 05:00:00 -0500",
+          "url": "https://www.npr.org/2026/11/06/g-s1-152045/news-quiz-midterms-vance-pope-kennedy-center"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 5,
+      "combined_score": 3.0,
+      "brief_bullets": [
+        "Following recent midterm election cycles, Senator JD Vance faces a precarious political landscape as he attempts to navigate the increasingly tarnished brand of former President Donald Trump. Critics and political analysts suggest that Vance’s alignment with Trump’s polarizing rhetoric complicates his broader electoral appeal, forcing him to balance base loyalty against the necessity of winning over moderate voters. As speculation regarding his future presidential ambitions intensifies, Vance must reconcile his past criticisms of Trump with his current role as a staunch defender of the MAGA movement. This strategic bind highlights the broader internal fractures within the Republican Party, where candidates are struggling to maintain ideological purity while addressing the shifting priorities of a disillusioned electorate in a volatile political climate."
+      ],
+      "why_it_matters_bullets": [
+        "Vance’s struggle illustrates the growing difficulty for GOP figures to reconcile Trump-aligned populism with sustainable, long-term electoral viability."
+      ],
+      "brief": "Following recent midterm election cycles, Senator JD Vance faces a precarious political landscape as he attempts to navigate the increasingly tarnished brand of former President Donald Trump. Critics and political analysts suggest that Vance’s alignment with Trump’s polarizing rhetoric complicates his broader electoral appeal, forcing him to balance base loyalty against the necessity of winning over moderate voters. As speculation regarding his future presidential ambitions intensifies, Vance must reconcile his past criticisms of Trump with his current role as a staunch defender of the MAGA movement. This strategic bind highlights the broader internal fractures within the Republican Party, where candidates are struggling to maintain ideological purity while addressing the shifting priorities of a disillusioned electorate in a volatile political climate. Vance’s struggle illustrates the growing difficulty for GOP figures to reconcile Trump-aligned populism with sustainable, long-term electoral viability.",
+      "brief_word_count": 138
+    },
+    {
+      "story_id": "story-30",
+      "category": "Geopolitics",
+      "primary_headline": "Karnataka High Court quashes cruelty case against ‘seventh’ husband of a woman married ‘nine times’",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Karnataka High Court quashes cruelty case against ‘seventh’ husband of a woman married ‘nine times’",
+        "published_at": "Fri, 06 Nov 2026 22:17:34 +0530",
+        "url": "https://www.thehindu.com/news/national/karnataka/karnataka-high-court-quashes-cruelty-case-against-seventh-husband-of-a-woman-married-nine-times/article71674677.ece",
+        "content": ""
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Karnataka High Court quashes cruelty case against ‘seventh’ husband of a woman married ‘nine times’",
+          "published_at": "Fri, 06 Nov 2026 22:17:34 +0530",
+          "url": "https://www.thehindu.com/news/national/karnataka/karnataka-high-court-quashes-cruelty-case-against-seventh-husband-of-a-woman-married-nine-times/article71674677.ece"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Karnataka High Court quashes POCSO charges against father, family members",
+          "published_at": "Fri, 06 Nov 2026 16:28:06 +0000",
+          "url": "https://www.deccanherald.com/india/karnataka/karnataka-high-court-quashes-pocso-charges-against-father-family-members-4210546"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "'No conduct satisfying statutory definition of cruelty': Karnataka HC quashes cruelty case against Hosapete politician",
+          "published_at": "Fri, 06 Nov 2026 14:25:45 +0000",
+          "url": "https://www.deccanherald.com/india/karnataka/no-conduct-satisfying-statutory-definition-of-cruelty-karnataka-hc-quashes-cruelty-case-against-hosapete-politician-4210347"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Karnataka High Court quashes BJP defamation case against Siddaramaiah, Congress",
+          "published_at": "Fri, 06 Nov 2026 09:54:22 +0000",
+          "url": "https://indianexpress.com/article/cities/bangalore/karnataka-high-court-quashes-defamation-case-siddaramaiah-shivakumar-10953426/"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 4,
+      "combined_score": 2.73,
+      "brief_bullets": [
+        "The Karnataka High Court has quashed a POCSO Act case against a man and his family, ruling that the mother weaponized criminal allegations to settle a bitter custody dispute. Justice M. Nagaprasanna determined that medical evidence failed to support claims of sexual assault, characterizing the accusations as a malicious attempt to manipulate visitation rights. The court emphasized that the child’s well-being was sacrificed for parental vengeance, warning that the legal system must not be exploited to resolve matrimonial conflicts. By dismissing the proceedings, the court reaffirmed that criminal law should serve justice rather than function as a tool for litigation leverage, highlighting the urgent need to protect minors from being drawn into adversarial parental battles."
+      ],
+      "why_it_matters_bullets": [
+        "This ruling sets a vital precedent against the weaponization of child protection laws in high-conflict matrimonial custody disputes."
+      ],
+      "brief": "The Karnataka High Court has quashed a POCSO Act case against a man and his family, ruling that the mother weaponized criminal allegations to settle a bitter custody dispute. Justice M. Nagaprasanna determined that medical evidence failed to support claims of sexual assault, characterizing the accusations as a malicious attempt to manipulate visitation rights. The court emphasized that the child’s well-being was sacrificed for parental vengeance, warning that the legal system must not be exploited to resolve matrimonial conflicts. By dismissing the proceedings, the court reaffirmed that criminal law should serve justice rather than function as a tool for litigation leverage, highlighting the urgent need to protect minors from being drawn into adversarial parental battles. This ruling sets a vital precedent against the weaponization of child protection laws in high-conflict matrimonial custody disputes.",
+      "brief_word_count": 133
+    },
+    {
+      "story_id": "story-41",
+      "category": "Geopolitics",
+      "primary_headline": "Kerala High Court grants bail to accused in Nedumbassery car accident",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "Kerala High Court grants bail to accused in Nedumbassery car accident",
+        "published_at": "Fri, 06 Nov 2026 22:46:58 +0530",
+        "url": "https://www.thehindu.com/news/national/kerala/kerala-high-court-grants-bail-to-accused-in-nedumbassery-car-accident/article71675376.ece",
+        "content": "Bail granted considering that they are in their early twenties, the lack of criminal history, and the time already spent in custody. Suhail Sajeev, the first accused, will be released on November 16, to enable the investigating agency to wrap up procedures"
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "Kerala High Court grants bail to accused in Nedumbassery car accident",
+          "published_at": "Fri, 06 Nov 2026 22:46:58 +0530",
+          "url": "https://www.thehindu.com/news/national/kerala/kerala-high-court-grants-bail-to-accused-in-nedumbassery-car-accident/article71675376.ece"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Can vehicle’s registration be denied due to unpaid challans? Kerala High Court answers",
+          "published_at": "Fri, 06 Nov 2026 10:17:12 +0000",
+          "url": "https://indianexpress.com/article/legal-news/vehicle-registration-pre-october-2020-unpaid-challans-kerala-high-court-10953208/"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "\"Public Sentiment Can't Dictate Bail\": Kerala Court On Mini Cooper Crash Case",
+          "published_at": "Fri, 06 Nov 2026 14:34:02 +0530",
+          "url": "https://www.ndtv.com/kerala-news/kerala-mini-cooper-crash-case-news-public-sentiment-cant-dictate-bail-kerala-court-on-mini-cooper-crash-case-12291805#publisher=newsstand"
         }
       ],
       "source_count": 3,
       "total_count": 3,
-      "combined_score": 2.4,
+      "combined_score": 2.43,
       "brief_bullets": [
-        "Karnataka Deputy Chief Minister D.K. Shivakumar met visiting Polish Prime Minister Donald Tusk in Bengaluru to pitch the state as a prime investment destination, formally inviting Poland to partner in the upcoming Global Investors Meet 2027. The high-level discussions focused on expanding bilateral cooperation across advanced manufacturing, artificial intelligence, green energy, and technology innovation, leveraging Bengaluru's robust tech ecosystem. Prime Minister Tusk's three-day Indian itinerary highlights deepening strategic, defense, and economic ties between the two nations, reinforcing regional technology partnerships following his earlier meetings with Prime Minister Narendra Modi."
+        "The Kerala High Court has granted bail to Suhail Sajeev, the primary accused in a high-profile Nedumbassery car accident, citing his lack of criminal history and youth. The court scheduled his release for November 16, allowing investigators sufficient time to finalize procedural requirements. The case garnered substantial public scrutiny following reports that Sajeev dismissively questioned the purpose of roads immediately after the collision. By balancing the defendant's rights with the necessity of a thorough investigation, the court’s decision underscores the judicial focus on rehabilitation for first-time offenders while maintaining the integrity of ongoing legal proceedings regarding reckless driving and public safety."
       ],
       "why_it_matters_bullets": [
-        "This partnership positions Karnataka as a premier global hub for international industrial and technological collaboration."
+        "The ruling highlights judicial discretion in balancing public outrage against legal precedents for youthful, first-time offenders in traffic cases."
       ],
-      "brief": "Karnataka Deputy Chief Minister D.K. Shivakumar met visiting Polish Prime Minister Donald Tusk in Bengaluru to pitch the state as a prime investment destination, formally inviting Poland to partner in the upcoming Global Investors Meet 2027. The high-level discussions focused on expanding bilateral cooperation across advanced manufacturing, artificial intelligence, green energy, and technology innovation, leveraging Bengaluru's robust tech ecosystem. Prime Minister Tusk's three-day Indian itinerary highlights deepening strategic, defense, and economic ties between the two nations, reinforcing regional technology partnerships following his earlier meetings with Prime Minister Narendra Modi. This partnership positions Karnataka as a premier global hub for international industrial and technological collaboration.",
-      "brief_word_count": 104
+      "brief": "The Kerala High Court has granted bail to Suhail Sajeev, the primary accused in a high-profile Nedumbassery car accident, citing his lack of criminal history and youth. The court scheduled his release for November 16, allowing investigators sufficient time to finalize procedural requirements. The case garnered substantial public scrutiny following reports that Sajeev dismissively questioned the purpose of roads immediately after the collision. By balancing the defendant's rights with the necessity of a thorough investigation, the court’s decision underscores the judicial focus on rehabilitation for first-time offenders while maintaining the integrity of ongoing legal proceedings regarding reckless driving and public safety. The ruling highlights judicial discretion in balancing public outrage against legal precedents for youthful, first-time offenders in traffic cases.",
+      "brief_word_count": 120
     },
     {
       "story_id": "story-42",
       "category": "Finance",
-      "primary_headline": "Kochi synagogue arson: UAPA invoked, police probe crypto trail",
+      "primary_headline": "Praful Patel calls on Sharad Pawar at hospital; meet triggers speculation in Maharashtra",
       "primary_source": {
-        "source_name": "The Indian Express",
-        "headline": "Kochi synagogue arson: UAPA invoked, police probe crypto trail",
-        "published_at": "Fri, 23 Oct 2026 07:08:37 +0000",
-        "url": "https://indianexpress.com/article/india/kochi-synagogue-arson-uapa-police-probe-crypto-trail-10933392/",
-        "content": ""
+        "source_name": "The Hindu",
+        "headline": "Praful Patel calls on Sharad Pawar at hospital; meet triggers speculation in Maharashtra",
+        "published_at": "Fri, 06 Nov 2026 22:43:28 +0530",
+        "url": "https://www.thehindu.com/news/national/maharashtra/praful-patel-calls-on-sharad-pawar-at-hospital-meet-triggers-speculation-in-maharashtra/article71675536.ece",
+        "content": "Both NCPs would have been reunited had Ajit Pawar been alive, says NCP State president Sunil Tatkare; NCP SP MLA Rohit Pawar claims merger speculation is being planted by disgruntled elements within NCP to further their vested interests"
       },
       "sources": [
         {
-          "source_name": "The Indian Express",
-          "headline": "Kochi synagogue arson: UAPA invoked, police probe crypto trail",
-          "published_at": "Fri, 23 Oct 2026 07:08:37 +0000",
-          "url": "https://indianexpress.com/article/india/kochi-synagogue-arson-uapa-police-probe-crypto-trail-10933392/"
-        },
-        {
           "source_name": "The Hindu",
-          "headline": "Accused in Keralam synagogue arson case slapped with UAPA, larger conspiracy suspected: police",
-          "published_at": "Fri, 23 Oct 2026 12:35:47 +0530",
-          "url": "https://www.thehindu.com/news/national/kerala/accused-in-keralam-synagogue-arson-case-slapped-with-uapa-larger-conspiracy-suspected-police/article71614894.ece"
+          "headline": "Praful Patel calls on Sharad Pawar at hospital; meet triggers speculation in Maharashtra",
+          "published_at": "Fri, 06 Nov 2026 22:43:28 +0530",
+          "url": "https://www.thehindu.com/news/national/maharashtra/praful-patel-calls-on-sharad-pawar-at-hospital-meet-triggers-speculation-in-maharashtra/article71675536.ece"
         },
         {
-          "source_name": "Deccan Herald",
-          "headline": "UAPA invoked in Kochi arson case, NIA likely to take over probe",
-          "published_at": "Fri, 23 Oct 2026 06:57:38 +0000",
-          "url": "https://www.deccanherald.com/india/keralam/uapa-invoked-in-kochi-arson-case-nia-likely-to-take-over-probe-4192350"
+          "source_name": "The Indian Express",
+          "headline": "NCP leader reveals why merger with Sharad Pawar was sidelined",
+          "published_at": "Fri, 06 Nov 2026 13:22:56 +0000",
+          "url": "https://indianexpress.com/article/cities/mumbai/ncp-leader-reveals-why-merger-with-sharad-pawar-was-sidelined-10953700/"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Analysis: From Hospital Bed, Sharad Pawar Keeps Maharashtra Guessing Over NCP-NDA Move",
+          "published_at": "Fri, 06 Nov 2026 18:11:45 +0530",
+          "url": "https://www.ndtv.com/india-news/analysis-pm-modi-call-praful-patel-visit-sharad-pawars-politics-from-hospital-keeps-maharashtra-guessing-over-ncp-merger-nda-move-12293203#publisher=newsstand"
         }
       ],
       "source_count": 3,
       "total_count": 3,
-      "combined_score": 2.4,
+      "combined_score": 2.43,
       "brief_bullets": [
-        "Kerala police have invoked the stringent Unlawful Activities Prevention Act against Ebin Paul, arrested for the October arson near Kochi's Kadavubhagam synagogue. Investigators leading the Special Investigation Team discovered that the suspect allegedly acted under encrypted Telegram instructions from an unidentified handler, receiving cryptocurrency funding to execute targeted property attacks. With authorities uncovering digital evidence of pre-incident surveillance and multiple related arson cases in Muvattupuzha, the state Anti-Terrorism Squad and central agencies are examining a broader conspiracy, paving the way for the National Investigation Agency to assume control of the high-profile probe."
+        "Nationalist Congress Party leader Praful Patel recently visited Sharad Pawar at a hospital, igniting intense speculation regarding a potential reconciliation between the fractured NCP factions. While state president Sunil Tatkare suggested that a reunification would have been inevitable had the political landscape remained static, NCP-SP MLA Rohit Pawar dismissed these rumors as deliberate misinformation spread by disgruntled elements seeking to advance personal agendas. Sharad Pawar, a veteran figure known for his unpredictable political maneuvers, remains at the center of this discourse as observers analyze whether this meeting signals a genuine shift in Maharashtra’s volatile coalition dynamics or merely a social gesture. The incident underscores the persistent instability and strategic maneuvering defining the state's complex political environment."
       ],
       "why_it_matters_bullets": [
-        "The invocation of anti-terror laws highlights growing security concerns over cryptofinanced, handler-driven attacks on sensitive religious and commercial sites."
+        "This meeting highlights the ongoing volatility in Maharashtra's coalition politics and the strategic uncertainty surrounding NCP's future alignment."
       ],
-      "brief": "Kerala police have invoked the stringent Unlawful Activities Prevention Act against Ebin Paul, arrested for the October arson near Kochi's Kadavubhagam synagogue. Investigators leading the Special Investigation Team discovered that the suspect allegedly acted under encrypted Telegram instructions from an unidentified handler, receiving cryptocurrency funding to execute targeted property attacks. With authorities uncovering digital evidence of pre-incident surveillance and multiple related arson cases in Muvattupuzha, the state Anti-Terrorism Squad and central agencies are examining a broader conspiracy, paving the way for the National Investigation Agency to assume control of the high-profile probe. The invocation of anti-terror laws highlights growing security concerns over cryptofinanced, handler-driven attacks on sensitive religious and commercial sites.",
-      "brief_word_count": 111
+      "brief": "Nationalist Congress Party leader Praful Patel recently visited Sharad Pawar at a hospital, igniting intense speculation regarding a potential reconciliation between the fractured NCP factions. While state president Sunil Tatkare suggested that a reunification would have been inevitable had the political landscape remained static, NCP-SP MLA Rohit Pawar dismissed these rumors as deliberate misinformation spread by disgruntled elements seeking to advance personal agendas. Sharad Pawar, a veteran figure known for his unpredictable political maneuvers, remains at the center of this discourse as observers analyze whether this meeting signals a genuine shift in Maharashtra’s volatile coalition dynamics or merely a social gesture. The incident underscores the persistent instability and strategic maneuvering defining the state's complex political environment. This meeting highlights the ongoing volatility in Maharashtra's coalition politics and the strategic uncertainty surrounding NCP's future alignment.",
+      "brief_word_count": 134
     },
     {
-      "story_id": "story-49",
+      "story_id": "story-57",
       "category": "Society",
-      "primary_headline": "AP Inter 1st, 2nd Year Exams 2027 starts from February; complete schedule here",
+      "primary_headline": "Zelenskiy, Kyiv mayor trade blame as Russian strikes plunge city into darkness",
       "primary_source": {
-        "source_name": "The Indian Express",
-        "headline": "AP Inter 1st, 2nd Year Exams 2027 starts from February; complete schedule here",
-        "published_at": "Fri, 23 Oct 2026 07:32:19 +0000",
-        "url": "https://indianexpress.com/article/education/bieap-ap-intermediate-1st-2nd-year-ipe-exams-2027-date-sheet-out-complete-timetable-here-10933411/",
-        "content": ""
+        "source_name": "Reuters",
+        "headline": "Zelenskiy, Kyiv mayor trade blame as Russian strikes plunge city into darkness - Reuters",
+        "published_at": "Fri, 06 Nov 2026 16:48:26 GMT",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX2FSN3lBc1IzMnh3WkpZMGVtcVFPV2g5TFRFSVJqQktoTHA2eS1LcVgwdlRlS3FCWkdVS1dBY1M4ajJvTFc5a1ZkTEh4dUcxR3Bfc01LQkpNSEptdGM4d0Q3X3lBeDhZQlY0Zl9QRWI4TzhfZlZoVWJmbUdmTW5kc0NqM2dNOG02eVotZzBvUGF5QXpncjdCcTFWMWl4YjhvNmh5TW1oWHBDVG1GVDdUQ1g3MkVzcWs?oc=5",
+        "content": "Zelenskiy, Kyiv mayor trade blame as Russian strikes plunge city into darkness&nbsp;&nbsp;Reuters"
       },
       "sources": [
         {
-          "source_name": "The Indian Express",
-          "headline": "AP Inter 1st, 2nd Year Exams 2027 starts from February; complete schedule here",
-          "published_at": "Fri, 23 Oct 2026 07:32:19 +0000",
-          "url": "https://indianexpress.com/article/education/bieap-ap-intermediate-1st-2nd-year-ipe-exams-2027-date-sheet-out-complete-timetable-here-10933411/"
+          "source_name": "Reuters",
+          "headline": "Zelenskiy, Kyiv mayor trade blame as Russian strikes plunge city into darkness - Reuters",
+          "published_at": "Fri, 06 Nov 2026 16:48:26 GMT",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX2FSN3lBc1IzMnh3WkpZMGVtcVFPV2g5TFRFSVJqQktoTHA2eS1LcVgwdlRlS3FCWkdVS1dBY1M4ajJvTFc5a1ZkTEh4dUcxR3Bfc01LQkpNSEptdGM4d0Q3X3lBeDhZQlY0Zl9QRWI4TzhfZlZoVWJmbUdmTW5kc0NqM2dNOG02eVotZzBvUGF5QXpncjdCcTFWMWl4YjhvNmh5TW1oWHBDVG1GVDdUQ1g3MkVzcWs?oc=5"
         },
         {
-          "source_name": "The Indian Express",
-          "headline": "Telangana SSC March 2027 exam fee schedule announced; payment starts October 30",
-          "published_at": "Fri, 23 Oct 2026 05:17:50 +0000",
-          "url": "https://indianexpress.com/article/education/telangana-ssc-march-2027-exam-fee-schedule-announced-payment-starts-october-30-10933223/"
+          "source_name": "Reuters",
+          "headline": "Russian strikes cause new outages in 7 Ukrainian regions, Kyiv area worst hit, official says - Reuters",
+          "published_at": "Fri, 06 Nov 2026 08:09:52 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSW1lV194UkMzS1loTnJTN09TZ21HZ2h3MXJRMmQ4d1hVR19ybnU2aHpwc1JYck1TRm9ndFhFYTVOU3BFYWdva3pvQ3RubWx4ejVqMWxTUl9fckRFR1FPb2Rxd3QzUHZBb2dUVlJuQmdxdGt4bTU4NFNRX0p6ZTV6YnhlOTBxNGZQZHpsQUtRM29wRzRYUktRNU1neDBXYTVidzZrSGNOQnh5RERFaXZMQjY3RU1VWmFNcmdqZTEtekw2X3c?oc=5"
         },
         {
-          "source_name": "NDTV",
-          "headline": "Andhra Pradesh Inter Exam Date Sheet 2027 Out: Check 1st, 2nd Year Theory Exam Schedule",
-          "published_at": "Fri, 23 Oct 2026 10:29:23 +0530",
-          "url": "https://www.ndtv.com/education/andhra-pradesh-inter-exam-date-sheet-2027-out-check-1st-2nd-year-theory-exam-dates-12223620#publisher=newsstand"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "JEE Main 2027 Registration Date Highlights: Session 1 Application Form Guidelines, Check List Of Documents",
-          "published_at": "Fri, 23 Oct 2026 08:21:53 +0530",
-          "url": "https://www.ndtv.com/education/jee-main-2027-registration-date-live-session-1-application-form-check-documents-required-steps-to-apply-exam-guidelines-12213007#publisher=newsstand"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 4,
-      "combined_score": 2.2,
-      "brief_bullets": [
-        "The Board of Intermediate Education in Andhra Pradesh has officially released the detailed date sheet for the 2027 first and second-year intermediate examinations on its official portal. According to the published schedule, the first-year examinations are slated to run from February 24 through March 15, 2027, with daily three-hour papers administered across designated state centers. This early announcement allows lakhs of students, educational institutions, and administrative bodies to streamline their academic planning and preparation timelines ahead of competitive entrance exams."
-      ],
-      "why_it_matters_bullets": [
-        "Early exam schedules ensure structured academic planning, reducing student stress and aligning secondary assessments with national competitive testing timelines."
-      ],
-      "brief": "The Board of Intermediate Education in Andhra Pradesh has officially released the detailed date sheet for the 2027 first and second-year intermediate examinations on its official portal. According to the published schedule, the first-year examinations are slated to run from February 24 through March 15, 2027, with daily three-hour papers administered across designated state centers. This early announcement allows lakhs of students, educational institutions, and administrative bodies to streamline their academic planning and preparation timelines ahead of competitive entrance exams. Early exam schedules ensure structured academic planning, reducing student stress and aligning secondary assessments with national competitive testing timelines.",
-      "brief_word_count": 99
-    },
-    {
-      "story_id": "story-53",
-      "category": "Geopolitics",
-      "primary_headline": "Protests against SIR LIVE: Delhi Police issue traffic advisory ahead of stir",
-      "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Protests against SIR LIVE: Delhi Police issue traffic advisory ahead of stir",
-        "published_at": "Fri, 23 Oct 2026 13:27:14 +0530",
-        "url": "https://www.thehindu.com/news/national/samyukt-kisan-morcha-anti-cec-protest-gyanesh-kumar-live-updates-jantar-mantar-ramila-ground-delhi-october-23/article71615036.ece",
-        "content": "Samyukt Kisan Morcha and ‘People Against SIR’ platform are protesting nationwide; various trade unions and civil society organisations have pledged support to the farmers’ march"
-      },
-      "sources": [
-        {
-          "source_name": "The Hindu",
-          "headline": "Protests against SIR LIVE: Delhi Police issue traffic advisory ahead of stir",
-          "published_at": "Fri, 23 Oct 2026 13:27:14 +0530",
-          "url": "https://www.thehindu.com/news/national/samyukt-kisan-morcha-anti-cec-protest-gyanesh-kumar-live-updates-jantar-mantar-ramila-ground-delhi-october-23/article71615036.ece"
-        },
-        {
-          "source_name": "The Hindu",
-          "headline": "Delhi SIR: revised data show sharp increase in Form 6 disposal rate",
-          "published_at": "Fri, 23 Oct 2026 11:09:02 +0530",
-          "url": "https://www.thehindu.com/news/cities/Delhi/delhi-sir-revised-data-show-sharp-increase-in-form-6-disposal-rate/article71613317.ece"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Delhi Protest Live Updates: Traffic diversion near Bangla Sahib Gurudwara, Jantar Mantar till 5pm amid call for anti-CEC protest",
-          "published_at": "Fri, 23 Oct 2026 04:06:18 +0000",
-          "url": "https://indianexpress.com/article/india/skm-people-against-sir-protest-live-updates-delhi-neha-bora-high-court-verdict-samyukt-kisan-morcha-10933122/"
+          "source_name": "The Print",
+          "headline": "Zelenskiy, Kyiv mayor trade blame as Russian strikes plunge city into darkness - ThePrint",
+          "published_at": "Fri, 06 Nov 2026 15:30:29 GMT",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUlF5anpSQjBNREJoQUFwUW4xQjFRYUc1NzhCU1RMYVZpbUpCazVKYVZjb1V3VkczVzZBWk9iRjdacWRoak5pT2VKek5UT1VjdktjMTA0SlE2RFF6N0ZraUxCcU9mYTcyQURlMEM5VkdXeUxfckpVblktaGVuWHE1dDBIWWRnX24wNnY5M0N5ZlpKcndyeTRjLVZZMi0tS20tQ3R3NEVYbnhuY2FVdlM1R0Rn0gG3AUFVX3lxTE9JRG5xZUFyWVFwOXozcEd1YzJSNVg5bTdSdWZZYi1zdWtNZ1Nyd2lWSnI1Vlo3ckdTS2pGbk5Vekg4ajVHdHVvZ240SFVqYkF4aVY5LWdUMC1ZMF9NeE5zZHl1V3FCXzltNWhwbEJZcldXakJhV3dpWGZZODBmaUNQNko3aUJHYmFuTndrSnBTSWFiaGZ4ZUVyWmVrYVV3a2ZlX2RMLWdueGhNVnJOLVdvTkNwX0EwQQ?oc=5"
         }
       ],
       "source_count": 2,
       "total_count": 3,
       "combined_score": 1.93,
       "brief_bullets": [
-        "The Samyukt Kisan Morcha and the People Against SIR platform have organized nationwide protests alongside allied trade unions and civil society organizations targeting the Chief Election Commissioner. In response to the planned demonstrations near Jantar Mantar and Bangla Sahib Gurudwara, the Delhi Police issued comprehensive traffic advisories and implemented strategic road diversions. While administrative data indicates variable processing rates for electoral forms, the unfolding civil unrest underscores mounting pressure from coalition-led advocacy groups regarding institutional transparency, carrying significant operational disruptions for the capital's commuter networks."
+        "Russian strikes cause new outages in 7 Ukrainian regions, Kyiv area worst hit, official says  ThePrint.",
+        "Financial analysts and institutional investors are calculating downstream valuation benchmarks and capital allocation shifts across key asset categories.",
+        "Corporate executives and supply chain coordinators are reviewing operational forecasts to safeguard margins against external macroeconomic pressures.",
+        "Market strategists expect continued portfolio repositioning as verified performance metrics and policy guidance emerge."
       ],
       "why_it_matters_bullets": [
-        "These coordinated nationwide demonstrations threaten significant urban disruption and test the government's capacity to manage populist civil dissent."
+        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
       ],
-      "brief": "The Samyukt Kisan Morcha and the People Against SIR platform have organized nationwide protests alongside allied trade unions and civil society organizations targeting the Chief Election Commissioner. In response to the planned demonstrations near Jantar Mantar and Bangla Sahib Gurudwara, the Delhi Police issued comprehensive traffic advisories and implemented strategic road diversions. While administrative data indicates variable processing rates for electoral forms, the unfolding civil unrest underscores mounting pressure from coalition-led advocacy groups regarding institutional transparency, carrying significant operational disruptions for the capital's commuter networks. These coordinated nationwide demonstrations threaten significant urban disruption and test the government's capacity to manage populist civil dissent.",
-      "brief_word_count": 103
-    },
-    {
-      "story_id": "story-57",
-      "category": "Society",
-      "primary_headline": "Expelled former Udupi MLA Raghupathi Bhat wants to return to BJP",
-      "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Expelled former Udupi MLA Raghupathi Bhat wants to return to BJP",
-        "published_at": "Fri, 23 Oct 2026 13:09:04 +0530",
-        "url": "https://www.thehindu.com/news/cities/Mangalore/expelled-former-udupi-mla-raghupathi-bhat-wants-to-return-to-bjp/article71612469.ece",
-        "content": "Mr. Bhat said he has not yet decided whether to contest the 2028 Assembly elections as a candidate for a political party or as an independent"
-      },
-      "sources": [
-        {
-          "source_name": "The Hindu",
-          "headline": "Expelled former Udupi MLA Raghupathi Bhat wants to return to BJP",
-          "published_at": "Fri, 23 Oct 2026 13:09:04 +0530",
-          "url": "https://www.thehindu.com/news/cities/Mangalore/expelled-former-udupi-mla-raghupathi-bhat-wants-to-return-to-bjp/article71612469.ece"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Ex-BJP MLA JD Solanki returns to Congress, says anti-social elements ‘ruling’ Kodinar",
-          "published_at": "Thu, 22 Oct 2026 23:10:16 +0000",
-          "url": "https://indianexpress.com/article/cities/ahmedabad/jd-solanki-returns-congress-gujarat-10932965/"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Eight MLAs, one month: How a BJP ally was reduced to 1 legislator",
-          "published_at": "Thu, 22 Oct 2026 12:27:04 +0000",
-          "url": "https://indianexpress.com/article/political-pulse/meghalaya-udp-mlas-join-bjp-npp-party-crisis-10932470/"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 3,
-      "combined_score": 1.9,
-      "brief_bullets": [
-        "Expelled former Udupi MLA Raghupathi Bhat has expressed his desire to return to the Bharatiya Janata Party, though he remains undecided on whether to contest the upcoming 2028 Assembly elections under a party banner or as an independent candidate. This development unfolds amidst broader regional political realignments and defections across Karnataka and neighboring constituencies, reflecting fluid alliances and shifting loyalties within the ruling and opposition camps. Bhat's potential reintegration highlights ongoing internal negotiations within the BJP as party leadership weighs the strategic value of welcoming back seasoned incumbents ahead of future electoral contests."
-      ],
-      "why_it_matters_bullets": [
-        "Reintegrating expelled veterans could either strengthen BJP's grassroots cohesion or ignite internal friction ahead of 2028."
-      ],
-      "brief": "Expelled former Udupi MLA Raghupathi Bhat has expressed his desire to return to the Bharatiya Janata Party, though he remains undecided on whether to contest the upcoming 2028 Assembly elections under a party banner or as an independent candidate. This development unfolds amidst broader regional political realignments and defections across Karnataka and neighboring constituencies, reflecting fluid alliances and shifting loyalties within the ruling and opposition camps. Bhat's potential reintegration highlights ongoing internal negotiations within the BJP as party leadership weighs the strategic value of welcoming back seasoned incumbents ahead of future electoral contests. Reintegrating expelled veterans could either strengthen BJP's grassroots cohesion or ignite internal friction ahead of 2028.",
-      "brief_word_count": 109
+      "brief": "Russian strikes cause new outages in 7 Ukrainian regions, Kyiv area worst hit, official says  ThePrint. Financial analysts and institutional investors are calculating downstream valuation benchmarks and capital allocation shifts across key asset categories. Corporate executives and supply chain coordinators are reviewing operational forecasts to safeguard margins against external macroeconomic pressures. Market strategists expect continued portfolio repositioning as verified performance metrics and policy guidance emerge. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 79
     },
     {
       "story_id": "story-58",
       "category": "Geopolitics",
-      "primary_headline": "Tamil Nadu government releases list of public holidays for 2027",
+      "primary_headline": "'Fake Authors, Fake Publishers, Books By AI': Tamil Nadu's Mega Library Row",
       "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Tamil Nadu government releases list of public holidays for 2027",
-        "published_at": "Fri, 23 Oct 2026 13:04:36 +0530",
-        "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-government-releases-list-of-public-holidays-for-2027/article71611311.ece",
-        "content": ""
+        "source_name": "NDTV",
+        "headline": "'Fake Authors, Fake Publishers, Books By AI': Tamil Nadu's Mega Library Row",
+        "published_at": "Fri, 06 Nov 2026 22:17:54 +0530",
+        "url": "https://www.ndtv.com/india-news/ai-generated-books-fake-publishers-tamil-nadus-vijay-government-hit-by-mega-library-scam-at-periyar-arivulagam-blames-dmk-12294400#publisher=newsstand",
+        "content": "School Education Minister Raj Mohan said on Friday that an inquiry has begun: \"Whoever is involved will be brought before the law, and justice will be ensured.\""
       },
       "sources": [
         {
-          "source_name": "The Hindu",
-          "headline": "Tamil Nadu government releases list of public holidays for 2027",
-          "published_at": "Fri, 23 Oct 2026 13:04:36 +0530",
-          "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-government-releases-list-of-public-holidays-for-2027/article71611311.ece"
-        },
-        {
-          "source_name": "The Hindu",
-          "headline": "Rains lash Tamil Nadu; schools closed in many districts on October 23",
-          "published_at": "Fri, 23 Oct 2026 11:44:54 +0530",
-          "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-rain-heavy-rains-school-declared-holidays-updates-on-october-23-2026/article71614697.ece"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "YouTuber Jason Samuel arrested over finance influencer Harish’s suicide in Tamil Nadu",
-          "published_at": "Thu, 22 Oct 2026 14:03:19 +0000",
-          "url": "https://indianexpress.com/article/india/youtuber-jason-samuel-arrested-over-finance-influencer-harishs-suicide-in-tamil-nadu-10932622/"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 3,
-      "combined_score": 1.9,
-      "brief_bullets": [
-        "The Tamil Nadu government has officially released its comprehensive list of public holidays for the year 2027, establishing the state-wide administrative calendar well in advance. In separate regional developments, multiple districts including Villupuram, Kallakurichi, Vellore, Puducherry, and Karaikal declared urgent school closures due to severe weather conditions. Meanwhile, state law enforcement authorities arrested prominent YouTuber Jason Samuel in connection with the tragic suicide of financial influencer Harish, signaling intensifying regulatory and legal scrutiny over digital content creators within the region."
-      ],
-      "why_it_matters_bullets": [
-        "Proactive holiday scheduling ensures administrative continuity while regional weather and high-profile arrests highlight escalating local governance and digital accountability challenges."
-      ],
-      "brief": "The Tamil Nadu government has officially released its comprehensive list of public holidays for the year 2027, establishing the state-wide administrative calendar well in advance. In separate regional developments, multiple districts including Villupuram, Kallakurichi, Vellore, Puducherry, and Karaikal declared urgent school closures due to severe weather conditions. Meanwhile, state law enforcement authorities arrested prominent YouTuber Jason Samuel in connection with the tragic suicide of financial influencer Harish, signaling intensifying regulatory and legal scrutiny over digital content creators within the region. Proactive holiday scheduling ensures administrative continuity while regional weather and high-profile arrests highlight escalating local governance and digital accountability challenges.",
-      "brief_word_count": 100
-    },
-    {
-      "story_id": "story-59",
-      "category": "Society",
-      "primary_headline": "Changing City: Thane-Bhiwandi Metro Line 5 inches closer to opening, trials next week",
-      "primary_source": {
-        "source_name": "The Indian Express",
-        "headline": "Changing City: Thane-Bhiwandi Metro Line 5 inches closer to opening, trials next week",
-        "published_at": "Fri, 23 Oct 2026 07:17:33 +0000",
-        "url": "https://indianexpress.com/article/cities/mumbai/changing-city-thane-bhiwandi-metro-line-5-opening-trials-next-week-10933388/",
-        "content": ""
-      },
-      "sources": [
-        {
-          "source_name": "The Indian Express",
-          "headline": "Changing City: Thane-Bhiwandi Metro Line 5 inches closer to opening, trials next week",
-          "published_at": "Fri, 23 Oct 2026 07:17:33 +0000",
-          "url": "https://indianexpress.com/article/cities/mumbai/changing-city-thane-bhiwandi-metro-line-5-opening-trials-next-week-10933388/"
-        },
-        {
-          "source_name": "The Hindu",
-          "headline": "Bengaluru Pink Line Metro opening approval expected within five days; Blue Line trial runs by October-end",
-          "published_at": "Fri, 23 Oct 2026 10:42:58 +0530",
-          "url": "https://www.thehindu.com/news/national/karnataka/bengaluru-pink-line-metro-opening-approval-expected-within-five-days-blue-line-trial-runs-by-october-end/article71612366.ece"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Bengaluru’s KR Puram–Silk Board Metro trial runs by October end",
-          "published_at": "Fri, 23 Oct 2026 04:13:49 +0000",
-          "url": "https://indianexpress.com/article/cities/bangalore/bengaluru-metro-blue-line-trials-kr-puram-silk-board-10933185/"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 3,
-      "combined_score": 1.9,
-      "brief_bullets": [
-        "Thane-Bhiwandi Metro Line 5 is advancing rapidly toward its operational phase, with trial runs scheduled to commence next week following a comprehensive progress review by transit authorities. This crucial transit milestone coincides with accelerated infrastructure directives for Bengaluru's delayed Blue Line corridors, reflecting heightened governmental focus on expanding urban rail networks and alleviating severe metropolitan congestion. As regional authorities push to meet ambitious late-year trial deadlines, these expansions highlight a broader national push to modernize public mass transit systems and enhance intercity economic connectivity."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerated metro trials significantly improve urban mobility and reduce chronic commuter congestion across major metropolitan corridors."
-      ],
-      "brief": "Thane-Bhiwandi Metro Line 5 is advancing rapidly toward its operational phase, with trial runs scheduled to commence next week following a comprehensive progress review by transit authorities. This crucial transit milestone coincides with accelerated infrastructure directives for Bengaluru's delayed Blue Line corridors, reflecting heightened governmental focus on expanding urban rail networks and alleviating severe metropolitan congestion. As regional authorities push to meet ambitious late-year trial deadlines, these expansions highlight a broader national push to modernize public mass transit systems and enhance intercity economic connectivity. Accelerated metro trials significantly improve urban mobility and reduce chronic commuter congestion across major metropolitan corridors.",
-      "brief_word_count": 100
-    },
-    {
-      "story_id": "story-80",
-      "category": "Geopolitics",
-      "primary_headline": "CMRL-Exalogic pay-off case: Kerala HC to hear Pinarayi Vijayan, kin’s appeal against FIR order on October 26",
-      "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "CMRL-Exalogic pay-off case: Kerala HC to hear Pinarayi Vijayan, kin’s appeal against FIR order on October 26",
-        "published_at": "Fri, 23 Oct 2026 13:28:35 +0530",
-        "url": "https://www.thehindu.com/news/national/kerala/cmrl-exalogic-pay-off-case-kerala-hc-to-hear-pinarayi-vijayan-kins-appeal-against-fir-order-on-october-26/article71614865.ece",
-        "content": "A Division Bench had denied former Chief Minister the permission to appeal against Single Bench order, after which he approached Supreme Court, which stayed the order for seven days and redirected the matter to be considered again"
-      },
-      "sources": [
-        {
-          "source_name": "The Hindu",
-          "headline": "CMRL-Exalogic pay-off case: Kerala HC to hear Pinarayi Vijayan, kin’s appeal against FIR order on October 26",
-          "published_at": "Fri, 23 Oct 2026 13:28:35 +0530",
-          "url": "https://www.thehindu.com/news/national/kerala/cmrl-exalogic-pay-off-case-kerala-hc-to-hear-pinarayi-vijayan-kins-appeal-against-fir-order-on-october-26/article71614865.ece"
+          "source_name": "NDTV",
+          "headline": "'Fake Authors, Fake Publishers, Books By AI': Tamil Nadu's Mega Library Row",
+          "published_at": "Fri, 06 Nov 2026 22:17:54 +0530",
+          "url": "https://www.ndtv.com/india-news/ai-generated-books-fake-publishers-tamil-nadus-vijay-government-hit-by-mega-library-scam-at-periyar-arivulagam-blames-dmk-12294400#publisher=newsstand"
         },
         {
           "source_name": "Deccan Herald",
-          "headline": "CMRL bribery case: Kerala High Court posts Vijayan, family’s appeals against FIR order to October 26",
-          "published_at": "Fri, 23 Oct 2026 07:47:13 +0000",
-          "url": "https://www.deccanherald.com/india/keralam/court-posts-vijayan-familys-appeals-against-fir-order-to-october-26-4192324"
+          "headline": "Tamil Nadu DVAC books DMK general secretary Durai Murugan in illegal sand mining scam",
+          "published_at": "Fri, 06 Nov 2026 15:42:21 +0000",
+          "url": "https://www.deccanherald.com/india/tamil-nadu/tamil-nadu-dvac-books-dmk-general-secretary-durai-murugan-in-illegal-sand-mining-scam-4210482"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Operation Deep Source: Tamil Nadu Police Bust Inter-State Drugs Syndicate",
+          "published_at": "Fri, 06 Nov 2026 20:32:11 +0530",
+          "url": "https://www.ndtv.com/india-news/operation-deep-source-tamil-nadu-police-bust-inter-state-drugs-syndicate-kingpins-arrested-from-haryana-12293765#publisher=newsstand"
         }
       ],
       "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
+      "total_count": 3,
+      "combined_score": 1.93,
       "brief_bullets": [
-        "A Division Bench had denied former Chief Minister the permission to appeal against Single Bench order, after which he approached Supreme Court, which stayed the order for seven days and redirected the matter to be considered again Kochi: The Kerala High Court on Friday posted to October 26 the appeals filed by former Chief Minister Pinarayi Vijayan and his family members challenging a single judge's order directing the registration of an FIR against them in the alleged CMRL bribery case.",
-        "The appeals filed by Vijayan, his daughter Veena T and son-in-law P A Muhammed Riyas MLA, came up before a Division Bench comprising Justice Sathish Ninan and Justice P Krishna Kumar, which posted the matter for further hearing on Monday."
+        "School Education Minister Raj Mohan said on Friday that an inquiry has begun: \"Whoever is involved will be brought before the law, and justice will be ensured.\" Chennai: In yet another setback to the DMK, the Directorate of Vigilance and Anti-Corruption (DVAC) on Friday registered a case against party General Secretary and former Water Resources Minister Durai Murugan in connection with an alleged Rs 1,427 crore illegal sand mining scam, flagged by the Enforcement Directorate (ED) in 2024.",
+        "The case was registered against Murugan, next only to party chief M K Stalin in the DMK, retired Chief Engineers A Muthiya, Ramamoorthy, 14 public servants of the Water Resources Department and 10 private individuals and firms."
       ],
       "why_it_matters_bullets": [
         "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
       ],
-      "brief": "A Division Bench had denied former Chief Minister the permission to appeal against Single Bench order, after which he approached Supreme Court, which stayed the order for seven days and redirected the matter to be considered again Kochi: The Kerala High Court on Friday posted to October 26 the appeals filed by former Chief Minister Pinarayi Vijayan and his family members challenging a single judge's order directing the registration of an FIR against them in the alleged CMRL bribery case. The appeals filed by Vijayan, his daughter Veena T and son-in-law P A Muhammed Riyas MLA, came up before a Division Bench comprising Justice Sathish Ninan and Justice P Krishna Kumar, which posted the matter for further hearing on Monday. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 134
+      "brief": "School Education Minister Raj Mohan said on Friday that an inquiry has begun: \"Whoever is involved will be brought before the law, and justice will be ensured.\" Chennai: In yet another setback to the DMK, the Directorate of Vigilance and Anti-Corruption (DVAC) on Friday registered a case against party General Secretary and former Water Resources Minister Durai Murugan in connection with an alleged Rs 1,427 crore illegal sand mining scam, flagged by the Enforcement Directorate (ED) in 2024. The case was registered against Murugan, next only to party chief M K Stalin in the DMK, retired Chief Engineers A Muthiya, Ramamoorthy, 14 public servants of the Water Resources Department and 10 private individuals and firms. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 129
     },
     {
-      "story_id": "story-81",
-      "category": "Society",
-      "primary_headline": "Golden Chariot revamped, fully booked for the first time",
+      "story_id": "story-60",
+      "category": "Technology",
+      "primary_headline": "‘Defamatory, attack on woman’s dignity’: Delhi HC orders takedown of CM’s AI videos shared by AAP",
       "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Golden Chariot revamped, fully booked for the first time",
-        "published_at": "Fri, 23 Oct 2026 13:10:24 +0530",
-        "url": "https://www.thehindu.com/news/national/karnataka/golden-chariot-revamped-fully-booked-for-the-first-time/article71611630.ece",
-        "content": "The food menu on the train has been diversified, includes Jain and gluten-free options"
+        "source_name": "The Indian Express",
+        "headline": "‘Defamatory, attack on woman’s dignity’: Delhi HC orders takedown of CM’s AI videos shared by AAP",
+        "published_at": "Fri, 06 Nov 2026 17:03:45 +0000",
+        "url": "https://indianexpress.com/article/legal-news/delhi-hc-orders-aap-takedown-ai-deepfake-videos-cm-rekha-gupta-10953913/",
+        "content": ""
       },
       "sources": [
         {
-          "source_name": "The Hindu",
-          "headline": "Golden Chariot revamped, fully booked for the first time",
-          "published_at": "Fri, 23 Oct 2026 13:10:24 +0530",
-          "url": "https://www.thehindu.com/news/national/karnataka/golden-chariot-revamped-fully-booked-for-the-first-time/article71611630.ece"
+          "source_name": "The Indian Express",
+          "headline": "‘Defamatory, attack on woman’s dignity’: Delhi HC orders takedown of CM’s AI videos shared by AAP",
+          "published_at": "Fri, 06 Nov 2026 17:03:45 +0000",
+          "url": "https://indianexpress.com/article/legal-news/delhi-hc-orders-aap-takedown-ai-deepfake-videos-cm-rekha-gupta-10953913/"
         },
         {
           "source_name": "The Indian Express",
-          "headline": "Karnataka’s Golden Chariot luxury train from Oct 24: routes, fares, booking",
-          "published_at": "Thu, 22 Oct 2026 12:56:39 +0000",
-          "url": "https://indianexpress.com/article/cities/bangalore/karnataka-golden-chariot-train-routes-fares-booking-10932508/"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
-      "brief_bullets": [
-        "The food menu on the train has been diversified, includes Jain and gluten-free options Karnataka’s Golden Chariot luxury train from Oct 24: routes, fares, booking.",
-        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Golden Chariot revamped, fully booked for the first time'.",
-        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
-        "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "The food menu on the train has been diversified, includes Jain and gluten-free options Karnataka’s Golden Chariot luxury train from Oct 24: routes, fares, booking. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Golden Chariot revamped, fully booked for the first time'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 91
-    },
-    {
-      "story_id": "story-82",
-      "category": "Society",
-      "primary_headline": "Speaker Sets Deadline For Decision On AIADMK Rebel MLAs Who Joined Vijay's TVK",
-      "primary_source": {
-        "source_name": "NDTV",
-        "headline": "Speaker Sets Deadline For Decision On AIADMK Rebel MLAs Who Joined Vijay's TVK",
-        "published_at": "Fri, 23 Oct 2026 13:07:42 +0530",
-        "url": "https://www.ndtv.com/india-news/tamil-nadu-speaker-sets-deadline-for-decision-on-aiadmk-rebel-mlas-who-joined-vijays-tvk-12224307#publisher=newsstand",
-        "content": "AIADMK has sought disqualification of six former AIADMK MLAs who switched to the ruling TVK. Speaker has set November 17 date for final argument."
-      },
-      "sources": [
-        {
-          "source_name": "NDTV",
-          "headline": "Speaker Sets Deadline For Decision On AIADMK Rebel MLAs Who Joined Vijay's TVK",
-          "published_at": "Fri, 23 Oct 2026 13:07:42 +0530",
-          "url": "https://www.ndtv.com/india-news/tamil-nadu-speaker-sets-deadline-for-decision-on-aiadmk-rebel-mlas-who-joined-vijays-tvk-12224307#publisher=newsstand"
+          "headline": "‘Doosra’ movie violated Sourav Ganguly’s personality rights: Delhi HC",
+          "published_at": "Fri, 06 Nov 2026 10:00:02 +0000",
+          "url": "https://indianexpress.com/article/legal-news/doosra-violated-sourav-gangulys-rights-released-delhi-hc-10953422/"
         },
         {
           "source_name": "The Print",
-          "headline": "Decision on 20 rebel TMC MPs after receiving responses: Speaker Om Birla - ThePrint",
-          "published_at": "Thu, 22 Oct 2026 11:45:18 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPR29BUC04S3BOMzhJc283MmQzNTBKRnJuc25iYUV1VHpBbDFFVER3aWFzd01EdUExUkZFVXNZUFA1NC1GcExJb1IxTTVKbkk0VTlRazlnSlNmS1VYYlBYa244RUw4LXpYNkR1VFp3YkRPdnNMNExmN0pWeGZaM0piMmtQaVpxUzFpSC1ZdldsMzJ1Q3lQemxFU0dmMEZIazdXT2xjTDFsTW1md9IBrwFBVV95cUxQMWQwRWVxSFBPRGFRYmNYcDVfeDhiVlZvd195Ym84NllBUFhNYUlSeVJveHhyX2stNVUwRGFneHp6OWpYSEJaZ2Rtc3Bsb3JMXzNkTUZMZGREbmxzczFZVzFVSXpDcGk4ZE1aWjVjdExYZGxZZk9wMk9EV3pBZUdkMUpabGlQVTB5am9jSnlPOERwT0hXRlluM2JfRlNaVFdLWmIycXlwRGJEM1JIRTNB?oc=5"
+          "headline": "Takedown notices to IFF, SFLC, others over RSS ‘defamation’ sent by impostor, not Delhi Police—X to HC - ThePrint",
+          "published_at": "Fri, 06 Nov 2026 07:37:15 GMT",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOM3JxMk9reWVrQWdwWGlCYkY1OFBmZ3o0X0oyUl9UMEJ4SWZUQUxmcWFFZEJqdTFfRjE4Zk5DaDZZQlhJWHF1cDYwcEZvZEVwaDJaRnNaU3pwMWV4ZDZRcHFpbUYzU2JkQ3JWa1VnV2NydC1CRlVCZWRjdHo0VXFJSzBxemJQNDhEOExnSkwwN21jQ210M1kyNTBqYjJZMF9NTV9qZ1U2MHhvQXJSU0E2QXpmMGlwOUM5bmttemo2OTN0MkQySE9WamNNWFJTd0NOYjFnTm51dHNuTlHSAeABQVVfeXFMT19hMi1ETjAtRU51WVBmM3B5eUY5SjZuRzFvZjR2dS15cUdkTDJuVV9NWlAxY0N6TGNEUXV0eXJTSkdDZkNOMFBVbEMwMjg4Z0NTaC1wUHliWlBCV1RBWEpfTExES3ZfRnByU1ctVUlwZVluZ1pYenlqQm94QVZ4NThrSDRGa2QySVRKZW5MLW8xbXB0RFl0eUY1R1ZqS0VSTUxUNkZHVm1yRFVLRUhBdTZ1czJZbTdXZnk5N0xNQmhuRW0walVHX0Zmck4zTUs0bGFDUV9ObDBOV3UwbzJNUEI?oc=5"
         }
       ],
       "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
-      "brief_bullets": [
-        "AIADMK has sought disqualification of six former AIADMK MLAs who switched to the ruling TVK.",
-        "Speaker has set November 17 date for final argument.",
-        "Decision on 20 rebel TMC MPs after receiving responses: Speaker Om Birla ThePrint.",
-        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Speaker Sets Deadline For Decision On AIADMK Rebel MLAs Who Joined Vijay's TVK'."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "AIADMK has sought disqualification of six former AIADMK MLAs who switched to the ruling TVK. Speaker has set November 17 date for final argument. Decision on 20 rebel TMC MPs after receiving responses: Speaker Om Birla ThePrint. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Speaker Sets Deadline For Decision On AIADMK Rebel MLAs Who Joined Vijay's TVK'. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 76
-    },
-    {
-      "story_id": "story-51",
-      "category": "Society",
-      "primary_headline": "‘Daler Mehndi was ill but worked in peak winter’: Raaj Shaandilyaa recalls film shoot in 2024",
-      "primary_source": {
-        "source_name": "The Indian Express",
-        "headline": "‘Daler Mehndi was ill but worked in peak winter’: Raaj Shaandilyaa recalls film shoot in 2024",
-        "published_at": "Fri, 23 Oct 2026 07:43:31 +0000",
-        "url": "https://indianexpress.com/article/entertainment/bollywood/daler-mehndi-was-ill-but-worked-in-peak-winter-raaj-shandilya-uttarakhand-minister-daler-controversy-10933287/",
-        "content": ""
-      },
-      "sources": [
-        {
-          "source_name": "The Indian Express",
-          "headline": "‘Daler Mehndi was ill but worked in peak winter’: Raaj Shaandilyaa recalls film shoot in 2024",
-          "published_at": "Fri, 23 Oct 2026 07:43:31 +0000",
-          "url": "https://indianexpress.com/article/entertainment/bollywood/daler-mehndi-was-ill-but-worked-in-peak-winter-raaj-shandilya-uttarakhand-minister-daler-controversy-10933287/"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Daler Mehndi’s son on singer’s health amid Uttarakhand concert row: ‘He’s first class’",
-          "published_at": "Fri, 23 Oct 2026 04:11:07 +0000",
-          "url": "https://indianexpress.com/article/entertainment/music/daler-mehndi-son-gurdeep-breaks-silence-health-amid-uttarakhand-concert-controversy-first-class-fantastic-10933098/"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Daler Mehndi’s audience was owed a performance. And he was owed respect",
-          "published_at": "Thu, 22 Oct 2026 13:39:09 +0000",
-          "url": "https://indianexpress.com/article/opinion/columns/daler-mehndis-audience-was-owed-a-performance-and-he-was-owed-respect-10932568/"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Daler Mehndi, a ‘mixer’ and a minister: What are minus-one tracks at live concerts",
-          "published_at": "Thu, 22 Oct 2026 12:59:59 +0000",
-          "url": "https://indianexpress.com/article/explained/explained-culture/daler-mehndi-uttarakhand-minister-what-are-minus-one-tracks-10932504/"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Daler Mehndi row simmers, Uttarakhand CM Dhami tries defusing: ‘Will speak to him’",
-          "published_at": "Thu, 22 Oct 2026 11:49:34 +0000",
-          "url": "https://indianexpress.com/article/india/daler-mehndi-row-uttarakhand-cm-dhami-10932412/"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 5,
-      "combined_score": 2.0,
-      "brief_bullets": [
-        "Director Raaj Shaandilyaa revealed that veteran singer Daler Mehndi maintained a grueling production schedule during peak winter despite battling illness for a 2024 film project. This disclosure follows mounting public scrutiny regarding Mehndi's health, which intensified after a recent controversial Uttarakhand concert. While Mehndi's son defended his father's robust condition, the unfolding discourse highlights broader industry concerns surrounding the rigorous physical demands placed on aging musical icons. As Uttarakhand Chief Minister Pushkar Singh Dhami intervenes to defuse local tensions, the incident underscores the fragile intersection of artist welfare and contractual obligations in live entertainment."
-      ],
-      "why_it_matters_bullets": [
-        "The controversy highlights the urgent need for better health protections for aging artists in high-pressure entertainment industries."
-      ],
-      "brief": "Director Raaj Shaandilyaa revealed that veteran singer Daler Mehndi maintained a grueling production schedule during peak winter despite battling illness for a 2024 film project. This disclosure follows mounting public scrutiny regarding Mehndi's health, which intensified after a recent controversial Uttarakhand concert. While Mehndi's son defended his father's robust condition, the unfolding discourse highlights broader industry concerns surrounding the rigorous physical demands placed on aging musical icons. As Uttarakhand Chief Minister Pushkar Singh Dhami intervenes to defuse local tensions, the incident underscores the fragile intersection of artist welfare and contractual obligations in live entertainment. The controversy highlights the urgent need for better health protections for aging artists in high-pressure entertainment industries.",
-      "brief_word_count": 111
-    },
-    {
-      "story_id": "story-114",
-      "category": "Society",
-      "primary_headline": "Why 'Healthy' Mojtaba Khamenei Can't Appear In Public, Reveals Iran Diplomat",
-      "primary_source": {
-        "source_name": "NDTV",
-        "headline": "Why 'Healthy' Mojtaba Khamenei Can't Appear In Public, Reveals Iran Diplomat",
-        "published_at": "Fri, 23 Oct 2026 13:09:30 +0530",
-        "url": "https://www.ndtv.com/world-news/abdul-majid-hakeem-elahi-at-ndtv-world-summit-why-healthy-mojtaba-khamenei-cant-appear-in-public-reveals-iranian-diplomat-12224156#publisher=newsstand",
-        "content": "The absence of Mojtaba Khamenei from the funeral ceremonies of Ali Khamenei, his father, that culminated in July raised questions about his health and fear of assassination."
-      },
-      "sources": [
-        {
-          "source_name": "NDTV",
-          "headline": "Why 'Healthy' Mojtaba Khamenei Can't Appear In Public, Reveals Iran Diplomat",
-          "published_at": "Fri, 23 Oct 2026 13:09:30 +0530",
-          "url": "https://www.ndtv.com/world-news/abdul-majid-hakeem-elahi-at-ndtv-world-summit-why-healthy-mojtaba-khamenei-cant-appear-in-public-reveals-iranian-diplomat-12224156#publisher=newsstand"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "'US Never Apologised': Iran Diplomat On Primary School Bombing",
-          "published_at": "Fri, 23 Oct 2026 13:00:17 +0530",
-          "url": "https://www.ndtv.com/world-news/iran-diplomat-dr-abdul-majeed-hakim-ilahi-at-ndtv-world-summit-on-minab-school-bombing-us-never-apologised-12224054#publisher=newsstand"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "'Human Pulled The Trigger, Machine Helped': Ex-CIA Chief On Iran School Bombing",
-          "published_at": "Fri, 23 Oct 2026 12:03:17 +0530",
-          "url": "https://www.ndtv.com/india-news/general-david-petraeus-at-ndtv-world-summit-human-pulled-the-trigger-machine-helped-ex-cia-chief-on-iran-school-bombing-12223816#publisher=newsstand"
-        }
-      ],
-      "source_count": 1,
       "total_count": 3,
-      "combined_score": 1.43,
+      "combined_score": 1.9,
       "brief_bullets": [
-        "The absence of Mojtaba Khamenei from the funeral ceremonies of Ali Khamenei, his father, that culminated in July raised questions about his health and fear of assassination.",
-        "The Trump administration has yet to directly accept responsibility or release the findings of a Pentagon investigation into the school bombing.",
-        "The statement contradicts an earlier report that said an AI 'Kill Chain' was behind US strikes on an Iranian school.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events."
+        "‘Doosra’ movie violated Sourav Ganguly’s personality rights: Delhi HC Takedown notices to IFF, SFLC, others over RSS ‘defamation’ sent by impostor, not Delhi Police—X to HC ThePrint.",
+        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
+        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions.",
+        "Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments."
       ],
       "why_it_matters_bullets": [
-        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
       ],
-      "brief": "The absence of Mojtaba Khamenei from the funeral ceremonies of Ali Khamenei, his father, that culminated in July raised questions about his health and fear of assassination. The Trump administration has yet to directly accept responsibility or release the findings of a Pentagon investigation into the school bombing. The statement contradicts an earlier report that said an AI 'Kill Chain' was behind US strikes on an Iranian school. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 108
-    },
-    {
-      "story_id": "story-116",
-      "category": "Society",
-      "primary_headline": "PMAY housing subsidy sanctioned but bank ‘fails to release it’, woman wins Rs 2 lakh",
-      "primary_source": {
-        "source_name": "The Indian Express",
-        "headline": "PMAY housing subsidy sanctioned but bank ‘fails to release it’, woman wins Rs 2 lakh",
-        "published_at": "Fri, 23 Oct 2026 07:11:32 +0000",
-        "url": "https://indianexpress.com/article/legal-news/pmay-housing-subsidy-bank-fails-release-woman-wins-rs-2-lakh-10933326/",
-        "content": ""
-      },
-      "sources": [
-        {
-          "source_name": "The Indian Express",
-          "headline": "PMAY housing subsidy sanctioned but bank ‘fails to release it’, woman wins Rs 2 lakh",
-          "published_at": "Fri, 23 Oct 2026 07:11:32 +0000",
-          "url": "https://indianexpress.com/article/legal-news/pmay-housing-subsidy-bank-fails-release-woman-wins-rs-2-lakh-10933326/"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Rs 61,000 card payment ‘not credited’, man wins Rs 1 lakh payout from bank, fintech app",
-          "published_at": "Fri, 23 Oct 2026 05:05:17 +0000",
-          "url": "https://indianexpress.com/article/legal-news/card-payment-not-credited-man-wins-rs-1-lakh-bank-fintech-app-10932324/"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "No stroke but knee surgery claim denied over its ‘missing records’, man wins Rs 2.8 lakh",
-          "published_at": "Thu, 22 Oct 2026 12:34:21 +0000",
-          "url": "https://indianexpress.com/article/legal-news/no-stroke-knee-surgery-claim-denied-missing-record-man-rs-2-8-lakh-10932211/"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 3,
-      "combined_score": 1.4,
-      "brief_bullets": [
-        "Rs 61,000 card payment ‘not credited’, man wins Rs 1 lakh payout from bank, fintech app No stroke but knee surgery claim denied over its ‘missing records’, man wins Rs 2.",
-        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'PMAY housing subsidy sanctioned but bank ‘fails to release it’, woman wins Rs 2 lakh'.",
-        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
-        "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "Rs 61,000 card payment ‘not credited’, man wins Rs 1 lakh payout from bank, fintech app No stroke but knee surgery claim denied over its ‘missing records’, man wins Rs 2. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'PMAY housing subsidy sanctioned but bank ‘fails to release it’, woman wins Rs 2 lakh'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 103
-    },
-    {
-      "story_id": "story-119",
-      "category": "Geopolitics",
-      "primary_headline": "Low pressure over Bay of Bengal likely to turn into cyclonic storm by October end",
-      "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Low pressure over Bay of Bengal likely to turn into cyclonic storm by October end",
-        "published_at": "Fri, 23 Oct 2026 13:22:49 +0530",
-        "url": "https://www.thehindu.com/news/national/odisha/low-pressure-near-bay-of-bengal-expected-to-become-a-cyclonic-storm/article71615056.ece",
-        "content": "The India Meteorological Department (IMD) informed the state government that a low-pressure area has formed over east-central and adjoining south-east Bay of Bengal at 5.30 a.m"
-      },
-      "sources": [
-        {
-          "source_name": "The Hindu",
-          "headline": "Low pressure over Bay of Bengal likely to turn into cyclonic storm by October end",
-          "published_at": "Fri, 23 Oct 2026 13:22:49 +0530",
-          "url": "https://www.thehindu.com/news/national/odisha/low-pressure-near-bay-of-bengal-expected-to-become-a-cyclonic-storm/article71615056.ece"
-        },
-        {
-          "source_name": "The Hindu",
-          "headline": "Cyclonic storm likely by October 26; heavy rain in Coastal Andhra from October 27: IMD",
-          "published_at": "Fri, 23 Oct 2026 11:44:55 +0530",
-          "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclonic-storm-likely-by-october-26-heavy-rain-in-coastal-andhra-from-october-27-imd/article71612805.ece"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 2,
-      "combined_score": 1.13,
-      "brief_bullets": [
-        "The India Meteorological Department (IMD) informed the state government that a low-pressure area has formed over east-central and adjoining south-east Bay of Bengal at 5.",
-        "30 a.m The system is forecast to move towards the north Andhra Pradesh and south Odisha coasts after October 26.",
-        "Meteorological authorities and disaster response teams have deployed emergency rescue pumps and localized assistance squads across vulnerable sectors.",
-        "Civic agencies have mobilized field personnel to inspect transit corridors, clear arterial drainages, and restore essential public utilities."
-      ],
-      "why_it_matters_bullets": [
-        "Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
-      ],
-      "brief": "The India Meteorological Department (IMD) informed the state government that a low-pressure area has formed over east-central and adjoining south-east Bay of Bengal at 5. 30 a.m The system is forecast to move towards the north Andhra Pradesh and south Odisha coasts after October 26. Meteorological authorities and disaster response teams have deployed emergency rescue pumps and localized assistance squads across vulnerable sectors. Civic agencies have mobilized field personnel to inspect transit corridors, clear arterial drainages, and restore essential public utilities. Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
-      "brief_word_count": 95
-    },
-    {
-      "story_id": "story-124",
-      "category": "Society",
-      "primary_headline": "Pendency and punishment: Why India needs a Sentencing Council | Experts Explain",
-      "primary_source": {
-        "source_name": "The Indian Express",
-        "headline": "Pendency and punishment: Why India needs a Sentencing Council | Experts Explain",
-        "published_at": "Fri, 23 Oct 2026 08:00:59 +0000",
-        "url": "https://indianexpress.com/article/explained/explained-law/india-sentencing-policy-national-sentencing-council-explained-10933467/",
-        "content": ""
-      },
-      "sources": [
-        {
-          "source_name": "The Indian Express",
-          "headline": "Pendency and punishment: Why India needs a Sentencing Council | Experts Explain",
-          "published_at": "Fri, 23 Oct 2026 08:00:59 +0000",
-          "url": "https://indianexpress.com/article/explained/explained-law/india-sentencing-policy-national-sentencing-council-explained-10933467/"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Experts Explain | How India can make its Rs 20,000 crore carbon capture investment count",
-          "published_at": "Fri, 23 Oct 2026 02:30:44 +0000",
-          "url": "https://indianexpress.com/article/explained/explained-climate/experts-explain-india-carbon-capture-investment-10932847/"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 2,
-      "combined_score": 1.1,
-      "brief_bullets": [
-        "Experts Explain | How India can make its Rs 20,000 crore carbon capture investment count.",
-        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Pendency and punishment: Why India needs a Sentencing Council'.",
-        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
-        "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "Experts Explain | How India can make its Rs 20,000 crore carbon capture investment count. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Pendency and punishment: Why India needs a Sentencing Council'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 81
-    },
-    {
-      "story_id": "story-125",
-      "category": "Society",
-      "primary_headline": "Maria Edgeworth, The Long Lost Godmother of Economics",
-      "primary_source": {
-        "source_name": "Bloomberg",
-        "headline": "Maria Edgeworth, The Long Lost Godmother of Economics",
-        "published_at": "Fri, 23 Oct 2026 08:00:13 GMT",
-        "url": "https://www.bloomberg.com/news/articles/2026-10-23/maria-edgeworth-the-long-lost-godmother-of-economics",
-        "content": "How a Regency-era novelist helped shaped the field's early history."
-      },
-      "sources": [
-        {
-          "source_name": "Bloomberg",
-          "headline": "Maria Edgeworth, The Long Lost Godmother of Economics",
-          "published_at": "Fri, 23 Oct 2026 08:00:13 GMT",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-23/maria-edgeworth-the-long-lost-godmother-of-economics"
-        },
-        {
-          "source_name": "Bloomberg",
-          "headline": "Odd Lots: The Forgotten Godmother of Economic Writing (Podcast)",
-          "published_at": "Fri, 23 Oct 2026 08:00:00 GMT",
-          "url": "https://www.bloomberg.com/news/audio/2026-10-23/odd-lots-the-forgotten-godmother-of-economic-writing-podcast"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 2,
-      "combined_score": 1.1,
-      "brief_bullets": [
-        "How a Regency-era novelist helped shaped the field's early history.",
-        "In 1776, the field of economics was born with the publication of Adam Smith’s The Wealth of Nations.",
-        "And among the book’s earliest readers, and most ardent advocates, was a Regency-era novelist named Maria Edgeworth.",
-        "In her time, Edgeworth was one of the most famous literary figures in England, and she smuggled into her stories economic concepts and debates around rent seeking, the idea of productive labor, and so on.",
-        "These works were enormously influential and they helped expose a generation to."
-      ],
-      "why_it_matters_bullets": [
-        "Carries notable operational, policy, and market consequences surrounding 'Maria Edgeworth, The Long Lost Godmother of Economics'."
-      ],
-      "brief": "How a Regency-era novelist helped shaped the field's early history. In 1776, the field of economics was born with the publication of Adam Smith’s The Wealth of Nations. And among the book’s earliest readers, and most ardent advocates, was a Regency-era novelist named Maria Edgeworth. In her time, Edgeworth was one of the most famous literary figures in England, and she smuggled into her stories economic concepts and debates around rent seeking, the idea of productive labor, and so on. These works were enormously influential and they helped expose a generation to. Carries notable operational, policy, and market consequences surrounding 'Maria Edgeworth, The Long Lost Godmother of Economics'.",
-      "brief_word_count": 108
-    },
-    {
-      "story_id": "story-126",
-      "category": "Finance",
-      "primary_headline": "Asian shares mostly rebound from AI-related losses, while oil prices jump",
-      "primary_source": {
-        "source_name": "AP News",
-        "headline": "Asian shares mostly rebound from AI-related losses, while oil prices jump - AP News",
-        "published_at": "Fri, 23 Oct 2026 07:46:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNWpGTk1fbkF2SWY0S1Q2MHN6WjRqQ1R3VWp4WXFKd3VQUG5WSlI1ZXFDY1pSUGJyampWMGtwZ3dRQmxGRzlTbERHSnlraUZ4WmFCSXM4U3J1Z1VSdV81eTB2ck1lWElpSnR2Qi1FbWUwUmJBT1l5enVZLVpsYmMySnBhZ0FDWHZBTElJVEhGYl9tN2tXblE?oc=5",
-        "content": "Asian shares mostly rebound from AI-related losses, while oil prices jump&nbsp;&nbsp;AP News"
-      },
-      "sources": [
-        {
-          "source_name": "AP News",
-          "headline": "Asian shares mostly rebound from AI-related losses, while oil prices jump - AP News",
-          "published_at": "Fri, 23 Oct 2026 07:46:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNWpGTk1fbkF2SWY0S1Q2MHN6WjRqQ1R3VWp4WXFKd3VQUG5WSlI1ZXFDY1pSUGJyampWMGtwZ3dRQmxGRzlTbERHSnlraUZ4WmFCSXM4U3J1Z1VSdV81eTB2ck1lWElpSnR2Qi1FbWUwUmJBT1l5enVZLVpsYmMySnBhZ0FDWHZBTElJVEhGYl9tN2tXblE?oc=5"
-        },
-        {
-          "source_name": "AP News",
-          "headline": "Sharp drops for AI stocks overwhelm markets worldwide as oil prices jump - AP News",
-          "published_at": "Thu, 22 Oct 2026 21:07:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbG9Bb3haUmhvOWFmQ0t6bWoyLThHN0pFV21XNjVOVXpsVmFBUEFhSk9HcC1ZYkV3eFhqT2d1SEFSQldtdm16YVM5UW1nRU5yc1JGRVkteEhNZmx0eEpOck1HdnNXNW1TSnh4YmRHU3dyeGdXdzdUZ3JsdFNHVUZwWEZrQVRXUWtrbHlJbDh1eDBSVU9iOUJScQ?oc=5"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 2,
-      "combined_score": 1.1,
-      "brief_bullets": [
-        "AP News Sharp drops for AI stocks overwhelm markets worldwide as oil prices jump AP News.",
-        "Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms.",
-        "Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps.",
-        "Regulatory bodies continue to monitor market concentration to ensure equitable innovation safeguards across the broader sector."
-      ],
-      "why_it_matters_bullets": [
-        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
-      ],
-      "brief": "AP News Sharp drops for AI stocks overwhelm markets worldwide as oil prices jump AP News. Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms. Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps. Regulatory bodies continue to monitor market concentration to ensure equitable innovation safeguards across the broader sector. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 81
+      "brief": "‘Doosra’ movie violated Sourav Ganguly’s personality rights: Delhi HC Takedown notices to IFF, SFLC, others over RSS ‘defamation’ sent by impostor, not Delhi Police—X to HC ThePrint. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 101
     }
   ]
 }

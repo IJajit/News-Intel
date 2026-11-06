@@ -136,16 +136,32 @@ document.addEventListener('DOMContentLoaded', () => {
   // ─── GENERATE / REFRESH BUTTON ──────────────────────────────
   generateBtn.addEventListener('click', async () => {
     scrollToTop();
-    setLoadingState(true, 'Refreshing feed...');
+    setLoadingState(true, 'Refreshing live feeds...');
     try {
+      // Trigger live refresh on the backend across all feeds
+      try {
+        const refreshController = new AbortController();
+        const refreshTimeout = setTimeout(() => refreshController.abort(), 15000);
+        await fetch('/api/refresh-latest', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          signal: refreshController.signal
+        });
+        clearTimeout(refreshTimeout);
+      } catch (e) {
+        console.warn('Background refresh request completed or timed out:', e);
+      }
+
+      // Invalidate category cache
+      categoryBriefCache = {};
+
       if (activeTab === 'latest') {
-        await loadLatest1Hour(true);
+        await loadLatest1Hour(false);
         showToast('Latest feed refreshed.', 'success');
       } else if (activeTab === 'homepage') {
         const ok = await loadLatestBrief('homepage');
-        if (ok) showToast('Home feed refreshed.', 'success');
+        if (ok) showToast('Home feed refreshed with latest news.', 'success');
       } else if (activeTab === 'reader') {
-        delete categoryBriefCache[activeCategory.toLowerCase()];
         await switchReaderCategory(activeCategory);
         showToast(`${activeCategory.toUpperCase()} feed refreshed.`, 'success');
       } else {
