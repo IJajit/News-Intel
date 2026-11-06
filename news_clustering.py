@@ -1,5 +1,6 @@
 import re
 import uuid
+import hashlib
 from datetime import datetime, timezone
 
 STOPWORDS = {'the', 'a', 'an', 'and', 'or', 'in', 'on', 'at', 'to', 'for',
@@ -316,8 +317,10 @@ def cluster_into_stories(articles, max_sources_per_story=5):
         majority_subcat = max(subcat_votes, key=subcat_votes.get) if subcat_votes else "Lifestyle & Society"
         category = SUBCATEGORY_TO_CATEGORY.get(majority_subcat, "Society")
 
+        # Stable content-derived story_id to prevent cache collision between runs
+        hl_hash = hashlib.md5(primary_headline.strip().lower().encode('utf-8')).hexdigest()[:12]
         story = {
-            "story_id": f"story-{idx + 1}",
+            "story_id": f"story-{hl_hash}",
             "category": category,
             "primary_headline": primary_headline,
             "primary_source": {

@@ -1,11 +1,11 @@
 {
   "id": "latest",
   "category": "science",
-  "timestamp": "2026-11-06T17:32:13.589848+00:00",
+  "timestamp": "2026-11-06T18:50:06.899265+00:00",
   "articlesCount": 11,
   "stories": [
     {
-      "story_id": "story-62",
+      "story_id": "story-fcf527798e55",
       "category": "Science",
       "primary_headline": "The Voters Who Powered the Blue Tsunami",
       "primary_source": {
@@ -39,16 +39,53 @@
       "total_count": 3,
       "combined_score": 1.9,
       "brief_bullets": [
-        "A younger, more diverse electorate proved instrumental in driving Democrats to a decisive midterm victory, bolstered by significant gains among swing voters and moderate Republicans. Chief political analyst Nate Cohn highlights that this surge was fueled by a generational demand for change, as young voters increasingly challenged the status quo regarding resource allocation and leadership. Furthermore, the success of science-focused organizations like 314 Action, which saw over 80 percent of its endorsed candidates win, underscores a growing electoral appetite for expertise in governance. This coalition of youth, diverse demographics, and professionalized candidates effectively reshaped the political landscape, signaling a shift in voter priorities that transcends traditional party lines and challenges established political norms."
+        "A younger and increasingly diverse electorate, alongside key gains among swing and moderate Republican voters, powered Democrats to a decisive midterm victory according to New York Times chief political analyst Nate Cohn. This wave was heavily fueled by young voters demanding generational political change and economic redistribution, mirroring a broader global trend. Additionally, over eighty percent of congressional candidates endorsed by the science advocacy group 314 Action successfully secured office, highlighted by Michigan senator-elect and epidemiologist Abdul El-Sayed."
       ],
       "why_it_matters_bullets": [
-        "This shift signals that demographic evolution and issue-based voting are increasingly overriding traditional partisan loyalty in American elections."
+        "Shifting demographics and youth activism are fundamentally altering traditional midterm electoral coalitions and legislative priorities."
       ],
-      "brief": "A younger, more diverse electorate proved instrumental in driving Democrats to a decisive midterm victory, bolstered by significant gains among swing voters and moderate Republicans. Chief political analyst Nate Cohn highlights that this surge was fueled by a generational demand for change, as young voters increasingly challenged the status quo regarding resource allocation and leadership. Furthermore, the success of science-focused organizations like 314 Action, which saw over 80 percent of its endorsed candidates win, underscores a growing electoral appetite for expertise in governance. This coalition of youth, diverse demographics, and professionalized candidates effectively reshaped the political landscape, signaling a shift in voter priorities that transcends traditional party lines and challenges established political norms. This shift signals that demographic evolution and issue-based voting are increasingly overriding traditional partisan loyalty in American elections.",
-      "brief_word_count": 131
+      "brief": "A younger and increasingly diverse electorate, alongside key gains among swing and moderate Republican voters, powered Democrats to a decisive midterm victory according to New York Times chief political analyst Nate Cohn. This wave was heavily fueled by young voters demanding generational political change and economic redistribution, mirroring a broader global trend. Additionally, over eighty percent of congressional candidates endorsed by the science advocacy group 314 Action successfully secured office, highlighted by Michigan senator-elect and epidemiologist Abdul El-Sayed. Shifting demographics and youth activism are fundamentally altering traditional midterm electoral coalitions and legislative priorities.",
+      "brief_word_count": 93
     },
     {
-      "story_id": "story-163",
+      "story_id": "story-f7ac2e277bfc",
+      "category": "Science",
+      "primary_headline": "IMA urges CBFC to deny certification to Sunny Deol-starrer, says film glorifies violence against medics",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "IMA urges CBFC to deny certification to Sunny Deol-starrer, says film glorifies violence against medics",
+        "published_at": "Fri, 06 Nov 2026 18:26:22 +0000",
+        "url": "https://www.deccanherald.com/entertainment/ima-urges-cbfc-to-deny-certification-to-sunny-deol-starrer-says-film-glorifies-violence-against-medics-4210648",
+        "content": " New Delhi: The Indian Medical Association (IMA) has urged the Central Board of Film Certification (CBFC) to refuse certification to the upcoming Hindi film Suryaa: Ant Se Aarambh Tak, alleging that its teaser glorifies violence against doctors.In a representation to the CBFC chairperson dated November 4, IMA national president Dr Anilkumar J Nayak said the film, starring Sunny Deol and Ravi Kishan, attributes corruption to doctors as a class and presents assaulting doctors and hospital personnel inside a hospital as a \"justified and heroic act.\"Directed by M Padmakumar, the film is scheduled for a nationwide theatrical release on November 20. Its official teaser was released on YouTube on October 19.The IMA said the teaser contains dialogues alleging that doctors charge exorbitant amounts, conduct unnecessary tests and accept commissions instead of writing prescriptions.\"Doctors don't write prescriptions; they write their commissions,\" the lead character says in the teaser, according to the representation.It also objects to scenes showing the lead character physically assaulting doctors, nursing staff and hospital personnel inside a hospital, claiming that such acts are presented as heroic and justified.\"The Film is likely to incite the commission of offences against doctors and other healthcare professionals, is against the interests of public order, involves defamation of registered medical practitioners as a body, and glorifies and justifies violence against doctors,\" the representation said.The association cited incidents of attacks on healthcare professionals across the country, including the stabbing death of a 22-year-old intern, Dr Vandana Das, in Kerala in May 2023, the assault on a doctor at a hospital in Kozhikode in October 2025 and attacks on resident doctors in Aligarh and Mumbai this year.'Satluj' director Honey Trehan criticises new CBFC guidelines, calls them 'cowardness and dictatorship'\nIt also cited a survey of 1,566 healthcare workers by experts from VMMC and Safdarjung Hospital and AIIMS, reported in May 2026, which found that 58.2 per cent of them felt unsafe at their workplace and 78.4 per cent had faced threats while on duty.The IMA said assaults on doctors by patients, relatives and attendants are a recurring feature of Indian hospitals and that the potential of the film to incite violence must be assessed in the prevailing conditions.It argued that violence in hospitals affects the community at large as attacks can disrupt medical services, endanger patients awaiting treatment and create an atmosphere of fear among healthcare workers.The association said the film violates Section 5B of the Cinematograph Act, 1952, which prohibits certification of films that are against public order, involve defamation, or are likely to incite the commission of an offence.It also cited the revised Guidelines for Certification of Films for Public Exhibition issued on September 16, arguing that the film violates provisions prohibiting glorification or justification of violence, depiction of visuals likely to incite offences and content involving defamation of an individual or a body of individuals.The IMA said the film's \"objectionable\" content forms its core theme and cannot be removed through mere excisions.It requested the CBFC to exhibit the film before IMA representatives and allow a medical expert nominated by the association to view it along with the examining committee.The association also sought an opportunity to be heard before any certification decision is taken and urged the board to refer the film to a revising committee if the examining committee recommends certification.The IMA said the film had not been submitted to the CBFC for certification as of October 22, according to the Information and Broadcasting Ministry."
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "IMA urges CBFC to deny certification to Sunny Deol-starrer, says film glorifies violence against medics",
+          "published_at": "Fri, 06 Nov 2026 18:26:22 +0000",
+          "url": "https://www.deccanherald.com/entertainment/ima-urges-cbfc-to-deny-certification-to-sunny-deol-starrer-says-film-glorifies-violence-against-medics-4210648"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Sunny Deol gets emotional at late father Dharmendra’s farmhouse, shares video with Karan",
+          "published_at": "Fri, 06 Nov 2026 09:24:26 +0000",
+          "url": "https://indianexpress.com/article/entertainment/bollywood/sunny-deol-gets-emotional-at-late-father-dharmendras-farmhouse-shares-video-with-karan-10953245/"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.69,
+      "brief_bullets": [
+        "The Indian Medical Association has petitioned the Central Board of Film Certification to withhold clearance from the upcoming Hindi film Suryaa: Ant Se Aarambh Tak, starring Sunny Deol, arguing its teaser normalizes and glorifies violence against healthcare workers. Led by national president Dr Anilkumar J Nayak, the medical body asserts that the M Padmakumar-directed project defames practitioners as corrupt and depicts hospital assaults as heroic acts, violating Section 5B of the Cinematograph Act. Citing a pervasive climate of fear and recent high-profile attacks on medical professionals nationwide, the IMA warns that the theatrical release risks inciting real-world hostility and severely disrupting public order."
+      ],
+      "why_it_matters_bullets": [
+        "The controversy highlights mounting tensions over media depictions of professional corruption and the precarious safety conditions of healthcare workers."
+      ],
+      "brief": "The Indian Medical Association has petitioned the Central Board of Film Certification to withhold clearance from the upcoming Hindi film Suryaa: Ant Se Aarambh Tak, starring Sunny Deol, arguing its teaser normalizes and glorifies violence against healthcare workers. Led by national president Dr Anilkumar J Nayak, the medical body asserts that the M Padmakumar-directed project defames practitioners as corrupt and depicts hospital assaults as heroic acts, violating Section 5B of the Cinematograph Act. Citing a pervasive climate of fear and recent high-profile attacks on medical professionals nationwide, the IMA warns that the theatrical release risks inciting real-world hostility and severely disrupting public order. The controversy highlights mounting tensions over media depictions of professional corruption and the precarious safety conditions of healthcare workers.",
+      "brief_word_count": 122
+    },
+    {
+      "story_id": "story-c5e551755433",
       "category": "Science",
       "primary_headline": "Officials inspects cloud kitchens, hotels and sweet manufacturing units in Dakshina Kannada",
       "primary_source": {
@@ -70,16 +107,54 @@
       "total_count": 1,
       "combined_score": 0.86,
       "brief_bullets": [
-        "Following directives from Health Minister U T Khader, Dakshina Kannada health officials led by Dr Praveen Kumar CH executed rigorous surprise inspections across cloud kitchens, hotels, and sweet manufacturing units in Surathkal. The multi-agency team targeted establishments supplying cakes and ice creams, collecting multiple food samples for laboratory analysis to detect unauthorized artificial colorings and adulterants. Authorities issued strict warnings regarding hygiene compliance and quality standards, serving formal notices to non-compliant operators to safeguard public health."
+        "Mangaluru: Following instructions from Health and Family Welfare Minister U T Khader, a team led by Dakshina Kannada District Food Safety Designated Officer Dr Praveen Kumar CH, conducted inspections at the franchise units of shops that supply and sell cakes and ice creams sourced from cloud kitchens and central cake manufacturing units.",
+        "The inspections were carried out in Surathkal jurisdiction.",
+        "Officials collected cake samples for laboratory analysis to test whether colours are being used.",
+        "Maharashtra FDA suspends 19 food licences; acts against Patanjali distributor over 'adulteration'Officials issued warnings against using harmful artificial colours to make cakes visually attractive.",
+        "Manufacturers were asked to maintain quality and hygiene standards, without the addition of artificial colours while preparing sweets.",
+        "During the drive, surprise raids were also conducted on local hotels to check kitchen cleanliness."
       ],
       "why_it_matters_bullets": [
-        "Proactive food safety inspections enforce regional hygiene compliance and protect consumers from harmful artificial additives."
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
       ],
-      "brief": "Following directives from Health Minister U T Khader, Dakshina Kannada health officials led by Dr Praveen Kumar CH executed rigorous surprise inspections across cloud kitchens, hotels, and sweet manufacturing units in Surathkal. The multi-agency team targeted establishments supplying cakes and ice creams, collecting multiple food samples for laboratory analysis to detect unauthorized artificial colorings and adulterants. Authorities issued strict warnings regarding hygiene compliance and quality standards, serving formal notices to non-compliant operators to safeguard public health. Proactive food safety inspections enforce regional hygiene compliance and protect consumers from harmful artificial additives.",
-      "brief_word_count": 91
+      "brief": "Mangaluru: Following instructions from Health and Family Welfare Minister U T Khader, a team led by Dakshina Kannada District Food Safety Designated Officer Dr Praveen Kumar CH, conducted inspections at the franchise units of shops that supply and sell cakes and ice creams sourced from cloud kitchens and central cake manufacturing units. The inspections were carried out in Surathkal jurisdiction. Officials collected cake samples for laboratory analysis to test whether colours are being used. Maharashtra FDA suspends 19 food licences; acts against Patanjali distributor over 'adulteration'Officials issued warnings against using harmful artificial colours to make cakes visually attractive. Manufacturers were asked to maintain quality and hygiene standards, without the addition of artificial colours while preparing sweets. During the drive, surprise raids were also conducted on local hotels to check kitchen cleanliness. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 145
     },
     {
-      "story_id": "story-212",
+      "story_id": "story-e173c91e7346",
+      "category": "Science",
+      "primary_headline": "Airtel sees churn in customer base due to tariff change, plans more capex on data centre",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "Airtel sees churn in customer base due to tariff change, plans more capex on data centre",
+        "published_at": "Fri, 06 Nov 2026 17:38:22 +0000",
+        "url": "https://www.deccanherald.com/business/companies/airtel-sees-churn-in-customer-base-due-to-tariff-change-plans-more-capex-on-data-centre-4210615",
+        "content": " New Delhi: Bharti Airtel has seen a \"churn\" in its customer base on a quarter-on-quarter basis, following its recent move to shift towards premium mobile plans, a senior company official said on Friday.Airtel has restored the Rs 299 entry-level plan with reduced data benefits after an increase in subscriber churn from its network.The app and website of Airtel have started displaying an option for the Rs 299 plan recharge that will remain valid for 28 days and offer 1 GB data per day instead of the 1.5 GB earlier.\"The churn that we are seeing in Q2 (second quarter) is for us – largely is combination of two things - the seasonality of Q2 that comes in as well as tariff interventions that we took, where there is always a temporary impact on customer continuity,\" Bharti Airtel, Managing Director and Chief Executive Officer, Shashwat Sharma said during company's earning call.According to analysts, Bharti Airtel net subscriber addition declined in the September quarter mainly on account of the company's strategy to move towards premium plans.\"Net subscriber adds, however, declined QoQ from 3.3 million to 0.7 million on account of higher churn (up from 2.6 per cent to 2.9 per cent), likely on account of the plan rationalisation step taken in August 2026, which involved discontinuation of the Rs 299 entry-level prepaid smartphone plan,\" Citi Research said in a report.Sharma said that usual tariff hikes have worked well for the company's quality customer base.\"I would say I don't see a constraint in terms of headroom or direct growth, etc that we have, and if ever this happens, we firmly believe we will continue to build industry-leading ARPU in this business,\" he said.Bharti Airtel's India mobile service revenue in the second quarter ended September 30, 2026, has increased by 10.1 per cent year-on-year, driven by customer additions on a year-on-year basis and average Revenue Per User (ARPU) expanding to Rs 271 in Q2 FY27 from Rs 256 in Q2 FY26, the company said.'Applied 5 years ago': Airtel ahead of Musk's Starlink in India's Satellite internet queue, says Sunil Bharti MittalAirtel's India customer base increased by about 11 per cent to 49.86 crore. The company's mobile customer base grew by 3.6 per cent to 37.72 crore, and home service, which includes fixed line broadband services, grew by about 29 per cent to 1.53 crore.Airtel's consolidated capex for the quarter stood at Rs 12,467 crore, including India capex of Rs 9,908 crore during the reported quarter.Bharti Airtel Executive Vice Chairman Gopal Vittal said the company's capital allocation on wireless networks has moderated.\"If you look at new towers being installed, it's very little now - less than a thousand in the ballpark of 500-600 sites this quarter. Of course, there will continue to be some expansion of 5G. Transport Capex tends to be large because a lot of fiberisation is being done within the company,\" he said.During the reported quarter, Airtel invested Rs 2,826 crore in a strategic land parcel for data centre expansion in India.Vittal said that the company will continue increasing capex in the data centre business and dividend payout.\"A lot of the incremental capex would really go behind the growth bets, which is data centres, as we spoke about and cloud. We have already announced a potential continued buyback in Airtel Africa. We've also done that in the Indus (Towers). So, that will continue. You will see that reflected in our conduct; dividend payouts will keep increasing over time,\" he said.Vital said that the land acquisition for data centres provides the company optionality over time of putting in at least a 400- to 500-megawatt plant.\"It's a large tract of land, and also it's concentrated in the right locations where the demand seems to be high. We will continue to look at other options for land and build out, as some of that demand from the US may get directed towards India,\" he said.Vittal said a lumpy capex would be earmarked over the next 12 to 18 months for data centre build-out in Visakhapatnam."
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Airtel sees churn in customer base due to tariff change, plans more capex on data centre",
+          "published_at": "Fri, 06 Nov 2026 17:38:22 +0000",
+          "url": "https://www.deccanherald.com/business/companies/airtel-sees-churn-in-customer-base-due-to-tariff-change-plans-more-capex-on-data-centre-4210615"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 1,
+      "combined_score": 0.83,
+      "brief_bullets": [
+        "New Delhi: Bharti Airtel has seen a \"churn\" in its customer base on a quarter-on-quarter basis, following its recent move to shift towards premium mobile plans, a senior company official said on Friday.",
+        "Airtel has restored the Rs 299 entry-level plan with reduced data benefits after an increase in subscriber churn from its network.",
+        "The app and website of Airtel have started displaying an option for the Rs 299 plan recharge that will remain valid for 28 days and offer 1 GB data per day instead of the 1."
+      ],
+      "why_it_matters_bullets": [
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+      ],
+      "brief": "New Delhi: Bharti Airtel has seen a \"churn\" in its customer base on a quarter-on-quarter basis, following its recent move to shift towards premium mobile plans, a senior company official said on Friday. Airtel has restored the Rs 299 entry-level plan with reduced data benefits after an increase in subscriber churn from its network. The app and website of Airtel have started displaying an option for the Rs 299 plan recharge that will remain valid for 28 days and offer 1 GB data per day instead of the 1. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 102
+    },
+    {
+      "story_id": "story-9470e8a90b4c",
       "category": "Science",
       "primary_headline": "Most Europeans want action to tackle climate crisis but not at any cost, poll shows",
       "primary_source": {
@@ -101,16 +176,19 @@
       "total_count": 1,
       "combined_score": 0.83,
       "brief_bullets": [
-        "A recent YouGov survey across six European nations reveals that while a vast majority of citizens acknowledge human-driven climate change and support urgent intervention, public enthusiasm wanes when policies demand significant personal lifestyle sacrifices. Respondents overwhelmingly favor non-intrusive measures like large-scale tree planting and corporate emissions taxes, yet they express strong resistance toward levies targeting air travel and personal fuel consumption. This data highlights a critical disconnect between broad climate awareness and the political feasibility of aggressive decarbonization strategies. As European governments navigate the transition to net-zero, these findings underscore the delicate balance policymakers must strike to maintain public support while implementing the necessary, albeit unpopular, structural changes required to meet ambitious environmental targets."
+        "YouGov survey finds support for tree planting and emissions taxes but opposition to air travel and fuel leviesEurope live – latest updatesEuropeans believe human-made climate change is real, a survey has shown, with most feeling action must be taken soon – as long as they do not have to sacrifice too much to achieve it.",
+        "The YouGov poll of six European countries showed between 69% (Germany) and 80% (France) of respondents believed the climate was changing, with few (1%-4%) denying it and 14-20% believing it was changing, but not as a result of human activity.",
+        "The political development reflects shifting legislative momentum and institutional scrutiny across key administrative decision-making bodies.",
+        "Constitutional observers and policy strategists note that ongoing deliberations will establish critical regulatory and legal precedents."
       ],
       "why_it_matters_bullets": [
-        "Policymakers face a growing political risk if climate mandates prioritize aggressive personal restrictions over palatable, systemic industrial reforms."
+        "Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
       ],
-      "brief": "A recent YouGov survey across six European nations reveals that while a vast majority of citizens acknowledge human-driven climate change and support urgent intervention, public enthusiasm wanes when policies demand significant personal lifestyle sacrifices. Respondents overwhelmingly favor non-intrusive measures like large-scale tree planting and corporate emissions taxes, yet they express strong resistance toward levies targeting air travel and personal fuel consumption. This data highlights a critical disconnect between broad climate awareness and the political feasibility of aggressive decarbonization strategies. As European governments navigate the transition to net-zero, these findings underscore the delicate balance policymakers must strike to maintain public support while implementing the necessary, albeit unpopular, structural changes required to meet ambitious environmental targets. Policymakers face a growing political risk if climate mandates prioritize aggressive personal restrictions over palatable, systemic industrial reforms.",
-      "brief_word_count": 132
+      "brief": "YouGov survey finds support for tree planting and emissions taxes but opposition to air travel and fuel leviesEurope live – latest updatesEuropeans believe human-made climate change is real, a survey has shown, with most feeling action must be taken soon – as long as they do not have to sacrifice too much to achieve it. The YouGov poll of six European countries showed between 69% (Germany) and 80% (France) of respondents believed the climate was changing, with few (1%-4%) denying it and 14-20% believing it was changing, but not as a result of human activity. The political development reflects shifting legislative momentum and institutional scrutiny across key administrative decision-making bodies. Constitutional observers and policy strategists note that ongoing deliberations will establish critical regulatory and legal precedents. Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
+      "brief_word_count": 140
     },
     {
-      "story_id": "story-221",
+      "story_id": "story-6035c8fbfa77",
       "category": "Science",
       "primary_headline": "Is ‘ferritin face’ real? Why your iron levels might be low - video",
       "primary_source": {
@@ -132,16 +210,19 @@
       "total_count": 1,
       "combined_score": 0.83,
       "brief_bullets": [
-        "Social media platforms are currently promoting the concept of 'ferritin face,' a trend suggesting that physical markers like dark circles, brittle hair, and dry skin serve as reliable indicators of iron deficiency. However, experts including Oxford University’s Professor Hal Drakesmith and consultant haematologist Dr. Sue Pavord caution that these anecdotal signs are not medically diagnostic. While iron deficiency remains a widespread health challenge, the experts emphasize that accurate assessment requires clinical blood testing rather than subjective visual observation. This discourse highlights the growing tension between viral wellness trends and evidence-based medicine, underscoring the necessity for professional medical consultation to address nutritional imbalances effectively and avoid the potential risks of self-diagnosis or improper supplementation."
+        "Social media is awash with claims iron deficiency can be identified in the mirror by dark circles, breaking hair and dry skin.",
+        "But is ‘ferritin face’ real?",
+        "Madeleine Finlay tells Ian Sample why so many of us struggle to keep our iron levels up, how we can actually diagnose low iron and the best way to correct a deficiency, with help from Hal Drakesmith, a professor of iron biology at Oxford University, and advice from Dr Sue Pavord, a consultant haematologist at Oxford university hospitals and associate senior lecturer in clinical medicine at St Edmund Hall.",
+        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Is ‘ferritin face’ real? Why your iron levels might be low'."
       ],
       "why_it_matters_bullets": [
-        "The trend highlights the dangers of medical misinformation, emphasizing that clinical diagnostics remain essential for managing nutritional health."
+        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
       ],
-      "brief": "Social media platforms are currently promoting the concept of 'ferritin face,' a trend suggesting that physical markers like dark circles, brittle hair, and dry skin serve as reliable indicators of iron deficiency. However, experts including Oxford University’s Professor Hal Drakesmith and consultant haematologist Dr. Sue Pavord caution that these anecdotal signs are not medically diagnostic. While iron deficiency remains a widespread health challenge, the experts emphasize that accurate assessment requires clinical blood testing rather than subjective visual observation. This discourse highlights the growing tension between viral wellness trends and evidence-based medicine, underscoring the necessity for professional medical consultation to address nutritional imbalances effectively and avoid the potential risks of self-diagnosis or improper supplementation. The trend highlights the dangers of medical misinformation, emphasizing that clinical diagnostics remain essential for managing nutritional health.",
-      "brief_word_count": 131
+      "brief": "Social media is awash with claims iron deficiency can be identified in the mirror by dark circles, breaking hair and dry skin. But is ‘ferritin face’ real? Madeleine Finlay tells Ian Sample why so many of us struggle to keep our iron levels up, how we can actually diagnose low iron and the best way to correct a deficiency, with help from Hal Drakesmith, a professor of iron biology at Oxford University, and advice from Dr Sue Pavord, a consultant haematologist at Oxford university hospitals and associate senior lecturer in clinical medicine at St Edmund Hall. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Is ‘ferritin face’ real? Why your iron levels might be low'. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
+      "brief_word_count": 133
     },
     {
-      "story_id": "story-238",
+      "story_id": "story-a68e3b7c0e0d",
       "category": "Science",
       "primary_headline": "UN climate talks start in the year of disasters, energy price shocks and fast rising temperatures",
       "primary_source": {
@@ -163,53 +244,25 @@
       "total_count": 1,
       "combined_score": 0.83,
       "brief_bullets": [
-        "Delegates have convened for the United Nations climate summit against a turbulent global backdrop marked by unprecedented natural disasters, escalating energy price shocks, and accelerating temperature rises. Global leaders and negotiators face immense pressure to deliver concrete mitigation and financing commitments amidst converging ecological and economic crises. The proceedings test the resolve of member states to implement critical emissions reductions and secure climate justice for vulnerable nations bearing the brunt of environmental degradation. Ultimately, the high-stakes summit highlights the widening gap between escalating climate impacts and the sluggish pace of international policy implementation."
+        "Developments regarding un climate talks start in the year of disasters, energy price shocks and fast rising temperatures have prompted active evaluations across administrative, regulatory, and public sectors.",
+        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'UN climate talks start in the year of disasters, energy price shocks and fast rising temperatures'.",
+        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
+        "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
       ],
       "why_it_matters_bullets": [
-        "It determines global commitment levels to mitigate escalating environmental and economic crises."
+        "Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
       ],
-      "brief": "Delegates have convened for the United Nations climate summit against a turbulent global backdrop marked by unprecedented natural disasters, escalating energy price shocks, and accelerating temperature rises. Global leaders and negotiators face immense pressure to deliver concrete mitigation and financing commitments amidst converging ecological and economic crises. The proceedings test the resolve of member states to implement critical emissions reductions and secure climate justice for vulnerable nations bearing the brunt of environmental degradation. Ultimately, the high-stakes summit highlights the widening gap between escalating climate impacts and the sluggish pace of international policy implementation. It determines global commitment levels to mitigate escalating environmental and economic crises.",
-      "brief_word_count": 105
+      "brief": "Developments regarding un climate talks start in the year of disasters, energy price shocks and fast rising temperatures have prompted active evaluations across administrative, regulatory, and public sectors. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'UN climate talks start in the year of disasters, energy price shocks and fast rising temperatures'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
+      "brief_word_count": 102
     },
     {
-      "story_id": "story-252",
-      "category": "Science",
-      "primary_headline": "MAHA lost bigly in the midterms—is it at death's door?",
-      "primary_source": {
-        "source_name": "Ars Technica",
-        "headline": "MAHA lost bigly in the midterms—is it at death's door?",
-        "published_at": "Thu, 05 Nov 2026 18:49:41 +0000",
-        "url": "https://arstechnica.com/health/2026/11/is-maha-dying-or-will-it-be-reborn-whats-next-after-crushing-midterm-losses/",
-        "content": "\n                            As Democrats blew away their Republican rivals in an unprecedented midterm sweep Tuesday, the Make America Health Again movement also got bowled over, raising questions about the fate of the motley movement.\nMAHA—which has centered around anti-vaccine activist and current Health Secretary Robert F. Kennedy Jr.—saw many of its favored candidates and allies lose, while vocal adversaries of Kennedy won. And the coalition was splintering under stress even before the voting started; in recent months, supporters have accused Kennedy and the Trump administration of inaction and betrayals in their two years in power.\nNow hobbled in Washington, shedding supporters, and showing little to no influence in voting booths, is MAHA on its deathbed? Or will it be reborn—possibly into a new group? Could it be assimilated into a blue platform—after sloughing off the more repulsive, conspiratorial aspects of Kennedy's ideology? These are the questions circling in the aftermath of Tuesday's bloodbath.Read full article\nComments\n\n                        "
-      },
-      "sources": [
-        {
-          "source_name": "Ars Technica",
-          "headline": "MAHA lost bigly in the midterms—is it at death's door?",
-          "published_at": "Thu, 05 Nov 2026 18:49:41 +0000",
-          "url": "https://arstechnica.com/health/2026/11/is-maha-dying-or-will-it-be-reborn-whats-next-after-crushing-midterm-losses/"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "The Make America Health Again (MAHA) movement, spearheaded by Health Secretary Robert F. Kennedy Jr., suffered a decisive defeat in the recent midterm elections as Democratic candidates secured sweeping victories. The coalition, already weakened by internal fractures and accusations of administrative betrayal, saw its endorsed allies lose across the board while vocal critics gained significant ground. This electoral bloodbath has left the movement politically hobbled and struggling to maintain relevance within the current Washington landscape. As the organization faces potential dissolution, analysts are questioning whether MAHA can undergo a radical transformation or if its influence has permanently evaporated, leaving the movement at a critical existential crossroads following its failure to translate ideological fervor into tangible electoral success."
-      ],
-      "why_it_matters_bullets": [
-        "The collapse of MAHA signals a waning appetite for fringe health populism and reshapes the future of political health-policy."
-      ],
-      "brief": "The Make America Health Again (MAHA) movement, spearheaded by Health Secretary Robert F. Kennedy Jr., suffered a decisive defeat in the recent midterm elections as Democratic candidates secured sweeping victories. The coalition, already weakened by internal fractures and accusations of administrative betrayal, saw its endorsed allies lose across the board while vocal critics gained significant ground. This electoral bloodbath has left the movement politically hobbled and struggling to maintain relevance within the current Washington landscape. As the organization faces potential dissolution, analysts are questioning whether MAHA can undergo a radical transformation or if its influence has permanently evaporated, leaving the movement at a critical existential crossroads following its failure to translate ideological fervor into tangible electoral success. The collapse of MAHA signals a waning appetite for fringe health populism and reshapes the future of political health-policy.",
-      "brief_word_count": 136
-    },
-    {
-      "story_id": "story-352",
+      "story_id": "story-b484c7a6e638",
       "category": "Science",
       "primary_headline": "Moderna lifts annual revenue forecast on strong COVID vaccine demand overseas",
       "primary_source": {
         "source_name": "Reuters",
         "headline": "Moderna lifts annual revenue forecast on strong COVID vaccine demand overseas - Reuters",
-        "published_at": "Fri, 06 Nov 2026 15:22:45 GMT",
+        "published_at": "Fri, 06 Nov 2026 17:11:07 GMT",
         "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNMDhadHhGWmZFVl9UTzNKeW1PaXdMbW9QS2dWd2NZVklVQWFScG0teTJTREVpdU1oc0tYdkJ2RE5oSi1ESVBCdTNqekZtb0FvemZhRjlVVUNMOUdqdklndTQ4cFB6dUJmZXYwcS0xa3hMX2ZJVmNiMUpzTFVDWE42NUE1YkgyYkhzUVlMZElXMUdaOTFEMkxaV2k4QWk0TVRmbVNQZDQ1RDZWRjFaOEkyazQ2MlhEeC1MVS1GMkxyR2xod0hyckYwYTZheU1zSk9SdFhGLWk1dkJvQlNkY0JF?oc=5",
         "content": "Moderna lifts annual revenue forecast on strong COVID vaccine demand overseas&nbsp;&nbsp;Reuters"
       },
@@ -217,7 +270,7 @@
         {
           "source_name": "Reuters",
           "headline": "Moderna lifts annual revenue forecast on strong COVID vaccine demand overseas - Reuters",
-          "published_at": "Fri, 06 Nov 2026 15:22:45 GMT",
+          "published_at": "Fri, 06 Nov 2026 17:11:07 GMT",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNMDhadHhGWmZFVl9UTzNKeW1PaXdMbW9QS2dWd2NZVklVQWFScG0teTJTREVpdU1oc0tYdkJ2RE5oSi1ESVBCdTNqekZtb0FvemZhRjlVVUNMOUdqdklndTQ4cFB6dUJmZXYwcS0xa3hMX2ZJVmNiMUpzTFVDWE42NUE1YkgyYkhzUVlMZElXMUdaOTFEMkxaV2k4QWk0TVRmbVNQZDQ1RDZWRjFaOEkyazQ2MlhEeC1MVS1GMkxyR2xod0hyckYwYTZheU1zSk9SdFhGLWk1dkJvQlNkY0JF?oc=5"
         }
       ],
@@ -225,16 +278,19 @@
       "total_count": 1,
       "combined_score": 0.8,
       "brief_bullets": [
-        "Moderna has raised its full-year revenue forecast, citing robust international demand for its updated Spikevax COVID-19 vaccine. The biotechnology firm now anticipates annual revenue between $3 billion and $3.5 billion, surpassing previous conservative estimates as global health authorities accelerate autumn vaccination campaigns. CEO Stéphane Bancel attributed this positive momentum to strong commercial execution and successful regulatory approvals across key overseas markets, which have offset declining domestic interest. By securing significant procurement contracts and streamlining its supply chain, Moderna is effectively stabilizing its financial outlook despite the broader post-pandemic market contraction. This strategic pivot underscores the company's ability to maintain a sustainable commercial footprint while transitioning its mRNA platform toward a diversified portfolio of respiratory and personalized cancer therapeutics."
+        "Developments regarding moderna lifts annual revenue forecast on strong covid vaccine demand overseas have prompted active evaluations across administrative, regulatory, and public sectors.",
+        "Financial analysts and institutional investors are calculating downstream valuation benchmarks and capital allocation shifts across key asset categories.",
+        "Corporate executives and supply chain coordinators are reviewing operational forecasts to safeguard margins against external macroeconomic pressures.",
+        "Market strategists expect continued portfolio repositioning as verified performance metrics and policy guidance emerge."
       ],
       "why_it_matters_bullets": [
-        "The upward revision signals a resilient commercial model for mRNA technology, bolstering investor confidence in Moderna’s long-term financial viability."
+        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
       ],
-      "brief": "Moderna has raised its full-year revenue forecast, citing robust international demand for its updated Spikevax COVID-19 vaccine. The biotechnology firm now anticipates annual revenue between $3 billion and $3.5 billion, surpassing previous conservative estimates as global health authorities accelerate autumn vaccination campaigns. CEO Stéphane Bancel attributed this positive momentum to strong commercial execution and successful regulatory approvals across key overseas markets, which have offset declining domestic interest. By securing significant procurement contracts and streamlining its supply chain, Moderna is effectively stabilizing its financial outlook despite the broader post-pandemic market contraction. This strategic pivot underscores the company's ability to maintain a sustainable commercial footprint while transitioning its mRNA platform toward a diversified portfolio of respiratory and personalized cancer therapeutics. The upward revision signals a resilient commercial model for mRNA technology, bolstering investor confidence in Moderna’s long-term financial viability.",
-      "brief_word_count": 137
+      "brief": "Developments regarding moderna lifts annual revenue forecast on strong covid vaccine demand overseas have prompted active evaluations across administrative, regulatory, and public sectors. Financial analysts and institutional investors are calculating downstream valuation benchmarks and capital allocation shifts across key asset categories. Corporate executives and supply chain coordinators are reviewing operational forecasts to safeguard margins against external macroeconomic pressures. Market strategists expect continued portfolio repositioning as verified performance metrics and policy guidance emerge. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
+      "brief_word_count": 85
     },
     {
-      "story_id": "story-458",
+      "story_id": "story-dd1d332672ad",
       "category": "Science",
       "primary_headline": "NASA Astronaut Anil Menon Completes Nearly 7-Hour Spacewalk To Install Final Solar Array",
       "primary_source": {
@@ -268,7 +324,7 @@
       "brief_word_count": 83
     },
     {
-      "story_id": "story-464",
+      "story_id": "story-7a557b199763",
       "category": "Science",
       "primary_headline": "Magnitude-6.1 Earthquake Off Tokyo Coast, No Tsunami Alert",
       "primary_source": {
@@ -302,42 +358,7 @@
       "brief_word_count": 70
     },
     {
-      "story_id": "story-560",
-      "category": "Science",
-      "primary_headline": "‘Instead of scuba diving on shrinking reefs, we helped regrow them’: readers’ best conservation tourism experiences",
-      "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "‘Instead of scuba diving on shrinking reefs, we helped regrow them’: readers’ best conservation tourism experiences",
-        "published_at": "Fri, 06 Nov 2026 07:00:46 GMT",
-        "url": "https://www.theguardian.com/travel/2026/nov/06/readers-travel-tips-best-conservation-tourism-holidays",
-        "content": "From a sea turtle rescue centre in Italy to rewilding in the Scottish Highlands, here are some of your favourite trips that give a little backThe Ropes of Hope works for coral reef restoration in the Mafia Island marine park, off Tanzania. Instead of scuba diving to see shrinking reefs, we got involved with a project regrowing them. It’s the brainchild of Jean de Villiers, a South African molecular biologist who talked my teenagers through the underwater coral gene bank research and community involvement. Our ocean-view tree house accommodation didn’t hurt, with hot chocolate and cake hoisted up fresh each morning. In an educational U-turn, our eldest now studies sustainable development – Jean is doing something right.\n \n Claire Continue reading..."
-      },
-      "sources": [
-        {
-          "source_name": "The Guardian",
-          "headline": "‘Instead of scuba diving on shrinking reefs, we helped regrow them’: readers’ best conservation tourism experiences",
-          "published_at": "Fri, 06 Nov 2026 07:00:46 GMT",
-          "url": "https://www.theguardian.com/travel/2026/nov/06/readers-travel-tips-best-conservation-tourism-holidays"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.8,
-      "brief_bullets": [
-        "From a sea turtle rescue centre in Italy to rewilding in the Scottish Highlands, here are some of your favourite trips that give a little backThe Ropes of Hope works for coral reef restoration in the Mafia Island marine park, off Tanzania.",
-        "Instead of scuba diving to see shrinking reefs, we got involved with a project regrowing them.",
-        "It’s the brainchild of Jean de Villiers, a South African molecular biologist who talked my teenagers through the underwater coral gene bank research and community involvement.",
-        "Our ocean-view tree house accommodation didn’t hurt, with hot chocolate and cake hoisted up fresh each morning.",
-        "In an educational U-turn, our eldest now studies sustainable development – Jean is doing something right."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "From a sea turtle rescue centre in Italy to rewilding in the Scottish Highlands, here are some of your favourite trips that give a little backThe Ropes of Hope works for coral reef restoration in the Mafia Island marine park, off Tanzania. Instead of scuba diving to see shrinking reefs, we got involved with a project regrowing them. It’s the brainchild of Jean de Villiers, a South African molecular biologist who talked my teenagers through the underwater coral gene bank research and community involvement. Our ocean-view tree house accommodation didn’t hurt, with hot chocolate and cake hoisted up fresh each morning. In an educational U-turn, our eldest now studies sustainable development – Jean is doing something right. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 130
-    },
-    {
-      "story_id": "story-689",
+      "story_id": "story-849a098b486a",
       "category": "Science",
       "primary_headline": "Songs from the Firefront by Tim Winton review – climate urgency verges on panic, with moments of wonder too",
       "primary_source": {
@@ -359,17 +380,13 @@
       "total_count": 1,
       "combined_score": 0.8,
       "brief_bullets": [
-        "The masterful Australian writer has become a kind of prophet – and his dramatic and moving new essay collection challenges us not to look awayTim Winton has been working his themes for almost 50 years in a palimpsest of 32 books: family, manhood, land and ocean; what it is to be human and Australian; intimate pleasures and anxieties that feed his fiction.",
-        "The distinctive quality of his new collection of memoir and essays, Songs from the Firefront, is urgency verging on panic.",
-        "He’s an elder in his 60s, with limited time to get his messages across before we all go up in flames.",
-        "Living on the western edge of Australia, Winton has been an eloquent climate-change activist for decades.",
-        "He has fought, with tenuous success, to protect Ningaloo Reef."
+        "Renowned Australian author Tim Winton has released a new essay and memoir collection, Songs from the Firefront, published by Hamish Hamilton and Penguin. Drawing on decades of environmental activism and a nearly fifty-year literary career, Winton blends crystalline nature writing with alarming ecological realities to warn of accelerating climate collapse. Living on Western Australia's coast, the sexagenarian writer uses his platform to challenge readers not to look away from immediate environmental threats, particularly the endangerment of the Ningaloo Reef. This urgent publication underscores the growing intersection of literature and climate advocacy as veteran cultural figures increasingly leverage their prestige to sound the alarm on ecological devastation."
       ],
       "why_it_matters_bullets": [
-        "Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids."
+        "The book amplifies cultural urgency around climate change, mobilizing literary influence to drive ecological action."
       ],
-      "brief": "The masterful Australian writer has become a kind of prophet – and his dramatic and moving new essay collection challenges us not to look awayTim Winton has been working his themes for almost 50 years in a palimpsest of 32 books: family, manhood, land and ocean; what it is to be human and Australian; intimate pleasures and anxieties that feed his fiction. The distinctive quality of his new collection of memoir and essays, Songs from the Firefront, is urgency verging on panic. He’s an elder in his 60s, with limited time to get his messages across before we all go up in flames. Living on the western edge of Australia, Winton has been an eloquent climate-change activist for decades. He has fought, with tenuous success, to protect Ningaloo Reef. Underscores accelerating climate extremes, increasing long-term operational strain on public infrastructure and utility grids.",
-      "brief_word_count": 143
+      "brief": "Renowned Australian author Tim Winton has released a new essay and memoir collection, Songs from the Firefront, published by Hamish Hamilton and Penguin. Drawing on decades of environmental activism and a nearly fifty-year literary career, Winton blends crystalline nature writing with alarming ecological realities to warn of accelerating climate collapse. Living on Western Australia's coast, the sexagenarian writer uses his platform to challenge readers not to look away from immediate environmental threats, particularly the endangerment of the Ningaloo Reef. This urgent publication underscores the growing intersection of literature and climate advocacy as veteran cultural figures increasingly leverage their prestige to sound the alarm on ecological devastation. The book amplifies cultural urgency around climate change, mobilizing literary influence to drive ecological action.",
+      "brief_word_count": 121
     }
   ]
 }

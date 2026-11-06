@@ -1,129 +1,239 @@
 {
   "id": "latest",
   "category": "finance",
-  "timestamp": "2026-11-06T17:32:13.589848+00:00",
+  "timestamp": "2026-11-06T18:50:06.899265+00:00",
   "articlesCount": 20,
   "stories": [
     {
-      "story_id": "story-1",
+      "story_id": "story-009874f339ac",
       "category": "Finance",
-      "primary_headline": "Democrats planning flood of AI bills when they take control of Congress",
+      "primary_headline": "South Korea stocks plunge as US midterm results spark AI selloff",
       "primary_source": {
         "source_name": "Reuters",
-        "headline": "Democrats planning flood of AI bills when they take control of Congress - Reuters",
-        "published_at": "Fri, 06 Nov 2026 16:52:32 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSW1qclJEWjVTQTNNU0hWWndTVFlOWFpNY1RqQ1I5Z0F2anRxTE5IQnlTTDhjeU9uUGV2anlLaVBfMFdPc0k5eDJVTVk4VTlVbnVZX0VwVnBEMnhHX19fTGRvX2NrQnNJeGN5MzBBaXBLb3d3Y25JdHpjSXFQMENoa01vNk0yLXVLRVBGZjlHLVFuUmI0QWp5aFBBRzRUSDdNMkpCQ1lJVExIei0zVFFiY0x2eVBPcFJ3d2NCeGN6REF0dw?oc=5",
-        "content": "Democrats planning flood of AI bills when they take control of Congress&nbsp;&nbsp;Reuters"
+        "headline": "South Korea stocks plunge as US midterm results spark AI selloff - Reuters",
+        "published_at": "Fri, 06 Nov 2026 01:01:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUXFPZWJ0ekg2Mnl6b3ZEMDRpRzJON3M1b3FnWlpsbVZSSlpnMDR1YXJFWG0zMmROd0NybFRLWXdtcjdQWm1hckFsTE15d2FoY0hnMGZsMjctbnc1VjFCZ09uUWhDbVpGOUtmQmU4UEhLNmtINHZjbTA4cXZPSmpqTFM3TEptUUU4clROU0xCc3QtM3NNbThZOHMxU1lqU1I4Y3EzRnRnY1hqUFpwUTJWcWcxQWhJNVh2VER2dGtzZUxxSmJSeXc?oc=5",
+        "content": "South Korea stocks plunge as US midterm results spark AI selloff&nbsp;&nbsp;Reuters"
       },
       "sources": [
         {
           "source_name": "Reuters",
-          "headline": "Democrats planning flood of AI bills when they take control of Congress - Reuters",
-          "published_at": "Fri, 06 Nov 2026 16:52:32 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSW1qclJEWjVTQTNNU0hWWndTVFlOWFpNY1RqQ1I5Z0F2anRxTE5IQnlTTDhjeU9uUGV2anlLaVBfMFdPc0k5eDJVTVk4VTlVbnVZX0VwVnBEMnhHX19fTGRvX2NrQnNJeGN5MzBBaXBLb3d3Y25JdHpjSXFQMENoa01vNk0yLXVLRVBGZjlHLVFuUmI0QWp5aFBBRzRUSDdNMkpCQ1lJVExIei0zVFFiY0x2eVBPcFJ3d2NCeGN6REF0dw?oc=5"
+          "headline": "South Korea stocks plunge as US midterm results spark AI selloff - Reuters",
+          "published_at": "Fri, 06 Nov 2026 01:01:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUXFPZWJ0ekg2Mnl6b3ZEMDRpRzJON3M1b3FnWlpsbVZSSlpnMDR1YXJFWG0zMmROd0NybFRLWXdtcjdQWm1hckFsTE15d2FoY0hnMGZsMjctbnc1VjFCZ09uUWhDbVpGOUtmQmU4UEhLNmtINHZjbTA4cXZPSmpqTFM3TEptUUU4clROU0xCc3QtM3NNbThZOHMxU1lqU1I4Y3EzRnRnY1hqUFpwUTJWcWcxQWhJNVh2VER2dGtzZUxxSmJSeXc?oc=5"
         },
         {
-          "source_name": "AP News",
-          "headline": "As Congress returns to Democrats, one likely casualty emerges: Trump's District of Columbia projects - AP News",
-          "published_at": "Fri, 06 Nov 2026 14:29:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRUhMSnFxMU8wb01haWNqYXVDaVRid2M2VkJLRndDS2FjVkY0SmV0M1VYY0tiQWdlQlNwOFFqdXBtZ0pBbXlKVWJyUDFKRk5kSjg2a3h3TFZzSHdkYXdmUnN5Slo5YTluMUdrSzJaZ2pYelpSVmdHYXUybXcwY3lCeVRHV3dfTE9pcFprT0h0cUctbEVlRU96RjFSVEd2NXc?oc=5"
+          "source_name": "BBC News",
+          "headline": "Why the US midterms sparked an AI stock selloff",
+          "published_at": "Fri, 06 Nov 2026 18:32:16 GMT",
+          "url": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "source_name": "Reuters",
-          "headline": "Analysts and investors react to AI market rout - Reuters",
-          "published_at": "Fri, 06 Nov 2026 01:11:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZldlNGFPZ1lfa0RKbWVfZllvX2drcWh5TjF2S2RuV19Gal9wTE9PVUxHb05KODcwcXlEc2hINTEzOFc2MTlCT05rUXFVVnVpbmFocFRNcFlURk1hYkRpZklJc2ZKaFotYVR0VXRMWkRTQU16QzF4dVBDLUFsODJDaDNfNnFLVUpQMV8xLVBQbXhqaGNaVld3NzlB?oc=5"
+          "source_name": "BBC News",
+          "headline": "AI stocks climb after trillions wiped from market values",
+          "published_at": "Fri, 06 Nov 2026 17:03:02 GMT",
+          "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "source_name": "AP News",
-          "headline": "Trump meets with top Putin envoy at the White House — but not visiting Ukrainian officials - AP News",
-          "published_at": "Thu, 05 Nov 2026 23:35:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSjNMN3IzWmgzdHJtQzktSjczNDY4QmFyWF9rT21VTnlON0ZCNHpOOXc4b290WDdndUpGR3BGY0pyQndnN3dwdENPM3ZWb3B4UUx4aVE2ZWhjcGtHV1d1clUwNXJsd243QnpJUmh1UHlCV2d6RURIQzdXNGlNMmxSMldaZUpqR1hEcDhBZ014dWhHUHBIUE40U09TUElSNk1oWE05VjhYLUViZzRUVl83bw?oc=5"
+          "source_name": "BBC News",
+          "headline": "US midterm results spark fears in Israel over future of two countries' ties",
+          "published_at": "Fri, 06 Nov 2026 13:23:44 GMT",
+          "url": "https://www.bbc.co.uk/news/articles/cx30ee8018lvo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "source_name": "AP News",
-          "headline": "Iowa Democrat wins state House race despite suspending campaign in September - AP News",
-          "published_at": "Thu, 05 Nov 2026 22:44:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTXFkQl9PenRNLUdoQUNqak9pVHZCZXh6TF9QUlVVQTc3T2x0UHN0Z0xoVjVyR0NnLWtmNDJkQ1BNd0hxMnBQTW9uRGN2dXA2bFk5SDJNVVpZNGxTRUdDZVZfZ1Q4TzZHN0xXa3hNa0tWUVdfTkd5MVdUVFdjVGZHNVpULWo3V3h3ZVd1b0pwbEVOOFNmXzZZMGJWanF1UllxX2pTR0NnblVOWUk?oc=5"
+          "source_name": "TechCrunch",
+          "headline": "After the midterms, is the AI industry in for a rough two years?",
+          "published_at": "Fri, 06 Nov 2026 17:23:52 +0000",
+          "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/"
         }
       ],
-      "source_count": 12,
-      "total_count": 24,
-      "combined_score": 13.23,
+      "source_count": 5,
+      "total_count": 8,
+      "combined_score": 4.9,
       "brief_bullets": [
-        "As congressional control transitions to Democrats, lawmakers are preparing a comprehensive legislative package targeting artificial intelligence regulation and oversight. The planned initiative, spearheaded by key congressional leaders, aims to establish federal guardrails for emerging technologies, data privacy, and market competition. This forthcoming legislative push responds to escalating concerns over rapid sector growth, algorithmic bias, and national security implications. Ultimately, this strategic pivot sets the stage for high-stakes partisan debates over technology policy and federal intervention in the digital economy."
+        "South Korean stock markets experienced a sharp downturn following United States midterm election results that fueled widespread investor anxiety over the future of artificial intelligence development. Democratic electoral victories, driven partly by backlash over foreign policy and staunch support for Israel, empowered voters to approve 41 data center-related ballot measures restricting infrastructure growth. Market participants interpreted these sweeping regulatory constraints as a signal of imminent federal policy shifts that will significantly impede global tech expansion. This convergence of geopolitical fallout and localized regulatory pushback underscores rising systemic vulnerabilities for export-driven technology economies heavily reliant on American digital infrastructure trends."
       ],
       "why_it_matters_bullets": [
-        "This legislative wave will fundamentally reshape federal oversight and regulatory compliance standards across the technology sector."
+        "US midterm regulatory shifts over data centers directly threaten South Korea's technology-driven export economy and global AI growth."
       ],
-      "brief": "As congressional control transitions to Democrats, lawmakers are preparing a comprehensive legislative package targeting artificial intelligence regulation and oversight. The planned initiative, spearheaded by key congressional leaders, aims to establish federal guardrails for emerging technologies, data privacy, and market competition. This forthcoming legislative push responds to escalating concerns over rapid sector growth, algorithmic bias, and national security implications. Ultimately, this strategic pivot sets the stage for high-stakes partisan debates over technology policy and federal intervention in the digital economy. This legislative wave will fundamentally reshape federal oversight and regulatory compliance standards across the technology sector.",
-      "brief_word_count": 95
+      "brief": "South Korean stock markets experienced a sharp downturn following United States midterm election results that fueled widespread investor anxiety over the future of artificial intelligence development. Democratic electoral victories, driven partly by backlash over foreign policy and staunch support for Israel, empowered voters to approve 41 data center-related ballot measures restricting infrastructure growth. Market participants interpreted these sweeping regulatory constraints as a signal of imminent federal policy shifts that will significantly impede global tech expansion. This convergence of geopolitical fallout and localized regulatory pushback underscores rising systemic vulnerabilities for export-driven technology economies heavily reliant on American digital infrastructure trends. US midterm regulatory shifts over data centers directly threaten South Korea's technology-driven export economy and global AI growth.",
+      "brief_word_count": 117
     },
     {
-      "story_id": "story-18",
+      "story_id": "story-2fe9afc57286",
       "category": "Finance",
-      "primary_headline": "Row house fire in Brooklyn kills 6 people and injures 9",
+      "primary_headline": "A brutal sell-off for AI stocks sends Wall Street reeling, and the S&P 500 tumbles 4.4%",
       "primary_source": {
         "source_name": "AP News",
-        "headline": "Row house fire in Brooklyn kills 6 people and injures 9 - AP News",
-        "published_at": "Fri, 06 Nov 2026 02:49:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZkhXUmt2UmJyOG5WV2lhMl9GNTV4NzBwWHF3ajBBOHZFcUZQdVlmQnh0WTYzaHN1SEJIZ0ZERkItYldBQUdaXzlRMmc0d09xUzNLb1NMTWxMVjJnZF9RbE5BVC1RaThKUWtnVUphLWtuNmtlMUdjZDZjaTNGRlRySVl1UU40Q1h4V2VPXzVrcDM5QQ?oc=5",
-        "content": "Row house fire in Brooklyn kills 6 people and injures 9&nbsp;&nbsp;AP News"
+        "headline": "A brutal sell-off for AI stocks sends Wall Street reeling, and the S&P 500 tumbles 4.4% - AP News",
+        "published_at": "Thu, 05 Nov 2026 22:04:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcE43QWpUdHk2WE5qUmd4Z0hjYlBqQ3FGLUVoRlBTbmN4c1JJbWZpeUJmTXhpalZzaTNGMzVweE5wNDRJdnRSMzRENURHaGRIejdqbnVObV9KNEp6R0p0ZnAzT3Y5WGVYejV6VWc0dGZheFVWdG9IVDljNjMxVmVDVGpYZlpwN19nVzBibDdqVmRJOXV3Vk9YdFRiSQ?oc=5",
+        "content": "A brutal sell-off for AI stocks sends Wall Street reeling, and the S&P 500 tumbles 4.4%&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
           "source_name": "AP News",
-          "headline": "Row house fire in Brooklyn kills 6 people and injures 9 - AP News",
-          "published_at": "Fri, 06 Nov 2026 02:49:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZkhXUmt2UmJyOG5WV2lhMl9GNTV4NzBwWHF3ajBBOHZFcUZQdVlmQnh0WTYzaHN1SEJIZ0ZERkItYldBQUdaXzlRMmc0d09xUzNLb1NMTWxMVjJnZF9RbE5BVC1RaThKUWtnVUphLWtuNmtlMUdjZDZjaTNGRlRySVl1UU40Q1h4V2VPXzVrcDM5QQ?oc=5"
+          "headline": "A brutal sell-off for AI stocks sends Wall Street reeling, and the S&P 500 tumbles 4.4% - AP News",
+          "published_at": "Thu, 05 Nov 2026 22:04:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcE43QWpUdHk2WE5qUmd4Z0hjYlBqQ3FGLUVoRlBTbmN4c1JJbWZpeUJmTXhpalZzaTNGMzVweE5wNDRJdnRSMzRENURHaGRIejdqbnVObV9KNEp6R0p0ZnAzT3Y5WGVYejV6VWc0dGZheFVWdG9IVDljNjMxVmVDVGpYZlpwN19nVzBibDdqVmRJOXV3Vk9YdFRiSQ?oc=5"
         },
         {
-          "source_name": "The Hindu",
-          "headline": "One killed and six injured in fire at an OIL facility in Assam",
-          "published_at": "Fri, 06 Nov 2026 22:55:57 +0530",
-          "url": "https://www.thehindu.com/news/national/assam/one-killed-and-six-injured-in-fire-at-an-oil-facility-in-assam/article71674463.ece"
+          "source_name": "Bloomberg",
+          "headline": "Options Volumes Soar to Record Levels on Post-Election Sell Off",
+          "published_at": "Fri, 06 Nov 2026 18:15:59 GMT",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/options-volumes-soar-to-record-levels-on-post-election-sell-off"
+        },
+        {
+          "source_name": "NYT",
+          "headline": "Global Stocks Follow U.S. Sell-Off as A.I. Spending Fears Spread",
+          "published_at": "Fri, 06 Nov 2026 15:07:20 +0000",
+          "url": "https://www.nytimes.com/2026/11/06/business/global-stocks-markets-tech-ai.html"
+        },
+        {
+          "source_name": "The Guardian",
+          "headline": "Fearing AI disruption, white-collar workers are quitting their jobs",
+          "published_at": "Fri, 06 Nov 2026 14:00:45 GMT",
+          "url": "https://www.theguardian.com/technology/2026/nov/06/ai-disruption-job-quitting"
         },
         {
           "source_name": "NDTV",
-          "headline": "Major Fire At Oil India Tank Farm In Assam, 1 Dead, 6 Injured",
-          "published_at": "Fri, 06 Nov 2026 12:24:26 +0530",
-          "url": "https://www.ndtv.com/india-news/major-fire-at-oil-india-tank-farm-in-assams-dibrugarh-1-dead-several-injured-12291536#publisher=newsstand"
+          "headline": "Wall Street's AI Wipeout Hits Asia, But India Shrugs Off Crash. Here's Why",
+          "published_at": "Fri, 06 Nov 2026 15:38:29 +0530",
+          "url": "https://www.ndtv.com/business-news/share-market-rally-wall-streets-ai-wipeout-hits-asia-but-india-shrugs-off-crash-heres-why-12292190#publisher=newsstand"
+        }
+      ],
+      "source_count": 5,
+      "total_count": 6,
+      "combined_score": 4.33,
+      "brief_bullets": [
+        "Wall Street experienced a significant downturn as a brutal sell-off in AI-related stocks triggered a 4.4% decline in the S&P 500. Market volatility reached historic levels, with U.S. options trading volume surging 53% above October averages amid widespread investor anxiety. This financial instability coincides with growing internal skepticism regarding the industry, highlighted by high-profile departures like AI researcher Mrinank Sharma, who resigned from Anthropic citing existential concerns about the technology's trajectory. While no direct link exists between these market shifts and mass layoffs, the combination of cooling investor sentiment and shifting worker psychology suggests a period of profound recalibration for the artificial intelligence sector as it faces both economic scrutiny and ethical challenges regarding its long-term societal impact."
+      ],
+      "why_it_matters_bullets": [
+        "The market correction signals a transition from speculative AI hype to a more cautious, risk-averse valuation of tech assets."
+      ],
+      "brief": "Wall Street experienced a significant downturn as a brutal sell-off in AI-related stocks triggered a 4.4% decline in the S&P 500. Market volatility reached historic levels, with U.S. options trading volume surging 53% above October averages amid widespread investor anxiety. This financial instability coincides with growing internal skepticism regarding the industry, highlighted by high-profile departures like AI researcher Mrinank Sharma, who resigned from Anthropic citing existential concerns about the technology's trajectory. While no direct link exists between these market shifts and mass layoffs, the combination of cooling investor sentiment and shifting worker psychology suggests a period of profound recalibration for the artificial intelligence sector as it faces both economic scrutiny and ethical challenges regarding its long-term societal impact. The market correction signals a transition from speculative AI hype to a more cautious, risk-averse valuation of tech assets.",
+      "brief_word_count": 137
+    },
+    {
+      "story_id": "story-34e3d889ff88",
+      "category": "Finance",
+      "primary_headline": "Oil companies challenge Karnataka's claim of excess ethanol in petrol, question testing methodology",
+      "primary_source": {
+        "source_name": "Deccan Herald",
+        "headline": "Oil companies challenge Karnataka's claim of excess ethanol in petrol, question testing methodology",
+        "published_at": "Fri, 06 Nov 2026 17:43:06 +0000",
+        "url": "https://www.deccanherald.com/india/oil-companies-challenge-karnatakas-claim-of-excess-ethanol-in-petrol-question-testing-methodology-4210619",
+        "content": " New Delhi: State-run oil marketing companies Indian Oil Corporation (IOC), Bharat Petroleum Corporation (BPCL), and Hindustan Petroleum Corporation (HPCL) have challenged Karnataka government's claims that petrol sold at certain outlets in the state contained 26-31 per cent ethanol, questioning the sampling and testing procedures used to arrive at the findings.The three companies said E20 petrol supplied across their retail networks, including Karnataka, conforms to the Bureau of Indian Standards' IS 17021 specifications, which prescribe an ethanol content of 19-21 per cent.In a joint statement, the oil companies said the findings cited by the Karnataka government were not supported by tests conducted in accordance with the prescribed statutory and technical procedures. They also questioned the use of third-party laboratory certificates that, they said, did not disclose sufficient details of the testing methodology to independently verify the reported ethanol levels.The dispute centres on a testing exercise conducted in October 2026 by Karnataka's Department of Food, Civil Supplies, Consumer Affairs and Legal Metrology, which claimed that petrol samples collected from certain retail outlets contained substantially higher ethanol concentrations than the prescribed limit.The OMCs said the sampling procedure mandated under the Motor Spirit and High Speed Diesel (Regulation of Supply, Distribution and Prevention of Malpractices) Order, 2005, read with the Marketing Discipline Guidelines (MDG) 2024, requires six one-litre samples to be collected.Of these, two samples must be handed over to the dealer against acknowledgement, two retained by the oil company or department, and two sent to a laboratory specified under the control order. Sample labels must be jointly signed, with test results communicated to the dealer and oil company within the prescribed timeframe.While samples collected during a September exercise were routed through the State Level Coordinator to designated OMC laboratories, the companies said the subsequent October sampling was conducted without their representatives.They said they had not received the corresponding retention samples, outlet-wise details or laboratory reports despite seeking them through the state-level coordinator, denying them and the dealers an opportunity to independently verify the findings or seek retesting.The companies also questioned the testing methodology cited in the laboratory certificates. Under IS 17021:2018, as amended in August 2025, ethanol content in E20 petrol must be determined through specified methods, including Fourier Transform Infrared Spectroscopy, water extraction or gas chromatography under prescribed ASTM standards.Where gas chromatography is used, the standard requires the sample to be diluted in a 1:1 ratio with oxygenate-free petrol and the result corrected against an E10 certified reference material.The Karnataka certificates, however, merely mentioned ethanol percentage determined through gas chromatography without specifying the applicable test standard, dilution procedure or reference material used, the OMCs said.They argued that the reported ethanol levels of 26-31 per cent could not be independently validated without these details.The companies also flagged discrepancies in the density readings. The certificates reportedly showed densities of 0.742-0.749 grams per cubic centimetre for samples claimed to contain 26-31 per cent ethanol, against 0.752-0.760 grams per cubic centimetre recorded in E20 samples tested by the OMCs.Since ethanol has a higher density than petrol, a higher ethanol concentration would ordinarily be expected to increase the density of the blend, they said, adding that the discrepancy warranted verification using prescribed testing methods and reference samples.Seeking to counter the Karnataka findings, the companies cited a nationwide quality-monitoring exercise conducted by the OMCs and the Centre for High Technology (CHT), under the Ministry of Petroleum and Natural Gas.Up to 31.2% ethanol in petrol: Karnataka govt alleges oil companies sell blends exceeding prescribed limitsUnder the OMC/CHT Quality Coordination Cell exercise, 893 E20 samples collected from depots and retail outlets of the three companies across 27 states and Union Territories were tested at refinery and OMC quality-control laboratories.All 893 samples were found to contain ethanol within the prescribed 19-21 per cent range, according to the companies.The results included 56 samples from Karnataka, drawn from different locations and covering all three OMCs. These recorded ethanol content of 19-20 per cent, averaging 19.30 per cent, they said.The companies said ethanol blending at refineries and depots was carried out through calibrated and automated proportioning systems, with quality-control protocols governing the process. Blending was not a manual or arbitrary exercise, they added.The companies also questioned estimates cited in the Karnataka controversy that E20 fuel could result in annual consumer mileage losses of around Rs 62,000 crore and vehicle repair expenses of Rs 39,000 crore, taking the combined impact to approximately Rs 1.01 lakh crore.They said such estimates required scientific substantiation and could not be based on a blanket assumption of 10 per cent mileage loss across the country's vehicle population.More than 30 crore two-wheelers and 4 crore four-wheelers have been running on E20 fuel for over three years, while more than 6 crore people visit petrol pumps daily, the companies said.They argued that the absence of any reported widespread vehicle breakdowns was an important consideration in assessing concerns over fuel quality and vehicle performance.Citing the Petroleum Ministry's August 12, 2025 response on ethanol blending, the OMCs said studies involving the Inter-Ministerial Committee, Indian Oil, the Automotive Research Association of India (ARAI) and the Society of Indian Automobile Manufacturers (SIAM) had examined the performance implications of E20.Vehicles calibrated for E20 could experience mileage reductions of around 1-2 per cent, while certain other vehicles could see declines of 3-6 per cent, depending on vehicle category and calibration, according to the ministry's assessment.The companies said the Rs 39,000 crore estimate for vehicle repairs also needed to be supported by actual vehicle-performance data, materials compatibility studies and documented repair costs.India's ethanol-blending programme, which began with a pilot initiative in 2001, is aimed at reducing dependence on imported crude oil, strengthening domestic agricultural value chains and improving energy security.The programme has been expanded through successive policy interventions, including the National Policy on Biofuels, 2018, and the NITI Aayog roadmap for ethanol blending.According to Petroleum Ministry data cited by the OMCs, the programme since the 2014-15 ethanol supply year has generated foreign exchange savings of more than Rs 1.97 lakh crore, substituted approximately 316 lakh metric tonnes of crude oil, reduced carbon dioxide emissions by around 952 lakh metric tonnes and resulted in payments of more than Rs 1.66 lakh crore to farmers.During the 2025-26 ethanol supply year, which ended on October 31, 2026, the three public sector OMCs procured 1,089 crore litres of ethanol and blended 1,134 crore litres against petrol sales of approximately 5,673 crore litres, the statement said.The companies also rejected suggestions that they had a commercial incentive to blend ethanol beyond prescribed levels, arguing that additional ethanol procurement would increase their costs.The three OMCs have asked the Karnataka government to share complete sampling documentation, outlet-wise laboratory reports and details of the testing methodology used to arrive at the reported findings.They have also sought access to the counterpart samples for independent testing at an authorised laboratory using the prescribed referee method, in the presence of representatives of both the state government and the oil companies.The companies said they were willing to participate in joint sampling and testing in accordance with the Control Order and MDG 2024, adding that any deviation established through the prescribed procedure would be dealt with under applicable guidelines."
+      },
+      "sources": [
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Oil companies challenge Karnataka's claim of excess ethanol in petrol, question testing methodology",
+          "published_at": "Fri, 06 Nov 2026 17:43:06 +0000",
+          "url": "https://www.deccanherald.com/india/oil-companies-challenge-karnatakas-claim-of-excess-ethanol-in-petrol-question-testing-methodology-4210619"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Oil Companies Reject Karnataka Minister's '30% Ethanol' Charge Over E20 Petrol, Question Testing Method",
+          "published_at": "Fri, 06 Nov 2026 23:05:46 +0530",
+          "url": "https://www.ndtv.com/india-news/oil-companies-reject-karnataka-ministers-30-ethanol-charge-on-e20-petrol-question-testing-method-12294591#publisher=newsstand"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "'E20 Actually Has Over 30% Ethanol': Karnataka Minister Cites Petrol Tests, Demands Consumer Relief Fund",
+          "published_at": "Fri, 06 Nov 2026 23:05:08 +0530",
+          "url": "https://www.ndtv.com/india-news/e20-actually-has-over-30-ethanol-karnataka-minister-cites-petrol-tests-demands-relief-fund-for-consumers-12292948#publisher=newsstand"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Up to 31.2% ethanol in petrol: Karnataka govt alleges oil companies sell blends exceeding prescribed limits",
+          "published_at": "Fri, 06 Nov 2026 14:55:43 +0000",
+          "url": "https://www.deccanherald.com/india/up-to-312-ethanol-in-petrol-karnataka-govt-alleges-oil-companies-sell-blends-exceeding-prescribed-limits-4210256"
         },
         {
           "source_name": "The Indian Express",
-          "headline": "India News Highlights, 06 November 2026: 1 killed, 6 critically injured in fire at Oil India facility in Assam",
-          "published_at": "Fri, 06 Nov 2026 03:29:01 +0000",
-          "url": "https://indianexpress.com/article/india/breaking-india-news-live-updates-06-november-2026-delhi-aqi-pollution-tarun-tejpal-supreme-court-verdict-accident-fire-building-collapse-10952839/"
+          "headline": "30% ethanol blend in petrol? Karnataka accuses Central OMCs of exceeding limit",
+          "published_at": "Fri, 06 Nov 2026 10:57:46 +0000",
+          "url": "https://indianexpress.com/article/cities/bangalore/20-ethanol-allowed-31-2-found-karnataka-flags-petrol-sold-by-oil-majors-10953529/"
+        }
+      ],
+      "source_count": 4,
+      "total_count": 6,
+      "combined_score": 3.83,
+      "brief_bullets": [
+        "State-run oil marketing companies Indian Oil Corporation, Bharat Petroleum Corporation, and Hindustan Petroleum Corporation have formally challenged the Karnataka government's claims that retail petrol outlets sold fuel containing up to thirty-one percent ethanol. The dispute arose after the state's Department of Food, Civil Supplies, Consumer Affairs and Legal Metrology alleged excess ethanol concentrations following an October testing exercise. The oil companies refuted these findings, arguing that the inspections violated mandatory statutory sampling protocols and relied on third-party laboratory certificates lacking verifiable testing methodologies. They maintain that all distributed E20 petrol strictly adheres to Bureau of Indian Standards specifications, ensuring national compliance and fuel quality."
+      ],
+      "why_it_matters_bullets": [
+        "This regulatory clash threatens India's national biofuel blending targets and undermines consumer trust in the retail fuel supply chain."
+      ],
+      "brief": "State-run oil marketing companies Indian Oil Corporation, Bharat Petroleum Corporation, and Hindustan Petroleum Corporation have formally challenged the Karnataka government's claims that retail petrol outlets sold fuel containing up to thirty-one percent ethanol. The dispute arose after the state's Department of Food, Civil Supplies, Consumer Affairs and Legal Metrology alleged excess ethanol concentrations following an October testing exercise. The oil companies refuted these findings, arguing that the inspections violated mandatory statutory sampling protocols and relied on third-party laboratory certificates lacking verifiable testing methodologies. They maintain that all distributed E20 petrol strictly adheres to Bureau of Indian Standards specifications, ensuring national compliance and fuel quality. This regulatory clash threatens India's national biofuel blending targets and undermines consumer trust in the retail fuel supply chain.",
+      "brief_word_count": 123
+    },
+    {
+      "story_id": "story-311ee2eee44c",
+      "category": "Finance",
+      "primary_headline": "Microsoft is winding down Oracle deal to rent AI cloud capacity, Bloomberg News reports",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Microsoft is winding down Oracle deal to rent AI cloud capacity, Bloomberg News reports - Reuters",
+        "published_at": "Fri, 06 Nov 2026 17:53:48 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN0g4UzRRaV9OckNuUjZYeVcybWl4SnhZUHVRR3pXVTFUdVMtWENOSWRKdjhUQThNTWlRWXd3YVJFTUVaM1hOaFI2UWJ6cDlWZjM4Q3NXTWZDVlJFSTdnS3RqNExHcG93anIxTDhpNXJTRGduSEgxcWNaYnNRYTdOdWF4SzBoZzBLV3o1Wi1ZaEVPWkFXZVJSSWhYZWFSdE9BRFlINGtWWjhhM2FLUEdaYjJQOTBLQ0VCLVIyXw?oc=5",
+        "content": "Microsoft is winding down Oracle deal to rent AI cloud capacity, Bloomberg News reports&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Microsoft is winding down Oracle deal to rent AI cloud capacity, Bloomberg News reports - Reuters",
+          "published_at": "Fri, 06 Nov 2026 17:53:48 GMT",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN0g4UzRRaV9OckNuUjZYeVcybWl4SnhZUHVRR3pXVTFUdVMtWENOSWRKdjhUQThNTWlRWXd3YVJFTUVaM1hOaFI2UWJ6cDlWZjM4Q3NXTWZDVlJFSTdnS3RqNExHcG93anIxTDhpNXJTRGduSEgxcWNaYnNRYTdOdWF4SzBoZzBLV3o1Wi1ZaEVPWkFXZVJSSWhYZWFSdE9BRFlINGtWWjhhM2FLUEdaYjJQOTBLQ0VCLVIyXw?oc=5"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Microsoft is winding down Oracle deal to rent AI cloud capacity",
+          "published_at": "Fri, 06 Nov 2026 18:14:57 +0000",
+          "url": "https://www.deccanherald.com/business/companies/microsoft-is-winding-down-oracle-deal-to-rent-ai-cloud-capacity-4210666"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "Microsoft cuts: Is AI taking away our jobs?",
+          "published_at": "Fri, 06 Nov 2026 11:31:54 +0000",
+          "url": "https://indianexpress.com/article/opinion/columns/microsoft-cuts-is-ai-taking-away-our-jobs-10953586/"
+        },
+        {
+          "source_name": "Hacker News",
+          "headline": "Microsoft is winding down Oracle deal to rent AI cloud capacity",
+          "published_at": "Fri, 06 Nov 2026 18:04:06 +0000",
+          "url": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/"
         }
       ],
       "source_count": 4,
       "total_count": 4,
-      "combined_score": 3.32,
+      "combined_score": 3.2,
       "brief_bullets": [
-        "A devastating early morning row house fire in Brooklyn claimed the lives of six individuals and left nine others injured, prompting an urgent emergency response across the neighborhood. Local fire and rescue officials mobilized extensive resources to contain the fast-moving blaze as investigators launched an immediate inquiry into the origin and cause of the tragedy. City agencies have pledged comprehensive support for the affected families while reviewing municipal fire safety protocols to prevent future residential disasters of this magnitude."
+        "Microsoft is phasing out its agreement to rent artificial intelligence computing capacity from Oracle, marking a significant shift in the tech giant's infrastructure strategy. According to reports, Microsoft opted not to renew the contract as the rented capacity no longer aligned with its evolving technical requirements and internal scaling goals. This decision follows a broader reassessment of Microsoft’s multi-billion dollar cloud partnerships as the company prioritizes proprietary hardware and internal data center expansion to support its AI ambitions. While Oracle shares dipped nearly 3% following the news, Microsoft’s stock remained stable, reflecting a strategic pivot toward self-sufficiency in the highly competitive cloud computing market as demand for specialized AI infrastructure continues to accelerate rapidly across the industry."
       ],
       "why_it_matters_bullets": [
-        "This tragedy underscores critical urban housing safety vulnerabilities and demands immediate tightening of municipal fire enforcement protocols."
+        "This shift signals Microsoft's move toward infrastructure independence, potentially disrupting Oracle's revenue growth and cloud market positioning."
       ],
-      "brief": "A devastating early morning row house fire in Brooklyn claimed the lives of six individuals and left nine others injured, prompting an urgent emergency response across the neighborhood. Local fire and rescue officials mobilized extensive resources to contain the fast-moving blaze as investigators launched an immediate inquiry into the origin and cause of the tragedy. City agencies have pledged comprehensive support for the affected families while reviewing municipal fire safety protocols to prevent future residential disasters of this magnitude. This tragedy underscores critical urban housing safety vulnerabilities and demands immediate tightening of municipal fire enforcement protocols.",
-      "brief_word_count": 96
+      "brief": "Microsoft is phasing out its agreement to rent artificial intelligence computing capacity from Oracle, marking a significant shift in the tech giant's infrastructure strategy. According to reports, Microsoft opted not to renew the contract as the rented capacity no longer aligned with its evolving technical requirements and internal scaling goals. This decision follows a broader reassessment of Microsoft’s multi-billion dollar cloud partnerships as the company prioritizes proprietary hardware and internal data center expansion to support its AI ambitions. While Oracle shares dipped nearly 3% following the news, Microsoft’s stock remained stable, reflecting a strategic pivot toward self-sufficiency in the highly competitive cloud computing market as demand for specialized AI infrastructure continues to accelerate rapidly across the industry. This shift signals Microsoft's move toward infrastructure independence, potentially disrupting Oracle's revenue growth and cloud market positioning.",
+      "brief_word_count": 134
     },
     {
-      "story_id": "story-31",
+      "story_id": "story-a2133c7f461d",
       "category": "Finance",
-      "primary_headline": "US job growth beats expectations in October; unemployment rate falls to 4.1%",
+      "primary_headline": "US job growth surges in October; unemployment rate falls to 4.1%",
       "primary_source": {
         "source_name": "Reuters",
-        "headline": "US job growth beats expectations in October; unemployment rate falls to 4.1% - Reuters",
-        "published_at": "Fri, 06 Nov 2026 13:41:36 GMT",
+        "headline": "US job growth surges in October; unemployment rate falls to 4.1% - Reuters",
+        "published_at": "Fri, 06 Nov 2026 16:16:27 GMT",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPakNLaDVCMElHQkc5cjV5SmVJcFNPdVpMbnZHRmVFMkoxR3hhbERYTnBZcUlmQVZBanhMeVhEZHpsN3JxM0xrUHNsYVZPWW1EdXBWam1pNk5lSEZVNHkwcUV1VG9xbmVYek80a3JXelRIcW9fQjQ3TUljTUdpZkhYWUJaZHhxNTUybWQwME81bUtPTmJ4UUg4ZjVrZjVlLUx2azFkWjhmeThDWkp2MHJwdTVR?oc=5",
-        "content": "US job growth beats expectations in October; unemployment rate falls to 4.1%&nbsp;&nbsp;Reuters"
+        "content": "US job growth surges in October; unemployment rate falls to 4.1%&nbsp;&nbsp;Reuters"
       },
       "sources": [
         {
           "source_name": "Reuters",
-          "headline": "US job growth beats expectations in October; unemployment rate falls to 4.1% - Reuters",
-          "published_at": "Fri, 06 Nov 2026 13:41:36 GMT",
+          "headline": "US job growth surges in October; unemployment rate falls to 4.1% - Reuters",
+          "published_at": "Fri, 06 Nov 2026 16:16:27 GMT",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPakNLaDVCMElHQkc5cjV5SmVJcFNPdVpMbnZHRmVFMkoxR3hhbERYTnBZcUlmQVZBanhMeVhEZHpsN3JxM0xrUHNsYVZPWW1EdXBWam1pNk5lSEZVNHkwcUV1VG9xbmVYek80a3JXelRIcW9fQjQ3TUljTUdpZkhYWUJaZHhxNTUybWQwME81bUtPTmJ4UUg4ZjVrZjVlLUx2azFkWjhmeThDWkp2MHJwdTVR?oc=5"
         },
         {
@@ -149,16 +259,62 @@
       "total_count": 4,
       "combined_score": 2.73,
       "brief_bullets": [
-        "The U.S. labor market demonstrated unexpected resilience in October, adding 165,000 nonfarm payroll jobs and surpassing analyst forecasts. This growth, bolstered by upward revisions to previous months, pushed the national unemployment rate down to 4.1 percent. Economists, including Claudia Sahm of New Century Advisors, view these figures as a clear indicator of sustained economic expansion despite broader concerns regarding wage moderation. By outperforming expectations, the report underscores the underlying strength of the American workforce and suggests that the economy remains robust even as it navigates complex macroeconomic conditions. This data provides critical insight for policymakers assessing the current trajectory of the national recovery and future monetary policy adjustments."
+        "The U.S. labor market demonstrated unexpected resilience in October, adding 165,000 nonfarm payroll jobs and surpassing analyst forecasts. This growth, bolstered by upward revisions to the previous two months, pushed the national unemployment rate down to 4.1 percent. Economists, including Claudia Sahm of New Century Advisors, view these figures as a clear indicator of sustained economic expansion despite broader concerns regarding wage moderation. By outperforming expectations, the report underscores the underlying strength of the American workforce, providing a robust buffer against potential cooling trends and reinforcing the narrative of a durable, high-performing economy that continues to defy pessimistic projections regarding long-term labor market stability."
       ],
       "why_it_matters_bullets": [
-        "Stronger-than-expected job growth signals economic resilience, likely influencing the Federal Reserve's upcoming interest rate and monetary policy decisions."
+        "Stronger-than-expected job growth signals economic resilience, potentially influencing Federal Reserve interest rate policy and long-term market stability."
       ],
-      "brief": "The U.S. labor market demonstrated unexpected resilience in October, adding 165,000 nonfarm payroll jobs and surpassing analyst forecasts. This growth, bolstered by upward revisions to previous months, pushed the national unemployment rate down to 4.1 percent. Economists, including Claudia Sahm of New Century Advisors, view these figures as a clear indicator of sustained economic expansion despite broader concerns regarding wage moderation. By outperforming expectations, the report underscores the underlying strength of the American workforce and suggests that the economy remains robust even as it navigates complex macroeconomic conditions. This data provides critical insight for policymakers assessing the current trajectory of the national recovery and future monetary policy adjustments. Stronger-than-expected job growth signals economic resilience, likely influencing the Federal Reserve's upcoming interest rate and monetary policy decisions.",
-      "brief_word_count": 126
+      "brief": "The U.S. labor market demonstrated unexpected resilience in October, adding 165,000 nonfarm payroll jobs and surpassing analyst forecasts. This growth, bolstered by upward revisions to the previous two months, pushed the national unemployment rate down to 4.1 percent. Economists, including Claudia Sahm of New Century Advisors, view these figures as a clear indicator of sustained economic expansion despite broader concerns regarding wage moderation. By outperforming expectations, the report underscores the underlying strength of the American workforce, providing a robust buffer against potential cooling trends and reinforcing the narrative of a durable, high-performing economy that continues to defy pessimistic projections regarding long-term labor market stability. Stronger-than-expected job growth signals economic resilience, potentially influencing Federal Reserve interest rate policy and long-term market stability.",
+      "brief_word_count": 121
     },
     {
-      "story_id": "story-42",
+      "story_id": "story-6e2ded7a9650",
+      "category": "Finance",
+      "primary_headline": "Row house fire in Brooklyn kills 6 people and injures 9",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Row house fire in Brooklyn kills 6 people and injures 9 - AP News",
+        "published_at": "Fri, 06 Nov 2026 02:49:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZkhXUmt2UmJyOG5WV2lhMl9GNTV4NzBwWHF3ajBBOHZFcUZQdVlmQnh0WTYzaHN1SEJIZ0ZERkItYldBQUdaXzlRMmc0d09xUzNLb1NMTWxMVjJnZF9RbE5BVC1RaThKUWtnVUphLWtuNmtlMUdjZDZjaTNGRlRySVl1UU40Q1h4V2VPXzVrcDM5QQ?oc=5",
+        "content": "Row house fire in Brooklyn kills 6 people and injures 9&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Row house fire in Brooklyn kills 6 people and injures 9 - AP News",
+          "published_at": "Fri, 06 Nov 2026 02:49:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZkhXUmt2UmJyOG5WV2lhMl9GNTV4NzBwWHF3ajBBOHZFcUZQdVlmQnh0WTYzaHN1SEJIZ0ZERkItYldBQUdaXzlRMmc0d09xUzNLb1NMTWxMVjJnZF9RbE5BVC1RaThKUWtnVUphLWtuNmtlMUdjZDZjaTNGRlRySVl1UU40Q1h4V2VPXzVrcDM5QQ?oc=5"
+        },
+        {
+          "source_name": "The Hindu",
+          "headline": "One killed and six injured in fire at an OIL facility in Assam",
+          "published_at": "Fri, 06 Nov 2026 22:55:57 +0530",
+          "url": "https://www.thehindu.com/news/national/assam/one-killed-and-six-injured-in-fire-at-an-oil-facility-in-assam/article71674463.ece"
+        },
+        {
+          "source_name": "The Indian Express",
+          "headline": "India News Highlights, 06 November 2026: 1 killed, 6 critically injured in fire at Oil India facility in Assam",
+          "published_at": "Fri, 06 Nov 2026 03:29:01 +0000",
+          "url": "https://indianexpress.com/article/india/breaking-india-news-live-updates-06-november-2026-delhi-aqi-pollution-tarun-tejpal-supreme-court-verdict-accident-fire-building-collapse-10952839/"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 3,
+      "combined_score": 2.49,
+      "brief_bullets": [
+        "AP News The oil exploration major said that the fire broke out at an indirect bath heater, which had been isolated since November 4 for maintenance India News Highlights, 06 November 2026: 1 killed, 6 critically injured in fire at Oil India facility in Assam.",
+        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
+        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions.",
+        "Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments."
+      ],
+      "why_it_matters_bullets": [
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+      ],
+      "brief": "AP News The oil exploration major said that the fire broke out at an indirect bath heater, which had been isolated since November 4 for maintenance India News Highlights, 06 November 2026: 1 killed, 6 critically injured in fire at Oil India facility in Assam. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 121
+    },
+    {
+      "story_id": "story-e90a3f96382d",
       "category": "Finance",
       "primary_headline": "Praful Patel calls on Sharad Pawar at hospital; meet triggers speculation in Maharashtra",
       "primary_source": {
@@ -192,16 +348,19 @@
       "total_count": 3,
       "combined_score": 2.43,
       "brief_bullets": [
-        "Nationalist Congress Party leader Praful Patel recently visited Sharad Pawar at a hospital, igniting intense speculation regarding a potential reconciliation between the fractured NCP factions. While state president Sunil Tatkare suggested that a reunification would have been inevitable had the political landscape remained static, NCP-SP MLA Rohit Pawar dismissed these rumors as deliberate misinformation spread by disgruntled elements seeking to advance personal agendas. Sharad Pawar, a veteran figure known for his unpredictable political maneuvers, remains at the center of this discourse as observers analyze whether this meeting signals a genuine shift in Maharashtra’s volatile coalition dynamics or merely a social gesture. The incident underscores the persistent instability and strategic maneuvering defining the state's complex political environment."
+        "Both NCPs would have been reunited had Ajit Pawar been alive, says NCP State president Sunil Tatkare; NCP SP MLA Rohit Pawar claims merger speculation is being planted by disgruntled elements within NCP to further their vested interests NCP leader reveals why merger with Sharad Pawar was sidelined For the last six decades, Sharad Pawar has been one of the most unpredictable leaders in Maharashtra's, or even India's, politics.",
+        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Praful Patel calls on Sharad Pawar at hospital; meet triggers speculation in Maharashtra'.",
+        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
+        "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
       ],
       "why_it_matters_bullets": [
-        "This meeting highlights the ongoing volatility in Maharashtra's coalition politics and the strategic uncertainty surrounding NCP's future alignment."
+        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
       ],
-      "brief": "Nationalist Congress Party leader Praful Patel recently visited Sharad Pawar at a hospital, igniting intense speculation regarding a potential reconciliation between the fractured NCP factions. While state president Sunil Tatkare suggested that a reunification would have been inevitable had the political landscape remained static, NCP-SP MLA Rohit Pawar dismissed these rumors as deliberate misinformation spread by disgruntled elements seeking to advance personal agendas. Sharad Pawar, a veteran figure known for his unpredictable political maneuvers, remains at the center of this discourse as observers analyze whether this meeting signals a genuine shift in Maharashtra’s volatile coalition dynamics or merely a social gesture. The incident underscores the persistent instability and strategic maneuvering defining the state's complex political environment. This meeting highlights the ongoing volatility in Maharashtra's coalition politics and the strategic uncertainty surrounding NCP's future alignment.",
-      "brief_word_count": 134
+      "brief": "Both NCPs would have been reunited had Ajit Pawar been alive, says NCP State president Sunil Tatkare; NCP SP MLA Rohit Pawar claims merger speculation is being planted by disgruntled elements within NCP to further their vested interests NCP leader reveals why merger with Sharad Pawar was sidelined For the last six decades, Sharad Pawar has been one of the most unpredictable leaders in Maharashtra's, or even India's, politics. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Praful Patel calls on Sharad Pawar at hospital; meet triggers speculation in Maharashtra'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
+      "brief_word_count": 139
     },
     {
-      "story_id": "story-44",
+      "story_id": "story-fdd0fb57c1d9",
       "category": "Finance",
       "primary_headline": "Fox completes $22 billion Roku deal to expand digital reach",
       "primary_source": {
@@ -221,7 +380,7 @@
         {
           "source_name": "Washington Post",
           "headline": "Fox closes $22B deal to buy Roku, a transaction that will remake streaming - The Washington Post",
-          "published_at": "Fri, 06 Nov 2026 16:48:06 GMT",
+          "published_at": "Fri, 06 Nov 2026 17:48:06 GMT",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORnhYY2Y0ZFhsZGxxVkU5TTZtZmJOMGFWX29DbmlITFB3VUZnUnZTSHVOUGFFTGNHWXJXdVBETjVEYVBYVEVUdG1OTVpycmcyTVViMHNLWGJXM01Za2pVMzVBdmNld0xnVlN0RVZqc1A4YlcxWXRUYUh6Wk9XMnNOQXZqOGZjTHJqOXE1eVV4QzhPUUNGSTJVczdUUjd0UnhZWkpRRHZJVXZyQXRQaGpINGtyMnk4aWlhWkRv?oc=5"
         },
         {
@@ -235,63 +394,125 @@
       "total_count": 3,
       "combined_score": 2.4,
       "brief_bullets": [
-        "Fox Corporation has finalized its $22 billion acquisition of streaming platform Roku, a transformative deal that significantly bolsters the media giant’s digital distribution capabilities. Despite initial scrutiny from Department of Justice investigators regarding potential antitrust concerns, the transaction successfully closed, signaling a major shift in Fox’s long-term strategy to capture audiences migrating away from traditional linear television. By integrating Roku’s expansive user base and advanced advertising technology, Fox aims to solidify its competitive standing against dominant streaming rivals. This merger fundamentally reshapes the media landscape, positioning Fox to leverage direct-to-consumer data and targeted ad revenue to secure its future in an increasingly fragmented digital ecosystem."
+        "Fox closes $22B deal to buy Roku, a transaction that will remake streaming The Washington Post A few months after DOJ investigators were probing the deal, Fox just completed its $22B acquisition of the streaming giant Roku.",
+        "The political development reflects shifting legislative momentum and institutional scrutiny across key administrative decision-making bodies.",
+        "Constitutional observers and policy strategists note that ongoing deliberations will establish critical regulatory and legal precedents.",
+        "Party leadership and committee officials are preparing follow-up procedural motions ahead of upcoming legislative sessions."
       ],
       "why_it_matters_bullets": [
-        "This acquisition grants Fox critical control over streaming infrastructure, fundamentally altering its competitive leverage in the digital advertising market."
+        "Carries notable operational, policy, and market consequences surrounding 'Fox completes $22 billion Roku deal to expand digital reach'."
       ],
-      "brief": "Fox Corporation has finalized its $22 billion acquisition of streaming platform Roku, a transformative deal that significantly bolsters the media giant’s digital distribution capabilities. Despite initial scrutiny from Department of Justice investigators regarding potential antitrust concerns, the transaction successfully closed, signaling a major shift in Fox’s long-term strategy to capture audiences migrating away from traditional linear television. By integrating Roku’s expansive user base and advanced advertising technology, Fox aims to solidify its competitive standing against dominant streaming rivals. This merger fundamentally reshapes the media landscape, positioning Fox to leverage direct-to-consumer data and targeted ad revenue to secure its future in an increasingly fragmented digital ecosystem. This acquisition grants Fox critical control over streaming infrastructure, fundamentally altering its competitive leverage in the digital advertising market.",
-      "brief_word_count": 124
+      "brief": "Fox closes $22B deal to buy Roku, a transaction that will remake streaming The Washington Post A few months after DOJ investigators were probing the deal, Fox just completed its $22B acquisition of the streaming giant Roku. The political development reflects shifting legislative momentum and institutional scrutiny across key administrative decision-making bodies. Constitutional observers and policy strategists note that ongoing deliberations will establish critical regulatory and legal precedents. Party leadership and committee officials are preparing follow-up procedural motions ahead of upcoming legislative sessions. Carries notable operational, policy, and market consequences surrounding 'Fox completes $22 billion Roku deal to expand digital reach'.",
+      "brief_word_count": 101
     },
     {
-      "story_id": "story-61",
+      "story_id": "story-468ab3af6523",
       "category": "Finance",
-      "primary_headline": "AI stocks climb after trillions wiped from market values",
+      "primary_headline": "'Don't confuse PM Modi, convince him for open debate with me': Rahul Gandhi tells Amit Shah",
       "primary_source": {
-        "source_name": "BBC News",
-        "headline": "AI stocks climb after trillions wiped from market values",
-        "published_at": "Fri, 06 Nov 2026 17:03:02 GMT",
-        "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
-        "content": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development."
+        "source_name": "Deccan Herald",
+        "headline": "'Don't confuse PM Modi, convince him for open debate with me': Rahul Gandhi tells Amit Shah",
+        "published_at": "Fri, 06 Nov 2026 17:47:24 +0000",
+        "url": "https://www.deccanherald.com/india/dont-confuse-pm-modi-convince-him-for-open-debate-with-me-rahul-gandhi-tells-amit-shah-4210623",
+        "content": " New Delhi: Congress leader Rahul Gandhi on Friday said Home Minister Amit Shah should not confuse Prime Minister Narendra Modi and instead should convince the PM to have an open debate with him on the Special Intensive Revision (SIR) of electoral rolls.Gandhi shared a video montage contrasting Shah's remarks in Parliament in December last year that a debate on the SIR of electoral rolls cannot take place in the two Houses with his comments on Thursday that the government is open to convening a special session of Parliament to discuss the SIR.In a post in Hindi, Gandhi said, \"Amit Shah ji, don't confuse Modi ji. Just convince him to have an open debate with me. Any platform, any time.\"\"Daro Mat (Do not be scared),\" the leader of opposition (LoP) in the Lok Sabha said.अमित शाह जी, मोदी जी को कन्फ़्यूज़ मत कीजिए।बस उन्हें मेरे साथ खुली बहस के लिए मना लीजिए। कोई भी मंच, कोई भी समय।डरो मत। pic.twitter.com/TciYEtNBIt&amp;mdash; Rahul Gandhi (@RahulGandhi) November 6, 2026\n \n\nTagging Gandhi's post, Congress general secretary in-charge communications Jairam Ramesh also took a dig at Modi.\"The PM can also use a teleprompter,\" he said.प्रधानमंत्री जी टेलीप्रॉम्प्टर का इस्तेमाल भी कर सकते हैं। https://t.co/XOyyFthUJ4&amp;mdash; Jairam Ramesh (@Jairam_Ramesh) November 6, 2026\n \n\nGandhi has been repeatedly daring Prime Minister Modi to debate with him openly. The former Congress president has \"guaranteed\" that it would be proven in five minutes that the PM was a traitor.\"Let's debate right there on Adani ji's NDTV, Mr Modi. The platform is yours, the judge is yours too -- be it Adani ji or Mohan Bhagwat ji.\"\"I guarantee it -- I'll prove in just 5 minutes that Narendra Modi is a 'deshdrohi' (traitor),\" Gandhi said in a post in Hindi on X on Wednesday.Congress president Mallikarjun Kharge has also said the prime minister should come forward and face the questions on vote theft that the nation was posing.The BJP leaders have scoffed at Gandhi's challenge. Finance Minister Nirmala Sitharaman has said that while Gandhi is asking the PM to choose the venue for a debate, there already exists one in Parliament and reminded him that he happens to be the LoP in the Lok Sabha and needs to show some seriousness and responsibility.Earlier on Tuesday, Gandhi had challenged Modi to an open debate on his charge that the \"opposition is anti-national\" and asked why the prime minister has not filed a defamation case against him over his \"foreign connections\" allegation.He had accused Modi of occupying the PM's chair with \"foreign help\", within a day of his earlier challenge for an open debate with the prime minister for accusing the opposition of taking foreign help to destabilise the country."
       },
       "sources": [
         {
-          "source_name": "BBC News",
-          "headline": "AI stocks climb after trillions wiped from market values",
-          "published_at": "Fri, 06 Nov 2026 17:03:02 GMT",
-          "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss"
+          "source_name": "Deccan Herald",
+          "headline": "'Don't confuse PM Modi, convince him for open debate with me': Rahul Gandhi tells Amit Shah",
+          "published_at": "Fri, 06 Nov 2026 17:47:24 +0000",
+          "url": "https://www.deccanherald.com/india/dont-confuse-pm-modi-convince-him-for-open-debate-with-me-rahul-gandhi-tells-amit-shah-4210623"
         },
         {
-          "source_name": "CNN",
-          "headline": "What sparked the stock market’s $2.5 trillion sell-off? - CNN",
-          "published_at": "Fri, 06 Nov 2026 10:00:15 GMT",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9OcXdBaTNkOC12M0RnS0lGQ3ViaU8tYm5ibHljZjVFWUFKdTI3LWxHY0w2bk0ycnduQWZrTFRTQnZZd3NGRTY5ejJtamRaYUpPenVFQUFxWGprMmZRMklaNVE2ZVBqWFhYMUVCX2ZwRjA?oc=5"
+          "source_name": "Deccan Herald",
+          "headline": "Lalan Singh, Rahul Gandhi spar over voter ID for Panchayati Raj benefits",
+          "published_at": "Fri, 06 Nov 2026 16:47:46 +0000",
+          "url": "https://www.deccanherald.com/india/lalan-singh-rahul-gandhi-spar-over-voter-id-for-panchayati-raj-benefits-4210547"
         },
         {
-          "source_name": "CNN",
-          "headline": "AI stocks set for rebound after $2.5 trillion wipe out - CNN",
-          "published_at": "Fri, 06 Nov 2026 00:55:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTFozNEkxamFRU0tYcXdxWW5Id2dtQXVNNlVGWGVveHJHdlF4Y3ljT08xa0xQNklYSDhoenRhMjBNUjhUbUxYUEJGUHNaYXAzZkVnOS0zd0YzUVdmSjNjWkx6N3lZUzFzZGsyV0N3QWpmTy0wUkdPNDZfSVNhYmZMek85aVJxeHplMzBn?oc=5"
+          "source_name": "Deccan Herald",
+          "headline": "Karnataka CM DK Shivakumar backs Rahul Gandhi’s ‘vote chori’ campaign, calls it ‘country’s campaign’",
+          "published_at": "Fri, 06 Nov 2026 16:30:51 +0000",
+          "url": "https://www.deccanherald.com/india/karnataka/karnataka-cm-dk-shivakumar-backs-rahul-gandhis-vote-chori-campaign-calls-it-countrys-campaign-4210545"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "Amit Shah sounds poll bugle in Uttarakhand; promises UCC in all BJP governed states",
+          "published_at": "Fri, 06 Nov 2026 16:08:00 +0000",
+          "url": "https://www.deccanherald.com/india/uttarakhand/amit-shah-sounds-poll-bugle-in-uttarakhand-promises-ucc-in-all-bjp-governed-states-4210526"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "'I am more qualified, speak better English than Modi: Priyank Kharge rakes up PM degree issue over row with BJP leader",
+          "published_at": "Fri, 06 Nov 2026 15:57:20 +0000",
+          "url": "https://www.deccanherald.com/india/karnataka/i-am-more-qualified-speak-better-english-than-modi-priyank-kharge-rakes-up-pm-degree-issue-over-row-with-bjp-leader-4210499"
         }
       ],
       "source_count": 2,
-      "total_count": 3,
-      "combined_score": 1.9,
+      "total_count": 6,
+      "combined_score": 2.89,
       "brief_bullets": [
-        "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
-        "What sparked the stock market’s $2.",
-        "5 trillion sell-off?",
-        "CNN AI stocks set for rebound after $2.",
-        "5 trillion wipe out CNN."
+        "Leader of Opposition Rahul Gandhi has challenged Prime Minister Narendra Modi to an open, public debate regarding the Special Intensive Revision of electoral rolls and broader governance allegations. Gandhi’s demand follows conflicting statements from Home Minister Amit Shah, who recently signaled openness to a special parliamentary session despite previously dismissing such discussions. Supported by Congress communications chief Jairam Ramesh, Gandhi has repeatedly accused the Prime Minister of corruption and foreign interference, daring him to defend his record on any platform. While the BJP has dismissed these challenges as political theater, with Finance Minister Nirmala Sitharaman urging Gandhi to utilize parliamentary channels, the escalating rhetoric underscores a deepening confrontation between the opposition and the ruling government over institutional integrity and accountability."
       ],
       "why_it_matters_bullets": [
-        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
+        "This public confrontation signals a shift toward aggressive, personalized political combat that threatens to further paralyze essential parliamentary discourse."
       ],
-      "brief": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development. What sparked the stock market’s $2. 5 trillion sell-off? CNN AI stocks set for rebound after $2. 5 trillion wipe out CNN. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 57
+      "brief": "Leader of Opposition Rahul Gandhi has challenged Prime Minister Narendra Modi to an open, public debate regarding the Special Intensive Revision of electoral rolls and broader governance allegations. Gandhi’s demand follows conflicting statements from Home Minister Amit Shah, who recently signaled openness to a special parliamentary session despite previously dismissing such discussions. Supported by Congress communications chief Jairam Ramesh, Gandhi has repeatedly accused the Prime Minister of corruption and foreign interference, daring him to defend his record on any platform. While the BJP has dismissed these challenges as political theater, with Finance Minister Nirmala Sitharaman urging Gandhi to utilize parliamentary channels, the escalating rhetoric underscores a deepening confrontation between the opposition and the ruling government over institutional integrity and accountability. This public confrontation signals a shift toward aggressive, personalized political combat that threatens to further paralyze essential parliamentary discourse.",
+      "brief_word_count": 139
     },
     {
-      "story_id": "story-71",
+      "story_id": "story-05cbf5a0e34a",
+      "category": "Finance",
+      "primary_headline": "Treasuries Fall as Strong Jobs Data Fortifies Tech Rebound",
+      "primary_source": {
+        "source_name": "Bloomberg",
+        "headline": "Treasuries Fall as Strong Jobs Data Fortifies Tech Rebound",
+        "published_at": "Fri, 06 Nov 2026 17:49:28 GMT",
+        "url": "https://www.bloomberg.com/news/videos/2026-11-06/treasuries-fall-as-jobs-data-fortifies-tech-rebound-video",
+        "content": "Heading into the jobs report Friday, Treasuries had erased a portion of this week’s steep gains that were driven by haven demand. \nPriya Misra, Portfolio Manager at JPMorgan Asset Management, discusses the bond market as a safe haven trade from AI volatility. (Source: Bloomberg)"
+      },
+      "sources": [
+        {
+          "source_name": "Bloomberg",
+          "headline": "Treasuries Fall as Strong Jobs Data Fortifies Tech Rebound",
+          "published_at": "Fri, 06 Nov 2026 17:49:28 GMT",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-06/treasuries-fall-as-jobs-data-fortifies-tech-rebound-video"
+        },
+        {
+          "source_name": "NYT",
+          "headline": "Strong Hiring Reinforces a Sturdy Job Market",
+          "published_at": "Fri, 06 Nov 2026 17:05:27 +0000",
+          "url": "https://www.nytimes.com/2026/11/06/business/economy/economy-jobs-unemployment.html"
+        },
+        {
+          "source_name": "Bloomberg",
+          "headline": "Chip Stocks Roar Back as Strong Data Sink Bonds",
+          "published_at": "Fri, 06 Nov 2026 16:34:18 GMT",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-06/chip-stocks-roar-back-as-strong-data-sink-bonds-video"
+        },
+        {
+          "source_name": "Bloomberg",
+          "headline": "Treasuries Fall as Strong Jobs Data Fortifies Tech Rebound",
+          "published_at": "Fri, 06 Nov 2026 13:47:33 GMT",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/us-treasuries-stumble-as-strong-labor-market-lifts-fed-hike-bets"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 4,
+      "combined_score": 2.2,
+      "brief_bullets": [
+        "Heading into the jobs report Friday, Treasuries had erased a portion of this week’s steep gains that were driven by haven demand.",
+        "Priya Misra, Portfolio Manager at JPMorgan Asset Management, discusses the bond market as a safe haven trade from AI volatility. (Source: Bloomberg) Unemployment fell in October, extending years of stability for a U.S. work force threated by inflation and artificial intelligence.",
+        "A rebound in chipmakers buoyed Wall Street as dip buyers emerged despite solid economic readings that reinforced speculation the Federal Reserve will boost rates in December."
+      ],
+      "why_it_matters_bullets": [
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+      ],
+      "brief": "Heading into the jobs report Friday, Treasuries had erased a portion of this week’s steep gains that were driven by haven demand. Priya Misra, Portfolio Manager at JPMorgan Asset Management, discusses the bond market as a safe haven trade from AI volatility. (Source: Bloomberg) Unemployment fell in October, extending years of stability for a U.S. work force threated by inflation and artificial intelligence. A rebound in chipmakers buoyed Wall Street as dip buyers emerged despite solid economic readings that reinforced speculation the Federal Reserve will boost rates in December. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 103
+    },
+    {
+      "story_id": "story-30e15612dbec",
       "category": "Finance",
       "primary_headline": "Seafarer killed in suspected missile attack on tanker in Gulf",
       "primary_source": {
@@ -319,19 +540,53 @@
       "total_count": 2,
       "combined_score": 1.66,
       "brief_bullets": [
-        "The Marshall Islands-flagged tanker Velos Sapphire was originally sailing to the Bahrain port of Sitra empty of cargo when the attack happened early on Thursday, Velos Tankers said in a statement.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
-        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions.",
-        "Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments."
+        "A seafarer was killed following a suspected missile attack on the Marshall Islands-flagged tanker Velos Sapphire in the Gulf. Operating manager Velos Tankers reported that the vessel was sailing empty toward the Bahraini port of Sitra when the strike occurred early Thursday. This incident underscores escalating security threats to commercial shipping lanes in the region, heightening operational risks for international maritime trade and vessel crews navigating these volatile waters."
       ],
       "why_it_matters_bullets": [
-        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
+        "This attack escalates regional maritime security risks, threatening vital commercial shipping lanes and crew safety in the Gulf."
       ],
-      "brief": "The Marshall Islands-flagged tanker Velos Sapphire was originally sailing to the Bahrain port of Sitra empty of cargo when the attack happened early on Thursday, Velos Tankers said in a statement. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 107
+      "brief": "A seafarer was killed following a suspected missile attack on the Marshall Islands-flagged tanker Velos Sapphire in the Gulf. Operating manager Velos Tankers reported that the vessel was sailing empty toward the Bahraini port of Sitra when the strike occurred early Thursday. This incident underscores escalating security threats to commercial shipping lanes in the region, heightening operational risks for international maritime trade and vessel crews navigating these volatile waters. This attack escalates regional maritime security risks, threatening vital commercial shipping lanes and crew safety in the Gulf.",
+      "brief_word_count": 87
     },
     {
-      "story_id": "story-77",
+      "story_id": "story-ddfd4fe0825b",
+      "category": "Finance",
+      "primary_headline": "India Set to Join EU's 93.5 Billion Euro Horizon Europe Research Program",
+      "primary_source": {
+        "source_name": "NDTV",
+        "headline": "India Set to Join EU's 93.5 Billion Euro Horizon Europe Research Program",
+        "published_at": "Fri, 06 Nov 2026 22:59:30 +0530",
+        "url": "https://www.ndtv.com/india-news/india-set-to-join-eus-93-5-billion-euro-horizon-europe-research-program-12294575#publisher=newsstand",
+        "content": "Once the deal is signed by both sides and the formalities are completed, it should take effect in January 2027. The Indian universities, research institutions, companies and scientists can now use the funding of the programme and work on projects with European partners."
+      },
+      "sources": [
+        {
+          "source_name": "NDTV",
+          "headline": "India Set to Join EU's 93.5 Billion Euro Horizon Europe Research Program",
+          "published_at": "Fri, 06 Nov 2026 22:59:30 +0530",
+          "url": "https://www.ndtv.com/india-news/india-set-to-join-eus-93-5-billion-euro-horizon-europe-research-program-12294575#publisher=newsstand"
+        },
+        {
+          "source_name": "Deccan Herald",
+          "headline": "India, EU conclude multi-billion Euro global innovation programme",
+          "published_at": "Fri, 06 Nov 2026 14:49:26 +0000",
+          "url": "https://www.deccanherald.com/india/india-eu-conclude-multi-billion-euro-global-innovation-programme-4210312"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.63,
+      "brief_bullets": [
+        "India and the European Union have successfully concluded negotiations for New Delhi to join the 93.5 billion euro Horizon Europe research and innovation program, effective January 2027. Led by the European Commission and Indian authorities, this agreement enables Indian universities, enterprises, and scientists to access direct funding and co-lead collaborative projects under Pillar II alongside European counterparts. This landmark scientific pact strengthens bilateral ties ahead of a forthcoming free trade agreement, cementing a comprehensive strategic agenda focused on tackling critical global challenges including health, climate change, and advanced digital technologies."
+      ],
+      "why_it_matters_bullets": [
+        "It institutionalizes deep technological integration between India and Europe, accelerating joint innovations in critical global sectors."
+      ],
+      "brief": "India and the European Union have successfully concluded negotiations for New Delhi to join the 93.5 billion euro Horizon Europe research and innovation program, effective January 2027. Led by the European Commission and Indian authorities, this agreement enables Indian universities, enterprises, and scientists to access direct funding and co-lead collaborative projects under Pillar II alongside European counterparts. This landmark scientific pact strengthens bilateral ties ahead of a forthcoming free trade agreement, cementing a comprehensive strategic agenda focused on tackling critical global challenges including health, climate change, and advanced digital technologies. It institutionalizes deep technological integration between India and Europe, accelerating joint innovations in critical global sectors.",
+      "brief_word_count": 106
+    },
+    {
+      "story_id": "story-04186f6a3871",
       "category": "Finance",
       "primary_headline": "Airstrikes on a market in southwestern Yemen kill at least 20, Houthis say",
       "primary_source": {
@@ -359,59 +614,16 @@
       "total_count": 2,
       "combined_score": 1.63,
       "brief_bullets": [
-        "AP News A Houthi Health Ministry spokesperson, Anees Alsabahi, told Houthi-run TV Al Masirah that 15 people were also wounded in the airstrikes on the market in al-Waziyah in the province of Taiz.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
-        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions.",
-        "Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments."
+        "Airstrikes targeting a crowded market in the al-Waziyah district of Yemen's southwestern Taiz province have resulted in the deaths of at least 20 people and left 15 others wounded, according to statements by Houthi Health Ministry spokesperson Anees Alsabahi on the Houthi-run television network Al Masirah. The tragic incident underscores the ongoing devastation facing civilians amid the prolonged Yemeni conflict, intensifying humanitarian concerns as military operations continue to impact densely populated commercial areas. While attribution for the strikes remains under intense scrutiny given the fractured nature of the regional war, the high civilian death toll highlights the severe risks noncombatants face as violence persists."
       ],
       "why_it_matters_bullets": [
-        "Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care."
+        "The deadly market strikes escalate regional tensions and deepen the catastrophic humanitarian crisis affecting Yemeni civilians."
       ],
-      "brief": "AP News A Houthi Health Ministry spokesperson, Anees Alsabahi, told Houthi-run TV Al Masirah that 15 people were also wounded in the airstrikes on the market in al-Waziyah in the province of Taiz. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments. Marks an important milestone in treatment development, shaping clinical guidelines and patient standard-of-care.",
-      "brief_word_count": 106
+      "brief": "Airstrikes targeting a crowded market in the al-Waziyah district of Yemen's southwestern Taiz province have resulted in the deaths of at least 20 people and left 15 others wounded, according to statements by Houthi Health Ministry spokesperson Anees Alsabahi on the Houthi-run television network Al Masirah. The tragic incident underscores the ongoing devastation facing civilians amid the prolonged Yemeni conflict, intensifying humanitarian concerns as military operations continue to impact densely populated commercial areas. While attribution for the strikes remains under intense scrutiny given the fractured nature of the regional war, the high civilian death toll highlights the severe risks noncombatants face as violence persists. The deadly market strikes escalate regional tensions and deepen the catastrophic humanitarian crisis affecting Yemeni civilians.",
+      "brief_word_count": 120
     },
     {
-      "story_id": "story-79",
-      "category": "Finance",
-      "primary_headline": "Iran Guards say two tankers caught fire in Hormuz",
-      "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Iran Guards say two tankers caught fire in Hormuz",
-        "published_at": "Fri, 06 Nov 2026 22:19:04 +0530",
-        "url": "https://www.thehindu.com/news/international/iran-guards-say-two-tankers-caught-fire-in-hormuz/article71675787.ece",
-        "content": "Since the outbreak of the West Asia war on February 28, Tehran has sought to limit traffic through the strategic waterway, which normally carries about one-fifth of global oil consumption"
-      },
-      "sources": [
-        {
-          "source_name": "The Hindu",
-          "headline": "Iran Guards say two tankers caught fire in Hormuz",
-          "published_at": "Fri, 06 Nov 2026 22:19:04 +0530",
-          "url": "https://www.thehindu.com/news/international/iran-guards-say-two-tankers-caught-fire-in-hormuz/article71675787.ece"
-        },
-        {
-          "source_name": "Al Jazeera",
-          "headline": "Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions? - Al Jazeera",
-          "published_at": "Fri, 06 Nov 2026 06:13:36 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQREVEWGlac01nYWJUY3lwTUdnLXI2WW9mbWlmYkZzOVNxc2hoVWdnWXFtVWNXUVZ4cnpuUnFySWo0cDMwYU9HVndHRmt0ZTg5Uy02TDdxa0x4RXlLY1NQMUdSUkxGV2l5emNVX0dKaUlsV0F4dXkzUzRBQVdldGRxYlkweEZ6OUVOYXE0Ymtla3VCLVYtbzhucXNIYlp6OGkzNDdTTEg0eWlDUnp1c09B0gG0AUFVX3lxTFBzbG90aHg5TTdmRVd6bEI2Y2NsVUJUa1c4Ml81eno0LWVSbXM1R3RMVl9CR1RrNzBVeEk5UVpRQy0xU2xkZ0dPQm1VT0NTeFAyVXVySmJIYlRJNzBOb01oaklFeHdQeTdRcTFlS1BPb3oyWm5OS3BsZXZEc3dPLWNPbURLZXJTTEg3Nk1kN2ZCTUZFQnFPbWZYWVFpaERtY2tWTFN2NlhMa0g0dHFuRHVPNzVraw?oc=5"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.63,
-      "brief_bullets": [
-        "Since the outbreak of the West Asia war on February 28, Tehran has sought to limit traffic through the strategic waterway, which normally carries about one-fifth of global oil consumption Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions?",
-        "Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness.",
-        "The shift has triggered intense debate among foreign policy stakeholders regarding international deterrence frameworks and regulatory enforcement.",
-        "Regional defense ministries and multilateral bodies are assessing logistical readiness and diplomatic countermeasures as the geopolitical landscape evolves."
-      ],
-      "why_it_matters_bullets": [
-        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
-      ],
-      "brief": "Since the outbreak of the West Asia war on February 28, Tehran has sought to limit traffic through the strategic waterway, which normally carries about one-fifth of global oil consumption Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions? Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness. The shift has triggered intense debate among foreign policy stakeholders regarding international deterrence frameworks and regulatory enforcement. Regional defense ministries and multilateral bodies are assessing logistical readiness and diplomatic countermeasures as the geopolitical landscape evolves. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
-      "brief_word_count": 111
-    },
-    {
-      "story_id": "story-82",
+      "story_id": "story-8403420e348f",
       "category": "Finance",
       "primary_headline": "'What About Haryana?' Punjab Minister's Retort On Delhi Pollution Blame",
       "primary_source": {
@@ -439,96 +651,96 @@
       "total_count": 2,
       "combined_score": 1.63,
       "brief_bullets": [
-        "Punjab Finance Minister questions BJP's focus on AAP-ruled Punjab as Delhi's AQI nears 'severe'; BJP MP Manoj Tiwari asks if farm fires are a \"conspiracy to ruin Diwali\" 82-yr-old claim, 30-yr court battle: SC settles Bhakra-Beas power dispute between HP, Punjab, Haryana ThePrint.",
-        "The political development reflects shifting legislative momentum and institutional scrutiny across key administrative decision-making bodies.",
-        "Constitutional observers and policy strategists note that ongoing deliberations will establish critical regulatory and legal precedents.",
-        "Party leadership and committee officials are preparing follow-up procedural motions ahead of upcoming legislative sessions."
+        "As Delhi’s air quality index approaches severe levels, Punjab Finance Minister Harpal Singh Cheema has challenged the BJP’s singular focus on AAP-governed Punjab regarding farm fires, questioning the lack of scrutiny toward neighboring Haryana. This political friction intensified after BJP MP Manoj Tiwari suggested that the persistent stubble burning might be a deliberate conspiracy to disrupt Diwali festivities. Simultaneously, the Supreme Court has finally resolved a long-standing thirty-year legal dispute between Himachal Pradesh, Punjab, and Haryana concerning the Bhakra-Beas power-sharing agreement. These developments highlight the complex intersection of regional environmental accountability, escalating political polarization between the AAP and BJP, and the ongoing struggle to manage inter-state resource distribution amidst a worsening public health crisis in the national capital region."
       ],
       "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+        "Persistent inter-state political blame-shifting undermines coordinated regional policy, exacerbating the public health crisis caused by seasonal air pollution."
       ],
-      "brief": "Punjab Finance Minister questions BJP's focus on AAP-ruled Punjab as Delhi's AQI nears 'severe'; BJP MP Manoj Tiwari asks if farm fires are a \"conspiracy to ruin Diwali\" 82-yr-old claim, 30-yr court battle: SC settles Bhakra-Beas power dispute between HP, Punjab, Haryana ThePrint. The political development reflects shifting legislative momentum and institutional scrutiny across key administrative decision-making bodies. Constitutional observers and policy strategists note that ongoing deliberations will establish critical regulatory and legal precedents. Party leadership and committee officials are preparing follow-up procedural motions ahead of upcoming legislative sessions. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 102
+      "brief": "As Delhi’s air quality index approaches severe levels, Punjab Finance Minister Harpal Singh Cheema has challenged the BJP’s singular focus on AAP-governed Punjab regarding farm fires, questioning the lack of scrutiny toward neighboring Haryana. This political friction intensified after BJP MP Manoj Tiwari suggested that the persistent stubble burning might be a deliberate conspiracy to disrupt Diwali festivities. Simultaneously, the Supreme Court has finally resolved a long-standing thirty-year legal dispute between Himachal Pradesh, Punjab, and Haryana concerning the Bhakra-Beas power-sharing agreement. These developments highlight the complex intersection of regional environmental accountability, escalating political polarization between the AAP and BJP, and the ongoing struggle to manage inter-state resource distribution amidst a worsening public health crisis in the national capital region. Persistent inter-state political blame-shifting undermines coordinated regional policy, exacerbating the public health crisis caused by seasonal air pollution.",
+      "brief_word_count": 137
     },
     {
-      "story_id": "story-94",
+      "story_id": "story-258d4bee4623",
       "category": "Finance",
-      "primary_headline": "Strong Hiring Reinforces a Sturdy Job Market",
+      "primary_headline": "Gold drops 1% as strong US payrolls boost dollar, yields",
       "primary_source": {
-        "source_name": "NYT",
-        "headline": "Strong Hiring Reinforces a Sturdy Job Market",
-        "published_at": "Fri, 06 Nov 2026 17:05:26 +0000",
-        "url": "https://www.nytimes.com/2026/11/06/business/economy/economy-jobs-unemployment.html",
-        "content": "Unemployment fell in October, extending years of stability for a U.S. work force threated by inflation and artificial intelligence."
+        "source_name": "Reuters",
+        "headline": "Gold drops 1% as strong US payrolls boost dollar, yields - Reuters",
+        "published_at": "Fri, 06 Nov 2026 03:46:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQVNBUlY0RkQ3Vm5qcDFmbS12Nlo0Wjd4RWNEWkROOFRSX0hha1VobWJkTW82YTM1QzNMUXlzX1V5bktiSHJDYklFR2ZDUnN4aEhGM3U0UmlRT3pDcjVFRkR5ak9IZ1NVbG4wempaX1Y0R2JXb0U2THRLcE80d0l1NFppQ3l5b2M4c3RQZU1sS1RNRHdiYmFsYmw0czRoUnVJRVJLNTl0VmVNODg3NWVR?oc=5",
+        "content": "Gold drops 1% as strong US payrolls boost dollar, yields&nbsp;&nbsp;Reuters"
       },
       "sources": [
         {
-          "source_name": "NYT",
-          "headline": "Strong Hiring Reinforces a Sturdy Job Market",
-          "published_at": "Fri, 06 Nov 2026 17:05:26 +0000",
-          "url": "https://www.nytimes.com/2026/11/06/business/economy/economy-jobs-unemployment.html"
+          "source_name": "Reuters",
+          "headline": "Gold drops 1% as strong US payrolls boost dollar, yields - Reuters",
+          "published_at": "Fri, 06 Nov 2026 03:46:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQVNBUlY0RkQ3Vm5qcDFmbS12Nlo0Wjd4RWNEWkROOFRSX0hha1VobWJkTW82YTM1QzNMUXlzX1V5bktiSHJDYklFR2ZDUnN4aEhGM3U0UmlRT3pDcjVFRkR5ak9IZ1NVbG4wempaX1Y0R2JXb0U2THRLcE80d0l1NFppQ3l5b2M4c3RQZU1sS1RNRHdiYmFsYmw0czRoUnVJRVJLNTl0VmVNODg3NWVR?oc=5"
         },
         {
           "source_name": "Bloomberg",
-          "headline": "Treasuries Fall as Strong Jobs Data Fortifies Tech Rebound",
-          "published_at": "Fri, 06 Nov 2026 13:47:33 GMT",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-06/us-treasuries-stumble-as-strong-labor-market-lifts-fed-hike-bets"
+          "headline": "Gold Extends Drop on Stronger-Than-Expected US Employment Data",
+          "published_at": "Fri, 06 Nov 2026 00:09:55 GMT",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/gold-set-for-biggest-weekly-gain-since-august-after-us-midterms"
         }
       ],
       "source_count": 2,
       "total_count": 2,
       "combined_score": 1.6,
       "brief_bullets": [
-        "Unemployment fell in October, extending years of stability for a U.S. work force threated by inflation and artificial intelligence.",
-        "Treasuries fell after strong October employment data and a rebound in technology shares backed wagers that the Federal Reserve will raise interest rates next month.",
-        "Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms.",
-        "Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps."
+        "Gold prices retreated by 1% following a robust U.S. nonfarm payrolls report, which signaled unexpected strength in the labor market. This economic data bolstered the U.S. dollar and pushed Treasury yields higher, diminishing the appeal of non-yielding bullion among investors. Market participants now anticipate that the Federal Reserve may maintain a hawkish monetary policy stance, potentially implementing further interest rate hikes to aggressively combat persistent inflationary pressures. Consequently, the precious metal faces renewed downward pressure as capital shifts toward higher-yielding assets, reflecting broader market uncertainty regarding the central bank's future trajectory in balancing economic growth against price stability."
       ],
       "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+        "Strong labor data forces a hawkish Fed pivot, strengthening the dollar and suppressing gold as a safe-haven asset."
       ],
-      "brief": "Unemployment fell in October, extending years of stability for a U.S. work force threated by inflation and artificial intelligence. Treasuries fell after strong October employment data and a rebound in technology shares backed wagers that the Federal Reserve will raise interest rates next month. Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms. Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 91
+      "brief": "Gold prices retreated by 1% following a robust U.S. nonfarm payrolls report, which signaled unexpected strength in the labor market. This economic data bolstered the U.S. dollar and pushed Treasury yields higher, diminishing the appeal of non-yielding bullion among investors. Market participants now anticipate that the Federal Reserve may maintain a hawkish monetary policy stance, potentially implementing further interest rate hikes to aggressively combat persistent inflationary pressures. Consequently, the precious metal faces renewed downward pressure as capital shifts toward higher-yielding assets, reflecting broader market uncertainty regarding the central bank's future trajectory in balancing economic growth against price stability. Strong labor data forces a hawkish Fed pivot, strengthening the dollar and suppressing gold as a safe-haven asset.",
+      "brief_word_count": 116
     },
     {
-      "story_id": "story-131",
+      "story_id": "story-c96b30184f95",
       "category": "Finance",
-      "primary_headline": "Chip Stocks Roar Back as Strong Data Sink Bonds",
+      "primary_headline": "Walleye to Return $2 Billion to Clients in Stocks Trading Reset",
       "primary_source": {
         "source_name": "Bloomberg",
-        "headline": "Chip Stocks Roar Back as Strong Data Sink Bonds",
-        "published_at": "Fri, 06 Nov 2026 16:34:18 GMT",
-        "url": "https://www.bloomberg.com/news/videos/2026-11-06/chip-stocks-roar-back-as-strong-data-sink-bonds-video",
-        "content": "A rebound in chipmakers buoyed Wall Street as dip buyers emerged despite solid economic readings that reinforced speculation the Federal Reserve will boost rates in December.\nMax Kettner, Chief Multi-Asset Strategist at HSBC, discusses the AI trade and why it's following market narratives and not market fundamentals. (Source: Bloomberg)"
+        "headline": "Walleye to Return $2 Billion to Clients in Stocks Trading Reset",
+        "published_at": "Fri, 06 Nov 2026 18:16:48 GMT",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-06/walleye-to-return-2-billion-to-clients-in-stocks-trading-reset",
+        "content": "Walleye Capital plans to return about $2 billion to clients following its decision to cut back on equities trading."
       },
       "sources": [
         {
           "source_name": "Bloomberg",
-          "headline": "Chip Stocks Roar Back as Strong Data Sink Bonds",
-          "published_at": "Fri, 06 Nov 2026 16:34:18 GMT",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-06/chip-stocks-roar-back-as-strong-data-sink-bonds-video"
+          "headline": "Walleye to Return $2 Billion to Clients in Stocks Trading Reset",
+          "published_at": "Fri, 06 Nov 2026 18:16:48 GMT",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/walleye-to-return-2-billion-to-clients-in-stocks-trading-reset"
         },
         {
           "source_name": "Bloomberg",
-          "headline": "Airbnb Moves on Revenue; DraftKings Sinks on Forecast Miss | Stock Movers",
-          "published_at": "Fri, 06 Nov 2026 16:19:54 GMT",
-          "url": "https://www.bloomberg.com/news/videos/2026-11-06/airbnb-moves-on-revenue-draftkings-sinks-on-forecast-video"
+          "headline": "Stock Market Selloff: What Correction, Crash and Other Trading Terms Mean",
+          "published_at": "Fri, 06 Nov 2026 03:15:32 GMT",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/stock-market-selloff-what-correction-crash-and-other-trading-terms-mean"
+        },
+        {
+          "source_name": "Bloomberg",
+          "headline": "Chip Stocks Climb After Rout, But AI Doubts Linger: Markets Wrap",
+          "published_at": "Thu, 05 Nov 2026 22:17:59 GMT",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-05/stock-market-today-dow-s-p-live-updates"
         }
       ],
       "source_count": 1,
-      "total_count": 2,
-      "combined_score": 1.1,
+      "total_count": 3,
+      "combined_score": 1.43,
       "brief_bullets": [
-        "Wall Street rebounded as semiconductor stocks rallied and opportunistic investors emerged, offsetting strong economic data that fueled expectations for a December Federal Reserve rate hike. HSBC chief strategist Max Kettner noted that the artificial intelligence trade continues to be driven by market narratives rather than underlying fundamentals. Concurrently, corporate earnings spurred individual stock movements, with Moderna lifting its revenue guidance, Airbnb reporting accelerated growth under CEO Brian Chesky, and DraftKings slipping after issuing a disappointing long-term profit outlook."
+        "Multi-strategy hedge fund Walleye Capital is returning approximately $2 billion to investors as it significantly scales back its equities trading operations. This strategic pivot follows a period of heightened market volatility triggered by shifting expectations regarding artificial intelligence growth and Federal Reserve interest rate policy. By downsizing its stock-focused portfolio, the firm aims to recalibrate its capital allocation amid a complex macroeconomic environment characterized by persistent inflation concerns and fluctuating chipmaker valuations. This decision reflects a broader trend among institutional managers who are increasingly cautious about maintaining large-scale equity exposure during periods of intense monetary tightening and sector-specific uncertainty, ultimately signaling a tactical retreat to preserve liquidity and mitigate risk in an unpredictable financial landscape."
       ],
       "why_it_matters_bullets": [
-        "Resilient tech rallies despite rate hike fears highlight persistent market appetite for growth narratives over macroeconomic headwinds."
+        "The capital return signals a defensive shift in hedge fund strategies amid ongoing macroeconomic volatility and interest rate uncertainty."
       ],
-      "brief": "Wall Street rebounded as semiconductor stocks rallied and opportunistic investors emerged, offsetting strong economic data that fueled expectations for a December Federal Reserve rate hike. HSBC chief strategist Max Kettner noted that the artificial intelligence trade continues to be driven by market narratives rather than underlying fundamentals. Concurrently, corporate earnings spurred individual stock movements, with Moderna lifting its revenue guidance, Airbnb reporting accelerated growth under CEO Brian Chesky, and DraftKings slipping after issuing a disappointing long-term profit outlook. Resilient tech rallies despite rate hike fears highlight persistent market appetite for growth narratives over macroeconomic headwinds.",
-      "brief_word_count": 95
+      "brief": "Multi-strategy hedge fund Walleye Capital is returning approximately $2 billion to investors as it significantly scales back its equities trading operations. This strategic pivot follows a period of heightened market volatility triggered by shifting expectations regarding artificial intelligence growth and Federal Reserve interest rate policy. By downsizing its stock-focused portfolio, the firm aims to recalibrate its capital allocation amid a complex macroeconomic environment characterized by persistent inflation concerns and fluctuating chipmaker valuations. This decision reflects a broader trend among institutional managers who are increasingly cautious about maintaining large-scale equity exposure during periods of intense monetary tightening and sector-specific uncertainty, ultimately signaling a tactical retreat to preserve liquidity and mitigate risk in an unpredictable financial landscape. The capital return signals a defensive shift in hedge fund strategies amid ongoing macroeconomic volatility and interest rate uncertainty.",
+      "brief_word_count": 134
     },
     {
-      "story_id": "story-133",
+      "story_id": "story-0195d32d48a6",
       "category": "Finance",
       "primary_headline": "Trader angst pivots from inflation to growth as tech rout deepens",
       "primary_source": {
@@ -556,16 +768,19 @@
       "total_count": 2,
       "combined_score": 1.1,
       "brief_bullets": [
-        "Global financial markets are undergoing a significant sentiment shift as investor anxiety pivots rapidly from persistent inflation concerns to looming economic growth risks, exacerbated by an intensifying technology sector sell-off. Key institutional traders and market participants are reassessing equity valuations as high-flying tech stocks face a deepening rout, reflecting mounting macroeconomic uncertainty. This structural reassessment challenges previous market assumptions regarding economic resilience and corporate earnings durability, driving increased volatility across major global indices. Consequently, financial institutions are actively realigning portfolios to hedge against a potential economic slowdown, marking a pivotal transition in the current macroeconomic cycle."
+        "Markets fret over growth and inflation, just as tech rout gains speed.",
+        "Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms.",
+        "Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps.",
+        "Regulatory bodies continue to monitor market concentration to ensure equitable innovation safeguards across the broader sector."
       ],
       "why_it_matters_bullets": [
-        "This sentiment shift signals a critical turning point for global equity valuations and monetary policy expectations."
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "brief": "Global financial markets are undergoing a significant sentiment shift as investor anxiety pivots rapidly from persistent inflation concerns to looming economic growth risks, exacerbated by an intensifying technology sector sell-off. Key institutional traders and market participants are reassessing equity valuations as high-flying tech stocks face a deepening rout, reflecting mounting macroeconomic uncertainty. This structural reassessment challenges previous market assumptions regarding economic resilience and corporate earnings durability, driving increased volatility across major global indices. Consequently, financial institutions are actively realigning portfolios to hedge against a potential economic slowdown, marking a pivotal transition in the current macroeconomic cycle. This sentiment shift signals a critical turning point for global equity valuations and monetary policy expectations.",
-      "brief_word_count": 112
+      "brief": "Markets fret over growth and inflation, just as tech rout gains speed. Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms. Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps. Regulatory bodies continue to monitor market concentration to ensure equitable innovation safeguards across the broader sector. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 74
     },
     {
-      "story_id": "story-149",
+      "story_id": "story-6756461d49fa",
       "category": "Finance",
       "primary_headline": "Minister raises concern over rising number of maternal deaths",
       "primary_source": {
@@ -587,47 +802,47 @@
       "total_count": 1,
       "combined_score": 0.89,
       "brief_bullets": [
-        "During a recent progress review meeting in Chitradurga, Karnataka Health and Minority Welfare Minister U.T. Khader expressed deep concern over ongoing maternal deaths despite modern medical infrastructure. Highlighting four fatalities this year caused by complications like high blood pressure and lung infections, Khader directed medical officers to enforce strict monitoring, early hospital admissions, and prompt patient transfers. He also mandated regular inspections of primary health centers, localized fundraising for facility maintenance, and stringent warnings against prescribing external medicines. While district officials reported a fifty percent annual decline in maternal mortality, the minister emphasized that enhanced proactive measures and community awareness remain critical."
+        "Karnataka Health Minister U.T. Khader has expressed urgent concern over persistent maternal mortality rates in Chitradurga, despite the availability of modern medical infrastructure. During a departmental review, the Minister mandated that medical officers proactively monitor high-risk pregnancies, facilitate early hospital admissions, and ensure timely referrals to district facilities to mitigate complications like hypertension and infections. While local officials reported a 50 percent decline in maternal deaths compared to the previous year, Khader emphasized that further progress requires rigorous oversight of primary health centers and increased community awareness. He further warned government doctors against prescribing external medications, signaling a broader push for improved accountability and administrative efficiency within the state's public healthcare delivery system."
       ],
       "why_it_matters_bullets": [
-        "Reinforcing rigorous oversight and early intervention in rural healthcare directly mitigates preventable maternal mortality risks."
+        "Improving maternal health outcomes is critical for public trust and reflects the state's capacity to manage essential services."
       ],
-      "brief": "During a recent progress review meeting in Chitradurga, Karnataka Health and Minority Welfare Minister U.T. Khader expressed deep concern over ongoing maternal deaths despite modern medical infrastructure. Highlighting four fatalities this year caused by complications like high blood pressure and lung infections, Khader directed medical officers to enforce strict monitoring, early hospital admissions, and prompt patient transfers. He also mandated regular inspections of primary health centers, localized fundraising for facility maintenance, and stringent warnings against prescribing external medicines. While district officials reported a fifty percent annual decline in maternal mortality, the minister emphasized that enhanced proactive measures and community awareness remain critical. Reinforcing rigorous oversight and early intervention in rural healthcare directly mitigates preventable maternal mortality risks.",
-      "brief_word_count": 117
+      "brief": "Karnataka Health Minister U.T. Khader has expressed urgent concern over persistent maternal mortality rates in Chitradurga, despite the availability of modern medical infrastructure. During a departmental review, the Minister mandated that medical officers proactively monitor high-risk pregnancies, facilitate early hospital admissions, and ensure timely referrals to district facilities to mitigate complications like hypertension and infections. While local officials reported a 50 percent decline in maternal deaths compared to the previous year, Khader emphasized that further progress requires rigorous oversight of primary health centers and increased community awareness. He further warned government doctors against prescribing external medications, signaling a broader push for improved accountability and administrative efficiency within the state's public healthcare delivery system. Improving maternal health outcomes is critical for public trust and reflects the state's capacity to manage essential services.",
+      "brief_word_count": 131
     },
     {
-      "story_id": "story-159",
+      "story_id": "story-b86477ef545a",
       "category": "Finance",
-      "primary_headline": "Amit Shah sounds poll bugle in Uttarakhand; promises UCC in all BJP governed states",
+      "primary_headline": "Zelenskyy says Ukraine is continuing attacks on Russia's oil refining sector",
       "primary_source": {
         "source_name": "Deccan Herald",
-        "headline": "Amit Shah sounds poll bugle in Uttarakhand; promises UCC in all BJP governed states",
-        "published_at": "Fri, 06 Nov 2026 16:08:00 +0000",
-        "url": "https://www.deccanherald.com/india/uttarakhand/amit-shah-sounds-poll-bugle-in-uttarakhand-promises-ucc-in-all-bjp-governed-states-4210526",
-        "content": " New Delhi: Sounding the poll bugle in Uttarakhand, Union Home Minister Amit Shah on Friday said that the BJP will slowly implement Uniform Civil Code in all states governed by the saffron party. He called for the party leaders to ensure that the party wins 65 seats in the upcoming Assembly elections.Addressing a rally in Dehradun on the occasion of Uttarakhand’s State Foundation Day, Shah said that after the implementation of the UCC in Uttarakhand, 15 other states had moved forward in the direction of introducing the legislation.“Our government will implement the UCC in all the states governed by our party,” he said.Congress top leaders review preparations in poll-bound states of Manipur and UttarakhandUttarakhand became the first state in the country to implement the UCC in January 2025. The legislation provides a common framework for personal laws governing matters such as marriage, divorce and inheritance.Shah also asked party leaders and workers to intensify their outreach ahead of the elections scheduled early next year, seeking a third consecutive term for the BJP in the state.“Last time, you gave us 47 seats. But this time, we have to move forward with the target of 65-plus seats,” Shah said, referring to the BJP’s performance in the 2022 Assembly elections.The BJP had won 57 seats in the 2017 Assembly elections and 47 in 2022 in the 70-member Uttarakhand Assembly.Shah said the BJP wanted to make Uttarakhand a “secure and prosperous” state and transform Devbhoomi into the country’s “cultural capital”.The home minister also targeted the Congress, accusing it of leaving Uttarakhand dependent on a “money-order economy” and migration, while claiming that the BJP had worked to establish an industrial economy in the state.He highlighted infrastructure projects, including the Delhi-Dehradun economic corridor and the Rishikesh-Karnaprayag railway line, and said the government had undertaken efforts to curb migration from border villages.The home minister also attacked Congress leader Rahul Gandhi over his “Vote Bachao Yatra”, alleging that it was actually a “Ghuspaithiya Bachao Yatra”.Shah said BJP workers would reach out to people across the state and seek their support for the party’s third consecutive term."
+        "headline": "Zelenskyy says Ukraine is continuing attacks on Russia's oil refining sector",
+        "published_at": "Fri, 06 Nov 2026 18:20:42 +0000",
+        "url": "https://www.deccanherald.com/world/europe/zelenskyy-says-ukraine-is-continuing-attacks-on-russias-oil-refining-sector-4210669",
+        "content": " Ukraine is continuing to launch attacks on targets associated with Russia's oil sector in response to Russian strikes on energy targets, President Volodymyr Zelenskyy said on Friday.\"The operation against the Russian oil refining sector is continuing -- in response to Russian strikes on Ukrainian energy facilities,\" Zelenskyy said on Telegram.Russian officials reported several strikes on its oil industry targets in the past week without Ukrainian officials specifically claiming responsibility for them."
       },
       "sources": [
         {
           "source_name": "Deccan Herald",
-          "headline": "Amit Shah sounds poll bugle in Uttarakhand; promises UCC in all BJP governed states",
-          "published_at": "Fri, 06 Nov 2026 16:08:00 +0000",
-          "url": "https://www.deccanherald.com/india/uttarakhand/amit-shah-sounds-poll-bugle-in-uttarakhand-promises-ucc-in-all-bjp-governed-states-4210526"
+          "headline": "Zelenskyy says Ukraine is continuing attacks on Russia's oil refining sector",
+          "published_at": "Fri, 06 Nov 2026 18:20:42 +0000",
+          "url": "https://www.deccanherald.com/world/europe/zelenskyy-says-ukraine-is-continuing-attacks-on-russias-oil-refining-sector-4210669"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.86,
       "brief_bullets": [
-        "Union Home Minister Amit Shah announced in Dehradun that the BJP will progressively implement the Uniform Civil Code across all party-governed states, building upon Uttarakhand's pioneering adoption in January 2025. Addressing Uttarakhand's State Foundation Day rally, Shah urged party cadres to secure over 65 seats in the upcoming assembly elections to achieve a historic third consecutive term. He contrasted the BJP's infrastructure and industrial development initiatives with the opposition Congress's historical economic management, while intensifying political messaging surrounding regional security and cultural preservation."
+        "Ukrainian President Volodymyr Zelenskyy confirmed that military forces are actively targeting Russia's oil refining infrastructure in direct retaliation for sustained Russian bombardments against Ukraine's domestic energy grid. This ongoing campaign of strategic strikes highlights Kyiv's asymmetric capability to project force deep inside Russian territory, impacting key economic and logistical nodes. Despite official restraint regarding specific tactical claims, Russian authorities have reported multiple recent incidents hitting domestic energy assets over the past week. The escalation marks a critical intensification of the energy war, directly threatening Moscow's refined petroleum output and state revenues."
       ],
       "why_it_matters_bullets": [
-        "The nationwide rollout of the Uniform Civil Code establishes a major ideological benchmark for the BJP's upcoming electoral strategy."
+        "These retaliatory strikes systematically degrade Russia's critical energy infrastructure and disrupt vital petroleum export revenues."
       ],
-      "brief": "Union Home Minister Amit Shah announced in Dehradun that the BJP will progressively implement the Uniform Civil Code across all party-governed states, building upon Uttarakhand's pioneering adoption in January 2025. Addressing Uttarakhand's State Foundation Day rally, Shah urged party cadres to secure over 65 seats in the upcoming assembly elections to achieve a historic third consecutive term. He contrasted the BJP's infrastructure and industrial development initiatives with the opposition Congress's historical economic management, while intensifying political messaging surrounding regional security and cultural preservation. The nationwide rollout of the Uniform Civil Code establishes a major ideological benchmark for the BJP's upcoming electoral strategy.",
-      "brief_word_count": 102
+      "brief": "Ukrainian President Volodymyr Zelenskyy confirmed that military forces are actively targeting Russia's oil refining infrastructure in direct retaliation for sustained Russian bombardments against Ukraine's domestic energy grid. This ongoing campaign of strategic strikes highlights Kyiv's asymmetric capability to project force deep inside Russian territory, impacting key economic and logistical nodes. Despite official restraint regarding specific tactical claims, Russian authorities have reported multiple recent incidents hitting domestic energy assets over the past week. The escalation marks a critical intensification of the energy war, directly threatening Moscow's refined petroleum output and state revenues. These retaliatory strikes systematically degrade Russia's critical energy infrastructure and disrupt vital petroleum export revenues.",
+      "brief_word_count": 106
     },
     {
-      "story_id": "story-164",
+      "story_id": "story-9c9463682d08",
       "category": "Finance",
       "primary_headline": "If Dune is this generation’s Star Wars, we are all in big trouble",
       "primary_source": {
@@ -649,137 +864,16 @@
       "total_count": 1,
       "combined_score": 0.86,
       "brief_bullets": [
-        "Actor Florence Pugh recently declared Denis Villeneuve’s cinematic adaptation of Dune to be her generation’s equivalent to Star Wars, praising its monumental impact on reviving theatrical movie-going. While George Lucas’s original space opera offered a clear dichotomy of heroic rebellion, whimsical sidekicks, and triumphant victories, Villeneuve’s franchise presents a stunningly strange, morally ambiguous universe defined by geopolitical ruthlessness and existential dread. This stark thematic shift highlights a profound cultural pivot from optimistic escapism toward darker, more complex cinematic narratives that mirror contemporary anxieties."
+        "According to Florence Pugh, Denis Villeneuve’s stunningly strange and breathtaking universe is the equivalent to George Lucas’ heroic space opera.",
+        "Let’s hope notA long time ago, far far away, in a galaxy called the 1970s, kids dreamed of joining the rebellion, rescuing a princess and blowing up the Death Star.",
+        "Peer into the cosmic tea leaves and it would become immediately clear that no amount of evildoing could withstand a neurotic gold butler, a dustbin with ideas above its station and a walking seven-foot tall shagpile carpet with a very low tolerance for disagreement.",
+        "It is worth remembering this when considering Florence Pugh’s recent declaration, ahead of next month’s Dune: Part Three, that Dune is her generation’s Star Wars."
       ],
       "why_it_matters_bullets": [
-        "It signals a cultural transition toward darker, morally ambiguous cinema shaping modern generational identity."
+        "Carries notable operational, policy, and market consequences surrounding 'If Dune is this generation’s Star Wars, we are all in big trouble'."
       ],
-      "brief": "Actor Florence Pugh recently declared Denis Villeneuve’s cinematic adaptation of Dune to be her generation’s equivalent to Star Wars, praising its monumental impact on reviving theatrical movie-going. While George Lucas’s original space opera offered a clear dichotomy of heroic rebellion, whimsical sidekicks, and triumphant victories, Villeneuve’s franchise presents a stunningly strange, morally ambiguous universe defined by geopolitical ruthlessness and existential dread. This stark thematic shift highlights a profound cultural pivot from optimistic escapism toward darker, more complex cinematic narratives that mirror contemporary anxieties. It signals a cultural transition toward darker, morally ambiguous cinema shaping modern generational identity.",
-      "brief_word_count": 97
-    },
-    {
-      "story_id": "story-169",
-      "category": "Finance",
-      "primary_headline": "True North by Paul Theroux review – an American’s view of Canada",
-      "primary_source": {
-        "source_name": "The Guardian",
-        "headline": "True North by Paul Theroux review – an American’s view of Canada",
-        "published_at": "Fri, 06 Nov 2026 07:00:47 GMT",
-        "url": "https://www.theguardian.com/books/2026/nov/06/true-north-by-paul-theroux-review-an-americans-view-of-canada",
-        "content": "The veteran travel writer turns his eye for detail on his northern neighbour and its peoplePaul Theroux’s arrival in Canada doesn’t go well. An immigration officer called Sweeney finds a small pocketknife in his car and fines him $500 for failing to declare a weapon. “I’m going to make you famous,” he angrily tells her, stumping up. Maybe he will, with this book. Canadians are reputed to be polite and easygoing, “slaves to their courtesy”, but the country has changed enormously in recent years. Will Theroux find it stuffed with Sweeney-ites? Luckily the answer is no.He issues a warning that, after 11&nbsp;previous travel books, this may be his&nbsp;last; global overtourism appals him and so does much travel writing. But he shares Jack Kerouac’s delight in being on the road, and from his home in Massachusetts it’s just a four-hour drive to the border. His purpose is less to check out “the strangers next door” than to visit the village of Yamaska, in Quebec. It was there that a Frenchman called Antoine Theroux settled in the 17th century; a dozen or more Theroux families still live there; one local street is called Rue Theroux. The author isn’t only made welcome but presented with a certificate of honour by the local mayor. He repays the honour with a&nbsp;long chapter of family history. Continue reading..."
-      },
-      "sources": [
-        {
-          "source_name": "The Guardian",
-          "headline": "True North by Paul Theroux review – an American’s view of Canada",
-          "published_at": "Fri, 06 Nov 2026 07:00:47 GMT",
-          "url": "https://www.theguardian.com/books/2026/nov/06/true-north-by-paul-theroux-review-an-americans-view-of-canada"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.86,
-      "brief_bullets": [
-        "Renowned travel writer Paul Theroux explores Canada in his latest work, True North, which he suggests may be his final travelogue due to his growing disillusionment with global overtourism. The narrative begins with a contentious border crossing involving a fine for an undeclared knife, yet quickly pivots to a deeply personal journey as Theroux travels from Massachusetts to Yamaska, Quebec. Seeking his ancestral roots, he discovers a thriving community of his namesakes and receives an official certificate of honor from the local mayor. By blending historical research with contemporary observations, Theroux challenges stereotypes about Canadian politeness while reflecting on the evolving nature of his craft and the complexities of national identity in the modern era."
-      ],
-      "why_it_matters_bullets": [
-        "Theroux’s potential retirement from travel writing signals a broader cultural shift in how authors critique the ethics of tourism."
-      ],
-      "brief": "Renowned travel writer Paul Theroux explores Canada in his latest work, True North, which he suggests may be his final travelogue due to his growing disillusionment with global overtourism. The narrative begins with a contentious border crossing involving a fine for an undeclared knife, yet quickly pivots to a deeply personal journey as Theroux travels from Massachusetts to Yamaska, Quebec. Seeking his ancestral roots, he discovers a thriving community of his namesakes and receives an official certificate of honor from the local mayor. By blending historical research with contemporary observations, Theroux challenges stereotypes about Canadian politeness while reflecting on the evolving nature of his craft and the complexities of national identity in the modern era. Theroux’s potential retirement from travel writing signals a broader cultural shift in how authors critique the ethics of tourism.",
-      "brief_word_count": 134
-    },
-    {
-      "story_id": "story-182",
-      "category": "Finance",
-      "primary_headline": "Wipro appoints Angan Guha as President and CEO for Americas 2 Strategic Market Unit",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Wipro appoints Angan Guha as President and CEO for Americas 2 Strategic Market Unit",
-        "published_at": "Fri, 06 Nov 2026 16:51:45 +0000",
-        "url": "https://www.deccanherald.com/business/companies/wipro-appoints-angan-guha-as-president-and-ceo-for-americas-2-strategic-market-unit-4210556",
-        "content": " Bengaluru: Wipro Limited on Friday announced the appointment of Angan Guha as President and Chief Executive Officer for Americas 2 Strategic Market Unit, effective December 8, 2026. He will report to the CEO and Managing Director, Srini Pallia, and serve on the Wipro Executive Leadership Team.In this role, Guha will focus on strengthening the business and market momentum across BFSI, Energy &amp; Utilities, and Manufacturing, and accelerating growth, deepen client relationships, and deliver greater value to our clients in the region.Wipro headcount falls by 6,716 in Q2, biggest decline in recent quarters“We are delighted to welcome Angan to Wipro’s leadership team,” said Srini Pallia, Chief Executive Officer and Managing Director of Wipro Limited. “His experience in driving business growth, combined with his focus on innovation and execution, will be valuable as we strengthen our Americas business. I am confident that his leadership will help us accelerate growth, deepen client relationships, and deliver greater value to our clients,\" he added.“The evolving AI landscape presents unprecedented opportunities for businesses to innovate and lead. I look forward to collaborating with the talented team at Wipro and helping clients navigate this transformation, drive meaningful business outcomes, and build on Wipro’s strong consulting and technology capabilities,\"&amp;nbsp;Angan Guha said.Guha is an experienced technology and business leader who has spent more than three decades driving growth, digital transformation and client success across BFSI, Energy &amp; Utilities and Manufacturing, Wipro said. Prior to serving as Global CEO &amp; Managing Director of Birlasoft Ltd., Guha spent over 28 years at Wipro, holding several senior leadership roles, including CEO of the Americas 2 Business Unit and member of Wipro’s Leadership Team."
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Wipro appoints Angan Guha as President and CEO for Americas 2 Strategic Market Unit",
-          "published_at": "Fri, 06 Nov 2026 16:51:45 +0000",
-          "url": "https://www.deccanherald.com/business/companies/wipro-appoints-angan-guha-as-president-and-ceo-for-americas-2-strategic-market-unit-4210556"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "Wipro Limited has appointed industry veteran Angan Guha as President and CEO of its Americas 2 Strategic Market Unit, effective December 8, 2026. Reporting directly to CEO Srini Pallia, Guha returns to the organization after serving as CEO of Birlasoft, bringing over three decades of expertise in digital transformation across the BFSI, energy, and manufacturing sectors. This strategic leadership change arrives as Wipro navigates a period of significant workforce contraction and seeks to revitalize its market momentum. Guha is tasked with leveraging his deep institutional knowledge to accelerate growth, deepen client relationships, and capitalize on emerging artificial intelligence opportunities to drive long-term value for the company’s North American operations."
-      ],
-      "why_it_matters_bullets": [
-        "Guha’s return signals a strategic pivot to stabilize Wipro’s North American leadership and reverse recent operational headcount declines."
-      ],
-      "brief": "Wipro Limited has appointed industry veteran Angan Guha as President and CEO of its Americas 2 Strategic Market Unit, effective December 8, 2026. Reporting directly to CEO Srini Pallia, Guha returns to the organization after serving as CEO of Birlasoft, bringing over three decades of expertise in digital transformation across the BFSI, energy, and manufacturing sectors. This strategic leadership change arrives as Wipro navigates a period of significant workforce contraction and seeks to revitalize its market momentum. Guha is tasked with leveraging his deep institutional knowledge to accelerate growth, deepen client relationships, and capitalize on emerging artificial intelligence opportunities to drive long-term value for the company’s North American operations. Guha’s return signals a strategic pivot to stabilize Wipro’s North American leadership and reverse recent operational headcount declines.",
-      "brief_word_count": 127
-    },
-    {
-      "story_id": "story-186",
-      "category": "Finance",
-      "primary_headline": "1,800 dubious books, inflated prices: Periyar library row triggers DMK-TVK blame game",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "1,800 dubious books, inflated prices: Periyar library row triggers DMK-TVK blame game",
-        "published_at": "Fri, 06 Nov 2026 16:19:33 +0000",
-        "url": "https://www.deccanherald.com/india/tamil-nadu/1800-dubious-books-inflated-prices-periyar-library-row-triggers-dmk-tvk-blame-game-4210504",
-        "content": " Chennai: No one in Tamil literary circles has ever heard of Agalvilakku Pathipagam. But the hitherto unknown publication house has supplied about 1,800 books to the Periyar Arivulagam, a modern library built at a cost of Rs 300 crore in Coimbatore, inaugurated by Chief Minister C Joseph Vijay in October.The procurement of never-heard-of books from a dubious publication house has raised questions of a mega scam in buying books for the library, a pet project of former Chief Minister M K Stalin. The alleged scam came to light after acclaimed Tamil author Perumal Murugan, whose brilliant works have been translated into English and other languages, visited the library in Coimbatore and found these books on the racks on the fourth floor.\"Whatever the case may be, it is certain that a massive scam has taken place in the procurement of books. New publishing houses have been started solely to supply books to this library. Books have been generated using artificial intelligence with outdated technology,” he alleged in an article on Sindhai, a Tamil magazine.&amp;nbsp;‘Exorbitant prices’The contents of the books supplied by the publication house in question are mostly generated using artificial intelligence (AI), containing false information and distorted facts about the history of Tamil Nadu, and were procured at exorbitant rates.For instance, a 300-page book titled Naladiyar: Vaazhvin Vazhikaati is priced at Rs 1,445. To top it all, Agalvilakku Pathipagam functions from an apartment in Madipakkam, a locality in Chennai, and its owner refused to speak to the media.Moreover, some of the authors whose books have been procured have never been heard of, and their names sound fake, such as Trisha Vijay, Thamarai Karthi, Madhu Sakthi, Malathi Sethuraman, and Keerthi Govind. Other interesting names of authors of books published by Agalvilakku Pathipagam that still adorn the library racks are Vijay Balu, Vijay Selvam, Vijay Adithan, and Sumega Vijay.Data quoted by the Information Integrity Desk (IID) — the TN Government’s fact-check unit — shows that all 2,393 books published by the publications with names of authors were registered between December 3, 2024, and February 6, 2026. A total of 609 author names, including the name Trisha Vijay, were also registered.Murugan, who was also part of the committee with over 100 members to recommend books for the library, demanded that the books be removed from the shelves immediately to ensure books with distorted facts don’t find space.Tamil Nadu CM slams DMK, says author Perumal Murugan exposed graft in buying books during its regime How did this happen?While the committee with over 100 members from various genres of the literary field was constituted in November 2025 under the then DMK government to suggest books to be purchased for the library, documents seen by DH show the books were delivered to the library between March 2026 and June 2026 — during the transition period, including the Assembly elections and after TVK assumed office.Questions remain on how these dubious books were bought by the library without checking, and when the School Education Department issued the order for the said publication. Except for Agalvilakku Pathipagam, other books in the library are of good standards.As expected, the allegations of a scam set off a blame game between the DMK and TVK. Interestingly, Chief Minister C Joseph Vijay took to his X page as TVK chief to deride the DMK as the “most corrupt party,” which didn’t even spare a library in the name of Periyar.&amp;nbsp;The DMK hit back at the CM for blaming the party and demanded an impartial investigation — it alleged that only books procured from the said publication and another were received at the library in June 2026. Other opposition parties also strongly condemned inclusion of dubious books in a world-class library. &amp;nbsp;‘Members were asked recommendations’DH spoke to a couple of members of the committee who said the orders for procurement of books were issued online and members were asked for recommendations only on the subjects they were experts in.&amp;nbsp;“We were asked about the books to be bought in a particular stream and we gave our recommendations. We were not aware of who got the orders. Not all members were consulted on all subjects. Every stream had a set of experts and professors,” a member said.Another member said some of the procured books, which he was informed about, were of “good standard” and will help library visitors.Conceived by the previous DMK government, the construction of the swanky library spread over an area of about 2 lakh square feet was almost complete when the TVK assumed office in May 2026—the former Chief Minister said recently his predecessor just cut the ribbons.Murugan’s sarcasmMurugan said he had never heard of Agalvilakku Pathipagam in his 40 years of experience as a writer. “It appears that my world of reading and search for knowledge has become so narrow,” he wrote sarcastically.Naladiyar: Vaazhvin Vazhikaati is another book that caught Murugan’s attention, not just for its exorbitant price of Rs 1,445 for 350 pages but also for its false content. The book describes Naladiyar — a classical Tamil Jain poetic work — as one of the important poets and philosophers in Tamil.&amp;nbsp;“I have been teaching Tamil for three decades, but I never learned that Naladiyar was a philosopher,” he added.Turning the tables on the DMK, the IID said a GO was issued on November 5, 2025 constituting a committee to procure books worth Rs 50 crore for the library and on January 9, 2026, the committee selected books for procurement following which negotiations were held on January 24.&amp;nbsp;“Based on this, approval was obtained at a high-level committee meeting held on 05.02.2026 to place orders for the selected books.&amp;nbsp;Subsequently, on 06.02.2026, the coordinating committee for special libraries recommended a list of books and issued a purchase order for their procurement. Accordingly, 60,266 books worth Rs 19.19 crore were procured for the Periyar Knowledge Centre,” the IID said.&amp;nbsp;"
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "1,800 dubious books, inflated prices: Periyar library row triggers DMK-TVK blame game",
-          "published_at": "Fri, 06 Nov 2026 16:19:33 +0000",
-          "url": "https://www.deccanherald.com/india/tamil-nadu/1800-dubious-books-inflated-prices-periyar-library-row-triggers-dmk-tvk-blame-game-4210504"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "A major political controversy has erupted in Tamil Nadu following revelations that Coimbatore's newly inaugurated Periyar Arivulagam library procured nearly 1,800 artificially generated and overpriced books from an obscure publisher, Agalvilakku Pathipagam. Acclaimed author Perumal Murugan exposed the acquisition of volumes featuring fictitious authors and distorted historical facts, prompting fierce political friction between Chief Minister C Joseph Vijay and the opposition DMK regarding procurement corruption during the transition period. The scandal has intensified scrutiny over institutional oversight, forcing authorities to address compromised literary standards and allegations of financial graft in high-profile public infrastructure projects."
-      ],
-      "why_it_matters_bullets": [
-        "This procurement scandal exposes systemic vulnerabilities in state-funded cultural projects, threatening political credibility and demanding stricter oversight."
-      ],
-      "brief": "A major political controversy has erupted in Tamil Nadu following revelations that Coimbatore's newly inaugurated Periyar Arivulagam library procured nearly 1,800 artificially generated and overpriced books from an obscure publisher, Agalvilakku Pathipagam. Acclaimed author Perumal Murugan exposed the acquisition of volumes featuring fictitious authors and distorted historical facts, prompting fierce political friction between Chief Minister C Joseph Vijay and the opposition DMK regarding procurement corruption during the transition period. The scandal has intensified scrutiny over institutional oversight, forcing authorities to address compromised literary standards and allegations of financial graft in high-profile public infrastructure projects. This procurement scandal exposes systemic vulnerabilities in state-funded cultural projects, threatening political credibility and demanding stricter oversight.",
-      "brief_word_count": 111
-    },
-    {
-      "story_id": "story-195",
-      "category": "Finance",
-      "primary_headline": "India, EU conclude multi-billion Euro global innovation programme",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "India, EU conclude multi-billion Euro global innovation programme",
-        "published_at": "Fri, 06 Nov 2026 14:49:26 +0000",
-        "url": "https://www.deccanherald.com/india/india-eu-conclude-multi-billion-euro-global-innovation-programme-4210312",
-        "content": " New Delhi: India and the European Union have concluded negotiations on New Delhi's association with a Euro 93.5 billion flagship research and innovation programme, paving the way for expanded collaboration under their broader strategic partnership.The decision comes weeks before India and the 27-nation bloc are set to seal a landmark free trade agreement -- billed as the \"mother of all deals\" -- to create a market of two billion people.The European Commission and India have successfully concluded negotiations on New Delhi's association to Horizon Europe programme, the EU said.American midterm results will not have an impact on India-US interim  trade deal: SourcesThis marks an important step forward for EU-India relations, strengthening scientific cooperation, creating new opportunities in research, and deepening the strategic partnership, it said.India's association with the Horizon programme is seen as part of the comprehensive strategic agenda of the two sides for the next five years.For researchers, businesses and research organisations across Europe, India's association will open up more opportunities to collaborate with Indian partners and build lasting scientific and technological links, the EU said.Once the agreement is signed and the necessary procedures are completed on both sides, researchers and organisations in India will be able to receive funding directly from Horizon Europe and lead collaborative projects under its Pillar II: 'Global Challenges and European Industrial Competitiveness', it said.This is the largest part of the programme which funds collaborative, multi-national research and innovation projects tackling societal and technological issues, such as health, digital, industry, space, climate, energy, and bioeconomy.The EU said the move will create new opportunities for European and Indian partners to pool expertise, develop technologies and address shared challenges.Association is the closest form of cooperation offered by the EU to non-EU countries under Horizon Europe.It allows organisations in associated countries to participate on equal terms with their EU counterparts in the parts of the programme covered by the agreement. In return, associated countries contribute financially to the programme.The successful conclusion of negotiations clears the way for the signature of the association agreement, subject to the completion of the necessary procedures on both sides. The two sides are likely to sign the formal agreement in January.India and the EU had launched the exploratory discussions on the Horizon programme in February 2026 and formal negotiations began in July.EU-India scientific cooperation builds on the agreement for scientific and technological cooperation, signed in 2001 and renewed until 2030.Research and innovation also form an integral part of the Joint EU-India Comprehensive Strategic Agenda towards 2030, adopted at the summit talks between the two sides in New Delhi on January 27.The partnership has been strengthened through the EU-India Trade and Technology Council, which facilitates collaboration on key digital areas such as artificial intelligence, digital public infrastructure, semiconductors, high-performance computing, digital skills and the sixth generation of wireless telecommunications.The EU and India took a further step in collaboration on digital skills through the launch of the first-ever European Legal Gateway Office in India last February, aiming to facilitate safe, legal and well-informed mobility to the EU in the ICT sector.Horizon Europe runs from 2021 to 2027, with a budget of Euro 93.5 billion.International cooperation is central to the programme, bringing together expertise and resources to advance scientific excellence and innovation.Currently, 23 non-EU countries are associated with Horizon Europe. They are: Albania, Armenia, Bosnia and Herzegovina, Canada, Egypt, the Faroe Islands, Georgia, Iceland, Israel, Japan, Korea, Kosovo, Moldova, Montenegro, New Zealand, North Macedonia, Norway, Serbia, Switzerland, TÃ¼rkiye, Tunisia, Ukraine and the United Kingdom.The India and EU ties have witnessed a major upswing in the last few years.The two sides are set to sign the free trade deal next month. "
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "India, EU conclude multi-billion Euro global innovation programme",
-          "published_at": "Fri, 06 Nov 2026 14:49:26 +0000",
-          "url": "https://www.deccanherald.com/india/india-eu-conclude-multi-billion-euro-global-innovation-programme-4210312"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "India and the European Union have successfully concluded negotiations for New Delhi's association with the Euro 93.5 billion Horizon Europe research and innovation initiative. Driven by the European Commission and Indian authorities, this agreement allows Indian researchers and institutions to directly receive funding and lead collaborative projects tackling critical global challenges like climate change, health, and digital technology. Arriving just ahead of a projected landmark free trade agreement encompassing two billion people, this milestone significantly deepens bilateral scientific cooperation and fortifies the broader strategic partnership between both major democratic powers."
-      ],
-      "why_it_matters_bullets": [
-        "This partnership accelerates joint technological innovation and consolidates geopolitical ties ahead of a massive bilateral trade agreement."
-      ],
-      "brief": "India and the European Union have successfully concluded negotiations for New Delhi's association with the Euro 93.5 billion Horizon Europe research and innovation initiative. Driven by the European Commission and Indian authorities, this agreement allows Indian researchers and institutions to directly receive funding and lead collaborative projects tackling critical global challenges like climate change, health, and digital technology. Arriving just ahead of a projected landmark free trade agreement encompassing two billion people, this milestone significantly deepens bilateral scientific cooperation and fortifies the broader strategic partnership between both major democratic powers. This partnership accelerates joint technological innovation and consolidates geopolitical ties ahead of a massive bilateral trade agreement.",
-      "brief_word_count": 107
+      "brief": "According to Florence Pugh, Denis Villeneuve’s stunningly strange and breathtaking universe is the equivalent to George Lucas’ heroic space opera. Let’s hope notA long time ago, far far away, in a galaxy called the 1970s, kids dreamed of joining the rebellion, rescuing a princess and blowing up the Death Star. Peer into the cosmic tea leaves and it would become immediately clear that no amount of evildoing could withstand a neurotic gold butler, a dustbin with ideas above its station and a walking seven-foot tall shagpile carpet with a very low tolerance for disagreement. It is worth remembering this when considering Florence Pugh’s recent declaration, ahead of next month’s Dune: Part Three, that Dune is her generation’s Star Wars. Carries notable operational, policy, and market consequences surrounding 'If Dune is this generation’s Star Wars, we are all in big trouble'.",
+      "brief_word_count": 140
     }
   ]
 }

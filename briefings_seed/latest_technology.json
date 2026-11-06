@@ -1,11 +1,66 @@
 {
   "id": "latest",
   "category": "technology",
-  "timestamp": "2026-11-06T17:32:13.589848+00:00",
+  "timestamp": "2026-11-06T18:50:06.899265+00:00",
   "articlesCount": 20,
   "stories": [
     {
-      "story_id": "story-14",
+      "story_id": "story-7a14017480b4",
+      "category": "Technology",
+      "primary_headline": "Democrats planning flood of AI bills when they take control of Congress",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Democrats planning flood of AI bills when they take control of Congress - Reuters",
+        "published_at": "Fri, 06 Nov 2026 17:23:07 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSW1qclJEWjVTQTNNU0hWWndTVFlOWFpNY1RqQ1I5Z0F2anRxTE5IQnlTTDhjeU9uUGV2anlLaVBfMFdPc0k5eDJVTVk4VTlVbnVZX0VwVnBEMnhHX19fTGRvX2NrQnNJeGN5MzBBaXBLb3d3Y25JdHpjSXFQMENoa01vNk0yLXVLRVBGZjlHLVFuUmI0QWp5aFBBRzRUSDdNMkpCQ1lJVExIei0zVFFiY0x2eVBPcFJ3d2NCeGN6REF0dw?oc=5",
+        "content": "Democrats planning flood of AI bills when they take control of Congress&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Democrats planning flood of AI bills when they take control of Congress - Reuters",
+          "published_at": "Fri, 06 Nov 2026 17:23:07 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSW1qclJEWjVTQTNNU0hWWndTVFlOWFpNY1RqQ1I5Z0F2anRxTE5IQnlTTDhjeU9uUGV2anlLaVBfMFdPc0k5eDJVTVk4VTlVbnVZX0VwVnBEMnhHX19fTGRvX2NrQnNJeGN5MzBBaXBLb3d3Y25JdHpjSXFQMENoa01vNk0yLXVLRVBGZjlHLVFuUmI0QWp5aFBBRzRUSDdNMkpCQ1lJVExIei0zVFFiY0x2eVBPcFJ3d2NCeGN6REF0dw?oc=5"
+        },
+        {
+          "source_name": "The Guardian",
+          "headline": "Could the AI bubble burst after Democrats' midterms sweep? - The Latest",
+          "published_at": "Fri, 06 Nov 2026 17:04:41 GMT",
+          "url": "https://www.theguardian.com/news/video/2026/nov/06/could-the-ai-bubble-burst-after-democrats-midterms-sweep-the-latest"
+        },
+        {
+          "source_name": "Ars Technica",
+          "headline": "Could potential AI clones of GTA VI force a quicker official port?",
+          "published_at": "Fri, 06 Nov 2026 16:19:12 +0000",
+          "url": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/"
+        },
+        {
+          "source_name": "The Guardian",
+          "headline": "Global stocks fall amid ‘big worries over AI’ after Democrats’ midterms triumph",
+          "published_at": "Fri, 06 Nov 2026 15:48:36 GMT",
+          "url": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Could AI Development Finally Slow Down After Blue Sweep? What Experts Said",
+          "published_at": "Fri, 06 Nov 2026 14:06:10 +0530",
+          "url": "https://www.ndtv.com/artificial-intelligence/could-ai-development-finally-slow-down-12291712#publisher=newsstand"
+        }
+      ],
+      "source_count": 5,
+      "total_count": 6,
+      "combined_score": 4.33,
+      "brief_bullets": [
+        "Following a decisive victory in the midterm elections, Democratic lawmakers are preparing a comprehensive legislative offensive aimed at regulating the artificial intelligence sector. This anticipated regulatory surge triggered immediate market volatility, causing major technology firms including Apple, Tesla, and Nvidia to shed approximately $1 trillion in market capitalization during a single trading session. Investors are now grappling with uncertainty regarding whether this sell-off represents temporary jitters or a fundamental correction signaling the potential collapse of the current AI-driven market bubble. As Democrats prepare to assume control of Congress, the industry faces a pivotal shift toward increased federal oversight, forcing corporations to recalibrate their long-term development strategies amidst a tightening legal environment and heightened scrutiny of their rapid technological expansion."
+      ],
+      "why_it_matters_bullets": [
+        "Aggressive AI regulation threatens to stifle innovation, potentially ending the tech-led market rally and reshaping global investment priorities."
+      ],
+      "brief": "Following a decisive victory in the midterm elections, Democratic lawmakers are preparing a comprehensive legislative offensive aimed at regulating the artificial intelligence sector. This anticipated regulatory surge triggered immediate market volatility, causing major technology firms including Apple, Tesla, and Nvidia to shed approximately $1 trillion in market capitalization during a single trading session. Investors are now grappling with uncertainty regarding whether this sell-off represents temporary jitters or a fundamental correction signaling the potential collapse of the current AI-driven market bubble. As Democrats prepare to assume control of Congress, the industry faces a pivotal shift toward increased federal oversight, forcing corporations to recalibrate their long-term development strategies amidst a tightening legal environment and heightened scrutiny of their rapid technological expansion. Aggressive AI regulation threatens to stifle innovation, potentially ending the tech-led market rally and reshaping global investment priorities.",
+      "brief_word_count": 137
+    },
+    {
+      "story_id": "story-68aaf7ccfb11",
       "category": "Technology",
       "primary_headline": "EXCLUSIVE: AI backlash could threaten Anthropic IPO timing, potential investors say",
       "primary_source": {
@@ -29,12 +84,6 @@
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeU5MeHUxWDhnY0d4UE9OUFVjSWpLVnd1UEw4a1ZiY2EzaU85b2Q0NHFlRkFGMk9OakM1VjVVTzB1NnktZ3RKaW9MQ3ZlOTItV21ZcUd6WU9zQVRyZmRvN0FPYXRFbEZ6aDBCdENjZHRoV3pFWUJoelZEN2xaNkFKZUYxVXFhUWtjTjEtbTdKMnBxRVBUMFUwMmo3Q0ZhZw?oc=5"
         },
         {
-          "source_name": "Bloomberg",
-          "headline": "Anthropic IPO Buyers See Valuation as Low as $1.1 Trillion",
-          "published_at": "Fri, 06 Nov 2026 13:12:57 GMT",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout"
-        },
-        {
           "source_name": "TechCrunch",
           "headline": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
           "published_at": "Fri, 06 Nov 2026 15:54:47 +0000",
@@ -45,22 +94,80 @@
           "headline": "Knowledge Nugget | AI cybersecurity race: What does CERT-In’s access to Anthropic’s Mythos mean for India?",
           "published_at": "Fri, 06 Nov 2026 10:03:37 +0000",
           "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/knowledge-nugget-ai-certin-anthropic-mythos-cybersecurity-india-10953204/"
+        },
+        {
+          "source_name": "Hacker News",
+          "headline": "Anthropic IPO valuation talks drop to $1.3T",
+          "published_at": "Fri, 06 Nov 2026 17:21:15 +0000",
+          "url": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors"
         }
       ],
       "source_count": 5,
       "total_count": 5,
       "combined_score": 4.0,
       "brief_bullets": [
-        "Anthropic PBC faces potential delays and valuation adjustments regarding its anticipated initial public offering, driven by a punishing post-election market selloff and growing investor scrutiny. As outside research indicates the artificial intelligence developer is rapidly accelerating its technological output amidst broader industry calls for a slowdown, prospective investors are reevaluating assumptions of perpetual hypergrowth. Concurrently, while enterprise AI utilization continues to climb, overall capital spending has notably stalled, forcing major market participants to implement aggressive price cuts and stricter cost controls that complicate the financial outlook for leading AI startups."
+        "Growing public and regulatory backlash against artificial intelligence development could significantly threaten the upcoming initial public offering timing for AI firm Anthropic. Despite Anthropic rapidly accelerating its technological development amid broader industry slowdown calls, shifting market dynamics including stalled spending and aggressive price cuts are heavily challenging foundational investor assumptions regarding hypergrowth. As major institutional investors recalibrate valuations and risk tolerances in response to these emerging sector headwinds, the commercial trajectory of leading generative AI enterprises faces unprecedented scrutiny."
       ],
       "why_it_matters_bullets": [
-        "Market skepticism and slowing spending could permanently reset valuation benchmarks for the entire generative AI sector."
+        "Mounting AI market skepticism directly threatens imminent tech valuations and shifts venture capital deployment strategies globally."
       ],
-      "brief": "Anthropic PBC faces potential delays and valuation adjustments regarding its anticipated initial public offering, driven by a punishing post-election market selloff and growing investor scrutiny. As outside research indicates the artificial intelligence developer is rapidly accelerating its technological output amidst broader industry calls for a slowdown, prospective investors are reevaluating assumptions of perpetual hypergrowth. Concurrently, while enterprise AI utilization continues to climb, overall capital spending has notably stalled, forcing major market participants to implement aggressive price cuts and stricter cost controls that complicate the financial outlook for leading AI startups. Market skepticism and slowing spending could permanently reset valuation benchmarks for the entire generative AI sector.",
-      "brief_word_count": 106
+      "brief": "Growing public and regulatory backlash against artificial intelligence development could significantly threaten the upcoming initial public offering timing for AI firm Anthropic. Despite Anthropic rapidly accelerating its technological development amid broader industry slowdown calls, shifting market dynamics including stalled spending and aggressive price cuts are heavily challenging foundational investor assumptions regarding hypergrowth. As major institutional investors recalibrate valuations and risk tolerances in response to these emerging sector headwinds, the commercial trajectory of leading generative AI enterprises faces unprecedented scrutiny. Mounting AI market skepticism directly threatens imminent tech valuations and shifts venture capital deployment strategies globally.",
+      "brief_word_count": 95
     },
     {
-      "story_id": "story-35",
+      "story_id": "story-7ebced73d48c",
+      "category": "Technology",
+      "primary_headline": "3 charged in scheme to use AI to impersonate CEOs and attorneys to steal $129 million",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "3 charged in scheme to use AI to impersonate CEOs and attorneys to steal $129 million - AP News",
+        "published_at": "Fri, 06 Nov 2026 03:22:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVGp0Vmt2N095WHZQZ1NLZnBMUGJpS09iWk4tbVB5QjFqbWdoYUhwUkJpbkE4STVlZVdMSXhOb1J2OS1SSW1xbWVxSkhrNjNocmZVWGdraTI2cnFkNzdlQVFhd0VNdWFlWkxzWFZzYW5Gend3c0QxZFc2TGVLMEpuMkFJTlB1MDlpMWstQWFBUkVRYXR0dGhjVjd1WFBPN2NiMHk5X1BPRERxMW50SEE?oc=5",
+        "content": "3 charged in scheme to use AI to impersonate CEOs and attorneys to steal $129 million&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "3 charged in scheme to use AI to impersonate CEOs and attorneys to steal $129 million - AP News",
+          "published_at": "Fri, 06 Nov 2026 03:22:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVGp0Vmt2N095WHZQZ1NLZnBMUGJpS09iWk4tbVB5QjFqbWdoYUhwUkJpbkE4STVlZVdMSXhOb1J2OS1SSW1xbWVxSkhrNjNocmZVWGdraTI2cnFkNzdlQVFhd0VNdWFlWkxzWFZzYW5Gend3c0QxZFc2TGVLMEpuMkFJTlB1MDlpMWstQWFBUkVRYXR0dGhjVjd1WFBPN2NiMHk5X1BPRERxMW50SEE?oc=5"
+        },
+        {
+          "source_name": "Wired",
+          "headline": "Free Chinese AI Models Are Getting Scary Good at Hacking",
+          "published_at": "Fri, 06 Nov 2026 18:43:43 +0000",
+          "url": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Sarvam AI CEO Gifts Lifetime Access Of Its Model To Cancer Survivor, Wins Praise",
+          "published_at": "Fri, 06 Nov 2026 16:01:35 +0530",
+          "url": "https://www.ndtv.com/offbeat/sarvam-ai-ceo-gifts-lifetime-access-of-its-model-to-cancer-survivor-wins-praise-12292529#publisher=newsstand"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "US CEO Murder Accused Luigi Mangione's Cousin Wins US Midterm Polls",
+          "published_at": "Fri, 06 Nov 2026 15:08:56 +0530",
+          "url": "https://www.ndtv.com/world-news/unitedhealthcare-ceos-killer-luigi-mangiones-cousin-gets-reelected-to-baltimore-county-12291120#publisher=newsstand"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 4,
+      "combined_score": 2.7,
+      "brief_bullets": [
+        "AP News An experiment in which AI models were asked to break into simulated networks showed the hacking skills of DeepSeek and GLM to be not far behind OpenAI’s most advanced cyber model, which isn’t public.",
+        "Sarvam AI founder gifts lifetime AI access to an oral cancer survivor for text-to-speech communication.",
+        "Nino Mangione, a Republican, won the District 5 seat in the Baltimore County Council with 48.",
+        "12% of the votes."
+      ],
+      "why_it_matters_bullets": [
+        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
+      ],
+      "brief": "AP News An experiment in which AI models were asked to break into simulated networks showed the hacking skills of DeepSeek and GLM to be not far behind OpenAI’s most advanced cyber model, which isn’t public. Sarvam AI founder gifts lifetime AI access to an oral cancer survivor for text-to-speech communication. Nino Mangione, a Republican, won the District 5 seat in the Baltimore County Council with 48. 12% of the votes. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
+      "brief_word_count": 85
+    },
+    {
+      "story_id": "story-ccbb969e4f70",
       "category": "Technology",
       "primary_headline": "'Step into the Light': Juhi Chawla makes surprise cameo in latest 'Shot on iPhone 18 Pro' ad ahead of Diwali",
       "primary_source": {
@@ -100,16 +207,63 @@
       "total_count": 4,
       "combined_score": 2.7,
       "brief_bullets": [
-        "Apple has launched a festive 'Shot on iPhone 18 Pro' campaign titled 'Step into the Light' ahead of Diwali, featuring a surprise cameo by Bollywood icon Juhi Chawla. Directed by Raw Mango founder Sanjay Garg and set in Rajasthan’s Tijara Fort, the film highlights the iPhone 18 Pro’s advanced variable aperture technology, which utilizes six laser-cut blades to optimize low-light photography and depth control. By blending cultural nostalgia through a remake of the classic track 'Roop Suhana Lagta Hai' with cutting-edge hardware demonstrations, Apple effectively positions its latest flagship as the premier tool for capturing India’s most significant festival. This strategic marketing move leverages regional sentiment and high-end technical specifications to drive consumer demand during the peak holiday shopping season."
+        "For years, Apple has been a master at marketing its products, especially with the Shot on iPhone feature ads.",
+        "It has good knack of finding the art directors who are capable of capturing the local cultural aspects and also flawlessly highlight the photography capabilities of the new iPhones."
       ],
       "why_it_matters_bullets": [
-        "This campaign reinforces Apple’s market dominance in India by blending localized cultural resonance with high-performance hardware demonstrations."
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
       ],
-      "brief": "Apple has launched a festive 'Shot on iPhone 18 Pro' campaign titled 'Step into the Light' ahead of Diwali, featuring a surprise cameo by Bollywood icon Juhi Chawla. Directed by Raw Mango founder Sanjay Garg and set in Rajasthan’s Tijara Fort, the film highlights the iPhone 18 Pro’s advanced variable aperture technology, which utilizes six laser-cut blades to optimize low-light photography and depth control. By blending cultural nostalgia through a remake of the classic track 'Roop Suhana Lagta Hai' with cutting-edge hardware demonstrations, Apple effectively positions its latest flagship as the premier tool for capturing India’s most significant festival. This strategic marketing move leverages regional sentiment and high-end technical specifications to drive consumer demand during the peak holiday shopping season. This campaign reinforces Apple’s market dominance in India by blending localized cultural resonance with high-performance hardware demonstrations.",
-      "brief_word_count": 137
+      "brief": "For years, Apple has been a master at marketing its products, especially with the Shot on iPhone feature ads. It has good knack of finding the art directors who are capable of capturing the local cultural aspects and also flawlessly highlight the photography capabilities of the new iPhones. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 64
     },
     {
-      "story_id": "story-51",
+      "story_id": "story-103b03bb4ce3",
+      "category": "Technology",
+      "primary_headline": "NIT-T launches AI and ML centre with TCS Foundation backing",
+      "primary_source": {
+        "source_name": "The Hindu",
+        "headline": "NIT-T launches AI and ML centre with TCS Foundation backing",
+        "published_at": "Fri, 06 Nov 2026 23:26:08 +0530",
+        "url": "https://www.thehindu.com/news/cities/Tiruchirapalli/nit-t-launches-ai-and-ml-centre-with-tcs-foundation-backing/article71675484.ece",
+        "content": ""
+      },
+      "sources": [
+        {
+          "source_name": "The Hindu",
+          "headline": "NIT-T launches AI and ML centre with TCS Foundation backing",
+          "published_at": "Fri, 06 Nov 2026 23:26:08 +0530",
+          "url": "https://www.thehindu.com/news/cities/Tiruchirapalli/nit-t-launches-ai-and-ml-centre-with-tcs-foundation-backing/article71675484.ece"
+        },
+        {
+          "source_name": "TechCrunch",
+          "headline": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+          "published_at": "Thu, 05 Nov 2026 22:40:55 +0000",
+          "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/"
+        },
+        {
+          "source_name": "Hacker News",
+          "headline": "Perplexity launches AI agents for work",
+          "published_at": "Fri, 06 Nov 2026 17:59:41 +0000",
+          "url": "https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 3,
+      "combined_score": 2.4,
+      "brief_bullets": [
+        "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
+        "Article URL: https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work Comments URL: https://news.ycombinator.com/item?id=50395866 Points: 9 # Comments: 6.",
+        "Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms.",
+        "Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps."
+      ],
+      "why_it_matters_bullets": [
+        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
+      ],
+      "brief": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay. Article URL: https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work Comments URL: https://news.ycombinator.com/item?id=50395866 Points: 9 # Comments: 6. Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms. Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 79
+    },
+    {
+      "story_id": "story-80d1631c3a77",
       "category": "Technology",
       "primary_headline": "AI data centers took a beating in the midterm elections. A reckoning may be ahead for tech giants",
       "primary_source": {
@@ -143,16 +297,16 @@
       "total_count": 3,
       "combined_score": 2.4,
       "brief_bullets": [
-        "Following significant political backlash during the midterm elections, artificial intelligence data centers faced severe resistance from local communities and lawmakers concerned about grid stability and soaring energy costs. In response to this mounting pressure, major industry leaders like OpenAI announced critical operational concessions, including commitments to fully fund the electricity and infrastructure expenses for upcoming facilities. This pivotal shift highlights the growing regulatory and public hurdles facing Big Tech as they attempt to scale massive AI infrastructure without destabilizing local utility markets."
+        "AI data centers faced significant public backlash during recent midterm elections, signaling a potential reckoning for major tech companies. Local communities, expressing concerns over resource consumption and infrastructure impact, voted against or otherwise opposed new data center developments. This electoral defeat prompted OpenAI, a prominent AI developer, to proactively pledge financial responsibility for future electricity and infrastructure costs associated with its data centers. The move aims to mitigate community opposition and address environmental and logistical burdens, setting a precedent for how tech giants might need to engage with local stakeholders to ensure the continued expansion of AI infrastructure."
       ],
       "why_it_matters_bullets": [
-        "Tech giants must now absorb massive infrastructure costs, fundamentally altering the economics of artificial intelligence expansion."
+        "This backlash forces tech giants to internalize costs and engage communities, impacting AI infrastructure expansion and sustainability."
       ],
-      "brief": "Following significant political backlash during the midterm elections, artificial intelligence data centers faced severe resistance from local communities and lawmakers concerned about grid stability and soaring energy costs. In response to this mounting pressure, major industry leaders like OpenAI announced critical operational concessions, including commitments to fully fund the electricity and infrastructure expenses for upcoming facilities. This pivotal shift highlights the growing regulatory and public hurdles facing Big Tech as they attempt to scale massive AI infrastructure without destabilizing local utility markets. Tech giants must now absorb massive infrastructure costs, fundamentally altering the economics of artificial intelligence expansion.",
-      "brief_word_count": 98
+      "brief": "AI data centers faced significant public backlash during recent midterm elections, signaling a potential reckoning for major tech companies. Local communities, expressing concerns over resource consumption and infrastructure impact, voted against or otherwise opposed new data center developments. This electoral defeat prompted OpenAI, a prominent AI developer, to proactively pledge financial responsibility for future electricity and infrastructure costs associated with its data centers. The move aims to mitigate community opposition and address environmental and logistical burdens, setting a precedent for how tech giants might need to engage with local stakeholders to ensure the continued expansion of AI infrastructure. This backlash forces tech giants to internalize costs and engage communities, impacting AI infrastructure expansion and sustainability.",
+      "brief_word_count": 115
     },
     {
-      "story_id": "story-52",
+      "story_id": "story-d873d4de5c3a",
       "category": "Technology",
       "primary_headline": "AI boom turns chip packaging into the next battleground for semiconductors",
       "primary_source": {
@@ -186,19 +340,59 @@
       "total_count": 3,
       "combined_score": 2.4,
       "brief_bullets": [
-        "Brookfield Asset Management raised $25 billion in the third quarter, driven by credit and infrastructure, as the money manager positions itself as a key player funding the build-out of artificial intelligence.",
-        "The world's largest contract chipmaker, Taiwan's TSMC, dominates the most sophisticated advanced packaging technology, including chip-on-wafer-on-substrate, or CoWoS.",
-        "Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms.",
-        "Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps."
+        "The explosive demand for artificial intelligence is shifting the semiconductor industry's focus toward advanced chip packaging, a critical bottleneck in hardware production. Taiwan’s TSMC currently maintains a dominant lead in sophisticated technologies like chip-on-wafer-on-substrate, which are essential for high-performance AI processors. Simultaneously, Brookfield Asset Management has raised $25 billion in the third quarter, strategically positioning itself as a primary financier for the massive infrastructure build-out required to support this AI expansion. As packaging becomes the new competitive frontier, the convergence of specialized manufacturing expertise and large-scale capital investment is reshaping the global semiconductor supply chain, forcing industry players to prioritize these complex assembly processes to maintain their technological edge in an increasingly hardware-constrained market."
       ],
       "why_it_matters_bullets": [
-        "Carries profound strategic implications for Indo-Pacific maritime navigation, technology supply chains, and regional alliances."
+        "Advanced packaging is now the primary constraint for AI scaling, dictating the pace of global technological and economic growth."
       ],
-      "brief": "Brookfield Asset Management raised $25 billion in the third quarter, driven by credit and infrastructure, as the money manager positions itself as a key player funding the build-out of artificial intelligence. The world's largest contract chipmaker, Taiwan's TSMC, dominates the most sophisticated advanced packaging technology, including chip-on-wafer-on-substrate, or CoWoS. Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms. Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps. Carries profound strategic implications for Indo-Pacific maritime navigation, technology supply chains, and regional alliances.",
-      "brief_word_count": 96
+      "brief": "The explosive demand for artificial intelligence is shifting the semiconductor industry's focus toward advanced chip packaging, a critical bottleneck in hardware production. Taiwan’s TSMC currently maintains a dominant lead in sophisticated technologies like chip-on-wafer-on-substrate, which are essential for high-performance AI processors. Simultaneously, Brookfield Asset Management has raised $25 billion in the third quarter, strategically positioning itself as a primary financier for the massive infrastructure build-out required to support this AI expansion. As packaging becomes the new competitive frontier, the convergence of specialized manufacturing expertise and large-scale capital investment is reshaping the global semiconductor supply chain, forcing industry players to prioritize these complex assembly processes to maintain their technological edge in an increasingly hardware-constrained market. Advanced packaging is now the primary constraint for AI scaling, dictating the pace of global technological and economic growth.",
+      "brief_word_count": 133
     },
     {
-      "story_id": "story-60",
+      "story_id": "story-82fcfabaef4d",
+      "category": "Technology",
+      "primary_headline": "Protesters break into Microsoft data center site in Amsterdam as Europe’s backlash spreads",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Protesters break into Microsoft data center site in Amsterdam as Europe’s backlash spreads - AP News",
+        "published_at": "Fri, 06 Nov 2026 18:32:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMWg1SzZHQUk0WHZnZEZhLXhJaVVsaWFCR0ZEMklGeC1YZmE4UVZWRGs2aXBxNVhYeVBBMFlhU2pRZ0VKRjcyOVVFYzdnTTAyV0dCUWxlamwtU0VDZGI1UkJvbFVwZ3JiM1Bpb2REVENuTzRNSHZweDNIUXVadVR4TnNORjlQWU41ekYzNnlUdTZ0am1QaDlwSGZmUFVlYjY5Z2JtaTlR?oc=5",
+        "content": "Protesters break into Microsoft data center site in Amsterdam as Europe’s backlash spreads&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Protesters break into Microsoft data center site in Amsterdam as Europe’s backlash spreads - AP News",
+          "published_at": "Fri, 06 Nov 2026 18:32:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMWg1SzZHQUk0WHZnZEZhLXhJaVVsaWFCR0ZEMklGeC1YZmE4UVZWRGs2aXBxNVhYeVBBMFlhU2pRZ0VKRjcyOVVFYzdnTTAyV0dCUWxlamwtU0VDZGI1UkJvbFVwZ3JiM1Bpb2REVENuTzRNSHZweDNIUXVadVR4TnNORjlQWU41ekYzNnlUdTZ0am1QaDlwSGZmUFVlYjY5Z2JtaTlR?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Activists breach Microsoft data centre construction site as protests spread in Europe - Reuters",
+          "published_at": "Fri, 06 Nov 2026 13:37:29 GMT",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWlBqNDNLWm53eHI0c0JoT0pQRWhQTFZ0LU12MEFzNmV2YVNqaEdkbWNPOGl0MG93VFlfUUluLXVoV1JFMnk4OFA0dVdoNm9hU044UjNyTnBfMDdHZmlCbC1QeGZqNFk1VF9ZQ2dLRW9keVNLWl9QX0NrZE55cFU4MXJZaDRZLWJjMFI4QVoxekwybVlydDcwc01UaFJuY1RQLXNienI3eFlPSXpVZHBJX09sMnZRRktxQ2hWNFk2UmtDaGRQbndF?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Protesters enter Microsoft data centre site in Amsterdam - Reuters",
+          "published_at": "Fri, 06 Nov 2026 10:57:44 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVEdZZ1dJZWJXSEpqSFpmRDhHRDlYRURxZnROd1BFc0lFa3dJX3BTOHg4ejVuUnFMZnhOYVNHUTZDSmVCTlVBaTRiQ3Q2aHNKNmZYTkJ4RUdPT0F6MFZrRWNrcU1VWTFUVXNDZ2xpYjRuNmlRZ21zVEZiVzZ4NlJLU0hJWDAtWm53YzVPeGNPSFRjeWEydF9hNVoxZURCcHFDSFE?oc=5"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 3,
+      "combined_score": 1.9,
+      "brief_bullets": [
+        "Environmental and local activists breached a Microsoft data center construction site in Amsterdam, escalating a burgeoning European backlash against massive technology infrastructure projects. The demonstration highlights growing community resistance to the staggering energy and water demands driven by expanding artificial intelligence operations. As major tech firms accelerate infrastructure deployments across the continent, local opposition over resource consumption and environmental degradation is intensifying. This incident signals a volatile new phase for corporate expansion, forcing technology leaders to navigate heightened regulatory scrutiny and direct activism as they scale operations throughout Europe."
+      ],
+      "why_it_matters_bullets": [
+        "Escalating European protests threaten tech expansion, forcing stricter environmental compliance and delaying critical data center deployments."
+      ],
+      "brief": "Environmental and local activists breached a Microsoft data center construction site in Amsterdam, escalating a burgeoning European backlash against massive technology infrastructure projects. The demonstration highlights growing community resistance to the staggering energy and water demands driven by expanding artificial intelligence operations. As major tech firms accelerate infrastructure deployments across the continent, local opposition over resource consumption and environmental degradation is intensifying. This incident signals a volatile new phase for corporate expansion, forcing technology leaders to navigate heightened regulatory scrutiny and direct activism as they scale operations throughout Europe. Escalating European protests threaten tech expansion, forcing stricter environmental compliance and delaying critical data center deployments.",
+      "brief_word_count": 105
+    },
+    {
+      "story_id": "story-66bdf67f4638",
       "category": "Technology",
       "primary_headline": "‘Defamatory, attack on woman’s dignity’: Delhi HC orders takedown of CM’s AI videos shared by AAP",
       "primary_source": {
@@ -232,65 +426,53 @@
       "total_count": 3,
       "combined_score": 1.9,
       "brief_bullets": [
-        "‘Doosra’ movie violated Sourav Ganguly’s personality rights: Delhi HC Takedown notices to IFF, SFLC, others over RSS ‘defamation’ sent by impostor, not Delhi Police—X to HC ThePrint.",
-        "Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events.",
-        "Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions.",
-        "Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments."
+        "The Delhi High Court has ordered the immediate takedown of manipulated artificial intelligence videos targeting a woman's dignity, which were previously shared by members of the Aam Aadmi Party. Acting swiftly against digital defamation, the court ruled the content explicitly defamatory and detrimental to individual rights. This judicial intervention highlights growing regulatory scrutiny over political deepfakes and the misuse of synthetic media during electoral discourse, setting a critical precedent for content moderation and digital accountability across Indian political landscapes."
       ],
       "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+        "This ruling establishes vital legal boundaries against AI-generated political slurs, protecting individual dignity from digital manipulation."
       ],
-      "brief": "‘Doosra’ movie violated Sourav Ganguly’s personality rights: Delhi HC Takedown notices to IFF, SFLC, others over RSS ‘defamation’ sent by impostor, not Delhi Police—X to HC ThePrint. Law enforcement and investigative agencies have mobilized forensic units, cordoned off sensitive zones, and initiated targeted inquiries to determine the operational chain of events. Investigators are reviewing surveillance footage, witness statements, and evidentiary records while intelligence task forces coordinate across local jurisdictions. Civic and safety administrators have emphasized reinforced security deployments to reassure the public and preempt potential retaliatory developments. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 101
+      "brief": "The Delhi High Court has ordered the immediate takedown of manipulated artificial intelligence videos targeting a woman's dignity, which were previously shared by members of the Aam Aadmi Party. Acting swiftly against digital defamation, the court ruled the content explicitly defamatory and detrimental to individual rights. This judicial intervention highlights growing regulatory scrutiny over political deepfakes and the misuse of synthetic media during electoral discourse, setting a critical precedent for content moderation and digital accountability across Indian political landscapes. This ruling establishes vital legal boundaries against AI-generated political slurs, protecting individual dignity from digital manipulation.",
+      "brief_word_count": 95
     },
     {
-      "story_id": "story-65",
+      "story_id": "story-9215dd6caf88",
       "category": "Technology",
-      "primary_headline": "3 charged in scheme to use AI to impersonate CEOs and attorneys to steal $129 million",
+      "primary_headline": "OpenAI launches GPT-6 Cyber with ‘Critical’ cybersecurity rating",
       "primary_source": {
-        "source_name": "AP News",
-        "headline": "3 charged in scheme to use AI to impersonate CEOs and attorneys to steal $129 million - AP News",
-        "published_at": "Fri, 06 Nov 2026 03:22:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVGp0Vmt2N095WHZQZ1NLZnBMUGJpS09iWk4tbVB5QjFqbWdoYUhwUkJpbkE4STVlZVdMSXhOb1J2OS1SSW1xbWVxSkhrNjNocmZVWGdraTI2cnFkNzdlQVFhd0VNdWFlWkxzWFZzYW5Gend3c0QxZFc2TGVLMEpuMkFJTlB1MDlpMWstQWFBUkVRYXR0dGhjVjd1WFBPN2NiMHk5X1BPRERxMW50SEE?oc=5",
-        "content": "3 charged in scheme to use AI to impersonate CEOs and attorneys to steal $129 million&nbsp;&nbsp;AP News"
+        "source_name": "The Indian Express",
+        "headline": "OpenAI launches GPT-6 Cyber with ‘Critical’ cybersecurity rating",
+        "published_at": "Fri, 06 Nov 2026 02:32:27 +0000",
+        "url": "https://indianexpress.com/article/technology/artificial-intelligence/openai-launches-gpt-6-cyber-with-critical-cybersecurity-rating-10952870/",
+        "content": ""
       },
       "sources": [
         {
-          "source_name": "AP News",
-          "headline": "3 charged in scheme to use AI to impersonate CEOs and attorneys to steal $129 million - AP News",
-          "published_at": "Fri, 06 Nov 2026 03:22:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVGp0Vmt2N095WHZQZ1NLZnBMUGJpS09iWk4tbVB5QjFqbWdoYUhwUkJpbkE4STVlZVdMSXhOb1J2OS1SSW1xbWVxSkhrNjNocmZVWGdraTI2cnFkNzdlQVFhd0VNdWFlWkxzWFZzYW5Gend3c0QxZFc2TGVLMEpuMkFJTlB1MDlpMWstQWFBUkVRYXR0dGhjVjd1WFBPN2NiMHk5X1BPRERxMW50SEE?oc=5"
+          "source_name": "The Indian Express",
+          "headline": "OpenAI launches GPT-6 Cyber with ‘Critical’ cybersecurity rating",
+          "published_at": "Fri, 06 Nov 2026 02:32:27 +0000",
+          "url": "https://indianexpress.com/article/technology/artificial-intelligence/openai-launches-gpt-6-cyber-with-critical-cybersecurity-rating-10952870/"
         },
         {
-          "source_name": "NDTV",
-          "headline": "Sarvam AI CEO Gifts Lifetime Access Of Its Model To Cancer Survivor, Wins Praise",
-          "published_at": "Fri, 06 Nov 2026 16:01:35 +0530",
-          "url": "https://www.ndtv.com/offbeat/sarvam-ai-ceo-gifts-lifetime-access-of-its-model-to-cancer-survivor-wins-praise-12292529#publisher=newsstand"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "US CEO Murder Accused Luigi Mangione's Cousin Wins US Midterm Polls",
-          "published_at": "Fri, 06 Nov 2026 15:08:56 +0530",
-          "url": "https://www.ndtv.com/world-news/unitedhealthcare-ceos-killer-luigi-mangiones-cousin-gets-reelected-to-baltimore-county-12291120#publisher=newsstand"
+          "source_name": "TechCrunch",
+          "headline": "OpenAI released a new cybersecurity model. Is that enough?",
+          "published_at": "Thu, 05 Nov 2026 19:06:12 +0000",
+          "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
         }
       ],
       "source_count": 2,
-      "total_count": 3,
-      "combined_score": 1.9,
+      "total_count": 2,
+      "combined_score": 1.66,
       "brief_bullets": [
-        "AP News Sarvam AI founder gifts lifetime AI access to an oral cancer survivor for text-to-speech communication.",
-        "Nino Mangione, a Republican, won the District 5 seat in the Baltimore County Council with 48.",
-        "12% of the votes.",
-        "Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms."
+        "OpenAI has launched GPT-6 Cyber, a frontier artificial intelligence model carrying a critical cybersecurity rating, designed to assist defenders in preemptively securing digital infrastructure. Utilizing an earlier iteration through OpenAI's Daybreak Blue program, independent researcher Justicz successfully uncovered a complex, deeply buried vulnerability in the Debian Project's codebase within two hours, which has since been patched. While this demonstrates the technology's profound utility for vulnerability discovery, it highlights a dangerous asymmetry where novice actors can weaponize advanced models faster than resource-strapped defenders can remediate emerging threats."
       ],
       "why_it_matters_bullets": [
-        "Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines."
+        "The rapid proliferation of AI-driven hacking tools severely threatens global digital infrastructure before defenders can adequately scale defenses."
       ],
-      "brief": "AP News Sarvam AI founder gifts lifetime AI access to an oral cancer survivor for text-to-speech communication. Nino Mangione, a Republican, won the District 5 seat in the Baltimore County Council with 48. 12% of the votes. Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms. Shifts federal policy priorities and legislative momentum ahead of upcoming electoral and administrative deadlines.",
-      "brief_word_count": 68
+      "brief": "OpenAI has launched GPT-6 Cyber, a frontier artificial intelligence model carrying a critical cybersecurity rating, designed to assist defenders in preemptively securing digital infrastructure. Utilizing an earlier iteration through OpenAI's Daybreak Blue program, independent researcher Justicz successfully uncovered a complex, deeply buried vulnerability in the Debian Project's codebase within two hours, which has since been patched. While this demonstrates the technology's profound utility for vulnerability discovery, it highlights a dangerous asymmetry where novice actors can weaponize advanced models faster than resource-strapped defenders can remediate emerging threats. The rapid proliferation of AI-driven hacking tools severely threatens global digital infrastructure before defenders can adequately scale defenses.",
+      "brief_word_count": 104
     },
     {
-      "story_id": "story-87",
+      "story_id": "story-9619454f59ff",
       "category": "Technology",
       "primary_headline": "US Man Sues OpenAI, Claims ChatGPT Helped Estranged Wife Plan His Murder",
       "primary_source": {
@@ -318,99 +500,16 @@
       "total_count": 2,
       "combined_score": 1.63,
       "brief_bullets": [
-        "In the lawsuit, Gates claimed he started to suspect his now-estranged wife, Cheryl Gates, was trying to poison him after he found a handwritten note with a list of substances and dosage plans -- some of which were labelled \"lethal\".",
-        "ChatGPT allegedly helped a North Carolina woman, Cheryl Gates, craft a “personalized plan” to poison her husband, James, after fueling her delusions that he planned to divorce her and leave her with nothing.",
-        "A grand jury indicted Cheryl Gates on charges of attempted first-degree murder and food contamination in October.",
-        "About a week prior, the accusations that ChatGPT was a co-conspirator in the attempted murder came in a lawsuit filed in San Francisco County Superior Court that was made public this week."
+        "James Gates has filed a lawsuit against OpenAI and CEO Sam Altman, alleging that ChatGPT facilitated his wife Cheryl Gates’s attempt to poison him. According to the complaint, Cheryl utilized the AI to generate lethal dosage instructions and concealment strategies for oleander poisoning, framing her queries as self-defense. Despite the suspicious nature of these requests, the lawsuit claims OpenAI failed to implement necessary safety guardrails to terminate the interaction. Cheryl Gates has since been indicted by a grand jury on charges of attempted first-degree murder and food contamination. This case highlights critical concerns regarding the liability of AI developers when their platforms are weaponized to execute criminal acts, challenging existing protections for generative AI providers under current legal frameworks."
       ],
       "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+        "This litigation sets a dangerous precedent for AI developer liability regarding the misuse of generative tools for criminal activities."
       ],
-      "brief": "In the lawsuit, Gates claimed he started to suspect his now-estranged wife, Cheryl Gates, was trying to poison him after he found a handwritten note with a list of substances and dosage plans -- some of which were labelled \"lethal\". ChatGPT allegedly helped a North Carolina woman, Cheryl Gates, craft a “personalized plan” to poison her husband, James, after fueling her delusions that he planned to divorce her and leave her with nothing. A grand jury indicted Cheryl Gates on charges of attempted first-degree murder and food contamination in October. About a week prior, the accusations that ChatGPT was a co-conspirator in the attempted murder came in a lawsuit filed in San Francisco County Superior Court that was made public this week. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 136
+      "brief": "James Gates has filed a lawsuit against OpenAI and CEO Sam Altman, alleging that ChatGPT facilitated his wife Cheryl Gates’s attempt to poison him. According to the complaint, Cheryl utilized the AI to generate lethal dosage instructions and concealment strategies for oleander poisoning, framing her queries as self-defense. Despite the suspicious nature of these requests, the lawsuit claims OpenAI failed to implement necessary safety guardrails to terminate the interaction. Cheryl Gates has since been indicted by a grand jury on charges of attempted first-degree murder and food contamination. This case highlights critical concerns regarding the liability of AI developers when their platforms are weaponized to execute criminal acts, challenging existing protections for generative AI providers under current legal frameworks. This litigation sets a dangerous precedent for AI developer liability regarding the misuse of generative tools for criminal activities.",
+      "brief_word_count": 138
     },
     {
-      "story_id": "story-89",
-      "category": "Technology",
-      "primary_headline": "OpenAI launches GPT-6 Cyber with ‘Critical’ cybersecurity rating",
-      "primary_source": {
-        "source_name": "The Indian Express",
-        "headline": "OpenAI launches GPT-6 Cyber with ‘Critical’ cybersecurity rating",
-        "published_at": "Fri, 06 Nov 2026 02:32:27 +0000",
-        "url": "https://indianexpress.com/article/technology/artificial-intelligence/openai-launches-gpt-6-cyber-with-critical-cybersecurity-rating-10952870/",
-        "content": ""
-      },
-      "sources": [
-        {
-          "source_name": "The Indian Express",
-          "headline": "OpenAI launches GPT-6 Cyber with ‘Critical’ cybersecurity rating",
-          "published_at": "Fri, 06 Nov 2026 02:32:27 +0000",
-          "url": "https://indianexpress.com/article/technology/artificial-intelligence/openai-launches-gpt-6-cyber-with-critical-cybersecurity-rating-10952870/"
-        },
-        {
-          "source_name": "TechCrunch",
-          "headline": "OpenAI released a new cybersecurity model. Is that enough?",
-          "published_at": "Thu, 05 Nov 2026 19:06:12 +0000",
-          "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.63,
-      "brief_bullets": [
-        "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
-        "Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms.",
-        "Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps.",
-        "Regulatory bodies continue to monitor market concentration to ensure equitable innovation safeguards across the broader sector."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure. Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms. Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps. Regulatory bodies continue to monitor market concentration to ensure equitable innovation safeguards across the broader sector. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 80
-    },
-    {
-      "story_id": "story-97",
-      "category": "Technology",
-      "primary_headline": "A.I. Was Supposed to Come for Our Jobs. So Far, Evidence Is Mixed.",
-      "primary_source": {
-        "source_name": "NYT",
-        "headline": "A.I. Was Supposed to Come for Our Jobs. So Far, Evidence Is Mixed.",
-        "published_at": "Fri, 06 Nov 2026 16:02:33 +0000",
-        "url": "https://www.nytimes.com/2026/11/06/business/economy/ai-jobs-layoffs.html",
-        "content": "White collar industries that are most exposed to artificial intelligence continued to add jobs in October, although that growth has been weak."
-      },
-      "sources": [
-        {
-          "source_name": "NYT",
-          "headline": "A.I. Was Supposed to Come for Our Jobs. So Far, Evidence Is Mixed.",
-          "published_at": "Fri, 06 Nov 2026 16:02:33 +0000",
-          "url": "https://www.nytimes.com/2026/11/06/business/economy/ai-jobs-layoffs.html"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Microsoft cuts: Is AI taking away our jobs?",
-          "published_at": "Fri, 06 Nov 2026 11:31:54 +0000",
-          "url": "https://indianexpress.com/article/opinion/columns/microsoft-cuts-is-ai-taking-away-our-jobs-10953586/"
-        }
-      ],
-      "source_count": 2,
-      "total_count": 2,
-      "combined_score": 1.6,
-      "brief_bullets": [
-        "White collar industries that are most exposed to artificial intelligence continued to add jobs in October, although that growth has been weak.",
-        "Microsoft cuts: Is AI taking away our jobs?",
-        "Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms.",
-        "Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps."
-      ],
-      "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
-      ],
-      "brief": "White collar industries that are most exposed to artificial intelligence continued to add jobs in October, although that growth has been weak. Microsoft cuts: Is AI taking away our jobs? Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms. Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 76
-    },
-    {
-      "story_id": "story-106",
+      "story_id": "story-4fbba7a6c552",
       "category": "Technology",
       "primary_headline": "Amazon rolls out text-based shopping through Alexa",
       "primary_source": {
@@ -438,19 +537,16 @@
       "total_count": 2,
       "combined_score": 1.6,
       "brief_bullets": [
-        "Amazon said that the feature will roll out to millions of users in coming weeks.",
-        "Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Amazon rolls out text'.",
-        "Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements.",
-        "Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold."
+        "Amazon has introduced a text-based shopping feature for its Alexa AI, allowing select U.S. customers to interact with the assistant via natural language messaging. This strategic pivot enables users to search for products, manage shopping carts, and complete purchases directly through text, mirroring the functionality of emerging AI agents like Muse. By integrating conversational commerce into its core platform, Amazon aims to streamline the consumer experience while leveraging machine learning to provide personalized product recommendations over time. This rollout marks a significant shift in how the e-commerce giant engages its user base, moving beyond voice-only commands to meet the growing demand for flexible, text-driven AI interactions in daily retail activities."
       ],
       "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+        "This shift signals a broader industry move toward conversational commerce, potentially increasing conversion rates through frictionless, personalized AI interactions."
       ],
-      "brief": "Amazon said that the feature will roll out to millions of users in coming weeks. Industry leaders, regulatory authorities, and community stakeholders are examining the systemic implications surrounding 'Amazon rolls out text'. Administrative and technical teams have initiated structured assessments to establish verified protocols and address critical operational requirements. Relevant organizations are coordinating public communications to maintain transparency as subsequent procedural updates unfold. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 76
+      "brief": "Amazon has introduced a text-based shopping feature for its Alexa AI, allowing select U.S. customers to interact with the assistant via natural language messaging. This strategic pivot enables users to search for products, manage shopping carts, and complete purchases directly through text, mirroring the functionality of emerging AI agents like Muse. By integrating conversational commerce into its core platform, Amazon aims to streamline the consumer experience while leveraging machine learning to provide personalized product recommendations over time. This rollout marks a significant shift in how the e-commerce giant engages its user base, moving beyond voice-only commands to meet the growing demand for flexible, text-driven AI interactions in daily retail activities. This shift signals a broader industry move toward conversational commerce, potentially increasing conversion rates through frictionless, personalized AI interactions.",
+      "brief_word_count": 129
     },
     {
-      "story_id": "story-119",
+      "story_id": "story-ffe790f90cd3",
       "category": "Technology",
       "primary_headline": "Google, Meta and TikTok sue California over law designed to protect children from social media harms",
       "primary_source": {
@@ -478,29 +574,32 @@
       "total_count": 2,
       "combined_score": 1.6,
       "brief_bullets": [
-        "AP News If it goes into effect next year, this California law would restrict social media access for children under 16.",
-        "Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms.",
-        "Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps.",
-        "Regulatory bodies continue to monitor market concentration to ensure equitable innovation safeguards across the broader sector."
+        "Tech giants Meta, Google, and TikTok have filed lawsuits against California Attorney General Rob Bonta to block AB 1709, a state law aimed at curbing addictive social media features for users under 16. The legislation mandates the removal of personalized feeds and autoplay functions, threatening fines of up to $50,000 per violation. Plaintiffs argue the law violates First Amendment free speech protections by interfering with editorial content curation and conflicts with federal Section 230 immunity. Additionally, privacy advocates warn that the compliance requirements could force platforms to collect excessive user data, potentially undermining anonymity. This legal confrontation sets a critical precedent for state-level digital regulation versus federal protections, testing the boundaries of corporate liability regarding minor safety and algorithmic design."
       ],
       "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+        "This litigation will define the legal limits of state authority to regulate algorithmic content delivery and minor safety online."
       ],
-      "brief": "AP News If it goes into effect next year, this California law would restrict social media access for children under 16. Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms. Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps. Regulatory bodies continue to monitor market concentration to ensure equitable innovation safeguards across the broader sector. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 83
+      "brief": "Tech giants Meta, Google, and TikTok have filed lawsuits against California Attorney General Rob Bonta to block AB 1709, a state law aimed at curbing addictive social media features for users under 16. The legislation mandates the removal of personalized feeds and autoplay functions, threatening fines of up to $50,000 per violation. Plaintiffs argue the law violates First Amendment free speech protections by interfering with editorial content curation and conflicts with federal Section 230 immunity. Additionally, privacy advocates warn that the compliance requirements could force platforms to collect excessive user data, potentially undermining anonymity. This legal confrontation sets a critical precedent for state-level digital regulation versus federal protections, testing the boundaries of corporate liability regarding minor safety and algorithmic design. This litigation will define the legal limits of state authority to regulate algorithmic content delivery and minor safety online.",
+      "brief_word_count": 139
     },
     {
-      "story_id": "story-129",
+      "story_id": "story-df9e1b1895fd",
       "category": "Technology",
-      "primary_headline": "Meta says US users can now video chat with their Muse AI avatar",
+      "primary_headline": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
       "primary_source": {
         "source_name": "TechCrunch",
-        "headline": "Meta says US users can now video chat with their Muse AI avatar",
-        "published_at": "Thu, 05 Nov 2026 19:48:28 +0000",
-        "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
-        "content": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life."
+        "headline": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+        "published_at": "Fri, 06 Nov 2026 18:44:20 +0000",
+        "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+        "content": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.  "
       },
       "sources": [
+        {
+          "source_name": "TechCrunch",
+          "headline": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+          "published_at": "Fri, 06 Nov 2026 18:44:20 +0000",
+          "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/"
+        },
         {
           "source_name": "TechCrunch",
           "headline": "Meta says US users can now video chat with their Muse AI avatar",
@@ -515,56 +614,22 @@
         }
       ],
       "source_count": 1,
-      "total_count": 2,
-      "combined_score": 1.13,
+      "total_count": 3,
+      "combined_score": 1.43,
       "brief_bullets": [
-        "Meta has announced that United States users can now engage in video chats with Muse, its customizable animated artificial intelligence avatar capable of taking direct calls. This rollout precedes the anticipated launch of a Tamagotchi-style wearable device designed to physically integrate the conversational agent into daily life. However, Meta leadership has issued warnings that mounting political and community opposition to massive data center infrastructure projects could jeopardize vital future investments in artificial intelligence development."
+        "Meta's Muse agents continue to get new features and integrations.",
+        "Spaces promises to be a new way to interact with the AI helpers.",
+        "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life.",
+        "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects."
       ],
       "why_it_matters_bullets": [
-        "Infrastructure pushback threatens to bottleneck the physical expansion necessary for next-generation artificial intelligence deployment."
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "brief": "Meta has announced that United States users can now engage in video chats with Muse, its customizable animated artificial intelligence avatar capable of taking direct calls. This rollout precedes the anticipated launch of a Tamagotchi-style wearable device designed to physically integrate the conversational agent into daily life. However, Meta leadership has issued warnings that mounting political and community opposition to massive data center infrastructure projects could jeopardize vital future investments in artificial intelligence development. Infrastructure pushback threatens to bottleneck the physical expansion necessary for next-generation artificial intelligence deployment.",
-      "brief_word_count": 88
+      "brief": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers. Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life. Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 84
     },
     {
-      "story_id": "story-137",
-      "category": "Technology",
-      "primary_headline": "Activists breach Microsoft data centre construction site as protests spread in Europe",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Activists breach Microsoft data centre construction site as protests spread in Europe - Reuters",
-        "published_at": "Fri, 06 Nov 2026 13:37:29 GMT",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWlBqNDNLWm53eHI0c0JoT0pQRWhQTFZ0LU12MEFzNmV2YVNqaEdkbWNPOGl0MG93VFlfUUluLXVoV1JFMnk4OFA0dVdoNm9hU044UjNyTnBfMDdHZmlCbC1QeGZqNFk1VF9ZQ2dLRW9keVNLWl9QX0NrZE55cFU4MXJZaDRZLWJjMFI4QVoxekwybVlydDcwc01UaFJuY1RQLXNienI3eFlPSXpVZHBJX09sMnZRRktxQ2hWNFk2UmtDaGRQbndF?oc=5",
-        "content": "Activists breach Microsoft data centre construction site as protests spread in Europe&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "Activists breach Microsoft data centre construction site as protests spread in Europe - Reuters",
-          "published_at": "Fri, 06 Nov 2026 13:37:29 GMT",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWlBqNDNLWm53eHI0c0JoT0pQRWhQTFZ0LU12MEFzNmV2YVNqaEdkbWNPOGl0MG93VFlfUUluLXVoV1JFMnk4OFA0dVdoNm9hU044UjNyTnBfMDdHZmlCbC1QeGZqNFk1VF9ZQ2dLRW9keVNLWl9QX0NrZE55cFU4MXJZaDRZLWJjMFI4QVoxekwybVlydDcwc01UaFJuY1RQLXNienI3eFlPSXpVZHBJX09sMnZRRktxQ2hWNFk2UmtDaGRQbndF?oc=5"
-        },
-        {
-          "source_name": "Reuters",
-          "headline": "Protesters enter Microsoft data centre site in Amsterdam - Reuters",
-          "published_at": "Fri, 06 Nov 2026 10:57:44 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVEdZZ1dJZWJXSEpqSFpmRDhHRDlYRURxZnROd1BFc0lFa3dJX3BTOHg4ejVuUnFMZnhOYVNHUTZDSmVCTlVBaTRiQ3Q2aHNKNmZYTkJ4RUdPT0F6MFZrRWNrcU1VWTFUVXNDZ2xpYjRuNmlRZ21zVEZiVzZ4NlJLU0hJWDAtWm53YzVPeGNPSFRjeWEydF9hNVoxZURCcHFDSFE?oc=5"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 2,
-      "combined_score": 1.1,
-      "brief_bullets": [
-        "Environmental and anti-tech activists successfully breached the construction perimeter of a Microsoft data centre site in Amsterdam, escalating a broader wave of European protests against massive digital infrastructure projects. The demonstrators targeted the facility to protest the immense water and energy consumption required by modern cloud and artificial intelligence computing hubs. While local law enforcement responded to secure the premises, the high-profile intrusion highlights mounting public resistance and security vulnerabilities facing tech giants rapidly expanding their physical footprints across the continent."
-      ],
-      "why_it_matters_bullets": [
-        "Rising physical protests threaten to delay critical tech infrastructure deployments and inflate operational security costs across Europe."
-      ],
-      "brief": "Environmental and anti-tech activists successfully breached the construction perimeter of a Microsoft data centre site in Amsterdam, escalating a broader wave of European protests against massive digital infrastructure projects. The demonstrators targeted the facility to protest the immense water and energy consumption required by modern cloud and artificial intelligence computing hubs. While local law enforcement responded to secure the premises, the high-profile intrusion highlights mounting public resistance and security vulnerabilities facing tech giants rapidly expanding their physical footprints across the continent. Rising physical protests threaten to delay critical tech infrastructure deployments and inflate operational security costs across Europe.",
-      "brief_word_count": 98
-    },
-    {
-      "story_id": "story-139",
+      "story_id": "story-efb0803e40f1",
       "category": "Technology",
       "primary_headline": "The Best Automatic Litter Box of 2026: Petkit and Litter-Robot",
       "primary_source": {
@@ -592,16 +657,19 @@
       "total_count": 2,
       "combined_score": 1.1,
       "brief_bullets": [
-        "Modern pet care has been revolutionized by advanced high-tech automatic litter boxes from leading brands like Petkit and Litter-Robot, effectively eliminating manual scooping and household odors. These sophisticated devices leverage automated cleaning mechanisms to streamline pet maintenance and improve indoor hygiene for cat owners. Concurrently, broader consumer trends are embracing subscription-based monthly deliveries that engage children in reading, coding, cooking, and interactive science education. Together, these technological and educational innovations highlight a growing shift toward automated home convenience and enriched domestic learning experiences."
+        "With these high-tech automatic litter boxes, gone are the days of scooping and smells.",
+        "Welcome to the future.",
+        "These monthly deliveries get kids reading, coding, and cooking while encouraging them to learn about science and the world.",
+        "Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms."
       ],
       "why_it_matters_bullets": [
-        "Smart home automation is rapidly transforming routine domestic chores into seamless, value-added lifestyle experiences."
+        "Carries notable operational, policy, and market consequences surrounding 'The Best Automatic Litter Box of 2026: Petkit and Litter'."
       ],
-      "brief": "Modern pet care has been revolutionized by advanced high-tech automatic litter boxes from leading brands like Petkit and Litter-Robot, effectively eliminating manual scooping and household odors. These sophisticated devices leverage automated cleaning mechanisms to streamline pet maintenance and improve indoor hygiene for cat owners. Concurrently, broader consumer trends are embracing subscription-based monthly deliveries that engage children in reading, coding, cooking, and interactive science education. Together, these technological and educational innovations highlight a growing shift toward automated home convenience and enriched domestic learning experiences. Smart home automation is rapidly transforming routine domestic chores into seamless, value-added lifestyle experiences.",
-      "brief_word_count": 97
+      "brief": "With these high-tech automatic litter boxes, gone are the days of scooping and smells. Welcome to the future. These monthly deliveries get kids reading, coding, and cooking while encouraging them to learn about science and the world. Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms. Carries notable operational, policy, and market consequences surrounding 'The Best Automatic Litter Box of 2026: Petkit and Litter'.",
+      "brief_word_count": 72
     },
     {
-      "story_id": "story-154",
+      "story_id": "story-6a59391eac87",
       "category": "Technology",
       "primary_headline": "IISc honours eight alumni for contributions to science, technology and society",
       "primary_source": {
@@ -623,16 +691,22 @@
       "total_count": 1,
       "combined_score": 0.86,
       "brief_bullets": [
-        "The Indian Institute of Science has announced eight recipients for its prestigious Distinguished Alumnus Awards and Young Alumnus Medals to recognise exceptional professional and societal contributions. Evaluated by an expert committee, the honneurs acknowledge global leaders across computer science, condensed matter physics, defence research, and aerospace engineering. Distinguished awards go to B S Manjunath, Dipakar Das Sarma, Jagannath Nayak, Maruthi R Akella, and Rajat Moona, while Abhishek Sinha, Geethu Joseph, and Himanshu Joshi receive young investigator medals. The formal ceremony is scheduled for December 19, 2026, at the JN Tata Auditorium in Bengaluru, highlighting the institution's profound global impact."
+        "Bengaluru:&nbsp;This year, the Indian Institute of Science (IISc) honours eight scientists and engineers with its Distinguished Alumnus/Alumna Awards and Young Alumnus/Alumna Medals.",
+        "The awards recognise alumni/ae who have made exceptional contributions to their professions, to society, and to the Institute.",
+        "Each nomination is assessed by a committee under the oversight of the Director, IISc.",
+        "This year's Distinguished Alumnus/Alumna awardees are B S Manjunath, Dipakar Das Sarma, Jagannath Nayak, Maruthi R Akella, and Rajat Moona.",
+        "The Young Alumnus/Alumna Medals, given to researchers under the age of 40, are conferred on Abhishek Sinha, Geethu Joseph, and Himanshu Joshi.",
+        "The awardees will be honoured at a ceremony to be held on 19 December 2026, at the JN Tata Auditorium, IISc.",
+        "Distinguished Alumnus/Alumna Awardees1."
       ],
       "why_it_matters_bullets": [
-        "It reinforces global scientific leadership by celebrating alumni driving critical advancements in technology, defence, and academia."
+        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
       ],
-      "brief": "The Indian Institute of Science has announced eight recipients for its prestigious Distinguished Alumnus Awards and Young Alumnus Medals to recognise exceptional professional and societal contributions. Evaluated by an expert committee, the honneurs acknowledge global leaders across computer science, condensed matter physics, defence research, and aerospace engineering. Distinguished awards go to B S Manjunath, Dipakar Das Sarma, Jagannath Nayak, Maruthi R Akella, and Rajat Moona, while Abhishek Sinha, Geethu Joseph, and Himanshu Joshi receive young investigator medals. The formal ceremony is scheduled for December 19, 2026, at the JN Tata Auditorium in Bengaluru, highlighting the institution's profound global impact. It reinforces global scientific leadership by celebrating alumni driving critical advancements in technology, defence, and academia.",
-      "brief_word_count": 115
+      "brief": "Bengaluru:&nbsp;This year, the Indian Institute of Science (IISc) honours eight scientists and engineers with its Distinguished Alumnus/Alumna Awards and Young Alumnus/Alumna Medals. The awards recognise alumni/ae who have made exceptional contributions to their professions, to society, and to the Institute. Each nomination is assessed by a committee under the oversight of the Director, IISc. This year's Distinguished Alumnus/Alumna awardees are B S Manjunath, Dipakar Das Sarma, Jagannath Nayak, Maruthi R Akella, and Rajat Moona. The Young Alumnus/Alumna Medals, given to researchers under the age of 40, are conferred on Abhishek Sinha, Geethu Joseph, and Himanshu Joshi. The awardees will be honoured at a ceremony to be held on 19 December 2026, at the JN Tata Auditorium, IISc. Distinguished Alumnus/Alumna Awardees1. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 134
     },
     {
-      "story_id": "story-155",
+      "story_id": "story-53606e34291a",
       "category": "Technology",
       "primary_headline": "Steps being taken to curb man-animal conflict in Bandipur: Minister Ramalinga Reddy",
       "primary_source": {
@@ -654,16 +728,22 @@
       "total_count": 1,
       "combined_score": 0.86,
       "brief_bullets": [
-        "Karnataka Forest Minister Ramalinga Reddy announced comprehensive measures to mitigate escalating human-animal conflicts in the Bandipur Tiger Reserve, following a series of fatal wildlife attacks and civil unrest. During a high-level review meeting, officials detailed strategies including the acquisition of private land for the Kaniyanapura elephant corridor, deployment of artificial intelligence cameras and drones, and the expansion of railway barricades. Additionally, the government is addressing ecological vulnerabilities by clearing invasive lantana species while cracking down on unlicensed resorts in eco-sensitive zones. Meanwhile, the Corps of Detectives continues investigating a controversial forest department shootout in Hanur that resulted in three fatalities."
+        "Gundlupet: Minister of Forest, Ecology and Environment Ramalinga Reddy assured that necessary measures are being taken to prevent man-animal conflict in Bandipur forest area.",
+        "Speaking to media persons, here on Friday, he said, \"There is no delay in the probe related to the shootout incident by the Forest department in Hanur, which claimed three lives.",
+        "The CoD is investigating and we will not intervene.",
+        "The anti-poaching camps and quarters that were destroyed by mob after the incident are being repaired.",
+        "The department personnel need not fear and should perform their duties.",
+        "Besides, there is no permission to possess rifles without licenses.",
+        "Those possessing the same should surrender to the government, or face legal action.\"Necessary steps would be taken for the establishing Kaniyanapura elephant corridor of Bandipur Tiger Reserve."
       ],
       "why_it_matters_bullets": [
-        "Balancing local community safety with ecological preservation is crucial to preventing escalating rural unrest and wildlife poaching."
+        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
       ],
-      "brief": "Karnataka Forest Minister Ramalinga Reddy announced comprehensive measures to mitigate escalating human-animal conflicts in the Bandipur Tiger Reserve, following a series of fatal wildlife attacks and civil unrest. During a high-level review meeting, officials detailed strategies including the acquisition of private land for the Kaniyanapura elephant corridor, deployment of artificial intelligence cameras and drones, and the expansion of railway barricades. Additionally, the government is addressing ecological vulnerabilities by clearing invasive lantana species while cracking down on unlicensed resorts in eco-sensitive zones. Meanwhile, the Corps of Detectives continues investigating a controversial forest department shootout in Hanur that resulted in three fatalities. Balancing local community safety with ecological preservation is crucial to preventing escalating rural unrest and wildlife poaching.",
-      "brief_word_count": 117
+      "brief": "Gundlupet: Minister of Forest, Ecology and Environment Ramalinga Reddy assured that necessary measures are being taken to prevent man-animal conflict in Bandipur forest area. Speaking to media persons, here on Friday, he said, \"There is no delay in the probe related to the shootout incident by the Forest department in Hanur, which claimed three lives. The CoD is investigating and we will not intervene. The anti-poaching camps and quarters that were destroyed by mob after the incident are being repaired. The department personnel need not fear and should perform their duties. Besides, there is no permission to possess rifles without licenses. Those possessing the same should surrender to the government, or face legal action.\"Necessary steps would be taken for the establishing Kaniyanapura elephant corridor of Bandipur Tiger Reserve. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 142
     },
     {
-      "story_id": "story-162",
+      "story_id": "story-afccd5b26c7b",
       "category": "Technology",
       "primary_headline": "Technology must be guided by character, commitment and compassion: PGIMER Director",
       "primary_source": {
@@ -685,16 +765,17 @@
       "total_count": 1,
       "combined_score": 0.86,
       "brief_bullets": [
-        "Addressing the sixteenth convocation of Nitte Deemed to be University, PGIMER Director Prof Vivek Lal urged graduating medical professionals to anchor modern technological advancements in human character, commitment, and compassion. Presided over by Chancellor N Vishal Hegde, the event conferred degrees upon 1,455 graduates while emphasizing patient-centred healthcare over artificial intelligence reliance. Prof Lal cautioned against the unchecked misuse of digital tools, drawing parallels to nuclear threats, and invoked Swami Vivekananda's ideals alongside India's medical heritage to champion responsible innovation aligned with national development goals."
+        "Mangaluru:&nbsp;Technology and digital advancements must be guided by character, commitment and compassion to ensure their meaningful use for the welfare of society, said Prof Vivek Lal, Director of the Postgraduate Institute of Medical Education and Research (PGIMER), Chandigarh.",
+        "Addressing 16th convocation of Nitte Deemed to be University at Deraakatte, he urged students to draw inspiration from Swami Vivekananda's ideals and uphold the values of character, commitment and compassion, which he described as the three essential pillars for the younger generation.\"Technology and digital assets have no meaning if there is no island of commitment, compassion and character to harness them,\" he said, emphasising that India had immense technological capabilities as well as the trust and faith of its patients."
       ],
       "why_it_matters_bullets": [
-        "Balancing artificial intelligence with human compassion ensures ethical healthcare delivery and safeguards societal welfare against technological over-reliance."
+        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
       ],
-      "brief": "Addressing the sixteenth convocation of Nitte Deemed to be University, PGIMER Director Prof Vivek Lal urged graduating medical professionals to anchor modern technological advancements in human character, commitment, and compassion. Presided over by Chancellor N Vishal Hegde, the event conferred degrees upon 1,455 graduates while emphasizing patient-centred healthcare over artificial intelligence reliance. Prof Lal cautioned against the unchecked misuse of digital tools, drawing parallels to nuclear threats, and invoked Swami Vivekananda's ideals alongside India's medical heritage to champion responsible innovation aligned with national development goals. Balancing artificial intelligence with human compassion ensures ethical healthcare delivery and safeguards societal welfare against technological over-reliance.",
-      "brief_word_count": 102
+      "brief": "Mangaluru:&nbsp;Technology and digital advancements must be guided by character, commitment and compassion to ensure their meaningful use for the welfare of society, said Prof Vivek Lal, Director of the Postgraduate Institute of Medical Education and Research (PGIMER), Chandigarh. Addressing 16th convocation of Nitte Deemed to be University at Deraakatte, he urged students to draw inspiration from Swami Vivekananda's ideals and uphold the values of character, commitment and compassion, which he described as the three essential pillars for the younger generation.\"Technology and digital assets have no meaning if there is no island of commitment, compassion and character to harness them,\" he said, emphasising that India had immense technological capabilities as well as the trust and faith of its patients. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
+      "brief_word_count": 132
     },
     {
-      "story_id": "story-180",
+      "story_id": "story-e11a1c1b0424",
       "category": "Technology",
       "primary_headline": "UpCodes (YC S17) is hiring SDR's to sell AI compliance software",
       "primary_source": {
@@ -716,16 +797,19 @@
       "total_count": 1,
       "combined_score": 0.83,
       "brief_bullets": [
-        "UpCodes, a Y Combinator-backed startup from the S17 batch, is actively expanding its sales operations by hiring Sales Development Representatives to drive market adoption of its advanced artificial intelligence compliance software. The company specializes in modernizing building code navigation and regulatory compliance workflows for architectural, engineering, and construction professionals. By leveraging automation and machine learning to streamline complex statutory requirements, UpCodes aims to capture a larger share of the digital transformation market within the construction technology sector. This strategic recruitment push highlights the growing commercialization of specialized compliance automation tools across heavily regulated industries."
+        "Article URL: https://up.codes/careers?utm_source=HN Comments URL: https://news.ycombinator.com/item?id=50395043 Points: 0 # Comments: 0.",
+        "Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms.",
+        "Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps.",
+        "Regulatory bodies continue to monitor market concentration to ensure equitable innovation safeguards across the broader sector."
       ],
       "why_it_matters_bullets": [
-        "Accelerating sales of AI compliance tools signals a broader enterprise shift toward automated regulatory workflows in construction."
+        "Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats."
       ],
-      "brief": "UpCodes, a Y Combinator-backed startup from the S17 batch, is actively expanding its sales operations by hiring Sales Development Representatives to drive market adoption of its advanced artificial intelligence compliance software. The company specializes in modernizing building code navigation and regulatory compliance workflows for architectural, engineering, and construction professionals. By leveraging automation and machine learning to streamline complex statutory requirements, UpCodes aims to capture a larger share of the digital transformation market within the construction technology sector. This strategic recruitment push highlights the growing commercialization of specialized compliance automation tools across heavily regulated industries. Accelerating sales of AI compliance tools signals a broader enterprise shift toward automated regulatory workflows in construction.",
-      "brief_word_count": 111
+      "brief": "Article URL: https://up.codes/careers?utm_source=HN Comments URL: https://news.ycombinator.com/item?id=50395043 Points: 0 # Comments: 0. Technology analysts and industry watchdogs are evaluating the broader competitive consequences for enterprise adoption and proprietary platforms. Industry stakeholders note that heightened scrutiny and architectural transitions will redefine compliance and product innovation roadmaps. Regulatory bodies continue to monitor market concentration to ensure equitable innovation safeguards across the broader sector. Deepens security friction across Europe, escalating defensive readiness and diplomatic countermeasures against hybrid threats.",
+      "brief_word_count": 74
     },
     {
-      "story_id": "story-188",
+      "story_id": "story-44ee53530713",
       "category": "Technology",
       "primary_headline": "It's a weird time to buy a laptop, but the new MacBook Pro doesn't skimp on quality",
       "primary_source": {
@@ -747,44 +831,19 @@
       "total_count": 1,
       "combined_score": 0.83,
       "brief_bullets": [
-        "Apple has launched its latest MacBook Pro, maintaining the company’s reputation for premium hardware quality and industry-leading display technology despite a significant price point. While the device excels in performance and build integrity, the current 2026 market landscape presents a complex purchasing environment for consumers weighing high costs against evolving technological needs. This release underscores Apple's strategy of prioritizing high-end specifications and professional-grade components to justify its luxury positioning. Ultimately, the new MacBook Pro serves as a benchmark for hardware excellence, forcing potential buyers to carefully evaluate whether the substantial financial investment aligns with their specific professional requirements in an increasingly competitive and rapidly shifting personal computing sector."
+        "Apple's new MacBook Pro is expensive as hell.",
+        "Let's get that out there right away, because for a lot of people, it will be the only thing that matters.",
+        "As with so many things in life, though, you get what you pay for.",
+        "There's no questioning the quality of the laptop's display or most of its other hardware components.",
+        "But should you buy it?",
+        "Well, that's a complicated question in 2026.",
+        "Read full article Comments."
       ],
       "why_it_matters_bullets": [
-        "The device sets a high-cost industry standard, forcing professionals to weigh premium hardware against tightening 2026 budget constraints."
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "brief": "Apple has launched its latest MacBook Pro, maintaining the company’s reputation for premium hardware quality and industry-leading display technology despite a significant price point. While the device excels in performance and build integrity, the current 2026 market landscape presents a complex purchasing environment for consumers weighing high costs against evolving technological needs. This release underscores Apple's strategy of prioritizing high-end specifications and professional-grade components to justify its luxury positioning. Ultimately, the new MacBook Pro serves as a benchmark for hardware excellence, forcing potential buyers to carefully evaluate whether the substantial financial investment aligns with their specific professional requirements in an increasingly competitive and rapidly shifting personal computing sector. The device sets a high-cost industry standard, forcing professionals to weigh premium hardware against tightening 2026 budget constraints.",
-      "brief_word_count": 126
-    },
-    {
-      "story_id": "story-189",
-      "category": "Technology",
-      "primary_headline": "Deepinder Goyal’s brain chip stirs backlash from medical doctors, they call it ‘clinically bankrupt’",
-      "primary_source": {
-        "source_name": "Deccan Herald",
-        "headline": "Deepinder Goyal’s brain chip stirs backlash from medical doctors, they call it ‘clinically bankrupt’",
-        "published_at": "Fri, 06 Nov 2026 15:24:51 +0000",
-        "url": "https://www.deccanherald.com/health/deepinder-goyals-brain-chip-stirs-backlash-from-medical-doctors-they-call-it-clinically-bankrupt-4210400",
-        "content": " Zomato founder Deepinder Goyal has again found himself at odds with the medical fraternity over his brain monitoring device ‘Temple’ which will be soon available for pre-order in the country in a variety of six shades, Goyal had informed.While his pre-order post has gained a lot of attraction among people, many medical doctors are contesting against it, with the internet famous the LiverDoc calling it ‘fraudulent’.Goyal has allegedly positioned the Rs 85,000 wearable as a ‘fitness’ and ‘well being’ tracker and refrained from calling it a medical product.Designed to rest near the temple, the device has promised to measure entropy, a body metric indicating how hard the body may be working to meet its energy demands.It also alleges to measure ‘cerebral blood flow’ using light-based optical sensors that sit against the skin.&amp;nbsp;Though the company backs the efficacy of the product with an internal experiment on 23 adults and 44 young men, compares its progress to other smart fitness devices that are released before the conclusive results are presented before the public, the medical community stays sceptical of the move, saying its reliability remains unsubstantiated.Dear Concerned Indian Doctors,I see your rage against Temple on X. I have a few points to make:1. First and foremost, a business lesson: if Temple were a scam, and any of what we said weren&#39;t true, people would know it in just a few days of using Temple. We have 14-day,…&amp;mdash; Deepinder Goyal (@deepigoyal) November 5, 2026\n \n\nTemple, smart wearable will be up for pre-order this weekend: Deepinder GoyalGoyal versus doctorsIn a heartfelt note on X, Goyal said that he stepped down as CEO of Eternal, parent company of Zomato and since then devotionally worked towards building this fitness product.He said that his company has spent nearly 30 million dollars on its development, out of which 20 million dollars have come from his own pocket.He also informed that the product also carries a 14 days return policy and the customers are willing to give it a try.However, at this juncture, many medical doctors interrupted the flow of his messages and said no amount of emotional struggle, future promises and financial support can substantiate the efficacy of a fitness or health product.They also called out lack of clinical evidence as the biggest drawback with the product.According to some clinicians, including the LiverDoc, the fitness tracker can only measure scalp level blood flow and is not a suitable metric to assess any neurological disturbance.As per reports, light-based sensing systems can only have a superficial depth up to 1 or 2 cm. This may translate only to the outer cortex of the brain.&amp;nbsp;The science used to run this product may not be as effective as a deep tissue ultrasound or a perfusion MRI which can assess blood flow velocity across various regions of the brain.In his defence, Goyal reassured that for now Temple is primarily a fitness product.When DH asked medical doctors on the utility of the fitness tracker, they said it may not have any clinical purpose and the readings obtained might be purely relative.However, some people on X have supported Goyal while saying that no innovation is perfect and lack of absolute evidence must not stop researchers from exploring the potential.To the people disparaging the Indian medical community, please note that we, me included, are not against technological solutions towards improved preventative care. In fact, preventative care is is the heart of medical science.But, let us not confuse fradulently selling… pic.twitter.com/5riczT3cli&amp;mdash; TheLiverDoc™ (@theliverdoc) November 6, 2026\n \n\nComparing it to other fitness toolsWhen medical professionals questioned Goyal as to why there are no peer reviewed studies on his product, he said that many fitness trackers get released to the public before a comprehensive report of their efficacy is made available to all.“Most wearable companies start with internal studies. Whoop shipped its band in 2015, and the first published validation followed a few years later. We hold ourselves to a higher standard; pre-prints are a step prior to peer reviewed publications, and they are coming up,” said Goyal on X.However, his post attracted a rebuttal where critics like LiverDoc and other clinicians argued that Apple and Fitbit passed multisite clinical trials for FDA clearance.“Other wearables like Whoop (which he cited) measured and validated exactly what the wearable can measure within limits of human anatomy and physiology,” said LiverDoc.Some came in support of Goyal, saying “Indians punish entrepreneurs for taking risks.”However, medical doctors stood their ground by saying they are not against innovation but clinical evidence is the backbone of any fitness or clinical invention.Ending his response on X, Goyal said that some of the features of Temple are not even made public and some of them have nothing to do with doctors.As the line gets blurred between a fitness tracker and medical technology, Temple may have to cover a long path to gain support of healthcare workers."
-      },
-      "sources": [
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Deepinder Goyal’s brain chip stirs backlash from medical doctors, they call it ‘clinically bankrupt’",
-          "published_at": "Fri, 06 Nov 2026 15:24:51 +0000",
-          "url": "https://www.deccanherald.com/health/deepinder-goyals-brain-chip-stirs-backlash-from-medical-doctors-they-call-it-clinically-bankrupt-4210400"
-        }
-      ],
-      "source_count": 1,
-      "total_count": 1,
-      "combined_score": 0.83,
-      "brief_bullets": [
-        "Zomato founder Deepinder Goyal faces intense backlash from the medical community over his new wearable device, 'Temple,' which claims to monitor cerebral blood flow and entropy. Despite Goyal investing $30 million into the project and positioning it as a fitness tool rather than a medical product, prominent clinicians, including the LiverDoc, have labeled the device 'clinically bankrupt' and fraudulent. Critics argue that the light-based sensors lack the depth required for accurate neurological assessment, rendering the data scientifically unsubstantiated. While Goyal defends the product’s efficacy and offers a 14-day return policy, medical experts maintain that emotional narratives and financial commitment cannot replace rigorous clinical validation, highlighting a growing tension between tech-driven wellness innovation and established medical standards."
-      ],
-      "why_it_matters_bullets": [
-        "The controversy underscores the risks of unregulated health-tech products bypassing clinical validation to influence consumer wellness decisions."
-      ],
-      "brief": "Zomato founder Deepinder Goyal faces intense backlash from the medical community over his new wearable device, 'Temple,' which claims to monitor cerebral blood flow and entropy. Despite Goyal investing $30 million into the project and positioning it as a fitness tool rather than a medical product, prominent clinicians, including the LiverDoc, have labeled the device 'clinically bankrupt' and fraudulent. Critics argue that the light-based sensors lack the depth required for accurate neurological assessment, rendering the data scientifically unsubstantiated. While Goyal defends the product’s efficacy and offers a 14-day return policy, medical experts maintain that emotional narratives and financial commitment cannot replace rigorous clinical validation, highlighting a growing tension between tech-driven wellness innovation and established medical standards. The controversy underscores the risks of unregulated health-tech products bypassing clinical validation to influence consumer wellness decisions.",
-      "brief_word_count": 133
+      "brief": "Apple's new MacBook Pro is expensive as hell. Let's get that out there right away, because for a lot of people, it will be the only thing that matters. As with so many things in life, though, you get what you pay for. There's no questioning the quality of the laptop's display or most of its other hardware components. But should you buy it? Well, that's a complicated question in 2026. Read full article Comments. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 88
     }
   ]
 }

@@ -944,7 +944,7 @@ function renderReaderView(brief) {
   return html;
 }
 
-const categoryBriefCache = {};
+let categoryBriefCache = {};
 
 async function switchReaderCategory(category) {
   scrollToTop();

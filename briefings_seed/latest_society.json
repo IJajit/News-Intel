@@ -1,11 +1,121 @@
 {
   "id": "latest",
   "category": "society",
-  "timestamp": "2026-11-06T17:32:13.589848+00:00",
+  "timestamp": "2026-11-06T18:50:06.899265+00:00",
   "articlesCount": 20,
   "stories": [
     {
-      "story_id": "story-2",
+      "story_id": "story-5a8d329a3d75",
+      "category": "Society",
+      "primary_headline": "Alaska Governor Election Live Results 2026",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Alaska Governor Election Live Results 2026 - AP News",
+        "published_at": "Fri, 06 Nov 2026 18:45:26 GMT",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zVnF6Z256eUxiRnVxdl8zOHZZc1hya2VseWs4elFvOV9fZGVkdW1iOGVyVXh5LWxMa3NET0ZOSHNhWGhQd21sWUw0dXVNaTlhMnVaaFlWbzBYbVVMX0d6aU9ub2RoQ2Q0RlRkbEpBVzNFYjNPekE?oc=5",
+        "content": "Alaska Governor Election Live Results 2026&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "Vox",
+          "headline": "Los Angeles is about to test a new kind of housing politics",
+          "published_at": "2026-11-06T13:15:00-05:00",
+          "url": "https://www.vox.com/future-perfect/509736/los-angeles-nithya-raman-karen-bass-housing"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "Alaska Governor Election Live Results 2026 - AP News",
+          "published_at": "Fri, 06 Nov 2026 18:45:26 GMT",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zVnF6Z256eUxiRnVxdl8zOHZZc1hya2VseWs4elFvOV9fZGVkdW1iOGVyVXh5LWxMa3NET0ZOSHNhWGhQd21sWUw0dXVNaTlhMnVaaFlWbzBYbVVMX0d6aU9ub2RoQ2Q0RlRkbEpBVzNFYjNPekE?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "Los Angeles, CA Mayor Nonpartisan Runoff Election Election Live Results 2026 - AP News",
+          "published_at": "Fri, 06 Nov 2026 18:45:26 GMT",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNb1A3LU02UEMzODJVNUMwNVpGTkxzYjF3VW0xYi1WUlByTHN4ZmhjR0M0QnotWUt4c3ZXWnJ2dHcxVENGWHd3V0pVNEVCZWRMNzJmaUoyREhSUjFiLXQzcGtVbHN5QVhYemZ1ZU5mdUxYeTNteHFPbGVDRXh5UzZnZWJWQUE4RDg?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "2026 U.S. House Election Results - AP News",
+          "published_at": "Fri, 06 Nov 2026 18:41:30 GMT",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUM0VmeFZ2SjF1RGJlVENLazFvbHZxWjRIYUlNMFlKal9sRW1ySS1UQWo4djh3cWpLcXJLWWFuWXBmdkllMTd2aVRhWF9YZFM5ZGRmN3pxZW5nWERXMjREbTVDeGF2RXRfM3ZTUw?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "Texas Governor Election Live Results 2026 - AP News",
+          "published_at": "Fri, 06 Nov 2026 18:39:25 GMT",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WbGdyZjVxQ2FzZWM1aVNqcnZfcmNxM2NBS2J2WWg1UHU0OWNEcVNUaVkyTF9EN1BSX2phcmwxNl9VVUJpTjUxdWEzNDJKWWxzSW5aNnFQVDZnVVpHVkppU0dUZ3NmNDNxMzdSZ3N4ckFGS1dL?oc=5"
+        }
+      ],
+      "source_count": 10,
+      "total_count": 30,
+      "combined_score": 14.03,
+      "brief_bullets": [
+        "As the 2026 midterm election cycle unfolds across the United States, voters and political analysts are closely tracking pivotal races nationwide, including the high-stakes Alaska gubernatorial contest. Major news organizations like the Associated Press are providing live election results for key matchups, ranging from nonpartisan mayoral runoffs in Los Angeles to critical gubernatorial battles in states like Texas. These races serve as vital barometers of public sentiment regarding local governance, economic stewardship, and partisan alignment. The outcomes of these contests will substantially influence legislative agendas and shape the political landscape heading toward future presidential election cycles."
+      ],
+      "why_it_matters_bullets": [
+        "These pivotal 2026 election results will determine state-level leadership and legislative momentum nationwide."
+      ],
+      "brief": "As the 2026 midterm election cycle unfolds across the United States, voters and political analysts are closely tracking pivotal races nationwide, including the high-stakes Alaska gubernatorial contest. Major news organizations like the Associated Press are providing live election results for key matchups, ranging from nonpartisan mayoral runoffs in Los Angeles to critical gubernatorial battles in states like Texas. These races serve as vital barometers of public sentiment regarding local governance, economic stewardship, and partisan alignment. The outcomes of these contests will substantially influence legislative agendas and shape the political landscape heading toward future presidential election cycles. These pivotal 2026 election results will determine state-level leadership and legislative momentum nationwide.",
+      "brief_word_count": 109
+    },
+    {
+      "story_id": "story-1dddc614145a",
+      "category": "Society",
+      "primary_headline": "Production of Tesla's Cybertruck will wind down soon with allure escaping most potential buyers",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Production of Tesla's Cybertruck will wind down soon with allure escaping most potential buyers - AP News",
+        "published_at": "Fri, 06 Nov 2026 14:50:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYkdNclU1NURkXzBzcmRNRDZKSDdGaDZTdC1aSThJc09TM2pPcEJTZktIQllOV1ZrX0N6QXk4eEhHR0prbE03QlJjS28wMWp2VVYzMVhUeTlKYzBuRWtiazFEaThCNUhLNUQzUG9rb0xPaEQ1bF9KcFo4dzQ0a2FxSWNEM2JYWEkwQTRLQ2ZCSkk3c2luaWhqUERaZUhkLUVsdFpaQlFR?oc=5",
+        "content": "Production of Tesla's Cybertruck will wind down soon with allure escaping most potential buyers&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Production of Tesla's Cybertruck will wind down soon with allure escaping most potential buyers - AP News",
+          "published_at": "Fri, 06 Nov 2026 14:50:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYkdNclU1NURkXzBzcmRNRDZKSDdGaDZTdC1aSThJc09TM2pPcEJTZktIQllOV1ZrX0N6QXk4eEhHR0prbE03QlJjS28wMWp2VVYzMVhUeTlKYzBuRWtiazFEaThCNUhLNUQzUG9rb0xPaEQ1bF9KcFo4dzQ0a2FxSWNEM2JYWEkwQTRLQ2ZCSkk3c2luaWhqUERaZUhkLUVsdFpaQlFR?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Tesla to pull the plug on Cybertruck after years of poor sales - Reuters",
+          "published_at": "Fri, 06 Nov 2026 07:04:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWnlMcV9XTE94RnhqbWNmQ1B5Y01Gd0tReURLRG5nc1VOVlBQR1RwazRSdXF0azlhbS1nTmJ5M0MxZUxMMUQxM1pxRHVjN1VVQWM5OGtOOGdWU1Fwa0llb0hxTXVHX05rV3JoRTR3eWwtTkNseGQ2eW5hcTcxUmQ5YnRYUVNwaGdwaDlhelZ5dmJoOVZhaGU1N1Fkb1RTUDFMY1lCUzlMcG9SYUNDcUlMeHBBYXBWQmM2QUloLWh5QkNuOGRvMTRVSml0dmxEN2lqaU1va09iQ0o?oc=5"
+        },
+        {
+          "source_name": "NYT",
+          "headline": "Tesla Is Ending Production of Its Cybertruck and Refocusing on the Cybercab",
+          "published_at": "Fri, 06 Nov 2026 17:38:29 +0000",
+          "url": "https://www.nytimes.com/2026/11/06/business/tesla-cybertruck-production.html"
+        },
+        {
+          "source_name": "BBC News",
+          "headline": "Watch: Is it the end of the road for Tesla's Cybertruck?",
+          "published_at": "Fri, 06 Nov 2026 15:02:03 GMT",
+          "url": "https://www.bbc.co.uk/news/videos/cv8ezz9ll7nyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Tesla To 'Wind Down' Cybertruck Production Next Year: Musk",
+          "published_at": "Fri, 06 Nov 2026 23:45:06 +0530",
+          "url": "https://www.ndtv.com/world-news/tesla-to-wind-down-cybertruck-production-next-year-musk-12294699#publisher=newsstand"
+        }
+      ],
+      "source_count": 10,
+      "total_count": 10,
+      "combined_score": 8.0,
+      "brief_bullets": [
+        "Tesla CEO Elon Musk announced that production of the polarizing Cybertruck at the company's Texas facility will permanently wind down by mid-2027 due to sustained poor sales and waning consumer interest. The automaker plans to repurpose the assembly lines to scale manufacturing for its upcoming autonomous Cybercab robotaxi fleet. This strategic pivot marks a major retreat from Tesla's high-profile venture into unconventional electric truck manufacturing, as the company redirects capital and factory floor space toward automated ride-sharing technology."
+      ],
+      "why_it_matters_bullets": [
+        "Tesla is decisively pivoting capital from niche consumer vehicles toward autonomous robotaxis to secure future market dominance."
+      ],
+      "brief": "Tesla CEO Elon Musk announced that production of the polarizing Cybertruck at the company's Texas facility will permanently wind down by mid-2027 due to sustained poor sales and waning consumer interest. The automaker plans to repurpose the assembly lines to scale manufacturing for its upcoming autonomous Cybercab robotaxi fleet. This strategic pivot marks a major retreat from Tesla's high-profile venture into unconventional electric truck manufacturing, as the company redirects capital and factory floor space toward automated ride-sharing technology. Tesla is decisively pivoting capital from niche consumer vehicles toward autonomous robotaxis to secure future market dominance.",
+      "brief_word_count": 95
+    },
+    {
+      "story_id": "story-21e908d02475",
       "category": "Society",
       "primary_headline": "European flights and broadcasters are targeted with another wave of bomb threats",
       "primary_source": {
@@ -35,32 +145,142 @@
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdnRXOWRIUkRMTjJUVHA5MERSRnEzbUpJLWdYbjJwUkhyMUlkaVBELWNFWWhyVDl5RTNqQkhUSTdacElqLUhNRk9RSlg2SXpvRkQwTENWZ1MzRFlfYW1OcFBMRHFRQ0RfRDZ1MkVBbHJYTncyWXVOSnh6UTBFMklGLVRiSGNoN21PNURKcUtGSXpWYnkxM19zcDNCbldTeGc4bzJrRmVZNGt4Slp3NmFHcGpLMWNTSFJr?oc=5"
         },
         {
+          "source_name": "Reuters",
+          "headline": "Offices of Irish media groups evacuated due to bomb threats, one deemed a hoax - Reuters",
+          "published_at": "Fri, 06 Nov 2026 10:42:42 GMT",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZGhsT21BOU11RVB3cWRWRW0tSkN3dFotczF4eElnRF9JS1F6U3RJRG51bm9xbERtXzhkZDlTMGg4LVNHWUNDd2FJYVY2MkotbnJINFYwdldiTUpSeHByQ0ZGN2NzTDMtYWR2Z0tmc2xXanlMc25ESzFaQlRPSnFRYVl2Um82VEhGYW1sYTZWdVpiUFZ2Rzk1YnNycXVLSjhzUldiTVNBd3VDNzAwbjlvbQ?oc=5"
+        },
+        {
           "source_name": "AP News",
           "headline": "More than a dozen flights in Europe receive bomb threats that an official calls 'malicious' hoaxes - AP News",
           "published_at": "Thu, 05 Nov 2026 21:56:00 GMT",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQblN6SXBxQ2x2LUZZYXBQd1ZlLTc5SE9sOXZYV0JyelE0X0p5RlNFOHV2MzR5T1lTTHZORlRzWmdVQndTcjhESjhvbV84eU1IeXZsVmwwV2VNMElhbTlJVFhzMV9fRy02Z01jX2Z0X1hTbFVwV3lzVUhKUURQQkYtU3Voc2RpOHFSNHRDNXUzb2NsWVB0dHRoN19wU0dvTVd6OEhnV1VYclpqdw?oc=5"
+        }
+      ],
+      "source_count": 9,
+      "total_count": 13,
+      "combined_score": 8.6,
+      "brief_bullets": [
+        "A coordinated wave of malicious bomb threats has severely disrupted European aviation and broadcasting networks, forcing the evacuation of prominent Irish media offices and triggering security alerts across more than a dozen flights. While initial investigations indicate that these alarming warnings featuring the phrase the clock is ticking are sophisticated hoaxes, they have caused widespread logistical chaos and operational delays. European authorities and security officials are actively investigating the source of these synchronized disruptions, which highlight ongoing vulnerabilities in critical infrastructure protection against psychological and digital harassment campaigns."
+      ],
+      "why_it_matters_bullets": [
+        "These persistent hybrid attacks expose critical vulnerabilities in cross-border transport and media security infrastructure, threatening economic stability."
+      ],
+      "brief": "A coordinated wave of malicious bomb threats has severely disrupted European aviation and broadcasting networks, forcing the evacuation of prominent Irish media offices and triggering security alerts across more than a dozen flights. While initial investigations indicate that these alarming warnings featuring the phrase the clock is ticking are sophisticated hoaxes, they have caused widespread logistical chaos and operational delays. European authorities and security officials are actively investigating the source of these synchronized disruptions, which highlight ongoing vulnerabilities in critical infrastructure protection against psychological and digital harassment campaigns. These persistent hybrid attacks expose critical vulnerabilities in cross-border transport and media security infrastructure, threatening economic stability.",
+      "brief_word_count": 105
+    },
+    {
+      "story_id": "story-22ee53f96661",
+      "category": "Society",
+      "primary_headline": "Mississippi US Senate candidates battle over ballots as winner remains unclear",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Mississippi US Senate candidates battle over ballots as winner remains unclear - Reuters",
+        "published_at": "Fri, 06 Nov 2026 17:15:48 GMT",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMmlsU2hJcDdTX3k3M3pDbnVTb2MyY2ZxNnFnR0pxOTJGZ3lJQ05IN3VVUzRrS2RMalRfMTVJWEUweHplSllFLVkxZjN2akhUUnp4REZjanNMTVl1SFJGQTBJOXlpblNOb1RiT1NzVHFwLW5ESG5ieU1icU1qemI5NERsdWd1b3BpbWxRRWZLWXEzTzZrT2EwNExKb3R3NlU1RVBsNGtFWFZrNHlSbFN3ZTdJdFUzT1ZKVXVtV1BtSmc5aEg1Mi1r?oc=5",
+        "content": "Mississippi US Senate candidates battle over ballots as winner remains unclear&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Mississippi US Senate candidates battle over ballots as winner remains unclear - Reuters",
+          "published_at": "Fri, 06 Nov 2026 17:15:48 GMT",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMmlsU2hJcDdTX3k3M3pDbnVTb2MyY2ZxNnFnR0pxOTJGZ3lJQ05IN3VVUzRrS2RMalRfMTVJWEUweHplSllFLVkxZjN2akhUUnp4REZjanNMTVl1SFJGQTBJOXlpblNOb1RiT1NzVHFwLW5ESG5ieU1icU1qemI5NERsdWd1b3BpbWxRRWZLWXEzTzZrT2EwNExKb3R3NlU1RVBsNGtFWFZrNHlSbFN3ZTdJdFUzT1ZKVXVtV1BtSmc5aEg1Mi1r?oc=5"
         },
         {
           "source_name": "AP News",
-          "headline": "Here’s what happens when airlines receive bomb threats - AP News",
-          "published_at": "Thu, 05 Nov 2026 18:40:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMWFsZGlIUExzeDBTWm9KRlBBNzNhcFp2X0JTOWZwVGxsZ25ZelktU29CMWtXMHgzdENaMG1LYVdJNDdSS3BmTWxxYmZaeHhvMlR3emFWY0x1bndaRGlIbWJOZW1icnRhUkx5M0R1RE13YW5vR2tWWlhpb2N4ZlBYb2NLT1lBNDhIY2szckZHNlhsSHlZeTVMZGRJTQ?oc=5"
+          "headline": "Senate Democrats will not let Trump put a 'right-winger' on the Supreme Court, Schumer vows - AP News",
+          "published_at": "Thu, 05 Nov 2026 23:48:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTl9hNExDenI3VlVtR1Zfbm9CalRFazFMZ2JCUGpQYWRvS0lRWFl5YlRjQkoyOTVaWmtNN2dqX2RUdEZfUlVqOTFOUzYxbWtxUHhUdWZkYV9Cbjh2dFhRbl9ETl8xV043d0xnem51UlpzZ240STUzV3Y1Nk1aUTJ4TnVpVC1LNGM2b0ZlUkpPeS1iR3JLMzlaM3ZmTk1xYlBCVEE?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Trump to nominate Texas Supreme Court justice who lost election to federal bench - Reuters",
+          "published_at": "Thu, 05 Nov 2026 23:38:14 GMT",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQWhEUWNvMWszeTdXeUZ4bmtGcmVqMjZ0UVpfMHNDT0xzLXdvZHRuT2Z5Y0VPYTJOQ3VwQkFjM1RRWWRJQkZFZV9XaGFsUzVaSDlfbU9mUkdyUG51bURHUTFTTjJacnhtVWMwemJvV3duYmlRU3Jpa2k3cW9TRl9vUGJVQXhvdzNnYUhCR2lQcklTbUpSUjlYZkROdWtPWGNuVklLWE41QjhMdVFkMWIxUkFRemlRalZZSERwSzBEMnRRU2VsX3c?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "Iowa Democrat wins state House race despite suspending campaign in September - AP News",
+          "published_at": "Thu, 05 Nov 2026 22:44:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTXFkQl9PenRNLUdoQUNqak9pVHZCZXh6TF9QUlVVQTc3T2x0UHN0Z0xoVjVyR0NnLWtmNDJkQ1BNd0hxMnBQTW9uRGN2dXA2bFk5SDJNVVpZNGxTRUdDZVZfZ1Q4TzZHN0xXa3hNa0tWUVdfTkd5MVdUVFdjVGZHNVpULWo3V3h3ZVd1b0pwbEVOOFNmXzZZMGJWanF1UllxX2pTR0NnblVOWUk?oc=5"
+        },
+        {
+          "source_name": "AP News",
+          "headline": "Democrat JoAnna Mendoza wins election to U.S. House in Arizona's 6th Congressional District - AP News",
+          "published_at": "Thu, 05 Nov 2026 19:38:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTmJ4OUE2b1JxUUVvWGpiZzQ3bEx2Z2J6QU43R0lzRzB2Nzl1N2dNOUdXWU51Wl9raWRCT2dzM2pWMXFBNzlUSFE2c1JuaDI3YlZ2SVYzVWp0aTlYQVo5S1BtdXMxTUIxTTFLaGxfZVFkMnp2Z0JZMTBCT1ZVOExXZFRwd2V3VlBBVVZ6blJWYnhsTzlkc1c1RlNqeUlucjhxU2Y3YlY4R0ZXOG1xaGc?oc=5"
         }
       ],
-      "source_count": 10,
-      "total_count": 15,
-      "combined_score": 9.7,
+      "source_count": 7,
+      "total_count": 16,
+      "combined_score": 8.36,
       "brief_bullets": [
-        "A coordinated wave of malicious bomb threats has severely disrupted European aviation and major broadcasting networks, targeting over a dozen flights and multiple television channels with warnings that the clock is ticking. Transport authorities and security officials confirmed that while the alerts triggered widespread emergency responses and logistical chaos, preliminary investigations indicate the incidents are sophisticated hoaxes. This synchronized campaign exploits critical infrastructure vulnerabilities, forcing aviation and media operators to execute costly security protocols while stoking public anxiety across the continent."
+        "The outcome of the Mississippi United States Senate race remains undecided as candidates engage in a fierce legal battle over outstanding ballots and provisional votes. Election officials across the state are currently reviewing disputed returns to ensure every legitimate vote is accurately tabulated before a winner is officially declared. Both campaigns have deployed legal teams to monitor the adjudication process closely, heightening political tensions in a contest that could influence the broader balance of power in Washington."
       ],
       "why_it_matters_bullets": [
-        "These persistent hoaxes drain vital emergency resources and expose critical vulnerabilities in European transport and media security networks."
+        "The unresolved contest leaves a crucial Senate seat hanging in the balance, impacting future legislative majorities."
       ],
-      "brief": "A coordinated wave of malicious bomb threats has severely disrupted European aviation and major broadcasting networks, targeting over a dozen flights and multiple television channels with warnings that the clock is ticking. Transport authorities and security officials confirmed that while the alerts triggered widespread emergency responses and logistical chaos, preliminary investigations indicate the incidents are sophisticated hoaxes. This synchronized campaign exploits critical infrastructure vulnerabilities, forcing aviation and media operators to execute costly security protocols while stoking public anxiety across the continent. These persistent hoaxes drain vital emergency resources and expose critical vulnerabilities in European transport and media security networks.",
-      "brief_word_count": 99
+      "brief": "The outcome of the Mississippi United States Senate race remains undecided as candidates engage in a fierce legal battle over outstanding ballots and provisional votes. Election officials across the state are currently reviewing disputed returns to ensure every legitimate vote is accurately tabulated before a winner is officially declared. Both campaigns have deployed legal teams to monitor the adjudication process closely, heightening political tensions in a contest that could influence the broader balance of power in Washington. The unresolved contest leaves a crucial Senate seat hanging in the balance, impacting future legislative majorities.",
+      "brief_word_count": 93
     },
     {
-      "story_id": "story-4",
+      "story_id": "story-815113ba23c3",
+      "category": "Society",
+      "primary_headline": "Meghan Markle's estranged father arrested and charged with possessing child sexual abuse materials",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Meghan Markle's estranged father arrested and charged with possessing child sexual abuse materials - AP News",
+        "published_at": "Fri, 06 Nov 2026 17:34:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNHpGTGhqcHRFbVlLRWRncDVhUFJnU25fSGFTclFBam5RNWpJSDBxanJTRkxGVmFaWjU3WFRXaHJQaldNU2ZURXBuRzRXLUhYUmdrR083a3FaaTJEdG84QUVFMzdxNVJ5NmVuYkstV1AwVVg2YmREMzAwRFEzYmlLODhzbGUwZHpTV2YwVzdNekFGZjk1MnEyMXhCTDFaVjg?oc=5",
+        "content": "Meghan Markle's estranged father arrested and charged with possessing child sexual abuse materials&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Meghan Markle's estranged father arrested and charged with possessing child sexual abuse materials - AP News",
+          "published_at": "Fri, 06 Nov 2026 17:34:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNHpGTGhqcHRFbVlLRWRncDVhUFJnU25fSGFTclFBam5RNWpJSDBxanJTRkxGVmFaWjU3WFRXaHJQaldNU2ZURXBuRzRXLUhYUmdrR083a3FaaTJEdG84QUVFMzdxNVJ5NmVuYkstV1AwVVg2YmREMzAwRFEzYmlLODhzbGUwZHpTV2YwVzdNekFGZjk1MnEyMXhCTDFaVjg?oc=5"
+        },
+        {
+          "source_name": "Reuters",
+          "headline": "Thomas Markle, father of Meghan, arrested for child pornography possession - Reuters",
+          "published_at": "Fri, 06 Nov 2026 16:59:33 GMT",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQX3ZsOHM5bmJFSVZCX3dsS3g1cUIxWEE5SHprTWZubEpyNW1xajlvdnBYZnpvZGlqVnhBRF96NFBKZEhDTXpTNVE0VzVLbGd0dVVFcmVCeUxQenRvdlpEUTA3Q2hYZ2EwcmJRdkppV1JUcE1OQU5vLTU4MFdDNzJyTVFyOHYzZ3BUU05iQVJscG12UzByNDN0WHlKb2Q?oc=5"
+        },
+        {
+          "source_name": "The Hindu",
+          "headline": "FBI arrests Thomas Markle, father of Meghan, over child sexual abuse material",
+          "published_at": "Fri, 06 Nov 2026 23:36:19 +0530",
+          "url": "https://www.thehindu.com/news/international/meghan-markle-father-thomas-arrested-fbi/article71675624.ece"
+        },
+        {
+          "source_name": "The Guardian",
+          "headline": "Thomas Markle, Meghan’s father, arrested in Florida on charges related to child sexual abuse material",
+          "published_at": "Fri, 06 Nov 2026 17:41:51 GMT",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/06/thomas-markle-arrested"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Meghan Markle's Father Arrested Over Child Sexual Abuse Material",
+          "published_at": "Fri, 06 Nov 2026 21:59:53 +0530",
+          "url": "https://www.ndtv.com/world-news/meghan-markles-father-thomas-markle-sr-arrested-over-child-sexual-abuse-material-12294334#publisher=newsstand"
+        }
+      ],
+      "source_count": 7,
+      "total_count": 7,
+      "combined_score": 5.6,
+      "brief_bullets": [
+        "Thomas Markle, the estranged father of Meghan, Duchess of Sussex, was arrested by federal agents at a Florida nursing facility near Tampa on charges related to the possession of child sexual abuse materials. The Federal Bureau of Investigation and the U.S. Department of Justice confirmed that the eighty-two-year-old faces federal prosecution following the discovery of illicit images linked to his former residence. The Duchess of Sussex has previously expressed profound distress regarding the allegations. This high-profile arrest places renewed media scrutiny on the royal family's extended relations, amplifying public discussions surrounding familial estrangement and accountability."
+      ],
+      "why_it_matters_bullets": [
+        "This high-profile arrest intensely intensifies public scrutiny on the Duchess of Sussex, compounding delicate royal relations."
+      ],
+      "brief": "Thomas Markle, the estranged father of Meghan, Duchess of Sussex, was arrested by federal agents at a Florida nursing facility near Tampa on charges related to the possession of child sexual abuse materials. The Federal Bureau of Investigation and the U.S. Department of Justice confirmed that the eighty-two-year-old faces federal prosecution following the discovery of illicit images linked to his former residence. The Duchess of Sussex has previously expressed profound distress regarding the allegations. This high-profile arrest places renewed media scrutiny on the royal family's extended relations, amplifying public discussions surrounding familial estrangement and accountability. This high-profile arrest intensely intensifies public scrutiny on the Duchess of Sussex, compounding delicate royal relations.",
+      "brief_word_count": 111
+    },
+    {
+      "story_id": "story-80c7ae613199",
       "category": "Society",
       "primary_headline": "Russell Brand, convicted of rape, now likely to face more allegations, says UK police chief",
       "primary_source": {
@@ -85,6 +305,12 @@
         },
         {
           "source_name": "BBC News",
+          "headline": "Brand's barrister refers himself to regulator after report he confronted journalist",
+          "published_at": "Fri, 06 Nov 2026 16:49:31 GMT",
+          "url": "https://www.bbc.co.uk/news/articles/c8kgee9yxvn7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source_name": "BBC News",
           "headline": "Katherine Ryan says she feels 'grief and relief' after Russell Brand conviction",
           "published_at": "Fri, 06 Nov 2026 13:12:20 GMT",
           "url": "https://www.bbc.co.uk/news/articles/cxyvrr686lzqo?at_medium=RSS&at_campaign=rss"
@@ -94,91 +320,28 @@
           "headline": "How 2000s lad culture helped Russell Brand to hide in plain sight",
           "published_at": "Fri, 06 Nov 2026 12:16:44 GMT",
           "url": "https://www.bbc.co.uk/news/articles/cm4g1jqwylvgo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source_name": "Washington Post",
-          "headline": "Russell Brand found guilty of rape and sexual assault in London trial - The Washington Post",
-          "published_at": "Thu, 05 Nov 2026 23:53:41 GMT",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNnBqck1jUlk3dmV0bFZRWGNaVlBveExtcXczZ2IxT0RqOHF6dmpDZkZjLWhIRWdTY2ZTZjI2em9LbXpJV3NhUG8tZk9meVJpNGRlWGlCWnVWNEVzSWFVLVZMTFJUS0ZHbXRCc0owcGJkU196bEFEVWRNSmNaMzFEOVJPQ2sxb0hZdC1Qdk42RjJZb0JlRC1OTzM1VWJGeWY0akpOeERDZFNWdm55N1F1SkxlMWY4LTA?oc=5"
         }
       ],
-      "source_count": 8,
-      "total_count": 10,
-      "combined_score": 7.09,
+      "source_count": 6,
+      "total_count": 11,
+      "combined_score": 6.33,
       "brief_bullets": [
-        "Russell Brand is convicted of rape, and judge says he’ll get a prison term AP News Listen: Katherine Ryan speaks about Brand guilty verdict The Canadian stand-up and TV star said there were \"a lot of women speaking privately and quietly\" following Thursday's verdict, who feel \"a very nuanced mix of emotions\".",
-        "Ryan said in 2022 that she could not name the famous man as it would be a \"litigious minefield\" but mentioned that she had appeared on a TV programme with him and told him he was a \"predator\" to \"his face\".",
-        "It was widely rumoured Ryan had been referring to her time on Comedy Central's Roast Battle in 2018 alongside Brand, but she has not confirmed she was referring to him, and she did not name the show she was working on."
+        "Following comedian Russell Brand's conviction for rape and impending prison sentence, a UK police chief announced that investigators anticipate additional allegations to emerge. The prosecution highlights systemic issues within the entertainment industry, where the harmful behaviors underpinning his crimes were previously enabled and elevated by media structures. Key figures, including investigative reporters and law enforcement, are navigating fallout from the high-profile case, which underscores ongoing accountability reckonings across the British entertainment landscape."
       ],
       "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
+        "This conviction marks a watershed moment for accountability, potentially dismantling institutional protections within the entertainment industry."
       ],
-      "brief": "Russell Brand is convicted of rape, and judge says he’ll get a prison term AP News Listen: Katherine Ryan speaks about Brand guilty verdict The Canadian stand-up and TV star said there were \"a lot of women speaking privately and quietly\" following Thursday's verdict, who feel \"a very nuanced mix of emotions\". Ryan said in 2022 that she could not name the famous man as it would be a \"litigious minefield\" but mentioned that she had appeared on a TV programme with him and told him he was a \"predator\" to \"his face\". It was widely rumoured Ryan had been referring to her time on Comedy Central's Roast Battle in 2018 alongside Brand, but she has not confirmed she was referring to him, and she did not name the show she was working on. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 148
+      "brief": "Following comedian Russell Brand's conviction for rape and impending prison sentence, a UK police chief announced that investigators anticipate additional allegations to emerge. The prosecution highlights systemic issues within the entertainment industry, where the harmful behaviors underpinning his crimes were previously enabled and elevated by media structures. Key figures, including investigative reporters and law enforcement, are navigating fallout from the high-profile case, which underscores ongoing accountability reckonings across the British entertainment landscape. This conviction marks a watershed moment for accountability, potentially dismantling institutional protections within the entertainment industry.",
+      "brief_word_count": 88
     },
     {
-      "story_id": "story-5",
-      "category": "Society",
-      "primary_headline": "US prosecutor who oversaw probes into past Trump investigations resigns",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "US prosecutor who oversaw probes into past Trump investigations resigns - Reuters",
-        "published_at": "Fri, 06 Nov 2026 15:46:52 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNnJnWlVMYkUwX0hPQjVtXzZnNzhBUDhwczhNdnB0dVA3OTJnYTExdnV6ZjRya3M1UUo2TXUyT1l6U0ZRZmh2eUVRNWtJMFBDY2pMQWhaNU9yNm9NWHZGU1UzY2N1TDhwTnh1UXVNNG1YNFBWR2FWZDEzV01mMW0wS1hOcE9hZU1hbFJiaHEtZ0o2SW84T3Q4NDlOYjRTcFdPRnE2SXIzMjFQVHA3UVNZbm1ZaTF2TDhZeXc?oc=5",
-        "content": "US prosecutor who oversaw probes into past Trump investigations resigns&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "US prosecutor who oversaw probes into past Trump investigations resigns - Reuters",
-          "published_at": "Fri, 06 Nov 2026 15:46:52 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNnJnWlVMYkUwX0hPQjVtXzZnNzhBUDhwczhNdnB0dVA3OTJnYTExdnV6ZjRya3M1UUo2TXUyT1l6U0ZRZmh2eUVRNWtJMFBDY2pMQWhaNU9yNm9NWHZGU1UzY2N1TDhwTnh1UXVNNG1YNFBWR2FWZDEzV01mMW0wS1hOcE9hZU1hbFJiaHEtZ0o2SW84T3Q4NDlOYjRTcFdPRnE2SXIzMjFQVHA3UVNZbm1ZaTF2TDhZeXc?oc=5"
-        },
-        {
-          "source_name": "AP News",
-          "headline": "Harmeet Dhillon exits after radical overhaul of Justice Department’s Civil Rights Division - AP News",
-          "published_at": "Thu, 05 Nov 2026 22:26:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUzRnTi1sd1dMU2hXZ1ZPcC11QWlrcXl1WjZxZXpfSWtlWU1KanJ3MUlyTHVjWGJiODh2UDFTTnlvbS1XMFdiOXVhYm95U2dtWldCVTltaFZuNU5fSVpjeHRLbkQtdUxKZDBPdTRCNlRQQ1gyYndmMDUtSUQtcURTYTFpUDVFdVBDTXFObk1QQTRib1E1bzZxcl9hNUdDRHpYQktwNzdiVENqSEJSYjV3UTlablVVamc?oc=5"
-        },
-        {
-          "source_name": "NYT",
-          "headline": "U.S. Attorney Who Oversaw Centerpiece of Trump’s Revenge Campaign Resigns",
-          "published_at": "Fri, 06 Nov 2026 17:21:54 +0000",
-          "url": "https://www.nytimes.com/2026/11/06/us/politics/jason-reding-quinones-resigns.html"
-        },
-        {
-          "source_name": "Washington Post",
-          "headline": "Opponents ask judge to stop Trump from closing historic D.C. golf course - The Washington Post",
-          "published_at": "Fri, 06 Nov 2026 06:00:34 GMT",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYUNHZ0xMdlAxeFRrc3YyNWMyaEM2TUJyZ0RwOFNza0laOGwyXzNQOWtnQ3BURC1WZG5EclhsQUU0TUdod240dW9KX042TDZnZmxXZV9DaU01U1lOUkF0MG4xaHZtN3BLWnBaRnk0SmZaM0JfOFBPYmI2Z0lFSUFyNGhxVDllRGRUZlJ3REJwZG5vNDNFRDVaSVJmbzJoUHBmeUhLVWhjWk9zRG90bV9na0N3?oc=5"
-        },
-        {
-          "source_name": "The Hindu",
-          "headline": "U.S. Attorney whose office oversaw Trump's election conspiracy probe resigns",
-          "published_at": "Fri, 06 Nov 2026 22:31:23 +0530",
-          "url": "https://www.thehindu.com/news/international/us-attorney-whose-office-oversaw-trumps-election-conspiracy-probe-resigns/article71675394.ece"
-        }
-      ],
-      "source_count": 8,
-      "total_count": 9,
-      "combined_score": 6.7,
-      "brief_bullets": [
-        "Senior US prosecutor Jason Reding Quiñones has resigned from the Department of Justice, following Harmeet Dhillon's departure amid a radical overhaul of the Civil Rights Division. Quiñones, who previously oversaw probes into past investigations concerning Donald Trump, is the second senior official to exit the agency following recent midterm election shifts. Additional departures are anticipated across key divisions, including national security, signaling a major institutional transition within federal law enforcement under shifting political dynamics."
-      ],
-      "why_it_matters_bullets": [
-        "These high-level departures signal a profound institutional realignment within federal law enforcement amid shifting political landscapes."
-      ],
-      "brief": "Senior US prosecutor Jason Reding Quiñones has resigned from the Department of Justice, following Harmeet Dhillon's departure amid a radical overhaul of the Civil Rights Division. Quiñones, who previously oversaw probes into past investigations concerning Donald Trump, is the second senior official to exit the agency following recent midterm election shifts. Additional departures are anticipated across key divisions, including national security, signaling a major institutional transition within federal law enforcement under shifting political dynamics. These high-level departures signal a profound institutional realignment within federal law enforcement amid shifting political landscapes.",
-      "brief_word_count": 90
-    },
-    {
-      "story_id": "story-6",
+      "story_id": "story-e64711455c8c",
       "category": "Society",
       "primary_headline": "Kenyan cult leader sentenced to 200 years in prison for mass starvation murders of children",
       "primary_source": {
         "source_name": "Reuters",
         "headline": "Kenyan cult leader sentenced to 200 years in prison for mass starvation murders of children - Reuters",
-        "published_at": "Fri, 06 Nov 2026 16:33:55 GMT",
+        "published_at": "Fri, 06 Nov 2026 17:05:57 GMT",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOVFQN3ZZdXgwV0VlOWE3MF8zbXg0ZF9ZenNaZ3pVTl8xcHpuREFHUFpodWFmMXVzSmN3c29kRVViMDZhdkZ1QjB1WGdoR0tLZ09OaTRORzBOWmNQQUFUb2RvMnpVdjQ3eGlCcmJsSGxPNzFVM0N2bEJCZ3V5SVJ0OTRyZW9LbFVhVmRXeUV2a0Q0eFE4WVR1Vl81V1NoTWZ4THNYbklpbFc1RmxIZ043WTBVWWxwTW4yVmNYXw?oc=5",
         "content": "Kenyan cult leader sentenced to 200 years in prison for mass starvation murders of children&nbsp;&nbsp;Reuters"
       },
@@ -186,7 +349,7 @@
         {
           "source_name": "Reuters",
           "headline": "Kenyan cult leader sentenced to 200 years in prison for mass starvation murders of children - Reuters",
-          "published_at": "Fri, 06 Nov 2026 16:33:55 GMT",
+          "published_at": "Fri, 06 Nov 2026 17:05:57 GMT",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOVFQN3ZZdXgwV0VlOWE3MF8zbXg0ZF9ZenNaZ3pVTl8xcHpuREFHUFpodWFmMXVzSmN3c29kRVViMDZhdkZ1QjB1WGdoR0tLZ09OaTRORzBOWmNQQUFUb2RvMnpVdjQ3eGlCcmJsSGxPNzFVM0N2bEJCZ3V5SVJ0OTRyZW9LbFVhVmRXeUV2a0Q0eFE4WVR1Vl81V1NoTWZ4THNYbklpbFc1RmxIZ043WTBVWWxwTW4yVmNYXw?oc=5"
         },
         {
@@ -218,293 +381,181 @@
       "total_count": 6,
       "combined_score": 4.89,
       "brief_bullets": [
-        "A Kenyan coastal court has sentenced doomsday cult leader Paul Mackenzie to 200 years in prison following the horrific mass starvation murders of 190 children and one adult. Mackenzie, who directed followers to starve themselves and their families to meet Jesus, was convicted across multiple counts of murder by starvation and direct homicide. This landmark ruling concludes one of the deadliest cult-related atrocities in modern history, underscoring severe systemic vulnerabilities in state oversight regarding radical religious organizations."
+        "Kenyan doomsday cult leader Paul Mackenzie has been sentenced to 200 years in prison following the horrific mass starvation murders of 190 children and one adult. Delivered by a Mombasa court, the ruling comprises dual century-long terms for starvation-induced and direct homicides tied to commands given to followers to fast to death. This verdict marks a critical legal milestone in one of modern history's deadliest sect disasters, exposing systemic vulnerabilities that allowed extremist groups to operate unchecked within vulnerable communities."
       ],
       "why_it_matters_bullets": [
-        "This unprecedented sentence establishes a vital legal precedent for prosecuting extreme religious extremism and protecting vulnerable populations from predatory cults."
+        "This landmark sentencing reinforces judicial accountability for extremist leaders while driving intense regulatory scrutiny over cult activities across East Africa."
       ],
-      "brief": "A Kenyan coastal court has sentenced doomsday cult leader Paul Mackenzie to 200 years in prison following the horrific mass starvation murders of 190 children and one adult. Mackenzie, who directed followers to starve themselves and their families to meet Jesus, was convicted across multiple counts of murder by starvation and direct homicide. This landmark ruling concludes one of the deadliest cult-related atrocities in modern history, underscoring severe systemic vulnerabilities in state oversight regarding radical religious organizations. This unprecedented sentence establishes a vital legal precedent for prosecuting extreme religious extremism and protecting vulnerable populations from predatory cults.",
+      "brief": "Kenyan doomsday cult leader Paul Mackenzie has been sentenced to 200 years in prison following the horrific mass starvation murders of 190 children and one adult. Delivered by a Mombasa court, the ruling comprises dual century-long terms for starvation-induced and direct homicides tied to commands given to followers to fast to death. This verdict marks a critical legal milestone in one of modern history's deadliest sect disasters, exposing systemic vulnerabilities that allowed extremist groups to operate unchecked within vulnerable communities. This landmark sentencing reinforces judicial accountability for extremist leaders while driving intense regulatory scrutiny over cult activities across East Africa.",
+      "brief_word_count": 100
+    },
+    {
+      "story_id": "story-526b3300e6d6",
+      "category": "Society",
+      "primary_headline": "Justice Department's Eisenberg resigns, AG Blanche says",
+      "primary_source": {
+        "source_name": "Reuters",
+        "headline": "Justice Department's Eisenberg resigns, AG Blanche says - Reuters",
+        "published_at": "Fri, 06 Nov 2026 16:28:44 GMT",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOTE4SEQtQXRsYVpYYXpLNXBmVnhrRGh4VEFnVTQyTDRYb0NCcXN0OVFVV2lrX0tvZHN5MU5SanlIbEFYR0dOLThPLUFnaUtQV3Vod0xPSTRCd25QczZ4ZmlMQnctUHI3eWZDZDBlS01wUUxsczE0VEdvRERrN0oxZ3BiVmxiZF9rQS1oSnNRb0J5dDZGdjlzREZPeHFRSDg?oc=5",
+        "content": "Justice Department's Eisenberg resigns, AG Blanche says&nbsp;&nbsp;Reuters"
+      },
+      "sources": [
+        {
+          "source_name": "Reuters",
+          "headline": "Justice Department's Eisenberg resigns, AG Blanche says - Reuters",
+          "published_at": "Fri, 06 Nov 2026 16:28:44 GMT",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOTE4SEQtQXRsYVpYYXpLNXBmVnhrRGh4VEFnVTQyTDRYb0NCcXN0OVFVV2lrX0tvZHN5MU5SanlIbEFYR0dOLThPLUFnaUtQV3Vod0xPSTRCd25QczZ4ZmlMQnctUHI3eWZDZDBlS01wUUxsczE0VEdvRERrN0oxZ3BiVmxiZF9rQS1oSnNRb0J5dDZGdjlzREZPeHFRSDg?oc=5"
+        },
+        {
+          "source_name": "Washington Post",
+          "headline": "Opponents ask judge to stop Trump from closing historic D.C. golf course - The Washington Post",
+          "published_at": "Fri, 06 Nov 2026 06:00:34 GMT",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYUNHZ0xMdlAxeFRrc3YyNWMyaEM2TUJyZ0RwOFNza0laOGwyXzNQOWtnQ3BURC1WZG5EclhsQUU0TUdod240dW9KX042TDZnZmxXZV9DaU01U1lOUkF0MG4xaHZtN3BLWnBaRnk0SmZaM0JfOFBPYmI2Z0lFSUFyNGhxVDllRGRUZlJ3REJwZG5vNDNFRDVaSVJmbzJoUHBmeUhLVWhjWk9zRG90bV9na0N3?oc=5"
+        },
+        {
+          "source_name": "CNN",
+          "headline": "Three Justice Department officials, including man behind Trump’s ‘grand conspiracy’ probe, resign since brutal midterm losses - CNN",
+          "published_at": "Fri, 06 Nov 2026 15:21:29 GMT",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSlowMUczYjZyV2d0VmhKQjhYaHdkZkY1MEwwQ3E2VVVtZ3Q2Uy1iVm1nSmZOeGVncmZ6amZiTGdmSEtvZ1ZUSkp3TGJKRzZDZnJUR216WktPT09Yakpqay1RZHg1WHF4TVBVejlZRkVlRVNQbmR2LXpnSTNjdUtWYXdJdl9tWC1FbWs3aE9wU2NaS3h4SDUyUk1nbW5QTmM?oc=5"
+        },
+        {
+          "source_name": "NPR",
+          "headline": "Judge halts construction of Trump's arch. And, Labor Department to release jobs report",
+          "published_at": "Fri, 06 Nov 2026 07:24:52 -0500",
+          "url": "https://www.npr.org/2026/11/06/g-s1-152213/up-first-newsletter-job-market-trump-arch-school-enrollment-harmeet-dhillon"
+        },
+        {
+          "source_name": "CNN",
+          "headline": "Judge halts Trump arch construction - CNN",
+          "published_at": "Fri, 06 Nov 2026 08:01:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZFNWNHNDNHRQT2VEcjFnQVZHNTV1bVFqTjdxSHJaVUFZdDBnWHYzdTJuejJISnAzTzc0YnVtcXNacHZ4bGg1ZlIzQU5XcDZCVHVVal9sUlV0Qm05WW51VnNSTVZxZEVSNXhGaTNiVUI1cFotREM0aE1tN1VGMldLTG5kT2dISms?oc=5"
+        }
+      ],
+      "source_count": 5,
+      "total_count": 7,
+      "combined_score": 4.6,
+      "brief_bullets": [
+        "Following brutal midterm election losses, Justice Department official Eisenberg has resigned alongside two other agency colleagues, marking significant high-level departures within federal law enforcement. This resignation wave directly impacts internal investigations, notably dismantling the team behind former President Donald Trump’s controversial grand conspiracy probe. Simultaneously, concurrent judicial actions have temporarily halted both construction on Trump's newly approved monumental arch and potential maneuvers to shutter a historic Washington, D.C. golf course, compounding a turbulent period for executive-level legal and administrative initiatives."
+      ],
+      "why_it_matters_bullets": [
+        "These high-level departures signal severe internal shifts within federal oversight amid mounting judicial challenges against executive projects."
+      ],
+      "brief": "Following brutal midterm election losses, Justice Department official Eisenberg has resigned alongside two other agency colleagues, marking significant high-level departures within federal law enforcement. This resignation wave directly impacts internal investigations, notably dismantling the team behind former President Donald Trump’s controversial grand conspiracy probe. Simultaneously, concurrent judicial actions have temporarily halted both construction on Trump's newly approved monumental arch and potential maneuvers to shutter a historic Washington, D.C. golf course, compounding a turbulent period for executive-level legal and administrative initiatives. These high-level departures signal severe internal shifts within federal oversight amid mounting judicial challenges against executive projects.",
       "brief_word_count": 97
     },
     {
-      "story_id": "story-7",
+      "story_id": "story-2dc3030b2703",
       "category": "Society",
-      "primary_headline": "Meghan Markle's estranged father arrested and charged with possessing child sexual abuse materials",
+      "primary_headline": "Trump meets with top Putin envoy at the White House — but not visiting Ukrainian officials",
       "primary_source": {
         "source_name": "AP News",
-        "headline": "Meghan Markle's estranged father arrested and charged with possessing child sexual abuse materials - AP News",
-        "published_at": "Fri, 06 Nov 2026 17:13:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNHpGTGhqcHRFbVlLRWRncDVhUFJnU25fSGFTclFBam5RNWpJSDBxanJTRkxGVmFaWjU3WFRXaHJQaldNU2ZURXBuRzRXLUhYUmdrR083a3FaaTJEdG84QUVFMzdxNVJ5NmVuYkstV1AwVVg2YmREMzAwRFEzYmlLODhzbGUwZHpTV2YwVzdNekFGZjk1MnEyMXhCTDFaVjg?oc=5",
-        "content": "Meghan Markle's estranged father arrested and charged with possessing child sexual abuse materials&nbsp;&nbsp;AP News"
+        "headline": "Trump meets with top Putin envoy at the White House — but not visiting Ukrainian officials - AP News",
+        "published_at": "Thu, 05 Nov 2026 23:35:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSjNMN3IzWmgzdHJtQzktSjczNDY4QmFyWF9rT21VTnlON0ZCNHpOOXc4b290WDdndUpGR3BGY0pyQndnN3dwdENPM3ZWb3B4UUx4aVE2ZWhjcGtHV1d1clUwNXJsd243QnpJUmh1UHlCV2d6RURIQzdXNGlNMmxSMldaZUpqR1hEcDhBZ014dWhHUHBIUE40U09TUElSNk1oWE05VjhYLUViZzRUVl83bw?oc=5",
+        "content": "Trump meets with top Putin envoy at the White House — but not visiting Ukrainian officials&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
           "source_name": "AP News",
-          "headline": "Meghan Markle's estranged father arrested and charged with possessing child sexual abuse materials - AP News",
-          "published_at": "Fri, 06 Nov 2026 17:13:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNHpGTGhqcHRFbVlLRWRncDVhUFJnU25fSGFTclFBam5RNWpJSDBxanJTRkxGVmFaWjU3WFRXaHJQaldNU2ZURXBuRzRXLUhYUmdrR083a3FaaTJEdG84QUVFMzdxNVJ5NmVuYkstV1AwVVg2YmREMzAwRFEzYmlLODhzbGUwZHpTV2YwVzdNekFGZjk1MnEyMXhCTDFaVjg?oc=5"
+          "headline": "Trump meets with top Putin envoy at the White House — but not visiting Ukrainian officials - AP News",
+          "published_at": "Thu, 05 Nov 2026 23:35:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSjNMN3IzWmgzdHJtQzktSjczNDY4QmFyWF9rT21VTnlON0ZCNHpOOXc4b290WDdndUpGR3BGY0pyQndnN3dwdENPM3ZWb3B4UUx4aVE2ZWhjcGtHV1d1clUwNXJsd243QnpJUmh1UHlCV2d6RURIQzdXNGlNMmxSMldaZUpqR1hEcDhBZ014dWhHUHBIUE40U09TUElSNk1oWE05VjhYLUViZzRUVl83bw?oc=5"
         },
         {
-          "source_name": "Reuters",
-          "headline": "Thomas Markle, father of Meghan, arrested for child pornography possession - Reuters",
-          "published_at": "Fri, 06 Nov 2026 16:59:33 GMT",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQX3ZsOHM5bmJFSVZCX3dsS3g1cUIxWEE5SHprTWZubEpyNW1xajlvdnBYZnpvZGlqVnhBRF96NFBKZEhDTXpTNVE0VzVLbGd0dVVFcmVCeUxQenRvdlpEUTA3Q2hYZ2EwcmJRdkppV1JUcE1OQU5vLTU4MFdDNzJyTVFyOHYzZ3BUU05iQVJscG12UzByNDN0WHlKb2Q?oc=5"
-        },
-        {
-          "source_name": "The Guardian",
-          "headline": "Thomas Markle, Meghan’s father, arrested in Florida on charges related to child sexual abuse material",
-          "published_at": "Fri, 06 Nov 2026 17:20:25 GMT",
-          "url": "https://www.theguardian.com/uk-news/2026/nov/06/thomas-markle-arrested"
+          "source_name": "Washington Post",
+          "headline": "White House said Starlink donated its service, but tax dollars are funding it - The Washington Post",
+          "published_at": "Fri, 06 Nov 2026 18:31:52 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNUdMbVVxYVNKOUp1LTJfcURWcUtFeDNCYWtnMS1yZ2FBRU5kcnhqaTlfTzNTMDRwQ0pWVTY0VlFTcmRUQ2g5ZUtWZk8yR3FseFM2MUFuSDNoNUhPejdVVjhnUElEaUFOVFJRMEk5TjR5X0NMYkhweU52dEJOR0ZEMzJmbDJjYllDcGkzUllOU2l6RUxMbE1nWlVJdFZfTW5QWWNUczZ1cFNFMWFRbUM5bXA3b3VSTDUwRHZLQjB6NEJGSC1IeDhVOWdB?oc=5"
         },
         {
           "source_name": "NDTV",
-          "headline": "Meghan Markle's Father Arrested Over Child Sexual Abuse Material",
-          "published_at": "Fri, 06 Nov 2026 21:59:53 +0530",
-          "url": "https://www.ndtv.com/world-news/meghan-markles-father-thomas-markle-sr-arrested-over-child-sexual-abuse-material-12294334#publisher=newsstand"
+          "headline": "Man Arrested For Making 'Finger Gun' Gesture Near White House",
+          "published_at": "Fri, 06 Nov 2026 18:38:45 +0530",
+          "url": "https://www.ndtv.com/world-news/man-arrested-for-making-finger-gun-gesture-near-white-house-12293355#publisher=newsstand"
         },
         {
-          "source_name": "The Indian Express",
-          "headline": "Thomas Markle arrested: Meghan Markle’s father held over child sexual abuse material",
-          "published_at": "Fri, 06 Nov 2026 15:43:00 +0000",
-          "url": "https://indianexpress.com/article/world/thomas-markle-arrested-florida-child-sexual-abuse-material-meghan-markle-father-10953858/"
-        }
-      ],
-      "source_count": 6,
-      "total_count": 6,
-      "combined_score": 4.8,
-      "brief_bullets": [
-        "AP News Thomas Markle, father of Meghan, arrested for child pornography possession Father of the Duchess of Sussex was taken into custody near Tampa, US prosecutors saidThomas Markle, the father of Meghan, the Duchess of Sussex, was arrested by US federal agents in Florida on Friday and charged in connection with possession of child sexual abuse material, according to federal law enforcement.",
-        "Markle, 82, was taken into custody at a nursing home near Tampa early on Friday, and was expected to appear in court in Tampa in the early afternoon, the US justice department said in a statement.",
-        "In the US, call or text the Childhelp abuse hotline on 800-422-4453 or visit their website for more resources and to report child abuse or DM for help."
-      ],
-      "why_it_matters_bullets": [
-        "Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols."
-      ],
-      "brief": "AP News Thomas Markle, father of Meghan, arrested for child pornography possession Father of the Duchess of Sussex was taken into custody near Tampa, US prosecutors saidThomas Markle, the father of Meghan, the Duchess of Sussex, was arrested by US federal agents in Florida on Friday and charged in connection with possession of child sexual abuse material, according to federal law enforcement. Markle, 82, was taken into custody at a nursing home near Tampa early on Friday, and was expected to appear in court in Tampa in the early afternoon, the US justice department said in a statement. In the US, call or text the Childhelp abuse hotline on 800-422-4453 or visit their website for more resources and to report child abuse or DM for help. Triggers heightened municipal security deployments and intensifies scrutiny over public safety and emergency protocols.",
-      "brief_word_count": 140
-    },
-    {
-      "story_id": "story-8",
-      "category": "Society",
-      "primary_headline": "Production of Tesla's Cybertruck will wind down soon with allure escaping most potential buyers",
-      "primary_source": {
-        "source_name": "AP News",
-        "headline": "Production of Tesla's Cybertruck will wind down soon with allure escaping most potential buyers - AP News",
-        "published_at": "Fri, 06 Nov 2026 14:50:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYkdNclU1NURkXzBzcmRNRDZKSDdGaDZTdC1aSThJc09TM2pPcEJTZktIQllOV1ZrX0N6QXk4eEhHR0prbE03QlJjS28wMWp2VVYzMVhUeTlKYzBuRWtiazFEaThCNUhLNUQzUG9rb0xPaEQ1bF9KcFo4dzQ0a2FxSWNEM2JYWEkwQTRLQ2ZCSkk3c2luaWhqUERaZUhkLUVsdFpaQlFR?oc=5",
-        "content": "Production of Tesla's Cybertruck will wind down soon with allure escaping most potential buyers&nbsp;&nbsp;AP News"
-      },
-      "sources": [
-        {
-          "source_name": "AP News",
-          "headline": "Production of Tesla's Cybertruck will wind down soon with allure escaping most potential buyers - AP News",
-          "published_at": "Fri, 06 Nov 2026 14:50:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYkdNclU1NURkXzBzcmRNRDZKSDdGaDZTdC1aSThJc09TM2pPcEJTZktIQllOV1ZrX0N6QXk4eEhHR0prbE03QlJjS28wMWp2VVYzMVhUeTlKYzBuRWtiazFEaThCNUhLNUQzUG9rb0xPaEQ1bF9KcFo4dzQ0a2FxSWNEM2JYWEkwQTRLQ2ZCSkk3c2luaWhqUERaZUhkLUVsdFpaQlFR?oc=5"
-        },
-        {
-          "source_name": "Reuters",
-          "headline": "Tesla to pull the plug on Cybertruck after years of poor sales - Reuters",
-          "published_at": "Fri, 06 Nov 2026 07:04:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWnlMcV9XTE94RnhqbWNmQ1B5Y01Gd0tReURLRG5nc1VOVlBQR1RwazRSdXF0azlhbS1nTmJ5M0MxZUxMMUQxM1pxRHVjN1VVQWM5OGtOOGdWU1Fwa0llb0hxTXVHX05rV3JoRTR3eWwtTkNseGQ2eW5hcTcxUmQ5YnRYUVNwaGdwaDlhelZ5dmJoOVZhaGU1N1Fkb1RTUDFMY1lCUzlMcG9SYUNDcUlMeHBBYXBWQmM2QUloLWh5QkNuOGRvMTRVSml0dmxEN2lqaU1va09iQ0o?oc=5"
-        },
-        {
-          "source_name": "BBC News",
-          "headline": "Watch: Is it the end of the road for Tesla's Cybertruck?",
-          "published_at": "Fri, 06 Nov 2026 15:02:03 GMT",
-          "url": "https://www.bbc.co.uk/news/videos/cv8ezz9ll7nyo?at_medium=RSS&at_campaign=rss"
+          "source_name": "NPR",
+          "headline": "Past White House adviser Raj Panjabi has written a playbook for 'living room' crises",
+          "published_at": "Fri, 06 Nov 2026 06:57:32 -0500",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6021013/white-house-adviser-raj-panjabi-safer-playbook"
         },
         {
           "source_name": "CNN",
-          "headline": "Tesla set to wind down production of Cybertruck - CNN",
-          "published_at": "Fri, 06 Nov 2026 14:24:03 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbWtnUlF4Z3VoWFhsY3ZDZmNmQi1IUHIyMTBwZFZZZVN2Mkl2dmtaZ1g3NGV3c0VGRlJkc2F2VjJaWFRrVHVFVXR1NXJ0Q0JjSHQ2Q3lVNkFvNFpaSk5pMXhBUm1TVlN2MS1QX0tZWHFjUEVwVUlZMXpteFhBVUxkV3pfSTBtdHBNenJr?oc=5"
-        },
-        {
-          "source_name": "The Guardian",
-          "headline": "Tesla to wind down Cybertruck production as Elon Musk focuses on robotics and AI",
-          "published_at": "Fri, 06 Nov 2026 12:38:05 GMT",
-          "url": "https://www.theguardian.com/technology/2026/nov/06/tesla-to-wind-down-cybertruck-production-as-elon-musk-focuses-on-robotics-and-ai"
-        }
-      ],
-      "source_count": 6,
-      "total_count": 6,
-      "combined_score": 4.8,
-      "brief_bullets": [
-        "Tesla CEO Elon Musk announced that production of the polarizing Cybertruck will wind down at the company's Austin facility by the middle of next year, concluding a commercially disappointing run plagued by quality issues, recalls, and sluggish sales. Launched in 2023 to capture a share of the lucrative American pickup market, the stainless-steel vehicle drew starkly mixed reviews ranging from praised individuality to widespread criticism over its design and utility. Tesla will retool the Texas factory to prioritize manufacturing the newly prioritized Cybercab autonomous taxi, signaling a strategic pivot away from consumer trucks toward pure autonomous mobility systems."
-      ],
-      "why_it_matters_bullets": [
-        "Tesla's pivot from the Cybertruck to autonomous taxis marks a high-stakes strategic bet on future robotaxis over traditional consumer vehicles."
-      ],
-      "brief": "Tesla CEO Elon Musk announced that production of the polarizing Cybertruck will wind down at the company's Austin facility by the middle of next year, concluding a commercially disappointing run plagued by quality issues, recalls, and sluggish sales. Launched in 2023 to capture a share of the lucrative American pickup market, the stainless-steel vehicle drew starkly mixed reviews ranging from praised individuality to widespread criticism over its design and utility. Tesla will retool the Texas factory to prioritize manufacturing the newly prioritized Cybercab autonomous taxi, signaling a strategic pivot away from consumer trucks toward pure autonomous mobility systems. Tesla's pivot from the Cybertruck to autonomous taxis marks a high-stakes strategic bet on future robotaxis over traditional consumer vehicles.",
-      "brief_word_count": 118
-    },
-    {
-      "story_id": "story-13",
-      "category": "Society",
-      "primary_headline": "Lab tests show ethanol blend in E20 petrol as high as 31% in Karnataka",
-      "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Lab tests show ethanol blend in E20 petrol as high as 31% in Karnataka",
-        "published_at": "Fri, 06 Nov 2026 22:18:41 +0530",
-        "url": "https://www.thehindu.com/news/national/karnataka/lab-tests-show-ethanol-blend-in-petrol-is-as-high-as-31-higher-than-20-e20-petrol-in-karnataka-government/article71673683.ece",
-        "content": "Minister for Food, Civil Supplies and Consumer Affairs of Karnataka demands penalising OMCs, an E20 spoilage fund to compensate consumers"
-      },
-      "sources": [
-        {
-          "source_name": "The Hindu",
-          "headline": "Lab tests show ethanol blend in E20 petrol as high as 31% in Karnataka",
-          "published_at": "Fri, 06 Nov 2026 22:18:41 +0530",
-          "url": "https://www.thehindu.com/news/national/karnataka/lab-tests-show-ethanol-blend-in-petrol-is-as-high-as-31-higher-than-20-e20-petrol-in-karnataka-government/article71673683.ece"
-        },
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Up to 31.2% ethanol in petrol: Karnataka govt alleges oil companies sell blends exceeding prescribed limits",
-          "published_at": "Fri, 06 Nov 2026 14:55:43 +0000",
-          "url": "https://www.deccanherald.com/india/up-to-312-ethanol-in-petrol-karnataka-govt-alleges-oil-companies-sell-blends-exceeding-prescribed-limits-4210256"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "'E20 Actually Has Over 30% Ethanol': Karnataka Minister Cites Petrol Tests, Demands Consumer Relief Fund",
-          "published_at": "Fri, 06 Nov 2026 17:40:00 +0530",
-          "url": "https://www.ndtv.com/india-news/e20-actually-has-over-30-ethanol-karnataka-minister-cites-petrol-tests-demands-relief-fund-for-consumers-12292948#publisher=newsstand"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "30% ethanol blend in petrol? Karnataka accuses Central oil firms of exceeding limit",
-          "published_at": "Fri, 06 Nov 2026 10:57:46 +0000",
-          "url": "https://indianexpress.com/article/cities/bangalore/20-ethanol-allowed-31-2-found-karnataka-flags-petrol-sold-by-oil-majors-10953529/"
-        },
-        {
-          "source_name": "The Print",
-          "headline": "Karnataka CM seeks public disclosure of ethanol content in petrol - ThePrint",
-          "published_at": "Fri, 06 Nov 2026 16:47:29 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcVhFeXEwLTBpUzBEQzBHTHlJakZjZkVZTExiVndTd3B1TlVuYklSOExFUUg4VkM3WDFZME5uU1c0akxwWmp0alJEbEZmME5idFYzQzRZM3RfRVJTb1lJRnVXN1RrWWg4Sm1aRTRJT1BvZXpRVHRBMHI0VWdkRFl2UTBtZzRBUFJEYW4taEw3X1ZzVm9YbFhVUGNSVEZsbXZwWFHSAacBQVVfeXFMUHlRcnd4aFM1b0stRTl0b2RWeGdMbURHQjRkdUE1ZGRSdVJKN3Z0S2NCbjV4eC1iSjZoMVl0QmlnUGxMb1hyUUFSZkdOYlRyTzBYcW9yTDV4SU03UTF1RDk4NzdpTEtJVURsSDBZUkM5Ml9UV2FWZ0xCMmgxV1Q4MV8ySDlLb1lrQnZBNnJEZk5BQ1BndllRRW1GVF9fRWtDbnJTMU1PSjg?oc=5"
+          "headline": "Sources: White House aides met to discuss path forward after losing Congress - CNN",
+          "published_at": "Fri, 06 Nov 2026 01:10:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNczR1SGFMRFo5OVI5bG5JS3pXWHN2b1hWa0Z6N1NleVJzR1E4WElCWVBkRElIYXVCZHJmOWpoeWktNnNWQ0lOaFlTbkpWWEJ2ZHZ2aDZhWFhBWGFnUDJLMEJEVXR6TFZaTzZJN3FfNmU4dmJCSmVoRFNlQVNMN2xuTUZuVHVmaFlfc1FBWEtad3NUeGVqY2wyRVZSVHRUVTQ1QTgtY1pGeW5seWVscmZPS0p1QUFYQUFRcFE?oc=5"
         }
       ],
       "source_count": 5,
       "total_count": 5,
-      "combined_score": 4.03,
+      "combined_score": 4.06,
       "brief_bullets": [
-        "Karnataka Food and Civil Supplies Minister Rizwan Arshad announced that accredited laboratory tests revealed major oil marketing companies supplied petrol with ethanol levels reaching up to 31.2 percent, significantly exceeding the mandated 20 percent cap. The state government highlighted that these excessive ethanol concentrations threaten millions of non-compliant vehicles built before 2023, potentially causing severe engine damage and eroding consumer warranties. Officials have formally demanded strict penalties against state-run and private fuel distributors, alongside the establishment of a dedicated spoilage compensation fund. This revelation intensifies nationwide debates regarding the aggressive national rollout of biofuel mandates and vehicle compatibility risks."
+        "President Trump recently hosted a high-level Russian envoy at the White House for diplomatic discussions, a move that notably coincided with the absence of meetings involving visiting Ukrainian officials. While the administration continues to navigate complex geopolitical tensions, this engagement highlights a shift in diplomatic priorities and communication channels between Washington and Moscow. Simultaneously, the White House is managing internal strategic planning following recent legislative losses, while addressing unrelated security incidents near the executive complex. These developments underscore a period of intense diplomatic maneuvering and domestic political recalibration as the administration seeks to define its foreign policy trajectory amidst ongoing international conflicts and shifting congressional dynamics."
       ],
       "why_it_matters_bullets": [
-        "It exposes critical regulatory vulnerabilities in India's green fuel transition, risking massive consumer liabilities and engine damage."
+        "Prioritizing Russian engagement over Ukrainian outreach signals a potential realignment in U.S. foreign policy and regional security commitments."
       ],
-      "brief": "Karnataka Food and Civil Supplies Minister Rizwan Arshad announced that accredited laboratory tests revealed major oil marketing companies supplied petrol with ethanol levels reaching up to 31.2 percent, significantly exceeding the mandated 20 percent cap. The state government highlighted that these excessive ethanol concentrations threaten millions of non-compliant vehicles built before 2023, potentially causing severe engine damage and eroding consumer warranties. Officials have formally demanded strict penalties against state-run and private fuel distributors, alongside the establishment of a dedicated spoilage compensation fund. This revelation intensifies nationwide debates regarding the aggressive national rollout of biofuel mandates and vehicle compatibility risks. It exposes critical regulatory vulnerabilities in India's green fuel transition, risking massive consumer liabilities and engine damage.",
-      "brief_word_count": 116
+      "brief": "President Trump recently hosted a high-level Russian envoy at the White House for diplomatic discussions, a move that notably coincided with the absence of meetings involving visiting Ukrainian officials. While the administration continues to navigate complex geopolitical tensions, this engagement highlights a shift in diplomatic priorities and communication channels between Washington and Moscow. Simultaneously, the White House is managing internal strategic planning following recent legislative losses, while addressing unrelated security incidents near the executive complex. These developments underscore a period of intense diplomatic maneuvering and domestic political recalibration as the administration seeks to define its foreign policy trajectory amidst ongoing international conflicts and shifting congressional dynamics. Prioritizing Russian engagement over Ukrainian outreach signals a potential realignment in U.S. foreign policy and regional security commitments.",
+      "brief_word_count": 124
     },
     {
-      "story_id": "story-15",
+      "story_id": "story-8171052448c0",
       "category": "Society",
-      "primary_headline": "Democratic socialist Raman elected Los Angeles mayor in upset over Bass",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Democratic socialist Raman elected Los Angeles mayor in upset over Bass - Reuters",
-        "published_at": "Fri, 06 Nov 2026 00:59:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPN1FYSU5lQ0J4elBSU09famI2eVBuZ1JQVGFyY1pXMnBfOGJLRC1OdjllUnBaam1rZDF1R0N3VE9BaWtpWDN6LVRSLS1YMDFKRGZaS2ZLY3F5eHI4WUJyb0ktU2tZdkF5NDVzSXZWTm5TLXBkUWF1LXRWMGRSZU9mRi1XZkFqbnEwM0JSSGdmcTg3NU1iVXFrMFJ1TnV1Rjd2VXJXRDlfZFlreFhZNk9J?oc=5",
-        "content": "Democratic socialist Raman elected Los Angeles mayor in upset over Bass&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "Democratic socialist Raman elected Los Angeles mayor in upset over Bass - Reuters",
-          "published_at": "Fri, 06 Nov 2026 00:59:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPN1FYSU5lQ0J4elBSU09famI2eVBuZ1JQVGFyY1pXMnBfOGJLRC1OdjllUnBaam1rZDF1R0N3VE9BaWtpWDN6LVRSLS1YMDFKRGZaS2ZLY3F5eHI4WUJyb0ktU2tZdkF5NDVzSXZWTm5TLXBkUWF1LXRWMGRSZU9mRi1XZkFqbnEwM0JSSGdmcTg3NU1iVXFrMFJ1TnV1Rjd2VXJXRDlfZFlreFhZNk9J?oc=5"
-        },
-        {
-          "source_name": "AP News",
-          "headline": "Democratic socialist Nithya Raman ousts embattled Los Angeles Mayor Karen Bass - AP News",
-          "published_at": "Thu, 05 Nov 2026 22:55:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYjhIMWFLekdpYW92dVlfVkVsU0RuMUVLVURERkh2eVhqdDBPSEowZVN4VTNfeGJzNjFZenNTQTdPY09veHJILVYybk9fRFlPMmZrbk9YVWF0RGM0YkxBVnAycHFPMFZMc3JHaU5ReGhQNU9MNTlkWXN1OG44V3FJRllKdVZBeEhEMmFVdWwyZDVVQ1pa?oc=5"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "Nithya Raman's Journey From Kerala To Los Angeles Mayor Via Delhi Slums",
-          "published_at": "Fri, 06 Nov 2026 12:40:07 +0530",
-          "url": "https://www.ndtv.com/world-news/nithya-raman-us-midterms-results-2026-from-kerala-to-delhi-to-los-angeles-mayor-her-india-connection-explained-12291070#publisher=newsstand"
-        },
-        {
-          "source_name": "The Guardian",
-          "headline": "Who is Nithya Raman, the democratic socialist who will be Los Angeles’s next mayor?",
-          "published_at": "Thu, 05 Nov 2026 19:50:38 GMT",
-          "url": "https://www.theguardian.com/us-news/2026/nov/05/who-is-nithya-raman-los-angeles-mayor"
-        },
-        {
-          "source_name": "CNN",
-          "headline": "Democratic socialist Nithya Raman will defeat Karen Bass in LA mayor’s race, CNN projects - CNN",
-          "published_at": "Thu, 05 Nov 2026 17:59:03 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPa05BZUdCNXQ2Um1BNEhQdjhNUEpSYkZGcnZMTHp2ZC1Xc0plVVJkZUp3N2J0VDZhb1VHV0YwSDJOZFctay0tSHFZbk9rTjJfQVJzMUsza2ZlUUdHWkxUR21uU2hac1Y1MHJqYUJkRVBaLWcyVkkwRFZLMVkyYWM5S1VvZXY5UG1Q?oc=5"
-        }
-      ],
-      "source_count": 5,
-      "total_count": 5,
-      "combined_score": 4.0,
-      "brief_bullets": [
-        "Democratic socialist and urban planner Nithya Raman narrowly unseated incumbent Karen Bass in a major political upset to become the mayor of Los Angeles, securing 52.70% of the vote. Backed by the Democratic Socialists of America and Hollywood progressives, Raman's victory in the nation's second-largest city marks a historic milestone for the movement. With this win, America's two largest cities and its capital are now led by democratic socialist mayors, signaling a profound shift in urban American politics."
-      ],
-      "why_it_matters_bullets": [
-        "This unprecedented sweep by democratic socialists across major US cities accelerates the leftward realignment of national municipal leadership."
-      ],
-      "brief": "Democratic socialist and urban planner Nithya Raman narrowly unseated incumbent Karen Bass in a major political upset to become the mayor of Los Angeles, securing 52.70% of the vote. Backed by the Democratic Socialists of America and Hollywood progressives, Raman's victory in the nation's second-largest city marks a historic milestone for the movement. With this win, America's two largest cities and its capital are now led by democratic socialist mayors, signaling a profound shift in urban American politics. This unprecedented sweep by democratic socialists across major US cities accelerates the leftward realignment of national municipal leadership.",
-      "brief_word_count": 96
-    },
-    {
-      "story_id": "story-9",
-      "category": "Society",
-      "primary_headline": "Telangana Fire Services issues 7,601 firecracker licences ahead of Diwali",
+      "primary_headline": "Delhi’s Mustafabad election official lodges police complaint seeking FIR over false Form 7s after report",
       "primary_source": {
         "source_name": "The Hindu",
-        "headline": "Telangana Fire Services issues 7,601 firecracker licences ahead of Diwali",
-        "published_at": "Fri, 06 Nov 2026 22:34:38 +0530",
-        "url": "https://www.thehindu.com/news/national/telangana/telangana-fire-services-issues-7601-firecracker-licences-ahead-of-diwali/article71675054.ece",
-        "content": ""
+        "headline": "Delhi’s Mustafabad election official lodges police complaint seeking FIR over false Form 7s after report",
+        "published_at": "Fri, 06 Nov 2026 23:12:02 +0530",
+        "url": "https://www.thehindu.com/news/cities/Delhi/delhis-mustafabad-election-official-lodges-police-complaint-seeking-fir-over-false-form-7s-after-the-hindu-report/article71675514.ece",
+        "content": "Delhi’s north east District Election Officer (DEO) Ajay Kumar told The Hindu that they have verified the news report independently and found 36 of the 37 Form 7s to be false/fabricated"
       },
       "sources": [
         {
           "source_name": "The Hindu",
-          "headline": "Telangana Fire Services issues 7,601 firecracker licences ahead of Diwali",
-          "published_at": "Fri, 06 Nov 2026 22:34:38 +0530",
-          "url": "https://www.thehindu.com/news/national/telangana/telangana-fire-services-issues-7601-firecracker-licences-ahead-of-diwali/article71675054.ece"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "Delhi Metro Services On 3 Lines To Start Early On Diwali, Last Train At 10 pm",
-          "published_at": "Fri, 06 Nov 2026 17:04:18 +0530",
-          "url": "https://www.ndtv.com/india-news/delhi-metro-services-on-3-lines-to-start-early-on-diwali-last-train-at-10-pm-12292763#publisher=newsstand"
+          "headline": "Delhi’s Mustafabad election official lodges police complaint seeking FIR over false Form 7s after report",
+          "published_at": "Fri, 06 Nov 2026 23:12:02 +0530",
+          "url": "https://www.thehindu.com/news/cities/Delhi/delhis-mustafabad-election-official-lodges-police-complaint-seeking-fir-over-false-form-7s-after-the-hindu-report/article71675514.ece"
         },
         {
           "source_name": "The Indian Express",
-          "headline": "Delhi Metro timings on Diwali: Last train at 10 PM, services to start at 6 AM on 3 lines",
-          "published_at": "Fri, 06 Nov 2026 10:31:27 +0000",
-          "url": "https://indianexpress.com/article/cities/delhi/delhi-metro-revises-timings-on-diwali-last-train-at-10-pm-services-to-start-at-6-am-on-3-lines-10953474/"
+          "headline": "15,000 kg of illegal firecrackers seized in Capital, over 70 FIRs across Delhi-NCR",
+          "published_at": "Fri, 06 Nov 2026 16:51:10 +0000",
+          "url": "https://indianexpress.com/article/cities/delhi/delhi-illegal-firecrackers-seizure-15000-kg-70-firs-10953879/"
         },
         {
           "source_name": "NDTV",
-          "headline": "US Envoy Sergio Gor Shares Glimpse Of Diwali Celebrations At Embassy In New Delhi",
-          "published_at": "Fri, 06 Nov 2026 15:41:43 +0530",
-          "url": "https://www.ndtv.com/offbeat/us-envoy-sergio-gor-shares-glimpse-of-diwali-celebrations-at-embassy-in-new-delhi-12292389#publisher=newsstand"
+          "headline": "Stricter Pollution Curbs Under GRAP-III Imposed In Delhi-NCR Ahead Of Diwali",
+          "published_at": "Fri, 06 Nov 2026 18:22:09 +0530",
+          "url": "https://www.ndtv.com/india-news/delhi-grap-3-stricter-pollution-curbs-under-grap-iii-imposed-in-delhi-ncr-ahead-of-diwali-12292778#publisher=newsstand"
         },
         {
           "source_name": "The Indian Express",
-          "headline": "Dilwali Diwali movie review: Manoj Pahwa’s Delhi drama is sweet, forgettable",
-          "published_at": "Fri, 06 Nov 2026 09:16:31 +0000",
-          "url": "https://indianexpress.com/article/entertainment/movie-review/diwali-diwali-movie-review-manoj-pahwas-delhi-drama-is-sweet-forgettable-10953365/"
+          "headline": "Ahead of Diwali, Pune sees 16% drop in new vehicle registrations, EVs rise 62%",
+          "published_at": "Fri, 06 Nov 2026 12:50:35 +0000",
+          "url": "https://indianexpress.com/article/cities/pune/ahead-of-diwali-pune-sees-16-drop-in-new-vehicle-registrations-evs-rise-62-10953482/"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Classes In Hybrid Mode, Restrictions On Cars: What Changes Under GRAP-III",
+          "published_at": "Fri, 06 Nov 2026 17:28:41 +0530",
+          "url": "https://www.ndtv.com/india-news/classes-in-hybrid-mode-restrictions-on-cars-what-changes-under-grap-iii-as-delhi-air-quality-worsens-12292922#publisher=newsstand"
         }
       ],
       "source_count": 4,
-      "total_count": 8,
-      "combined_score": 4.43,
+      "total_count": 15,
+      "combined_score": 6.53,
       "brief_bullets": [
-        "Ahead of Diwali celebrations, Telangana Fire Services has officially issued 7,601 temporary firecracker licenses across the region to regulate safety compliance. Concurrently, public transit adjustments have been enacted, notably altering metro operations to accommodate holiday schedules and ensure passenger safety during peak festivities. These coordinated administrative measures reflect regional efforts to balance cultural celebrations with strict public safety protocols and infrastructure management. The initiative underscores local authorities' proactive stance in mitigating seasonal fire hazards and crowd control challenges during major nationwide holidays."
+        "Delhi's North East District Election Officer Ajay Kumar lodged a police complaint seeking an FIR after an independent verification confirmed that 36 out of 37 Form 7 applications in Mustafabad were fabricated. The electoral integrity breach emerged alongside broader regional developments, including the Commission for Air Quality Management enforcing Stage-III restrictions across the National Capital Region following a surge in the average Air Quality Index to 382. These concurrent administrative interventions highlight tightening regulatory oversight across electoral and environmental domains in the capital."
       ],
       "why_it_matters_bullets": [
-        "Proactive safety licensing and transit adjustments mitigate holiday risks, ensuring public security during major nationwide celebrations."
+        "Protecting electoral registries from fraudulent manipulation preserves democratic legitimacy and institutional trust."
       ],
-      "brief": "Ahead of Diwali celebrations, Telangana Fire Services has officially issued 7,601 temporary firecracker licenses across the region to regulate safety compliance. Concurrently, public transit adjustments have been enacted, notably altering metro operations to accommodate holiday schedules and ensure passenger safety during peak festivities. These coordinated administrative measures reflect regional efforts to balance cultural celebrations with strict public safety protocols and infrastructure management. The initiative underscores local authorities' proactive stance in mitigating seasonal fire hazards and crowd control challenges during major nationwide holidays. Proactive safety licensing and transit adjustments mitigate holiday risks, ensuring public security during major nationwide celebrations.",
-      "brief_word_count": 98
+      "brief": "Delhi's North East District Election Officer Ajay Kumar lodged a police complaint seeking an FIR after an independent verification confirmed that 36 out of 37 Form 7 applications in Mustafabad were fabricated. The electoral integrity breach emerged alongside broader regional developments, including the Commission for Air Quality Management enforcing Stage-III restrictions across the National Capital Region following a surge in the average Air Quality Index to 382. These concurrent administrative interventions highlight tightening regulatory oversight across electoral and environmental domains in the capital. Protecting electoral registries from fraudulent manipulation preserves democratic legitimacy and institutional trust.",
+      "brief_word_count": 95
     },
     {
-      "story_id": "story-10",
+      "story_id": "story-bded559951ee",
       "category": "Society",
       "primary_headline": "CBI books Future Retail, Kishore Biyani, others in ₹904 crore bank fraud case; searches conducted in Mumbai",
       "primary_source": {
@@ -550,126 +601,71 @@
       "total_count": 8,
       "combined_score": 4.4,
       "brief_bullets": [
-        "The Central Bureau of Investigation has registered a case against Future Retail and promoter Kishore Biyani over a 904 crore rupee bank fraud following a complaint by the State Bank of India. Investigators allege the defendants entered a criminal conspiracy to misappropriate credit facilities from a nine-bank consortium by illicitly transferring borrowed funds to related corporate entities. Consequently, enforcement authorities conducted coordinated searches across Mumbai premises, including a hospital-cum-de-addiction facility, while moving swiftly to secure judicial custody and remand for the key individuals involved."
+        "The Central Bureau of Investigation has registered a criminal case against Future Retail and promoter Kishore Biyani over an alleged nine hundred four crore rupee bank fraud originating from a State Bank of India complaint. Authorities allege the firm conspired with a nine-bank consortium, misusing credit facilities and illicitly transferring borrowed funds to related corporate entities. Following these disclosures, investigative teams executed synchronized searches across Mumbai, targeting premises linked to key associates like Amandeep Kaur Arora, as law enforcement agencies actively pursue judicial remand to accelerate the ongoing financial fraud probe."
       ],
       "why_it_matters_bullets": [
-        "This case intensifies institutional scrutiny over corporate debt defaults and bank fraud within India's retail sector."
+        "This high-profile crackdown intensifies scrutiny on corporate governance and debt default accountability across Indian retail sectors."
       ],
-      "brief": "The Central Bureau of Investigation has registered a case against Future Retail and promoter Kishore Biyani over a 904 crore rupee bank fraud following a complaint by the State Bank of India. Investigators allege the defendants entered a criminal conspiracy to misappropriate credit facilities from a nine-bank consortium by illicitly transferring borrowed funds to related corporate entities. Consequently, enforcement authorities conducted coordinated searches across Mumbai premises, including a hospital-cum-de-addiction facility, while moving swiftly to secure judicial custody and remand for the key individuals involved. This case intensifies institutional scrutiny over corporate debt defaults and bank fraud within India's retail sector.",
-      "brief_word_count": 100
+      "brief": "The Central Bureau of Investigation has registered a criminal case against Future Retail and promoter Kishore Biyani over an alleged nine hundred four crore rupee bank fraud originating from a State Bank of India complaint. Authorities allege the firm conspired with a nine-bank consortium, misusing credit facilities and illicitly transferring borrowed funds to related corporate entities. Following these disclosures, investigative teams executed synchronized searches across Mumbai, targeting premises linked to key associates like Amandeep Kaur Arora, as law enforcement agencies actively pursue judicial remand to accelerate the ongoing financial fraud probe. This high-profile crackdown intensifies scrutiny on corporate governance and debt default accountability across Indian retail sectors.",
+      "brief_word_count": 107
     },
     {
-      "story_id": "story-11",
+      "story_id": "story-b22198fdfd2a",
       "category": "Society",
-      "primary_headline": "15,000 kg of illegal firecrackers seized in Capital, over 70 FIRs across Delhi-NCR",
-      "primary_source": {
-        "source_name": "The Indian Express",
-        "headline": "15,000 kg of illegal firecrackers seized in Capital, over 70 FIRs across Delhi-NCR",
-        "published_at": "Fri, 06 Nov 2026 16:51:10 +0000",
-        "url": "https://indianexpress.com/article/cities/delhi/delhi-illegal-firecrackers-seizure-15000-kg-70-firs-10953879/",
-        "content": ""
-      },
-      "sources": [
-        {
-          "source_name": "The Indian Express",
-          "headline": "15,000 kg of illegal firecrackers seized in Capital, over 70 FIRs across Delhi-NCR",
-          "published_at": "Fri, 06 Nov 2026 16:51:10 +0000",
-          "url": "https://indianexpress.com/article/cities/delhi/delhi-illegal-firecrackers-seizure-15000-kg-70-firs-10953879/"
-        },
-        {
-          "source_name": "Deccan Herald",
-          "headline": "Air pollution | GRAP III introduced in Delhi NCR ahead of Deepavali",
-          "published_at": "Fri, 06 Nov 2026 13:48:22 +0000",
-          "url": "https://www.deccanherald.com/india/air-pollution-grap-iii-introduced-in-delhi-ncr-ahead-of-deepavali-4210322"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "Stricter Pollution Curbs Under GRAP-III Imposed In Delhi-NCR Ahead Of Diwali",
-          "published_at": "Fri, 06 Nov 2026 18:22:09 +0530",
-          "url": "https://www.ndtv.com/india-news/delhi-grap-3-stricter-pollution-curbs-under-grap-iii-imposed-in-delhi-ncr-ahead-of-diwali-12292778#publisher=newsstand"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "Ahead of Diwali, Pune sees 16% drop in new vehicle registrations, EVs rise 62%",
-          "published_at": "Fri, 06 Nov 2026 12:50:35 +0000",
-          "url": "https://indianexpress.com/article/cities/pune/ahead-of-diwali-pune-sees-16-drop-in-new-vehicle-registrations-evs-rise-62-10953482/"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "Classes In Hybrid Mode, Restrictions On Cars: What Changes Under GRAP-III",
-          "published_at": "Fri, 06 Nov 2026 17:28:41 +0530",
-          "url": "https://www.ndtv.com/india-news/classes-in-hybrid-mode-restrictions-on-cars-what-changes-under-grap-iii-as-delhi-air-quality-worsens-12292922#publisher=newsstand"
-        }
-      ],
-      "source_count": 4,
-      "total_count": 8,
-      "combined_score": 4.4,
-      "brief_bullets": [
-        "As toxic smog choked the National Capital Region ahead of Deepavali, authorities seized 15,000 kilograms of illegal firecrackers and registered over 70 First Information Reports. Triggered by an alarming Air Quality Index of 382, the Commission for Air Quality Management invoked stringent Stage-III Graded Response Action Plan measures across Delhi-NCR. This enforcement mandates heavy restrictions on construction and demolition activities, limits vehicular movement, and permits hybrid schooling up to Standard-V to mitigate severe health hazards. While regulatory bodies strive to curtail compounding emissions, student leaders have raised equity concerns, arguing that essential protective measures risk becoming exclusionary privileges."
-      ],
-      "why_it_matters_bullets": [
-        "Aggressive anti-pollution interventions highlight the severe economic and social strain of chronic urban environmental degradation."
-      ],
-      "brief": "As toxic smog choked the National Capital Region ahead of Deepavali, authorities seized 15,000 kilograms of illegal firecrackers and registered over 70 First Information Reports. Triggered by an alarming Air Quality Index of 382, the Commission for Air Quality Management invoked stringent Stage-III Graded Response Action Plan measures across Delhi-NCR. This enforcement mandates heavy restrictions on construction and demolition activities, limits vehicular movement, and permits hybrid schooling up to Standard-V to mitigate severe health hazards. While regulatory bodies strive to curtail compounding emissions, student leaders have raised equity concerns, arguing that essential protective measures risk becoming exclusionary privileges. Aggressive anti-pollution interventions highlight the severe economic and social strain of chronic urban environmental degradation.",
-      "brief_word_count": 113
-    },
-    {
-      "story_id": "story-16",
-      "category": "Society",
-      "primary_headline": "Gina Hinojosa begins work to take office as Texas’ first Democratic governor in decades",
+      "primary_headline": "‘JD, habibi.’ Arabs celebrate El-Sayed’s use of a term of affection in his victory speech",
       "primary_source": {
         "source_name": "AP News",
-        "headline": "Gina Hinojosa begins work to take office as Texas’ first Democratic governor in decades - AP News",
-        "published_at": "Fri, 06 Nov 2026 02:21:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQT2hsekFhbE45ZGQ2cVAzNXVwX0dkZE83UWpTYktBWWY0WEZqLU45dGtfdjVwMnJLR1V6NWZLbUNHeHp3NHl2YTRwelc0eklNU2hQVVJpNmpiLTEyWkI5UC16M0xRZDQ2R3pLdnJnd2lDOUZDVWxLeFp0UW1VWFRNaURZX1VFc051eUZOeWNnZEdfWS1ReEdoTEhhZ296VVhUSTZybTNqTXgtd2FKQzBrX3ZMOFA0UFRhc3d2M0pfVXE?oc=5",
-        "content": "Gina Hinojosa begins work to take office as Texas’ first Democratic governor in decades&nbsp;&nbsp;AP News"
+        "headline": "‘JD, habibi.’ Arabs celebrate El-Sayed’s use of a term of affection in his victory speech - AP News",
+        "published_at": "Fri, 06 Nov 2026 02:02:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVHlhTHhrNHJwUm5aZmhnMHRzVTJUeXhXR3BPR0laLUFTTi11cjdRZmdseEFBdkhmaFVMNVlpb3o2OGdfTjFJMUpLZlNCc1NpU1MwZ0dZRXFWZ21hUngxQ2pTZ3lEQzBCbUJsSEp2TXdIaVRnbnQtckNfU2pTcklVdmlDWjJVR0N1bkE0Rngtb2pDVmhiSHhBSjBmV3VGcWxOR2ZTM29MRFkzcTA?oc=5",
+        "content": "‘JD, habibi.’ Arabs celebrate El-Sayed’s use of a term of affection in his victory speech&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
           "source_name": "AP News",
-          "headline": "Gina Hinojosa begins work to take office as Texas’ first Democratic governor in decades - AP News",
-          "published_at": "Fri, 06 Nov 2026 02:21:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQT2hsekFhbE45ZGQ2cVAzNXVwX0dkZE83UWpTYktBWWY0WEZqLU45dGtfdjVwMnJLR1V6NWZLbUNHeHp3NHl2YTRwelc0eklNU2hQVVJpNmpiLTEyWkI5UC16M0xRZDQ2R3pLdnJnd2lDOUZDVWxLeFp0UW1VWFRNaURZX1VFc051eUZOeWNnZEdfWS1ReEdoTEhhZ296VVhUSTZybTNqTXgtd2FKQzBrX3ZMOFA0UFRhc3d2M0pfVXE?oc=5"
+          "headline": "‘JD, habibi.’ Arabs celebrate El-Sayed’s use of a term of affection in his victory speech - AP News",
+          "published_at": "Fri, 06 Nov 2026 02:02:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVHlhTHhrNHJwUm5aZmhnMHRzVTJUeXhXR3BPR0laLUFTTi11cjdRZmdseEFBdkhmaFVMNVlpb3o2OGdfTjFJMUpLZlNCc1NpU1MwZ0dZRXFWZ21hUngxQ2pTZ3lEQzBCbUJsSEp2TXdIaVRnbnQtckNfU2pTcklVdmlDWjJVR0N1bkE0Rngtb2pDVmhiSHhBSjBmV3VGcWxOR2ZTM29MRFkzcTA?oc=5"
         },
         {
-          "source_name": "Washington Post",
-          "headline": "Texas’s new Democratic governor Hinojosa vows to undo policies she calls divisive - The Washington Post",
-          "published_at": "Fri, 06 Nov 2026 17:22:11 GMT",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcm1JSUk5cmhlSjRCR1VtSGVDRUtndU14TUN0Mnc0YWVaZ0Z4TWpncWRWNTZ6MC0tT3dSY2ZobmZhMEwyM0lnSGw1VzNETlRWTFhvMFluUUYyOW5YeW1NbHY4eVVscHdibU5ZZ1RmWFFpUGNoSGQxM2YxdThoN2txRUlYWUlzeEhBTTlKdFNaVkdUaUZ5N1JmVGZIZHlBMm91N3lJb1MyRVZseGJ6MjByMlNieXBuM0hlTkM3aUN2eGU2VmdZUEE?oc=5"
+          "source_name": "The Guardian",
+          "headline": "Oxford, Bethnal Green and the Guardian: the British sojourn of a younger Abdul El-Sayed",
+          "published_at": "Fri, 06 Nov 2026 14:00:44 GMT",
+          "url": "https://www.theguardian.com/us-news/2026/nov/06/oxford-guardian-us-midterms-abdul-el-sayed"
         },
         {
-          "source_name": "NYT",
-          "headline": "Gina Hinojosa Will Be Texas’s First Democratic Governor in Decades. Republicans Won’t Make It Easy.",
-          "published_at": "Fri, 06 Nov 2026 10:03:37 +0000",
-          "url": "https://www.nytimes.com/2026/11/06/us/texas-governor-democrat-gina-hinojosa.html"
+          "source_name": "The Guardian",
+          "headline": "‘I didn’t expect to be a main character’: Abdul El-Sayed heads to the Senate with a mandate – and a spotlight",
+          "published_at": "Fri, 06 Nov 2026 12:46:37 GMT",
+          "url": "https://www.theguardian.com/us-news/2026/nov/06/abdul-el-sayed-islamophobia-michigan-senate-seat"
         },
         {
-          "source_name": "Washington Post",
-          "headline": "How the Texas blue wave came crashing down on Republicans - The Washington Post",
-          "published_at": "Fri, 06 Nov 2026 03:43:48 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTHRtYUNtODRGck03NHdmVDFBWUVnbXFhNF9JODdZcFktOUFHalBPOG15RzE1QkU1V3Nzc3RnTGRCREZSbFlqbTI4Ui1mUEV4TnpmSjBtd3lVd0JFU1hDb2lkTmotbmNuQzBGWjVwRHNTN2c2eXc4OTdqc0pMS2thQjc2NDNHbkNrOWJF?oc=5"
+          "source_name": "The Indian Express",
+          "headline": "‘JD Habibi…’: Why Abdul El-Sayed’s videos resurfaced after US Senate win",
+          "published_at": "Fri, 06 Nov 2026 10:59:37 +0000",
+          "url": "https://indianexpress.com/article/world/us-news/abdul-el-sayed-us-senate-victory-speech-trump-vance-epstein-dig-michigan-election-10953341/"
         },
         {
-          "source_name": "CNN",
-          "headline": "Gina Hinojosa on her bipartisan plans as Texas Governor - CNN",
-          "published_at": "Fri, 06 Nov 2026 00:09:44 GMT",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPV2wtNVNtWTh2NGRpR1dxTE5ZNjUzN3dtWmRvQm92ZEo1eUNITmhfX2FzTGVGeVZiS0N6dnZ6WUo4Vjlld21WMlMwQ3R3X3VMMTFYWU1JMW5MSzYwOWZOM3FkQ2hSMWpyLU9XbTNhN09IQzNuOHZYWm93dlcxQVNMWXNXYm5KbHpTRlZSWEJVMFNVT1BHU0xKV2pIbXpYMzM3cS1NSmlxY0RZY015RlVYOV92SW9Id0duN2xELVpMVQ?oc=5"
+          "source_name": "The Print",
+          "headline": "From Zohran Mamdani to Abdul El-Sayed—US voters are challenging Trump’s identity politics - ThePrint",
+          "published_at": "Fri, 06 Nov 2026 04:16:42 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVXVjRGZlLXhVdkVxSWNocE1peVZwNW1GckJDTkRsVmJDTEFjSVVrSFJ4SVhYdFR3MFh0cDJPUXVzb0FBNlI4VnJXNTQxZVJ1WDNDUmoxazMwYUlocl9MbThrLW4xU1lrWU0wN3ZSMHhFaDgwdVZuYko3VTB4V2RHbFc2X2hVWlV2OUo5eDBYaFVDTXdxa0lDbEJrbzh3Zzh6SGlyWHVWRjctdm_SAbABQVVfeXFMUGQtVlNBZWhmWVBLT09EN2FpaUFRQlhWQ184Nm5kUnZ0eUw2NlBBek5PVmZRUWZEZGx0VlZ1TU5zZU9nZTNXd3dtbVN0bFRLTHNIRnNSeW5kNzRwRWdNX1FEUF9fSTROV3E2M2dBQUwyYks2Vi1mX1l4NWNmN09BLThDV1dEXzVOMkRWZThvczVodG5kTGgydlVzSHllMnVNV1lPYWkzanJ3LWpDSU4wYWE?oc=5"
         }
       ],
       "source_count": 4,
       "total_count": 5,
-      "combined_score": 3.53,
+      "combined_score": 3.5,
       "brief_bullets": [
-        "Following a historic Democratic victory, Governor-elect Gina Hinojosa has begun preparations to assume office as Texas’s first Democratic governor in decades. Hinojosa inherits a state shaped by prolonged conservative governance and must navigate a legislature where Republicans retain control of the State Senate. Committed to undoing policies she characterizes as divisive, she has simultaneously signaled intentions to pursue pragmatic, bipartisan approaches to governance. Her administration represents a monumental shift in the political landscape of a traditionally crimson stronghold, carrying immense national significance."
+        "Following his dramatic election as a Michigan senator, Abdul El-Sayed garnered significant attention within the Arab community for his use of the term “habibi” during a victory speech. This moment of cultural resonance followed a viral, contentious exchange between El-Sayed and Sky News journalist James Matthews, where the politician firmly rebuffed the reporter’s line of questioning. By blending assertive political posturing with an intimate, culturally specific expression of affection, El-Sayed has galvanized his base while signaling a shift in how minority representatives navigate media scrutiny. This intersection of identity politics and public confrontation underscores a growing trend of candidates embracing their heritage to forge deeper, more authentic connections with their constituents during high-stakes electoral cycles."
       ],
       "why_it_matters_bullets": [
-        "Hinojosa's governorship challenges decades of Republican hegemony, testing the viability of bipartisan governance in a polarized political stronghold."
+        "El-Sayed’s rhetoric highlights the increasing political power of cultural identity in shaping authentic, grassroots electoral narratives."
       ],
-      "brief": "Following a historic Democratic victory, Governor-elect Gina Hinojosa has begun preparations to assume office as Texas’s first Democratic governor in decades. Hinojosa inherits a state shaped by prolonged conservative governance and must navigate a legislature where Republicans retain control of the State Senate. Committed to undoing policies she characterizes as divisive, she has simultaneously signaled intentions to pursue pragmatic, bipartisan approaches to governance. Her administration represents a monumental shift in the political landscape of a traditionally crimson stronghold, carrying immense national significance. Hinojosa's governorship challenges decades of Republican hegemony, testing the viability of bipartisan governance in a polarized political stronghold.",
-      "brief_word_count": 100
+      "brief": "Following his dramatic election as a Michigan senator, Abdul El-Sayed garnered significant attention within the Arab community for his use of the term “habibi” during a victory speech. This moment of cultural resonance followed a viral, contentious exchange between El-Sayed and Sky News journalist James Matthews, where the politician firmly rebuffed the reporter’s line of questioning. By blending assertive political posturing with an intimate, culturally specific expression of affection, El-Sayed has galvanized his base while signaling a shift in how minority representatives navigate media scrutiny. This intersection of identity politics and public confrontation underscores a growing trend of candidates embracing their heritage to forge deeper, more authentic connections with their constituents during high-stakes electoral cycles. El-Sayed’s rhetoric highlights the increasing political power of cultural identity in shaping authentic, grassroots electoral narratives.",
+      "brief_word_count": 131
     },
     {
-      "story_id": "story-19",
+      "story_id": "story-823bef269da1",
       "category": "Society",
       "primary_headline": "Child dies of measles in Wisconsin’s first such death since 1990",
       "primary_source": {
@@ -709,135 +705,37 @@
       "total_count": 4,
       "combined_score": 3.26,
       "brief_bullets": [
-        "Wisconsin health officials confirmed the death of an infant due to measles, marking the state's first fatality from the virus since 1990. This tragedy occurs amidst a significant regional outbreak that has infected over 430 individuals across 13 counties this year. Wisconsin Health Secretary Kirsten Johnson emphasized the severity of the situation, noting that measles remains a dangerous, vaccine-preventable disease. This death follows two other recent measles-related fatalities in New York and Pennsylvania, highlighting a concerning national trend. As cases surge, public health authorities are urging residents to assess their vaccination status to mitigate further transmission and prevent additional preventable losses, underscoring the critical importance of immunization coverage in maintaining community health and safety."
+        "Wisconsin health officials confirmed the death of an infant due to measles, marking the state’s first fatality from the virus since 1990. This tragedy occurs amidst a significant regional outbreak that has infected over 430 individuals across 13 counties this year. Wisconsin Health Secretary Kirsten Johnson emphasized the severity of the situation, noting that measles remains a dangerous, vaccine-preventable disease. This death follows two other recent measles-related fatalities in New York and Pennsylvania, highlighting a concerning national trend. With over 1,400 cases reported in Pennsylvania alone, public health authorities are urgently calling for residents to assess their vaccination status to curb the rapid spread of this highly contagious and potentially lethal illness."
       ],
       "why_it_matters_bullets": [
-        "The resurgence of vaccine-preventable deaths signals a critical breakdown in public health immunity and necessitates urgent policy intervention."
+        "The resurgence of vaccine-preventable diseases signals a critical breakdown in public health immunity and necessitates urgent immunization policy reform."
       ],
-      "brief": "Wisconsin health officials confirmed the death of an infant due to measles, marking the state's first fatality from the virus since 1990. This tragedy occurs amidst a significant regional outbreak that has infected over 430 individuals across 13 counties this year. Wisconsin Health Secretary Kirsten Johnson emphasized the severity of the situation, noting that measles remains a dangerous, vaccine-preventable disease. This death follows two other recent measles-related fatalities in New York and Pennsylvania, highlighting a concerning national trend. As cases surge, public health authorities are urging residents to assess their vaccination status to mitigate further transmission and prevent additional preventable losses, underscoring the critical importance of immunization coverage in maintaining community health and safety. The resurgence of vaccine-preventable deaths signals a critical breakdown in public health immunity and necessitates urgent policy intervention.",
-      "brief_word_count": 132
+      "brief": "Wisconsin health officials confirmed the death of an infant due to measles, marking the state’s first fatality from the virus since 1990. This tragedy occurs amidst a significant regional outbreak that has infected over 430 individuals across 13 counties this year. Wisconsin Health Secretary Kirsten Johnson emphasized the severity of the situation, noting that measles remains a dangerous, vaccine-preventable disease. This death follows two other recent measles-related fatalities in New York and Pennsylvania, highlighting a concerning national trend. With over 1,400 cases reported in Pennsylvania alone, public health authorities are urgently calling for residents to assess their vaccination status to curb the rapid spread of this highly contagious and potentially lethal illness. The resurgence of vaccine-preventable diseases signals a critical breakdown in public health immunity and necessitates urgent immunization policy reform.",
+      "brief_word_count": 131
     },
     {
-      "story_id": "story-20",
+      "story_id": "story-596e29b50794",
       "category": "Society",
-      "primary_headline": "White House said Starlink donated its service, but tax dollars are funding it - The Washington Post",
+      "primary_headline": "Jay Rockefeller, former West Virginia governor and US senator who was part of a dynasty, dies at 89",
       "primary_source": {
-        "source_name": "Washington Post",
-        "headline": "White House said Starlink donated its service, but tax dollars are funding it - The Washington Post",
-        "published_at": "Fri, 06 Nov 2026 17:01:52 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNUdMbVVxYVNKOUp1LTJfcURWcUtFeDNCYWtnMS1yZ2FBRU5kcnhqaTlfTzNTMDRwQ0pWVTY0VlFTcmRUQ2g5ZUtWZk8yR3FseFM2MUFuSDNoNUhPejdVVjhnUElEaUFOVFJRMEk5TjR5X0NMYkhweU52dEJOR0ZEMzJmbDJjYllDcGkzUllOU2l6RUxMbE1nWlVJdFZfTW5QWWNUczZ1cFNFMWFRbUM5bXA3b3VSTDUwRHZLQjB6NEJGSC1IeDhVOWdB?oc=5",
-        "content": "White House said Starlink donated its service, but tax dollars are funding it&nbsp;&nbsp;The Washington Post"
+        "source_name": "AP News",
+        "headline": "Jay Rockefeller, former West Virginia governor and US senator who was part of a dynasty, dies at 89 - AP News",
+        "published_at": "Fri, 06 Nov 2026 17:22:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQWdMenU4WEZGSGRQNGNwN1FOZjhJeW9NdDZ4cU1XTVJ0aktsemVNTEtOdUkycXdIdDJrRE15X0tPeXhMelBSbW85MHVXSFJfNDNMVWo5UHBBMzhhVy1Edm80blBTaG9YWEF2cy1GM28tTGo4OUk1R3RTUmlfbnRaVXNpbHBEbEo0Q1dSaTBYZ25LbUtxWWN1VnR3?oc=5",
+        "content": "Jay Rockefeller, former West Virginia governor and US senator who was part of a dynasty, dies at 89&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
-          "source_name": "Washington Post",
-          "headline": "White House said Starlink donated its service, but tax dollars are funding it - The Washington Post",
-          "published_at": "Fri, 06 Nov 2026 17:01:52 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNUdMbVVxYVNKOUp1LTJfcURWcUtFeDNCYWtnMS1yZ2FBRU5kcnhqaTlfTzNTMDRwQ0pWVTY0VlFTcmRUQ2g5ZUtWZk8yR3FseFM2MUFuSDNoNUhPejdVVjhnUElEaUFOVFJRMEk5TjR5X0NMYkhweU52dEJOR0ZEMzJmbDJjYllDcGkzUllOU2l6RUxMbE1nWlVJdFZfTW5QWWNUczZ1cFNFMWFRbUM5bXA3b3VSTDUwRHZLQjB6NEJGSC1IeDhVOWdB?oc=5"
+          "source_name": "AP News",
+          "headline": "Jay Rockefeller, former West Virginia governor and US senator who was part of a dynasty, dies at 89 - AP News",
+          "published_at": "Fri, 06 Nov 2026 17:22:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQWdMenU4WEZGSGRQNGNwN1FOZjhJeW9NdDZ4cU1XTVJ0aktsemVNTEtOdUkycXdIdDJrRE15X0tPeXhMelBSbW85MHVXSFJfNDNMVWo5UHBBMzhhVy1Edm80blBTaG9YWEF2cy1GM28tTGo4OUk1R3RTUmlfbnRaVXNpbHBEbEo0Q1dSaTBYZ25LbUtxWWN1VnR3?oc=5"
         },
-        {
-          "source_name": "NDTV",
-          "headline": "Man Arrested For Making 'Finger Gun' Gesture Near White House",
-          "published_at": "Fri, 06 Nov 2026 18:38:45 +0530",
-          "url": "https://www.ndtv.com/world-news/man-arrested-for-making-finger-gun-gesture-near-white-house-12293355#publisher=newsstand"
-        },
-        {
-          "source_name": "NPR",
-          "headline": "Past White House adviser Raj Panjabi has written a playbook for 'living room' crises",
-          "published_at": "Fri, 06 Nov 2026 06:57:32 -0500",
-          "url": "https://www.npr.org/2026/11/06/nx-s1-6021013/white-house-adviser-raj-panjabi-safer-playbook"
-        },
-        {
-          "source_name": "CNN",
-          "headline": "Sources: White House aides met to discuss path forward after losing Congress - CNN",
-          "published_at": "Fri, 06 Nov 2026 01:10:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNczR1SGFMRFo5OVI5bG5JS3pXWHN2b1hWa0Z6N1NleVJzR1E4WElCWVBkRElIYXVCZHJmOWpoeWktNnNWQ0lOaFlTbkpWWEJ2ZHZ2aDZhWFhBWGFnUDJLMEJEVXR6TFZaTzZJN3FfNmU4dmJCSmVoRFNlQVNMN2xuTUZuVHVmaFlfc1FBWEtad3NUeGVqY2wyRVZSVHRUVTQ1QTgtY1pGeW5seWVscmZPS0p1QUFYQUFRcFE?oc=5"
-        }
-      ],
-      "source_count": 4,
-      "total_count": 4,
-      "combined_score": 3.26,
-      "brief_bullets": [
-        "Despite initial White House claims that SpaceX donated Starlink satellite terminals to Ukraine, federal contracting records reveal that public tax dollars are actually funding the acquisition and deployment of these vital communications systems. The arrangement highlights the complex intersection of private defense technology contributions and government subsidization during geopolitical crises. As federal agencies increasingly rely on commercial space infrastructure for foreign aid and tactical support, questions of transparency and public spending accountability have intensified across Washington policymaking circles."
-      ],
-      "why_it_matters_bullets": [
-        "This revelation exposes transparency gaps in government procurement for critical wartime technology."
-      ],
-      "brief": "Despite initial White House claims that SpaceX donated Starlink satellite terminals to Ukraine, federal contracting records reveal that public tax dollars are actually funding the acquisition and deployment of these vital communications systems. The arrangement highlights the complex intersection of private defense technology contributions and government subsidization during geopolitical crises. As federal agencies increasingly rely on commercial space infrastructure for foreign aid and tactical support, questions of transparency and public spending accountability have intensified across Washington policymaking circles. This revelation exposes transparency gaps in government procurement for critical wartime technology.",
-      "brief_word_count": 90
-    },
-    {
-      "story_id": "story-21",
-      "category": "Society",
-      "primary_headline": "Hegseth vows to keep fighting from Pentagon, defends Iran war",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Hegseth vows to keep fighting from Pentagon, defends Iran war - Reuters",
-        "published_at": "Thu, 05 Nov 2026 23:20:00 GMT",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQR1JFX1RGSnZ0bDI2d1ZxN0JpSGpTN2NDT21RbEVMaXhyVGNfNDlHUkVsaU9pNGd1d1hzTjhFWmVxeGgzSmt5SDVEZHA2Q3RjUmVpaFdUSUVic3RBLTJNNms0U253VURJU3Uzdm5rSXRjMmtnSDRMbWhKaFA1R1dtRUZ0LUQxLTlieGhXUzA2QVVvU3BnRkhpLWJBekQzVm5YRVFzTzJxU2s?oc=5",
-        "content": "Hegseth vows to keep fighting from Pentagon, defends Iran war&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
-        {
-          "source_name": "Reuters",
-          "headline": "Hegseth vows to keep fighting from Pentagon, defends Iran war - Reuters",
-          "published_at": "Thu, 05 Nov 2026 23:20:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQR1JFX1RGSnZ0bDI2d1ZxN0JpSGpTN2NDT21RbEVMaXhyVGNfNDlHUkVsaU9pNGd1d1hzTjhFWmVxeGgzSmt5SDVEZHA2Q3RjUmVpaFdUSUVic3RBLTJNNms0U253VURJU3Uzdm5rSXRjMmtnSDRMbWhKaFA1R1dtRUZ0LUQxLTlieGhXUzA2QVVvU3BnRkhpLWJBekQzVm5YRVFzTzJxU2s?oc=5"
-        },
-        {
-          "source_name": "The Indian Express",
-          "headline": "‘He’s screwed’: Why Pentagon boss Pete Hegseth is facing the heat after Trump’s midterm defeat",
-          "published_at": "Fri, 06 Nov 2026 13:53:19 +0000",
-          "url": "https://indianexpress.com/article/world/us-news/us-defense-secretary-pete-hegseth-impeachment-republicans-iran-war-trump-10953715/"
-        },
-        {
-          "source_name": "NPR",
-          "headline": "'He's got to go': Hakeem Jeffries calls for Hegseth's removal but stops short of impeachment",
-          "published_at": "Fri, 06 Nov 2026 06:58:56 -0500",
-          "url": "https://www.npr.org/2026/11/06/nx-s1-6030799/democrats-ran-on-affordability-how-will-the-party-make-it-happen"
-        },
-        {
-          "source_name": "CNN",
-          "headline": "Will President Trump fire Secretary Hegseth? - CNN",
-          "published_at": "Thu, 05 Nov 2026 21:14:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcFcxUEpwbW9ScEZyZGdqd09UTXBTRjQxQ090ZDRlZ2IwOUZSUlhTWlJFcGViTEdRN0JLOGd0emR0bC1VNWtGN2Y2SU5maVlab0dNRXlDaGZtMTJlRUs1eHRrNjAwNjRhdmRqcG1ULWhsT05oVFJ2am1tTzQ1bFU4WFF3QkFuaFRsMWotZDVVZXNVVDhZWXc?oc=5"
-        }
-      ],
-      "source_count": 4,
-      "total_count": 4,
-      "combined_score": 3.23,
-      "brief_bullets": [
-        "Secretary of Defense Pete Hegseth is facing intense political scrutiny and mounting pressure following the Trump administration's midterm election losses. Despite widespread calls for his resignation and criticism regarding his hawkish stance on potential conflict with Iran, Hegseth remains defiant, vowing to maintain his position within the Pentagon. The situation has sparked a broader debate among political leaders, including House Minority Leader Hakeem Jeffries, who is pushing for accountability and a shift in national security priorities. As speculation grows regarding whether President Trump will ultimately dismiss his defense chief, the administration faces a critical juncture in balancing internal loyalty against the shifting political landscape and the urgent need for a coherent foreign policy strategy."
-      ],
-      "why_it_matters_bullets": [
-        "Hegseth’s precarious tenure signals potential instability in U.S. defense leadership and escalating friction over future Middle East military engagement."
-      ],
-      "brief": "Secretary of Defense Pete Hegseth is facing intense political scrutiny and mounting pressure following the Trump administration's midterm election losses. Despite widespread calls for his resignation and criticism regarding his hawkish stance on potential conflict with Iran, Hegseth remains defiant, vowing to maintain his position within the Pentagon. The situation has sparked a broader debate among political leaders, including House Minority Leader Hakeem Jeffries, who is pushing for accountability and a shift in national security priorities. As speculation grows regarding whether President Trump will ultimately dismiss his defense chief, the administration faces a critical juncture in balancing internal loyalty against the shifting political landscape and the urgent need for a coherent foreign policy strategy. Hegseth’s precarious tenure signals potential instability in U.S. defense leadership and escalating friction over future Middle East military engagement.",
-      "brief_word_count": 133
-    },
-    {
-      "story_id": "story-22",
-      "category": "Society",
-      "primary_headline": "Jay Rockefeller, heir to famed dynasty and healthcare advocate in US Senate, dies at 89",
-      "primary_source": {
-        "source_name": "Reuters",
-        "headline": "Jay Rockefeller, heir to famed dynasty and healthcare advocate in US Senate, dies at 89 - Reuters",
-        "published_at": "Fri, 06 Nov 2026 16:52:50 GMT",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZDBJMDRPNVh2YlpfUHRFLTNnNG9YSWJwQ0lEYWpIc1M3Q2c2WW1aLUZKVm9xaGVEMHNkUVpHbXRYLWp0NzB3WlN0VlMxVWxQWFRaSUtJamtqelJoQkdNMGZ4TWpaR1Rya0FKZlRPM2NYRkZMSm9DN1VtNlZNZlc4eXdyT0hVdzR2VHNVbWs0emtkRjdwRVlFQmhSbzhGMFBlVUZhTzdJamRhTDlmdVRB?oc=5",
-        "content": "Jay Rockefeller, heir to famed dynasty and healthcare advocate in US Senate, dies at 89&nbsp;&nbsp;Reuters"
-      },
-      "sources": [
         {
           "source_name": "Reuters",
           "headline": "Jay Rockefeller, heir to famed dynasty and healthcare advocate in US Senate, dies at 89 - Reuters",
           "published_at": "Fri, 06 Nov 2026 16:52:50 GMT",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZDBJMDRPNVh2YlpfUHRFLTNnNG9YSWJwQ0lEYWpIc1M3Q2c2WW1aLUZKVm9xaGVEMHNkUVpHbXRYLWp0NzB3WlN0VlMxVWxQWFRaSUtJamtqelJoQkdNMGZ4TWpaR1Rya0FKZlRPM2NYRkZMSm9DN1VtNlZNZlc4eXdyT0hVdzR2VHNVbWs0emtkRjdwRVlFQmhSbzhGMFBlVUZhTzdJamRhTDlmdVRB?oc=5"
-        },
-        {
-          "source_name": "AP News",
-          "headline": "Jay Rockefeller, former West Virginia governor and US senator who was part of a dynasty, dies at 89 - AP News",
-          "published_at": "Fri, 06 Nov 2026 14:58:00 GMT",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQWdMenU4WEZGSGRQNGNwN1FOZjhJeW9NdDZ4cU1XTVJ0aktsemVNTEtOdUkycXdIdDJrRE15X0tPeXhMelBSbW85MHVXSFJfNDNMVWo5UHBBMzhhVy1Edm80blBTaG9YWEF2cy1GM28tTGo4OUk1R3RTUmlfbnRaVXNpbHBEbEo0Q1dSaTBYZ25LbUtxWWN1VnR3?oc=5"
         },
         {
           "source_name": "NYT",
@@ -856,16 +754,65 @@
       "total_count": 4,
       "combined_score": 3.2,
       "brief_bullets": [
-        "Jay Rockefeller, the influential former West Virginia governor and five-term U.S. senator, has passed away at age 89. A prominent member of the storied Rockefeller family, he notably broke from his dynasty’s Republican roots to champion Democratic policies, most significantly the creation of the Children’s Health Insurance Program, which expanded coverage to millions of low-income youth. During his thirty-year tenure in the Senate, Rockefeller became a pivotal figure in healthcare reform and intelligence oversight, leaving a legacy defined by his commitment to public service and social welfare. His death marks the end of an era for a political titan who leveraged his immense private wealth to advocate for systemic improvements in American public health and government accountability."
+        "Jay Rockefeller, the prominent Democratic politician and heir to the legendary Rockefeller dynasty, has passed away at age 89. Serving as West Virginia’s governor and a U.S. senator for three decades, he distinguished himself by championing healthcare reform and securing insurance for millions of low-income children through the Children’s Health Insurance Program. Despite his family’s deep-rooted Republican ties, Rockefeller forged a unique political identity centered on public service and social advocacy within the Appalachian region. His death marks the end of a significant era in American politics, reflecting a legacy defined by his transition from a wealthy industrialist lineage to a dedicated public servant who fundamentally reshaped federal healthcare policy for the nation’s most vulnerable populations."
       ],
       "why_it_matters_bullets": [
-        "His passing marks the loss of a rare bipartisan bridge-builder whose legislative legacy fundamentally reshaped American pediatric healthcare access."
+        "His legacy underscores the enduring impact of bipartisan legislative efforts on expanding social safety nets for American families."
       ],
-      "brief": "Jay Rockefeller, the influential former West Virginia governor and five-term U.S. senator, has passed away at age 89. A prominent member of the storied Rockefeller family, he notably broke from his dynasty’s Republican roots to champion Democratic policies, most significantly the creation of the Children’s Health Insurance Program, which expanded coverage to millions of low-income youth. During his thirty-year tenure in the Senate, Rockefeller became a pivotal figure in healthcare reform and intelligence oversight, leaving a legacy defined by his commitment to public service and social welfare. His death marks the end of an era for a political titan who leveraged his immense private wealth to advocate for systemic improvements in American public health and government accountability. His passing marks the loss of a rare bipartisan bridge-builder whose legislative legacy fundamentally reshaped American pediatric healthcare access.",
-      "brief_word_count": 136
+      "brief": "Jay Rockefeller, the prominent Democratic politician and heir to the legendary Rockefeller dynasty, has passed away at age 89. Serving as West Virginia’s governor and a U.S. senator for three decades, he distinguished himself by championing healthcare reform and securing insurance for millions of low-income children through the Children’s Health Insurance Program. Despite his family’s deep-rooted Republican ties, Rockefeller forged a unique political identity centered on public service and social advocacy within the Appalachian region. His death marks the end of a significant era in American politics, reflecting a legacy defined by his transition from a wealthy industrialist lineage to a dedicated public servant who fundamentally reshaped federal healthcare policy for the nation’s most vulnerable populations. His legacy underscores the enduring impact of bipartisan legislative efforts on expanding social safety nets for American families.",
+      "brief_word_count": 134
     },
     {
-      "story_id": "story-23",
+      "story_id": "story-c7eb9ec1022c",
+      "category": "Society",
+      "primary_headline": "Republicans rammed through Supreme Court nominees. Now Democrats will have the votes to stop them",
+      "primary_source": {
+        "source_name": "AP News",
+        "headline": "Republicans rammed through Supreme Court nominees. Now Democrats will have the votes to stop them - AP News",
+        "published_at": "Fri, 06 Nov 2026 16:05:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTE9EY1RuekxrZG90a2VFVHJZY2kxS21qa21NcVBXX0wzdEZrVzRBOFZUaS1qclpMRUZKRXlRRXZkcDRDYWJUTUw2ZUxGRTJ2bERkZEJKbllFbU8xTjFJMlNBTGZ4cjFqWTB0djhfUUtuQk5uVWU2bXJpX0RmbDB2QzM2eEZVOW5WX2tiTHhrMGpoWmRxcW5HU2JFWDFNa1hnQW1sNTdETTltV1k?oc=5",
+        "content": "Republicans rammed through Supreme Court nominees. Now Democrats will have the votes to stop them&nbsp;&nbsp;AP News"
+      },
+      "sources": [
+        {
+          "source_name": "AP News",
+          "headline": "Republicans rammed through Supreme Court nominees. Now Democrats will have the votes to stop them - AP News",
+          "published_at": "Fri, 06 Nov 2026 16:05:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTE9EY1RuekxrZG90a2VFVHJZY2kxS21qa21NcVBXX0wzdEZrVzRBOFZUaS1qclpMRUZKRXlRRXZkcDRDYWJUTUw2ZUxGRTJ2bERkZEJKbllFbU8xTjFJMlNBTGZ4cjFqWTB0djhfUUtuQk5uVWU2bXJpX0RmbDB2QzM2eEZVOW5WX2tiTHhrMGpoWmRxcW5HU2JFWDFNa1hnQW1sNTdETTltV1k?oc=5"
+        },
+        {
+          "source_name": "Washington Post",
+          "headline": "Rural voters in GOP strongholds helped carry Democrats to midterm victories - The Washington Post",
+          "published_at": "Fri, 06 Nov 2026 01:49:52 GMT",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcVA3MERwQldaVnJhQy12YVJWUnI4ODRtRjdaRW5kcjRQVThUWTZhRGpSaDByM0NGQkQ5VTZjajl5bzhCVlZWQ2VQUEt3Y3B5R3d6a2YyYkIxZjhPY09sWGZLUjVWY3FjbktSQ25VbmlpOGFoMmg5aGNhQlB0REtFOHFRa1d4b3NNU2E5eTRPSkJYZ3VwWHlJTG42XzZFSGFfam1HSFVJcFFmbWRpM191MVp5TDVhSFdEVS1DQ1J3?oc=5"
+        },
+        {
+          "source_name": "The Guardian",
+          "headline": "Democrats start plotting as civil war breaks out among Republicans | Politics Weekly America",
+          "published_at": "Fri, 06 Nov 2026 15:00:46 GMT",
+          "url": "https://www.theguardian.com/politics/video/2026/nov/06/democrats-start-plotting-as-civil-war-breaks-out-among-republicans-politics-weekly-america"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "Opinion: Opinion | The Republican Elephant In The Room: How Democrats Turned GOP Blue Chips Blue",
+          "published_at": "Fri, 06 Nov 2026 16:54:56 +0530",
+          "url": "https://www.ndtv.com/opinion/the-republican-elephant-in-the-room-how-democrats-turned-gop-blue-chips-blue-12292811#publisher=newsstand"
+        }
+      ],
+      "source_count": 4,
+      "total_count": 4,
+      "combined_score": 3.2,
+      "brief_bullets": [
+        "Following a period where Republicans aggressively confirmed Supreme Court nominees, shifting political dynamics and recent midterm victories have empowered Democrats to effectively block future judicial appointments. This strategic reversal, bolstered by unexpected support from rural voters in traditional GOP strongholds, fundamentally alters the legislative landscape for the remainder of the current administration. As political analysts and experts, including Mary Trump and David Smith, evaluate the broader implications for the 2028 election cycle, the focus has shifted toward how this newfound leverage will influence the balance of power within the federal judiciary. This development signals a critical pivot in partisan control, potentially stalling conservative legal agendas and reshaping the long-term ideological composition of the nation’s highest court."
+      ],
+      "why_it_matters_bullets": [
+        "This shift effectively halts the conservative judicial pipeline, forcing a strategic stalemate that will define future federal policy."
+      ],
+      "brief": "Following a period where Republicans aggressively confirmed Supreme Court nominees, shifting political dynamics and recent midterm victories have empowered Democrats to effectively block future judicial appointments. This strategic reversal, bolstered by unexpected support from rural voters in traditional GOP strongholds, fundamentally alters the legislative landscape for the remainder of the current administration. As political analysts and experts, including Mary Trump and David Smith, evaluate the broader implications for the 2028 election cycle, the focus has shifted toward how this newfound leverage will influence the balance of power within the federal judiciary. This development signals a critical pivot in partisan control, potentially stalling conservative legal agendas and reshaping the long-term ideological composition of the nation’s highest court. This shift effectively halts the conservative judicial pipeline, forcing a strategic stalemate that will define future federal policy.",
+      "brief_word_count": 134
+    },
+    {
+      "story_id": "story-7587da0acef0",
       "category": "Society",
       "primary_headline": "What to know about Pope Leo XIV’s trip to Uruguay, Argentina and Peru",
       "primary_source": {
@@ -905,65 +852,120 @@
       "total_count": 4,
       "combined_score": 3.2,
       "brief_bullets": [
-        "Pope Leo XIV has embarked on a significant South American tour encompassing Uruguay, Argentina, and Peru, marking a symbolic homecoming for the pontiff just one month after undergoing lung surgery. This high-profile diplomatic and pastoral mission underscores the Vatican's renewed focus on the region, as the Pope navigates health recovery while addressing critical socio-political issues across these nations. By engaging directly with local clergy and government officials, the Vatican aims to reinforce its influence in Latin America, a region currently grappling with economic instability and shifting religious demographics. The trip serves as a pivotal test of the Pope's physical resilience and his ability to maintain global leadership during a period of intense international scrutiny regarding his long-term administrative capacity."
+        "Pope Leo XIV has embarked on a significant pastoral tour across Uruguay, Argentina, and Peru, marking his first major international journey following recent lung surgery. This South American homecoming serves as a pivotal moment for the pontiff, who seeks to reconnect with his regional roots while addressing pressing socio-political challenges facing the Catholic Church in these nations. By engaging directly with local clergy and diverse communities, the Pope aims to reinforce his influence across the continent and provide spiritual guidance during a period of internal recovery. This high-profile visit underscores the Vatican’s commitment to maintaining a robust presence in Latin America, a region that remains central to the global demographic and strategic future of the Catholic faith."
       ],
       "why_it_matters_bullets": [
-        "The tour signals the Vatican's strategic commitment to Latin America, balancing the Pope's health with vital regional diplomatic engagement."
+        "The tour strengthens the Vatican's regional influence and signals the Pope's resilience despite recent health-related operational constraints."
       ],
-      "brief": "Pope Leo XIV has embarked on a significant South American tour encompassing Uruguay, Argentina, and Peru, marking a symbolic homecoming for the pontiff just one month after undergoing lung surgery. This high-profile diplomatic and pastoral mission underscores the Vatican's renewed focus on the region, as the Pope navigates health recovery while addressing critical socio-political issues across these nations. By engaging directly with local clergy and government officials, the Vatican aims to reinforce its influence in Latin America, a region currently grappling with economic instability and shifting religious demographics. The trip serves as a pivotal test of the Pope's physical resilience and his ability to maintain global leadership during a period of intense international scrutiny regarding his long-term administrative capacity. The tour signals the Vatican's strategic commitment to Latin America, balancing the Pope's health with vital regional diplomatic engagement.",
-      "brief_word_count": 138
+      "brief": "Pope Leo XIV has embarked on a significant pastoral tour across Uruguay, Argentina, and Peru, marking his first major international journey following recent lung surgery. This South American homecoming serves as a pivotal moment for the pontiff, who seeks to reconnect with his regional roots while addressing pressing socio-political challenges facing the Catholic Church in these nations. By engaging directly with local clergy and diverse communities, the Pope aims to reinforce his influence across the continent and provide spiritual guidance during a period of internal recovery. This high-profile visit underscores the Vatican’s commitment to maintaining a robust presence in Latin America, a region that remains central to the global demographic and strategic future of the Catholic faith. The tour strengthens the Vatican's regional influence and signals the Pope's resilience despite recent health-related operational constraints.",
+      "brief_word_count": 134
     },
     {
-      "story_id": "story-24",
+      "story_id": "story-4ed9d21ceca0",
       "category": "Society",
-      "primary_headline": "'Clicky Ponting' cheating scandal cricketer banned from sport for two years",
+      "primary_headline": "Trump makes the Oval Office a national monument. But future presidents can still redecorate",
       "primary_source": {
-        "source_name": "BBC News",
-        "headline": "'Clicky Ponting' cheating scandal cricketer banned from sport for two years",
-        "published_at": "Fri, 06 Nov 2026 12:00:21 GMT",
-        "url": "https://www.bbc.co.uk/sport/cricket/articles/c62keenz7dzjo?at_medium=RSS&at_campaign=rss",
-        "content": "An amateur cricketer is banned for two years for his role in the ‘Clicky Ponting’ cheating scandal that made headlines across the globe."
+        "source_name": "AP News",
+        "headline": "Trump makes the Oval Office a national monument. But future presidents can still redecorate - AP News",
+        "published_at": "Fri, 06 Nov 2026 01:31:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUHJ3cFN3VWhNTTlLTDhHT1ZGdl9EdTZ2dC1xTEU3QklLUU1zMkltS1o2WkktNWx3T2FiVlNrLTN6bTVoYnQxQms2aWtGQ0lHbS1qSmNlRFZONWpNNll0ZloyUU1ObHZkN0IxNy1pM3NWcXc4S3k1cmg2eVZTYVpTMks1ZmZVYkcwTm9SSnRRN3VRX2RyUG9rbXBhSXU5WVhzMjc2Uw?oc=5",
+        "content": "Trump makes the Oval Office a national monument. But future presidents can still redecorate&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
-          "source_name": "BBC News",
-          "headline": "'Clicky Ponting' cheating scandal cricketer banned from sport for two years",
-          "published_at": "Fri, 06 Nov 2026 12:00:21 GMT",
-          "url": "https://www.bbc.co.uk/sport/cricket/articles/c62keenz7dzjo?at_medium=RSS&at_campaign=rss"
+          "source_name": "AP News",
+          "headline": "Trump makes the Oval Office a national monument. But future presidents can still redecorate - AP News",
+          "published_at": "Fri, 06 Nov 2026 01:31:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUHJ3cFN3VWhNTTlLTDhHT1ZGdl9EdTZ2dC1xTEU3QklLUU1zMkltS1o2WkktNWx3T2FiVlNrLTN6bTVoYnQxQms2aWtGQ0lHbS1qSmNlRFZONWpNNll0ZloyUU1ObHZkN0IxNy1pM3NWcXc4S3k1cmg2eVZTYVpTMks1ZmZVYkcwTm9SSnRRN3VRX2RyUG9rbXBhSXU5WVhzMjc2Uw?oc=5"
         },
         {
-          "source_name": "The Indian Express",
-          "headline": "Cricketer dubbed ‘Clicky Ponting’ suspended for 2 years",
-          "published_at": "Fri, 06 Nov 2026 13:41:05 +0000",
-          "url": "https://indianexpress.com/article/sports/cricket/cricketer-dubbed-clicky-ponting-suspended-for-2-years-10953718/"
+          "source_name": "Reuters",
+          "headline": "Trump takes action to make sure the Oval Office stays oval - Reuters",
+          "published_at": "Fri, 06 Nov 2026 00:17:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZkRZczJ5WUJPUEFMQ08xY20wb19HRUo5eEF4bFpNaEd3UUtnQmMyRnJBQXFtQ2VmUlVCWkVZWG5sOVRLcHVyaENMdzhtR09RR0V0dzllVGlqVXBLNlpWTFhuWXBsRjdoVnpVamdFOWFGZFpKUmJ3MlVUMTRLclJ2M3lnTVQ4NTB1VHN6aDdXX3ZiTUVSRXI2UmFRMzI?oc=5"
         },
         {
-          "source_name": "The Guardian",
-          "headline": "‘Clicky Ponting’ cheating scandal cricketer banned and club relegated",
-          "published_at": "Fri, 06 Nov 2026 10:30:38 GMT",
-          "url": "https://www.theguardian.com/sport/2026/nov/06/clicky-ponting-cheating-scandal-cricketer-brian-devine-banned-club-relegated"
+          "source_name": "Washington Post",
+          "headline": "Trump wants Oval Office declared a national monument - The Washington Post",
+          "published_at": "Fri, 06 Nov 2026 07:03:21 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNzQxdFVZZDFJOFpTYmFoUHMtZzdpOG5SdVkxQUZqc25NZEVmcFpIenJxeDJkU21vMV9aSFViZ2FwNE83MlJucGZZRjhjaFFTV243RVVPMzVPSW5ZaHYtMHEyV1R1Y01CU211eHlfdGVRVHdOUnRCLWhnNkExa3lQbjVPdXdib0I2dy0yRWpXVnEzWkR3RnYtazFzLWpZTFNseUlfYQ?oc=5"
         },
         {
-          "source_name": "Sky Sports",
-          "headline": "Club cricketer dubbed 'Clicky Ponting' banned for two years",
-          "published_at": "Fri, 06 Nov 2026 10:17:00 GMT",
-          "url": "https://www.skysports.com/cricket/news/12040/13608776/clicky-ponting-club-cricketer-banned-for-two-years-after-saltburn-cheating-scandal-according-to-reports"
+          "source_name": "CNN",
+          "headline": "Trump says he’s declaring Oval Office and Cabinet Room national landmarks to prevent future changes - CNN",
+          "published_at": "Thu, 05 Nov 2026 22:12:01 GMT",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOT0ZnREZGQllHaElsa0lMWjdXT09rRXhZVGVYdHFpTXM4bWJiT0UyM09JM3NRMmlnT0c0bi01cnNrcXZPSURmY3p4MG1kR1hHd2pKYTdwTE1VY1ZiQnQ4cDB0VjRpVHh5NTBlcXlJcUlEYkp0eVAyYWxidTFLQXlpeEV0U0JGT0U?oc=5"
         }
       ],
       "source_count": 4,
       "total_count": 4,
       "combined_score": 3.2,
       "brief_bullets": [
-        "Amateur cricketer Brian Devine, infamously dubbed 'Clicky Ponting,' has received a two-year ban from all England and Wales Cricket Board activities following a viral cheating scandal. During a North Yorkshire and South Durham Cricket League match, Devine manipulated an umpire by clicking his fingers to simulate a catch, unfairly dismissing a Norton CC batter. Consequently, the North Yorkshire and South Durham Cricket League has relegated Saltburn CC’s 2nd XI to Division Three, imposed a £300 fine, and mandated a 60-point deduction for the 2027 season. This disciplinary action underscores the governing body's commitment to maintaining integrity in grassroots sports, ensuring that deceptive conduct is met with severe professional repercussions to preserve the sport's foundational spirit and fairness."
+        "President Donald Trump has initiated executive action to designate the Oval Office and the Cabinet Room as national monuments, a move intended to preserve their historical aesthetics against future architectural modifications. By utilizing his executive authority, Trump seeks to codify the current interior design and structural integrity of these iconic West Wing spaces as permanent federal landmarks. While this designation imposes significant regulatory hurdles for future administrations attempting to renovate or redecorate these rooms, legal experts note that subsequent presidents retain the executive power to reverse or modify these protections. This unprecedented maneuver reflects a broader effort to cement his administration’s legacy by institutionalizing the physical environment of the presidency, effectively complicating the ability of successors to impose their own stylistic preferences."
       ],
       "why_it_matters_bullets": [
-        "The ruling sets a firm precedent for enforcing ethical standards and accountability in amateur sports through strict institutional sanctions."
+        "This action sets a precedent for using monument designations to constrain the executive autonomy of future presidential administrations."
       ],
-      "brief": "Amateur cricketer Brian Devine, infamously dubbed 'Clicky Ponting,' has received a two-year ban from all England and Wales Cricket Board activities following a viral cheating scandal. During a North Yorkshire and South Durham Cricket League match, Devine manipulated an umpire by clicking his fingers to simulate a catch, unfairly dismissing a Norton CC batter. Consequently, the North Yorkshire and South Durham Cricket League has relegated Saltburn CC’s 2nd XI to Division Three, imposed a £300 fine, and mandated a 60-point deduction for the 2027 season. This disciplinary action underscores the governing body's commitment to maintaining integrity in grassroots sports, ensuring that deceptive conduct is met with severe professional repercussions to preserve the sport's foundational spirit and fairness. The ruling sets a firm precedent for enforcing ethical standards and accountability in amateur sports through strict institutional sanctions.",
-      "brief_word_count": 136
+      "brief": "President Donald Trump has initiated executive action to designate the Oval Office and the Cabinet Room as national monuments, a move intended to preserve their historical aesthetics against future architectural modifications. By utilizing his executive authority, Trump seeks to codify the current interior design and structural integrity of these iconic West Wing spaces as permanent federal landmarks. While this designation imposes significant regulatory hurdles for future administrations attempting to renovate or redecorate these rooms, legal experts note that subsequent presidents retain the executive power to reverse or modify these protections. This unprecedented maneuver reflects a broader effort to cement his administration’s legacy by institutionalizing the physical environment of the presidency, effectively complicating the ability of successors to impose their own stylistic preferences. This action sets a precedent for using monument designations to constrain the executive autonomy of future presidential administrations.",
+      "brief_word_count": 140
     },
     {
-      "story_id": "story-12",
+      "story_id": "story-2a86c9734a9c",
+      "category": "Society",
+      "primary_headline": "Opinion | President JD Vance? More slogging through a sewer of odious politics. - The Washington Post",
+      "primary_source": {
+        "source_name": "Washington Post",
+        "headline": "Opinion | President JD Vance? More slogging through a sewer of odious politics. - The Washington Post",
+        "published_at": "Fri, 06 Nov 2026 18:38:45 GMT",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObE5neU50OUstM2JDMlVCdENySFJYWjlWdm15aUN3QnMtXzJkakdjcFhXemMyLXc3OXd6SG1kaElNQVdOeDEwdWRKeTBJVEs2anV6RlpERVZ4dUMyUUVXVmMzSDhfVEstSmpUdmlXSjAxUGNaVkxCSEJ1WTJmV01FVjRRbjZiNElZZm5qYmRNdTdEOU40Q3BiVDlSYlg5ZXR1VTRJZjRGcTdVQVNIYnBockhZSkp4ZmVFeWE4QzB6RQ?oc=5",
+        "content": "Opinion | President JD Vance? More slogging through a sewer of odious politics.&nbsp;&nbsp;The Washington Post"
+      },
+      "sources": [
+        {
+          "source_name": "Washington Post",
+          "headline": "Opinion | President JD Vance? More slogging through a sewer of odious politics. - The Washington Post",
+          "published_at": "Fri, 06 Nov 2026 18:38:45 GMT",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObE5neU50OUstM2JDMlVCdENySFJYWjlWdm15aUN3QnMtXzJkakdjcFhXemMyLXc3OXd6SG1kaElNQVdOeDEwdWRKeTBJVEs2anV6RlpERVZ4dUMyUUVXVmMzSDhfVEstSmpUdmlXSjAxUGNaVkxCSEJ1WTJmV01FVjRRbjZiNElZZm5qYmRNdTdEOU40Q3BiVDlSYlg5ZXR1VTRJZjRGcTdVQVNIYnBockhZSkp4ZmVFeWE4QzB6RQ?oc=5"
+        },
+        {
+          "source_name": "NYT",
+          "headline": "After These Midterms, JD Vance Is in a Bind",
+          "published_at": "Fri, 06 Nov 2026 17:04:21 +0000",
+          "url": "https://www.nytimes.com/2026/11/06/opinion/jd-vance-midterms.html"
+        },
+        {
+          "source_name": "Washington Post",
+          "headline": "Opinion | JD Vance’s stunning act of disloyalty - The Washington Post",
+          "published_at": "Fri, 06 Nov 2026 01:57:08 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZEd3bkNrZXU1VFduVWNIZlI1REFocVZTR2trZEFncE4yN003OVc3dW91UjMzNUdwejZSLXBNTlpZcFd0TVFtamY2RGVFT1BRcy1HMjlQbDRVbEVkcGN6MjFCTHNrTVd6d3owNnAyWmcyUHQ4M3dpcXpnd2l1UVpHbE9URlF0UHFxWDA3LTFYcEdFVnNiVFBRNmNnTjRVeUMtMjRRQ0ktNGFFZw?oc=5"
+        },
+        {
+          "source_name": "Washington Post",
+          "headline": "‘JD, habibi ... swear me in’: What El-Sayed’s quip to Vance means - The Washington Post",
+          "published_at": "Thu, 05 Nov 2026 23:40:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNzFwMGd5U1lQd1FGU3pnOXU1UUJaMVFxbUdoMzhscjBNUklKNUNiamtmVThvSEhlc1VWS0xkZWdpMWl0WnZvMjZ3RTlhRFBzQ29NVGxndnkyN2ZzcmJVT2JVZ0IxN2h4eTBlb2h1ek85aTVSLVFWWU1WcmI2OFU1RDhsdjJMam5GZk1VT3JTWEVnaGI5SzJNQkF6VTF3Y3RXdXktd01oc29ablRWWnpySnhxQk1xcW9kOW9nM2hVV3U?oc=5"
+        },
+        {
+          "source_name": "NPR",
+          "headline": "Fill in the blank in the quiz: Vance says they lost the midterms because of ____",
+          "published_at": "Fri, 06 Nov 2026 05:00:00 -0500",
+          "url": "https://www.npr.org/2026/11/06/g-s1-152045/news-quiz-midterms-vance-pope-kennedy-center"
+        }
+      ],
+      "source_count": 3,
+      "total_count": 5,
+      "combined_score": 3.0,
+      "brief_bullets": [
+        "The Washington Post has published critical commentary regarding Senator JD Vance’s political trajectory and his alignment with the Trump brand. These opinion pieces scrutinize Vance’s evolving loyalty and the broader implications of his potential ascent to the presidency, framing his political environment as increasingly contentious. By highlighting both his controversial associations and the shifting dynamics within the Republican party, the coverage underscores the challenges Vance faces in appealing to a broader electorate. As the political landscape remains polarized, these analyses suggest that Vance’s path forward involves navigating a complex web of public perception and internal party friction, ultimately questioning his ability to transcend the divisive rhetoric that currently defines his national profile and political identity."
+      ],
+      "why_it_matters_bullets": [
+        "Vance’s political viability remains tethered to the Trump brand, signaling continued volatility for future Republican electoral strategies."
+      ],
+      "brief": "The Washington Post has published critical commentary regarding Senator JD Vance’s political trajectory and his alignment with the Trump brand. These opinion pieces scrutinize Vance’s evolving loyalty and the broader implications of his potential ascent to the presidency, framing his political environment as increasingly contentious. By highlighting both his controversial associations and the shifting dynamics within the Republican party, the coverage underscores the challenges Vance faces in appealing to a broader electorate. As the political landscape remains polarized, these analyses suggest that Vance’s path forward involves navigating a complex web of public perception and internal party friction, ultimately questioning his ability to transcend the divisive rhetoric that currently defines his national profile and political identity. Vance’s political viability remains tethered to the Trump brand, signaling continued volatility for future Republican electoral strategies.",
+      "brief_word_count": 132
+    },
+    {
+      "story_id": "story-19b0277333cf",
       "category": "Society",
       "primary_headline": "CBSE announces date sheet for class 10 and 12 board examinations 2027",
       "primary_source": {
@@ -993,84 +995,81 @@
           "url": "https://indianexpress.com/article/education/cbse-class-10th-12th-exam-date-sheet-2027-out-check-detailed-schedule-subject-wise-timetable-10943794/"
         },
         {
-          "source_name": "Deccan Herald",
-          "headline": "CBSE announces schedule for Class 10, 12 board examinations 2027: Check important dates here",
-          "published_at": "Fri, 06 Nov 2026 13:52:13 +0000",
-          "url": "https://www.deccanherald.com/education/cbse-announces-schedule-for-class-10-12-board-examinations-2027-check-important-dates-here-4210318"
-        },
-        {
           "source_name": "The Indian Express",
           "headline": "CBSE Class 10, 12 Practical Exams Date Sheet 2027: Check schedule for regular schools",
           "published_at": "Fri, 06 Nov 2026 12:34:13 +0000",
           "url": "https://indianexpress.com/article/education/cbse-class-10-12-practical-exam-date-sheet-2027-marks-distribution-10953660/"
+        },
+        {
+          "source_name": "NDTV",
+          "headline": "When Is Diwali 2026? Check Date, Lakshmi Puja Muhurat And Significance",
+          "published_at": "Fri, 06 Nov 2026 16:20:12 +0530",
+          "url": "https://www.ndtv.com/offbeat/when-is-diwali-2026-check-date-lakshmi-puja-muhurat-and-significance-12292521#publisher=newsstand"
         }
       ],
       "source_count": 3,
-      "total_count": 9,
-      "combined_score": 4.2,
+      "total_count": 5,
+      "combined_score": 3.0,
       "brief_bullets": [
-        "The Central Board of Secondary Education has officially released the schedule for the 2027 Class 10 and Class 12 board examinations, ending weeks of anticipation. Announced on November 6, 2026, the offline pen-paper exams for both classes will commence simultaneously on February 16, 2027, with Class 10 concluding on March 9 and Class 12 wrapping up on April 9. Practical assessments are slated to begin on January 1, 2027. The board crafted the comprehensive timetable, factoring in over 40,000 subject combinations, to ensure adequate preparation intervals and to align seamlessly with major national entrance test schedules."
+        "The Central Board of Secondary Education has officially released the 2027 date sheet for Class 10 and 12 board examinations, confirming that testing will commence on February 16. The schedule covers 86 subjects for Class 10 and 121 for Class 12, with the board implementing a pen-and-paper format while factoring in 40,000 unique subject combinations. To optimize student performance, the CBSE strategically aligned the timeline with major entrance exam schedules and provided adequate gaps between core subjects. By finalizing these dates, the board aims to ensure a smooth administrative process while minimizing teacher absence during the evaluation phase, ultimately facilitating a structured academic transition for millions of students across the country."
       ],
       "why_it_matters_bullets": [
-        "The timely schedule allows millions of students to optimize preparation while avoiding conflicts with major entrance examinations."
+        "The synchronized schedule minimizes academic disruption and ensures students can effectively balance board requirements with competitive entrance exam preparations."
       ],
-      "brief": "The Central Board of Secondary Education has officially released the schedule for the 2027 Class 10 and Class 12 board examinations, ending weeks of anticipation. Announced on November 6, 2026, the offline pen-paper exams for both classes will commence simultaneously on February 16, 2027, with Class 10 concluding on March 9 and Class 12 wrapping up on April 9. Practical assessments are slated to begin on January 1, 2027. The board crafted the comprehensive timetable, factoring in over 40,000 subject combinations, to ensure adequate preparation intervals and to align seamlessly with major national entrance test schedules. The timely schedule allows millions of students to optimize preparation while avoiding conflicts with major entrance examinations.",
-      "brief_word_count": 113
+      "brief": "The Central Board of Secondary Education has officially released the 2027 date sheet for Class 10 and 12 board examinations, confirming that testing will commence on February 16. The schedule covers 86 subjects for Class 10 and 121 for Class 12, with the board implementing a pen-and-paper format while factoring in 40,000 unique subject combinations. To optimize student performance, the CBSE strategically aligned the timeline with major entrance exam schedules and provided adequate gaps between core subjects. By finalizing these dates, the board aims to ensure a smooth administrative process while minimizing teacher absence during the evaluation phase, ultimately facilitating a structured academic transition for millions of students across the country. The synchronized schedule minimizes academic disruption and ensures students can effectively balance board requirements with competitive entrance exam preparations.",
+      "brief_word_count": 130
     },
     {
-      "story_id": "story-17",
+      "story_id": "story-e12a94db2947",
       "category": "Society",
-      "primary_headline": "Karnataka Chief Minister meets Rahul Gandhi",
+      "primary_headline": "After midterm loss, Trump is left to weigh his next move in Iran war that contributed to GOP debacle",
       "primary_source": {
-        "source_name": "The Hindu",
-        "headline": "Karnataka Chief Minister meets Rahul Gandhi",
-        "published_at": "Fri, 06 Nov 2026 22:35:20 +0530",
-        "url": "https://www.thehindu.com/news/national/karnataka/karnataka-chief-minister-meets-rahul-gandhi/article71675352.ece",
-        "content": ""
+        "source_name": "AP News",
+        "headline": "After midterm loss, Trump is left to weigh his next move in Iran war that contributed to GOP debacle - AP News",
+        "published_at": "Thu, 05 Nov 2026 22:05:00 GMT",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMVdCMXZ3Y0NJQ3Y2ZG9YSHp3YW95Q2gtdm9QYTBjZDQzUGNvT2FHaDhuUnMxdXZXdlJrUzVrRW5RVXBzZExUTzhZT2JNSi1VWWVIWUw2RGpPS2pIcm4tUDJrMmRoQUpHVFRiY3p0c1pnazdEdUpDcThSbzV1NFNtbFF1ODhZczMtZkFYVTlwcjJEdw?oc=5",
+        "content": "After midterm loss, Trump is left to weigh his next move in Iran war that contributed to GOP debacle&nbsp;&nbsp;AP News"
       },
       "sources": [
         {
-          "source_name": "The Hindu",
-          "headline": "Karnataka Chief Minister meets Rahul Gandhi",
-          "published_at": "Fri, 06 Nov 2026 22:35:20 +0530",
-          "url": "https://www.thehindu.com/news/national/karnataka/karnataka-chief-minister-meets-rahul-gandhi/article71675352.ece"
+          "source_name": "AP News",
+          "headline": "After midterm loss, Trump is left to weigh his next move in Iran war that contributed to GOP debacle - AP News",
+          "published_at": "Thu, 05 Nov 2026 22:05:00 GMT",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMVdCMXZ3Y0NJQ3Y2ZG9YSHp3YW95Q2gtdm9QYTBjZDQzUGNvT2FHaDhuUnMxdXZXdlJrUzVrRW5RVXBzZExUTzhZT2JNSi1VWWVIWUw2RGpPS2pIcm4tUDJrMmRoQUpHVFRiY3p0c1pnazdEdUpDcThSbzV1NFNtbFF1ODhZczMtZkFYVTlwcjJEdw?oc=5"
         },
         {
-          "source_name": "Deccan Herald",
-          "headline": "Lalan Singh, Rahul Gandhi spar over voter ID for Panchayati Raj benefits",
-          "published_at": "Fri, 06 Nov 2026 16:47:46 +0000",
-          "url": "https://www.deccanherald.com/india/lalan-singh-rahul-gandhi-spar-over-voter-id-for-panchayati-raj-benefits-4210547"
+          "source_name": "Washington Post",
+          "headline": "The GOP needs to move on from Trump. That’s easier said than done. - The Washington Post",
+          "published_at": "Fri, 06 Nov 2026 17:32:42 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTUI0d3pkQkFsLW1jNUp4cTVvN0ZsRE1nR3RYTHF5ZWZnQlJLalA1XzQ1d2ktdlAwNV9pdnRDZ2NCelY3d1FwdjdpMGdFYVFUbDRkUEVyUkp0WGJiaE9XVEF3eFFwQmlOSmFpTE5HQi1kMHNZdWZTcE9DQmwya2FFNndQNFBBV2VSTHZjdGpyVHN0cGxMSUpYb2NBclhpY3JtRGc?oc=5"
         },
         {
-          "source_name": "Deccan Herald",
-          "headline": "Karnataka CM DK Shivakumar backs Rahul Gandhi’s ‘vote chori’ campaign, calls it ‘country’s campaign’",
-          "published_at": "Fri, 06 Nov 2026 16:30:51 +0000",
-          "url": "https://www.deccanherald.com/india/karnataka/karnataka-cm-dk-shivakumar-backs-rahul-gandhis-vote-chori-campaign-calls-it-countrys-campaign-4210545"
+          "source_name": "CNN",
+          "headline": "Trump to tape ‘60 Minutes’ interview after GOP midterm rout - CNN",
+          "published_at": "Fri, 06 Nov 2026 14:33:51 GMT",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbHdkYkUtZVZDeUpQRlBKMTFPMGZUamdTdUtSRGg0UHJOUFM4S0k3X3gzRmxMVUV2YTZOdHM2TGFac1RhSUd0U2JLZE5uWUs4TTgta2RVS2VGNVhub21jSXpvbFFBWnJOUy0yZGJMOFpYQ0hRcWZfR2JnQ0N0cWZvWTlnM3RfQzFJdGVpbTd3?oc=5"
         },
         {
-          "source_name": "NDTV",
-          "headline": "Schoolboy DK Shivakumar In BJP's AI Video Over Karnataka Milk, Bus Fare Hikes",
-          "published_at": "Fri, 06 Nov 2026 13:35:56 +0530",
-          "url": "https://www.ndtv.com/karnataka-news/schoolboy-dk-shivakumar-in-bjps-ai-video-over-karnataka-milk-bus-hikes-12291857#publisher=newsstand"
-        },
-        {
-          "source_name": "NDTV",
-          "headline": "Opinion: BJP Hunts For A Crack. Rahul Gandhi's Allies Could Be His Weak Spot",
-          "published_at": "Fri, 06 Nov 2026 12:08:41 +0530",
-          "url": "https://www.ndtv.com/opinion/bjp-hunts-for-a-crack-rahul-gandhis-allies-could-be-his-weak-spot-12291238#publisher=newsstand"
+          "source_name": "CNN",
+          "headline": "GOP Sen pushed out by Trump speaks about midterms \"shellacking\" - CNN",
+          "published_at": "Fri, 06 Nov 2026 02:32:29 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYWZvOENvZWQtOE52WktmV2ZieXI4b010TUpQR3hDLW5RbC1OU3R1V2Q2ZFAxM05UM3JKVXFOZDZSNFRKMFV0N2pmeWw4WUpqOE1lTUhBZF9tbUdtbkxaUUFxMHBaR1Z3ZWxubl94QzhBVVp3eDQ0Zm9sVjV2dEhfWE1XbGxEVW95UWpURDBmRWY2WHBuRnV2bjBTcjlsY3E1UWRDYWlRS3A1QmlPcHlEY1czdVVBR3dxbkZDZU0yb2draFRMRExSX1ln?oc=5"
         }
       ],
       "source_count": 3,
-      "total_count": 6,
-      "combined_score": 3.33,
+      "total_count": 4,
+      "combined_score": 2.73,
       "brief_bullets": [
-        "A political confrontation has erupted between the central government and the opposition following Union Minister Lalan Singh's announcement that welfare beneficiary identification under Panchayati Raj schemes will prioritize voter ID cards over Aadhaar. Leader of Opposition Rahul Gandhi strongly condemned the decision as a systemic conspiracy to manipulate elections and suppress citizen rights. In response, Lalan Singh dismissed the criticism, asserting that biometric verification and EPIC numbers ensure absolute transparency without middlemen. Meanwhile, Karnataka Chief Minister DK Shivakumar rallied behind Gandhi, framing the opposition's campaign as a national movement to safeguard India's democratic framework and constitutional integrity."
+        "AP News The GOP needs to move on from Trump.",
+        "That’s easier said than done.",
+        "The Washington Post Trump to tape ‘60 Minutes’ interview after GOP midterm rout CNN GOP Sen pushed out by Trump speaks about midterms \"shellacking\" CNN.",
+        "Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness."
       ],
       "why_it_matters_bullets": [
-        "The dispute over welfare identification mechanisms directly impacts national electoral trust and marginalized community rights."
+        "Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf."
       ],
-      "brief": "A political confrontation has erupted between the central government and the opposition following Union Minister Lalan Singh's announcement that welfare beneficiary identification under Panchayati Raj schemes will prioritize voter ID cards over Aadhaar. Leader of Opposition Rahul Gandhi strongly condemned the decision as a systemic conspiracy to manipulate elections and suppress citizen rights. In response, Lalan Singh dismissed the criticism, asserting that biometric verification and EPIC numbers ensure absolute transparency without middlemen. Meanwhile, Karnataka Chief Minister DK Shivakumar rallied behind Gandhi, framing the opposition's campaign as a national movement to safeguard India's democratic framework and constitutional integrity. The dispute over welfare identification mechanisms directly impacts national electoral trust and marginalized community rights.",
-      "brief_word_count": 112
+      "brief": "AP News The GOP needs to move on from Trump. That’s easier said than done. The Washington Post Trump to tape ‘60 Minutes’ interview after GOP midterm rout CNN GOP Sen pushed out by Trump speaks about midterms \"shellacking\" CNN. Diplomatic missions and international security analysts are closely evaluating the strategic consequences for cross-border alliance stability and defense preparedness. Directly heightens disruption risks for global maritime energy corridors and crude shipments through the Persian Gulf.",
+      "brief_word_count": 75
     }
   ]
 }

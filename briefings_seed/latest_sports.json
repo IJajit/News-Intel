@@ -1,60 +1,48 @@
 {
   "id": "latest",
   "category": "sports",
-  "timestamp": "2026-11-06T17:32:13.589848+00:00",
-  "articlesCount": 10,
+  "timestamp": "2026-11-06T18:50:06.899265+00:00",
+  "articlesCount": 12,
   "stories": [
     {
-      "story_id": "story-34",
+      "story_id": "story-c7dd25d02020",
       "category": "Sports",
-      "primary_headline": "Is Palmer's England career over under Tuchel?",
+      "primary_headline": "Player-coach rift report will only galvanise England - George",
       "primary_source": {
         "source_name": "BBC News",
-        "headline": "Is Palmer's England career over under Tuchel?",
-        "published_at": "Fri, 06 Nov 2026 16:30:03 GMT",
-        "url": "https://www.bbc.co.uk/sport/football/articles/c9e8ll62rp68o?at_medium=RSS&at_campaign=rss",
-        "content": "Cole Palmer faces a fight to save his England career after he was excluded from Thomas Tuchel's latest squad, says chief football writer Phil McNulty."
+        "headline": "Player-coach rift report will only galvanise England - George",
+        "published_at": "Fri, 06 Nov 2026 18:30:57 GMT",
+        "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmx2qqyz4p1po?at_medium=RSS&at_campaign=rss",
+        "content": "England hooker Jamie George says the squad are \"really upset\" by a newspaper article claiming the end of their summer tour was marked by player unrest over Steve Borthwick's leadership."
       },
       "sources": [
         {
           "source_name": "BBC News",
-          "headline": "Is Palmer's England career over under Tuchel?",
-          "published_at": "Fri, 06 Nov 2026 16:30:03 GMT",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c9e8ll62rp68o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source_name": "The Guardian",
-          "headline": "Jobe Bellingham joining Jude in England squad is ‘beautiful’, says Tuchel: football news – live",
-          "published_at": "Fri, 06 Nov 2026 17:21:45 GMT",
-          "url": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live"
+          "headline": "Player-coach rift report will only galvanise England - George",
+          "published_at": "Fri, 06 Nov 2026 18:30:57 GMT",
+          "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmx2qqyz4p1po?at_medium=RSS&at_campaign=rss"
         },
         {
           "source_name": "Sky Sports",
-          "headline": "Jobe joins brother Jude with England to showcase his own talent",
-          "published_at": "Fri, 06 Nov 2026 14:24:00 GMT",
-          "url": "https://www.skysports.com/football/news/12040/13608890/england-jobe-bellingham-has-the-chance-to-showcase-his-own-talent-alongside-brother-jude-in-thomas-tuchels-squad"
-        },
-        {
-          "source_name": "Sky Sports",
-          "headline": "Tuchel explains Palmer exclusion",
-          "published_at": "Fri, 06 Nov 2026 11:54:00 GMT",
-          "url": "https://www.skysports.com/football/news/12040/13608819/england-squad-thomas-tuchel-makes-statement-with-cole-palmer-exclusion-but-insists-its-not-personal"
+          "headline": "George: England players hurt by 'shocking' report of rift with Borthwick",
+          "published_at": "Fri, 06 Nov 2026 17:18:00 GMT",
+          "url": "https://www.skysports.com/rugby-union/news/12040/13608973/england-rugby-jamie-george-says-squad-hurt-by-article-that-reported-rift-with-steve-borthwick-this-summer"
         }
       ],
-      "source_count": 3,
-      "total_count": 4,
-      "combined_score": 2.7,
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.6,
       "brief_bullets": [
-        "Chelsea star Cole Palmer faces significant uncertainty regarding his international future following his exclusion from Thomas Tuchel’s latest England squad. Alongside notable omissions like Noni Madueke and Kobbie Mainoo, Palmer’s absence has sparked intense debate among pundits and fans, with many questioning whether the decision stems from tactical preferences or deeper underlying factors. As Tuchel prepares to address the media, the football community remains focused on whether this snub signals a permanent shift in the national team's hierarchy. This development marks a pivotal moment for the Three Lions, as the new management team begins to reshape the roster ahead of critical upcoming fixtures, potentially sidelining some of the Premier League's most productive young talents."
+        "England hooker Jamie George has publicly refuted recent media reports alleging a significant rift between the national squad and head coach Steve Borthwick following their summer tour. Expressing deep frustration, George described the claims as hurtful and criticized the timing of the publication, which surfaced just days before England’s high-stakes Nations Championship opener against Australia. While acknowledging the squad is upset by the narrative, George insisted that the controversy will ultimately serve to galvanize the team rather than fracture their unity. This public defense underscores the players' commitment to Borthwick’s leadership as they attempt to maintain focus during a critical international window, aiming to silence external speculation with a strong performance on the pitch this Sunday."
       ],
       "why_it_matters_bullets": [
-        "Tuchel’s selection choices signal a radical shift in England’s tactical identity, potentially sidelining elite creative talent permanently."
+        "The team's unified response is critical to maintaining internal stability and momentum ahead of a challenging autumn campaign."
       ],
-      "brief": "Chelsea star Cole Palmer faces significant uncertainty regarding his international future following his exclusion from Thomas Tuchel’s latest England squad. Alongside notable omissions like Noni Madueke and Kobbie Mainoo, Palmer’s absence has sparked intense debate among pundits and fans, with many questioning whether the decision stems from tactical preferences or deeper underlying factors. As Tuchel prepares to address the media, the football community remains focused on whether this snub signals a permanent shift in the national team's hierarchy. This development marks a pivotal moment for the Three Lions, as the new management team begins to reshape the roster ahead of critical upcoming fixtures, potentially sidelining some of the Premier League's most productive young talents. Tuchel’s selection choices signal a radical shift in England’s tactical identity, potentially sidelining elite creative talent permanently.",
-      "brief_word_count": 131
+      "brief": "England hooker Jamie George has publicly refuted recent media reports alleging a significant rift between the national squad and head coach Steve Borthwick following their summer tour. Expressing deep frustration, George described the claims as hurtful and criticized the timing of the publication, which surfaced just days before England’s high-stakes Nations Championship opener against Australia. While acknowledging the squad is upset by the narrative, George insisted that the controversy will ultimately serve to galvanize the team rather than fracture their unity. This public defense underscores the players' commitment to Borthwick’s leadership as they attempt to maintain focus during a critical international window, aiming to silence external speculation with a strong performance on the pitch this Sunday. The team's unified response is critical to maintaining internal stability and momentum ahead of a challenging autumn campaign.",
+      "brief_word_count": 134
     },
     {
-      "story_id": "story-93",
+      "story_id": "story-cec892b69fd0",
       "category": "Sports",
       "primary_headline": "Vaibhav Sooryavanshi named Bihar captain for Syed Mushtaq Ali Trophy",
       "primary_source": {
@@ -82,19 +70,90 @@
       "total_count": 2,
       "combined_score": 1.6,
       "brief_bullets": [
-        "Suraj Kashyap has been appointed vice-captain, the Bihar Cricket Association (BCA) announced on November 6 Vaibhav Sooryavanshi named Bihar captain for first two SMAT matches.",
-        "Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures.",
-        "Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum.",
-        "Team representatives have confirmed comprehensive preparation plans to maintain strategic advantages in subsequent championship phases."
+        "The Bihar Cricket Association has officially appointed teenage prodigy Vaibhav Sooryavanshi as captain for the opening two matches of the upcoming Syed Mushtaq Ali Trophy. This strategic leadership decision, announced on November 6, also designates Suraj Kashyap as the team's vice-captain. By entrusting the leadership role to such a young talent, the association signals a significant shift toward prioritizing emerging prospects within the state's competitive framework. This move reflects a broader organizational effort to cultivate future stars while testing their composure under the pressure of high-stakes domestic T20 cricket, setting a clear precedent for Bihar’s long-term development strategy in the national circuit."
       ],
       "why_it_matters_bullets": [
-        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
+        "Elevating a teenage captain signals a bold developmental pivot aimed at accelerating talent maturation within Bihar’s cricket infrastructure."
       ],
-      "brief": "Suraj Kashyap has been appointed vice-captain, the Bihar Cricket Association (BCA) announced on November 6 Vaibhav Sooryavanshi named Bihar captain for first two SMAT matches. Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures. Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum. Team representatives have confirmed comprehensive preparation plans to maintain strategic advantages in subsequent championship phases. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
-      "brief_word_count": 84
+      "brief": "The Bihar Cricket Association has officially appointed teenage prodigy Vaibhav Sooryavanshi as captain for the opening two matches of the upcoming Syed Mushtaq Ali Trophy. This strategic leadership decision, announced on November 6, also designates Suraj Kashyap as the team's vice-captain. By entrusting the leadership role to such a young talent, the association signals a significant shift toward prioritizing emerging prospects within the state's competitive framework. This move reflects a broader organizational effort to cultivate future stars while testing their composure under the pressure of high-stakes domestic T20 cricket, setting a clear precedent for Bihar’s long-term development strategy in the national circuit. Elevating a teenage captain signals a bold developmental pivot aimed at accelerating talent maturation within Bihar’s cricket infrastructure.",
+      "brief_word_count": 120
     },
     {
-      "story_id": "story-179",
+      "story_id": "story-235422624c79",
+      "category": "Sports",
+      "primary_headline": "Is Palmer's England career over under Tuchel?",
+      "primary_source": {
+        "source_name": "BBC News",
+        "headline": "Is Palmer's England career over under Tuchel?",
+        "published_at": "Fri, 06 Nov 2026 16:30:03 GMT",
+        "url": "https://www.bbc.co.uk/sport/football/articles/c9e8ll62rp68o?at_medium=RSS&at_campaign=rss",
+        "content": "Cole Palmer faces a fight to save his England career after he was excluded from Thomas Tuchel's latest squad, says chief football writer Phil McNulty."
+      },
+      "sources": [
+        {
+          "source_name": "BBC News",
+          "headline": "Is Palmer's England career over under Tuchel?",
+          "published_at": "Fri, 06 Nov 2026 16:30:03 GMT",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c9e8ll62rp68o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source_name": "Sky Sports",
+          "headline": "Tuchel explains Palmer exclusion",
+          "published_at": "Fri, 06 Nov 2026 11:54:00 GMT",
+          "url": "https://www.skysports.com/football/news/12040/13608819/england-squad-thomas-tuchel-makes-statement-with-cole-palmer-exclusion-but-insists-its-not-personal"
+        }
+      ],
+      "source_count": 2,
+      "total_count": 2,
+      "combined_score": 1.6,
+      "brief_bullets": [
+        "Chelsea star Cole Palmer faces significant uncertainty regarding his international future following his exclusion from Thomas Tuchel’s latest England squad. While Tuchel has publicly maintained that the decision is not personal, the omission serves as a definitive statement regarding his tactical preferences and squad selection criteria. Chief football writer Phil McNulty suggests this move signals a challenging road ahead for Palmer, who must now prove his value to the new management to regain his place. This high-profile snub highlights the ruthless competitive landscape under Tuchel’s leadership, forcing established talents to justify their roles amidst a broader restructuring of the national team’s identity and tactical framework as the squad prepares for upcoming international fixtures."
+      ],
+      "why_it_matters_bullets": [
+        "Tuchel’s decision signals a shift in England’s selection hierarchy, forcing elite players to adapt to his specific tactical vision."
+      ],
+      "brief": "Chelsea star Cole Palmer faces significant uncertainty regarding his international future following his exclusion from Thomas Tuchel’s latest England squad. While Tuchel has publicly maintained that the decision is not personal, the omission serves as a definitive statement regarding his tactical preferences and squad selection criteria. Chief football writer Phil McNulty suggests this move signals a challenging road ahead for Palmer, who must now prove his value to the new management to regain his place. This high-profile snub highlights the ruthless competitive landscape under Tuchel’s leadership, forcing established talents to justify their roles amidst a broader restructuring of the national team’s identity and tactical framework as the squad prepares for upcoming international fixtures. Tuchel’s decision signals a shift in England’s selection hierarchy, forcing elite players to adapt to his specific tactical vision.",
+      "brief_word_count": 132
+    },
+    {
+      "story_id": "story-81ae8a3ca2f0",
+      "category": "Sports",
+      "primary_headline": "Everton v Coventry City: Premier League – live",
+      "primary_source": {
+        "source_name": "The Guardian",
+        "headline": "Everton v Coventry City: Premier League – live",
+        "published_at": "Fri, 06 Nov 2026 18:30:48 GMT",
+        "url": "https://www.theguardian.com/football/live/2026/nov/06/everton-v-coventry-city-premier-league-live-updates",
+        "content": "⚽ Premier League updates from the 8pm GMT kick-off⚽ Today’s Football Daily | Live scores | Table | Mail ScottIf Everton win this match tonight, they go above Liverpool; if they win it big – five goals big – they leap over Chelsea into fourth spot. Things are going pretty well for David Moyes and his men, who are outperforming expectations that were set miserably low after an underwhelming transfer window. It’s one heck of a turnaround.But then Coventry City will be pretty pleased with their efforts so far too. After a cold start, they’ve won three of their last five matches, and while nine points and 16th place isn’t exactly the most comfortable state of affairs, there’s been more than enough promise in performances, so spirits remain high as the Sky Blues embark on their first top-flight campaign for a quarter of a century. Continue reading..."
+      },
+      "sources": [
+        {
+          "source_name": "The Guardian",
+          "headline": "Everton v Coventry City: Premier League – live",
+          "published_at": "Fri, 06 Nov 2026 18:30:48 GMT",
+          "url": "https://www.theguardian.com/football/live/2026/nov/06/everton-v-coventry-city-premier-league-live-updates"
+        },
+        {
+          "source_name": "The Guardian",
+          "headline": "Premier League: 10 things to look out for this weekend",
+          "published_at": "Fri, 06 Nov 2026 00:01:37 GMT",
+          "url": "https://www.theguardian.com/football/2026/nov/06/premier-league-10-things-to-look-out-for-this-weekend"
+        }
+      ],
+      "source_count": 1,
+      "total_count": 2,
+      "combined_score": 1.1,
+      "brief_bullets": [
+        "Everton faces Coventry City in a pivotal Premier League clash, with David Moyes’ side aiming to capitalize on an unexpected run of form that could propel them into the top four with a significant victory. Despite low preseason expectations following a quiet transfer window, the Toffees have outperformed their peers, positioning themselves to potentially leapfrog rivals Liverpool and Chelsea. Conversely, Coventry City enters the fixture seeking to build momentum after securing three wins in their last five matches. As the Sky Blues navigate their first top-flight campaign in twenty-five years, this match serves as a critical litmus test for both clubs as they strive to solidify their respective standings in an increasingly competitive league table."
+      ],
+      "why_it_matters_bullets": [
+        "This match highlights the volatility of early-season standings and the potential for mid-table clubs to disrupt elite hierarchies."
+      ],
+      "brief": "Everton faces Coventry City in a pivotal Premier League clash, with David Moyes’ side aiming to capitalize on an unexpected run of form that could propel them into the top four with a significant victory. Despite low preseason expectations following a quiet transfer window, the Toffees have outperformed their peers, positioning themselves to potentially leapfrog rivals Liverpool and Chelsea. Conversely, Coventry City enters the fixture seeking to build momentum after securing three wins in their last five matches. As the Sky Blues navigate their first top-flight campaign in twenty-five years, this match serves as a critical litmus test for both clubs as they strive to solidify their respective standings in an increasingly competitive league table. This match highlights the volatility of early-season standings and the potential for mid-table clubs to disrupt elite hierarchies.",
+      "brief_word_count": 133
+    },
+    {
+      "story_id": "story-7a3e5ac4f54a",
       "category": "Sports",
       "primary_headline": "Hamilton v Leclerc: how can Ferrari solve problem of two number one drivers?",
       "primary_source": {
@@ -102,7 +161,7 @@
         "headline": "Hamilton v Leclerc: how can Ferrari solve problem of two number one drivers?",
         "published_at": "Fri, 06 Nov 2026 17:08:05 GMT",
         "url": "https://www.theguardian.com/sport/2026/nov/06/hamilton-v-leclerc-how-can-ferrari-solve-problem-of-two-number-one-drivers",
-        "content": "The Scuderia are hopeful of being in the world championship mix next season but risk puncturing their chances if they can’t corral their men in the cockpitsGoing into this weekend’s São Paulo Grand Prix, all indications are that the status quo at Ferrari will no longer suffice for Lewis Hamilton if the Scuderia’s ambition to return their first drivers’ F1 championship since 2007 is to be taken seriously.This year’s drivers’ title is already decided with Kimi Antonelli triumphant at the last round in Mexico and Ferrari are already looking toward next season where they are hopeful of genuinely being in the mix against the Italian and Mercedes. Continue reading..."
+        "content": "The Scuderia are hopeful of being in the world championship mix next season but risk puncturing their chances if they can’t corral their men in the cockpitsGoing into this weekend’s São Paulo Grand Prix, all indications are that the status quo at Ferrari will no longer suffice for Lewis Hamilton if the Scuderia’s ambition to return their first drivers’ Formula One championship since 2007 is to be taken seriously.This year’s drivers’ title is already decided with Kimi Antonelli triumphant at the last round in Mexico and Ferrari are already looking towards next season where they are hopeful of genuinely being in the mix against the Italian and Mercedes. Continue reading..."
       },
       "sources": [
         {
@@ -116,16 +175,18 @@
       "total_count": 1,
       "combined_score": 0.83,
       "brief_bullets": [
-        "Ferrari faces a critical management challenge as it prepares to pair seven-time world champion Lewis Hamilton with incumbent star Charles Leclerc for the upcoming Formula One season. With the Scuderia aiming to secure their first drivers' championship since 2007, the team must navigate the delicate internal dynamics of two elite drivers competing for supremacy. The arrival of Hamilton, following his tenure at Mercedes, necessitates a robust strategic framework to prevent intra-team friction from undermining their competitive aspirations. Ferrari’s ability to effectively balance these high-profile egos will be the defining factor in whether they can successfully challenge for the title against emerging rivals in an increasingly tight field."
+        "The Scuderia are hopeful of being in the world championship mix next season but risk puncturing their chances if they can’t corral their men in the cockpitsGoing into this weekend’s São Paulo Grand Prix, all indications are that the status quo at Ferrari will no longer suffice for Lewis Hamilton if the Scuderia’s ambition to return their first drivers’ Formula One championship since 2007 is to be taken seriously.",
+        "This year’s drivers’ title is already decided with Kimi Antonelli triumphant at the last round in Mexico and Ferrari are already looking towards next season where they are hopeful of genuinely being in the mix against the Italian and Mercedes.",
+        "Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures."
       ],
       "why_it_matters_bullets": [
-        "Failure to manage this driver pairing risks internal instability that could derail Ferrari’s championship ambitions and long-term strategic goals."
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "brief": "Ferrari faces a critical management challenge as it prepares to pair seven-time world champion Lewis Hamilton with incumbent star Charles Leclerc for the upcoming Formula One season. With the Scuderia aiming to secure their first drivers' championship since 2007, the team must navigate the delicate internal dynamics of two elite drivers competing for supremacy. The arrival of Hamilton, following his tenure at Mercedes, necessitates a robust strategic framework to prevent intra-team friction from undermining their competitive aspirations. Ferrari’s ability to effectively balance these high-profile egos will be the defining factor in whether they can successfully challenge for the title against emerging rivals in an increasingly tight field. Failure to manage this driver pairing risks internal instability that could derail Ferrari’s championship ambitions and long-term strategic goals.",
-      "brief_word_count": 126
+      "brief": "The Scuderia are hopeful of being in the world championship mix next season but risk puncturing their chances if they can’t corral their men in the cockpitsGoing into this weekend’s São Paulo Grand Prix, all indications are that the status quo at Ferrari will no longer suffice for Lewis Hamilton if the Scuderia’s ambition to return their first drivers’ Formula One championship since 2007 is to be taken seriously. This year’s drivers’ title is already decided with Kimi Antonelli triumphant at the last round in Mexico and Ferrari are already looking towards next season where they are hopeful of genuinely being in the mix against the Italian and Mercedes. Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 138
     },
     {
-      "story_id": "story-202",
+      "story_id": "story-f0f5b023fa2a",
       "category": "Sports",
       "primary_headline": "Yaxel Lendeborg is the NBA’s most entertaining rookie – and he’s not holding back",
       "primary_source": {
@@ -147,50 +208,53 @@
       "total_count": 1,
       "combined_score": 0.83,
       "brief_bullets": [
-        "Golden State Warriors rookie Yaxel Lendeborg has rapidly emerged as the NBA’s most compelling personality, blending an unconventional background as a former competitive gamer with elite on-court production. After leading Michigan to a historic national title, the 24-year-old forward has transitioned seamlessly into the professional ranks, where his unfiltered demeanor and willingness to antagonize established superstars have captivated the league. As the Warriors navigate the twilight of their championship dynasty, Lendeborg’s arrival provides both a necessary infusion of youthful energy and a potential catalyst to maximize Stephen Curry’s remaining prime. His authentic, media-untrained approach stands in stark contrast to his peers, establishing him as an early frontrunner for Rookie of the Year and a vital cultural force."
+        "The Warriors’ freshman has spent his first weeks in the NBA antagonizing superstars, speaking his mind and emerging as one of the league’s most compelling personalitiesIf a screen-addled pickup basketball player teleported into the body of a high-level athlete, they might resemble Yaxel Lendeborg.",
+        "The most commonly cited fact about Lendeborg is that he used to spend 12 to 14 hours a day gaming, and didn’t debut on his high school basketball team until he was an upperclassman.",
+        "Professional athletes often have origin stories that resemble the superhero more than the mortal, but Lendeborg really was just like us at one point.",
+        "Lendeborg has also said that prior to entering the NBA, he didn’t really watch it, either."
       ],
       "why_it_matters_bullets": [
-        "Lendeborg’s emergence provides the Warriors with a critical bridge between their aging dynasty and a viable, high-impact future."
+        "Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector."
       ],
-      "brief": "Golden State Warriors rookie Yaxel Lendeborg has rapidly emerged as the NBA’s most compelling personality, blending an unconventional background as a former competitive gamer with elite on-court production. After leading Michigan to a historic national title, the 24-year-old forward has transitioned seamlessly into the professional ranks, where his unfiltered demeanor and willingness to antagonize established superstars have captivated the league. As the Warriors navigate the twilight of their championship dynasty, Lendeborg’s arrival provides both a necessary infusion of youthful energy and a potential catalyst to maximize Stephen Curry’s remaining prime. His authentic, media-untrained approach stands in stark contrast to his peers, establishing him as an early frontrunner for Rookie of the Year and a vital cultural force. Lendeborg’s emergence provides the Warriors with a critical bridge between their aging dynasty and a viable, high-impact future.",
-      "brief_word_count": 135
+      "brief": "The Warriors’ freshman has spent his first weeks in the NBA antagonizing superstars, speaking his mind and emerging as one of the league’s most compelling personalitiesIf a screen-addled pickup basketball player teleported into the body of a high-level athlete, they might resemble Yaxel Lendeborg. The most commonly cited fact about Lendeborg is that he used to spend 12 to 14 hours a day gaming, and didn’t debut on his high school basketball team until he was an upperclassman. Professional athletes often have origin stories that resemble the superhero more than the mortal, but Lendeborg really was just like us at one point. Lendeborg has also said that prior to entering the NBA, he didn’t really watch it, either. Accelerates competitive technological innovation, driving enterprise integration and regulatory review across the sector.",
+      "brief_word_count": 131
     },
     {
-      "story_id": "story-313",
+      "story_id": "story-da0845a546cd",
       "category": "Sports",
-      "primary_headline": "How Jayden Daniels turned protecting the football into his ‘superpower’ - The Washington Post",
+      "primary_headline": "‘Shukriya, Test cricket’: Mohammed Shami calls it a day from Tests",
       "primary_source": {
-        "source_name": "Washington Post",
-        "headline": "How Jayden Daniels turned protecting the football into his ‘superpower’ - The Washington Post",
-        "published_at": "Fri, 06 Nov 2026 16:32:10 GMT",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMGRTQkF3M0pGOWdsUExWaDhzZ1c2bEt5NlNMUDktOFNBRVlmOXA4YW84NEd6ZzRUc3J2Yl9wMndyZnpaWDQ5RVIyczdweVBWd1FhTFU5OTdwVk1ieTdNalhlcWVXa0FHTEpGYU1WZVlvdVZYb2oxWjA2eWdiZGhqQUNfdUJoYnZ5ZUZIaElMajAyQWRfaE1zaW91NWROX25TNlI5VWVBbUlodjU4VVA2OVZzN0JMdw?oc=5",
-        "content": "How Jayden Daniels turned protecting the football into his ‘superpower’&nbsp;&nbsp;The Washington Post"
+        "source_name": "The Indian Express",
+        "headline": "‘Shukriya, Test cricket’: Mohammed Shami calls it a day from Tests",
+        "published_at": "Fri, 06 Nov 2026 17:58:48 +0000",
+        "url": "https://indianexpress.com/article/sports/cricket/india-pacer-mohammed-shami-retires-from-test-cricket-10953939/",
+        "content": ""
       },
       "sources": [
         {
-          "source_name": "Washington Post",
-          "headline": "How Jayden Daniels turned protecting the football into his ‘superpower’ - The Washington Post",
-          "published_at": "Fri, 06 Nov 2026 16:32:10 GMT",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMGRTQkF3M0pGOWdsUExWaDhzZ1c2bEt5NlNMUDktOFNBRVlmOXA4YW84NEd6ZzRUc3J2Yl9wMndyZnpaWDQ5RVIyczdweVBWd1FhTFU5OTdwVk1ieTdNalhlcWVXa0FHTEpGYU1WZVlvdVZYb2oxWjA2eWdiZGhqQUNfdUJoYnZ5ZUZIaElMajAyQWRfaE1zaW91NWROX25TNlI5VWVBbUlodjU4VVA2OVZzN0JMdw?oc=5"
+          "source_name": "The Indian Express",
+          "headline": "‘Shukriya, Test cricket’: Mohammed Shami calls it a day from Tests",
+          "published_at": "Fri, 06 Nov 2026 17:58:48 +0000",
+          "url": "https://indianexpress.com/article/sports/cricket/india-pacer-mohammed-shami-retires-from-test-cricket-10953939/"
         }
       ],
       "source_count": 1,
       "total_count": 1,
       "combined_score": 0.8,
       "brief_bullets": [
-        "How Jayden Daniels turned protecting the football into his ‘superpower’ The Washington Post.",
+        "Developments regarding ‘shukriya, test cricket’: mohammed shami calls it a day from tests have prompted active evaluations across administrative, regulatory, and public sectors.",
         "Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures.",
         "Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum.",
         "Team representatives have confirmed comprehensive preparation plans to maintain strategic advantages in subsequent championship phases."
       ],
       "why_it_matters_bullets": [
-        "Carries notable operational, policy, and market consequences surrounding 'How Jayden Daniels turned protecting the football into his ‘superpower’'."
+        "Shapes tournament standings and competitive momentum ahead of upcoming qualifying fixtures."
       ],
-      "brief": "How Jayden Daniels turned protecting the football into his ‘superpower’ The Washington Post. Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures. Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum. Team representatives have confirmed comprehensive preparation plans to maintain strategic advantages in subsequent championship phases. Carries notable operational, policy, and market consequences surrounding 'How Jayden Daniels turned protecting the football into his ‘superpower’'.",
-      "brief_word_count": 77
+      "brief": "Developments regarding ‘shukriya, test cricket’: mohammed shami calls it a day from tests have prompted active evaluations across administrative, regulatory, and public sectors. Coaching personnel and tactical staff are recalibrating squad configurations to optimize competitive performance for upcoming fixtures. Sports analysts emphasize that the latest fixture result shifts tournament qualification probabilities and standings momentum. Team representatives have confirmed comprehensive preparation plans to maintain strategic advantages in subsequent championship phases. Shapes tournament standings and competitive momentum ahead of upcoming qualifying fixtures.",
+      "brief_word_count": 80
     },
     {
-      "story_id": "story-324",
+      "story_id": "story-bb6259305bed",
       "category": "Sports",
       "primary_headline": "'Rapid Ricky' qualifies for Grand Slam of Darts - live on Sky Sports",
       "primary_source": {
@@ -224,7 +288,7 @@
       "brief_word_count": 92
     },
     {
-      "story_id": "story-373",
+      "story_id": "story-e04ad6393667",
       "category": "Sports",
       "primary_headline": "Teen Girl Kidnapped For 500 Days Rescued After Playing Among Us To Alert Another Child",
       "primary_source": {
@@ -258,7 +322,7 @@
       "brief_word_count": 86
     },
     {
-      "story_id": "story-423",
+      "story_id": "story-593c36a8cd56",
       "category": "Sports",
       "primary_headline": "Sports quiz of the week: red cards, records, retirement and relegation",
       "primary_source": {
@@ -292,7 +356,7 @@
       "brief_word_count": 75
     },
     {
-      "story_id": "story-584",
+      "story_id": "story-0eeaa0181768",
       "category": "Sports",
       "primary_headline": "Man claims CIBIL score damage over credit card dues, bank ordered to pay Rs 60,000",
       "primary_source": {
@@ -326,7 +390,7 @@
       "brief_word_count": 86
     },
     {
-      "story_id": "story-679",
+      "story_id": "story-52c20cc76212",
       "category": "Sports",
       "primary_headline": "Sony revives the original Walkman headphones, adds USB-C",
       "primary_source": {
@@ -348,13 +412,13 @@
       "total_count": 1,
       "combined_score": 0.8,
       "brief_bullets": [
-        "Sony has officially revived its iconic MDR-3L2 headphones, originally launched in 1979 alongside the groundbreaking Walkman TPS-L2 cassette player. These retro-styled, lightweight on-ear headphones retain their signature adjustable gray headband and vibrant orange foam cushions while integrating modern functionality through a contemporary USB-C connection. By reintroducing this minimalist design, Sony is capitalizing on the growing consumer appetite for vintage aesthetics in an era currently dominated by bulky, noise-canceling headsets. This strategic move bridges the gap between analog nostalgia and modern hardware standards, appealing to both long-time enthusiasts and younger demographics seeking a distinct, portable audio experience that prioritizes simplicity over the heavy, feature-laden designs that define today’s competitive consumer electronics market."
+        "Sony has officially revived its iconic MDR-3-series headphones, originally launched in 1979 alongside the historic Walkman TPS-L2 cassette player, updating the retro design with modern USB-C connectivity. These ultra-lightweight, on-ear headphones feature the signature adjustable gray plastic headband, metal sliders, and bright orange circular cushions that contrast sharply with today's bulky, noise-isolating headsets. By blending vintage aesthetics with contemporary utility, Sony leverages growing consumer nostalgia to capture a niche segment of the modern audio market. This hardware revival underscores a broader industry trend where legacy tech giants monetize retro hardware appeal to bridge generational divides in consumer electronics."
       ],
       "why_it_matters_bullets": [
-        "Sony leverages brand heritage to capture the lucrative retro-tech market while diversifying its audio portfolio with minimalist hardware."
+        "Capitalizing on tech nostalgia allows legacy brands to drive hardware sales through powerful emotional connections."
       ],
-      "brief": "Sony has officially revived its iconic MDR-3L2 headphones, originally launched in 1979 alongside the groundbreaking Walkman TPS-L2 cassette player. These retro-styled, lightweight on-ear headphones retain their signature adjustable gray headband and vibrant orange foam cushions while integrating modern functionality through a contemporary USB-C connection. By reintroducing this minimalist design, Sony is capitalizing on the growing consumer appetite for vintage aesthetics in an era currently dominated by bulky, noise-canceling headsets. This strategic move bridges the gap between analog nostalgia and modern hardware standards, appealing to both long-time enthusiasts and younger demographics seeking a distinct, portable audio experience that prioritizes simplicity over the heavy, feature-laden designs that define today’s competitive consumer electronics market. Sony leverages brand heritage to capture the lucrative retro-tech market while diversifying its audio portfolio with minimalist hardware.",
-      "brief_word_count": 129
+      "brief": "Sony has officially revived its iconic MDR-3-series headphones, originally launched in 1979 alongside the historic Walkman TPS-L2 cassette player, updating the retro design with modern USB-C connectivity. These ultra-lightweight, on-ear headphones feature the signature adjustable gray plastic headband, metal sliders, and bright orange circular cushions that contrast sharply with today's bulky, noise-isolating headsets. By blending vintage aesthetics with contemporary utility, Sony leverages growing consumer nostalgia to capture a niche segment of the modern audio market. This hardware revival underscores a broader industry trend where legacy tech giants monetize retro hardware appeal to bridge generational divides in consumer electronics. Capitalizing on tech nostalgia allows legacy brands to drive hardware sales through powerful emotional connections.",
+      "brief_word_count": 113
     }
   ]
 }
