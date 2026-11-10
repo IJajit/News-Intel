@@ -35,7 +35,7 @@ class TestCronHourly(unittest.TestCase):
             self.assertTrue(res["success"])
             self.assertEqual(res["dispatchedCount"], 0)
             mock_send.assert_not_called()
-            mock_kv_set.assert_called_once()
+            self.assertTrue(mock_kv_set.called)
 
 if __name__ == '__main__':
     unittest.main()

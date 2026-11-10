@@ -1691,6 +1691,17 @@ def run_hourly_pipeline(grounded_time=None, send_push=True):
             "brief_word_count": cached.get("brief_word_count", 0)
         }
 
+    # 0. Global data (contains all 24h stories across all categories)
+    story_objects_global = [assemble_story_obj(s) for s in clusters_24h]
+    story_objects_global.sort(key=lambda s: (s.get("source_count", 1), s.get("combined_score", 0)), reverse=True)
+    global_data = {
+        "id": "latest",
+        "category": "global",
+        "timestamp": grounded_time,
+        "articlesCount": len(story_objects_global),
+        "stories": story_objects_global
+    }
+
     # 1. 1hour data
     story_objects_1h = [assemble_story_obj(s) for s in one_h_candidates]
     story_objects_1h.sort(key=lambda s: (s.get("source_count", 1), s.get("combined_score", 0)), reverse=True)
@@ -1741,6 +1752,7 @@ def run_hourly_pipeline(grounded_time=None, send_push=True):
             except Exception:
                 pass
 
+    save_briefing("global", global_data)
     save_briefing("1hour", one_hour_data)
     save_briefing("homepage", homepage_data)
     for c_name, c_data in cat_datasets.items():
@@ -1893,23 +1905,6 @@ class NewsBriefingHandler(http.server.SimpleHTTPRequestHandler):
                         print(f"Error reading global fallback: {e}")
 
             if data and isinstance(data, dict):
-                # Auto-refresh if data is older than 2 hours or if category is missing in KV
-                data_ts = data.get("timestamp")
-                data_dt = parse_iso(data_ts) if data_ts else None
-                is_stale = False
-                now_utc = datetime.now(timezone.utc)
-                if data_dt:
-                    if data_dt.tzinfo is None:
-                        data_dt = data_dt.replace(tzinfo=timezone.utc)
-                    if (now_utc - data_dt).total_seconds() > 7200: # 2 hours
-                        is_stale = True
-                else:
-                    is_stale = True
-
-                if is_stale:
-                    # Spawn non-blocking background refresh so subsequent hits and current users get fresh news
-                    threading.Thread(target=run_hourly_pipeline, kwargs={"send_push": False}, daemon=True).start()
-
                 # Ensure homepage, 1hour (latest), and individual categories are capped to top 20 most important stories,
                 # while 'global' ("All") retains all news articles across all categories
                 if category != 'global' and isinstance(data.get('stories'), list) and len(data['stories']) > 20:

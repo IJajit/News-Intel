@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Trigger live refresh on the backend across all feeds
       try {
         const refreshController = new AbortController();
-        const refreshTimeout = setTimeout(() => refreshController.abort(), 15000);
+        const refreshTimeout = setTimeout(() => refreshController.abort(), 60000);
         await fetch('/api/refresh-latest', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
